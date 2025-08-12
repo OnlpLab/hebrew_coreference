@@ -1,0 +1,471 @@
+# doc_id = htb:134_1
+# doc_range = 1-87
+# sent_id = 3265
+# text = השר שרון יוכל מעתה לחתום על חוזי בנייה בלי מכרז.
+1-2	השר	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	שר	שר	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	שרון	שרון	PROPN	PROPN	_	2	flat:name	_	_
+4	יוכל	יכול	AUX	AUX	Gender=Masc|Number=Sing|Person=2|Tense=Fut|VerbType=Mod	6	aux	_	_
+5	מעתה	מעתה	ADV	ADV	_	6	advmod	_	_
+6	לחתום	חתם	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	0	root	_	_
+7	על	על	ADP	ADP	_	8	case	_	_
+8	חוזי	חוזה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	6	obl	_	_
+9	בנייה	בנייה	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound:smixut	_	_
+10	בלי	בלי	ADP	ADP	_	11	case	_	_
+11	מכרז	מכרז	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:134_1
+# doc_range = 89-346
+# sent_id = 3266
+# text = השר שיכנע את חבריו לממשלה להסכים לרעיון, כשטען ש"במצבים חדשים צריך לחרוג מפתרונות ונהלים שגרתיים", או, במלים אחרות, המטרה מקדשת את האמצעים.
+1-2	השר	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	שר	שר	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	שיכנע	שכנע	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	את	את	ADP	ADP	Case=Acc	5	case	_	_
+5-7	חבריו	_	_	_	_	_	_	_	_
+5	חבר	חבר	NOUN	NOUN	Gender=Masc|Number=Plur	3	obj	_	_
+6	_של_	של	ADP	ADP	Case=Gen	7	case:gen	_	_
+7	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+8-10	לממשלה	_	_	_	_	_	_	_	_
+8	ל	ל	ADP	ADP	_	10	case	_	_
+9	ה_	ה	DET	DET	PronType=Art|Definite=Def	10	det	_	_
+10	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	5	nmod	_	_
+11	להסכים	הסכים	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+12-14	לרעיון	_	_	_	_	_	_	_	SpaceAfter=No
+12	ל	ל	ADP	ADP	_	14	case	_	_
+13	ה_	ה	DET	DET	PronType=Art|Definite=Def	14	det	_	_
+14	רעיון	רעיון	NOUN	NOUN	Gender=Masc|Number=Sing	11	obl	_	_
+15	,	,	PUNCT	PUNCT	_	17	punct	_	_
+16-17	כשטען	_	_	_	_	_	_	_	_
+16	כש	כש	SCONJ	SCONJ	Case=Tem	17	mark	_	_
+17	טען	טען	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	3	advcl	_	_
+18-21	ש"במצבים	_	_	_	_	_	_	_	_
+18	ש	ש	SCONJ	SCONJ	_	24	mark	_	_
+19	"	"	PUNCT	PUNCT	_	24	punct	_	_
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	מצבים	מצבים	NOUN	NOUN	Gender=Masc|Number=Plur	24	obl	_	_
+22	חדשים	חדש	ADJ	ADJ	Gender=Masc|Number=Plur	21	amod	_	_
+23	צריך	צריך	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	24	aux	_	_
+24	לחרוג	חרג	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	17	advcl	_	_
+25-26	מפתרונות	_	_	_	_	_	_	_	_
+25	מ	מ	ADP	ADP	_	26	case	_	_
+26	פתרונות	פתרון	NOUN	NOUN	Gender=Masc|Number=Plur	24	obl	_	_
+27-28	ונהלים	_	_	_	_	_	_	_	_
+27	ו	ו	CCONJ	CCONJ	_	28	cc	_	_
+28	נהלים	נוהל	NOUN	NOUN	Gender=Masc|Number=Plur	26	conj	_	_
+29	שגרתיים	שגרתי	ADJ	ADJ	Gender=Masc|Number=Plur	26	amod	_	SpaceAfter=No
+30	"	"	PUNCT	PUNCT	_	24	punct	_	SpaceAfter=No
+31	,	,	PUNCT	PUNCT	_	32	punct	_	_
+32	או	או	CCONJ	CCONJ	_	40	cc	_	SpaceAfter=No
+33	,	,	PUNCT	PUNCT	_	32	punct	_	_
+34-35	במלים	_	_	_	_	_	_	_	_
+34	ב	ב	ADP	ADP	_	35	case	_	_
+35	מלים	מילה	NOUN	NOUN	Gender=Fem|Number=Plur	40	obl	_	_
+36	אחרות	אחר	ADJ	ADJ	Gender=Fem|Number=Plur	35	amod	_	SpaceAfter=No
+37	,	,	PUNCT	PUNCT	_	35	punct	_	_
+38-39	המטרה	_	_	_	_	_	_	_	_
+38	ה	ה	DET	DET	Definite=Def|PronType=Art	39	det	_	_
+39	מטרה	מטרה	NOUN	NOUN	Gender=Fem|Number=Sing	40	nsubj	_	_
+40	מקדשת	קידש	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	23	conj	_	_
+41	את	את	ADP	ADP	Case=Acc	43	case	_	_
+42-43	האמצעים	_	_	_	_	_	_	_	SpaceAfter=No
+42	ה	ה	DET	DET	Definite=Def|PronType=Art	43	det	_	_
+43	אמצעים	אמצעי	NOUN	NOUN	Gender=Masc|Number=Plur	40	obj	_	_
+44	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:134_1
+# doc_range = 348-428
+# sent_id = 3267
+# text = שרון שיכנע אולי את חבריו בממשלה, אך לא אותי.
+1	שרון	שרון	PROPN	PROPN	_	2	nsubj	_	_
+2	שיכנע	שכנע	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	אולי	אולי	ADV	ADV	_	2	advmod	_	_
+4	את	את	ADP	ADP	Case=Acc	5	case	_	_
+5-7	חבריו	_	_	_	_	_	_	_	_
+5	חבר	חבר	NOUN	NOUN	Gender=Masc|Number=Plur	2	obj	_	_
+6	_של_	של	ADP	ADP	Case=Gen	7	case:gen	_	_
+7	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+8-10	בממשלה	_	_	_	_	_	_	_	SpaceAfter=No
+8	ב	ב	ADP	ADP	_	10	case	_	_
+9	ה_	ה	DET	DET	PronType=Art|Definite=Def	10	det	_	_
+10	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	5	nmod	_	_
+11	,	,	PUNCT	PUNCT	_	15	punct	_	_
+12	אך	אך	CCONJ	CCONJ	_	15	cc	_	_
+13	לא	לא	DET	DET	Polarity=Neg	15	det	_	_
+14-15	אותי	_	_	_	_	_	_	_	SpaceAfter=No
+14	את	את	ADP	ADP	Case=Acc	15	case	_	_
+15	_אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	5	conj	_	_
+16	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:134_1
+# doc_range = 430-492
+# sent_id = 3268
+# text = מאז ה6.6.82 סיגלתי לעצמי מנהג קבוע.
+1-2	מאז	_	_	_	_	_	_	_	_
+1	מ	מ	ADP	ADP	_	4	case	_	_
+2	אז	אז	ADV	ADV	_	1	fixed	_	_
+3-8	ה6.6.82	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	6	6	NUM	NUM	_	9	obl	_	_
+5	.	.	PUNCT	PUNCT	_	6	punct	_	_
+6	6	6	NUM	NUM	_	4	nmod:tmod	_	_
+7	.	.	PUNCT	PUNCT	_	8	punct	_	_
+8	82	82	NUM	NUM	_	4	nmod:tmod	_	_
+9	סיגלתי	סיגל	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	_
+10-11	לעצמי	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	11	case	_	_
+11	עצמי	עצמו	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	9	obl	_	_
+12	מנהג	מנהג	NOUN	NOUN	Gender=Masc|Number=Sing	9	obj	_	_
+13	קבוע	קבוע	ADJ	ADJ	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:134_1
+# doc_range = 495-631
+# sent_id = 3269
+# text = בכל פעם ששרון טוען שצריך סדר חדש, אני מעמידה כנגד טענתו שש מאות סימני שאלה.
+1-2	בכל	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	כל	כול	DET	DET	Definite=Cons	3	det	_	_
+3	פעם	פעם	NOUN	NOUN	Gender=Fem|Number=Sing	13	obl	_	_
+4-5	ששרון	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	6	mark	_	_
+5	שרון	שרון	PROPN	PROPN	_	6	nsubj	_	_
+6	טוען	טען	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	3	acl:relcl	_	_
+7-8	שצריך	_	_	_	_	_	_	_	_
+7	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
+8	צריך	צריך	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	6	advcl	_	_
+9	סדר	סדר	NOUN	NOUN	Gender=Masc|Number=Sing	8	obj	_	_
+10	חדש	חדש	ADJ	ADJ	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	3	punct	_	_
+12	אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+13	מעמידה	העמיד	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+14	כנגד	כנגד	ADP	ADP	_	15	case	_	_
+15-17	טענתו	_	_	_	_	_	_	_	_
+15	טענה	טענה	NOUN	NOUN	Gender=Fem|Number=Sing	13	obl	_	_
+16	_של_	של	ADP	ADP	Case=Gen	17	case:gen	_	_
+17	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+18	שש	שש	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	19	nummod	_	_
+19	מאות	מאה	NUM	NUM	Gender=Fem|Number=Plur	20	nummod	_	_
+20	סימני	סימן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	13	obj	_	_
+21	שאלה	שאלה	NOUN	NOUN	Gender=Fem|Number=Sing	20	compound:smixut	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# doc_id = htb:134_1
+# doc_range = 633-945
+# sent_id = 3270
+# text = ירושלים לכולם היתה רוצה ממשלתנו לספק פתרונות דיור הולמים: למיליון עולים חדשים, לזוגות צעירים, ליוצאי צה"ל, לחסרי דיור ועוד זאת גם כשמדובר בגיוס משאבים עצומים בארץ ובחו"ל.
+1	ירושלים	ירושלים	PROPN	PROPN	_	5	dep	_	_
+2-3	לכולם	_	_	_	_	_	_	_	_
+2	ל	ל	ADP	ADP	_	3	case	_	_
+3	כולם	כולם	NOUN	NOUN	Gender=Masc|Number=Plur	5	obl	_	_
+4	היתה	היה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	5	cop	_	_
+5	רוצה	רצה	VERB	VERB	Aspect=Prog|Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6-8	ממשלתנו	_	_	_	_	_	_	_	_
+6	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	5	nsubj	_	_
+7	_של_	של	ADP	ADP	Case=Gen	8	case:gen	_	_
+8	_אנחנו	הוא	PRON	PRON	Definite=Def|Gender=Fem,Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+9	לספק	סיפק	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+10	פתרונות	פתרון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	9	obj	_	_
+11	דיור	דיור	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
+12	הולמים	הולם	ADJ	ADJ	Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
+13	:	:	PUNCT	PUNCT	_	16	punct	_	_
+14-15	למיליון	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	16	case	_	_
+15	מיליון	מיליון	NUM	NUM	Gender=Masc|Number=Plur	16	nummod	_	_
+16	עולים	עולה	NOUN	NOUN	Gender=Masc|Number=Plur	5	obl	_	_
+17	חדשים	חדש	ADJ	ADJ	Gender=Masc|Number=Plur	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	20	punct	_	_
+19-20	לזוגות	_	_	_	_	_	_	_	_
+19	ל	ל	ADP	ADP	_	20	case	_	_
+20	זוגות	זוג	NOUN	NOUN	Gender=Masc|Number=Plur	16	conj	_	_
+21	צעירים	צעיר	ADJ	ADJ	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	PUNCT	_	24	punct	_	_
+23-24	ליוצאי	_	_	_	_	_	_	_	_
+23	ל	ל	ADP	ADP	_	24	case	_	_
+24	יוצאי	יוצא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	16	conj	_	_
+25	צה"ל	צה"ל	PROPN	PROPN	Abbr=Yes	24	compound:smixut	_	SpaceAfter=No
+26	,	,	PUNCT	PUNCT	_	28	punct	_	_
+27-28	לחסרי	_	_	_	_	_	_	_	_
+27	ל	ל	ADP	ADP	_	28	case	_	_
+28	חסרי	חסר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	16	conj	_	_
+29	דיור	דיור	NOUN	NOUN	Gender=Masc|Number=Sing	28	compound:smixut	_	_
+30-31	ועוד	_	_	_	_	_	_	_	_
+30	ו	ו	CCONJ	CCONJ	_	31	cc	_	_
+31	עוד	עוד	ADV	ADV	_	16	conj	_	_
+32	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	5	dep	_	HebSource=ConvUncertainHead
+33	גם	גם	ADV	ADV	_	35	advmod	_	_
+34-35	כשמדובר	_	_	_	_	_	_	_	_
+34	כש	כש	SCONJ	SCONJ	Case=Tem	35	mark	_	_
+35	מדובר	דובר	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	32	ccomp	_	_
+36-37	בגיוס	_	_	_	_	_	_	_	_
+36	ב	ב	ADP	ADP	_	37	case	_	_
+37	גיוס	גיוס	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	35	obl	_	_
+38	משאבים	משאב	NOUN	NOUN	Gender=Masc|Number=Plur	37	compound:smixut	_	_
+39	עצומים	עצום	ADJ	ADJ	Gender=Masc|Number=Plur	38	amod	_	_
+40-42	בארץ	_	_	_	_	_	_	_	_
+40	ב	ב	ADP	ADP	_	42	case	_	_
+41	ה_	ה	DET	DET	PronType=Art|Definite=Def	42	det	_	_
+42	ארץ	ארץ	NOUN	NOUN	Gender=Fem|Number=Sing	37	nmod	_	_
+43-45	ובחו"ל	_	_	_	_	_	_	_	SpaceAfter=No
+43	ו	ו	CCONJ	CCONJ	_	45	cc	_	_
+44	ב	ב	ADP	ADP	_	45	case	_	_
+45	חו"ל	חו"ל	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	42	conj	_	_
+46	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:134_1
+# doc_range = 947-1158
+# sent_id = 3271
+# text = מנגד, אין הממשלה נוקפת אצבע לפתרון בעייתם של ילדים השוהים בבתי חולים לחולי נפש, כשאין זה מקומם על-פי אבחנה רפואית.
+1-2	מנגד	_	_	_	_	_	_	_	SpaceAfter=No
+1	מ	מ	ADP	ADP	_	2	case	_	_
+2	נגד	נגד	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
+4	אין	אין	ADV	ADV	Polarity=Neg	7	advmod	_	_
+5-6	הממשלה	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	7	nsubj	_	_
+7	נוקפת	נקף	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+8	אצבע	אצבע	NOUN	NOUN	Gender=Fem|Number=Sing	7	obj	_	_
+9-10	לפתרון	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	10	case	_	_
+10	פתרון	פתרון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	obl	_	_
+11-13	בעייתם	_	_	_	_	_	_	_	_
+11	בעיה	בעיה	NOUN	NOUN	Gender=Fem|Number=Sing	10	compound:smixut	_	_
+12	_של_	של	ADP	ADP	Case=Gen	13	case:gen	_	_
+13	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+14	של	של	ADP	ADP	Case=Gen	15	case	_	_
+15	ילדים	ילד	NOUN	NOUN	Gender=Masc|Number=Plur	10	nmod:poss	_	_
+16-17	השוהים	_	_	_	_	_	_	_	_
+16	ה	ה	SCONJ	SCONJ	_	17	mark	_	_
+17	שוהים	שהה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	15	acl:relcl	_	_
+18-19	בבתי	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	19	case	_	_
+19	בתי	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	17	obl	_	_
+20	חולים	חלה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	19	compound:smixut	_	_
+21-22	לחולי	_	_	_	_	_	_	_	_
+21	ל	ל	ADP	ADP	_	22	case	_	_
+22	חולי	חולי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	19	nmod	_	_
+23	נפש	נפש	NOUN	NOUN	Gender=Fem|Number=Sing	22	compound:smixut	_	SpaceAfter=No
+24	,	,	PUNCT	PUNCT	_	28	punct	_	_
+25-26	כשאין	_	_	_	_	_	_	_	_
+25	כש	כש	SCONJ	SCONJ	Case=Tem	28	mark	_	_
+26	אין	אין	ADV	ADV	Polarity=Neg	28	advmod	_	_
+27	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	28	nsubj	_	_
+28	מקומם	קומם	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	7	advcl	_	_
+29	על	על	ADP	ADP	_	32	case	_	SpaceAfter=No
+30	-	-	PUNCT	PUNCT	_	31	punct	_	SpaceAfter=No
+31	פי	פה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	29	fixed	_	_
+32	אבחנה	אבחנה	NOUN	NOUN	Gender=Fem|Number=Sing	28	obl	_	_
+33	רפואית	רפואי	ADJ	ADJ	Gender=Fem|Number=Sing	32	amod	_	SpaceAfter=No
+34	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:134_1
+# doc_range = 1160-1254
+# sent_id = 3272
+# text = זאת אף שנראה כי את התקציב לפתרון בעיה זו ניתן להשיג.
+1	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	0	root	_	_
+2	אף	אף	SCONJ	SCONJ	_	4	mark	_	_
+3-4	שנראה	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	2	fixed	_	_
+4	נראה	נראה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	1	advcl	_	_
+5	כי	כי	SCONJ	SCONJ	_	14	mark	_	_
+6	את	את	ADP	ADP	Case=Acc	8	case	_	_
+7-8	התקציב	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	תקציב	תקציב	NOUN	NOUN	Gender=Masc|Number=Sing	14	obj	_	_
+9-10	לפתרון	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	10	case	_	_
+10	פתרון	פתרון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	14	obl	_	_
+11	בעיה	בעיה	NOUN	NOUN	Gender=Fem|Number=Sing	10	compound:smixut	_	_
+12	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	11	det	_	_
+13	ניתן	ניתן	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	14	aux	_	_
+14	להשיג	השיג	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	4	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:134_1
+# doc_range = 1256-1495
+# sent_id = 3273
+# text = הותרתם של ילדים מוכי גורל בבתי חולים לחולי נפש אינה נופלת בחומרתה מהפנייתם, למשל, של עולים חדשים לבתי כלא עד שיימצא להם סידור הולם.
+1-3	הותרתם	_	_	_	_	_	_	_	_
+1	הותרה	הותרה	NOUN	NOUN	Gender=Fem|Number=Sing	15	nsubj	_	_
+2	_של_	של	ADP	ADP	Case=Gen	3	case:gen	_	_
+3	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	1	nmod:poss	_	_
+4	של	של	ADP	ADP	Case=Gen	5	case	_	_
+5	ילדים	ילד	NOUN	NOUN	Gender=Masc|Number=Plur	1	nmod:poss	_	_
+6	מוכי	מוכה	ADJ	ADJ	Definite=Cons|Gender=Masc|Number=Plur	5	amod	_	_
+7	גורל	גורל	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+8-9	בבתי	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	בתי	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	1	nmod	_	_
+10	חולים	חלה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	9	compound:smixut	_	_
+11-12	לחולי	_	_	_	_	_	_	_	_
+11	ל	ל	ADP	ADP	_	12	case	_	_
+12	חולי	חולי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	9	nmod	_	_
+13	נפש	נפש	NOUN	NOUN	Gender=Fem|Number=Sing	12	compound:smixut	_	_
+14	אינה	אינו	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	15	aux	_	_
+15	נופלת	נפל	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+16-19	בחומרתה	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	חומרה	חומרה	NOUN	NOUN	Gender=Fem|Number=Sing	15	obl	_	_
+18	_של_	של	ADP	ADP	Case=Gen	19	case:gen	_	_
+19	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+20-23	מהפנייתם	_	_	_	_	_	_	_	SpaceAfter=No
+20	מ	מ	ADP	ADP	_	21	case	_	_
+21	הפניה	הפניה	NOUN	NOUN	Gender=Fem|Number=Sing	15	obl	_	_
+22	_של_	של	ADP	ADP	Case=Gen	23	case:gen	_	_
+23	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+24	,	,	PUNCT	PUNCT	_	25	punct	_	_
+25	למשל	למשל	CCONJ	CCONJ	_	21	dep	_	SpaceAfter=No
+26	,	,	PUNCT	PUNCT	_	27	punct	_	_
+27	של	של	ADP	ADP	Case=Gen	21	dep	_	_
+28	עולים	עולה	NOUN	NOUN	Gender=Masc|Number=Plur	21	dep	_	HebSource=ConvUncertainHead
+29	חדשים	חדש	ADJ	ADJ	Gender=Masc|Number=Plur	28	amod	_	_
+30-31	לבתי	_	_	_	_	_	_	_	_
+30	ל	ל	ADP	ADP	_	31	case	_	_
+31	בתי	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	21	nmod	_	_
+32	כלא	כלא	NOUN	NOUN	Gender=Masc|Number=Sing	31	compound:smixut	_	_
+33	עד	עד	ADP	ADP	_	35	mark	_	_
+34-35	שיימצא	_	_	_	_	_	_	_	_
+34	ש	ש	SCONJ	SCONJ	_	33	fixed	_	_
+35	יימצא	נמצא	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Fut|Voice=Mid	21	advcl	_	_
+36-37	להם	_	_	_	_	_	_	_	_
+36	ל	ל	ADP	ADP	_	37	case	_	_
+37	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	35	obl	_	_
+38	סידור	סידור	NOUN	NOUN	Gender=Masc|Number=Sing	35	nsubj	_	_
+39	הולם	הולם	ADJ	ADJ	Gender=Masc|Number=Sing	38	amod	_	SpaceAfter=No
+40	.	.	PUNCT	PUNCT	_	15	punct	_	_
+
+# doc_id = htb:134_1
+# doc_range = 1498-1663
+# sent_id = 3274
+# text = ממשלת ישראל אינה נזקקת למאמץ מיוחד על מנת להשכיח ילדים אלה, ולהשאיר אותם במוסדות פסיכיאטריים.
+1	ממשלת	ממשלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	ישראל	ישראל	PROPN	PROPN	_	1	compound:smixut	_	_
+3	אינה	אינו	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	4	aux	_	_
+4	נזקקת	נזקק	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	0	root	_	_
+5-6	למאמץ	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	מאמץ	מאמץ	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+7	מיוחד	מיוחד	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	_
+8	על	על	ADP	ADP	_	10	case	_	_
+9	מנת	מנה	ADP	ADP	_	8	fixed	_	_
+10	להשכיח	השכיח	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	4	advcl	_	_
+11	ילדים	ילד	NOUN	NOUN	Gender=Masc|Number=Plur	10	obj	_	_
+12	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	11	det	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	15	punct	_	_
+14-15	ולהשאיר	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+15	להשאיר	השאיר	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	10	conj	_	_
+16-17	אותם	_	_	_	_	_	_	_	_
+16	את	את	ADP	ADP	Case=Acc	17	case	_	_
+17	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	obj	_	_
+18-19	במוסדות	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	19	case	_	_
+19	מוסדות	מוסד	NOUN	NOUN	Gender=Masc|Number=Plur	15	obl	_	_
+20	פסיכיאטריים	פסיכיאטרי	ADJ	ADJ	_	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:134_1
+# doc_range = 1665-1721
+# sent_id = 3275
+# text = קולם של הילדים הללו איננו נשמע.
+1-3	קולם	_	_	_	_	_	_	_	_
+1	קול	קול	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj	_	_
+2	_של_	של	ADP	ADP	Case=Gen	3	case:gen	_	_
+3	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	1	nmod:poss	_	_
+4	של	של	ADP	ADP	Case=Gen	6	case	_	_
+5-6	הילדים	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	ילדים	ילד	NOUN	NOUN	Gender=Masc|Number=Plur	1	nmod:poss	_	_
+7	הללו	הללו	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	6	det	_	_
+8	איננו	איננו	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	9	aux	_	_
+9	נשמע	נשמע	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:134_1
+# doc_range = 1723-1774
+# sent_id = 3276
+# text = אין להם יחסי ציבור או עמותה.
+1	אין	אין	VERB	VERB	HebExistential=Yes	0	root	_	_
+2-3	להם	_	_	_	_	_	_	_	_
+2	ל	ל	ADP	ADP	_	3	case	_	_
+3	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	obl	_	_
+4	יחסי	יחסים	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	1	nsubj	_	_
+5	ציבור	ציבור	NOUN	NOUN	Gender=Masc|Number=Sing	4	compound:smixut	_	_
+6	או	או	CCONJ	CCONJ	_	7	cc	_	_
+7	עמותה	עמותה	NOUN	NOUN	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:134_1
+# doc_range = 1776-1966
+# sent_id = 3277
+# text = אם לביטוי עניי עירך קודמים יש עוד משמעות בסולם הערכים הלאומי שלנו, הרי ילדים אלה הם עניי עירנו האמיתיים.
+1	אם	אם	SCONJ	SCONJ	_	10	mark	_	_
+2-4	לביטוי	_	_	_	_	_	_	_	_
+2	ל	ל	ADP	ADP	_	4	case	_	_
+3	ה_	ה	DET	DET	PronType=Art|Definite=Def	4	det	_	_
+4	ביטוי	ביטוי	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
+5	עניי	עני	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	9	nsubj	_	_
+6-8	עירך	_	_	_	_	_	_	_	_
+6	עיר	עיר	NOUN	NOUN	Gender=Fem|Number=Sing	5	compound:smixut	_	_
+7	_של_	של	ADP	ADP	Case=Gen	8	case:gen	_	_
+8	_אתה	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+9	קודמים	קדם	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	4	acl:relcl	_	_
+10	יש	יש	VERB	VERB	HebExistential=Yes	26	advcl	_	_
+11	עוד	עוד	ADV	ADV	_	10	advmod	_	_
+12	משמעות	משמעות	NOUN	NOUN	Gender=Fem|Number=Sing	10	nsubj	_	_
+13-14	בסולם	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	סולם	סולם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	nmod	_	_
+15-16	הערכים	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	ערכים	ערך	NOUN	NOUN	Gender=Masc|Number=Plur	14	compound:smixut	_	_
+17-18	הלאומי	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	לאומי	לאומי	ADJ	ADJ	Gender=Masc|Number=Sing	14	amod	_	_
+19-20	שלנו	_	_	_	_	_	_	_	SpaceAfter=No
+19	של	של	ADP	ADP	Case=Gen	20	case	_	_
+20	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	14	nmod	_	_
+21	,	,	PUNCT	PUNCT	_	10	punct	_	_
+22	הרי	הרי	ADV	ADV	_	26	advmod	_	_
+23	ילדים	ילד	NOUN	NOUN	Gender=Masc|Number=Plur	26	nsubj	_	_
+24	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	23	det	_	_
+25	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|Polarity=Pos	26	cop	_	_
+26	עניי	עני	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	0	root	_	_
+27-29	עירנו	_	_	_	_	_	_	_	_
+27	עיר	עיר	NOUN	NOUN	Gender=Fem|Number=Sing	26	compound:smixut	_	_
+28	_של_	של	ADP	ADP	Case=Gen	29	case:gen	_	_
+29	_אנחנו	הוא	PRON	PRON	Definite=Def|Gender=Fem,Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+30-31	האמיתיים	_	_	_	_	_	_	_	SpaceAfter=No
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	אמיתיים	אמיתי	ADJ	ADJ	Gender=Masc|Number=Plur	26	amod	_	_
+32	.	.	PUNCT	PUNCT	_	26	punct	_	_
+
+# doc_id = htb:134_1
+# doc_range = 1968-2079
+# sent_id = 3278
+# text = חובת הממשלה לסלק לאלתר את חרפתם ולבנות עבורם מוסדות מתאימים.
+1	חובת	חובה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	nsubj	_	_
+2-3	הממשלה	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+4	לסלק	סילק	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	0	root	_	_
+5	לאלתר	לאלתר	ADV	ADV	_	4	advmod	_	_
+6	את	את	ADP	ADP	Case=Acc	7	case	_	_
+7-9	חרפתם	_	_	_	_	_	_	_	_
+7	חרפה	חרפה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obj	_	_
+8	_של_	של	ADP	ADP	Case=Gen	9	case:gen	_	_
+9	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+10-11	ולבנות	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+11	לבנות	בנה	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	4	conj	_	_
+12-13	עבורם	_	_	_	_	_	_	_	_
+12	עבור	עבור	ADP	ADP	_	13	case	_	_
+13	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	obl	_	_
+14	מוסדות	מוסד	NOUN	NOUN	Gender=Masc|Number=Plur	11	obj	_	_
+15	מתאימים	מתאים	ADJ	ADJ	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	4	punct	_	_
+

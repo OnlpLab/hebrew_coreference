@@ -1,0 +1,387 @@
+# doc_id = htb:25_6
+# doc_range = 18760-18839
+# sent_id = 1202
+# text = בשנות השישים ביקר חלאסקו בישראל שלוש פעמים.
+1-2	בשנות	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	שנות	שנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	5	obl	_	_
+3-4	השישים	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	שישים	שישים	NUM	NUM	Gender=Fem,Masc|Number=Plur	2	compound:smixut	_	_
+5	ביקר	ביקר	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+6	חלאסקו	חלאסקו	PROPN	PROPN	_	5	nsubj	_	_
+7-8	בישראל	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	ישראל	ישראל	PROPN	PROPN	_	5	obl	_	_
+9	שלוש	שלוש	NUM	NUM	Gender=Fem|Number=Plur	10	nummod	_	_
+10	פעמים	פעם	NOUN	NOUN	Gender=Fem|Number=Plur	5	dep	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:25_6
+# doc_range = 18841-18935
+# sent_id = 1203
+# text = בפעם השלישית, ב1969, גמלה בו החלטה לשוב אליה לצמיתות.
+1-3	בפעם	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	פעם	פעם	NOUN	NOUN	Gender=Fem|Number=Sing	10	obl	_	_
+4-5	השלישית	_	_	_	_	_	_	_	SpaceAfter=No
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	שלישית	שלישית	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	_
+6	,	,	PUNCT	PUNCT	_	3	punct	_	_
+7-8	ב1969	_	_	_	_	_	_	_	SpaceAfter=No
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	1969	1969	NUM	NUM	_	10	obl	_	_
+9	,	,	PUNCT	PUNCT	_	8	punct	_	_
+10	גמלה	גמל	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+11-12	בו	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl	_	_
+13	החלטה	החלטה	NOUN	NOUN	Gender=Fem|Number=Sing	10	nsubj	_	_
+14	לשוב	שב	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	13	acl	_	_
+15-16	אליה	_	_	_	_	_	_	_	_
+15	אל	אל	ADP	ADP	_	16	case	_	_
+16	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obl	_	_
+17-18	לצמיתות	_	_	_	_	_	_	_	SpaceAfter=No
+17	ל	ל	ADP	ADP	_	18	case	_	_
+18	צמיתות	צמיתות	NOUN	NOUN	Gender=Fem|Number=Sing	14	obl	_	_
+19	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:25_6
+# doc_range = 18937-19091
+# sent_id = 1204
+# text = הוא הגיע אז לביקור של שבוע, כדי להשתתף בהסרטת "ביום מותו" על-ידי הטלוויזיה הגרמנית.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	הגיע	הגיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	אז	אז	ADV	ADV	_	2	advmod	_	_
+4-5	לביקור	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	ביקור	ביקור	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+6	של	של	ADP	ADP	Case=Gen	7	case	_	_
+7	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	5	nmod:poss	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	10	punct	_	_
+9	כדי	כדי	SCONJ	SCONJ	_	10	mark	_	_
+10	להשתתף	השתתף	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	2	advcl	_	_
+11-12	בהסרטת	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	הסרטת	הסרטה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	10	obl	_	_
+13	"	"	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
+14-15	ביום	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	compound:smixut	_	_
+16-18	מותו	_	_	_	_	_	_	_	SpaceAfter=No
+16	מוות	מוות	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	_
+17	_של_	של	ADP	ADP	Case=Gen	18	case:gen	_	_
+18	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+19	"	"	PUNCT	PUNCT	_	15	punct	_	_
+20	על	על	ADP	ADP	_	24	case	_	SpaceAfter=No
+21	-	-	PUNCT	PUNCT	_	22	punct	_	SpaceAfter=No
+22	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	20	fixed	_	_
+23-24	הטלוויזיה	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	טלוויזיה	טלוויזיה	NOUN	NOUN	Gender=Fem|Number=Sing	12	nmod	_	_
+25-26	הגרמנית	_	_	_	_	_	_	_	SpaceAfter=No
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	גרמנית	גרמני	ADJ	ADJ	Gender=Fem|Number=Sing	24	amod	_	_
+27	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:25_6
+# doc_range = 19094-19152
+# sent_id = 1205
+# text = הביקור הקצר היה רווי מתח ודרמטי.
+1-2	הביקור	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	ביקור	ביקור	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
+3-4	הקצר	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	קצר	קצר	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+5	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	6	cop	_	_
+6	רווי	רווה	VERB	VERB	Aspect=Prog|Definite=Cons|Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+7	מתח	מתח	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+8-9	ודרמטי	_	_	_	_	_	_	_	SpaceAfter=No
+8	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+9	דרמטי	דרמטי	ADJ	ADJ	Gender=Masc|Number=Sing	6	conj	_	_
+10	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:25_6
+# doc_range = 19154-19298
+# sent_id = 1206
+# text = בין השאר התרחשה בו סצינת קנאה בין סוניה זימאן שהגיעה גם היא, לבין אסתר שטיינבך.
+1	בין	בין	ADP	ADP	_	3	case	_	_
+2-3	השאר	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	שאר	שאר	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+4	התרחשה	התרחש	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+5-6	בו	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
+7	סצינת	סצנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	nsubj	_	_
+8	קנאה	קנאה	NOUN	NOUN	Gender=Fem|Number=Sing	7	compound:smixut	_	_
+9	בין	בין	ADP	ADP	_	10	case	_	_
+10	סוניה	סוניה	PROPN	PROPN	_	7	nmod	_	_
+11	זימאן	זימאן	PROPN	PROPN	_	10	flat:name	_	_
+12-13	שהגיעה	_	_	_	_	_	_	_	_
+12	ש	ש	SCONJ	SCONJ	_	13	mark	_	_
+13	הגיעה	הגיע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	10	acl:relcl	_	_
+14	גם	גם	ADV	ADV	_	15	advmod	_	_
+15	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	18	punct	_	_
+17	לבין	לבין	ADP	ADP	_	18	case	_	_
+18	אסתר	אסתר	PROPN	PROPN	_	10	conj	_	_
+19	שטיינבך	שטיינבך	PROPN	PROPN	_	18	flat:name	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:25_6
+# doc_range = 19300-19380
+# sent_id = 1207
+# text = לבסוף הודיע מארק כי החליט לשאת את אסתר לאשה.
+1	לבסוף	לבסוף	ADV	ADV	_	2	advmod	_	_
+2	הודיע	הודיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	מארק	מארק	PROPN	PROPN	_	2	nsubj	_	_
+4	כי	כי	SCONJ	SCONJ	_	5	mark	_	_
+5	החליט	החליט	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	ccomp	_	_
+6	לשאת	נשא	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	את	את	ADP	ADP	Case=Acc	8	case	_	_
+8	אסתר	אסתר	PROPN	PROPN	_	6	obj	_	_
+9-10	לאשה	_	_	_	_	_	_	_	SpaceAfter=No
+9	ל	ל	ADP	ADP	_	10	case	_	_
+10	אשה	איש	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	_
+11	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:25_6
+# doc_range = 19382-19521
+# sent_id = 1208
+# text = הוא יצא לגרמניה להשלים סידורים אחרונים בקשר לסרט, והתכוון לחזור מיד לישראל.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	יצא	יצא	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	_
+3-4	לגרמניה	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	4	case	_	_
+4	גרמניה	גרמניה	PROPN	PROPN	_	2	obl	_	_
+5	להשלים	השלים	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+6	סידורים	סידור	NOUN	NOUN	Gender=Masc|Number=Plur	5	obj	_	_
+7	אחרונים	אחרון	ADJ	ADJ	Gender=Masc|Number=Plur	6	amod	_	_
+8-9	בקשר	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	12	case	_	_
+9	קשר	קשר	NOUN	NOUN	Gender=Masc|Number=Sing	8	fixed	_	_
+10-12	לסרט	_	_	_	_	_	_	_	SpaceAfter=No
+10	ל	ל	ADP	ADP	_	8	fixed	_	_
+11	ה_	ה	DET	DET	PronType=Art|Definite=Def	12	det	_	_
+12	סרט	סרט	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+13	,	,	PUNCT	PUNCT	_	15	punct	_	_
+14-15	והתכוון	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+15	התכוון	התכוון	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	2	conj	_	_
+16	לחזור	חזר	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+17	מיד	מייד	ADV	ADV	_	16	advmod	_	_
+18-19	לישראל	_	_	_	_	_	_	_	SpaceAfter=No
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	ישראל	ישראל	PROPN	PROPN	_	16	obl	_	_
+20	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:25_6
+# doc_range = 19524-19629
+# sent_id = 1209
+# text = אבל ב14 ביוני 1969 הוא נמצא מת במיטתו בדירתו של המפיק הגרמני.
+1	אבל	אבל	CCONJ	CCONJ	_	8	cc	_	_
+2-3	ב14	_	_	_	_	_	_	_	_
+2	ב	ב	ADP	ADP	_	3	case	_	_
+3	14	14	NUM	NUM	_	8	obl	_	_
+4-5	ביוני	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	יוני	יוני	PROPN	PROPN	_	3	nmod	_	_
+6	1969	1969	NUM	NUM	_	3	nmod:tmod	_	_
+7	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	נמצא	נמצא	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+9	מת	מת	ADJ	ADJ	Gender=Masc|Number=Sing	8	xcomp	_	_
+10-13	במיטתו	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	מיטה	מיטה	NOUN	NOUN	Gender=Fem|Number=Sing	8	obl	_	_
+12	_של_	של	ADP	ADP	Case=Gen	13	case:gen	_	_
+13	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+14-17	בדירתו	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	דירה	דירה	NOUN	NOUN	Gender=Fem|Number=Sing	8	obl	_	_
+16	_של_	של	ADP	ADP	Case=Gen	17	case:gen	_	_
+17	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+18	של	של	ADP	ADP	Case=Gen	20	case	_	_
+19-20	המפיק	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	מפיק	מפיק	NOUN	NOUN	Gender=Masc|Number=Sing	15	nmod:poss	_	_
+21-22	הגרמני	_	_	_	_	_	_	_	SpaceAfter=No
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	גרמני	גרמני	ADJ	ADJ	Gender=Masc|Number=Sing	20	amod	_	_
+23	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:25_6
+# doc_range = 19630-19656
+# sent_id = 1210
+# text = בן 53 היה במותו.
+1	בן	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	_
+2	53	53	NUM	NUM	_	1	compound:smixut	_	_
+3	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	1	cop	_	_
+4-7	במותו	_	_	_	_	_	_	_	SpaceAfter=No
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	מוות	מוות	NOUN	NOUN	Gender=Masc|Number=Sing	1	nmod	_	_
+6	_של_	של	ADP	ADP	Case=Gen	7	case:gen	_	_
+7	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+8	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:25_6
+# doc_range = 19658-19711
+# sent_id = 1211
+# text = בכיסו נמצא כרטיס טיסה לישראל.
+1-4	בכיסו	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	כיס	כיס	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+3	_של_	של	ADP	ADP	Case=Gen	4	case:gen	_	_
+4	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5	נמצא	נמצא	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+6	כרטיס	כרטיס	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	nsubj	_	_
+7	טיסה	טיסה	NOUN	NOUN	Gender=Fem|Number=Sing	6	compound:smixut	_	_
+8-9	לישראל	_	_	_	_	_	_	_	SpaceAfter=No
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	ישראל	ישראל	PROPN	PROPN	_	6	nmod	_	_
+10	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:25_6
+# doc_range = 19714-19837
+# sent_id = 1212
+# text = ליד מיטתו נמצאו צנצנות של כדורי פרודורמול שגררו שמועות כאילו התאבד.
+1	ליד	ליד	ADP	ADP	_	2	case	_	_
+2-4	מיטתו	_	_	_	_	_	_	_	_
+2	מיטה	מיטה	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
+3	_של_	של	ADP	ADP	Case=Gen	4	case:gen	_	_
+4	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5	נמצאו	נמצא	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+6	צנצנות	צנצנת	NOUN	NOUN	Gender=Fem|Number=Plur	5	nsubj	_	_
+7	של	של	ADP	ADP	Case=Gen	8	case	_	_
+8	כדורי	כדור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	6	nmod:poss	_	_
+9	פרודורמול	פרודורמול	PROPN	PROPN	_	8	compound:smixut	_	_
+10-11	שגררו	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	11	mark	_	_
+11	גררו	גרר	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	6	acl:relcl	_	_
+12	שמועות	שמועה	NOUN	NOUN	Gender=Fem|Number=Plur	11	obj	_	_
+13	כאילו	כאילו	SCONJ	SCONJ	_	14	mark	_	_
+14	התאבד	התאבד	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	12	acl:relcl	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:25_6
+# doc_range = 19841-19914
+# sent_id = 1213
+# text = "שטויות", אמר יורק פרס, "מארק מת מדום לב.
+1	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+2	שטויות	שטות	NOUN	NOUN	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+3	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	5	punct	_	_
+5	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	parataxis	_	_
+6	יורק	יורק	PROPN	PROPN	_	5	nsubj	_	_
+7	פרס	פרס	PROPN	PROPN	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	5	punct	_	_
+9	"	"	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+10	מארק	מארק	PROPN	PROPN	_	11	nsubj	_	_
+11	מת	מת	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	dep	_	HebSource=ConvUncertainHead
+12-13	מדום	_	_	_	_	_	_	_	_
+12	מ	מ	ADP	ADP	_	13	case	_	_
+13	דום	דום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	obl	_	_
+14	לב	לב	NOUN	NOUN	Gender=Masc|Number=Sing	13	compound:smixut	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:25_6
+# doc_range = 19916-19956
+# sent_id = 1214
+# text = גופו היה רווי אלכוהול.
+1-3	גופו	_	_	_	_	_	_	_	_
+1	גוף	גוף	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+2	_של_	של	ADP	ADP	Case=Gen	3	case:gen	_	_
+3	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	nmod:poss	_	_
+4	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	5	cop	_	_
+5	רווי	רווה	VERB	VERB	Aspect=Prog|Definite=Cons|Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	אלכוהול	אלכוהול	NOUN	NOUN	Gender=Masc|Number=Sing	5	compound:smixut	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:25_6
+# doc_range = 19959-20039
+# sent_id = 1215
+# text = הוא היה היפוכונדר אך לא בעל נטיות להתאבדות".
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	3	cop	_	_
+3	היפוכונדר	היפוכונדר	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+4	אך	אך	CCONJ	CCONJ	_	6	cc	_	_
+5	לא	לא	DET	DET	Polarity=Neg	6	det	_	_
+6	בעל	בעל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	conj	_	_
+7	נטיות	נטייה	NOUN	NOUN	Gender=Fem|Number=Plur	6	compound:smixut	_	_
+8-9	להתאבדות	_	_	_	_	_	_	_	SpaceAfter=No
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	התאבדות	התאבדות	NOUN	NOUN	Gender=Fem|Number=Sing	7	nmod	_	_
+10	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:25_6
+# doc_range = 20042-20243
+# sent_id = 1216
+# text = הוא נקבר בבית קברות קתולי בוורשה, ועל קברו הורתה אמו לחרוט "מארק חלאסקו סופר חי חיים קצרים וכולם פנו לו עורף".
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	נקבר	נקבר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+3-4	בבית	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	obl	_	_
+5	קברות	קבר	NOUN	NOUN	Gender=Masc|Number=Plur	4	compound:smixut	_	_
+6	קתולי	קתולי	ADJ	ADJ	Gender=Masc|Number=Sing	4	amod	_	_
+7-8	בוורשה	_	_	_	_	_	_	_	SpaceAfter=No
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	וורשה	וורשה	PROPN	PROPN	_	4	nmod	_	_
+9	,	,	PUNCT	PUNCT	_	15	punct	_	_
+10-11	ועל	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+11	על	על	ADP	ADP	_	12	case	_	_
+12-14	קברו	_	_	_	_	_	_	_	_
+12	קבר	קבר	NOUN	NOUN	Gender=Masc|Number=Sing	15	obl	_	_
+13	_של_	של	ADP	ADP	Case=Gen	14	case:gen	_	_
+14	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+15	הורתה	הורה	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	_
+16-18	אמו	_	_	_	_	_	_	_	_
+16	אם	אם	NOUN	NOUN	Gender=Fem|Number=Sing	15	nsubj	_	_
+17	_של_	של	ADP	ADP	Case=Gen	18	case:gen	_	_
+18	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+19	לחרוט	חרט	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+20	"	"	PUNCT	PUNCT	_	24	punct	_	SpaceAfter=No
+21	מארק	מארק	PROPN	PROPN	_	24	nsubj	_	_
+22	חלאסקו	חלאסקו	PROPN	PROPN	_	21	flat:name	_	_
+23	סופר	סופר	NOUN	NOUN	Gender=Masc|Number=Sing	21	nmod	_	HebSource=ConvUncertainLabel
+24	חי	חי	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	19	obl	_	_
+25	חיים	חיים	NOUN	NOUN	Gender=Masc|Number=Plur	24	obj	_	_
+26	קצרים	קצר	ADJ	ADJ	Gender=Masc|Number=Plur	25	amod	_	_
+27-28	וכולם	_	_	_	_	_	_	_	_
+27	ו	ו	CCONJ	CCONJ	_	29	cc	_	_
+28	כולם	כולם	NOUN	NOUN	Gender=Masc|Number=Plur	29	nsubj	_	_
+29	פנו	פנה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	24	conj	_	_
+30-31	לו	_	_	_	_	_	_	_	_
+30	ל	ל	ADP	ADP	_	31	case	_	_
+31	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	obl	_	_
+32	עורף	עורף	NOUN	NOUN	Gender=Masc|Number=Sing	29	obj	_	SpaceAfter=No
+33	"	"	PUNCT	PUNCT	_	24	punct	_	SpaceAfter=No
+34	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:25_6
+# doc_range = 20244-20323
+# sent_id = 1217
+# text = כולם פנו לו עורף הוא שם אחד מסיפוריו הקצרים.
+1	כולם	כולם	NOUN	NOUN	Gender=Masc|Number=Plur	2	nsubj	_	_
+2	פנו	פנה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	7	nsubj	_	_
+3-4	לו	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	4	case	_	_
+4	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+5	עורף	עורף	NOUN	NOUN	Gender=Masc|Number=Sing	2	obj	_	_
+6	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	7	cop	_	_
+7	שם	שם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	_
+8	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	10	nummod	_	_
+9-12	מסיפוריו	_	_	_	_	_	_	_	_
+9	מ	מ	ADP	ADP	_	10	case	_	_
+10	סיפור	סיפור	NOUN	NOUN	Gender=Masc|Number=Plur	7	compound:smixut	_	_
+11	_של_	של	ADP	ADP	Case=Gen	12	case:gen	_	_
+12	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+13-14	הקצרים	_	_	_	_	_	_	_	SpaceAfter=No
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	קצרים	קצר	ADJ	ADJ	Gender=Masc|Number=Plur	10	amod	_	_
+15	.	.	PUNCT	PUNCT	_	7	punct	_	_
+

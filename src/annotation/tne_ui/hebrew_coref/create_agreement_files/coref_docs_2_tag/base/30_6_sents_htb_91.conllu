@@ -1,0 +1,302 @@
+# doc_id = htb:91
+# doc_range = 1-20
+# sent_id = 2319
+# text = זנווה (ע"ר).
+1	זנווה	ז'נבה	PROPN	PROPN	_	0	root	_	_
+2	(	(	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+3	ע"ר	ע"ר	PROPN	PROPN	Abbr=Yes	1	parataxis	_	SpaceAfter=No
+4	)	)	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:91
+# doc_range = 24-289
+# sent_id = 2320
+# text = נציגי מדינות מתפתחות מאסיה, אמריקה הדרומית ואסיה, הביעו אתמול דאגה עמוקה נוכח הקיפאון הנמשך בשיחות גאט"ט, שמטרתן רפורמה מרחיקת לכת בסחר העולמי.
+1	נציגי	נציג	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	13	nsubj	_	_
+2	מדינות	מדינה	NOUN	NOUN	Gender=Fem|Number=Plur	1	compound:smixut	_	_
+3	מתפתחות	התפתח	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|VerbForm=Part	2	amod	_	_
+4-5	מאסיה	_	_	_	_	_	_	_	SpaceAfter=No
+4	מ	מ	ADP	ADP	_	5	case	_	_
+5	אסיה	אסיה	PROPN	PROPN	_	1	nmod	_	_
+6	,	,	PUNCT	PUNCT	_	7	punct	_	_
+7	אמריקה	אמריקה	PROPN	PROPN	_	5	conj	_	_
+8-9	הדרומית	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	דרומית	דרומי	ADJ	ADJ	Gender=Fem|Number=Sing	7	flat:name	_	_
+10-11	ואסיה	_	_	_	_	_	_	_	SpaceAfter=No
+10	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+11	אסיה	אסיה	PROPN	PROPN	_	5	conj	_	_
+12	,	,	PUNCT	PUNCT	_	1	punct	_	_
+13	הביעו	הביע	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+14	אתמול	אתמול	ADV	ADV	_	13	advmod	_	_
+15	דאגה	דאגה	NOUN	NOUN	Gender=Fem|Number=Sing	13	obj	_	_
+16	עמוקה	עמוק	ADJ	ADJ	Gender=Fem|Number=Sing	15	amod	_	_
+17	נוכח	נוכח	ADP	ADP	_	19	case	_	_
+18-19	הקיפאון	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	קיפאון	קיפאון	NOUN	NOUN	Gender=Masc|Number=Sing	13	obl	_	_
+20-21	הנמשך	_	_	_	_	_	_	_	_
+20	ה	ה	SCONJ	SCONJ	_	21	mark	_	_
+21	נמשך	נמשך	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	19	acl:relcl	_	_
+22-23	בשיחות	_	_	_	_	_	_	_	_
+22	ב	ב	ADP	ADP	_	23	case	_	_
+23	שיחות	שיחה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	21	obl	_	_
+24	גאט"ט	גאט"ט	PROPN	PROPN	Abbr=Yes	23	compound:smixut	_	SpaceAfter=No
+25	,	,	PUNCT	PUNCT	_	30	punct	_	_
+26-29	שמטרתן	_	_	_	_	_	_	_	_
+26	ש	ש	SCONJ	SCONJ	_	30	mark	_	_
+27	מטרה	מטרה	NOUN	NOUN	Gender=Fem|Number=Sing	30	nsubj	_	_
+28	_של_	של	ADP	ADP	Case=Gen	29	case:gen	_	_
+29	_הן	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+30	רפורמה	רפורמה	NOUN	NOUN	Gender=Fem|Number=Sing	23	acl:relcl	_	_
+31	מרחיקת	הרחיק	VERB	VERB	Definite=Cons|Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	30	amod	_	_
+32	לכת	לכת	NOUN	NOUN	Gender=Fem|Number=Sing	31	compound:smixut	_	_
+33-35	בסחר	_	_	_	_	_	_	_	_
+33	ב	ב	ADP	ADP	_	35	case	_	_
+34	ה_	ה	DET	DET	PronType=Art|Definite=Def	35	det	_	_
+35	סחר	סחר	NOUN	NOUN	Gender=Masc|Number=Sing	30	nmod	_	_
+36-37	העולמי	_	_	_	_	_	_	_	SpaceAfter=No
+36	ה	ה	DET	DET	Definite=Def|PronType=Art	37	det	_	_
+37	עולמי	עולמי	ADJ	ADJ	Gender=Masc|Number=Sing	35	amod	_	_
+38	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# doc_id = htb:91
+# doc_range = 292-480
+# sent_id = 2321
+# text = "הרושם הוא שנוצר שם קיפאון מוחלט", אמר שר החוץ של ונצואלה, ריינאלדו פיגוארדו, בשמן של 51 מדינות מתפתחות.
+1	"	"	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+2-3	הרושם	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	רושם	רושם	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	6	cop	_	_
+5-6	שנוצר	_	_	_	_	_	_	_	_
+5	ש	ש	SCONJ	SCONJ	_	6	mark	_	_
+6	נוצר	נוצר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	12	obl	_	_
+7	שם	שם	ADV	ADV	_	6	advmod	_	_
+8	קיפאון	קיפאון	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
+9	מוחלט	מוחלט	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	"	"	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	6	punct	_	_
+12	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+13	שר	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	nsubj	_	_
+14-15	החוץ	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	13	compound:smixut	_	_
+16	של	של	ADP	ADP	Case=Gen	17	case	_	_
+17	ונצואלה	ונצואלה	PROPN	PROPN	_	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	19	punct	_	_
+19	ריינאלדו	ריינאלדו	PROPN	PROPN	_	13	appos	_	_
+20	פיגוארדו	פיגוארדו	PROPN	PROPN	_	19	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	23	punct	_	_
+22-25	בשמן	_	_	_	_	_	_	_	_
+22	ב	ב	ADP	ADP	_	23	case	_	_
+23	שם	שם	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
+24	_של_	של	ADP	ADP	Case=Gen	25	case:gen	_	_
+25	_הן	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+26	של	של	ADP	ADP	Case=Gen	28	case	_	_
+27	51	51	NUM	NUM	_	28	nummod	_	_
+28	מדינות	מדינה	NOUN	NOUN	Gender=Fem|Number=Plur	23	nmod:poss	_	_
+29	מתפתחות	התפתח	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|VerbForm=Part	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# doc_id = htb:91
+# doc_range = 483-722
+# sent_id = 2322
+# text = "אין לראות התקדמות בשום נושא", הוסיף לאחר שנפגש עם הוועדה של קבוצת ה51 (גי51) שהתארגנה לאחר ועידת הפסגה של המדינות הבלתי-מזדהות ב1989.
+1	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+2	אין	אין	AUX	AUX	VerbType=Mod	3	aux	_	_
+3	לראות	ראה	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	10	advcl	_	_
+4	התקדמות	התקדמות	NOUN	NOUN	Gender=Fem|Number=Sing	3	obj	_	_
+5-6	בשום	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	7	case	_	_
+6	שום	שום	DET	DET	Definite=Cons	7	det	_	_
+7	נושא	נושא	NOUN	NOUN	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	3	punct	_	_
+10	הוסיף	הוסיף	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+11	לאחר	לאחר	ADP	ADP	_	13	case	_	_
+12-13	שנפגש	_	_	_	_	_	_	_	_
+12	ש	ש	SCONJ	SCONJ	_	13	mark	_	_
+13	נפגש	נפגש	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	10	obl	_	_
+14	עם	עם	ADP	ADP	_	16	case	_	_
+15-16	הוועדה	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	וועדה	ועדה	NOUN	NOUN	Gender=Fem|Number=Sing	13	obl	_	_
+17	של	של	ADP	ADP	Case=Gen	18	case	_	_
+18	קבוצת	קבוצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	16	nmod	_	_
+19-20	ה51	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	51	51	NUM	NUM	_	18	compound:smixut	_	_
+21	(	(	PUNCT	PUNCT	_	22	punct	_	SpaceAfter=No
+22	גי51	גי51	X	X	_	18	appos	_	SpaceAfter=No|Xtra=Junk
+23	)	)	PUNCT	PUNCT	_	22	punct	_	_
+24-25	שהתארגנה	_	_	_	_	_	_	_	_
+24	ש	ש	SCONJ	SCONJ	_	25	mark	_	_
+25	התארגנה	התארגן	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	16	acl:relcl	_	_
+26	לאחר	לאחר	ADP	ADP	_	27	case	_	_
+27	ועידת	ועידה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	25	obl	_	_
+28-29	הפסגה	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	פסגה	פסגה	NOUN	NOUN	Gender=Fem|Number=Sing	27	compound:smixut	_	_
+30	של	של	ADP	ADP	Case=Gen	32	case	_	_
+31-32	המדינות	_	_	_	_	_	_	_	_
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	מדינות	מדינה	NOUN	NOUN	Gender=Fem|Number=Plur	27	nmod:poss	_	_
+33-34	הבלתי	_	_	_	_	_	_	_	SpaceAfter=No
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	36	det	_	_
+34	בלתי	בלתי	ADV	ADV	Prefix=Yes	36	compound:affix	_	_
+35	-	-	PUNCT	PUNCT	_	34	punct	_	SpaceAfter=No
+36	מזדהות	הזדהה	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|VerbForm=Part	32	amod	_	_
+37-38	ב1989	_	_	_	_	_	_	_	SpaceAfter=No
+37	ב	ב	ADP	ADP	_	38	case	_	_
+38	1989	1989	NUM	NUM	_	25	obl	_	_
+39	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:91
+# doc_range = 725-1191
+# sent_id = 2323
+# text = שר החקלאות האמריקאי, קלייטון יוטר, הביע דאגה דומה בלילה שבין יום רביעי לחמישי, באומרו כי הוא מטיל ספק שניתן יהיה לסיים את "שיחות אורוגוואי" במסגרת גאט"ט, בהשתתפותם של נציגי 501 מדינות, שנקבע להן מועד סיום בפגישת שרי החוץ של ארגון התעריפים והמכס ב37 בדצמבר.
+1	שר	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	nsubj	_	_
+2-3	החקלאות	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	חקלאות	חקלאות	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+4-5	האמריקאי	_	_	_	_	_	_	_	SpaceAfter=No
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	אמריקאי	אמריקני	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	_
+6	,	,	PUNCT	PUNCT	_	7	punct	_	_
+7	קלייטון	קלייטון	PROPN	PROPN	_	1	appos	_	_
+8	יוטר	יוטר	PROPN	PROPN	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	1	punct	_	_
+10	הביע	הביע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+11	דאגה	דאגה	NOUN	NOUN	Gender=Fem|Number=Sing	10	obj	_	_
+12	דומה	דומה	ADJ	ADJ	Gender=Fem|Number=Sing	11	amod	_	_
+13-15	בלילה	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	15	case	_	_
+14	ה_	ה	DET	DET	PronType=Art|Definite=Def	15	det	_	_
+15	לילה	לילה	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
+16-17	שבין	_	_	_	_	_	_	_	_
+16	ש	ש	SCONJ	SCONJ	_	18	mark	_	_
+17	בין	בין	ADP	ADP	_	18	case	_	_
+18	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	15	acl:relcl	_	_
+19	רביעי	רביעי	PROPN	PROPN	_	18	compound:smixut	_	_
+20-21	לחמישי	_	_	_	_	_	_	_	SpaceAfter=No
+20	ל	ל	ADP	ADP	_	21	case	_	_
+21	חמישי	חמישי	PROPN	PROPN	_	18	conj	_	_
+22	,	,	PUNCT	PUNCT	_	24	punct	_	_
+23-24	באומרו	_	_	_	_	_	_	_	_
+23	ב	ב	ADP	ADP	_	24	mark	_	_
+24	אומרו	אומרו	VERB	VERB	_	10	advcl	_	_
+25	כי	כי	SCONJ	SCONJ	_	27	mark	_	_
+26	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+27	מטיל	הטיל	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	24	ccomp	_	_
+28	ספק	ספק	NOUN	NOUN	Gender=Masc|Number=Sing	27	obj	_	_
+29-30	שניתן	_	_	_	_	_	_	_	_
+29	ש	ש	SCONJ	SCONJ	_	30	mark	_	_
+30	ניתן	ניתן	VERB	VERB	Aspect=Prog|Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Fut|VerbForm=Part|Voice=Mid	28	acl:relcl	_	_
+31	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	30	cop	_	_
+32	לסיים	סיים	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	30	xcomp	_	_
+33	את	את	ADP	ADP	Case=Acc	35	case	_	_
+34	"	"	PUNCT	PUNCT	_	35	punct	_	SpaceAfter=No
+35	שיחות	שיחה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	32	obj	_	_
+36	אורוגוואי	אורוגוואי	PROPN	PROPN	_	35	compound:smixut	_	SpaceAfter=No
+37	"	"	PUNCT	PUNCT	_	35	punct	_	_
+38-39	במסגרת	_	_	_	_	_	_	_	_
+38	ב	ב	ADP	ADP	_	40	case	_	_
+39	מסגרת	מסגרת	NOUN	NOUN	Gender=Fem|Number=Sing	38	fixed	_	_
+40	גאט"ט	גאט"ט	PROPN	PROPN	Abbr=Yes	32	obl	_	SpaceAfter=No
+41	,	,	PUNCT	PUNCT	_	43	punct	_	_
+42-45	בהשתתפותם	_	_	_	_	_	_	_	_
+42	ב	ב	ADP	ADP	_	43	case	_	_
+43	השתתפות	השתתפות	NOUN	NOUN	Gender=Fem|Number=Sing	32	obl	_	_
+44	_של_	של	ADP	ADP	Case=Gen	45	case:gen	_	_
+45	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	43	nmod:poss	_	_
+46	של	של	ADP	ADP	Case=Gen	47	case	_	_
+47	נציגי	נציג	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	43	nmod:poss	_	_
+48	501	501	NUM	NUM	_	49	nummod	_	_
+49	מדינות	מדינה	NOUN	NOUN	Gender=Fem|Number=Plur	47	compound:smixut	_	SpaceAfter=No
+50	,	,	PUNCT	PUNCT	_	52	punct	_	_
+51-52	שנקבע	_	_	_	_	_	_	_	_
+51	ש	ש	SCONJ	SCONJ	_	52	mark	_	_
+52	נקבע	נקבע	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	49	acl:relcl	_	_
+53-54	להן	_	_	_	_	_	_	_	_
+53	ל	ל	ADP	ADP	_	54	case	_	_
+54	_הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	52	obl	_	_
+55	מועד	מועד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	52	nsubj	_	_
+56	סיום	סיום	NOUN	NOUN	Gender=Masc|Number=Sing	55	compound:smixut	_	_
+57-58	בפגישת	_	_	_	_	_	_	_	_
+57	ב	ב	ADP	ADP	_	58	case	_	_
+58	פגישת	פגישה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	52	obl	_	_
+59	שרי	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	58	compound:smixut	_	_
+60-61	החוץ	_	_	_	_	_	_	_	_
+60	ה	ה	DET	DET	Definite=Def|PronType=Art	61	det	_	_
+61	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	59	compound:smixut	_	_
+62	של	של	ADP	ADP	Case=Gen	63	case	_	_
+63	ארגון	ארגון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	59	nmod:poss	_	_
+64-65	התעריפים	_	_	_	_	_	_	_	_
+64	ה	ה	DET	DET	Definite=Def|PronType=Art	65	det	_	_
+65	תעריפים	תעריף	NOUN	NOUN	Gender=Masc|Number=Plur	63	compound:smixut	_	_
+66-68	והמכס	_	_	_	_	_	_	_	_
+66	ו	ו	CCONJ	CCONJ	_	68	cc	_	_
+67	ה	ה	DET	DET	Definite=Def|PronType=Art	68	det	_	_
+68	מכס	מכס	NOUN	NOUN	Gender=Masc|Number=Sing	65	conj	_	_
+69-70	ב37	_	_	_	_	_	_	_	_
+69	ב	ב	ADP	ADP	_	70	case	_	_
+70	37	37	NUM	NUM	_	52	obl	_	_
+71-72	בדצמבר	_	_	_	_	_	_	_	SpaceAfter=No
+71	ב	ב	ADP	ADP	_	72	case	_	_
+72	דצמבר	דצמבר	PROPN	PROPN	_	70	obl	_	_
+73	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:91
+# doc_range = 1193-1476
+# sent_id = 2324
+# text = המנהל הכללי של גאט"ט, ארתור דונקל, הזמין אליו אתמול נציגים של 03 מדינות, בניסיון לשבור את הקיפאון סביב בעיית הסובסידיות לחקלאות מכשול החוסם את סיום השיחות.
+1-2	המנהל	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מנהל	מנהל	NOUN	NOUN	Gender=Masc|Number=Sing	11	nsubj	_	_
+3-4	הכללי	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	כללי	כללי	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+5	של	של	ADP	ADP	Case=Gen	6	case	_	_
+6	גאט"ט	גאט"ט	PROPN	PROPN	Abbr=Yes	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	8	punct	_	_
+8	ארתור	ארתור	PROPN	PROPN	_	2	appos	_	_
+9	דונקל	דונקל	PROPN	PROPN	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	2	punct	_	_
+11	הזמין	הזמין	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+12-13	אליו	_	_	_	_	_	_	_	_
+12	אל	אל	ADP	ADP	_	13	case	_	_
+13	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+14	אתמול	אתמול	ADV	ADV	_	11	advmod	_	_
+15	נציגים	נציג	NOUN	NOUN	Gender=Masc|Number=Plur	11	obj	_	_
+16	של	של	ADP	ADP	Case=Gen	18	case	_	_
+17	03	03	NUM	NUM	_	18	nummod	_	_
+18	מדינות	מדינה	NOUN	NOUN	Gender=Fem|Number=Plur	15	nmod:poss	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	21	punct	_	_
+20-21	בניסיון	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	ניסיון	ניסיון	NOUN	NOUN	Gender=Masc|Number=Sing	11	obl	_	_
+22	לשבור	שבר	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	21	acl	_	_
+23	את	את	ADP	ADP	Case=Acc	25	case	_	_
+24-25	הקיפאון	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	קיפאון	קיפאון	NOUN	NOUN	Gender=Masc|Number=Sing	22	obj	_	_
+26	סביב	סביב	ADP	ADP	_	27	case	_	_
+27	בעיית	בעיה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	25	nmod	_	_
+28-29	הסובסידיות	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	סובסידיות	סובסידיה	NOUN	NOUN	Gender=Fem|Number=Plur	27	compound:smixut	_	_
+30-31	לחקלאות	_	_	_	_	_	_	_	_
+30	ל	ל	ADP	ADP	_	31	case	_	_
+31	חקלאות	חקלאות	NOUN	NOUN	Gender=Fem|Number=Sing	29	nmod	_	_
+32	מכשול	מכשול	NOUN	NOUN	Gender=Masc|Number=Sing	25	nmod	_	_
+33-34	החוסם	_	_	_	_	_	_	_	_
+33	ה	ה	SCONJ	SCONJ	_	34	mark	_	_
+34	חוסם	חסם	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	32	acl:relcl	_	_
+35	את	את	ADP	ADP	Case=Acc	36	case	_	_
+36	סיום	סיום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	34	obj	_	_
+37-38	השיחות	_	_	_	_	_	_	_	SpaceAfter=No
+37	ה	ה	DET	DET	Definite=Def|PronType=Art	38	det	_	_
+38	שיחות	שיחה	NOUN	NOUN	Gender=Fem|Number=Plur	36	compound:smixut	_	_
+39	.	.	PUNCT	PUNCT	_	11	punct	_	_
+

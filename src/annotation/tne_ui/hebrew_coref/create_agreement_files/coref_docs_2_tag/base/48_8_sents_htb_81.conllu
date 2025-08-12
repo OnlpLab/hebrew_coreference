@@ -1,0 +1,206 @@
+# doc_id = htb:81
+# doc_range = 3-6
+# sent_id = 2229
+# text = (ע).
+1	(	(	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+2	ע	ע	PROPN	PROPN	_	0	root	_	SpaceAfter=No
+3	)	)	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:81
+# doc_range = 10-292
+# sent_id = 2230
+# text = בית משפט השלום בתל-אביב גזר אתמול עונשי מאסר על-תנאי וקנסות כספיים על יורם פורת ואברהם רמן, מנהלי חברת המימון וההשקעות תומיטי השקעות וסחר בינלאומי בע"ם.
+1	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	nsubj	_	_
+2	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+3-4	השלום	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	שלום	שלום	NOUN	NOUN	Gender=Masc|Number=Sing	1	nmod	_	_
+5-6	בתל	_	_	_	_	_	_	_	SpaceAfter=No
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	תל	תל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	nmod	_	_
+7	-	-	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+8	אביב	אביב	NOUN	NOUN	Gender=Masc|Number=Sing	6	flat:name	_	_
+9	גזר	גזר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+10	אתמול	אתמול	ADV	ADV	_	9	advmod	_	_
+11	עונשי	עונש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	9	obj	_	_
+12	מאסר	מאסר	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound:smixut	_	_
+13	על	על	ADP	ADP	_	15	case	_	SpaceAfter=No
+14	-	-	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
+15	תנאי	תנאי	NOUN	NOUN	Gender=Masc|Number=Sing	12	nmod	_	_
+16-17	וקנסות	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+17	קנסות	קנס	NOUN	NOUN	Gender=Masc|Number=Plur	11	conj	_	_
+18	כספיים	כספי	ADJ	ADJ	Gender=Masc|Number=Plur	17	amod	_	_
+19	על	על	ADP	ADP	_	20	case	_	_
+20	יורם	יורם	PROPN	PROPN	_	9	obl	_	_
+21	פורת	פורת	PROPN	PROPN	_	20	flat:name	_	_
+22-23	ואברהם	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
+23	אברהם	אברהם	PROPN	PROPN	_	20	conj	_	_
+24	רמן	רמן	PROPN	PROPN	_	23	flat:name	_	SpaceAfter=No
+25	,	,	PUNCT	PUNCT	_	26	punct	_	_
+26	מנהלי	מנהל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	20	appos	_	_
+27	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	26	compound:smixut	_	_
+28-29	המימון	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	מימון	מימון	NOUN	NOUN	Gender=Masc|Number=Sing	27	compound:smixut	_	_
+30-32	וההשקעות	_	_	_	_	_	_	_	_
+30	ו	ו	CCONJ	CCONJ	_	32	cc	_	_
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	השקעות	השקעה	NOUN	NOUN	Gender=Fem|Number=Plur	29	conj	_	_
+33	תומיטי	תומיטי	PROPN	PROPN	_	27	flat:name	_	_
+34	השקעות	השקעה	NOUN	NOUN	Gender=Fem|Number=Plur	27	flat:name	_	_
+35-36	וסחר	_	_	_	_	_	_	_	_
+35	ו	ו	CCONJ	CCONJ	_	36	cc	_	_
+36	סחר	סחר	NOUN	NOUN	Gender=Masc|Number=Sing	34	conj	_	_
+37	בינלאומי	בינלאומי	ADJ	ADJ	Gender=Masc|Number=Sing	36	amod	_	_
+38	בע"ם	בע"ם	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	33	flat:name	_	SpaceAfter=No
+39	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:81
+# doc_range = 294-358
+# sent_id = 2231
+# text = פורת ורמן הורשעו בקבלת דבר בתחבולה.
+1	פורת	פורת	PROPN	PROPN	_	4	nsubj:pass	_	_
+2-3	ורמן	_	_	_	_	_	_	_	_
+2	ו	ו	CCONJ	CCONJ	_	3	cc	_	_
+3	רמן	ורמן	PROPN	PROPN	_	1	conj	_	_
+4	הורשעו	הורשע	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+5-6	בקבלת	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	קבלת	קבלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	obl	_	_
+7	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+8-9	בתחבולה	_	_	_	_	_	_	_	SpaceAfter=No
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	תחבולה	תחבולה	NOUN	NOUN	Gender=Fem|Number=Sing	6	nmod	_	_
+10	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:81
+# doc_range = 360-568
+# sent_id = 2232
+# text = לטענת התביעה, סירבו הנאשמים להשיב עמלה בסך 575 ש"ח שגבו מבני זוג, שביקשו את עזרתם בהסדרת הלוואה לצורך רכישת מכונית.
+1-2	לטענת	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	טענת	טענה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	obl	_	_
+3-4	התביעה	_	_	_	_	_	_	_	SpaceAfter=No
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	תביעה	תביעה	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound:smixut	_	_
+5	,	,	PUNCT	PUNCT	_	2	punct	_	_
+6	סירבו	סירב	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+7-8	הנאשמים	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	נאשמים	נאשם	NOUN	NOUN	Gender=Masc|Number=Plur	6	nsubj	_	_
+9	להשיב	השיב	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+10	עמלה	עמלה	NOUN	NOUN	Gender=Fem|Number=Sing	9	obj	_	_
+11-12	בסך	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	סך	סך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	nmod	_	_
+13	575	575	NUM	NUM	_	14	nummod	_	_
+14	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	12	compound:smixut	_	_
+15-16	שגבו	_	_	_	_	_	_	_	_
+15	ש	ש	SCONJ	SCONJ	_	16	mark	_	_
+16	גבו	גבה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	10	acl:relcl	_	_
+17-18	מבני	_	_	_	_	_	_	_	_
+17	מ	מ	ADP	ADP	_	18	case	_	_
+18	בני	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	16	obl	_	_
+19	זוג	זוג	NOUN	NOUN	Gender=Masc|Number=Sing	18	compound:smixut	_	SpaceAfter=No
+20	,	,	PUNCT	PUNCT	_	22	punct	_	_
+21-22	שביקשו	_	_	_	_	_	_	_	_
+21	ש	ש	SCONJ	SCONJ	_	22	mark	_	_
+22	ביקשו	ביקש	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	18	acl:relcl	_	_
+23	את	את	ADP	ADP	Case=Acc	24	case	_	_
+24-26	עזרתם	_	_	_	_	_	_	_	_
+24	עזרה	עזרה	NOUN	NOUN	Gender=Fem|Number=Sing	22	obj	_	_
+25	_של_	של	ADP	ADP	Case=Gen	26	case:gen	_	_
+26	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+27-28	בהסדרת	_	_	_	_	_	_	_	_
+27	ב	ב	ADP	ADP	_	28	case	_	_
+28	הסדרת	הסדרה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	24	nmod	_	_
+29	הלוואה	הלוואה	NOUN	NOUN	Gender=Fem|Number=Sing	28	compound:smixut	_	_
+30-31	לצורך	_	_	_	_	_	_	_	_
+30	ל	ל	ADP	ADP	_	31	case	_	_
+31	צורך	צורך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	29	nmod	_	_
+32	רכישת	רכישה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	31	compound:smixut	_	_
+33	מכונית	מכונית	NOUN	NOUN	Gender=Fem|Number=Sing	32	compound:smixut	_	SpaceAfter=No
+34	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:81
+# doc_range = 570-649
+# sent_id = 2233
+# text = למעשה, לא נתנו הנאשמים שום ייעוץ לבני הזוג.
+1	למעשה	למעשה	ADV	ADV	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3	לא	לא	ADV	ADV	Polarity=Neg	4	advmod	_	_
+4	נתנו	נתן	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	0	root	_	_
+5-6	הנאשמים	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	נאשמים	נאשם	NOUN	NOUN	Gender=Masc|Number=Plur	4	nsubj	_	_
+7	שום	שום	DET	DET	Definite=Cons	8	det	_	_
+8	ייעוץ	ייעוץ	NOUN	NOUN	Gender=Masc|Number=Sing	4	obj	_	_
+9-10	לבני	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	10	case	_	_
+10	בני	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	obl	_	_
+11-12	הזוג	_	_	_	_	_	_	_	SpaceAfter=No
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	זוג	זוג	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
+13	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:81
+# doc_range = 651-736
+# sent_id = 2234
+# text = פורת נידון ל10 חודשי מאסר על-תנאי ולקנס של 3,000 ש"ח.
+1	פורת	פורת	PROPN	PROPN	_	2	nsubj	_	_
+2	נידון	נידון	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+3-4	ל10	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	5	case	_	_
+4	10	10	NUM	NUM	_	5	nummod	_	_
+5	חודשי	חודש	NOUN	NOUN	Definite=Cons	2	obl	_	_
+6	מאסר	מאסר	NOUN	NOUN	Gender=Masc|Number=Sing	5	compound:smixut	_	_
+7	על	על	ADP	ADP	_	9	case	_	SpaceAfter=No
+8	-	-	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+9	תנאי	תנאי	NOUN	NOUN	Gender=Masc|Number=Sing	6	nmod	_	_
+10-12	ולקנס	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+11	ל	ל	ADP	ADP	_	12	case	_	_
+12	קנס	קנס	NOUN	NOUN	Gender=Masc|Number=Sing	5	conj	_	_
+13	של	של	ADP	ADP	Case=Gen	15	case	_	_
+14	3,000	3,000	NUM	NUM	_	15	nummod	_	_
+15	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	12	nmod:poss	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:81
+# doc_range = 745-831
+# sent_id = 2235
+# text = רמן נידון ל6 חודשי מאסר על-תנאי וקנס של 1,005 ש"ח.
+1	רמן	רמן	PROPN	PROPN	_	2	nsubj	_	_
+2	נידון	נידון	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+3-4	ל6	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	5	case	_	_
+4	6	6	NUM	NUM	_	5	nummod	_	_
+5	חודשי	חודש	NOUN	NOUN	Definite=Cons	2	obl	_	_
+6	מאסר	מאסר	NOUN	NOUN	Gender=Masc|Number=Sing	5	compound:smixut	_	_
+7	על	על	ADP	ADP	_	9	case	_	SpaceAfter=No
+8	-	-	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+9	תנאי	תנאי	NOUN	NOUN	Gender=Masc|Number=Sing	6	nmod	_	_
+10-11	וקנס	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+11	קנס	קנס	NOUN	NOUN	Gender=Masc|Number=Sing	5	conj	_	_
+12	של	של	ADP	ADP	Case=Gen	14	case	_	_
+13	1,005	1,005	NUM	NUM	_	14	nummod	_	_
+14	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	11	nmod:poss	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:81
+# doc_range = 833-877
+# sent_id = 2236
+# text = חברת תומיטי נקנסה ב3,000 ש"ח.
+1	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	תומיטי	תומיטי	PROPN	PROPN	_	1	compound:smixut	_	_
+3	נקנסה	נקנס	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+4-5	ב3,000	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	6	case	_	_
+5	3,000	3,000	NUM	NUM	_	6	nummod	_	_
+6	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	3	punct	_	_
+

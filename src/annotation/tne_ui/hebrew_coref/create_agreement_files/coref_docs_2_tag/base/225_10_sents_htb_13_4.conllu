@@ -1,0 +1,400 @@
+# doc_id = htb:13_4
+# doc_range = 7518-7964
+# sent_id = 323
+# text = הבחירות של השבוע יכלו להעניק דחיפה נאה לשניים מן הפוליטיקאים המוזכרים ביותר: המושל רב-הכריזמה של מדינת ניו יורק, מריו קואומו, ששמו מתרוצץ בהקשרים נשיאותיים מאז 1984; והסנאטור מניו גרסי, האינטלקטואל וכוכב הכדורסל המהולל של שנות ה06, ביל בראדלי.
+1-2	הבחירות	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	בחירות	בחירות	NOUN	NOUN	Gender=Fem|Number=Plur	6	nsubj	_	_
+3	של	של	ADP	ADP	Case=Gen	5	case	_	_
+4-5	השבוע	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod:poss	_	_
+6	יכלו	יכל	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	0	root	_	_
+7	להעניק	העניק	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	דחיפה	דחיפה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obj	_	_
+9	נאה	נאה	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	_
+10-11	לשניים	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	14	case	_	_
+11	שניים	שתיים	NUM	NUM	Gender=Masc|Number=Plur	14	nummod	_	_
+12	מן	מן	ADP	ADP	_	14	case	_	_
+13-14	הפוליטיקאים	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	פוליטיקאים	פוליטיקאי	NOUN	NOUN	Gender=Masc|Number=Plur	7	obl	_	_
+15-16	המוזכרים	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	מוזכרים	הוזכר	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Pass	14	amod	_	_
+17	ביותר	ביותר	ADV	ADV	_	16	advmod	_	SpaceAfter=No
+18	:	:	PUNCT	PUNCT	_	20	punct	_	_
+19-20	המושל	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	מושל	מושל	NOUN	NOUN	Gender=Masc|Number=Sing	14	appos	_	_
+21	רב	רב	ADJ	ADJ	Definite=Cons|Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
+22	-	-	PUNCT	PUNCT	_	24	punct	_	SpaceAfter=No
+23-24	הכריזמה	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	כריזמה	כריזמה	NOUN	NOUN	Gender=Fem|Number=Sing	21	obl	_	_
+25	של	של	ADP	ADP	Case=Gen	26	case	_	_
+26	מדינת	מדינה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	20	nmod	_	_
+27	ניו	ניו	PROPN	PROPN	_	26	flat:name	_	_
+28	יורק	יורק	PROPN	PROPN	_	27	flat:name	_	SpaceAfter=No
+29	,	,	PUNCT	PUNCT	_	30	punct	_	_
+30	מריו	מריו	PROPN	PROPN	_	20	appos	_	_
+31	קואומו	קואומו	PROPN	PROPN	_	30	flat:name	_	SpaceAfter=No
+32	,	,	PUNCT	PUNCT	_	37	punct	_	_
+33-36	ששמו	_	_	_	_	_	_	_	_
+33	ש	ש	SCONJ	SCONJ	_	37	mark	_	_
+34	שם	שם	NOUN	NOUN	Gender=Masc|Number=Sing	37	nsubj	_	_
+35	_של_	של	ADP	ADP	Case=Gen	36	case:gen	_	_
+36	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
+37	מתרוצץ	התרוצץ	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	20	acl:relcl	_	_
+38-39	בהקשרים	_	_	_	_	_	_	_	_
+38	ב	ב	ADP	ADP	_	39	case	_	_
+39	הקשרים	הקשר	NOUN	NOUN	Gender=Masc|Number=Plur	37	obl	_	_
+40	נשיאותיים	נשיאותי	ADJ	ADJ	Gender=Masc|Number=Plur	39	amod	_	_
+41-42	מאז	_	_	_	_	_	_	_	_
+41	מ	מ	ADP	ADP	_	43	case	_	_
+42	אז	אז	ADV	ADV	_	41	fixed	_	_
+43	1984	1984	NUM	NUM	_	37	obl	_	SpaceAfter=No
+44	;	;	PUNCT	PUNCT	_	45	punct	_	_
+45-47	והסנאטור	_	_	_	_	_	_	_	_
+45	ו	ו	CCONJ	CCONJ	_	47	cc	_	_
+46	ה	ה	DET	DET	Definite=Def|PronType=Art	47	det	_	_
+47	סנאטור	סנטור	NOUN	NOUN	Gender=Masc|Number=Sing	20	conj	_	_
+48-49	מניו	_	_	_	_	_	_	_	_
+48	מ	מ	ADP	ADP	_	49	case	_	_
+49	ניו	מניו	PROPN	PROPN	_	47	nmod	_	_
+50	גרסי	גרס	PROPN	PROPN	_	49	flat:name	_	SpaceAfter=No
+51	,	,	PUNCT	PUNCT	_	53	punct	_	_
+52-53	האינטלקטואל	_	_	_	_	_	_	_	_
+52	ה	ה	DET	DET	Definite=Def|PronType=Art	53	det	_	_
+53	אינטלקטואל	אינטלקטואל	NOUN	NOUN	Gender=Masc|Number=Sing	47	conj	_	_
+54-55	וכוכב	_	_	_	_	_	_	_	_
+54	ו	ו	CCONJ	CCONJ	_	55	cc	_	_
+55	כוכב	כוכב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	47	conj	_	_
+56-57	הכדורסל	_	_	_	_	_	_	_	_
+56	ה	ה	DET	DET	Definite=Def|PronType=Art	57	det	_	_
+57	כדורסל	כדורסל	NOUN	NOUN	Gender=Masc|Number=Sing	55	compound:smixut	_	_
+58-59	המהולל	_	_	_	_	_	_	_	_
+58	ה	ה	DET	DET	Definite=Def|PronType=Art	59	det	_	_
+59	מהולל	מהולל	ADJ	ADJ	_	55	amod	_	_
+60	של	של	ADP	ADP	Case=Gen	61	case	_	_
+61	שנות	שנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	55	nmod	_	_
+62-63	ה06	_	_	_	_	_	_	_	SpaceAfter=No
+62	ה	ה	DET	DET	Definite=Def|PronType=Art	63	det	_	_
+63	06	06	NUM	NUM	_	61	compound:smixut	_	_
+64	,	,	PUNCT	PUNCT	_	65	punct	_	_
+65	ביל	ביל	PROPN	PROPN	_	47	appos	_	_
+66	בראדלי	בראדלי	PROPN	PROPN	_	65	flat:name	_	SpaceAfter=No
+67	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:13_4
+# doc_range = 7966-8078
+# sent_id = 324
+# text = ניצחונות שניהם לא הועמדו אף דקה אחת בספק במהלך מערכת הבחירות.
+1	ניצחונות	ניצחון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	nsubj:pass	_	_
+2	שניהם	שניים	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	compound:smixut	_	_
+3	לא	לא	ADV	ADV	Polarity=Neg	4	advmod	_	_
+4	הועמדו	הועמד	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+5	אף	אף	DET	DET	Definite=Cons	6	det	_	_
+6	דקה	דקה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl:tmod	_	_
+7	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	6	nummod	_	_
+8-9	בספק	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	ספק	ספק	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+10-11	במהלך	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	12	case	_	_
+11	מהלך	מהלך	NOUN	NOUN	Gender=Masc|Number=Sing	10	fixed	_	_
+12	מערכת	מערכת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	obl	_	_
+13-14	הבחירות	_	_	_	_	_	_	_	SpaceAfter=No
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	בחירות	בחירות	NOUN	NOUN	Gender=Fem|Number=Plur	12	compound:smixut	_	_
+15	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:13_4
+# doc_range = 8080-8200
+# sent_id = 325
+# text = השאלה היחידה היתה באיזה הפרש ירסקו יריבים רפובליקאיים בני בלי שם.
+1-2	השאלה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	שאלה	שאלה	NOUN	NOUN	Gender=Fem|Number=Sing	9	nsubj	_	_
+3-4	היחידה	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	יחידה	יחיד	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+5	היתה	היה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	9	cop	_	_
+6-7	באיזה	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	8	case	_	_
+7	איזה	איזה	DET	DET	Definite=Cons	8	det	_	_
+8	הפרש	הפרש	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	_
+9	ירסקו	ריסק	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+10	יריבים	יריב	NOUN	NOUN	Gender=Masc|Number=Plur	9	obj	_	_
+11	רפובליקאיים	רפובליקני	ADJ	ADJ	Gender=Masc|Number=Plur	10	amod	_	_
+12	בני	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	10	acl	_	_
+13	בלי	בלי	ADP	ADP	_	14	case	_	_
+14	שם	שם	NOUN	NOUN	Gender=Masc|Number=Sing	12	compound:smixut	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:13_4
+# doc_range = 8202-8275
+# sent_id = 326
+# text = בראדלי ניצח לבסוף בהפרש של שלושה אחוזים.
+1	בראדלי	בראדלי	PROPN	PROPN	_	2	nsubj	_	_
+2	ניצח	ניצח	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	לבסוף	לבסוף	ADV	ADV	_	2	advmod	_	_
+4-5	בהפרש	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	הפרש	הפרש	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+6	של	של	ADP	ADP	Case=Gen	8	case	_	_
+7	שלושה	שלוש	NUM	NUM	Gender=Masc|Number=Plur	8	nummod	_	_
+8	אחוזים	אחוז	NOUN	NOUN	Gender=Masc|Number=Plur	5	nmod:poss	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:13_4
+# doc_range = 8278-8625
+# sent_id = 327
+# text = במוצאי יום הבחירות התבוננו רפובליקאים באי-אמון בתוצאות, ואמרו באנחה עמוקה כי אילו היו משכילים לעמוד על גודל ההזדמנות בניו גרסי, היו מתגייסים לעזרת המועמדת הרפובליקאית, כריסטין טוד ויטמן.
+1-2	במוצאי	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	מוצאי	מוצאי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	6	obl	_	_
+3	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	compound:smixut	_	_
+4-5	הבחירות	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	בחירות	בחירות	NOUN	NOUN	Gender=Fem|Number=Plur	3	compound:smixut	_	_
+6	התבוננו	התבונן	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	0	root	_	_
+7	רפובליקאים	רפובליקאים	NOUN	NOUN	_	6	nsubj	_	_
+8-9	באי	_	_	_	_	_	_	_	SpaceAfter=No
+8	ב	ב	ADP	ADP	_	11	case	_	_
+9	אי	אי	ADV	ADV	Prefix=Yes	11	compound:affix	_	HebSource=ConvUncertainHead
+10	-	-	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+11	אמון	אמון	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+12-14	בתוצאות	_	_	_	_	_	_	_	SpaceAfter=No
+12	ב	ב	ADP	ADP	_	14	case	_	_
+13	ה_	ה	DET	DET	PronType=Art|Definite=Def	14	det	_	_
+14	תוצאות	תוצאה	NOUN	NOUN	Gender=Fem|Number=Plur	6	obl	_	_
+15	,	,	PUNCT	PUNCT	_	17	punct	_	_
+16-17	ואמרו	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+17	אמרו	אמר	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	6	conj	_	_
+18-19	באנחה	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	19	case	_	_
+19	אנחה	אנחה	NOUN	NOUN	Gender=Fem|Number=Sing	17	obl	_	_
+20	עמוקה	עמוק	ADJ	ADJ	Gender=Fem|Number=Sing	19	amod	_	_
+21	כי	כי	SCONJ	SCONJ	_	35	mark	_	_
+22	אילו	אילו	SCONJ	SCONJ	_	24	mark	_	_
+23	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past	24	aux	_	_
+24	משכילים	השכיל	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Mood=Irr|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	35	advcl	_	_
+25	לעמוד	עמד	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	24	xcomp	_	_
+26	על	על	ADP	ADP	_	27	case	_	_
+27	גודל	גודל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	25	obl	_	_
+28-29	ההזדמנות	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	הזדמנות	הזדמנות	NOUN	NOUN	Gender=Fem|Number=Sing	27	compound:smixut	_	_
+30-31	בניו	_	_	_	_	_	_	_	_
+30	ב	ב	ADP	ADP	_	31	case	_	_
+31	ניו	ניו	PROPN	PROPN	_	29	nmod	_	_
+32	גרסי	גרס	PROPN	PROPN	_	31	flat:name	_	SpaceAfter=No
+33	,	,	PUNCT	PUNCT	_	24	punct	_	_
+34	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	35	cop	_	_
+35	מתגייסים	התגייס	VERB	VERB	Aspect=Prog|Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|Tense=Past|VerbForm=Part	17	ccomp	_	_
+36-37	לעזרת	_	_	_	_	_	_	_	_
+36	ל	ל	ADP	ADP	_	37	case	_	_
+37	עזרת	עזרה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	35	obl	_	_
+38-39	המועמדת	_	_	_	_	_	_	_	_
+38	ה	ה	DET	DET	Definite=Def|PronType=Art	39	det	_	_
+39	מועמדת	מועמד	NOUN	NOUN	Gender=Fem|Number=Sing	37	compound:smixut	_	_
+40-41	הרפובליקאית	_	_	_	_	_	_	_	SpaceAfter=No
+40	ה	ה	DET	DET	Definite=Def|PronType=Art	41	det	_	_
+41	רפובליקאית	רפובליקני	ADJ	ADJ	Gender=Fem|Number=Sing	39	amod	_	_
+42	,	,	PUNCT	PUNCT	_	43	punct	_	_
+43	כריסטין	כריסטין	PROPN	PROPN	_	39	appos	_	_
+44	טוד	טוד	PROPN	PROPN	_	43	flat:name	_	_
+45	ויטמן	ויטמן	PROPN	PROPN	_	43	flat:name	_	SpaceAfter=No
+46	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:13_4
+# doc_range = 8627-8774
+# sent_id = 328
+# text = מאחר שהכול ראו בה שיה מובלת לטבח, היא נשארה עם תקציב בחירות קטן ב90% מזה של בראדלי.
+1	מאחר	מאחר	SCONJ	SCONJ	_	4	mark	_	_
+2-3	שהכול	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	1	fixed	_	_
+3	הכול	הכול	PRON	PRON	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+4	ראו	ראה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	14	advcl	_	_
+5-6	בה	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
+7	שיה	שי	NOUN	NOUN	_	4	obj	_	_
+8	מובלת	מובלת	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Pass	7	amod	_	_
+9-11	לטבח	_	_	_	_	_	_	_	SpaceAfter=No
+9	ל	ל	ADP	ADP	_	11	case	_	_
+10	ה_	ה	DET	DET	PronType=Art|Definite=Def	11	det	_	_
+11	טבח	טבח	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+12	,	,	PUNCT	PUNCT	_	4	punct	_	_
+13	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	נשארה	נשאר	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+15	עם	עם	ADP	ADP	_	16	case	_	_
+16	תקציב	תקציב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	14	obl	_	_
+17	בחירות	בחירות	NOUN	NOUN	Gender=Fem|Number=Plur	16	compound:smixut	_	_
+18	קטן	קטן	ADJ	ADJ	Gender=Masc|Number=Sing	16	amod	_	_
+19-20	ב90	_	_	_	_	_	_	_	SpaceAfter=No
+19	ב	ב	ADP	ADP	_	21	case	_	_
+20	90	90	NUM	NUM	_	21	nummod	_	_
+21	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	18	dep	_	_
+22-23	מזה	_	_	_	_	_	_	_	_
+22	מ	מ	ADP	ADP	_	23	case	_	_
+23	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obl	_	_
+24	של	של	ADP	ADP	Case=Gen	25	case	_	_
+25	בראדלי	בראדלי	PROPN	PROPN	_	23	nmod:poss	_	SpaceAfter=No
+26	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# doc_id = htb:13_4
+# doc_range = 8776-8962
+# sent_id = 329
+# text = מריו קואומו היה המועמד הטבעי ביותר לנשיאות מאז נשא נאום מלהיב באוזני ועידת המפלגה הדמוקרטית, בקיץ 1984.
+1	מריו	מריו	PROPN	PROPN	_	5	nsubj	_	_
+2	קואומו	קואומו	PROPN	PROPN	_	1	flat:name	_	_
+3	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	5	cop	_	_
+4-5	המועמד	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	מועמד	מועמד	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+6-7	הטבעי	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	טבעי	טבעי	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	_
+8	ביותר	ביותר	ADV	ADV	_	7	advmod	_	_
+9-11	לנשיאות	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	11	case	_	_
+10	ה_	ה	DET	DET	PronType=Art|Definite=Def	11	det	_	_
+11	נשיאות	נשיאות	NOUN	NOUN	Gender=Fem|Number=Sing	5	nmod	_	_
+12-13	מאז	_	_	_	_	_	_	_	_
+12	מ	מ	ADP	ADP	_	14	case	_	_
+13	אז	אז	ADV	ADV	_	12	fixed	_	_
+14	נשא	נשא	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	5	nmod	_	_
+15	נאום	נאום	NOUN	NOUN	Gender=Masc|Number=Sing	14	obj	_	_
+16	מלהיב	הלהיב	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	15	amod	_	_
+17	באוזני	באוזני	ADP	ADP	_	18	case	_	_
+18	ועידת	ועידה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	14	obl	_	_
+19-20	המפלגה	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	מפלגה	מפלגה	NOUN	NOUN	Gender=Fem|Number=Sing	18	compound:smixut	_	_
+21-22	הדמוקרטית	_	_	_	_	_	_	_	SpaceAfter=No
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	דמוקרטית	דמוקרטי	ADJ	ADJ	Gender=Fem|Number=Sing	20	amod	_	_
+23	,	,	PUNCT	PUNCT	_	25	punct	_	_
+24-25	בקיץ	_	_	_	_	_	_	_	_
+24	ב	ב	ADP	ADP	_	25	case	_	_
+25	קיץ	קיץ	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	14	obl	_	_
+26	1984	1984	NUM	NUM	_	25	compound:smixut	_	SpaceAfter=No
+27	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:13_4
+# doc_range = 8965-9201
+# sent_id = 330
+# text = כשרון הדיבור שלו, העומק האינטלקטואלי, הנעימות והחמימות שכנעו אנשים רבים בארה"ב שהוא יהיה יום אחד התשובה הדמוקרטית לרונלד רייגן.
+1	כשרון	כישרון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	nsubj	_	_
+2-3	הדיבור	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	דיבור	דיבור	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4-5	שלו	_	_	_	_	_	_	_	SpaceAfter=No
+4	של	של	ADP	ADP	Case=Gen	5	case	_	_
+5	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	nmod:poss	_	_
+6	,	,	PUNCT	PUNCT	_	8	punct	_	_
+7-8	העומק	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	עומק	עומק	NOUN	NOUN	Gender=Masc|Number=Sing	1	conj	_	_
+9-10	האינטלקטואלי	_	_	_	_	_	_	_	SpaceAfter=No
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	אינטלקטואלי	אינטלקטואלי	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	_
+11	,	,	PUNCT	PUNCT	_	13	punct	_	_
+12-13	הנעימות	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	נעימות	נעימות	NOUN	NOUN	Gender=Fem|Number=Sing	1	conj	_	_
+14-16	והחמימות	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	חמימות	חמימות	NOUN	NOUN	Gender=Fem|Number=Sing	1	conj	_	_
+17	שכנעו	שכנע	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+18	אנשים	איש	NOUN	NOUN	Gender=Masc|Number=Plur	17	obj	_	_
+19	רבים	רב	ADJ	ADJ	Gender=Masc|Number=Plur	18	amod	_	_
+20-21	בארה"ב	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	ארה"ב	ארה"ב	PROPN	PROPN	Abbr=Yes	18	nmod	_	_
+22-23	שהוא	_	_	_	_	_	_	_	_
+22	ש	ש	SCONJ	SCONJ	_	28	mark	_	_
+23	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+24	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	28	cop	_	_
+25	יום	יום	NOUN	NOUN	Gender=Masc|Number=Sing	28	dep	_	_
+26	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	25	nummod	_	_
+27-28	התשובה	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	תשובה	תשובה	NOUN	NOUN	Gender=Fem|Number=Sing	17	ccomp	_	_
+29-30	הדמוקרטית	_	_	_	_	_	_	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	דמוקרטית	דמוקרטי	ADJ	ADJ	Gender=Fem|Number=Sing	28	amod	_	_
+31-32	לרונלד	_	_	_	_	_	_	_	_
+31	ל	ל	ADP	ADP	_	32	case	_	_
+32	רונלד	רונלד	PROPN	PROPN	_	28	nmod	_	_
+33	רייגן	רייגן	PROPN	PROPN	_	32	flat:name	_	SpaceAfter=No
+34	.	.	PUNCT	PUNCT	_	17	punct	_	_
+
+# doc_id = htb:13_4
+# doc_range = 9203-9415
+# sent_id = 331
+# text = העובדה שנחל ניצחון כל כך לא מרשים על יריבים כל כך לא מרשימים אינה אומרת בהכרח שסיכויו להתמודד על הבית הלבן אבדו לנצח.
+1-2	העובדה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	עובדה	עובדה	NOUN	NOUN	Gender=Fem|Number=Sing	17	nsubj	_	_
+3-4	שנחל	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
+4	נחל	נחל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	acl:relcl	_	_
+5	ניצחון	ניצחון	NOUN	NOUN	Gender=Masc|Number=Sing	4	obj	_	_
+6	כל	כול	DET	DET	Definite=Cons	9	advmod	_	_
+7	כך	כך	ADV	ADV	_	6	fixed	_	_
+8	לא	לא	ADV	ADV	Polarity=Neg	9	advmod	_	_
+9	מרשים	מרשים	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	_
+10	על	על	ADP	ADP	_	11	case	_	_
+11	יריבים	יריב	NOUN	NOUN	Gender=Masc|Number=Plur	5	nmod	_	_
+12	כל	כול	DET	DET	Definite=Cons	15	advmod	_	_
+13	כך	כך	ADV	ADV	_	12	fixed	_	_
+14	לא	לא	ADV	ADV	Polarity=Neg	15	advmod	_	_
+15	מרשימים	מרשים	ADJ	ADJ	Gender=Masc|Number=Plur	11	amod	_	_
+16	אינה	אינו	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	17	aux	_	_
+17	אומרת	אמר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+18	בהכרח	בהכרח	ADV	ADV	_	17	advmod	_	_
+19-22	שסיכויו	_	_	_	_	_	_	_	_
+19	ש	ש	SCONJ	SCONJ	_	29	mark	_	_
+20	סיכוי	סיכוי	NOUN	NOUN	Gender=Masc|Number=Sing	29	nsubj	_	_
+21	_של_	של	ADP	ADP	Case=Gen	22	case:gen	_	_
+22	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+23	להתמודד	התמודד	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	20	acl	_	_
+24	על	על	ADP	ADP	_	26	case	_	_
+25-26	הבית	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	בית	בית	NOUN	NOUN	Gender=Masc|Number=Sing	23	obl	_	_
+27-28	הלבן	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	לבן	לבן	ADJ	ADJ	Gender=Masc|Number=Sing	26	amod	_	_
+29	אבדו	אבד	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	17	ccomp	_	_
+30	לנצח	לנצח	ADV	ADV	_	29	advmod	_	SpaceAfter=No
+31	.	.	PUNCT	PUNCT	_	17	punct	_	_
+
+# doc_id = htb:13_4
+# doc_range = 9417-9495
+# sent_id = 332
+# text = היא אומרת לעומת זאת, שמשהו מן הקסם שלו אבד.
+1	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	אומרת	אמר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+3	לעומת	לעומת	ADP	ADP	_	4	case	_	_
+4	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	13	punct	_	_
+6-7	שמשהו	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	_	13	mark	_	_
+7	משהו	משהו	NOUN	NOUN	Gender=Masc|Number=Sing	13	nsubj	_	_
+8	מן	מן	ADP	ADP	_	7	case	_	HebSource=ConvUncertainLabel
+9-10	הקסם	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+10	קסם	קסם	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
+11-12	שלו	_	_	_	_	_	_	_	_
+11	של	של	ADP	ADP	Case=Gen	12	case	_	_
+12	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+13	אבד	אבד	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	2	ccomp	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	2	punct	_	_
+

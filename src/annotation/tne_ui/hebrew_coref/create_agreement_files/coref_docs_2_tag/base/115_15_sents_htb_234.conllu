@@ -1,0 +1,380 @@
+# doc_id = htb:234
+# doc_range = 1-114
+# sent_id = 5762
+# text = אורי מלמיליאן הסובל מפציעה בברכו עבר אתמול ניתוח ארתרוסקופיה.
+1	אורי	אורי	PROPN	PROPN	_	11	nsubj	_	_
+2	מלמיליאן	מלמיליאן	PROPN	PROPN	_	1	flat:name	_	_
+3-4	הסובל	_	_	_	_	_	_	_	_
+3	ה	ה	SCONJ	SCONJ	_	4	mark	_	_
+4	סובל	סבל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	1	acl:relcl	_	_
+5-6	מפציעה	_	_	_	_	_	_	_	_
+5	מ	מ	ADP	ADP	_	6	case	_	_
+6	פציעה	פציעה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+7-10	בברכו	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	ברך	ברך	NOUN	NOUN	Gender=Fem|Number=Sing	6	nmod	_	_
+9	_של_	של	ADP	ADP	Case=Gen	10	case:gen	_	_
+10	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+11	עבר	עבר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	_
+12	אתמול	אתמול	ADV	ADV	_	11	advmod	_	_
+13	ניתוח	ניתוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	obj	_	_
+14	ארתרוסקופיה	ארתרוסקופיה	NOUN	NOUN	_	13	compound:smixut	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:234
+# doc_range = 116-230
+# sent_id = 5763
+# text = השחקן יהיה במנוחה מוחלטת שלושה שבועות ויחזור בהדרגה לאימונים.
+1-2	השחקן	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	שחקן	שחקן	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	יהיה	יהיה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	5	cop	_	_
+4-5	במנוחה	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	מנוחה	מנוחה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+6	מוחלטת	מוחלט	ADJ	ADJ	Gender=Fem|Number=Sing	5	amod	_	_
+7	שלושה	שלוש	NUM	NUM	Gender=Masc|Number=Plur	8	nummod	_	_
+8	שבועות	שבוע	NOUN	NOUN	Gender=Masc|Number=Plur	5	obl:tmod	_	_
+9-10	ויחזור	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+10	יחזור	חזר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	5	conj	_	_
+11-12	בהדרגה	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	הדרגה	הדרגה	NOUN	NOUN	Gender=Fem|Number=Sing	10	obl	_	_
+13-15	לאימונים	_	_	_	_	_	_	_	SpaceAfter=No
+13	ל	ל	ADP	ADP	_	15	case	_	_
+14	ה_	ה	DET	DET	PronType=Art|Definite=Def	15	det	_	_
+15	אימונים	אימון	NOUN	NOUN	Gender=Masc|Number=Plur	10	obl	_	_
+16	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:234
+# doc_range = 232-294
+# sent_id = 5764
+# text = הוא ישוב לשחק רק בעוד שישה שבועות.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	ישוב	שב	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+3	לשחק	שיחק	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	רק	רק	ADV	ADV	_	7	advmod	_	_
+5	בעוד	בעוד	ADP	ADP	_	7	case	_	_
+6	שישה	שש	NUM	NUM	Gender=Masc|Number=Plur	7	nummod	_	_
+7	שבועות	שבוע	NOUN	NOUN	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:234
+# doc_range = 296-422
+# sent_id = 5765
+# text = הנהלה תדון עם המאמן כיצד להוציא את הפועל כפ"ס מן המצב הקשה אליו נקלעה.
+1	הנהלה	הנהלה	NOUN	NOUN	Gender=Fem|Number=Sing	2	nsubj	_	_
+2	תדון	דן	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Fut	0	root	_	_
+3	עם	עם	ADP	ADP	_	5	case	_	_
+4-5	המאמן	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	מאמן	מאמן	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+6	כיצד	כיצד	ADV	ADV	PronType=Int	7	advmod	_	_
+7	להוציא	הוציא	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+8	את	את	ADP	ADP	Case=Acc	10	case	_	_
+9-10	הפועל	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	פועל	פועל	PROPN	PROPN	_	7	obj	_	_
+11	כפ"ס	כפ"ס	PROPN	PROPN	Abbr=Yes	10	flat:name	_	_
+12	מן	מן	ADP	ADP	_	14	case	_	_
+13-14	המצב	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	מצב	מצב	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
+15-16	הקשה	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	קשה	קשה	ADJ	ADJ	Gender=Masc|Number=Sing	14	amod	_	_
+17-18	אליו	_	_	_	_	_	_	_	_
+17	אל	אל	ADP	ADP	_	18	case	_	_
+18	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obl	_	_
+19	נקלעה	נקלע	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	14	acl	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:234
+# doc_range = 424-532
+# sent_id = 5766
+# text = בכפ"ס הכחישו אמש שנוהלו, או מתנהלים, מגעים עם מאמנים אחרים.
+1-2	בכפ"ס	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	כפ"ס	כפ"ס	PROPN	PROPN	Abbr=Yes	3	obl	_	_
+3	הכחישו	הכחיש	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	אמש	אמש	ADV	ADV	_	3	advmod	_	_
+5-6	שנוהלו	_	_	_	_	_	_	_	SpaceAfter=No
+5	ש	ש	SCONJ	SCONJ	_	6	mark	_	_
+6	נוהלו	נוהל	VERB	VERB	Gender=Fem,Masc|HebBinyan=PUAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	3	ccomp	_	_
+7	,	,	PUNCT	PUNCT	_	9	punct	_	_
+8	או	או	CCONJ	CCONJ	_	9	cc	_	_
+9	מתנהלים	התנהל	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	11	punct	_	_
+11	מגעים	מגע	NOUN	NOUN	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
+12	עם	עם	ADP	ADP	_	13	case	_	_
+13	מאמנים	מאמן	NOUN	NOUN	Gender=Masc|Number=Plur	11	nmod	_	_
+14	אחרים	אחר	ADJ	ADJ	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:234
+# doc_range = 534-678
+# sent_id = 5767
+# text = הדיעה הרווחת בחוגי הקבוצה היא, כי נכון לעכשיו וויטאק לאזארק יישאר מאמן הקבוצה.
+1-2	הדיעה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	דיעה	דעה	NOUN	NOUN	Gender=Fem|Number=Sing	17	nsubj	_	_
+3-4	הרווחת	_	_	_	_	_	_	_	_
+3	ה	ה	SCONJ	SCONJ	_	4	mark	_	_
+4	רווחת	רווח	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	2	acl:relcl	_	_
+5-6	בחוגי	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	חוגי	חוג	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	obl	_	_
+7-8	הקבוצה	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	קבוצה	קבוצה	NOUN	NOUN	Gender=Fem|Number=Sing	6	compound:smixut	_	_
+9	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	17	cop	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	9	punct	_	_
+11	כי	כי	SCONJ	SCONJ	_	17	mark	_	_
+12	נכון	נכון	ADJ	ADJ	Gender=Masc|Number=Sing	14	advmod	_	_
+13-14	לעכשיו	_	_	_	_	_	_	_	_
+13	ל	ל	ADV	ADV	_	14	advmod	_	_
+14	עכשיו	עכשיו	ADV	ADV	_	17	advmod	_	_
+15	וויטאק	וויטאק	PROPN	PROPN	_	17	nsubj	_	_
+16	לאזארק	לאזארק	PROPN	PROPN	_	15	flat:name	_	_
+17	יישאר	נשאר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Fut|Voice=Mid	0	root	_	_
+18	מאמן	מאמן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	xcomp	_	_
+19-20	הקבוצה	_	_	_	_	_	_	_	SpaceAfter=No
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	קבוצה	קבוצה	NOUN	NOUN	Gender=Fem|Number=Sing	18	compound:smixut	_	_
+21	.	.	PUNCT	PUNCT	_	17	punct	_	_
+
+# doc_id = htb:234
+# doc_range = 680-807
+# sent_id = 5768
+# text = יחד עם זאת אין מכחישים, כי כל צעד שיביא להבראת מצב הקבוצה אפשרי בעתיד.
+1	יחד	יחד	ADV	ADV	_	5	advmod	_	_
+2	עם	עם	ADP	ADP	_	1	fixed	_	_
+3	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	1	fixed	_	_
+4	אין	אין	ADV	ADV	Polarity=Neg	5	advmod	_	_
+5	מכחישים	הכחיש	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	17	punct	_	_
+7	כי	כי	SCONJ	SCONJ	_	17	mark	_	_
+8	כל	כול	DET	DET	Definite=Cons	9	det	_	_
+9	צעד	צעד	NOUN	NOUN	Gender=Masc|Number=Sing	17	nsubj	_	_
+10-11	שיביא	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	11	mark	_	_
+11	יביא	הביא	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	9	acl:relcl	_	_
+12-13	להבראת	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	_	13	case	_	_
+13	הבראת	הבראה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	11	obl	_	_
+14	מצב	מצב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	compound:smixut	_	_
+15-16	הקבוצה	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	קבוצה	קבוצה	NOUN	NOUN	Gender=Fem|Number=Sing	14	compound:smixut	_	_
+17	אפשרי	אפשרי	ADJ	ADJ	Gender=Masc|Number=Sing	5	ccomp	_	_
+18-20	בעתיד	_	_	_	_	_	_	_	SpaceAfter=No
+18	ב	ב	ADP	ADP	_	20	case	_	_
+19	ה_	ה	DET	DET	PronType=Art|Definite=Def	20	det	_	_
+20	עתיד	עתיד	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	_
+21	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:234
+# doc_range = 809-862
+# sent_id = 5769
+# text = בינתיים הוחלט לרכוש חלוץ חדש.
+1	בינתיים	בינתיים	ADV	ADV	_	2	advmod	_	_
+2	הוחלט	הוחלט	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+3	לרכוש	רכש	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	חלוץ	חלוץ	NOUN	NOUN	Gender=Masc|Number=Sing	3	obj	_	_
+5	חדש	חדש	ADJ	ADJ	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:234
+# doc_range = 864-969
+# sent_id = 5770
+# text = החיפושים מתנהלים בשני כיוונים: מן הליגה הלאומית או מחו"ל.
+1-2	החיפושים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	חיפושים	חיפוש	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	מתנהלים	התנהל	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+4-5	בשני	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	6	case	_	_
+5	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	6	nummod	_	_
+6	כיוונים	כיוון	NOUN	NOUN	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+7	:	:	PUNCT	PUNCT	_	10	punct	_	_
+8	מן	מן	ADP	ADP	_	10	case	_	_
+9-10	הליגה	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	ליגה	ליגה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+11-12	הלאומית	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	לאומית	לאומי	ADJ	ADJ	Gender=Fem|Number=Sing	10	amod	_	_
+13	או	או	CCONJ	CCONJ	_	15	cc	_	_
+14-15	מחו"ל	_	_	_	_	_	_	_	SpaceAfter=No
+14	מ	מ	ADP	ADP	_	15	case	_	_
+15	חו"ל	חו"ל	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	10	conj	_	_
+16	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:234
+# doc_range = 971-1110
+# sent_id = 5771
+# text = במקרה השני יהיה הדבר על חשבון אחד המגינים הפולנים של הקבוצה: קפיאס או וויאס.
+1-3	במקרה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	מקרה	מקרה	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod	_	_
+4-5	השני	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	שני	שני	ADJ	ADJ	Gender=Masc|Number=Sing	3	amod	_	_
+6	יהיה	יהיה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	10	cop	_	_
+7-8	הדבר	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Sing	10	nsubj	_	_
+9	על	על	ADP	ADP	_	10	case	_	_
+10	חשבון	חשבון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	_
+11	אחד	אחת	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	13	nummod	_	_
+12-13	המגינים	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	מגינים	מגן	NOUN	NOUN	Gender=Masc|Number=Plur	10	compound:smixut	_	_
+14-15	הפולנים	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	פולנים	פולני	ADJ	ADJ	Gender=Masc|Number=Plur	13	amod	_	_
+16	של	של	ADP	ADP	Case=Gen	18	case	_	_
+17-18	הקבוצה	_	_	_	_	_	_	_	SpaceAfter=No
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	קבוצה	קבוצה	NOUN	NOUN	Gender=Fem|Number=Sing	13	nmod	_	_
+19	:	:	PUNCT	PUNCT	_	20	punct	_	_
+20	קפיאס	קפיאס	PROPN	PROPN	_	13	appos	_	_
+21	או	או	CCONJ	CCONJ	_	22	cc	_	_
+22	וויאס	וויאס	PROPN	PROPN	_	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:234
+# doc_range = 1112-1206
+# sent_id = 5772
+# text = אתמול ערך לאזארק אימון והיום אמור להיות אימון נוסף.
+1	אתמול	אתמול	ADV	ADV	_	2	advmod	_	_
+2	ערך	ערך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	לאזארק	לאזארק	PROPN	PROPN	_	2	nsubj	_	_
+4	אימון	אימון	NOUN	NOUN	Gender=Masc|Number=Sing	2	obj	_	_
+5-6	והיום	_	_	_	_	_	_	_	_
+5	ו	ו	CCONJ	CCONJ	_	8	cc	_	_
+6	היום	היום	ADV	ADV	_	8	advmod	_	_
+7	אמור	אמור	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	8	aux	_	_
+8	להיות	היה	AUX	AUX	Polarity=Pos|VerbForm=Inf|VerbType=Cop	2	conj	_	_
+9	אימון	אימון	NOUN	NOUN	Gender=Masc|Number=Sing	8	nsubj	_	_
+10	נוסף	נוסף	ADJ	ADJ	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:234
+# doc_range = 1210-1355
+# sent_id = 5773
+# text = ההנהלה תתכנס להחליט על המשך דרכו של המאמן דרור בר נור לאור מצבה הגרוע של הקבוצה.
+1-2	ההנהלה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	הנהלה	הנהלה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	תתכנס	התכנס	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Fut	0	root	_	_
+4	להחליט	החליט	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	על	על	ADP	ADP	_	6	case	_	_
+6	המשך	המשך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	obl	_	_
+7-9	דרכו	_	_	_	_	_	_	_	_
+7	דרך	דרך	NOUN	NOUN	Gender=Fem|Number=Sing	6	compound:smixut	_	_
+8	_של_	של	ADP	ADP	Case=Gen	9	case:gen	_	_
+9	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+10	של	של	ADP	ADP	Case=Gen	12	case	_	_
+11-12	המאמן	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	מאמן	מאמן	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod:poss	_	_
+13	דרור	דרור	PROPN	PROPN	_	12	flat:name	_	_
+14	בר	בר	PROPN	PROPN	_	12	flat:name	_	_
+15	נור	נור	PROPN	PROPN	_	14	flat:name	_	_
+16	לאור	לאור	ADP	ADP	_	17	case	_	_
+17-19	מצבה	_	_	_	_	_	_	_	_
+17	מצב	מצב	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+18	_של_	של	ADP	ADP	Case=Gen	19	case:gen	_	_
+19	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+20-21	הגרוע	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	גרוע	גרוע	ADJ	ADJ	Gender=Masc|Number=Sing	17	amod	_	_
+22	של	של	ADP	ADP	Case=Gen	24	case	_	_
+23-24	הקבוצה	_	_	_	_	_	_	_	SpaceAfter=No
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	קבוצה	קבוצה	NOUN	NOUN	Gender=Fem|Number=Sing	17	nmod:poss	_	_
+25	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:234
+# doc_range = 1359-1451
+# sent_id = 5774
+# text = מקווים לסיים את המו"ם עם אופיר שמואלי עד סוף השבוע.
+1	מקווים	קיווה	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+2	לסיים	סיים	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	1	xcomp	_	_
+3	את	את	ADP	ADP	Case=Acc	5	case	_	_
+4-5	המו"ם	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	מו"ם	מו"ם	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	1	obj	_	_
+6	עם	עם	ADP	ADP	_	7	case	_	_
+7	אופיר	אופיר	PROPN	PROPN	_	5	nmod	_	_
+8	שמואלי	שמואלי	PROPN	PROPN	_	7	flat:name	_	_
+9	עד	עד	ADP	ADP	_	10	case	_	_
+10	סוף	סוף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	obl	_	_
+11-12	השבוע	_	_	_	_	_	_	_	SpaceAfter=No
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
+13	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:234
+# doc_range = 1453-1565
+# sent_id = 5775
+# text = בינתיים ממשיך השחקן, שחזר לאימוני הקבוצה בשבוע שעבר, להתאמן.
+1	בינתיים	בינתיים	ADV	ADV	_	2	advmod	_	_
+2	ממשיך	המשיך	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+3-4	השחקן	_	_	_	_	_	_	_	SpaceAfter=No
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	שחקן	שחקן	NOUN	NOUN	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	,	,	PUNCT	PUNCT	_	7	punct	_	_
+6-7	שחזר	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	_	7	mark	_	_
+7	חזר	חזר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	4	acl:relcl	_	_
+8-9	לאימוני	_	_	_	_	_	_	_	_
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	אימוני	אימון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	7	obl	_	_
+10-11	הקבוצה	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	קבוצה	קבוצה	NOUN	NOUN	Gender=Fem|Number=Sing	9	compound:smixut	_	_
+12-14	בשבוע	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	14	case	_	_
+13	ה_	ה	DET	DET	PronType=Art|Definite=Def	14	det	_	_
+14	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
+15-16	שעבר	_	_	_	_	_	_	_	SpaceAfter=No
+15	ש	ש	SCONJ	SCONJ	_	16	mark	_	_
+16	עבר	עבר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	14	acl:relcl	_	_
+17	,	,	PUNCT	PUNCT	_	18	punct	_	_
+18	להתאמן	התאמן	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:234
+# doc_range = 1567-1703
+# sent_id = 5776
+# text = המאמן זאב זלצר לא יכול היה להעריך, כמה זמן ידרש לשחקן עד שיחזור לכושר משחק.
+1-2	המאמן	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מאמן	מאמן	NOUN	NOUN	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	זאב	זאב	PROPN	PROPN	_	2	flat:name	_	_
+4	זלצר	זלצר	PROPN	PROPN	_	2	flat:name	_	_
+5	לא	לא	ADV	ADV	Polarity=Neg	8	advmod	_	_
+6	יכול	יכול	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part|VerbType=Mod	8	aux	_	_
+7	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	8	cop	_	_
+8	להעריך	העריך	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	12	punct	_	_
+10	כמה	כמה	DET	DET	Definite=Cons	11	det	_	_
+11	זמן	זמן	NOUN	NOUN	Gender=Masc|Number=Sing	12	nsubj	_	_
+12	ידרש	נדרש	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Fut|Voice=Mid	8	advcl	_	_
+13-14	לשחקן	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	שחקן	שחקן	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
+15	עד	עד	ADP	ADP	_	17	mark	_	_
+16-17	שיחזור	_	_	_	_	_	_	_	_
+16	ש	ש	SCONJ	SCONJ	_	15	fixed	_	_
+17	יחזור	חזר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	12	advcl	_	_
+18-19	לכושר	_	_	_	_	_	_	_	_
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	כושר	כושר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	obl	_	_
+20	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	19	compound:smixut	_	SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	8	punct	_	_
+

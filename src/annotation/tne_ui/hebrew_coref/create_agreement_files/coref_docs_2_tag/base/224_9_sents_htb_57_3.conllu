@@ -1,0 +1,465 @@
+# doc_id = htb:57_3
+# doc_range = 6831-7051
+# sent_id = 1880
+# text = הרצון לחסוך בהוצאות לדיור במשרדי הממשלה גרם למחלוקת קשה בין משרדי שבה מעורבים משרדי התעשיה והמסחר, איכות הסביבה והאוצר.
+1-2	הרצון	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	רצון	רצון	NOUN	NOUN	Gender=Masc|Number=Sing	12	nsubj	_	_
+3	לחסוך	חסך	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	2	acl	_	_
+4-5	בהוצאות	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	הוצאות	הוצאה	NOUN	NOUN	Gender=Fem|Number=Plur	3	obl	_	_
+6-7	לדיור	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	דיור	דיור	NOUN	NOUN	Gender=Masc|Number=Sing	5	nmod	_	_
+8-9	במשרדי	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	משרדי	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	5	nmod	_	_
+10-11	הממשלה	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	9	compound:smixut	_	_
+12	גרם	גרם	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+13-14	למחלוקת	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	מחלוקת	מחלוקת	NOUN	NOUN	Gender=Fem|Number=Sing	12	obl	_	_
+15	קשה	קשה	ADJ	ADJ	Gender=Fem|Number=Sing	14	amod	_	_
+16	בין	בין	ADV	ADV	Prefix=Yes	17	compound:affix	_	_
+17	משרדי	משרדי	ADJ	ADJ	Gender=Masc|Number=Sing	14	amod	_	_
+18-20	שבה	_	_	_	_	_	_	_	_
+18	ש	ש	SCONJ	SCONJ	_	21	mark	_	_
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	obl	_	_
+21	מעורבים	מעורב	VERB	VERB	Tense=Pres|VerbForm=Part	14	acl:relcl	_	_
+22	משרדי	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	21	nsubj	_	_
+23-24	התעשיה	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	תעשיה	תעשייה	NOUN	NOUN	Gender=Fem|Number=Sing	22	compound:smixut	_	_
+25-27	והמסחר	_	_	_	_	_	_	_	SpaceAfter=No
+25	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	מסחר	מסחר	NOUN	NOUN	Gender=Masc|Number=Sing	24	conj	_	_
+28	,	,	PUNCT	PUNCT	_	29	punct	_	_
+29	איכות	איכות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	24	conj	_	_
+30-31	הסביבה	_	_	_	_	_	_	_	_
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	סביבה	סביבה	NOUN	NOUN	Gender=Fem|Number=Sing	29	compound:smixut	_	_
+32-34	והאוצר	_	_	_	_	_	_	_	SpaceAfter=No
+32	ו	ו	CCONJ	CCONJ	_	34	cc	_	_
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	אוצר	אוצר	NOUN	NOUN	Gender=Masc|Number=Sing	24	conj	_	_
+35	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# doc_id = htb:57_3
+# doc_range = 7053-7318
+# sent_id = 1881
+# text = תוכנית האוצר היתה שמשרד התעשייה יפנה את המשרדים שהוא מחזיק ב"בניין דוד" ברחוב קרן היסוד בירושלים ויעבירם למיבנה אחר סמוך ולבניין הראשי של המשרד.
+1	תוכנית	תוכנית	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	nsubj	_	_
+2-3	האוצר	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	אוצר	אוצר	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4	היתה	היה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	9	cop	_	_
+5-6	שמשרד	_	_	_	_	_	_	_	_
+5	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
+6	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	nsubj	_	_
+7-8	התעשייה	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	תעשייה	תעשייה	NOUN	NOUN	Gender=Fem|Number=Sing	6	compound:smixut	_	_
+9	יפנה	פינה	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	0	root	_	_
+10	את	את	ADP	ADP	Case=Acc	12	case	_	_
+11-12	המשרדים	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	משרדים	משרד	NOUN	NOUN	Gender=Masc|Number=Plur	9	obj	_	_
+13-14	שהוא	_	_	_	_	_	_	_	_
+13	ש	ש	SCONJ	SCONJ	_	15	mark	_	_
+14	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	מחזיק	החזיק	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	12	acl:relcl	_	_
+16-18	ב"בניין	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	18	case	_	_
+17	"	"	PUNCT	PUNCT	_	18	punct	_	_
+18	בניין	בניין	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	15	obl	_	_
+19	דוד	דוד	PROPN	PROPN	_	18	compound:smixut	_	SpaceAfter=No
+20	"	"	PUNCT	PUNCT	_	18	punct	_	_
+21-22	ברחוב	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	רחוב	רחוב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	18	nmod	_	_
+23	קרן	קרן	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	22	compound:smixut	_	_
+24-25	היסוד	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	יסוד	יסוד	NOUN	NOUN	Gender=Masc|Number=Sing	23	compound:smixut	_	_
+26-27	בירושלים	_	_	_	_	_	_	_	_
+26	ב	ב	ADP	ADP	_	27	case	_	_
+27	ירושלים	ירושלים	PROPN	PROPN	_	22	nmod	_	_
+28-31	ויעבירם	_	_	_	_	_	_	_	_
+28	ו	ו	CCONJ	CCONJ	_	29	cc	_	_
+29	העביר	העביר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	9	conj	_	_
+30	את_	את	ADP	ADP	Case=Acc	31	case:acc	_	_
+31	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	29	obj	_	_
+32-33	למיבנה	_	_	_	_	_	_	_	_
+32	ל	ל	ADP	ADP	_	33	case	_	_
+33	מיבנה	מבנה	NOUN	NOUN	Gender=Masc|Number=Sing	29	obl	_	_
+34	אחר	אחר	ADJ	ADJ	Gender=Masc|Number=Sing	33	amod	_	_
+35	סמוך	סמוך	ADJ	ADJ	Gender=Masc|Number=Sing	33	amod	_	_
+36-39	ולבניין	_	_	_	_	_	_	_	_
+36	ו	ו	CCONJ	CCONJ	_	39	cc	_	_
+37	ל	ל	ADP	ADP	_	39	case	_	_
+38	ה_	ה	DET	DET	PronType=Art|Definite=Def	39	det	_	_
+39	בניין	בניין	NOUN	NOUN	Gender=Masc|Number=Sing	33	conj	_	_
+40-41	הראשי	_	_	_	_	_	_	_	_
+40	ה	ה	DET	DET	Definite=Def|PronType=Art	41	det	_	_
+41	ראשי	ראשי	ADJ	ADJ	Gender=Masc|Number=Sing	39	amod	_	_
+42	של	של	ADP	ADP	Case=Gen	44	case	_	_
+43-44	המשרד	_	_	_	_	_	_	_	SpaceAfter=No
+43	ה	ה	DET	DET	Definite=Def|PronType=Art	44	det	_	_
+44	משרד	משרד	NOUN	NOUN	Gender=Masc|Number=Sing	39	nmod:poss	_	_
+45	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:57_3
+# doc_range = 7320-7407
+# sent_id = 1882
+# text = לבניין דוד אמורים היו לעבור משרדי איכות הסביבה.
+1-2	לבניין	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	בניין	בניין	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	obl	_	_
+3	דוד	דוד	PROPN	PROPN	_	2	compound:smixut	_	_
+4	אמורים	אמור	AUX	AUX	Gender=Masc|Number=Plur|Person=1,2,3|VerbType=Mod	6	aux	_	_
+5	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	6	cop	_	_
+6	לעבור	עבר	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	0	root	_	_
+7	משרדי	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	6	nsubj	_	_
+8	איכות	איכות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	compound:smixut	_	_
+9-10	הסביבה	_	_	_	_	_	_	_	SpaceAfter=No
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	סביבה	סביבה	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound:smixut	_	_
+11	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:57_3
+# doc_range = 7409-7600
+# sent_id = 1883
+# text = במשרד לאיכות הסביבה לא התלהבו יתר על המידה מהמבנה המוצע להם, אך בלית ברירה ניאותו לשקול את העניין בחיוב.
+1-3	במשרד	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	משרד	משרד	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	_
+4-5	לאיכות	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	איכות	איכות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	nmod	_	_
+6-7	הסביבה	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	סביבה	סביבה	NOUN	NOUN	Gender=Fem|Number=Sing	5	compound:smixut	_	_
+8	לא	לא	ADV	ADV	Polarity=Neg	9	advmod	_	_
+9	התלהבו	התלהב	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	0	root	_	_
+10	יתר	יתר	NOUN	NOUN	Gender=Masc|Number=Sing	9	advmod	_	_
+11	על	על	ADP	ADP	_	10	fixed	_	_
+12-13	המידה	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	10	fixed	_	_
+13	מידה	מידה	NOUN	NOUN	Gender=Fem|Number=Sing	10	fixed	_	_
+14-16	מהמבנה	_	_	_	_	_	_	_	_
+14	מ	מ	ADP	ADP	_	16	case	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	מבנה	מבנה	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	_
+17-18	המוצע	_	_	_	_	_	_	_	_
+17	ה	ה	SCONJ	SCONJ	_	18	mark	_	_
+18	מוצע	הוצע	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	16	acl:relcl	_	_
+19-20	להם	_	_	_	_	_	_	_	SpaceAfter=No
+19	ל	ל	ADP	ADP	_	20	case	_	_
+20	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	18	obl	_	_
+21	,	,	PUNCT	PUNCT	_	25	punct	_	_
+22	אך	אך	CCONJ	CCONJ	_	25	cc	_	_
+23	בלית	בלית	ADP	ADP	_	24	case	_	_
+24	ברירה	ברירה	NOUN	NOUN	Gender=Fem|Number=Sing	25	obl	_	_
+25	ניאותו	ניאות	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	9	conj	_	_
+26	לשקול	שקל	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	25	xcomp	_	_
+27	את	את	ADP	ADP	Case=Acc	29	case	_	_
+28-29	העניין	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	עניין	עניין	NOUN	NOUN	Gender=Masc|Number=Sing	26	obj	_	_
+30-31	בחיוב	_	_	_	_	_	_	_	SpaceAfter=No
+30	ב	ב	ADP	ADP	_	31	case	_	_
+31	חיוב	חיוב	NOUN	NOUN	Gender=Masc|Number=Sing	26	obl	_	_
+32	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:57_3
+# doc_range = 7602-8073
+# sent_id = 1884
+# text = אולם בישיבה שהתקיימה השבוע בהשתתפות מנכ"ל משרד התעשיה והמסחר צבי קורן, מנכ"ל משרד איכות הסביבה ד"ר אורי מרינוב, סגן החשב הכללי והאחראי על הדיור, נתן רטנר, ונציגי אגף התקציבים באוצר, הודיעו נציגי תמ"ס כי אין להם משאבים לבצע את מעבר משרדיהם מבניין אחד למישנהו.
+1	אולם	אולם	CCONJ	CCONJ	_	53	cc	_	_
+2-4	בישיבה	_	_	_	_	_	_	_	_
+2	ב	ב	ADP	ADP	_	4	case	_	_
+3	ה_	ה	DET	DET	PronType=Art|Definite=Def	4	det	_	_
+4	ישיבה	ישיבה	NOUN	NOUN	Gender=Fem|Number=Sing	53	obl	_	_
+5-6	שהתקיימה	_	_	_	_	_	_	_	_
+5	ש	ש	SCONJ	SCONJ	_	6	mark	_	_
+6	התקיימה	התקיים	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	4	acl:relcl	_	_
+7	השבוע	השבוע	ADV	ADV	_	6	advmod	_	_
+8-9	בהשתתפות	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	השתתפות	השתתפות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	obl	_	_
+10	מנכ"ל	מנכ"ל	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	9	compound:smixut	_	_
+11	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	compound:smixut	_	_
+12-13	התעשיה	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	תעשיה	תעשייה	NOUN	NOUN	Gender=Fem|Number=Sing	11	compound:smixut	_	_
+14-16	והמסחר	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	מסחר	מסחר	NOUN	NOUN	Gender=Masc|Number=Sing	13	conj	_	_
+17	צבי	צבי	PROPN	PROPN	_	10	flat:name	_	_
+18	קורן	קורן	PROPN	PROPN	_	10	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	20	punct	_	_
+20	מנכ"ל	מנכ"ל	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	10	conj	_	_
+21	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	20	compound:smixut	_	_
+22	איכות	איכות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	21	compound:smixut	_	_
+23-24	הסביבה	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	סביבה	סביבה	NOUN	NOUN	Gender=Fem|Number=Sing	22	compound:smixut	_	_
+25	ד"ר	ד"ר	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	20	nmod	_	_
+26	אורי	אורי	PROPN	PROPN	_	25	flat:name	_	_
+27	מרינוב	מרינוב	PROPN	PROPN	_	25	flat:name	_	SpaceAfter=No
+28	,	,	PUNCT	PUNCT	_	29	punct	_	_
+29	סגן	סגן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	conj	_	_
+30-31	החשב	_	_	_	_	_	_	_	_
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	חשב	חשב	NOUN	NOUN	Gender=Masc|Number=Sing	29	compound:smixut	_	_
+32-33	הכללי	_	_	_	_	_	_	_	_
+32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
+33	כללי	כללי	ADJ	ADJ	Gender=Masc|Number=Sing	31	amod	_	_
+34-36	והאחראי	_	_	_	_	_	_	_	_
+34	ו	ו	CCONJ	CCONJ	_	36	cc	_	_
+35	ה	ה	DET	DET	Definite=Def|PronType=Art	36	det	_	_
+36	אחראי	אחראי	NOUN	NOUN	Gender=Masc|Number=Sing	29	conj	_	_
+37	על	על	ADP	ADP	_	39	case	_	_
+38-39	הדיור	_	_	_	_	_	_	_	SpaceAfter=No
+38	ה	ה	DET	DET	Definite=Def|PronType=Art	39	det	_	_
+39	דיור	דיור	NOUN	NOUN	Gender=Masc|Number=Sing	36	nmod	_	_
+40	,	,	PUNCT	PUNCT	_	41	punct	_	_
+41	נתן	נתן	PROPN	PROPN	_	36	appos	_	_
+42	רטנר	רטנר	PROPN	PROPN	_	41	flat:name	_	SpaceAfter=No
+43	,	,	PUNCT	PUNCT	_	45	punct	_	_
+44-45	ונציגי	_	_	_	_	_	_	_	_
+44	ו	ו	CCONJ	CCONJ	_	45	cc	_	_
+45	נציגי	נציג	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	10	conj	_	_
+46	אגף	אגף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	45	compound:smixut	_	_
+47-48	התקציבים	_	_	_	_	_	_	_	_
+47	ה	ה	DET	DET	Definite=Def|PronType=Art	48	det	_	_
+48	תקציבים	תקציב	NOUN	NOUN	Gender=Masc|Number=Plur	46	compound:smixut	_	_
+49-51	באוצר	_	_	_	_	_	_	_	SpaceAfter=No
+49	ב	ב	ADP	ADP	_	51	case	_	_
+50	ה_	ה	DET	DET	PronType=Art|Definite=Def	51	det	_	_
+51	אוצר	אוצר	NOUN	NOUN	Gender=Masc|Number=Sing	46	nmod	_	_
+52	,	,	PUNCT	PUNCT	_	4	punct	_	_
+53	הודיעו	הודיע	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+54	נציגי	נציג	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	53	nsubj	_	_
+55	תמ"ס	תמ"ס	PROPN	PROPN	Abbr=Yes	54	compound:smixut	_	_
+56	כי	כי	SCONJ	SCONJ	_	57	mark	_	_
+57	אין	אין	VERB	VERB	HebExistential=Yes	53	ccomp	_	_
+58-59	להם	_	_	_	_	_	_	_	_
+58	ל	ל	ADP	ADP	_	59	case	_	_
+59	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	57	obl	_	_
+60	משאבים	משאב	NOUN	NOUN	Gender=Masc|Number=Plur	57	nsubj	_	_
+61	לבצע	ביצע	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	60	acl	_	_
+62	את	את	ADP	ADP	Case=Acc	63	case	_	_
+63	מעבר	מעבר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	61	obj	_	_
+64-65	משרדיהם	_	_	_	_	_	_	_	_
+64	משרדי	משרד	NOUN	NOUN	Gender=Masc|Number=Plur	63	compound:smixut	_	_
+65	הם	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	64	nmod:poss	_	_
+66-67	מבניין	_	_	_	_	_	_	_	_
+66	מ	מ	ADP	ADP	_	67	case	_	_
+67	בניין	בניין	NOUN	NOUN	Gender=Masc|Number=Sing	63	nmod	_	_
+68	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	67	nummod	_	_
+69-70	למישנהו	_	_	_	_	_	_	_	SpaceAfter=No
+69	ל	ל	ADP	ADP	_	70	case	_	_
+70	מישנהו	מישנהו	NOUN	NOUN	_	63	nmod	_	_
+71	.	.	PUNCT	PUNCT	_	53	punct	_	_
+
+# doc_id = htb:57_3
+# doc_range = 8075-8355
+# sent_id = 1885
+# text = בישיבה הוחלט כי המשרד לאיכות הסביבה ישלם למשרד התעשייה והמשרד חצי מיליון ש"ח עבור מרכזיית הטלפונים של תמ"ס שתועבר יחד עם המבנה לרשות המשרד לאיכות הסביבה.
+1-3	בישיבה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	ישיבה	ישיבה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+4	הוחלט	הוחלט	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+5	כי	כי	SCONJ	SCONJ	_	12	mark	_	_
+6-7	המשרד	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	משרד	משרד	NOUN	NOUN	Gender=Masc|Number=Sing	12	nsubj	_	_
+8-9	לאיכות	_	_	_	_	_	_	_	_
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	איכות	איכות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	nmod	_	_
+10-11	הסביבה	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	סביבה	סביבה	NOUN	NOUN	Gender=Fem|Number=Sing	9	compound:smixut	_	_
+12	ישלם	שילם	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	4	ccomp	_	_
+13-14	למשרד	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	obl	_	_
+15-16	התעשייה	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	תעשייה	תעשייה	NOUN	NOUN	Gender=Fem|Number=Sing	14	compound:smixut	_	_
+17-19	והמשרד	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	משרד	משרד	NOUN	NOUN	Gender=Masc|Number=Sing	16	conj	_	_
+20	חצי	חצי	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	12	obj	_	_
+21	מיליון	מיליון	NUM	NUM	Gender=Masc|Number=Plur	22	nummod	_	_
+22	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	20	compound:smixut	_	_
+23	עבור	עבור	ADP	ADP	_	24	case	_	_
+24	מרכזיית	מרכזייה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	obl	_	_
+25-26	הטלפונים	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	טלפונים	טלפון	NOUN	NOUN	Gender=Masc|Number=Plur	24	compound:smixut	_	_
+27	של	של	ADP	ADP	Case=Gen	28	case	_	_
+28	תמ"ס	תמ"ס	PROPN	PROPN	Abbr=Yes	24	nmod	_	_
+29-30	שתועבר	_	_	_	_	_	_	_	_
+29	ש	ש	SCONJ	SCONJ	_	30	mark	_	_
+30	תועבר	הועבר	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	24	acl:relcl	_	_
+31	יחד	יחד	ADV	ADV	_	34	case	_	_
+32	עם	עם	ADP	ADP	_	31	fixed	_	_
+33-34	המבנה	_	_	_	_	_	_	_	_
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	מבנה	מבנה	NOUN	NOUN	Gender=Masc|Number=Sing	30	obl	_	_
+35-36	לרשות	_	_	_	_	_	_	_	_
+35	ל	ל	ADP	ADP	_	36	case	_	_
+36	רשות	רשות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	30	obl	_	_
+37-38	המשרד	_	_	_	_	_	_	_	_
+37	ה	ה	DET	DET	Definite=Def|PronType=Art	38	det	_	_
+38	משרד	משרד	NOUN	NOUN	Gender=Masc|Number=Sing	36	compound:smixut	_	_
+39-40	לאיכות	_	_	_	_	_	_	_	_
+39	ל	ל	ADP	ADP	_	40	case	_	_
+40	איכות	איכות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	38	nmod	_	_
+41-42	הסביבה	_	_	_	_	_	_	_	SpaceAfter=No
+41	ה	ה	DET	DET	Definite=Def|PronType=Art	42	det	_	_
+42	סביבה	סביבה	NOUN	NOUN	Gender=Fem|Number=Sing	40	compound:smixut	_	_
+43	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:57_3
+# doc_range = 8358-8476
+# sent_id = 1886
+# text = מרינוב זעם על ההחלטה, ובמשרד לאיכות הסביבה טענו כי לא ימלאו אותה.
+1	מרינוב	מרינוב	PROPN	PROPN	_	2	nsubj	_	_
+2	זעם	זעם	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	על	על	ADP	ADP	_	5	case	_	_
+4-5	ההחלטה	_	_	_	_	_	_	_	SpaceAfter=No
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	החלטה	החלטה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl	_	_
+6	,	,	PUNCT	PUNCT	_	15	punct	_	_
+7-10	ובמשרד	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+8	ב	ב	ADP	ADP	_	10	case	_	_
+9	ה_	ה	DET	DET	PronType=Art|Definite=Def	10	det	_	_
+10	משרד	משרד	NOUN	NOUN	Gender=Masc|Number=Sing	15	obl	_	_
+11-12	לאיכות	_	_	_	_	_	_	_	_
+11	ל	ל	ADP	ADP	_	12	case	_	_
+12	איכות	איכות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	10	nmod	_	_
+13-14	הסביבה	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	סביבה	סביבה	NOUN	NOUN	Gender=Fem|Number=Sing	12	compound:smixut	_	_
+15	טענו	טען	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	2	conj	_	_
+16	כי	כי	SCONJ	SCONJ	_	18	mark	_	_
+17	לא	לא	ADV	ADV	Polarity=Neg	18	advmod	_	_
+18	ימלאו	מילא	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	15	ccomp	_	_
+19-20	אותה	_	_	_	_	_	_	_	SpaceAfter=No
+19	את	את	ADP	ADP	Case=Acc	20	case	_	_
+20	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+21	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:57_3
+# doc_range = 8479-8660
+# sent_id = 1887
+# text = אגף החשב הכללי באוצר תומך בעמדת המשרד לאיכות הסביבה ואילו באגף התקציבים באוצר מצדדים בעמדה ההפוכה.
+1	אגף	אגף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	nsubj	_	_
+2-3	החשב	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	חשב	חשב	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4-5	הכללי	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	כללי	כללי	ADJ	ADJ	Gender=Masc|Number=Sing	3	amod	_	_
+6-8	באוצר	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	8	case	_	_
+7	ה_	ה	DET	DET	PronType=Art|Definite=Def	8	det	_	_
+8	אוצר	אוצר	NOUN	NOUN	Gender=Masc|Number=Sing	1	nmod	_	_
+9	תומך	תמך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+10-11	בעמדת	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	עמדת	עמדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	obl	_	_
+12-13	המשרד	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	משרד	משרד	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound:smixut	_	_
+14-15	לאיכות	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	איכות	איכות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	13	nmod	_	_
+16-17	הסביבה	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	סביבה	סביבה	NOUN	NOUN	Gender=Fem|Number=Sing	15	compound:smixut	_	_
+18-19	ואילו	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
+19	אילו	אילו	CCONJ	CCONJ	_	18	conj	_	_
+20-21	באגף	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	אגף	אגף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	27	obl	_	_
+22-23	התקציבים	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	תקציבים	תקציב	NOUN	NOUN	Gender=Masc|Number=Plur	21	compound:smixut	_	_
+24-26	באוצר	_	_	_	_	_	_	_	_
+24	ב	ב	ADP	ADP	_	26	case	_	_
+25	ה_	ה	DET	DET	PronType=Art|Definite=Def	26	det	_	_
+26	אוצר	אוצר	NOUN	NOUN	Gender=Masc|Number=Sing	21	nmod	_	_
+27	מצדדים	צידד	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	9	conj	_	_
+28-30	בעמדה	_	_	_	_	_	_	_	_
+28	ב	ב	ADP	ADP	_	30	case	_	_
+29	ה_	ה	DET	DET	PronType=Art|Definite=Def	30	det	_	_
+30	עמדה	עמדה	NOUN	NOUN	Gender=Fem|Number=Sing	27	obl	_	_
+31-32	ההפוכה	_	_	_	_	_	_	_	SpaceAfter=No
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	הפוכה	הפוך	ADJ	ADJ	Gender=Fem|Number=Sing	30	amod	_	_
+33	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:57_3
+# doc_range = 8662-8875
+# sent_id = 1888
+# text = במשרד לאיכות הסביבה התלוצצו השבוע והציעו לתמ"ס להעביר את המרכזייה לבניין החדש, "ואנו כבר נוכל להסתדר בכוחות עצמנו".
+1-3	במשרד	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	משרד	משרד	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+4-5	לאיכות	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	איכות	איכות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	nmod	_	_
+6-7	הסביבה	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	סביבה	סביבה	NOUN	NOUN	Gender=Fem|Number=Sing	5	compound:smixut	_	_
+8	התלוצצו	התלוצץ	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	0	root	_	_
+9	השבוע	השבוע	ADV	ADV	_	8	advmod	_	_
+10-11	והציעו	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+11	הציעו	הציע	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	8	conj	_	HebSource=ConvUncertainHead
+12-13	לתמ"ס	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	_	13	case	_	_
+13	תמ"ס	תמ"ס	PROPN	PROPN	Abbr=Yes	11	obl	_	_
+14	להעביר	העביר	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+15	את	את	ADP	ADP	Case=Acc	17	case	_	_
+16-17	המרכזייה	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	מרכזייה	מרכזייה	NOUN	NOUN	Gender=Fem|Number=Sing	14	obj	_	_
+18-20	לבניין	_	_	_	_	_	_	_	_
+18	ל	ל	ADP	ADP	_	20	case	_	_
+19	ה_	ה	DET	DET	PronType=Art|Definite=Def	20	det	_	_
+20	בניין	בניין	NOUN	NOUN	Gender=Masc|Number=Sing	14	obl	_	_
+21-22	החדש	_	_	_	_	_	_	_	SpaceAfter=No
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	חדש	חדש	ADJ	ADJ	Gender=Masc|Number=Sing	20	amod	_	_
+23	,	,	PUNCT	PUNCT	_	14	punct	_	_
+24	"	"	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
+25-26	ואנו	_	_	_	_	_	_	_	_
+25	ו	ו	CCONJ	CCONJ	_	29	cc	_	_
+26	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	29	nsubj	_	_
+27	כבר	כבר	ADV	ADV	_	29	advmod	_	_
+28	נוכל	יכול	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=1|Tense=Fut|VerbType=Mod	29	aux	_	_
+29	להסתדר	הסתדר	AUX	AUX	HebBinyan=HITPAEL|VerbForm=Inf	14	conj	_	_
+30-31	בכוחות	_	_	_	_	_	_	_	_
+30	ב	ב	ADP	ADP	_	31	case	_	_
+31	כוחות	כוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	29	obl	_	_
+32	עצמנו	עצמו	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	31	compound:smixut	_	SpaceAfter=No
+33	"	"	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
+34	.	.	PUNCT	PUNCT	_	8	punct	_	_
+

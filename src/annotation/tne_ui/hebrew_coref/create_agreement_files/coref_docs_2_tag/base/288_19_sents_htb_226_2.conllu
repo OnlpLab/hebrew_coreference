@@ -1,0 +1,680 @@
+# doc_id = htb:226_2
+# doc_range = 1843-1967
+# sent_id = 5593
+# text = באשדוד הציע המינהל מגרש של 31.5 דונם (לבינוי 160%) להקמת מבנה לתעשייה.
+1-2	באשדוד	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	אשדוד	אשדוד	PROPN	PROPN	_	3	obl	_	_
+3	הציע	הציע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4-5	המינהל	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	מינהל	מנהל	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+6	מגרש	מגרש	NOUN	NOUN	Gender=Masc|Number=Sing	3	obj	_	_
+7	של	של	ADP	ADP	Case=Gen	9	case	_	_
+8	31.5	31.5	NUM	NUM	_	9	nummod	_	_
+9	דונם	דונם	NOUN	NOUN	Gender=Masc|Number=Sing	6	nmod:poss	_	_
+10	(	(	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
+11-12	לבינוי	_	_	_	_	_	_	_	_
+11	ל	ל	ADP	ADP	_	12	case	_	_
+12	בינוי	בינוי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	appos	_	_
+13	160	160	NUM	NUM	_	14	nummod	_	SpaceAfter=No
+14	%	O	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	12	compound:smixut	_	SpaceAfter=No
+15	)	)	PUNCT	PUNCT	_	12	punct	_	_
+16-17	להקמת	_	_	_	_	_	_	_	_
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	הקמת	הקמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	obl	_	_
+18	מבנה	מבנה	NOUN	NOUN	Gender=Masc|Number=Sing	17	compound:smixut	_	_
+19-21	לתעשייה	_	_	_	_	_	_	_	SpaceAfter=No
+19	ל	ל	ADP	ADP	_	21	case	_	_
+20	ה_	ה	DET	DET	PronType=Art|Definite=Def	21	det	_	_
+21	תעשייה	תעשייה	NOUN	NOUN	Gender=Fem|Number=Sing	18	nmod	_	_
+22	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:226_2
+# doc_range = 1969-2131
+# sent_id = 5594
+# text = חברת מנרב אחזקות, שמניותיה נסחרות בבורסה התל-אביבית, זכתה במכרז ותשלם למינהל 805 אלף ש"ח.
+1	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	18	nsubj	_	_
+2	מנרב	מנרב	PROPN	PROPN	_	1	compound:smixut	_	_
+3	אחזקות	אחזקה	NOUN	NOUN	Gender=Fem|Number=Plur	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	9	punct	_	_
+5-8	שמניותיה	_	_	_	_	_	_	_	_
+5	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
+6	מנייה	מנייה	NOUN	NOUN	Gender=Fem|Number=Plur	9	nsubj	_	_
+7	_של_	של	ADP	ADP	Case=Gen	8	case:gen	_	_
+8	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+9	נסחרות	נסחר	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	1	acl:relcl	_	_
+10-12	בבורסה	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	12	case	_	_
+11	ה_	ה	DET	DET	PronType=Art|Definite=Def	12	det	_	_
+12	בורסה	בורסה	NOUN	NOUN	Gender=Fem|Number=Sing	9	obl	_	_
+13-14	התל	_	_	_	_	_	_	_	SpaceAfter=No
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	תל	תל	NOUN	NOUN	Gender=Masc|Number=Sing	12	amod	_	_
+15	-	-	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
+16	אביבית	אביבי	ADJ	ADJ	Gender=Fem|Number=Sing	14	dep	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	1	punct	_	_
+18	זכתה	זכה	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+19-21	במכרז	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	_	21	case	_	_
+20	ה_	ה	DET	DET	PronType=Art|Definite=Def	21	det	_	_
+21	מכרז	מכרז	NOUN	NOUN	Gender=Masc|Number=Sing	18	obl	_	_
+22-23	ותשלם	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
+23	תשלם	שילם	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	18	conj	_	_
+24-26	למינהל	_	_	_	_	_	_	_	_
+24	ל	ל	ADP	ADP	_	26	case	_	_
+25	ה_	ה	DET	DET	PronType=Art|Definite=Def	26	det	_	_
+26	מינהל	מנהל	NOUN	NOUN	Gender=Masc|Number=Sing	23	obl	_	_
+27	805	805	NUM	NUM	_	28	nummod	_	_
+28	אלף	אלף	NUM	NUM	Gender=Masc|Number=Plur	29	nummod	_	_
+29	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No
+30	.	.	PUNCT	PUNCT	_	18	punct	_	_
+
+# doc_id = htb:226_2
+# doc_range = 2133-2286
+# sent_id = 5595
+# text = מנרב, שבראשה עומד הקבלן אברהם קוזניצקי, בונה באשדוד בהיקפים גדולים, בעיקר למגורים.
+1	מנרב	מנרב	PROPN	PROPN	_	14	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	8	punct	_	_
+3-7	שבראשה	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	ראש	ראש	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+6	_של_	של	ADP	ADP	Case=Gen	7	case:gen	_	_
+7	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+8	עומד	עמד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	1	acl:relcl	_	_
+9-10	הקבלן	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	קבלן	קבלן	NOUN	NOUN	Gender=Masc|Number=Sing	8	nsubj	_	_
+11	אברהם	אברהם	PROPN	PROPN	_	10	flat:name	_	_
+12	קוזניצקי	קוזניצקי	PROPN	PROPN	_	10	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	1	punct	_	_
+14	בונה	בנה	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+15-16	באשדוד	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	אשדוד	אשדוד	PROPN	PROPN	_	14	obl	_	_
+17-18	בהיקפים	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	_	18	case	_	_
+18	היקפים	היקף	NOUN	NOUN	Gender=Masc|Number=Plur	14	obl	_	_
+19	גדולים	גדול	ADJ	ADJ	Gender=Masc|Number=Plur	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	PUNCT	_	23	punct	_	_
+21	בעיקר	בעיקר	ADV	ADV	_	23	advmod	_	_
+22-23	למגורים	_	_	_	_	_	_	_	SpaceAfter=No
+22	ל	ל	ADP	ADP	_	23	case	_	_
+23	מגורים	מגורים	NOUN	NOUN	Gender=Masc|Number=Plur	14	obl	_	_
+24	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# doc_id = htb:226_2
+# doc_range = 2288-2471
+# sent_id = 5596
+# text = בחודשים האחרונים מורגשת מגמה להחליף מבנים ודירות המושכרים בשכר דירה גבוה במבנים דומים, זולים יותר.
+1-3	בחודשים	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	חודשים	חודש	NOUN	NOUN	Gender=Masc|Number=Plur	6	obl	_	_
+4-5	האחרונים	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	אחרונים	אחרון	ADJ	ADJ	Gender=Masc|Number=Plur	3	amod	_	_
+6	מורגשת	הורגש	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+7	מגמה	מגמה	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+8	להחליף	החליף	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	7	acl	_	_
+9	מבנים	מבנה	NOUN	NOUN	Gender=Masc|Number=Plur	8	obj	_	_
+10-11	ודירות	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+11	דירות	דירה	NOUN	NOUN	Gender=Fem|Number=Plur	9	conj	_	_
+12-13	המושכרים	_	_	_	_	_	_	_	_
+12	ה	ה	SCONJ	SCONJ	_	13	mark	_	_
+13	מושכרים	הושכר	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	9	acl:relcl	_	_
+14-15	בשכר	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	שכר	שכר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	obl	_	_
+16	דירה	דירה	NOUN	NOUN	Gender=Fem|Number=Sing	15	compound:smixut	_	_
+17	גבוה	גבוה	ADJ	ADJ	Gender=Masc|Number=Sing	15	amod	_	_
+18-19	במבנים	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	19	case	_	_
+19	מבנים	מבנה	NOUN	NOUN	Gender=Masc|Number=Plur	8	obl	_	_
+20	דומים	דומה	ADJ	ADJ	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	22	punct	_	_
+22	זולים	זול	ADJ	ADJ	Gender=Masc|Number=Plur	19	amod	_	_
+23	יותר	יותר	ADV	ADV	_	22	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:226_2
+# doc_range = 2473-2697
+# sent_id = 5597
+# text = בעבר העדיפו שוכרים להמשיך ולשלם שכר דירה גבוה, ובלבד שלא לסבול מאי הנוחות של מעבר למבנה חדש, הכרוך לעתים גם בהוצאות כבדות.
+1-3	בעבר	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	עבר	עבר	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+4	העדיפו	העדיף	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	שוכרים	שוכר	NOUN	NOUN	Gender=Masc|Number=Plur	4	nsubj	_	_
+6	להמשיך	המשיך	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+7-8	ולשלם	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	8	cc	_	_
+8	לשלם	שילם	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	6	conj	_	_
+9	שכר	שכר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	dep	_	HebSource=ConvUncertainHead
+10	דירה	דירה	NOUN	NOUN	Gender=Fem|Number=Sing	9	compound:smixut	_	_
+11	גבוה	גבוה	ADJ	ADJ	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	17	punct	_	_
+13-14	ובלבד	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+14	בלבד	בלבד	ADV	ADV	_	17	advmod	_	_
+15-16	שלא	_	_	_	_	_	_	_	_
+15	ש	ש	SCONJ	SCONJ	_	17	dep	_	_
+16	לא	לא	ADV	ADV	Polarity=Neg	17	advmod	_	_
+17	לסבול	סבל	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	6	conj	_	_
+18-19	מאי	_	_	_	_	_	_	_	_
+18	מ	מ	ADP	ADP	_	21	case	_	_
+19	אי	אי	ADV	ADV	Prefix=Yes	21	compound:affix	_	_
+20-21	הנוחות	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	נוחות	נוחות	NOUN	NOUN	Gender=Fem|Number=Sing	17	obl	_	_
+22	של	של	ADP	ADP	Case=Gen	23	case	_	_
+23	מעבר	מעבר	NOUN	NOUN	Gender=Masc|Number=Sing	21	nmod:poss	_	_
+24-25	למבנה	_	_	_	_	_	_	_	_
+24	ל	ל	ADP	ADP	_	25	case	_	_
+25	מבנה	מבנה	NOUN	NOUN	Gender=Masc|Number=Sing	23	nmod	_	_
+26	חדש	חדש	ADJ	ADJ	Gender=Masc|Number=Sing	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	PUNCT	_	29	punct	_	_
+28-29	הכרוך	_	_	_	_	_	_	_	_
+28	ה	ה	SCONJ	SCONJ	_	29	mark	_	_
+29	כרוך	כרך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	23	acl:relcl	_	_
+30	לעתים	לעתים	ADV	ADV	_	29	advmod	_	_
+31	גם	גם	ADV	ADV	_	33	advmod	_	_
+32-33	בהוצאות	_	_	_	_	_	_	_	_
+32	ב	ב	ADP	ADP	_	33	case	_	_
+33	הוצאות	הוצאה	NOUN	NOUN	Gender=Fem|Number=Plur	29	obl	_	_
+34	כבדות	כבד	ADJ	ADJ	Gender=Fem|Number=Plur	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:226_2
+# doc_range = 2699-2872
+# sent_id = 5598
+# text = חברה בענף הרכב שכרה, באמצעות חברת רשף נכסים, מבנה בשטח 700 מ"ר באזור התעשייה של סגולה בפתח-תקוה.
+1	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj	_	_
+2-3	בענף	_	_	_	_	_	_	_	_
+2	ב	ב	ADP	ADP	_	3	case	_	_
+3	ענף	ענף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	nmod	_	_
+4-5	הרכב	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	רכב	רכב	NOUN	NOUN	Gender=Masc|Number=Sing	3	compound:smixut	_	_
+6	שכרה	שכר	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	9	punct	_	_
+8	באמצעות	באמצעות	ADP	ADP	_	9	case	_	_
+9	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	obl	_	_
+10	רשף	רשף	PROPN	PROPN	_	9	compound:smixut	_	_
+11	נכסים	נכס	NOUN	NOUN	Gender=Masc|Number=Plur	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	13	punct	_	_
+13	מבנה	מבנה	NOUN	NOUN	Gender=Masc|Number=Sing	6	obj	_	_
+14-15	בשטח	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	שטח	שטח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	nmod	_	_
+16	700	700	NUM	NUM	_	17	nummod	_	_
+17	מ"ר	מ"ר	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	15	compound:smixut	_	_
+18-19	באזור	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	19	case	_	_
+19	אזור	אזור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	obl	_	_
+20-21	התעשייה	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	תעשייה	תעשייה	NOUN	NOUN	Gender=Fem|Number=Sing	19	compound:smixut	_	_
+22	של	של	ADP	ADP	Case=Gen	23	case	_	_
+23	סגולה	סגולה	PROPN	PROPN	_	19	nmod	_	_
+24-25	בפתח	_	_	_	_	_	_	_	SpaceAfter=No
+24	ב	ב	ADP	ADP	_	25	case	_	_
+25	פתח	פתח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	19	nmod	_	_
+26	-	-	PUNCT	PUNCT	_	27	punct	_	SpaceAfter=No
+27	תקוה	תקוה	PROPN	PROPN	_	25	flat:name	_	SpaceAfter=No
+28	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:226_2
+# doc_range = 2874-3051
+# sent_id = 5599
+# text = החברה התחייבה לשלם לבעלי המבנה 3.5 דולר למ"ר מחיר נמוך יחסית, כיוון שהמבנה טעון שיפוצים משמעותיים.
+1-2	החברה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	התחייבה	התחייב	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	לשלם	שילם	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5-6	לבעלי	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	בעלי	בעל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	obl	_	_
+7-8	המבנה	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	מבנה	מבנה	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+9	3.5	3.5	NUM	NUM	_	10	nummod	_	_
+10	דולר	דולר	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+11-12	למ"ר	_	_	_	_	_	_	_	_
+11	ל	ל	ADP	ADP	_	12	case	_	_
+12	מ"ר	מ"ר	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	10	nmod	_	_
+13	מחיר	מחיר	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod	_	_
+14	נמוך	נמוך	ADJ	ADJ	Gender=Masc|Number=Sing	13	amod	_	_
+15	יחסית	יחסית	ADV	ADV	_	14	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	21	punct	_	_
+17	כיוון	כיוון	SCONJ	SCONJ	_	21	mark	_	_
+18-20	שהמבנה	_	_	_	_	_	_	_	_
+18	ש	ש	SCONJ	SCONJ	_	21	mark	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	מבנה	מבנה	NOUN	NOUN	Gender=Masc|Number=Sing	21	nsubj	_	_
+21	טעון	טען	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	13	nmod	_	_
+22	שיפוצים	שיפוץ	NOUN	NOUN	Gender=Masc|Number=Plur	21	nsubj	_	_
+23	משמעותיים	משמעותי	ADJ	ADJ	Gender=Masc|Number=Plur	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:226_2
+# doc_range = 3054-3230
+# sent_id = 5600
+# text = עד כה פעלה החברה ממבנה בקרית-אריה, שם שילמה כ6.5 דולר למ"ר, ובכך חסכה חלק ניכר מהוצאות שכר הדירה.
+1	עד	עד	ADV	ADV	_	3	advmod	_	_
+2	כה	כה	ADV	ADV	_	1	fixed	_	_
+3	פעלה	פעל	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4-5	החברה	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+6-7	ממבנה	_	_	_	_	_	_	_	_
+6	מ	מ	ADP	ADP	_	7	case	_	_
+7	מבנה	מבנה	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+8-9	בקרית	_	_	_	_	_	_	_	SpaceAfter=No
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	קרית	קריה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	nmod	_	_
+10	-	-	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+11	אריה	אריה	NOUN	NOUN	Gender=Masc|Number=Sing	9	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	14	punct	_	_
+13	שם	שם	ADV	ADV	_	14	advmod	_	_
+14	שילמה	שילם	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	_
+15-16	כ6.5	_	_	_	_	_	_	_	_
+15	כ	כ	ADP	ADP	_	17	case	_	_
+16	6.5	6.5	NUM	NUM	_	17	nummod	_	_
+17	דולר	דולר	NOUN	NOUN	Gender=Masc|Number=Sing	14	obj	_	_
+18-19	למ"ר	_	_	_	_	_	_	_	SpaceAfter=No
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	מ"ר	מ"ר	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	17	nmod	_	_
+20	,	,	PUNCT	PUNCT	_	24	punct	_	_
+21-23	ובכך	_	_	_	_	_	_	_	_
+21	ו	ו	CCONJ	CCONJ	_	24	cc	_	_
+22	ב	ב	ADP	ADP	_	23	case	_	_
+23	כך	כך	PRON	PRON	Person=3|PronType=Dem	24	obl	_	_
+24	חסכה	חסך	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	_
+25	חלק	חלק	NOUN	NOUN	Gender=Masc|Number=Sing	24	obj	_	_
+26	ניכר	ניכר	ADJ	ADJ	Gender=Masc|Number=Sing	25	amod	_	_
+27-28	מהוצאות	_	_	_	_	_	_	_	_
+27	מ	מ	ADP	ADP	_	28	case	_	_
+28	הוצאות	הוצאה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	25	nmod	_	_
+29	שכר	שכר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	28	compound:smixut	_	_
+30-31	הדירה	_	_	_	_	_	_	_	SpaceAfter=No
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	דירה	דירה	NOUN	NOUN	Gender=Fem|Number=Sing	29	compound:smixut	_	_
+32	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:226_2
+# doc_range = 3232-3404
+# sent_id = 5601
+# text = דוגמה אחרת: איש עסקים שכר דירה בת 5 חדרים בשטח של 165 מ"ר תמורת כ900 דולר ברחוב רב אשי בנווה-אביבים.
+1	דוגמה	דוגמה	NOUN	NOUN	Gender=Fem|Number=Sing	6	parataxis	_	_
+2	אחרת	אחר	ADJ	ADJ	Gender=Fem|Number=Sing	1	dep	_	SpaceAfter=No
+3	:	:	PUNCT	PUNCT	_	1	punct	_	_
+4	איש	איש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	dep	_	_
+5	עסקים	עסק	NOUN	NOUN	Gender=Masc|Number=Plur	4	compound:smixut	_	_
+6	שכר	שכר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	_
+7	דירה	דירה	NOUN	NOUN	Gender=Fem|Number=Sing	6	obj	_	_
+8	בת	בת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	acl	_	_
+9	5	5	NUM	NUM	_	10	nummod	_	_
+10	חדרים	חדר	NOUN	NOUN	Gender=Masc|Number=Plur	8	compound:smixut	_	_
+11-12	בשטח	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	שטח	שטח	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
+13	של	של	ADP	ADP	Case=Gen	15	case	_	_
+14	165	165	NUM	NUM	_	15	nummod	_	_
+15	מ"ר	מ"ר	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	12	nmod:poss	_	_
+16	תמורת	תמורת	ADP	ADP	_	19	case	_	_
+17-18	כ900	_	_	_	_	_	_	_	_
+17	כ	כ	ADP	ADP	_	19	case	_	_
+18	900	900	NUM	NUM	_	19	nummod	_	_
+19	דולר	דולר	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+20-21	ברחוב	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	רחוב	רחוב	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+22	רב	רב	NOUN	NOUN	Gender=Masc|Number=Sing	21	nmod	_	_
+23	אשי	אש	PROPN	PROPN	_	22	flat:name	_	_
+24-25	בנווה	_	_	_	_	_	_	_	SpaceAfter=No
+24	ב	ב	ADP	ADP	_	25	case	_	_
+25	נווה	נווה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	21	nmod	_	_
+26	-	-	PUNCT	PUNCT	_	27	punct	_	SpaceAfter=No
+27	אביבים	אביב	NOUN	NOUN	Gender=Masc|Number=Plur	25	flat:name	_	SpaceAfter=No
+28	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:226_2
+# doc_range = 3407-3511
+# sent_id = 5602
+# text = הדירה ששכר תחליף דירה דומה, ששכר במחיר של 1,000 דולר לחודש.
+1-2	הדירה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	דירה	דירה	NOUN	NOUN	Gender=Fem|Number=Sing	5	nsubj	_	_
+3-4	ששכר	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
+4	שכר	שכר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	2	acl:relcl	_	_
+5	תחליף	החליף	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+6	דירה	דירה	NOUN	NOUN	Gender=Fem|Number=Sing	5	obj	_	_
+7	דומה	דומה	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	10	punct	_	_
+9-10	ששכר	_	_	_	_	_	_	_	_
+9	ש	ש	SCONJ	SCONJ	_	10	mark	_	_
+10	שכר	שכר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	6	acl:relcl	_	_
+11-12	במחיר	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	מחיר	מחיר	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
+13	של	של	ADP	ADP	Case=Gen	15	case	_	_
+14	1,000	1,000	NUM	NUM	_	15	nummod	_	_
+15	דולר	דולר	NOUN	NOUN	Gender=Masc|Number=Sing	12	nmod:poss	_	_
+16-17	לחודש	_	_	_	_	_	_	_	SpaceAfter=No
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	חודש	חודש	NOUN	NOUN	Gender=Masc|Number=Sing	15	nmod	_	_
+18	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:226_2
+# doc_range = 3513-3625
+# sent_id = 5603
+# text = ירידה ריאלית מורגשת בחודשים האחרונים במחירי הדירות ברמת-גן.
+1	ירידה	ירידה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+2	ריאלית	ריאלי	ADJ	ADJ	Gender=Fem|Number=Sing	1	amod	_	_
+3	מורגשת	הורגש	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+4-6	בחודשים	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	6	case	_	_
+5	ה_	ה	DET	DET	PronType=Art|Definite=Def	6	det	_	_
+6	חודשים	חודש	NOUN	NOUN	Gender=Masc|Number=Plur	3	obl	_	_
+7-8	האחרונים	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	אחרונים	אחרון	ADJ	ADJ	Gender=Masc|Number=Plur	6	amod	_	_
+9-10	במחירי	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	מחירי	מחיר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	3	obl	_	_
+11-12	הדירות	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	דירות	דירה	NOUN	NOUN	Gender=Fem|Number=Plur	10	compound:smixut	_	_
+13-14	ברמת	_	_	_	_	_	_	_	SpaceAfter=No
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	רמת	רמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	nmod	_	_
+15	-	-	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
+16	גן	גן	NOUN	NOUN	Gender=Masc|Number=Sing	14	flat:name	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:226_2
+# doc_range = 3627-3671
+# sent_id = 5604
+# text = שיעור הירידה מוערך בכ10%.
+1	שיעור	שיעור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+2-3	הירידה	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	ירידה	ירידה	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+4	מוערך	הוערך	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+5-7	בכ10	_	_	_	_	_	_	_	SpaceAfter=No
+5	ב	ב	ADP	ADP	_	8	case	_	_
+6	כ	כ	ADP	ADP	_	8	case	_	_
+7	10	10	NUM	NUM	_	8	nummod	_	_
+8	%	O	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:226_2
+# doc_range = 3673-3989
+# sent_id = 5605
+# text = להלן כמה דוגמאות לגבי הירידה במחירים: דירה בת 5 חדרים ברח מעיין בגבעתיים, תמורתה ביקשו לפני כ4 חודשים 250 אלף דולר, נמכרה בסופו של דבר רק אחרי שמחירה ירד ל218 אלף דולר ירידה של 13%.
+1	להלן	להלן	ADV	ADV	_	0	root	_	_
+2	כמה	כמה	DET	DET	Definite=Cons	3	det	_	_
+3	דוגמאות	דוגמה	NOUN	NOUN	Gender=Fem|Number=Plur	1	nsubj	_	_
+4	לגבי	לגבי	ADP	ADP	_	6	case	_	_
+5-6	הירידה	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	ירידה	ירידה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nmod	_	_
+7-9	במחירים	_	_	_	_	_	_	_	SpaceAfter=No
+7	ב	ב	ADP	ADP	_	9	case	_	_
+8	ה_	ה	DET	DET	PronType=Art|Definite=Def	9	det	_	_
+9	מחירים	מחיר	NOUN	NOUN	Gender=Masc|Number=Plur	6	nmod	_	_
+10	:	:	PUNCT	PUNCT	_	33	punct	_	_
+11	דירה	דירה	NOUN	NOUN	Gender=Fem|Number=Sing	33	nsubj	_	_
+12	בת	בת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	11	acl	_	_
+13	5	5	NUM	NUM	_	14	nummod	_	_
+14	חדרים	חדר	NOUN	NOUN	Gender=Masc|Number=Plur	12	compound:smixut	_	_
+15-16	ברח	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	רח	רח	NOUN	NOUN	_	11	nmod	_	_
+17	מעיין	מעיין	PROPN	PROPN	_	16	nmod	_	_
+18-19	בגבעתיים	_	_	_	_	_	_	_	SpaceAfter=No
+18	ב	ב	ADP	ADP	_	19	case	_	_
+19	גבעתיים	גבעתיים	PROPN	PROPN	_	16	nmod	_	_
+20	,	,	PUNCT	PUNCT	_	24	punct	_	_
+21-23	תמורתה	_	_	_	_	_	_	_	_
+21	תמורה	תמורה	NOUN	NOUN	Gender=Fem|Number=Sing	24	dep	_	_
+22	_של_	של	ADP	ADP	Case=Gen	23	case:gen	_	_
+23	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+24	ביקשו	ביקש	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	11	acl	_	_
+25	לפני	לפני	ADP	ADP	_	28	case	_	_
+26-27	כ4	_	_	_	_	_	_	_	_
+26	כ	כ	ADP	ADP	_	28	case	_	_
+27	4	4	NUM	NUM	_	28	nummod	_	_
+28	חודשים	חודש	NOUN	NOUN	Gender=Masc|Number=Plur	24	obl	_	_
+29	250	250	NUM	NUM	_	30	nummod	_	_
+30	אלף	אלף	NUM	NUM	Gender=Masc|Number=Plur	31	nummod	_	_
+31	דולר	דולר	NOUN	NOUN	Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No
+32	,	,	PUNCT	PUNCT	_	11	punct	_	_
+33	נמכרה	נמכר	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	1	parataxis	_	_
+34-37	בסופו	_	_	_	_	_	_	_	_
+34	ב	ב	ADP	ADP	_	35	case	_	_
+35	סוף	סוף	NOUN	NOUN	Gender=Masc|Number=Sing	33	obl	_	_
+36	_של_	של	ADP	ADP	Case=Gen	37	case:gen	_	_
+37	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	_	_
+38	של	של	ADP	ADP	Case=Gen	39	case	_	_
+39	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Sing	35	nmod:poss	_	_
+40	רק	רק	ADV	ADV	_	41	advmod	_	_
+41	אחרי	אחרי	ADP	ADP	_	46	mark	_	_
+42-45	שמחירה	_	_	_	_	_	_	_	_
+42	ש	ש	SCONJ	SCONJ	_	41	fixed	_	_
+43	מחיר	מחיר	NOUN	NOUN	Gender=Masc|Number=Sing	46	nsubj	_	_
+44	_של_	של	ADP	ADP	Case=Gen	45	case:gen	_	_
+45	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	43	nmod:poss	_	_
+46	ירד	ירד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	33	advcl	_	_
+47-48	ל218	_	_	_	_	_	_	_	_
+47	ל	ל	ADP	ADP	_	50	case	_	_
+48	218	218	NUM	NUM	_	49	nummod	_	_
+49	אלף	אלף	NUM	NUM	Gender=Masc|Number=Plur	50	nummod	_	_
+50	דולר	דולר	NOUN	NOUN	Gender=Masc|Number=Sing	46	obl	_	_
+51	ירידה	ירידה	NOUN	NOUN	Gender=Fem|Number=Sing	50	nmod	_	_
+52	של	של	ADP	ADP	Case=Gen	54	case	_	_
+53	13	13	NUM	NUM	_	54	nummod	_	SpaceAfter=No
+54	%	O	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	51	nmod:poss	_	SpaceAfter=No
+55	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:226_2
+# doc_range = 3994-4175
+# sent_id = 5606
+# text = דירה ברח המרי בגבעתיים, שתמורתה ביקשו 240 אלף דולר, מוצעת כיום ב215 אלף דולר, ועדיין לא מצאו לה קונים.
+1	דירה	דירה	NOUN	NOUN	Gender=Fem|Number=Sing	18	nsubj:pass	_	_
+2-3	ברח	_	_	_	_	_	_	_	_
+2	ב	ב	ADP	ADP	_	3	case	_	_
+3	רח	רח	NOUN	NOUN	_	1	nmod	_	_
+4-5	המרי	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	מרי	מרי	NOUN	NOUN	Gender=Masc|Number=Sing	3	nmod	_	_
+6-7	בגבעתיים	_	_	_	_	_	_	_	SpaceAfter=No
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	גבעתיים	גבעתיים	PROPN	PROPN	_	3	nmod	_	_
+8	,	,	PUNCT	PUNCT	_	13	punct	_	_
+9-12	שתמורתה	_	_	_	_	_	_	_	_
+9	ש	ש	SCONJ	SCONJ	_	13	mark	_	_
+10	תמורה	תמורה	NOUN	NOUN	Gender=Fem|Number=Sing	13	nsubj	_	_
+11	_של_	של	ADP	ADP	Case=Gen	12	case:gen	_	_
+12	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+13	ביקשו	ביקש	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	1	acl:relcl	_	_
+14	240	240	NUM	NUM	_	15	nummod	_	_
+15	אלף	אלף	NUM	NUM	Gender=Masc|Number=Plur	16	nummod	_	_
+16	דולר	דולר	NOUN	NOUN	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	1	punct	_	_
+18	מוצעת	הוצע	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+19	כיום	כיום	ADV	ADV	_	18	advmod	_	_
+20-21	ב215	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	23	case	_	_
+21	215	215	NUM	NUM	_	22	nummod	_	_
+22	אלף	אלף	NUM	NUM	Gender=Masc|Number=Plur	23	nummod	_	_
+23	דולר	דולר	NOUN	NOUN	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+24	,	,	PUNCT	PUNCT	_	28	punct	_	_
+25-26	ועדיין	_	_	_	_	_	_	_	_
+25	ו	ו	CCONJ	CCONJ	_	28	cc	_	_
+26	עדיין	עדיין	ADV	ADV	_	28	advmod	_	_
+27	לא	לא	ADV	ADV	Polarity=Neg	28	advmod	_	_
+28	מצאו	מצא	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	18	conj	_	_
+29-30	לה	_	_	_	_	_	_	_	_
+29	ל	ל	ADP	ADP	_	30	case	_	_
+30	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	obl	_	_
+31	קונים	קונה	NOUN	NOUN	Gender=Masc|Number=Plur	28	obj	_	SpaceAfter=No
+32	.	.	PUNCT	PUNCT	_	18	punct	_	_
+
+# doc_id = htb:226_2
+# doc_range = 4177-4345
+# sent_id = 5607
+# text = דירת גג במיקום הנחשב למעולה, שתמורתה ביקשו לפני כ5 חודשים 290 אלף דולר, תימכר עתה ב260 אלף דולר.
+1	דירת	דירה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	23	nsubj	_	_
+2	גג	גג	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+3-4	במיקום	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	מיקום	מיקום	NOUN	NOUN	Gender=Masc|Number=Sing	1	nmod	_	_
+5-6	הנחשב	_	_	_	_	_	_	_	_
+5	ה	ה	SCONJ	SCONJ	_	6	mark	_	_
+6	נחשב	נחשב	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	4	acl:relcl	_	_
+7-8	למעולה	_	_	_	_	_	_	_	SpaceAfter=No
+7	ל	ל	ADP	ADP	_	8	case	_	_
+8	מעולה	מעולה	ADJ	ADJ	Gender=Masc|Number=Sing	6	xcomp	_	_
+9	,	,	PUNCT	PUNCT	_	14	punct	_	_
+10-13	שתמורתה	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
+11	תמורה	תמורה	NOUN	NOUN	Gender=Fem|Number=Sing	14	dep	_	_
+12	_של_	של	ADP	ADP	Case=Gen	13	case:gen	_	_
+13	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+14	ביקשו	ביקש	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	1	acl:relcl	_	_
+15	לפני	לפני	ADP	ADP	_	18	case	_	_
+16-17	כ5	_	_	_	_	_	_	_	_
+16	כ	כ	ADP	ADP	_	18	case	_	_
+17	5	5	NUM	NUM	_	18	nummod	_	_
+18	חודשים	חודש	NOUN	NOUN	Gender=Masc|Number=Plur	14	obl	_	_
+19	290	290	NUM	NUM	_	20	nummod	_	_
+20	אלף	אלף	NUM	NUM	Gender=Masc|Number=Plur	21	nummod	_	_
+21	דולר	דולר	NOUN	NOUN	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+22	,	,	PUNCT	PUNCT	_	1	punct	_	_
+23	תימכר	נמכר	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Fut|Voice=Mid	0	root	_	_
+24	עתה	עתה	ADV	ADV	_	23	advmod	_	_
+25-26	ב260	_	_	_	_	_	_	_	_
+25	ב	ב	ADP	ADP	_	28	case	_	_
+26	260	260	NUM	NUM	_	27	nummod	_	_
+27	אלף	אלף	NUM	NUM	Gender=Masc|Number=Plur	28	nummod	_	_
+28	דולר	דולר	NOUN	NOUN	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+29	.	.	PUNCT	PUNCT	_	23	punct	_	_
+
+# doc_id = htb:226_2
+# doc_range = 4347-4482
+# sent_id = 5608
+# text = חברת הכשרת הישוב רכשה מחצית מבית דייזי באזור התעשייה בהרצליה ב930 אלף דולר.
+1	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	הכשרת	הכשרה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	compound:smixut	_	_
+3-4	הישוב	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	ישוב	יישוב	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+5	רכשה	רכש	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+6	מחצית	מחצית	DET	DET	Definite=Cons	8	det	_	_
+7-8	מבית	_	_	_	_	_	_	_	_
+7	מ	מ	ADP	ADP	_	8	case	_	_
+8	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obj	_	_
+9	דייזי	דייזי	PROPN	PROPN	_	8	flat:name	_	_
+10-11	באזור	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	אזור	אזור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	nmod	_	_
+12-13	התעשייה	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	תעשייה	תעשייה	NOUN	NOUN	Gender=Fem|Number=Sing	11	compound:smixut	_	_
+14-15	בהרצליה	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	הרצליה	הרצליה	PROPN	PROPN	_	11	nmod	_	_
+16-17	ב930	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	19	case	_	_
+17	930	930	NUM	NUM	_	18	nummod	_	_
+18	אלף	אלף	NUM	NUM	Gender=Masc|Number=Plur	19	nummod	_	_
+19	דולר	דולר	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:226_2
+# doc_range = 4484-4552
+# sent_id = 5609
+# text = הבניין משתרע על שטח בנוי כולל של 2,000 מ"ר.
+1-2	הבניין	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	בניין	בניין	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	משתרע	השתרע	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+4	על	על	ADP	ADP	_	5	case	_	_
+5	שטח	שטח	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+6	בנוי	בנוי	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	_
+7	כולל	כולל	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	_
+8	של	של	ADP	ADP	Case=Gen	10	case	_	_
+9	2,000	2,000	NUM	NUM	_	10	nummod	_	_
+10	מ"ר	מ"ר	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:226_2
+# doc_range = 4560-4694
+# sent_id = 5610
+# text = הוא היה שייך למשפחת גולדברג, שאחד מבניה, גדעון גולדברג, מכר את חלקו (50%) בנכס.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	3	cop	_	_
+3	שייך	שייך	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
+4-5	למשפחת	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	משפחת	משפחה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	obl	_	_
+6	גולדברג	גולדברג	PROPN	PROPN	_	5	compound:smixut	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	18	punct	_	_
+8-9	שאחד	_	_	_	_	_	_	_	_
+8	ש	ש	SCONJ	SCONJ	_	18	mark	_	_
+9	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	11	nummod	_	_
+10-13	מבניה	_	_	_	_	_	_	_	SpaceAfter=No
+10	מ	מ	ADP	ADP	_	11	case	_	_
+11	בן	בן	NOUN	NOUN	Gender=Masc|Number=Plur	18	nsubj	_	_
+12	_של_	של	ADP	ADP	Case=Gen	13	case:gen	_	_
+13	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+14	,	,	PUNCT	PUNCT	_	15	punct	_	_
+15	גדעון	גדעון	PROPN	PROPN	_	11	appos	_	_
+16	גולדברג	גולדברג	PROPN	PROPN	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	11	punct	_	_
+18	מכר	מכר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	5	acl:relcl	_	_
+19	את	את	ADP	ADP	Case=Acc	20	case	_	_
+20-22	חלקו	_	_	_	_	_	_	_	_
+20	חלק	חלק	NOUN	NOUN	Gender=Masc|Number=Sing	18	obj	_	_
+21	_של_	של	ADP	ADP	Case=Gen	22	case:gen	_	_
+22	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+23	(	(	PUNCT	PUNCT	_	25	punct	_	SpaceAfter=No
+24	50	50	NUM	NUM	_	25	nummod	_	SpaceAfter=No
+25	%	O	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	20	appos	_	SpaceAfter=No
+26	)	)	PUNCT	PUNCT	_	25	punct	_	_
+27-29	בנכס	_	_	_	_	_	_	_	SpaceAfter=No
+27	ב	ב	ADP	ADP	_	29	case	_	_
+28	ה_	ה	DET	DET	PronType=Art|Definite=Def	29	det	_	_
+29	נכס	נכס	NOUN	NOUN	Gender=Masc|Number=Sing	20	nmod	_	_
+30	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:226_2
+# doc_range = 4705-4798
+# sent_id = 5611
+# text = הכשרת הישוב ביצעה את עסקת הרכישה על בסיס תשואה של 10%.
+1	הכשרת	הכשרה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	nsubj	_	_
+2-3	הישוב	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	ישוב	יישוב	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4	ביצעה	ביצע	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	את	את	ADP	ADP	Case=Acc	6	case	_	_
+6	עסקת	עסקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	obj	_	_
+7-8	הרכישה	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	רכישה	רכישה	NOUN	NOUN	Gender=Fem|Number=Sing	6	compound:smixut	_	_
+9	על	על	ADP	ADP	_	10	case	_	_
+10	בסיס	בסיס	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	obl	_	_
+11	תשואה	תשואה	NOUN	NOUN	Gender=Fem|Number=Sing	10	compound:smixut	_	_
+12	של	של	ADP	ADP	Case=Gen	14	case	_	_
+13	10	10	NUM	NUM	_	14	nummod	_	SpaceAfter=No
+14	%	O	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	11	nmod:poss	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	4	punct	_	_
+

@@ -1,0 +1,635 @@
+# doc_id = htb:8_2
+# doc_range = 3739-3953
+# sent_id = 100
+# text = טום הארקין הליברלי, ויריבו הרפובליקאי השמרן טום טקי, אמנם לא יכלו להסכים על שום עניין, אבל נטו להסכים על המפרץ הפרסי.
+1	טום	טום	PROPN	PROPN	_	19	nsubj	_	_
+2	הארקין	הארקין	PROPN	PROPN	_	1	flat:name	_	_
+3-4	הליברלי	_	_	_	_	_	_	_	SpaceAfter=No
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	ליברלי	ליברלי	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	_
+5	,	,	PUNCT	PUNCT	_	7	punct	_	_
+6-9	ויריבו	_	_	_	_	_	_	_	_
+6	ו	ו	CCONJ	CCONJ	_	7	cc	_	_
+7	יריב	יריב	NOUN	NOUN	Gender=Masc|Number=Sing	1	conj	_	_
+8	_של_	של	ADP	ADP	Case=Gen	9	case:gen	_	_
+9	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+10-11	הרפובליקאי	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	רפובליקאי	רפובליקני	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	_
+12-13	השמרן	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	שמרן	שמרן	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	_
+14	טום	טום	PROPN	PROPN	_	7	appos	_	_
+15	טקי	טקי	PROPN	PROPN	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	1	punct	_	_
+17	אמנם	אמנם	ADV	ADV	_	19	advmod	_	_
+18	לא	לא	ADV	ADV	Polarity=Neg	19	advmod	_	_
+19	יכלו	יכל	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	0	root	_	_
+20	להסכים	הסכים	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	19	xcomp	_	_
+21	על	על	ADP	ADP	_	23	case	_	_
+22	שום	שום	DET	DET	Definite=Cons	23	det	_	_
+23	עניין	עניין	NOUN	NOUN	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+24	,	,	PUNCT	PUNCT	_	26	punct	_	_
+25	אבל	אבל	CCONJ	CCONJ	_	26	cc	_	_
+26	נטו	נטה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	19	conj	_	_
+27	להסכים	הסכים	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	26	xcomp	_	_
+28	על	על	ADP	ADP	_	30	case	_	_
+29-30	המפרץ	_	_	_	_	_	_	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	מפרץ	מפרץ	NOUN	NOUN	Gender=Masc|Number=Sing	27	obl	_	_
+31-32	הפרסי	_	_	_	_	_	_	_	SpaceAfter=No
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	פרסי	פרסי	ADJ	ADJ	Gender=Masc|Number=Sing	30	amod	_	_
+33	.	.	PUNCT	PUNCT	_	19	punct	_	_
+
+# doc_id = htb:8_2
+# doc_range = 3955-4047
+# sent_id = 101
+# text = שניהם תומכים בנשיא, ושניהם מאמינים בצורך בזהירות.
+1	שניהם	שניים	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	תומכים	תמך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+3-5	בנשיא	_	_	_	_	_	_	_	SpaceAfter=No
+3	ב	ב	ADP	ADP	_	5	case	_	_
+4	ה_	ה	DET	DET	PronType=Art|Definite=Def	5	det	_	_
+5	נשיא	נשיא	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+6	,	,	PUNCT	PUNCT	_	9	punct	_	_
+7-8	ושניהם	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+8	שניהם	שניים	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+9	מאמינים	האמין	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	2	conj	_	_
+10-12	בצורך	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	12	case	_	_
+11	ה_	ה	DET	DET	PronType=Art|Definite=Def	12	det	_	_
+12	צורך	צורך	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	_
+13-14	בזהירות	_	_	_	_	_	_	_	SpaceAfter=No
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	זהירות	זהירות	NOUN	NOUN	Gender=Fem|Number=Sing	12	nmod	_	_
+15	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:8_2
+# doc_range = 4049-4178
+# sent_id = 102
+# text = בימי המלחמה הקרה היה טוקי אנטי-קומוניסט נלהב, והארקין היה יונה נלהבת.
+1-2	בימי	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	ימי	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	11	nmod	_	_
+3-4	המלחמה	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	מלחמה	מלחמה	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound:smixut	_	_
+5-6	הקרה	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	קרה	קר	ADJ	ADJ	Gender=Fem|Number=Sing	4	amod	_	_
+7	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	11	cop	_	_
+8	טוקי	טוקי	PROPN	PROPN	_	11	nsubj	_	_
+9	אנטי	אנטי	ADV	ADV	Prefix=Yes	11	compound:affix	_	HebSource=ConvUncertainHead|SpaceAfter=No
+10	-	-	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+11	קומוניסט	קומוניסט	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+12	נלהב	נלהב	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Mid	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	17	punct	_	_
+14-15	והארקין	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+15	הארקין	הארקין	PROPN	PROPN	_	17	nsubj	_	_
+16	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	17	cop	_	_
+17	יונה	יון	NOUN	NOUN	Gender=Fem|Number=Sing	11	conj	_	_
+18	נלהבת	נלהב	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Mid	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:8_2
+# doc_range = 4180-4474
+# sent_id = 103
+# text = טוקי תמך בכל סעיף הוצאות צבאיות אפשרי, וחייב את המאבק להפלת ממשלת ניקרגואה; הארקין רצה קיצוצים ניכרים בתקציב הביטחון, ועמד בראש המאבק בסנאט נגד הסיוע לקונטראס.
+1	טוקי	טוקי	PROPN	PROPN	_	2	nsubj	_	_
+2	תמך	תמך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3-4	בכל	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	5	case	_	_
+4	כל	כול	DET	DET	Definite=Cons	5	det	_	_
+5	סעיף	סעיף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	obl	_	_
+6	הוצאות	הוצאה	NOUN	NOUN	Gender=Fem|Number=Plur	5	compound:smixut	_	_
+7	צבאיות	צבאי	ADJ	ADJ	Gender=Fem|Number=Plur	6	amod	_	_
+8	אפשרי	אפשרי	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	11	punct	_	_
+10-11	וחייב	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+11	חייב	חייב	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	_
+12	את	את	ADP	ADP	Case=Acc	14	case	_	_
+13-14	המאבק	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	מאבק	מאבק	NOUN	NOUN	Gender=Masc|Number=Sing	11	obj	_	_
+15-16	להפלת	_	_	_	_	_	_	_	_
+15	ל	ל	ADP	ADP	_	16	case	_	_
+16	הפלת	הפלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	14	nmod	_	_
+17	ממשלת	ממשלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	16	compound:smixut	_	_
+18	ניקרגואה	ניקרגוואה	PROPN	PROPN	_	17	compound:smixut	_	SpaceAfter=No
+19	;	;	PUNCT	PUNCT	_	21	punct	_	_
+20	הארקין	הארקין	PROPN	PROPN	_	21	nsubj	_	_
+21	רצה	רצה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	_
+22	קיצוצים	קיצוץ	NOUN	NOUN	Gender=Masc|Number=Plur	21	obj	_	_
+23	ניכרים	ניכר	ADJ	ADJ	Gender=Masc|Number=Plur	22	amod	_	_
+24-25	בתקציב	_	_	_	_	_	_	_	_
+24	ב	ב	ADP	ADP	_	25	case	_	_
+25	תקציב	תקציב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	22	nmod	_	_
+26-27	הביטחון	_	_	_	_	_	_	_	SpaceAfter=No
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	ביטחון	ביטחון	NOUN	NOUN	Gender=Masc|Number=Sing	25	compound:smixut	_	_
+28	,	,	PUNCT	PUNCT	_	30	punct	_	_
+29-30	ועמד	_	_	_	_	_	_	_	_
+29	ו	ו	CCONJ	CCONJ	_	30	cc	_	_
+30	עמד	עמד	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	21	conj	_	_
+31-32	בראש	_	_	_	_	_	_	_	_
+31	ב	ב	ADP	ADP	_	32	case	_	_
+32	ראש	ראש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	30	obl	_	_
+33-34	המאבק	_	_	_	_	_	_	_	_
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	מאבק	מאבק	NOUN	NOUN	Gender=Masc|Number=Sing	32	compound:smixut	_	_
+35-37	בסנאט	_	_	_	_	_	_	_	_
+35	ב	ב	ADP	ADP	_	37	case	_	_
+36	ה_	ה	DET	DET	PronType=Art|Definite=Def	37	det	_	_
+37	סנאט	סנאט	NOUN	NOUN	Gender=Masc|Number=Sing	34	nmod	_	_
+38	נגד	נגד	ADP	ADP	_	40	case	_	_
+39-40	הסיוע	_	_	_	_	_	_	_	_
+39	ה	ה	DET	DET	Definite=Def|PronType=Art	40	det	_	_
+40	סיוע	סיוע	NOUN	NOUN	Gender=Masc|Number=Sing	34	nmod	_	_
+41-43	לקונטראס	_	_	_	_	_	_	_	SpaceAfter=No
+41	ל	ל	ADP	ADP	_	43	case	_	_
+42	ה_	ה	DET	DET	PronType=Art|Definite=Def	43	det	_	_
+43	קונטראס	לקונטראס	PROPN	PROPN	_	40	nmod	_	_
+44	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:8_2
+# doc_range = 4476-4592
+# sent_id = 104
+# text = במפרץ הפרסי שניהם נצים יוניים, או יונים נציות, במידה כמעט שווה.
+1-3	במפרץ	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	מפרץ	מפרץ	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
+4-5	הפרסי	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	פרסי	פרסי	ADJ	ADJ	Gender=Masc|Number=Sing	3	amod	_	_
+6	שניהם	שניים	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
+7	נצים	נץ	NOUN	NOUN	Gender=Masc|Number=Plur	0	root	_	_
+8	יוניים	יוני	ADJ	ADJ	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	11	punct	_	_
+10	או	או	CCONJ	CCONJ	_	11	cc	_	_
+11	יונים	יון	NOUN	NOUN	Gender=Masc|Number=Plur	7	conj	_	_
+12	נציות	ניצי	ADJ	ADJ	Gender=Fem|Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	15	punct	_	_
+14-15	במידה	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	מידה	מידה	NOUN	NOUN	Gender=Fem|Number=Sing	7	nmod	_	_
+16	כמעט	כמעט	ADV	ADV	_	17	advmod	_	_
+17	שווה	שווה	ADJ	ADJ	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:8_2
+# doc_range = 4594-4839
+# sent_id = 105
+# text = בהעדר קומוניזם יש פרגמטיזם ואל פני השטח חוזרת גם מידה הגונה של בדלנות אינסטינקטיווית, אפיון היסטורי של מדינות המערב התיכון האמריקאי.
+1-2	בהעדר	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	העדר	העדר	NOUN	NOUN	Gender=Masc|Number=Sing	1	fixed	_	_
+3	קומוניזם	קומוניזם	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+4	יש	יש	VERB	VERB	HebExistential=Yes	0	root	_	_
+5	פרגמטיזם	פרגמטיזם	NOUN	NOUN	_	4	nsubj	_	_
+6-7	ואל	_	_	_	_	_	_	_	_
+6	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+7	אל	אל	ADP	ADP	_	8	case	_	_
+8	פני	פנים	NOUN	NOUN	Definite=Cons|Gender=Fem,Masc|Number=Plur	11	obl	_	_
+9-10	השטח	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	שטח	שטח	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound:smixut	_	_
+11	חוזרת	חזר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	4	conj	_	_
+12	גם	גם	ADV	ADV	_	13	advmod	_	_
+13	מידה	מידה	NOUN	NOUN	Gender=Fem|Number=Sing	11	nsubj	_	_
+14	הגונה	הגון	ADJ	ADJ	Gender=Fem|Number=Sing	13	amod	_	_
+15	של	של	ADP	ADP	Case=Gen	16	case	_	_
+16	בדלנות	בדלנות	NOUN	NOUN	Gender=Fem|Number=Sing	13	nmod	_	_
+17	אינסטינקטיווית	אינסטינקטיבי	ADJ	ADJ	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	19	punct	_	_
+19	אפיון	אפיון	NOUN	NOUN	Gender=Masc|Number=Sing	13	appos	_	_
+20	היסטורי	היסטורי	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	_
+21	של	של	ADP	ADP	Case=Gen	22	case	_	_
+22	מדינות	מדינה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	19	nmod	_	_
+23-24	המערב	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	מערב	מערב	NOUN	NOUN	Gender=Masc|Number=Sing	22	compound:smixut	_	_
+25-26	התיכון	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	תיכון	תיכון	ADJ	ADJ	Gender=Masc|Number=Sing	24	amod	_	_
+27-28	האמריקאי	_	_	_	_	_	_	_	SpaceAfter=No
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	אמריקאי	אמריקני	ADJ	ADJ	Gender=Masc|Number=Sing	24	amod	_	_
+29	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:8_2
+# doc_range = 4841-5007
+# sent_id = 106
+# text = במהלך מערכת הבחירות הקרין מטהו של טוקי תשדיר טלוויזיה, שאחד מסעיפיו היה התנגדות לסיוע חוץ.
+1-2	במהלך	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	מהלך	מהלך	NOUN	NOUN	Gender=Masc|Number=Sing	1	fixed	_	_
+3	מערכת	מערכת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	obl	_	_
+4-5	הבחירות	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	בחירות	בחירות	NOUN	NOUN	Gender=Fem|Number=Plur	3	compound:smixut	_	_
+6	הקרין	הקרין	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+7-9	מטהו	_	_	_	_	_	_	_	_
+7	מטה	מטה	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
+8	_של_	של	ADP	ADP	Case=Gen	9	case:gen	_	_
+9	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+10	של	של	ADP	ADP	Case=Gen	11	case	_	_
+11	טוקי	טוקי	PROPN	PROPN	_	7	nmod:poss	_	_
+12	תשדיר	תשדיר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	obj	_	_
+13	טלוויזיה	טלוויזיה	NOUN	NOUN	Gender=Fem|Number=Sing	12	compound:smixut	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	22	punct	_	_
+15-16	שאחד	_	_	_	_	_	_	_	_
+15	ש	ש	SCONJ	SCONJ	_	22	mark	_	_
+16	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	18	nummod	_	_
+17-20	מסעיפיו	_	_	_	_	_	_	_	_
+17	מ	מ	ADP	ADP	_	18	case	_	_
+18	סעיף	סעיף	NOUN	NOUN	Gender=Masc|Number=Plur	22	nsubj	_	_
+19	_של_	של	ADP	ADP	Case=Gen	20	case:gen	_	_
+20	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+21	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	22	cop	_	_
+22	התנגדות	התנגדות	NOUN	NOUN	Gender=Fem|Number=Sing	12	acl:relcl	_	_
+23-24	לסיוע	_	_	_	_	_	_	_	_
+23	ל	ל	ADP	ADP	_	24	case	_	_
+24	סיוע	סיוע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	22	nmod	_	_
+25	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	24	compound:smixut	_	SpaceAfter=No
+26	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:8_2
+# doc_range = 5009-5231
+# sent_id = 107
+# text = בעיני השדולה הפרו-ישראלית בוואשינגטון, התנגדות לסיוע חוץ מעמידה את המתנגד מחוץ למחנה גם אם אינה מוסבת ספציפית על ישראל.
+1-2	בעיני	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	עיני	עין	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	16	obl	_	_
+3-4	השדולה	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	שדולה	שדולה	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound:smixut	_	_
+5-6	הפרו	_	_	_	_	_	_	_	SpaceAfter=No
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+6	פרו	פרו	ADV	ADV	Prefix=Yes	8	compound:affix	_	_
+7	-	-	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+8	ישראלית	ישראלי	ADJ	ADJ	Gender=Fem|Number=Sing	4	amod	_	_
+9-10	בוואשינגטון	_	_	_	_	_	_	_	SpaceAfter=No
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	וואשינגטון	ואשינגטון	PROPN	PROPN	_	4	nmod	_	_
+11	,	,	PUNCT	PUNCT	_	2	punct	_	_
+12	התנגדות	התנגדות	NOUN	NOUN	Gender=Fem|Number=Sing	16	nsubj	_	_
+13-14	לסיוע	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	סיוע	סיוע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	nmod	_	_
+15	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	14	compound:smixut	_	_
+16	מעמידה	העמיד	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+17	את	את	ADP	ADP	Case=Acc	19	case	_	_
+18-19	המתנגד	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	מתנגד	מתנגד	NOUN	NOUN	Gender=Masc|Number=Sing	16	obj	_	_
+20-21	מחוץ	_	_	_	_	_	_	_	_
+20	מ	מ	ADP	ADP	_	24	case	_	_
+21	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	20	fixed	_	_
+22-24	למחנה	_	_	_	_	_	_	_	_
+22	ל	ל	ADP	ADP	_	20	fixed	_	_
+23	ה_	ה	DET	DET	PronType=Art|Definite=Def	24	det	_	_
+24	מחנה	מחנה	NOUN	NOUN	Gender=Masc|Number=Sing	16	obl	_	_
+25	גם	גם	ADV	ADV	_	28	advmod	_	_
+26	אם	אם	SCONJ	SCONJ	_	28	mark	_	_
+27	אינה	אינו	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	28	aux	_	_
+28	מוסבת	הוסב	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	16	advcl	_	_
+29	ספציפית	ספציפית	ADV	ADV	_	28	advmod	_	_
+30	על	על	ADP	ADP	_	31	case	_	_
+31	ישראל	ישראל	PROPN	PROPN	_	28	obl	_	SpaceAfter=No
+32	.	.	PUNCT	PUNCT	_	16	punct	_	_
+
+# doc_id = htb:8_2
+# doc_range = 5233-5411
+# sent_id = 108
+# text = פעילים פרו-ישראליים עודדו מאז ומעולם יהודים לתרום כספים למועמדים, הנאבקים נגד מתנגדי סיוע החוץ.
+1	פעילים	פעיל	NOUN	NOUN	Gender=Masc|Number=Plur	5	nsubj	_	_
+2	פרו	פרו	ADV	ADV	Prefix=Yes	4	compound:affix	_	SpaceAfter=No
+3	-	-	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+4	ישראליים	ישראלי	ADJ	ADJ	Gender=Masc|Number=Plur	1	amod	_	_
+5	עודדו	עודד	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+6	מאז	מאז	ADV	ADV	_	5	advmod	_	_
+7-8	ומעולם	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	8	cc	_	_
+8	מעולם	מעולם	ADV	ADV	_	6	conj	_	_
+9	יהודים	יהודי	NOUN	NOUN	Gender=Masc|Number=Plur	5	obj	_	_
+10	לתרום	תרם	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+11	כספים	כסף	NOUN	NOUN	Gender=Masc|Number=Plur	10	obj	_	_
+12-13	למועמדים	_	_	_	_	_	_	_	SpaceAfter=No
+12	ל	ל	ADP	ADP	_	13	case	_	_
+13	מועמדים	מועמד	NOUN	NOUN	Gender=Masc|Number=Plur	10	obl	_	_
+14	,	,	PUNCT	PUNCT	_	16	punct	_	_
+15-16	הנאבקים	_	_	_	_	_	_	_	_
+15	ה	ה	SCONJ	SCONJ	_	16	mark	_	_
+16	נאבקים	נאבק	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	13	acl:relcl	_	_
+17	נגד	נגד	ADP	ADP	_	18	case	_	_
+18	מתנגדי	מתנגד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	16	obl	_	_
+19	סיוע	סיוע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	18	compound:smixut	_	_
+20-21	החוץ	_	_	_	_	_	_	_	SpaceAfter=No
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	19	compound:smixut	_	_
+22	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:8_2
+# doc_range = 5414-5613
+# sent_id = 109
+# text = ממילא, טום הארקין, תומך עקיב בסיוע החוץ, היה אחד המקבלים הגדולים ביותר של תרומות יהודיות בשש השנים האחרונות.
+1	ממילא	ממילא	ADV	ADV	_	16	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3	טום	טום	PROPN	PROPN	_	16	nsubj	_	_
+4	הארקין	הארקין	PROPN	PROPN	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	6	punct	_	_
+6	תומך	תומך	NOUN	NOUN	Gender=Masc|Number=Sing	3	appos	_	_
+7	עקיב	עקיב	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	_
+8-9	בסיוע	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	סיוע	סיוע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	nmod	_	_
+10-11	החוץ	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound:smixut	_	_
+12	,	,	PUNCT	PUNCT	_	3	punct	_	_
+13	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	16	cop	_	_
+14	אחד	אחת	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	16	nummod	_	_
+15-16	המקבלים	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	מקבלים	מקבל	NOUN	NOUN	Gender=Masc|Number=Plur	0	root	_	_
+17-18	הגדולים	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	גדולים	גדול	ADJ	ADJ	Gender=Masc|Number=Plur	16	amod	_	_
+19	ביותר	ביותר	ADV	ADV	_	18	advmod	_	_
+20	של	של	ADP	ADP	Case=Gen	21	case	_	_
+21	תרומות	תרומה	NOUN	NOUN	Gender=Fem|Number=Plur	16	nmod	_	_
+22	יהודיות	יהודי	ADJ	ADJ	Gender=Fem|Number=Plur	21	amod	_	_
+23-24	בשש	_	_	_	_	_	_	_	_
+23	ב	ב	ADP	ADP	_	26	case	_	_
+24	שש	שש	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	26	nummod	_	_
+25-26	השנים	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	16	nmod	_	_
+27-28	האחרונות	_	_	_	_	_	_	_	SpaceAfter=No
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	אחרונות	אחרון	ADJ	ADJ	Gender=Fem|Number=Plur	26	amod	_	_
+29	.	.	PUNCT	PUNCT	_	16	punct	_	_
+
+# doc_id = htb:8_2
+# doc_range = 5615-5794
+# sent_id = 110
+# text = לפי מקור יהודי באיובה, הארקין קיבל 200 אלף דולר מוועדי פעולה פוליטיים פרו-ישראליים בכל רחבי ארה"ב.
+1	לפי	לפי	ADP	ADP	_	2	case	_	_
+2	מקור	מקור	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+3	יהודי	יהודי	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+4-5	באיובה	_	_	_	_	_	_	_	SpaceAfter=No
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	איובה	איובה	PROPN	PROPN	_	2	nmod	_	_
+6	,	,	PUNCT	PUNCT	_	2	punct	_	_
+7	הארקין	הארקין	PROPN	PROPN	_	8	nsubj	_	_
+8	קיבל	קיבל	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+9	200	200	NUM	NUM	_	10	nummod	_	_
+10	אלף	אלף	NUM	NUM	Gender=Masc|Number=Plur	11	nummod	_	_
+11	דולר	דולר	NOUN	NOUN	Gender=Masc|Number=Sing	8	obj	_	_
+12-13	מוועדי	_	_	_	_	_	_	_	_
+12	מ	מ	ADP	ADP	_	13	case	_	_
+13	וועדי	ועד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	8	obl	_	_
+14	פעולה	פעולה	NOUN	NOUN	Gender=Fem|Number=Sing	13	compound:smixut	_	_
+15	פוליטיים	פוליטי	ADJ	ADJ	Gender=Masc|Number=Plur	13	amod	_	_
+16	פרו	פרו	ADV	ADV	Prefix=Yes	18	compound:affix	_	SpaceAfter=No
+17	-	-	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
+18	ישראליים	ישראלי	ADJ	ADJ	Gender=Masc|Number=Plur	13	amod	_	_
+19-20	בכל	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	_	21	case	_	_
+20	כל	כול	DET	DET	Definite=Cons	21	det	_	_
+21	רחבי	רחב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	13	nmod	_	_
+22	ארה"ב	ארה"ב	PROPN	PROPN	Abbr=Yes	21	compound:smixut	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:8_2
+# doc_range = 5796-5829
+# sent_id = 111
+# text = טוקי קיבל רק 52 אלף.
+1	טוקי	טוקי	PROPN	PROPN	_	2	nsubj	_	_
+2	קיבל	קיבל	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	רק	רק	ADV	ADV	_	5	advmod	_	_
+4	52	52	NUM	NUM	_	5	nummod	_	_
+5	אלף	אלף	NUM	NUM	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:8_2
+# doc_range = 5831-6003
+# sent_id = 112
+# text = ב84 תיאר מנכ"ל אייפא"ק טום דאיין את הארקין כאחד מששה או שבעה סנאטורים, שנבחרו בזכות "כסף יהודי".
+1-2	ב84	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	84	84	NUM	NUM	_	3	obl	_	_
+3	תיאר	תיאר	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	מנכ"ל	מנכ"ל	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	3	nsubj	_	_
+5	אייפא"ק	אייפא"ק	PROPN	PROPN	Abbr=Yes	4	compound:smixut	_	_
+6	טום	טום	PROPN	PROPN	_	4	appos	_	_
+7	דאיין	דאיין	PROPN	PROPN	_	6	flat:name	_	_
+8	את	את	ADP	ADP	Case=Acc	9	case	_	_
+9	הארקין	הארקין	PROPN	PROPN	_	3	obj	_	_
+10-11	כאחד	_	_	_	_	_	_	_	_
+10	כ	כ	ADP	ADP	_	11	case	_	_
+11	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	3	obl	_	_
+12-13	מששה	_	_	_	_	_	_	_	_
+12	מ	מ	ADP	ADP	_	13	case	_	_
+13	ששה	שש	NUM	NUM	Gender=Masc|Number=Plur	11	nummod	_	_
+14	או	או	CCONJ	CCONJ	_	15	cc	_	_
+15	שבעה	שבע	NUM	NUM	Gender=Masc|Number=Plur	13	conj	_	_
+16	סנאטורים	סנטור	NOUN	NOUN	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	19	punct	_	_
+18-19	שנבחרו	_	_	_	_	_	_	_	_
+18	ש	ש	SCONJ	SCONJ	_	19	mark	_	_
+19	נבחרו	נבחר	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	11	acl:relcl	_	_
+20	בזכות	בזכות	ADP	ADP	_	22	case	_	_
+21	"	"	PUNCT	PUNCT	_	22	punct	_	SpaceAfter=No
+22	כסף	כסף	NOUN	NOUN	Gender=Masc|Number=Sing	19	obl	_	_
+23	יהודי	יהודי	ADJ	ADJ	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+24	"	"	PUNCT	PUNCT	_	22	punct	_	SpaceAfter=No
+25	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:8_2
+# doc_range = 6005-6110
+# sent_id = 113
+# text = זו היתה התרברבות לא-דיסקרטית, ואין ספק שיימנע ממנה השנה.
+1	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	_
+2	היתה	היה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	3	cop	_	_
+3	התרברבות	התרברבות	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+4	לא	לא	ADV	ADV	Polarity=Neg	6	advmod	_	SpaceAfter=No
+5	-	-	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+6	דיסקרטית	דיסקרטי	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	9	punct	_	_
+8-9	ואין	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+9	אין	אין	VERB	VERB	HebExistential=Yes	3	conj	_	_
+10	ספק	ספק	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj	_	_
+11-12	שיימנע	_	_	_	_	_	_	_	_
+11	ש	ש	SCONJ	SCONJ	_	12	mark	_	_
+12	יימנע	נמנע	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Fut|Voice=Mid	10	acl:relcl	_	_
+13-14	ממנה	_	_	_	_	_	_	_	_
+13	מן	מן	ADP	ADP	_	14	case	_	_
+14	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obl	_	_
+15	השנה	השנה	ADV	ADV	_	12	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:8_2
+# doc_range = 6112-6360
+# sent_id = 114
+# text = אף-על-פי-כן, שתדלנים פרו-ישראליים בוואשינגטון חככו השבוע את ידיהם בשביעות רצון למשמע הידיעה, שהארקין גבר על טוקי בהפרש משכנע של 10%.
+1	אף	אף	ADV	ADV	_	5	advmod	_	SpaceAfter=No
+2	-	-	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No
+3	על	על	ADP	ADP	_	5	case	_	SpaceAfter=No
+4	-	-	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+5	פי	פה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+6	-	-	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
+7	כן	כן	PRON	PRON	Person=3|PronType=Dem	5	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	5	punct	_	_
+9	שתדלנים	שתדלן	NOUN	NOUN	Gender=Masc|Number=Plur	15	nsubj	_	_
+10	פרו	פרו	ADV	ADV	Prefix=Yes	12	compound:affix	_	SpaceAfter=No
+11	-	-	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+12	ישראליים	ישראלי	ADJ	ADJ	Gender=Masc|Number=Plur	9	amod	_	_
+13-14	בוואשינגטון	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	וואשינגטון	ואשינגטון	PROPN	PROPN	_	9	nmod	_	_
+15	חככו	חכך	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	0	root	_	_
+16	השבוע	השבוע	ADV	ADV	_	15	advmod	_	_
+17	את	את	ADP	ADP	Case=Acc	18	case	_	_
+18-19	ידיהם	_	_	_	_	_	_	_	_
+18	ידי	יד	NOUN	NOUN	Gender=Fem|Number=Plur	15	obj	_	_
+19	הם	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+20-21	בשביעות	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	שביעות	שביעות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	15	obl	_	_
+22	רצון	רצון	NOUN	NOUN	Gender=Masc|Number=Sing	21	compound:smixut	_	_
+23-24	למשמע	_	_	_	_	_	_	_	_
+23	ל	ל	ADP	ADP	_	24	case	_	_
+24	משמע	משמע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	15	obl	_	_
+25-26	הידיעה	_	_	_	_	_	_	_	SpaceAfter=No
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	ידיעה	ידיעה	NOUN	NOUN	Gender=Fem|Number=Sing	24	compound:smixut	_	_
+27	,	,	PUNCT	PUNCT	_	30	punct	_	_
+28-29	שהארקין	_	_	_	_	_	_	_	_
+28	ש	ש	SCONJ	SCONJ	_	30	mark	_	_
+29	הארקין	הארקין	PROPN	PROPN	_	30	nsubj	_	_
+30	גבר	גבר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	26	acl:relcl	_	_
+31	על	על	ADP	ADP	_	32	case	_	_
+32	טוקי	טוקי	PROPN	PROPN	_	30	obl	_	_
+33-34	בהפרש	_	_	_	_	_	_	_	_
+33	ב	ב	ADP	ADP	_	34	case	_	_
+34	הפרש	הפרש	NOUN	NOUN	Gender=Masc|Number=Sing	30	obl	_	_
+35	משכנע	שכנע	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	34	amod	_	_
+36	של	של	ADP	ADP	Case=Gen	38	case	_	_
+37	10	10	NUM	NUM	_	38	nummod	_	SpaceAfter=No
+38	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	34	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	PUNCT	_	15	punct	_	_
+
+# doc_id = htb:8_2
+# doc_range = 6361-6486
+# sent_id = 115
+# text = הוא הסנאטור הדמוקרטי הראשון בתולדות איובה הנבחר לתקופת כהונה שנייה.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2-3	הסנאטור	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	סנאטור	סנטור	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+4-5	הדמוקרטי	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	דמוקרטי	דמוקרטי	ADJ	ADJ	Gender=Masc|Number=Sing	3	amod	_	_
+6-7	הראשון	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	ראשון	ראשון	ADJ	ADJ	Gender=Masc|Number=Sing	3	amod	_	_
+8-9	בתולדות	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	תולדות	תולדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	7	obl	_	_
+10	איובה	איובה	PROPN	PROPN	_	9	compound:smixut	_	_
+11-12	הנבחר	_	_	_	_	_	_	_	_
+11	ה	ה	SCONJ	SCONJ	_	12	mark	_	_
+12	נבחר	נבחר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	3	acl:relcl	_	_
+13-14	לתקופת	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	תקופת	תקופה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	obl	_	_
+15	כהונה	כהונה	NOUN	NOUN	Gender=Fem|Number=Sing	14	compound:smixut	_	_
+16	שנייה	שני	ADJ	ADJ	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:8_2
+# doc_range = 6488-6782
+# sent_id = 116
+# text = הוא גם יודע, שבלי תרומות מחוץ לגבולות מדינתו הקטנה, יתקשה לאסוף די כסף לניהול מערכת הבחירות הטלוויזיונית היקרה, שבלעדיה אין פוליטיקאים אמריקאיים מסוגלים לנצח.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	גם	גם	ADV	ADV	_	3	advmod	_	_
+3	יודע	ידע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	18	punct	_	_
+5-6	שבלי	_	_	_	_	_	_	_	_
+5	ש	ש	SCONJ	SCONJ	_	18	mark	_	_
+6	בלי	בלי	ADP	ADP	_	7	case	_	_
+7	תרומות	תרומה	NOUN	NOUN	Gender=Fem|Number=Plur	18	obl	_	_
+8-9	מחוץ	_	_	_	_	_	_	_	_
+8	מ	מ	ADP	ADP	_	11	case	_	_
+9	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	8	fixed	_	_
+10-11	לגבולות	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	8	fixed	_	_
+11	גבולות	גבול	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	7	nmod	_	_
+12-14	מדינתו	_	_	_	_	_	_	_	_
+12	מדינה	מדינה	NOUN	NOUN	Gender=Fem|Number=Sing	11	compound:smixut	_	_
+13	_של_	של	ADP	ADP	Case=Gen	14	case:gen	_	_
+14	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+15-16	הקטנה	_	_	_	_	_	_	_	SpaceAfter=No
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	קטנה	קטן	ADJ	ADJ	Gender=Fem|Number=Sing	12	amod	_	_
+17	,	,	PUNCT	PUNCT	_	7	punct	_	_
+18	יתקשה	התקשה	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Fut	3	ccomp	_	_
+19	לאסוף	אסף	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	18	xcomp	_	_
+20	די	די	DET	DET	Definite=Cons	21	det	_	_
+21	כסף	כסף	NOUN	NOUN	Gender=Masc|Number=Sing	19	obj	_	_
+22-23	לניהול	_	_	_	_	_	_	_	_
+22	ל	ל	ADP	ADP	_	23	case	_	_
+23	ניהול	ניהול	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	19	obl	_	_
+24	מערכת	מערכת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	23	compound:smixut	_	_
+25-26	הבחירות	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	בחירות	בחירות	NOUN	NOUN	Gender=Fem|Number=Plur	24	compound:smixut	_	_
+27-28	הטלוויזיונית	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	טלוויזיונית	טלוויזיוני	ADJ	ADJ	Gender=Fem|Number=Sing	24	amod	_	_
+29-30	היקרה	_	_	_	_	_	_	_	SpaceAfter=No
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	יקרה	יקר	ADJ	ADJ	Gender=Fem|Number=Sing	24	amod	_	_
+31	,	,	PUNCT	PUNCT	_	39	punct	_	_
+32-34	שבלעדיה	_	_	_	_	_	_	_	_
+32	ש	ש	SCONJ	SCONJ	_	39	mark	_	_
+33	בלעדי	בלעדי	ADP	ADP	_	34	case	_	_
+34	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	39	obl	_	_
+35	אין	אין	ADV	ADV	Polarity=Neg	39	advmod	_	_
+36	פוליטיקאים	פוליטיקאי	NOUN	NOUN	Gender=Masc|Number=Plur	39	nsubj	_	_
+37	אמריקאיים	אמריקני	ADJ	ADJ	Gender=Masc|Number=Plur	36	amod	_	_
+38	מסוגלים	מסוגל	AUX	AUX	Gender=Masc|Number=Plur|Person=1,2,3|VerbType=Mod	39	aux	_	_
+39	לנצח	ניצח	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	24	acl:relcl	_	SpaceAfter=No
+40	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:8_2
+# doc_range = 6784-6875
+# sent_id = 117
+# text = חזקה על הארקין, שיצביע גם בעתיד בעד חוק סיוע החוץ.
+1	חזקה	חזקה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+2	על	על	ADP	ADP	_	3	case	_	_
+3	הארקין	הארקין	PROPN	PROPN	_	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	6	punct	_	_
+5-6	שיצביע	_	_	_	_	_	_	_	_
+5	ש	ש	SCONJ	SCONJ	_	6	mark	_	_
+6	יצביע	הצביע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	1	ccomp	_	_
+7	גם	גם	ADV	ADV	_	10	advmod	_	_
+8-10	בעתיד	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	10	case	_	_
+9	ה_	ה	DET	DET	PronType=Art|Definite=Def	10	det	_	_
+10	עתיד	עתיד	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+11	בעד	בעד	ADP	ADP	_	12	case	_	_
+12	חוק	חוק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	obl	_	_
+13	סיוע	סיוע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	compound:smixut	_	_
+14-15	החוץ	_	_	_	_	_	_	_	SpaceAfter=No
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	13	compound:smixut	_	_
+16	.	.	PUNCT	PUNCT	_	1	punct	_	_
+

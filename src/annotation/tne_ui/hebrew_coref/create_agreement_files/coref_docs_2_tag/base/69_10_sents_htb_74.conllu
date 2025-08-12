@@ -1,0 +1,444 @@
+# doc_id = htb:74
+# doc_range = 1-213
+# sent_id = 2122
+# text = משרדי חברתו של הקבלן דוד שטרן, נשיא הכבוד של מרכז הקבלנים שעסקיו כשלו, נמכרו אתמול בבית-המשפט לחברת קפלן נעים ושות.
+1	משרדי	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	24	nsubj	_	_
+2-4	חברתו	_	_	_	_	_	_	_	_
+2	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+3	_של_	של	ADP	ADP	Case=Gen	4	case:gen	_	_
+4	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5	של	של	ADP	ADP	Case=Gen	7	case	_	_
+6-7	הקבלן	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	קבלן	קבלן	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod:poss	_	_
+8	דוד	דוד	PROPN	PROPN	_	7	dep	_	HebSource=ConvUncertainHead
+9	שטרן	שטרן	PROPN	PROPN	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	11	punct	_	_
+11	נשיא	נשיא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	dep	_	HebSource=ConvUncertainHead
+12-13	הכבוד	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	כבוד	כבוד	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound:smixut	_	_
+14	של	של	ADP	ADP	Case=Gen	15	case	_	_
+15	מרכז	מרכז	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	nmod	_	_
+16-17	הקבלנים	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	קבלנים	קבלן	NOUN	NOUN	Gender=Masc|Number=Plur	15	compound:smixut	_	_
+18-21	שעסקיו	_	_	_	_	_	_	_	_
+18	ש	ש	SCONJ	SCONJ	_	22	mark	_	_
+19	עסק	עסק	NOUN	NOUN	Gender=Masc|Number=Plur	22	nsubj	_	_
+20	_של_	של	ADP	ADP	Case=Gen	21	case:gen	_	_
+21	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+22	כשלו	כשל	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	11	acl:relcl	_	SpaceAfter=No
+23	,	,	PUNCT	PUNCT	_	1	punct	_	_
+24	נמכרו	נמכר	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+25	אתמול	אתמול	ADV	ADV	_	24	advmod	_	_
+26-27	בבית	_	_	_	_	_	_	_	SpaceAfter=No
+26	ב	ב	ADP	ADP	_	30	case	_	_
+27	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	30	nmod	_	_
+28	-	-	PUNCT	PUNCT	_	27	punct	_	SpaceAfter=No
+29-30	המשפט	_	_	_	_	_	_	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	24	obl	_	_
+31-32	לחברת	_	_	_	_	_	_	_	_
+31	ל	ל	ADP	ADP	_	32	case	_	_
+32	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	24	obl	_	_
+33	קפלן	קפלן	PROPN	PROPN	_	32	compound:smixut	_	_
+34	נעים	נעים	PROPN	PROPN	_	33	flat:name	_	_
+35-36	ושות	_	_	_	_	_	_	_	SpaceAfter=No
+35	ו	ו	CCONJ	CCONJ	_	33	flat:name	_	_
+36	שות	שת	NOUN	NOUN	Gender=Masc|Number=Plur	33	flat:name	_	_
+37	.	.	PUNCT	PUNCT	_	24	punct	_	_
+
+# doc_id = htb:74
+# doc_range = 215-464
+# sent_id = 2123
+# text = חברה זו הפועלת כסוכנות ביטוח מייצגת בארץ את חברת הביטוח האיטלקית הנודעת גנרלי, שהיא מבעלי המניות של חברת הביטוח מגדל שבשליטת בנק לאומי.
+1	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	8	nsubj	_	_
+2	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	1	det	_	_
+3-4	הפועלת	_	_	_	_	_	_	_	_
+3	ה	ה	SCONJ	SCONJ	_	4	mark	_	_
+4	פועלת	פעל	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	1	acl:relcl	_	_
+5-6	כסוכנות	_	_	_	_	_	_	_	_
+5	כ	כ	ADP	ADP	_	6	case	_	_
+6	סוכנות	סוכנות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	obl	_	_
+7	ביטוח	ביטוח	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+8	מייצגת	ייצג	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+9-11	בארץ	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	11	case	_	_
+10	ה_	ה	DET	DET	PronType=Art|Definite=Def	11	det	_	_
+11	ארץ	ארץ	NOUN	NOUN	Gender=Fem|Number=Sing	8	obl	_	_
+12	את	את	ADP	ADP	Case=Acc	13	case	_	_
+13	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	8	obj	_	_
+14-15	הביטוח	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	ביטוח	ביטוח	NOUN	NOUN	Gender=Masc|Number=Sing	13	compound:smixut	_	_
+16-17	האיטלקית	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	איטלקית	איטלקית	PROPN	PROPN	_	13	amod	_	_
+18-19	הנודעת	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	נודעת	נודע	ADJ	ADJ	Gender=Fem|Number=Sing	13	amod	_	_
+20	גנרלי	גנרלי	PROPN	PROPN	_	13	appos	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	25	punct	_	_
+22-23	שהיא	_	_	_	_	_	_	_	_
+22	ש	ש	SCONJ	SCONJ	_	25	mark	_	_
+23	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+24-25	מבעלי	_	_	_	_	_	_	_	_
+24	מ	מ	ADP	ADP	_	25	case	_	_
+25	בעלי	בעל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	13	acl:relcl	_	_
+26-27	המניות	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	מניות	מנייה	NOUN	NOUN	Gender=Fem|Number=Plur	25	compound:smixut	_	_
+28	של	של	ADP	ADP	Case=Gen	29	case	_	_
+29	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	27	nmod:poss	_	_
+30-31	הביטוח	_	_	_	_	_	_	_	_
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	ביטוח	ביטוח	NOUN	NOUN	Gender=Masc|Number=Sing	29	compound:smixut	_	_
+32	מגדל	מגדל	PROPN	PROPN	_	29	flat:name	_	_
+33-35	שבשליטת	_	_	_	_	_	_	_	_
+33	ש	ש	SCONJ	SCONJ	_	35	case	_	_
+34	ב	ב	ADP	ADP	_	35	case	_	_
+35	שליטת	שליטה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	29	nmod	_	_
+36	בנק	בנק	NOUN	NOUN	Gender=Masc|Number=Sing	35	compound:smixut	_	_
+37	לאומי	לאומי	ADJ	ADJ	Gender=Masc|Number=Sing	36	amod	_	SpaceAfter=No
+38	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:74
+# doc_range = 466-761
+# sent_id = 2124
+# text = המשרדים של חברת דוד שטרן הנדסה ובינוי, באמצעותה פעל נשיא הקבלנים, נמצאים בבניין בן שתי קומות ברחוב לבונטין 61, ליד משרדי מרכז הקבלנים, שם בילה שטרן את מרבית זמנו.
+1-2	המשרדים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	משרדים	משרד	NOUN	NOUN	Gender=Masc|Number=Plur	18	nsubj	_	_
+3	של	של	ADP	ADP	Case=Gen	4	case	_	_
+4	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	nmod:poss	_	_
+5	דוד	דוד	PROPN	PROPN	_	4	compound:smixut	_	_
+6	שטרן	שטרן	PROPN	PROPN	_	5	flat:name	_	_
+7	הנדסה	הנדסה	NOUN	NOUN	Gender=Fem|Number=Sing	5	flat:name	_	_
+8-9	ובינוי	_	_	_	_	_	_	_	SpaceAfter=No
+8	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+9	בינוי	בינוי	NOUN	NOUN	Gender=Masc|Number=Sing	7	conj	_	_
+10	,	,	PUNCT	PUNCT	_	13	punct	_	_
+11-12	באמצעותה	_	_	_	_	_	_	_	_
+11	באמצעות	באמצעות	ADP	ADP	_	12	case	_	_
+12	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obl	_	_
+13	פעל	פעל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	4	appos	_	_
+14	נשיא	נשיא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	nsubj	_	_
+15-16	הקבלנים	_	_	_	_	_	_	_	SpaceAfter=No
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	קבלנים	קבלן	NOUN	NOUN	Gender=Masc|Number=Plur	14	compound:smixut	_	_
+17	,	,	PUNCT	PUNCT	_	13	punct	_	_
+18	נמצאים	נמצא	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	0	root	_	_
+19-20	בבניין	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	בניין	בניין	NOUN	NOUN	Gender=Masc|Number=Sing	18	obl	_	_
+21	בן	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	20	acl	_	_
+22	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	23	nummod	_	_
+23	קומות	קומה	NOUN	NOUN	Gender=Fem|Number=Plur	21	compound:smixut	_	_
+24-25	ברחוב	_	_	_	_	_	_	_	_
+24	ב	ב	ADP	ADP	_	25	case	_	_
+25	רחוב	רחוב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	20	nmod	_	_
+26	לבונטין	לבונטין	PROPN	PROPN	_	25	compound:smixut	_	_
+27	61	61	NUM	NUM	_	25	nummod	_	SpaceAfter=No
+28	,	,	PUNCT	PUNCT	_	30	punct	_	_
+29	ליד	ליד	ADP	ADP	_	30	case	_	_
+30	משרדי	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	20	appos	_	_
+31	מרכז	מרכז	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	30	compound:smixut	_	_
+32-33	הקבלנים	_	_	_	_	_	_	_	SpaceAfter=No
+32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
+33	קבלנים	קבלן	NOUN	NOUN	Gender=Masc|Number=Plur	31	compound:smixut	_	_
+34	,	,	PUNCT	PUNCT	_	30	punct	_	_
+35	שם	שם	ADV	ADV	_	36	advmod	_	_
+36	בילה	בילה	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	18	parataxis	_	_
+37	שטרן	שטרן	PROPN	PROPN	_	36	nsubj	_	_
+38	את	את	ADP	ADP	Case=Acc	40	case	_	_
+39	מרבית	מרבית	DET	DET	Definite=Cons	40	det	_	_
+40-42	זמנו	_	_	_	_	_	_	_	SpaceAfter=No
+40	זמן	זמן	NOUN	NOUN	Gender=Masc|Number=Sing	36	obj	_	_
+41	_של_	של	ADP	ADP	Case=Gen	42	case:gen	_	_
+42	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	40	nmod:poss	_	_
+43	.	.	PUNCT	PUNCT	_	18	punct	_	_
+
+# doc_id = htb:74
+# doc_range = 764-826
+# sent_id = 2125
+# text = באזור זה מותר לבנות 051% משטח המגרש.
+1-2	באזור	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	אזור	אזור	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+3	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	det	_	_
+4	מותר	מותר	AUX	AUX	VerbType=Mod	5	aux	_	_
+5	לבנות	בנה	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	0	root	_	_
+6	051	051	NUM	NUM	_	7	nummod	_	SpaceAfter=No
+7	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	5	obl	_	_
+8-9	משטח	_	_	_	_	_	_	_	_
+8	מ	מ	ADP	ADP	_	9	case	_	_
+9	שטח	שטח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nmod	_	_
+10-11	המגרש	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	מגרש	מגרש	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound:smixut	_	_
+12	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:74
+# doc_range = 828-1028
+# sent_id = 2126
+# text = המשרדים נמכרו על-ידי עו"ד יהודה ליבוביץ ממשרד עו"ד מנוסביץ וגוטפריד, שהם הנאמנים לביצוע הסדר הנושים של שטרן.
+1-2	המשרדים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	משרדים	משרד	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	נמכרו	נמכר	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+4	על	על	ADP	ADP	_	7	case	_	SpaceAfter=No
+5	-	-	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+6	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	4	fixed	_	_
+7	עו"ד	עו"ד	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	3	obl	_	_
+8	יהודה	יהודה	PROPN	PROPN	_	7	flat:name	_	_
+9	ליבוביץ	ליבוביץ	PROPN	PROPN	_	7	flat:name	_	_
+10-11	ממשרד	_	_	_	_	_	_	_	_
+10	מ	מ	ADP	ADP	_	11	case	_	_
+11	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nmod	_	_
+12	עו"ד	עו"ד	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	11	compound:smixut	_	_
+13	מנוסביץ	מנוסביץ	PROPN	PROPN	_	11	nmod	_	_
+14-15	וגוטפריד	_	_	_	_	_	_	_	SpaceAfter=No
+14	ו	ו	CCONJ	CCONJ	_	13	flat:name	_	_
+15	גוטפריד	וגוטפריד	PROPN	PROPN	_	13	flat:name	_	_
+16	,	,	PUNCT	PUNCT	_	20	punct	_	_
+17-18	שהם	_	_	_	_	_	_	_	_
+17	ש	ש	SCONJ	SCONJ	_	20	mark	_	_
+18	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
+19-20	הנאמנים	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	נאמנים	נאמן	NOUN	NOUN	Gender=Masc|Number=Plur	11	acl:relcl	_	_
+21-22	לביצוע	_	_	_	_	_	_	_	_
+21	ל	ל	ADP	ADP	_	22	case	_	_
+22	ביצוע	ביצוע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	20	nmod	_	_
+23	הסדר	הסדר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	22	compound:smixut	_	_
+24-25	הנושים	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	נושים	נושה	NOUN	NOUN	Gender=Masc|Number=Plur	23	compound:smixut	_	_
+26	של	של	ADP	ADP	Case=Gen	27	case	_	_
+27	שטרן	שטרן	PROPN	PROPN	_	25	nmod:poss	_	SpaceAfter=No
+28	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:74
+# doc_range = 1030-1440
+# sent_id = 2127
+# text = חמישה גורמים התמודדו על רכישת המשרדים: חברת דנוור, שאחד מבעליה הוא אהוד אליאב, שהיה סמנכ"ל שיכון עובדים; נציגים של חברה אנגלית; חברת מירומית לדודי-שמש, שמניותיה נסחרות בבורסה התל-אביבית; הקבלן אלן פרוינד; חברת קפלן נעים.
+1	חמישה	חמש	NUM	NUM	Gender=Masc|Number=Plur	2	nummod	_	_
+2	גורמים	גורם	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	התמודדו	התמודד	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	0	root	_	_
+4	על	על	ADP	ADP	_	5	case	_	_
+5	רכישת	רכישה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	obl	_	_
+6-7	המשרדים	_	_	_	_	_	_	_	SpaceAfter=No
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	משרדים	משרד	NOUN	NOUN	Gender=Masc|Number=Plur	5	compound:smixut	_	_
+8	:	:	PUNCT	PUNCT	_	9	punct	_	_
+9	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	dep	_	_
+10	דנוור	דנוור	PROPN	PROPN	_	9	compound:smixut	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	19	punct	_	_
+12-13	שאחד	_	_	_	_	_	_	_	_
+12	ש	ש	SCONJ	SCONJ	_	19	mark	_	_
+13	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	15	nummod	_	_
+14-17	מבעליה	_	_	_	_	_	_	_	_
+14	מ	מ	ADP	ADP	_	15	case	_	_
+15	בעלים	בעלים	NOUN	NOUN	Gender=Masc|Number=Plur	19	nsubj	_	_
+16	_של_	של	ADP	ADP	Case=Gen	17	case:gen	_	_
+17	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+18	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	19	cop	_	_
+19	אהוד	אהוד	PROPN	PROPN	_	9	acl:relcl	_	_
+20	אליאב	אליאב	PROPN	PROPN	_	19	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	24	punct	_	_
+22-23	שהיה	_	_	_	_	_	_	_	_
+22	ש	ש	SCONJ	SCONJ	_	24	mark	_	_
+23	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	24	cop	_	_
+24	סמנכ"ל	סמנכ"ל	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	19	acl:relcl	_	_
+25	שיכון	שיכון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	24	compound:smixut	_	_
+26	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	25	compound:smixut	_	SpaceAfter=No
+27	;	;	PUNCT	PUNCT	_	28	punct	_	_
+28	נציגים	נציג	NOUN	NOUN	Gender=Masc|Number=Plur	9	conj	_	_
+29	של	של	ADP	ADP	Case=Gen	30	case	_	_
+30	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	28	nmod:poss	_	_
+31	אנגלית	אנגלי	ADJ	ADJ	Gender=Fem|Number=Sing	30	amod	_	SpaceAfter=No
+32	;	;	PUNCT	PUNCT	_	33	punct	_	_
+33	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	conj	_	_
+34	מירומית	מירומית	PROPN	PROPN	_	33	compound:smixut	_	_
+35-36	לדודי	_	_	_	_	_	_	_	SpaceAfter=No
+35	ל	ל	ADP	ADP	_	38	case	_	_
+36	דודי	דוד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	38	nmod	_	_
+37	-	-	PUNCT	PUNCT	_	36	punct	_	SpaceAfter=No
+38	שמש	שמש	NOUN	NOUN	Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	PUNCT	_	44	punct	_	_
+40-43	שמניותיה	_	_	_	_	_	_	_	_
+40	ש	ש	SCONJ	SCONJ	_	44	mark	_	_
+41	מנייה	מנייה	NOUN	NOUN	Gender=Fem|Number=Plur	44	dep	_	_
+42	_של_	של	ADP	ADP	Case=Gen	43	case:gen	_	_
+43	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	41	nmod:poss	_	_
+44	נסחרות	נסחר	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	33	acl:relcl	_	_
+45-47	בבורסה	_	_	_	_	_	_	_	_
+45	ב	ב	ADP	ADP	_	47	case	_	_
+46	ה_	ה	DET	DET	PronType=Art|Definite=Def	47	det	_	_
+47	בורסה	בורסה	NOUN	NOUN	Gender=Fem|Number=Sing	44	obl	_	_
+48-49	התל	_	_	_	_	_	_	_	SpaceAfter=No
+48	ה	ה	DET	DET	Definite=Def|PronType=Art	49	det	_	_
+49	תל	תל	NOUN	NOUN	Gender=Masc|Number=Sing	47	amod	_	_
+50	-	-	PUNCT	PUNCT	_	51	punct	_	SpaceAfter=No
+51	אביבית	אביבי	ADJ	ADJ	Gender=Fem|Number=Sing	49	dep	_	SpaceAfter=No
+52	;	;	PUNCT	PUNCT	_	54	punct	_	_
+53-54	הקבלן	_	_	_	_	_	_	_	_
+53	ה	ה	DET	DET	Definite=Def|PronType=Art	54	det	_	_
+54	קבלן	קבלן	NOUN	NOUN	Gender=Masc|Number=Sing	9	conj	_	_
+55	אלן	אלן	PROPN	PROPN	_	54	flat:name	_	_
+56	פרוינד	פרוינד	PROPN	PROPN	_	54	flat:name	_	SpaceAfter=No
+57	;	;	PUNCT	PUNCT	_	58	punct	_	_
+58	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	conj	_	_
+59	קפלן	קפלן	PROPN	PROPN	_	58	compound:smixut	_	_
+60	נעים	נעים	PROPN	PROPN	_	59	flat:name	_	SpaceAfter=No
+61	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:74
+# doc_range = 1442-1687
+# sent_id = 2128
+# text = המחיר הראשוני שנדרש תמורת המשרדים היה 045 אלף דולר, אך הקונים העלו את המחיר בהדרגה במהלך המכירה הפומבית שנערכה בבית-המשפט המחוזי בת"א.
+1-2	המחיר	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מחיר	מחיר	NOUN	NOUN	Gender=Masc|Number=Sing	13	nsubj	_	_
+3-4	הראשוני	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	ראשוני	ראשוני	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+5-6	שנדרש	_	_	_	_	_	_	_	_
+5	ש	ש	SCONJ	SCONJ	_	6	mark	_	_
+6	נדרש	נדרש	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	2	acl:relcl	_	_
+7	תמורת	תמורת	ADP	ADP	_	9	case	_	_
+8-9	המשרדים	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	משרדים	משרד	NOUN	NOUN	Gender=Masc|Number=Plur	6	obl	_	_
+10	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	13	cop	_	_
+11	045	045	NUM	NUM	_	12	nummod	_	_
+12	אלף	אלף	NUM	NUM	Gender=Masc|Number=Plur	13	nummod	_	_
+13	דולר	דולר	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	18	punct	_	_
+15	אך	אך	CCONJ	CCONJ	_	18	cc	_	_
+16-17	הקונים	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	קונים	קונה	NOUN	NOUN	Gender=Masc|Number=Plur	18	nsubj	_	_
+18	העלו	העלה	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	13	conj	_	_
+19	את	את	ADP	ADP	Case=Acc	21	case	_	_
+20-21	המחיר	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	מחיר	מחיר	NOUN	NOUN	Gender=Masc|Number=Sing	18	obj	_	_
+22-23	בהדרגה	_	_	_	_	_	_	_	_
+22	ב	ב	ADP	ADP	_	23	case	_	_
+23	הדרגה	הדרגה	NOUN	NOUN	Gender=Fem|Number=Sing	18	obl	_	_
+24-25	במהלך	_	_	_	_	_	_	_	_
+24	ב	ב	ADP	ADP	_	27	case	_	_
+25	מהלך	מהלך	NOUN	NOUN	Gender=Masc|Number=Sing	24	fixed	_	_
+26-27	המכירה	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	מכירה	מכירה	NOUN	NOUN	Gender=Fem|Number=Sing	18	obl	_	_
+28-29	הפומבית	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	פומבית	פומבי	ADJ	ADJ	Gender=Fem|Number=Sing	27	amod	_	_
+30-31	שנערכה	_	_	_	_	_	_	_	_
+30	ש	ש	SCONJ	SCONJ	_	31	mark	_	_
+31	נערכה	נערך	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	27	acl:relcl	_	_
+32-33	בבית	_	_	_	_	_	_	_	SpaceAfter=No
+32	ב	ב	ADP	ADP	_	36	case	_	_
+33	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	36	nmod	_	_
+34	-	-	PUNCT	PUNCT	_	33	punct	_	SpaceAfter=No
+35-36	המשפט	_	_	_	_	_	_	_	_
+35	ה	ה	DET	DET	Definite=Def|PronType=Art	36	det	_	_
+36	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	31	obl	_	_
+37-38	המחוזי	_	_	_	_	_	_	_	_
+37	ה	ה	DET	DET	Definite=Def|PronType=Art	38	det	_	_
+38	מחוזי	מחוזי	ADJ	ADJ	Gender=Masc|Number=Sing	36	amod	_	_
+39-40	בת"א	_	_	_	_	_	_	_	SpaceAfter=No
+39	ב	ב	ADP	ADP	_	40	case	_	_
+40	ת"א	ת"א	PROPN	PROPN	Abbr=Yes	36	nmod	_	_
+41	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# doc_id = htb:74
+# doc_range = 1689-1872
+# sent_id = 2129
+# text = המחירים הועלו לעתים בסכומים קטנים של 5,000 דולר, עד שהמחיר קפץ ל067 אלף דולר, בכ04% יותר ממה שנדרש בתחילה.
+1-2	המחירים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מחירים	מחיר	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+3	הועלו	הועלה	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+4	לעתים	לעתים	ADV	ADV	_	3	advmod	_	_
+5-6	בסכומים	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	סכומים	סכום	NOUN	NOUN	Gender=Masc|Number=Plur	3	obl	_	_
+7	קטנים	קטן	ADJ	ADJ	Gender=Masc|Number=Plur	6	amod	_	_
+8	של	של	ADP	ADP	Case=Gen	10	case	_	_
+9	5,000	5,000	NUM	NUM	_	10	nummod	_	_
+10	דולר	דולר	NOUN	NOUN	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	16	punct	_	_
+12	עד	עד	ADP	ADP	_	16	mark	_	_
+13-15	שהמחיר	_	_	_	_	_	_	_	_
+13	ש	ש	SCONJ	SCONJ	_	12	fixed	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	מחיר	מחיר	NOUN	NOUN	Gender=Masc|Number=Sing	16	nsubj	_	_
+16	קפץ	קפץ	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	3	advcl	_	_
+17-18	ל067	_	_	_	_	_	_	_	_
+17	ל	ל	ADP	ADP	_	20	case	_	_
+18	067	067	NUM	NUM	_	19	nummod	_	_
+19	אלף	אלף	NUM	NUM	Gender=Masc|Number=Plur	20	nummod	_	_
+20	דולר	דולר	NOUN	NOUN	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	25	punct	_	_
+22-24	בכ04	_	_	_	_	_	_	_	SpaceAfter=No
+22	ב	ב	ADP	ADP	_	25	case	_	_
+23	כ	כ	ADP	ADP	_	25	case	_	_
+24	04	04	NUM	NUM	_	25	nummod	_	_
+25	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	20	nmod	_	_
+26	יותר	יותר	ADV	ADV	_	25	advmod	_	_
+27-28	ממה	_	_	_	_	_	_	_	_
+27	מ	מ	ADP	ADP	_	28	case	_	_
+28	מה	מה	PRON	PRON	PronType=Int	25	nmod	_	_
+29-30	שנדרש	_	_	_	_	_	_	_	_
+29	ש	ש	SCONJ	SCONJ	_	30	mark	_	_
+30	נדרש	נדרש	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	28	acl:relcl	_	_
+31	בתחילה	בתחילה	ADV	ADV	_	30	advmod	_	SpaceAfter=No
+32	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:74
+# doc_range = 1875-1939
+# sent_id = 2130
+# text = יחד עם המע"ם ישלמו המוכרים כ509 אלף ד.
+1	יחד	יחד	ADV	ADV	_	4	case	_	_
+2	עם	עם	ADP	ADP	_	1	fixed	_	_
+3-4	המע"ם	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	מע"ם	מע"ם	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	5	obl	_	_
+5	ישלמו	שילם	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	0	root	_	_
+6-7	המוכרים	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	מוכרים	מוכר	NOUN	NOUN	Gender=Masc|Number=Plur	5	nsubj	_	_
+8-9	כ509	_	_	_	_	_	_	_	_
+8	כ	כ	ADP	ADP	_	11	case	_	_
+9	509	509	NUM	NUM	_	10	nummod	_	_
+10	אלף	אלף	NUM	NUM	Gender=Masc|Number=Plur	11	nummod	_	_
+11	ד	ד	NOUN	NOUN	_	5	obj	_	SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:74
+# doc_range = 1941-2042
+# sent_id = 2131
+# text = בעקבות המכירה יהיה צורך גם לפנות בית-כנסת בקומת הקרקע.
+1	בעקבות	בעקבות	ADP	ADP	_	3	case	_	_
+2-3	המכירה	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	מכירה	מכירה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+4	יהיה	היה	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
+5	צורך	צורך	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
+6	גם	גם	ADV	ADV	_	4	advmod	_	_
+7	לפנות	לפנות	VERB	VERB	VerbForm=Inf	4	xcomp	_	_
+8	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+9	-	-	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+10	כנסת	כנסת	PROPN	PROPN	_	7	obj	_	_
+11-12	בקומת	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	קומת	קומה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	10	nmod	_	_
+13-14	הקרקע	_	_	_	_	_	_	_	SpaceAfter=No
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	קרקע	קרקע	NOUN	NOUN	Gender=Fem|Number=Sing	12	compound:smixut	_	_
+15	.	.	PUNCT	PUNCT	_	4	punct	_	_
+

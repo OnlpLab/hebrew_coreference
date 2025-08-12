@@ -1,0 +1,308 @@
+# doc_id = htb:214_3
+# doc_range = 10365-10565
+# sent_id = 5329
+# text = יומיים אחרי שובו של המנהיג הסוציאל-דמוקרטי, וילי בראנדט, משליחות בעיראק, היו אמש חילוקי דעות על הצלחת המסע.
+1	יומיים	יום	NOUN	NOUN	Gender=Masc|Number=Dual	22	obl:tmod	_	_
+2	אחרי	אחרי	ADP	ADP	_	3	case	_	_
+3-5	שובו	_	_	_	_	_	_	_	_
+3	שובו	שובו	NOUN	NOUN	Gender=Masc|Number=Sing	1	nmod	_	_
+4	_של_	של	ADP	ADP	Case=Gen	5	case:gen	_	_
+5	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+6	של	של	ADP	ADP	Case=Gen	8	case	_	_
+7-8	המנהיג	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	מנהיג	מנהיג	NOUN	NOUN	Gender=Masc|Number=Sing	3	nmod:poss	_	_
+9-10	הסוציאל	_	_	_	_	_	_	_	SpaceAfter=No
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	סוציאל	סוציאל	NOUN	NOUN	_	8	amod	_	_
+11	-	-	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
+12	דמוקרטי	דמוקרטי	ADJ	ADJ	Gender=Masc|Number=Sing	10	dep	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	14	punct	_	_
+14	וילי	וילי	PROPN	PROPN	_	8	appos	_	_
+15	בראנדט	בראנדט	PROPN	PROPN	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	18	punct	_	_
+17-18	משליחות	_	_	_	_	_	_	_	_
+17	מ	מ	ADP	ADP	_	18	case	_	_
+18	שליחות	שליחות	NOUN	NOUN	Gender=Fem|Number=Sing	1	nmod	_	_
+19-20	בעיראק	_	_	_	_	_	_	_	SpaceAfter=No
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	עיראק	עיראק	PROPN	PROPN	_	18	nmod	_	_
+21	,	,	PUNCT	PUNCT	_	1	punct	_	_
+22	היו	היה	VERB	VERB	Gender=Fem,Masc|HebExistential=Yes|Number=Plur|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+23	אמש	אמש	ADV	ADV	_	22	advmod	_	_
+24	חילוקי	חילוק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	22	nsubj	_	_
+25	דעות	דעה	NOUN	NOUN	Gender=Fem|Number=Plur	24	compound:smixut	_	_
+26	על	על	ADP	ADP	_	27	case	_	_
+27	הצלחת	הצלחה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	24	nmod	_	_
+28-29	המסע	_	_	_	_	_	_	_	SpaceAfter=No
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	מסע	מסע	NOUN	NOUN	Gender=Masc|Number=Sing	27	compound:smixut	_	_
+30	.	.	PUNCT	PUNCT	_	22	punct	_	_
+
+# doc_id = htb:214_3
+# doc_range = 10567-10683
+# sent_id = 5330
+# text = בראנדט הביא עמו לפראנקפורט 180 בני-ערובה מעיראק, בהם כ120 גרמנים.
+1	בראנדט	בראנדט	PROPN	PROPN	_	2	nsubj	_	_
+2	הביא	הביא	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3-4	עמו	_	_	_	_	_	_	_	_
+3	עם	עם	ADP	ADP	_	4	case	_	_
+4	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+5-6	לפראנקפורט	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	פראנקפורט	פראנקפורט	PROPN	PROPN	_	2	obl	_	_
+7	180	180	NUM	NUM	_	10	nummod	_	_
+8	בני	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+9	-	-	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+10	ערובה	ערובה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obj	_	_
+11-12	מעיראק	_	_	_	_	_	_	_	SpaceAfter=No
+11	מ	מ	ADP	ADP	_	12	case	_	_
+12	עיראק	עיראק	PROPN	PROPN	_	10	nmod	_	_
+13	,	,	PUNCT	PUNCT	_	15	punct	_	_
+14-15	בהם	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	appos	_	_
+16-17	כ120	_	_	_	_	_	_	_	_
+16	כ	כ	ADP	ADP	_	18	case	_	_
+17	120	120	NUM	NUM	_	18	nummod	_	_
+18	גרמנים	גרמני	NOUN	NOUN	Gender=Masc|Number=Plur	15	nsubj	_	SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:214_3
+# doc_range = 10685-10838
+# sent_id = 5331
+# text = הממשלה השמרנית בבון הודתה לבראנדט על השליחות, למרות שבשלבים הראשונים הסתייגה ממנה.
+1-2	הממשלה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	7	nsubj	_	_
+3-4	השמרנית	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	שמרנית	שמרני	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+5-6	בבון	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	בון	בון	PROPN	PROPN	_	2	nmod	_	_
+7	הודתה	הודה	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+8-9	לבראנדט	_	_	_	_	_	_	_	_
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	בראנדט	בראנדט	PROPN	PROPN	_	7	obl	_	_
+10	על	על	ADP	ADP	_	12	case	_	_
+11-12	השליחות	_	_	_	_	_	_	_	SpaceAfter=No
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	שליחות	שליחות	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
+13	,	,	PUNCT	PUNCT	_	21	punct	_	_
+14	למרות	למרות	ADP	ADP	_	21	mark	_	_
+15-18	שבשלבים	_	_	_	_	_	_	_	_
+15	ש	ש	SCONJ	SCONJ	_	14	fixed	_	_
+16	ב	ב	ADP	ADP	_	18	case	_	_
+17	ה_	ה	DET	DET	PronType=Art|Definite=Def	18	det	_	_
+18	שלבים	שלב	NOUN	NOUN	Gender=Masc|Number=Plur	21	obl	_	_
+19-20	הראשונים	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	ראשונים	ראשונים	ADJ	ADJ	Gender=Masc|Number=Plur	18	amod	_	_
+21	הסתייגה	הסתייג	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	7	advcl	_	_
+22-23	ממנה	_	_	_	_	_	_	_	SpaceAfter=No
+22	מן	מן	ADP	ADP	_	23	case	_	_
+23	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	obl	_	_
+24	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:214_3
+# doc_range = 10840-11089
+# sent_id = 5332
+# text = השינוי בעמדת הקאנצלר קוהל כלפי השליחות נבע ממסע הבחירות המתנהל בגרמניה, ולחצן של משפחות בני-הערובה לפעול לטובת יקיריהן השוהים בעיראק.
+1-2	השינוי	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	שינוי	שינוי	NOUN	NOUN	Gender=Masc|Number=Sing	11	nsubj	_	_
+3-4	בעמדת	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	עמדת	עמדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	nmod	_	_
+5-6	הקאנצלר	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	קאנצלר	קנצלר	NOUN	NOUN	Gender=Masc|Number=Sing	4	compound:smixut	_	_
+7	קוהל	קוהל	PROPN	PROPN	_	6	flat:name	_	_
+8	כלפי	כלפי	ADP	ADP	_	10	case	_	_
+9-10	השליחות	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	שליחות	שליחות	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	_
+11	נבע	נבע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+12-13	ממסע	_	_	_	_	_	_	_	_
+12	מ	מ	ADP	ADP	_	13	case	_	_
+13	מסע	מסע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	obl	_	_
+14-15	הבחירות	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	בחירות	בחירות	NOUN	NOUN	Gender=Fem|Number=Plur	13	compound:smixut	_	_
+16-17	המתנהל	_	_	_	_	_	_	_	_
+16	ה	ה	SCONJ	SCONJ	_	17	mark	_	_
+17	מתנהל	התנהל	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	13	acl:relcl	_	_
+18-19	בגרמניה	_	_	_	_	_	_	_	SpaceAfter=No
+18	ב	ב	ADP	ADP	_	19	case	_	_
+19	גרמניה	גרמניה	PROPN	PROPN	_	17	obl	_	_
+20	,	,	PUNCT	PUNCT	_	22	punct	_	_
+21-24	ולחצן	_	_	_	_	_	_	_	_
+21	ו	ו	CCONJ	CCONJ	_	22	cc	_	_
+22	לחץ	לחץ	NOUN	NOUN	Gender=Masc|Number=Sing	13	conj	_	_
+23	_של_	של	ADP	ADP	Case=Gen	24	case:gen	_	_
+24	_הן	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+25	של	של	ADP	ADP	Case=Gen	26	case	_	_
+26	משפחות	משפחה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	22	nmod:poss	_	_
+27	בני	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	30	nmod	_	SpaceAfter=No
+28	-	-	PUNCT	PUNCT	_	27	punct	_	SpaceAfter=No
+29-30	הערובה	_	_	_	_	_	_	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	ערובה	ערובה	NOUN	NOUN	Gender=Fem|Number=Sing	26	compound:smixut	_	_
+31	לפעול	פעל	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	22	acl	_	_
+32-33	לטובת	_	_	_	_	_	_	_	_
+32	ל	ל	ADP	ADP	_	34	case	_	_
+33	טובת	טובה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	32	fixed	_	_
+34-36	יקיריהן	_	_	_	_	_	_	_	_
+34	יקיר	יקיר	NOUN	NOUN	Gender=Masc|Number=Plur	31	obl	_	_
+35	_של_	של	ADP	ADP	Case=Gen	36	case:gen	_	_
+36	_הן	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
+37-38	השוהים	_	_	_	_	_	_	_	_
+37	ה	ה	SCONJ	SCONJ	_	38	mark	_	_
+38	שוהים	שהה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	34	acl:relcl	_	_
+39-40	בעיראק	_	_	_	_	_	_	_	SpaceAfter=No
+39	ב	ב	ADP	ADP	_	40	case	_	_
+40	עיראק	עיראק	PROPN	PROPN	_	38	obl	_	_
+41	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:214_3
+# doc_range = 11091-11306
+# sent_id = 5333
+# text = השגריר העיראקי בוואשינגטון, מוחמד צאדק אל-משאט, אמר ביום חמישי כי התקפה אמריקאית נגד כוחות עיראק תרחיק את כל הערבים.
+1-2	השגריר	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	שגריר	שגריר	NOUN	NOUN	Gender=Masc|Number=Sing	14	nsubj	_	_
+3-4	העיראקי	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	עיראקי	עיראקי	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+5-6	בוואשינגטון	_	_	_	_	_	_	_	SpaceAfter=No
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	וואשינגטון	ואשינגטון	PROPN	PROPN	_	2	nmod	_	_
+7	,	,	PUNCT	PUNCT	_	8	punct	_	_
+8	מוחמד	מוחמד	PROPN	PROPN	_	2	appos	_	_
+9	צאדק	צאדק	PROPN	PROPN	_	8	flat:name	_	_
+10	אל	אל	PROPN	PROPN	_	9	flat:name	_	SpaceAfter=No
+11	-	-	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
+12	משאט	משאט	PROPN	PROPN	_	9	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	2	punct	_	_
+14	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+15-16	ביום	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	14	obl	_	_
+17	חמישי	חמישי	PROPN	PROPN	_	16	compound:smixut	_	_
+18	כי	כי	SCONJ	SCONJ	_	24	mark	_	_
+19	התקפה	התקפה	NOUN	NOUN	Gender=Fem|Number=Sing	24	nsubj	_	_
+20	אמריקאית	אמריקני	ADJ	ADJ	Gender=Fem|Number=Sing	19	amod	_	_
+21	נגד	נגד	ADP	ADP	_	22	case	_	_
+22	כוחות	כוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	19	nmod	_	_
+23	עיראק	עיראק	PROPN	PROPN	_	22	compound:smixut	_	_
+24	תרחיק	הרחיק	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	14	ccomp	_	_
+25	את	את	ADP	ADP	Case=Acc	28	case	_	_
+26	כל	כול	DET	DET	Definite=Cons	28	det	_	_
+27-28	הערבים	_	_	_	_	_	_	_	SpaceAfter=No
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	ערבים	ערבי	NOUN	NOUN	Gender=Masc|Number=Plur	24	obj	_	_
+29	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# doc_id = htb:214_3
+# doc_range = 11309-11439
+# sent_id = 5334
+# text = השגריר אמר את דבריו כמה שעות לאחר הודעת הנשיא בוש על שיגור תגבורת למפרץ.
+1-2	השגריר	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	שגריר	שגריר	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	את	את	ADP	ADP	Case=Acc	5	case	_	_
+5-7	דבריו	_	_	_	_	_	_	_	_
+5	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	3	obj	_	_
+6	_של_	של	ADP	ADP	Case=Gen	7	case:gen	_	_
+7	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+8	כמה	כמה	DET	DET	Definite=Cons	9	det	_	_
+9	שעות	שעה	NOUN	NOUN	Gender=Fem|Number=Plur	3	obl:tmod	_	_
+10	לאחר	לאחר	ADP	ADP	_	11	case	_	_
+11	הודעת	הודעה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	nmod	_	_
+12-13	הנשיא	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	נשיא	נשיא	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound:smixut	_	_
+14	בוש	בוש	PROPN	PROPN	_	13	flat:name	_	_
+15	על	על	ADP	ADP	_	16	case	_	_
+16	שיגור	שיגור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	nmod	_	_
+17	תגבורת	תגבורת	NOUN	NOUN	Gender=Fem|Number=Sing	16	compound:smixut	_	_
+18-20	למפרץ	_	_	_	_	_	_	_	SpaceAfter=No
+18	ל	ל	ADP	ADP	_	20	case	_	_
+19	ה_	ה	DET	DET	PronType=Art|Definite=Def	20	det	_	_
+20	מפרץ	מפרץ	NOUN	NOUN	Gender=Masc|Number=Sing	16	nmod	_	_
+21	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:214_3
+# doc_range = 11442-11830
+# sent_id = 5335
+# text = בהתייחסו להתקפה אמריקאית אפשרית אמר משאט: "אתם מטרידים את הבחורים שלכם על לא דבר וההתקפה תביא את העוינות של כל הערבים וכל המוסלמים, מפני שאתם הולכים לבצע פעולת תוקפנות נגד עיראק ממדינה מוסלמית אחרת, מארץ קדושה".
+1-2	בהתייחסו	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	התייחסו	התייחסו	NOUN	NOUN	_	7	obl	_	_
+3-4	להתקפה	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	4	case	_	_
+4	התקפה	התקפה	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	_
+5	אמריקאית	אמריקני	ADJ	ADJ	Gender=Fem|Number=Sing	4	amod	_	_
+6	אפשרית	אפשרי	ADJ	ADJ	Gender=Fem|Number=Sing	4	amod	_	_
+7	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+8	משאט	משאט	PROPN	PROPN	_	7	nsubj	_	SpaceAfter=No
+9	:	:	PUNCT	PUNCT	_	12	punct	_	_
+10	"	"	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
+11	אתם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=2|PronType=Prs	12	nsubj	_	_
+12	מטרידים	הטריד	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	7	advcl	_	_
+13	את	את	ADP	ADP	Case=Acc	15	case	_	_
+14-15	הבחורים	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	בחורים	בחור	NOUN	NOUN	Gender=Masc|Number=Plur	12	obj	_	_
+16-17	שלכם	_	_	_	_	_	_	_	_
+16	של	של	ADP	ADP	Case=Gen	17	case	_	_
+17	_אתם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=2|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+18	על	על	ADP	ADP	_	20	case	_	_
+19	לא	לא	DET	DET	Polarity=Neg	20	det	_	_
+20	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
+21-23	וההתקפה	_	_	_	_	_	_	_	_
+21	ו	ו	CCONJ	CCONJ	_	24	cc	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	התקפה	התקפה	NOUN	NOUN	Gender=Fem|Number=Sing	24	nsubj	_	_
+24	תביא	הביא	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	12	conj	_	_
+25	את	את	ADP	ADP	Case=Acc	27	case	_	_
+26-27	העוינות	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	עוינות	עוינות	NOUN	NOUN	Gender=Fem|Number=Sing	24	obj	_	_
+28	של	של	ADP	ADP	Case=Gen	31	case	_	_
+29	כל	כול	DET	DET	Definite=Cons	31	det	_	_
+30-31	הערבים	_	_	_	_	_	_	_	_
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	ערבים	ערבי	NOUN	NOUN	Gender=Masc|Number=Plur	27	nmod:poss	_	_
+32-33	וכל	_	_	_	_	_	_	_	_
+32	ו	ו	CCONJ	CCONJ	_	35	cc	_	_
+33	כל	כול	DET	DET	Definite=Cons	35	det	_	_
+34-35	המוסלמים	_	_	_	_	_	_	_	SpaceAfter=No
+34	ה	ה	DET	DET	Definite=Def|PronType=Art	35	det	_	_
+35	מוסלמים	מוסלמי	NOUN	NOUN	Gender=Masc|Number=Plur	31	conj	_	_
+36	,	,	PUNCT	PUNCT	_	40	punct	_	_
+37	מפני	מפני	ADP	ADP	_	40	mark	_	_
+38-39	שאתם	_	_	_	_	_	_	_	_
+38	ש	ש	SCONJ	SCONJ	_	37	fixed	_	_
+39	אתם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=2|PronType=Prs	40	nsubj	_	_
+40	הולכים	הלך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	24	advcl	_	_
+41	לבצע	ביצע	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	40	xcomp	_	_
+42	פעולת	פעולה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	41	obj	_	_
+43	תוקפנות	תוקפנות	NOUN	NOUN	Gender=Fem|Number=Sing	42	compound:smixut	_	_
+44	נגד	נגד	ADP	ADP	_	45	case	_	_
+45	עיראק	עיראק	PROPN	PROPN	_	42	nmod	_	_
+46-47	ממדינה	_	_	_	_	_	_	_	_
+46	מ	מ	ADP	ADP	_	47	case	_	_
+47	מדינה	מדינה	NOUN	NOUN	Gender=Fem|Number=Sing	40	obl	_	_
+48	מוסלמית	מוסלמי	ADJ	ADJ	Gender=Fem|Number=Sing	47	amod	_	_
+49	אחרת	אחר	ADJ	ADJ	Gender=Fem|Number=Sing	47	amod	_	SpaceAfter=No
+50	,	,	PUNCT	PUNCT	_	52	punct	_	_
+51-52	מארץ	_	_	_	_	_	_	_	_
+51	מ	מ	ADP	ADP	_	52	case	_	_
+52	ארץ	ארץ	NOUN	NOUN	Gender=Fem|Number=Sing	40	obl	_	_
+53	קדושה	קדוש	ADJ	ADJ	Gender=Fem|Number=Sing	52	amod	_	SpaceAfter=No
+54	"	"	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
+55	.	.	PUNCT	PUNCT	_	7	punct	_	_
+

@@ -1,0 +1,95 @@
+# sent_id = 18
+# text = הוא קרא להפסקת התופעה ולמתן תשלומים רטרואקטיוויים לתאילנדים, שישלימו את שכר המינימום.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	קרא	קרא	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3-4	להפסקת	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	4	case	_	_
+4	הפסקת	הפסקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	obl	_	_
+5-6	התופעה	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	תופעה	תופעה	NOUN	NOUN	Gender=Fem|Number=Sing	4	compound:smixut	_	_
+7-9	ולמתן	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	מתן	מתן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	conj	_	_
+10	תשלומים	תשלום	NOUN	NOUN	Gender=Masc|Number=Plur	9	compound:smixut	_	_
+11	רטרואקטיוויים	רטרואקטיבי	ADJ	ADJ	Gender=Masc|Number=Plur	10	amod	_	_
+
+
+# sent_id = 5
+# text = נמיר הודיעה כי תפנה לשרי הפנים והעבודה והרווחה ולמזכיר תנועת המושבים, בתביעה לבטל את הזמנתם של 500 עובדים זרים מתאילנד כמתנדבים כביכול.
+1	נמיר	נמיר	PROPN	PROPN	_	2	nsubj	_	_
+2	הודיעה	הודיע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	כי	כי	SCONJ	SCONJ	_	4	mark	_	_
+4	תפנה	פנה	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Fut	2	ccomp	_	_
+5-6	לשרי	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	שרי	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	obl	_	_
+7-8	הפנים	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	פנים	פנים	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+9-11	והעבודה	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	8	conj	_	_
+12-14	והרווחה	_	_	_	_	_	_	_	_
+12	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	רווחה	רווחה	NOUN	NOUN	Gender=Fem|Number=Sing	11	conj	_	_
+15-17	ולמזכיר	_	_	_	_	_	_	_	_
+15	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	מזכיר	מזכיר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	conj	_	_
+18	תנועת	תנועה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	17	compound:smixut	_	_
+19-20	המושבים	_	_	_	_	_	_	_	SpaceAfter=No
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	מושבים	מושב	NOUN	NOUN	Gender=Masc|Number=Plur	18	compound:smixut	_	_
+21	,	,	PUNCT	PUNCT	_	23	punct	_	_
+22-23	בתביעה	_	_	_	_	_	_	_	_
+22	ב	ב	ADP	ADP	_	23	case	_	_
+23	תביעה	תביעה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+24	לבטל	ביטל	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	23	acl	_	_
+25	את	את	ADP	ADP	Case=Acc	26	case:acc	_	_
+26-28	הזמנתם	_	_	_	_	_	_	_	_
+26	הזמנה_	הזמנה	NOUN	NOUN	Definite=Def|Gender=Fem|Number=Sing	24	obj	_	_
+27	_של_	של	ADP	ADP	_	28	case:gen	_	_
+28	_הם	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	26	nmod:poss	_	_
+29	של	של	ADP	ADP	Case=Gen	31	case:gen	_	_
+30	500	500	NUM	NUM	_	31	nummod	_	_
+31	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	26	nmod:poss	_	_
+32	זרים	זר	ADJ	ADJ	Gender=Masc|Number=Plur	31	amod	_	_
+33-34	מתאילנד	_	_	_	_	_	_	_	_
+33	מ	מ	ADP	ADP	_	34	case	_	_
+34	תאילנד	תאילנד	PROPN	PROPN	_	31	nmod	_	_
+35-36	כמתנדבים	_	_	_	_	_	_	_	_
+35	כ	כ	ADP	ADP	_	36	case	_	_
+36	מתנדבים	מתנדב	NOUN	NOUN	Gender=Masc|Number=Plur	26	nmod	_	_
+37	כביכול	כביכול	ADV	ADV	_	36	advmod	_	HebSource=ConvUncertainHead|SpaceAfter=No
+38	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

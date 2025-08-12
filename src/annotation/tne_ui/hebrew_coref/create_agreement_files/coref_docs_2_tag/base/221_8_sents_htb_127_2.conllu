@@ -1,0 +1,276 @@
+# doc_id = htb:127_2
+# doc_range = 4422-4571
+# sent_id = 3077
+# text = לעתים קרובות הורים אינם נותנים סיכוי לרשויות הנוער לטפל בילדים הסובלים מהתעללות.
+1	לעתים	לעתים	ADV	ADV	_	5	advmod	_	_
+2	קרובות	קרוב	ADJ	ADJ	Gender=Fem|Number=Plur	1	fixed	_	_
+3	הורים	הורה	NOUN	NOUN	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	אינם	אינו	AUX	AUX	Gender=Masc|Number=Plur|Person=3|Polarity=Neg|VerbForm=Part	5	aux	_	_
+5	נותנים	נתן	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+6	סיכוי	סיכוי	NOUN	NOUN	Gender=Masc|Number=Sing	5	obj	_	_
+7-8	לרשויות	_	_	_	_	_	_	_	_
+7	ל	ל	ADP	ADP	_	8	case	_	_
+8	רשויות	רשות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	5	obl	_	_
+9-10	הנוער	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	נוער	נוער	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound:smixut	_	_
+11	לטפל	טיפל	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+12-13	בילדים	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	ילדים	ילד	NOUN	NOUN	Gender=Masc|Number=Plur	11	obl	_	_
+14-15	הסובלים	_	_	_	_	_	_	_	_
+14	ה	ה	SCONJ	SCONJ	_	15	mark	_	_
+15	סובלים	סבל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	13	acl:relcl	_	_
+16-17	מהתעללות	_	_	_	_	_	_	_	SpaceAfter=No
+16	מ	מ	ADP	ADP	_	17	case	_	_
+17	התעללות	התעללות	NOUN	NOUN	Gender=Fem|Number=Sing	15	obl	_	_
+18	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:127_2
+# doc_range = 4574-4660
+# sent_id = 3078
+# text = הם שולחים את הבנות המרדניות לטורקיה כדי להשיא אותן.
+1	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	שולחים	שלח	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+3	את	את	ADP	ADP	Case=Acc	5	case	_	_
+4-5	הבנות	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	בנות	בת	NOUN	NOUN	Gender=Fem|Number=Plur	2	obj	_	_
+6-7	המרדניות	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	מרדניות	מרדני	ADJ	ADJ	Gender=Fem|Number=Plur	5	amod	_	_
+8-9	לטורקיה	_	_	_	_	_	_	_	_
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	טורקיה	טורקיה	PROPN	PROPN	_	2	obl	_	_
+10	כדי	כדי	SCONJ	SCONJ	_	11	mark	_	_
+11	להשיא	השיא	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	2	advcl	_	_
+12-13	אותן	_	_	_	_	_	_	_	SpaceAfter=No
+12	את	את	ADP	ADP	Case=Acc	13	case	_	_
+13	_הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	11	obj	_	_
+14	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:127_2
+# doc_range = 4662-4887
+# sent_id = 3079
+# text = מעלי ס. (54), בעל חברת ייבוא-ייצוא, נלקחה האפוטרופסות על שתי בנותיו, אסומן בת ה16 ועיילה בת ה21, כיוון שנהג להכות אותן במוט מתכת.
+1-2	מעלי	_	_	_	_	_	_	_	_
+1	מ	מ	ADP	ADP	_	2	case	_	_
+2	עלי	עלי	PROPN	PROPN	_	14	obl	_	_
+3	ס.	סyyד%ת	PROPN	PROPN	Abbr=Yes	2	flat:name	_	_
+4	(	(	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+5	54	54	NUM	NUM	_	2	appos	_	SpaceAfter=No
+6	)	)	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	8	punct	_	_
+8	בעל	בעל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	acl	_	_
+9	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	8	compound:smixut	_	_
+10	ייבוא	ייבוא	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound:smixut	_	SpaceAfter=No
+11	-	-	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
+12	ייצוא	ייצוא	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	2	punct	_	_
+14	נלקחה	נלקח	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+15-16	האפוטרופסות	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	אפוטרופסות	אפוטרופסות	NOUN	NOUN	Gender=Fem|Number=Sing	14	nsubj	_	_
+17	על	על	ADP	ADP	_	19	case	_	_
+18	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	19	nummod	_	_
+19-21	בנותיו	_	_	_	_	_	_	_	SpaceAfter=No
+19	בת	בת	NOUN	NOUN	Gender=Fem|Number=Plur	16	nmod	_	_
+20	_של_	של	ADP	ADP	Case=Gen	21	case:gen	_	_
+21	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+22	,	,	PUNCT	PUNCT	_	23	punct	_	_
+23	אסומן	סומן	PROPN	PROPN	_	19	appos	_	_
+24	בת	בת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	23	acl	_	_
+25-26	ה16	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	16	16	NUM	NUM	_	24	compound:smixut	_	_
+27-28	ועיילה	_	_	_	_	_	_	_	_
+27	ו	ו	CCONJ	CCONJ	_	28	cc	_	_
+28	עיילה	עייל	PROPN	PROPN	_	23	conj	_	_
+29	בת	בת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	28	acl	_	_
+30-31	ה21	_	_	_	_	_	_	_	SpaceAfter=No
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	21	21	NUM	NUM	_	29	compound:smixut	_	_
+32	,	,	PUNCT	PUNCT	_	35	punct	_	_
+33	כיוון	כיוון	SCONJ	SCONJ	_	35	mark	_	_
+34-35	שנהג	_	_	_	_	_	_	_	_
+34	ש	ש	SCONJ	SCONJ	_	35	mark	_	_
+35	נהג	נהג	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	14	obl	_	_
+36	להכות	הכה	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	35	xcomp	_	_
+37-38	אותן	_	_	_	_	_	_	_	_
+37	את	את	ADP	ADP	Case=Acc	38	case	_	_
+38	_הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	36	obj	_	_
+39-40	במוט	_	_	_	_	_	_	_	_
+39	ב	ב	ADP	ADP	_	40	case	_	_
+40	מוט	מוט	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	36	obl	_	_
+41	מתכת	מתכת	NOUN	NOUN	Gender=Fem|Number=Sing	40	compound:smixut	_	SpaceAfter=No
+42	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# doc_id = htb:127_2
+# doc_range = 4889-5053
+# sent_id = 3080
+# text = ארבעה שבועות לאחר מכן הופיעה דודתן, האגר י., במעון שאליו הועברו הילדות, לקחת אותן לקניות.
+1	ארבעה	ארבע	NUM	NUM	Gender=Masc|Number=Sing	2	nummod	_	_
+2	שבועות	שבוע	NOUN	NOUN	Gender=Masc|Number=Plur	6	obl:tmod	_	_
+3	לאחר	לאחר	ADP	ADP	_	5	case	_	_
+4-5	מכן	_	_	_	_	_	_	_	_
+4	מ	מ	ADP	ADP	_	5	case	_	_
+5	כן	כן	ADV	ADV	_	2	advmod	_	_
+6	הופיעה	הופיע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+7-9	דודתן	_	_	_	_	_	_	_	SpaceAfter=No
+7	דוד	דוד	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj	_	_
+8	_של_	של	ADP	ADP	Case=Gen	9	case:gen	_	_
+9	_הן	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+10	,	,	PUNCT	PUNCT	_	11	punct	_	_
+11	האגר	האגר	PROPN	PROPN	_	7	appos	_	_
+12	י.	יyyד%ת	PROPN	PROPN	Abbr=Yes	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	15	punct	_	_
+14-15	במעון	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	מעון	מעון	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+16-18	שאליו	_	_	_	_	_	_	_	_
+16	ש	ש	SCONJ	SCONJ	_	19	mark	_	_
+17	אל	אל	ADP	ADP	_	18	case	_	_
+18	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obl	_	_
+19	הועברו	הועבר	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	15	acl:relcl	_	_
+20-21	הילדות	_	_	_	_	_	_	_	SpaceAfter=No
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	ילדות	ילד	NOUN	NOUN	Gender=Fem|Number=Plur	19	nsubj:pass	_	_
+22	,	,	PUNCT	PUNCT	_	23	punct	_	_
+23	לקחת	לקחת	VERB	VERB	VerbForm=Inf	6	xcomp	_	_
+24-25	אותן	_	_	_	_	_	_	_	_
+24	את	את	ADP	ADP	Case=Acc	25	case	_	_
+25	_הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	23	obj	_	_
+26-27	לקניות	_	_	_	_	_	_	_	SpaceAfter=No
+26	ל	ל	ADP	ADP	_	27	case	_	_
+27	קניות	קנייה	NOUN	NOUN	Gender=Fem|Number=Plur	23	obl	_	_
+28	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:127_2
+# doc_range = 5055-5183
+# sent_id = 3081
+# text = אצל מגדת עתידות טורקייה הולעטו הנערות אלכוהול וכדורי שינה ונלקחו לאב.
+1	אצל	אצל	ADP	ADP	_	2	case	_	_
+2	מגדת	מגיד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	obl	_	_
+3	עתידות	עתיד	NOUN	NOUN	Gender=Masc|Number=Plur	2	compound:smixut	_	_
+4	טורקייה	תורכי	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+5	הולעטו	הולעט	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+6-7	הנערות	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	נערות	נערה	NOUN	NOUN	Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+8	אלכוהול	אלכוהול	NOUN	NOUN	Gender=Masc|Number=Sing	5	obj	_	_
+9-10	וכדורי	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+10	כדורי	כדור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	8	conj	_	_
+11	שינה	שינה	NOUN	NOUN	Gender=Fem|Number=Sing	10	compound:smixut	_	_
+12-13	ונלקחו	_	_	_	_	_	_	_	_
+12	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
+13	נלקחו	נלקח	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	5	conj	_	_
+14-16	לאב	_	_	_	_	_	_	_	SpaceAfter=No
+14	ל	ל	ADP	ADP	_	16	case	_	_
+15	ה_	ה	DET	DET	PronType=Art|Definite=Def	16	det	_	_
+16	אב	אב	NOUN	NOUN	Gender=Masc|Number=Sing	13	obl	_	_
+17	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:127_2
+# doc_range = 5185-5288
+# sent_id = 3082
+# text = הוא עמד לקחת את בנותיו במכונית לטורקיה כדי להשיא אותן שם.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	עמד	עמד	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	_
+3	לקחת	לקחת	VERB	VERB	VerbForm=Inf	2	xcomp	_	_
+4	את	את	ADP	ADP	Case=Acc	5	case	_	_
+5-7	בנותיו	_	_	_	_	_	_	_	_
+5	בת	בת	NOUN	NOUN	Gender=Fem|Number=Plur	3	obj	_	_
+6	_של_	של	ADP	ADP	Case=Gen	7	case:gen	_	_
+7	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+8-9	במכונית	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	מכונית	מכונית	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+10-11	לטורקיה	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	11	case	_	_
+11	טורקיה	טורקיה	PROPN	PROPN	_	3	obl	_	_
+12	כדי	כדי	SCONJ	SCONJ	_	13	mark	_	_
+13	להשיא	השיא	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	2	advcl	_	_
+14-15	אותן	_	_	_	_	_	_	_	_
+14	את	את	ADP	ADP	Case=Acc	15	case	_	_
+15	_הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	13	obj	_	_
+16	שם	שם	ADV	ADV	_	13	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:127_2
+# doc_range = 5290-5559
+# sent_id = 3083
+# text = בגבול גרמניה-אוסטריה לינדאו-ציגלהאוז התעוררה אסומן, יצאה מהמכונית שנסעה לאיטה בתחבורה העמוסה וקראה לעובדי המכס, "הצילו אותנו, אבא חוטף אותנו".
+1-2	בגבול	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	גבול	גבול	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	obl	_	_
+3	גרמניה	גרמניה	PROPN	PROPN	_	2	compound:smixut	_	SpaceAfter=No
+4	-	-	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+5	אוסטריה	אוסטריה	PROPN	PROPN	_	3	nmod	_	_
+6	לינדאו	לינדאו	PROPN	PROPN	_	3	nmod	_	SpaceAfter=No
+7	-	-	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+8	ציגלהאוז	ציגלהאוז	PROPN	PROPN	_	6	nmod	_	_
+9	התעוררה	התעורר	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+10	אסומן	סומן	PROPN	PROPN	_	9	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	12	punct	_	_
+12	יצאה	יצא	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Past	9	conj	_	_
+13-15	מהמכונית	_	_	_	_	_	_	_	_
+13	מ	מ	ADP	ADP	_	15	case	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	מכונית	מכונית	NOUN	NOUN	Gender=Fem|Number=Sing	12	obl	_	_
+16-17	שנסעה	_	_	_	_	_	_	_	_
+16	ש	ש	SCONJ	SCONJ	_	17	mark	_	_
+17	נסעה	נסע	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	15	acl:relcl	_	_
+18	לאיטה	לאט	ADV	ADV	_	17	advmod	_	_
+19-21	בתחבורה	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	_	21	case	_	_
+20	ה_	ה	DET	DET	PronType=Art|Definite=Def	21	det	_	_
+21	תחבורה	תחבורה	NOUN	NOUN	Gender=Fem|Number=Sing	17	obl	_	_
+22-23	העמוסה	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	עמוסה	עמוס	ADJ	ADJ	Gender=Fem|Number=Sing	21	amod	_	_
+24-25	וקראה	_	_	_	_	_	_	_	_
+24	ו	ו	CCONJ	CCONJ	_	25	cc	_	_
+25	קראה	קרא	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	9	conj	_	_
+26-27	לעובדי	_	_	_	_	_	_	_	_
+26	ל	ל	ADP	ADP	_	27	case	_	_
+27	עובדי	עובד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	25	obl	_	_
+28-29	המכס	_	_	_	_	_	_	_	SpaceAfter=No
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	מכס	מכס	NOUN	NOUN	Gender=Masc|Number=Sing	27	compound:smixut	_	_
+30	,	,	PUNCT	PUNCT	_	32	punct	_	_
+31	"	"	PUNCT	PUNCT	_	32	punct	_	SpaceAfter=No
+32	הצילו	הציל	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Mood=Imp|Number=Plur|Person=2|Voice=Act	25	advcl	_	_
+33-34	אותנו	_	_	_	_	_	_	_	SpaceAfter=No
+33	את	את	ADP	ADP	Case=Acc	34	case	_	_
+34	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	32	obj	_	_
+35	,	,	PUNCT	PUNCT	_	37	punct	_	_
+36	אבא	אבא	NOUN	NOUN	Gender=Masc|Number=Sing	37	nsubj	_	_
+37	חוטף	חטף	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	32	parataxis	_	_
+38-39	אותנו	_	_	_	_	_	_	_	SpaceAfter=No
+38	את	את	ADP	ADP	Case=Acc	39	case	_	_
+39	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	37	obj	_	_
+40	"	"	PUNCT	PUNCT	_	32	punct	_	SpaceAfter=No
+41	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:127_2
+# doc_range = 5562-5635
+# sent_id = 3084
+# text = האב והדודה נעצרו והבנות עברו שטיפת קיבה.
+1-2	האב	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	אב	אב	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
+3-5	והדודה	_	_	_	_	_	_	_	_
+3	ו	ו	CCONJ	CCONJ	_	5	cc	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	דודה	דוד	NOUN	NOUN	Gender=Fem|Number=Sing	2	conj	_	_
+6	נעצרו	נעצר	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+7-9	והבנות	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	בנות	בת	NOUN	NOUN	Gender=Fem|Number=Plur	10	nsubj	_	_
+10	עברו	עבר	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	6	conj	_	_
+11	שטיפת	שטיפה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	10	obj	_	_
+12	קיבה	קיבה	NOUN	NOUN	Gender=Fem|Number=Sing	11	compound:smixut	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	6	punct	_	_
+

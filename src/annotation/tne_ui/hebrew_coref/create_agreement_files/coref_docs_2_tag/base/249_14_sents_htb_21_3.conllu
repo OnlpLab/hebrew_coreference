@@ -1,0 +1,285 @@
+# doc_id = htb:21_3
+# doc_range = 7884-7958
+# sent_id = 840
+# text = תומס טריוק מחפש אישה ישראלית ושמה בלומה.
+1	תומס	תומס	PROPN	PROPN	_	3	nsubj	_	_
+2	טריוק	טריוק	PROPN	PROPN	_	1	flat:name	_	_
+3	מחפש	חיפש	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4	אישה	איש	NOUN	NOUN	Gender=Fem|Number=Sing	3	obj	_	_
+5	ישראלית	ישראלי	ADJ	ADJ	Gender=Fem|Number=Sing	4	amod	_	_
+6-7	ושמה	_	_	_	_	_	_	_	_
+6	ו	ו	SCONJ	SCONJ	_	8	mark	_	_
+7	שמה	שם	NOUN	NOUN	_	8	nsubj	_	_
+8	בלומה	בלום	PROPN	PROPN	_	4	acl:relcl	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:21_3
+# doc_range = 7960-8063
+# sent_id = 841
+# text = הוא מלונאי פולני ומדריך תיירים, בסוף שנות הארבעים לחייו.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	מלונאי	מלונאי	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+3	פולני	פולני	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+4-5	ומדריך	_	_	_	_	_	_	_	_
+4	ו	ו	CCONJ	CCONJ	_	5	cc	_	_
+5	מדריך	מדריך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	conj	_	_
+6	תיירים	תייר	NOUN	NOUN	Gender=Masc|Number=Plur	5	compound:smixut	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	9	punct	_	_
+8-9	בסוף	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	סוף	סוף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	nmod	_	_
+10	שנות	שנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	9	compound:smixut	_	_
+11-12	הארבעים	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	ארבעים	ארבעים	NUM	NUM	Gender=Fem,Masc|Number=Sing	10	compound:smixut	_	_
+13-16	לחייו	_	_	_	_	_	_	_	SpaceAfter=No
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	חיים	חיים	NOUN	NOUN	Gender=Masc|Number=Plur	9	nmod	_	_
+15	_של_	של	ADP	ADP	Case=Gen	16	case:gen	_	_
+16	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+17	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:21_3
+# doc_range = 8066-8149
+# sent_id = 842
+# text = בלומה היתה ילדה יהודייה, יתומה, ניצולת השואה.
+1	בלומה	בלום	PROPN	PROPN	_	3	nsubj	_	_
+2	היתה	היה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	3	cop	_	_
+3	ילדה	ילד	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+4	יהודייה	יהודי	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	6	punct	_	HebSource=ConvUncertainHead
+6	יתומה	יתום	ADJ	ADJ	Gender=Fem|Number=Sing	4	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	8	punct	_	HebSource=ConvUncertainHead
+8	ניצולת	ניצול	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	dep	_	HebSource=ConvUncertainHead
+9-10	השואה	_	_	_	_	_	_	_	SpaceAfter=No
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	שואה	שואה	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound:smixut	_	_
+11	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:21_3
+# doc_range = 8151-8261
+# sent_id = 843
+# text = אמא שלו, שהיתה מנהלת בית ספר בוורשה, אימצה אותה אחרי המלחמה.
+1	אמא	אמא	NOUN	NOUN	Gender=Fem|Number=Sing	13	nsubj	_	_
+2-3	שלו	_	_	_	_	_	_	_	SpaceAfter=No
+2	של	של	ADP	ADP	Case=Gen	3	case	_	_
+3	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	nmod:poss	_	_
+4	,	,	PUNCT	PUNCT	_	7	punct	_	_
+5-6	שהיתה	_	_	_	_	_	_	_	_
+5	ש	ש	SCONJ	SCONJ	_	7	mark	_	_
+6	היתה	היה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	7	cop	_	_
+7	מנהלת	מנהל	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	acl:relcl	_	_
+8	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	compound:smixut	_	_
+9	ספר	ספר	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound:smixut	_	_
+10-11	בוורשה	_	_	_	_	_	_	_	SpaceAfter=No
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	וורשה	וורשה	PROPN	PROPN	_	7	nmod	_	_
+12	,	,	PUNCT	PUNCT	_	1	punct	_	_
+13	אימצה	אימץ	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+14-15	אותה	_	_	_	_	_	_	_	_
+14	את	את	ADP	ADP	Case=Acc	15	case	_	_
+15	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+16	אחרי	אחרי	ADP	ADP	_	18	case	_	_
+17-18	המלחמה	_	_	_	_	_	_	_	SpaceAfter=No
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	מלחמה	מלחמה	NOUN	NOUN	Gender=Fem|Number=Sing	13	obl	_	_
+19	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# doc_id = htb:21_3
+# doc_range = 8263-8391
+# sent_id = 844
+# text = ככל שהוא זוכר לא נוצר ביניהם קשר מיוחד; באותה תקופה לא התעניין בילדות.
+1	ככל	ככל	SCONJ	SCONJ	_	4	mark	_	_
+2-3	שהוא	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
+3	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	זוכר	זכר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	6	obl	_	_
+5	לא	לא	ADV	ADV	Polarity=Neg	6	advmod	_	_
+6	נוצר	נוצר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+7-8	ביניהם	_	_	_	_	_	_	_	_
+7	ביני	בין	ADP	ADP	_	8	case	_	_
+8	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	obl	_	_
+9	קשר	קשר	NOUN	NOUN	Gender=Masc|Number=Sing	6	obj	_	_
+10	מיוחד	מיוחד	ADJ	ADJ	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	;	;	PUNCT	PUNCT	_	16	punct	_	_
+12-13	באותה	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	14	case	_	_
+13	אותה	אותו	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	det	_	_
+14	תקופה	תקופה	NOUN	NOUN	Gender=Fem|Number=Sing	16	obl	_	_
+15	לא	לא	ADV	ADV	Polarity=Neg	16	advmod	_	_
+16	התעניין	התעניין	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	6	conj	_	_
+17-18	בילדות	_	_	_	_	_	_	_	SpaceAfter=No
+17	ב	ב	ADP	ADP	_	18	case	_	_
+18	ילדות	ילד	NOUN	NOUN	Gender=Fem|Number=Plur	16	obl	_	_
+19	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:21_3
+# doc_range = 8393-8493
+# sent_id = 845
+# text = אבל בלומה נשארה בביתם שנים אחדות ואהבה מאוד את אמא שלו.
+1	אבל	אבל	CCONJ	CCONJ	_	3	cc	_	_
+2	בלומה	בלום	PROPN	PROPN	_	3	nsubj	_	_
+3	נשארה	נשאר	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+4-7	בביתם	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	בית	בית	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+6	_של_	של	ADP	ADP	Case=Gen	7	case:gen	_	_
+7	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+8	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	3	obl:tmod	_	_
+9	אחדות	אחדים	ADJ	ADJ	Gender=Fem|Number=Plur	8	amod	_	_
+10-11	ואהבה	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+11	אהבה	אהב	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	_
+12	מאוד	מאוד	ADV	ADV	_	11	advmod	_	_
+13	את	את	ADP	ADP	Case=Acc	14	case	_	_
+14	אמא	אמא	NOUN	NOUN	Gender=Fem|Number=Sing	11	obj	_	_
+15-16	שלו	_	_	_	_	_	_	_	SpaceAfter=No
+15	של	של	ADP	ADP	Case=Gen	16	case	_	_
+16	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+17	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:21_3
+# doc_range = 8495-8555
+# sent_id = 846
+# text = לימים עזבה את פולין ועלתה לישראל.
+1-2	לימים	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	ימים	יום	NOUN	NOUN	Gender=Masc|Number=Plur	3	obl	_	_
+3	עזבה	עזב	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	את	את	ADP	ADP	Case=Acc	5	case	_	_
+5	פולין	פולין	PROPN	PROPN	_	3	obj	_	_
+6-7	ועלתה	_	_	_	_	_	_	_	_
+6	ו	ו	CCONJ	CCONJ	_	7	cc	_	_
+7	עלתה	עלה	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	_
+8-9	לישראל	_	_	_	_	_	_	_	SpaceAfter=No
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	ישראל	ישראל	PROPN	PROPN	_	7	obl	_	_
+10	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:21_3
+# doc_range = 8557-8627
+# sent_id = 847
+# text = הוא יודע שהתיישבה בעכו והתחתנה עם מלח.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	יודע	ידע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+3-4	שהתיישבה	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
+4	התיישבה	התיישב	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	2	ccomp	_	_
+5-6	בעכו	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	עכו	עכו	PROPN	PROPN	_	4	obl	_	_
+7-8	והתחתנה	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	8	cc	_	_
+8	התחתנה	התחתן	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	4	conj	_	_
+9	עם	עם	ADP	ADP	_	10	case	_	_
+10	מלח	מלח	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:21_3
+# doc_range = 8629-8733
+# sent_id = 848
+# text = לפעמים היתה כותבת לאמא שלו, אבל כבר עשרים שנה חדלה לכתוב.
+1	לפעמים	לפעמים	ADV	ADV	_	3	advmod	_	_
+2	היתה	היה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	3	cop	_	_
+3	כותבת	כתב	VERB	VERB	Aspect=Prog|Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+4-5	לאמא	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	אמא	אמא	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+6-7	שלו	_	_	_	_	_	_	_	SpaceAfter=No
+6	של	של	ADP	ADP	Case=Gen	7	case	_	_
+7	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+8	,	,	PUNCT	PUNCT	_	13	punct	_	_
+9	אבל	אבל	CCONJ	CCONJ	_	13	cc	_	_
+10	כבר	כבר	ADV	ADV	_	12	advmod	_	_
+11	עשרים	עשרים	NUM	NUM	Gender=Fem,Masc|Number=Plur	12	nummod	_	_
+12	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	13	obl:tmod	_	_
+13	חדלה	חדל	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	_
+14	לכתוב	כתב	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	13	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:21_3
+# doc_range = 8735-8848
+# sent_id = 849
+# text = אולי חשבה, אחרי מלחמת ששת הימים, שמכתבים מישראל עלולים להזיק.
+1	אולי	אולי	ADV	ADV	_	2	advmod	_	_
+2	חשבה	חשב	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	5	punct	_	_
+4	אחרי	אחרי	ADP	ADP	_	5	case	_	_
+5	מלחמת	מלחמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	obl	_	_
+6	ששת	ששת	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	8	nummod	_	_
+7-8	הימים	_	_	_	_	_	_	_	SpaceAfter=No
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	ימים	יום	NOUN	NOUN	Gender=Masc|Number=Plur	5	compound:smixut	_	_
+9	,	,	PUNCT	PUNCT	_	15	punct	_	_
+10-11	שמכתבים	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	15	mark	_	_
+11	מכתבים	מכתב	NOUN	NOUN	Gender=Masc|Number=Plur	15	nsubj	_	_
+12-13	מישראל	_	_	_	_	_	_	_	_
+12	מ	מ	ADP	ADP	_	13	case	_	_
+13	ישראל	ישראל	PROPN	PROPN	_	11	nmod	_	_
+14	עלולים	עלול	AUX	AUX	Gender=Masc|Number=Plur|Person=1,2,3|VerbType=Mod	15	aux	_	_
+15	להזיק	הזיק	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	2	ccomp	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:21_3
+# doc_range = 8850-8877
+# sent_id = 850
+# text = עכשיו זה השתנה.
+1	עכשיו	עכשיו	ADV	ADV	_	3	advmod	_	_
+2	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+3	השתנה	השתנה	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:21_3
+# doc_range = 8879-8907
+# sent_id = 851
+# text = אמא שלו עוד חיה.
+1	אמא	אמא	NOUN	NOUN	Gender=Fem|Number=Sing	5	nsubj	_	_
+2-3	שלו	_	_	_	_	_	_	_	_
+2	של	של	ADP	ADP	Case=Gen	3	case	_	_
+3	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	nmod:poss	_	_
+4	עוד	עוד	ADV	ADV	_	5	advmod	_	_
+5	חיה	חיה	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:21_3
+# doc_range = 8909-8987
+# sent_id = 852
+# text = לפעמים היא שואלת את עצמה מה שלום בלומה שלה.
+1	לפעמים	לפעמים	ADV	ADV	_	3	advmod	_	_
+2	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	שואלת	שאל	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4	את	את	ADP	ADP	Case=Acc	5	case	_	_
+5	עצמה	עצמו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	_
+6	מה	מה	PRON	PRON	PronType=Int	3	obl	_	_
+7	שלום	שלום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	nsubj	_	_
+8	בלומה	בלום	PROPN	PROPN	_	7	compound:smixut	_	_
+9-10	שלה	_	_	_	_	_	_	_	SpaceAfter=No
+9	של	של	ADP	ADP	Case=Gen	10	case	_	_
+10	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+11	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:21_3
+# doc_range = 8989-9079
+# sent_id = 853
+# text = בנה חשב שאולי באמצעות העיתון אפשר יהיה לאתר אותה.
+1-3	בנה	_	_	_	_	_	_	_	_
+1	בן	בן	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
+2	_של_	של	ADP	ADP	Case=Gen	3	case:gen	_	_
+3	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	nmod:poss	_	_
+4	חשב	חשב	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	_
+5-6	שאולי	_	_	_	_	_	_	_	_
+5	ש	ש	SCONJ	SCONJ	_	12	mark	_	_
+6	אולי	אולי	ADV	ADV	_	12	advmod	_	_
+7	באמצעות	באמצעות	ADP	ADP	_	9	case	_	_
+8-9	העיתון	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	עיתון	עיתון	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
+10	אפשר	אפשר	AUX	AUX	VerbType=Mod	12	aux	_	_
+11	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	12	cop	_	_
+12	לאתר	איתר	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	4	ccomp	_	_
+13-14	אותה	_	_	_	_	_	_	_	SpaceAfter=No
+13	את	את	ADP	ADP	Case=Acc	14	case	_	_
+14	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obl	_	_
+15	.	.	PUNCT	PUNCT	_	4	punct	_	_
+

@@ -1,0 +1,525 @@
+# doc_id = htb:240
+# doc_range = 1-207
+# sent_id = 5910
+# text = ליגטי, מגדולי המחצית השנייה של המאה, הנחיל לנו בין שאר יצירותיו המקסימות קונצרטו קאמרי ל13 כלי קשת, נשיפה ומקלדת.
+1	ליגטי	ליגטי	PROPN	PROPN	_	13	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	4	punct	_	_
+3-4	מגדולי	_	_	_	_	_	_	_	_
+3	מ	מ	ADP	ADP	_	4	case	_	_
+4	גדולי	גדול	NOUN	NOUN	Definite=Cons	1	nmod	_	_
+5-6	המחצית	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	מחצית	מחצית	NOUN	NOUN	Gender=Fem|Number=Sing	4	compound:smixut	_	_
+7-8	השנייה	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	שנייה	שני	ADJ	ADJ	Gender=Fem|Number=Sing	6	amod	_	_
+9	של	של	ADP	ADP	Case=Gen	11	case	_	_
+10-11	המאה	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	מאה	מאה	NOUN	NOUN	_	6	nmod	_	_
+12	,	,	PUNCT	PUNCT	_	1	punct	_	_
+13	הנחיל	הנחיל	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+14-15	לנו	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	13	obl	_	_
+16	בין	בין	ADP	ADP	_	18	case	_	_
+17	שאר	שאר	DET	DET	Definite=Cons|Gender=Masc	18	det	_	_
+18-20	יצירותיו	_	_	_	_	_	_	_	_
+18	יצירה	יצירה	NOUN	NOUN	Gender=Fem|Number=Plur	13	obl	_	_
+19	_של_	של	ADP	ADP	Case=Gen	20	case:gen	_	_
+20	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+21-22	המקסימות	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	מקסימות	מקסים	ADJ	ADJ	Gender=Fem|Number=Plur	18	amod	_	_
+23	קונצרטו	קונצרט	PROPN	PROPN	_	13	dep	_	_
+24	קאמרי	קאמרי	PROPN	PROPN	_	23	flat:name	_	_
+25-26	ל13	_	_	_	_	_	_	_	_
+25	ל	ל	ADP	ADP	_	27	case	_	_
+26	13	13	NUM	NUM	_	27	nummod	_	_
+27	כלי	כלי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	23	nmod	_	_
+28	קשת	קשת	NOUN	NOUN	Gender=Masc|Number=Sing	27	compound:smixut	_	SpaceAfter=No
+29	,	,	PUNCT	PUNCT	_	30	punct	_	_
+30	נשיפה	נשיפה	NOUN	NOUN	Gender=Fem|Number=Sing	27	conj	_	_
+31-32	ומקלדת	_	_	_	_	_	_	_	SpaceAfter=No
+31	ו	ו	CCONJ	CCONJ	_	32	cc	_	_
+32	מקלדת	מקלדת	NOUN	NOUN	Gender=Fem|Number=Sing	27	conj	_	_
+33	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# doc_id = htb:240
+# doc_range = 209-266
+# sent_id = 5911
+# text = בביצוע נאמן לאופיו נפתח ערב זה.
+1-2	בביצוע	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	ביצוע	ביצוע	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+3	נאמן	נאמן	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+4-7	לאופיו	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	אופה	אופה	NOUN	NOUN	Gender=Masc|Number=Plur	3	obl	_	_
+6	_של_	של	ADP	ADP	Case=Gen	7	case:gen	_	_
+7	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+8	נפתח	נפתח	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+9	ערב	ערב	NOUN	NOUN	Gender=Masc|Number=Sing	8	nsubj	_	_
+10	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	det	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:240
+# doc_range = 268-498
+# sent_id = 5912
+# text = במוסיקה זו נמצא מבט אל עולם חדש אידאליסטי שבו האירועים השונים והמורכבים אינם מתרחקים ממרכז המקרין עידון רב ויופי עתיר גוונים.
+1-2	במוסיקה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	מוסיקה	מוזיקה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+3	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	det	_	_
+4	נמצא	נמצא	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	0	root	_	_
+5	מבט	מבט	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
+6	אל	אל	ADP	ADP	_	7	case	_	_
+7	עולם	עולם	NOUN	NOUN	Gender=Masc|Number=Sing	5	nmod	_	_
+8	חדש	חדש	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	_
+9	אידאליסטי	אידאליסטי	ADJ	ADJ	_	7	amod	_	_
+10-12	שבו	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	21	mark	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obl	_	_
+13-14	האירועים	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	אירועים	אירוע	NOUN	NOUN	Gender=Masc|Number=Plur	21	nsubj	_	_
+15-16	השונים	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	שונים	שונה	ADJ	ADJ	Gender=Masc|Number=Plur	14	amod	_	_
+17-19	והמורכבים	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	מורכבים	מורכב	ADJ	ADJ	Gender=Masc|Number=Plur	16	conj	_	_
+20	אינם	אינו	AUX	AUX	Gender=Masc|Number=Plur|Person=3|Polarity=Neg|VerbForm=Part	21	aux	_	_
+21	מתרחקים	התרחק	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	7	acl:relcl	_	_
+22-23	ממרכז	_	_	_	_	_	_	_	_
+22	מ	מ	ADP	ADP	_	23	case	_	_
+23	מרכז	מרכז	NOUN	NOUN	Gender=Masc|Number=Sing	21	obl	_	_
+24-25	המקרין	_	_	_	_	_	_	_	_
+24	ה	ה	SCONJ	SCONJ	_	25	mark	_	_
+25	מקרין	הקרין	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	23	acl:relcl	_	_
+26	עידון	עידון	NOUN	NOUN	Gender=Masc|Number=Sing	25	obj	_	_
+27	רב	רב	ADJ	ADJ	Gender=Masc|Number=Sing	26	amod	_	_
+28-29	ויופי	_	_	_	_	_	_	_	_
+28	ו	ו	CCONJ	CCONJ	_	29	cc	_	_
+29	יופי	יופי	NOUN	NOUN	Gender=Masc|Number=Sing	26	conj	_	_
+30	עתיר	עתיר	ADJ	ADJ	Definite=Cons|Gender=Masc|Number=Sing	29	amod	_	_
+31	גוונים	גוון	NOUN	NOUN	Gender=Masc|Number=Plur	30	compound:smixut	_	SpaceAfter=No
+32	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:240
+# doc_range = 500-700
+# sent_id = 5913
+# text = גורמי הצלחת ה"הקשרים" (בכורה) לקול ולאנסמבל כלי של שטיינברג, היו סיפורו הלבבי של קאמינגס "האיש הזקן שאמר למה?
+1	גורמי	גורם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	0	root	_	_
+2	הצלחת	הצלחה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	compound:smixut	_	_
+3-5	ה"הקשרים	_	_	_	_	_	_	_	SpaceAfter=No
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	2	compound:smixut	_	_
+4	"	"	PUNCT	PUNCT	_	5	punct	_	HebSource=ConvUncertainHead
+5	הקשרים	"הקשרים	NOUN	NOUN	Gender=Masc|Number=Plur	3	dep	_	HebSource=ConvUncertainHead
+6	"	"	PUNCT	PUNCT	_	5	punct	_	HebSource=ConvUncertainHead
+7	(	(	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+8	בכורה	בכורה	NOUN	NOUN	Gender=Fem|Number=Sing	3	appos	_	SpaceAfter=No
+9	)	)	PUNCT	PUNCT	_	8	punct	_	_
+10-11	לקול	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	11	case	_	_
+11	קול	קול	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+12-14	ולאנסמבל	_	_	_	_	_	_	_	_
+12	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	אנסמבל	אנסמבל	PROPN	PROPN	_	11	conj	_	_
+15	כלי	כלי	NOUN	NOUN	Gender=Masc|Number=Sing	14	flat:name	_	_
+16	של	של	ADP	ADP	Case=Gen	17	case	_	_
+17	שטיינברג	שטיינברג	PROPN	PROPN	_	3	obl	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	19	punct	_	HebSource=ConvUncertainHead
+19	היו	היו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	1	dep	_	HebSource=ConvUncertainHead
+20-22	סיפורו	_	_	_	_	_	_	_	_
+20	סיפור	סיפור	NOUN	NOUN	Gender=Masc|Number=Sing	1	dep	_	HebSource=ConvUncertainHead
+21	_של_	של	ADP	ADP	Case=Gen	22	case:gen	_	_
+22	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+23-24	הלבבי	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	לבבי	לבבי	ADJ	ADJ	Gender=Masc|Number=Sing	20	amod	_	_
+25	של	של	ADP	ADP	Case=Gen	26	case	_	_
+26	קאמינגס	קאמינגס	PROPN	PROPN	_	20	nmod:poss	_	_
+27	"	"	PUNCT	PUNCT	_	29	punct	_	SpaceAfter=No
+28-29	האיש	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	איש	איש	NOUN	NOUN	Gender=Masc|Number=Sing	26	appos	_	_
+30-31	הזקן	_	_	_	_	_	_	_	_
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	זקן	זקן	ADJ	ADJ	Gender=Masc|Number=Sing	29	amod	_	_
+32-33	שאמר	_	_	_	_	_	_	_	_
+32	ש	ש	SCONJ	SCONJ	_	33	mark	_	_
+33	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	29	acl:relcl	_	_
+34	למה	למה	PRON	PRON	PronType=Int	33	obj	_	SpaceAfter=No
+35	?	?	PUNCT	PUNCT	_	1	punct	_	HebSource=ConvUncertainHead
+
+# doc_id = htb:240
+# doc_range = 704-775
+# sent_id = 5914
+# text = ", שדוקלם כששזורים בו שירים בשפות שונות.
+1	"	"	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	4	punct	_	_
+3-4	שדוקלם	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
+4	דוקלם	דוקלם	VERB	VERB	_	0	root	_	_
+5-6	כששזורים	_	_	_	_	_	_	_	_
+5	כש	כש	SCONJ	SCONJ	Case=Tem	6	mark	_	_
+6	שזורים	שזר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	4	advcl	_	_
+7-8	בו	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
+9	שירים	שיר	NOUN	NOUN	Gender=Masc|Number=Plur	6	nsubj	_	_
+10-11	בשפות	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	שפות	שפה	NOUN	NOUN	Gender=Fem|Number=Plur	9	nmod	_	_
+12	שונות	שונה	ADJ	ADJ	Gender=Fem|Number=Plur	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:240
+# doc_range = 777-927
+# sent_id = 5915
+# text = בן זקן היא "פרפורמרית" משכנעת שקולה אמנם קטן, אך עשיר בגוונים דקים בזמרה ובדקלום.
+1	בן	בן	PROPN	PROPN	_	5	nsubj	_	_
+2	זקן	זקן	PROPN	PROPN	_	1	flat:name	_	_
+3	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	5	cop	_	_
+4	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+5	פרפורמרית	פרפורמרית	NOUN	NOUN	_	0	root	_	SpaceAfter=No
+6	"	"	PUNCT	PUNCT	_	5	punct	_	_
+7	משכנעת	שכנע	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	5	amod	_	_
+8-11	שקולה	_	_	_	_	_	_	_	_
+8	ש	ש	SCONJ	SCONJ	_	13	mark	_	_
+9	קול	קול	NOUN	NOUN	Gender=Masc|Number=Sing	13	nsubj	_	_
+10	_של_	של	ADP	ADP	Case=Gen	11	case:gen	_	_
+11	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+12	אמנם	אמנם	ADV	ADV	_	13	advmod	_	_
+13	קטן	קטן	ADJ	ADJ	Gender=Masc|Number=Sing	5	acl:relcl	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	16	punct	_	_
+15	אך	אך	CCONJ	CCONJ	_	16	cc	_	_
+16	עשיר	עשיר	ADJ	ADJ	Gender=Masc|Number=Sing	13	conj	_	_
+17-18	בגוונים	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	_	18	case	_	_
+18	גוונים	גוון	NOUN	NOUN	Gender=Masc|Number=Plur	16	obl	_	_
+19	דקים	דק	ADJ	ADJ	Gender=Masc|Number=Plur	18	amod	_	_
+20-21	בזמרה	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	זמרה	זמרה	NOUN	NOUN	Gender=Fem|Number=Sing	18	conj	_	_
+22-24	ובדקלום	_	_	_	_	_	_	_	SpaceAfter=No
+22	ו	ו	CCONJ	CCONJ	_	24	cc	_	_
+23	ב	ב	ADP	ADP	_	24	case	_	_
+24	דקלום	דקלום	NOUN	NOUN	Gender=Masc|Number=Sing	18	conj	_	_
+25	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:240
+# doc_range = 929-1025
+# sent_id = 5916
+# text = המלודיות הקליטות לוו במוסיקה קצת פשטנית, אך סימפטית.
+1-2	המלודיות	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מלודיות	מלודיה	NOUN	NOUN	Gender=Fem|Number=Plur	5	nsubj	_	_
+3-4	הקליטות	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	קליטות	קליט	ADJ	ADJ	Gender=Fem|Number=Plur	2	amod	_	_
+5	לוו	לווה	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	0	root	_	_
+6-7	במוסיקה	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	מוסיקה	מוזיקה	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
+8	קצת	קצת	ADV	ADV	_	9	advmod	_	_
+9	פשטנית	פשטני	ADJ	ADJ	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	12	punct	_	_
+11	אך	אך	CCONJ	CCONJ	_	12	cc	_	_
+12	סימפטית	סימפתי	ADJ	ADJ	Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:240
+# doc_range = 1028-1101
+# sent_id = 5917
+# text = סרוסי הוא מלחין שראוי לשים לב להתפתחותו.
+1	סרוסי	סרוסי	PROPN	PROPN	_	3	nsubj	_	_
+2	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	3	cop	_	_
+3	מלחין	מלחין	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+4-5	שראוי	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	6	mark	_	_
+5	ראוי	ראוי	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	6	aux	_	_
+6	לשים	שם	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	3	acl:relcl	_	_
+7	לב	לב	NOUN	NOUN	Gender=Masc|Number=Sing	6	obj	_	_
+8-11	להתפתחותו	_	_	_	_	_	_	_	SpaceAfter=No
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	התפתחות	התפתחות	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	_
+10	_של_	של	ADP	ADP	Case=Gen	11	case:gen	_	_
+11	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+12	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:240
+# doc_range = 1103-1443
+# sent_id = 5918
+# text = ב"דיפרנסיאס 2 שאלה שעודנה ללא מענה" (בכורה) הוא מטפל בצורה מעניינת במשותף, בשונה ובאופייני לחומרי הצליל של גיטרה וקבוצות כלים אחרות, באמצעות וריאציות על פלח מלודיה מודרנית כמו-מזרחית.
+1-3	ב"דיפרנסיאס	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	"	"	PUNCT	PUNCT	_	3	punct	_	_
+3	דיפרנסיאס	דיפרנסיאס	NOUN	NOUN	_	15	obl	_	_
+4	2	2	NUM	NUM	_	3	nummod	_	_
+5	שאלה	שאלה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nmod	_	_
+6-7	שעודנה	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
+7	עודנה	עוד	ADV	ADV	_	9	advmod	_	_
+8	ללא	ללא	ADP	ADP	_	9	case	_	_
+9	מענה	מענה	NOUN	NOUN	Gender=Masc|Number=Sing	5	acl:relcl	_	SpaceAfter=No
+10	"	"	PUNCT	PUNCT	_	3	punct	_	_
+11	(	(	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
+12	בכורה	בכורה	NOUN	NOUN	Gender=Fem|Number=Sing	3	appos	_	SpaceAfter=No
+13	)	)	PUNCT	PUNCT	_	12	punct	_	_
+14	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	מטפל	טיפל	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+16-17	בצורה	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	צורה	צורה	NOUN	NOUN	Gender=Fem|Number=Sing	15	obl	_	_
+18	מעניינת	מעניין	ADJ	ADJ	Gender=Fem|Number=Sing	17	amod	_	_
+19-21	במשותף	_	_	_	_	_	_	_	SpaceAfter=No
+19	ב	ב	ADP	ADP	_	21	case	_	_
+20	ה_	ה	DET	DET	PronType=Art|Definite=Def	21	det	_	_
+21	משותף	שותף	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	15	obl	_	_
+22	,	,	PUNCT	PUNCT	_	25	punct	_	_
+23-25	בשונה	_	_	_	_	_	_	_	_
+23	ב	ב	ADP	ADP	_	25	case	_	_
+24	ה_	ה	DET	DET	PronType=Art|Definite=Def	25	det	_	_
+25	שונה	שונה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	21	conj	_	_
+26-29	ובאופייני	_	_	_	_	_	_	_	_
+26	ו	ו	CCONJ	CCONJ	_	29	cc	_	_
+27	ב	ב	ADP	ADP	_	29	case	_	_
+28	ה_	ה	DET	DET	PronType=Art|Definite=Def	29	det	_	_
+29	אופייני	אופייני	ADJ	ADJ	Gender=Masc|Number=Sing	21	conj	_	_
+30-31	לחומרי	_	_	_	_	_	_	_	_
+30	ל	ל	ADP	ADP	_	31	case	_	_
+31	חומרי	חומר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	15	obl	_	_
+32-33	הצליל	_	_	_	_	_	_	_	_
+32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
+33	צליל	צליל	NOUN	NOUN	Gender=Masc|Number=Sing	31	compound:smixut	_	_
+34	של	של	ADP	ADP	Case=Gen	35	case	_	_
+35	גיטרה	גיטרה	NOUN	NOUN	Gender=Fem|Number=Sing	31	nmod:poss	_	_
+36-37	וקבוצות	_	_	_	_	_	_	_	_
+36	ו	ו	CCONJ	CCONJ	_	37	cc	_	_
+37	קבוצות	קבוצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	35	conj	_	_
+38	כלים	כלי	NOUN	NOUN	Gender=Masc|Number=Plur	37	compound:smixut	_	_
+39	אחרות	אחר	ADJ	ADJ	Gender=Fem|Number=Plur	37	amod	_	SpaceAfter=No
+40	,	,	PUNCT	PUNCT	_	42	punct	_	_
+41	באמצעות	באמצעות	ADP	ADP	_	42	case	_	_
+42	וריאציות	וריאציה	NOUN	NOUN	Gender=Fem|Number=Plur	15	obl	_	_
+43	על	על	ADP	ADP	_	44	case	_	_
+44	פלח	פלח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	42	nmod	_	_
+45	מלודיה	מלודיה	NOUN	NOUN	Gender=Fem|Number=Sing	44	compound:smixut	_	_
+46	מודרנית	מודרני	ADJ	ADJ	Gender=Fem|Number=Sing	45	amod	_	_
+47	כמו	כמו	ADP	ADP	_	49	case	_	SpaceAfter=No
+48	-	-	PUNCT	PUNCT	_	49	punct	_	SpaceAfter=No
+49	מזרחית	מזרחי	ADJ	ADJ	Gender=Fem|Number=Sing	44	advmod	_	SpaceAfter=No
+50	.	.	PUNCT	PUNCT	_	15	punct	_	_
+
+# doc_id = htb:240
+# doc_range = 1445-1628
+# sent_id = 5919
+# text = הוא מעוניין באמת ובתמים בשאלות הנצחיות, אך ניסוחן כאן, דומני, טרם הגיע למלוא המשקל הרעיוני וההבעתי.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj:pass	_	_
+2	מעוניין	עונין	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+3	באמת	באמת	ADV	ADV	_	2	advmod	_	_
+4-5	ובתמים	_	_	_	_	_	_	_	_
+4	ו	ו	CCONJ	CCONJ	_	3	fixed	_	_
+5	בתמים	בתמים	ADV	ADV	_	3	fixed	_	_
+6-8	בשאלות	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	8	case	_	_
+7	ה_	ה	DET	DET	PronType=Art|Definite=Def	8	det	_	_
+8	שאלות	שאלה	NOUN	NOUN	Gender=Fem|Number=Plur	2	obl	_	_
+9-10	הנצחיות	_	_	_	_	_	_	_	SpaceAfter=No
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	נצחיות	נצחי	ADJ	ADJ	Gender=Fem|Number=Plur	8	amod	_	_
+11	,	,	PUNCT	PUNCT	_	12	punct	_	_
+12	אך	אך	CCONJ	CCONJ	_	2	dep	_	HebSource=ConvUncertainHead
+13-15	ניסוחן	_	_	_	_	_	_	_	_
+13	ניסוח	ניסוח	NOUN	NOUN	Gender=Masc|Number=Sing	21	nsubj	_	_
+14	_של_	של	ADP	ADP	Case=Gen	15	case:gen	_	_
+15	_הן	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+16	כאן	כאן	ADV	ADV	_	13	advmod	_	HebSource=ConvUncertainHead|SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	13	punct	_	_
+18	דומני	דומני	NOUN	NOUN	_	21	obl	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	18	punct	_	_
+20	טרם	טרם	ADV	ADV	_	21	advmod	_	_
+21	הגיע	הגיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	dep	_	HebSource=ConvUncertainHead
+22-23	למלוא	_	_	_	_	_	_	_	_
+22	ל	ל	ADP	ADP	_	23	case	_	_
+23	מלוא	מלוא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	21	obl	_	_
+24-25	המשקל	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	משקל	משקל	NOUN	NOUN	Gender=Masc|Number=Sing	23	compound:smixut	_	_
+26-27	הרעיוני	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	רעיוני	רעיוני	ADJ	ADJ	Gender=Masc|Number=Sing	23	amod	_	_
+28-30	וההבעתי	_	_	_	_	_	_	_	SpaceAfter=No
+28	ו	ו	CCONJ	CCONJ	_	30	cc	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	הבעתי	הבעתי	ADJ	ADJ	_	27	conj	_	_
+31	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:240
+# doc_range = 1630-1801
+# sent_id = 5920
+# text = אופי שלוש המיניאטורות לגיטרה ולרביעיית פסנתר מוגדר בצדק על ידי יוצרן, זורמן, כקליל ונוסטלגי.
+1	אופי	אופי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+2	שלוש	שלוש	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	4	nummod	_	_
+3-4	המיניאטורות	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	מיניאטורות	מיניאטורות	NOUN	NOUN	_	1	compound:smixut	_	_
+5-6	לגיטרה	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	גיטרה	גיטרה	NOUN	NOUN	Gender=Fem|Number=Sing	1	nmod	_	_
+7-9	ולרביעיית	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	רביעיית	רביעייה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	conj	_	_
+10	פסנתר	פסנתר	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound:smixut	_	_
+11	מוגדר	הוגדר	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+12-13	בצדק	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	צדק	צדק	NOUN	NOUN	Gender=Masc|Number=Sing	11	obl	_	_
+14	על	על	ADP	ADP	_	16	case	_	_
+15	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	14	fixed	_	_
+16-18	יוצרן	_	_	_	_	_	_	_	SpaceAfter=No
+16	יוצר	יוצר	NOUN	NOUN	Gender=Masc|Number=Sing	11	obl	_	_
+17	_של_	של	ADP	ADP	Case=Gen	18	case:gen	_	_
+18	_הן	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+19	,	,	PUNCT	PUNCT	_	20	punct	_	_
+20	זורמן	זורמן	PROPN	PROPN	_	16	appos	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	23	punct	_	_
+22-23	כקליל	_	_	_	_	_	_	_	_
+22	כ	כ	ADP	ADP	_	23	case	_	_
+23	קליל	קליל	ADJ	ADJ	Gender=Masc|Number=Sing	11	obl	_	_
+24-25	ונוסטלגי	_	_	_	_	_	_	_	SpaceAfter=No
+24	ו	ו	CCONJ	CCONJ	_	25	cc	_	_
+25	נוסטלגי	נוסטלגי	ADJ	ADJ	Gender=Masc|Number=Sing	23	conj	_	_
+26	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:240
+# doc_range = 1804-1908
+# sent_id = 5921
+# text = ואכן, הן כתולדה שיש בה משהו, אך שאינה מוסיפה הרבה על שהיה.
+1-2	ואכן	_	_	_	_	_	_	_	SpaceAfter=No
+1	ו	ו	CCONJ	CCONJ	_	6	cc	_	_
+2	אכן	אכן	ADV	ADV	_	6	advmod	_	_
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
+4	הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+5-6	כתולדה	_	_	_	_	_	_	_	_
+5	כ	כ	ADP	ADP	_	6	case	_	_
+6	תולדה	תולדה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+7-8	שיש	_	_	_	_	_	_	_	_
+7	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
+8	יש	יש	VERB	VERB	HebExistential=Yes	6	acl:relcl	_	_
+9-10	בה	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obl	_	_
+11	משהו	משהו	NOUN	NOUN	Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	16	punct	_	_
+13	אך	אך	CCONJ	CCONJ	_	16	cc	_	_
+14-15	שאינה	_	_	_	_	_	_	_	_
+14	ש	ש	SCONJ	SCONJ	_	16	mark	_	_
+15	אינה	אינו	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	16	aux	_	_
+16	מוסיפה	הוסיף	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	8	conj	_	_
+17	הרבה	הרבה	ADV	ADV	_	16	advmod	_	_
+18	על	על	ADP	ADP	_	20	case	_	_
+19-20	שהיה	_	_	_	_	_	_	_	SpaceAfter=No
+19	ש	ש	SCONJ	SCONJ	_	20	mark	_	_
+20	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	16	obl	_	_
+21	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:240
+# doc_range = 1911-2172
+# sent_id = 5922
+# text = "הכרמל האי נראה" (ארבעה משירי זלדה) לקול וכלים של ינעם ליף היתה לדידי היצירה הישראלית המושכת ובעלת המשקל המוסיקלי-הבעתי, הגדול ביותר של הערב.
+1	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+2-3	הכרמל	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	כרמל	כרמל	NOUN	NOUN	Gender=Masc|Number=Sing	25	nsubj	_	_
+4-5	האי	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	אי	אי	NOUN	NOUN	Gender=Masc|Number=Sing	3	nmod	_	HebSource=ConvUncertainLabel
+6	נראה	נראה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	3	nmod	_	HebSource=ConvUncertainLabel|SpaceAfter=No
+7	"	"	PUNCT	PUNCT	_	3	punct	_	_
+8	(	(	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+9	ארבעה	ארבע	NUM	NUM	Gender=Masc|Number=Sing	11	nummod	_	_
+10-11	משירי	_	_	_	_	_	_	_	_
+10	מ	מ	ADP	ADP	_	11	case	_	_
+11	שירי	שיר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	3	appos	_	_
+12	זלדה	זלדה	PROPN	PROPN	_	11	compound:smixut	_	SpaceAfter=No
+13	)	)	PUNCT	PUNCT	_	11	punct	_	_
+14-15	לקול	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	קול	קול	NOUN	NOUN	Gender=Masc|Number=Sing	3	nmod	_	_
+16-17	וכלים	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+17	כלים	כלי	NOUN	NOUN	Gender=Masc|Number=Plur	15	conj	_	_
+18	של	של	ADP	ADP	Case=Gen	19	case	_	_
+19	ינעם	נעם	PROPN	PROPN	_	15	nmod:poss	_	_
+20	ליף	ליף	PROPN	PROPN	_	19	flat:name	_	_
+21	היתה	היה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	25	cop	_	_
+22-23	לדידי	_	_	_	_	_	_	_	_
+22	לדידי	לדידי	ADP	ADP	_	23	case	_	_
+23	_אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	25	nmod	_	_
+24-25	היצירה	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	יצירה	יצירה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+26-27	הישראלית	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	ישראלית	ישראלי	ADJ	ADJ	Gender=Fem|Number=Sing	25	amod	_	_
+28-29	המושכת	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	מושכת	משך	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	25	acl	_	_
+30-31	ובעלת	_	_	_	_	_	_	_	_
+30	ו	ו	CCONJ	CCONJ	_	31	cc	_	_
+31	בעלת	בעל	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	29	conj	_	_
+32-33	המשקל	_	_	_	_	_	_	_	_
+32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
+33	משקל	משקל	NOUN	NOUN	Gender=Masc|Number=Sing	31	compound:smixut	_	_
+34-35	המוסיקלי	_	_	_	_	_	_	_	SpaceAfter=No
+34	ה	ה	DET	DET	Definite=Def|PronType=Art	35	det	_	_
+35	מוסיקלי	מוזיקלי	ADJ	ADJ	Gender=Masc|Number=Sing	33	amod	_	_
+36	-	-	PUNCT	PUNCT	_	37	punct	_	SpaceAfter=No
+37	הבעתי	הבעתי	ADJ	ADJ	_	35	dep	_	SpaceAfter=No
+38	,	,	PUNCT	PUNCT	_	40	punct	_	_
+39-40	הגדול	_	_	_	_	_	_	_	_
+39	ה	ה	DET	DET	Definite=Def|PronType=Art	40	det	_	_
+40	גדול	גדול	ADJ	ADJ	Gender=Masc|Number=Sing	33	amod	_	_
+41	ביותר	ביותר	ADV	ADV	_	40	advmod	_	_
+42	של	של	ADP	ADP	Case=Gen	44	case	_	_
+43-44	הערב	_	_	_	_	_	_	_	SpaceAfter=No
+43	ה	ה	DET	DET	Definite=Def|PronType=Art	44	det	_	_
+44	ערב	ערב	NOUN	NOUN	Gender=Masc|Number=Sing	40	obl	_	_
+45	.	.	PUNCT	PUNCT	_	25	punct	_	_
+
+# doc_id = htb:240
+# doc_range = 2175-2288
+# sent_id = 5923
+# text = כך גם היה ביצועה בידי הנגנים, המנצח טלגם והזמרת וייזל-קפסוטו.
+1	כך	כך	ADV	ADV	_	3	advmod	_	_
+2	גם	גם	ADV	ADV	_	3	advmod	_	_
+3	היה	היה	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+4-6	ביצועה	_	_	_	_	_	_	_	_
+4	ביצוע	ביצוע	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+5	_של_	של	ADP	ADP	Case=Gen	6	case:gen	_	_
+6	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+7	בידי	בידי	ADP	ADP	_	9	case	_	_
+8-9	הנגנים	_	_	_	_	_	_	_	SpaceAfter=No
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	נגנים	נגן	NOUN	NOUN	Gender=Masc|Number=Plur	4	nmod	_	_
+10	,	,	PUNCT	PUNCT	_	12	punct	_	_
+11-12	המנצח	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	מנצח	מנצח	NOUN	NOUN	Gender=Masc|Number=Sing	9	conj	_	_
+13	טלגם	טלגם	PROPN	PROPN	_	12	flat:name	_	_
+14-16	והזמרת	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	זמרת	זמר	NOUN	NOUN	Gender=Fem|Number=Sing	9	conj	_	_
+17	וייזל	וייזל	PROPN	PROPN	_	16	flat:name	_	SpaceAfter=No
+18	-	-	PUNCT	PUNCT	_	19	punct	_	SpaceAfter=No
+19	קפסוטו	קפסוטו	PROPN	PROPN	_	17	flat:name	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	3	punct	_	_
+

@@ -1,0 +1,95 @@
+# doc_id = htb:79
+# doc_range = 1-38
+# sent_id = 2217
+# text = תשואות גבוהות יחסית.
+1	תשואות	תשואה	NOUN	NOUN	Gender=Fem|Number=Plur	0	root	_	_
+2	גבוהות	גבוה	ADJ	ADJ	Gender=Fem|Number=Plur	1	amod	_	_
+3	יחסית	יחסית	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:79
+# doc_range = 40-142
+# sent_id = 2218
+# text = מדובר בתשואות ריאליות נטו, שהושגו לאחר ניכוי דמי ניהול.
+1	מדובר	דובר	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+2-3	בתשואות	_	_	_	_	_	_	_	_
+2	ב	ב	ADP	ADP	_	3	case	_	_
+3	תשואות	תשואה	NOUN	NOUN	Gender=Fem|Number=Plur	1	obl	_	_
+4	ריאליות	ריאלי	ADJ	ADJ	Gender=Fem|Number=Plur	3	amod	_	_
+5	נטו	נטו	ADJ	ADJ	Gender=Masc|Number=Sing	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	8	punct	_	_
+7-8	שהושגו	_	_	_	_	_	_	_	_
+7	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
+8	הושגו	הושג	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	3	acl:relcl	_	_
+9	לאחר	לאחר	ADP	ADP	_	10	case	_	_
+10	ניכוי	ניכוי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	obl	_	_
+11	דמי	דמי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	10	compound:smixut	_	_
+12	ניהול	ניהול	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound:smixut	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:79
+# doc_range = 144-306
+# sent_id = 2219
+# text = קופת הגמל שומרון השיגה תשואה ריאלית של 4.69%, אורית 4.63%, ליאור 3.10%, נירית 2.29%, והדר 2.58%.
+1	קופת	קופה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	nsubj	_	_
+2-3	הגמל	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	גמל	גמל	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4	שומרון	שומרון	PROPN	PROPN	_	1	flat:name	_	_
+5	השיגה	השיג	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+6	תשואה	תשואה	NOUN	NOUN	Gender=Fem|Number=Sing	5	obj	_	_
+7	ריאלית	ריאלי	ADJ	ADJ	Gender=Fem|Number=Sing	6	amod	_	_
+8	של	של	ADP	ADP	Case=Gen	10	case	_	_
+9	4.69	4.69	NUM	NUM	_	10	nummod	_	SpaceAfter=No
+10	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	14	punct	_	_
+12	אורית	אורית	PROPN	PROPN	_	14	nsubj	_	_
+13	4.63	4.63	NUM	NUM	_	14	nummod	_	SpaceAfter=No
+14	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	5	conj	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	18	punct	_	_
+16	ליאור	ליאור	PROPN	PROPN	_	18	nsubj	_	_
+17	3.10	3.10	NUM	NUM	_	18	nummod	_	SpaceAfter=No
+18	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	5	conj	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	22	punct	_	_
+20	נירית	נירית	PROPN	PROPN	_	22	nsubj	_	_
+21	2.29	2.29	NUM	NUM	_	22	nummod	_	SpaceAfter=No
+22	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	5	conj	_	SpaceAfter=No
+23	,	,	PUNCT	PUNCT	_	27	punct	_	_
+24-25	והדר	_	_	_	_	_	_	_	_
+24	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
+25	הדר	הדר	PROPN	PROPN	_	27	nsubj	_	_
+26	2.58	2.58	NUM	NUM	_	27	nummod	_	SpaceAfter=No
+27	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	5	conj	_	SpaceAfter=No
+28	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:79
+# doc_range = 311-463
+# sent_id = 2220
+# text = לא ברור אם גם קופות הגמל של הבנקים האחרים (למעט טפחות ודיסקונט) ישיגו תשואות דומות.
+1	לא	לא	ADV	ADV	Polarity=Neg	2	advmod	_	_
+2	ברור	ברור	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
+3	אם	אם	SCONJ	SCONJ	_	19	mark	_	_
+4	גם	גם	ADV	ADV	_	5	advmod	_	_
+5	קופות	קופה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	19	nsubj	_	_
+6-7	הגמל	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	גמל	גמל	NOUN	NOUN	Gender=Masc|Number=Sing	5	compound:smixut	_	_
+8	של	של	ADP	ADP	Case=Gen	10	case	_	_
+9-10	הבנקים	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	בנקים	בנק	NOUN	NOUN	Gender=Masc|Number=Plur	5	nmod:poss	_	_
+11-12	האחרים	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	אחרים	אחר	ADJ	ADJ	Gender=Masc|Number=Plur	10	amod	_	_
+13	(	(	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
+14	למעט	למעט	ADP	ADP	_	15	case	_	_
+15	טפחות	טפחות	PROPN	PROPN	_	10	appos	_	_
+16-17	ודיסקונט	_	_	_	_	_	_	_	SpaceAfter=No
+16	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+17	דיסקונט	דיסקונט	PROPN	PROPN	_	15	conj	_	_
+18	)	)	PUNCT	PUNCT	_	15	punct	_	_
+19	ישיגו	השיג	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Fut|Voice=Act	2	advcl	_	_
+20	תשואות	תשואות	NOUN	NOUN	Gender=Fem|Number=Plur	19	obj	_	_
+21	דומות	דומה	ADJ	ADJ	Gender=Fem|Number=Plur	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	2	punct	_	_
+

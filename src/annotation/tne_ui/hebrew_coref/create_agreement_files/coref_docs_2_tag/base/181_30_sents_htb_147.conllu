@@ -1,0 +1,1224 @@
+# doc_id = htb:147
+# doc_range = 3-6
+# sent_id = 3749
+# text = (ע).
+1	(	(	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+2	ע	ע	PROPN	PROPN	_	0	root	_	SpaceAfter=No
+3	)	)	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:147
+# doc_range = 10-210
+# sent_id = 3750
+# text = לבית המשפט המחוזי בתל-אביב הוגש ביום ששי כתב אישום נגד רוני לייבוביץ, בן 73 מהרצליה, שנודע כ "שודד על האופנוע".
+1-2	לבית	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	obl	_	_
+3-4	המשפט	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+5-6	המחוזי	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	מחוזי	מחוזי	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+7-8	בתל	_	_	_	_	_	_	_	SpaceAfter=No
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	תל	תל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	nmod	_	_
+9	-	-	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+10	אביב	אביב	NOUN	NOUN	Gender=Masc|Number=Sing	8	flat:name	_	_
+11	הוגש	הוגש	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+12-13	ביום	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	obl	_	_
+14	ששי	ששי	PROPN	PROPN	_	13	compound:smixut	_	_
+15	כתב	כתב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+16	אישום	אישום	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	_
+17	נגד	נגד	ADP	ADP	_	18	case	_	_
+18	רוני	רוני	PROPN	PROPN	_	15	nmod	_	_
+19	לייבוביץ	לייבוביץ	PROPN	PROPN	_	18	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	PUNCT	_	21	punct	_	_
+21	בן	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	18	acl	_	_
+22	73	73	NUM	NUM	_	21	compound:smixut	_	_
+23-24	מהרצליה	_	_	_	_	_	_	_	SpaceAfter=No
+23	מ	מ	ADP	ADP	_	24	case	_	_
+24	הרצליה	הרצליה	PROPN	PROPN	_	21	nmod	_	_
+25	,	,	PUNCT	PUNCT	_	27	punct	_	_
+26-27	שנודע	_	_	_	_	_	_	_	_
+26	ש	ש	SCONJ	SCONJ	_	27	mark	_	_
+27	נודע	נודע	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	18	acl:relcl	_	_
+28	כ	כ	ADP	ADP	_	30	case	_	_
+29	"	"	PUNCT	PUNCT	_	30	punct	_	SpaceAfter=No
+30	שודד	שודד	NOUN	NOUN	Gender=Masc|Number=Sing	27	obl	_	_
+31	על	על	ADP	ADP	_	33	case	_	_
+32-33	האופנוע	_	_	_	_	_	_	_	SpaceAfter=No
+32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
+33	אופנוע	אופנוע	NOUN	NOUN	Gender=Masc|Number=Sing	30	nmod	_	_
+34	"	"	PUNCT	PUNCT	_	30	punct	_	SpaceAfter=No
+35	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:147
+# doc_range = 212-378
+# sent_id = 3751
+# text = כתב האישום, המשתרע על פני 11 עמודים, מייחס ללייבוביץ 22 אישומים של מעשי שוד בנסיבות מחמירות.
+1	כתב	כתב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	nsubj	_	_
+2-3	האישום	_	_	_	_	_	_	_	SpaceAfter=No
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	אישום	אישום	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4	,	,	PUNCT	PUNCT	_	6	punct	_	_
+5-6	המשתרע	_	_	_	_	_	_	_	_
+5	ה	ה	SCONJ	SCONJ	_	6	mark	_	_
+6	משתרע	השתרע	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	1	acl:relcl	_	_
+7	על	על	ADP	ADP	_	10	case	_	_
+8	פני	פנים	NOUN	NOUN	Definite=Cons|Gender=Fem,Masc|Number=Plur	7	fixed	_	_
+9	11	11	NUM	NUM	_	10	nummod	_	_
+10	עמודים	עמוד	NOUN	NOUN	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	1	punct	_	_
+12	מייחס	ייחס	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+13-14	ללייבוביץ	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	לייבוביץ	לייבוביץ	PROPN	PROPN	_	12	obl	_	_
+15	22	22	NUM	NUM	_	16	nummod	_	_
+16	אישומים	אישום	NOUN	NOUN	Gender=Masc|Number=Plur	12	obj	_	_
+17	של	של	ADP	ADP	Case=Gen	18	case	_	_
+18	מעשי	מעשה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	16	nmod:poss	_	_
+19	שוד	שוד	NOUN	NOUN	Gender=Masc|Number=Sing	18	compound:smixut	_	_
+20-21	בנסיבות	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	נסיבות	נסיבה	NOUN	NOUN	Gender=Fem|Number=Plur	18	nmod	_	_
+22	מחמירות	מחמיר	ADJ	ADJ	Gender=Fem|Number=Plur	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# doc_id = htb:147
+# doc_range = 380-659
+# sent_id = 3752
+# text = התובעת, עו"ד דבורה חן, מציינת כי במשך כשנה וחצי ביצע לייבוביץ שורה ארוכה של מעשי שוד בסניפי בנקים, תוך שהוא משתמש בנשק ומאיים בו על עובדי הבנק ולקוחותיו.
+1-2	התובעת	_	_	_	_	_	_	_	SpaceAfter=No
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	תובעת	תובע	NOUN	NOUN	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	,	,	PUNCT	PUNCT	_	4	punct	_	_
+4	עו"ד	עו"ד	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	2	appos	_	_
+5	דבורה	דבורה	PROPN	PROPN	_	4	flat:name	_	_
+6	חן	חן	PROPN	PROPN	_	4	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	2	punct	_	_
+8	מציינת	ציין	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+9	כי	כי	SCONJ	SCONJ	_	15	mark	_	_
+10	במשך	במשך	ADP	ADP	_	12	case	_	_
+11-12	כשנה	_	_	_	_	_	_	_	_
+11	כ	כ	ADP	ADP	_	12	case	_	_
+12	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	15	obl	_	_
+13-14	וחצי	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
+14	חצי	חצי	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	12	conj	_	_
+15	ביצע	ביצע	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	8	ccomp	_	_
+16	לייבוביץ	לייבוביץ	PROPN	PROPN	_	15	nsubj	_	_
+17	שורה	שורה	NOUN	NOUN	Gender=Fem|Number=Sing	15	obj	_	_
+18	ארוכה	ארוך	ADJ	ADJ	Gender=Fem|Number=Sing	17	amod	_	_
+19	של	של	ADP	ADP	Case=Gen	20	case	_	_
+20	מעשי	מעשה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	17	nmod	_	_
+21	שוד	שוד	NOUN	NOUN	Gender=Masc|Number=Sing	20	compound:smixut	_	_
+22-23	בסניפי	_	_	_	_	_	_	_	_
+22	ב	ב	ADP	ADP	_	23	case	_	_
+23	סניפי	סניף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	20	nmod	_	_
+24	בנקים	בנק	NOUN	NOUN	Gender=Masc|Number=Plur	23	compound:smixut	_	SpaceAfter=No
+25	,	,	PUNCT	PUNCT	_	29	punct	_	_
+26	תוך	תוך	ADP	ADP	_	29	case	_	_
+27-28	שהוא	_	_	_	_	_	_	_	_
+27	ש	ש	SCONJ	SCONJ	_	29	mark	_	_
+28	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
+29	משתמש	השתמש	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	15	obl	_	_
+30-31	בנשק	_	_	_	_	_	_	_	_
+30	ב	ב	ADP	ADP	_	31	case	_	_
+31	נשק	נשק	NOUN	NOUN	Gender=Masc|Number=Sing	29	obl	_	_
+32-33	ומאיים	_	_	_	_	_	_	_	_
+32	ו	ו	CCONJ	CCONJ	_	33	cc	_	_
+33	מאיים	איים	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	29	conj	_	_
+34-35	בו	_	_	_	_	_	_	_	_
+34	ב	ב	ADP	ADP	_	35	case	_	_
+35	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	obl	_	_
+36	על	על	ADP	ADP	_	37	case	_	_
+37	עובדי	עובד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	33	obl	_	_
+38-39	הבנק	_	_	_	_	_	_	_	_
+38	ה	ה	DET	DET	Definite=Def|PronType=Art	39	det	_	_
+39	בנק	בנק	NOUN	NOUN	Gender=Masc|Number=Sing	37	compound:smixut	_	_
+40-43	ולקוחותיו	_	_	_	_	_	_	_	SpaceAfter=No
+40	ו	ו	CCONJ	CCONJ	_	41	cc	_	_
+41	לקוח	לקוח	NOUN	NOUN	Gender=Masc|Number=Plur	37	conj	_	_
+42	_של_	של	ADP	ADP	Case=Gen	43	case:gen	_	_
+43	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	41	nmod:poss	_	_
+44	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:147
+# doc_range = 661-853
+# sent_id = 3753
+# text = בחלק מהמקרים, נטען בכתב האישום, אף ירה לייבוביץ בנשק כדי לקדם את ביצוע השוד וכדי להימלט מהמקום ללא הפרעה.
+1-2	בחלק	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	חלק	חלק	NOUN	NOUN	Gender=Masc|Number=Sing	14	obl	_	_
+3-5	מהמקרים	_	_	_	_	_	_	_	SpaceAfter=No
+3	מ	מ	ADP	ADP	_	5	case	_	HebSource=ConvUncertainLabel
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+5	מקרים	מקרה	NOUN	NOUN	Gender=Masc|Number=Plur	2	nmod	_	_
+6	,	,	PUNCT	PUNCT	_	7	punct	_	_
+7	נטען	נטען	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	14	parataxis	_	_
+8-9	בכתב	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	כתב	כתב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	obl	_	_
+10-11	האישום	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	אישום	אישום	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound:smixut	_	_
+12	,	,	PUNCT	PUNCT	_	7	punct	_	_
+13	אף	אף	ADV	ADV	_	14	advmod	_	_
+14	ירה	ירה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+15	לייבוביץ	לייבוביץ	PROPN	PROPN	_	14	nsubj	_	_
+16-17	בנשק	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	נשק	נשק	NOUN	NOUN	Gender=Masc|Number=Sing	14	obl	_	_
+18	כדי	כדי	SCONJ	SCONJ	_	19	mark	_	_
+19	לקדם	קידם	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	14	advcl	_	_
+20	את	את	ADP	ADP	Case=Acc	21	case	_	_
+21	ביצוע	ביצוע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	19	obj	_	_
+22-23	השוד	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	שוד	שוד	NOUN	NOUN	Gender=Masc|Number=Sing	21	compound:smixut	_	_
+24-25	וכדי	_	_	_	_	_	_	_	_
+24	ו	ו	CCONJ	CCONJ	_	26	cc	_	_
+25	כדי	כדי	SCONJ	SCONJ	_	26	mark	_	_
+26	להימלט	נמלט	VERB	VERB	HebBinyan=NIFAL|VerbForm=Inf|Voice=Mid	19	conj	_	_
+27-29	מהמקום	_	_	_	_	_	_	_	_
+27	מ	מ	ADP	ADP	_	29	case	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	26	obl	_	_
+30	ללא	ללא	ADP	ADP	_	31	case	_	_
+31	הפרעה	הפרעה	NOUN	NOUN	Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+32	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# doc_id = htb:147
+# doc_range = 855-947
+# sent_id = 3754
+# text = שלל מעשי השוד של לייבוביץ הסתכם בלמעלה מ003 אלף שקל.
+1	שלל	שלל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	מעשי	מעשה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	1	compound:smixut	_	_
+3-4	השוד	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	שוד	שוד	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+5	של	של	ADP	ADP	Case=Gen	6	case	_	_
+6	לייבוביץ	לייבוביץ	PROPN	PROPN	_	2	nmod:poss	_	_
+7	הסתכם	הסתכם	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+8-9	בלמעלה	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	13	case	_	_
+9	למעלה	למעלה	ADV	ADV	_	13	advmod	_	HebSource=ConvUncertainHead
+10-11	מ003	_	_	_	_	_	_	_	_
+10	מ	מ	ADP	ADP	_	9	fixed	_	_
+11	003	003	NUM	NUM	_	12	nummod	_	_
+12	אלף	אלף	NUM	NUM	Gender=Masc|Number=Plur	13	nummod	_	_
+13	שקל	שקל	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:147
+# doc_range = 949-1170
+# sent_id = 3755
+# text = בעת שאותר על-ידי אנשי המשטרה הוא נמלט מהמקום באמצעות אופנוע, בו השתמש בעת ביצוע כל מעשי השוד, ונלכד רק לאחר מרדף משטרתי.
+1-2	בעת	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	עת	עת	NOUN	NOUN	Gender=Fem|Number=Sing	12	obl	_	_
+3-4	שאותר	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
+4	אותר	אותר	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	2	acl:relcl	_	_
+5	על	על	ADP	ADP	_	8	case	_	SpaceAfter=No
+6	-	-	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
+7	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	5	fixed	_	_
+8	אנשי	איש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	obl	_	_
+9-10	המשטרה	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound:smixut	_	_
+11	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	נמלט	נמלט	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+13-15	מהמקום	_	_	_	_	_	_	_	_
+13	מ	מ	ADP	ADP	_	15	case	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
+16	באמצעות	באמצעות	ADP	ADP	_	17	case	_	_
+17	אופנוע	אופנוע	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	21	punct	_	_
+19-20	בו	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obl	_	_
+21	השתמש	השתמש	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	17	acl	_	_
+22-23	בעת	_	_	_	_	_	_	_	_
+22	ב	ב	ADP	ADP	_	23	case	_	_
+23	עת	עת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	21	obl	_	_
+24	ביצוע	ביצוע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	23	compound:smixut	_	_
+25	כל	כול	DET	DET	Definite=Cons	26	det	_	_
+26	מעשי	מעשה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	24	compound:smixut	_	_
+27-28	השוד	_	_	_	_	_	_	_	SpaceAfter=No
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	שוד	שוד	NOUN	NOUN	Gender=Masc|Number=Sing	26	compound:smixut	_	_
+29	,	,	PUNCT	PUNCT	_	31	punct	_	_
+30-31	ונלכד	_	_	_	_	_	_	_	_
+30	ו	ו	CCONJ	CCONJ	_	31	cc	_	_
+31	נלכד	נלכד	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	12	conj	_	_
+32	רק	רק	ADV	ADV	_	34	advmod	_	_
+33	לאחר	לאחר	ADP	ADP	_	34	case	_	_
+34	מרדף	מרדף	NOUN	NOUN	Gender=Masc|Number=Sing	31	dep	_	_
+35	משטרתי	משטרתי	ADJ	ADJ	Gender=Masc|Number=Sing	34	amod	_	SpaceAfter=No
+36	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# doc_id = htb:147
+# doc_range = 1172-1450
+# sent_id = 3756
+# text = בכתב האישום נטען עוד, כי במהלך השוד בסניף בל"ל ברמת-אביב, ניגש הנאשם למכשיר הכספומט, שחלקו האחורי מצוי בתוך הסניף, וניסה לפתוח אותו על ידי סיבוב הידית.
+1-2	בכתב	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	כתב	כתב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+3-4	האישום	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	אישום	אישום	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+5	נטען	נטען	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+6	עוד	עוד	ADV	ADV	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	21	punct	_	_
+8	כי	כי	SCONJ	SCONJ	_	21	mark	_	_
+9-10	במהלך	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	12	case	_	_
+10	מהלך	מהלך	NOUN	NOUN	Gender=Masc|Number=Sing	9	fixed	_	_
+11-12	השוד	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	שוד	שוד	NOUN	NOUN	Gender=Masc|Number=Sing	21	obl	_	_
+13-14	בסניף	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	סניף	סניף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	nmod	_	_
+15	בל"ל	בל"ל	PROPN	PROPN	Abbr=Yes	14	compound:smixut	_	_
+16-17	ברמת	_	_	_	_	_	_	_	SpaceAfter=No
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	רמת	רמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	14	nmod	_	_
+18	-	-	PUNCT	PUNCT	_	19	punct	_	SpaceAfter=No
+19	אביב	אביב	NOUN	NOUN	Gender=Masc|Number=Sing	17	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	PUNCT	_	12	punct	_	_
+21	ניגש	ניגש	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	5	advcl	_	_
+22-23	הנאשם	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	נאשם	נאשם	NOUN	NOUN	Gender=Masc|Number=Sing	21	nsubj	_	_
+24-25	למכשיר	_	_	_	_	_	_	_	_
+24	ל	ל	ADP	ADP	_	25	case	_	_
+25	מכשיר	מכשיר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	21	obl	_	_
+26-27	הכספומט	_	_	_	_	_	_	_	SpaceAfter=No
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	כספומט	כספומט	NOUN	NOUN	Gender=Masc|Number=Sing	25	compound:smixut	_	_
+28	,	,	PUNCT	PUNCT	_	35	punct	_	_
+29-32	שחלקו	_	_	_	_	_	_	_	_
+29	ש	ש	SCONJ	SCONJ	_	35	mark	_	_
+30	חלק	חלק	NOUN	NOUN	Gender=Masc|Number=Sing	35	nsubj	_	_
+31	_של_	של	ADP	ADP	Case=Gen	32	case:gen	_	_
+32	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+33-34	האחורי	_	_	_	_	_	_	_	_
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	אחורי	אחורי	ADJ	ADJ	Gender=Masc|Number=Sing	30	amod	_	_
+35	מצוי	מצוי	ADJ	ADJ	Gender=Masc|Number=Sing	25	acl:relcl	_	_
+36	בתוך	בתוך	ADP	ADP	_	38	case	_	_
+37-38	הסניף	_	_	_	_	_	_	_	SpaceAfter=No
+37	ה	ה	DET	DET	Definite=Def|PronType=Art	38	det	_	_
+38	סניף	סניף	NOUN	NOUN	Gender=Masc|Number=Sing	35	obl	_	_
+39	,	,	PUNCT	PUNCT	_	41	punct	_	_
+40-41	וניסה	_	_	_	_	_	_	_	_
+40	ו	ו	CCONJ	CCONJ	_	41	cc	_	_
+41	ניסה	ניסה	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	35	conj	_	_
+42	לפתוח	פתח	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	41	xcomp	_	_
+43-44	אותו	_	_	_	_	_	_	_	_
+43	את	את	ADP	ADP	Case=Acc	44	case	_	_
+44	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	42	obj	_	_
+45	על	על	ADP	ADP	_	47	case	_	_
+46	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	45	fixed	_	_
+47	סיבוב	סיבוב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	42	obl	_	_
+48-49	הידית	_	_	_	_	_	_	_	SpaceAfter=No
+48	ה	ה	DET	DET	Definite=Def|PronType=Art	49	det	_	_
+49	ידית	ידית	NOUN	NOUN	Gender=Fem|Number=Sing	47	compound:smixut	_	_
+50	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:147
+# doc_range = 1452-1734
+# sent_id = 3757
+# text = קפידבינבסניף הבנק הבינלאומי בהרצליה אמרה הכספרית בסניף לנאשם כי מפתחות הקופה אינם ברשותה, ואז חטף לייבוביץ מהמקום חותמת עם תאריכים של הבנק ונמלט מהמקום.
+1-3	קפידבינבסניף	_	_	_	_	_	_	_	_
+1	קפידבינ	קפידבינ	X	X	_	10	dep	_	Xtra=Junk
+2	ב	ב	X	X	_	3	case	_	Xtra=Junk
+3	סניף	סניף	X	X	_	10	obl	_	Xtra=Junk
+4-5	הבנק	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	בנק	בנק	NOUN	NOUN	Gender=Masc|Number=Sing	3	compound:smixut	_	_
+6-7	הבינלאומי	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	בינלאומי	בינלאומי	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	_
+8-9	בהרצליה	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	הרצליה	הרצליה	PROPN	PROPN	_	3	obl	_	_
+10	אמרה	אמר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+11-12	הכספרית	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	כספרית	כספר	NOUN	NOUN	Gender=Fem|Number=Sing	10	nsubj	_	_
+13-15	בסניף	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	15	case	_	_
+14	ה_	ה	DET	DET	PronType=Art|Definite=Def	15	det	_	_
+15	סניף	סניף	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
+16-18	לנאשם	_	_	_	_	_	_	_	_
+16	ל	ל	ADP	ADP	_	18	case	_	_
+17	ה_	ה	DET	DET	PronType=Art|Definite=Def	18	det	_	_
+18	נאשם	נאשם	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
+19	כי	כי	SCONJ	SCONJ	_	20	mark	_	_
+20	מפתחות	מפתח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	10	ccomp	_	_
+21-22	הקופה	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	קופה	קופה	NOUN	NOUN	Gender=Fem|Number=Sing	20	compound:smixut	_	_
+23	אינם	אינו	AUX	AUX	Gender=Masc|Number=Plur|Person=3|Polarity=Neg|VerbForm=Part	20	aux	_	HebSource=ConvUncertainHead
+24-27	ברשותה	_	_	_	_	_	_	_	SpaceAfter=No
+24	ב	ב	ADP	ADP	_	25	case	_	_
+25	רשות	רשות	NOUN	NOUN	Gender=Fem|Number=Sing	20	dep	_	HebSource=ConvUncertainHead
+26	_של_	של	ADP	ADP	Case=Gen	27	case:gen	_	_
+27	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+28	,	,	PUNCT	PUNCT	_	31	punct	_	_
+29-30	ואז	_	_	_	_	_	_	_	_
+29	ו	ו	CCONJ	CCONJ	_	31	cc	_	_
+30	אז	אז	ADV	ADV	_	31	advmod	_	_
+31	חטף	חטף	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	20	conj	_	_
+32	לייבוביץ	לייבוביץ	PROPN	PROPN	_	31	nsubj	_	_
+33-35	מהמקום	_	_	_	_	_	_	_	_
+33	מ	מ	ADP	ADP	_	35	case	_	_
+34	ה	ה	DET	DET	Definite=Def|PronType=Art	35	det	_	_
+35	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	31	obl	_	_
+36	חותמת	חותמת	NOUN	NOUN	Gender=Fem|Number=Sing	31	obj	_	_
+37	עם	עם	ADP	ADP	_	38	case	_	_
+38	תאריכים	תאריך	NOUN	NOUN	Gender=Masc|Number=Plur	36	nmod	_	_
+39	של	של	ADP	ADP	Case=Gen	41	case	_	_
+40-41	הבנק	_	_	_	_	_	_	_	_
+40	ה	ה	DET	DET	Definite=Def|PronType=Art	41	det	_	_
+41	בנק	בנק	NOUN	NOUN	Gender=Masc|Number=Sing	36	nmod:poss	_	_
+42-43	ונמלט	_	_	_	_	_	_	_	_
+42	ו	ו	CCONJ	CCONJ	_	43	cc	_	_
+43	נמלט	נמלט	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	31	conj	_	_
+44-46	מהמקום	_	_	_	_	_	_	_	SpaceAfter=No
+44	מ	מ	ADP	ADP	_	46	case	_	_
+45	ה	ה	DET	DET	Definite=Def|PronType=Art	46	det	_	_
+46	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	43	obl	_	_
+47	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:147
+# doc_range = 1736-1877
+# sent_id = 3758
+# text = גם מסניף דיסקונט ברמת-גן שדד הנאשם, בנוסף ל13,095 שקלים, חותמת תאריך של הסניף.
+1	גם	גם	ADV	ADV	_	3	advmod	_	_
+2-3	מסניף	_	_	_	_	_	_	_	_
+2	מ	מ	ADP	ADP	_	3	case	_	_
+3	סניף	סניף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	obl	_	_
+4	דיסקונט	דיסקונט	PROPN	PROPN	_	3	compound:smixut	_	_
+5-6	ברמת	_	_	_	_	_	_	_	SpaceAfter=No
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	רמת	רמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	nmod	_	_
+7	-	-	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+8	גן	גן	NOUN	NOUN	Gender=Masc|Number=Sing	6	flat:name	_	_
+9	שדד	שדד	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	_
+10-11	הנאשם	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	נאשם	נאשם	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj	_	_
+12	,	,	PUNCT	PUNCT	_	17	punct	_	_
+13-14	בנוסף	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	17	case	_	_
+14	נוסף	נוסף	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	13	fixed	_	_
+15-16	ל13,095	_	_	_	_	_	_	_	_
+15	ל	ל	ADP	ADP	_	13	fixed	_	_
+16	13,095	13,095	NUM	NUM	Number=Plur	17	nummod	_	_
+17	שקלים	שקל	NOUN	NOUN	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	19	punct	_	_
+19	חותמת	חותמת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	obj	_	_
+20	תאריך	תאריך	NOUN	NOUN	Gender=Masc|Number=Sing	19	compound:smixut	_	_
+21	של	של	ADP	ADP	Case=Gen	23	case	_	_
+22-23	הסניף	_	_	_	_	_	_	_	SpaceAfter=No
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	סניף	סניף	NOUN	NOUN	Gender=Masc|Number=Sing	19	nmod:poss	_	_
+24	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:147
+# doc_range = 1879-2157
+# sent_id = 3759
+# text = בסניף בנק הפועלים ברחוב פנקס בתל-אביב שדד לייבוביץ, בנוסף ל34,028 שקל מכספי הבנק, גם סך של 2,734 שקל מאחד מלקוחות הסניף, שעמד ליד הדלפק של הכספרית שנשדדה.
+1-2	בסניף	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	סניף	סניף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	obl	_	_
+3	בנק	בנק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	compound:smixut	_	_
+4-5	הפועלים	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	פועלים	פועל	NOUN	NOUN	Gender=Masc|Number=Plur	3	compound:smixut	_	_
+6-7	ברחוב	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	רחוב	רחוב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	nmod	_	_
+8	פנקס	פנקס	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound:smixut	_	_
+9-10	בתל	_	_	_	_	_	_	_	SpaceAfter=No
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	תל	תל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nmod	_	_
+11	-	-	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
+12	אביב	אביב	NOUN	NOUN	Gender=Masc|Number=Sing	10	flat:name	_	_
+13	שדד	שדד	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	_
+14	לייבוביץ	לייבוביץ	PROPN	PROPN	_	13	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	20	punct	_	_
+16-17	בנוסף	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	20	case	_	_
+17	נוסף	נוסף	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	16	fixed	_	_
+18-19	ל34,028	_	_	_	_	_	_	_	_
+18	ל	ל	ADP	ADP	_	16	fixed	_	_
+19	34,028	34,028	NUM	NUM	Number=Plur	20	nummod	_	_
+20	שקל	שקל	NOUN	NOUN	Gender=Masc|Number=Sing	13	obl	_	_
+21-22	מכספי	_	_	_	_	_	_	_	_
+21	מ	מ	ADP	ADP	_	22	case	_	_
+22	כספי	כסף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	20	nmod	_	_
+23-24	הבנק	_	_	_	_	_	_	_	SpaceAfter=No
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	בנק	בנק	NOUN	NOUN	Gender=Masc|Number=Sing	22	compound:smixut	_	_
+25	,	,	PUNCT	PUNCT	_	27	punct	_	_
+26	גם	גם	ADV	ADV	_	27	advmod	_	_
+27	סך	סך	NOUN	NOUN	Gender=Masc|Number=Sing	13	obj	_	_
+28	של	של	ADP	ADP	Case=Gen	30	case	_	_
+29	2,734	2,734	NUM	NUM	_	30	nummod	_	_
+30	שקל	שקל	NOUN	NOUN	Gender=Masc|Number=Sing	27	nmod:poss	_	_
+31-32	מאחד	_	_	_	_	_	_	_	_
+31	מ	מ	ADP	ADP	_	34	case	_	_
+32	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	34	nummod	_	_
+33-34	מלקוחות	_	_	_	_	_	_	_	_
+33	מ	מ	ADP	ADP	_	34	case	_	_
+34	לקוחות	לקוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	13	obl	_	_
+35-36	הסניף	_	_	_	_	_	_	_	SpaceAfter=No
+35	ה	ה	DET	DET	Definite=Def|PronType=Art	36	det	_	_
+36	סניף	סניף	NOUN	NOUN	Gender=Masc|Number=Sing	34	compound:smixut	_	_
+37	,	,	PUNCT	PUNCT	_	39	punct	_	_
+38-39	שעמד	_	_	_	_	_	_	_	_
+38	ש	ש	SCONJ	SCONJ	_	39	mark	_	_
+39	עמד	עמד	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	34	acl:relcl	_	_
+40	ליד	ליד	ADP	ADP	_	42	case	_	_
+41-42	הדלפק	_	_	_	_	_	_	_	_
+41	ה	ה	DET	DET	Definite=Def|PronType=Art	42	det	_	_
+42	דלפק	דלפק	NOUN	NOUN	Gender=Masc|Number=Sing	39	obl	_	_
+43	של	של	ADP	ADP	Case=Gen	45	case	_	_
+44-45	הכספרית	_	_	_	_	_	_	_	_
+44	ה	ה	DET	DET	Definite=Def|PronType=Art	45	det	_	_
+45	כספרית	כספר	NOUN	NOUN	Gender=Fem|Number=Sing	42	nmod:poss	_	_
+46-47	שנשדדה	_	_	_	_	_	_	_	SpaceAfter=No
+46	ש	ש	SCONJ	SCONJ	_	47	mark	_	_
+47	נשדדה	נשדד	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	45	acl:relcl	_	_
+48	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# doc_id = htb:147
+# doc_range = 2159-2407
+# sent_id = 3760
+# text = עם סיום השוד בסניף הבינלאומי בהרצליה, יצא אחרי הנאשם אחד הלקוחות שצעק לכספרית במהלך השוד לא לתת לנאשם את הכסף, מאחר שמדובר באקדח צעצוע.
+1	עם	עם	ADP	ADP	_	2	case	_	_
+2	סיום	סיום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	obl	_	_
+3-4	השוד	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	שוד	שוד	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+5-7	בסניף	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	7	case	_	_
+6	ה_	ה	DET	DET	PronType=Art|Definite=Def	7	det	_	_
+7	סניף	סניף	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_
+8-9	הבינלאומי	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	בינלאומי	בינלאומי	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	_
+10-11	בהרצליה	_	_	_	_	_	_	_	SpaceAfter=No
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	הרצליה	הרצליה	PROPN	PROPN	_	7	nmod	_	_
+12	,	,	PUNCT	PUNCT	_	2	punct	_	_
+13	יצא	יצא	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	_
+14	אחרי	אחרי	ADP	ADP	_	16	case	_	_
+15-16	הנאשם	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	נאשם	נאשם	NOUN	NOUN	Gender=Masc|Number=Sing	13	obl	_	_
+17	אחד	אחת	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	19	nummod	_	_
+18-19	הלקוחות	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	לקוחות	לקוח	NOUN	NOUN	Gender=Masc|Number=Plur	13	nsubj	_	_
+20-21	שצעק	_	_	_	_	_	_	_	_
+20	ש	ש	SCONJ	SCONJ	_	21	mark	_	_
+21	צעק	צעק	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	19	acl:relcl	_	_
+22-24	לכספרית	_	_	_	_	_	_	_	_
+22	ל	ל	ADP	ADP	_	24	case	_	_
+23	ה_	ה	DET	DET	PronType=Art|Definite=Def	24	det	_	_
+24	כספרית	כספר	NOUN	NOUN	Gender=Fem|Number=Sing	21	obl	_	_
+25-26	במהלך	_	_	_	_	_	_	_	_
+25	ב	ב	ADP	ADP	_	28	case	_	_
+26	מהלך	מהלך	NOUN	NOUN	Gender=Masc|Number=Sing	25	fixed	_	_
+27-28	השוד	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	שוד	שוד	NOUN	NOUN	Gender=Masc|Number=Sing	21	obl	_	_
+29	לא	לא	ADV	ADV	Polarity=Neg	30	advmod	_	_
+30	לתת	נתן	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	21	xcomp	_	_
+31-33	לנאשם	_	_	_	_	_	_	_	_
+31	ל	ל	ADP	ADP	_	33	case	_	_
+32	ה_	ה	DET	DET	PronType=Art|Definite=Def	33	det	_	_
+33	נאשם	נאשם	NOUN	NOUN	Gender=Masc|Number=Sing	30	obl	_	_
+34	את	את	ADP	ADP	Case=Acc	36	case	_	_
+35-36	הכסף	_	_	_	_	_	_	_	SpaceAfter=No
+35	ה	ה	DET	DET	Definite=Def|PronType=Art	36	det	_	_
+36	כסף	כסף	NOUN	NOUN	Gender=Masc|Number=Sing	30	obj	_	_
+37	,	,	PUNCT	PUNCT	_	40	punct	_	_
+38	מאחר	מאחר	SCONJ	SCONJ	_	40	mark	_	_
+39-40	שמדובר	_	_	_	_	_	_	_	_
+39	ש	ש	SCONJ	SCONJ	_	38	fixed	_	_
+40	מדובר	דובר	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	21	advcl	_	_
+41-42	באקדח	_	_	_	_	_	_	_	_
+41	ב	ב	ADP	ADP	_	42	case	_	_
+42	אקדח	אקדח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	40	obl	_	_
+43	צעצוע	צעצוע	NOUN	NOUN	Gender=Masc|Number=Sing	42	compound:smixut	_	SpaceAfter=No
+44	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# doc_id = htb:147
+# doc_range = 2409-2497
+# sent_id = 3761
+# text = הוא התקרב לעבר לייבוביץ במטרה למנוע ממנו להימלט.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	התקרב	התקרב	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+3	לעבר	לעבר	ADP	ADP	_	4	case	_	_
+4	לייבוביץ	לייבוביץ	PROPN	PROPN	_	2	obl	_	_
+5-6	במטרה	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	מטרה	מטרה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl	_	_
+7	למנוע	מנע	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	6	acl	_	_
+8-9	ממנו	_	_	_	_	_	_	_	_
+8	מן	מן	ADP	ADP	_	9	case	_	_
+9	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	dep	_	HebSource=ConvUncertainHead
+10	להימלט	נמלט	VERB	VERB	HebBinyan=NIFAL|VerbForm=Inf|Voice=Mid	7	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:147
+# doc_range = 2499-2606
+# sent_id = 3762
+# text = בתגובה ירה לייבוביץ ירייה אחת בתקרה והלקוח נאלץ לסגת חזרה.
+1-2	בתגובה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	תגובה	תגובה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+3	ירה	ירה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	לייבוביץ	לייבוביץ	PROPN	PROPN	_	3	nsubj	_	_
+5	ירייה	ירייה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obj	_	_
+6	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	5	nummod	_	_
+7-9	בתקרה	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	9	case	_	_
+8	ה_	ה	DET	DET	PronType=Art|Definite=Def	9	det	_	_
+9	תקרה	תקרה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+10-12	והלקוח	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	לקוח	לקוח	NOUN	NOUN	Gender=Masc|Number=Sing	13	nsubj	_	_
+13	נאלץ	נאלץ	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	3	conj	_	_
+14	לסגת	נסוג	VERB	VERB	HebBinyan=NIFAL|VerbForm=Inf|Voice=Mid	13	xcomp	_	_
+15	חזרה	חזרה	ADV	ADV	_	14	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:147
+# doc_range = 2608-2751
+# sent_id = 3763
+# text = בעת השוד בסניף בנק הפועלים ברעננה, ירד מנהל הסניף לקומה הראשונה בה התבצע השוד.
+1-2	בעת	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	עת	עת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	13	obl	_	_
+3-4	השוד	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	שוד	שוד	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+5-6	בסניף	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	סניף	סניף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nmod	_	_
+7	בנק	בנק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	compound:smixut	_	_
+8-9	הפועלים	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	פועלים	פועל	NOUN	NOUN	Gender=Masc|Number=Plur	7	compound:smixut	_	_
+10-11	ברעננה	_	_	_	_	_	_	_	SpaceAfter=No
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	רעננה	רעננה	PROPN	PROPN	_	6	nmod	_	_
+12	,	,	PUNCT	PUNCT	_	2	punct	_	_
+13	ירד	ירד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+14	מנהל	מנהל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	nsubj	_	_
+15-16	הסניף	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	סניף	סניף	NOUN	NOUN	Gender=Masc|Number=Sing	14	compound:smixut	_	_
+17-19	לקומה	_	_	_	_	_	_	_	_
+17	ל	ל	ADP	ADP	_	19	case	_	_
+18	ה_	ה	DET	DET	PronType=Art|Definite=Def	19	det	_	_
+19	קומה	קומה	NOUN	NOUN	Gender=Fem|Number=Sing	14	nmod	_	_
+20-21	הראשונה	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	ראשונה	ראשונה	ADJ	ADJ	Gender=Fem|Number=Sing	19	amod	_	_
+22-23	בה	_	_	_	_	_	_	_	_
+22	ב	ב	ADP	ADP	_	23	case	_	_
+23	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	obl	_	_
+24	התבצע	התבצע	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	19	acl:relcl	_	_
+25-26	השוד	_	_	_	_	_	_	_	SpaceAfter=No
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	שוד	שוד	NOUN	NOUN	Gender=Masc|Number=Sing	24	nsubj	_	_
+27	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# doc_id = htb:147
+# doc_range = 2753-2854
+# sent_id = 3764
+# text = הנאשם כיוון אליו את האקדח ודרש ממנו לחזור לקומה השנייה.
+1-2	הנאשם	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	נאשם	נאשם	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	כיוון	כיוון	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4-5	אליו	_	_	_	_	_	_	_	_
+4	אל	אל	ADP	ADP	_	5	case	_	_
+5	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+6	את	את	ADP	ADP	Case=Acc	8	case	_	_
+7-8	האקדח	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	אקדח	אקדח	NOUN	NOUN	Gender=Masc|Number=Sing	3	obj	_	_
+9-10	ודרש	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+10	דרש	דרש	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	_
+11-12	ממנו	_	_	_	_	_	_	_	_
+11	מן	מן	ADP	ADP	_	12	case	_	_
+12	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl	_	_
+13	לחזור	חזר	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+14-16	לקומה	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	16	case	_	_
+15	ה_	ה	DET	DET	PronType=Art|Definite=Def	16	det	_	_
+16	קומה	קומה	NOUN	NOUN	Gender=Fem|Number=Sing	13	obl	_	_
+17-18	השנייה	_	_	_	_	_	_	_	SpaceAfter=No
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	שנייה	שני	ADJ	ADJ	Gender=Fem|Number=Sing	16	amod	_	_
+19	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:147
+# doc_range = 2856-2937
+# sent_id = 3765
+# text = המנהל חשש לחייו ופעל כפי שלייבוביץ דרש ממנו.
+1-2	המנהל	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מנהל	מנהל	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	חשש	חשש	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	_
+4-7	לחייו	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	חיים	חיים	NOUN	NOUN	Gender=Masc|Number=Plur	3	obl	_	_
+6	_של_	של	ADP	ADP	Case=Gen	7	case:gen	_	_
+7	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+8-9	ופעל	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+9	פעל	פעל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	_
+10	כפי	כפי	SCONJ	SCONJ	_	13	mark	_	_
+11-12	שלייבוביץ	_	_	_	_	_	_	_	_
+11	ש	ש	SCONJ	SCONJ	_	10	fixed	_	_
+12	לייבוביץ	לייבוביץ	PROPN	PROPN	_	13	nsubj	_	_
+13	דרש	דרש	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	9	advcl	_	_
+14-15	ממנו	_	_	_	_	_	_	_	SpaceAfter=No
+14	מן	מן	ADP	ADP	_	15	case	_	_
+15	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obl	_	_
+16	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:147
+# doc_range = 2939-3099
+# sent_id = 3766
+# text = במהלך השוד בסניף בנק אמריקאי-ישראלי בשדרות מוריה בחיפה, התקרב לעבר הנאשם עובד של הבנק.
+1-2	במהלך	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	4	case	_	_
+2	מהלך	מהלך	NOUN	NOUN	Gender=Masc|Number=Sing	1	fixed	_	_
+3-4	השוד	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	שוד	שוד	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	_
+5-6	בסניף	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	dep	_	_
+6	סניף	סניף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nmod	_	_
+7	בנק	בנק	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+8	אמריקאי	אמריקני	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	-	-	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+10	ישראלי	ישראלי	ADJ	ADJ	Gender=Masc|Number=Sing	8	dep	_	_
+11-12	בשדרות	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	שדרות	שדרה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	6	nmod	_	_
+13	מוריה	מוריה	PROPN	PROPN	_	12	compound:smixut	_	_
+14-15	בחיפה	_	_	_	_	_	_	_	SpaceAfter=No
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	חיפה	חיפה	PROPN	PROPN	_	12	nmod	_	_
+16	,	,	PUNCT	PUNCT	_	4	punct	_	_
+17	התקרב	התקרב	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+18	לעבר	לעבר	ADP	ADP	_	20	case	_	_
+19-20	הנאשם	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	נאשם	נאשם	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	_
+21	עובד	עובד	NOUN	NOUN	Gender=Masc|Number=Sing	17	nsubj	_	_
+22	של	של	ADP	ADP	Case=Gen	24	case	_	_
+23-24	הבנק	_	_	_	_	_	_	_	SpaceAfter=No
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	בנק	בנק	NOUN	NOUN	Gender=Masc|Number=Sing	21	nmod:poss	_	_
+25	.	.	PUNCT	PUNCT	_	17	punct	_	_
+
+# doc_id = htb:147
+# doc_range = 3101-3216
+# sent_id = 3767
+# text = לייבוביץ הורה לו להיכנס חזרה לחדר המנהל ואמר לו: "אני אירה בך".
+1	לייבוביץ	לייבוביץ	PROPN	PROPN	_	2	nsubj	_	_
+2	הורה	הורה	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3-4	לו	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	4	case	_	_
+4	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+5	להיכנס	נכנס	VERB	VERB	HebBinyan=NIFAL|VerbForm=Inf|Voice=Mid	2	xcomp	_	_
+6	חזרה	חזרה	ADV	ADV	_	5	advmod	_	_
+7-8	לחדר	_	_	_	_	_	_	_	_
+7	ל	ל	ADP	ADP	_	8	case	_	_
+8	חדר	חדר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+9-10	המנהל	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	מנהל	מנהל	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound:smixut	_	_
+11-12	ואמר	_	_	_	_	_	_	_	_
+11	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+12	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	_
+13-14	לו	_	_	_	_	_	_	_	SpaceAfter=No
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obl	_	_
+15	:	:	PUNCT	PUNCT	_	18	punct	_	_
+16	"	"	PUNCT	PUNCT	_	18	punct	_	SpaceAfter=No
+17	אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+18	אירה	ירה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Sing|Person=1|Tense=Fut|Voice=Act	12	ccomp	_	_
+19-20	בך	_	_	_	_	_	_	_	SpaceAfter=No
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	_אתה	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	18	obl	_	_
+21	"	"	PUNCT	PUNCT	_	18	punct	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:147
+# doc_range = 3218-3449
+# sent_id = 3768
+# text = בכדי להמחיש את רצינות כוונותיו, ירה לייבוביץ ירייה אחת שפגעה במנורת נאון בתקרה, ששבריה התפזרו לכל עבר וסיכנו את הנוכחים בבנק.
+1	בכדי	בכדי	SCONJ	SCONJ	_	2	mark	_	_
+2	להמחיש	המחיש	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	9	advcl	_	_
+3	את	את	ADP	ADP	Case=Acc	4	case	_	_
+4	רצינות	רצינות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	obj	_	_
+5-7	כוונותיו	_	_	_	_	_	_	_	SpaceAfter=No
+5	כוונה	כוונה	NOUN	NOUN	Gender=Fem|Number=Plur	4	compound:smixut	_	_
+6	_של_	של	ADP	ADP	Case=Gen	7	case:gen	_	_
+7	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+8	,	,	PUNCT	PUNCT	_	2	punct	_	_
+9	ירה	ירה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+10	לייבוביץ	לייבוביץ	PROPN	PROPN	_	9	nsubj	_	_
+11	ירייה	ירייה	NOUN	NOUN	Gender=Fem|Number=Sing	9	obj	_	_
+12	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	11	nummod	_	_
+13-14	שפגעה	_	_	_	_	_	_	_	_
+13	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
+14	פגעה	פגע	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	11	acl:relcl	_	_
+15-16	במנורת	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	מנורת	מנורה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	14	obl	_	_
+17	נאון	נאון	NOUN	NOUN	_	16	compound:smixut	_	_
+18-20	בתקרה	_	_	_	_	_	_	_	SpaceAfter=No
+18	ב	ב	ADP	ADP	_	20	case	_	_
+19	ה_	ה	DET	DET	PronType=Art|Definite=Def	20	det	_	_
+20	תקרה	תקרה	NOUN	NOUN	Gender=Fem|Number=Sing	16	nmod	_	_
+21	,	,	PUNCT	PUNCT	_	26	punct	_	_
+22-25	ששבריה	_	_	_	_	_	_	_	_
+22	ש	ש	SCONJ	SCONJ	_	26	mark	_	_
+23	שבר	שבר	NOUN	NOUN	Gender=Masc|Number=Plur	26	nsubj	_	_
+24	_של_	של	ADP	ADP	Case=Gen	25	case:gen	_	_
+25	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+26	התפזרו	התפזר	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	16	acl:relcl	_	_
+27-28	לכל	_	_	_	_	_	_	_	_
+27	ל	ל	ADP	ADP	_	29	case	_	_
+28	כל	כול	DET	DET	Definite=Cons	29	det	_	_
+29	עבר	עבר	NOUN	NOUN	Gender=Masc|Number=Sing	26	obl	_	_
+30-31	וסיכנו	_	_	_	_	_	_	_	_
+30	ו	ו	CCONJ	CCONJ	_	31	cc	_	_
+31	סיכנו	סיכן	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	26	conj	_	_
+32	את	את	ADP	ADP	Case=Acc	34	case	_	_
+33-34	הנוכחים	_	_	_	_	_	_	_	_
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	נוכחים	נכח	VERB	VERB	Gender=Masc|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	31	obj	_	_
+35-37	בבנק	_	_	_	_	_	_	_	SpaceAfter=No
+35	ב	ב	ADP	ADP	_	37	case	_	_
+36	ה_	ה	DET	DET	PronType=Art|Definite=Def	37	det	_	_
+37	בנק	בנק	NOUN	NOUN	Gender=Masc|Number=Sing	34	obl	_	_
+38	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:147
+# doc_range = 3451-3611
+# sent_id = 3769
+# text = בשוד בבנק הפועלים בנוף-ים בהרצליה, סירב אחד הלקוחות להישמע להוראת הנאשם לשכב על הרצפה.
+1-2	בשוד	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	שוד	שוד	NOUN	NOUN	Gender=Masc|Number=Sing	14	obl	_	_
+3-4	בבנק	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	בנק	בנק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	nmod	_	_
+5-6	הפועלים	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	פועלים	פועל	NOUN	NOUN	Gender=Masc|Number=Plur	4	compound:smixut	_	_
+7-8	בנוף	_	_	_	_	_	_	_	SpaceAfter=No
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	נוף	נוף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nmod	_	_
+9	-	-	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+10	ים	ים	NOUN	NOUN	Gender=Masc|Number=Sing	8	flat:name	_	_
+11-12	בהרצליה	_	_	_	_	_	_	_	SpaceAfter=No
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	הרצליה	הרצליה	PROPN	PROPN	_	8	nmod	_	_
+13	,	,	PUNCT	PUNCT	_	2	punct	_	_
+14	סירב	סירב	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+15	אחד	אחת	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	17	nummod	_	_
+16-17	הלקוחות	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	לקוחות	לקוח	NOUN	NOUN	Gender=Masc|Number=Plur	14	nsubj	_	_
+18	להישמע	נשמע	VERB	VERB	HebBinyan=NIFAL|VerbForm=Inf|Voice=Mid	14	xcomp	_	_
+19-20	להוראת	_	_	_	_	_	_	_	_
+19	ל	ל	ADP	ADP	_	20	case	_	_
+20	הוראת	הוראה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	18	obl	_	_
+21-22	הנאשם	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	נאשם	נאשם	NOUN	NOUN	Gender=Masc|Number=Sing	20	compound:smixut	_	_
+23	לשכב	שכב	VERB	VERB	VerbForm=Inf	20	acl	_	_
+24	על	על	ADP	ADP	_	26	case	_	_
+25-26	הרצפה	_	_	_	_	_	_	_	SpaceAfter=No
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	רצפה	רצפה	NOUN	NOUN	Gender=Fem|Number=Sing	23	obl	_	_
+27	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# doc_id = htb:147
+# doc_range = 3613-3713
+# sent_id = 3770
+# text = לייבוביץ התקרב אליו וסימן לו באקדחו להיכנס לחדר המנהל.
+1	לייבוביץ	לייבוביץ	PROPN	PROPN	_	2	nsubj	_	_
+2	התקרב	התקרב	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+3-4	אליו	_	_	_	_	_	_	_	_
+3	אל	אל	ADP	ADP	_	4	case	_	_
+4	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+5-6	וסימן	_	_	_	_	_	_	_	_
+5	ו	ו	CCONJ	CCONJ	_	6	cc	_	_
+6	סימן	סימן	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	_
+7-8	לו	_	_	_	_	_	_	_	_
+7	ל	ל	ADP	ADP	_	8	case	_	_
+8	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
+9-12	באקדחו	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	אקדח	אקדח	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+11	_של_	של	ADP	ADP	Case=Gen	12	case:gen	_	_
+12	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+13	להיכנס	נכנס	VERB	VERB	HebBinyan=NIFAL|VerbForm=Inf|Voice=Mid	6	xcomp	_	_
+14-15	לחדר	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	חדר	חדר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	obl	_	_
+16-17	המנהל	_	_	_	_	_	_	_	SpaceAfter=No
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	מנהל	מנהל	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	_
+18	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:147
+# doc_range = 3715-3838
+# sent_id = 3771
+# text = הלקוח סירב ורק לאחר שהנאשם ירה מאקדחו, ציית הלקוח ונכנס לחדר המנהל.
+1-2	הלקוח	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	לקוח	לקוח	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	סירב	סירב	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4-5	ורק	_	_	_	_	_	_	_	_
+4	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+5	רק	רק	ADV	ADV	_	10	advmod	_	_
+6	לאחר	לאחר	ADP	ADP	_	10	case	_	_
+7-9	שהנאשם	_	_	_	_	_	_	_	_
+7	ש	ש	SCONJ	SCONJ	_	10	mark	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	נאשם	נאשם	NOUN	NOUN	Gender=Masc|Number=Sing	10	nsubj	_	_
+10	ירה	ירה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	16	obl	_	_
+11-14	מאקדחו	_	_	_	_	_	_	_	SpaceAfter=No
+11	מ	מ	ADP	ADP	_	12	case	_	_
+12	אקדח	אקדח	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
+13	_של_	של	ADP	ADP	Case=Gen	14	case:gen	_	_
+14	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+15	,	,	PUNCT	PUNCT	_	10	punct	_	_
+16	ציית	ציית	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	_
+17-18	הלקוח	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	לקוח	לקוח	NOUN	NOUN	Gender=Masc|Number=Sing	16	nsubj	_	_
+19-20	ונכנס	_	_	_	_	_	_	_	_
+19	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
+20	נכנס	נכנס	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	16	conj	_	_
+21-22	לחדר	_	_	_	_	_	_	_	_
+21	ל	ל	ADP	ADP	_	22	case	_	_
+22	חדר	חדר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	20	obl	_	_
+23-24	המנהל	_	_	_	_	_	_	_	SpaceAfter=No
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	מנהל	מנהל	NOUN	NOUN	Gender=Masc|Number=Sing	22	compound:smixut	_	_
+25	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:147
+# doc_range = 3840-4062
+# sent_id = 3772
+# text = לייבוביץ לא הסתפק בסך של 5,779 שקל מכספי סניף בנק הפועלים ברמת-גן, ונטל מהדלפק שקית השייכת לאחד מלקוחות הסניף שהכילה 7,000 שקל.
+1	לייבוביץ	לייבוביץ	PROPN	PROPN	_	3	nsubj	_	_
+2	לא	לא	ADV	ADV	Polarity=Neg	3	advmod	_	_
+3	הסתפק	הסתפק	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+4-5	בסך	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	סך	סך	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+6	של	של	ADP	ADP	Case=Gen	8	case	_	_
+7	5,779	5,779	NUM	NUM	_	8	nummod	_	_
+8	שקל	שקל	NOUN	NOUN	Gender=Masc|Number=Sing	5	nmod:poss	_	_
+9-10	מכספי	_	_	_	_	_	_	_	_
+9	מ	מ	ADP	ADP	_	10	case	_	_
+10	כספי	כסף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	8	nmod	_	_
+11	סניף	סניף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	compound:smixut	_	_
+12	בנק	בנק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	compound:smixut	_	_
+13-14	הפועלים	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	פועלים	פועל	NOUN	NOUN	Gender=Masc|Number=Plur	12	compound:smixut	_	_
+15-16	ברמת	_	_	_	_	_	_	_	SpaceAfter=No
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	רמת	רמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	nmod	_	_
+17	-	-	PUNCT	PUNCT	_	18	punct	_	SpaceAfter=No
+18	גן	גן	NOUN	NOUN	Gender=Masc|Number=Sing	16	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	21	punct	_	_
+20-21	ונטל	_	_	_	_	_	_	_	_
+20	ו	ו	CCONJ	CCONJ	_	21	cc	_	_
+21	נטל	נטל	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	3	conj	_	_
+22-24	מהדלפק	_	_	_	_	_	_	_	_
+22	מ	מ	ADP	ADP	_	24	case	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	דלפק	דלפק	NOUN	NOUN	Gender=Masc|Number=Sing	21	obl	_	_
+25	שקית	שקית	NOUN	NOUN	Gender=Fem|Number=Sing	21	obj	_	_
+26-27	השייכת	_	_	_	_	_	_	_	_
+26	ה	ה	SCONJ	SCONJ	_	27	mark	_	_
+27	שייכת	שייך	ADJ	ADJ	Gender=Fem|Number=Sing	25	acl:relcl	_	_
+28-29	לאחד	_	_	_	_	_	_	_	_
+28	ל	ל	ADP	ADP	_	31	case	_	_
+29	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	31	nummod	_	_
+30-31	מלקוחות	_	_	_	_	_	_	_	_
+30	מ	מ	ADP	ADP	_	31	case	_	_
+31	לקוחות	לקוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	27	obl	_	_
+32-33	הסניף	_	_	_	_	_	_	_	_
+32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
+33	סניף	סניף	NOUN	NOUN	Gender=Masc|Number=Sing	31	compound:smixut	_	_
+34-35	שהכילה	_	_	_	_	_	_	_	_
+34	ש	ש	SCONJ	SCONJ	_	35	mark	_	_
+35	הכילה	הכיל	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	25	acl:relcl	_	_
+36	7,000	7,000	NUM	NUM	_	37	nummod	_	_
+37	שקל	שקל	NOUN	NOUN	Gender=Masc|Number=Sing	35	obj	_	SpaceAfter=No
+38	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:147
+# doc_range = 4071-4295
+# sent_id = 3773
+# text = קפידבינהתובעת ביקשה מבית המשפט לקיים את המשפט בהרכב של שלושה שופטים לאור חומרת העבירות, ריבוין והחשיבות הציבורית של התיק.
+1-3	קפידבינהתובעת	_	_	_	_	_	_	_	_
+1	קפידבינ	קפידבינ	X	X	_	4	dep	_	Xtra=Junk
+2	ה	ה	DET	DET	_	3	det	_	Xtra=Junk
+3	תובעת	תובעת	X	X	_	4	nsubj	_	Xtra=Junk
+4	ביקשה	ביקש	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5-6	מבית	_	_	_	_	_	_	_	_
+5	מ	מ	ADP	ADP	_	6	case	_	_
+6	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	obl	_	_
+7-8	המשפט	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+9	לקיים	קיים	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+10	את	את	ADP	ADP	Case=Acc	12	case	_	_
+11-12	המשפט	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	9	obj	_	_
+13-14	בהרכב	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	הרכב	הרכב	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	_
+15	של	של	ADP	ADP	Case=Gen	17	case	_	_
+16	שלושה	שלוש	NUM	NUM	Gender=Masc|Number=Plur	17	nummod	_	_
+17	שופטים	שופט	NOUN	NOUN	Gender=Masc|Number=Plur	14	nmod:poss	_	_
+18	לאור	לאור	ADP	ADP	_	19	case	_	_
+19	חומרת	חומרה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	obl	_	_
+20-21	העבירות	_	_	_	_	_	_	_	SpaceAfter=No
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	עבירות	עבירה	NOUN	NOUN	Gender=Fem|Number=Plur	19	compound:smixut	_	_
+22	,	,	PUNCT	PUNCT	_	23	punct	_	_
+23-25	ריבוין	_	_	_	_	_	_	_	_
+23	ריבוי	ריבוי	NOUN	NOUN	Gender=Masc|Number=Sing	19	conj	_	_
+24	_של_	של	ADP	ADP	Case=Gen	25	case:gen	_	_
+25	_הן	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+26-28	והחשיבות	_	_	_	_	_	_	_	_
+26	ו	ו	CCONJ	CCONJ	_	28	cc	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	חשיבות	חשיבות	NOUN	NOUN	Gender=Fem|Number=Sing	19	conj	_	_
+29-30	הציבורית	_	_	_	_	_	_	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	ציבורית	ציבורי	ADJ	ADJ	Gender=Fem|Number=Sing	28	amod	_	_
+31	של	של	ADP	ADP	Case=Gen	33	case	_	_
+32-33	התיק	_	_	_	_	_	_	_	SpaceAfter=No
+32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
+33	תיק	תיק	NOUN	NOUN	Gender=Masc|Number=Sing	28	nmod	_	_
+34	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:147
+# doc_range = 4298-4513
+# sent_id = 3774
+# text = היא הסבירה כי העונש הקבוע בחוק עבור כל אחת מ22 העבירות הוא 02 שנה, ועל כן עדיף הרכב של שלושה שופטים, שיכריע בעניין העונש.
+1	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	הסבירה	הסביר	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	כי	כי	SCONJ	SCONJ	_	20	mark	_	_
+4-5	העונש	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	עונש	עונש	NOUN	NOUN	Gender=Masc|Number=Sing	20	nsubj	_	_
+6-7	הקבוע	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	קבוע	קבוע	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	_
+8-10	בחוק	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	10	case	_	_
+9	ה_	ה	DET	DET	PronType=Art|Definite=Def	10	det	_	_
+10	חוק	חוק	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
+11	עבור	עבור	ADP	ADP	_	13	case	_	_
+12	כל	כול	DET	DET	Definite=Cons	13	det	_	_
+13	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	5	nmod	_	_
+14-15	מ22	_	_	_	_	_	_	_	_
+14	מ	מ	ADP	ADP	_	17	case	_	_
+15	22	22	NUM	NUM	_	17	nummod	_	_
+16-17	העבירות	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	עבירות	עבירה	NOUN	NOUN	Gender=Fem|Number=Plur	13	obl	_	_
+18	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	20	cop	_	_
+19	02	02	NUM	NUM	_	20	nummod	_	_
+20	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	2	ccomp	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	25	punct	_	_
+22-23	ועל	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	_	25	cc	_	_
+23	על	על	ADP	ADP	_	24	case	_	_
+24	כן	כן	PRON	PRON	Person=3|PronType=Dem	25	obl	_	_
+25	עדיף	עדיף	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbType=Mod	20	conj	_	_
+26	הרכב	הרכב	NOUN	NOUN	Gender=Masc|Number=Sing	25	nsubj	_	_
+27	של	של	ADP	ADP	Case=Gen	29	case	_	_
+28	שלושה	שלוש	NUM	NUM	Gender=Masc|Number=Plur	29	nummod	_	_
+29	שופטים	שופט	NOUN	NOUN	Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	PUNCT	_	32	punct	_	_
+31-32	שיכריע	_	_	_	_	_	_	_	_
+31	ש	ש	SCONJ	SCONJ	_	32	mark	_	_
+32	יכריע	הכריע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	26	acl:relcl	_	_
+33-34	בעניין	_	_	_	_	_	_	_	_
+33	ב	ב	ADP	ADP	_	34	case	_	_
+34	עניין	עניין	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	32	obl	_	_
+35-36	העונש	_	_	_	_	_	_	_	SpaceAfter=No
+35	ה	ה	DET	DET	Definite=Def|PronType=Art	36	det	_	_
+36	עונש	עונש	NOUN	NOUN	Gender=Masc|Number=Sing	34	compound:smixut	_	_
+37	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:147
+# doc_range = 4515-4671
+# sent_id = 3775
+# text = התובעת ציינה כי לייבוביץ הודה במשטרה בעבירות המיוחסות לו ולכן לא נראה כי המשפט יתארך.
+1-2	התובעת	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	תובעת	תובע	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	ציינה	ציין	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	כי	כי	SCONJ	SCONJ	_	6	mark	_	_
+5	לייבוביץ	לייבוביץ	PROPN	PROPN	_	6	nsubj	_	_
+6	הודה	הודה	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	3	ccomp	_	_
+7-9	במשטרה	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	9	case	_	_
+8	ה_	ה	DET	DET	PronType=Art|Definite=Def	9	det	_	_
+9	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	_
+10-12	בעבירות	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	12	case	_	_
+11	ה_	ה	DET	DET	PronType=Art|Definite=Def	12	det	_	_
+12	עבירות	עבירה	NOUN	NOUN	Gender=Fem|Number=Plur	6	obl	_	_
+13-14	המיוחסות	_	_	_	_	_	_	_	_
+13	ה	ה	SCONJ	SCONJ	_	14	mark	_	_
+14	מיוחסות	יוחס	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	12	acl:relcl	_	_
+15-16	לו	_	_	_	_	_	_	_	_
+15	ל	ל	ADP	ADP	_	16	case	_	_
+16	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obl	_	_
+17-18	ולכן	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+18	לכן	לכן	ADV	ADV	_	20	advmod	_	_
+19	לא	לא	ADV	ADV	Polarity=Neg	20	advmod	_	_
+20	נראה	נראה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	6	conj	_	_
+21	כי	כי	SCONJ	SCONJ	_	24	mark	_	_
+22-23	המשפט	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	24	nsubj	_	_
+24	יתארך	התארך	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	20	advcl	_	SpaceAfter=No
+25	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:147
+# doc_range = 4674-4794
+# sent_id = 3776
+# text = התובעת ביקשה עוד מבית המשפט לעצור את רוני לייבוביץ עד תום ההליכים.
+1-2	התובעת	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	תובעת	תובע	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	ביקשה	ביקש	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	עוד	עוד	ADV	ADV	_	3	advmod	_	_
+5-6	מבית	_	_	_	_	_	_	_	_
+5	מ	מ	ADP	ADP	_	6	case	_	_
+6	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	obl	_	_
+7-8	המשפט	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+9	לעצור	עצר	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+10	את	את	ADP	ADP	Case=Acc	11	case	_	_
+11	רוני	רוני	PROPN	PROPN	_	9	obj	_	_
+12	לייבוביץ	לייבוביץ	PROPN	PROPN	_	11	flat:name	_	_
+13	עד	עד	ADP	ADP	_	14	case	_	_
+14	תום	תום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	obl	_	_
+15-16	ההליכים	_	_	_	_	_	_	_	SpaceAfter=No
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	הליכים	הליך	NOUN	NOUN	Gender=Masc|Number=Plur	14	compound:smixut	_	_
+17	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:147
+# doc_range = 4796-5043
+# sent_id = 3777
+# text = היא טענה כי במעשי השוד שביצע, באופן שיטתי ובמשך תקופה ארוכה, הוא הוכיח בעליל כי הוא מהווה סיכון לציבור, וכי קיים חשש שיימלט מאימת הדין.
+1	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	טענה	טען	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	כי	כי	SCONJ	SCONJ	_	20	mark	_	_
+4-5	במעשי	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	מעשי	מעשה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	20	obl	_	_
+6-7	השוד	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	שוד	שוד	NOUN	NOUN	Gender=Masc|Number=Sing	5	compound:smixut	_	_
+8-9	שביצע	_	_	_	_	_	_	_	SpaceAfter=No
+8	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
+9	ביצע	ביצע	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	5	acl:relcl	_	_
+10	,	,	PUNCT	PUNCT	_	12	punct	_	_
+11-12	באופן	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	אופן	אופן	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	_
+13	שיטתי	שיטתי	ADJ	ADJ	Gender=Masc|Number=Sing	12	amod	_	_
+14-15	ובמשך	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+15	במשך	במשך	ADP	ADP	_	16	case	_	_
+16	תקופה	תקופה	NOUN	NOUN	Gender=Fem|Number=Sing	12	conj	_	_
+17	ארוכה	ארוך	ADJ	ADJ	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	5	punct	_	_
+19	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+20	הוכיח	הוכיח	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	ccomp	_	_
+21	בעליל	בעליל	ADV	ADV	_	20	advmod	_	_
+22	כי	כי	SCONJ	SCONJ	_	25	mark	_	_
+23	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+24	מהווה	היווה	AUX	AUX	VerbForm=Part	25	aux	_	_
+25	סיכון	סיכון	NOUN	NOUN	Gender=Masc|Number=Sing	20	ccomp	_	_
+26-28	לציבור	_	_	_	_	_	_	_	SpaceAfter=No
+26	ל	ל	ADP	ADP	_	28	case	_	_
+27	ה_	ה	DET	DET	PronType=Art|Definite=Def	28	det	_	_
+28	ציבור	ציבור	NOUN	NOUN	Gender=Masc|Number=Sing	25	nmod	_	_
+29	,	,	PUNCT	PUNCT	_	32	punct	_	_
+30-31	וכי	_	_	_	_	_	_	_	_
+30	ו	ו	CCONJ	CCONJ	_	32	cc	_	_
+31	כי	כי	SCONJ	SCONJ	_	32	mark	_	_
+32	קיים	קיים	ADJ	ADJ	Gender=Masc|Number=Sing	25	conj	_	_
+33	חשש	חשש	NOUN	NOUN	Gender=Masc|Number=Sing	32	nsubj	_	_
+34-35	שיימלט	_	_	_	_	_	_	_	_
+34	ש	ש	SCONJ	SCONJ	_	35	mark	_	_
+35	יימלט	נמלט	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Fut|Voice=Mid	33	acl:relcl	_	_
+36-37	מאימת	_	_	_	_	_	_	_	_
+36	מ	מ	ADP	ADP	_	37	case	_	_
+37	אימת	אימה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	35	obl	_	_
+38-39	הדין	_	_	_	_	_	_	_	SpaceAfter=No
+38	ה	ה	DET	DET	Definite=Def|PronType=Art	39	det	_	_
+39	דין	דין	NOUN	NOUN	Gender=Masc|Number=Sing	37	compound:smixut	_	_
+40	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:147
+# doc_range = 5045-5090
+# sent_id = 3778
+# text = הדיון בבקשה יתקיים היום.
+1-2	הדיון	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	דיון	דיון	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
+3-5	בבקשה	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	5	case	_	_
+4	ה_	ה	DET	DET	PronType=Art|Definite=Def	5	det	_	_
+5	בקשה	בקשה	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	_
+6	יתקיים	התקיים	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Fut	0	root	_	_
+7	היום	היום	ADV	ADV	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	6	punct	_	_
+

@@ -1,0 +1,215 @@
+# doc_id = htb:7
+# doc_range = 1-214
+# sent_id = 69
+# text = בעיתונים רבים פורסם מכתבה של מלי פיליפסבורן, יו"ר ארגון נפגעי המשכנתאות וחסרי הדיור, תחת הכותרת "אל תיגעו במשכנתא".
+1-2	בעיתונים	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	עיתונים	עיתון	NOUN	NOUN	Gender=Masc|Number=Plur	4	obl	_	_
+3	רבים	רב	ADJ	ADJ	Gender=Masc|Number=Plur	2	amod	_	_
+4	פורסם	פורסם	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+5-7	מכתבה	_	_	_	_	_	_	_	_
+5	מכתב	מכתב	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+6	_של_	של	ADP	ADP	Case=Gen	7	case:gen	_	_
+7	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+8	של	של	ADP	ADP	Case=Gen	9	case	_	_
+9	מלי	מלי	PROPN	PROPN	_	5	nmod:poss	_	_
+10	פיליפסבורן	פיליפסבורן	PROPN	PROPN	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	12	punct	_	_
+12	יו"ר	יו"ר	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	9	appos	_	_
+13	ארגון	ארגון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	compound:smixut	_	_
+14	נפגעי	נפגע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	13	compound:smixut	_	_
+15-16	המשכנתאות	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	משכנתאות	משכנתא	NOUN	NOUN	Gender=Fem|Number=Plur	14	compound:smixut	_	_
+17-18	וחסרי	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+18	חסרי	חסר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	14	conj	_	_
+19-20	הדיור	_	_	_	_	_	_	_	SpaceAfter=No
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	דיור	דיור	NOUN	NOUN	Gender=Masc|Number=Sing	18	compound:smixut	_	_
+21	,	,	PUNCT	PUNCT	_	24	punct	_	_
+22	תחת	תחת	ADP	ADP	_	24	case	_	_
+23-24	הכותרת	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	כותרת	כותרת	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+25	"	"	PUNCT	PUNCT	_	27	punct	_	SpaceAfter=No
+26	אל	אל	ADV	ADV	_	27	advmod	_	_
+27	תיגעו	נגע	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=2|Tense=Fut	24	appos	_	_
+28-30	במשכנתא	_	_	_	_	_	_	_	SpaceAfter=No
+28	ב	ב	ADP	ADP	_	30	case	_	_
+29	ה_	ה	DET	DET	PronType=Art|Definite=Def	30	det	_	_
+30	משכנתא	משכנתא	NOUN	NOUN	Gender=Fem|Number=Sing	27	obl	_	_
+31	"	"	PUNCT	PUNCT	_	27	punct	_	SpaceAfter=No
+32	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:7
+# doc_range = 216-443
+# sent_id = 70
+# text = ברצוני להדגיש משפט אחד בדבריה: "אנו, נפגעי המשכנתאות, נקלענו למצבנו הקשה לא בגלל ריבית נמוכה, אלא בגלל האינפלציה וההצמדה".
+1-4	ברצוני	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	רצון	רצון	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+3	_של_	של	ADP	ADP	Case=Gen	4	case:gen	_	_
+4	_אני	הוא	PRON	PRON	Definite=Def|Gender=Fem,Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5	להדגיש	הדגיש	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+6	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	5	obj	_	_
+7	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	6	nummod	_	_
+8-11	בדבריה	_	_	_	_	_	_	_	SpaceAfter=No
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	6	nmod	_	_
+10	_של_	של	ADP	ADP	Case=Gen	11	case:gen	_	_
+11	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+12	:	:	PUNCT	PUNCT	_	20	punct	_	_
+13	"	"	PUNCT	PUNCT	_	20	punct	_	SpaceAfter=No
+14	אנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	20	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	16	punct	_	_
+16	נפגעי	נפגע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	14	appos	_	_
+17-18	המשכנתאות	_	_	_	_	_	_	_	SpaceAfter=No
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	משכנתאות	משכנתא	NOUN	NOUN	Gender=Fem|Number=Plur	16	compound:smixut	_	_
+19	,	,	PUNCT	PUNCT	_	14	punct	_	_
+20	נקלענו	נקלע	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=1|Tense=Past|Voice=Mid	6	appos	_	_
+21-24	למצבנו	_	_	_	_	_	_	_	_
+21	ל	ל	ADP	ADP	_	22	case	_	_
+22	מצב	מצב	NOUN	NOUN	Gender=Masc|Number=Sing	20	obl	_	_
+23	_של_	של	ADP	ADP	Case=Gen	24	case:gen	_	_
+24	_אנחנו	הוא	PRON	PRON	Definite=Def|Gender=Fem,Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+25-26	הקשה	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	קשה	קשה	ADJ	ADJ	Gender=Masc|Number=Sing	22	amod	_	_
+27	לא	לא	ADV	ADV	Polarity=Neg	29	advmod	_	_
+28	בגלל	בגלל	ADP	ADP	_	29	case	_	_
+29	ריבית	ריבית	NOUN	NOUN	Gender=Fem|Number=Sing	20	obl	_	_
+30	נמוכה	נמוך	ADJ	ADJ	Gender=Fem|Number=Sing	29	amod	_	SpaceAfter=No
+31	,	,	PUNCT	PUNCT	_	35	punct	_	_
+32	אלא	אלא	CCONJ	CCONJ	_	35	cc	_	_
+33	בגלל	בגלל	ADP	ADP	_	35	case	_	_
+34-35	האינפלציה	_	_	_	_	_	_	_	_
+34	ה	ה	DET	DET	Definite=Def|PronType=Art	35	det	_	_
+35	אינפלציה	אינפלציה	NOUN	NOUN	Gender=Fem|Number=Sing	29	conj	_	_
+36-38	וההצמדה	_	_	_	_	_	_	_	SpaceAfter=No
+36	ו	ו	CCONJ	CCONJ	_	38	cc	_	_
+37	ה	ה	DET	DET	Definite=Def|PronType=Art	38	det	_	_
+38	הצמדה	הצמדה	NOUN	NOUN	Gender=Fem|Number=Sing	35	conj	_	_
+39	"	"	PUNCT	PUNCT	_	20	punct	_	SpaceAfter=No
+40	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:7
+# doc_range = 445-566
+# sent_id = 71
+# text = מלים כדורבנות, התואמות במדויק את מה שהחתום מטה טען במשך שנים רבות.
+1	מלים	מילה	NOUN	NOUN	Gender=Fem|Number=Plur	0	root	_	_
+2-3	כדורבנות	_	_	_	_	_	_	_	SpaceAfter=No
+2	כ	כ	ADP	ADP	_	3	case	_	_
+3	דורבנות	דורבן	NOUN	NOUN	Gender=Masc|Number=Plur	1	nmod	_	_
+4	,	,	PUNCT	PUNCT	_	6	punct	_	_
+5-6	התואמות	_	_	_	_	_	_	_	_
+5	ה	ה	SCONJ	SCONJ	_	6	mark	_	_
+6	תואמות	תאם	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	1	acl:relcl	_	_
+7	במדויק	במדויק	ADV	ADV	_	6	advmod	_	_
+8	את	את	ADP	ADP	Case=Acc	9	case	_	_
+9	מה	מה	PRON	PRON	PronType=Int	6	obj	_	_
+10-12	שהחתום	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
+11	ה	ה	SCONJ	SCONJ	Definite=Def|PronType=Art	12	mark	_	_
+12	חתום	חתם	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	14	csubj	_	_
+13	מטה	מטה	ADV	ADV	_	12	advmod	_	_
+14	טען	טען	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	9	acl:relcl	_	_
+15	במשך	במשך	ADP	ADP	_	16	case	_	_
+16	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	14	obl	_	_
+17	רבות	רב	ADJ	ADJ	Gender=Fem|Number=Plur	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:7
+# doc_range = 568-684
+# sent_id = 72
+# text = זו לא הריבית שסיבכה את מקבלי המשכנתאות או לקוחות הבנקים האחרים.
+1	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	_
+2	לא	לא	ADV	ADV	Polarity=Neg	4	advmod	_	_
+3-4	הריבית	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	ריבית	ריבית	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+5-6	שסיבכה	_	_	_	_	_	_	_	_
+5	ש	ש	SCONJ	SCONJ	_	6	mark	_	_
+6	סיבכה	סיבך	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	4	acl:relcl	_	_
+7	את	את	ADP	ADP	Case=Acc	8	case	_	_
+8	מקבלי	מקבל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	6	obj	_	_
+9-10	המשכנתאות	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	משכנתאות	משכנתא	NOUN	NOUN	Gender=Fem|Number=Plur	8	compound:smixut	_	_
+11	או	או	CCONJ	CCONJ	_	12	cc	_	_
+12	לקוחות	לקוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	8	conj	_	_
+13-14	הבנקים	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	בנקים	בנק	NOUN	NOUN	Gender=Masc|Number=Plur	12	compound:smixut	_	_
+15-16	האחרים	_	_	_	_	_	_	_	SpaceAfter=No
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	אחרים	אחר	ADJ	ADJ	Gender=Masc|Number=Plur	12	amod	_	_
+17	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:7
+# doc_range = 686-851
+# sent_id = 73
+# text = יתר-על-כן, הריבית בישראל במיוחד על משכנתאות היא מהנמוכות ביותר בעולם, אם לא הנמוכה שבהן.
+1	יתר	יתר	NOUN	NOUN	Gender=Masc|Number=Sing	17	advmod	_	SpaceAfter=No
+2	-	-	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+3	על	על	ADP	ADP	_	1	fixed	_	SpaceAfter=No
+4	-	-	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+5	כן	כן	PRON	PRON	Person=3|PronType=Dem	1	fixed	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	1	punct	_	_
+7-8	הריבית	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	ריבית	ריבית	NOUN	NOUN	Gender=Fem|Number=Sing	17	nsubj	_	_
+9-10	בישראל	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	ישראל	ישראל	PROPN	PROPN	_	8	nmod	_	_
+11	במיוחד	במיוחד	ADV	ADV	_	13	advmod	_	_
+12	על	על	ADP	ADP	_	13	case	_	_
+13	משכנתאות	משכנתא	NOUN	NOUN	Gender=Fem|Number=Plur	8	nmod	_	_
+14	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	17	cop	_	_
+15-17	מהנמוכות	_	_	_	_	_	_	_	_
+15	מ	מ	ADP	ADP	_	17	case	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	נמוכות	נמוך	ADJ	ADJ	Gender=Fem|Number=Plur	0	root	_	_
+18	ביותר	ביותר	ADV	ADV	_	17	advmod	_	_
+19-21	בעולם	_	_	_	_	_	_	_	SpaceAfter=No
+19	ב	ב	ADP	ADP	_	21	case	_	_
+20	ה_	ה	DET	DET	PronType=Art|Definite=Def	21	det	_	_
+21	עולם	עולם	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	_
+22	,	,	PUNCT	PUNCT	_	26	punct	_	_
+23	אם	אם	SCONJ	SCONJ	_	26	case	_	_
+24	לא	לא	ADV	ADV	Polarity=Neg	23	fixed	_	_
+25-26	הנמוכה	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	נמוכה	נמוך	ADJ	ADJ	Gender=Fem|Number=Sing	17	dep	_	HebSource=ConvUncertainHead
+27-29	שבהן	_	_	_	_	_	_	_	SpaceAfter=No
+27	ש	ש	SCONJ	SCONJ	_	29	case	_	_
+28	ב	ב	ADP	ADP	_	29	case	_	_
+29	_הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	26	obl	_	_
+30	.	.	PUNCT	PUNCT	_	17	punct	_	_
+
+# doc_id = htb:7
+# doc_range = 853-934
+# sent_id = 74
+# text = ובאשר להצמדה ולאינפלציה הכתובת אינה הבנקים.
+1-2	ובאשר	_	_	_	_	_	_	_	_
+1	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
+2	באשר	באשר	ADP	ADP	_	5	case	_	_
+3-5	להצמדה	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	2	fixed	_	_
+4	ה_	ה	DET	DET	PronType=Art|Definite=Def	5	det	_	_
+5	הצמדה	הצמדה	NOUN	NOUN	Gender=Fem|Number=Sing	14	nmod	_	_
+6-9	ולאינפלציה	_	_	_	_	_	_	_	_
+6	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+7	ל	ל	ADP	ADP	_	9	case	_	_
+8	ה_	ה	DET	DET	PronType=Art|Definite=Def	9	det	_	_
+9	אינפלציה	אינפלציה	NOUN	NOUN	Gender=Fem|Number=Sing	5	conj	_	_
+10-11	הכתובת	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	כתובת	כתובת	NOUN	NOUN	Gender=Fem|Number=Sing	14	nsubj	_	_
+12	אינה	אינו	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	14	aux	_	_
+13-14	הבנקים	_	_	_	_	_	_	_	SpaceAfter=No
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	בנקים	בנק	NOUN	NOUN	Gender=Masc|Number=Plur	0	root	_	_
+15	.	.	PUNCT	PUNCT	_	14	punct	_	_
+

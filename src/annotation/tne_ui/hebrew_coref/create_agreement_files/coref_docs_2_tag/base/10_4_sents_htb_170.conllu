@@ -1,0 +1,186 @@
+# doc_id = htb:170
+# doc_range = 1-177
+# sent_id = 4473
+# text = שר התעשייה והמסחר, משה נסים, הבטיח להיאבק להורדת נטל הארנונה לסקטור העסקי, לרבות הסקטור המסחרי.
+1	שר	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	nsubj	_	_
+2-3	התעשייה	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	תעשייה	תעשייה	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+4-6	והמסחר	_	_	_	_	_	_	_	SpaceAfter=No
+4	ו	ו	CCONJ	CCONJ	_	6	cc	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	מסחר	מסחר	NOUN	NOUN	Gender=Masc|Number=Sing	3	conj	_	_
+7	,	,	PUNCT	PUNCT	_	8	punct	_	_
+8	משה	משה	PROPN	PROPN	_	1	appos	_	_
+9	נסים	נסים	PROPN	PROPN	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	1	punct	_	_
+11	הבטיח	הבטיח	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+12	להיאבק	נאבק	VERB	VERB	HebBinyan=NIFAL|VerbForm=Inf|Voice=Mid	11	xcomp	_	_
+13-14	להורדת	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	הורדת	הורדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	obl	_	_
+15	נטל	נטל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	14	compound:smixut	_	_
+16-17	הארנונה	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	ארנונה	ארנונה	NOUN	NOUN	Gender=Fem|Number=Sing	15	compound:smixut	_	_
+18-20	לסקטור	_	_	_	_	_	_	_	_
+18	ל	ל	ADP	ADP	_	20	case	_	_
+19	ה_	ה	DET	DET	PronType=Art|Definite=Def	20	det	_	_
+20	סקטור	סקטור	NOUN	NOUN	Gender=Masc|Number=Sing	14	nmod	_	_
+21-22	העסקי	_	_	_	_	_	_	_	SpaceAfter=No
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	עסקי	עסקי	ADJ	ADJ	Gender=Masc|Number=Sing	20	amod	_	_
+23	,	,	PUNCT	PUNCT	_	26	punct	_	_
+24	לרבות	לרבות	ADV	ADV	_	26	case	_	_
+25-26	הסקטור	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	סקטור	סקטור	NOUN	NOUN	Gender=Masc|Number=Sing	20	conj	_	_
+27-28	המסחרי	_	_	_	_	_	_	_	SpaceAfter=No
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	מסחרי	מסחרי	ADJ	ADJ	Gender=Masc|Number=Sing	26	amod	_	_
+29	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:170
+# doc_range = 179-300
+# sent_id = 4474
+# text = נסים אמר את הדברים בפגישה שקיים בסוף השבוע עם ארגון סוחרי ירושלים.
+1	נסים	נסים	PROPN	PROPN	_	2	nsubj	_	_
+2	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	את	את	ADP	ADP	Case=Acc	5	case	_	_
+4-5	הדברים	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	דברים	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	2	obj	_	_
+6-7	בפגישה	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	פגישה	פגישה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl	_	_
+8-9	שקיים	_	_	_	_	_	_	_	_
+8	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
+9	קיים	קיים	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	7	acl:relcl	_	_
+10-11	בסוף	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	סוף	סוף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	obl	_	_
+12-13	השבוע	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound:smixut	_	_
+14	עם	עם	ADP	ADP	_	15	case	_	_
+15	ארגון	ארגון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	obl	_	_
+16	סוחרי	סוחר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	15	compound:smixut	_	_
+17	ירושלים	ירושלים	PROPN	PROPN	_	16	compound:smixut	_	SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:170
+# doc_range = 302-566
+# sent_id = 4475
+# text = לדברי השר, ההלוואות שיינתנו לעסקים קטנים במסגרת תוכניתו לעידוד ההשקעות במשק מיועדות לא רק לצורך הקמת עסקים חדשים, אלא גם להרחבה של עסקים קטנים.
+1-2	לדברי	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	דברי	דבר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	25	obl	_	_
+3-4	השר	_	_	_	_	_	_	_	SpaceAfter=No
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	שר	שר	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+5	,	,	PUNCT	PUNCT	_	2	punct	_	_
+6-7	ההלוואות	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	הלוואות	הלוואה	NOUN	NOUN	Gender=Fem|Number=Plur	25	nsubj:pass	_	_
+8-9	שיינתנו	_	_	_	_	_	_	_	_
+8	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
+9	יינתנו	ניתן	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Fut|Voice=Mid	7	acl:relcl	_	_
+10-11	לעסקים	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	11	case	_	_
+11	עסקים	עסק	NOUN	NOUN	Gender=Masc|Number=Plur	9	obl	_	_
+12	קטנים	קטן	ADJ	ADJ	Gender=Masc|Number=Plur	11	amod	_	_
+13-14	במסגרת	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	15	case	_	_
+14	מסגרת	מסגרת	NOUN	NOUN	Gender=Fem|Number=Sing	13	fixed	_	_
+15-17	תוכניתו	_	_	_	_	_	_	_	_
+15	תוכנית	תוכנית	NOUN	NOUN	Gender=Fem|Number=Sing	9	obl	_	_
+16	_של_	של	ADP	ADP	Case=Gen	17	case:gen	_	_
+17	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+18-19	לעידוד	_	_	_	_	_	_	_	_
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	עידוד	עידוד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	15	nmod	_	_
+20-21	ההשקעות	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	השקעות	השקעה	NOUN	NOUN	Gender=Fem|Number=Plur	19	compound:smixut	_	_
+22-24	במשק	_	_	_	_	_	_	_	_
+22	ב	ב	ADP	ADP	_	24	case	_	_
+23	ה_	ה	DET	DET	PronType=Art|Definite=Def	24	det	_	_
+24	משק	משק	NOUN	NOUN	Gender=Masc|Number=Sing	21	nmod	_	_
+25	מיועדות	יועד	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+26	לא	לא	ADV	ADV	Polarity=Neg	29	advmod	_	HebSource=ConvUncertainHead
+27	רק	רק	ADV	ADV	_	29	case	_	_
+28-29	לצורך	_	_	_	_	_	_	_	_
+28	ל	ל	ADP	ADP	_	29	case	_	_
+29	צורך	צורך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	25	obl	_	_
+30	הקמת	הקמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	29	compound:smixut	_	_
+31	עסקים	עסק	NOUN	NOUN	Gender=Masc|Number=Plur	30	compound:smixut	_	_
+32	חדשים	חדש	ADJ	ADJ	Gender=Masc|Number=Plur	31	amod	_	SpaceAfter=No
+33	,	,	PUNCT	PUNCT	_	37	punct	_	_
+34	אלא	אלא	CCONJ	CCONJ	_	37	cc	_	_
+35	גם	גם	ADV	ADV	_	37	advmod	_	_
+36-37	להרחבה	_	_	_	_	_	_	_	_
+36	ל	ל	ADP	ADP	_	37	case	_	_
+37	הרחבה	הרחבה	NOUN	NOUN	Gender=Fem|Number=Sing	29	conj	_	_
+38	של	של	ADP	ADP	Case=Gen	39	case	_	_
+39	עסקים	עסק	NOUN	NOUN	Gender=Masc|Number=Plur	37	nmod:poss	_	_
+40	קטנים	קטן	ADJ	ADJ	Gender=Masc|Number=Plur	39	amod	_	SpaceAfter=No
+41	.	.	PUNCT	PUNCT	_	25	punct	_	_
+
+# doc_id = htb:170
+# doc_range = 568-842
+# sent_id = 4476
+# text = נסים אמר עוד כי הוא רואה במס מעסיקים מס מעוות, המעניש על העסקת עובדים בימים שהתעסוקה היא יעד מרכזי של המשק, והביע תקווה שבקרוב יוחלט בממשלה על ביטולו.
+1	נסים	נסים	PROPN	PROPN	_	2	nsubj	_	_
+2	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	עוד	עוד	ADV	ADV	_	2	advmod	_	_
+4	כי	כי	SCONJ	SCONJ	_	6	mark	_	_
+5	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	רואה	ראה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	2	ccomp	_	_
+7-8	במס	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	מס	מס	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	obl	_	_
+9	מעסיקים	מעסיק	NOUN	NOUN	Gender=Masc|Number=Plur	8	compound:smixut	_	_
+10	מס	מס	NOUN	NOUN	Gender=Masc|Number=Sing	6	obj	_	_
+11	מעוות	מעוות	ADJ	ADJ	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	14	punct	_	_
+13-14	המעניש	_	_	_	_	_	_	_	_
+13	ה	ה	SCONJ	SCONJ	_	14	mark	_	_
+14	מעניש	העניש	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	10	acl:relcl	_	_
+15	על	על	ADP	ADP	_	16	case	_	_
+16	העסקת	העסקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	14	obl	_	_
+17	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	16	compound:smixut	_	_
+18-20	בימים	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	20	case	_	_
+19	ה_	ה	DET	DET	PronType=Art|Definite=Def	20	det	_	_
+20	ימים	יום	NOUN	NOUN	Gender=Masc|Number=Plur	16	nmod	_	_
+21-23	שהתעסוקה	_	_	_	_	_	_	_	_
+21	ש	ש	SCONJ	SCONJ	_	25	mark	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	תעסוקה	תעסוקה	NOUN	NOUN	Gender=Fem|Number=Sing	25	nsubj	_	_
+24	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	25	cop	_	_
+25	יעד	יעד	NOUN	NOUN	Gender=Masc|Number=Sing	20	acl:relcl	_	_
+26	מרכזי	מרכזי	ADJ	ADJ	Gender=Masc|Number=Sing	25	amod	_	_
+27	של	של	ADP	ADP	Case=Gen	29	case	_	_
+28-29	המשק	_	_	_	_	_	_	_	SpaceAfter=No
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	משק	משק	NOUN	NOUN	Gender=Masc|Number=Sing	25	nmod	_	_
+30	,	,	PUNCT	PUNCT	_	32	punct	_	_
+31-32	והביע	_	_	_	_	_	_	_	_
+31	ו	ו	CCONJ	CCONJ	_	32	cc	_	_
+32	הביע	הביע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	6	conj	_	_
+33	תקווה	תקווה	NOUN	NOUN	Gender=Fem|Number=Sing	32	obj	_	_
+34-35	שבקרוב	_	_	_	_	_	_	_	_
+34	ש	ש	SCONJ	SCONJ	_	36	mark	_	_
+35	בקרוב	בקרוב	ADV	ADV	_	36	advmod	_	_
+36	יוחלט	הוחלט	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	33	acl:relcl	_	_
+37-39	בממשלה	_	_	_	_	_	_	_	_
+37	ב	ב	ADP	ADP	_	39	case	_	_
+38	ה_	ה	DET	DET	PronType=Art|Definite=Def	39	det	_	_
+39	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	36	obl	_	_
+40	על	על	ADP	ADP	_	41	case	_	_
+41-43	ביטולו	_	_	_	_	_	_	_	SpaceAfter=No
+41	ביטול	ביטול	NOUN	NOUN	Gender=Masc|Number=Sing	36	obl	_	_
+42	_של_	של	ADP	ADP	Case=Gen	43	case:gen	_	_
+43	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	41	nmod:poss	_	_
+44	.	.	PUNCT	PUNCT	_	2	punct	_	_
+

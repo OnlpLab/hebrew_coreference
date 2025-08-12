@@ -1,0 +1,353 @@
+# doc_id = htb:59
+# doc_range = 1-116
+# sent_id = 1913
+# text = הקהילה היהודית הקובנית בארה"ב מארגנת מסע הזדהות עם מדינת ישראל.
+1-2	הקהילה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	קהילה	קהילה	NOUN	NOUN	Gender=Fem|Number=Sing	9	nsubj	_	_
+3-4	היהודית	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	יהודית	יהודי	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+5-6	הקובנית	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	קובנית	קובני	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+7-8	בארה"ב	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	ארה"ב	ארה"ב	PROPN	PROPN	Abbr=Yes	2	nmod	_	_
+9	מארגנת	ארגן	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+10	מסע	מסע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	obj	_	_
+11	הזדהות	הזדהות	NOUN	NOUN	Gender=Fem|Number=Sing	10	compound:smixut	_	_
+12	עם	עם	ADP	ADP	_	13	case	_	_
+13	מדינת	מדינה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	11	nmod	_	_
+14	ישראל	ישראל	PROPN	PROPN	_	13	compound:smixut	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:59
+# doc_range = 118-293
+# sent_id = 1914
+# text = מדיווח שהגיע אתמול למשרד התיירות בירושלים עולה, כי במשלחת המתארגנת יקחו חלק כמאה מראשי הקהילה.
+1-2	מדיווח	_	_	_	_	_	_	_	_
+1	מ	מ	ADP	ADP	_	2	case	_	_
+2	דיווח	דיווח	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
+3-4	שהגיע	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
+4	הגיע	הגיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	acl:relcl	_	_
+5	אתמול	אתמול	ADV	ADV	_	4	advmod	_	_
+6-7	למשרד	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	obl	_	_
+8-9	התיירות	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	תיירות	תיירות	NOUN	NOUN	Gender=Fem|Number=Sing	7	compound:smixut	_	_
+10-11	בירושלים	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	ירושלים	ירושלים	PROPN	PROPN	_	7	nmod	_	_
+12	עולה	עלה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	20	punct	_	_
+14	כי	כי	SCONJ	SCONJ	_	20	mark	_	_
+15-17	במשלחת	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	17	case	_	_
+16	ה_	ה	DET	DET	PronType=Art|Definite=Def	17	det	_	_
+17	משלחת	משלחת	NOUN	NOUN	Gender=Fem|Number=Sing	20	obl	_	_
+18-19	המתארגנת	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	מתארגנת	התארגן	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|VerbForm=Part	17	amod	_	_
+20	יקחו	לקח	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Fut|Voice=Act	12	ccomp	_	_
+21	חלק	חלק	NOUN	NOUN	Gender=Masc|Number=Sing	20	obj	_	_
+22-23	כמאה	_	_	_	_	_	_	_	_
+22	כ	כ	ADP	ADP	_	23	case	_	_
+23	מאה	מאה	NUM	NUM	Gender=Fem|Number=Plur	20	nsubj	_	_
+24-25	מראשי	_	_	_	_	_	_	_	_
+24	מ	מ	ADP	ADP	_	25	case	_	_
+25	ראשי	ראש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	23	obl	_	_
+26-27	הקהילה	_	_	_	_	_	_	_	SpaceAfter=No
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	קהילה	קהילה	NOUN	NOUN	Gender=Fem|Number=Sing	25	compound:smixut	_	_
+28	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# doc_id = htb:59
+# doc_range = 295-465
+# sent_id = 1915
+# text = הביקור מתוכנן להתקיים בחודש מארס הקרוב, וייתלוו אליו צוותי טלוויזיה ועיתונאים דוברי ספרדית.
+1-2	הביקור	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	ביקור	ביקור	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	מתוכנן	תוכנן	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+4	להתקיים	התקיים	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	3	xcomp	_	_
+5-6	בחודש	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	חודש	חודש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	obl	_	_
+7	מארס	מרס	PROPN	PROPN	_	6	compound:smixut	_	_
+8-9	הקרוב	_	_	_	_	_	_	_	SpaceAfter=No
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	קרוב	קרוב	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	_
+10	,	,	PUNCT	PUNCT	_	12	punct	_	_
+11-12	וייתלוו	_	_	_	_	_	_	_	_
+11	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+12	ייתלוו	ייתלוו	VERB	VERB	_	3	conj	_	_
+13-14	אליו	_	_	_	_	_	_	_	_
+13	אל	אל	ADP	ADP	_	14	case	_	_
+14	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obl	_	_
+15	צוותי	צוות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	12	nsubj	_	_
+16	טלוויזיה	טלוויזיה	NOUN	NOUN	Gender=Fem|Number=Sing	15	compound:smixut	_	_
+17-18	ועיתונאים	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+18	עיתונאים	עיתונאי	NOUN	NOUN	Gender=Masc|Number=Plur	15	conj	_	_
+19	דוברי	דובר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	18	acl	_	_
+20	ספרדית	ספרדית	PROPN	PROPN	_	19	compound:smixut	_	SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:59
+# doc_range = 467-675
+# sent_id = 1916
+# text = במהלכו ייצאו המשתתפים לצעדת הזדהות עם מדינת ישראל ברחובות ירושלים וייפגשו עם נשיא המדינה, שר התיירות וחברי כנסת.
+1-4	במהלכו	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	מהלך	מהלך	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+3	_של_	של	ADP	ADP	Case=Gen	4	case:gen	_	_
+4	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5	ייצאו	ייצא	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+6-7	המשתתפים	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	משתתפים	משתתף	NOUN	NOUN	Gender=Masc|Number=Plur	5	nsubj	_	_
+8-9	לצעדת	_	_	_	_	_	_	_	_
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	צעדת	צעדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	obl	_	_
+10	הזדהות	הזדהות	NOUN	NOUN	Gender=Fem|Number=Sing	9	compound:smixut	_	_
+11	עם	עם	ADP	ADP	_	12	case	_	_
+12	מדינת	מדינה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	10	nmod	_	_
+13	ישראל	ישראל	PROPN	PROPN	_	12	compound:smixut	_	_
+14-15	ברחובות	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	רחובות	רחוב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	5	obl	_	_
+16	ירושלים	ירושלים	PROPN	PROPN	_	15	compound:smixut	_	_
+17-18	וייפגשו	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+18	ייפגשו	נפגש	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Fut|Voice=Mid	5	conj	_	_
+19	עם	עם	ADP	ADP	_	20	case	_	_
+20	נשיא	נשיא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	18	obl	_	_
+21-22	המדינה	_	_	_	_	_	_	_	SpaceAfter=No
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	מדינה	מדינה	NOUN	NOUN	Gender=Fem|Number=Sing	20	compound:smixut	_	_
+23	,	,	PUNCT	PUNCT	_	24	punct	_	_
+24	שר	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	20	conj	_	_
+25-26	התיירות	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	תיירות	תיירות	NOUN	NOUN	Gender=Fem|Number=Sing	24	compound:smixut	_	_
+27-28	וחברי	_	_	_	_	_	_	_	_
+27	ו	ו	CCONJ	CCONJ	_	28	cc	_	_
+28	חברי	חבר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	20	conj	_	_
+29	כנסת	כנסת	PROPN	PROPN	_	28	compound:smixut	_	SpaceAfter=No
+30	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:59
+# doc_range = 677-946
+# sent_id = 1917
+# text = מנכ"ל החברה לפיתוח מזרח ירושלים, יצחק יעקבי, השתתף בשבוע שעבר במסע הסברה שאורגן על-ידי מנהל לשכת התיירות הממשלתית של ישראל בשיקאגו, אמנון ליפצין.
+1	מנכ"ל	מנכ"ל	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	12	nsubj	_	_
+2-3	החברה	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+4-5	לפיתוח	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	פיתוח	פיתוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	nmod	_	_
+6	מזרח	מזרח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	compound:smixut	_	_
+7	ירושלים	ירושלים	PROPN	PROPN	_	6	compound:smixut	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	9	punct	_	_
+9	יצחק	יצחק	PROPN	PROPN	_	1	appos	_	_
+10	יעקבי	יעקבי	PROPN	PROPN	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	1	punct	_	_
+12	השתתף	השתתף	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+13-15	בשבוע	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	15	case	_	_
+14	ה_	ה	DET	DET	PronType=Art|Definite=Def	15	det	_	_
+15	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
+16-17	שעבר	_	_	_	_	_	_	_	_
+16	ש	ש	SCONJ	SCONJ	_	17	mark	_	_
+17	עבר	עבר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	15	acl:relcl	_	_
+18-19	במסע	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	19	case	_	_
+19	מסע	מסע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	obl	_	_
+20	הסברה	הסברה	NOUN	NOUN	Gender=Fem|Number=Sing	19	compound:smixut	_	_
+21-22	שאורגן	_	_	_	_	_	_	_	_
+21	ש	ש	SCONJ	SCONJ	_	22	mark	_	_
+22	אורגן	אורגן	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	19	acl:relcl	_	_
+23	על	על	ADP	ADP	_	26	case	_	SpaceAfter=No
+24	-	-	PUNCT	PUNCT	_	25	punct	_	SpaceAfter=No
+25	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	23	fixed	_	_
+26	מנהל	מנהל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	22	obl	_	_
+27	לשכת	לשכה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	26	compound:smixut	_	_
+28-29	התיירות	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	תיירות	תיירות	NOUN	NOUN	Gender=Fem|Number=Sing	27	compound:smixut	_	_
+30-31	הממשלתית	_	_	_	_	_	_	_	_
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	ממשלתית	ממשלתי	ADJ	ADJ	Gender=Fem|Number=Sing	27	flat:name	_	_
+32	של	של	ADP	ADP	Case=Gen	33	case	_	_
+33	ישראל	ישראל	PROPN	PROPN	_	27	flat:name	_	_
+34-35	בשיקאגו	_	_	_	_	_	_	_	SpaceAfter=No
+34	ב	ב	ADP	ADP	_	35	case	_	_
+35	שיקאגו	שיקאגו	PROPN	PROPN	_	27	nmod	_	_
+36	,	,	PUNCT	PUNCT	_	37	punct	_	_
+37	אמנון	אמנון	PROPN	PROPN	_	26	appos	_	_
+38	ליפצין	ליפצין	PROPN	PROPN	_	37	flat:name	_	SpaceAfter=No
+39	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# doc_id = htb:59
+# doc_range = 948-1162
+# sent_id = 1918
+# text = יעקבי התראיין בכלי התקשורת המקומיים, ואחד הראיונות לשדר גים וורן מרשת וו-אם-בי-אי הועבר ל061 תחנות רדיו ברחבי ארה"ב.
+1	יעקבי	יעקבי	PROPN	PROPN	_	2	nsubj	_	_
+2	התראיין	התראיין	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+3-4	בכלי	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	כלי	כלי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	obl	_	_
+5-6	התקשורת	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	תקשורת	תקשורת	NOUN	NOUN	Gender=Fem|Number=Sing	4	compound:smixut	_	_
+7-8	המקומיים	_	_	_	_	_	_	_	SpaceAfter=No
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	מקומיים	מקומי	ADJ	ADJ	Gender=Masc|Number=Plur	4	amod	_	_
+9	,	,	PUNCT	PUNCT	_	28	punct	_	_
+10-11	ואחד	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	28	cc	_	_
+11	אחד	אחת	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	13	nummod	_	_
+12-13	הראיונות	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	ראיונות	ריאיון	NOUN	NOUN	Gender=Masc|Number=Plur	28	nsubj:pass	_	_
+14-16	לשדר	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	16	case	_	_
+15	ה_	ה	DET	DET	PronType=Art|Definite=Def	16	det	_	_
+16	שדר	שדר	NOUN	NOUN	Gender=Masc|Number=Sing	13	nmod	_	_
+17	גים	גים	PROPN	PROPN	_	16	flat:name	_	_
+18	וורן	וורן	PROPN	PROPN	_	16	flat:name	_	_
+19-20	מרשת	_	_	_	_	_	_	_	_
+19	מ	מ	ADP	ADP	_	20	case	_	_
+20	רשת	רשת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	16	nmod	_	_
+21	וו	וו	NOUN	NOUN	Gender=Masc|Number=Sing	20	flat:name	_	SpaceAfter=No
+22	-	-	PUNCT	PUNCT	_	23	punct	_	SpaceAfter=No
+23	אם	אם	NOUN	NOUN	Gender=Fem|Number=Sing	21	flat:name	_	SpaceAfter=No
+24	-	-	PUNCT	PUNCT	_	25	punct	_	SpaceAfter=No
+25	בי	ב	PROPN	PROPN	_	21	flat:name	_	SpaceAfter=No
+26	-	-	PUNCT	PUNCT	_	27	punct	_	SpaceAfter=No
+27	אי	אי	NOUN	NOUN	Gender=Masc|Number=Sing	21	flat:name	_	_
+28	הועבר	הועבר	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	2	conj	_	_
+29-30	ל061	_	_	_	_	_	_	_	_
+29	ל	ל	ADP	ADP	_	31	case	_	_
+30	061	061	NUM	NUM	_	31	nummod	_	_
+31	תחנות	תחנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	28	obl	_	_
+32	רדיו	רדיו	NOUN	NOUN	Gender=Masc|Number=Sing	31	compound:smixut	_	_
+33-34	ברחבי	_	_	_	_	_	_	_	_
+33	ב	ב	ADP	ADP	_	34	case	_	_
+34	רחבי	רחב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	28	obl	_	_
+35	ארה"ב	ארה"ב	PROPN	PROPN	Abbr=Yes	34	compound:smixut	_	SpaceAfter=No
+36	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:59
+# doc_range = 1165-1498
+# sent_id = 1919
+# text = לפי הדיווחים, השתתפו עשרות אנשים בכל אחד מן הסמינרים שנערכו במסגרת מסע ההסברה לסוכני נסיעות, לכמרים, למנהיגי קהילות דתיות ולמנהיגי קהילות אתניות בשיקאגו יוצאי פולין, יוון ואיטליה.
+1	לפי	לפי	ADP	ADP	_	3	case	_	_
+2-3	הדיווחים	_	_	_	_	_	_	_	SpaceAfter=No
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	דיווחים	דיווח	NOUN	NOUN	Gender=Masc|Number=Plur	5	obl	_	_
+4	,	,	PUNCT	PUNCT	_	3	punct	_	_
+5	השתתפו	השתתף	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	0	root	_	_
+6	עשרות	עשרות	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	7	nummod	_	_
+7	אנשים	איש	NOUN	NOUN	Gender=Masc|Number=Plur	5	nsubj	_	_
+8-9	בכל	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	10	case	_	_
+9	כל	כול	DET	DET	Definite=Cons	10	det	_	_
+10	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	5	obl	_	_
+11	מן	מן	ADP	ADP	_	10	dep	_	_
+12-13	הסמינרים	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	סמינרים	סמינר	NOUN	NOUN	Gender=Masc|Number=Plur	10	dep	_	HebSource=ConvUncertainHead
+14-15	שנערכו	_	_	_	_	_	_	_	_
+14	ש	ש	SCONJ	SCONJ	_	15	mark	_	_
+15	נערכו	נערך	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	13	acl:relcl	_	_
+16-17	במסגרת	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	18	case	_	_
+17	מסגרת	מסגרת	NOUN	NOUN	Gender=Fem|Number=Sing	16	fixed	_	_
+18	מסע	מסע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	15	obl	_	_
+19-20	ההסברה	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	הסברה	הסברה	NOUN	NOUN	Gender=Fem|Number=Sing	18	compound:smixut	_	_
+21-22	לסוכני	_	_	_	_	_	_	_	_
+21	ל	ל	ADP	ADP	_	22	case	_	_
+22	סוכני	סוכן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	15	obl	_	_
+23	נסיעות	נסיעה	NOUN	NOUN	Gender=Fem|Number=Plur	22	compound:smixut	_	SpaceAfter=No
+24	,	,	PUNCT	PUNCT	_	26	punct	_	_
+25-26	לכמרים	_	_	_	_	_	_	_	SpaceAfter=No
+25	ל	ל	ADP	ADP	_	26	case	_	_
+26	כמרים	כומר	NOUN	NOUN	Gender=Masc|Number=Plur	22	conj	_	_
+27	,	,	PUNCT	PUNCT	_	29	punct	_	_
+28-29	למנהיגי	_	_	_	_	_	_	_	_
+28	ל	ל	ADP	ADP	_	29	case	_	_
+29	מנהיגי	מנהיג	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	22	conj	_	_
+30	קהילות	קהילה	NOUN	NOUN	Gender=Fem|Number=Plur	29	compound:smixut	_	_
+31	דתיות	דתי	ADJ	ADJ	Gender=Fem|Number=Plur	30	amod	_	_
+32-34	ולמנהיגי	_	_	_	_	_	_	_	_
+32	ו	ו	CCONJ	CCONJ	_	34	cc	_	_
+33	ל	ל	ADP	ADP	_	34	case	_	_
+34	מנהיגי	מנהיג	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	22	conj	_	_
+35	קהילות	קהילה	NOUN	NOUN	Gender=Fem|Number=Plur	34	compound:smixut	_	_
+36	אתניות	אתני	ADJ	ADJ	Gender=Fem|Number=Plur	35	amod	_	_
+37-38	בשיקאגו	_	_	_	_	_	_	_	_
+37	ב	ב	ADP	ADP	_	38	case	_	_
+38	שיקאגו	שיקאגו	PROPN	PROPN	_	34	nmod	_	_
+39	יוצאי	יצא	VERB	VERB	Definite=Cons|Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	34	amod	_	_
+40	פולין	פולין	PROPN	PROPN	_	39	compound:smixut	_	SpaceAfter=No
+41	,	,	PUNCT	PUNCT	_	42	punct	_	_
+42	יוון	יוון	PROPN	PROPN	_	40	conj	_	_
+43-44	ואיטליה	_	_	_	_	_	_	_	SpaceAfter=No
+43	ו	ו	CCONJ	CCONJ	_	44	cc	_	_
+44	איטליה	איטליה	PROPN	PROPN	_	40	conj	_	_
+45	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:59
+# doc_range = 1500-1729
+# sent_id = 1920
+# text = בערבים הפתוחים הגיע מספר המשתתפים ל08 עד 001, ולראשונה העניקה אוניברסיטת שיקאגו חסות לערב מטעם לשכת התיירות הממשלתית של ישראל.
+1-3	בערבים	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	ערבים	ערב	NOUN	NOUN	Gender=Masc|Number=Plur	6	obl	_	_
+4-5	הפתוחים	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	פתוחים	פתוח	ADJ	ADJ	Gender=Masc|Number=Plur	3	amod	_	_
+6	הגיע	הגיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+7	מספר	מספר	DET	DET	Definite=Cons	9	det	_	_
+8-9	המשתתפים	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	משתתפים	משתתף	NOUN	NOUN	Gender=Masc|Number=Plur	6	nsubj	_	_
+10-11	ל08	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	11	case	_	_
+11	08	08	NUM	NUM	_	6	obl	_	_
+12	עד	עד	ADP	ADP	_	11	dep	_	_
+13	001	001	NUM	NUM	_	11	nummod	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	17	punct	_	_
+15-16	ולראשונה	_	_	_	_	_	_	_	_
+15	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+16	לראשונה	לראשונה	ADV	ADV	_	17	advmod	_	_
+17	העניקה	העניק	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	6	conj	_	_
+18	אוניברסיטת	אוניברסיטה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	17	nsubj	_	_
+19	שיקאגו	שיקאגו	PROPN	PROPN	_	18	flat:name	_	_
+20	חסות	חסות	NOUN	NOUN	Gender=Fem|Number=Sing	17	obj	_	_
+21-22	לערב	_	_	_	_	_	_	_	_
+21	ל	ל	ADP	ADP	_	22	case	_	_
+22	ערב	ערב	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	_
+23-24	מטעם	_	_	_	_	_	_	_	_
+23	מ	מ	ADP	ADP	_	24	case	_	_
+24	טעם	טעם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	22	nmod	_	_
+25	לשכת	לשכה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	24	compound:smixut	_	_
+26-27	התיירות	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	תיירות	תיירות	NOUN	NOUN	Gender=Fem|Number=Sing	25	compound:smixut	_	_
+28-29	הממשלתית	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	ממשלתית	ממשלתי	ADJ	ADJ	Gender=Fem|Number=Sing	25	flat:name	_	_
+30	של	של	ADP	ADP	Case=Gen	31	case	_	_
+31	ישראל	ישראל	PROPN	PROPN	_	25	flat:name	_	SpaceAfter=No
+32	.	.	PUNCT	PUNCT	_	6	punct	_	_
+

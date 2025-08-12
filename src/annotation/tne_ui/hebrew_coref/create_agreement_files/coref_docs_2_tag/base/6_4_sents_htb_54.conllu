@@ -1,0 +1,138 @@
+# doc_id = htb:54
+# doc_range = 1-170
+# sent_id = 1747
+# text = , 2 שקל על ידי ועדת המשמעת של איגוד הכדורסל בעקבות התקרית שהיתה בסיום המישחק שלו בראשון לציון.
+1	,	,	PUNCT	PUNCT	_	3	punct	_	_
+2	2	2	NUM	NUM	_	3	nummod	_	_
+3	שקל	שקל	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+4	על	על	ADP	ADP	_	6	case	_	_
+5	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	4	fixed	_	_
+6	ועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	nmod	_	_
+7-8	המשמעת	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	משמעת	משמעת	NOUN	NOUN	Gender=Fem|Number=Sing	6	compound:smixut	_	_
+9	של	של	ADP	ADP	Case=Gen	10	case	_	_
+10	איגוד	איגוד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	nmod:poss	_	_
+11-12	הכדורסל	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	כדורסל	כדורסל	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
+13	בעקבות	בעקבות	ADP	ADP	_	15	case	_	_
+14-15	התקרית	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	תקרית	תקרית	NOUN	NOUN	Gender=Fem|Number=Sing	3	nmod	_	_
+16-17	שהיתה	_	_	_	_	_	_	_	_
+16	ש	ש	SCONJ	SCONJ	_	17	mark	_	_
+17	היתה	היה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	15	acl:relcl	_	_
+18-19	בסיום	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	19	case	_	_
+19	סיום	סיום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	obl	_	_
+20-21	המישחק	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	מישחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	19	compound:smixut	_	_
+22-23	שלו	_	_	_	_	_	_	_	_
+22	של	של	ADP	ADP	Case=Gen	23	case	_	_
+23	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nmod	_	_
+24-25	בראשון	_	_	_	_	_	_	_	_
+24	ב	ב	ADP	ADP	_	25	case	_	_
+25	ראשון	ראשון	PROPN	PROPN	_	21	nmod	_	_
+26-27	לציון	_	_	_	_	_	_	_	SpaceAfter=No
+26	ל	ל	ADP	ADP	_	27	case	_	_
+27	ציון	ציון	PROPN	PROPN	_	25	flat:name	_	_
+28	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:54
+# doc_range = 172-286
+# sent_id = 1748
+# text = כן הוטל על הקבוצה עונש של שני מישחקי רדיוס על תנאי (52 ק"ם) לשנה.
+1	כן	כן	ADV	ADV	_	2	advmod	_	_
+2	הוטל	הוטל	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+3	על	על	ADP	ADP	_	5	case	_	_
+4-5	הקבוצה	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	קבוצה	קבוצה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl	_	_
+6	עונש	עונש	NOUN	NOUN	Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+7	של	של	ADP	ADP	Case=Gen	9	case	_	_
+8	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	9	nummod	_	_
+9	מישחקי	משחק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	6	nmod:poss	_	_
+10	רדיוס	רדיוס	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound:smixut	_	_
+11	על	על	ADP	ADP	_	12	case	_	_
+12	תנאי	תנאי	NOUN	NOUN	Gender=Masc|Number=Sing	9	nmod	_	_
+13	(	(	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
+14	52	52	NUM	NUM	_	15	nummod	_	_
+15	ק"ם	ק"ם	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No
+16	)	)	PUNCT	PUNCT	_	15	punct	_	_
+17-18	לשנה	_	_	_	_	_	_	_	SpaceAfter=No
+17	ל	ל	ADP	ADP	_	18	case	_	_
+18	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	9	nmod	_	_
+19	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:54
+# doc_range = 292-532
+# sent_id = 1749
+# text = א.ס. רמת השרון נקנסה גם היא ב-2,500 שקל והוטל עליה עונש הרחקה מ-4 מישחקים על תנאי לשנה, בעקבות התפרעות אוהדים אחרי המישחק נגד בית"ר ת"א.
+1	א.ס.	אyyד%תסyyד%ת	PROPN	PROPN	Abbr=Yes	5	nsubj	_	_
+2	רמת	רמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	flat:name	_	_
+3-4	השרון	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	שרון	שרון	PROPN	PROPN	_	2	compound:smixut	_	_
+5	נקנסה	נקנס	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+6	גם	גם	ADV	ADV	_	7	advmod	_	_
+7	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	dep	_	_
+8	ב	ב	ADP	ADP	_	11	case	_	SpaceAfter=No
+9	-	-	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+10	2,500	2,500	NUM	NUM	_	11	nummod	_	_
+11	שקל	שקל	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+12-13	והוטל	_	_	_	_	_	_	_	_
+12	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
+13	הוטל	הוטל	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	5	conj	_	_
+14-15	עליה	_	_	_	_	_	_	_	_
+14	על	על	ADP	ADP	_	15	case	_	_
+15	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obl	_	_
+16	עונש	עונש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	nsubj:pass	_	_
+17	הרחקה	הרחקה	NOUN	NOUN	Gender=Fem|Number=Sing	16	compound:smixut	_	_
+18	מ	מ	ADP	ADP	_	21	case	_	SpaceAfter=No
+19	-	-	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No
+20	4	4	NUM	NUM	_	21	nummod	_	_
+21	מישחקים	משחק	NOUN	NOUN	Gender=Masc|Number=Plur	17	nmod	_	_
+22	על	על	ADP	ADP	_	23	case	_	_
+23	תנאי	תנאי	NOUN	NOUN	Gender=Masc|Number=Sing	17	nmod	_	_
+24-25	לשנה	_	_	_	_	_	_	_	SpaceAfter=No
+24	ל	ל	ADP	ADP	_	25	case	_	_
+25	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	17	nmod	_	_
+26	,	,	PUNCT	PUNCT	_	28	punct	_	_
+27	בעקבות	בעקבות	ADP	ADP	_	28	case	_	_
+28	התפרעות	התפרעות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	13	obl	_	_
+29	אוהדים	אוהד	NOUN	NOUN	Gender=Masc|Number=Plur	28	compound:smixut	_	_
+30	אחרי	אחרי	ADP	ADP	_	32	case	_	_
+31-32	המישחק	_	_	_	_	_	_	_	_
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	מישחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	28	nmod	_	_
+33	נגד	נגד	ADP	ADP	_	34	case	_	_
+34	בית"ר	בית"ר	PROPN	PROPN	Abbr=Yes	32	nmod	_	_
+35	ת"א	ת"א	PROPN	PROPN	Abbr=Yes	34	flat:name	_	SpaceAfter=No
+36	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:54
+# doc_range = 534-651
+# sent_id = 1750
+# text = זופר אבדיה, שחקן החיזוק היוגוסלווי, הורחק לשני מישחקים על תנאי.
+1	זופר	זופר	PROPN	PROPN	_	10	nsubj:pass	_	_
+2	אבדיה	אבדיה	PROPN	PROPN	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	4	punct	_	_
+4	שחקן	שחקן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	appos	_	_
+5-6	החיזוק	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	חיזוק	חיזוק	NOUN	NOUN	Gender=Masc|Number=Sing	4	compound:smixut	_	_
+7-8	היוגוסלווי	_	_	_	_	_	_	_	SpaceAfter=No
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	יוגוסלווי	יוגוסלבי	ADJ	ADJ	Gender=Masc|Number=Sing	4	amod	_	_
+9	,	,	PUNCT	PUNCT	_	1	punct	_	_
+10	הורחק	הורחק	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+11-12	לשני	_	_	_	_	_	_	_	_
+11	ל	ל	ADP	ADP	_	13	case	_	_
+12	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	13	nummod	_	_
+13	מישחקים	משחק	NOUN	NOUN	Gender=Masc|Number=Plur	10	obl	_	_
+14	על	על	ADP	ADP	_	15	case	_	_
+15	תנאי	תנאי	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	10	punct	_	_
+

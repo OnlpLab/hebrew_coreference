@@ -1,0 +1,535 @@
+# doc_id = htb:110
+# doc_range = 1-267
+# sent_id = 2596
+# text = מכבי ראשון לציון, או הפועל חולון, ישמשו יריב אימון לנבחרת ישראל בכדורסל בשבוע הבא, בנוסף למכבי חיפה שיארח את הנבחרת למישחק ליגה במוצאי שבת הקרוב.
+1	מכבי	מכבי	PROPN	PROPN	_	11	nsubj	_	_
+2	ראשון	ראשון	PROPN	PROPN	_	1	flat:name	_	_
+3-4	לציון	_	_	_	_	_	_	_	SpaceAfter=No
+3	ל	ל	ADP	ADP	_	4	case	_	_
+4	ציון	ציון	PROPN	PROPN	_	2	flat:name	_	_
+5	,	,	PUNCT	PUNCT	_	8	punct	_	_
+6	או	או	CCONJ	CCONJ	_	8	cc	_	_
+7-8	הפועל	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	פועל	פועל	PROPN	PROPN	_	1	conj	_	_
+9	חולון	חולון	PROPN	PROPN	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	1	punct	_	_
+11	ישמשו	שימש	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+12	יריב	יריב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	dep	_	_
+13	אימון	אימון	NOUN	NOUN	Gender=Masc|Number=Sing	12	compound:smixut	_	_
+14-15	לנבחרת	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	נבחרת	נבחרת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	nmod	_	_
+16	ישראל	ישראל	PROPN	PROPN	_	15	compound:smixut	_	_
+17-18	בכדורסל	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	_	18	case	_	_
+18	כדורסל	כדורסל	NOUN	NOUN	Gender=Masc|Number=Sing	15	flat:name	_	_
+19-21	בשבוע	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	_	21	case	_	_
+20	ה_	ה	DET	DET	PronType=Art|Definite=Def	21	det	_	_
+21	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	11	obl	_	_
+22-23	הבא	_	_	_	_	_	_	_	SpaceAfter=No
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	בא	בא	ADJ	ADJ	Gender=Masc|Number=Sing	21	amod	_	_
+24	,	,	PUNCT	PUNCT	_	28	punct	_	_
+25-26	בנוסף	_	_	_	_	_	_	_	_
+25	ב	ב	ADP	ADP	_	28	case	_	_
+26	נוסף	נוסף	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	25	fixed	_	_
+27-28	למכבי	_	_	_	_	_	_	_	_
+27	ל	ל	ADP	ADP	_	25	fixed	_	_
+28	מכבי	מכבי	PROPN	PROPN	_	11	obl	_	_
+29	חיפה	חיפה	PROPN	PROPN	_	28	flat:name	_	_
+30-31	שיארח	_	_	_	_	_	_	_	_
+30	ש	ש	SCONJ	SCONJ	_	31	mark	_	_
+31	יארח	אירח	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	28	acl:relcl	_	_
+32	את	את	ADP	ADP	Case=Acc	34	case	_	_
+33-34	הנבחרת	_	_	_	_	_	_	_	_
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	נבחרת	נבחרת	NOUN	NOUN	Gender=Fem|Number=Sing	31	obj	_	_
+35-36	למישחק	_	_	_	_	_	_	_	_
+35	ל	ל	ADP	ADP	_	36	case	_	_
+36	מישחק	משחק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	31	obl	_	_
+37	ליגה	ליגה	NOUN	NOUN	Gender=Fem|Number=Sing	36	compound:smixut	_	_
+38-39	במוצאי	_	_	_	_	_	_	_	_
+38	ב	ב	ADP	ADP	_	39	case	_	_
+39	מוצאי	מוצאי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	31	obl	_	_
+40	שבת	שבת	PROPN	PROPN	_	39	compound:smixut	_	_
+41-42	הקרוב	_	_	_	_	_	_	_	SpaceAfter=No
+41	ה	ה	DET	DET	Definite=Def|PronType=Art	42	det	_	_
+42	קרוב	קרוב	ADJ	ADJ	Gender=Masc|Number=Sing	39	amod	_	_
+43	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:110
+# doc_range = 270-424
+# sent_id = 2597
+# text = שחקני הנבחרת יתכנסו ביום רביעי לאימון ביד אליהו, במסגרת ההכנות למישחקי גביע אירופה.
+1	שחקני	שחקן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	nsubj	_	_
+2-3	הנבחרת	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	נבחרת	נבחרת	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+4	יתכנסו	התכנס	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Fut	0	root	_	_
+5-6	ביום	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	obl	_	_
+7	רביעי	רביעי	PROPN	PROPN	_	6	compound:smixut	_	_
+8-9	לאימון	_	_	_	_	_	_	_	_
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	אימון	אימון	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+10-11	ביד	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	יד	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	nmod	_	_
+12	אליהו	אליהו	PROPN	PROPN	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	17	punct	_	_
+14-15	במסגרת	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	17	case	_	_
+15	מסגרת	מסגרת	NOUN	NOUN	Gender=Fem|Number=Sing	14	fixed	_	_
+16-17	ההכנות	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	הכנות	הכנה	NOUN	NOUN	Gender=Fem|Number=Plur	4	obl	_	_
+18-19	למישחקי	_	_	_	_	_	_	_	_
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	מישחקי	משחק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	17	nmod	_	_
+20	גביע	גביע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	19	compound:smixut	_	_
+21	אירופה	אירופה	PROPN	PROPN	_	20	compound:smixut	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:110
+# doc_range = 426-600
+# sent_id = 2598
+# text = ביום חמישי יקיימו שני אימונים, ביום שישי אימון אחד והחל מהשבוע הבא שני אימונים, כולם ביד אליהו.
+1-2	ביום	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	obl	_	_
+3	חמישי	חמישי	PROPN	PROPN	_	2	compound:smixut	_	_
+4	יקיימו	קיים	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+5	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	6	nummod	_	_
+6	אימונים	אימון	NOUN	NOUN	Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	9	punct	_	_
+8-9	ביום	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	conj	_	_
+10	שישי	שישי	PROPN	PROPN	_	9	compound:smixut	_	_
+11	אימון	אימון	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj	_	_
+12	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	11	nummod	_	_
+13-14	והחל	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+14	החל	החל	ADP	ADP	_	17	case	_	_
+15-17	מהשבוע	_	_	_	_	_	_	_	_
+15	מ	מ	ADP	ADP	_	14	fixed	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	4	conj	_	_
+18-19	הבא	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	בא	בא	ADJ	ADJ	Gender=Masc|Number=Sing	17	amod	_	_
+20	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	21	nummod	_	_
+21	אימונים	אימון	NOUN	NOUN	Gender=Masc|Number=Plur	17	nsubj	_	SpaceAfter=No
+22	,	,	PUNCT	PUNCT	_	25	punct	_	_
+23	כולם	כולם	NOUN	NOUN	Gender=Masc|Number=Plur	25	nsubj	_	_
+24-25	ביד	_	_	_	_	_	_	_	_
+24	ב	ב	ADP	ADP	_	25	case	_	_
+25	יד	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	obl	_	_
+26	אליהו	אליהו	PROPN	PROPN	_	25	flat:name	_	SpaceAfter=No
+27	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:110
+# doc_range = 602-753
+# sent_id = 2599
+# text = , שחקן הציר של נבחרת צרפת, עלול להיעדר ממשחק נבחרתו באליפות אירופה, כולל נגד ישראל.
+1	,	,	PUNCT	PUNCT	_	10	punct	_	_
+2	שחקן	שחקן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	nsubj	_	_
+3-4	הציר	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	ציר	ציר	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+5	של	של	ADP	ADP	Case=Gen	6	case	_	_
+6	נבחרת	נבחרת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	nmod:poss	_	_
+7	צרפת	צרפת	PROPN	PROPN	_	6	compound:smixut	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	2	punct	_	_
+9	עלול	עלול	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	10	aux	_	_
+10	להיעדר	נעדר	VERB	VERB	HebBinyan=NIFAL|VerbForm=Inf|Voice=Mid	0	root	_	_
+11-12	ממשחק	_	_	_	_	_	_	_	_
+11	מ	מ	ADP	ADP	_	12	case	_	_
+12	משחק	משחק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	obl	_	_
+13-15	נבחרתו	_	_	_	_	_	_	_	_
+13	נבחרת	נבחרת	NOUN	NOUN	Gender=Fem|Number=Sing	12	compound:smixut	_	_
+14	_של_	של	ADP	ADP	Case=Gen	15	case:gen	_	_
+15	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+16-17	באליפות	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	אליפות	אליפות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	nmod	_	_
+18	אירופה	אירופה	PROPN	PROPN	_	17	compound:smixut	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	22	punct	_	_
+20	כולל	כלל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	22	case	_	_
+21	נגד	נגד	ADP	ADP	_	22	case	_	_
+22	ישראל	ישראל	PROPN	PROPN	_	12	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:110
+# doc_range = 755-822
+# sent_id = 2600
+# text = זניאל סובל מפציעה באצבע רגלו הימנית.
+1	זניאל	זניאל	PROPN	PROPN	_	2	nsubj	_	_
+2	סובל	סבל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+3-4	מפציעה	_	_	_	_	_	_	_	_
+3	מ	מ	ADP	ADP	_	4	case	_	_
+4	פציעה	פציעה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl	_	_
+5-6	באצבע	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	אצבע	אצבע	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	nmod	_	_
+7-9	רגלו	_	_	_	_	_	_	_	_
+7	רגל	רגל	NOUN	NOUN	Gender=Fem|Number=Sing	6	compound:smixut	_	_
+8	_של_	של	ADP	ADP	Case=Gen	9	case:gen	_	_
+9	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+10-11	הימנית	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	ימנית	ימני	ADJ	ADJ	Gender=Fem|Number=Sing	7	amod	_	_
+12	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:110
+# doc_range = 824-959
+# sent_id = 2601
+# text = בבדיקה מיוחדת שנערכה לו בפאריס נקבע, כי הוא צריך לנוח במקום לנתח את המקום.
+1-2	בבדיקה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	בדיקה	בדיקה	NOUN	NOUN	Gender=Fem|Number=Sing	10	obl	_	_
+3	מיוחדת	מיוחד	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+4-5	שנערכה	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	5	mark	_	_
+5	נערכה	נערך	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	2	acl:relcl	_	_
+6-7	לו	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
+8-9	בפאריס	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	פאריס	פריז	PROPN	PROPN	_	5	obl	_	_
+10	נקבע	נקבע	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	15	punct	_	_
+12	כי	כי	SCONJ	SCONJ	_	15	mark	_	_
+13	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+14	צריך	צריך	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	15	aux	_	_
+15	לנוח	נח	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	10	advcl	_	_
+16	במקום	במקום	ADP	ADP	_	17	case	_	_
+17	לנתח	ניתח	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	15	advcl	_	_
+18	את	את	ADP	ADP	Case=Acc	20	case	_	_
+19-20	המקום	_	_	_	_	_	_	_	SpaceAfter=No
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	17	obj	_	_
+21	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:110
+# doc_range = 961-1099
+# sent_id = 2602
+# text = בינתיים הוחזר הענק וסטריס לנבחרת ואולי הוא יפתור במידה חלקית את בעית זניאל.
+1	בינתיים	בינתיים	ADV	ADV	_	2	advmod	_	_
+2	הוחזר	הוחזר	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+3-4	הענק	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	ענק	ענק	NOUN	NOUN	Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+5	וסטריס	וסטריס	PROPN	PROPN	_	4	flat:name	_	_
+6-8	לנבחרת	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	8	case	_	_
+7	ה_	ה	DET	DET	PronType=Art|Definite=Def	8	det	_	_
+8	נבחרת	נבחר	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl	_	_
+9-10	ואולי	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+10	אולי	אולי	ADV	ADV	_	12	advmod	_	_
+11	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	יפתור	פתר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	2	conj	_	_
+13-14	במידה	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	מידה	מידה	NOUN	NOUN	Gender=Fem|Number=Sing	12	obl	_	_
+15	חלקית	חלקי	ADJ	ADJ	Gender=Fem|Number=Sing	14	amod	_	_
+16	את	את	ADP	ADP	Case=Acc	17	case	_	_
+17	בעית	בעיה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	obj	_	_
+18	זניאל	זניאל	PROPN	PROPN	_	17	compound:smixut	_	SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:110
+# doc_range = 1101-1323
+# sent_id = 2603
+# text = כדורסלן הגליל, שהיה מעורב בתקרית אחרי המישחק נגד הפועל ירושלים ביום חמישי במלחה, נשאר במעצר במגרש הרוסים עד לשעות הבוקר.
+1	כדורסלן	כדורסלן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	23	nsubj	_	_
+2-3	הגליל	_	_	_	_	_	_	_	SpaceAfter=No
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	גליל	גליל	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4	,	,	PUNCT	PUNCT	_	7	punct	_	_
+5-6	שהיה	_	_	_	_	_	_	_	_
+5	ש	ש	SCONJ	SCONJ	_	7	mark	_	_
+6	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	7	cop	_	_
+7	מעורב	מעורב	VERB	VERB	Aspect=Prog|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+8-9	בתקרית	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	תקרית	תקרית	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
+10	אחרי	אחרי	ADP	ADP	_	12	case	_	_
+11-12	המישחק	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	מישחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
+13	נגד	נגד	ADP	ADP	_	15	case	_	_
+14-15	הפועל	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	פועל	פועל	PROPN	PROPN	_	12	nmod	_	_
+16	ירושלים	ירושלים	PROPN	PROPN	_	15	flat:name	_	_
+17-18	ביום	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	_	18	case	_	_
+18	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	obl	_	_
+19	חמישי	חמישי	PROPN	PROPN	_	18	compound:smixut	_	_
+20-21	במלחה	_	_	_	_	_	_	_	SpaceAfter=No
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	מלחה	מלח	PROPN	PROPN	_	7	obl	_	_
+22	,	,	PUNCT	PUNCT	_	1	punct	_	_
+23	נשאר	נשאר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+24-25	במעצר	_	_	_	_	_	_	_	_
+24	ב	ב	ADP	ADP	_	25	case	_	_
+25	מעצר	מעצר	NOUN	NOUN	Gender=Masc|Number=Sing	23	obl	_	_
+26-27	במגרש	_	_	_	_	_	_	_	_
+26	ב	ב	ADP	ADP	_	27	case	_	_
+27	מגרש	מגרש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	25	nmod	_	_
+28-29	הרוסים	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	רוסים	רוסי	NOUN	NOUN	Gender=Masc|Number=Plur	27	compound:smixut	_	_
+30	עד	עד	ADP	ADP	_	32	case	_	_
+31-32	לשעות	_	_	_	_	_	_	_	_
+31	ל	ל	ADP	ADP	_	30	fixed	_	_
+32	שעות	שעה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	23	obl	_	_
+33-34	הבוקר	_	_	_	_	_	_	_	SpaceAfter=No
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	בוקר	בוקר	NOUN	NOUN	Gender=Masc|Number=Sing	32	compound:smixut	_	_
+35	.	.	PUNCT	PUNCT	_	23	punct	_	_
+
+# doc_id = htb:110
+# doc_range = 1325-1495
+# sent_id = 2604
+# text = קמבל חזר לגליל עם המנהל עמית גל, שירד לשפלה, לן בכפר המכביה, וחזר לירושלים לאסוף את הכדורסלן.
+1	קמבל	קמבל	PROPN	PROPN	_	2	nsubj	_	_
+2	חזר	חזר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	_
+3-5	לגליל	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	5	case	_	_
+4	ה_	ה	DET	DET	PronType=Art|Definite=Def	5	det	_	_
+5	גליל	גליל	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+6	עם	עם	ADP	ADP	_	8	case	_	_
+7-8	המנהל	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	מנהל	מנהל	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+9	עמית	עמית	PROPN	PROPN	_	8	flat:name	_	_
+10	גל	גל	PROPN	PROPN	_	8	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	13	punct	_	_
+12-13	שירד	_	_	_	_	_	_	_	_
+12	ש	ש	SCONJ	SCONJ	_	13	mark	_	_
+13	ירד	ירד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	8	acl:relcl	_	_
+14-16	לשפלה	_	_	_	_	_	_	_	SpaceAfter=No
+14	ל	ל	ADP	ADP	_	16	case	_	_
+15	ה_	ה	DET	DET	PronType=Art|Definite=Def	16	det	_	_
+16	שפלה	שפלה	NOUN	NOUN	Gender=Fem|Number=Sing	13	obl	_	_
+17	,	,	PUNCT	PUNCT	_	18	punct	_	_
+18	לן	לן	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	13	conj	_	_
+19-20	בכפר	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	כפר	כפר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	18	obl	_	_
+21-22	המכביה	_	_	_	_	_	_	_	SpaceAfter=No
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	מכביה	מכבייה	NOUN	NOUN	Gender=Fem|Number=Sing	20	compound:smixut	_	_
+23	,	,	PUNCT	PUNCT	_	25	punct	_	_
+24-25	וחזר	_	_	_	_	_	_	_	_
+24	ו	ו	CCONJ	CCONJ	_	25	cc	_	_
+25	חזר	חזר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	13	conj	_	_
+26-27	לירושלים	_	_	_	_	_	_	_	_
+26	ל	ל	ADP	ADP	_	27	case	_	_
+27	ירושלים	ירושלים	PROPN	PROPN	_	25	obl	_	_
+28	לאסוף	אסף	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	25	xcomp	_	_
+29	את	את	ADP	ADP	Case=Acc	31	case	_	_
+30-31	הכדורסלן	_	_	_	_	_	_	_	SpaceAfter=No
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	כדורסלן	כדורסלן	NOUN	NOUN	Gender=Masc|Number=Sing	28	obj	_	_
+32	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:110
+# doc_range = 1497-1617
+# sent_id = 2605
+# text = הקבוצה הגיעה לגליל רק ב-5 בבוקר, לאחר שהתעקבה למתן עדויות במשטרה.
+1-2	הקבוצה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	קבוצה	קבוצה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	הגיעה	הגיע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4-6	לגליל	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	6	case	_	_
+5	ה_	ה	DET	DET	PronType=Art|Definite=Def	6	det	_	_
+6	גליל	גליל	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+7	רק	רק	ADV	ADV	_	10	advmod	_	HebSource=ConvUncertainHead
+8	ב	ב	ADP	ADP	_	10	case	_	SpaceAfter=No
+9	-	-	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+10	5	5	NUM	NUM	_	3	obl	_	_
+11-13	בבוקר	_	_	_	_	_	_	_	SpaceAfter=No
+11	ב	ב	ADP	ADP	_	13	case	_	_
+12	ה_	ה	DET	DET	PronType=Art|Definite=Def	13	det	_	_
+13	בוקר	בוקר	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
+14	,	,	PUNCT	PUNCT	_	17	punct	_	_
+15	לאחר	לאחר	ADP	ADP	_	17	case	_	_
+16-17	שהתעקבה	_	_	_	_	_	_	_	_
+16	ש	ש	SCONJ	SCONJ	_	17	mark	_	_
+17	התעקבה	התעקבה	VERB	VERB	_	3	obl	_	_
+18-19	למתן	_	_	_	_	_	_	_	_
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	מתן	מתן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	obl	_	_
+20	עדויות	עדות	NOUN	NOUN	Gender=Fem|Number=Plur	19	compound:smixut	_	_
+21-23	במשטרה	_	_	_	_	_	_	_	SpaceAfter=No
+21	ב	ב	ADP	ADP	_	23	case	_	_
+22	ה_	ה	DET	DET	PronType=Art|Definite=Def	23	det	_	_
+23	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	19	nmod	_	_
+24	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:110
+# doc_range = 1619-1673
+# sent_id = 2606
+# text = לטענת אנשי הגליל נופחה הפרשה.
+1-2	לטענת	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	טענת	טענה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	obl	_	_
+3	אנשי	איש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	2	compound:smixut	_	_
+4-5	הגליל	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	גליל	גליל	NOUN	NOUN	Gender=Masc|Number=Sing	3	compound:smixut	_	_
+6	נופחה	נופח	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+7-8	הפרשה	_	_	_	_	_	_	_	SpaceAfter=No
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	פרשה	פרשה	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+9	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:110
+# doc_range = 1675-1754
+# sent_id = 2607
+# text = לטענתם קמבל כלל לא חבט בעוזר המאמן גדי קידר.
+1-4	לטענתם	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	טענה	טענה	NOUN	NOUN	Gender=Fem|Number=Sing	8	obl	_	_
+3	_של_	של	ADP	ADP	Case=Gen	4	case:gen	_	_
+4	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5	קמבל	קמבל	PROPN	PROPN	_	8	nsubj	_	_
+6	כלל	כלל	ADV	ADV	_	7	advmod	_	_
+7	לא	לא	ADV	ADV	Polarity=Neg	8	advmod	_	_
+8	חבט	חבט	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+9-10	בעוזר	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	עוזר	עוזר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	obl	_	_
+11-12	המאמן	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	מאמן	מאמן	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
+13	גדי	גדי	PROPN	PROPN	_	10	flat:name	_	_
+14	קידר	קידר	PROPN	PROPN	_	10	flat:name	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:110
+# doc_range = 1756-1870
+# sent_id = 2608
+# text = עוזר המאמן של הגליל אילן קובלסקי אומר שקידר מעד ונחבט במדרגות.
+1	עוזר	עוזר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	nsubj	_	_
+2-3	המאמן	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	מאמן	מאמן	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4	של	של	ADP	ADP	Case=Gen	6	case	_	_
+5-6	הגליל	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	גליל	גליל	NOUN	NOUN	Gender=Masc|Number=Sing	1	nmod:poss	_	_
+7	אילן	אילן	PROPN	PROPN	_	1	flat:name	_	_
+8	קובלסקי	קובלסקי	PROPN	PROPN	_	1	flat:name	_	_
+9	אומר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+10-11	שקידר	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	12	mark	_	_
+11	קידר	קידר	PROPN	PROPN	_	12	nsubj	_	_
+12	מעד	מעד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	9	ccomp	_	_
+13-14	ונחבט	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
+14	נחבט	נחבט	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	12	conj	_	_
+15-17	במדרגות	_	_	_	_	_	_	_	SpaceAfter=No
+15	ב	ב	ADP	ADP	_	17	case	_	_
+16	ה_	ה	DET	DET	PronType=Art|Definite=Def	17	det	_	_
+17	מדרגות	מדרגה	NOUN	NOUN	Gender=Fem|Number=Plur	14	obl	_	_
+18	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:110
+# doc_range = 1872-1979
+# sent_id = 2609
+# text = קידר שסובל מפגיעה בלסת התקשה לאכול והתבקש לנוח שלושה ימים.
+1	קידר	קידר	PROPN	PROPN	_	9	nsubj	_	_
+2-3	שסובל	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	3	mark	_	_
+3	סובל	סבל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	1	acl:relcl	_	_
+4-5	מפגיעה	_	_	_	_	_	_	_	_
+4	מ	מ	ADP	ADP	_	5	case	_	_
+5	פגיעה	פגיעה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+6-8	בלסת	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	8	case	_	_
+7	ה_	ה	DET	DET	PronType=Art|Definite=Def	8	det	_	_
+8	לסת	לסת	NOUN	NOUN	Gender=Fem|Number=Sing	5	nmod	_	_
+9	התקשה	התקשה	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+10	לאכול	אכל	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11-12	והתבקש	_	_	_	_	_	_	_	_
+11	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+12	התבקש	התבקש	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	9	conj	_	_
+13	לנוח	נח	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	שלושה	שלוש	NUM	NUM	Gender=Masc|Number=Plur	15	nummod	_	_
+15	ימים	יום	NOUN	NOUN	Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:110
+# doc_range = 1981-2032
+# sent_id = 2610
+# text = הוא יתבע את את קמבל על תקיפה.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	יתבע	תבע	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	0	root	_	_
+3	את	את	ADP	ADP	Case=Acc	5	case	_	_
+4	את	את	ADP	ADP	Case=Acc	5	dep	_	_
+5	קמבל	קמבל	PROPN	PROPN	_	2	obj	_	_
+6	על	על	ADP	ADP	_	7	case	_	_
+7	תקיפה	תקיפה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:110
+# doc_range = 2035-2109
+# sent_id = 2611
+# text = הנהלת הקבוצה הגישה תלונה לאיגוד הכדורסל.
+1	הנהלת	הנהלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	nsubj	_	_
+2-3	הקבוצה	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	קבוצה	קבוצה	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+4	הגישה	הגיש	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	תלונה	תלונה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obj	_	_
+6-7	לאיגוד	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	איגוד	איגוד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	obl	_	_
+8-9	הכדורסל	_	_	_	_	_	_	_	SpaceAfter=No
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	כדורסל	כדורסל	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound:smixut	_	_
+10	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:110
+# doc_range = 2111-2224
+# sent_id = 2612
+# text = לא מן הנמנע שקידר יגיע הערב לרמת השרון למישחק הליגה של קבוצתו.
+1	לא	לא	ADV	ADV	Polarity=Neg	4	advmod	_	_
+2	מן	מן	ADP	ADP	_	4	case	_	_
+3-4	הנמנע	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	נמנע	נמנע	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	0	root	_	_
+5-6	שקידר	_	_	_	_	_	_	_	_
+5	ש	ש	SCONJ	SCONJ	_	7	mark	_	_
+6	קידר	קידר	PROPN	PROPN	_	7	nsubj	_	_
+7	יגיע	הגיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	4	advcl	_	_
+8	הערב	הערב	ADV	ADV	_	7	advmod	_	_
+9-10	לרמת	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	10	case	_	_
+10	רמת	רמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	obl	_	_
+11-12	השרון	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	שרון	שרון	PROPN	PROPN	_	10	compound:smixut	_	_
+13-14	למישחק	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	מישחק	משחק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	obl	_	_
+15-16	הליגה	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	ליגה	ליגה	NOUN	NOUN	Gender=Fem|Number=Sing	14	compound:smixut	_	_
+17	של	של	ADP	ADP	Case=Gen	18	case	_	_
+18-20	קבוצתו	_	_	_	_	_	_	_	SpaceAfter=No
+18	קבוצה	קבוצה	NOUN	NOUN	Gender=Fem|Number=Sing	14	nmod:poss	_	_
+19	_של_	של	ADP	ADP	Case=Gen	20	case:gen	_	_
+20	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+21	.	.	PUNCT	PUNCT	_	4	punct	_	_
+

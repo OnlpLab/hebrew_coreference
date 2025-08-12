@@ -1,0 +1,85 @@
+2025-07-28 15:23:12,447 INFO    MainThread:72916 [internal.py:wandb_internal():90] W&B internal server running at pid: 72916, started at: 2025-07-28 15:23:12.447553
+2025-07-28 15:23:12,448 DEBUG   HandlerThread:72916 [handler.py:handle_request():141] handle_request: run_start
+2025-07-28 15:23:12,448 INFO    WriterThread:72916 [datastore.py:open_for_write():75] open: /Users/s0g0a87/studies/neural_hebrew_coref/src/lingmess-coref/wandb/offline-run-20250728_152311-46rff6bj/run-46rff6bj.wandb
+2025-07-28 15:23:12,450 DEBUG   HandlerThread:72916 [meta.py:__init__():35] meta init
+2025-07-28 15:23:12,452 DEBUG   HandlerThread:72916 [meta.py:__init__():49] meta init done
+2025-07-28 15:23:12,453 DEBUG   HandlerThread:72916 [meta.py:probe():209] probe
+2025-07-28 15:23:12,456 DEBUG   HandlerThread:72916 [git.py:repo():29] git repository is invalid
+2025-07-28 15:23:12,456 DEBUG   HandlerThread:72916 [meta.py:_save_pip():53] save pip
+2025-07-28 15:23:12,457 DEBUG   HandlerThread:72916 [meta.py:_save_pip():67] save pip done
+2025-07-28 15:23:12,457 DEBUG   HandlerThread:72916 [meta.py:_save_conda():74] save conda
+2025-07-28 15:23:14,607 DEBUG   HandlerThread:72916 [meta.py:_save_conda():84] save conda done
+2025-07-28 15:23:14,607 DEBUG   HandlerThread:72916 [meta.py:probe():247] probe done
+2025-07-28 15:23:17,649 DEBUG   HandlerThread:72916 [handler.py:handle_request():141] handle_request: poll_exit
+2025-07-28 15:23:17,650 DEBUG   SenderThread:72916 [sender.py:send():232] send: exit
+2025-07-28 15:23:17,651 INFO    SenderThread:72916 [sender.py:send_exit():368] handling exit code: 1
+2025-07-28 15:23:17,652 INFO    SenderThread:72916 [sender.py:send_exit():370] handling runtime: 5
+2025-07-28 15:23:17,653 INFO    SenderThread:72916 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2025-07-28 15:23:17,653 INFO    SenderThread:72916 [sender.py:send_exit():376] send defer
+2025-07-28 15:23:17,653 DEBUG   SenderThread:72916 [sender.py:send_request():246] send_request: poll_exit
+2025-07-28 15:23:17,654 DEBUG   HandlerThread:72916 [handler.py:handle_request():141] handle_request: defer
+2025-07-28 15:23:17,654 INFO    HandlerThread:72916 [handler.py:handle_request_defer():164] handle defer: 0
+2025-07-28 15:23:17,655 DEBUG   SenderThread:72916 [sender.py:send_request():246] send_request: defer
+2025-07-28 15:23:17,655 INFO    SenderThread:72916 [sender.py:send_request_defer():385] handle sender defer: 0
+2025-07-28 15:23:17,655 INFO    SenderThread:72916 [sender.py:transition_state():389] send defer: 1
+2025-07-28 15:23:17,656 DEBUG   HandlerThread:72916 [handler.py:handle_request():141] handle_request: defer
+2025-07-28 15:23:17,656 INFO    HandlerThread:72916 [handler.py:handle_request_defer():164] handle defer: 1
+2025-07-28 15:23:18,459 DEBUG   HandlerThread:72916 [handler.py:handle_request():141] handle_request: poll_exit
+2025-07-28 15:23:18,459 DEBUG   SenderThread:72916 [sender.py:send_request():246] send_request: defer
+2025-07-28 15:23:18,460 INFO    SenderThread:72916 [sender.py:send_request_defer():385] handle sender defer: 1
+2025-07-28 15:23:18,460 INFO    SenderThread:72916 [sender.py:transition_state():389] send defer: 2
+2025-07-28 15:23:18,460 DEBUG   SenderThread:72916 [sender.py:send_request():246] send_request: poll_exit
+2025-07-28 15:23:18,460 DEBUG   HandlerThread:72916 [handler.py:handle_request():141] handle_request: defer
+2025-07-28 15:23:18,460 INFO    HandlerThread:72916 [handler.py:handle_request_defer():164] handle defer: 2
+2025-07-28 15:23:18,460 DEBUG   SenderThread:72916 [sender.py:send_request():246] send_request: defer
+2025-07-28 15:23:18,460 INFO    SenderThread:72916 [sender.py:send_request_defer():385] handle sender defer: 2
+2025-07-28 15:23:18,460 INFO    SenderThread:72916 [sender.py:transition_state():389] send defer: 3
+2025-07-28 15:23:18,460 DEBUG   HandlerThread:72916 [handler.py:handle_request():141] handle_request: defer
+2025-07-28 15:23:18,460 INFO    HandlerThread:72916 [handler.py:handle_request_defer():164] handle defer: 3
+2025-07-28 15:23:18,460 DEBUG   SenderThread:72916 [sender.py:send_request():246] send_request: defer
+2025-07-28 15:23:18,460 INFO    SenderThread:72916 [sender.py:send_request_defer():385] handle sender defer: 3
+2025-07-28 15:23:18,460 INFO    SenderThread:72916 [sender.py:transition_state():389] send defer: 4
+2025-07-28 15:23:18,460 DEBUG   HandlerThread:72916 [handler.py:handle_request():141] handle_request: defer
+2025-07-28 15:23:18,460 INFO    HandlerThread:72916 [handler.py:handle_request_defer():164] handle defer: 4
+2025-07-28 15:23:18,461 DEBUG   SenderThread:72916 [sender.py:send_request():246] send_request: defer
+2025-07-28 15:23:18,461 INFO    SenderThread:72916 [sender.py:send_request_defer():385] handle sender defer: 4
+2025-07-28 15:23:18,461 INFO    SenderThread:72916 [sender.py:transition_state():389] send defer: 5
+2025-07-28 15:23:18,461 DEBUG   HandlerThread:72916 [handler.py:handle_request():141] handle_request: defer
+2025-07-28 15:23:18,461 INFO    HandlerThread:72916 [handler.py:handle_request_defer():164] handle defer: 5
+2025-07-28 15:23:18,461 DEBUG   SenderThread:72916 [sender.py:send_request():246] send_request: defer
+2025-07-28 15:23:18,461 INFO    SenderThread:72916 [sender.py:send_request_defer():385] handle sender defer: 5
+2025-07-28 15:23:18,461 INFO    SenderThread:72916 [sender.py:transition_state():389] send defer: 6
+2025-07-28 15:23:18,461 DEBUG   HandlerThread:72916 [handler.py:handle_request():141] handle_request: defer
+2025-07-28 15:23:18,461 INFO    HandlerThread:72916 [handler.py:handle_request_defer():164] handle defer: 6
+2025-07-28 15:23:18,461 DEBUG   SenderThread:72916 [sender.py:send_request():246] send_request: defer
+2025-07-28 15:23:18,461 INFO    SenderThread:72916 [sender.py:send_request_defer():385] handle sender defer: 6
+2025-07-28 15:23:18,461 INFO    SenderThread:72916 [sender.py:transition_state():389] send defer: 7
+2025-07-28 15:23:18,461 DEBUG   HandlerThread:72916 [handler.py:handle_request():141] handle_request: defer
+2025-07-28 15:23:18,461 INFO    HandlerThread:72916 [handler.py:handle_request_defer():164] handle defer: 7
+2025-07-28 15:23:18,461 DEBUG   SenderThread:72916 [sender.py:send_request():246] send_request: defer
+2025-07-28 15:23:18,461 INFO    SenderThread:72916 [sender.py:send_request_defer():385] handle sender defer: 7
+2025-07-28 15:23:18,461 INFO    SenderThread:72916 [sender.py:transition_state():389] send defer: 8
+2025-07-28 15:23:18,461 DEBUG   HandlerThread:72916 [handler.py:handle_request():141] handle_request: defer
+2025-07-28 15:23:18,461 INFO    HandlerThread:72916 [handler.py:handle_request_defer():164] handle defer: 8
+2025-07-28 15:23:18,462 DEBUG   SenderThread:72916 [sender.py:send_request():246] send_request: defer
+2025-07-28 15:23:18,462 INFO    SenderThread:72916 [sender.py:send_request_defer():385] handle sender defer: 8
+2025-07-28 15:23:18,462 INFO    SenderThread:72916 [sender.py:transition_state():389] send defer: 9
+2025-07-28 15:23:18,462 DEBUG   HandlerThread:72916 [handler.py:handle_request():141] handle_request: defer
+2025-07-28 15:23:18,462 INFO    HandlerThread:72916 [handler.py:handle_request_defer():164] handle defer: 9
+2025-07-28 15:23:18,462 DEBUG   SenderThread:72916 [sender.py:send_request():246] send_request: defer
+2025-07-28 15:23:18,462 INFO    SenderThread:72916 [sender.py:send_request_defer():385] handle sender defer: 9
+2025-07-28 15:23:18,462 INFO    SenderThread:72916 [sender.py:transition_state():389] send defer: 10
+2025-07-28 15:23:18,462 DEBUG   SenderThread:72916 [sender.py:send():232] send: final
+2025-07-28 15:23:18,462 DEBUG   HandlerThread:72916 [handler.py:handle_request():141] handle_request: defer
+2025-07-28 15:23:18,462 INFO    HandlerThread:72916 [handler.py:handle_request_defer():164] handle defer: 10
+2025-07-28 15:23:18,462 DEBUG   SenderThread:72916 [sender.py:send_request():246] send_request: defer
+2025-07-28 15:23:18,462 INFO    SenderThread:72916 [sender.py:send_request_defer():385] handle sender defer: 10
+2025-07-28 15:23:18,566 DEBUG   HandlerThread:72916 [handler.py:handle_request():141] handle_request: poll_exit
+2025-07-28 15:23:18,566 DEBUG   SenderThread:72916 [sender.py:send_request():246] send_request: poll_exit
+2025-07-28 15:23:18,673 DEBUG   HandlerThread:72916 [handler.py:handle_request():141] handle_request: sampled_history
+2025-07-28 15:23:18,675 DEBUG   HandlerThread:72916 [handler.py:handle_request():141] handle_request: get_summary
+2025-07-28 15:23:18,675 DEBUG   HandlerThread:72916 [handler.py:handle_request():141] handle_request: shutdown
+2025-07-28 15:23:18,675 INFO    HandlerThread:72916 [handler.py:finish():806] shutting down handler
+2025-07-28 15:23:19,467 INFO    WriterThread:72916 [datastore.py:close():279] close: /Users/s0g0a87/studies/neural_hebrew_coref/src/lingmess-coref/wandb/offline-run-20250728_152311-46rff6bj/run-46rff6bj.wandb
+2025-07-28 15:23:19,571 INFO    SenderThread:72916 [sender.py:finish():1106] shutting down sender
+2025-07-28 15:23:19,572 INFO    MainThread:72916 [internal.py:handle_exit():80] Internal process exited

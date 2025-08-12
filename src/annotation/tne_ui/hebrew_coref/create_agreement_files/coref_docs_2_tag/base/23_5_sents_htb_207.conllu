@@ -1,0 +1,210 @@
+# doc_id = htb:207
+# doc_range = 1-206
+# sent_id = 5197
+# text = ח"כ רענן כהן (מערך) הגיש הצעה דחופה לסדר היום, בתביעה ממשרדי האוצר והפנים לחלץ את יישובי הדרוזים ממצוקתם הכספית.
+1	ח"כ	ח"כ	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	רענן	רענן	PROPN	PROPN	_	1	nmod	_	_
+3	כהן	כהן	PROPN	PROPN	_	2	flat:name	_	_
+4	(	(	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+5	מערך	מערך	PROPN	PROPN	_	1	appos	_	SpaceAfter=No
+6	)	)	PUNCT	PUNCT	_	5	punct	_	_
+7	הגיש	הגיש	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+8	הצעה	הצעה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obj	_	_
+9	דחופה	דחוף	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	_
+10-11	לסדר	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	11	case	_	_
+11	סדר	סדר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	nmod	_	_
+12-13	היום	_	_	_	_	_	_	_	SpaceAfter=No
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	יום	יום	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound:smixut	_	_
+14	,	,	PUNCT	PUNCT	_	16	punct	_	_
+15-16	בתביעה	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	תביעה	תביעה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
+17-18	ממשרדי	_	_	_	_	_	_	_	_
+17	מ	מ	ADP	ADP	_	18	case	_	_
+18	משרדי	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	16	nmod	_	_
+19-20	האוצר	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	אוצר	אוצר	NOUN	NOUN	Gender=Masc|Number=Sing	18	compound:smixut	_	_
+21-23	והפנים	_	_	_	_	_	_	_	_
+21	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	פנים	פנים	NOUN	NOUN	Gender=Masc|Number=Sing	20	conj	_	_
+24	לחלץ	חילץ	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	16	acl	_	_
+25	את	את	ADP	ADP	Case=Acc	26	case	_	_
+26	יישובי	יישוב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	24	obj	_	_
+27-28	הדרוזים	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	דרוזים	דרוזי	NOUN	NOUN	Gender=Masc|Number=Plur	26	compound:smixut	_	_
+29-32	ממצוקתם	_	_	_	_	_	_	_	_
+29	מ	מ	ADP	ADP	_	30	case	_	_
+30	מצוקה	מצוקה	NOUN	NOUN	Gender=Fem|Number=Sing	24	obl	_	_
+31	_של_	של	ADP	ADP	Case=Gen	32	case:gen	_	_
+32	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+33-34	הכספית	_	_	_	_	_	_	_	SpaceAfter=No
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	כספית	כספי	ADJ	ADJ	Gender=Fem|Number=Sing	30	amod	_	_
+35	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:207
+# doc_range = 208-421
+# sent_id = 5198
+# text = ח"כ כהן אומר כי לא ייתכן שבני עדה זו המשלמים בדם בניהם, חודש אחר חודש, יתקשו לקבל מים, בשל אי-פירעון חובות ל"מקורות".
+1	ח"כ	ח"כ	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	כהן	כהן	PROPN	PROPN	_	1	flat:name	_	_
+3	אומר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4	כי	כי	SCONJ	SCONJ	_	6	mark	_	_
+5	לא	לא	ADV	ADV	Polarity=Neg	6	advmod	_	_
+6	ייתכן	ייתכן	AUX	AUX	VerbType=Mod	3	advcl	_	_
+7-8	שבני	_	_	_	_	_	_	_	_
+7	ש	ש	SCONJ	SCONJ	_	22	mark	_	_
+8	בני	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	22	nsubj	_	_
+9	עדה	עדה	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound:smixut	_	_
+10	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	9	det	_	_
+11-12	המשלמים	_	_	_	_	_	_	_	_
+11	ה	ה	SCONJ	SCONJ	_	12	mark	_	_
+12	משלמים	שילם	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	8	acl:relcl	_	_
+13-14	בדם	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	דם	דם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	obl	_	_
+15-16	בניהם	_	_	_	_	_	_	_	SpaceAfter=No
+15	בני	בן	NOUN	NOUN	Gender=Masc|Number=Plur	14	compound:smixut	_	_
+16	הם	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+17	,	,	PUNCT	PUNCT	_	18	punct	_	_
+18	חודש	חודש	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl:tmod	_	_
+19	אחר	אחר	ADP	ADP	_	20	case	_	_
+20	חודש	חודש	NOUN	NOUN	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	8	punct	_	_
+22	יתקשו	התקשה	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Fut	6	ccomp	_	_
+23	לקבל	קיבל	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	22	xcomp	_	_
+24	מים	מים	NOUN	NOUN	Gender=Masc|Number=Plur	23	obj	_	SpaceAfter=No
+25	,	,	PUNCT	PUNCT	_	29	punct	_	_
+26	בשל	בשל	ADP	ADP	_	29	case	_	_
+27	אי	אי	ADV	ADV	Prefix=Yes	29	compound:affix	_	SpaceAfter=No
+28	-	-	PUNCT	PUNCT	_	27	punct	_	SpaceAfter=No
+29	פירעון	פירעון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	22	obl	_	_
+30	חובות	חוב	NOUN	NOUN	Gender=Masc|Number=Plur	29	compound:smixut	_	_
+31-33	ל"מקורות	_	_	_	_	_	_	_	SpaceAfter=No
+31	ל	ל	ADP	ADP	_	33	case	_	_
+32	"	"	PUNCT	PUNCT	_	33	punct	_	_
+33	מקורות	מקורות	PROPN	PROPN	_	29	nmod	_	_
+34	"	"	PUNCT	PUNCT	_	33	punct	_	SpaceAfter=No
+35	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:207
+# doc_range = 423-535
+# sent_id = 5199
+# text = לדבריו, הכפר בית-גאן שיכל עד כה 36 מבניו, 3 מהם מבני משפחה אחת.
+1-4	לדבריו	_	_	_	_	_	_	_	SpaceAfter=No
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	11	obl	_	_
+3	_של_	של	ADP	ADP	Case=Gen	4	case:gen	_	_
+4	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5	,	,	PUNCT	PUNCT	_	2	punct	_	_
+6-7	הכפר	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	כפר	כפר	NOUN	NOUN	Gender=Masc|Number=Sing	11	nsubj	_	_
+8	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+9	-	-	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+10	גאן	גאן	NOUN	NOUN	_	7	dep	_	HebSource=ConvUncertainHead
+11	שיכל	שיכל	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+12	עד	עד	ADV	ADV	_	11	advmod	_	_
+13	כה	כה	ADV	ADV	_	12	fixed	_	_
+14	36	36	NUM	NUM	_	16	nummod	_	_
+15-18	מבניו	_	_	_	_	_	_	_	SpaceAfter=No
+15	מ	מ	ADP	ADP	_	16	case	_	_
+16	בן	בן	NOUN	NOUN	Gender=Masc|Number=Plur	11	nsubj	_	_
+17	_של_	של	ADP	ADP	Case=Gen	18	case:gen	_	_
+18	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+19	,	,	PUNCT	PUNCT	_	24	punct	_	_
+20	3	3	NUM	NUM	_	22	nummod	_	_
+21-22	מהם	_	_	_	_	_	_	_	_
+21	מ	מן	ADP	ADP	_	22	case	_	_
+22	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	24	nsubj	_	_
+23-24	מבני	_	_	_	_	_	_	_	_
+23	מ	מ	ADP	ADP	_	24	case	_	_
+24	בני	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	11	obl	_	_
+25	משפחה	משפחה	NOUN	NOUN	Gender=Fem|Number=Sing	24	compound:smixut	_	_
+26	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	25	nummod	_	SpaceAfter=No
+27	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:207
+# doc_range = 537-655
+# sent_id = 5200
+# text = כפר זה נאלץ לשבות במשך 11 יום בשל חוב של מאות אלפי שקלים ל"מקורות".
+1	כפר	כפר	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+2	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	det	_	_
+3	נאלץ	נאלץ	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+4	לשבות	לשבות	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	במשך	במשך	ADP	ADP	_	7	case	_	_
+6	11	11	NUM	NUM	_	7	nummod	_	_
+7	יום	יום	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+8	בשל	בשל	ADP	ADP	_	9	case	_	_
+9	חוב	חוב	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+10	של	של	ADP	ADP	Case=Gen	13	case	_	_
+11	מאות	מאה	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	12	nummod	_	_
+12	אלפי	אלפי	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	13	nummod	_	_
+13	שקלים	שקל	NOUN	NOUN	Gender=Masc|Number=Plur	9	nmod	_	_
+14-16	ל"מקורות	_	_	_	_	_	_	_	SpaceAfter=No
+14	ל	ל	ADP	ADP	_	16	case	_	_
+15	"	"	PUNCT	PUNCT	_	16	punct	_	_
+16	מקורות	מקורות	PROPN	PROPN	_	9	nmod	_	_
+17	"	"	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:207
+# doc_range = 657-935
+# sent_id = 5201
+# text = רענן כהן תובע מממשלת ישראל "לעשות הכל כדי למנוע מהיישובים הדרוזים לממש את האיום ולשבות משום שמדובר בעדה נאמנה המתייצבת לימין מדינת ישראל גם בימים אלה".
+1	רענן	רענן	PROPN	PROPN	_	3	nsubj	_	_
+2	כהן	כהן	PROPN	PROPN	_	1	flat:name	_	_
+3	תובע	תבע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4-5	מממשלת	_	_	_	_	_	_	_	_
+4	מ	מ	ADP	ADP	_	5	case	_	_
+5	ממשלת	ממשלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	obl	_	_
+6	ישראל	ישראל	PROPN	PROPN	_	5	compound:smixut	_	_
+7	"	"	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+8	לעשות	עשה	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+9	הכל	הכול	NOUN	NOUN	Gender=Masc|Number=Sing	8	obj	_	_
+10	כדי	כדי	SCONJ	SCONJ	_	11	mark	_	_
+11	למנוע	מנע	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	8	advcl	_	_
+12-14	מהיישובים	_	_	_	_	_	_	_	_
+12	מ	מ	ADP	ADP	_	14	case	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	יישובים	יישוב	NOUN	NOUN	Gender=Masc|Number=Plur	11	obl	_	_
+15-16	הדרוזים	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	דרוזים	דרוזי	ADJ	ADJ	Gender=Masc|Number=Plur	14	amod	_	_
+17	לממש	מימש	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	11	dep	_	HebSource=ConvUncertainHead
+18	את	את	ADP	ADP	Case=Acc	20	case	_	_
+19-20	האיום	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	איום	איום	NOUN	NOUN	Gender=Masc|Number=Sing	17	obj	_	_
+21-22	ולשבות	_	_	_	_	_	_	_	_
+21	ו	ו	CCONJ	CCONJ	_	22	cc	_	_
+22	לשבות	לשבות	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	17	conj	_	_
+23	משום	משום	SCONJ	SCONJ	_	25	mark	_	_
+24-25	שמדובר	_	_	_	_	_	_	_	_
+24	ש	ש	SCONJ	SCONJ	_	23	fixed	_	_
+25	מדובר	דובר	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	8	advcl	_	_
+26-27	בעדה	_	_	_	_	_	_	_	_
+26	ב	ב	ADP	ADP	_	27	case	_	_
+27	עדה	עדה	NOUN	NOUN	Gender=Fem|Number=Sing	25	obl	_	_
+28	נאמנה	נאמן	ADJ	ADJ	Gender=Fem|Number=Sing	27	amod	_	_
+29-30	המתייצבת	_	_	_	_	_	_	_	_
+29	ה	ה	SCONJ	SCONJ	_	30	mark	_	_
+30	מתייצבת	התייצב	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	27	acl:relcl	_	_
+31-32	לימין	_	_	_	_	_	_	_	_
+31	ל	ל	ADP	ADP	_	32	case	_	_
+32	ימין	ימין	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	30	obl	_	_
+33	מדינת	מדינה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	32	compound:smixut	_	_
+34	ישראל	ישראל	PROPN	PROPN	_	33	compound:smixut	_	_
+35	גם	גם	ADV	ADV	_	37	advmod	_	_
+36-37	בימים	_	_	_	_	_	_	_	_
+36	ב	ב	ADP	ADP	_	37	case	_	_
+37	ימים	יום	NOUN	NOUN	Gender=Masc|Number=Plur	30	obl	_	_
+38	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	37	det	_	SpaceAfter=No
+39	"	"	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+40	.	.	PUNCT	PUNCT	_	3	punct	_	_
+

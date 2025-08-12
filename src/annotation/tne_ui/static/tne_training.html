@@ -1,0 +1,2364 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>BridgingAnnotationTool</title>
+    <!-- styles -->	
+</head>
+    <style>
+                C* {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            zoom: 90%;
+            width: 100%;
+			margin:0; 
+			padding:0
+			height:100%; 
+        }
+		
+		.container { position:fixed; width:50%;}
+		#top_l { top:0;   left:0;  bottom:60%;width:60%;display:none; }
+		#top_r { top:0;   left:60%; bottom:60%; width:40%;display:none; }
+		#mid_l { top:40%; left:0;   bottom:20%; width:60%; display:none;}		
+		#mid_r { top:40%; left:60%; bottom:0; width:40%;}
+		#bottom_l	{ top:80%; left:0; bottom:0; width:60%; display:none;}		
+		#bottom_r { top:100%; left:60%; bottom:0; width:40%;display:none;}
+        
+        h2{
+		 margin-top:10;
+		 margin-bottom:10;
+		}
+		
+		
+        h3{
+		 margin-top:0;
+		 margin-bottom:0;
+		}
+
+        article {            
+            width: 95%;
+            height: 85%;
+            overflow-y: scroll;
+            background-color: #f1f1f1;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin: 10px;  
+			margin-left: 15px;   
+            pointer-events: auto;
+            padding: 10px;	
+        }        
+		
+		#items {
+            width: 95%;
+            height: 85%;
+            margin: 10px;            
+            pointer-events: auto;
+            padding: 10px;			
+        }
+		
+		#item_pane {
+            height: 80%;
+            overflow-y: scroll;
+        }
+		
+		#entities {
+            padding: 10px;			
+            margin:10px;
+			padding-top: 0;	
+            height: 85%; 
+			max-height: inherit;
+			max-width: inherit;				
+            width: 95%; 
+            pointer-events: auto;
+        }
+		
+        #entity_pane {
+            height: 95%;			
+            overflow-y: scroll;
+        }
+		
+		#links {
+            padding: 10px;			
+            margin:10px;
+			padding-top: 0;	
+			margin-top: 0;	
+            height: 100%;            
+            width: 95%; 
+            pointer-events: auto;
+        }
+		
+        #lnks {
+            height: 95%;
+            overflow-y: scroll;
+        }
+
+       
+        #options_pane {		    
+            background-color: #adaddd;			
+            padding: 10px;			
+            margin:10px;
+			margin-left: 15px;  
+            height: 85%;  
+			max-height: inherit;
+			max-width: inherit;	
+            width: 95%;            
+            border: 1px solid black;
+            border-radius: 5px;            
+            pointer-events: auto;
+        }
+				
+		#coref_options, #bridging_options{
+		height: 75%;
+        width:100%; 		
+        overflow-y: scroll;		
+			
+		}
+		
+		#button{			
+            padding: 10px;
+			padding-left: 15px;  	
+			padding-top: 0;	
+            pointer-events: auto;
+        }
+        
+        #cur_NP {
+            background-color: yellow;
+            font-weight: bold;
+        }
+
+        #next,
+		#display_intro,
+        #confirm,
+		#got_it,
+		#got_feedback,
+		#repeat_training{
+            width: 20%;
+            height: 40px;
+            margin-top: 15px;
+            background-color: lightblue;
+        }
+		
+		 #next,
+		#display_intro{
+		display:inline;
+		}
+
+
+        .complement,
+        .opt {
+            width: 15px;
+            height: 15px;
+        }
+		
+		.crf{
+		margin-left:20;
+		}
+
+        .bridge_candidate {
+            background-color: yellow;
+        }
+		
+		.item {
+		border:1px solid;
+		border-radius:6px;
+		padding:1px;
+		margin:2px;
+		line-height: 16pt;	
+		display: inline-block;
+		}
+		
+		.outer li:before {
+		content: "";
+		margin-left: -0.5rem;
+	    }
+		
+		.inner li:before {
+		content: "";
+		margin-left: -1.5rem;
+	    }
+		
+		input[type=radio], 
+		input[type=checkbox],  input[type=button]{
+		cursor: pointer; 
+		}
+
+	#final_screen {
+         position: fixed;
+         top: 50%;    
+         left: 50%;
+         transform: translate(-50%, -50%);
+         width: 50%;
+         height: 60%;         
+         margin: 10px;
+         padding:10px;
+         background-color: #f1f1f1;
+         border: 1px solid black;
+         border-radius: 10px;	
+         }
+	
+	#intro_screen, #fdbck_screen {
+		position: fixed;
+		top: 50%;    
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 70%;
+		height: 90%;   
+		overflow-y: scroll;	
+		margin: 10px;
+		padding:10px;
+		background-color: #f1f1f1;
+		border: 1px solid black;
+		border-radius: 10px;	
+	}
+	
+		<!-- custom alerts -->
+		#modalContainer {
+		background-color:rgba(0, 0, 0, 0.3);
+		position:absolute;
+		width:100%;
+		height:100%;
+		top:0px;
+		left:0px;
+		z-index:10000;
+		background-image:url(tp.png); /* required by MSIE to prevent actions on lower z-index elements */
+	}
+
+		#alertBox {
+		position:relative;
+		width:600px;
+		min-height:200px;
+		margin:50px;
+		border:3px solid #3073BB;
+		border-radius:10px;
+		background-color:#fff;
+		background-repeat:no-repeat;
+		background-position:20px 30px;
+		}
+
+		#modalContainer > #alertBox {
+		position:fixed;
+		}
+
+		#alertBox p {
+			font:1em verdana,arial;
+			height:85px;
+			padding-top:10px;
+			padding-left:5px;
+			margin-right:55px;
+			margin-left:55px;
+		}
+
+		#alertBox #closeBtn {
+		display:block;
+		position:relative;
+		margin:auto;	
+		padding:7px;	
+		border:0 none;
+		width:70px;
+		font:1em verdana,arial;
+		text-transform:uppercase;
+		text-align:center;
+		color:#FFF;
+		background-color:#357EBD;
+		border-radius: 3px;
+		text-decoration:none;
+		}
+		
+		<!-- help  boxes -->
+		
+		.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted #ccc;
+    color: #006080;
+	display:none;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    position: absolute;
+    width: 600px;
+    background-color: lightblue;
+    color: blue;    
+    padding: 5px 0;
+	border:1px solid blue;
+    border-radius: 6px;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;	
+}
+
+.tooltip .tooltiptext1 {
+    visibility: hidden;
+    position: absolute;
+    width: 300px;
+    background-color: lightblue;
+    color: blue;    
+    padding: 5px 0;
+	border:1px solid blue;
+    border-radius: 6px;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext1 {
+    visibility: visible;
+    opacity: 1;	
+}
+
+.tooltip-right {
+  top: -5px;
+  left: 5%;  
+}
+
+.tooltip-right::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent;
+}
+
+.tooltip-bottom {
+  top: 135%;
+  left: 50%;  
+  margin-left: -60px;
+}
+
+.tooltip-bottom::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #555 transparent;
+}
+
+
+.tooltip-article {
+  top: 15%;  
+}
+
+.tooltip-items {
+  top: 15%;
+  left: -36%;  
+  margin-left: -60px;
+}
+
+.tooltip-links{
+  bottom:100%;
+  left: 0; 
+}
+
+.tooltip-button {   
+  bottom:50%; 
+  margin-bottom:62px; 
+  left: 3%;    
+ 
+}
+
+.tooltip-entities {   
+  bottom:90%; 
+  left: 0%; 
+}
+
+
+.tooltip-options {
+  top: -20%;  
+}
+
+
+.tooltip-left {
+  top: -5px;
+  bottom:auto;
+  right: 128%;  
+}
+
+.tooltip-left::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent #555;
+}
+
+#item-heading, #item-tooltip{
+display:inline;
+}
+#copy{
+		 position: fixed;
+         top: 50%;
+		 right:5%;
+         display:block;
+		 float:right;
+         width:150px;
+         height:50px;
+		 background-color:lightblue;
+         /*   margin-left:20px; */
+         }
+
+<!-- make the scrollbar visible all the time -->
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .5);
+  box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+		
+
+
+
+		
+    </style>
+    <!-- this loads the Ractive source -->
+    <script src="https://cdn.jsdelivr.net/npm/ractive"></script>
+    <!-- This loads lodash -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js"></script>
+	<!-- This loads arrows -->
+    <script src="https://kit.fontawesome.com/61ebb60581.js" crossorigin="anonymous"> </script>
+	<!-- This loads icons -->
+	<script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+	<!-- This loads w3 -->
+      <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <!-- data -->
+    <script>
+        var CURRENT_STAGE = 'coref'; //Can be "coref" or "bridging". The functioning of all the components depends on the CURRENT_STAGE.
+        var CURRENT_SCREEN = 'regular'; //Can be "regular" or "bridge_expantion". Becomes "bridge_expantion" when the function applyBridgesToCluster is called
+        var COLORS = ["#8cffd8", "#FF7F50", "#6495ED", "#BDB76B", "#DDA0DD", "#FF69B4", "#FFD700", "#F5DEB3"]; //background colors for entities
+        var PREPS = ['of', 'in', 'to', 'for', 'with', 'on', 'at', 'from', 'by', 'about', 'over', 'between', 'against', 'under', 'among', 'before', 'after', 'during','outside','inside','near','member(s) of']; //prepositions for bridging
+        var OPTIONS = ["new", "same as...", "time/date/measurement expression","idiomatic"];
+        <!-- var STATES = {}; //holds the "state" field of the _options variable for each np. -->
+		var STATES = {"0":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"1":{"selected_coref_option":"same as...","selected_crf":0,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"2":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"3":{"selected_coref_option":"time/date/measurement expression","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"4":{"selected_coref_option":"time/date/measurement expression","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"5":{"selected_coref_option":"same as...","selected_crf":0,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"6":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"7":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"8":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"9":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"10":{"selected_coref_option":"time/date/measurement expression","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"11":{"selected_coref_option":"same as...","selected_crf":1,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"12":{"selected_coref_option":"same as...","selected_crf":0,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"13":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"14":{"selected_coref_option":"time/date/measurement expression","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"15":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"16":{"selected_coref_option":"same as...","selected_crf":11,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"17":{"selected_coref_option":"same as...","selected_crf":1,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"18":{"selected_coref_option":"same as...","selected_crf":1,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"19":{"selected_coref_option":"same as...","selected_crf":0,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"20":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"21":{"selected_coref_option":"same as...","selected_crf":9,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"22":{"selected_coref_option":"same as...","selected_crf":12,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"23":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"24":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"25":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"26":{"selected_coref_option":"same as...","selected_crf":1,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"27":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"28":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"29":{"selected_coref_option":"same as...","selected_crf":0,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"30":{"selected_coref_option":"same as...","selected_crf":17,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"31":{"selected_coref_option":"time/date/measurement expression","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"32":{"selected_coref_option":"time/date/measurement expression","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"33":{"selected_coref_option":"same as...","selected_crf":1,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"34":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"35":{"selected_coref_option":"same as...","selected_crf":1,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"36":{"selected_coref_option":"time/date/measurement expression","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"37":{"selected_coref_option":"time/date/measurement expression","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"38":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"39":{"selected_coref_option":"same as...","selected_crf":1,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"40":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"41":{"selected_coref_option":"same as...","selected_crf":0,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"42":{"selected_coref_option":"same as...","selected_crf":1,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"43":{"selected_coref_option":"same as...","selected_crf":0,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"44":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"45":{"selected_coref_option":"same as...","selected_crf":0,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"46":{"selected_coref_option":"same as...","selected_crf":1,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"47":{"selected_coref_option":"same as...","selected_crf":0,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"48":{"selected_coref_option":"same as...","selected_crf":0,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"49":{"selected_coref_option":"same as...","selected_crf":0,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"50":{"selected_coref_option":"same as...","selected_crf":0,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"51":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"52":{"selected_coref_option":"same as...","selected_crf":0,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"53":{"selected_coref_option":"idiomatic","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"54":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"55":{"selected_coref_option":"same as...","selected_crf":0,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"56":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"57":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"58":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"}};
+		//var STATES_FOR_REFERENCE holds correct np states; serves for checking the user's result
+		var STATES_FOR_REFERENCE = {"0":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"1":{"selected_coref_option":"same as...","selected_crf":0,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"2":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"6":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"13":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"14":{"selected_coref_option":"time/date/measurement expression","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"15":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"16":{"selected_coref_option":"same as...","selected_crf":5,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"20":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"21":{"selected_coref_option":"same as...","selected_crf":3,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"22":{"selected_coref_option":"same as...","selected_crf":6,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"23":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"26":{"selected_coref_option":"same as...","selected_crf":1,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"27":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"31":{"selected_coref_option":"time/date/measurement expression","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"33":{"selected_coref_option":"same as...","selected_crf":1,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"34":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"37":{"selected_coref_option":"time/date/measurement expression","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"40":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"43":{"selected_coref_option":"same as...","selected_crf":0,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"51":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"53":{"selected_coref_option":"idiomatic","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"54":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"55":{"selected_coref_option":"same as...","selected_crf":0,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"56":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"57":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"},"58":{"selected_coref_option":"new","selected_crf":null,"selected_bridges":[],"external_complement":"","external_preposition":"of"}};
+		var attempted_bridges = [];
+		var mistakes = 0;
+		var START_TIME = "";
+		var END_TIME = "";
+		var WORKER_ID = "";
+		
+	</script>
+    <script>
+        //this function highlights all the elements that belong to the same class
+        function highlightClass(cls, color) {
+            var elements = document.getElementsByClassName(cls);
+            for (var j = 0; j < elements.length; j++) {
+                elements[j].style.backgroundColor = color;
+            }
+        }
+		
+		//This function copies results from final screen
+		  function copyResult(elementId) {
+         
+           // Create an auxiliary hidden input
+           var aux = document.createElement("input");
+         
+           // Get the text from the element passed into the input
+           aux.setAttribute("value", document.getElementById(elementId).textContent);
+         
+           // Append the aux input to the body
+           document.body.appendChild(aux);
+         
+           // Highlight the content
+           aux.select();
+         
+           // Execute the copy command
+           document.execCommand("copy");
+         
+           // Remove the input from the body
+           document.body.removeChild(aux);
+                     
+         
+         }
+         
+    </script>
+    <!-- core code -->
+    <script src="tne_training.js"></script>
+    <!-- Partials -->
+    <script id="entity_row" type="text/html">
+        {{#each entity.members as member}} {{#if (!pronouns.includes(member))}}
+        <span style="background-color:{{entity_color(entity)}};" on-mouseover="['highlight', entity, entity_color(entity)]" on-mouseout="['highlight', entity, 'transparent']">
+		                {{text_from_id(member)}}
+		            </span> {{space}} {{/if}} {{/each}}
+    </script>
+
+    <script id="entity_row_draggable" type="text/html">
+        {{#each entity.members as member}} {{#if (!pronouns.includes(member))}}
+        <span draggable="true" ondragstart="drag(event,{{entity.id}},{{member}})" style="background-color:{{entity_color(entity)}};" on-mouseover="['highlight', entity, entity_color(entity)]" on-mouseout="['highlight', entity, 'transparent']">
+		                {{text_from_id(member)}}
+						<span on-click= "['remove_np_from_entity', member, entity.id]">[x]</span>
+        </span>
+
+        {{space}} {{/if}} {{/each}}
+    </script>
+	
+	<script id="entity_row_merged" type="text/html">
+        {{#each merged_members(entity) as member}} {{#if (!pronouns.includes(member))}}
+        <span style="background-color:{{entity_color(entity)}};" on-mouseover="['highlight', entity, entity_color(entity)]" on-mouseout="['highlight', entity, 'transparent']">
+		                {{text_from_id(member)}}
+		            </span> {{space}} {{/if}} {{/each}}
+    </script>
+
+    <script id="coref_details" type="text/html">
+        <div id = "coref_details" style="margin-bottom:10px;margin-top:10px;">
+            
+             
+			<ol class = 'inner'>
+			{{#each entities as entity}}
+            <li style="margin:2">
+                <input type="radio"  class = "crf" on-click= "['check_same_as']" id="coref{{entity.id}}" name="{{state.selected_crf}}" value="{{entity.id}}" />
+                <label for="coref{{entity.id}}">{{>entity_row}}</label>
+            </li>
+            {{/each}}
+			</ol>			 
+        </div>
+    </script>
+    <script id="bridging_details" type="text/html">        
+            <p style="margin-top:10px;margin-bottom:10px;"><b>The expression <span id = "my_expression" style = "background-color:yellow;">{{ current_np_text }}</span> is linked to...</b><i>(choose all that apply)</i></p>
+            <div id = "bridging_options">
+			<ol>
+			{{#each entities as entity}}
+			{{#if coref_for_training.includes(entity.id)}}
+            <li style="margin:2">
+                <input class='complement' id="bridge{{entity.id}}" type="checkbox" disabled = {{entity_includes_current(entity)}} name='{{state.selected_bridges}}' value="{{entity.id}}" on-change="['uncheck_no_bridge',state.selected_bridges, entity.id]" /> {{ current_np_text }}
+                <select on-change="['select_complement', entity.id]" value='{{entity.selected_preposition}}' id='addPrep{{entity.id}}' class='dropdowns'>
+	                               {{#each prepositions as prep}}
+	                               <option value='{{prep}}'>{{prep}}</option>
+	                               {{/each}}
+	                           </select> {{>entity_row}}
+            </li>
+			{{/if}}
+            {{/each}}
+			</ol>
+            <p style="margin:2">
+                <input class='complement' id="bridgeExternal" type="checkbox" name='{{state.selected_bridges}}' value="external" on-change="['uncheck_no_bridge',state.selected_bridges, 'external']" /> {{ current_np_text }}
+                <select on-change="['select_complement', 'external']" id='addPrepExternal' class='dropdowns' value='{{state.external_preposition}}'>
+	                               {{#each prepositions as prep}}
+	                               <option value='{{prep}}'>{{prep}}</option>
+	                               {{/each}}
+	                           </select>
+                <input type="text" id="state.external_complement" on-input="['select_complement', 'external']" value='{{state.external_complement}}'> (specify)</p>
+            <p style="margin:2">
+                <input type="checkbox" value="noBridge" name="{{state.selected_bridges}}" id="noBridge" on-change="['uncheck_all',state.selected_bridges]" class="complement">
+                <label for="noBridge">none of the above (should be rare)</label>
+            </p>
+        </div>
+    </script>
+
+
+    <script id="bridging_results" type="text/html"> 
+<p>Here are some suggested links 
+{{#if valid_cands_texts.length == 1}}
+for the expression <span style = "background-color:yellow">{{valid_cands_texts[0]}}</span>
+{{else}}
+for the expressions {{#each valid_cands_texts as cand:num}} 	
+{{#if num < valid_cands_texts.length -2 }}
+<span style = "background-color:yellow">{{cand}}</span>,{{space}}
+
+{{elseif num < valid_cands_texts.length -1 }}
+<span style = "background-color:yellow">{{cand}}</span>{{space}}
+{{else}}
+and <span style = "background-color:yellow">{{cand}}</span>
+{{/if}}
+
+{{/each}}
+{{/if}}.</p>
+        {{#each antecedents as entity:num}}
+		<p>You suggested the following link:
+        <span style="font-weight:bold">{{ current_np_text }} [{{entity.selected_preposition}} {{>entity_row_merged}}]</span></p>
+		{{>bridging_expansion}}
+        {{/each}} 
+		
+		{{#if merged_cands_for_reference.length > antecedents.length}}
+		<p>You suggested the following link:
+        <span style="font-weight:bold">{{ current_np_text }} [{{state.external_preposition}} {{state.external_complement}}]</span></p>
+		{{>bridging_expansion_external}}
+        {{/if}}
+    </script>
+	
+	
+	<script id="bridging_expansion" type="text/html">
+        <div style="background-color: #f1f1f1;border-radius: 5px;padding:10px;">
+            <p>Are the following links also true? <i><span style = "color:grey">(uncheck the links you want to remove)</i> </p>
+            
+			{{#each merged_cands_for_reference[num] as cand}}
+            <p style="font-weight:bold">
+                
+            <input class='link'  type="checkbox"  name='{{merged_cands[num]}}' value="{{cand}}" /> {{ cand }} [{{entity.selected_preposition}} {{>entity_row_merged}}]            
+			</p>
+            {{/each}}			
+		</div>
+    </script>
+	
+	<script id="bridging_expansion_external" type="text/html">
+        <div style="background-color: #f1f1f1;border-radius: 5px;padding:10px;">
+            <p>Are the following links also true? <i><span style = "color:grey">(uncheck the links you want to remove)</i> </p>
+			
+			
+			{{#each merged_cands_for_reference[merged_cands.length-1] as cand}}
+            <p style="font-weight:bold">
+                
+				<input class='link'  type="checkbox"  name='{{merged_cands[merged_cands.length-1]}}' value="{{cand}}" />{{ cand }} [{{state.external_preposition}} {{state.external_complement}}]            
+			</p>
+            {{/each}}
+			
+        </div>
+    </script>
+	
+	
+
+    <!--- Templates -->
+    <script id="text_tpl" type="text/ractive">
+	    <span class="tooltip"><i class="fas fa-question-circle"></i>
+    <div class="tooltiptext tooltip-article">The expression highlighted in yellow is the expression you are currently annotating.</div>
+  </span>
+        {{{ render_text(nps, text, entities, current, screen, bridge_candidates) }}}
+    </script>
+
+    <script id="entity_pane_tpl" type="text/ractive">
+<div style = "margin-top:20px;"><span  class="tooltip"><i class="fas fa-question-circle"></i>
+    <div class="tooltiptext1 tooltip-entities">You can open this section to see the entity clusters to which you can link the expressions from the text.
+		If you hover over a cluster you'll see all its expressions highlighted in the text.
+	</div>
+  </span><div>
+		<p style="margin:2;margin-top:6px;"><a style = "cursor:pointer;" on-click="@.toggle('hidden')"><b>My entity clusters </b><i class='fas'>
+		{{#if hidden}}
+			 &#xf0da;
+		{{else}}
+			 &#xf0d7;
+		{{/if}}	
+		</i></a></p>
+        {{#if (!hidden)}}
+            <div id="entity_pane">
+            
+        <ol>
+            {{#each entities as entity}} {{#if stage == "coref"}}
+            <li style="margin:2;margin-left:-10" ondragover="allowDrop(event)" ondrop="drop(event, {{entity.id}})">
+                {{>entity_row_draggable}}
+            </li>
+            {{else}}
+			{{#if coref_for_training.includes(entity.id)}}
+            <li style="margin:2;margin-left:-10">
+                {{>entity_row}}
+            </li>
+			{{/if}}
+            {{/if}} {{/each}}
+        </ol>
+		</div>
+		{{/if}}	
+        </div>
+</div>	
+    </script>
+
+    <script id="items_tpl" type="text/ractive">        
+		{{#each nps as np}}
+		{{#if np.id == current_np_id}}
+        <span class = "item" id = "current_item" style = "background-color:lightyellow" on-click="['go_to_np', np]"> {{np.text}}</span> 
+		{{elseif done_items[np.id]}}
+        <span class = "item" style = "color:gray" on-click="['go_to_np', np]"><s> {{np.text}}</s></span> 
+		{{else}}
+        <span class = "item" on-click="['go_to_np', np]"> {{np.text}}</span> 
+		{{/if}} 
+		{{/each}}
+    </script>
+    <script id="options_tpl" type="text/ractive">
+	<span class="tooltip"><i class="fas fa-question-circle"></i>
+    <div class="tooltiptext tooltip-options">
+	{{#if screen == "regular"}}
+	<p style="margin:2;">In this section you see the current expression (highlighted in yellow in the text section) and the entity clusters. You need to establish the links between the highlighted expression and the entity clusters.</p>
+	<ul style="margin:2;">
+	<li>Check the links that apply and select a preposition (or "member(s) of") for each link from a dropdown menu.</li>
+	<li>Use keyboard shortcuts. To select an option, hit the letter/number of the option on your keyboard while holding SHIFT.</li>
+	</ul>
+	{{else}}
+	Uncheck the links that do not apply.
+	{{/if}}
+	</div>
+  </span>	
+        {{#if screen == "regular"}} {{#if stage == "coref"}}
+        <p style="margin-top:6px;margin-bottom:0;"><b>What is the best fitting label for the expression <span id = "my_expression" style = "background-color:yellow;">{{ current_np_text }}</span>?</b></p>
+        <div id = "coref_options">
+		<!-- other options -->
+		<ol type="a" class = "outer">
+        {{#each coref_options: num}} {{#if this == "same as..."}}
+        <!-- coref -->
+		
+		<li style="margin-top:5px;">
+            <input type="radio" name="{{state.selected_coref_option}}" value="{{this}}" id="opt{{num}}" disabled = {{sameIsDisabled}} class="opt">
+             <label for="opt{{num}}">
+			 {{#if(!sameIsDisabled)}}
+			 <a  style = "cursor:pointer;" on-click="@.toggle('hidden')">{{this}}<i class='fas'>			 
+			 {{#if hidden}}
+			 &#xf0da;
+			 {{else}}
+			 &#xf0d7;
+			 {{/if}}			 
+			 </i></a>
+			 {{else}}
+			 {{this}}
+			 {{/if}}
+			 </label>  
+		</li>			 
+        
+		{{#if(!(hidden||sameIsDisabled))}}
+		{{>coref_details}} 
+		{{/if}}
+		{{else}}
+        <li style="margin-top:5px;">
+            <input type="radio" name="{{state.selected_coref_option}}" on-click="['uncheck_same_as']" value="{{this}}" id="opt{{num}}"  class="opt">
+            <label for="opt{{num}}">{{this}}</label>
+        </li>
+        {{/if}} {{/each}}
+		</ol>
+        <!-- bridging stage -->
+		</div>
+        {{else}}
+		{{>bridging_details}} 
+		{{/if}} 
+		{{else}} 
+		<div style = "height:100%; overflow-y: scroll;">
+		{{>bridging_results}} 
+		
+		</div>
+		{{/if}}
+    </script>
+
+    <script id="button_tpl" type="text/ractive">
+	<div style = "margin:2;padding-left:10px;"><span  class="tooltip" ><i class="fas fa-question-circle"></i>
+    <span class="tooltiptext tooltip-button">Click this button when you are done selecting (or unselecting) suggested links, and it will either take you to the next expression or (in some cases) show some suggested links for you to confirm. You can use Enter on your keyboard instead.</span>
+  </span></div>
+	
+        <input  style = "margin:2" twoway='false' type="button" id="next" value={{val}} on-click="['next_step', screen]">
+		<input  style = "margin:2;float:right;" twoway='false' type="button" id="display_intro" value="Display instructions" onclick="display_intro();">
+    </script>
+
+    <script id="links_tpl" type="text/ractive">
+	<div style = "margin:2;"><span  class="tooltip" ><i class="fas fa-question-circle"></i>
+    <span class="tooltiptext1 tooltip-links">In this section you can see the links you created (if any).</span>
+  </span></div>
+        {{#if stage == "bridging"}}
+        <p style="margin:2;margin-left:5;"><b>My links:</b>
+		</p>
+		<div id = "lnks">
+        
+		<ol>{{#each merged_bridges as link}}
+        <li style="margin:2;margin-left:20;">{{text_from_id(link.bridge)}} [{{link.preposition}} {{#if link.type == "regular"}} {{#each get_complement(link.complement).members as member}} {{#if (!pronouns.includes(member))}}
+            <span style="background-color:{{entity_color(get_complement(link.complement))}};" on-mouseover="['highlight', (get_complement(link.complement)), entity_color(get_complement(link.complement))]" on-mouseout="['highlight', (get_complement(link.complement)), 'transparent']">
+		                {{text_from_id(member)}}
+		            </span> {{space}} {{/if}} {{/each}}]
+            <!-- external bridges		 -->
+            {{else}}
+            <span>{{link.complement}}]</span> {{/if}}
+        </li>
+        {{/each}} 
+		</ol>
+		</div>
+		{{/if}}
+    </script>
+	
+	
+	<script id="final_screen_tpl" type="text/ractive">
+         <div id = "final_screen" style = "display: {{#if displayed}}block{{else}}none{{/if}};">
+         {{#if displayed}}
+		 <h2 style = "color:green">Your training is over. Thank you!</h2>
+	<p style = "font-size: 20;margin-top:40px;">Great job! You tried specifying <span style = "font-size:26;color:green;">{{attempted_bridges.length}}</span>  links, {{bridges.length}} of them - correctly!</p>
+	<p style = "font-size: 20">You can repeat the training if you wish.</p>
+	<input  style = "margin:2;margin-left:40%;margin-top:20px;" twoway='false' type="button" id="repeat_training" value="Repeat training" onclick="repeat_training();">
+         
+         {{/if}}
+         </div>
+       
+      </script> 
+	  
+	<script id="feedback_screen_tpl" type="text/ractive">
+	<div id = "fdbck_screen" style = "display: {{#if displayed}}block{{else}}none{{/if}};">
+	{{#if displayed}}
+	{{#if incorrect_bridges.length == 0 && not_all_found}}
+	
+	<p style="margin-left:20;font-size:large;color:red">Your links are correct. However, there are more links to be specified. Please, think again!</p>
+	{{/if}}
+	{{#if incorrect_bridges.length >0}}
+	<div> 
+	<p style="margin:2;margin-left:20;font-size:20;font-weight:bold;color:red;">You specified some incorrect links:</p>
+	<ol>
+	{{#each incorrect_bridges as link}}
+	<li>
+        <p style="margin-left:20;">{{text_from_id(link.bridge)}} [{{link.preposition}} {{#if link.type == "regular"}} {{#each get_complement(link.complement).members as member}} {{#if (!pronouns.includes(member))}}
+            <span style="background-color:{{entity_color(get_complement(link.complement))}};" on-mouseover="['highlight', (get_complement(link.complement)), entity_color(get_complement(link.complement))]" on-mouseout="['highlight', (get_complement(link.complement)), 'transparent']">
+		                {{text_from_id(member)}}
+		            </span> {{space}} {{/if}} {{/each}}]
+            <!-- external bridges		 -->
+            {{else}}
+            <span>{{link.complement}}]</span> {{/if}}</p>
+			<p style="margin-left:20;color:red">{{link.comment}}
+        </p>
+		</li>
+        {{/each}} 
+	</ol>	
+</div>
+{{/if}}
+{{#if correct_bridges.length > 0}}
+<div> 
+{{#if incorrect_bridges.length > 0 || not_all_found}}
+<p style="margin-left:20;;font-size:20;font-weight:bold;color:green;">Here are comments about some of your correct links:</p>
+{{else}}
+<p style="margin-left:20;;font-size:20;font-weight:bold;color:green;">All of your links are correct! Here are comments about some of them:</p>
+{{/if}}
+<ol>
+	{{#each correct_bridges as link}}
+	<li>
+        <p style="margin:2;margin-left:20;">{{text_from_id(link.bridge)}} [{{link.preposition}} {{#if link.type == "regular"}} {{#each get_complement(link.complement).members as member}} {{#if (!pronouns.includes(member))}}
+            <span style="background-color:{{entity_color(get_complement(link.complement))}};" on-mouseover="['highlight', (get_complement(link.complement)), entity_color(get_complement(link.complement))]" on-mouseout="['highlight', (get_complement(link.complement)), 'transparent']">
+		                {{text_from_id(member)}}
+		            </span> {{space}} {{/if}} {{/each}}]
+            <!-- external bridges		 -->
+            {{else}}
+            <span>{{link.complement}}]</span> {{/if}}</p>
+			<p style="margin-left:20; color:green;">{{link.comment}}
+        </p>
+		</li>
+        {{/each}} 
+		</ol>
+</div>
+{{/if}}
+<input  style = "margin:2;margin-left:40%;margin-top:70px;" twoway='false' type="button" id="got_feedback" value = "Got it!" onclick="close_feedback();">
+	{{/if}}
+	</div>
+	</script>
+	
+	<script id="intro_screen_tpl" type="text/ractive">
+	<div id = "intro_screen" style = "display: {{#if displayed}}block{{else}}none{{/if}};">
+	{{#if displayed}}
+	{{#if val == "Start training"}}
+	<br><br><br><br><br><br><br><br><br><p style = "margin:2;margin-top:20px;text-align:center;font-weight:bold;">Please, enter <u>the last four characters</u> of your worker id here:</p>
+	<p style = "margin:2;margin-top:20px;"><input type="text" style = "height:40;width:200;margin-left:40%" id="worker_id" value='{{worker_id}}'></p>
+
+	{{else}}
+	<div>
+	<p style = "margin:2;margin-top:20px;">You see a text with a marked expression in it. Your task is specify its links with other expressions in the text.</p>
+	<p style = "margin:2;margin-top:20px;">Below the text you will see a number of suggested links. You should check those links that you consider correct.</p>
+	
+	<ul>
+	<li style = "margin:2">Suggested links might include links to individual expressions or to clusters of expressions all of which refer to the same thing.</li>
+<li style = "margin:2">All the expressions in a cluster should refer to the same thing. If you happen to come across a cluster  that is incorrect (not all the expressions in it refer to the same thing) - you can just ignore it (not link anything to it). You can also mention this in a comment.</li>
+<li style = "margin:2">There is an option to add a link of your own (at the end of the suggestions). If you add a link of your own, remember that you can only use expressions
+<b> from the text</b> and only <b>nouns or noun phrases</b>. </li>
+<li>For each selected link you should also choose a preposition from a dropdown menu that best expresses the relations between the linked expressions</li>.
+<li>At the end of the list of dropdown menu of prepositions you will also find the expression "member(s) of". Use it instead of a preposition if the relation between the liked expressions can be described as <b>element(s) - set </b> (for example, "one employee" - "all the employees").</li>
+<li>However, do not use "member(s) of" if you can express the relation with a preposition (for example, you should say "a player [of the team]" rather than "a player [member(s) of the team]".</li>
+<li>You should try to find for each expression as many valid links as you can.</li>
+<li>There is an option to say "none of the above" (meaning that the expression highlighted in yellow is not linked to anything in the text). However you should only use it as a last resort, after making sure that you cannot find any valid links.</li>
+</ul>
+<p>After you've selected all the valid links you might be suggested some additional links, somewhat similar to the ones you just specified.</p>
+<ul style = "margin:2">
+<li style = "margin:2">These will also appear under the text.</li>
+<li style = "margin:2">Unlike the original set of suggestions, these will be checked, and you should look through them and <b> uncheck those that DO NOT apply</b></li>
+</ul>
+</div>
+{{/if}}
+<input  style = "margin:2;margin-left:40%;margin-top:20px;" twoway='false' type="button" id="got_it" value={{val}} onclick="go_to_training();">
+	{{/if}}
+	</div>
+    </script> 
+    <!--- Code -->
+    <script>
+        // this function renders the HTML of the main textbox
+        function f_render_text(nps, text, entities, cid, screen, bridge_candidates) {
+            // this renders the text based on the nps, the text, and the current np id.					 
+            var chars = text.raw_text.split('');
+            					 
+            nps.forEach(np => {
+                var my_entity = entities.filter(entity => entity.members.includes(np.id))[0];
+                
+                if (np.id == cid) {
+                    chars[np.start_index] = `<span id='cur_NP'>` + chars[np.start_index];
+                } else {
+                    if (my_entity != undefined) {
+                        if (screen != "regular" && bridge_candidates.includes(np.id)) {
+                            chars[np.start_index] = "<span class = 'bridge_candidate entity" + my_entity.id + "'>" + chars[np.start_index];
+                        } else {
+                            chars[np.start_index] = "<span class = 'entity" + my_entity.id + "'>" + chars[np.start_index];
+                        }
+                    } else {
+                        chars[np.start_index] = `<span>` + chars[np.start_index];
+                    }
+                }
+                chars[np.end_index - 1] = chars[np.end_index - 1] + "</span>";
+            });
+            //title	
+            chars[text.title.start_index] = `<h2>` + chars[text.title.start_index];
+            chars[text.title.end_index - 1] = chars[text.title.end_index - 1] + "</h2>";
+            //subtitles
+            text.subtitles.forEach(subtitle => {
+                chars[subtitle.start_index] = `<h3>` + chars[subtitle.start_index];
+                chars[subtitle.end_index - 1] = chars[subtitle.end_index - 1] + "</h3>";
+            });
+            //paragraphs
+            text.paragraphs.forEach(paragraph => {
+                chars[paragraph.start_index] = `<p>` + chars[paragraph.start_index];
+                chars[paragraph.end_index - 1] = chars[paragraph.end_index - 1] + "</p>";
+            });
+			            
+            return chars.join("");
+        };
+
+        //this function returns the text of an np
+        function f_np_text_from_id(np_id) {
+            np = nps.filter(np => np.id == np_id)[0];
+            return np.text;
+        };
+		
+		//this function checks if an entity includes current np
+        function f_entity_includes_current(entity) {
+		    var current = get_current_np_id();			
+            if(entity.members.includes(current)){
+			return true;
+			}
+            return false;
+        };
+		
+		//this function merges similar texts of members of the same cluster (filters dupliate np texts)
+		function f_merge_entity_members(entity){
+		var merged_members = [];
+		entity.members.forEach(member => {
+				 var txt = nps[member].text;
+				if (!merged_members.map(m => nps[m].text).includes(txt)) {
+					merged_members.push(member);				}
+				});	
+        return merged_members;				
+		}
+
+
+        <!-- UI functions that call the core code -->
+        //This function takes the user to the next NP: highlights the next np in the text and updates the option pane acordingly
+        function ui_go_to_next_np() {
+             var np_id = go_to_next_np();
+             
+             if (np_id == null) {
+                 if (CURRENT_STAGE == 'coref') {
+                     if (confirm('You are about to go to bridging stage. Are you sure your coref clusters are correct? If not, click "Cancel" and revise them.')) {
+                         go_to_bridging_stage();
+                     } else {
+                         return;
+                     }
+         
+                 } else {
+         
+         showFinalScreen();
+                     
+                 }
+             } else {
+                 _text.set({
+                     'current': np_id,
+                 });
+         
+         _item_pane.set({
+                     'current_np_id': np_id,
+                 });
+         
+                 update_options();	
+                 
+         
+         scrollElementIntoView('current_item');
+         scrollElementIntoView('cur_NP');
+             }
+         }
+		
+		function go_to_training(){
+		//open all the container divs
+		document.querySelectorAll('.container').forEach(function(el) {
+		el.style.display = 'block';
+		});
+		//get worker id
+		WORKER_ID = _intro_screen.get('worker_id');
+		//set data for final screen
+		_intro_screen.set({	
+					'val': "Hide instructions",
+					'displayed':false,
+                });
+		}
+		
+		function close_feedback(){
+		//open all the container divs
+		document.querySelectorAll('.container').forEach(function(el) {
+		el.style.display = 'block';
+		});
+		//set data for final screen
+		_feedback_screen.set({
+					'displayed':false,
+					correct_bridges:[],
+				incorrect_bridges:[],
+				not_all_found:false,
+                });
+		}
+		
+		function repeat_training(){
+		location.reload();				
+		}
+		
+		function display_intro(){		
+		_intro_screen.set({					
+					'displayed':true,
+                });
+		}
+		
+				
+		 function showFinalScreen(){
+		 //get timing
+		 END_TIME = Date.now();
+           var timing = millisToMinutesAndSeconds(END_TIME - START_TIME);
+		   //deduplicate attempted bridges
+		   var attempted_links = Array.from(new Set(attempted_bridges.map(JSON.stringify)), JSON.parse);
+		 //save training data
+
+         //set data for final screen
+		 
+         _final_screen.set({
+                     'crf_clusters': JSON.stringify(coref),        
+		 
+         'displayed':true,
+		 'attempted_bridges':attempted_links,
+                 });
+				 coref = [];
+		update_entity_pane();
+         }	
+
+//This function gets start time
+		 function getStartTime(){
+		 START_TIME = Date.now();
+		 }
+		 
+		 //This function converts time in millis to minutes and seconds
+         function millisToMinutesAndSeconds(millis) {
+           var minutes = Math.floor(millis / 60000);
+           var seconds = ((millis % 60000) / 1000).toFixed(0);
+           return minutes + ":" + (seconds < 10 ? '0' : '') + seconds;
+         }
+		 
+         
+
+		
+		function scrollElementIntoView(elementId){
+		document.getElementById(elementId).scrollIntoView({
+            behavior: 'auto',
+            block: 'center',
+            inline: 'center'
+        });		
+		}
+
+        //This function takes the user to bridging stage when coref stage is finished
+        function go_to_bridging_stage() {
+            //change style
+            
+            document.getElementById("mid_r").style.bottom = "28%";			
+			document.getElementById("bottom_r").style.top = "72%";
+			document.getElementById("bottom_r").style.bottom = "5%";
+			
+            set_current_np(0);
+            CURRENT_STAGE = 'bridging';
+            var filtered_nps = get_nps_for_bridging_stage();
+            filtered_nps.forEach((np) => {
+                mark_done(np.id, false);
+            });
+            _options.set({
+                'stage': CURRENT_STAGE,
+                'pronouns': pronouns,
+            });
+            _links.set({
+                'stage': CURRENT_STAGE,
+                'pronouns': pronouns,
+                'stage': CURRENT_STAGE,
+            });
+            _entity_pane.set({
+                'pronouns': pronouns,
+                'stage': CURRENT_STAGE,
+            });
+
+            _item_pane.set({
+                'stage': CURRENT_STAGE,
+                'done_items': done_nps,
+                'nps': filtered_nps,
+				'current_np_id': 0,
+            });
+            _text.set({
+                'current': 0,
+                'nps': nps,
+            });
+            update_options();
+        }
+
+
+        //This function is executed when an item is clicked on the item pane.
+        //The clicked item is highlighted in the text. If the clicked item was "done" (scratched out), it becomes "not done" again.
+        function go_to_np(np_id) {
+            var new_current = set_current_np(np_id);
+            
+            _text.set({
+                'current': new_current
+            });
+			
+			 _item_pane.set({                
+				'current_np_id': new_current,
+            });
+			
+            update_options();
+            mark_done(new_current, false);
+            update_item_pane();
+			
+			scrollElementIntoView('cur_NP');
+        }
+
+        function update_entity_pane() {
+            var entities = coref;
+            _entity_pane.set({
+                'entities': entities
+            })
+        }
+
+        //This function updates the item pane
+        function update_item_pane() {
+            var done_items = done_nps;
+            _item_pane.set({
+                'done_items': done_items
+            })
+        }
+
+        //This function updates "my links" section
+        function update_links() {
+            var links = bridges;
+            _links.set({
+                'bridges': links,
+            })
+        }
+
+
+        //This function updates the option pane
+        function update_options() {
+            var np_id = get_current_np_id();
+            if (np_id == null) {
+                return;
+            }
+            var current_np_text = nps[np_id].text;
+            var entities = coref;
+            for (var j = 0; j < entities.length; j++) {
+                entities[j].selected_preposition = "of";
+            }
+            _options.set({
+                'current_np_text': current_np_text,
+                 'entities': entities,
+                 'bridge_candidates': [],
+                 'merged_cands': [],
+				 'merged_cands_for_reference': [],
+				 'valid_cands_texts':[],
+
+                'state': {
+                    selected_coref_option: (entities.length > 0 ? "same as...":null),
+                    selected_crf: null,
+                    selected_bridges: [],
+                    external_complement: '',
+                    external_preposition: 'of',
+                }
+            });
+
+            var visited_nps = get_visited_nps();
+            if ((CURRENT_STAGE == "coref" && visited_nps.includes(np_id)) || (CURRENT_STAGE == "bridging" && STATES[np_id]["selected_bridges"].length > 0)) {
+               var current_state = {};
+				 for (const [key, value] of Object.entries(STATES[np_id])) {
+				  current_state[key] = value;
+				}
+				 _options.set({
+                     'state': current_state,
+                 });
+                //at bridging stage, get the prepositions from the STATES variable as well	
+                if (CURRENT_STAGE == "bridging") {
+                    for (var j = 0; j < entities.length; j++) {
+                        entities[j].selected_preposition = STATES[np_id]["preps"][j];
+                    }
+                    _options.set({
+                        'entities': entities,
+                    });
+                }
+            }
+        }
+
+        //This function returns the entity to which the np belongs
+        function get_entity(np_id) {
+            var entity = coref.filter(entity => entity.members.includes(np_id))[0];
+            return entity;
+        }
+
+
+
+        //This function forms a new entity
+        function ui_new_entity(np_id, source) {
+            form_new_entity(np_id, source);            
+            mark_done(np_id);
+            
+        }
+
+
+
+        //This function assigns the np to an existing cluster
+        function ui_same_as(np_id, cluster_id) {
+            add_coref_np_to_entity(np_id, cluster_id);            
+            mark_done(np_id);            
+        }
+
+        //This function creates regular bridges
+        function ui_link_to_entities(np_id, cluster_ids) {
+            for (var j = 0; j < cluster_ids.length; j++) {
+                var prepId = "addPrep" + cluster_ids[j];
+                var prep = _options.get('entities').filter(entity => entity.id == cluster_ids[j])[0]["selected_preposition"];
+                link_to_entity(np_id, cluster_ids[j], prep);
+            }
+            mark_done(np_id);
+        }
+
+        //This function creates external bridges		
+        function ui_link_to_external_np(np_id, external_np, prep) {
+            link_to_external_np(np_id, external_np, prep);
+            mark_done(np_id);
+        }
+
+        //This function deletes all the bridges of an np
+        function ui_delete_bridges(np_id) {
+            var my_bridges = bridges.filter(link => link.bridge == np_id);
+            for (var j = 0; j < my_bridges.length; j++) {
+                delete_bridge(my_bridges[j].id);
+            }
+        }
+
+
+
+
+        function data_from_model(np_id) {
+            var selected_coref_option = _options.get('state.selected_coref_option');
+            
+            var selected_crf = _options.get('state.selected_crf');
+            var selected_bridges = _options.get('state.selected_bridges');
+            var external_complement = _options.get('state.external_complement');
+            var external_preposition = _options.get('state.external_preposition');
+            if (CURRENT_STAGE == "coref") {				
+                if (get_visited_nps().includes(np_id) && (STATES[np_id] != _options.get("state"))) { //if the user is revisiting, delete previous answers					
+                    var old_entity_id = get_entity(np_id).id;
+                    delete_coref_link(np_id, old_entity_id);
+                    mark_done(np_id, false);
+                    delete STATES[np_id];
+                }
+
+                if (selected_coref_option == "same as...") { //coref is selected                    
+                    ui_same_as(np_id, selected_crf);
+                } else { //an option creating a new entity is selected
+                    ui_new_entity(np_id, selected_coref_option);
+                }
+
+            } else { //bridging stage
+			if(isCorrect()){
+			
+                //"none of the above" is selected - just mark the np as done; if it's being revisited - remove all the bridges and member-of links
+                if (selected_bridges[0] == "noBridge") {
+                    mark_done(np_id);
+                    ui_delete_bridges(np_id);
+
+                } else {
+                    //bridging is selected
+
+                    //check if the user is not trying to link the np to its own entity
+                    for (var j = 0; j < selected_bridges.length; j++) {
+                        try {
+                            checkIfNotSameAs(np_id, selected_bridges[j]); //check if the np does not belong to the entity
+                        } catch (e) {
+                            console.log(e.name + ': ' + e.message);
+                            alert("You cannot link an expression to its own coref group.");
+                            return;
+                        }
+                    }
+                    //if the np is being revisited, delete former bridges
+                    ui_delete_bridges(np_id);
+                    //select internal bridges
+                    var internal_complements = selected_bridges.filter(bridge => bridge != "external");
+                    //create bridges
+                    
+					ui_link_to_entities(np_id, internal_complements);
+					 
+                    //if external bridge is checked
+                    if (selected_bridges.includes("external")) {
+                        ui_link_to_external_np(np_id, external_complement, external_preposition);
+                    }
+					
+                }
+            } else { 
+			        console.log("Incorrect");					
+					return;
+				}
+			}
+
+        }
+
+        //This function returns true if at least one valid option is selected
+        function optionSelected() {
+            var selected_coref_option = _options.get('state.selected_coref_option');
+            var selected_crf = _options.get('state.selected_crf');
+            var selected_bridges = _options.get('state.selected_bridges');
+            var external_complement = _options.get('state.external_complement');
+			
+			
+            if (CURRENT_STAGE == "coref") {			
+                if (selected_coref_option == null) {
+                    alert("Please, select an option!");
+                    return false;
+                } else if (selected_coref_option == "same as...") { //if coref is selected, check if an antecedent has been selected				
+                    if (selected_crf == null) {
+                        alert("Select an option from the \"same as...\" section.");
+                        return false;
+                    }
+                }
+                return true
+            } else { //bridging stage				
+                if (selected_bridges.length == 0) {
+                    alert("Please, select an option!");
+                    return false;
+                } else { //check if any of the selected options require an antecedent; if so, check if and antecedent has been selected		                 
+                    if (selected_bridges.includes("external") && external_complement.trim() == '') {
+                        alert("Please, specify a complement in the textbox."); //If external complement is selected, the textbox cannot be empty
+                        return false;
+                    } else if (selected_bridges.includes("external") && text.raw_text.toLowerCase().indexOf(external_complement.trim().toLowerCase()) == -1) {
+                         alert("You can only type a complement from the text! Make sure that the complement you suggest is a noun or a nou phrase from the text."); //If external complement is selected, the textbox cannot be empty
+                         return false;
+                     } 
+
+                    //check if the user is not trying to link the np to its own entity
+                    for (var j = 0; j < selected_bridges.length; j++) {
+                        try {
+                            checkIfNotSameAs(get_current_np_id(), selected_bridges[j]); //check if the np does not belong to the entity
+                        } catch (e) {
+                            console.log(e.name + ': ' + e.message);
+                            alert("You cannot link an expression to its own coref group.");
+                            return false;
+                        }
+                    }
+                }
+                return true;
+            }
+        }
+
+
+
+
+
+        //This function is executed when the "Next" button is clicked    
+        function doNext() {
+            if (!optionSelected()) {
+                return;
+            }
+			
+            if (CURRENT_STAGE == "bridging" && _options.get("state.selected_bridges")[0] != "noBridge") { //if bridging is selected				 
+             if(isCorrect()){ 
+			   applyBridgesToCluster();
+			   } else {
+			   return;
+			   }
+            } else {
+                showNextExpression();
+            }
+			var divId = (CURRENT_STAGE == "coref"  ? "coref_options" : "options");			
+			document.getElementById(divId).scrollTop = 0;
+            try{			
+			document.getElementById("entity_pane").scrollTop = 0;
+             } catch(e){
+console.log("Entity pane hidden");
+}			 
+        }
+
+        //This function takes the user to the next np in question
+        function showNextExpression() {
+            var np_id = get_current_np_id();
+            if (np_id != null) {
+                data_from_model(np_id);
+
+                //save the "state" field of the _options variable					
+                STATES[np_id] = _options.get('state');
+                //at bridging stage, also save prepositions
+                if (CURRENT_STAGE == "bridging") {
+                    var preps = _options.get('entities').map(entity => entity.selected_preposition);
+                    STATES[np_id]["preps"] = preps;
+                }
+
+                //update screen
+                update_item_pane();
+                update_entity_pane();
+                update_links();
+            }
+            ui_go_to_next_np();
+        }
+
+
+
+		 //***
+         function mergeCands(bridge_candidates,np_id){
+		 var bridge_cands_merged = {};
+                 bridge_candidates.forEach(cand => {
+                     cand_np = nps[cand];
+                     if (cand_np.text in bridge_cands_merged) {
+                         bridge_cands_merged[cand_np.text].push(cand);
+                     } else {
+                         bridge_cands_merged[cand_np.text] = [cand];
+                     }
+                 });	 
+			return Object.keys(bridge_cands_merged).filter(cand => cand != nps[np_id].text);
+		 }
+		 
+		 
+		 //this function is used in bridge expansion to clusters: it excludes existing brdges fromthe list of suggestions;
+		 //builds a dictionary of valid candidates for each antecedent***
+		 function find_valid_bridge_candidates(antecedents, bridge_candidates){
+		 var valid_cands = {};
+				 for (var j = 0; j < antecedents.length; j++) {
+				 var ant_id = antecedents[j].id;
+				 var my_cands = [];
+					for (var i = 0; i < bridge_candidates.length; i++) {
+						var cand = bridge_candidates[i];
+                         try {
+                             checkIfBridgingLinkExists(cand, ant_id); //check if the link already exists
+							 my_cands.push(cand);
+                         } catch (e) {
+                             console.log(e.name + ': ' + e.message);
+							 console.log("excluding this candidate for this antecedent: this link already exists");                              
+                         }
+						 }
+						 valid_cands[ant_id] = my_cands;
+                     }
+		 
+			return (valid_cands);
+		 }
+
+         function applyBridgesToCluster() {
+             //get current np id
+             var np_id = get_current_np_id();
+             //get the entity of the current np
+             var cur_entity = get_entity(np_id);
+             if (cur_entity.members.length > 1) { //do bridge expansion if the entity members include other NPs besides the current one
+                 
+                 //switch SCREEN to "bridge_expansion"
+                 toggle_screen();
+                 //update _options	
+				//select the possible antecedents: the "selected bridges for the current NP	
+                 var antecedents = _options.get('entities').filter(entity => _options.get('state.selected_bridges').includes(entity.id));
+                 //select the bridge candidates: the coreferent expressionsof the current NP
+				 var bridge_candidates = cur_entity.members.filter(member => (!(member == np_id || pronouns.includes(member))) && train_nps.map(np => np.id).includes(member));
+                 //find valid bridge candidates for each antecedent individually (excluding the links that already exist)
+				 var valid_cands = find_valid_bridge_candidates(antecedents, bridge_candidates);				 
+				 console.log(valid_cands);
+					 
+					 
+					 //exclude the antecedents that have no valid candidates
+					 antecedents = antecedents.filter(ant => valid_cands[ant.id].length > 0);
+					 console.log(antecedents);
+				 //find valid bridges for external antecedent (if there is one): such candidates that don't have an external antecedent yet
+					var valid_cands_for_external_antecedent = [];
+					if (_options.get('state.selected_bridges').includes("external")){					 
+					 for (var i = 0; i < bridge_candidates.length; i++) {
+						var cand = bridge_candidates[i];
+						//if this bridge NP does not have an external antecedent yet, add it to the list
+						if (bridges.filter(b => b.bridge == cand && b.type == "external").length == 0){
+						valid_cands_for_external_antecedent.push(cand);
+						}
+						
+					 }
+					 }
+				 
+				
+				//convert the "valid_cands" distionary to a list of TEXTS of bridge candidate for each antecedent
+				var merged_cands = antecedents.map(ant => mergeCands(valid_cands[ant.id],np_id));
+				if (valid_cands_for_external_antecedent.length > 0){
+				merged_cands.push(mergeCands(valid_cands_for_external_antecedent,np_id))
+				}
+				console.log(merged_cands);
+				var valid_cands_texts = [... new Set([].concat.apply([], merged_cands))];
+				console.log(valid_cands_texts);
+				
+                 _options.set({
+                     'antecedents': antecedents,
+                     'bridge_candidates': bridge_candidates,
+                     'merged_cands': merged_cands,
+         'merged_cands_for_reference': merged_cands,
+		 'valid_cands_texts':valid_cands_texts, 
+		 
+                 });
+         
+                 //update _text
+         
+                 _text.set({
+                     'bridge_candidates': bridge_candidates,
+                 });
+         
+                 if ((merged_cands.length == 0)||(merged_cands.filter(cand =>cand.length > 0).length ==0)) { //if all the members of the cluster of the current NP are identical in text, all of them are automatically linked to the same antecedent; if all the possible links already exist, there's nothing to create;    
+					 createLinks();
+                 }
+         
+             } else { //if the entity members only include current NP, go to next expressio right away
+                 showNextExpression();
+             }
+         }
+
+        //This function removes an np from the list of nps to which bridges should be applied when doing bridge expansion
+        function undo_bridge_expansion(np_id) {
+            var bridge_candidates = _text.get('bridge_candidates').filter(cand => cand !== np_id);
+            _text.set({
+                'bridge_candidates': bridge_candidates,
+            });
+        }
+
+        //This function removes nps with a certain text from the list of nps to which bridges should be applied when doing bridge expansion
+        function undo_bridge_expansion(txt, idx) {
+            var merged_cands = _options.get('merged_cands');
+            merged_cands[idx] = merged_cands[idx].filter(cand => cand !== txt);
+            _options.set({
+                'merged_cands': merged_cands,
+            });
+        }
+
+
+
+                //This function applies the bridges of an np to other nps
+         function createLinks() {
+		 if(isCorrect()){
+               //get ids of the bridges
+             var bridge_candidates = _text.get('bridge_candidates');
+             //get ids of the complements
+             var selected_bridges = _options.get('state.selected_bridges');
+             //select internal and external bridges
+         
+             var external_complement = selected_bridges.filter(bridge => bridge == "external")[0];
+             var antecedents = _options.get('antecedents');
+             var merged_cands = _options.get('merged_cands');
+         
+             //create links
+             for (var i = 0; i < antecedents.length; i++) {
+                 for (var j = 0; j < bridge_candidates.length; j++) {
+         
+                     var np_id = bridge_candidates[j];
+                     //check if the link between this bridge candidateand this antecedent was not removed by the user
+                     if ((merged_cands[i].includes(nps[np_id].text)) || (nps[np_id].text == nps[get_current_np_id()].text)) {
+                         //create bridges
+                         ui_link_to_entities(np_id, [antecedents[i].id]);
+                         //update STATES
+                         update_state(np_id);
+                     }
+                 }
+             }
+             //if external bridge is checked
+             if (external_complement != undefined && _options.get("merged_cands_for_reference").length > antecedents.length) {
+                 for (var j = 0; j < bridge_candidates.length; j++) {
+                     var np_id = bridge_candidates[j];
+                     //check if the link between this bridge candidateand this antecedent was not removed by the user
+                     if (merged_cands[antecedents.length].includes(nps[np_id].text) && STATES[np_id]['external_complement'].trim() == '') {
+                         //create bridges
+                         ui_link_to_external_np(np_id, _options.get('state.external_complement'), _options.get('state.external_preposition'));
+                         //update STATES
+                         update_state(np_id);
+                     }
+                 }
+         
+             }
+             //update STATES
+         
+         
+             
+             toggle_screen();
+             //go to next expression
+             showNextExpression();
+         
+         }else {
+		
+		return;
+		}
+         
+         }
+
+        function update_state(np_id) {
+
+            //get new values
+            var my_bridges = bridges.filter(lnk => lnk.bridge == np_id);
+            var regular_bridges = my_bridges.filter(lnk => lnk.type == "regular")
+            var selected_bridges_new = regular_bridges.map(bridge => bridge.complement);
+            var preps_new = Array(coref.length).fill("of");
+            for (var i = 0; i < regular_bridges.length; i++) {
+                preps_new[regular_bridges[i].complement] = regular_bridges[i].preposition;
+            }
+            //update
+
+            STATES[np_id]['selected_bridges'] = selected_bridges_new;
+            STATES[np_id]['preps'] = preps_new;
+
+            var external_bridge = my_bridges.filter(lnk => lnk.type == "external")[0];
+            if (external_bridge != undefined && STATES[np_id]['external_complement'].trim() == '') {
+                STATES[np_id]['selected_bridges'].push("external");
+                STATES[np_id]['external_complement'] = external_bridge.complement;
+                STATES[np_id]['external_preposition'] = external_bridge.preposition;
+            }
+
+
+        }
+
+
+
+
+
+        function toggle_screen() {
+            var screen = (CURRENT_SCREEN == 'regular' ? 'bridge_expansion' : 'regular');
+            CURRENT_SCREEN = screen;
+            _options.set({
+                screen: CURRENT_SCREEN,
+            });
+            _text.set({
+                screen: CURRENT_SCREEN,
+            });
+            _button.set({
+                screen: CURRENT_SCREEN,
+            });
+            (entity_listener.isSilenced() ? entity_listener.resume() : entity_listener.silence());
+            (item_listener.isSilenced() ? item_listener.resume() : item_listener.silence());
+            (entity_listener.isSilenced() ? entity_listener.resume() : entity_listener.silence());
+            (links_listener.isSilenced() ? links_listener.resume() : links_listener.silence());
+        }
+
+        <!-- drag and drop events -->
+        function drag(ev, entity_id, member) {            
+            ev.dataTransfer.setData("array", [entity_id, member]);
+            console.log(ev.dataTransfer.getData("array"));
+        }
+
+        function allowDrop(ev) {
+            ev.preventDefault();
+        }
+		
+		function has_bridge(np_id) {
+		if (bridges_for_reference.filter(link => link.bridge == np_id).length > 0){
+		return true;
+		}
+		return false;
+		}
+		
+		function is_valid_bridge(np_id, entity_id,prep){
+		var valid_bridges = bridges_for_reference.filter(lnk => (lnk.bridge == np_id && lnk.complement == entity_id));
+		if (valid_bridges.length > 0){
+		
+		if(((valid_bridges[0].preposition != "member(s) of") || (prep == "member(s) of")) && valid_bridges[0].comment != undefined){
+		return true;
+		} else {
+		return false;
+		}
+		} else {
+		return false;
+		}		
+		}
+		
+		function is_invalid_bridge(np_id, entity_id,prep){
+		var non_valid_bridges = invalid_bridges.filter(lnk => (lnk.bridge == np_id && lnk.complement == entity_id));
+		if (non_valid_bridges.length > 0){
+		if((non_valid_bridges[0].preposition != "not member(s) of") || (prep != "member(s) of")){
+		return true;
+		} else {
+		return false;
+		}
+		} else {
+		return false;
+		}		
+		}
+		
+		function make_bridge(np_id, entity_id, prep, type, bridge_list){
+		console.log(bridge_list);
+		
+		var comment = "";
+		if (bridge_list.filter(lnk => (lnk.bridge == np_id && lnk.complement == entity_id))[0] != undefined){
+		comment = bridge_list.filter(lnk => (lnk.bridge == np_id && lnk.complement == entity_id))[0].comment;	
+		}	
+		var bridge = {}
+		bridge["bridge"] = np_id;
+        bridge["complement"] = entity_id;
+        bridge["preposition"] = prep;
+        bridge["type"] = type; 
+		bridge["comment"] = comment;	
+		return bridge;
+		}
+		
+		function not_all_bridges_found_1(np_id, selected_bridges){		
+		var valid_bridges = bridges_for_reference.filter(lnk => lnk.bridge == np_id).map(lnk => lnk.complement);
+		console.log(selected_bridges);
+		console.log(valid_bridges);		
+		var external_complement = _options.get('state.external_complement');
+		for (var j = 0; j < valid_bridges.length; j++) { 
+		if (!(selected_bridges.includes(valid_bridges[j])||(external_complement == valid_bridges[j]))){		
+		return true;
+		}
+		}
+		return false;
+		}
+		
+		//this function returns false if all the required bridges have been found at the bridging expansion stage
+		function not_all_bridges_found(bridge_candidates, selected_bridges, correct_bridges){		
+		for (var j = 0; j < bridge_candidates.length; j++){		
+		//for this bridge candidate and the selected bridges, identify all the bridges that are required		
+		var valid_bridges = bridges_for_reference.filter(lnk => lnk.bridge == bridge_candidates[j] &&selected_bridges.includes(lnk.complement));		
+		//for the required bridges, identify which bridges already exist
+		var existing_antecedents = bridges.filter(lnk => lnk.bridge == bridge_candidates[j]).map(lnk => lnk.complement);
+		
+		//exclude the existing bridges from the list of required bridges
+		var valid_bridges_to_be_found = valid_bridges.filter(lnk => !(existing_antecedents.includes(lnk.complement)));
+		//find all the antecedents of the bridges that are specified on the currect screen and are about to be created
+		
+		var specified_antecedents = correct_bridges.filter(lnk => lnk.bridge == bridge_candidates[j]).map(lnk => lnk.complement);
+		
+		//exclude the currently specified bridges from the list of required bridges
+		var not_found_bridges = valid_bridges_to_be_found.filter(lnk => !(specified_antecedents.includes(lnk.complement)));
+		
+		//if not all the obligatory bridges have been specified
+		if (not_found_bridges.length > 0){
+		return true;
+		}
+		}
+		
+		return false;
+		}
+		
+		
+		
+		function isCorrect(){
+		
+		var is_correct = true;
+		var incorrect_bridges = [];
+		var correct_bridges = [];
+		var display_feedback = false;
+		var not_all_found = false;	
+		if(CURRENT_SCREEN == 'regular'){			
+            var selected_bridges = _options.get('state.selected_bridges');
+            var external_complement = _options.get('state.external_complement');
+            var external_preposition = _options.get('state.external_preposition');
+			var np_id = get_current_np_id();
+			   //"none of the above" is selected - just mark the np as done; if it's being revisited - remove all the bridges and member-of links
+                if (selected_bridges[0] == "noBridge") {
+                    if (has_bridge(np_id)){
+					console.log("has_bridge");
+					 alert("The answer \"none of the above\" is incorrect. Try looking for links that apply.");
+					 attempted_bridges.push([np_id, "none","none"]);
+					 return false;
+					} else {
+					return true;
+					}
+
+                } else {
+                    //bridging is selected
+
+                    //check if the user is not trying to link the np to its own entity
+                    for (var j = 0; j < selected_bridges.length; j++) {
+					if (selected_bridges[j] != "external"){
+					var prep = _options.get('entities').filter(entity => entity.id == selected_bridges[j])[0]["selected_preposition"];
+					
+                        attempted_bridges.push([np_id, selected_bridges[j],prep]);
+						if ((!is_valid_bridge(np_id, selected_bridges[j],prep)) && is_invalid_bridge(np_id, selected_bridges[j],prep)){
+						incorrect_bridges.push(make_bridge(np_id,selected_bridges[j],prep, "regular", invalid_bridges));						
+						display_feedback = true;
+						is_correct = false;
+						} else if (is_valid_bridge(np_id, selected_bridges[j],prep)){
+						 correct_bridges.push(make_bridge(np_id,selected_bridges[j],prep, "regular",bridges_for_reference));
+						 display_feedback = true;
+						}
+						}
+                    } 
+					
+                    
+					 
+                    //if external bridge is checked
+                    if (selected_bridges.includes("external")) {
+					attempted_bridges.push([np_id, external_complement, external_preposition]);
+                        if(is_invalid_bridge(np_id, external_complement, external_preposition)){
+						incorrect_bridges.push(make_bridge(np_id,external_complement, external_preposition, "external", invalid_bridges));
+						display_feedback = true;
+						is_correct = false;						
+						}else if (is_valid_bridge(np_id, external_complement, external_preposition)){
+						 correct_bridges.push(make_bridge(np_id,external_complement, external_preposition, "external",bridges_for_reference));
+						 display_feedback = true;
+						}
+                    }
+					
+					if(is_correct && not_all_bridges_found_1(np_id,selected_bridges)){
+					not_all_found = true;
+					display_feedback = true;
+					is_correct = false;
+					}
+					
+                }
+				if(display_feedback && (_options.get('merged_cands').length == 0)){
+				_feedback_screen.set({
+                correct_bridges:correct_bridges,
+				incorrect_bridges:incorrect_bridges,
+				not_all_found:not_all_found,
+				displayed:true,
+            });
+			
+			}
+				return is_correct;
+		
+		} else {//bridge expansion		
+		var specified_bridges = [];
+		var bridge_candidates = _text.get('bridge_candidates');
+             //get ids of the complements
+             var selected_bridges = _options.get('state.selected_bridges');
+             //select internal and external bridges
+         
+             var external_complement = selected_bridges.filter(bridge => bridge == "external")[0];
+             var antecedents = _options.get('antecedents');
+             var merged_cands = _options.get('merged_cands');
+         
+             //create links
+			 console.log(antecedents);
+             for (var i = 0; i < antecedents.length; i++) {
+                 for (var j = 0; j < bridge_candidates.length; j++) {
+         
+                     var np_id = bridge_candidates[j];
+					 console.log(np_id);
+                     //check if the link between this bridge candidate and this antecedent was not removed by the user
+                     if ((merged_cands[i].includes(nps[np_id].text)) || (nps[np_id].text == nps[get_current_np_id()].text)) {
+                         //create bridges
+                         var prep = antecedents[i]["selected_preposition"];
+                        attempted_bridges.push([np_id, antecedents[i].id,prep]);
+						if ((!is_valid_bridge(np_id, antecedents[i].id,prep)) && is_invalid_bridge(np_id, antecedents[i].id,prep)){//the bridge is listed among the incorrect ones
+						incorrect_bridges.push(make_bridge(np_id,antecedents[i].id,prep, "regular",invalid_bridges));						
+						display_feedback = true;
+						is_correct = false;
+						} else if (is_valid_bridge(np_id, antecedents[i].id,prep)){//the bridging link is listed among obligatory bridges
+						 specified_bridges.push(make_bridge(np_id,antecedents[i].id,prep, "regular", bridges_for_reference));
+						 correct_bridges.push(make_bridge(np_id,antecedents[i].id,prep, "regular", bridges_for_reference));
+						 console.log(correct_bridges);
+						 display_feedback = true;
+						} else {
+						specified_bridges.push(make_bridge(np_id,antecedents[i].id,prep, "regular", bridges_for_reference));//the bridge is neutral
+						}
+                     }
+                 }
+             }
+             //if external bridge is checked
+             if (external_complement != undefined) {
+                 for (var j = 0; j < bridge_candidates.length; j++) {
+                     var np_id = bridge_candidates[j];
+					 console.log(np_id);
+                     //check if the link between this bridge candidateand this antecedent was not removed by the user
+                     if (merged_cands[antecedents.length].includes(nps[np_id].text) && STATES[np_id]['external_complement'].trim() == '') {
+                         //create bridges
+                        attempted_bridges.push([np_id, external_complement, external_preposition]);
+                        if(is_invalid_bridge(np_id, external_complement, external_preposition)){
+						incorrect_bridges.push(make_bridge(np_id,external_complement, external_preposition, "external",invalid_bridges));
+						display_feedback = true;
+						is_correct = false;						
+						}else if (is_valid_bridge(np_id, external_complement, external_preposition)){
+						 correct_bridges.push(make_bridge(np_id,external_complement, external_preposition, "external",bridges_for_reference));
+						 console.log(correct_bridges);
+						 display_feedback = true;
+						}
+                     }
+                 }
+         
+             }
+			 
+			 
+				 if(is_correct && not_all_bridges_found(bridge_candidates, selected_bridges, specified_bridges)){//all bridges are correct but not all the obligatory bridges are specified
+					not_all_found = true;
+					display_feedback = true;
+					is_correct = false;
+					}
+		if(display_feedback){
+				_feedback_screen.set({
+                correct_bridges:correct_bridges,
+				incorrect_bridges:incorrect_bridges,
+				not_all_found:not_all_found,
+				displayed:true,
+            });
+			console.log(_feedback_screen.get("correct_bridges"));
+			}	 
+		
+		return is_correct;
+		}
+		
+		}
+
+        function drop(ev, target_entity_id) {
+            ev.preventDefault();
+            var data = ev.dataTransfer.getData("array");
+            var np_id = parseInt(data.split(',')[1]);
+            var source_entity_id = parseInt(data.split(',')[0]); 
+			//check if target entity is correct; if not, prevent dropping
+			var correct_entities = coref_for_reference;
+			var entities = coref;
+            var co_members	= correct_entities.filter(ent => ent.members.includes(np_id))[0].members.filter(m => m != np_id);
+          	var target_entity_members = entities.filter(ent => ent.id == target_entity_id)[0].members;	
+            var assigned_to_correct_entity = target_entity_members.every(m => co_members.includes(m));
+				  if(!assigned_to_correct_entity){
+				  alert("You are trying to move this expression to an incorrect entity.");
+				  return;	
+				  }			
+            delete_coref_link(np_id, source_entity_id);
+            add_coref_np_to_entity(np_id, target_entity_id);
+            //update state of the np
+            STATES[np_id]["selected_coref_option"] = "same as...";
+            STATES[np_id]["selected_crf"] = target_entity_id;
+
+            update_entity_pane();
+            update_options();
+            _text.set({
+                entities: coref,
+            });
+        }
+		
+		<!-- shortcuts -->
+		
+		var pressed = [];
+		document.onkeydown = function(e) {	
+		    
+			if(e.which == 13 || e.shiftKey) 
+			pressed.push(e.which);
+			
+			
+		};
+		
+		document.onkeyup = function(e) {		
+		if (pressed.includes(16)){//Shift was held
+		if (e.which == 16){//the key released is shift
+		if (CURRENT_SCREEN != "regular"){//if applying bridges to clusters is being performed, clear"pressed" and return
+		pressed = [];
+		return;
+		}			
+		var option = "";
+		pressed.forEach(key => {
+					     if(key != 16) {//leave out "shift"
+						 if (key >=48 && key <=57){//shift+digits have been pressed
+						 option = option+(key-48);
+						 } else if (key >=65 && key <=68 && pressed.length == 2 && CURRENT_STAGE == "coref"){//shift + a letter between a and d have been pressed
+						 option = OPTIONS[key - 65];
+						 }
+						 }
+		             });
+		apply_shortcut(option);	
+		
+		pressed = [];	//clear pressed if shift has been released
+		} else {
+		return;
+		}
+		} else if (e.which == 13 && pressed.length == 1){//Enter was pressed 
+		if (CURRENT_SCREEN == 'regular') {
+		//prevent hitting Enter twice by mistale
+		if(CURRENT_STAGE == "coref" && _options.get('state.selected_coref_option') == "same as..." && _options.get('state.selected_crf') == null) { //if coref is selected, check if an antecedent has been selected				
+                    return;
+		} else if (CURRENT_STAGE == "bridging" &&  _options.get('state.selected_bridges').length == 0) {
+			return;
+		}
+            doNext();
+        } else {
+            createLinks();
+        }
+		pressed = [];	//clear pressed
+		} else {
+		pressed = [];
+		}
+		}
+		
+		function apply_shortcut(option){
+		
+		if(option == ""){
+		return;
+		} else if (option == "same as..." && _options.get("entities").length == 0){//"same as..." has been selected while being disabled
+		return;
+		} else if (OPTIONS.includes(option)){//an "outer" crf option has been selected		
+		_options.set({'state.selected_coref_option': option,});
+		if(option != "same as..."){
+		_options.set({'state.selected_crf': null,});
+		}
+		scrollElementIntoView("opt"+OPTIONS.indexOf(option));	
+		} else if (_options.get("entities").length < option){//option is irrelevant		
+		return;
+		} else if (CURRENT_STAGE == "coref"){
+		var selected_crf = coref[option-1].id;	
+		_options.set({
+		'state.selected_coref_option': "same as...",
+		'state.selected_crf': selected_crf,
+		});
+		scrollElementIntoView("coref"+selected_crf);
+		
+		} else if (CURRENT_STAGE == "bridging"){ 
+		if (f_entity_includes_current(coref[option-1])){
+		return;
+		}
+		var selected_bridges = _options.get('state.selected_bridges');
+		var selected_bridge = coref[option-1].id;	
+		selected_bridges.push(selected_bridge);
+		_options.set({'state.selected_bridges': selected_bridges,});
+		
+		scrollElementIntoView("bridge"+selected_bridge);
+		
+		}
+		}
+		
+		
+
+		
+		
+    </script>
+    <!-- the actual page, with divs that will hold components -->
+</head>
+
+
+<body onload = "getStartTime();go_to_training();">
+<div id = "fullscreen-container">
+<div class = "container" id = "top_l">
+
+    <article class="fragment" id="fragm">
+        <div id='text'></div>
+    </article>
+</div>
+<div class = "container" id = "top_r">
+
+    <!-- <aside> -->
+        <div id="items">
+		<span  class="tooltip"><i class="fas fa-question-circle"></i>
+    <div class="tooltiptext tooltip-items">In this section you see all the expressions you need to annotate.<ul style = "margin:2;"><li style = "margin-left:-20;">The current item is highlighted in yellow.</li><li style = "margin-left:-20;">"Done" items are highlighted in grey and scratched out.</li></ul>You can go to any expression by clicking the corresponding item.<p style = "margin:5;margin-top:8;margin-bottom:2;"><b>Revisiting and editing "done" items</b></p><ul style = "margin:2;"><li style = "margin-left:-20;">If you click a "done" item, it becomes "not done" again, and you can edit your answer.</li><li style = "margin-left:-20;">If you want to make it "done" again, without editing, just click "Next".</li><li style = "margin-left:-20;">The task is complete, when all the items are "done".</li></ul></div>
+  </span> 
+		<h2 style="margin:2">Items</h2>
+            <div id="item_pane"></div>
+        </div>
+</div>
+<div class = "container" id = "mid_r">
+<div id="links">
+            </div>
+        
+</div>
+<div class = "container" id = "bottom_r">
+<div id="entities">
+		
+</div>
+        
+            
+        
+</div>
+<div class = "container" id = "mid_l">
+
+    
+        <div id="options_pane">
+            <div id='options'></div>
+        </div>
+</div>
+<div class = "container" id = "bottom_l">
+        <div id="button">
+        </div>
+    
+	
+</div>
+
+<div id="f_screen">
+</div>
+<div id="feedback_screen">
+</div>
+<div id="i_screen">
+</div>
+
+</div>
+</body>
+<script>
+    var _text = new Ractive({
+        target: '#text',
+        template: '#text_tpl',
+        data: {
+            nps: nps,
+            text: text,
+            current: 0,
+            entities: coref,
+            screen: CURRENT_SCREEN,
+            render_text: f_render_text,
+            bridge_candidates: [],
+        },
+    });
+
+    var _entity_pane = new Ractive({
+        target: '#entities',
+        template: '#entity_pane_tpl',
+        data: {
+		    hidden:true,
+            stage: CURRENT_STAGE,
+            entities: coref,
+			coref_for_training:coref_for_training,
+            pronouns: [],
+            text_from_id: f_np_text_from_id,
+            space: " ",
+            entity_color: function(entity) {
+                return (COLORS[entity.id % COLORS.length])
+            },
+        },
+    });
+
+    var entity_listener = _entity_pane.on('highlight', function(ctx, entity, color) {
+        highlightClass("entity" + entity.id, color);
+    });
+    _entity_pane.on('remove_np_from_entity', function(ctx, np_id, entity_id) {
+        delete_coref_link(np_id, entity_id);
+        mark_done(np_id, false);
+        //delete the entry of the np from STATES
+        delete STATES[np_id];
+        update_entity_pane();
+        update_options();
+        update_item_pane();
+        _text.set({
+            entities: coref,
+        });
+
+
+    });
+
+    var _item_pane = new Ractive({
+        target: '#item_pane',
+        template: '#items_tpl',
+        data: {
+            nps: nps,
+            stage: CURRENT_STAGE,
+            done_items: done_nps,
+			current_np_id:0,	
+        },
+    });
+
+    var item_listener = _item_pane.on('go_to_np', function(ctx, np) {
+        go_to_np(np.id);
+    });
+
+    var _options = new Ractive({
+        target: '#options',
+        template: '#options_tpl',
+        data: {
+            state: {
+                selected_coref_option: (coref.length > 0 ? "same as...":null),
+                selected_crf: null,
+                selected_bridges: [],
+                external_complement: '',
+                external_preposition: "of",
+            },
+			coref_for_training:coref_for_training,
+			hidden: false,
+            current_np_text: nps[get_current_np_id()].text,
+            prepositions: PREPS,
+            coref_options: OPTIONS,
+            entities: coref,
+            pronouns: [],
+            stage: CURRENT_STAGE,
+            screen: CURRENT_SCREEN,
+            text_from_id: f_np_text_from_id,
+			entity_includes_current:f_entity_includes_current,
+            space: " ",
+            antecedents: [],
+            bridge_candidates: [],
+            merged_cands: [],
+			merged_cands_for_reference: [],
+			valid_cands_texts:[],
+			merged_members:f_merge_entity_members,
+            entity_color: function(entity) {
+                return (COLORS[entity.id % COLORS.length])
+            },
+        },	
+	computed: {
+			    sameIsDisabled: function(){return (this.get('entities').length == 0)},				
+				function() { return [...new Array(this.get('antecedents').length)].map(()=>Object.keys(this.get('bridge_cands_merged')).filter(cand => cand != this.get('current_np_text')))},
+			},
+    });
+
+    var options_listener = _options.on('highlight', function(ctx, entity, color) {
+        highlightClass("entity" + entity.id, color);
+    });
+	
+	_options.on('check_same_as', function(ctx) {
+        this.set({
+                'state.selected_coref_option': "same as...",
+            });
+    });
+	
+	_options.on('uncheck_same_as', function(ctx) {
+        this.set({
+                'state.selected_crf': null,
+            });
+    });
+
+   _options.on('select_complement', function(ctx, complement) {
+      if(complement != "external"){
+      var entities = this.get('entities');
+      var ent = entities.filter(ent => ent.id == complement)[0];	
+      if(f_entity_includes_current(ent)){
+      ent.selected_preposition = "of";	
+      this.set({
+                  'entities': entities,
+              });
+      return;//disallow linking an np to its own entity
+      }
+      }
+          var comps = this.get('state.selected_bridges');
+          if (!comps.includes(complement)) {
+              comps.push(complement);
+              if (comps.includes("noBridge")) {
+                  comps = comps.filter(comp => comp != "noBridge");
+              }
+              this.set({
+                  'state.selected_bridges': comps,
+              });
+          }
+      });
+
+    _options.on('uncheck_all', function(ctx, comps) {
+        if (comps.includes("noBridge") && comps.length > 1) {
+            if (confirm("Checking this option will uncheck all the other options.")) {
+                comps = ["noBridge"];
+            } else {
+                comps = comps.filter(comp => comp != "noBridge");
+            }
+            this.set({
+                'state.selected_bridges': comps,
+            });
+        }
+    });
+
+    _options.on('uncheck_no_bridge', function(ctx, comps, comp) {
+        if (comps.includes("noBridge") && comps.includes(comp)) {
+            comps = comps.filter(comp => comp != "noBridge");
+            this.set({
+                'state.selected_bridges': comps,
+            });
+        }
+    });
+
+
+    var _button = new Ractive({
+        target: '#button',
+        template: '#button_tpl',
+        data: {
+            screen: CURRENT_SCREEN,
+        },
+        computed: {
+            val: function() {
+                return (this.get('screen') == 'regular' ? "Next" : "Confirm")
+            },
+        }
+    });
+
+    _button.on('next_step', function(ctx, screen) {	
+        if (screen == 'regular') {		
+            doNext();
+        } else {
+            createLinks();
+        }
+    });
+
+    var _links = new Ractive({
+        target: '#links',
+        template: '#links_tpl',
+        data: {
+            bridges: bridges,
+            entities: coref,
+            nps: nps,
+            stage: CURRENT_STAGE,
+            text_from_id: f_np_text_from_id,
+            hidden: true,
+            space: " ",
+            pronouns: [],
+            get_complement: function(entity_id) {
+                return (this.get("entities").filter(e => e.id == entity_id)[0])
+            },
+            entity_color: function(entity) {
+                return (COLORS[entity.id % COLORS.length])
+            },
+        },
+        computed: {
+            merged_bridges: function() {
+                var mb = [];
+                this.get('bridges').forEach(lnk => {
+                    var bridge_text = this.get("nps")[lnk.bridge].text;
+                    var bridge_entity = this.get("entities").filter(e => e.members.includes(lnk.bridge))[0].id;
+                    if (mb.filter(l => this.get("nps")[l.bridge].text == bridge_text && this.get("entities").filter(e => e.members.includes(l.bridge))[0].id == bridge_entity && l.complement == lnk.complement).length == 0) {
+                        mb.push(lnk);
+                    }
+                });
+                return mb;
+            },
+        }
+
+    });
+
+    var links_listener = _links.on('highlight', function(ctx, entity, color) {
+        highlightClass("entity" + entity.id, color);
+    });
+	
+	var _final_screen = new Ractive({
+          target: '#f_screen',
+          template: '#final_screen_tpl',
+          data: {
+              crf_clusters:"",
+bridges:bridges,			  
+      displayed:false,
+	  
+          },
+          
+      });
+	
+	var _intro_screen = new Ractive({
+        target: '#i_screen',
+        template: '#intro_screen_tpl',
+        data: {            
+			val:"Start training",
+			worker_id:"",
+			displayed:true,
+        },
+        
+    });
+	
+	var _feedback_screen = new Ractive({
+        target: '#feedback_screen',
+        template: '#feedback_screen_tpl',
+        data: {            
+			twoway:false,
+			incorrect_bridges:[],
+			correct_bridges:[],
+			entities: coref,
+            nps: nps,
+            stage: CURRENT_STAGE,
+            text_from_id: f_np_text_from_id,
+            displayed: false,
+			not_all_found: false,
+            space: " ",
+            pronouns: [],
+            get_complement: function(entity_id) {
+                return (this.get("entities").filter(e => e.id == entity_id)[0])
+            },
+            entity_color: function(entity) {
+                return (COLORS[entity.id % COLORS.length])
+            },
+        },
+        
+    });
+    //For testing
+    go_to_bridging_stage();
+</script>
+
+</html>

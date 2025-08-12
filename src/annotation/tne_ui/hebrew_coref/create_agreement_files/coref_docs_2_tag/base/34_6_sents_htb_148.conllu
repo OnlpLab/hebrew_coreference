@@ -1,0 +1,280 @@
+# doc_id = htb:148
+# doc_range = 1-303
+# sent_id = 3779
+# text = שר הבינוי והשיכון אריאל שרון הורה בסוף השבוע לחברת עמידר לאפשר לזכאי המשרד, מקרב חסרי הדיור, שעוד נותרו באוהלים, לשכור חדר בבתי מלון, שעמם הגיעה עמידר להסדר שכירות.
+1	שר	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	nsubj	_	_
+2-3	הבינוי	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	בינוי	בינוי	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4-6	והשיכון	_	_	_	_	_	_	_	_
+4	ו	ו	CCONJ	CCONJ	_	6	cc	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	שיכון	שיכון	NOUN	NOUN	Gender=Masc|Number=Sing	3	conj	_	_
+7	אריאל	אריאל	PROPN	PROPN	_	1	flat:name	_	_
+8	שרון	שרון	PROPN	PROPN	_	1	flat:name	_	_
+9	הורה	הורה	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+10-11	בסוף	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	סוף	סוף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	obl	_	_
+12-13	השבוע	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound:smixut	_	_
+14-15	לחברת	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	obl	_	_
+16	עמידר	עמידר	PROPN	PROPN	_	15	compound:smixut	_	_
+17	לאפשר	אפשר	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+18-19	לזכאי	_	_	_	_	_	_	_	_
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	זכאי	זכאי	NOUN	NOUN	Definite=Cons	17	obl	_	_
+20-21	המשרד	_	_	_	_	_	_	_	SpaceAfter=No
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	משרד	משרד	NOUN	NOUN	Gender=Masc|Number=Sing	19	compound:smixut	_	_
+22	,	,	PUNCT	PUNCT	_	24	punct	_	_
+23-24	מקרב	_	_	_	_	_	_	_	_
+23	מ	מ	ADP	ADP	_	24	case	_	_
+24	קרב	קרב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	19	nmod	_	_
+25	חסרי	חסר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	24	compound:smixut	_	_
+26-27	הדיור	_	_	_	_	_	_	_	SpaceAfter=No
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	דיור	דיור	NOUN	NOUN	Gender=Masc|Number=Sing	25	compound:smixut	_	_
+28	,	,	PUNCT	PUNCT	_	31	punct	_	_
+29-30	שעוד	_	_	_	_	_	_	_	_
+29	ש	ש	SCONJ	SCONJ	_	31	mark	_	_
+30	עוד	עוד	ADV	ADV	_	31	advmod	_	_
+31	נותרו	נותר	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	19	acl:relcl	_	_
+32-34	באוהלים	_	_	_	_	_	_	_	SpaceAfter=No
+32	ב	ב	ADP	ADP	_	34	case	_	_
+33	ה_	ה	DET	DET	PronType=Art|Definite=Def	34	det	_	_
+34	אוהלים	אוהל	NOUN	NOUN	Gender=Masc|Number=Plur	31	obl	_	_
+35	,	,	PUNCT	PUNCT	_	36	punct	_	_
+36	לשכור	שכר	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	17	dep	_	HebSource=ConvUncertainHead
+37	חדר	חדר	NOUN	NOUN	Gender=Masc|Number=Sing	36	obj	_	_
+38-39	בבתי	_	_	_	_	_	_	_	_
+38	ב	ב	ADP	ADP	_	39	case	_	_
+39	בתי	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	37	nmod	_	_
+40	מלון	מלון	NOUN	NOUN	Gender=Masc|Number=Sing	39	compound:smixut	_	SpaceAfter=No
+41	,	,	PUNCT	PUNCT	_	45	punct	_	_
+42-44	שעמם	_	_	_	_	_	_	_	_
+42	ש	ש	SCONJ	SCONJ	_	45	mark	_	_
+43	עם	עם	ADP	ADP	_	44	case	_	_
+44	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	45	obl	_	_
+45	הגיעה	הגיע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	39	acl:relcl	_	_
+46	עמידר	עמידר	PROPN	PROPN	_	45	nsubj	_	_
+47-48	להסדר	_	_	_	_	_	_	_	_
+47	ל	ל	ADP	ADP	_	48	case	_	_
+48	הסדר	הסדר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	45	obl	_	_
+49	שכירות	שכירות	NOUN	NOUN	Gender=Fem|Number=Sing	48	compound:smixut	_	SpaceAfter=No
+50	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:148
+# doc_range = 305-401
+# sent_id = 3780
+# text = עד כה הושכרו חדרים בבתי מלון עבור עולים מבריה"ם בלבד.
+1	עד	עד	ADV	ADV	_	3	advmod	_	_
+2	כה	כה	ADV	ADV	_	1	fixed	_	_
+3	הושכרו	הושכר	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+4	חדרים	חדר	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+5-6	בבתי	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	בתי	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	nmod	_	_
+7	מלון	מלון	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+8	עבור	עבור	ADP	ADP	_	9	case	_	_
+9	עולים	עולה	NOUN	NOUN	Gender=Masc|Number=Plur	3	obl	_	_
+10-11	מבריה"ם	_	_	_	_	_	_	_	_
+10	מ	מ	ADP	ADP	_	11	case	_	_
+11	בריה"ם	מבריה"ם	PROPN	PROPN	Abbr=Yes	9	nmod	_	_
+12	בלבד	בלבד	ADV	ADV	_	9	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:148
+# doc_range = 403-670
+# sent_id = 3781
+# text = במשרד השיכון הסבירו כי צעדו של שרון נועד לפתור לחלוטין את בעיית חסרי הדיור באוהלים, שמספרם עומד כעת על 552 משפחות ברחבי הארץ, לעומת 2,200 באמצע אוגוסט.
+1-2	במשרד	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+3-4	השיכון	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	שיכון	שיכון	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+5	הסבירו	הסביר	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+6	כי	כי	SCONJ	SCONJ	_	12	mark	_	_
+7-9	צעדו	_	_	_	_	_	_	_	_
+7	צעד	צעד	NOUN	NOUN	Gender=Masc|Number=Sing	12	nsubj	_	_
+8	_של_	של	ADP	ADP	Case=Gen	9	case:gen	_	_
+9	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+10	של	של	ADP	ADP	Case=Gen	11	case	_	_
+11	שרון	שרון	PROPN	PROPN	_	7	nmod:poss	_	_
+12	נועד	נועד	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	5	ccomp	_	_
+13	לפתור	פתר	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	לחלוטין	לחלוטין	ADV	ADV	_	13	advmod	_	_
+15	את	את	ADP	ADP	Case=Acc	16	case	_	_
+16	בעיית	בעיה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	13	obj	_	_
+17	חסרי	חסר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	16	compound:smixut	_	_
+18-19	הדיור	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	דיור	דיור	NOUN	NOUN	Gender=Masc|Number=Sing	17	compound:smixut	_	_
+20-22	באוהלים	_	_	_	_	_	_	_	SpaceAfter=No
+20	ב	ב	ADP	ADP	_	22	case	_	_
+21	ה_	ה	DET	DET	PronType=Art|Definite=Def	22	det	_	_
+22	אוהלים	אוהל	NOUN	NOUN	Gender=Masc|Number=Plur	17	nmod	_	_
+23	,	,	PUNCT	PUNCT	_	28	punct	_	_
+24-27	שמספרם	_	_	_	_	_	_	_	_
+24	ש	ש	SCONJ	SCONJ	_	28	mark	_	_
+25	מספר	מספר	NOUN	NOUN	Gender=Masc|Number=Sing	28	nsubj	_	_
+26	_של_	של	ADP	ADP	Case=Gen	27	case:gen	_	_
+27	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+28	עומד	עמד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	17	acl:relcl	_	_
+29	כעת	כעת	ADV	ADV	_	28	advmod	_	_
+30	על	על	ADP	ADP	_	32	case	_	_
+31	552	552	NUM	NUM	_	32	nummod	_	_
+32	משפחות	משפחה	NOUN	NOUN	Gender=Fem|Number=Plur	28	obl	_	_
+33-34	ברחבי	_	_	_	_	_	_	_	_
+33	ב	ב	ADP	ADP	_	34	case	_	_
+34	רחבי	רחב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	32	nmod	_	_
+35-36	הארץ	_	_	_	_	_	_	_	SpaceAfter=No
+35	ה	ה	DET	DET	Definite=Def|PronType=Art	36	det	_	_
+36	ארץ	ארץ	NOUN	NOUN	Gender=Fem|Number=Sing	34	compound:smixut	_	_
+37	,	,	PUNCT	PUNCT	_	39	punct	_	_
+38	לעומת	לעומת	ADP	ADP	_	39	case	_	_
+39	2,200	2,200	NUM	NUM	_	28	parataxis	_	_
+40-41	באמצע	_	_	_	_	_	_	_	_
+40	ב	ב	ADP	ADP	_	41	case	_	_
+41	אמצע	אמצע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	39	dep	_	HebSource=ConvUncertainHead
+42	אוגוסט	אוגוסט	PROPN	PROPN	_	41	compound:smixut	_	SpaceAfter=No
+43	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:148
+# doc_range = 672-843
+# sent_id = 3782
+# text = במשרד השיכון ציינו עוד כי צעד זה בנוסף לצעדים הקודמים שננקטו יתנו פתרון מוחלט לבעיית האוהלים.
+1-2	במשרד	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+3-4	השיכון	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	שיכון	שיכון	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+5	ציינו	ציין	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+6	עוד	עוד	ADV	ADV	_	5	advmod	_	_
+7	כי	כי	SCONJ	SCONJ	_	19	mark	_	_
+8	צעד	צעד	NOUN	NOUN	Gender=Masc|Number=Sing	19	nsubj	_	_
+9	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	det	_	_
+10-11	בנוסף	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	14	case	_	_
+11	נוסף	נוסף	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	10	fixed	_	_
+12-14	לצעדים	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	_	10	fixed	_	_
+13	ה_	ה	DET	DET	PronType=Art|Definite=Def	14	det	_	_
+14	צעדים	צעד	NOUN	NOUN	Gender=Masc|Number=Plur	8	nmod	_	_
+15-16	הקודמים	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	קודמים	קודם	ADJ	ADJ	Gender=Masc|Number=Plur	14	amod	_	_
+17-18	שננקטו	_	_	_	_	_	_	_	_
+17	ש	ש	SCONJ	SCONJ	_	18	mark	_	_
+18	ננקטו	ננקט	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	14	acl:relcl	_	_
+19	יתנו	יתנו	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	5	ccomp	_	_
+20	פתרון	פתרון	NOUN	NOUN	Gender=Masc|Number=Sing	19	obj	_	_
+21	מוחלט	מוחלט	ADJ	ADJ	Gender=Masc|Number=Sing	20	amod	_	_
+22-23	לבעיית	_	_	_	_	_	_	_	_
+22	ל	ל	ADP	ADP	_	23	case	_	_
+23	בעיית	בעיה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	19	obl	_	_
+24-25	האוהלים	_	_	_	_	_	_	_	SpaceAfter=No
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	אוהלים	אוהל	NOUN	NOUN	Gender=Masc|Number=Plur	23	compound:smixut	_	_
+26	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:148
+# doc_range = 845-1055
+# sent_id = 3783
+# text = משרד השיכון העלה את השתתפותו בשכר הדירה לזכאים ל526 ש"ח ואכלס זכאים בדירות עמידר ששופצו לאחרונה ובשכונות הקרוואנים.
+1	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nsubj	_	_
+2-3	השיכון	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	שיכון	שיכון	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4	העלה	העלה	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	את	את	ADP	ADP	Case=Acc	6	case	_	_
+6-8	השתתפותו	_	_	_	_	_	_	_	_
+6	השתתפות	השתתפות	NOUN	NOUN	Gender=Fem|Number=Sing	4	obj	_	_
+7	_של_	של	ADP	ADP	Case=Gen	8	case:gen	_	_
+8	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+9-10	בשכר	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	שכר	שכר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	nmod	_	_
+11-12	הדירה	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	דירה	דירה	NOUN	NOUN	Gender=Fem|Number=Sing	10	compound:smixut	_	_
+13-15	לזכאים	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	15	case	_	_
+14	ה_	ה	DET	DET	PronType=Art|Definite=Def	15	det	_	_
+15	זכאים	זכאי	ADJ	ADJ	Gender=Masc|Number=Plur	4	obl	_	_
+16-17	ל526	_	_	_	_	_	_	_	_
+16	ל	ל	ADP	ADP	_	18	case	_	_
+17	526	526	NUM	NUM	_	18	nummod	_	_
+18	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	4	obl	_	_
+19-20	ואכלס	_	_	_	_	_	_	_	_
+19	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
+20	אכלס	אכלס	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	_
+21	זכאים	זכאי	ADJ	ADJ	Gender=Masc|Number=Plur	20	obj	_	_
+22-23	בדירות	_	_	_	_	_	_	_	_
+22	ב	ב	ADP	ADP	_	23	case	_	_
+23	דירות	דירה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	20	obl	_	_
+24	עמידר	עמידר	PROPN	PROPN	_	23	compound:smixut	_	_
+25-26	ששופצו	_	_	_	_	_	_	_	_
+25	ש	ש	SCONJ	SCONJ	_	26	mark	_	_
+26	שופצו	שופץ	VERB	VERB	Gender=Fem,Masc|HebBinyan=PUAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	23	acl:relcl	_	_
+27	לאחרונה	לאחרונה	ADV	ADV	_	26	advmod	_	_
+28-30	ובשכונות	_	_	_	_	_	_	_	_
+28	ו	ו	CCONJ	CCONJ	_	30	cc	_	_
+29	ב	ב	ADP	ADP	_	30	case	_	_
+30	שכונות	שכונה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	23	conj	_	_
+31-32	הקרוואנים	_	_	_	_	_	_	_	SpaceAfter=No
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	קרוואנים	קרוואן	NOUN	NOUN	Gender=Masc|Number=Plur	30	compound:smixut	_	_
+33	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:148
+# doc_range = 1057-1267
+# sent_id = 3784
+# text = עוד הסבירו במשרד השיכון כי 02 המשפחות הראשונות בארץ כבר שילמו דמי פיקדון והן עתידות להיכנס לקרוואנים בימים הקרובים.
+1	עוד	עוד	ADV	ADV	_	2	advmod	_	_
+2	הסבירו	הסביר	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3-4	במשרד	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	obl	_	_
+5-6	השיכון	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	שיכון	שיכון	NOUN	NOUN	Gender=Masc|Number=Sing	4	compound:smixut	_	_
+7	כי	כי	SCONJ	SCONJ	_	17	mark	_	_
+8	02	02	NUM	NUM	_	10	nummod	_	_
+9-10	המשפחות	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	משפחות	משפחה	NOUN	NOUN	Gender=Fem|Number=Plur	17	nsubj	_	_
+11-12	הראשונות	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	ראשונות	ראשונות	ADJ	ADJ	Gender=Fem|Number=Plur	10	amod	_	_
+13-15	בארץ	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	15	case	_	_
+14	ה_	ה	DET	DET	PronType=Art|Definite=Def	15	det	_	_
+15	ארץ	ארץ	NOUN	NOUN	Gender=Fem|Number=Sing	12	obl	_	_
+16	כבר	כבר	ADV	ADV	_	17	advmod	_	_
+17	שילמו	שילם	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	2	ccomp	_	_
+18	דמי	דמי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	17	obj	_	_
+19	פיקדון	פיקדון	NOUN	NOUN	Gender=Masc|Number=Sing	18	compound:smixut	_	_
+20-21	והן	_	_	_	_	_	_	_	_
+20	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
+21	הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	_
+22	עתידות	עתידות	AUX	AUX	Gender=Fem|Number=Plur|VerbType=Mod	23	aux	_	_
+23	להיכנס	נכנס	VERB	VERB	HebBinyan=NIFAL|VerbForm=Inf|Voice=Mid	17	conj	_	_
+24-26	לקרוואנים	_	_	_	_	_	_	_	_
+24	ל	ל	ADP	ADP	_	26	case	_	_
+25	ה_	ה	DET	DET	PronType=Art|Definite=Def	26	det	_	_
+26	קרוואנים	קרוואן	NOUN	NOUN	Gender=Masc|Number=Plur	23	obl	_	_
+27-29	בימים	_	_	_	_	_	_	_	_
+27	ב	ב	ADP	ADP	_	29	case	_	_
+28	ה_	ה	DET	DET	PronType=Art|Definite=Def	29	det	_	_
+29	ימים	יום	NOUN	NOUN	Gender=Masc|Number=Plur	23	obl	_	_
+30-31	הקרובים	_	_	_	_	_	_	_	SpaceAfter=No
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	קרובים	קרוב	ADJ	ADJ	Gender=Masc|Number=Plur	29	amod	_	_
+32	.	.	PUNCT	PUNCT	_	2	punct	_	_
+

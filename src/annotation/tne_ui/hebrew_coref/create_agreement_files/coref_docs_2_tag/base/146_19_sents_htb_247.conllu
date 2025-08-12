@@ -1,0 +1,790 @@
+# doc_id = htb:247
+# doc_range = 1-48
+# sent_id = 6083
+# text = גביית קנסות היא מלאכה קשה.
+1	גביית	גבייה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	קנסות	קנס	NOUN	NOUN	Gender=Masc|Number=Plur	1	compound:smixut	_	_
+3	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	4	cop	_	_
+4	מלאכה	מלאכה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+5	קשה	קשה	ADJ	ADJ	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:247
+# doc_range = 50-209
+# sent_id = 6084
+# text = בייחוד כשמדובר בקנסות על עבירות מסוג ברירת משפט שאין נשקפת סכנת מאסר על אי-תשלום שלהם.
+1	בייחוד	בייחוד	ADV	ADV	_	3	advmod	_	_
+2-3	כשמדובר	_	_	_	_	_	_	_	_
+2	כש	כש	SCONJ	SCONJ	Case=Tem	3	mark	_	_
+3	מדובר	דובר	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+4-5	בקנסות	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	קנסות	קנס	NOUN	NOUN	Gender=Masc|Number=Plur	3	obl	_	_
+6	על	על	ADP	ADP	_	7	case	_	_
+7	עבירות	עבירה	NOUN	NOUN	Gender=Fem|Number=Plur	5	nmod	_	_
+8-9	מסוג	_	_	_	_	_	_	_	_
+8	מ	מ	ADP	ADP	_	9	case	_	_
+9	סוג	סוג	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nmod	_	_
+10	ברירת	ברירה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	compound:smixut	_	_
+11	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
+12-13	שאין	_	_	_	_	_	_	_	_
+12	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
+13	אין	אין	ADV	ADV	Polarity=Neg	14	advmod	_	_
+14	נשקפת	נשקף	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	7	acl:relcl	_	_
+15	סכנת	סכנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	14	nsubj	_	_
+16	מאסר	מאסר	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	_
+17	על	על	ADP	ADP	_	20	case	_	_
+18	אי	אי	ADV	ADV	Prefix=Yes	20	compound:affix	_	HebSource=ConvUncertainHead|SpaceAfter=No
+19	-	-	PUNCT	PUNCT	_	18	punct	_	SpaceAfter=No
+20	תשלום	תשלום	NOUN	NOUN	Gender=Masc|Number=Sing	15	nmod	_	_
+21-22	שלהם	_	_	_	_	_	_	_	SpaceAfter=No
+21	של	של	ADP	ADP	Case=Gen	22	case	_	_
+22	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+23	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:247
+# doc_range = 211-405
+# sent_id = 6085
+# text = כמו-כן קשה לגבות קנסות בסכומים קטנים שגבייתם אינה כדאית מבחינה כלכלית משום שהיא כרוכה בהפעלת מנגנון יקר.
+1	כמו	כמו	ADP	ADP	_	3	case	_	SpaceAfter=No
+2	-	-	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+3	כן	כן	PRON	PRON	Person=3|PronType=Dem	5	obl	_	_
+4	קשה	קשה	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbType=Mod	5	aux	_	_
+5	לגבות	גבה	VERB	VERB	VerbForm=Inf	0	root	_	_
+6	קנסות	קנס	NOUN	NOUN	Gender=Masc|Number=Plur	5	obj	_	_
+7-8	בסכומים	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	סכומים	סכום	NOUN	NOUN	Gender=Masc|Number=Plur	6	nmod	_	_
+9	קטנים	קטן	ADJ	ADJ	Gender=Masc|Number=Plur	8	amod	_	_
+10-13	שגבייתם	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	15	mark	_	_
+11	גבייה	גבייה	NOUN	NOUN	Gender=Fem|Number=Sing	15	nsubj	_	_
+12	_של_	של	ADP	ADP	Case=Gen	13	case:gen	_	_
+13	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+14	אינה	אינו	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	15	aux	_	_
+15	כדאית	כדאי	ADJ	ADJ	Gender=Fem|Number=Sing	6	acl:relcl	_	_
+16-17	מבחינה	_	_	_	_	_	_	_	_
+16	מ	מ	ADP	ADP	_	17	case	_	_
+17	בחינה	בחינה	NOUN	NOUN	Gender=Fem|Number=Sing	15	obl	_	_
+18	כלכלית	כלכלי	ADJ	ADJ	Gender=Fem|Number=Sing	17	amod	_	_
+19	משום	משום	SCONJ	SCONJ	_	22	mark	_	_
+20-21	שהיא	_	_	_	_	_	_	_	_
+20	ש	ש	SCONJ	SCONJ	_	19	fixed	_	_
+21	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+22	כרוכה	כרך	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	5	advcl	_	_
+23-24	בהפעלת	_	_	_	_	_	_	_	_
+23	ב	ב	ADP	ADP	_	24	case	_	_
+24	הפעלת	הפעלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	22	obl	_	_
+25	מנגנון	מנגנון	NOUN	NOUN	Gender=Masc|Number=Sing	24	compound:smixut	_	_
+26	יקר	יקר	ADJ	ADJ	Gender=Masc|Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:247
+# doc_range = 407-657
+# sent_id = 6086
+# text = מכיוון שממדי ההשתמטות מתשלום קנסות פוגעים באכיפת החוק, מכינים במשרד המשפטים הצעת-חוק לייעול הגבייה, ובמרכזה האפשרות לעקל חשבונות בנק.
+1	מכיוון	מכיוון	SCONJ	SCONJ	_	9	mark	_	_
+2-3	שממדי	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
+3	ממדי	ממד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	9	nsubj	_	_
+4-5	ההשתמטות	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	השתמטות	השתמטות	NOUN	NOUN	Gender=Fem|Number=Sing	3	compound:smixut	_	_
+6-7	מתשלום	_	_	_	_	_	_	_	_
+6	מ	מ	ADP	ADP	_	7	case	_	_
+7	תשלום	תשלום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	nmod	_	_
+8	קנסות	קנס	NOUN	NOUN	Gender=Masc|Number=Plur	7	compound:smixut	_	_
+9	פוגעים	פגע	VERB	VERB	Tense=Pres|VerbForm=Part	15	obl	_	_
+10-11	באכיפת	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	אכיפת	אכיפה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	obl	_	_
+12-13	החוק	_	_	_	_	_	_	_	SpaceAfter=No
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	חוק	חוק	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound:smixut	_	_
+14	,	,	PUNCT	PUNCT	_	9	punct	_	_
+15	מכינים	הכין	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+16-17	במשרד	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	15	obl	_	_
+18-19	המשפטים	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	משפטים	משפט	NOUN	NOUN	Gender=Masc|Number=Plur	17	compound:smixut	_	_
+20	הצעת	הצעה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+21	-	-	PUNCT	PUNCT	_	20	punct	_	SpaceAfter=No
+22	חוק	חוק	NOUN	NOUN	Gender=Masc|Number=Sing	15	obj	_	_
+23-24	לייעול	_	_	_	_	_	_	_	_
+23	ל	ל	ADP	ADP	_	24	case	_	_
+24	ייעול	ייעול	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	22	nmod	_	_
+25-26	הגבייה	_	_	_	_	_	_	_	SpaceAfter=No
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	גבייה	גבייה	NOUN	NOUN	Gender=Fem|Number=Sing	24	compound:smixut	_	_
+27	,	,	PUNCT	PUNCT	_	30	punct	_	_
+28-32	ובמרכזה	_	_	_	_	_	_	_	_
+28	ו	ו	CCONJ	CCONJ	_	30	cc	_	_
+29	ב	ב	ADP	ADP	_	30	case	_	_
+30	מרכז	מרכז	NOUN	NOUN	Gender=Masc|Number=Sing	15	conj	_	_
+31	_של_	של	ADP	ADP	Case=Gen	32	case:gen	_	_
+32	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+33-34	האפשרות	_	_	_	_	_	_	_	_
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	אפשרות	אפשרות	NOUN	NOUN	Gender=Fem|Number=Sing	30	nsubj	_	_
+35	לעקל	עיקל	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	34	acl	_	_
+36	חשבונות	חשבון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	35	obl	_	_
+37	בנק	בנק	NOUN	NOUN	Gender=Masc|Number=Sing	36	compound:smixut	_	SpaceAfter=No
+38	.	.	PUNCT	PUNCT	_	15	punct	_	_
+
+# doc_id = htb:247
+# doc_range = 659-1027
+# sent_id = 6087
+# text = החוק המוצע, שייקרא "חוק גביית קנסות ה תשנא 1990", אינו נועד לשנות את ההוראות הקיימות בכל חוק לעניין תשלום הקנסות, אלא להוסיף עליהן ולתת כלים לגבייה בדרך שאינה מחייבת חדירה לתחום הפרט לצורך ביצוע עיקולים.
+1-2	החוק	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	חוק	חוק	NOUN	NOUN	Gender=Masc|Number=Sing	18	nsubj	_	_
+3-4	המוצע	_	_	_	_	_	_	_	SpaceAfter=No
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	מוצע	מוצע	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+5	,	,	PUNCT	PUNCT	_	7	punct	_	_
+6-7	שייקרא	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	_	7	mark	_	_
+7	ייקרא	נקרא	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Fut|Voice=Mid	2	acl:relcl	_	_
+8	"	"	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+9	חוק	חוק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	dep	_	_
+10	גביית	גבייה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	compound:smixut	_	_
+11	קנסות	קנס	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	10	compound:smixut	_	_
+12	ה	ה	NUM	NUM	_	13	compound:affix	_	_
+13	תשנא	תשנא	NUM	NUM	_	11	compound:smixut	_	_
+14	1990	1990	NUM	NUM	_	13	appos	_	SpaceAfter=No
+15	"	"	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	2	punct	_	_
+17	אינו	אינו	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	18	aux	_	_
+18	נועד	נועד	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	0	root	_	_
+19	לשנות	שינה	VERB	VERB	VerbForm=Inf	18	xcomp	_	_
+20	את	את	ADP	ADP	Case=Acc	22	case	_	_
+21-22	ההוראות	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	הוראות	הוראה	NOUN	NOUN	Gender=Fem|Number=Plur	19	obj	_	_
+23-24	הקיימות	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	קיימות	קיים	ADJ	ADJ	Gender=Fem|Number=Plur	22	amod	_	_
+25-26	בכל	_	_	_	_	_	_	_	_
+25	ב	ב	ADP	ADP	_	27	case	_	_
+26	כל	כול	DET	DET	Definite=Cons	27	det	_	_
+27	חוק	חוק	NOUN	NOUN	Gender=Masc|Number=Sing	22	nmod	_	_
+28-29	לעניין	_	_	_	_	_	_	_	_
+28	ל	ל	ADP	ADP	_	29	case	_	_
+29	עניין	עניין	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	27	nmod	_	_
+30	תשלום	תשלום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	29	compound:smixut	_	_
+31-32	הקנסות	_	_	_	_	_	_	_	SpaceAfter=No
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	קנסות	קנס	NOUN	NOUN	Gender=Masc|Number=Plur	30	compound:smixut	_	_
+33	,	,	PUNCT	PUNCT	_	35	punct	_	_
+34	אלא	אלא	CCONJ	CCONJ	_	35	cc	_	_
+35	להוסיף	הוסיף	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	19	conj	_	_
+36-37	עליהן	_	_	_	_	_	_	_	_
+36	עלי	על	ADP	ADP	_	37	case	_	_
+37	_הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	35	obl	_	_
+38-39	ולתת	_	_	_	_	_	_	_	_
+38	ו	ו	CCONJ	CCONJ	_	39	cc	_	_
+39	לתת	נתן	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	35	conj	_	_
+40	כלים	כלי	NOUN	NOUN	Gender=Masc|Number=Plur	39	obj	_	_
+41-42	לגבייה	_	_	_	_	_	_	_	_
+41	ל	ל	ADP	ADP	_	42	case	_	_
+42	גבייה	גבייה	NOUN	NOUN	Gender=Fem|Number=Sing	40	nmod	_	_
+43-44	בדרך	_	_	_	_	_	_	_	_
+43	ב	ב	ADP	ADP	_	44	case	_	_
+44	דרך	דרך	NOUN	NOUN	Gender=Fem|Number=Sing	39	obl	_	_
+45-46	שאינה	_	_	_	_	_	_	_	_
+45	ש	ש	SCONJ	SCONJ	_	47	mark	_	_
+46	אינה	אינו	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	47	aux	_	_
+47	מחייבת	חייב	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	44	acl:relcl	_	_
+48	חדירה	חדירה	NOUN	NOUN	Gender=Fem|Number=Sing	47	obj	_	_
+49-50	לתחום	_	_	_	_	_	_	_	_
+49	ל	ל	ADP	ADP	_	50	case	_	_
+50	תחום	תחום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	48	nmod	_	_
+51-52	הפרט	_	_	_	_	_	_	_	_
+51	ה	ה	DET	DET	Definite=Def|PronType=Art	52	det	_	_
+52	פרט	פרט	NOUN	NOUN	Gender=Masc|Number=Sing	50	compound:smixut	_	_
+53-54	לצורך	_	_	_	_	_	_	_	_
+53	ל	ל	ADP	ADP	_	54	case	_	_
+54	צורך	צורך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	48	nmod	_	_
+55	ביצוע	ביצוע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	54	compound:smixut	_	_
+56	עיקולים	עיקול	NOUN	NOUN	Gender=Masc|Number=Plur	55	compound:smixut	_	SpaceAfter=No
+57	.	.	PUNCT	PUNCT	_	18	punct	_	_
+
+# doc_id = htb:247
+# doc_range = 1029-1170
+# sent_id = 6088
+# text = על-פי ההצעה, ימנה שר האוצר פקיד-גבייה בכל אחד מהגופים המוסמכים להטיל קנסות.
+1	על	על	ADP	ADP	_	5	case	_	SpaceAfter=No
+2	-	-	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+3	פי	פה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	fixed	_	_
+4-5	ההצעה	_	_	_	_	_	_	_	SpaceAfter=No
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	הצעה	הצעה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
+6	,	,	PUNCT	PUNCT	_	5	punct	_	_
+7	ימנה	מינה	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	0	root	_	_
+8	שר	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nsubj	_	_
+9-10	האוצר	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	אוצר	אוצר	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound:smixut	_	_
+11	פקיד	פקיד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+12	-	-	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+13	גבייה	גבייה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obj	_	_
+14-15	בכל	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	16	case	_	_
+15	כל	כול	DET	DET	Definite=Cons	16	det	_	_
+16	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	7	obl	_	_
+17-19	מהגופים	_	_	_	_	_	_	_	_
+17	מ	מ	ADP	ADP	_	19	case	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	גופים	גוף	NOUN	NOUN	Gender=Masc|Number=Plur	16	obl	_	_
+20-21	המוסמכים	_	_	_	_	_	_	_	_
+20	ה	ה	SCONJ	SCONJ	_	21	mark	_	_
+21	מוסמכים	הוסמך	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	19	acl:relcl	_	_
+22	להטיל	הטיל	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	21	xcomp	_	_
+23	קנסות	קנס	NOUN	NOUN	Gender=Masc|Number=Plur	22	obj	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:247
+# doc_range = 1172-1317
+# sent_id = 6089
+# text = פקידי הגבייה, שיהיו ממונים על גביית קנסות שהטיל בית משפט, יהיו עובדי בתי המשפט.
+1	פקידי	פקיד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	17	nsubj	_	_
+2-3	הגבייה	_	_	_	_	_	_	_	SpaceAfter=No
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	גבייה	גבייה	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+4	,	,	PUNCT	PUNCT	_	7	punct	_	_
+5-6	שיהיו	_	_	_	_	_	_	_	_
+5	ש	ש	SCONJ	SCONJ	_	7	mark	_	_
+6	יהיו	יהיו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	7	cop	_	_
+7	ממונים	מונה	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	1	acl:relcl	_	_
+8	על	על	ADP	ADP	_	9	case	_	_
+9	גביית	גבייה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	obl	_	_
+10	קנסות	קנס	NOUN	NOUN	Gender=Masc|Number=Plur	9	compound:smixut	_	_
+11-12	שהטיל	_	_	_	_	_	_	_	_
+11	ש	ש	SCONJ	SCONJ	_	12	mark	_	_
+12	הטיל	הטיל	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	10	acl:relcl	_	_
+13	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	nsubj	_	_
+14	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	13	compound:smixut	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	1	punct	_	_
+16	יהיו	יהיו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	17	cop	_	_
+17	עובדי	עובד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	0	root	_	_
+18	בתי	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	17	compound:smixut	_	_
+19-20	המשפט	_	_	_	_	_	_	_	SpaceAfter=No
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	18	compound:smixut	_	_
+21	.	.	PUNCT	PUNCT	_	17	punct	_	_
+
+# doc_id = htb:247
+# doc_range = 1319-1646
+# sent_id = 6090
+# text = ואילו הפקידים שיעסקו בגביית קנסות מנהליים וקנסות על עבירות של ברירת משפט, יהיו עובדי הגופים הממונים על ביצוע התקנה, שמכוחה הוטל הקנס, או עובדי הגופים הממונים על אכיפת אותה תקנה.
+1-2	ואילו	_	_	_	_	_	_	_	_
+1	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
+2	אילו	אילו	ADV	ADV	_	20	advmod	_	_
+3-4	הפקידים	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	פקידים	פקיד	NOUN	NOUN	Gender=Masc|Number=Plur	20	nsubj	_	_
+5-6	שיעסקו	_	_	_	_	_	_	_	_
+5	ש	ש	SCONJ	SCONJ	_	6	mark	_	_
+6	יעסקו	עסק	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Fut|Voice=Act	4	acl:relcl	_	_
+7-8	בגביית	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	גביית	גבייה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	obl	_	_
+9	קנסות	קנס	NOUN	NOUN	Gender=Masc|Number=Plur	8	compound:smixut	_	_
+10	מנהליים	מנהלי	ADJ	ADJ	Gender=Masc|Number=Plur	9	amod	_	_
+11-12	וקנסות	_	_	_	_	_	_	_	_
+11	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+12	קנסות	קנס	NOUN	NOUN	Gender=Masc|Number=Plur	9	conj	_	_
+13	על	על	ADP	ADP	_	14	case	_	_
+14	עבירות	עבירה	NOUN	NOUN	Gender=Fem|Number=Plur	12	nmod	_	_
+15	של	של	ADP	ADP	Case=Gen	16	case	_	_
+16	ברירת	ברירה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	14	nmod:poss	_	_
+17	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	16	compound:smixut	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	4	punct	_	_
+19	יהיו	יהיו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	20	cop	_	_
+20	עובדי	עובד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	0	root	_	_
+21-22	הגופים	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	גופים	גוף	NOUN	NOUN	Gender=Masc|Number=Plur	20	compound:smixut	_	_
+23-24	הממונים	_	_	_	_	_	_	_	_
+23	ה	ה	SCONJ	SCONJ	_	24	mark	_	_
+24	ממונים	מונה	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	20	acl:relcl	_	_
+25	על	על	ADP	ADP	_	26	case	_	_
+26	ביצוע	ביצוע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	24	obl	_	_
+27-28	התקנה	_	_	_	_	_	_	_	SpaceAfter=No
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	תקנה	תקנה	NOUN	NOUN	Gender=Fem|Number=Sing	26	compound:smixut	_	_
+29	,	,	PUNCT	PUNCT	_	35	punct	_	_
+30-34	שמכוחה	_	_	_	_	_	_	_	_
+30	ש	ש	SCONJ	SCONJ	_	35	mark	_	_
+31	מ	מ	ADP	ADP	_	32	case	_	_
+32	כוח	כוח	NOUN	NOUN	Gender=Masc|Number=Sing	35	obl	_	_
+33	_של_	של	ADP	ADP	Case=Gen	34	case:gen	_	_
+34	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+35	הוטל	הוטל	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	28	acl:relcl	_	_
+36-37	הקנס	_	_	_	_	_	_	_	SpaceAfter=No
+36	ה	ה	DET	DET	Definite=Def|PronType=Art	37	det	_	_
+37	קנס	קנס	NOUN	NOUN	Gender=Masc|Number=Sing	35	nsubj:pass	_	_
+38	,	,	PUNCT	PUNCT	_	39	punct	_	_
+39	או	או	CCONJ	CCONJ	_	40	cc	_	_
+40	עובדי	עובד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	20	conj	_	_
+41-42	הגופים	_	_	_	_	_	_	_	_
+41	ה	ה	DET	DET	Definite=Def|PronType=Art	42	det	_	_
+42	גופים	גוף	NOUN	NOUN	Gender=Masc|Number=Plur	40	compound:smixut	_	_
+43-44	הממונים	_	_	_	_	_	_	_	_
+43	ה	ה	SCONJ	SCONJ	_	44	mark	_	_
+44	ממונים	מונה	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	40	acl:relcl	_	_
+45	על	על	ADP	ADP	_	46	case	_	_
+46	אכיפת	אכיפה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	44	obl	_	_
+47	אותה	אותו	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	48	det	_	_
+48	תקנה	תקנה	NOUN	NOUN	Gender=Fem|Number=Sing	46	compound:smixut	_	SpaceAfter=No
+49	.	.	PUNCT	PUNCT	_	20	punct	_	_
+
+# doc_id = htb:247
+# doc_range = 1648-1700
+# sent_id = 6091
+# text = למשל, המשטרה בעבירות תעבורה.
+1	למשל	למשל	ADV	ADV	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3-4	המשטרה	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+5-6	בעבירות	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	עבירות	עבירה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	4	nmod	_	_
+7	תעבורה	תעבורה	NOUN	NOUN	Gender=Fem|Number=Sing	6	compound:smixut	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:247
+# doc_range = 1702-1880
+# sent_id = 6092
+# text = לפקידי הגבייה יהיו סמכויות של גובי מס, בעיקר לצורך עיקול חשבונות-בנק, אך גם להטלת עיקולים אחרים.
+1-2	לפקידי	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	פקידי	פקיד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	5	obl	_	_
+3-4	הגבייה	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	גבייה	גבייה	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound:smixut	_	_
+5	יהיו	יהיו	VERB	VERB	Gender=Fem,Masc|HebExistential=Yes|Number=Plur|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
+6	סמכויות	סמכות	NOUN	NOUN	Gender=Fem|Number=Plur	5	nsubj	_	_
+7	של	של	ADP	ADP	Case=Gen	8	case	_	_
+8	גובי	גוב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	6	nmod:poss	_	_
+9	מס	מס	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound:smixut	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	13	punct	_	_
+11	בעיקר	בעיקר	ADV	ADV	_	13	advmod	_	_
+12-13	לצורך	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	_	13	case	_	_
+13	צורך	צורך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+14	עיקול	עיקול	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	compound:smixut	_	_
+15	חשבונות	חשבון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+16	-	-	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
+17	בנק	בנק	NOUN	NOUN	Gender=Masc|Number=Sing	14	compound:smixut	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	22	punct	_	_
+19	אך	אך	CCONJ	CCONJ	_	22	cc	_	_
+20	גם	גם	ADV	ADV	_	22	advmod	_	_
+21-22	להטלת	_	_	_	_	_	_	_	_
+21	ל	ל	ADP	ADP	_	22	case	_	_
+22	הטלת	הטלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	13	conj	_	_
+23	עיקולים	עיקול	NOUN	NOUN	Gender=Masc|Number=Plur	22	compound:smixut	_	_
+24	אחרים	אחר	ADJ	ADJ	Gender=Masc|Number=Plur	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:247
+# doc_range = 1883-2033
+# sent_id = 6093
+# text = לצורך הפעלת החוק, ירכז משרד האוצר את הנתונים לביצוע הגבייה (כמו מידע על חשבון בנק).
+1-2	לצורך	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	צורך	צורך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	obl	_	_
+3	הפעלת	הפעלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	compound:smixut	_	_
+4-5	החוק	_	_	_	_	_	_	_	SpaceAfter=No
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	חוק	חוק	NOUN	NOUN	Gender=Masc|Number=Sing	3	compound:smixut	_	_
+6	,	,	PUNCT	PUNCT	_	2	punct	_	_
+7	ירכז	ריכז	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+8	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	dep	_	_
+9-10	האוצר	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	אוצר	אוצר	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound:smixut	_	_
+11	את	את	ADP	ADP	Case=Acc	13	case	_	_
+12-13	הנתונים	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	נתונים	נתון	NOUN	NOUN	Gender=Masc|Number=Plur	7	obj	_	_
+14-15	לביצוע	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	ביצוע	ביצוע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	nmod	_	_
+16-17	הגבייה	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	גבייה	גבייה	NOUN	NOUN	Gender=Fem|Number=Sing	15	compound:smixut	_	_
+18	(	(	PUNCT	PUNCT	_	20	punct	_	SpaceAfter=No
+19	כמו	כמו	ADP	ADP	_	20	case	_	_
+20	מידע	מידע	NOUN	NOUN	Gender=Masc|Number=Sing	13	appos	_	_
+21	על	על	ADP	ADP	_	22	case	_	_
+22	חשבון	חשבון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	20	nmod	_	_
+23	בנק	בנק	NOUN	NOUN	Gender=Masc|Number=Sing	22	compound:smixut	_	SpaceAfter=No
+24	)	)	PUNCT	PUNCT	_	20	punct	_	SpaceAfter=No
+25	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:247
+# doc_range = 2037-2217
+# sent_id = 6094
+# text = הנתונים שבמאגר יתייחסו אך ורק לחייבי-מס, שלא שילמו את מלוא חובם במועד, וישמשו לגביית הקנסות בלבד.
+1-2	הנתונים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	נתונים	נתון	NOUN	NOUN	Gender=Masc|Number=Plur	7	nsubj	_	_
+3-6	שבמאגר	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	6	case	_	_
+4	ב	ב	ADP	ADP	_	6	case	_	_
+5	ה_	ה	DET	DET	PronType=Art|Definite=Def	6	det	_	_
+6	מאגר	מאגר	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_
+7	יתייחסו	התייחס	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Fut	0	root	_	_
+8	אך	אך	ADV	ADV	_	7	advmod	_	_
+9-10	ורק	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+10	רק	רק	ADV	ADV	_	8	conj	_	_
+11-12	לחייבי	_	_	_	_	_	_	_	SpaceAfter=No
+11	ל	ל	ADP	ADP	_	14	case	_	_
+12	חייבי	חייב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	14	nmod	_	_
+13	-	-	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
+14	מס	מס	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	18	punct	_	_
+16-17	שלא	_	_	_	_	_	_	_	_
+16	ש	ש	SCONJ	SCONJ	_	18	mark	_	_
+17	לא	לא	ADV	ADV	Polarity=Neg	18	advmod	_	_
+18	שילמו	שילם	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	14	acl:relcl	_	_
+19	את	את	ADP	ADP	Case=Acc	20	case	_	_
+20	מלוא	מלוא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	18	obj	_	_
+21-23	חובם	_	_	_	_	_	_	_	_
+21	חוב	חוב	NOUN	NOUN	Gender=Masc|Number=Sing	20	compound:smixut	_	_
+22	_של_	של	ADP	ADP	Case=Gen	23	case:gen	_	_
+23	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+24-26	במועד	_	_	_	_	_	_	_	SpaceAfter=No
+24	ב	ב	ADP	ADP	_	26	case	_	_
+25	ה_	ה	DET	DET	PronType=Art|Definite=Def	26	det	_	_
+26	מועד	מועד	NOUN	NOUN	Gender=Masc|Number=Sing	18	obl	_	_
+27	,	,	PUNCT	PUNCT	_	29	punct	_	_
+28-29	וישמשו	_	_	_	_	_	_	_	_
+28	ו	ו	CCONJ	CCONJ	_	29	cc	_	_
+29	ישמשו	שימש	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Fut|Voice=Act	7	conj	_	_
+30-31	לגביית	_	_	_	_	_	_	_	_
+30	ל	ל	ADP	ADP	_	31	case	_	_
+31	גביית	גבייה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	29	obl	_	_
+32-33	הקנסות	_	_	_	_	_	_	_	_
+32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
+33	קנסות	קנס	NOUN	NOUN	Gender=Masc|Number=Plur	31	compound:smixut	_	_
+34	בלבד	בלבד	ADV	ADV	_	31	advmod	_	SpaceAfter=No
+35	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:247
+# doc_range = 2219-2417
+# sent_id = 6095
+# text = כללי הסודיות החלים על גילוי מידע הנאסף לצורך גביית מסים יחולו גם על מי שפועל, מכוח החוק המוצע, לגביית קנסות.
+1	כללי	כלל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	15	nsubj	_	_
+2-3	הסודיות	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	סודיות	סודיות	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+4-5	החלים	_	_	_	_	_	_	_	_
+4	ה	ה	SCONJ	SCONJ	_	5	mark	_	_
+5	חלים	חל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	1	acl:relcl	_	_
+6	על	על	ADP	ADP	_	7	case	_	_
+7	גילוי	גילוי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+8	מידע	מידע	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound:smixut	_	_
+9-10	הנאסף	_	_	_	_	_	_	_	_
+9	ה	ה	SCONJ	SCONJ	_	10	mark	_	_
+10	נאסף	נאסף	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	8	acl:relcl	_	_
+11-12	לצורך	_	_	_	_	_	_	_	_
+11	ל	ל	ADP	ADP	_	12	case	_	_
+12	צורך	צורך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	obl	_	_
+13	גביית	גבייה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	compound:smixut	_	_
+14	מסים	מס	NOUN	NOUN	Gender=Masc|Number=Plur	13	compound:smixut	_	_
+15	יחולו	חל	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+16	גם	גם	ADV	ADV	_	18	advmod	_	_
+17	על	על	ADP	ADP	_	18	case	_	_
+18	מי	מי	PRON	PRON	PronType=Int	15	obl	_	_
+19-20	שפועל	_	_	_	_	_	_	_	SpaceAfter=No
+19	ש	ש	SCONJ	SCONJ	_	20	mark	_	_
+20	פועל	פעל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	18	acl:relcl	_	_
+21	,	,	PUNCT	PUNCT	_	23	punct	_	_
+22-23	מכוח	_	_	_	_	_	_	_	_
+22	מ	מ	ADP	ADP	_	23	case	_	_
+23	כוח	כוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	20	obl	_	_
+24-25	החוק	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	חוק	חוק	NOUN	NOUN	Gender=Masc|Number=Sing	23	compound:smixut	_	_
+26-27	המוצע	_	_	_	_	_	_	_	SpaceAfter=No
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	מוצע	מוצע	ADJ	ADJ	Gender=Masc|Number=Sing	25	amod	_	_
+28	,	,	PUNCT	PUNCT	_	30	punct	_	_
+29-30	לגביית	_	_	_	_	_	_	_	_
+29	ל	ל	ADP	ADP	_	30	case	_	_
+30	גביית	גבייה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	20	obl	_	_
+31	קנסות	קנס	NOUN	NOUN	Gender=Masc|Number=Plur	30	compound:smixut	_	SpaceAfter=No
+32	.	.	PUNCT	PUNCT	_	15	punct	_	_
+
+# doc_id = htb:247
+# doc_range = 2419-2508
+# sent_id = 6096
+# text = שר האוצר ימנה עובד ממשרדו שיהיה אחראי על מאגר זה.
+1	שר	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nsubj	_	_
+2-3	האוצר	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	אוצר	אוצר	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4	ימנה	מינה	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	0	root	_	_
+5	עובד	עובד	NOUN	NOUN	Gender=Masc|Number=Sing	4	obj	_	_
+6-9	ממשרדו	_	_	_	_	_	_	_	_
+6	מ	מ	ADP	ADP	_	7	case	_	_
+7	משרד	משרד	NOUN	NOUN	Gender=Masc|Number=Sing	5	nmod	_	_
+8	_של_	של	ADP	ADP	Case=Gen	9	case:gen	_	_
+9	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+10-11	שיהיה	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	12	mark	_	_
+11	יהיה	יהיה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	12	cop	_	_
+12	אחראי	אחראי	ADJ	ADJ	Gender=Masc|Number=Sing	5	acl:relcl	_	_
+13	על	על	ADP	ADP	_	14	case	_	_
+14	מאגר	מאגר	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
+15	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	det	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:247
+# doc_range = 2510-2746
+# sent_id = 6097
+# text = לפקיד זה יהיו סמכויות לדרוש מידע לצורך גביית הקנסות, ממשרדי ממשלה (חוץ מרשויות מס), מרשויות מקומיות, מתאגידים ציבוריים ומבנקים.
+1-2	לפקיד	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	פקיד	פקיד	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+3	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	det	_	_
+4	יהיו	יהיו	VERB	VERB	Gender=Fem,Masc|HebExistential=Yes|Number=Plur|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
+5	סמכויות	סמכות	NOUN	NOUN	Gender=Fem|Number=Plur	4	nsubj	_	_
+6	לדרוש	דרש	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	5	acl	_	_
+7	מידע	מידע	NOUN	NOUN	Gender=Masc|Number=Sing	6	obj	_	_
+8-9	לצורך	_	_	_	_	_	_	_	_
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	צורך	צורך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nmod	_	_
+10	גביית	גבייה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	compound:smixut	_	_
+11-12	הקנסות	_	_	_	_	_	_	_	SpaceAfter=No
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	קנסות	קנס	NOUN	NOUN	Gender=Masc|Number=Plur	10	compound:smixut	_	_
+13	,	,	PUNCT	PUNCT	_	15	punct	_	_
+14-15	ממשרדי	_	_	_	_	_	_	_	_
+14	מ	מ	ADP	ADP	_	15	case	_	_
+15	משרדי	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	6	obl	_	_
+16	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	15	compound:smixut	_	_
+17	(	(	PUNCT	PUNCT	_	20	punct	_	SpaceAfter=No
+18	חוץ	חוץ	ADP	ADP	_	20	case	_	_
+19-20	מרשויות	_	_	_	_	_	_	_	_
+19	מ	מ	ADP	ADP	_	18	fixed	_	_
+20	רשויות	רשות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	15	nmod	_	_
+21	מס	מס	NOUN	NOUN	Gender=Masc|Number=Sing	20	compound:smixut	_	SpaceAfter=No
+22	)	)	PUNCT	PUNCT	_	20	punct	_	SpaceAfter=No
+23	,	,	PUNCT	PUNCT	_	25	punct	_	_
+24-25	מרשויות	_	_	_	_	_	_	_	_
+24	מ	מ	ADP	ADP	_	25	case	_	_
+25	רשויות	רשות	NOUN	NOUN	Gender=Fem|Number=Plur	15	conj	_	_
+26	מקומיות	מקומי	ADJ	ADJ	Gender=Fem|Number=Plur	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	PUNCT	_	29	punct	_	_
+28-29	מתאגידים	_	_	_	_	_	_	_	_
+28	מ	מ	ADP	ADP	_	29	case	_	_
+29	תאגידים	תאגיד	NOUN	NOUN	Gender=Masc|Number=Plur	15	conj	_	_
+30	ציבוריים	ציבורי	ADJ	ADJ	Gender=Masc|Number=Plur	29	amod	_	_
+31-33	ומבנקים	_	_	_	_	_	_	_	SpaceAfter=No
+31	ו	ו	CCONJ	CCONJ	_	33	cc	_	_
+32	מ	מ	ADP	ADP	_	33	case	_	_
+33	בנקים	בנק	NOUN	NOUN	Gender=Masc|Number=Plur	15	conj	_	_
+34	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:247
+# doc_range = 2749-2985
+# sent_id = 6098
+# text = חלק מהקנסות שייגבו, על-פי החוק המוצע, יועברו לגופים שעסקו בגבייה, כדי לעודדם להקים את מנגנון הגבייה הדרוש ולעסוק בגביית הקנסות.
+1	חלק	חלק	NOUN	NOUN	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
+2-4	מהקנסות	_	_	_	_	_	_	_	_
+2	מ	מ	ADP	ADP	_	4	case	_	HebSource=ConvUncertainLabel
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	1	det	_	_
+4	קנסות	קנס	NOUN	NOUN	Gender=Masc|Number=Plur	1	nmod	_	_
+5-6	שייגבו	_	_	_	_	_	_	_	SpaceAfter=No
+5	ש	ש	SCONJ	SCONJ	_	6	mark	_	_
+6	ייגבו	נגבה	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Fut|Voice=Mid	1	acl:relcl	_	_
+7	,	,	PUNCT	PUNCT	_	1	punct	_	_
+8	על	על	ADP	ADP	_	12	case	_	SpaceAfter=No
+9	-	-	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+10	פי	פה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	fixed	_	_
+11-12	החוק	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	חוק	חוק	NOUN	NOUN	Gender=Masc|Number=Sing	16	obl	_	_
+13-14	המוצע	_	_	_	_	_	_	_	SpaceAfter=No
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	מוצע	מוצע	ADJ	ADJ	Gender=Masc|Number=Sing	12	amod	_	_
+15	,	,	PUNCT	PUNCT	_	12	punct	_	_
+16	יועברו	הועבר	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Fut|Voice=Pass	0	root	_	_
+17-19	לגופים	_	_	_	_	_	_	_	_
+17	ל	ל	ADP	ADP	_	19	case	_	_
+18	ה_	ה	DET	DET	PronType=Art|Definite=Def	19	det	_	_
+19	גופים	גוף	NOUN	NOUN	Gender=Masc|Number=Plur	16	obl	_	_
+20-21	שעסקו	_	_	_	_	_	_	_	_
+20	ש	ש	SCONJ	SCONJ	_	21	mark	_	_
+21	עסקו	עסק	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	19	acl:relcl	_	_
+22-24	בגבייה	_	_	_	_	_	_	_	SpaceAfter=No
+22	ב	ב	ADP	ADP	_	24	case	_	_
+23	ה_	ה	DET	DET	PronType=Art|Definite=Def	24	det	_	_
+24	גבייה	גבייה	NOUN	NOUN	Gender=Fem|Number=Sing	21	obl	_	_
+25	,	,	PUNCT	PUNCT	_	30	punct	_	_
+26	כדי	כדי	SCONJ	SCONJ	_	30	mark	_	_
+27-29	לעודדם	_	_	_	_	_	_	_	_
+27	עודד	עודד	VERB	VERB	VerbForm=Inf	30	dep	_	_
+28	את_	את	ADP	ADP	Case=Acc	29	case:acc	_	_
+29	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	30	obj	_	_
+30	להקים	הקים	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	16	advcl	_	_
+31	את	את	ADP	ADP	Case=Acc	32	case	_	_
+32	מנגנון	מנגנון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	30	obj	_	_
+33-34	הגבייה	_	_	_	_	_	_	_	_
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	גבייה	גבייה	NOUN	NOUN	Gender=Fem|Number=Sing	32	compound:smixut	_	_
+35-36	הדרוש	_	_	_	_	_	_	_	_
+35	ה	ה	DET	DET	Definite=Def|PronType=Art	36	det	_	_
+36	דרוש	דרוש	ADJ	ADJ	Gender=Masc|Number=Sing	32	amod	_	_
+37-38	ולעסוק	_	_	_	_	_	_	_	_
+37	ו	ו	CCONJ	CCONJ	_	38	cc	_	_
+38	לעסוק	עסק	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	30	conj	_	_
+39-40	בגביית	_	_	_	_	_	_	_	_
+39	ב	ב	ADP	ADP	_	40	case	_	_
+40	גביית	גבייה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	38	obl	_	_
+41-42	הקנסות	_	_	_	_	_	_	_	SpaceAfter=No
+41	ה	ה	DET	DET	Definite=Def|PronType=Art	42	det	_	_
+42	קנסות	קנס	NOUN	NOUN	Gender=Masc|Number=Plur	40	compound:smixut	_	_
+43	.	.	PUNCT	PUNCT	_	16	punct	_	_
+
+# doc_id = htb:247
+# doc_range = 2987-3244
+# sent_id = 6099
+# text = הפעלת החוק תהיה כרוכה במימון מתקציב המדינה, בין השאר משום שהמשרדים המופקדים על הגבייה יצטרכו להצטייד במכשור כדי לעמוד בקשר ממוחשב עם האוצר.
+1	הפעלת	הפעלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	nsubj	_	_
+2-3	החוק	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	חוק	חוק	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4	תהיה	תהיה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	5	cop	_	_
+5	כרוכה	כרך	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+6-7	במימון	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	מימון	מימון	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+8-9	מתקציב	_	_	_	_	_	_	_	_
+8	מ	מ	ADP	ADP	_	9	case	_	_
+9	תקציב	תקציב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nmod	_	_
+10-11	המדינה	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	מדינה	מדינה	NOUN	NOUN	Gender=Fem|Number=Sing	9	compound:smixut	_	_
+12	,	,	PUNCT	PUNCT	_	15	punct	_	_
+13	בין	בין	ADP	ADP	_	15	case	_	_
+14-15	השאר	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	שאר	שאר	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+16	משום	משום	SCONJ	SCONJ	_	25	mark	_	_
+17-19	שהמשרדים	_	_	_	_	_	_	_	_
+17	ש	ש	SCONJ	SCONJ	_	16	fixed	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	משרדים	משרד	NOUN	NOUN	Gender=Masc|Number=Plur	25	nsubj	_	_
+20-21	המופקדים	_	_	_	_	_	_	_	_
+20	ה	ה	SCONJ	SCONJ	_	21	mark	_	_
+21	מופקדים	הופקד	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	19	acl:relcl	_	_
+22	על	על	ADP	ADP	_	24	case	_	_
+23-24	הגבייה	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	גבייה	גבייה	NOUN	NOUN	Gender=Fem|Number=Sing	21	obl	_	_
+25	יצטרכו	הצטרך	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Fut	15	conj	_	_
+26	להצטייד	הצטייד	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	25	xcomp	_	_
+27-28	במכשור	_	_	_	_	_	_	_	_
+27	ב	ב	ADP	ADP	_	28	case	_	_
+28	מכשור	מכשור	NOUN	NOUN	Gender=Masc|Number=Sing	26	obl	_	_
+29	כדי	כדי	SCONJ	SCONJ	_	30	mark	_	_
+30	לעמוד	עמד	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	26	advcl	_	_
+31-32	בקשר	_	_	_	_	_	_	_	_
+31	ב	ב	ADP	ADP	_	32	case	_	_
+32	קשר	קשר	NOUN	NOUN	Gender=Masc|Number=Sing	30	obl	_	_
+33	ממוחשב	ממוחשב	ADJ	ADJ	Gender=Masc|Number=Sing	32	amod	_	_
+34	עם	עם	ADP	ADP	_	36	case	_	_
+35-36	האוצר	_	_	_	_	_	_	_	SpaceAfter=No
+35	ה	ה	DET	DET	Definite=Def|PronType=Art	36	det	_	_
+36	אוצר	אוצר	NOUN	NOUN	Gender=Masc|Number=Sing	30	obl	_	_
+37	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:247
+# doc_range = 3246-3381
+# sent_id = 6100
+# text = ואולם מכיני ההצעה מציינים כי מדובר בקנסות במיליוני שקלים שאינם נגבים כלל.
+1-2	ואולם	_	_	_	_	_	_	_	_
+1	ו	ו	CCONJ	CCONJ	_	6	cc	_	_
+2	אולם	אולם	CCONJ	CCONJ	_	1	fixed	_	_
+3	מכיני	הכין	VERB	VERB	Definite=Cons|Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	6	nsubj	_	_
+4-5	ההצעה	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	הצעה	הצעה	NOUN	NOUN	Gender=Fem|Number=Sing	3	compound:smixut	_	_
+6	מציינים	ציין	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+7	כי	כי	SCONJ	SCONJ	_	8	mark	_	_
+8	מדובר	דובר	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	6	ccomp	_	_
+9-10	בקנסות	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	קנסות	קנס	NOUN	NOUN	Gender=Masc|Number=Plur	8	obl	_	_
+11-12	במיליוני	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	13	case	_	_
+12	מיליוני	מיליוני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	13	nummod	_	_
+13	שקלים	שקל	NOUN	NOUN	Gender=Masc|Number=Plur	10	nmod	_	_
+14-15	שאינם	_	_	_	_	_	_	_	_
+14	ש	ש	SCONJ	SCONJ	_	16	mark	_	_
+15	אינם	אינו	AUX	AUX	Gender=Masc|Number=Plur|Person=3|Polarity=Neg|VerbForm=Part	16	aux	_	_
+16	נגבים	נגבה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	10	acl:relcl	_	_
+17	כלל	כלל	ADV	ADV	_	16	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:247
+# doc_range = 3384-3590
+# sent_id = 6101
+# text = לדבריהם, לא יהיה צורך בשלב הראשון בתוספת כוח אדם להפעלת החוק, שכן יעסקו בכך מחלקות הגבייה הקיימות בגופים השונים.
+1-4	לדבריהם	_	_	_	_	_	_	_	SpaceAfter=No
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	7	obl	_	_
+3	_של_	של	ADP	ADP	Case=Gen	4	case:gen	_	_
+4	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5	,	,	PUNCT	PUNCT	_	2	punct	_	_
+6	לא	לא	ADV	ADV	Polarity=Neg	7	advmod	_	_
+7	יהיה	יהיה	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
+8	צורך	צורך	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj	_	_
+9-11	בשלב	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	11	case	_	_
+10	ה_	ה	DET	DET	PronType=Art|Definite=Def	11	det	_	_
+11	שלב	שלב	NOUN	NOUN	Gender=Masc|Number=Sing	8	nmod	_	_
+12-13	הראשון	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	ראשון	ראשון	ADJ	ADJ	Gender=Masc|Number=Sing	11	amod	_	_
+14-15	בתוספת	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	תוספת	תוספת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	8	nmod	_	_
+16	כוח	כוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	15	compound:smixut	_	_
+17	אדם	אדם	NOUN	NOUN	Gender=Masc|Number=Sing	16	compound:smixut	_	_
+18-19	להפעלת	_	_	_	_	_	_	_	_
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	הפעלת	הפעלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	16	nmod	_	_
+20-21	החוק	_	_	_	_	_	_	_	SpaceAfter=No
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	חוק	חוק	NOUN	NOUN	Gender=Masc|Number=Sing	19	compound:smixut	_	_
+22	,	,	PUNCT	PUNCT	_	24	punct	_	_
+23	שכן	שכן	SCONJ	SCONJ	_	24	mark	_	_
+24	יעסקו	עסק	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Fut|Voice=Act	7	advcl	_	_
+25-26	בכך	_	_	_	_	_	_	_	_
+25	ב	ב	ADP	ADP	_	26	case	_	_
+26	כך	כך	PRON	PRON	Person=3|PronType=Dem	24	obl	_	_
+27	מחלקות	מחלקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	24	nsubj	_	_
+28-29	הגבייה	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	גבייה	גבייה	NOUN	NOUN	Gender=Fem|Number=Sing	27	compound:smixut	_	_
+30-31	הקיימות	_	_	_	_	_	_	_	_
+30	ה	ה	SCONJ	SCONJ	_	31	mark	_	_
+31	קיימות	קיים	ADJ	ADJ	Gender=Fem|Number=Plur	27	acl:relcl	_	_
+32-34	בגופים	_	_	_	_	_	_	_	_
+32	ב	ב	ADP	ADP	_	34	case	_	_
+33	ה_	ה	DET	DET	PronType=Art|Definite=Def	34	det	_	_
+34	גופים	גוף	NOUN	NOUN	Gender=Masc|Number=Plur	31	obl	_	_
+35-36	השונים	_	_	_	_	_	_	_	SpaceAfter=No
+35	ה	ה	DET	DET	Definite=Def|PronType=Art	36	det	_	_
+36	שונים	שונה	ADJ	ADJ	Gender=Masc|Number=Plur	34	amod	_	_
+37	.	.	PUNCT	PUNCT	_	7	punct	_	_
+

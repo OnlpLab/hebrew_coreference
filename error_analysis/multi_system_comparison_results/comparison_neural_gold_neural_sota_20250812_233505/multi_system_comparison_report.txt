@@ -1,0 +1,470 @@
+================================================================================
+MULTI-SYSTEM OUTPUT COMPARISON SUMMARY REPORT
+================================================================================
+Generated: 2025-08-12 23:35:11
+Total documents: 24
+
+📊 OVERALL PERFORMANCE SUMMARY
+--------------------------------------------------------------------------------
+Document        Approach             Correct    Extra      Missed     Non-Pronoun 
+--------------------------------------------------------------------------------
+htb:232         neural_sota          4          4          5          0.62        
+htb:232         neural_gold          5          2          4          0.30        
+htb:233         neural_sota          6          7          11         0.67        
+htb:233         neural_gold          7          5          10         0.57        
+htb:234         neural_sota          5          2          5          0.50        
+htb:234         neural_gold          6          3          4          0.33        
+htb:235         neural_sota          14         6          4          0.71        
+htb:235         neural_gold          12         2          6          0.58        
+htb:236         neural_sota          11         11         11         0.59        
+htb:236         neural_gold          8          14         14         0.38        
+htb:237         neural_sota          10         6          13         0.45        
+htb:237         neural_gold          11         5          12         0.64        
+htb:238         neural_sota          7          4          7          0.50        
+htb:238         neural_gold          9          3          5          0.44        
+htb:239_1       neural_sota          6          5          10         0.33        
+htb:239_1       neural_gold          6          5          10         0.33        
+htb:239_2       neural_sota          17         16         15         0.35        
+htb:239_2       neural_gold          11         8          21         0.27        
+htb:240         neural_sota          4          3          9          0.38        
+htb:240         neural_gold          9          3          4          0.11        
+htb:241_1       neural_sota          10         6          19         0.35        
+htb:241_1       neural_gold          11         6          18         0.41        
+htb:241_2       neural_sota          20         6          14         0.68        
+htb:241_2       neural_gold          22         5          12         0.52        
+htb:242_1       neural_sota          15         13         16         0.63        
+htb:242_1       neural_gold          14         9          17         0.61        
+htb:242_2       neural_sota          7          4          6          0.36        
+htb:242_2       neural_gold          6          6          7          0.33        
+htb:243         neural_sota          13         3          5          0.23        
+htb:243         neural_gold          10         8          8          0.20        
+htb:244         neural_sota          4          4          10         0.00        
+htb:244         neural_gold          4          5          10         0.12        
+htb:245         neural_sota          6          2          5          0.50        
+htb:245         neural_gold          8          3          3          0.38        
+htb:246         neural_sota          7          10         19         0.36        
+htb:246         neural_gold          13         11         13         0.08        
+htb:247         neural_sota          10         4          8          0.25        
+htb:247         neural_gold          11         5          7          0.05        
+htb:248_1       neural_sota          5          4          8          0.40        
+htb:248_1       neural_gold          3          3          10         0.00        
+htb:248_2       neural_sota          7          8          12         0.43        
+htb:248_2       neural_gold          8          10         11         0.38        
+htb:248_3       neural_sota          6          2          11         0.33        
+htb:248_3       neural_gold          10         1          7          0.20        
+htb:249         neural_sota          19         8          17         0.21        
+htb:249         neural_gold          17         6          19         0.21        
+htb:250         neural_sota          1          0          0          1.00        
+htb:250         neural_gold          1          0          0          1.00        
+--------------------------------------------------------------------------------
+
+📋 DETAILED RESULTS BY DOCUMENT
+================================================================================
+
+📄 Document: htb:232
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 4
+    Extra clusters: 4
+    Missed clusters: 5
+    Non-pronoun ratio: 0.62
+    Total mentions: 8
+    Non-pronoun mentions: 5
+  🔄 neural_gold:
+    Correct clusters: 5
+    Extra clusters: 2
+    Missed clusters: 4
+    Non-pronoun ratio: 0.30
+    Total mentions: 10
+    Non-pronoun mentions: 3
+
+📄 Document: htb:233
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 6
+    Extra clusters: 7
+    Missed clusters: 11
+    Non-pronoun ratio: 0.67
+    Total mentions: 12
+    Non-pronoun mentions: 8
+  🔄 neural_gold:
+    Correct clusters: 7
+    Extra clusters: 5
+    Missed clusters: 10
+    Non-pronoun ratio: 0.57
+    Total mentions: 14
+    Non-pronoun mentions: 8
+
+📄 Document: htb:234
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 5
+    Extra clusters: 2
+    Missed clusters: 5
+    Non-pronoun ratio: 0.50
+    Total mentions: 10
+    Non-pronoun mentions: 5
+  🔄 neural_gold:
+    Correct clusters: 6
+    Extra clusters: 3
+    Missed clusters: 4
+    Non-pronoun ratio: 0.33
+    Total mentions: 12
+    Non-pronoun mentions: 4
+
+📄 Document: htb:235
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 14
+    Extra clusters: 6
+    Missed clusters: 4
+    Non-pronoun ratio: 0.71
+    Total mentions: 28
+    Non-pronoun mentions: 20
+  🔄 neural_gold:
+    Correct clusters: 12
+    Extra clusters: 2
+    Missed clusters: 6
+    Non-pronoun ratio: 0.58
+    Total mentions: 24
+    Non-pronoun mentions: 14
+
+📄 Document: htb:236
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 11
+    Extra clusters: 11
+    Missed clusters: 11
+    Non-pronoun ratio: 0.59
+    Total mentions: 22
+    Non-pronoun mentions: 13
+  🔄 neural_gold:
+    Correct clusters: 8
+    Extra clusters: 14
+    Missed clusters: 14
+    Non-pronoun ratio: 0.38
+    Total mentions: 16
+    Non-pronoun mentions: 6
+
+📄 Document: htb:237
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 10
+    Extra clusters: 6
+    Missed clusters: 13
+    Non-pronoun ratio: 0.45
+    Total mentions: 20
+    Non-pronoun mentions: 9
+  🔄 neural_gold:
+    Correct clusters: 11
+    Extra clusters: 5
+    Missed clusters: 12
+    Non-pronoun ratio: 0.64
+    Total mentions: 22
+    Non-pronoun mentions: 14
+
+📄 Document: htb:238
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 7
+    Extra clusters: 4
+    Missed clusters: 7
+    Non-pronoun ratio: 0.50
+    Total mentions: 14
+    Non-pronoun mentions: 7
+  🔄 neural_gold:
+    Correct clusters: 9
+    Extra clusters: 3
+    Missed clusters: 5
+    Non-pronoun ratio: 0.44
+    Total mentions: 18
+    Non-pronoun mentions: 8
+
+📄 Document: htb:239_1
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 6
+    Extra clusters: 5
+    Missed clusters: 10
+    Non-pronoun ratio: 0.33
+    Total mentions: 12
+    Non-pronoun mentions: 4
+  🔄 neural_gold:
+    Correct clusters: 6
+    Extra clusters: 5
+    Missed clusters: 10
+    Non-pronoun ratio: 0.33
+    Total mentions: 12
+    Non-pronoun mentions: 4
+
+📄 Document: htb:239_2
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 17
+    Extra clusters: 16
+    Missed clusters: 15
+    Non-pronoun ratio: 0.35
+    Total mentions: 34
+    Non-pronoun mentions: 12
+  🔄 neural_gold:
+    Correct clusters: 11
+    Extra clusters: 8
+    Missed clusters: 21
+    Non-pronoun ratio: 0.27
+    Total mentions: 22
+    Non-pronoun mentions: 6
+
+📄 Document: htb:240
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 4
+    Extra clusters: 3
+    Missed clusters: 9
+    Non-pronoun ratio: 0.38
+    Total mentions: 8
+    Non-pronoun mentions: 3
+  🔄 neural_gold:
+    Correct clusters: 9
+    Extra clusters: 3
+    Missed clusters: 4
+    Non-pronoun ratio: 0.11
+    Total mentions: 18
+    Non-pronoun mentions: 2
+
+📄 Document: htb:241_1
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 10
+    Extra clusters: 6
+    Missed clusters: 19
+    Non-pronoun ratio: 0.35
+    Total mentions: 20
+    Non-pronoun mentions: 7
+  🔄 neural_gold:
+    Correct clusters: 11
+    Extra clusters: 6
+    Missed clusters: 18
+    Non-pronoun ratio: 0.41
+    Total mentions: 22
+    Non-pronoun mentions: 9
+
+📄 Document: htb:241_2
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 20
+    Extra clusters: 6
+    Missed clusters: 14
+    Non-pronoun ratio: 0.68
+    Total mentions: 40
+    Non-pronoun mentions: 27
+  🔄 neural_gold:
+    Correct clusters: 22
+    Extra clusters: 5
+    Missed clusters: 12
+    Non-pronoun ratio: 0.52
+    Total mentions: 44
+    Non-pronoun mentions: 23
+
+📄 Document: htb:242_1
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 15
+    Extra clusters: 13
+    Missed clusters: 16
+    Non-pronoun ratio: 0.63
+    Total mentions: 30
+    Non-pronoun mentions: 19
+  🔄 neural_gold:
+    Correct clusters: 14
+    Extra clusters: 9
+    Missed clusters: 17
+    Non-pronoun ratio: 0.61
+    Total mentions: 28
+    Non-pronoun mentions: 17
+
+📄 Document: htb:242_2
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 7
+    Extra clusters: 4
+    Missed clusters: 6
+    Non-pronoun ratio: 0.36
+    Total mentions: 14
+    Non-pronoun mentions: 5
+  🔄 neural_gold:
+    Correct clusters: 6
+    Extra clusters: 6
+    Missed clusters: 7
+    Non-pronoun ratio: 0.33
+    Total mentions: 12
+    Non-pronoun mentions: 4
+
+📄 Document: htb:243
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 13
+    Extra clusters: 3
+    Missed clusters: 5
+    Non-pronoun ratio: 0.23
+    Total mentions: 26
+    Non-pronoun mentions: 6
+  🔄 neural_gold:
+    Correct clusters: 10
+    Extra clusters: 8
+    Missed clusters: 8
+    Non-pronoun ratio: 0.20
+    Total mentions: 20
+    Non-pronoun mentions: 4
+
+📄 Document: htb:244
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 4
+    Extra clusters: 4
+    Missed clusters: 10
+    Non-pronoun ratio: 0.00
+    Total mentions: 8
+    Non-pronoun mentions: 0
+  🔄 neural_gold:
+    Correct clusters: 4
+    Extra clusters: 5
+    Missed clusters: 10
+    Non-pronoun ratio: 0.12
+    Total mentions: 8
+    Non-pronoun mentions: 1
+
+📄 Document: htb:245
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 6
+    Extra clusters: 2
+    Missed clusters: 5
+    Non-pronoun ratio: 0.50
+    Total mentions: 12
+    Non-pronoun mentions: 6
+  🔄 neural_gold:
+    Correct clusters: 8
+    Extra clusters: 3
+    Missed clusters: 3
+    Non-pronoun ratio: 0.38
+    Total mentions: 16
+    Non-pronoun mentions: 6
+
+📄 Document: htb:246
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 7
+    Extra clusters: 10
+    Missed clusters: 19
+    Non-pronoun ratio: 0.36
+    Total mentions: 14
+    Non-pronoun mentions: 5
+  🔄 neural_gold:
+    Correct clusters: 13
+    Extra clusters: 11
+    Missed clusters: 13
+    Non-pronoun ratio: 0.08
+    Total mentions: 26
+    Non-pronoun mentions: 2
+
+📄 Document: htb:247
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 10
+    Extra clusters: 4
+    Missed clusters: 8
+    Non-pronoun ratio: 0.25
+    Total mentions: 20
+    Non-pronoun mentions: 5
+  🔄 neural_gold:
+    Correct clusters: 11
+    Extra clusters: 5
+    Missed clusters: 7
+    Non-pronoun ratio: 0.05
+    Total mentions: 22
+    Non-pronoun mentions: 1
+
+📄 Document: htb:248_1
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 5
+    Extra clusters: 4
+    Missed clusters: 8
+    Non-pronoun ratio: 0.40
+    Total mentions: 10
+    Non-pronoun mentions: 4
+  🔄 neural_gold:
+    Correct clusters: 3
+    Extra clusters: 3
+    Missed clusters: 10
+    Non-pronoun ratio: 0.00
+    Total mentions: 6
+    Non-pronoun mentions: 0
+
+📄 Document: htb:248_2
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 7
+    Extra clusters: 8
+    Missed clusters: 12
+    Non-pronoun ratio: 0.43
+    Total mentions: 14
+    Non-pronoun mentions: 6
+  🔄 neural_gold:
+    Correct clusters: 8
+    Extra clusters: 10
+    Missed clusters: 11
+    Non-pronoun ratio: 0.38
+    Total mentions: 16
+    Non-pronoun mentions: 6
+
+📄 Document: htb:248_3
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 6
+    Extra clusters: 2
+    Missed clusters: 11
+    Non-pronoun ratio: 0.33
+    Total mentions: 12
+    Non-pronoun mentions: 4
+  🔄 neural_gold:
+    Correct clusters: 10
+    Extra clusters: 1
+    Missed clusters: 7
+    Non-pronoun ratio: 0.20
+    Total mentions: 20
+    Non-pronoun mentions: 4
+
+📄 Document: htb:249
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 19
+    Extra clusters: 8
+    Missed clusters: 17
+    Non-pronoun ratio: 0.21
+    Total mentions: 38
+    Non-pronoun mentions: 8
+  🔄 neural_gold:
+    Correct clusters: 17
+    Extra clusters: 6
+    Missed clusters: 19
+    Non-pronoun ratio: 0.21
+    Total mentions: 34
+    Non-pronoun mentions: 7
+
+📄 Document: htb:250
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 1
+    Extra clusters: 0
+    Missed clusters: 0
+    Non-pronoun ratio: 1.00
+    Total mentions: 2
+    Non-pronoun mentions: 2
+  🔄 neural_gold:
+    Correct clusters: 1
+    Extra clusters: 0
+    Missed clusters: 0
+    Non-pronoun ratio: 1.00
+    Total mentions: 2
+    Non-pronoun mentions: 2

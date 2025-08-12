@@ -1,0 +1,670 @@
+# doc_id = htb:171_5
+# doc_range = 13245-13332
+# sent_id = 4535
+# text = מרכיב חשוב ביותר בתהליך קבלת החלטות הינו המידע.
+1	מרכיב	מרכיב	NOUN	NOUN	Gender=Masc|Number=Sing	10	nsubj	_	_
+2	חשוב	חשוב	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	_
+3	ביותר	ביותר	ADV	ADV	_	2	advmod	_	_
+4-5	בתהליך	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	תהליך	תהליך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	nmod	_	_
+6	קבלת	קבלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	compound:smixut	_	_
+7	החלטות	החלטה	NOUN	NOUN	Gender=Fem|Number=Plur	6	compound:smixut	_	_
+8	הינו	הנו	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	10	cop	_	_
+9-10	המידע	_	_	_	_	_	_	_	SpaceAfter=No
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	מידע	מידע	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+11	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:171_5
+# doc_range = 13334-13462
+# sent_id = 4536
+# text = בארגונים גדולים, איכותם של הדיווחים קובעת במידה רבה את איכות ההחלטות.
+1-2	בארגונים	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	ארגונים	ארגון	NOUN	NOUN	Gender=Masc|Number=Plur	11	obl	_	_
+3	גדולים	גדול	ADJ	ADJ	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	2	punct	_	_
+5-7	איכותם	_	_	_	_	_	_	_	_
+5	איכות	איכות	NOUN	NOUN	Gender=Fem|Number=Sing	11	nsubj	_	_
+6	_של_	של	ADP	ADP	Case=Gen	7	case:gen	_	_
+7	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+8	של	של	ADP	ADP	Case=Gen	10	case	_	_
+9-10	הדיווחים	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	דיווחים	דיווח	NOUN	NOUN	Gender=Masc|Number=Plur	5	nmod:poss	_	_
+11	קובעת	קבע	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+12-13	במידה	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	מידה	מידה	NOUN	NOUN	Gender=Fem|Number=Sing	11	obl	_	_
+14	רבה	רב	ADJ	ADJ	Gender=Fem|Number=Sing	13	amod	_	_
+15	את	את	ADP	ADP	Case=Acc	16	case	_	_
+16	איכות	איכות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	11	obj	_	_
+17-18	ההחלטות	_	_	_	_	_	_	_	SpaceAfter=No
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	החלטות	החלטה	NOUN	NOUN	Gender=Fem|Number=Plur	16	compound:smixut	_	_
+19	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:171_5
+# doc_range = 13464-13562
+# sent_id = 4537
+# text = " דיווח אמין הינו ערך יסודי חיוני ומקודש במשרד המשטרה.
+1	"	"	PUNCT	PUNCT	_	5	punct	_	_
+2	דיווח	דיווח	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	אמין	אמין	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+4	הינו	הנו	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	5	cop	_	_
+5	ערך	ערך	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+6	יסודי	יסודי	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	_
+7	חיוני	חיוני	ADJ	ADJ	Gender=Masc|Number=Sing	6	conj	_	_
+8-9	ומקודש	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+9	מקודש	קודש	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	6	conj	_	_
+10-11	במשרד	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	nmod	_	_
+12-13	המשטרה	_	_	_	_	_	_	_	SpaceAfter=No
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	11	compound:smixut	_	_
+14	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:171_5
+# doc_range = 13568-13701
+# sent_id = 4538
+# text = דיווח אמין במשרד חייב לענות על ארבעה תנאים: מדויק, שלם, מעודכן ורלוונטי.
+1	דיווח	דיווח	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj	_	_
+2	אמין	אמין	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	_
+3-5	במשרד	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	5	case	_	_
+4	ה_	ה	DET	DET	PronType=Art|Definite=Def	5	det	_	_
+5	משרד	משרד	NOUN	NOUN	Gender=Masc|Number=Sing	1	nmod	_	_
+6	חייב	חייב	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	7	aux	_	_
+7	לענות	לענות	VERB	VERB	VerbForm=Inf	0	root	_	_
+8	על	על	ADP	ADP	_	10	case	_	_
+9	ארבעה	ארבע	NUM	NUM	Gender=Masc|Number=Sing	10	nummod	_	_
+10	תנאים	תנאי	NOUN	NOUN	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+11	:	:	PUNCT	PUNCT	_	12	punct	_	_
+12	מדויק	מדויק	ADJ	ADJ	Gender=Masc|Number=Sing	10	appos	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	14	punct	_	_
+14	שלם	שלם	ADJ	ADJ	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	16	punct	_	_
+16	מעודכן	עודכן	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	12	conj	_	_
+17-18	ורלוונטי	_	_	_	_	_	_	_	SpaceAfter=No
+17	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+18	רלוונטי	רלוונטי	ADJ	ADJ	Gender=Masc|Number=Sing	12	conj	_	_
+19	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:171_5
+# doc_range = 13707-13940
+# sent_id = 4539
+# text = בדברים האלה, שכתב מנכ"ל משרד המשטרה לפני שנה, יש יותר מרמז לבעיות וליקויים בכל הקשור ליחסי הגומלין בין המשטרה לבין משרד המשטרה.
+1-3	בדברים	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	דברים	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	16	obl	_	_
+4-5	האלה	_	_	_	_	_	_	_	SpaceAfter=No
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	3	det	_	_
+6	,	,	PUNCT	PUNCT	_	8	punct	_	_
+7-8	שכתב	_	_	_	_	_	_	_	_
+7	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
+8	כתב	כתב	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	3	acl:relcl	_	_
+9	מנכ"ל	מנכ"ל	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	8	nsubj	_	_
+10	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	compound:smixut	_	_
+11-12	המשטרה	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	10	compound:smixut	_	_
+13	לפני	לפני	ADP	ADP	_	14	case	_	_
+14	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	3	punct	_	_
+16	יש	יש	VERB	VERB	HebExistential=Yes	0	root	_	_
+17	יותר	יותר	ADV	ADV	_	19	advmod	_	HebSource=ConvUncertainHead
+18-19	מרמז	_	_	_	_	_	_	_	_
+18	מ	מ	ADP	ADP	_	17	fixed	_	_
+19	רמז	רמז	NOUN	NOUN	Gender=Masc|Number=Sing	16	nsubj	_	_
+20-21	לבעיות	_	_	_	_	_	_	_	_
+20	ל	ל	ADP	ADP	_	21	case	_	_
+21	בעיות	בעיה	NOUN	NOUN	Gender=Fem|Number=Plur	19	nmod	_	_
+22-23	וליקויים	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
+23	ליקויים	ליקוי	NOUN	NOUN	Gender=Masc|Number=Plur	21	conj	_	_
+24-25	בכל	_	_	_	_	_	_	_	_
+24	ב	ב	ADP	ADP	_	27	case	_	_
+25	כל	כול	DET	DET	Definite=Cons	27	det	_	_
+26-27	הקשור	_	_	_	_	_	_	_	_
+26	ה	ה	SCONJ	SCONJ	_	27	mark	_	_
+27	קשור	קשר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	23	nmod	_	_
+28-29	ליחסי	_	_	_	_	_	_	_	_
+28	ל	ל	ADP	ADP	_	29	case	_	_
+29	יחסי	יחסים	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	27	obl	_	_
+30-31	הגומלין	_	_	_	_	_	_	_	_
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	גומלין	גומלין	NOUN	NOUN	Gender=Masc|Number=Sing	29	compound:smixut	_	_
+32	בין	בין	ADP	ADP	_	34	case	_	_
+33-34	המשטרה	_	_	_	_	_	_	_	_
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	29	nmod	_	_
+35	לבין	לבין	ADP	ADP	_	36	case	_	_
+36	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	34	conj	_	_
+37-38	המשטרה	_	_	_	_	_	_	_	SpaceAfter=No
+37	ה	ה	DET	DET	Definite=Def|PronType=Art	38	det	_	_
+38	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	36	compound:smixut	_	_
+39	.	.	PUNCT	PUNCT	_	16	punct	_	_
+
+# doc_id = htb:171_5
+# doc_range = 13942-14415
+# sent_id = 4540
+# text = במשרד המשטרה התקבל רושם, שקציני משטרה בכירים מעלימים מידע, לא מעבירים דיווחים שלמים ומעודכנים, לפעמים גם בגלל חוסר שליטה מלאה בחומר של קציני המשטרה המדווחים, ומנסים לתעתע בדרג המיניסטריאלי, בין השאר בגלל חשש של בכירי המשטרה לעצמאותה האופרטיווית של המשטרה.
+1-2	במשרד	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+3-4	המשטרה	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound:smixut	_	_
+5	התקבל	התקבל	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+6	רושם	רושם	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	12	punct	_	_
+8-9	שקציני	_	_	_	_	_	_	_	_
+8	ש	ש	SCONJ	SCONJ	_	12	mark	_	_
+9	קציני	קצין	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	12	nsubj	_	_
+10	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	9	compound:smixut	_	_
+11	בכירים	בכיר	ADJ	ADJ	Gender=Masc|Number=Plur	9	amod	_	_
+12	מעלימים	העלים	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	6	acl:relcl	_	_
+13	מידע	מידע	NOUN	NOUN	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	16	punct	_	_
+15	לא	לא	ADV	ADV	Polarity=Neg	16	advmod	_	_
+16	מעבירים	העביר	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	12	parataxis	_	_
+17	דיווחים	דיווח	NOUN	NOUN	Gender=Masc|Number=Plur	16	obj	_	_
+18	שלמים	שלם	ADJ	ADJ	Gender=Masc|Number=Plur	17	amod	_	_
+19-20	ומעודכנים	_	_	_	_	_	_	_	SpaceAfter=No
+19	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
+20	מעודכנים	עודכן	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	18	conj	_	_
+21	,	,	PUNCT	PUNCT	_	25	punct	_	_
+22	לפעמים	לפעמים	ADV	ADV	_	25	case	_	_
+23	גם	גם	ADV	ADV	_	25	advmod	_	HebSource=ConvUncertainHead
+24	בגלל	בגלל	ADP	ADP	_	25	case	_	_
+25	חוסר	חוסר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	16	obl	_	_
+26	שליטה	שליטה	NOUN	NOUN	Gender=Fem|Number=Sing	25	compound:smixut	_	_
+27	מלאה	מלא	ADJ	ADJ	Gender=Fem|Number=Sing	26	amod	_	_
+28-30	בחומר	_	_	_	_	_	_	_	_
+28	ב	ב	ADP	ADP	_	30	case	_	_
+29	ה_	ה	DET	DET	PronType=Art|Definite=Def	30	det	_	_
+30	חומר	חומר	NOUN	NOUN	Gender=Masc|Number=Sing	25	nmod	_	_
+31	של	של	ADP	ADP	Case=Gen	32	case	_	_
+32	קציני	קצין	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	30	nmod:poss	_	_
+33-34	המשטרה	_	_	_	_	_	_	_	_
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	32	compound:smixut	_	_
+35-36	המדווחים	_	_	_	_	_	_	_	SpaceAfter=No
+35	ה	ה	SCONJ	SCONJ	_	36	mark	_	_
+36	מדווחים	דווח	VERB	VERB	Gender=Masc|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	32	acl:relcl	_	_
+37	,	,	PUNCT	PUNCT	_	39	punct	_	_
+38-39	ומנסים	_	_	_	_	_	_	_	_
+38	ו	ו	CCONJ	CCONJ	_	39	cc	_	_
+39	מנסים	ניסה	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	36	conj	_	_
+40	לתעתע	תעתע	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	39	xcomp	_	_
+41-43	בדרג	_	_	_	_	_	_	_	_
+41	ב	ב	ADP	ADP	_	43	case	_	_
+42	ה_	ה	DET	DET	PronType=Art|Definite=Def	43	det	_	_
+43	דרג	דרג	NOUN	NOUN	Gender=Masc|Number=Sing	40	obl	_	_
+44-45	המיניסטריאלי	_	_	_	_	_	_	_	SpaceAfter=No
+44	ה	ה	DET	DET	Definite=Def|PronType=Art	45	det	_	_
+45	מיניסטריאלי	מיניסטריאלי	ADJ	ADJ	Gender=Masc|Number=Sing	43	amod	_	_
+46	,	,	PUNCT	PUNCT	_	51	punct	_	_
+47	בין	בין	ADP	ADP	_	49	case	_	_
+48-49	השאר	_	_	_	_	_	_	_	_
+48	ה	ה	DET	DET	Definite=Def|PronType=Art	49	det	_	_
+49	שאר	שאר	NOUN	NOUN	Gender=Masc|Number=Sing	51	dep	_	_
+50	בגלל	בגלל	ADP	ADP	_	51	case	_	_
+51	חשש	חשש	NOUN	NOUN	Gender=Masc|Number=Sing	39	obl	_	_
+52	של	של	ADP	ADP	Case=Gen	53	case	_	_
+53	בכירי	בכיר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	51	nmod	_	_
+54-55	המשטרה	_	_	_	_	_	_	_	_
+54	ה	ה	DET	DET	Definite=Def|PronType=Art	55	det	_	_
+55	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	53	compound:smixut	_	_
+56-59	לעצמאותה	_	_	_	_	_	_	_	_
+56	ל	ל	ADP	ADP	_	57	case	_	_
+57	עצמאות	עצמאות	NOUN	NOUN	Gender=Fem|Number=Sing	51	nmod	_	_
+58	_של_	של	ADP	ADP	Case=Gen	59	case:gen	_	_
+59	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	57	nmod:poss	_	_
+60-61	האופרטיווית	_	_	_	_	_	_	_	_
+60	ה	ה	DET	DET	Definite=Def|PronType=Art	61	det	_	_
+61	אופרטיווית	אופרטיבי	ADJ	ADJ	Gender=Fem|Number=Sing	57	amod	_	_
+62	של	של	ADP	ADP	Case=Gen	64	case	_	_
+63-64	המשטרה	_	_	_	_	_	_	_	SpaceAfter=No
+63	ה	ה	DET	DET	Definite=Def|PronType=Art	64	det	_	_
+64	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	57	nmod	_	_
+65	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:171_5
+# doc_range = 14417-14514
+# sent_id = 4541
+# text = הקמת צוות מקצועי ליד שר המשטרה אמורה לפתור בעיות אלה.
+1	הקמת	הקמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	nsubj	_	_
+2	צוות	צוות	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+3	מקצועי	מקצועי	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+4	ליד	ליד	ADP	ADP	_	5	case	_	_
+5	שר	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	nmod	_	_
+6-7	המשטרה	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	5	compound:smixut	_	_
+8	אמורה	אמור	AUX	AUX	Gender=Fem|Number=Sing|Person=1,2,3|VerbType=Mod	9	aux	_	_
+9	לפתור	פתר	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	0	root	_	_
+10	בעיות	בעיה	NOUN	NOUN	Gender=Fem|Number=Plur	9	obj	_	_
+11	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	10	det	_	SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:171_5
+# doc_range = 14516-14701
+# sent_id = 4542
+# text = מה גם שוועדת זמיר נותנת בידי שר המשטרה סמכות להתערב בנושאים משטרתיים מבצעיים, דבר שלא היה קיים עד כה.
+1	מה	מה	PRON	PRON	PronType=Int	18	advcl	_	_
+2	גם	גם	ADV	ADV	_	1	advmod	_	HebSource=ConvUncertainHead
+3-4	שוועדת	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	1	dep	_	HebSource=ConvUncertainHead
+4	וועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	nsubj	_	_
+5	זמיר	זמיר	PROPN	PROPN	_	4	compound:smixut	_	_
+6	נותנת	נתן	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	1	dep	_	HebSource=ConvUncertainHead
+7	בידי	בידי	ADP	ADP	_	8	case	_	_
+8	שר	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	obl	_	_
+9-10	המשטרה	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound:smixut	_	_
+11	סמכות	סמכות	NOUN	NOUN	Gender=Fem|Number=Sing	6	obj	_	_
+12	להתערב	התערב	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	11	acl	_	_
+13-14	בנושאים	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	נושאים	נושא	NOUN	NOUN	Gender=Masc|Number=Plur	12	obl	_	_
+15	משטרתיים	משטרתי	ADJ	ADJ	Gender=Masc|Number=Plur	14	amod	_	_
+16	מבצעיים	מבצעי	ADJ	ADJ	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	1	punct	_	_
+18	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+19-20	שלא	_	_	_	_	_	_	_	_
+19	ש	ש	SCONJ	SCONJ	_	22	mark	_	_
+20	לא	לא	ADV	ADV	Polarity=Neg	22	advmod	_	_
+21	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	22	cop	_	_
+22	קיים	קיים	ADJ	ADJ	Gender=Masc|Number=Sing	18	acl:relcl	_	_
+23	עד	עד	ADV	ADV	_	22	advmod	_	_
+24	כה	כה	ADV	ADV	_	23	fixed	_	SpaceAfter=No
+25	.	.	PUNCT	PUNCT	_	18	punct	_	_
+
+# doc_id = htb:171_5
+# doc_range = 14703-14845
+# sent_id = 4543
+# text = בימים אלה עוסק שר המשטרה בקצב מוגבר, יחד עם אנשי משרדו, בהכנות להקמת המטה הזה.
+1-2	בימים	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	ימים	יום	NOUN	NOUN	Gender=Masc|Number=Plur	4	obl	_	_
+3	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	2	det	_	_
+4	עוסק	עסק	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+5	שר	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nsubj	_	_
+6-7	המשטרה	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	5	compound:smixut	_	_
+8-9	בקצב	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	קצב	קצב	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+10	מוגבר	מוגבר	ADJ	ADJ	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	14	punct	_	_
+12	יחד	יחד	ADV	ADV	_	14	case	_	_
+13	עם	עם	ADP	ADP	_	12	fixed	_	_
+14	אנשי	איש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	obl	_	_
+15-17	משרדו	_	_	_	_	_	_	_	SpaceAfter=No
+15	משרד	משרד	NOUN	NOUN	Gender=Masc|Number=Sing	14	compound:smixut	_	_
+16	_של_	של	ADP	ADP	Case=Gen	17	case:gen	_	_
+17	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+18	,	,	PUNCT	PUNCT	_	20	punct	_	_
+19-20	בהכנות	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	הכנות	הכנה	NOUN	NOUN	Gender=Fem|Number=Plur	4	obl	_	_
+21-22	להקמת	_	_	_	_	_	_	_	_
+21	ל	ל	ADP	ADP	_	22	case	_	_
+22	הקמת	הקמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	20	nmod	_	_
+23-24	המטה	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	מטה	מטה	NOUN	NOUN	Gender=Masc|Number=Sing	22	compound:smixut	_	_
+25-26	הזה	_	_	_	_	_	_	_	SpaceAfter=No
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	24	det	_	_
+27	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:171_5
+# doc_range = 14847-14966
+# sent_id = 4544
+# text = על פי הדגם המתגבש, ימנה הצוות המקצועי של השר שניים-שלושה קצינים.
+1	על	על	ADP	ADP	_	4	case	_	_
+2	פי	פה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	fixed	_	_
+3-4	הדגם	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	דגם	דגם	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+5-6	המתגבש	_	_	_	_	_	_	_	SpaceAfter=No
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	מתגבש	התגבש	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|VerbForm=Part	4	amod	_	_
+7	,	,	PUNCT	PUNCT	_	4	punct	_	_
+8	ימנה	מינה	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	0	root	_	_
+9-10	הצוות	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	צוות	צוות	NOUN	NOUN	Gender=Fem|Number=Sing	8	nsubj	_	_
+11-12	המקצועי	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	מקצועי	מקצועי	ADJ	ADJ	Gender=Masc|Number=Sing	10	amod	_	_
+13	של	של	ADP	ADP	Case=Gen	15	case	_	_
+14-15	השר	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	שר	שר	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod	_	_
+16	שניים	שתיים	NUM	NUM	Gender=Masc|Number=Plur	19	nummod	_	SpaceAfter=No
+17	-	-	PUNCT	PUNCT	_	18	punct	_	SpaceAfter=No
+18	שלושה	שלוש	NUM	NUM	Gender=Masc|Number=Plur	16	obl	_	_
+19	קצינים	קצין	NOUN	NOUN	Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:171_5
+# doc_range = 14968-15222
+# sent_id = 4545
+# text = קצין אחד, בתקן תת-ניצב, יהיה בעל ניסיון רב בתחום המבצעים, הסיור והשיטור, וקצין אחר, בתקן ניצב-משנה, יהיה בעל ניסיון וידע בתחום המודיעין.
+1	קצין	קצין	NOUN	NOUN	Gender=Masc|Number=Sing	11	nsubj	_	_
+2	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	5	punct	_	_
+4-5	בתקן	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	תקן	תקן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	nmod	_	_
+6	תת	תת	ADV	ADV	Prefix=Yes	8	compound:affix	_	HebSource=ConvUncertainHead|SpaceAfter=No
+7	-	-	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+8	ניצב	ניצב	NOUN	NOUN	Gender=Masc|Number=Sing	5	compound:smixut	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	1	punct	_	_
+10	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	11	cop	_	_
+11	בעל	בעל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	_
+12	ניסיון	ניסיון	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound:smixut	_	_
+13	רב	רב	ADJ	ADJ	Gender=Masc|Number=Sing	12	amod	_	_
+14-15	בתחום	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	תחום	תחום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	nmod	_	_
+16-17	המבצעים	_	_	_	_	_	_	_	SpaceAfter=No
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	מבצעים	מבצע	NOUN	NOUN	Gender=Masc|Number=Plur	15	compound:smixut	_	_
+18	,	,	PUNCT	PUNCT	_	20	punct	_	_
+19-20	הסיור	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	סיור	סיור	NOUN	NOUN	Gender=Masc|Number=Sing	17	conj	_	_
+21-23	והשיטור	_	_	_	_	_	_	_	SpaceAfter=No
+21	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	שיטור	שיטור	NOUN	NOUN	Gender=Masc|Number=Sing	17	conj	_	_
+24	,	,	PUNCT	PUNCT	_	36	punct	_	_
+25-26	וקצין	_	_	_	_	_	_	_	_
+25	ו	ו	CCONJ	CCONJ	_	36	cc	_	_
+26	קצין	קצין	NOUN	NOUN	Gender=Masc|Number=Sing	36	nsubj	_	_
+27	אחר	אחר	ADJ	ADJ	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+28	,	,	PUNCT	PUNCT	_	30	punct	_	_
+29-30	בתקן	_	_	_	_	_	_	_	_
+29	ב	ב	ADP	ADP	_	30	case	_	_
+30	תקן	תקן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	26	nmod	_	_
+31	ניצב	ניצב	NOUN	NOUN	Gender=Masc|Number=Sing	30	compound:smixut	_	SpaceAfter=No
+32	-	-	PUNCT	PUNCT	_	33	punct	_	SpaceAfter=No
+33	משנה	משנה	NOUN	NOUN	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	PUNCT	_	26	punct	_	_
+35	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	36	cop	_	_
+36	בעל	בעל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	conj	_	_
+37	ניסיון	ניסיון	NOUN	NOUN	Gender=Masc|Number=Sing	36	compound:smixut	_	_
+38-39	וידע	_	_	_	_	_	_	_	_
+38	ו	ו	CCONJ	CCONJ	_	39	cc	_	_
+39	ידע	ידע	NOUN	NOUN	Gender=Masc|Number=Sing	37	conj	_	_
+40-41	בתחום	_	_	_	_	_	_	_	_
+40	ב	ב	ADP	ADP	_	41	case	_	_
+41	תחום	תחום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	37	nmod	_	_
+42-43	המודיעין	_	_	_	_	_	_	_	SpaceAfter=No
+42	ה	ה	DET	DET	Definite=Def|PronType=Art	43	det	_	_
+43	מודיעין	מודיעין	NOUN	NOUN	Gender=Masc|Number=Sing	41	compound:smixut	_	_
+44	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:171_5
+# doc_range = 15224-15339
+# sent_id = 4546
+# text = בשלב זה אין שר המשטרה מתכוון להתמקד עם הצוות שלו בתחום החקירות.
+1-2	בשלב	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	שלב	שלב	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+3	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	det	_	_
+4	אין	אין	ADV	ADV	Polarity=Neg	8	advmod	_	_
+5	שר	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	nsubj	_	_
+6-7	המשטרה	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	5	compound:smixut	_	_
+8	מתכוון	התכוון	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+9	להתמקד	התמקד	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	8	xcomp	_	_
+10	עם	עם	ADP	ADP	_	12	case	_	_
+11-12	הצוות	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	צוות	צוות	NOUN	NOUN	Gender=Fem|Number=Sing	9	obl	_	_
+13-14	שלו	_	_	_	_	_	_	_	_
+13	של	של	ADP	ADP	Case=Gen	14	case	_	_
+14	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+15-16	בתחום	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	תחום	תחום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	obl	_	_
+17-18	החקירות	_	_	_	_	_	_	_	SpaceAfter=No
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	חקירות	חקירה	NOUN	NOUN	Gender=Fem|Number=Plur	16	compound:smixut	_	_
+19	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:171_5
+# doc_range = 15341-15657
+# sent_id = 4547
+# text = בשבועיים האחרונים כבר ראיין שר המשטרה כעשרה קציני משטרה מנוסים וצעירים יחסית בדרגת ניצב משנה, מקרב שדרת הביניים של פיקוד המשטרה, כמועמדים לאייש את יחידת המטה המקצועית שלו.
+1-3	בשבועיים	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	שבועיים	שבוע	NOUN	NOUN	Gender=Masc|Number=Dual	7	obl	_	_
+4-5	האחרונים	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	אחרונים	אחרון	ADJ	ADJ	Gender=Masc|Number=Plur	3	amod	_	_
+6	כבר	כבר	ADV	ADV	_	7	advmod	_	_
+7	ראיין	ראיין	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Mood=Imp|Number=Sing|Person=2|Voice=Act	0	root	_	_
+8	שר	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nsubj	_	_
+9-10	המשטרה	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound:smixut	_	_
+11-12	כעשרה	_	_	_	_	_	_	_	_
+11	כ	כ	ADP	ADP	_	13	case	_	_
+12	עשרה	עשר	NUM	NUM	Gender=Masc|Number=Plur	13	nummod	_	_
+13	קציני	קצין	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	7	obj	_	_
+14	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	13	compound:smixut	_	_
+15	מנוסים	מנוסה	ADJ	ADJ	Gender=Masc|Number=Plur	13	amod	_	_
+16-17	וצעירים	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+17	צעירים	צעיר	ADJ	ADJ	Gender=Masc|Number=Plur	15	conj	_	_
+18	יחסית	יחסית	ADV	ADV	_	15	advmod	_	_
+19-20	בדרגת	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	דרגת	דרגה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	13	nmod	_	_
+21	ניצב	ניצב	NOUN	NOUN	Gender=Masc|Number=Sing	20	compound:smixut	_	_
+22	משנה	משנה	NOUN	NOUN	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	PUNCT	_	25	punct	_	_
+24-25	מקרב	_	_	_	_	_	_	_	_
+24	מ	מ	ADP	ADP	_	25	case	_	_
+25	קרב	קרב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	nmod	_	_
+26	שדרת	שדרה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	25	compound:smixut	_	_
+27-28	הביניים	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	ביניים	ביניים	NOUN	NOUN	Gender=Masc|Number=Sing	26	compound:smixut	_	_
+29	של	של	ADP	ADP	Case=Gen	30	case	_	_
+30	פיקוד	פיקוד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	26	nmod:poss	_	_
+31-32	המשטרה	_	_	_	_	_	_	_	SpaceAfter=No
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	30	compound:smixut	_	_
+33	,	,	PUNCT	PUNCT	_	36	punct	_	_
+34-36	כמועמדים	_	_	_	_	_	_	_	_
+34	כ	כ	ADP	ADP	_	36	case	_	_
+35	ה_	ה	DET	DET	PronType=Art|Definite=Def	36	det	_	_
+36	מועמדים	מועמד	NOUN	NOUN	Gender=Masc|Number=Plur	7	obl	_	_
+37	לאייש	אייש	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	36	acl	_	_
+38	את	את	ADP	ADP	Case=Acc	39	case	_	_
+39	יחידת	יחידה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	37	obj	_	_
+40-41	המטה	_	_	_	_	_	_	_	_
+40	ה	ה	DET	DET	Definite=Def|PronType=Art	41	det	_	_
+41	מטה	מטה	NOUN	NOUN	Gender=Masc|Number=Sing	39	compound:smixut	_	_
+42-43	המקצועית	_	_	_	_	_	_	_	_
+42	ה	ה	DET	DET	Definite=Def|PronType=Art	43	det	_	_
+43	מקצועית	מקצועי	ADJ	ADJ	Gender=Fem|Number=Sing	39	amod	_	_
+44-45	שלו	_	_	_	_	_	_	_	SpaceAfter=No
+44	של	של	ADP	ADP	Case=Gen	45	case	_	_
+45	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	nmod	_	_
+46	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:171_5
+# doc_range = 15659-15753
+# sent_id = 4548
+# text = במשטרה, כאמור, חוששים ממטה-ארצי-על ליד שר המשטרה.
+1-3	במשטרה	_	_	_	_	_	_	_	SpaceAfter=No
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
+4	,	,	PUNCT	PUNCT	_	3	punct	_	_
+5	כאמור	כאמור	ADV	ADV	_	7	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	5	punct	_	_
+7	חוששים	חשש	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+8-9	ממטה	_	_	_	_	_	_	_	SpaceAfter=No
+8	מ	מ	ADP	ADP	_	9	case	_	_
+9	מטה	מטה	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
+10	-	-	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+11	ארצי	ארצי	ADJ	ADJ	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+12	-	-	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
+13	על	על	ADP	ADP	_	15	case	_	_
+14	ליד	ליד	ADP	ADP	_	15	case	_	_
+15	שר	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	nmod	_	_
+16-17	המשטרה	_	_	_	_	_	_	_	SpaceAfter=No
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	15	compound:smixut	_	_
+18	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:171_5
+# doc_range = 15755-15898
+# sent_id = 4549
+# text = במשרד המשטרה מרגיעים כי הצוות המקצועי שיפעל ליד השר לא יתערב בפיקוד על המשטרה.
+1-2	במשרד	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+3-4	המשטרה	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound:smixut	_	_
+5	מרגיעים	הרגיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+6	כי	כי	SCONJ	SCONJ	_	17	mark	_	_
+7-8	הצוות	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	צוות	צוות	NOUN	NOUN	Gender=Fem|Number=Sing	17	nsubj	_	_
+9-10	המקצועי	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	מקצועי	מקצועי	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	_
+11-12	שיפעל	_	_	_	_	_	_	_	_
+11	ש	ש	SCONJ	SCONJ	_	12	mark	_	_
+12	יפעל	פעל	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	8	acl:relcl	_	_
+13	ליד	ליד	ADP	ADP	_	15	case	_	_
+14-15	השר	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	שר	שר	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
+16	לא	לא	ADV	ADV	Polarity=Neg	17	advmod	_	_
+17	יתערב	התערב	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Fut	5	ccomp	_	_
+18-20	בפיקוד	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	20	case	_	_
+19	ה_	ה	DET	DET	PronType=Art|Definite=Def	20	det	_	_
+20	פיקוד	פיקוד	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	_
+21	על	על	ADP	ADP	_	23	case	_	_
+22-23	המשטרה	_	_	_	_	_	_	_	SpaceAfter=No
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	20	nmod	_	_
+24	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:171_5
+# doc_range = 15900-16092
+# sent_id = 4550
+# text = מכל מקום, אחרי שיוקם המטה המקצועי שוב לא תהיה לשר המשטרה חסינות מפני אחריות לכשלונות ולמחדלים של המשטרה.
+1-2	מכל	_	_	_	_	_	_	_	_
+1	מ	מ	ADP	ADP	_	3	case	_	_
+2	כל	כול	DET	DET	Definite=Cons	3	det	_	_
+3	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	3	punct	_	_
+5	אחרי	אחרי	ADP	ADP	_	7	mark	_	_
+6-7	שיוקם	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	_	5	fixed	_	_
+7	יוקם	הוקם	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	14	advcl	_	_
+8-9	המטה	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	מטה	מטה	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+10-11	המקצועי	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	מקצועי	מקצועי	ADJ	ADJ	Gender=Masc|Number=Sing	9	amod	_	_
+12	שוב	שוב	ADV	ADV	_	14	advmod	_	_
+13	לא	לא	ADV	ADV	Polarity=Neg	14	advmod	_	_
+14	תהיה	היה	VERB	VERB	Gender=Fem|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
+15-16	לשר	_	_	_	_	_	_	_	_
+15	ל	ל	ADP	ADP	_	16	case	_	_
+16	שר	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	14	obl	_	_
+17-18	המשטרה	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	16	compound:smixut	_	_
+19	חסינות	חסינות	NOUN	NOUN	Gender=Fem|Number=Sing	14	nsubj	_	_
+20	מפני	מפני	ADP	ADP	_	21	case	_	_
+21	אחריות	אחריות	NOUN	NOUN	Gender=Fem|Number=Sing	19	nmod	_	_
+22-24	לכשלונות	_	_	_	_	_	_	_	_
+22	ל	ל	ADP	ADP	_	24	case	_	_
+23	ה_	ה	DET	DET	PronType=Art|Definite=Def	24	det	_	_
+24	כשלונות	כישלון	NOUN	NOUN	Gender=Masc|Number=Plur	21	nmod	_	_
+25-28	ולמחדלים	_	_	_	_	_	_	_	_
+25	ו	ו	CCONJ	CCONJ	_	28	cc	_	_
+26	ל	ל	ADP	ADP	_	28	case	_	_
+27	ה_	ה	DET	DET	PronType=Art|Definite=Def	28	det	_	_
+28	מחדלים	מחדל	NOUN	NOUN	Gender=Masc|Number=Plur	24	conj	_	_
+29	של	של	ADP	ADP	Case=Gen	31	case	_	_
+30-31	המשטרה	_	_	_	_	_	_	_	SpaceAfter=No
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	28	nmod:poss	_	_
+32	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# doc_id = htb:171_5
+# doc_range = 16094-16322
+# sent_id = 4551
+# text = הגורמים שהיו עלה תאנה לשר בפרשת הר הבית, כמו העדר מטה מקצועי ואי קיום כלים למימוש האחריות המיניסטריאלית, שוב לא יהיו קיימים.
+1-2	הגורמים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	גורמים	גורם	NOUN	NOUN	Gender=Masc|Number=Plur	34	nsubj	_	_
+3-4	שהיו	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	5	mark	_	_
+4	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	5	cop	_	_
+5	עלה	עלה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	acl:relcl	_	_
+6	תאנה	תאנה	NOUN	NOUN	Gender=Fem|Number=Sing	5	compound:smixut	_	_
+7-9	לשר	_	_	_	_	_	_	_	_
+7	ל	ל	ADP	ADP	_	9	case	_	_
+8	ה_	ה	DET	DET	PronType=Art|Definite=Def	9	det	_	_
+9	שר	שר	NOUN	NOUN	Gender=Masc|Number=Sing	5	nmod	_	_
+10-11	בפרשת	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	פרשת	פרשה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	nmod	_	_
+12	הר	הר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	compound:smixut	_	_
+13-14	הבית	_	_	_	_	_	_	_	SpaceAfter=No
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	בית	בית	NOUN	NOUN	Gender=Masc|Number=Sing	12	compound:smixut	_	_
+15	,	,	PUNCT	PUNCT	_	17	punct	_	_
+16	כמו	כמו	ADP	ADP	_	17	case	_	_
+17	העדר	העדר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	nmod	_	_
+18	מטה	מטה	NOUN	NOUN	Gender=Masc|Number=Sing	17	compound:smixut	_	_
+19	מקצועי	מקצועי	ADJ	ADJ	Gender=Masc|Number=Sing	18	amod	_	_
+20-21	ואי	_	_	_	_	_	_	_	_
+20	ו	ו	CCONJ	CCONJ	_	22	cc	_	_
+21	אי	אי	ADV	ADV	Prefix=Yes	22	compound:affix	_	_
+22	קיום	קיום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	conj	_	_
+23	כלים	כלי	NOUN	NOUN	Gender=Masc|Number=Plur	22	compound:smixut	_	_
+24-25	למימוש	_	_	_	_	_	_	_	_
+24	ל	ל	ADP	ADP	_	25	case	_	_
+25	מימוש	מימוש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	23	nmod	_	_
+26-27	האחריות	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	אחריות	אחריות	NOUN	NOUN	Gender=Fem|Number=Sing	25	compound:smixut	_	_
+28-29	המיניסטריאלית	_	_	_	_	_	_	_	SpaceAfter=No
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	מיניסטריאלית	מיניסטריאלי	ADJ	ADJ	Gender=Fem|Number=Sing	27	amod	_	_
+30	,	,	PUNCT	PUNCT	_	2	punct	_	_
+31	שוב	שוב	ADV	ADV	_	34	advmod	_	_
+32	לא	לא	ADV	ADV	Polarity=Neg	34	advmod	_	_
+33	יהיו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	34	cop	_	_
+34	קיימים	קיים	ADJ	ADJ	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+35	.	.	PUNCT	PUNCT	_	34	punct	_	_
+

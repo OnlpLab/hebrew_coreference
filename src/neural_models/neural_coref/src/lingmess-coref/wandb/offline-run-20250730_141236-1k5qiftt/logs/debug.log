@@ -1,0 +1,21 @@
+2025-07-30 14:12:36,471 INFO    MainThread:57718 [wandb_setup.py:_flush():75] Loading settings from /Users/s0g0a87/.config/wandb/settings
+2025-07-30 14:12:36,471 INFO    MainThread:57718 [wandb_setup.py:_flush():75] Loading settings from /Users/s0g0a87/studies/neural_hebrew_coref/src/lingmess-coref/wandb/settings
+2025-07-30 14:12:36,471 INFO    MainThread:57718 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'mode': 'offline'}
+2025-07-30 14:12:36,471 INFO    MainThread:57718 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'run.py', 'program': '/Users/s0g0a87/studies/neural_hebrew_coref/src/lingmess-coref/run.py'}
+2025-07-30 14:12:36,471 INFO    MainThread:57718 [wandb_init.py:_log_setup():437] Logging user logs to /Users/s0g0a87/studies/neural_hebrew_coref/src/lingmess-coref/wandb/offline-run-20250730_141236-1k5qiftt/logs/debug.log
+2025-07-30 14:12:36,471 INFO    MainThread:57718 [wandb_init.py:_log_setup():438] Logging internal logs to /Users/s0g0a87/studies/neural_hebrew_coref/src/lingmess-coref/wandb/offline-run-20250730_141236-1k5qiftt/logs/debug-internal.log
+2025-07-30 14:12:36,471 INFO    MainThread:57718 [wandb_init.py:init():471] calling init triggers
+2025-07-30 14:12:36,471 INFO    MainThread:57718 [wandb_init.py:init():474] wandb.init called with sweep_config: {}
+config: {'model_name_or_path': '/Users/s0g0a87/studies/neural_hebrew_coref/cache/models--dicta-il--dictabert-large/snapshots/a972ffb612c03bcfb128f10f5ef4462f7adb9844', 'output_dir': '/Users/s0g0a87/studies/neural_hebrew_coref/results/dictabert-large_local', 'overwrite_output_dir': True, 'train_file': '/Users/s0g0a87/studies/neural_hebrew_coref/data/lingmess/hebrew/train.hebrew.jsonlines', 'dev_file': '/Users/s0g0a87/studies/neural_hebrew_coref/data/lingmess/hebrew/dev.hebrew.jsonlines', 'test_file': '/Users/s0g0a87/studies/neural_hebrew_coref/data/lingmess/hebrew/test.hebrew.jsonlines', 'output_file': None, 'do_train': True, 'eval_split': 'dev', 'learning_rate': 1e-05, 'head_learning_rate': 0.0003, 'dropout_prob': 0.3, 'weight_decay': 0.01, 'adam_beta1': 0.9, 'adam_beta2': 0.98, 'adam_epsilon': 1e-06, 'train_epochs': 50.0, 'ffnn_size': 2048, 'logging_steps': 500, 'eval_steps': 250, 'device': device(type='mps'), 'seed': 123, 'max_span_length': 30, 'top_lambda': 0.4, 'experiment_name': 'lingmess_heb', 'cache_dir': '/Users/s0g0a87/studies/neural_hebrew_coref/cache', 'max_segment_len': 512, 'max_tokens_in_batch': 500, 'n_gpu': 0, 'base_model': 'bert', 'dataset_files': {'train': '/Users/s0g0a87/studies/neural_hebrew_coref/data/lingmess/hebrew/train.hebrew.jsonlines', 'dev': '/Users/s0g0a87/studies/neural_hebrew_coref/data/lingmess/hebrew/dev.hebrew.jsonlines', 'test': '/Users/s0g0a87/studies/neural_hebrew_coref/data/lingmess/hebrew/test.hebrew.jsonlines'}}
+2025-07-30 14:12:36,471 INFO    MainThread:57718 [wandb_init.py:init():524] starting backend
+2025-07-30 14:12:36,471 INFO    MainThread:57718 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-07-30 14:12:36,473 INFO    MainThread:57718 [backend.py:ensure_launched():217] starting backend process...
+2025-07-30 14:12:36,514 INFO    MainThread:57718 [backend.py:ensure_launched():222] started backend process with pid: 57788
+2025-07-30 14:12:36,515 INFO    MainThread:57718 [wandb_init.py:init():533] backend started and connected
+2025-07-30 14:12:36,521 INFO    MainThread:57718 [wandb_init.py:init():597] updated telemetry
+2025-07-30 14:12:36,522 INFO    MainThread:57718 [wandb_init.py:init():659] starting run threads in backend
+2025-07-30 14:12:38,829 INFO    MainThread:57718 [wandb_run.py:_console_start():1897] atexit reg
+2025-07-30 14:12:38,830 INFO    MainThread:57718 [wandb_run.py:_redirect():1770] redirect: SettingsConsole.REDIRECT
+2025-07-30 14:12:38,830 INFO    MainThread:57718 [wandb_run.py:_redirect():1775] Redirecting console.
+2025-07-30 14:12:38,831 INFO    MainThread:57718 [wandb_run.py:_redirect():1831] Redirects installed.
+2025-07-30 14:12:38,831 INFO    MainThread:57718 [wandb_init.py:init():684] run started, returning control to user process

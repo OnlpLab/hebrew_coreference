@@ -1,0 +1,294 @@
+# doc_id = htb:80
+# doc_range = 1-136
+# sent_id = 2221
+# text = הקיבוץ הארצי ישקיע 2 מיליון ש"ח בפיתוח "חמי יואב" ליד קיבוץ שדה יואב בדרום.
+1-2	הקיבוץ	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	קיבוץ	קיבוץ	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+3-4	הארצי	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	ארצי	ארצי	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+5	ישקיע	השקיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+6	2	2	NUM	NUM	_	7	nummod	_	_
+7	מיליון	מיליון	NUM	NUM	Gender=Masc|Number=Plur	8	nummod	_	_
+8	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	5	obj	_	_
+9-10	בפיתוח	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	פיתוח	פיתוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+11	"	"	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
+12	חמי	חם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	10	compound:smixut	_	_
+13	יואב	יואב	PROPN	PROPN	_	12	flat:name	_	SpaceAfter=No
+14	"	"	PUNCT	PUNCT	_	12	punct	_	_
+15	ליד	ליד	ADP	ADP	_	16	case	_	_
+16	קיבוץ	קיבוץ	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+17	שדה	שדה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	16	appos	_	_
+18	יואב	יואב	PROPN	PROPN	_	17	flat:name	_	_
+19-21	בדרום	_	_	_	_	_	_	_	SpaceAfter=No
+19	ב	ב	ADP	ADP	_	21	case	_	_
+20	ה_	ה	DET	DET	PronType=Art|Definite=Def	21	det	_	_
+21	דרום	דרום	NOUN	NOUN	Gender=Masc|Number=Sing	16	nmod	_	_
+22	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:80
+# doc_range = 138-245
+# sent_id = 2222
+# text = באתר יש שש בריכות מקורות עם מי גופרית המנוצלים למטרות מרפא.
+1-3	באתר	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	אתר	אתר	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+4	יש	יש	VERB	VERB	HebExistential=Yes	0	root	_	_
+5	שש	שש	NUM	NUM	Gender=Fem|Number=Plur	6	nummod	_	_
+6	בריכות	בריכה	NOUN	NOUN	Gender=Fem|Number=Plur	4	nsubj	_	_
+7	מקורות	מקורה	ADJ	ADJ	Gender=Fem|Number=Plur	6	amod	_	_
+8	עם	עם	ADP	ADP	_	9	case	_	_
+9	מי	מים	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	6	nmod	_	_
+10	גופרית	גופרית	NOUN	NOUN	Gender=Fem|Number=Sing	9	compound:smixut	_	_
+11-12	המנוצלים	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	dep	_	_
+12	מנוצלים	נוצל	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	9	acl	_	_
+13-14	למטרות	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	מטרות	מטרה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	12	obl	_	_
+15	מרפא	מרפא	NOUN	NOUN	Gender=Masc|Number=Sing	14	compound:smixut	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:80
+# doc_range = 248-381
+# sent_id = 2223
+# text = ומבקרים בהן מדי יום כ2,000 איש הסובלים מבעיות בפרקים, כאבי גב וכיוצא באלה.
+1-2	ומבקרים	_	_	_	_	_	_	_	_
+1	ו	ו	CCONJ	CCONJ	_	2	cc	_	_
+2	מבקרים	ביקר	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+3-4	בהן	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	_הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	2	obl	_	_
+5	מדי	מדי	DET	DET	_	6	det	_	_
+6	יום	יום	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl:tmod	_	_
+7-8	כ2,000	_	_	_	_	_	_	_	_
+7	כ	כ	ADP	ADP	_	9	case	_	_
+8	2,000	2,000	NUM	NUM	_	9	nummod	_	_
+9	איש	איש	NOUN	NOUN	Gender=Masc|Number=Sing	2	nsubj	_	_
+10-11	הסובלים	_	_	_	_	_	_	_	_
+10	ה	ה	SCONJ	SCONJ	_	11	mark	_	_
+11	סובלים	סבל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	9	acl:relcl	_	_
+12-13	מבעיות	_	_	_	_	_	_	_	_
+12	מ	מ	ADP	ADP	_	13	case	_	_
+13	בעיות	בעיה	NOUN	NOUN	Gender=Fem|Number=Plur	11	obl	_	_
+14-16	בפרקים	_	_	_	_	_	_	_	SpaceAfter=No
+14	ב	ב	ADP	ADP	_	16	case	_	_
+15	ה_	ה	DET	DET	PronType=Art|Definite=Def	16	det	_	_
+16	פרקים	פרק	NOUN	NOUN	Gender=Masc|Number=Plur	13	nmod	_	_
+17	,	,	PUNCT	PUNCT	_	18	punct	_	_
+18	כאבי	כאב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	13	conj	_	_
+19	גב	גב	NOUN	NOUN	Gender=Masc|Number=Sing	18	compound:smixut	_	_
+20-23	וכיוצא	_	_	_	_	_	_	_	_
+20	ו	ו	CCONJ	CCONJ	_	13	conj	_	_
+21	כ	כ	ADP	ADP	_	23	case	_	_
+22	ה_	ה	DET	DET	PronType=Art|Definite=Def	23	det	_	_
+23	יוצא	יוצא	NOUN	NOUN	Gender=Masc|Number=Sing	20	dep	_	HebSource=ConvUncertainHead
+24-26	באלה	_	_	_	_	_	_	_	SpaceAfter=No
+24	ב	ב	ADP	ADP	_	26	case	_	_
+25	ה_	ה	DET	DET	PronType=Art|Definite=Def	26	det	_	_
+26	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	23	nmod	_	_
+27	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:80
+# doc_range = 383-563
+# sent_id = 2224
+# text = ההשקעה עליה הוחלט בקיבוץ הארצי נועדה להקמתם של מכון לטיפולים הידרותרפיים, סאונה, בית מרחץ ומסעדה.
+1-2	ההשקעה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	השקעה	השקעה	NOUN	NOUN	Gender=Fem|Number=Sing	11	nsubj	_	_
+3-4	עליה	_	_	_	_	_	_	_	_
+3	על	על	ADP	ADP	_	4	case	_	_
+4	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
+5	הוחלט	הוחלט	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	2	acl	_	_
+6-8	בקיבוץ	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	8	case	_	_
+7	ה_	ה	DET	DET	PronType=Art|Definite=Def	8	det	_	_
+8	קיבוץ	קיבוץ	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+9-10	הארצי	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	ארצי	ארצי	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	_
+11	נועדה	נועד	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+12-15	להקמתם	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	_	13	case	_	_
+13	הקמה	הקמה	NOUN	NOUN	Gender=Fem|Number=Sing	11	obl	_	_
+14	_של_	של	ADP	ADP	Case=Gen	15	case:gen	_	_
+15	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+16	של	של	ADP	ADP	Case=Gen	17	case	_	_
+17	מכון	מכון	NOUN	NOUN	Gender=Masc|Number=Sing	13	nmod:poss	_	_
+18-19	לטיפולים	_	_	_	_	_	_	_	_
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	טיפולים	טיפול	NOUN	NOUN	Gender=Masc|Number=Plur	17	nmod	_	_
+20	הידרותרפיים	הידרותרפי	ADJ	ADJ	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	22	punct	_	_
+22	סאונה	סאונה	NOUN	NOUN	Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
+23	,	,	PUNCT	PUNCT	_	24	punct	_	_
+24	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	conj	_	_
+25	מרחץ	מרחץ	NOUN	NOUN	Gender=Masc|Number=Sing	24	compound:smixut	_	_
+26-27	ומסעדה	_	_	_	_	_	_	_	SpaceAfter=No
+26	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
+27	מסעדה	מסעדה	NOUN	NOUN	Gender=Fem|Number=Sing	17	conj	_	_
+28	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:80
+# doc_range = 565-806
+# sent_id = 2225
+# text = בשלב זה אין בדעת הקיבוץ הארצי להקים מלון במקום, אלא להתבסס על תשתית קיימת של מלונות באשקלון ו"צימרים" בקיבוצים הסמוכים נגבה ורבדים.
+1-2	בשלב	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	שלב	שלב	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+3	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	det	_	_
+4	אין	אין	VERB	VERB	HebExistential=Yes	0	root	_	_
+5-6	בדעת	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	דעת	דעה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	obl	_	_
+7-8	הקיבוץ	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	קיבוץ	קיבוץ	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+9-10	הארצי	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	ארצי	ארצי	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	_
+11	להקים	הקים	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+12	מלון	מלון	NOUN	NOUN	Gender=Masc|Number=Sing	11	obj	_	_
+13-15	במקום	_	_	_	_	_	_	_	SpaceAfter=No
+13	ב	ב	ADP	ADP	_	15	case	_	_
+14	ה_	ה	DET	DET	PronType=Art|Definite=Def	15	det	_	_
+15	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	12	nmod	_	_
+16	,	,	PUNCT	PUNCT	_	18	punct	_	_
+17	אלא	אלא	CCONJ	CCONJ	_	18	cc	_	_
+18	להתבסס	התבסס	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	11	conj	_	_
+19	על	על	ADP	ADP	_	20	case	_	_
+20	תשתית	תשתית	NOUN	NOUN	Gender=Fem|Number=Sing	18	obl	_	_
+21	קיימת	קיים	ADJ	ADJ	Gender=Fem|Number=Sing	20	amod	_	_
+22	של	של	ADP	ADP	Case=Gen	23	case	_	_
+23	מלונות	מלון	NOUN	NOUN	Gender=Masc|Number=Plur	20	nmod	_	_
+24-25	באשקלון	_	_	_	_	_	_	_	_
+24	ב	ב	ADP	ADP	_	25	case	_	_
+25	אשקלון	אשקלון	PROPN	PROPN	_	23	nmod	_	_
+26-28	ו"צימרים	_	_	_	_	_	_	_	SpaceAfter=No
+26	ו	ו	CCONJ	CCONJ	_	28	cc	_	_
+27	"	"	PUNCT	PUNCT	_	28	punct	_	_
+28	צימרים	צימרים	NOUN	NOUN	Gender=Masc|Number=Plur	23	conj	_	_
+29	"	"	PUNCT	PUNCT	_	28	punct	_	_
+30-32	בקיבוצים	_	_	_	_	_	_	_	_
+30	ב	ב	ADP	ADP	_	32	case	_	_
+31	ה_	ה	DET	DET	PronType=Art|Definite=Def	32	det	_	_
+32	קיבוצים	קיבוץ	NOUN	NOUN	Gender=Masc|Number=Plur	28	nmod	_	_
+33-34	הסמוכים	_	_	_	_	_	_	_	_
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	סמוכים	סמוך	ADJ	ADJ	Gender=Masc|Number=Plur	32	amod	_	_
+35	נגבה	נגבה	PROPN	PROPN	_	32	appos	_	_
+36-37	ורבדים	_	_	_	_	_	_	_	SpaceAfter=No
+36	ו	ו	CCONJ	CCONJ	_	37	cc	_	_
+37	רבדים	רובד	NOUN	NOUN	Gender=Masc|Number=Plur	35	conj	_	_
+38	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:80
+# doc_range = 808-1047
+# sent_id = 2226
+# text = אורחן לנהגים ליד קיבוץ בית גוברין, המשלב תחנת דלק עם מסעדה, מרכז מכירות ומידע לנהגים, ייפתח בינואר הקרוב, בהשקעה של 1.2 מיליון ש"ח.
+1	אורחן	אורחן	NOUN	NOUN	Gender=Masc|Number=Sing	24	nsubj	_	_
+2-3	לנהגים	_	_	_	_	_	_	_	_
+2	ל	ל	ADP	ADP	_	3	case	_	_
+3	נהגים	נהג	NOUN	NOUN	Gender=Masc|Number=Plur	1	nmod	_	_
+4	ליד	ליד	ADP	ADP	_	5	case	_	_
+5	קיבוץ	קיבוץ	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	nmod	_	_
+6	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	compound:smixut	_	_
+7	גוברין	גוברין	PROPN	PROPN	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	10	punct	_	_
+9-10	המשלב	_	_	_	_	_	_	_	_
+9	ה	ה	SCONJ	SCONJ	_	10	mark	_	_
+10	משלב	שילב	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	1	acl:relcl	_	_
+11	תחנת	תחנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	10	obj	_	_
+12	דלק	דלק	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound:smixut	_	_
+13	עם	עם	ADP	ADP	_	14	case	_	_
+14	מסעדה	מסעדה	NOUN	NOUN	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	16	punct	_	_
+16	מרכז	מרכז	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	conj	_	_
+17	מכירות	מכירה	NOUN	NOUN	Gender=Fem|Number=Plur	16	compound:smixut	_	_
+18-19	ומידע	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+19	מידע	מידע	NOUN	NOUN	Gender=Masc|Number=Sing	11	conj	_	_
+20-22	לנהגים	_	_	_	_	_	_	_	SpaceAfter=No
+20	ל	ל	ADP	ADP	_	22	case	_	_
+21	ה_	ה	DET	DET	PronType=Art|Definite=Def	22	det	_	_
+22	נהגים	נהג	NOUN	NOUN	Gender=Masc|Number=Plur	19	nmod	_	_
+23	,	,	PUNCT	PUNCT	_	1	punct	_	_
+24	ייפתח	נפתח	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Fut|Voice=Mid	0	root	_	_
+25-26	בינואר	_	_	_	_	_	_	_	_
+25	ב	ב	ADP	ADP	_	26	case	_	_
+26	ינואר	ינואר	PROPN	PROPN	_	24	obl	_	_
+27-28	הקרוב	_	_	_	_	_	_	_	SpaceAfter=No
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	קרוב	קרוב	ADJ	ADJ	Gender=Masc|Number=Sing	26	amod	_	_
+29	,	,	PUNCT	PUNCT	_	31	punct	_	_
+30-31	בהשקעה	_	_	_	_	_	_	_	_
+30	ב	ב	ADP	ADP	_	31	case	_	_
+31	השקעה	השקעה	NOUN	NOUN	Gender=Fem|Number=Sing	24	obl	_	_
+32	של	של	ADP	ADP	Case=Gen	35	case	_	_
+33	1.2	1.2	NUM	NUM	_	34	nummod	_	_
+34	מיליון	מיליון	NUM	NUM	Gender=Masc|Number=Plur	35	nummod	_	_
+35	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	31	nmod:poss	_	SpaceAfter=No
+36	.	.	PUNCT	PUNCT	_	24	punct	_	_
+
+# doc_id = htb:80
+# doc_range = 1049-1185
+# sent_id = 2227
+# text = להשקעה שותפים התק"ם, הקיבוץ הארצי וחברת דלק, שחלקה בהשקעה הוא הגדול ביותר.
+1-3	להשקעה	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	השקעה	השקעה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nmod	_	_
+4	שותפים	שותף	NOUN	NOUN	Gender=Masc|Number=Plur	0	root	_	_
+5-6	התק"ם	_	_	_	_	_	_	_	SpaceAfter=No
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	תק"ם	התק"ם	PROPN	PROPN	Abbr=Yes	4	nsubj	_	_
+7	,	,	PUNCT	PUNCT	_	9	punct	_	_
+8-9	הקיבוץ	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	קיבוץ	קיבוץ	NOUN	NOUN	Gender=Masc|Number=Sing	6	conj	_	_
+10-11	הארצי	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	ארצי	ארצי	ADJ	ADJ	Gender=Masc|Number=Sing	9	amod	_	_
+12-13	וחברת	_	_	_	_	_	_	_	_
+12	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
+13	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	conj	_	_
+14	דלק	דלק	NOUN	NOUN	Gender=Masc|Number=Sing	13	compound:smixut	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	25	punct	_	_
+16-19	שחלקה	_	_	_	_	_	_	_	_
+16	ש	ש	SCONJ	SCONJ	_	25	mark	_	_
+17	חלק	חלק	NOUN	NOUN	Gender=Masc|Number=Sing	25	nsubj	_	_
+18	_של_	של	ADP	ADP	Case=Gen	19	case:gen	_	_
+19	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+20-22	בהשקעה	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	22	case	_	_
+21	ה_	ה	DET	DET	PronType=Art|Definite=Def	22	det	_	_
+22	השקעה	השקעה	NOUN	NOUN	Gender=Fem|Number=Sing	17	nmod	_	_
+23	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	25	cop	_	_
+24-25	הגדול	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	גדול	גדול	ADJ	ADJ	Gender=Masc|Number=Sing	13	acl:relcl	_	_
+26	ביותר	ביותר	ADV	ADV	_	25	advmod	_	SpaceAfter=No
+27	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:80
+# doc_range = 1187-1273
+# sent_id = 2228
+# text = עד כה הקימו התנועות הקיבוציות תשע מסעדות דרכים.
+1	עד	עד	ADV	ADV	_	3	advmod	_	_
+2	כה	כה	ADV	ADV	_	1	fixed	_	_
+3	הקימו	הקים	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4-5	התנועות	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	תנועות	תנועה	NOUN	NOUN	Gender=Fem|Number=Plur	3	nsubj	_	_
+6-7	הקיבוציות	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	קיבוציות	קיבוצי	ADJ	ADJ	Gender=Fem|Number=Plur	5	amod	_	_
+8	תשע	תשע	NUM	NUM	Gender=Fem|Number=Plur	9	nummod	_	_
+9	מסעדות	מסעדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	3	obj	_	_
+10	דרכים	דרך	NOUN	NOUN	Gender=Fem|Number=Plur	9	compound:smixut	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	3	punct	_	_
+

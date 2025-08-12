@@ -1,0 +1,162 @@
+# doc_id = htb:187
+# doc_range = 1-242
+# sent_id = 4872
+# text = היום אמור להגיע ארצה ממצרים נשיא חברת התיירות אמין טורס, אמין שבראווי, כדי לדון במחלוקת כספית עם חברת התיירות הישראלית טיולי הגליל.
+1	היום	היום	ADV	ADV	_	3	advmod	_	_
+2	אמור	אמור	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	3	aux	_	_
+3	להגיע	הגיע	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	0	root	_	_
+4	ארצה	ארצה	ADV	ADV	_	3	advmod	_	_
+5-6	ממצרים	_	_	_	_	_	_	_	_
+5	מ	מ	ADP	ADP	_	6	case	_	_
+6	מצרים	מצרים	PROPN	PROPN	_	3	obl	_	_
+7	נשיא	נשיא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	nsubj	_	_
+8	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	compound:smixut	_	_
+9-10	התיירות	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	תיירות	תיירות	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound:smixut	_	_
+11	אמין	אמין	NOUN	NOUN	Gender=Masc|Number=Sing	8	appos	_	_
+12	טורס	טורס	PROPN	PROPN	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	14	punct	_	_
+14	אמין	אמין	NOUN	NOUN	Gender=Masc|Number=Sing	7	appos	_	_
+15	שבראווי	שבראווי	PROPN	PROPN	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	7	punct	_	_
+17	כדי	כדי	SCONJ	SCONJ	_	18	mark	_	_
+18	לדון	דן	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	3	advcl	_	_
+19-20	במחלוקת	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	מחלוקת	מחלוקת	NOUN	NOUN	Gender=Fem|Number=Sing	18	obl	_	_
+21	כספית	כספי	ADJ	ADJ	Gender=Fem|Number=Sing	20	amod	_	_
+22	עם	עם	ADP	ADP	_	23	case	_	_
+23	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	18	obl	_	_
+24-25	התיירות	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	תיירות	תיירות	NOUN	NOUN	Gender=Fem|Number=Sing	23	compound:smixut	_	_
+26-27	הישראלית	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	ישראלית	ישראלי	ADJ	ADJ	Gender=Fem|Number=Sing	23	amod	_	_
+28	טיולי	טיול	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	23	appos	_	_
+29-30	הגליל	_	_	_	_	_	_	_	SpaceAfter=No
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	גליל	גליל	NOUN	NOUN	Gender=Masc|Number=Sing	28	compound:smixut	_	_
+31	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:187
+# doc_range = 244-342
+# sent_id = 4873
+# text = החברה המצרית טוענת כי טיולי הגליל חייבת לה 601,016 דולר.
+1-2	החברה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	5	nsubj	_	_
+3-4	המצרית	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	מצרית	מצרי	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+5	טוענת	טען	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+6	כי	כי	SCONJ	SCONJ	_	10	mark	_	_
+7	טיולי	טיול	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	10	nsubj	_	_
+8-9	הגליל	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	גליל	גליל	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound:smixut	_	_
+10	חייבת	חייב	AUX	AUX	Gender=Fem|Number=Sing|Person=1,2,3|VerbType=Mod	5	advcl	_	_
+11-12	לה	_	_	_	_	_	_	_	_
+11	ל	ל	ADP	ADP	_	12	case	_	_
+12	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obl	_	_
+13	601,016	601,016	NUM	NUM	_	14	nummod	_	_
+14	דולר	דולר	NOUN	NOUN	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:187
+# doc_range = 344-500
+# sent_id = 4874
+# text = לטענת שבראווי, לאחר שכל מאמציו לגבות את החוב עלו בתוהו, הוא פנה לשגרירות ישראל בקהיר.
+1-2	לטענת	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	טענת	טענה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	21	obl	_	_
+3	שבראווי	שבראווי	PROPN	PROPN	_	2	compound:smixut	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	2	punct	_	_
+5	לאחר	לאחר	ADP	ADP	_	15	case	_	_
+6-7	שכל	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	_	15	mark	_	_
+7	כל	כול	DET	DET	Definite=Cons	8	det	_	_
+8-10	מאמציו	_	_	_	_	_	_	_	_
+8	מאמץ	מאמץ	NOUN	NOUN	Gender=Masc|Number=Plur	15	nsubj	_	_
+9	_של_	של	ADP	ADP	Case=Gen	10	case:gen	_	_
+10	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+11	לגבות	לגבות	VERB	VERB	VerbForm=Inf	8	acl	_	_
+12	את	את	ADP	ADP	Case=Acc	14	case	_	_
+13-14	החוב	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	חוב	חוב	NOUN	NOUN	Gender=Masc|Number=Sing	11	obj	_	_
+15	עלו	עלה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	21	obl	_	_
+16-18	בתוהו	_	_	_	_	_	_	_	SpaceAfter=No
+16	ב	ב	ADP	ADP	_	18	case	_	_
+17	ה_	ה	DET	DET	PronType=Art|Definite=Def	18	det	_	_
+18	תוהו	תוהו	NOUN	NOUN	Gender=Masc|Number=Sing	15	obl	_	_
+19	,	,	PUNCT	PUNCT	_	15	punct	_	_
+20	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+21	פנה	פנה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+22-23	לשגרירות	_	_	_	_	_	_	_	_
+22	ל	ל	ADP	ADP	_	23	case	_	_
+23	שגרירות	שגרירות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	21	obl	_	_
+24	ישראל	ישראל	PROPN	PROPN	_	23	compound:smixut	_	_
+25-26	בקהיר	_	_	_	_	_	_	_	SpaceAfter=No
+25	ב	ב	ADP	ADP	_	26	case	_	_
+26	קהיר	קהיר	PROPN	PROPN	_	23	nmod	_	_
+27	.	.	PUNCT	PUNCT	_	21	punct	_	_
+
+# doc_id = htb:187
+# doc_range = 503-790
+# sent_id = 4875
+# text = השגרירות עידכנה את משרד החוץ בירושלים בעניין החוב, כדי למנוע התפתחותה של תקרית מביכה מנכ"ל חברת טיולי הגליל, עזרא בן דורי, הביע מצדו נכונות לסיים את המחלוקת.
+1-2	השגרירות	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	שגרירות	שגרירות	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	עידכנה	עדכן	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	את	את	ADP	ADP	Case=Acc	5	case	_	_
+5	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	obj	_	_
+6-7	החוץ	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	5	compound:smixut	_	_
+8-9	בירושלים	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	ירושלים	ירושלים	PROPN	PROPN	_	5	nmod	_	_
+10-11	בעניין	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	עניין	עניין	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	obl	_	_
+12-13	החוב	_	_	_	_	_	_	_	SpaceAfter=No
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	חוב	חוב	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound:smixut	_	_
+14	,	,	PUNCT	PUNCT	_	33	punct	_	_
+15	כדי	כדי	SCONJ	SCONJ	_	16	mark	_	_
+16	למנוע	מנע	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	33	advcl	_	_
+17-19	התפתחותה	_	_	_	_	_	_	_	_
+17	התפתחות	התפתחות	NOUN	NOUN	Gender=Fem|Number=Sing	16	obj	_	_
+18	_של_	של	ADP	ADP	Case=Gen	19	case:gen	_	_
+19	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+20	של	של	ADP	ADP	Case=Gen	21	case	_	_
+21	תקרית	תקרית	NOUN	NOUN	Gender=Fem|Number=Sing	17	nmod:poss	_	_
+22	מביכה	מביך	ADJ	ADJ	Gender=Fem|Number=Sing	21	amod	_	_
+23	מנכ"ל	מנכ"ל	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	33	nsubj	_	_
+24	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	23	compound:smixut	_	_
+25	טיולי	טיול	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	24	compound:smixut	_	_
+26-27	הגליל	_	_	_	_	_	_	_	SpaceAfter=No
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	גליל	גליל	NOUN	NOUN	Gender=Masc|Number=Sing	25	compound:smixut	_	_
+28	,	,	PUNCT	PUNCT	_	29	punct	_	_
+29	עזרא	עזרא	PROPN	PROPN	_	23	appos	_	_
+30	בן	בן	PROPN	PROPN	_	29	flat:name	_	_
+31	דורי	דורי	PROPN	PROPN	_	30	flat:name	_	SpaceAfter=No
+32	,	,	PUNCT	PUNCT	_	23	punct	_	_
+33	הביע	הביע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	_
+34-37	מצדו	_	_	_	_	_	_	_	_
+34	מ	מ	ADP	ADP	_	35	case	_	_
+35	צד	צד	NOUN	NOUN	Gender=Masc|Number=Sing	33	obl	_	_
+36	_של_	של	ADP	ADP	Case=Gen	37	case:gen	_	_
+37	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	_	_
+38	נכונות	נכונות	NOUN	NOUN	Gender=Fem|Number=Sing	33	obj	_	_
+39	לסיים	סיים	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	38	acl	_	_
+40	את	את	ADP	ADP	Case=Acc	42	case	_	_
+41-42	המחלוקת	_	_	_	_	_	_	_	SpaceAfter=No
+41	ה	ה	DET	DET	Definite=Def|PronType=Art	42	det	_	_
+42	מחלוקת	מחלוקת	NOUN	NOUN	Gender=Fem|Number=Sing	39	obj	_	_
+43	.	.	PUNCT	PUNCT	_	3	punct	_	_
+

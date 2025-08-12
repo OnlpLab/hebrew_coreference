@@ -1,0 +1,1149 @@
+# doc_id = htb:133
+# doc_range = 1-150
+# sent_id = 3234
+# text = אחרונה נפתח בשמורת הטבע נאות קדומים, השוכנת ליד חורשות בן-שמן, מסלול טיולים חדש.
+1	אחרונה	אחרון	ADJ	ADJ	Gender=Fem|Number=Sing	2	dep	_	_
+2	נפתח	נפתח	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+3-4	בשמורת	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	שמורת	שמורה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	obl	_	_
+5-6	הטבע	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	טבע	טבע	NOUN	NOUN	Gender=Masc|Number=Sing	4	compound:smixut	_	_
+7	נאות	נאות	NOUN	NOUN	Definite=Cons	4	appos	_	_
+8	קדומים	קדומים	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound:smixut	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	11	punct	_	_
+10-11	השוכנת	_	_	_	_	_	_	_	_
+10	ה	ה	SCONJ	SCONJ	_	11	mark	_	_
+11	שוכנת	שכן	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	4	acl:relcl	_	_
+12	ליד	ליד	ADP	ADP	_	13	case	_	_
+13	חורשות	חורשה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	11	obl	_	_
+14	בן	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	compound:smixut	_	SpaceAfter=No
+15	-	-	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
+16	שמן	שמן	NOUN	NOUN	Gender=Masc|Number=Sing	14	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	18	punct	_	_
+18	מסלול	מסלול	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	nsubj	_	_
+19	טיולים	טיול	NOUN	NOUN	Gender=Masc|Number=Plur	18	compound:smixut	_	_
+20	חדש	חדש	ADJ	ADJ	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:133
+# doc_range = 152-334
+# sent_id = 3235
+# text = זהו אתר המקשר בין תולדות העם לבין הנופים שבהם חי לדורותיו, כפי שבאו לידי ביטוי בתנ"ך, במשנה ובתלמוד.
+1	זהו	זהו	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	_
+2	אתר	אתר	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+3-4	המקשר	_	_	_	_	_	_	_	_
+3	ה	ה	SCONJ	SCONJ	_	4	mark	_	_
+4	מקשר	קישר	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	2	acl:relcl	_	_
+5	בין	בין	ADP	ADP	_	6	case	_	_
+6	תולדות	תולדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	4	obl	_	_
+7-8	העם	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	עם	עם	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+9	לבין	לבין	ADP	ADP	_	11	case	_	_
+10-11	הנופים	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	נופים	נוף	NOUN	NOUN	Gender=Masc|Number=Plur	6	conj	_	_
+12-14	שבהם	_	_	_	_	_	_	_	_
+12	ש	ש	SCONJ	SCONJ	_	15	mark	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	obl	_	_
+15	חי	חי	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	11	acl:relcl	_	_
+16-19	לדורותיו	_	_	_	_	_	_	_	SpaceAfter=No
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	דור	דור	NOUN	NOUN	Gender=Masc|Number=Plur	15	obl	_	_
+18	_של_	של	ADP	ADP	Case=Gen	19	case:gen	_	_
+19	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+20	,	,	PUNCT	PUNCT	_	23	punct	_	_
+21	כפי	כפי	SCONJ	SCONJ	_	23	mark	_	_
+22-23	שבאו	_	_	_	_	_	_	_	_
+22	ש	ש	SCONJ	SCONJ	_	21	fixed	_	_
+23	באו	בא	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	2	advcl	_	_
+24-25	לידי	_	_	_	_	_	_	_	_
+24	ל	ל	ADP	ADP	_	25	case	_	_
+25	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	23	obl	_	_
+26	ביטוי	ביטוי	NOUN	NOUN	Gender=Masc|Number=Sing	25	compound:smixut	_	_
+27-29	בתנ"ך	_	_	_	_	_	_	_	SpaceAfter=No
+27	ב	ב	ADP	ADP	_	29	case	_	_
+28	ה_	ה	DET	DET	PronType=Art|Definite=Def	29	det	_	_
+29	תנ"ך	תנ"ך	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	23	obl	_	_
+30	,	,	PUNCT	PUNCT	_	33	punct	_	_
+31-33	במשנה	_	_	_	_	_	_	_	_
+31	ב	ב	ADP	ADP	_	33	case	_	_
+32	ה_	ה	DET	DET	PronType=Art|Definite=Def	33	det	_	_
+33	משנה	משנה	NOUN	NOUN	Gender=Fem|Number=Sing	29	conj	_	_
+34-37	ובתלמוד	_	_	_	_	_	_	_	SpaceAfter=No
+34	ו	ו	CCONJ	CCONJ	_	37	cc	_	_
+35	ב	ב	ADP	ADP	_	37	case	_	_
+36	ה_	ה	DET	DET	PronType=Art|Definite=Def	37	det	_	_
+37	תלמוד	תלמוד	NOUN	NOUN	Gender=Masc|Number=Sing	29	conj	_	_
+38	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:133
+# doc_range = 336-641
+# sent_id = 3236
+# text = את נאות קדומים ייסד בשנות השבעים נגה הראובני, בנם של ד"ר אפרים וחנה הראובני, אשר חקרו בשנות העשרים של המאה הנוכחית את צמחיית הארץ ואת זיקתה אל הצמחים המתוארים במקורות.
+1	את	את	ADP	ADP	Case=Acc	2	case	_	_
+2	נאות	נאות	NOUN	NOUN	Definite=Cons	4	obj	_	_
+3	קדומים	קדומים	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+4	ייסד	ייסד	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5-6	בשנות	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	שנות	שנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	4	obl	_	_
+7-8	השבעים	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	שבעים	שבעים	NUM	NUM	Gender=Fem,Masc|Number=Plur	6	compound:smixut	_	_
+9	נגה	נגה	PROPN	PROPN	_	4	nsubj	_	_
+10	הראובני	הראובני	PROPN	PROPN	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	12	punct	_	_
+12-14	בנם	_	_	_	_	_	_	_	_
+12	בן	בן	NOUN	NOUN	Gender=Masc|Number=Sing	9	appos	_	_
+13	_של_	של	ADP	ADP	Case=Gen	14	case:gen	_	_
+14	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+15	של	של	ADP	ADP	Case=Gen	16	case	_	_
+16	ד"ר	ד"ר	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	12	nmod:poss	_	_
+17	אפרים	אפרים	PROPN	PROPN	_	16	flat:name	_	_
+18-19	וחנה	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+19	חנה	חנה	PROPN	PROPN	_	16	conj	_	_
+20	הראובני	הראובני	PROPN	PROPN	_	16	appos	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	23	punct	_	_
+22	אשר	אשר	SCONJ	SCONJ	_	23	mark	_	_
+23	חקרו	חקר	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	16	acl:relcl	_	_
+24-25	בשנות	_	_	_	_	_	_	_	_
+24	ב	ב	ADP	ADP	_	25	case	_	_
+25	שנות	שנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	23	obl	_	_
+26-27	העשרים	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	עשרים	עשרים	NUM	NUM	Gender=Fem,Masc|Number=Plur	25	compound:smixut	_	_
+28	של	של	ADP	ADP	Case=Gen	30	case	_	_
+29-30	המאה	_	_	_	_	_	_	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	מאה	מאה	NUM	NUM	Gender=Fem|Number=Plur	25	nmod:poss	_	_
+31-32	הנוכחית	_	_	_	_	_	_	_	_
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	נוכחית	נוכחי	ADJ	ADJ	Gender=Fem|Number=Sing	30	amod	_	_
+33	את	את	ADP	ADP	Case=Acc	34	case	_	_
+34	צמחיית	צמחייה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	23	obj	_	_
+35-36	הארץ	_	_	_	_	_	_	_	_
+35	ה	ה	DET	DET	Definite=Def|PronType=Art	36	det	_	_
+36	ארץ	ארץ	NOUN	NOUN	Gender=Fem|Number=Sing	34	compound:smixut	_	_
+37-38	ואת	_	_	_	_	_	_	_	_
+37	ו	ו	CCONJ	CCONJ	_	39	cc	_	_
+38	את	את	ADP	ADP	Case=Acc	39	case	_	_
+39-41	זיקתה	_	_	_	_	_	_	_	_
+39	זיקה	זיקה	NOUN	NOUN	Gender=Fem|Number=Sing	34	conj	_	_
+40	_של_	של	ADP	ADP	Case=Gen	41	case:gen	_	_
+41	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	39	nmod:poss	_	_
+42	אל	אל	ADP	ADP	_	44	case	_	_
+43-44	הצמחים	_	_	_	_	_	_	_	_
+43	ה	ה	DET	DET	Definite=Def|PronType=Art	44	det	_	_
+44	צמחים	צמח	NOUN	NOUN	Gender=Masc|Number=Plur	39	nmod	_	_
+45-46	המתוארים	_	_	_	_	_	_	_	_
+45	ה	ה	SCONJ	SCONJ	_	46	mark	_	_
+46	מתוארים	תואר	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	44	acl:relcl	_	_
+47-49	במקורות	_	_	_	_	_	_	_	SpaceAfter=No
+47	ב	ב	ADP	ADP	_	49	case	_	_
+48	ה_	ה	DET	DET	PronType=Art|Definite=Def	49	det	_	_
+49	מקורות	מקור	NOUN	NOUN	Gender=Masc|Number=Plur	46	obl	_	_
+50	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:133
+# doc_range = 644-865
+# sent_id = 3237
+# text = ד"ר אפרים וחנה הראובני הקימו את המוזיאון לצמחי התנ"ך והספרות התלמודית באוניברסיטה העברית, והגו את רעיון גן הנביאים ורז"ל.
+1	ד"ר	ד"ר	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	אפרים	אפרים	PROPN	PROPN	_	1	flat:name	_	_
+3-4	וחנה	_	_	_	_	_	_	_	_
+3	ו	ו	CCONJ	CCONJ	_	4	cc	_	_
+4	חנה	חנה	PROPN	PROPN	_	1	conj	_	_
+5	הראובני	הראובני	PROPN	PROPN	_	1	appos	_	_
+6	הקימו	הקים	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+7	את	את	ADP	ADP	Case=Acc	9	case	_	_
+8-9	המוזיאון	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	מוזיאון	מוזיאון	NOUN	NOUN	Gender=Masc|Number=Sing	6	obj	_	_
+10-11	לצמחי	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	11	case	_	_
+11	צמחי	צמח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	9	nmod	_	_
+12-13	התנ"ך	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	תנ"ך	תנ"ך	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	11	compound:smixut	_	_
+14-16	והספרות	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	ספרות	ספרות	NOUN	NOUN	Gender=Fem|Number=Sing	13	conj	_	_
+17-18	התלמודית	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	תלמודית	תלמודי	ADJ	ADJ	Gender=Fem|Number=Sing	16	amod	_	_
+19-21	באוניברסיטה	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	_	21	case	_	_
+20	ה_	ה	DET	DET	PronType=Art|Definite=Def	21	det	_	_
+21	אוניברסיטה	אוניברסיטה	NOUN	NOUN	Gender=Fem|Number=Sing	9	nmod	_	_
+22-23	העברית	_	_	_	_	_	_	_	SpaceAfter=No
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	עברית	עברי	ADJ	ADJ	Gender=Fem|Number=Sing	21	amod	_	_
+24	,	,	PUNCT	PUNCT	_	26	punct	_	_
+25-26	והגו	_	_	_	_	_	_	_	_
+25	ו	ו	CCONJ	CCONJ	_	26	cc	_	_
+26	הגו	הגה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	6	conj	_	_
+27	את	את	ADP	ADP	Case=Acc	28	case	_	_
+28	רעיון	רעיון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	26	obj	_	_
+29	גן	גן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	28	compound:smixut	_	_
+30-31	הנביאים	_	_	_	_	_	_	_	_
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	נביאים	נביא	NOUN	NOUN	Gender=Masc|Number=Plur	29	flat:name	_	_
+32-33	ורז"ל	_	_	_	_	_	_	_	SpaceAfter=No
+32	ו	ו	CCONJ	CCONJ	_	33	cc	_	_
+33	רז"ל	ורז"ל	PROPN	PROPN	Abbr=Yes	31	conj	_	_
+34	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:133
+# doc_range = 867-1082
+# sent_id = 3238
+# text = על בסיס זה נוסדה השמורה נאות קדומים, שבה פועל צוות של מדריכים ועובדים, השוקד על פיתוח האתר ועל ההוראה במדרשה שבתחומו.
+1	על	על	ADP	ADP	_	2	case	_	_
+2	בסיס	בסיס	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+3	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	det	_	_
+4	נוסדה	נוסד	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+5-6	השמורה	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	שמורה	שמורה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
+7	נאות	נאות	NOUN	NOUN	Definite=Cons	6	appos	_	_
+8	קדומים	קדומים	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound:smixut	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	13	punct	_	_
+10-12	שבה	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	13	mark	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obl	_	_
+13	פועל	פעל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	6	acl:relcl	_	_
+14	צוות	צוות	NOUN	NOUN	Gender=Fem|Number=Sing	13	nsubj	_	_
+15	של	של	ADP	ADP	Case=Gen	16	case	_	_
+16	מדריכים	מדריך	NOUN	NOUN	Gender=Masc|Number=Plur	14	nmod	_	_
+17-18	ועובדים	_	_	_	_	_	_	_	SpaceAfter=No
+17	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+18	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	16	conj	_	_
+19	,	,	PUNCT	PUNCT	_	21	punct	_	_
+20-21	השוקד	_	_	_	_	_	_	_	_
+20	ה	ה	SCONJ	SCONJ	_	21	mark	_	_
+21	שוקד	שקד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	14	acl:relcl	_	_
+22	על	על	ADP	ADP	_	23	case	_	_
+23	פיתוח	פיתוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	21	obl	_	_
+24-25	האתר	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	אתר	אתר	NOUN	NOUN	Gender=Masc|Number=Sing	23	compound:smixut	_	_
+26-27	ועל	_	_	_	_	_	_	_	_
+26	ו	ו	CCONJ	CCONJ	_	29	cc	_	_
+27	על	על	ADP	ADP	_	29	case	_	_
+28-29	ההוראה	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	הוראה	הוראה	NOUN	NOUN	Gender=Fem|Number=Sing	23	conj	_	_
+30-32	במדרשה	_	_	_	_	_	_	_	_
+30	ב	ב	ADP	ADP	_	32	case	_	_
+31	ה_	ה	DET	DET	PronType=Art|Definite=Def	32	det	_	_
+32	מדרשה	מדרשה	NOUN	NOUN	Gender=Fem|Number=Sing	29	nmod	_	_
+33-37	שבתחומו	_	_	_	_	_	_	_	SpaceAfter=No
+33	ש	ש	SCONJ	SCONJ	_	35	mark	_	_
+34	ב	ב	ADP	ADP	_	35	case	_	_
+35	תחום	תחום	NOUN	NOUN	Gender=Masc|Number=Sing	32	acl:relcl	_	_
+36	_של_	של	ADP	ADP	Case=Gen	37	case:gen	_	_
+37	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	_	_
+38	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:133
+# doc_range = 1084-1226
+# sent_id = 3239
+# text = המסלול החדש, שאורכו ארבעה ק"ם, מלווה בחוברות הדרכה, ערוכות לפי נושאים נבחרים.
+1-2	המסלול	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מסלול	מסלול	NOUN	NOUN	Gender=Masc|Number=Sing	13	nsubj	_	_
+3-4	החדש	_	_	_	_	_	_	_	SpaceAfter=No
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	חדש	חדש	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+5	,	,	PUNCT	PUNCT	_	11	punct	_	_
+6-9	שאורכו	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	_	11	mark	_	_
+7	אורך	אורך	NOUN	NOUN	Gender=Masc|Number=Sing	11	nsubj	_	_
+8	_של_	של	ADP	ADP	Case=Gen	9	case:gen	_	_
+9	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+10	ארבעה	ארבע	NUM	NUM	Gender=Masc|Number=Sing	11	nummod	_	_
+11	ק"ם	ק"ם	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	2	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	2	punct	_	_
+13	מלווה	לווה	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+14-15	בחוברות	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	חוברות	חוברת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	13	obl	_	_
+16	הדרכה	הדרכה	NOUN	NOUN	Gender=Fem|Number=Sing	15	compound:smixut	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	18	punct	_	_
+18	ערוכות	ערך	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	15	acl	_	_
+19	לפי	לפי	ADP	ADP	_	20	case	_	_
+20	נושאים	נושא	NOUN	NOUN	Gender=Masc|Number=Plur	18	obl	_	_
+21	נבחרים	נבחר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Mid	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# doc_id = htb:133
+# doc_range = 1228-1421
+# sent_id = 3240
+# text = המטיילים עוברים מתחנה לתחנה, ובכל אחת מהן מוצאים צמחים המאפיינים נוהג חקלאי, מסורת או אירוע בתולדות העם.
+1-2	המטיילים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מטיילים	מטייל	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	עוברים	עבר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4-5	מתחנה	_	_	_	_	_	_	_	_
+4	מ	מ	ADP	ADP	_	5	case	_	_
+5	תחנה	תחנה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+6-7	לתחנה	_	_	_	_	_	_	_	SpaceAfter=No
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	תחנה	תחנה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+8	,	,	PUNCT	PUNCT	_	15	punct	_	_
+9-11	ובכל	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+10	ב	ב	ADP	ADP	_	12	case	_	_
+11	כל	כול	DET	DET	Definite=Cons	12	det	_	_
+12	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	15	obl	_	_
+13-14	מהן	_	_	_	_	_	_	_	_
+13	מ	מן	ADP	ADP	_	14	case	_	_
+14	_הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	12	obl	_	_
+15	מוצאים	מצא	VERB	VERB	Gender=Masc|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	3	conj	_	_
+16	צמחים	צמח	NOUN	NOUN	Gender=Masc|Number=Plur	15	obj	_	_
+17-18	המאפיינים	_	_	_	_	_	_	_	_
+17	ה	ה	SCONJ	SCONJ	_	18	mark	_	_
+18	מאפיינים	אפיין	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	16	acl:relcl	_	_
+19	נוהג	נוהג	NOUN	NOUN	Gender=Masc|Number=Sing	18	obj	_	_
+20	חקלאי	חקלאי	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	22	punct	_	_
+22	מסורת	מסורת	NOUN	NOUN	Gender=Fem|Number=Sing	19	conj	_	_
+23	או	או	CCONJ	CCONJ	_	24	cc	_	_
+24	אירוע	אירוע	NOUN	NOUN	Gender=Masc|Number=Sing	19	conj	_	_
+25-26	בתולדות	_	_	_	_	_	_	_	_
+25	ב	ב	ADP	ADP	_	26	case	_	_
+26	תולדות	תולדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	24	nmod	_	_
+27-28	העם	_	_	_	_	_	_	_	SpaceAfter=No
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	עם	עם	NOUN	NOUN	Gender=Masc|Number=Sing	26	compound:smixut	_	_
+29	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:133
+# doc_range = 1423-1540
+# sent_id = 3241
+# text = על גבי שלט עץ המוצב בכל תחנה מובא ההסבר תוך שילוב הפסוק מהמקורות.
+1	על	על	ADP	ADP	_	3	case	_	_
+2	גבי	גב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	1	fixed	_	_
+3	שלט	שלט	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	obl	_	_
+4	עץ	עץ	NOUN	NOUN	Gender=Masc|Number=Sing	3	compound:smixut	_	_
+5-6	המוצב	_	_	_	_	_	_	_	_
+5	ה	ה	SCONJ	SCONJ	_	6	mark	_	_
+6	מוצב	הוצב	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	3	acl:relcl	_	_
+7-8	בכל	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	9	case	_	_
+8	כל	כול	DET	DET	Definite=Cons	9	det	_	_
+9	תחנה	תחנה	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	_
+10	מובא	הובא	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+11-12	ההסבר	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	הסבר	הסבר	NOUN	NOUN	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+13	תוך	תוך	ADP	ADP	_	14	case	_	_
+14	שילוב	שילוב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	obl	_	_
+15-16	הפסוק	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	פסוק	פסוק	NOUN	NOUN	Gender=Masc|Number=Sing	14	compound:smixut	_	_
+17-19	מהמקורות	_	_	_	_	_	_	_	SpaceAfter=No
+17	מ	מ	ADP	ADP	_	19	case	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	מקורות	מקור	NOUN	NOUN	Gender=Masc|Number=Plur	14	nmod	_	_
+20	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:133
+# doc_range = 1543-1681
+# sent_id = 3242
+# text = כך מוצג בפני המטיילים הקשר בין נוף הארץ, הצומח והחי לבין חיי היום-יום בעבר.
+1	כך	כך	ADV	ADV	_	2	advmod	_	_
+2	מוצג	הוצג	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+3	בפני	בפני	ADP	ADP	_	5	case	_	_
+4-5	המטיילים	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	מטיילים	מטייל	NOUN	NOUN	Gender=Masc|Number=Plur	2	obl	_	_
+6-7	הקשר	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	קשר	קשר	NOUN	NOUN	Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+8	בין	בין	ADP	ADP	_	9	case	_	_
+9	נוף	נוף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nmod	_	_
+10-11	הארץ	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	ארץ	ארץ	NOUN	NOUN	Gender=Fem|Number=Sing	9	compound:smixut	_	_
+12	,	,	PUNCT	PUNCT	_	14	punct	_	_
+13-14	הצומח	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	צומח	צומח	NOUN	NOUN	Gender=Masc|Number=Sing	9	appos	_	_
+15-17	והחי	_	_	_	_	_	_	_	_
+15	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	חי	חי	NOUN	NOUN	Gender=Masc|Number=Sing	14	conj	_	_
+18	לבין	לבין	ADP	ADP	_	19	case	_	_
+19	חיי	חיים	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	9	conj	_	_
+20-21	היום	_	_	_	_	_	_	_	SpaceAfter=No
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	יום	יום	NOUN	NOUN	Gender=Masc|Number=Sing	19	compound:smixut	_	_
+22	-	-	PUNCT	PUNCT	_	23	punct	_	SpaceAfter=No
+23	יום	יום	NOUN	NOUN	Gender=Masc|Number=Sing	21	nmod	_	_
+24-26	בעבר	_	_	_	_	_	_	_	SpaceAfter=No
+24	ב	ב	ADP	ADP	_	26	case	_	_
+25	ה_	ה	DET	DET	PronType=Art|Definite=Def	26	det	_	_
+26	עבר	עבר	NOUN	NOUN	Gender=Masc|Number=Sing	19	nmod	_	_
+27	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:133
+# doc_range = 1683-1854
+# sent_id = 3243
+# text = מסלול ב, למשל, מוליך מהגורן דרך כרם של עצי זית ושקד, עובר ליד בית בד עתיק ומגיע אל גבעת המנורה.
+1	מסלול	מסלול	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
+2	ב	ב	PROPN	PROPN	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	1	punct	_	_
+4	למשל	למשל	ADV	ADV	_	6	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	4	punct	_	_
+6	מוליך	הוליך	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+7-9	מהגורן	_	_	_	_	_	_	_	_
+7	מ	מ	ADP	ADP	_	9	case	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	גורן	גורן	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	_
+10	דרך	דרך	ADP	ADP	_	11	case	_	_
+11	כרם	כרם	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+12	של	של	ADP	ADP	Case=Gen	13	case	_	_
+13	עצי	עץ	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	11	nmod:poss	_	_
+14	זית	זית	NOUN	NOUN	Gender=Fem|Number=Sing	13	compound:smixut	_	_
+15-16	ושקד	_	_	_	_	_	_	_	SpaceAfter=No
+15	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+16	שקד	שקד	NOUN	NOUN	Gender=Masc|Number=Sing	14	conj	_	_
+17	,	,	PUNCT	PUNCT	_	18	punct	_	_
+18	עובר	עבר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	6	conj	_	_
+19	ליד	ליד	ADP	ADP	_	20	case	_	_
+20	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	18	obl	_	_
+21	בד	בד	NOUN	NOUN	Gender=Masc|Number=Sing	20	compound:smixut	_	_
+22	עתיק	עתיק	ADJ	ADJ	Gender=Masc|Number=Sing	20	amod	_	_
+23-24	ומגיע	_	_	_	_	_	_	_	_
+23	ו	ו	CCONJ	CCONJ	_	24	cc	_	_
+24	מגיע	הגיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	6	conj	_	_
+25	אל	אל	ADP	ADP	_	26	case	_	_
+26	גבעת	גבעה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	24	obl	_	_
+27-28	המנורה	_	_	_	_	_	_	_	SpaceAfter=No
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	מנורה	מנורה	NOUN	NOUN	Gender=Fem|Number=Sing	26	compound:smixut	_	_
+29	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:133
+# doc_range = 1856-2061
+# sent_id = 3244
+# text = עצי השקד מסמלים את שקידתו של איש האדמה, המתפלל להצלחת יבולו בתקופת ספירת העומר, ומהזיתים הופק שמן למנורת המקדש.
+1	עצי	עץ	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	nsubj	_	_
+2-3	השקד	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	שקד	שקד	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4	מסמלים	סימל	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+5	את	את	ADP	ADP	Case=Acc	6	case	_	_
+6-8	שקידתו	_	_	_	_	_	_	_	_
+6	שקידה	שקידה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obj	_	_
+7	_של_	של	ADP	ADP	Case=Gen	8	case:gen	_	_
+8	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+9	של	של	ADP	ADP	Case=Gen	10	case	_	_
+10	איש	איש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	nmod:poss	_	_
+11-12	האדמה	_	_	_	_	_	_	_	SpaceAfter=No
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	אדמה	אדמה	NOUN	NOUN	Gender=Fem|Number=Sing	10	compound:smixut	_	_
+13	,	,	PUNCT	PUNCT	_	15	punct	_	_
+14-15	המתפלל	_	_	_	_	_	_	_	_
+14	ה	ה	SCONJ	SCONJ	_	15	mark	_	_
+15	מתפלל	התפלל	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	10	acl:relcl	_	_
+16-17	להצלחת	_	_	_	_	_	_	_	_
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	הצלחת	הצלחה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	15	obl	_	_
+18-20	יבולו	_	_	_	_	_	_	_	_
+18	יבול	יבול	NOUN	NOUN	Gender=Masc|Number=Sing	17	compound:smixut	_	_
+19	_של_	של	ADP	ADP	Case=Gen	20	case:gen	_	_
+20	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+21-22	בתקופת	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	תקופת	תקופה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	17	nmod	_	_
+23	ספירת	ספירה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	22	compound:smixut	_	_
+24-25	העומר	_	_	_	_	_	_	_	SpaceAfter=No
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	עומר	עומר	NOUN	NOUN	Gender=Masc|Number=Sing	23	compound:smixut	_	_
+26	,	,	PUNCT	PUNCT	_	31	punct	_	_
+27-30	ומהזיתים	_	_	_	_	_	_	_	_
+27	ו	ו	CCONJ	CCONJ	_	31	cc	_	_
+28	מ	מ	ADP	ADP	_	30	case	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	זיתים	זית	NOUN	NOUN	Gender=Fem|Number=Plur	31	obl	_	_
+31	הופק	הופק	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	4	conj	_	_
+32	שמן	שמן	NOUN	NOUN	Gender=Masc|Number=Sing	31	nsubj:pass	_	_
+33-34	למנורת	_	_	_	_	_	_	_	_
+33	ל	ל	ADP	ADP	_	34	case	_	_
+34	מנורת	מנורה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	32	nmod	_	_
+35-36	המקדש	_	_	_	_	_	_	_	SpaceAfter=No
+35	ה	ה	DET	DET	Definite=Def|PronType=Art	36	det	_	_
+36	מקדש	מקדש	NOUN	NOUN	Gender=Masc|Number=Sing	34	compound:smixut	_	_
+37	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:133
+# doc_range = 2063-2146
+# sent_id = 3245
+# text = המסלולים השונים עוברים בעשר עד 51 תחנות כל אחד.
+1-2	המסלולים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מסלולים	מסלול	NOUN	NOUN	Gender=Masc|Number=Plur	5	nsubj	_	_
+3-4	השונים	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	שונים	שונה	ADJ	ADJ	Gender=Masc|Number=Plur	2	amod	_	_
+5	עוברים	עבר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+6-7	בעשר	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	10	case	_	_
+7	עשר	עשר	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	10	nummod	_	_
+8	עד	עד	ADP	ADP	_	7	dep	_	_
+9	51	51	NUM	NUM	_	7	nummod	_	_
+10	תחנות	תחנה	NOUN	NOUN	Gender=Fem|Number=Plur	5	obl	_	_
+11	כל	כול	DET	DET	Definite=Cons	12	det	_	_
+12	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	5	dep	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:133
+# doc_range = 2148-2225
+# sent_id = 3246
+# text = כל תחנה משמשת כחוליה מקשרת בין נושא לנושא.
+1	כל	כול	DET	DET	Definite=Cons	2	det	_	_
+2	תחנה	תחנה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	משמשת	שימש	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4-5	כחוליה	_	_	_	_	_	_	_	_
+4	כ	כ	ADP	ADP	_	5	case	_	_
+5	חוליה	חוליה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+6	מקשרת	קישר	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	5	acl	_	_
+7	בין	בין	ADP	ADP	_	8	case	_	_
+8	נושא	נושא	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+9-10	לנושא	_	_	_	_	_	_	_	SpaceAfter=No
+9	ל	ל	ADP	ADP	_	10	case	_	_
+10	נושא	נושא	NOUN	NOUN	Gender=Masc|Number=Sing	8	conj	_	_
+11	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:133
+# doc_range = 2227-2544
+# sent_id = 3247
+# text = כך עוברים במסלול א מתקופת ספרות החוכמה והמשלים, שבה שתולים ארזי לבנון ולרגליהם שיחי אזוב (זעתר), פוגשים בשיחי רותם המוזכרים במשלים ובמדרשים ומכירים את מלך העצים ממשל יותם.
+1	כך	כך	ADV	ADV	_	2	advmod	_	_
+2	עוברים	עבר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+3-4	במסלול	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	מסלול	מסלול	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+5	א	א	PROPN	PROPN	_	4	flat:name	_	_
+6-7	מתקופת	_	_	_	_	_	_	_	_
+6	מ	מ	ADP	ADP	_	7	case	_	_
+7	תקופת	תקופה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	nmod	_	_
+8	ספרות	ספרות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	compound:smixut	_	_
+9-10	החוכמה	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	חוכמה	חוכמה	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound:smixut	_	_
+11-13	והמשלים	_	_	_	_	_	_	_	SpaceAfter=No
+11	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	משלים	משל	NOUN	NOUN	Gender=Masc|Number=Plur	10	conj	_	_
+14	,	,	PUNCT	PUNCT	_	18	punct	_	_
+15-17	שבה	_	_	_	_	_	_	_	_
+15	ש	ש	SCONJ	SCONJ	_	18	mark	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obl	_	_
+18	שתולים	שתל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	7	acl:relcl	_	_
+19	ארזי	ארז	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	18	nsubj	_	_
+20	לבנון	לבנון	PROPN	PROPN	_	19	compound:smixut	_	_
+21-24	ולרגליהם	_	_	_	_	_	_	_	_
+21	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
+22	ל	ל	ADP	ADP	_	23	case	_	_
+23	רגלי	רגל	NOUN	NOUN	Gender=Fem|Number=Plur	18	conj	_	_
+24	הם	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+25	שיחי	שיח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	23	nsubj	_	_
+26	אזוב	אזוב	NOUN	NOUN	Gender=Masc|Number=Sing	25	compound:smixut	_	_
+27	(	(	PUNCT	PUNCT	_	28	punct	_	SpaceAfter=No
+28	זעתר	זעתר	NOUN	NOUN	Gender=Masc|Number=Sing	25	appos	_	SpaceAfter=No
+29	)	)	PUNCT	PUNCT	_	28	punct	_	SpaceAfter=No
+30	,	,	PUNCT	PUNCT	_	31	punct	_	_
+31	פוגשים	פגש	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	2	conj	_	_
+32-33	בשיחי	_	_	_	_	_	_	_	_
+32	ב	ב	ADP	ADP	_	33	case	_	_
+33	שיחי	שיח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	31	obl	_	_
+34	רותם	רותם	NOUN	NOUN	Gender=Masc|Number=Sing	33	compound:smixut	_	_
+35-36	המוזכרים	_	_	_	_	_	_	_	_
+35	ה	ה	SCONJ	SCONJ	_	36	mark	_	_
+36	מוזכרים	הוזכר	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	33	acl:relcl	_	_
+37-39	במשלים	_	_	_	_	_	_	_	_
+37	ב	ב	ADP	ADP	_	39	case	_	_
+38	ה_	ה	DET	DET	PronType=Art|Definite=Def	39	det	_	_
+39	משלים	משל	NOUN	NOUN	Gender=Masc|Number=Plur	36	obl	_	_
+40-43	ובמדרשים	_	_	_	_	_	_	_	_
+40	ו	ו	CCONJ	CCONJ	_	43	cc	_	_
+41	ב	ב	ADP	ADP	_	43	case	_	_
+42	ה_	ה	DET	DET	PronType=Art|Definite=Def	43	det	_	_
+43	מדרשים	מדרש	NOUN	NOUN	Gender=Masc|Number=Plur	39	conj	_	_
+44-45	ומכירים	_	_	_	_	_	_	_	_
+44	ו	ו	CCONJ	CCONJ	_	45	cc	_	_
+45	מכירים	הכיר	VERB	VERB	Gender=Masc|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	2	conj	_	_
+46	את	את	ADP	ADP	Case=Acc	47	case	_	_
+47	מלך	מלך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	45	obj	_	_
+48-49	העצים	_	_	_	_	_	_	_	_
+48	ה	ה	DET	DET	Definite=Def|PronType=Art	49	det	_	_
+49	עצים	עץ	NOUN	NOUN	Gender=Masc|Number=Plur	47	compound:smixut	_	_
+50-51	ממשל	_	_	_	_	_	_	_	_
+50	מ	מ	ADP	ADP	_	51	case	_	_
+51	משל	משל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	47	nmod	_	_
+52	יותם	יותם	PROPN	PROPN	_	51	compound:smixut	_	SpaceAfter=No
+53	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:133
+# doc_range = 2546-2601
+# sent_id = 3248
+# text = המסלול מסתיים בגנת שיר השירים.
+1-2	המסלול	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מסלול	מסלול	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	מסתיים	הסתיים	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+4-5	בגנת	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	גנת	גינה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	obl	_	_
+6	שיר	שיר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	compound:smixut	_	_
+7-8	השירים	_	_	_	_	_	_	_	SpaceAfter=No
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	שירים	שיר	NOUN	NOUN	Gender=Masc|Number=Plur	6	compound:smixut	_	_
+9	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:133
+# doc_range = 2603-2699
+# sent_id = 3249
+# text = יש צמחים שחוזרים פעמים אחדות לשם הדגמת נושאים שונים.
+1	יש	יש	VERB	VERB	HebExistential=Yes	0	root	_	_
+2	צמחים	צמח	NOUN	NOUN	Gender=Masc|Number=Plur	1	nsubj	_	_
+3-4	שחוזרים	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
+4	חוזרים	חזר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	2	acl:relcl	_	_
+5	פעמים	פעם	NOUN	NOUN	Gender=Fem|Number=Plur	4	dep	_	_
+6	אחדות	אחדים	ADJ	ADJ	Gender=Fem|Number=Plur	5	amod	_	_
+7	לשם	לשם	ADP	ADP	_	8	case	_	_
+8	הדגמת	הדגמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	obl	_	_
+9	נושאים	נושא	NOUN	NOUN	Gender=Masc|Number=Plur	8	compound:smixut	_	_
+10	שונים	שונה	ADJ	ADJ	Gender=Masc|Number=Plur	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:133
+# doc_range = 2701-2989
+# sent_id = 3250
+# text = בעוד שבמסלול ג צועדים משבעת המינים אל ארבעת המינים, וליד בריכת הערבות מבחינים בין צפצפה לערבה, במסלול ד עצים אלה הם ממרכיבי גאון הירדן, שאותו עברו בני ישראל.
+1	בעוד	בעוד	ADP	ADP	_	6	case	_	_
+2-4	שבמסלול	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	6	mark	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	מסלול	מסלול	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+5	ג	ג	PROPN	PROPN	_	4	flat:name	_	_
+6	צועדים	צעד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	34	nmod	_	_
+7-8	משבעת	_	_	_	_	_	_	_	_
+7	מ	מ	ADP	ADP	_	10	case	_	_
+8	שבעת	שבעת	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	10	dep	_	_
+9-10	המינים	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	מינים	מין	NOUN	NOUN	Gender=Masc|Number=Plur	6	obl	_	_
+11	אל	אל	ADP	ADP	_	14	case	_	_
+12	ארבעת	ארבעת	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	14	dep	_	_
+13-14	המינים	_	_	_	_	_	_	_	SpaceAfter=No
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	מינים	מין	NOUN	NOUN	Gender=Masc|Number=Plur	6	obl	_	_
+15	,	,	PUNCT	PUNCT	_	21	punct	_	_
+16-17	וליד	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	21	cc	_	_
+17	ליד	ליד	ADP	ADP	_	18	case	_	_
+18	בריכת	בריכה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	21	obl	_	_
+19-20	הערבות	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	ערבות	ערבה	NOUN	NOUN	Gender=Fem|Number=Plur	18	compound:smixut	_	_
+21	מבחינים	הבחין	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	6	conj	_	_
+22	בין	בין	ADP	ADP	_	23	case	_	_
+23	צפצפה	צפצפה	NOUN	NOUN	Gender=Fem|Number=Sing	21	obl	_	_
+24-25	לערבה	_	_	_	_	_	_	_	SpaceAfter=No
+24	ל	ל	ADP	ADP	_	25	case	_	_
+25	ערבה	ערבה	NOUN	NOUN	Gender=Fem|Number=Sing	23	conj	_	_
+26	,	,	PUNCT	PUNCT	_	6	punct	_	_
+27-28	במסלול	_	_	_	_	_	_	_	_
+27	ב	ב	ADP	ADP	_	28	case	_	_
+28	מסלול	מסלול	NOUN	NOUN	Gender=Masc|Number=Sing	34	nmod	_	_
+29	ד	ד	PROPN	PROPN	_	28	flat:name	_	_
+30	עצים	עץ	NOUN	NOUN	Gender=Masc|Number=Plur	34	nsubj	_	_
+31	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	30	det	_	_
+32	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|Polarity=Pos	34	cop	_	_
+33-34	ממרכיבי	_	_	_	_	_	_	_	_
+33	מ	מ	ADP	ADP	_	34	case	_	_
+34	מרכיבי	מרכיב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	0	root	_	_
+35	גאון	גאון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	34	compound:smixut	_	_
+36-37	הירדן	_	_	_	_	_	_	_	SpaceAfter=No
+36	ה	ה	DET	DET	Definite=Def|PronType=Art	37	det	_	_
+37	ירדן	ירדן	PROPN	PROPN	_	35	compound:smixut	_	_
+38	,	,	PUNCT	PUNCT	_	42	punct	_	_
+39-41	שאותו	_	_	_	_	_	_	_	_
+39	ש	ש	SCONJ	SCONJ	_	42	mark	_	_
+40	אותו	אותו	ADP	ADP	Definite=Def|PronType=Art	41	case	_	_
+41	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	42	obj	_	_
+42	עברו	עבר	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	35	acl:relcl	_	_
+43	בני	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	42	nsubj	_	_
+44	ישראל	ישראל	PROPN	PROPN	_	43	compound:smixut	_	SpaceAfter=No
+45	.	.	PUNCT	PUNCT	_	34	punct	_	_
+
+# doc_id = htb:133
+# doc_range = 2991-3233
+# sent_id = 3251
+# text = את ההדס רואים בסבך העולה מבריכת הערבות אל מעלה ארבעת המינים, אך מקומו לא נפקד גם ממעלה הבשמים, שם הוא גדל לצד עצי הכופר (חינה) והמור.
+1	את	את	ADP	ADP	Case=Acc	3	case	_	_
+2-3	ההדס	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	הדס	הדס	NOUN	NOUN	Gender=Masc|Number=Sing	4	obj	_	_
+4	רואים	ראה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+5-7	בסבך	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	7	case	_	_
+6	ה_	ה	DET	DET	PronType=Art|Definite=Def	7	det	_	_
+7	סבך	סבך	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+8-9	העולה	_	_	_	_	_	_	_	_
+8	ה	ה	SCONJ	SCONJ	_	9	mark	_	_
+9	עולה	עלה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	7	acl:relcl	_	_
+10-11	מבריכת	_	_	_	_	_	_	_	_
+10	מ	מ	ADP	ADP	_	11	case	_	_
+11	בריכת	בריכה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	obl	_	_
+12-13	הערבות	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	ערבות	ערבה	NOUN	NOUN	Gender=Fem|Number=Plur	11	compound:smixut	_	_
+14	אל	אל	ADP	ADP	_	15	case	_	_
+15	מעלה	מעלה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	obl	_	_
+16	ארבעת	ארבעת	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	18	dep	_	_
+17-18	המינים	_	_	_	_	_	_	_	SpaceAfter=No
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	מינים	מין	NOUN	NOUN	Gender=Masc|Number=Plur	15	compound:smixut	_	_
+19	,	,	PUNCT	PUNCT	_	25	punct	_	_
+20	אך	אך	CCONJ	CCONJ	_	25	cc	_	_
+21-23	מקומו	_	_	_	_	_	_	_	_
+21	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	25	nsubj	_	_
+22	_של_	של	ADP	ADP	Case=Gen	23	case:gen	_	_
+23	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+24	לא	לא	ADV	ADV	Polarity=Neg	25	advmod	_	_
+25	נפקד	נפקד	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	4	conj	_	_
+26	גם	גם	ADV	ADV	_	28	advmod	_	_
+27-28	ממעלה	_	_	_	_	_	_	_	_
+27	מ	מ	ADP	ADP	_	28	case	_	_
+28	מעלה	מעלה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	25	obl	_	_
+29-30	הבשמים	_	_	_	_	_	_	_	SpaceAfter=No
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	בשמים	בושם	NOUN	NOUN	Gender=Masc|Number=Plur	28	compound:smixut	_	_
+31	,	,	PUNCT	PUNCT	_	34	punct	_	_
+32	שם	שם	ADV	ADV	_	34	advmod	_	_
+33	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
+34	גדל	גדל	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	28	acl:relcl	_	_
+35	לצד	לצד	ADP	ADP	_	36	case	_	_
+36	עצי	עץ	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	34	obl	_	_
+37-38	הכופר	_	_	_	_	_	_	_	_
+37	ה	ה	DET	DET	Definite=Def|PronType=Art	38	det	_	_
+38	כופר	כופר	NOUN	NOUN	Gender=Masc|Number=Sing	36	compound:smixut	_	_
+39	(	(	PUNCT	PUNCT	_	40	punct	_	SpaceAfter=No
+40	חינה	חינה	NOUN	NOUN	Gender=Fem|Number=Sing	36	appos	_	SpaceAfter=No
+41	)	)	PUNCT	PUNCT	_	40	punct	_	_
+42-44	והמור	_	_	_	_	_	_	_	SpaceAfter=No
+42	ו	ו	CCONJ	CCONJ	_	44	cc	_	_
+43	ה	ה	DET	DET	Definite=Def|PronType=Art	44	det	_	_
+44	מור	מור	NOUN	NOUN	Gender=Masc|Number=Sing	36	conj	_	_
+45	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:133
+# doc_range = 3235-3501
+# sent_id = 3252
+# text = מי שהתרשם מרעננותו של ההדס, כדאי לו לזכור מראה זה גם בשנתו, ככתוב: "הרואה הדס בחלום, נכסיו מצליחין לו, ואם אין לו נכסים ירושה נופלת לו ממקום אחר".
+1	מי	מי	PRON	PRON	PronType=Int	15	nsubj	_	_
+2-3	שהתרשם	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	3	mark	_	_
+3	התרשם	התרשם	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	1	acl:relcl	_	_
+4-7	מרעננותו	_	_	_	_	_	_	_	_
+4	מ	מ	ADP	ADP	_	5	case	_	_
+5	רעננות	רעננות	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+6	_של_	של	ADP	ADP	Case=Gen	7	case:gen	_	_
+7	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+8	של	של	ADP	ADP	Case=Gen	10	case	_	_
+9-10	ההדס	_	_	_	_	_	_	_	SpaceAfter=No
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	הדס	הדס	NOUN	NOUN	Gender=Masc|Number=Sing	5	nmod:poss	_	_
+11	,	,	PUNCT	PUNCT	_	1	punct	_	_
+12	כדאי	כדאי	AUX	AUX	VerbType=Mod	15	aux	_	_
+13-14	לו	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obl	_	_
+15	לזכור	זכר	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	0	root	_	_
+16	מראה	מראה	NOUN	NOUN	Gender=Masc|Number=Sing	15	obj	_	_
+17	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	det	_	_
+18	גם	גם	ADV	ADV	_	20	advmod	_	_
+19-22	בשנתו	_	_	_	_	_	_	_	SpaceAfter=No
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	שינה	שינה	NOUN	NOUN	Gender=Fem|Number=Sing	15	obl	_	_
+21	_של_	של	ADP	ADP	Case=Gen	22	case:gen	_	_
+22	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+23	,	,	PUNCT	PUNCT	_	26	punct	_	_
+24-26	ככתוב	_	_	_	_	_	_	_	SpaceAfter=No
+24	כ	כ	ADP	ADP	_	26	case	_	_
+25	ה_	ה	DET	DET	PronType=Art|Definite=Def	26	det	_	_
+26	כתוב	כתב	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	15	obl	_	_
+27	:	:	PUNCT	PUNCT	_	30	punct	_	_
+28	"	"	PUNCT	PUNCT	_	30	punct	_	SpaceAfter=No
+29-30	הרואה	_	_	_	_	_	_	_	_
+29	ה	ה	SCONJ	SCONJ	_	30	mark	_	_
+30	רואה	ראה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	26	advcl	_	_
+31	הדס	הדס	NOUN	NOUN	Gender=Masc|Number=Sing	30	obj	_	_
+32-34	בחלום	_	_	_	_	_	_	_	SpaceAfter=No
+32	ב	ב	ADP	ADP	_	34	case	_	_
+33	ה_	ה	DET	DET	PronType=Art|Definite=Def	34	det	_	_
+34	חלום	חלום	NOUN	NOUN	Gender=Masc|Number=Sing	30	obl	_	_
+35	,	,	PUNCT	PUNCT	_	36	punct	_	_
+36-38	נכסיו	_	_	_	_	_	_	_	_
+36	נכס	נכס	NOUN	NOUN	Gender=Masc|Number=Plur	30	nsubj	_	_
+37	_של_	של	ADP	ADP	Case=Gen	38	case:gen	_	_
+38	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	36	nmod:poss	_	_
+39	מצליחין	הצליח	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1|Tense=Pres|VerbForm=Part|Voice=Act	30	dep	_	HebSource=ConvUncertainHead
+40-41	לו	_	_	_	_	_	_	_	SpaceAfter=No
+40	ל	ל	ADP	ADP	_	41	case	_	_
+41	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	obl	_	_
+42	,	,	PUNCT	PUNCT	_	50	punct	_	_
+43-44	ואם	_	_	_	_	_	_	_	_
+43	ו	ו	CCONJ	CCONJ	_	50	cc	_	_
+44	אם	אם	SCONJ	SCONJ	_	45	mark	_	_
+45	אין	אין	VERB	VERB	HebExistential=Yes	50	advcl	_	_
+46-47	לו	_	_	_	_	_	_	_	_
+46	ל	ל	ADP	ADP	_	47	case	_	_
+47	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	45	obl	_	_
+48	נכסים	נכס	NOUN	NOUN	Gender=Masc|Number=Plur	45	nsubj	_	_
+49	ירושה	ירושה	NOUN	NOUN	Gender=Fem|Number=Sing	50	nsubj	_	_
+50	נופלת	נפל	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	30	conj	_	_
+51-52	לו	_	_	_	_	_	_	_	_
+51	ל	ל	ADP	ADP	_	52	case	_	_
+52	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	50	obl	_	_
+53-54	ממקום	_	_	_	_	_	_	_	_
+53	מ	מ	ADP	ADP	_	54	case	_	_
+54	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	50	obl	_	_
+55	אחר	אחר	ADJ	ADJ	Gender=Masc|Number=Sing	54	amod	_	SpaceAfter=No
+56	"	"	PUNCT	PUNCT	_	30	punct	_	SpaceAfter=No
+57	.	.	PUNCT	PUNCT	_	15	punct	_	_
+
+# doc_id = htb:133
+# doc_range = 3503-3581
+# sent_id = 3253
+# text = בכל עונה מתקיים אירוע מרכזי באחד המסלולים.
+1-2	בכל	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	כל	כול	DET	DET	Definite=Cons	3	det	_	_
+3	עונה	עונה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+4	מתקיים	התקיים	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+5	אירוע	אירוע	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
+6	מרכזי	מרכזי	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	_
+7-8	באחד	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	10	case	_	_
+8	אחד	אחת	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	10	nummod	_	_
+9-10	המסלולים	_	_	_	_	_	_	_	SpaceAfter=No
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	מסלולים	מסלול	NOUN	NOUN	Gender=Masc|Number=Plur	4	obl	_	_
+11	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:133
+# doc_range = 3583-3792
+# sent_id = 3254
+# text = באביב חייבים להקדים לפריחת השקד, אחר כך להריח את הדודאים, ובוודאי לראות "אם פרחה הגפן, פתח הסמדר, הנצו הרימונים".
+1-3	באביב	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	אביב	אביב	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+4	חייבים	חייב	AUX	AUX	Gender=Masc|Number=Plur|Person=1,2,3|VerbType=Mod	5	aux	_	_
+5	להקדים	הקדים	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	0	root	_	_
+6-7	לפריחת	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	פריחת	פריחה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	obl	_	_
+8-9	השקד	_	_	_	_	_	_	_	SpaceAfter=No
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	שקד	שקד	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound:smixut	_	_
+10	,	,	PUNCT	PUNCT	_	12	punct	_	_
+11	אחר	אחר	ADP	ADP	_	12	case	_	_
+12	כך	כך	PRON	PRON	Person=3|PronType=Dem	5	dep	_	_
+13	להריח	הריח	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	5	conj	_	_
+14	את	את	ADP	ADP	Case=Acc	16	case	_	_
+15-16	הדודאים	_	_	_	_	_	_	_	SpaceAfter=No
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	דודאים	דודא	NOUN	NOUN	Gender=Masc|Number=Plur	13	obj	_	_
+17	,	,	PUNCT	PUNCT	_	18	punct	_	_
+18-19	ובוודאי	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
+19	בוודאי	בוודאי	ADV	ADV	_	5	advmod	_	_
+20	לראות	ראה	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	5	conj	_	_
+21	"	"	PUNCT	PUNCT	_	23	punct	_	SpaceAfter=No
+22	אם	אם	SCONJ	SCONJ	_	23	mark	_	_
+23	פרחה	פרח	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	20	advcl	_	_
+24-25	הגפן	_	_	_	_	_	_	_	SpaceAfter=No
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	גפן	גפן	NOUN	NOUN	Gender=Fem|Number=Sing	23	nsubj	_	_
+26	,	,	PUNCT	PUNCT	_	27	punct	_	_
+27	פתח	פתח	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	23	conj	_	_
+28-29	הסמדר	_	_	_	_	_	_	_	SpaceAfter=No
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	סמדר	סמדר	NOUN	NOUN	Gender=Masc|Number=Sing	27	nsubj	_	_
+30	,	,	PUNCT	PUNCT	_	31	punct	_	_
+31	הנצו	הנץ	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	23	conj	_	_
+32-33	הרימונים	_	_	_	_	_	_	_	SpaceAfter=No
+32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
+33	רימונים	רימון	NOUN	NOUN	Gender=Masc|Number=Plur	31	nsubj	_	_
+34	"	"	PUNCT	PUNCT	_	23	punct	_	SpaceAfter=No
+35	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:133
+# doc_range = 3794-3958
+# sent_id = 3255
+# text = בעונה זו מסיק הזיתים בעיצומו, ובשני בתי הבד ניתן לראות את השיטות השונות מן העבר להפקת שמן.
+1-2	בעונה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	עונה	עונה	NOUN	NOUN	Gender=Fem|Number=Sing	8	nmod	_	_
+3	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	det	_	_
+4	מסיק	מסיק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	nsubj	_	_
+5-6	הזיתים	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	זיתים	זית	NOUN	NOUN	Gender=Fem|Number=Plur	4	compound:smixut	_	_
+7-10	בעיצומו	_	_	_	_	_	_	_	SpaceAfter=No
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	עיצום	עיצום	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+9	_של_	של	ADP	ADP	Case=Gen	10	case:gen	_	_
+10	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+11	,	,	PUNCT	PUNCT	_	19	punct	_	_
+12-14	ובשני	_	_	_	_	_	_	_	_
+12	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+13	ב	ב	ADP	ADP	_	15	case	_	_
+14	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	15	nummod	_	_
+15	בתי	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	19	obl	_	_
+16-17	הבד	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	בד	בד	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	_
+18	ניתן	ניתן	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	19	aux	_	_
+19	לראות	ראה	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	8	conj	_	_
+20	את	את	ADP	ADP	Case=Acc	22	case	_	_
+21-22	השיטות	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	שיטות	שיטה	NOUN	NOUN	Gender=Fem|Number=Plur	19	obj	_	_
+23-24	השונות	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	שונות	שונה	ADJ	ADJ	Gender=Fem|Number=Plur	22	amod	_	_
+25	מן	מן	ADP	ADP	_	27	case	_	_
+26-27	העבר	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	עבר	עבר	NOUN	NOUN	Gender=Masc|Number=Sing	22	nmod	_	_
+28-29	להפקת	_	_	_	_	_	_	_	_
+28	ל	ל	ADP	ADP	_	29	case	_	_
+29	הפקת	הפקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	22	nmod	_	_
+30	שמן	שמן	NOUN	NOUN	Gender=Masc|Number=Sing	29	compound:smixut	_	SpaceAfter=No
+31	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:133
+# doc_range = 3960-4059
+# sent_id = 3256
+# text = המטיילים עוברים בין המסלולים בסיוען של חוברות ההדרכה.
+1-2	המטיילים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מטיילים	מטייל	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	עוברים	עבר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4	בין	בין	ADP	ADP	_	6	case	_	_
+5-6	המסלולים	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	מסלולים	מסלול	NOUN	NOUN	Gender=Masc|Number=Plur	3	obl	_	_
+7-10	בסיוען	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	סיוע	סיוע	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+9	_של_	של	ADP	ADP	Case=Gen	10	case:gen	_	_
+10	_הן	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+11	של	של	ADP	ADP	Case=Gen	12	case	_	_
+12	חוברות	חוברת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	8	nmod:poss	_	_
+13-14	ההדרכה	_	_	_	_	_	_	_	SpaceAfter=No
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	הדרכה	הדרכה	NOUN	NOUN	Gender=Fem|Number=Sing	12	compound:smixut	_	_
+15	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:133
+# doc_range = 4061-4119
+# sent_id = 3257
+# text = כל מסלול מסומן בשילוט בצבע שונה.
+1	כל	כול	DET	DET	Definite=Cons	2	det	_	_
+2	מסלול	מסלול	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	מסומן	סומן	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+4-5	בשילוט	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	שילוט	שילוט	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+6-7	בצבע	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	צבע	צבע	NOUN	NOUN	Gender=Masc|Number=Sing	5	nmod	_	_
+8	שונה	שונה	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:133
+# doc_range = 4121-4192
+# sent_id = 3258
+# text = בתחנות נמצאים ברזי מים ומתקני שירותים.
+1-2	בתחנות	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	תחנות	תחנה	NOUN	NOUN	Gender=Fem|Number=Plur	3	obl	_	_
+3	נמצאים	נמצא	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	0	root	_	_
+4	ברזי	ברז	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	3	nsubj	_	_
+5	מים	מים	NOUN	NOUN	Gender=Masc|Number=Plur	4	compound:smixut	_	_
+6-7	ומתקני	_	_	_	_	_	_	_	_
+6	ו	ו	CCONJ	CCONJ	_	7	cc	_	_
+7	מתקני	מתקן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	conj	_	_
+8	שירותים	שירותים	NOUN	NOUN	Gender=Masc|Number=Plur	7	compound:smixut	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:133
+# doc_range = 4194-4297
+# sent_id = 3259
+# text = מחיר כניסה לאתר ולחוברת ההדרכה הוא 8 ש"ח למבוגר, 4 ש"ח לילד.
+1	מחיר	מחיר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	nsubj	_	_
+2	כניסה	כניסה	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+3-5	לאתר	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	5	case	_	_
+4	ה_	ה	DET	DET	PronType=Art|Definite=Def	5	det	_	_
+5	אתר	אתר	NOUN	NOUN	Gender=Masc|Number=Sing	1	nmod	_	_
+6-8	ולחוברת	_	_	_	_	_	_	_	_
+6	ו	ו	CCONJ	CCONJ	_	8	cc	_	_
+7	ל	ל	ADP	ADP	_	8	case	_	_
+8	חוברת	חוברת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	conj	_	_
+9-10	ההדרכה	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	הדרכה	הדרכה	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound:smixut	_	_
+11	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	13	cop	_	_
+12	8	8	NUM	NUM	_	13	nummod	_	_
+13	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	0	root	_	_
+14-15	למבוגר	_	_	_	_	_	_	_	SpaceAfter=No
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	מבוגר	מבוגר	NOUN	NOUN	Gender=Masc|Number=Sing	13	nmod	_	_
+16	,	,	PUNCT	PUNCT	_	18	punct	_	_
+17	4	4	NUM	NUM	_	18	nummod	_	_
+18	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	13	appos	_	_
+19-20	לילד	_	_	_	_	_	_	_	SpaceAfter=No
+19	ל	ל	ADP	ADP	_	20	case	_	_
+20	ילד	ילד	NOUN	NOUN	Gender=Masc|Number=Sing	18	nmod	_	_
+21	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# doc_id = htb:133
+# doc_range = 4299-4389
+# sent_id = 3260
+# text = משך ההליכה במסלולים השונים הוא שעתיים-ארבע שעות.
+1	משך	משך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	nsubj	_	_
+2-3	ההליכה	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	הליכה	הליכה	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+4-6	במסלולים	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	6	case	_	_
+5	ה_	ה	DET	DET	PronType=Art|Definite=Def	6	det	_	_
+6	מסלולים	מסלול	NOUN	NOUN	Gender=Masc|Number=Plur	1	nmod	_	_
+7-8	השונים	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	שונים	שונה	ADJ	ADJ	Gender=Masc|Number=Plur	6	amod	_	_
+9	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	10	cop	_	_
+10	שעתיים	שעה	NOUN	NOUN	Gender=Fem|Number=Dual	0	root	_	SpaceAfter=No
+11	-	-	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No
+12	ארבע	ארבע	NUM	NUM	Gender=Fem|Number=Sing	13	nummod	_	_
+13	שעות	שעה	NOUN	NOUN	Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:133
+# doc_range = 4391-4438
+# sent_id = 3261
+# text = המקום סגור בשבתות ובחגים.
+1-2	המקום	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	סגור	סגור	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
+4-5	בשבתות	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	שבתות	שבת	NOUN	NOUN	Gender=Fem|Number=Plur	3	obl	_	_
+6-8	ובחגים	_	_	_	_	_	_	_	SpaceAfter=No
+6	ו	ו	CCONJ	CCONJ	_	8	cc	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	חגים	חג	NOUN	NOUN	Gender=Masc|Number=Plur	5	conj	_	_
+9	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:133
+# doc_range = 4440-4541
+# sent_id = 3262
+# text = בימי חול פתוח האתר בשעות 15.459.00 (בימי ו ובערבי חג עד 13.00).
+1-2	בימי	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	ימי	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	obl	_	_
+3	חול	חול	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+4	פתוח	פתח	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+5-6	האתר	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	אתר	אתר	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
+7-8	בשעות	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	שעות	שעה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	4	obl	_	_
+9	15.459.00	15.459.00	NUM	NUM	Case=Tem	8	compound:smixut	_	_
+10	(	(	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
+11-12	בימי	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	ימי	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	obl	_	_
+13	ו	ו	CCONJ	CCONJ	_	12	compound:smixut	_	_
+14-16	ובערבי	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	ערבי	ערב	NOUN	NOUN	Definite=Cons	12	conj	_	_
+17	חג	חג	NOUN	NOUN	Gender=Masc|Number=Sing	16	compound:smixut	_	_
+18	עד	עד	ADP	ADP	_	19	case	_	_
+19	13.00	13.00	NUM	NUM	Case=Tem	12	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+20	)	)	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:133
+# doc_range = 4549-4645
+# sent_id = 3263
+# text = רצוי להתחיל את הסיור לפחות שעתיים לפני סגירת השערים.
+1	רצוי	רצוי	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	2	aux	_	_
+2	להתחיל	להתחיל	VERB	VERB	VerbForm=Inf	0	root	_	_
+3	את	את	ADP	ADP	Case=Acc	5	case	_	_
+4-5	הסיור	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	סיור	סיור	NOUN	NOUN	Gender=Masc|Number=Sing	2	obj	_	_
+6	לפחות	לפחות	ADV	ADV	_	7	advmod	_	_
+7	שעתיים	שעה	NOUN	NOUN	Gender=Fem|Number=Dual	2	obl	_	_
+8	לפני	לפני	ADP	ADP	_	9	case	_	_
+9	סגירת	סגירה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	nmod	_	_
+10-11	השערים	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	שערים	שער	NOUN	NOUN	Gender=Masc|Number=Plur	9	compound:smixut	_	_
+12	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:133
+# doc_range = 4647-4822
+# sent_id = 3264
+# text = לשם קבלת פרטים בדבר הזמנת סיורים מודרכים ומידע נוסף אפשר לפנות בטלפון 04833280, או לת.ד. 7001 לוד 10117.
+1	לשם	לשם	ADP	ADP	_	2	case	_	_
+2	קבלת	קבלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	13	obl	_	_
+3	פרטים	פרט	NOUN	NOUN	Gender=Masc|Number=Plur	2	compound:smixut	_	_
+4-5	בדבר	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	דבר	דבר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	nmod	_	_
+6	הזמנת	הזמנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	compound:smixut	_	_
+7	סיורים	סיור	NOUN	NOUN	Gender=Masc|Number=Plur	6	compound:smixut	_	_
+8	מודרכים	הודרך	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Pass	7	amod	_	_
+9-10	ומידע	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+10	מידע	מידע	NOUN	NOUN	Gender=Masc|Number=Sing	6	conj	_	_
+11	נוסף	נוסף	ADJ	ADJ	Gender=Masc|Number=Sing	10	amod	_	_
+12	אפשר	אפשר	AUX	AUX	VerbType=Mod	13	aux	_	_
+13	לפנות	לפנות	VERB	VERB	VerbForm=Inf	0	root	_	_
+14-15	בטלפון	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	טלפון	טלפון	NOUN	NOUN	Gender=Masc|Number=Sing	13	obl	_	_
+16	04833280	04833280	NUM	NUM	_	15	nummod	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	20	punct	_	_
+18	או	או	CCONJ	CCONJ	_	20	cc	_	_
+19-20	לת.ד.	_	_	_	_	_	_	_	_
+19	ל	ל	ADP	ADP	_	20	case	_	_
+20	ת.ד.	לתyyד%תדyyד%ת	PROPN	PROPN	Abbr=Yes	15	conj	_	_
+21	7001	7001	NUM	NUM	_	20	nummod	_	_
+22	לוד	לוד	PROPN	PROPN	_	20	dep	_	HebSource=ConvUncertainHead
+23	10117	10117	NUM	NUM	_	20	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	13	punct	_	_
+

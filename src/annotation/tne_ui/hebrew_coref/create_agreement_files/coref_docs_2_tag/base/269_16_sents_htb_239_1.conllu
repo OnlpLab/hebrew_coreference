@@ -1,0 +1,547 @@
+# doc_id = htb:239_1
+# doc_range = 1-159
+# sent_id = 5868
+# text = לפני כעשרים שנה עלה מארה"ב הרב יצחק אייזיק רוזנבאום, האדמו"ר מקליוולנד, והשתקע ברעננה.
+1	לפני	לפני	ADP	ADP	_	4	case	_	_
+2-3	כעשרים	_	_	_	_	_	_	_	_
+2	כ	כ	ADP	ADP	_	4	case	_	_
+3	עשרים	עשרים	NUM	NUM	Gender=Fem,Masc|Number=Plur	4	nummod	_	_
+4	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
+5	עלה	עלה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+6-7	מארה"ב	_	_	_	_	_	_	_	_
+6	מ	מ	ADP	ADP	_	7	case	_	_
+7	ארה"ב	ארה"ב	PROPN	PROPN	Abbr=Yes	5	obl	_	_
+8-9	הרב	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	רב	רב	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+10	יצחק	יצחק	PROPN	PROPN	_	9	flat:name	_	_
+11	אייזיק	אייזיק	PROPN	PROPN	_	9	flat:name	_	_
+12	רוזנבאום	רוזנבאום	PROPN	PROPN	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	15	punct	_	_
+14-15	האדמו"ר	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	אדמו"ר	אדמו"ר	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	9	appos	_	_
+16-17	מקליוולנד	_	_	_	_	_	_	_	SpaceAfter=No
+16	מ	מ	ADP	ADP	_	17	case	_	_
+17	קליוולנד	קליוולנד	PROPN	PROPN	_	15	nmod	_	_
+18	,	,	PUNCT	PUNCT	_	20	punct	_	_
+19-20	והשתקע	_	_	_	_	_	_	_	_
+19	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
+20	השתקע	השתקע	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	5	conj	_	_
+21-22	ברעננה	_	_	_	_	_	_	_	SpaceAfter=No
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	רעננה	רעננה	PROPN	PROPN	_	20	obl	_	_
+23	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:239_1
+# doc_range = 161-334
+# sent_id = 5869
+# text = הוא רכש שם חלקת אדמה לבנייה והעביר אותה לעמותת "מוסדות קליוולנד והקריה ברעננה" כמכר בלא תמורה.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	רכש	רכש	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	שם	שם	ADV	ADV	_	2	advmod	_	_
+4	חלקת	חלקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	obj	_	_
+5	אדמה	אדמה	NOUN	NOUN	Gender=Fem|Number=Sing	4	compound:smixut	_	_
+6-7	לבנייה	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	בנייה	בנייה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nmod	_	_
+8-9	והעביר	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+9	העביר	העביר	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	_
+10-11	אותה	_	_	_	_	_	_	_	_
+10	את	את	ADP	ADP	Case=Acc	11	case	_	_
+11	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+12-13	לעמותת	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	_	13	case	_	_
+13	עמותת	עמותה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	obl	_	_
+14	"	"	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
+15	מוסדות	מוסד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	13	compound:smixut	_	_
+16	קליוולנד	קליוולנד	PROPN	PROPN	_	15	compound:smixut	_	_
+17-19	והקריה	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	קריה	קריה	NOUN	NOUN	Gender=Fem|Number=Sing	16	conj	_	_
+20-21	ברעננה	_	_	_	_	_	_	_	SpaceAfter=No
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	רעננה	רעננה	PROPN	PROPN	_	15	nmod	_	_
+22	"	"	PUNCT	PUNCT	_	15	punct	_	_
+23-24	כמכר	_	_	_	_	_	_	_	_
+23	כ	כ	ADP	ADP	_	24	case	_	_
+24	מכר	מכר	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	_
+25	בלא	בלא	ADP	ADP	_	26	case	_	_
+26	תמורה	תמורה	NOUN	NOUN	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:239_1
+# doc_range = 336-519
+# sent_id = 5870
+# text = הכוונה היתה להקים בה קריה חסידית, שתכלול מרכז קהילתי, בית-כנסת, בית לאדמו"ר ושיכון למשפחות קהילתו.
+1-2	הכוונה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	כוונה	כוונה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	היתה	היה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	4	cop	_	_
+4	להקים	הקים	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	0	root	_	_
+5-6	בה	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
+7	קריה	קריה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obj	_	_
+8	חסידית	חסידי	ADJ	ADJ	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	11	punct	_	_
+10-11	שתכלול	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	11	mark	_	_
+11	תכלול	כלל	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	7	acl:relcl	_	_
+12	מרכז	מרכז	NOUN	NOUN	Gender=Masc|Number=Sing	11	obj	_	_
+13	קהילתי	קהילתי	ADJ	ADJ	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	17	punct	_	_
+15	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+16	-	-	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
+17	כנסת	כנסת	PROPN	PROPN	_	12	conj	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	19	punct	_	_
+19	בית	בית	NOUN	NOUN	Gender=Masc|Number=Sing	12	conj	_	_
+20-22	לאדמו"ר	_	_	_	_	_	_	_	_
+20	ל	ל	ADP	ADP	_	22	case	_	_
+21	ה_	ה	DET	DET	PronType=Art|Definite=Def	22	det	_	_
+22	אדמו"ר	אדמו"ר	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	19	nmod	_	_
+23-24	ושיכון	_	_	_	_	_	_	_	_
+23	ו	ו	CCONJ	CCONJ	_	24	cc	_	_
+24	שיכון	שיכון	NOUN	NOUN	Gender=Masc|Number=Sing	12	conj	_	_
+25-26	למשפחות	_	_	_	_	_	_	_	_
+25	ל	ל	ADP	ADP	_	26	case	_	_
+26	משפחות	משפחה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	24	nmod	_	_
+27-29	קהילתו	_	_	_	_	_	_	_	SpaceAfter=No
+27	קהילה	קהילה	NOUN	NOUN	Gender=Fem|Number=Sing	26	compound:smixut	_	_
+28	_של_	של	ADP	ADP	Case=Gen	29	case:gen	_	_
+29	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+30	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:239_1
+# doc_range = 521-747
+# sent_id = 5871
+# text = במארס 1983 התקשרה העמותה עם חברת הבנייה "ש. י. ל. נ, אחים נחום" בהסכם קומבינציה, שעל פיו תבנה החברה על חשבונה בניין של 24 דירות.
+1-2	במארס	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	מארס	מרס	PROPN	PROPN	_	4	obl	_	_
+3	1983	1983	NUM	NUM	_	2	nummod	_	_
+4	התקשרה	התקשר	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+5-6	העמותה	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	עמותה	עמותה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
+7	עם	עם	ADP	ADP	_	8	case	_	_
+8	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	obl	_	_
+9-10	הבנייה	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	בנייה	בנייה	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound:smixut	_	_
+11	"	"	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
+12	ש.	ש.	PROPN	PROPN	Abbr=Yes	8	appos	_	_
+13	י.	י.	PROPN	PROPN	Abbr=Yes	12	flat:name	_	_
+14	ל.	ל.	PROPN	PROPN	Abbr=Yes	12	flat:name	_	_
+15	נ	ן	PROPN	PROPN	_	12	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	17	punct	_	_
+17	אחים	אח	NOUN	NOUN	Number=Plur	12	flat:name	_	_
+18	נחום	נחום	PROPN	PROPN	_	12	flat:name	_	SpaceAfter=No
+19	"	"	PUNCT	PUNCT	_	12	punct	_	_
+20-21	בהסכם	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	הסכם	הסכם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	obl	_	_
+22	קומבינציה	קומבינציה	NOUN	NOUN	Gender=Fem|Number=Sing	21	compound:smixut	_	SpaceAfter=No
+23	,	,	PUNCT	PUNCT	_	29	punct	_	_
+24-25	שעל	_	_	_	_	_	_	_	_
+24	ש	ש	SCONJ	SCONJ	_	29	mark	_	_
+25	על	על	ADP	ADP	_	26	case	_	_
+26-28	פיו	_	_	_	_	_	_	_	_
+26	פה	פה	NOUN	NOUN	Gender=Masc|Number=Sing	29	obl	_	_
+27	_של_	של	ADP	ADP	Case=Gen	28	case:gen	_	_
+28	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+29	תבנה	בנה	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	21	acl:relcl	_	_
+30-31	החברה	_	_	_	_	_	_	_	_
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	29	nsubj	_	_
+32	על	על	ADP	ADP	_	33	case	_	_
+33-35	חשבונה	_	_	_	_	_	_	_	_
+33	חשבון	חשבון	NOUN	NOUN	Gender=Masc|Number=Sing	29	obl	_	_
+34	_של_	של	ADP	ADP	Case=Gen	35	case:gen	_	_
+35	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	33	nmod:poss	_	_
+36	בניין	בניין	NOUN	NOUN	Gender=Masc|Number=Sing	29	obj	_	_
+37	של	של	ADP	ADP	Case=Gen	39	case	_	_
+38	24	24	NUM	NUM	_	39	nummod	_	_
+39	דירות	דירה	NOUN	NOUN	Gender=Fem|Number=Plur	36	nmod:poss	_	SpaceAfter=No
+40	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:239_1
+# doc_range = 747-831
+# sent_id = 5872
+# text = 13 מהדירות תקבל החברה, ו11 הנותרות יעברו לעמותה.
+1	13	13	NUM	NUM	_	4	nummod	_	_
+2-4	מהדירות	_	_	_	_	_	_	_	_
+2	מ	מ	ADP	ADP	_	4	case	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	דירות	דירה	NOUN	NOUN	Gender=Fem|Number=Plur	5	obj	_	_
+5	תקבל	קיבל	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+6-7	החברה	_	_	_	_	_	_	_	SpaceAfter=No
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	5	nsubj	_	_
+8	,	,	PUNCT	PUNCT	_	13	punct	_	_
+9-10	ו11	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
+10	11	11	NUM	NUM	_	12	nummod	_	_
+11-12	הנותרות	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	נותרות	נותר	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	13	nsubj	_	_
+13	יעברו	עבר	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	5	conj	_	_
+14-16	לעמותה	_	_	_	_	_	_	_	SpaceAfter=No
+14	ל	ל	ADP	ADP	_	16	case	_	_
+15	ה_	ה	DET	DET	PronType=Art|Definite=Def	16	det	_	_
+16	עמותה	עמותה	NOUN	NOUN	Gender=Fem|Number=Sing	13	obl	_	_
+17	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:239_1
+# doc_range = 833-935
+# sent_id = 5873
+# text = תמורת זה התחייבה העמותה להעביר חלק מהמגרש לבעלות החברה.
+1	תמורת	תמורת	ADP	ADP	_	2	case	_	_
+2	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	3	obl	_	_
+3	התחייבה	התחייב	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+4-5	העמותה	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	עמותה	עמותה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+6	להעביר	העביר	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+7	חלק	חלק	NOUN	NOUN	Gender=Masc|Number=Sing	6	obj	_	_
+8-10	מהמגרש	_	_	_	_	_	_	_	_
+8	מ	מ	ADP	ADP	_	10	case	_	HebSource=ConvUncertainLabel
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+10	מגרש	מגרש	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
+11-12	לבעלות	_	_	_	_	_	_	_	_
+11	ל	ל	ADP	ADP	_	12	case	_	_
+12	בעלות	בעלות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	obl	_	_
+13-14	החברה	_	_	_	_	_	_	_	SpaceAfter=No
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	12	compound:smixut	_	_
+15	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:239_1
+# doc_range = 937-1176
+# sent_id = 5874
+# text = בנספח להסכם הקומבינציה התחייבה העמותה לשלם את מס הערך המוסף על בניית דירותיה, עם השלמת הדירות ומסירתן לרשותה, אף כי לא נקבע תאריך.
+1-3	בנספח	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	נספח	נספח	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+4-5	להסכם	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	הסכם	הסכם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	nmod	_	_
+6-7	הקומבינציה	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	קומבינציה	קומבינציה	NOUN	NOUN	Gender=Fem|Number=Sing	5	compound:smixut	_	_
+8	התחייבה	התחייב	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+9-10	העמותה	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	עמותה	עמותה	NOUN	NOUN	Gender=Fem|Number=Sing	8	nsubj	_	_
+11	לשלם	שילם	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+12	את	את	ADP	ADP	Case=Acc	13	case	_	_
+13	מס	מס	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	obj	_	_
+14-15	הערך	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	ערך	ערך	NOUN	NOUN	Gender=Masc|Number=Sing	13	compound:smixut	_	_
+16-17	המוסף	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	מוסף	מוסף	ADJ	ADJ	Gender=Masc|Number=Sing	15	amod	_	_
+18	על	על	ADP	ADP	_	19	case	_	_
+19	בניית	בנייה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	13	nmod	_	_
+20-22	דירותיה	_	_	_	_	_	_	_	SpaceAfter=No
+20	דירה	דירה	NOUN	NOUN	Gender=Fem|Number=Plur	19	compound:smixut	_	_
+21	_של_	של	ADP	ADP	Case=Gen	22	case:gen	_	_
+22	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+23	,	,	PUNCT	PUNCT	_	25	punct	_	_
+24	עם	עם	ADP	ADP	_	25	case	_	_
+25	השלמת	השלמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	11	obl	_	_
+26-27	הדירות	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	דירות	דירה	NOUN	NOUN	Gender=Fem|Number=Plur	25	compound:smixut	_	_
+28-31	ומסירתן	_	_	_	_	_	_	_	_
+28	ו	ו	CCONJ	CCONJ	_	29	cc	_	_
+29	מסירה	מסירה	NOUN	NOUN	Gender=Fem|Number=Sing	25	conj	_	_
+30	_של_	של	ADP	ADP	Case=Gen	31	case:gen	_	_
+31	_הן	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+32-35	לרשותה	_	_	_	_	_	_	_	SpaceAfter=No
+32	ל	ל	ADP	ADP	_	33	case	_	_
+33	רשות	רשות	NOUN	NOUN	Gender=Fem|Number=Sing	29	nmod	_	_
+34	_של_	של	ADP	ADP	Case=Gen	35	case:gen	_	_
+35	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	33	nmod:poss	_	_
+36	,	,	PUNCT	PUNCT	_	37	punct	_	_
+37	אף	אף	CCONJ	CCONJ	_	11	advcl	_	_
+38	כי	כי	SCONJ	SCONJ	_	37	dep	_	HebSource=ConvUncertainHead
+39	לא	לא	ADV	ADV	Polarity=Neg	40	advmod	_	_
+40	נקבע	נקבע	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	37	dep	_	HebSource=ConvUncertainHead
+41	תאריך	תאריך	NOUN	NOUN	Gender=Masc|Number=Sing	40	nsubj	_	SpaceAfter=No
+42	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:239_1
+# doc_range = 1178-1346
+# sent_id = 5875
+# text = בהסכם הקומבינציה התחייבה החברה למסור לעמותה את הדירות הגמורות בתוך 18 חודש מיום חתימת ההסכם.
+1-2	בהסכם	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	הסכם	הסכם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+3-4	הקומבינציה	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	קומבינציה	קומבינציה	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound:smixut	_	_
+5	התחייבה	התחייב	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+6-7	החברה	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	5	nsubj	_	_
+8	למסור	מסר	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+9-11	לעמותה	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	11	case	_	_
+10	ה_	ה	DET	DET	PronType=Art|Definite=Def	11	det	_	_
+11	עמותה	עמותה	NOUN	NOUN	Gender=Fem|Number=Sing	8	obl	_	_
+12	את	את	ADP	ADP	Case=Acc	14	case	_	_
+13-14	הדירות	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	דירות	דירה	NOUN	NOUN	Gender=Fem|Number=Plur	8	obj	_	_
+15-16	הגמורות	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	גמורות	גמור	ADJ	ADJ	Gender=Fem|Number=Plur	14	amod	_	_
+17	בתוך	בתוך	ADP	ADP	_	19	case	_	_
+18	18	18	NUM	NUM	_	19	nummod	_	_
+19	חודש	חודש	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+20-21	מיום	_	_	_	_	_	_	_	_
+20	מ	מ	ADP	ADP	_	21	case	_	_
+21	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	19	nmod	_	_
+22	חתימת	חתימה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	21	compound:smixut	_	_
+23-24	ההסכם	_	_	_	_	_	_	_	SpaceAfter=No
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	הסכם	הסכם	NOUN	NOUN	Gender=Masc|Number=Sing	22	compound:smixut	_	_
+25	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:239_1
+# doc_range = 1348-1446
+# sent_id = 5876
+# text = הוסכם, כי הנכס יועבר על שם החברה רק כנגד מסירת הדירות.
+1	הוסכם	הוסכם	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	6	punct	_	_
+3	כי	כי	SCONJ	SCONJ	_	6	mark	_	_
+4-5	הנכס	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	נכס	נכס	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+6	יועבר	הועבר	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	1	ccomp	_	_
+7	על	על	ADP	ADP	_	8	case	_	_
+8	שם	שם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	obl	_	_
+9-10	החברה	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound:smixut	_	_
+11	רק	רק	ADV	ADV	_	13	advmod	_	_
+12	כנגד	כנגד	ADP	ADP	_	13	case	_	_
+13	מסירת	מסירה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	obl	_	_
+14-15	הדירות	_	_	_	_	_	_	_	SpaceAfter=No
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	דירות	דירה	NOUN	NOUN	Gender=Fem|Number=Plur	13	compound:smixut	_	_
+16	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:239_1
+# doc_range = 1448-1519
+# sent_id = 5877
+# text = הבנייה לא הושלמה במועד שנקבע, ספטמבר 84.
+1-2	הבנייה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	בנייה	בנייה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	לא	לא	ADV	ADV	Polarity=Neg	4	advmod	_	_
+4	הושלמה	הושלם	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+5-7	במועד	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	7	case	_	_
+6	ה_	ה	DET	DET	PronType=Art|Definite=Def	7	det	_	_
+7	מועד	מועד	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+8-9	שנקבע	_	_	_	_	_	_	_	SpaceAfter=No
+8	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
+9	נקבע	נקבע	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	7	acl:relcl	_	_
+10	,	,	PUNCT	PUNCT	_	11	punct	_	_
+11	ספטמבר	ספטמבר	PROPN	PROPN	_	7	appos	_	_
+12	84	84	NUM	NUM	_	11	nmod:tmod	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:239_1
+# doc_range = 1522-1576
+# sent_id = 5878
+# text = רק באמצע 87 הושלמו חלק מהדירות.
+1	רק	רק	ADV	ADV	_	3	advmod	_	_
+2-3	באמצע	_	_	_	_	_	_	_	_
+2	ב	ב	ADP	ADP	_	3	case	_	_
+3	אמצע	אמצע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+4	87	87	NUM	NUM	_	3	compound:smixut	_	_
+5	הושלמו	הושלם	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+6	חלק	חלק	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+7-9	מהדירות	_	_	_	_	_	_	_	SpaceAfter=No
+7	מ	מ	ADP	ADP	_	9	case	_	HebSource=ConvUncertainLabel
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+9	דירות	דירה	NOUN	NOUN	Gender=Fem|Number=Plur	6	nmod	_	_
+10	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:239_1
+# doc_range = 1578-1741
+# sent_id = 5879
+# text = החברה הודיעה לעמותה, כי שילמה את המע"ם על דירות אלה ודרשה להחזיר לה את הכסף, כפי שהתחייבה.
+1-2	החברה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	הודיעה	הודיע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4-6	לעמותה	_	_	_	_	_	_	_	SpaceAfter=No
+4	ל	ל	ADP	ADP	_	6	case	_	_
+5	ה_	ה	DET	DET	PronType=Art|Definite=Def	6	det	_	_
+6	עמותה	עמותה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+7	,	,	PUNCT	PUNCT	_	9	punct	_	_
+8	כי	כי	SCONJ	SCONJ	_	9	mark	_	_
+9	שילמה	שילם	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	3	ccomp	_	_
+10	את	את	ADP	ADP	Case=Acc	12	case	_	_
+11-12	המע"ם	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	מע"ם	מע"ם	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	9	obj	_	_
+13	על	על	ADP	ADP	_	14	case	_	_
+14	דירות	דירה	NOUN	NOUN	Gender=Fem|Number=Plur	9	obl	_	_
+15	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	14	det	_	_
+16-17	ודרשה	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+17	דרשה	דרש	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	9	conj	_	_
+18	להחזיר	החזיר	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+19-20	לה	_	_	_	_	_	_	_	_
+19	ל	ל	ADP	ADP	_	20	case	_	_
+20	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obl	_	_
+21	את	את	ADP	ADP	Case=Acc	23	case	_	_
+22-23	הכסף	_	_	_	_	_	_	_	SpaceAfter=No
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	כסף	כסף	NOUN	NOUN	Gender=Masc|Number=Sing	18	obj	_	_
+24	,	,	PUNCT	PUNCT	_	27	punct	_	_
+25	כפי	כפי	SCONJ	SCONJ	_	27	mark	_	_
+26-27	שהתחייבה	_	_	_	_	_	_	_	SpaceAfter=No
+26	ש	ש	SCONJ	SCONJ	_	25	fixed	_	_
+27	התחייבה	התחייב	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	17	advcl	_	_
+28	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:239_1
+# doc_range = 1744-1982
+# sent_id = 5880
+# text = עקב דרישה זאת, המשקפת שינוי בפועל בתנאי התשלום המוסכמים, נחתם בסוף אפריל 87 זיכרון דברים בין הצדדים, ובו נקבעו מועדים להחזרת המע"ם.
+1	עקב	עקב	ADP	ADP	_	2	case	_	_
+2	דרישה	דרישה	NOUN	NOUN	Gender=Fem|Number=Sing	18	obl	_	_
+3	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	det	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	6	punct	_	_
+5-6	המשקפת	_	_	_	_	_	_	_	_
+5	ה	ה	SCONJ	SCONJ	_	6	mark	_	_
+6	משקפת	שיקף	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	2	acl:relcl	_	_
+7	שינוי	שינוי	NOUN	NOUN	Gender=Masc|Number=Sing	6	obj	_	_
+8-10	בפועל	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	10	case	_	_
+9	ה_	ה	DET	DET	PronType=Art|Definite=Def	10	det	_	_
+10	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
+11-12	בתנאי	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	תנאי	תנאי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	7	nmod	_	_
+13-14	התשלום	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	תשלום	תשלום	NOUN	NOUN	Gender=Masc|Number=Sing	12	compound:smixut	_	_
+15-16	המוסכמים	_	_	_	_	_	_	_	SpaceAfter=No
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	מוסכמים	הוסכם	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Pass	12	amod	_	_
+17	,	,	PUNCT	PUNCT	_	2	punct	_	_
+18	נחתם	נחתם	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+19-20	בסוף	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	סוף	סוף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	18	obl	_	_
+21	אפריל	אפריל	NOUN	NOUN	Definite=Cons	20	compound:smixut	_	_
+22	87	87	NUM	NUM	_	21	compound:smixut	_	_
+23	זיכרון	זיכרון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	18	nsubj	_	_
+24	דברים	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	23	compound:smixut	_	_
+25	בין	בין	ADP	ADP	_	27	case	_	_
+26-27	הצדדים	_	_	_	_	_	_	_	SpaceAfter=No
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	צדדים	צד	NOUN	NOUN	Gender=Masc|Number=Plur	23	nmod	_	_
+28	,	,	PUNCT	PUNCT	_	32	punct	_	_
+29-31	ובו	_	_	_	_	_	_	_	_
+29	ו	ו	CCONJ	CCONJ	_	31	cc	_	_
+30	ב	ב	ADP	ADP	_	31	case	_	_
+31	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	obl	_	_
+32	נקבעו	נקבע	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	23	acl:relcl	_	_
+33	מועדים	מועד	NOUN	NOUN	Gender=Masc|Number=Plur	32	nsubj	_	_
+34-35	להחזרת	_	_	_	_	_	_	_	_
+34	ל	ל	ADP	ADP	_	35	case	_	_
+35	החזרת	החזרה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	33	nmod	_	_
+36-37	המע"ם	_	_	_	_	_	_	_	SpaceAfter=No
+36	ה	ה	DET	DET	Definite=Def|PronType=Art	37	det	_	_
+37	מע"ם	מע"ם	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	35	compound:smixut	_	_
+38	.	.	PUNCT	PUNCT	_	18	punct	_	_
+
+# doc_id = htb:239_1
+# doc_range = 1982-2118
+# sent_id = 5881
+# text = 16 אלף דולר שולמו מראש, ותמורתם קיבלה העמותה דירה אחת, שנועדה למשפחת קנטור.
+1	16	16	NUM	NUM	_	2	nummod	_	_
+2	אלף	אלף	NUM	NUM	Gender=Masc|Number=Plur	3	nummod	_	_
+3	דולר	דולר	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+4	שולמו	שולם	VERB	VERB	Gender=Fem,Masc|HebBinyan=PUAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+5	מראש	מראש	ADV	ADV	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	11	punct	_	_
+7-10	ותמורתם	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+8	תמורה	תמורה	NOUN	NOUN	Gender=Fem|Number=Sing	11	dep	_	_
+9	_של_	של	ADP	ADP	Case=Gen	10	case:gen	_	_
+10	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+11	קיבלה	קיבל	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	_
+12-13	העמותה	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	עמותה	עמותה	NOUN	NOUN	Gender=Fem|Number=Sing	11	nsubj	_	_
+14	דירה	דירה	NOUN	NOUN	Gender=Fem|Number=Sing	11	obj	_	_
+15	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	14	nummod	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	18	punct	_	_
+17-18	שנועדה	_	_	_	_	_	_	_	_
+17	ש	ש	SCONJ	SCONJ	_	18	mark	_	_
+18	נועדה	נועד	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	14	acl:relcl	_	_
+19-20	למשפחת	_	_	_	_	_	_	_	_
+19	ל	ל	ADP	ADP	_	20	case	_	_
+20	משפחת	משפחה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	18	obl	_	_
+21	קנטור	קנטור	NOUN	NOUN	Gender=Masc|Number=Sing	20	compound:smixut	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:239_1
+# doc_range = 2120-2228
+# sent_id = 5882
+# text = סוכם, ששאר הדירות יישארו בידי החברה כערובה לתשלום יתרת המס.
+1	סוכם	סוכם	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	7	punct	_	_
+3-4	ששאר	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	7	mark	_	_
+4	שאר	שאר	DET	DET	Definite=Cons|Gender=Masc	6	det	_	_
+5-6	הדירות	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	דירות	דירה	NOUN	NOUN	Gender=Fem|Number=Plur	7	nsubj	_	_
+7	יישארו	נשאר	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Fut|Voice=Mid	1	ccomp	_	_
+8	בידי	בידי	ADP	ADP	_	10	case	_	_
+9-10	החברה	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
+11-12	כערובה	_	_	_	_	_	_	_	_
+11	כ	כ	ADP	ADP	_	12	case	_	_
+12	ערובה	ערובה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
+13-14	לתשלום	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	תשלום	תשלום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	nmod	_	_
+15	יתרת	יתרה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	14	compound:smixut	_	_
+16-17	המס	_	_	_	_	_	_	_	SpaceAfter=No
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	מס	מס	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	_
+18	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:239_1
+# doc_range = 2231-2303
+# sent_id = 5883
+# text = עם זאת נקבע, כי תנאי העסקה יישארו בעינם.
+1	עם	עם	ADP	ADP	_	2	case	_	_
+2	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	obl	_	_
+3	נקבע	נקבע	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	9	punct	_	_
+5	כי	כי	SCONJ	SCONJ	_	9	mark	_	_
+6	תנאי	תנאי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	9	nsubj	_	_
+7-8	העסקה	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	עסקה	עסקה	NOUN	NOUN	Gender=Fem|Number=Sing	6	compound:smixut	_	_
+9	יישארו	נשאר	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Fut|Voice=Mid	3	ccomp	_	_
+10	בעינם	בעין	ADV	ADV	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	3	punct	_	_
+

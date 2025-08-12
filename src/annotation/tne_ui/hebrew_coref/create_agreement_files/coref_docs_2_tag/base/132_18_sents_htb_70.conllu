@@ -1,0 +1,691 @@
+# doc_id = htb:70
+# doc_range = 1-202
+# sent_id = 2047
+# text = הגירעון המסחרי גדל ב44% בעשרת החודשים הראשונים של השנה, לעומת התקופה המקבילה אשתקד, והסתכם ב18.2 מיליארדי דולר.
+1-2	הגירעון	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	גירעון	גירעון	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+3-4	המסחרי	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	מסחרי	מסחרי	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+5	גדל	גדל	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	_
+6-7	ב44	_	_	_	_	_	_	_	SpaceAfter=No
+6	ב	ב	ADP	ADP	_	8	case	_	_
+7	44	44	NUM	NUM	_	8	nummod	_	_
+8	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	5	obl	_	_
+9-10	בעשרת	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	12	case	_	_
+10	עשרת	עשרת	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	12	nummod	_	_
+11-12	החודשים	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	חודשים	חודש	NOUN	NOUN	Gender=Masc|Number=Plur	5	obl	_	_
+13-14	הראשונים	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	ראשונים	ראשונים	ADJ	ADJ	Gender=Masc|Number=Plur	12	amod	_	_
+15	של	של	ADP	ADP	Case=Gen	17	case	_	_
+16-17	השנה	_	_	_	_	_	_	_	SpaceAfter=No
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	12	nmod	_	_
+18	,	,	PUNCT	PUNCT	_	21	punct	_	_
+19	לעומת	לעומת	ADP	ADP	_	21	case	_	_
+20-21	התקופה	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	תקופה	תקופה	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
+22-23	המקבילה	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	מקבילה	מקביל	ADJ	ADJ	Gender=Fem|Number=Sing	21	nmod	_	_
+24	אשתקד	אשתקד	ADV	ADV	_	21	advmod	_	SpaceAfter=No
+25	,	,	PUNCT	PUNCT	_	27	punct	_	_
+26-27	והסתכם	_	_	_	_	_	_	_	_
+26	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
+27	הסתכם	הסתכם	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	5	conj	_	_
+28-29	ב18.2	_	_	_	_	_	_	_	_
+28	ב	ב	ADP	ADP	_	31	case	_	_
+29	18.2	18.2	NUM	NUM	_	30	nummod	_	_
+30	מיליארדי	מיליארדי	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	31	nummod	_	_
+31	דולר	דולר	NOUN	NOUN	Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
+32	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:70
+# doc_range = 204-442
+# sent_id = 2048
+# text = מהלשכה המרכזית לסטטיסטיקה נמסר אתמול שכ581 מיליוני דולר מתוספת זו נובעים מעליית ערך ייבוא הדלק, ו29 מיליון ד מייבוא אוניות ומטוסים.
+1-3	מהלשכה	_	_	_	_	_	_	_	_
+1	מ	מ	ADP	ADP	_	3	case	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	לשכה	לשכה	NOUN	NOUN	Gender=Fem|Number=Sing	8	obl	_	_
+4-5	המרכזית	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	מרכזית	מרכזי	ADJ	ADJ	Gender=Fem|Number=Sing	3	nmod	_	HebSource=ConvUncertainLabel
+6-7	לסטטיסטיקה	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	סטטיסטיקה	סטטיסטיקה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nmod	_	HebSource=ConvUncertainLabel
+8	נמסר	נמסר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+9	אתמול	אתמול	ADV	ADV	_	8	advmod	_	_
+10-12	שכ581	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	18	mark	_	_
+11	כ	כ	ADP	ADP	_	14	case	_	_
+12	581	581	NUM	NUM	_	13	nummod	_	_
+13	מיליוני	מיליוני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	14	nummod	_	_
+14	דולר	דולר	NOUN	NOUN	Gender=Masc|Number=Sing	18	nsubj	_	_
+15-16	מתוספת	_	_	_	_	_	_	_	_
+15	מ	מ	ADP	ADP	_	16	case	_	_
+16	תוספת	תוספת	NOUN	NOUN	Gender=Fem|Number=Sing	14	nmod	_	_
+17	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	16	det	_	_
+18	נובעים	נבע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	8	ccomp	_	_
+19-20	מעליית	_	_	_	_	_	_	_	_
+19	מ	מ	ADP	ADP	_	20	case	_	_
+20	עליית	עלייה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	18	obl	_	_
+21	ערך	ערך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	20	compound:smixut	_	_
+22	ייבוא	ייבוא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	21	compound:smixut	_	_
+23-24	הדלק	_	_	_	_	_	_	_	SpaceAfter=No
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	דלק	דלק	NOUN	NOUN	Gender=Masc|Number=Sing	22	compound:smixut	_	_
+25	,	,	PUNCT	PUNCT	_	31	punct	_	_
+26-27	ו29	_	_	_	_	_	_	_	_
+26	ו	ו	CCONJ	CCONJ	_	31	cc	_	_
+27	29	29	NUM	NUM	_	28	nummod	_	_
+28	מיליון	מיליון	NUM	NUM	Gender=Masc|Number=Plur	29	nummod	_	_
+29	ד	ד	NOUN	NOUN	_	31	nsubj	_	_
+30-31	מייבוא	_	_	_	_	_	_	_	_
+30	מ	מ	ADP	ADP	_	31	case	_	_
+31	ייבוא	ייבוא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	18	conj	_	_
+32	אוניות	אונייה	NOUN	NOUN	Gender=Fem|Number=Plur	31	compound:smixut	_	_
+33-34	ומטוסים	_	_	_	_	_	_	_	SpaceAfter=No
+33	ו	ו	CCONJ	CCONJ	_	34	cc	_	_
+34	מטוסים	מטוס	NOUN	NOUN	Gender=Masc|Number=Plur	32	conj	_	_
+35	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:70
+# doc_range = 444-658
+# sent_id = 2049
+# text = בחודשים אוגוסט וספטמבר עלו המחירים של מוצרי האנרגיה שיובאו לישראל ביותר מ05% לעומת יוני ויולי, לפני פרוץ המשבר במפרץ.
+1-2	בחודשים	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	חודשים	חודש	NOUN	NOUN	Gender=Masc|Number=Plur	6	obl	_	_
+3	אוגוסט	אוגוסט	PROPN	PROPN	_	2	nmod	_	HebSource=ConvUncertainLabel
+4-5	וספטמבר	_	_	_	_	_	_	_	_
+4	ו	ו	CCONJ	CCONJ	_	5	cc	_	_
+5	ספטמבר	ספטמבר	PROPN	PROPN	_	3	conj	_	_
+6	עלו	עלה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+7-8	המחירים	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	מחירים	מחיר	NOUN	NOUN	Gender=Masc|Number=Plur	6	nsubj	_	_
+9	של	של	ADP	ADP	Case=Gen	10	case	_	_
+10	מוצרי	מוצר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	8	nmod	_	_
+11-12	האנרגיה	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	אנרגיה	אנרגיה	NOUN	NOUN	Gender=Fem|Number=Sing	10	compound:smixut	_	_
+13-14	שיובאו	_	_	_	_	_	_	_	_
+13	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
+14	יובאו	יובא	VERB	VERB	Gender=Fem,Masc|HebBinyan=PUAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	8	acl:relcl	_	_
+15-16	לישראל	_	_	_	_	_	_	_	_
+15	ל	ל	ADP	ADP	_	16	case	_	_
+16	ישראל	ישראל	PROPN	PROPN	_	14	obl	_	_
+17-18	ביותר	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	_	21	case	_	_
+18	יותר	יותר	ADV	ADV	_	21	advmod	_	HebSource=ConvUncertainHead
+19-20	מ05	_	_	_	_	_	_	_	SpaceAfter=No
+19	מ	מ	ADP	ADP	_	18	fixed	_	_
+20	05	05	NUM	NUM	_	21	nummod	_	_
+21	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	14	obl	_	_
+22	לעומת	לעומת	ADP	ADP	_	23	case	_	_
+23	יוני	יוני	PROPN	PROPN	_	14	obl	_	_
+24-25	ויולי	_	_	_	_	_	_	_	SpaceAfter=No
+24	ו	ו	CCONJ	CCONJ	_	25	cc	_	_
+25	יולי	יולי	PROPN	PROPN	_	23	conj	_	_
+26	,	,	PUNCT	PUNCT	_	28	punct	_	_
+27	לפני	לפני	ADP	ADP	_	28	case	_	_
+28	פרוץ	פרוץ	NOUN	NOUN	Definite=Cons	23	appos	_	_
+29-30	המשבר	_	_	_	_	_	_	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	משבר	משבר	NOUN	NOUN	Gender=Masc|Number=Sing	28	compound:smixut	_	_
+31-33	במפרץ	_	_	_	_	_	_	_	SpaceAfter=No
+31	ב	ב	ADP	ADP	_	33	case	_	_
+32	ה_	ה	DET	DET	PronType=Art|Definite=Def	33	det	_	_
+33	מפרץ	מפרץ	NOUN	NOUN	Gender=Masc|Number=Sing	30	nmod	_	_
+34	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:70
+# doc_range = 660-828
+# sent_id = 2050
+# text = בינואר-אוקטובר השנה הסתכם היבוא נטו ב21 מיליארדי ד והיה גבוה ב51% לעומת התקופה המקבילה אשתקד.
+1-2	בינואר	_	_	_	_	_	_	_	SpaceAfter=No
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	ינואר	ינואר	PROPN	PROPN	_	6	obl	_	_
+3	-	-	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+4	אוקטובר	אוקטובר	PROPN	PROPN	_	2	nmod	_	_
+5	השנה	השנה	ADV	ADV	_	2	advmod	_	_
+6	הסתכם	הסתכם	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+7-8	היבוא	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	יבוא	ייבוא	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
+9	נטו	נטו	ADJ	ADJ	Gender=Masc|Number=Sing	8	advmod	_	_
+10-11	ב21	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	13	case	_	_
+11	21	21	NUM	NUM	_	12	nummod	_	_
+12	מיליארדי	מיליארדי	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	13	nummod	_	_
+13	ד	ד	NOUN	NOUN	_	6	obl	_	_
+14-15	והיה	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+15	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	16	cop	_	_
+16	גבוה	גבוה	ADJ	ADJ	Gender=Masc|Number=Sing	6	conj	_	_
+17-18	ב51	_	_	_	_	_	_	_	SpaceAfter=No
+17	ב	ב	ADP	ADP	_	19	case	_	_
+18	51	51	NUM	NUM	_	19	nummod	_	_
+19	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	16	obl	_	_
+20	לעומת	לעומת	ADP	ADP	_	22	case	_	_
+21-22	התקופה	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	תקופה	תקופה	NOUN	NOUN	Gender=Fem|Number=Sing	16	obl	_	_
+23-24	המקבילה	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	מקבילה	מקביל	ADJ	ADJ	Gender=Fem|Number=Sing	22	amod	_	_
+25	אשתקד	אשתקד	ADV	ADV	_	22	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:70
+# doc_range = 830-900
+# sent_id = 2051
+# text = היצוא נטו עלה ב8% והגיע ל1.9 מיליארדי ד.
+1-2	היצוא	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	יצוא	ייצוא	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	נטו	נטו	ADJ	ADJ	Gender=Masc|Number=Sing	2	advmod	_	_
+4	עלה	עלה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5-6	ב8	_	_	_	_	_	_	_	SpaceAfter=No
+5	ב	ב	ADP	ADP	_	7	case	_	_
+6	8	8	NUM	NUM	_	7	nummod	_	_
+7	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	4	obl	_	_
+8-9	והגיע	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+9	הגיע	הגיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	_
+10-11	ל1.9	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	13	case	_	_
+11	1.9	1.9	NUM	NUM	_	12	nummod	_	_
+12	מיליארדי	מיליארדי	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	13	nummod	_	_
+13	ד	ד	NOUN	NOUN	_	9	obl	_	Abbr=Yes|SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:70
+# doc_range = 902-993
+# sent_id = 2052
+# text = בחודש אוקטובר, הסתכם הגירעון המסחרי ב814 מיליוני ד.
+1-2	בחודש	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	חודש	חודש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+3	אוקטובר	אוקטובר	PROPN	PROPN	_	2	compound:smixut	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	2	punct	_	_
+5	הסתכם	הסתכם	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+6-7	הגירעון	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	גירעון	גירעון	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+8-9	המסחרי	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	מסחרי	מסחרי	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	_
+10-11	ב814	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	13	case	_	_
+11	814	814	NUM	NUM	_	12	nummod	_	_
+12	מיליוני	מיליוני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	13	nummod	_	_
+13	ד	ד	NOUN	NOUN	_	5	obl	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:70
+# doc_range = 995-1059
+# sent_id = 2053
+# text = היבוא הגיע ל3.1 מ ד, והייצוא ל149 מ ד.
+1-2	היבוא	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	יבוא	ייבוא	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	הגיע	הגיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4-5	ל3.1	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	7	case	_	_
+5	3.1	3.1	NUM	NUM	_	6	nummod	_	_
+6	מ	מ	NUM	NUM	Number=Plur	7	nummod	_	_
+7	ד	ד	NOUN	NOUN	_	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	11	punct	_	_
+9-11	והייצוא	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	ייצוא	ייצוא	NOUN	NOUN	Gender=Masc|Number=Sing	3	conj	_	_
+12-13	ל149	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	_	15	case	_	_
+13	149	149	NUM	NUM	_	14	nummod	_	_
+14	מ	מ	NUM	NUM	Number=Plur	15	nummod	_	_
+15	ד	ד	NOUN	NOUN	_	11	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:70
+# doc_range = 1061-1179
+# sent_id = 2054
+# text = בספטמבר ואוקטובר עלה הגירעון המסחרי ב31% לעומת שני החודשים שקדמו.
+1-2	בספטמבר	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	ספטמבר	ספטמבר	PROPN	PROPN	_	5	obl	_	_
+3-4	ואוקטובר	_	_	_	_	_	_	_	_
+3	ו	ו	CCONJ	CCONJ	_	4	cc	_	_
+4	אוקטובר	אוקטובר	PROPN	PROPN	_	2	conj	_	_
+5	עלה	עלה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+6-7	הגירעון	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	גירעון	גירעון	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+8-9	המסחרי	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	מסחרי	מסחרי	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	_
+10-11	ב31	_	_	_	_	_	_	_	SpaceAfter=No
+10	ב	ב	ADP	ADP	_	12	case	_	_
+11	31	31	NUM	NUM	_	12	nummod	_	_
+12	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	5	obl	_	_
+13	לעומת	לעומת	ADP	ADP	_	16	case	_	_
+14	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	16	nummod	_	_
+15-16	החודשים	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	חודשים	חודש	NOUN	NOUN	Gender=Masc|Number=Plur	5	obl	_	_
+17-18	שקדמו	_	_	_	_	_	_	_	SpaceAfter=No
+17	ש	ש	SCONJ	SCONJ	_	18	mark	_	_
+18	קדמו	קדם	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	16	acl:relcl	_	_
+19	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:70
+# doc_range = 1181-1308
+# sent_id = 2055
+# text = עלייה זו נובעת מעלייה ביבוא ב4% בעוד שביצוא באותה תקופה, נרשמה יציבות.
+1	עלייה	עלייה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+2	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	1	det	_	_
+3	נובעת	נבע	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4-5	מעלייה	_	_	_	_	_	_	_	_
+4	מ	מ	ADP	ADP	_	5	case	_	_
+5	עלייה	עלייה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+6-8	ביבוא	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	8	case	_	_
+7	ה_	ה	DET	DET	PronType=Art|Definite=Def	8	det	_	_
+8	יבוא	ייבוא	NOUN	NOUN	Gender=Masc|Number=Sing	5	nmod	_	_
+9-10	ב4	_	_	_	_	_	_	_	SpaceAfter=No
+9	ב	ב	ADP	ADP	_	11	case	_	_
+10	4	4	NUM	NUM	_	11	nummod	_	_
+11	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	5	nmod	_	_
+12	בעוד	בעוד	ADP	ADP	_	21	case	_	_
+13-16	שביצוא	_	_	_	_	_	_	_	_
+13	ש	ש	SCONJ	SCONJ	_	21	mark	_	_
+14	ב	ב	ADP	ADP	_	16	case	_	_
+15	ה_	ה	DET	DET	PronType=Art|Definite=Def	16	det	_	_
+16	יצוא	ייצוא	NOUN	NOUN	Gender=Masc|Number=Sing	21	obl	_	_
+17-18	באותה	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	_	19	case	_	_
+18	אותה	אותו	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	det	_	_
+19	תקופה	תקופה	NOUN	NOUN	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+20	,	,	PUNCT	PUNCT	_	19	punct	_	_
+21	נרשמה	נרשם	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	3	obl	_	_
+22	יציבות	יציבות	NOUN	NOUN	Gender=Fem|Number=Sing	21	nsubj	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:70
+# doc_range = 1310-1618
+# sent_id = 2056
+# text = בחודשיים האחרונים הסתכם היבוא ללא יהלומים וללא הדלק ב709 מיליוני ד בממוצע לחודש, נמוך ב2% מהממוצע החודשי ביולי ואוגוסט לאחר עלייה של 21% בחודשיים אלה לעומת מאי ויוני השנה.
+1-3	בחודשיים	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	חודשיים	חודש	NOUN	NOUN	Gender=Masc|Number=Dual	6	obl	_	_
+4-5	האחרונים	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	אחרונים	אחרון	ADJ	ADJ	Gender=Masc|Number=Plur	3	amod	_	_
+6	הסתכם	הסתכם	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+7-8	היבוא	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	יבוא	ייבוא	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
+9	ללא	ללא	ADP	ADP	_	10	case	_	_
+10	יהלומים	יהלום	NOUN	NOUN	Gender=Masc|Number=Plur	8	nmod	_	_
+11-12	וללא	_	_	_	_	_	_	_	_
+11	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
+12	ללא	ללא	ADP	ADP	_	14	case	_	_
+13-14	הדלק	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	דלק	דלק	NOUN	NOUN	Gender=Masc|Number=Sing	10	conj	_	_
+15-16	ב709	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	18	case	_	_
+16	709	709	NUM	NUM	_	17	nummod	_	_
+17	מיליוני	מיליוני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	18	nummod	_	_
+18	ד	ד	NOUN	NOUN	_	6	obl	_	_
+19-20	בממוצע	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	ממוצע	ממוצע	NOUN	NOUN	Gender=Masc|Number=Sing	18	nmod	_	_
+21-22	לחודש	_	_	_	_	_	_	_	SpaceAfter=No
+21	ל	ל	ADP	ADP	_	22	case	_	_
+22	חודש	חודש	NOUN	NOUN	Gender=Masc|Number=Sing	20	nmod	_	_
+23	,	,	PUNCT	PUNCT	_	24	punct	_	_
+24	נמוך	נמוך	ADJ	ADJ	Gender=Masc|Number=Sing	6	parataxis	_	_
+25-26	ב2	_	_	_	_	_	_	_	SpaceAfter=No
+25	ב	ב	ADP	ADP	_	27	case	_	_
+26	2	2	NUM	NUM	_	27	nummod	_	_
+27	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	24	obl	_	_
+28-30	מהממוצע	_	_	_	_	_	_	_	_
+28	מ	מ	ADP	ADP	_	30	case	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	ממוצע	ממוצע	ADJ	ADJ	Gender=Masc|Number=Sing	24	obl	_	_
+31-32	החודשי	_	_	_	_	_	_	_	_
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	חודשי	חודשי	ADJ	ADJ	Gender=Masc|Number=Sing	30	amod	_	_
+33-34	ביולי	_	_	_	_	_	_	_	_
+33	ב	ב	ADP	ADP	_	34	case	_	_
+34	יולי	יולי	PROPN	PROPN	_	30	obl	_	_
+35-36	ואוגוסט	_	_	_	_	_	_	_	_
+35	ו	ו	CCONJ	CCONJ	_	36	cc	_	_
+36	אוגוסט	אוגוסט	PROPN	PROPN	_	34	conj	_	_
+37	לאחר	לאחר	ADP	ADP	_	38	case	_	_
+38	עלייה	עלייה	NOUN	NOUN	Gender=Fem|Number=Sing	24	obl	_	_
+39	של	של	ADP	ADP	Case=Gen	41	case	_	_
+40	21	21	NUM	NUM	_	41	nummod	_	SpaceAfter=No
+41	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	38	nmod	_	_
+42-43	בחודשיים	_	_	_	_	_	_	_	_
+42	ב	ב	ADP	ADP	_	43	case	_	_
+43	חודשיים	חודש	NOUN	NOUN	Gender=Masc|Number=Dual	38	nmod	_	_
+44	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	43	det	_	_
+45	לעומת	לעומת	ADP	ADP	_	46	case	_	_
+46	מאי	מאי	PROPN	PROPN	_	43	nmod	_	_
+47-48	ויוני	_	_	_	_	_	_	_	_
+47	ו	ו	CCONJ	CCONJ	_	48	cc	_	_
+48	יוני	יוני	PROPN	PROPN	_	46	conj	_	_
+49	השנה	השנה	ADV	ADV	_	46	advmod	_	SpaceAfter=No
+50	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:70
+# doc_range = 1620-1871
+# sent_id = 2057
+# text = יבוא תשומות לייצור, למעט יהלומים ודלק, הסתכם ב006 מיליון דולר בממוצע לחודש בספטמבר ואוקטובר והיה נמוך ב1% לעומת הממוצע בשני החודשים שקדמו.
+1	יבוא	ייבוא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	nsubj	_	_
+2	תשומות	תשומה	NOUN	NOUN	Gender=Fem|Number=Plur	1	compound:smixut	_	_
+3-4	לייצור	_	_	_	_	_	_	_	SpaceAfter=No
+3	ל	ל	ADP	ADP	_	4	case	_	_
+4	ייצור	ייצור	NOUN	NOUN	Gender=Masc|Number=Sing	1	nmod	_	_
+5	,	,	PUNCT	PUNCT	_	7	punct	_	_
+6	למעט	למעט	ADP	ADP	_	7	case	_	_
+7	יהלומים	יהלום	NOUN	NOUN	Gender=Masc|Number=Plur	1	appos	_	_
+8-9	ודלק	_	_	_	_	_	_	_	SpaceAfter=No
+8	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+9	דלק	דלק	NOUN	NOUN	Gender=Masc|Number=Sing	7	conj	_	_
+10	,	,	PUNCT	PUNCT	_	7	punct	_	_
+11	הסתכם	הסתכם	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+12-13	ב006	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	15	case	_	_
+13	006	006	NUM	NUM	_	14	nummod	_	_
+14	מיליון	מיליון	NUM	NUM	Gender=Masc|Number=Plur	15	nummod	_	_
+15	דולר	דולר	NOUN	NOUN	Gender=Masc|Number=Sing	11	obl	_	_
+16-17	בממוצע	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	ממוצע	ממוצע	NOUN	NOUN	Gender=Masc|Number=Sing	15	nmod	_	_
+18-19	לחודש	_	_	_	_	_	_	_	_
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	חודש	חודש	NOUN	NOUN	Gender=Masc|Number=Sing	17	nmod	_	_
+20-21	בספטמבר	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	ספטמבר	ספטמבר	PROPN	PROPN	_	19	nmod	_	_
+22-23	ואוקטובר	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
+23	אוקטובר	אוקטובר	PROPN	PROPN	_	21	conj	_	_
+24-25	והיה	_	_	_	_	_	_	_	_
+24	ו	ו	CCONJ	CCONJ	_	26	cc	_	_
+25	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	26	cop	_	_
+26	נמוך	נמוך	ADJ	ADJ	Gender=Masc|Number=Sing	11	conj	_	_
+27-28	ב1	_	_	_	_	_	_	_	SpaceAfter=No
+27	ב	ב	ADP	ADP	_	29	case	_	_
+28	1	1	NUM	NUM	_	29	nummod	_	_
+29	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	26	obl	_	_
+30	לעומת	לעומת	ADP	ADP	_	32	case	_	_
+31-32	הממוצע	_	_	_	_	_	_	_	_
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	ממוצע	ממוצע	NOUN	NOUN	Gender=Masc|Number=Sing	26	obl	_	_
+33-34	בשני	_	_	_	_	_	_	_	_
+33	ב	ב	ADP	ADP	_	36	case	_	_
+34	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	36	nummod	_	_
+35-36	החודשים	_	_	_	_	_	_	_	_
+35	ה	ה	DET	DET	Definite=Def|PronType=Art	36	det	_	_
+36	חודשים	חודש	NOUN	NOUN	Gender=Masc|Number=Plur	32	nmod	_	_
+37-38	שקדמו	_	_	_	_	_	_	_	SpaceAfter=No
+37	ש	ש	SCONJ	SCONJ	_	38	mark	_	_
+38	קדמו	קדם	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	36	acl:relcl	_	_
+39	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:70
+# doc_range = 1873-1967
+# sent_id = 2058
+# text = יבוא נכסי השקעה ירד ב3% והסתכם ב761 מיליון דולר לחודש.
+1	יבוא	ייבוא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	נכסי	נכס	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	1	compound:smixut	_	_
+3	השקעה	השקעה	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound:smixut	_	_
+4	ירד	ירד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5-6	ב3	_	_	_	_	_	_	_	SpaceAfter=No
+5	ב	ב	ADP	ADP	_	7	case	_	_
+6	3	3	NUM	NUM	_	7	nummod	_	_
+7	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	4	obl	_	_
+8-9	והסתכם	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+9	הסתכם	הסתכם	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	4	conj	_	_
+10-11	ב761	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	13	case	_	_
+11	761	761	NUM	NUM	_	12	nummod	_	_
+12	מיליון	מיליון	NUM	NUM	Gender=Masc|Number=Plur	13	nummod	_	_
+13	דולר	דולר	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	_
+14-15	לחודש	_	_	_	_	_	_	_	SpaceAfter=No
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	חודש	חודש	NOUN	NOUN	Gender=Masc|Number=Sing	13	nmod	_	_
+16	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:70
+# doc_range = 1969-2011
+# sent_id = 2059
+# text = יבוא מוצרי צריכה ירד ב8%.
+1	יבוא	ייבוא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	מוצרי	מוצר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	1	compound:smixut	_	_
+3	צריכה	צריכה	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound:smixut	_	_
+4	ירד	ירד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5-6	ב8	_	_	_	_	_	_	_	SpaceAfter=No
+5	ב	ב	ADP	ADP	_	7	case	_	_
+6	8	8	NUM	NUM	_	7	nummod	_	_
+7	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:70
+# doc_range = 2014-2179
+# sent_id = 2060
+# text = באוקטובר הסתכם יצוא הסחורות ב149 מיליון ד: 66% יצוא תעשייתי; 13% יצוא יהלומים; ו3% יצוא חקלאי.
+1-2	באוקטובר	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	אוקטובר	אוקטובר	PROPN	PROPN	_	3	obl	_	_
+3	הסתכם	הסתכם	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	יצוא	ייצוא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	nsubj	_	_
+5-6	הסחורות	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	סחורות	סחורה	NOUN	NOUN	Gender=Fem|Number=Plur	4	compound:smixut	_	_
+7-8	ב149	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	10	case	_	_
+8	149	149	NUM	NUM	_	9	nummod	_	_
+9	מיליון	מיליון	NUM	NUM	Gender=Masc|Number=Plur	10	nummod	_	_
+10	ד	ד	NOUN	NOUN	_	3	obl	_	SpaceAfter=No
+11	:	:	PUNCT	PUNCT	_	13	punct	_	_
+12	66	66	NUM	NUM	_	13	nummod	_	SpaceAfter=No
+13	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	10	appos	_	_
+14	יצוא	ייצוא	NOUN	NOUN	Gender=Masc|Number=Sing	13	nmod	_	_
+15	תעשייתי	תעשייתי	ADJ	ADJ	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	;	;	PUNCT	PUNCT	_	18	punct	_	_
+17	13	13	NUM	NUM	_	18	nummod	_	SpaceAfter=No
+18	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	13	conj	_	_
+19	יצוא	ייצוא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	18	acl	_	_
+20	יהלומים	יהלום	NOUN	NOUN	Gender=Masc|Number=Plur	19	compound:smixut	_	SpaceAfter=No
+21	;	;	PUNCT	PUNCT	_	22	punct	_	_
+22-23	ו3	_	_	_	_	_	_	_	SpaceAfter=No
+22	ו	ו	CCONJ	CCONJ	_	24	cc	_	_
+23	3	3	NUM	NUM	_	24	nummod	_	_
+24	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	13	conj	_	_
+25	יצוא	ייצוא	NOUN	NOUN	Gender=Masc|Number=Sing	24	nmod	_	_
+26	חקלאי	חקלאי	ADJ	ADJ	Gender=Masc|Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:70
+# doc_range = 2181-2423
+# sent_id = 2061
+# text = היצוא התעשייתי הסתכם בחודשיים האחרונים ב486 מיליון ד בממוצע לחודש, גבוה ב2% לעומת שני החודשים שקדמו בהמשך לעלייה של 5.4% ביולי ואוגוסט.
+1-2	היצוא	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	יצוא	ייצוא	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+3-4	התעשייתי	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	תעשייתי	תעשייתי	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+5	הסתכם	הסתכם	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+6-8	בחודשיים	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	8	case	_	_
+7	ה_	ה	DET	DET	PronType=Art|Definite=Def	8	det	_	_
+8	חודשיים	חודש	NOUN	NOUN	Gender=Masc|Number=Dual	5	obl	_	_
+9-10	האחרונים	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	אחרונים	אחרון	ADJ	ADJ	Gender=Masc|Number=Plur	8	amod	_	_
+11-12	ב486	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	14	case	_	_
+12	486	486	NUM	NUM	_	13	nummod	_	_
+13	מיליון	מיליון	NUM	NUM	Gender=Masc|Number=Plur	14	nummod	_	_
+14	ד	ד	NOUN	NOUN	_	5	obl	_	_
+15-16	בממוצע	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	ממוצע	ממוצע	NOUN	NOUN	Gender=Masc|Number=Sing	14	nmod	_	_
+17-18	לחודש	_	_	_	_	_	_	_	SpaceAfter=No
+17	ל	ל	ADP	ADP	_	18	case	_	_
+18	חודש	חודש	NOUN	NOUN	Gender=Masc|Number=Sing	14	nmod	_	_
+19	,	,	PUNCT	PUNCT	_	20	punct	_	_
+20	גבוה	גבוה	ADJ	ADJ	Gender=Masc|Number=Sing	5	parataxis	_	_
+21-22	ב2	_	_	_	_	_	_	_	SpaceAfter=No
+21	ב	ב	ADP	ADP	_	23	case	_	_
+22	2	2	NUM	NUM	_	23	nummod	_	_
+23	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	20	obl	_	_
+24	לעומת	לעומת	ADP	ADP	_	27	case	_	_
+25	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	27	nummod	_	_
+26-27	החודשים	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	חודשים	חודש	NOUN	NOUN	Gender=Masc|Number=Plur	20	obl	_	_
+28-29	שקדמו	_	_	_	_	_	_	_	_
+28	ש	ש	SCONJ	SCONJ	_	29	mark	_	_
+29	קדמו	קדם	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	27	acl:relcl	_	_
+30-31	בהמשך	_	_	_	_	_	_	_	_
+30	ב	ב	ADP	ADP	_	33	case	_	_
+31	המשך	המשך	NOUN	NOUN	Gender=Masc|Number=Sing	30	fixed	_	_
+32-33	לעלייה	_	_	_	_	_	_	_	_
+32	ל	ל	ADP	ADP	_	30	fixed	_	_
+33	עלייה	עלייה	NOUN	NOUN	Gender=Fem|Number=Sing	20	obl	_	_
+34	של	של	ADP	ADP	Case=Gen	36	case	_	_
+35	5.4	5.4	NUM	NUM	_	36	nummod	_	SpaceAfter=No
+36	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	33	nmod	_	_
+37-38	ביולי	_	_	_	_	_	_	_	_
+37	ב	ב	ADP	ADP	_	38	case	_	_
+38	יולי	יולי	PROPN	PROPN	_	33	nmod	_	_
+39-40	ואוגוסט	_	_	_	_	_	_	_	SpaceAfter=No
+39	ו	ו	CCONJ	CCONJ	_	40	cc	_	_
+40	אוגוסט	אוגוסט	PROPN	PROPN	_	38	conj	_	_
+41	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:70
+# doc_range = 2425-2511
+# sent_id = 2062
+# text = היצוא בענפי המתכת, המכונות והאלקטרוניקה עלה ב8%.
+1-2	היצוא	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	יצוא	ייצוא	NOUN	NOUN	Gender=Masc|Number=Sing	13	nsubj	_	_
+3-4	בענפי	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	ענפי	ענף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	2	nmod	_	_
+5-6	המתכת	_	_	_	_	_	_	_	SpaceAfter=No
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	מתכת	מתכת	NOUN	NOUN	Gender=Fem|Number=Sing	4	compound:smixut	_	_
+7	,	,	PUNCT	PUNCT	_	9	punct	_	_
+8-9	המכונות	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	מכונות	מכונה	NOUN	NOUN	Gender=Fem|Number=Plur	6	conj	_	_
+10-12	והאלקטרוניקה	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	אלקטרוניקה	אלקטרוניקה	NOUN	NOUN	Gender=Fem|Number=Sing	6	conj	_	_
+13	עלה	עלה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+14-15	ב8	_	_	_	_	_	_	_	SpaceAfter=No
+14	ב	ב	ADP	ADP	_	16	case	_	_
+15	8	8	NUM	NUM	_	16	nummod	_	_
+16	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# doc_id = htb:70
+# doc_range = 2515-2610
+# sent_id = 2063
+# text = לעומת זאת, נרשמו ירידות ביצוא של ענפי המזון והכימיה.
+1	לעומת	לעומת	ADP	ADP	_	2	case	_	_
+2	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	4	obl	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
+4	נרשמו	נרשם	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+5	ירידות	ירידה	NOUN	NOUN	Gender=Fem|Number=Plur	4	nsubj	_	_
+6-8	ביצוא	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	8	case	_	_
+7	ה_	ה	DET	DET	PronType=Art|Definite=Def	8	det	_	_
+8	יצוא	ייצוא	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+9	של	של	ADP	ADP	Case=Gen	10	case	_	_
+10	ענפי	ענף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	8	nmod:poss	_	_
+11-12	המזון	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	מזון	מזון	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
+13-15	והכימיה	_	_	_	_	_	_	_	SpaceAfter=No
+13	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	כימיה	כימיה	NOUN	NOUN	Gender=Fem|Number=Sing	12	conj	_	_
+16	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:70
+# doc_range = 2612-2837
+# sent_id = 2064
+# text = ביצוא היהלומים נרשמה עלייה של 2% בחודשיים האחרונים, ואילו ביצוא החקלאי חלה ירידה של 71%, וזה הגיע ל66 מיליוני ד בממוצע לחודש.
+1-2	ביצוא	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	יצוא	ייצוא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+3-4	היהלומים	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	יהלומים	יהלום	NOUN	NOUN	Gender=Masc|Number=Plur	2	compound:smixut	_	_
+5	נרשמה	נרשם	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+6	עלייה	עלייה	NOUN	NOUN	Gender=Fem|Number=Sing	5	nsubj	_	_
+7	של	של	ADP	ADP	Case=Gen	9	case	_	_
+8	2	2	NUM	NUM	_	9	nummod	_	SpaceAfter=No
+9	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	6	nmod:poss	_	_
+10-12	בחודשיים	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	12	case	_	_
+11	ה_	ה	DET	DET	PronType=Art|Definite=Def	12	det	_	_
+12	חודשיים	חודש	NOUN	NOUN	Gender=Masc|Number=Dual	5	obl	_	_
+13-14	האחרונים	_	_	_	_	_	_	_	SpaceAfter=No
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	אחרונים	אחרון	ADJ	ADJ	Gender=Masc|Number=Plur	12	amod	_	_
+15	,	,	PUNCT	PUNCT	_	23	punct	_	_
+16-17	ואילו	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
+17	אילו	אילו	CCONJ	CCONJ	_	16	conj	_	_
+18-20	ביצוא	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	20	case	_	_
+19	ה_	ה	DET	DET	PronType=Art|Definite=Def	20	det	_	_
+20	יצוא	ייצוא	NOUN	NOUN	Gender=Masc|Number=Sing	23	obl	_	_
+21-22	החקלאי	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	חקלאי	חקלאי	ADJ	ADJ	Gender=Masc|Number=Sing	20	amod	_	_
+23	חלה	חל	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	_
+24	ירידה	ירידה	NOUN	NOUN	Gender=Fem|Number=Sing	23	nsubj	_	_
+25	של	של	ADP	ADP	Case=Gen	27	case	_	_
+26	71	71	NUM	NUM	_	27	nummod	_	SpaceAfter=No
+27	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	24	nmod:poss	_	SpaceAfter=No
+28	,	,	PUNCT	PUNCT	_	31	punct	_	_
+29-30	וזה	_	_	_	_	_	_	_	_
+29	ו	ו	CCONJ	CCONJ	_	31	cc	_	_
+30	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	31	nsubj	_	_
+31	הגיע	הגיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	23	conj	_	_
+32-33	ל66	_	_	_	_	_	_	_	_
+32	ל	ל	ADP	ADP	_	35	case	_	_
+33	66	66	NUM	NUM	_	34	nummod	_	_
+34	מיליוני	מיליוני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	35	nummod	_	_
+35	ד	ד	NOUN	NOUN	_	31	obl	_	_
+36-37	בממוצע	_	_	_	_	_	_	_	_
+36	ב	ב	ADP	ADP	_	37	case	_	_
+37	ממוצע	ממוצע	NOUN	NOUN	Gender=Masc|Number=Sing	35	nmod	_	_
+38-39	לחודש	_	_	_	_	_	_	_	SpaceAfter=No
+38	ל	ל	ADP	ADP	_	39	case	_	_
+39	חודש	חודש	NOUN	NOUN	Gender=Masc|Number=Sing	37	nmod	_	_
+40	.	.	PUNCT	PUNCT	_	5	punct	_	_
+

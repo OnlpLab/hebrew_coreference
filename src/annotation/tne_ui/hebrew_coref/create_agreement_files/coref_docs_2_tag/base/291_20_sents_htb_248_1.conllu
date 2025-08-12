@@ -1,0 +1,688 @@
+# doc_id = htb:248_1
+# doc_range = 1-19
+# sent_id = 6102
+# text = בשרית אחת.
+1	בשרית	בשרי	ADJ	ADJ	Gender=Fem|Number=Sing	0	root	_	_
+2	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	1	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+3	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:248_1
+# doc_range = 21-175
+# sent_id = 6103
+# text = הניוקי שצופה בחמאה מותכת והוגש ברוטב שמנת טוב עם בייקון ופרוסות של פטריות היה מצוין.
+1-2	הניוקי	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	ניוקי	ניוקי	NOUN	NOUN	Gender=Masc|Number=Sing	21	nsubj	_	_
+3-4	שצופה	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
+4	צופה	צופה	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	2	acl:relcl	_	_
+5-6	בחמאה	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	חמאה	חמאה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+7	מותכת	הותך	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Pass	6	amod	_	_
+8-9	והוגש	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+9	הוגש	הוגש	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	4	conj	_	_
+10-11	ברוטב	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	רוטב	רוטב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	obl	_	_
+12	שמנת	שמנת	NOUN	NOUN	Gender=Fem|Number=Sing	11	compound:smixut	_	_
+13	טוב	טוב	ADJ	ADJ	Gender=Masc|Number=Sing	11	amod	_	_
+14	עם	עם	ADP	ADP	_	15	case	_	_
+15	בייקון	בייקון	NOUN	NOUN	Gender=Masc|Number=Sing	11	nmod	_	_
+16-17	ופרוסות	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+17	פרוסות	פרוסה	NOUN	NOUN	Gender=Fem|Number=Plur	15	conj	_	_
+18	של	של	ADP	ADP	Case=Gen	19	case	_	_
+19	פטריות	פטרייה	NOUN	NOUN	Gender=Fem|Number=Plur	17	nmod:poss	_	_
+20	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	21	cop	_	_
+21	מצוין	מצוין	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	21	punct	_	_
+
+# doc_id = htb:248_1
+# doc_range = 177-470
+# sent_id = 6104
+# text = הסקאלופיני אל-לימונה, פרוסות עגל דקות ברוטב המבוסס על ציר חום, יין מרסלה, לימון ועשבי מאכל היה מאכזב משום שהעגל בושל יתר על המידה והרוטב הוסמך, ללא סיבה, בקמח.
+1-2	הסקאלופיני	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	סקאלופיני	סקאלופיני	NOUN	NOUN	_	26	nsubj	_	_
+3	אל	אל	PROPN	PROPN	_	2	flat:name	_	SpaceAfter=No
+4	-	-	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+5	לימונה	לימון	PROPN	PROPN	_	3	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	7	punct	_	_
+7	פרוסות	פרוסה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	2	appos	_	_
+8	עגל	עגל	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound:smixut	_	_
+9	דקות	דק	ADJ	ADJ	Gender=Fem|Number=Plur	7	amod	_	_
+10-11	ברוטב	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	רוטב	רוטב	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
+12-13	המבוסס	_	_	_	_	_	_	_	_
+12	ה	ה	SCONJ	SCONJ	_	13	mark	_	_
+13	מבוסס	בוסס	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	11	acl:relcl	_	_
+14	על	על	ADP	ADP	_	15	case	_	_
+15	ציר	ציר	NOUN	NOUN	Gender=Masc|Number=Sing	13	obl	_	_
+16	חום	חום	ADJ	ADJ	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	18	punct	_	_
+18	יין	יין	NOUN	NOUN	Gender=Masc|Number=Sing	15	conj	_	_
+19	מרסלה	מרסלה	PROPN	PROPN	_	18	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	PUNCT	_	21	punct	_	_
+21	לימון	לימון	NOUN	NOUN	Gender=Masc|Number=Sing	15	conj	_	_
+22-23	ועשבי	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
+23	עשבי	עשב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	15	conj	_	_
+24	מאכל	מאכל	NOUN	NOUN	Gender=Masc|Number=Sing	23	compound:smixut	_	_
+25	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	26	cop	_	_
+26	מאכזב	אכזב	VERB	VERB	Aspect=Prog|Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+27	משום	משום	SCONJ	SCONJ	_	31	mark	_	_
+28-30	שהעגל	_	_	_	_	_	_	_	_
+28	ש	ש	SCONJ	SCONJ	_	27	fixed	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	עגל	עגל	NOUN	NOUN	Gender=Masc|Number=Sing	31	nsubj:pass	_	_
+31	בושל	בושל	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	26	advcl	_	_
+32	יתר	יתר	DET	DET	Definite=Cons	31	advmod	_	_
+33	על	על	ADP	ADP	_	32	fixed	_	_
+34-35	המידה	_	_	_	_	_	_	_	_
+34	ה	ה	DET	DET	Definite=Def|PronType=Art	32	fixed	_	_
+35	מידה	מידה	NOUN	NOUN	Gender=Fem|Number=Sing	32	fixed	_	_
+36-38	והרוטב	_	_	_	_	_	_	_	_
+36	ו	ו	CCONJ	CCONJ	_	39	cc	_	_
+37	ה	ה	DET	DET	Definite=Def|PronType=Art	38	det	_	_
+38	רוטב	רוטב	NOUN	NOUN	Gender=Masc|Number=Sing	39	nsubj:pass	_	_
+39	הוסמך	הוסמך	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	31	conj	_	SpaceAfter=No
+40	,	,	PUNCT	PUNCT	_	42	punct	_	_
+41	ללא	ללא	ADP	ADP	_	42	case	_	_
+42	סיבה	סיבה	NOUN	NOUN	Gender=Fem|Number=Sing	39	obl	_	SpaceAfter=No
+43	,	,	PUNCT	PUNCT	_	45	punct	_	_
+44-45	בקמח	_	_	_	_	_	_	_	SpaceAfter=No
+44	ב	ב	ADP	ADP	_	45	case	_	_
+45	קמח	קמח	NOUN	NOUN	Gender=Masc|Number=Sing	39	obl	_	_
+46	.	.	PUNCT	PUNCT	_	26	punct	_	_
+
+# doc_id = htb:248_1
+# doc_range = 472-631
+# sent_id = 6105
+# text = בהתבסס על המנות הללו, שאחדות איכזבו בהחלט, יגיע החשבון לשניים ל70 ש"ח כולל בירה ואספרסו.
+1	בהתבסס	התבסס	ADP	ADP	_	4	case	_	_
+2	על	על	ADP	ADP	_	1	fixed	_	_
+3-4	המנות	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	מנות	מנה	NOUN	NOUN	Gender=Fem|Number=Plur	12	obl	_	_
+5	הללו	הללו	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	4	det	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	9	punct	_	_
+7-8	שאחדות	_	_	_	_	_	_	_	_
+7	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
+8	אחדות	אחדות	NOUN	NOUN	Gender=Fem|Number=Sing	9	nsubj	_	_
+9	איכזבו	אכזב	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	4	acl:relcl	_	_
+10	בהחלט	בהחלט	ADV	ADV	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	4	punct	_	_
+12	יגיע	הגיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+13-14	החשבון	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	חשבון	חשבון	NOUN	NOUN	Gender=Masc|Number=Sing	12	nsubj	_	_
+15-16	לשניים	_	_	_	_	_	_	_	_
+15	ל	ל	ADP	ADP	_	16	case	_	_
+16	שניים	שתיים	NUM	NUM	Gender=Masc|Number=Plur	14	nmod	_	_
+17-18	ל70	_	_	_	_	_	_	_	_
+17	ל	ל	ADP	ADP	_	19	case	_	_
+18	70	70	NUM	NUM	_	19	nummod	_	_
+19	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	12	obl	_	_
+20	כולל	כלל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	21	case	_	_
+21	בירה	בירה	NOUN	NOUN	Gender=Fem|Number=Sing	19	nmod	_	_
+22-23	ואספרסו	_	_	_	_	_	_	_	SpaceAfter=No
+22	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
+23	אספרסו	אספרסו	NOUN	NOUN	Gender=Masc|Number=Sing	21	conj	_	_
+24	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# doc_id = htb:248_1
+# doc_range = 634-883
+# sent_id = 6106
+# text = כדי לקבל תמורה מלאה לכספכם היכנסו רק כדי לטעום מנה אחת של ניוקי וסלט נדיב של חסילונים, שקדים, פטריות ועשבים טריים, הכל על מצע נאה של חסה.
+1	כדי	כדי	SCONJ	SCONJ	_	2	mark	_	_
+2	לקבל	קיבל	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	9	advcl	_	_
+3	תמורה	תמורה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obj	_	_
+4	מלאה	מלא	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	_
+5-8	לכספכם	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	כסף	כסף	NOUN	NOUN	Gender=Masc|Number=Sing	3	nmod	_	_
+7	_של_	של	ADP	ADP	Case=Gen	8	case:gen	_	_
+8	_אתם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+9	היכנסו	נכנס	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Mood=Imp|Number=Plur|Person=2|Voice=Mid	0	root	_	_
+10	רק	רק	ADV	ADV	_	12	advmod	_	_
+11	כדי	כדי	SCONJ	SCONJ	_	12	mark	_	_
+12	לטעום	טעם	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	9	advcl	_	_
+13	מנה	מנה	NOUN	NOUN	Gender=Fem|Number=Sing	12	obj	_	_
+14	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	13	nummod	_	_
+15	של	של	ADP	ADP	Case=Gen	16	case	_	_
+16	ניוקי	ניוקי	NOUN	NOUN	Gender=Masc|Number=Sing	13	nmod:poss	_	_
+17-18	וסלט	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+18	סלט	סלט	NOUN	NOUN	Gender=Masc|Number=Sing	16	conj	_	_
+19	נדיב	נדיב	ADJ	ADJ	Gender=Masc|Number=Sing	18	amod	_	_
+20	של	של	ADP	ADP	Case=Gen	21	case	_	_
+21	חסילונים	חסילון	NOUN	NOUN	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	PUNCT	_	23	punct	_	_
+23	שקדים	שקד	NOUN	NOUN	Gender=Masc|Number=Plur	21	conj	_	SpaceAfter=No
+24	,	,	PUNCT	PUNCT	_	25	punct	_	_
+25	פטריות	פטרייה	NOUN	NOUN	Gender=Fem|Number=Plur	21	conj	_	_
+26-27	ועשבים	_	_	_	_	_	_	_	_
+26	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
+27	עשבים	עשב	NOUN	NOUN	Gender=Masc|Number=Plur	21	conj	_	_
+28	טריים	טרי	ADJ	ADJ	Gender=Masc|Number=Plur	27	amod	_	SpaceAfter=No
+29	,	,	PUNCT	PUNCT	_	32	punct	_	_
+30	הכל	הכול	NOUN	NOUN	Gender=Masc|Number=Sing	32	nsubj	_	_
+31	על	על	ADP	ADP	_	32	case	_	_
+32	מצע	מצע	NOUN	NOUN	Gender=Masc|Number=Sing	21	parataxis	_	_
+33	נאה	נאה	ADJ	ADJ	Gender=Masc|Number=Sing	32	amod	_	_
+34	של	של	ADP	ADP	Case=Gen	35	case	_	_
+35	חסה	חסה	NOUN	NOUN	Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:248_1
+# doc_range = 885-980
+# sent_id = 6107
+# text = שתי המנות, המספיקות לארוחה קלה לשניים, יעלו רק 30 ש"ח.
+1	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	3	nummod	_	_
+2-3	המנות	_	_	_	_	_	_	_	SpaceAfter=No
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	מנות	מנה	NOUN	NOUN	Gender=Fem|Number=Plur	13	nsubj	_	_
+4	,	,	PUNCT	PUNCT	_	6	punct	_	_
+5-6	המספיקות	_	_	_	_	_	_	_	_
+5	ה	ה	SCONJ	SCONJ	_	6	mark	_	_
+6	מספיקות	הספיק	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	3	acl:relcl	_	_
+7-8	לארוחה	_	_	_	_	_	_	_	_
+7	ל	ל	ADP	ADP	_	8	case	_	_
+8	ארוחה	ארוחה	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	_
+9	קלה	קל	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	_
+10-11	לשניים	_	_	_	_	_	_	_	SpaceAfter=No
+10	ל	ל	ADP	ADP	_	11	case	_	_
+11	שניים	שתיים	NUM	NUM	Gender=Masc|Number=Plur	8	nmod	_	_
+12	,	,	PUNCT	PUNCT	_	3	punct	_	_
+13	יעלו	עלה	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	0	root	_	_
+14	רק	רק	ADV	ADV	_	16	advmod	_	_
+15	30	30	NUM	NUM	_	16	nummod	_	_
+16	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# doc_id = htb:248_1
+# doc_range = 982-1032
+# sent_id = 6108
+# text = היא מסעדה איטלקית מסוג אחר.
+1	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	מסעדה	מסעדה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+3	איטלקית	איטלקי	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+4-5	מסוג	_	_	_	_	_	_	_	_
+4	מ	מ	ADP	ADP	_	5	case	_	_
+5	סוג	סוג	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_
+6	אחר	אחר	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:248_1
+# doc_range = 1034-1328
+# sent_id = 6109
+# text = היא נפתחה שנים אחדות לפני המסעדות האיטלקיות מן הגל החדש, ומגישים בה אוכל פשוט וחסר יומרות, נאמן במידה רבה לזה שאפשר למצוא בהרבה אוסטריות צנועות בכל רחבי איטליה.
+1	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	נפתחה	נפתח	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+3	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	2	obl:tmod	_	_
+4	אחדות	אחדים	ADJ	ADJ	Gender=Fem|Number=Plur	3	amod	_	_
+5	לפני	לפני	ADP	ADP	_	7	case	_	_
+6-7	המסעדות	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	מסעדות	מסעדה	NOUN	NOUN	Gender=Fem|Number=Plur	3	nmod	_	_
+8-9	האיטלקיות	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	איטלקיות	איטלקי	ADJ	ADJ	Gender=Fem|Number=Plur	7	amod	_	_
+10	מן	מן	ADP	ADP	_	12	case	_	_
+11-12	הגל	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	גל	גל	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
+13-14	החדש	_	_	_	_	_	_	_	SpaceAfter=No
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	חדש	חדש	ADJ	ADJ	Gender=Masc|Number=Sing	12	amod	_	_
+15	,	,	PUNCT	PUNCT	_	17	punct	_	_
+16-17	ומגישים	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+17	מגישים	הגיש	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	2	conj	_	_
+18-19	בה	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	19	case	_	_
+19	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obl	_	_
+20	אוכל	אוכל	NOUN	NOUN	Gender=Masc|Number=Sing	17	obj	_	_
+21	פשוט	פשוט	ADJ	ADJ	Gender=Masc|Number=Sing	20	amod	_	_
+22-23	וחסר	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
+23	חסר	חסר	ADJ	ADJ	Definite=Cons|Gender=Masc|Number=Sing	21	conj	_	_
+24	יומרות	יומרה	NOUN	NOUN	Gender=Fem|Number=Plur	23	compound:smixut	_	SpaceAfter=No
+25	,	,	PUNCT	PUNCT	_	26	punct	_	_
+26	נאמן	נאמן	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	20	acl	_	_
+27-28	במידה	_	_	_	_	_	_	_	_
+27	ב	ב	ADP	ADP	_	28	case	_	_
+28	מידה	מידה	NOUN	NOUN	Gender=Fem|Number=Sing	26	obl	_	_
+29	רבה	רב	ADJ	ADJ	Gender=Fem|Number=Sing	28	amod	_	_
+30-31	לזה	_	_	_	_	_	_	_	_
+30	ל	ל	ADP	ADP	_	31	case	_	_
+31	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	26	obl	_	_
+32-33	שאפשר	_	_	_	_	_	_	_	_
+32	ש	ש	SCONJ	SCONJ	_	34	mark	_	_
+33	אפשר	אפשר	AUX	AUX	VerbType=Mod	34	aux	_	_
+34	למצוא	מצא	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	31	acl:relcl	_	_
+35-36	בהרבה	_	_	_	_	_	_	_	_
+35	ב	ב	ADP	ADP	_	37	case	_	_
+36	הרבה	הרבה	DET	DET	Definite=Cons	37	det	_	_
+37	אוסטריות	אוסטרי	NOUN	NOUN	Gender=Fem|Number=Plur	34	obl	_	_
+38	צנועות	צנוע	ADJ	ADJ	Gender=Fem|Number=Plur	37	amod	_	_
+39-40	בכל	_	_	_	_	_	_	_	_
+39	ב	ב	ADP	ADP	_	41	case	_	_
+40	כל	כול	DET	DET	Definite=Cons	41	det	_	_
+41	רחבי	רחב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	34	obl	_	_
+42	איטליה	איטליה	PROPN	PROPN	_	41	compound:smixut	_	SpaceAfter=No
+43	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:248_1
+# doc_range = 1330-1514
+# sent_id = 6110
+# text = המינסטרונה והפסטה אי-פגיולי (מרק שעועית עם פסטה) של פיורלה הם דוגמאות מרשימות למטבח האיטלקי הכפרי.
+1-2	המינסטרונה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מינסטרונה	מינסטרונה	PROPN	PROPN	_	18	nsubj	_	_
+3-5	והפסטה	_	_	_	_	_	_	_	_
+3	ו	ו	CCONJ	CCONJ	_	5	cc	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	פסטה	פסטה	NOUN	NOUN	Gender=Fem|Number=Sing	2	conj	_	_
+6	אי	אי	NOUN	NOUN	Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No
+7	-	-	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+8	פגיולי	פגיולי	PROPN	PROPN	_	6	flat:name	_	_
+9	(	(	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+10	מרק	מרק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	appos	_	_
+11	שעועית	שעועית	NOUN	NOUN	Gender=Fem|Number=Sing	10	compound:smixut	_	_
+12	עם	עם	ADP	ADP	_	13	case	_	_
+13	פסטה	פסטה	NOUN	NOUN	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	)	)	PUNCT	PUNCT	_	10	punct	_	_
+15	של	של	ADP	ADP	Case=Gen	16	case	_	_
+16	פיורלה	פיורלה	PROPN	PROPN	_	5	nmod	_	_
+17	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|Polarity=Pos	18	cop	_	_
+18	דוגמאות	דוגמה	NOUN	NOUN	Gender=Fem|Number=Plur	0	root	_	_
+19	מרשימות	מרשים	ADJ	ADJ	Gender=Fem|Number=Plur	18	amod	_	_
+20-22	למטבח	_	_	_	_	_	_	_	_
+20	ל	ל	ADP	ADP	_	22	case	_	_
+21	ה_	ה	DET	DET	PronType=Art|Definite=Def	22	det	_	_
+22	מטבח	מטבח	NOUN	NOUN	Gender=Masc|Number=Sing	18	nmod	_	_
+23-24	האיטלקי	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	איטלקי	איטלקי	ADJ	ADJ	Gender=Masc|Number=Sing	22	amod	_	_
+25-26	הכפרי	_	_	_	_	_	_	_	SpaceAfter=No
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	כפרי	כפרי	ADJ	ADJ	Gender=Masc|Number=Sing	22	amod	_	_
+27	.	.	PUNCT	PUNCT	_	18	punct	_	_
+
+# doc_id = htb:248_1
+# doc_range = 1516-1721
+# sent_id = 6111
+# text = אין שום דבר מתוחכם או מורכב במרקים הללו, אבל משום שהם עשירים, מלאים בירקות ומתובלים בצורה מושלמת, הם תמיד מהנים.
+1	אין	אין	VERB	VERB	HebExistential=Yes	0	root	_	_
+2	שום	שום	DET	DET	Definite=Cons	3	det	_	_
+3	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Sing	1	nsubj	_	_
+4	מתוחכם	מתוחכם	ADJ	ADJ	Gender=Masc|Number=Sing	3	amod	_	_
+5	או	או	CCONJ	CCONJ	_	6	cc	_	_
+6	מורכב	מורכב	ADJ	ADJ	Gender=Masc|Number=Sing	4	conj	_	_
+7-9	במרקים	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	1	dep	_	_
+8	ה_	ה	DET	DET	PronType=Art|Definite=Def	9	det	_	_
+9	מרקים	מרק	NOUN	NOUN	Gender=Masc|Number=Plur	1	dep	_	_
+10	הללו	הללו	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	9	det	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	29	punct	_	_
+12	אבל	אבל	CCONJ	CCONJ	_	29	cc	_	_
+13	משום	משום	SCONJ	SCONJ	_	16	mark	_	_
+14-15	שהם	_	_	_	_	_	_	_	_
+14	ש	ש	SCONJ	SCONJ	_	13	fixed	_	_
+15	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
+16	עשירים	עשיר	ADJ	ADJ	Gender=Masc|Number=Plur	29	advcl	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	18	punct	_	_
+18	מלאים	מלא	ADJ	ADJ	Gender=Masc|Number=Plur	16	conj	_	_
+19-20	בירקות	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	ירקות	ירקות	NOUN	NOUN	Gender=Masc|Number=Plur	18	obl	_	_
+21-22	ומתובלים	_	_	_	_	_	_	_	_
+21	ו	ו	CCONJ	CCONJ	_	22	cc	_	_
+22	מתובלים	תובל	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	16	conj	_	_
+23-24	בצורה	_	_	_	_	_	_	_	_
+23	ב	ב	ADP	ADP	_	24	case	_	_
+24	צורה	צורה	NOUN	NOUN	Gender=Fem|Number=Sing	22	obl	_	_
+25	מושלמת	מושלם	ADJ	ADJ	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	PUNCT	_	16	punct	_	_
+27	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	29	nsubj	_	_
+28	תמיד	תמיד	ADV	ADV	_	29	advmod	_	_
+29	מהנים	מהנה	VERB	VERB	Tense=Pres|VerbForm=Part	1	conj	_	SpaceAfter=No
+30	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:248_1
+# doc_range = 1723-1880
+# sent_id = 6112
+# text = הניוקי מומלץ מאוד ורוטב הפסטו הטוב המצורף למנה עשוי בסגנון גנואה, עם הרבה שמנת מתוקה.
+1-2	הניוקי	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	ניוקי	ניוקי	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	מומלץ	הומלץ	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+4	מאוד	מאוד	ADV	ADV	_	3	advmod	_	_
+5-6	ורוטב	_	_	_	_	_	_	_	_
+5	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+6	רוטב	רוטב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	16	nsubj	_	_
+7-8	הפסטו	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	פסטו	פסטו	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+9-10	הטוב	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	טוב	טוב	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	_
+11-12	המצורף	_	_	_	_	_	_	_	_
+11	ה	ה	SCONJ	SCONJ	_	12	mark	_	_
+12	מצורף	צורף	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	6	acl:relcl	_	_
+13-15	למנה	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	15	case	_	_
+14	ה_	ה	DET	DET	PronType=Art|Definite=Def	15	det	_	_
+15	מנה	מנה	NOUN	NOUN	Gender=Fem|Number=Sing	12	obl	_	_
+16	עשוי	עשה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	3	conj	_	_
+17-18	בסגנון	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	_	18	case	_	_
+18	סגנון	סגנון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	16	obl	_	_
+19	גנואה	גנואה	PROPN	PROPN	_	18	compound:smixut	_	SpaceAfter=No
+20	,	,	PUNCT	PUNCT	_	23	punct	_	_
+21	עם	עם	ADP	ADP	_	23	case	_	_
+22	הרבה	הרבה	DET	DET	Definite=Cons	23	det	_	_
+23	שמנת	שמנת	NOUN	NOUN	Gender=Fem|Number=Sing	16	obl	_	_
+24	מתוקה	מתוק	ADJ	ADJ	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:248_1
+# doc_range = 1882-2151
+# sent_id = 6113
+# text = הפסילי פוטנסקה, המומלצת אף היא, נראית כמו ערימה של חולצי פקקים שעליה יצקו רוטב טעים של עגבניות, זיתים שחורים וירוקים, פטריות, צלפים, שום ושמן זית.
+1	הפסילי	הפסילי	PROPN	PROPN	_	9	dep	_	_
+2	פוטנסקה	פוטנסקה	PROPN	PROPN	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	5	punct	_	_
+4-5	המומלצת	_	_	_	_	_	_	_	_
+4	ה	ה	SCONJ	SCONJ	_	5	mark	_	_
+5	מומלצת	הומלץ	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	1	acl:relcl	_	_
+6	אף	אף	ADV	ADV	_	7	advmod	_	_
+7	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj:pass	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	1	punct	_	_
+9	נראית	נראה	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	0	root	_	_
+10	כמו	כמו	ADP	ADP	_	11	case	_	_
+11	ערימה	ערימה	NOUN	NOUN	Gender=Fem|Number=Sing	9	obl	_	_
+12	של	של	ADP	ADP	Case=Gen	13	case	_	_
+13	חולצי	חולץ	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	11	nmod	_	_
+14	פקקים	פקק	NOUN	NOUN	Gender=Masc|Number=Plur	13	compound:smixut	_	_
+15-17	שעליה	_	_	_	_	_	_	_	_
+15	ש	ש	SCONJ	SCONJ	_	18	mark	_	_
+16	עליה	עליה	ADP	ADP	_	17	case	_	_
+17	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obl	_	_
+18	יצקו	יצק	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	11	acl:relcl	_	_
+19	רוטב	רוטב	NOUN	NOUN	Gender=Masc|Number=Sing	18	obj	_	_
+20	טעים	טעים	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	_
+21	של	של	ADP	ADP	Case=Gen	22	case	_	_
+22	עגבניות	עגבנייה	NOUN	NOUN	Gender=Fem|Number=Plur	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	PUNCT	_	24	punct	_	_
+24	זיתים	זית	NOUN	NOUN	Gender=Fem|Number=Plur	19	conj	_	_
+25	שחורים	שחור	ADJ	ADJ	Gender=Masc|Number=Plur	24	amod	_	_
+26-27	וירוקים	_	_	_	_	_	_	_	SpaceAfter=No
+26	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
+27	ירוקים	ירוק	ADJ	ADJ	Gender=Masc|Number=Plur	25	conj	_	_
+28	,	,	PUNCT	PUNCT	_	29	punct	_	_
+29	פטריות	פטרייה	NOUN	NOUN	Gender=Fem|Number=Plur	19	conj	_	SpaceAfter=No
+30	,	,	PUNCT	PUNCT	_	31	punct	_	_
+31	צלפים	צלף	NOUN	NOUN	Gender=Masc|Number=Plur	19	conj	_	SpaceAfter=No
+32	,	,	PUNCT	PUNCT	_	33	punct	_	_
+33	שום	שום	NOUN	NOUN	Gender=Masc|Number=Sing	19	conj	_	_
+34-35	ושמן	_	_	_	_	_	_	_	_
+34	ו	ו	CCONJ	CCONJ	_	35	cc	_	_
+35	שמן	שמן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	19	conj	_	_
+36	זית	זית	NOUN	NOUN	Gender=Fem|Number=Sing	35	compound:smixut	_	SpaceAfter=No
+37	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:248_1
+# doc_range = 2153-2279
+# sent_id = 6114
+# text = כמנה עיקרית גם הסקלופיני אלה-מרסלה וגם הספזטינו היו בחירות מצוינות.
+1-2	כמנה	_	_	_	_	_	_	_	_
+1	כ	כ	ADP	ADP	_	2	case	_	_
+2	מנה	מנה	NOUN	NOUN	Gender=Fem|Number=Sing	15	nmod	_	_
+3	עיקרית	עיקרי	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+4	גם	גם	ADV	ADV	_	6	advmod	_	_
+5-6	הסקלופיני	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	סקלופיני	סקלופיני	NOUN	NOUN	_	15	nsubj	_	_
+7	אלה	אלה	PROPN	PROPN	_	6	flat:name	_	SpaceAfter=No
+8	-	-	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+9	מרסלה	מרסלה	PROPN	PROPN	_	6	flat:name	_	_
+10-11	וגם	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
+11	גם	גם	ADV	ADV	_	13	advmod	_	_
+12-13	הספזטינו	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	ספזטינו	ספזטינו	NOUN	NOUN	_	6	conj	_	_
+14	היו	היו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	15	cop	_	_
+15	בחירות	בחירה	NOUN	NOUN	Gender=Fem|Number=Plur	0	root	_	_
+16	מצוינות	מצוין	ADJ	ADJ	Gender=Fem|Number=Plur	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	15	punct	_	_
+
+# doc_id = htb:248_1
+# doc_range = 2281-2447
+# sent_id = 6115
+# text = במנה הראשונה טובלים כתיתות עגל בקמח מתובל בעשבי תיבול ואחר משחימים אותן בחמאה וביין מרסלה.
+1-3	במנה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	מנה	מנה	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	_
+4-5	הראשונה	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	ראשונה	ראשונה	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	_
+6	טובלים	טבל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+7	כתיתות	כתיתה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	6	obj	_	_
+8	עגל	עגל	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound:smixut	_	_
+9-10	בקמח	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	קמח	קמח	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
+11	מתובל	תובל	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	10	acl	_	_
+12-13	בעשבי	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	עשבי	עשב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	11	obl	_	_
+14	תיבול	תיבול	NOUN	NOUN	Gender=Masc|Number=Sing	13	compound:smixut	_	_
+15-16	ואחר	_	_	_	_	_	_	_	_
+15	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+16	אחר	אחר	ADV	ADV	_	17	advmod	_	_
+17	משחימים	השחים	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	6	conj	_	_
+18-19	אותן	_	_	_	_	_	_	_	_
+18	את	את	ADP	ADP	Case=Acc	19	case	_	_
+19	_הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	17	obj	_	_
+20-21	בחמאה	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	חמאה	חמאה	NOUN	NOUN	Gender=Fem|Number=Sing	17	obl	_	_
+22-24	וביין	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	_	24	cc	_	_
+23	ב	ב	ADP	ADP	_	24	case	_	_
+24	יין	יין	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	21	conj	_	_
+25	מרסלה	מרסלה	PROPN	PROPN	_	24	compound:smixut	_	SpaceAfter=No
+26	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:248_1
+# doc_range = 2449-2588
+# sent_id = 6116
+# text = המנה השנייה, ראגו עגל מליגוריה, עשירה בעגבניות, שמן, חמאה ועשבי מאכל טריים.
+1-2	המנה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מנה	מנה	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj	_	_
+3-4	השנייה	_	_	_	_	_	_	_	SpaceAfter=No
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	שנייה	שני	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+5	,	,	PUNCT	PUNCT	_	2	punct	_	_
+6	ראגו	ראגו	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	_
+7	עגל	עגל	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+8-9	מליגוריה	_	_	_	_	_	_	_	SpaceAfter=No
+8	מ	מ	ADP	ADP	_	9	case	_	_
+9	ליגוריה	ליגוריה	PROPN	PROPN	_	6	flat:name	_	_
+10	,	,	PUNCT	PUNCT	_	11	punct	_	_
+11	עשירה	עשיר	ADJ	ADJ	Gender=Fem|Number=Sing	6	acl	_	_
+12-13	בעגבניות	_	_	_	_	_	_	_	SpaceAfter=No
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	עגבניות	עגבנייה	NOUN	NOUN	Gender=Fem|Number=Plur	11	obl	_	_
+14	,	,	PUNCT	PUNCT	_	17	punct	_	_
+15	שמן	שמן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	dep	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	15	punct	_	_
+17	חמאה	חמאה	NOUN	NOUN	Gender=Fem|Number=Sing	13	conj	_	_
+18-19	ועשבי	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+19	עשבי	עשב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	13	conj	_	_
+20	מאכל	מאכל	NOUN	NOUN	Gender=Masc|Number=Sing	19	compound:smixut	_	_
+21	טריים	טרי	ADJ	ADJ	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:248_1
+# doc_range = 2590-2647
+# sent_id = 6117
+# text = כל מנות הקינוח של פיורלה טובות.
+1	כל	כול	DET	DET	Definite=Cons	2	det	_	_
+2	מנות	מנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	7	nsubj	_	_
+3-4	הקינוח	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	קינוח	קינוח	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+5	של	של	ADP	ADP	Case=Gen	6	case	_	_
+6	פיורלה	פיורלה	PROPN	PROPN	_	2	nmod:poss	_	_
+7	טובות	טוב	ADJ	ADJ	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:248_1
+# doc_range = 2649-2944
+# sent_id = 6118
+# text = הטירמיסו שלה הוא תערובת ערבה של גבינת מרסקאפולי רכה, קפה ושוקולד והביסקוויטה דה פיורלה, המבוססת על ביסקוויטים מרוסקים, מוס שוקולד ושרי ברנדי עשירה באותה המידה.
+1-2	הטירמיסו	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	טירמיסו	טירמיסו	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
+3-4	שלה	_	_	_	_	_	_	_	_
+3	של	של	ADP	ADP	Case=Gen	4	case	_	_
+4	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	6	cop	_	_
+6	תערובת	תערובת	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+7	ערבה	ערב	ADJ	ADJ	Gender=Fem|Number=Sing	6	amod	_	_
+8	של	של	ADP	ADP	Case=Gen	9	case	_	_
+9	גבינת	גבינה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	nmod	_	_
+10	מרסקאפולי	מרסקאפולי	PROPN	PROPN	_	9	compound:smixut	_	_
+11	רכה	רך	ADJ	ADJ	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	13	punct	_	_
+13	קפה	קפה	NOUN	NOUN	Gender=Masc|Number=Sing	9	conj	_	_
+14-15	ושוקולד	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+15	שוקולד	שוקולד	NOUN	NOUN	Gender=Masc|Number=Sing	9	conj	_	_
+16-18	והביסקוויטה	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	ביסקוויטה	ביסקוויט	NOUN	NOUN	_	15	conj	_	_
+19	דה	דה	PROPN	PROPN	_	18	flat:name	_	_
+20	פיורלה	פיורלה	PROPN	PROPN	_	18	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	23	punct	_	_
+22-23	המבוססת	_	_	_	_	_	_	_	_
+22	ה	ה	SCONJ	SCONJ	_	23	mark	_	_
+23	מבוססת	בוסס	VERB	VERB	Gender=Fem|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	18	acl:relcl	_	_
+24	על	על	ADP	ADP	_	25	case	_	_
+25	ביסקוויטים	ביסקוויט	NOUN	NOUN	Gender=Masc|Number=Plur	23	obl	_	_
+26	מרוסקים	מרוסק	ADJ	ADJ	Gender=Masc|Number=Plur	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	PUNCT	_	28	punct	_	_
+28	מוס	מוס	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	25	conj	_	_
+29	שוקולד	שוקולד	NOUN	NOUN	Gender=Masc|Number=Sing	28	compound:smixut	_	_
+30-31	ושרי	_	_	_	_	_	_	_	_
+30	ו	ו	CCONJ	CCONJ	_	31	cc	_	_
+31	שרי	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	25	conj	_	_
+32	ברנדי	ברנדי	NOUN	NOUN	Gender=Masc|Number=Sing	31	compound:smixut	_	_
+33	עשירה	עשיר	ADJ	ADJ	Gender=Fem|Number=Sing	6	amod	_	_
+34-35	באותה	_	_	_	_	_	_	_	_
+34	ב	ב	ADP	ADP	_	37	case	_	_
+35	אותה	אותו	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	37	det	_	_
+36-37	המידה	_	_	_	_	_	_	_	SpaceAfter=No
+36	ה	ה	DET	DET	Definite=Def|PronType=Art	37	det	_	_
+37	מידה	מידה	NOUN	NOUN	Gender=Fem|Number=Sing	6	nmod	_	_
+38	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:248_1
+# doc_range = 2946-3023
+# sent_id = 6119
+# text = ארוחה המבוססת על מנות אלה תגיע ל110 ש"ח לזוג.
+1	ארוחה	ארוחה	NOUN	NOUN	Gender=Fem|Number=Sing	7	nsubj	_	_
+2-3	המבוססת	_	_	_	_	_	_	_	_
+2	ה	ה	SCONJ	SCONJ	_	3	mark	_	_
+3	מבוססת	בוסס	VERB	VERB	Gender=Fem|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	1	acl:relcl	_	_
+4	על	על	ADP	ADP	_	5	case	_	_
+5	מנות	מנה	NOUN	NOUN	Gender=Fem|Number=Plur	3	obl	_	_
+6	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	5	det	_	_
+7	תגיע	הגיע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+8-9	ל110	_	_	_	_	_	_	_	_
+8	ל	ל	ADP	ADP	_	10	case	_	_
+9	110	110	NUM	NUM	_	10	nummod	_	_
+10	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	7	obl	_	_
+11-12	לזוג	_	_	_	_	_	_	_	SpaceAfter=No
+11	ל	ל	ADP	ADP	_	12	case	_	_
+12	זוג	זוג	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod	_	_
+13	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:248_1
+# doc_range = 3026-3109
+# sent_id = 6120
+# text = חצי קנקן של יין הבית יוסיף שמונה שקלים לחשבון.
+1	חצי	חצי	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	קנקן	קנקן	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+3	של	של	ADP	ADP	Case=Gen	4	case	_	_
+4	יין	יין	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	nmod:poss	_	_
+5-6	הבית	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	בית	בית	NOUN	NOUN	Gender=Masc|Number=Sing	4	compound:smixut	_	_
+7	יוסיף	הוסיף	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+8	שמונה	שמונה	NUM	NUM	Gender=Masc|Number=Plur	9	nummod	_	_
+9	שקלים	שקל	NOUN	NOUN	Gender=Masc|Number=Plur	7	obj	_	_
+10-12	לחשבון	_	_	_	_	_	_	_	SpaceAfter=No
+10	ל	ל	ADP	ADP	_	12	case	_	_
+11	ה_	ה	DET	DET	PronType=Art|Definite=Def	12	det	_	_
+12	חשבון	חשבון	NOUN	NOUN	Gender=Masc|Number=Sing	9	nmod	_	_
+13	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:248_1
+# doc_range = 3111-3295
+# sent_id = 6121
+# text = בהתחשב באווירה האינטימית הנעימה ובאיכות הגבוהה הקבועה של האוכל, זה מקום שכדאי לנסות אותו יותר מפעם אחת.
+1	בהתחשב	התחשב	ADP	ADP	_	4	case	_	_
+2-4	באווירה	_	_	_	_	_	_	_	_
+2	ב	ב	ADP	ADP	_	1	fixed	_	_
+3	ה_	ה	DET	DET	PronType=Art|Definite=Def	4	det	_	_
+4	אווירה	אווירה	NOUN	NOUN	Gender=Fem|Number=Sing	22	nmod	_	_
+5-6	האינטימית	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	אינטימית	אינטימי	ADJ	ADJ	Gender=Fem|Number=Sing	4	amod	_	_
+7-8	הנעימה	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	נעימה	נעים	ADJ	ADJ	Gender=Fem|Number=Sing	4	amod	_	_
+9-12	ובאיכות	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+10	ב	ב	ADP	ADP	_	12	case	_	_
+11	ה_	ה	DET	DET	PronType=Art|Definite=Def	12	det	_	_
+12	איכות	איכות	NOUN	NOUN	Gender=Fem|Number=Sing	4	conj	_	_
+13-14	הגבוהה	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	גבוהה	גבוה	ADJ	ADJ	Gender=Fem|Number=Sing	12	amod	_	_
+15-16	הקבועה	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	קבועה	קבוע	ADJ	ADJ	Gender=Fem|Number=Sing	12	amod	_	_
+17	של	של	ADP	ADP	Case=Gen	19	case	_	_
+18-19	האוכל	_	_	_	_	_	_	_	SpaceAfter=No
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	אוכל	אוכל	NOUN	NOUN	Gender=Masc|Number=Sing	12	nmod	_	_
+20	,	,	PUNCT	PUNCT	_	4	punct	_	_
+21	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	22	nsubj	_	_
+22	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+23-24	שכדאי	_	_	_	_	_	_	_	_
+23	ש	ש	SCONJ	SCONJ	_	25	mark	_	_
+24	כדאי	כדאי	AUX	AUX	VerbType=Mod	25	aux	_	_
+25	לנסות	ניסה	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	22	acl:relcl	_	_
+26-27	אותו	_	_	_	_	_	_	_	_
+26	את	את	ADP	ADP	Case=Acc	27	case	_	_
+27	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
+28	יותר	יותר	ADV	ADV	_	30	advmod	_	HebSource=ConvUncertainHead
+29-30	מפעם	_	_	_	_	_	_	_	_
+29	מ	מ	ADP	ADP	_	28	fixed	_	_
+30	פעם	פעם	NOUN	NOUN	Gender=Fem|Number=Sing	25	obl	_	_
+31	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	30	nummod	_	SpaceAfter=No
+32	.	.	PUNCT	PUNCT	_	22	punct	_	_
+

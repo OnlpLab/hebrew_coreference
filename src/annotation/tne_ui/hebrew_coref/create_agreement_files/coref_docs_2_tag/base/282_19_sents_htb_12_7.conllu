@@ -1,0 +1,753 @@
+# doc_id = htb:12_7
+# doc_range = 17272-17290
+# sent_id = 254
+# text = עצה מספר 9.
+1	עצה	עצה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+2	מספר	מספר	NOUN	NOUN	Gender=Masc|Number=Sing	1	nmod	_	HebSource=ConvUncertainLabel
+3	9	9	NUM	NUM	_	2	nummod	_	SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:12_7
+# doc_range = 17292-17359
+# sent_id = 255
+# text = גייס והפקע לרשותך טרמינולוגיה קיימת.
+1	גייס	גייס	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Mood=Imp|Number=Sing|Person=2|Voice=Act	0	root	_	_
+2-3	והפקע	_	_	_	_	_	_	_	_
+2	ו	ו	CCONJ	CCONJ	_	3	cc	_	_
+3	הפקע	הפקיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Mood=Imp|Number=Sing|Person=2|Voice=Act	1	conj	_	_
+4-5	לרשותך	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	רשותך	רשות	NOUN	NOUN	_	3	obl	_	_
+6	טרמינולוגיה	טרמינולוגיה	NOUN	NOUN	_	3	obj	_	_
+7	קיימת	קיים	ADJ	ADJ	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:12_7
+# doc_range = 17361-17533
+# sent_id = 256
+# text = נראה שיעד המשחק הוא לחטוף "ביטחון לאומי", נושא רב-שנתי עמיד, ולנווט אותו לתחום המומחיות שלך.
+1	נראה	נראה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	0	root	_	_
+2-3	שיעד	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	7	mark	_	_
+3	יעד	יעד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nsubj	_	_
+4-5	המשחק	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	3	compound:smixut	_	_
+6	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	7	cop	_	_
+7	לחטוף	חטף	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	1	ccomp	_	_
+8	"	"	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+9	ביטחון	ביטחון	NOUN	NOUN	Gender=Masc|Number=Sing	7	obj	_	_
+10	לאומי	לאומי	ADJ	ADJ	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	"	"	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	13	punct	_	_
+13	נושא	נושא	NOUN	NOUN	Gender=Masc|Number=Sing	9	obj	_	_
+14	רב	רב	ADV	ADV	Prefix=Yes	16	compound:affix	_	SpaceAfter=No
+15	-	-	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
+16	שנתי	שנתי	ADJ	ADJ	Gender=Masc|Number=Sing	13	amod	_	_
+17	עמיד	עמיד	ADJ	ADJ	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	20	punct	_	_
+19-20	ולנווט	_	_	_	_	_	_	_	_
+19	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
+20	לנווט	ניווט	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	7	conj	_	_
+21-22	אותו	_	_	_	_	_	_	_	_
+21	את	את	ADP	ADP	Case=Acc	22	case	_	_
+22	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+23-24	לתחום	_	_	_	_	_	_	_	_
+23	ל	ל	ADP	ADP	_	24	case	_	_
+24	תחום	תחום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	20	obl	_	_
+25-26	המומחיות	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	מומחיות	מומחיות	NOUN	NOUN	Gender=Fem|Number=Sing	24	compound:smixut	_	_
+27-28	שלך	_	_	_	_	_	_	_	SpaceAfter=No
+27	של	של	ADP	ADP	Case=Gen	28	case	_	_
+28	_אתה	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+29	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:12_7
+# doc_range = 17535-17738
+# sent_id = 257
+# text = בעלי המודעות הסביבתית הכלל-עולמית מדגישים שכעת אי-אפשר כמעט להבדיל בין ביטחון לאומי לבין "ביטחון כדור הארץ".
+1	בעלי	בעל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	10	nsubj	_	_
+2-3	המודעות	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	מודעות	מודעות	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+4-5	הסביבתית	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	סביבתית	סביבתי	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	_
+6-7	הכלל	_	_	_	_	_	_	_	SpaceAfter=No
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+7	כלל	כלל	ADV	ADV	Prefix=Yes	9	compound:affix	_	_
+8	-	-	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
+9	עולמית	עולמי	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	_
+10	מדגישים	הדגיש	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+11-12	שכעת	_	_	_	_	_	_	_	_
+11	ש	ש	SCONJ	SCONJ	_	17	mark	_	_
+12	כעת	כעת	ADV	ADV	_	17	advmod	_	_
+13	אי	אי	ADV	ADV	Prefix=Yes	17	advmod	_	SpaceAfter=No
+14	-	-	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No
+15	אפשר	אפשר	AUX	AUX	VerbType=Mod	17	aux	_	_
+16	כמעט	כמעט	ADV	ADV	_	17	advmod	_	_
+17	להבדיל	הבדיל	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	10	ccomp	_	_
+18	בין	בין	ADP	ADP	_	19	case	_	_
+19	ביטחון	ביטחון	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	_
+20	לאומי	לאומי	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	_
+21	לבין	לבין	ADP	ADP	_	23	case	_	_
+22	"	"	PUNCT	PUNCT	_	23	punct	_	SpaceAfter=No
+23	ביטחון	ביטחון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	19	conj	_	_
+24	כדור	כדור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	23	compound:smixut	_	_
+25-26	הארץ	_	_	_	_	_	_	_	SpaceAfter=No
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	ארץ	ארץ	NOUN	NOUN	Gender=Fem|Number=Sing	24	compound:smixut	_	_
+27	"	"	PUNCT	PUNCT	_	23	punct	_	SpaceAfter=No
+28	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:12_7
+# doc_range = 17740-17986
+# sent_id = 258
+# text = הטיפוסים לובשי החליפות הכהות, השייכים לזרם מרכזי יותר, אומרים ששום מדינה אינה יכולה להיות בטוחה אם לא יהיה "מבנה ביטחון אירופי יציב".
+1-2	הטיפוסים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	טיפוסים	טיפוס	NOUN	NOUN	Gender=Masc|Number=Plur	16	nsubj	_	_
+3	לובשי	לבש	VERB	VERB	Definite=Cons|Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	2	amod	_	_
+4-5	החליפות	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	חליפות	חליפה	NOUN	NOUN	Gender=Fem|Number=Plur	3	compound:smixut	_	_
+6-7	הכהות	_	_	_	_	_	_	_	SpaceAfter=No
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	כהות	כהה	ADJ	ADJ	Gender=Fem|Number=Plur	5	amod	_	_
+8	,	,	PUNCT	PUNCT	_	10	punct	_	_
+9-10	השייכים	_	_	_	_	_	_	_	_
+9	ה	ה	SCONJ	SCONJ	_	10	mark	_	_
+10	שייכים	שייך	ADJ	ADJ	Gender=Masc|Number=Plur	2	acl:relcl	_	_
+11-12	לזרם	_	_	_	_	_	_	_	_
+11	ל	ל	ADP	ADP	_	12	case	_	_
+12	זרם	זרם	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
+13	מרכזי	מרכזי	ADJ	ADJ	Gender=Masc|Number=Sing	12	amod	_	_
+14	יותר	יותר	ADV	ADV	_	13	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	2	punct	_	_
+16	אומרים	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+17-18	ששום	_	_	_	_	_	_	_	_
+17	ש	ש	SCONJ	SCONJ	_	22	mark	_	_
+18	שום	שום	DET	DET	Definite=Cons	19	det	_	_
+19	מדינה	מדינה	NOUN	NOUN	Gender=Fem|Number=Sing	22	dep	_	_
+20	אינה	אינו	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	22	aux	_	_
+21	יכולה	יכול	AUX	AUX	Gender=Fem|Number=Sing|Person=1,2,3|VerbForm=Part|VerbType=Mod	22	aux	_	_
+22	להיות	היה	AUX	AUX	Polarity=Pos|VerbForm=Inf|VerbType=Cop	16	ccomp	_	_
+23	בטוחה	בטוח	ADJ	ADJ	Gender=Fem|Number=Sing	22	obl	_	_
+24	אם	אם	SCONJ	SCONJ	_	26	mark	_	_
+25	לא	לא	ADV	ADV	Polarity=Neg	26	advmod	_	_
+26	יהיה	היה	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	22	advcl	_	_
+27	"	"	PUNCT	PUNCT	_	28	punct	_	SpaceAfter=No
+28	מבנה	מבנה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	26	nsubj	_	_
+29	ביטחון	ביטחון	NOUN	NOUN	Gender=Masc|Number=Sing	28	compound:smixut	_	_
+30	אירופי	אירופי	ADJ	ADJ	Gender=Masc|Number=Sing	28	amod	_	_
+31	יציב	יציב	ADJ	ADJ	Gender=Masc|Number=Sing	28	amod	_	SpaceAfter=No
+32	"	"	PUNCT	PUNCT	_	28	punct	_	SpaceAfter=No
+33	.	.	PUNCT	PUNCT	_	16	punct	_	_
+
+# doc_id = htb:12_7
+# doc_range = 17988-18364
+# sent_id = 259
+# text = וכלכלנים בחבורת מקדמי המדיניות התעשייתית, יחד עם מחנכים בחבורת החינוך למצוינות, ניסו בעורמה לשים ידם על כספי מדיניות החוץ, בטענה שבעתיד יוגדר הביטחון הלאומי במונחים של כושר תחרות כלכלי, לא של עוצמה צבאית.
+1-2	וכלכלנים	_	_	_	_	_	_	_	_
+1	ו	ו	CCONJ	CCONJ	_	21	cc	_	_
+2	כלכלנים	כלכלן	NOUN	NOUN	Gender=Masc|Number=Plur	21	nsubj	_	_
+3-4	בחבורת	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	חבורת	חבורה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	nmod	_	_
+5	מקדמי	מקדם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	compound:smixut	_	_
+6-7	המדיניות	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	מדיניות	מדיניות	NOUN	NOUN	Gender=Fem|Number=Sing	5	compound:smixut	_	_
+8-9	התעשייתית	_	_	_	_	_	_	_	SpaceAfter=No
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	תעשייתית	תעשייתי	ADJ	ADJ	Gender=Fem|Number=Sing	7	amod	_	_
+10	,	,	PUNCT	PUNCT	_	13	punct	_	_
+11	יחד	יחד	ADV	ADV	_	13	case	_	_
+12	עם	עם	ADP	ADP	_	11	fixed	_	_
+13	מחנכים	מחנך	NOUN	NOUN	Gender=Masc|Number=Plur	2	nmod	_	_
+14-15	בחבורת	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	חבורת	חבורה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	13	nmod	_	_
+16-17	החינוך	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	חינוך	חינוך	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	_
+18-19	למצוינות	_	_	_	_	_	_	_	SpaceAfter=No
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	מצוינות	מצוינות	NOUN	NOUN	Gender=Fem|Number=Sing	17	nmod	_	_
+20	,	,	PUNCT	PUNCT	_	2	punct	_	_
+21	ניסו	ניסה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+22-23	בעורמה	_	_	_	_	_	_	_	_
+22	ב	ב	ADV	ADV	_	21	advmod	_	_
+23	עורמה	עורמה	NOUN	NOUN	Gender=Fem|Number=Sing	22	fixed	_	_
+24	לשים	שם	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	21	xcomp	_	_
+25-27	ידם	_	_	_	_	_	_	_	_
+25	יד	יד	NOUN	NOUN	Gender=Fem|Number=Sing	24	obj	_	_
+26	_של_	של	ADP	ADP	Case=Gen	27	case:gen	_	_
+27	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+28	על	על	ADP	ADP	_	29	case	_	_
+29	כספי	כסף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	24	obl	_	_
+30	מדיניות	מדיניות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	29	compound:smixut	_	_
+31-32	החוץ	_	_	_	_	_	_	_	SpaceAfter=No
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	30	compound:smixut	_	_
+33	,	,	PUNCT	PUNCT	_	35	punct	_	_
+34-35	בטענה	_	_	_	_	_	_	_	_
+34	ב	ב	ADP	ADP	_	35	case	_	_
+35	טענה	טענה	NOUN	NOUN	Gender=Fem|Number=Sing	24	obl	_	_
+36-39	שבעתיד	_	_	_	_	_	_	_	_
+36	ש	ש	SCONJ	SCONJ	_	40	mark	_	_
+37	ב	ב	ADP	ADP	_	39	case	_	_
+38	ה_	ה	DET	DET	PronType=Art|Definite=Def	39	det	_	_
+39	עתיד	עתיד	NOUN	NOUN	Gender=Masc|Number=Sing	40	obl	_	_
+40	יוגדר	הוגדר	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	35	acl:relcl	_	_
+41-42	הביטחון	_	_	_	_	_	_	_	_
+41	ה	ה	DET	DET	Definite=Def|PronType=Art	42	det	_	_
+42	ביטחון	ביטחון	NOUN	NOUN	Gender=Masc|Number=Sing	40	nsubj:pass	_	_
+43-44	הלאומי	_	_	_	_	_	_	_	_
+43	ה	ה	DET	DET	Definite=Def|PronType=Art	44	det	_	_
+44	לאומי	לאומי	ADJ	ADJ	Gender=Masc|Number=Sing	42	amod	_	_
+45-46	במונחים	_	_	_	_	_	_	_	_
+45	ב	ב	ADP	ADP	_	46	case	_	_
+46	מונחים	מונח	NOUN	NOUN	Gender=Masc|Number=Plur	40	obl	_	_
+47	של	של	ADP	ADP	Case=Gen	48	case	_	_
+48	כושר	כושר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	46	nmod	_	_
+49	תחרות	תחרות	NOUN	NOUN	Gender=Fem|Number=Sing	48	compound:smixut	_	_
+50	כלכלי	כלכלי	ADJ	ADJ	Gender=Masc|Number=Sing	48	amod	_	SpaceAfter=No
+51	,	,	PUNCT	PUNCT	_	54	punct	_	_
+52	לא	לא	ADV	ADV	Polarity=Neg	54	advmod	_	_
+53	של	של	ADP	ADP	Case=Gen	52	case	_	_
+54	עוצמה	עוצמה	NOUN	NOUN	Gender=Fem|Number=Sing	48	conj	_	_
+55	צבאית	צבאי	ADJ	ADJ	Gender=Fem|Number=Sing	54	amod	_	SpaceAfter=No
+56	.	.	PUNCT	PUNCT	_	21	punct	_	_
+
+# doc_id = htb:12_7
+# doc_range = 18366-18432
+# sent_id = 260
+# text = לגבי אנשים אלה סדאם חוסיין הוא מטרד.
+1	לגבי	לגבי	ADP	ADP	_	2	case	_	_
+2	אנשים	איש	NOUN	NOUN	Gender=Masc|Number=Plur	7	nmod	_	_
+3	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	2	det	_	_
+4	סדאם	סדאם	PROPN	PROPN	_	7	nsubj	_	_
+5	חוסיין	חוסיין	PROPN	PROPN	_	4	flat:name	_	_
+6	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	7	cop	_	_
+7	מטרד	מטרד	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:12_7
+# doc_range = 18434-18709
+# sent_id = 261
+# text = אבל סדאם חוסיין היה מתת-שמים לכל המומחים לפיקוח רב-צדדי על הנשק, הטוענים זה שנים שיש להפסיק את הזרמתו של נשק מתוחכם לדיקטטורים רברבנים בעולם השלישי.
+1	אבל	אבל	CCONJ	CCONJ	_	7	cc	_	_
+2	סדאם	סדאם	PROPN	PROPN	_	7	nsubj	_	_
+3	חוסיין	חוסיין	PROPN	PROPN	_	2	flat:name	_	_
+4	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	7	cop	_	_
+5	מתת	מתת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+6	-	-	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+7	שמים	שמיים	NOUN	NOUN	Gender=Masc|Number=Plur	0	root	_	_
+8-9	לכל	_	_	_	_	_	_	_	_
+8	ל	ל	ADP	ADP	_	11	case	_	_
+9	כל	כול	DET	DET	Definite=Cons	11	det	_	_
+10-11	המומחים	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	מומחים	מומחה	NOUN	NOUN	Gender=Masc|Number=Plur	7	nmod	_	_
+12-13	לפיקוח	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	_	13	case	_	_
+13	פיקוח	פיקוח	NOUN	NOUN	Gender=Masc|Number=Sing	11	nmod	_	_
+14	רב	רב	ADV	ADV	Prefix=Yes	16	compound:affix	_	SpaceAfter=No
+15	-	-	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
+16	צדדי	צדדי	ADJ	ADJ	Gender=Masc|Number=Sing	13	amod	_	_
+17	על	על	ADP	ADP	_	19	case	_	_
+18-19	הנשק	_	_	_	_	_	_	_	SpaceAfter=No
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	נשק	נשק	NOUN	NOUN	Gender=Masc|Number=Sing	13	nmod	_	_
+20	,	,	PUNCT	PUNCT	_	22	punct	_	_
+21-22	הטוענים	_	_	_	_	_	_	_	_
+21	ה	ה	SCONJ	SCONJ	_	22	mark	_	_
+22	טוענים	טען	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	11	acl:relcl	_	_
+23	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	24	det	_	_
+24	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	22	obl:tmod	_	_
+25-26	שיש	_	_	_	_	_	_	_	_
+25	ש	ש	SCONJ	SCONJ	_	27	mark	_	_
+26	יש	יש	AUX	AUX	VerbType=Mod	27	aux	_	_
+27	להפסיק	הפסיק	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	22	ccomp	_	_
+28	את	את	ADP	ADP	Case=Acc	29	case	_	_
+29-31	הזרמתו	_	_	_	_	_	_	_	_
+29	הזרמה	הזרמה	NOUN	NOUN	Gender=Fem|Number=Sing	27	obj	_	_
+30	_של_	של	ADP	ADP	Case=Gen	31	case:gen	_	_
+31	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+32	של	של	ADP	ADP	Case=Gen	33	case	_	_
+33	נשק	נשק	NOUN	NOUN	Gender=Masc|Number=Sing	29	nmod:poss	_	_
+34	מתוחכם	מתוחכם	ADJ	ADJ	Gender=Masc|Number=Sing	33	amod	_	_
+35-36	לדיקטטורים	_	_	_	_	_	_	_	_
+35	ל	ל	ADP	ADP	_	36	case	_	_
+36	דיקטטורים	דיקטטור	NOUN	NOUN	Gender=Masc|Number=Plur	29	nmod	_	_
+37	רברבנים	רברבן	ADJ	ADJ	Gender=Masc|Number=Plur	36	amod	_	_
+38-40	בעולם	_	_	_	_	_	_	_	_
+38	ב	ב	ADP	ADP	_	40	case	_	_
+39	ה_	ה	DET	DET	PronType=Art|Definite=Def	40	det	_	_
+40	עולם	עולם	NOUN	NOUN	Gender=Masc|Number=Sing	36	nmod	_	_
+41-42	השלישי	_	_	_	_	_	_	_	SpaceAfter=No
+41	ה	ה	DET	DET	Definite=Def|PronType=Art	42	det	_	_
+42	שלישי	שלישי	ADJ	ADJ	Gender=Masc|Number=Sing	40	amod	_	_
+43	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:12_7
+# doc_range = 18711-18923
+# sent_id = 262
+# text = מדובר בקומץ אנשים שניסו למשוך אליהם כספי מענקים בעת שהעולם המטיר דולרים עלאסטרטגיה גרעינית ופיקוח רב-צדדי על הנשק.
+1	מדובר	דובר	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+2-3	בקומץ	_	_	_	_	_	_	_	_
+2	ב	ב	ADP	ADP	_	3	case	_	_
+3	קומץ	קומץ	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	obl	_	_
+4	אנשים	איש	NOUN	NOUN	Gender=Masc|Number=Plur	3	compound:smixut	_	_
+5-6	שניסו	_	_	_	_	_	_	_	_
+5	ש	ש	SCONJ	SCONJ	_	6	mark	_	_
+6	ניסו	ניסה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	3	acl:relcl	_	_
+7	למשוך	משך	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8-9	אליהם	_	_	_	_	_	_	_	_
+8	אלי	אל	ADP	ADP	_	9	case	_	_
+9	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	obl	_	_
+10	כספי	כסף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	7	obj	_	_
+11	מענקים	מענק	NOUN	NOUN	Gender=Masc|Number=Plur	10	compound:smixut	_	_
+12-13	בעת	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	עת	עת	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
+14-16	שהעולם	_	_	_	_	_	_	_	_
+14	ש	ש	SCONJ	SCONJ	_	17	mark	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	עולם	עולם	NOUN	NOUN	Gender=Masc|Number=Sing	17	nsubj	_	_
+17	המטיר	המטיר	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	13	acl:relcl	_	_
+18	דולרים	דולר	NOUN	NOUN	Gender=Masc|Number=Plur	17	obj	_	_
+19-20	עלאסטרטגיה	_	_	_	_	_	_	_	_
+19	על	על	ADP	ADP	_	20	case	_	_
+20	אסטרטגיה	אסטרטגיה	NOUN	NOUN	_	17	obl	_	_
+21	גרעינית	גרעיני	ADJ	ADJ	Gender=Fem|Number=Sing	20	amod	_	_
+22-23	ופיקוח	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
+23	פיקוח	פיקוח	NOUN	NOUN	Gender=Masc|Number=Sing	20	conj	_	_
+24	רב	רב	ADV	ADV	Prefix=Yes	26	compound:affix	_	SpaceAfter=No
+25	-	-	PUNCT	PUNCT	_	24	punct	_	SpaceAfter=No
+26	צדדי	צדדי	ADJ	ADJ	Gender=Masc|Number=Sing	23	amod	_	_
+27	על	על	ADP	ADP	_	29	case	_	_
+28-29	הנשק	_	_	_	_	_	_	_	SpaceAfter=No
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	נשק	נשק	NOUN	NOUN	Gender=Masc|Number=Sing	23	nmod	_	_
+30	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:12_7
+# doc_range = 18926-19207
+# sent_id = 263
+# text = עובדה זו שימשה יסוד לתלונה שכיחה בתחום הפילנטרופיה: התמקדותם של קרנות וצוותות חשיבה במגמות אופנתיות גורמת לכך שהחברה בקושי ערוכה לגלים היסטוריים חדשים.
+1	עובדה	עובדה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+2	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	1	det	_	_
+3	שימשה	שימש	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	יסוד	יסוד	NOUN	NOUN	Gender=Masc|Number=Sing	3	obj	_	_
+5-6	לתלונה	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	תלונה	תלונה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nmod	_	_
+7	שכיחה	שכיח	ADJ	ADJ	Gender=Fem|Number=Sing	6	amod	_	_
+8-9	בתחום	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	תחום	תחום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	nmod	_	_
+10-11	הפילנטרופיה	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	פילנטרופיה	פילנתרופיה	NOUN	NOUN	Gender=Fem|Number=Sing	9	compound:smixut	_	_
+12	:	:	PUNCT	PUNCT	_	24	punct	_	_
+13-15	התמקדותם	_	_	_	_	_	_	_	_
+13	התמקדות	התמקדות	NOUN	NOUN	Gender=Fem|Number=Sing	24	nsubj	_	_
+14	_של_	של	ADP	ADP	Case=Gen	15	case:gen	_	_
+15	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+16	של	של	ADP	ADP	Case=Gen	17	case	_	_
+17	קרנות	קרן	NOUN	NOUN	Gender=Fem|Number=Plur	13	nmod:poss	_	_
+18-19	וצוותות	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+19	צוותות	צוות	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	17	conj	_	_
+20	חשיבה	חשיבה	NOUN	NOUN	Gender=Fem|Number=Sing	19	compound:smixut	_	_
+21-22	במגמות	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	מגמות	מגמה	NOUN	NOUN	Gender=Fem|Number=Plur	13	nmod	_	_
+23	אופנתיות	אופנתי	ADJ	ADJ	Gender=Fem|Number=Plur	22	amod	_	_
+24	גורמת	גרם	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	6	appos	_	_
+25-26	לכך	_	_	_	_	_	_	_	_
+25	ל	ל	ADP	ADP	_	26	case	_	_
+26	כך	כך	PRON	PRON	Person=3|PronType=Dem	24	obl	_	_
+27-29	שהחברה	_	_	_	_	_	_	_	_
+27	ש	ש	SCONJ	SCONJ	_	31	mark	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	31	nsubj	_	_
+30	בקושי	בקושי	ADV	ADV	_	31	advmod	_	_
+31	ערוכה	ערוך	ADJ	ADJ	Gender=Fem|Number=Sing	26	acl:relcl	_	_
+32-33	לגלים	_	_	_	_	_	_	_	_
+32	ל	ל	ADP	ADP	_	33	case	_	_
+33	גלים	גל	NOUN	NOUN	Gender=Masc|Number=Plur	31	obl	_	_
+34	היסטוריים	היסטורי	ADJ	ADJ	Gender=Masc|Number=Plur	33	amod	_	_
+35	חדשים	חדש	ADJ	ADJ	Gender=Masc|Number=Plur	33	amod	_	SpaceAfter=No
+36	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:12_7
+# doc_range = 19209-19676
+# sent_id = 264
+# text = גיימס אלן סמית, מחבר הספר "הברוקרים של הרעיונות: צוותות חשיבה ועלייתה של עלית מדיניות חדשה", אומר כי ההתמקדות בבעיות מדיניות דוחקות, ודעיכת האמונה בערכו של מחקר בסיסי במדעי החברה, הותירו אותנו ללא מאגר נרחב של מומחים, שממנו ניתן לשאוב כאשר יתעורר הצורך.
+1	גיימס	גיימס	PROPN	PROPN	_	27	nsubj	_	_
+2	אלן	אלן	PROPN	PROPN	_	1	flat:name	_	_
+3	סמית	סמית	PROPN	PROPN	_	1	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	5	punct	_	_
+5	מחבר	מחבר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	appos	_	_
+6-7	הספר	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	ספר	ספר	NOUN	NOUN	Gender=Masc|Number=Sing	5	compound:smixut	_	_
+8	"	"	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+9-10	הברוקרים	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	ברוקרים	ברוקר	NOUN	NOUN	Gender=Masc|Number=Plur	7	appos	_	_
+11	של	של	ADP	ADP	Case=Gen	13	case	_	_
+12-13	הרעיונות	_	_	_	_	_	_	_	SpaceAfter=No
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	רעיונות	רעיון	NOUN	NOUN	Gender=Masc|Number=Plur	10	nmod:poss	_	_
+14	:	:	PUNCT	PUNCT	_	15	punct	_	_
+15	צוותות	צוות	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	10	nmod	_	_
+16	חשיבה	חשיבה	NOUN	NOUN	Gender=Fem|Number=Sing	15	compound:smixut	_	_
+17-20	ועלייתה	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+18	עלייה	עלייה	NOUN	NOUN	Gender=Fem|Number=Sing	15	conj	_	_
+19	_של_	של	ADP	ADP	Case=Gen	20	case:gen	_	_
+20	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+21	של	של	ADP	ADP	Case=Gen	22	case	_	_
+22	עלית	עלית	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	18	nmod:poss	_	_
+23	מדיניות	מדיניות	NOUN	NOUN	Gender=Fem|Number=Sing	22	compound:smixut	_	_
+24	חדשה	חדש	ADJ	ADJ	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+25	"	"	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+26	,	,	PUNCT	PUNCT	_	1	punct	_	_
+27	אומר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+28	כי	כי	SCONJ	SCONJ	_	52	mark	_	_
+29-30	ההתמקדות	_	_	_	_	_	_	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	התמקדות	התמקדות	NOUN	NOUN	Gender=Fem|Number=Sing	52	nsubj	_	_
+31-32	בבעיות	_	_	_	_	_	_	_	_
+31	ב	ב	ADP	ADP	_	32	case	_	_
+32	בעיות	בעיה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	30	nmod	_	_
+33	מדיניות	מדיניות	NOUN	NOUN	Gender=Fem|Number=Sing	32	compound:smixut	_	_
+34	דוחקות	דחק	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	32	amod	_	SpaceAfter=No
+35	,	,	PUNCT	PUNCT	_	37	punct	_	_
+36-37	ודעיכת	_	_	_	_	_	_	_	_
+36	ו	ו	CCONJ	CCONJ	_	37	cc	_	_
+37	דעיכת	דעיכה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	30	conj	_	_
+38-39	האמונה	_	_	_	_	_	_	_	_
+38	ה	ה	DET	DET	Definite=Def|PronType=Art	39	det	_	_
+39	אמונה	אמונה	NOUN	NOUN	Gender=Fem|Number=Sing	37	compound:smixut	_	_
+40-43	בערכו	_	_	_	_	_	_	_	_
+40	ב	ב	ADP	ADP	_	41	case	_	_
+41	ערך	ערך	NOUN	NOUN	Gender=Masc|Number=Sing	39	nmod	_	_
+42	_של_	של	ADP	ADP	Case=Gen	43	case:gen	_	_
+43	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	41	nmod:poss	_	_
+44	של	של	ADP	ADP	Case=Gen	45	case	_	_
+45	מחקר	מחקר	NOUN	NOUN	Gender=Masc|Number=Sing	41	nmod:poss	_	_
+46	בסיסי	בסיסי	ADJ	ADJ	Gender=Masc|Number=Sing	45	amod	_	_
+47-48	במדעי	_	_	_	_	_	_	_	_
+47	ב	ב	ADP	ADP	_	48	case	_	_
+48	מדעי	מדע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	45	nmod	_	_
+49-50	החברה	_	_	_	_	_	_	_	SpaceAfter=No
+49	ה	ה	DET	DET	Definite=Def|PronType=Art	50	det	_	_
+50	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	48	compound:smixut	_	_
+51	,	,	PUNCT	PUNCT	_	30	punct	_	_
+52	הותירו	הותיר	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	27	ccomp	_	_
+53-54	אותנו	_	_	_	_	_	_	_	_
+53	את	את	ADP	ADP	Case=Acc	54	case	_	_
+54	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	52	obj	_	_
+55	ללא	ללא	ADP	ADP	_	56	case	_	_
+56	מאגר	מאגר	NOUN	NOUN	Gender=Masc|Number=Sing	52	obl	_	_
+57	נרחב	נרחב	ADJ	ADJ	Gender=Masc|Number=Sing	56	amod	_	_
+58	של	של	ADP	ADP	Case=Gen	59	case	_	_
+59	מומחים	מומחה	NOUN	NOUN	Gender=Masc|Number=Plur	56	nmod:poss	_	SpaceAfter=No
+60	,	,	PUNCT	PUNCT	_	65	punct	_	_
+61-63	שממנו	_	_	_	_	_	_	_	_
+61	ש	ש	SCONJ	SCONJ	_	65	mark	_	_
+62	מן	מן	ADP	ADP	_	63	case	_	_
+63	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	65	obl	_	_
+64	ניתן	ניתן	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	65	aux	_	_
+65	לשאוב	שאב	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	56	acl:relcl	_	_
+66	כאשר	כאשר	SCONJ	SCONJ	_	67	mark	_	_
+67	יתעורר	התעורר	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Fut	65	advcl	_	_
+68-69	הצורך	_	_	_	_	_	_	_	SpaceAfter=No
+68	ה	ה	DET	DET	Definite=Def|PronType=Art	69	det	_	_
+69	צורך	צורך	NOUN	NOUN	Gender=Masc|Number=Sing	67	nsubj	_	_
+70	.	.	PUNCT	PUNCT	_	27	punct	_	_
+
+# doc_id = htb:12_7
+# doc_range = 19678-19692
+# sent_id = 265
+# text = זה נכון.
+1	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	נכון	נכון	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:12_7
+# doc_range = 19695-19948
+# sent_id = 266
+# text = אחרי הכל, כמה מחקרים בחסות קרנות הוקדשו בתקופת האובססיה הממושכת למלחמה הקרה לניסיון לגלות באיזו מידה אדם כמו סדאם חוסיין עלול להיות מסוכן?
+1	אחרי	אחרי	ADP	ADP	_	2	case	_	_
+2	הכל	הכול	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
+4	כמה	כמה	DET	DET	Definite=Cons	5	det	_	_
+5	מחקרים	מחקר	NOUN	NOUN	Gender=Masc|Number=Plur	9	nsubj:pass	_	_
+6-7	בחסות	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	חסות	חסות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	nmod	_	_
+8	קרנות	קרן	NOUN	NOUN	Gender=Fem|Number=Plur	7	compound:smixut	_	_
+9	הוקדשו	הוקדש	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+10-11	בתקופת	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	תקופת	תקופה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	obl	_	_
+12-13	האובססיה	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	אובססיה	אובססיה	NOUN	NOUN	Gender=Fem|Number=Sing	11	compound:smixut	_	_
+14-15	הממושכת	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	ממושכת	ממושך	ADJ	ADJ	Gender=Fem|Number=Sing	13	amod	_	_
+16-18	למלחמה	_	_	_	_	_	_	_	_
+16	ל	ל	ADP	ADP	_	18	case	_	_
+17	ה_	ה	DET	DET	PronType=Art|Definite=Def	18	det	_	_
+18	מלחמה	מלחמה	NOUN	NOUN	Gender=Fem|Number=Sing	13	nmod	_	_
+19-20	הקרה	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	קרה	קר	ADJ	ADJ	Gender=Fem|Number=Sing	18	amod	_	_
+21-22	לניסיון	_	_	_	_	_	_	_	_
+21	ל	ל	ADP	ADP	_	22	case	_	_
+22	ניסיון	ניסיון	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	_
+23	לגלות	גילה	VERB	VERB	VerbForm=Inf	22	acl	_	_
+24-25	באיזו	_	_	_	_	_	_	_	_
+24	ב	ב	ADP	ADP	_	26	case	_	_
+25	איזו	איזה	DET	DET	PronType=Int	26	det	_	_
+26	מידה	מידה	NOUN	NOUN	Gender=Fem|Number=Sing	32	obl	_	_
+27	אדם	אדם	NOUN	NOUN	Gender=Masc|Number=Sing	32	nsubj	_	_
+28	כמו	כמו	ADP	ADP	_	29	case	_	_
+29	סדאם	סדאם	PROPN	PROPN	_	27	nmod	_	_
+30	חוסיין	חוסיין	PROPN	PROPN	_	29	flat:name	_	_
+31	עלול	עלול	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	32	aux	_	HebSource=ConvUncertainHead
+32	להיות	היה	AUX	AUX	Polarity=Pos|VerbForm=Inf|VerbType=Cop	23	dep	_	_
+33	מסוכן	מסוכן	ADJ	ADJ	Gender=Masc|Number=Sing	32	obl	_	SpaceAfter=No
+34	?	?	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:12_7
+# doc_range = 19952-20063
+# sent_id = 267
+# text = כמה מחקרים שאלו כיצד להפוך כלכלה סטליניסטית לכלכלת שוק חופשי?
+1	כמה	כמה	DET	DET	Definite=Cons	2	det	_	_
+2	מחקרים	מחקר	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	שאלו	שאל	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	כיצד	כיצד	ADV	ADV	PronType=Int	3	advcl	_	_
+5	להפוך	הפך	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	כלכלה	כלכלה	NOUN	NOUN	Gender=Fem|Number=Sing	5	obj	_	_
+7	סטליניסטית	סטליניסטית	ADJ	ADJ	_	6	amod	_	_
+8-9	לכלכלת	_	_	_	_	_	_	_	_
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	כלכלת	כלכלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	obl	_	_
+10	שוק	שוק	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound:smixut	_	_
+11	חופשי	חופשי	ADJ	ADJ	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	?	?	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:12_7
+# doc_range = 20066-20181
+# sent_id = 268
+# text = יש סימוכין לדעה שכיום אלו הן שתי הבעיות הדוחקות ביותר של העולם.
+1	יש	יש	VERB	VERB	HebExistential=Yes	0	root	_	_
+2	סימוכין	סימוכין	NOUN	NOUN	Gender=Masc|Number=Plur	1	nsubj	_	_
+3-5	לדעה	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	5	case	_	_
+4	ה_	ה	DET	DET	PronType=Art|Definite=Def	5	det	_	_
+5	דעה	דעה	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	_
+6-7	שכיום	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	_	12	mark	_	_
+7	כיום	כיום	ADV	ADV	_	12	advmod	_	_
+8	אלו	זה	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=3|PronType=Dem	12	nsubj	_	_
+9	הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|Polarity=Pos	12	cop	_	_
+10	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	12	nummod	_	_
+11-12	הבעיות	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	בעיות	בעיה	NOUN	NOUN	Gender=Fem|Number=Plur	5	acl:relcl	_	_
+13-14	הדוחקות	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	דוחקות	דחק	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	12	amod	_	_
+15	ביותר	ביותר	ADV	ADV	_	14	advmod	_	_
+16	של	של	ADP	ADP	Case=Gen	18	case	_	_
+17-18	העולם	_	_	_	_	_	_	_	SpaceAfter=No
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	עולם	עולם	NOUN	NOUN	Gender=Masc|Number=Sing	12	nmod:poss	_	_
+19	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:12_7
+# doc_range = 20183-20384
+# sent_id = 269
+# text = אך אפשר לומר בביטחון, שאף לא דולר אחד מבין למעלה מ50 מיליארד הדולרים שהוציאו קרנות בין 1979 ל1989 לא הוקדש להבהרתן.
+1	אך	אך	CCONJ	CCONJ	_	3	cc	_	_
+2	אפשר	אפשר	AUX	AUX	VerbType=Mod	3	aux	_	_
+3	לומר	אמר	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	0	root	_	_
+4-5	בביטחון	_	_	_	_	_	_	_	SpaceAfter=No
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	ביטחון	ביטחון	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+6	,	,	PUNCT	PUNCT	_	27	punct	_	_
+7-8	שאף	_	_	_	_	_	_	_	_
+7	ש	ש	SCONJ	SCONJ	_	27	mark	_	_
+8	אף	אף	DET	DET	Definite=Cons	10	advmod	_	_
+9	לא	לא	ADV	ADV	Polarity=Neg	10	advmod	_	_
+10	דולר	דולר	NOUN	NOUN	Gender=Masc|Number=Sing	27	nsubj:pass	_	_
+11	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	10	nummod	_	_
+12	מבין	מבין	ADP	ADP	_	10	dep	_	_
+13	למעלה	למעלה	ADV	ADV	_	18	advmod	_	HebSource=ConvUncertainHead
+14-15	מ50	_	_	_	_	_	_	_	_
+14	מ	מ	ADP	ADP	_	13	fixed	_	_
+15	50	50	NUM	NUM	_	16	nummod	_	_
+16	מיליארד	מיליארד	NUM	NUM	Gender=Masc|Number=Plur	18	nummod	_	_
+17-18	הדולרים	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	דולרים	דולר	NOUN	NOUN	Gender=Masc|Number=Plur	10	dep	_	HebSource=ConvUncertainHead
+19-20	שהוציאו	_	_	_	_	_	_	_	_
+19	ש	ש	SCONJ	SCONJ	_	20	mark	_	_
+20	הוציאו	הוציא	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	18	acl:relcl	_	_
+21	קרנות	קרן	NOUN	NOUN	Gender=Fem|Number=Plur	20	nsubj	_	_
+22	בין	בין	ADP	ADP	_	23	case	_	_
+23	1979	1979	NUM	NUM	_	20	obl	_	_
+24-25	ל1989	_	_	_	_	_	_	_	_
+24	ל	ל	ADP	ADP	_	25	case	_	_
+25	1989	1989	NUM	NUM	_	23	conj	_	_
+26	לא	לא	ADV	ADV	Polarity=Neg	27	advmod	_	_
+27	הוקדש	הוקדש	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	3	ccomp	_	_
+28-31	להבהרתן	_	_	_	_	_	_	_	SpaceAfter=No
+28	ל	ל	ADP	ADP	_	29	case	_	_
+29	הבהרה	הבהרה	NOUN	NOUN	Gender=Fem|Number=Sing	27	obl	_	_
+30	_של_	של	ADP	ADP	Case=Gen	31	case:gen	_	_
+31	_הן	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+32	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:12_7
+# doc_range = 20386-20541
+# sent_id = 270
+# text = האם הכסף דוחף את הרעיונות או שמא זוכים הרעיונות לתמיכה כספית בזכות ערכם והחידוש שבהם?
+1	האם	האם	ADV	ADV	PronType=Int	4	mark	_	_
+2-3	הכסף	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	כסף	כסף	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	דוחף	דחף	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+5	את	את	ADP	ADP	Case=Acc	7	case	_	_
+6-7	הרעיונות	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	רעיונות	רעיון	NOUN	NOUN	Gender=Masc|Number=Plur	4	obj	_	_
+8	או	או	CCONJ	CCONJ	_	10	cc	_	_
+9	שמא	שמא	SCONJ	SCONJ	_	10	mark	_	_
+10	זוכים	זכה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	4	conj	_	_
+11-12	הרעיונות	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	רעיונות	רעיון	NOUN	NOUN	Gender=Masc|Number=Plur	10	nsubj	_	_
+13-14	לתמיכה	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	תמיכה	תמיכה	NOUN	NOUN	Gender=Fem|Number=Sing	10	obl	_	_
+15	כספית	כספי	ADJ	ADJ	Gender=Fem|Number=Sing	14	amod	_	_
+16	בזכות	בזכות	ADP	ADP	_	17	case	_	_
+17-19	ערכם	_	_	_	_	_	_	_	_
+17	ערך	ערך	NOUN	NOUN	Gender=Masc|Number=Sing	14	nmod	_	_
+18	_של_	של	ADP	ADP	Case=Gen	19	case:gen	_	_
+19	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+20-22	והחידוש	_	_	_	_	_	_	_	_
+20	ו	ו	CCONJ	CCONJ	_	22	cc	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	חידוש	חידוש	NOUN	NOUN	Gender=Masc|Number=Sing	17	conj	_	_
+23-25	שבהם	_	_	_	_	_	_	_	SpaceAfter=No
+23	ש	ש	SCONJ	SCONJ	_	25	mark	_	_
+24	ב	ב	ADP	ADP	_	25	case	_	_
+25	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	acl:relcl	_	_
+26	?	?	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:12_7
+# doc_range = 20544-20873
+# sent_id = 271
+# text = כדי לענות על שאלות אלו עליך להשתקע קודם לכל באי-אלו הרהורים קוסמיים על טבעה של ההיסטוריה, ולהקדיש מחשבה לדיאלקטיקה הגליאנית, לתיאוריות על מקומו של האדם הגדול בהיסטוריה וכך הלאה.
+1	כדי	כדי	SCONJ	SCONJ	_	2	mark	_	_
+2	לענות	ענה	VERB	VERB	VerbForm=Inf	7	advcl	_	_
+3	על	על	ADP	ADP	_	4	case	_	_
+4	שאלות	שאלה	NOUN	NOUN	Gender=Fem|Number=Plur	2	obl	_	_
+5	אלו	זה	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=3|PronType=Dem	4	det	_	_
+6-7	עליך	_	_	_	_	_	_	_	_
+6	על	על	ADP	ADP	_	7	case	_	_
+7	_אתה	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	0	root	_	_
+8	להשתקע	השתקע	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	7	xcomp	_	_
+9	קודם	קודם	ADV	ADV	_	8	advmod	_	_
+10-11	לכל	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	9	fixed	_	_
+11	כל	כול	DET	DET	Definite=Cons	9	fixed	_	_
+12-13	באי	_	_	_	_	_	_	_	SpaceAfter=No
+12	ב	ב	ADP	ADP	_	16	case	_	_
+13	אי	אי	ADV	ADV	Prefix=Yes	16	compound:affix	_	_
+14	-	-	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
+15	אלו	זה	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=3|PronType=Dem	13	fixed	_	_
+16	הרהורים	הרהור	NOUN	NOUN	Gender=Masc|Number=Plur	8	obl	_	_
+17	קוסמיים	קוסמי	ADJ	ADJ	_	16	amod	_	_
+18	על	על	ADP	ADP	_	19	case	_	_
+19-21	טבעה	_	_	_	_	_	_	_	_
+19	טבע	טבע	NOUN	NOUN	Gender=Masc|Number=Sing	16	nmod	_	_
+20	_של_	של	ADP	ADP	Case=Gen	21	case:gen	_	_
+21	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+22	של	של	ADP	ADP	Case=Gen	24	case	_	_
+23-24	ההיסטוריה	_	_	_	_	_	_	_	SpaceAfter=No
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	היסטוריה	היסטוריה	NOUN	NOUN	Gender=Fem|Number=Sing	19	nmod:poss	_	_
+25	,	,	PUNCT	PUNCT	_	27	punct	_	_
+26-27	ולהקדיש	_	_	_	_	_	_	_	_
+26	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
+27	להקדיש	הקדיש	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	8	conj	_	_
+28	מחשבה	מחשבה	NOUN	NOUN	Gender=Fem|Number=Sing	27	obj	_	_
+29-30	לדיאלקטיקה	_	_	_	_	_	_	_	_
+29	ל	ל	ADP	ADP	_	30	case	_	_
+30	דיאלקטיקה	דיאלקטיקה	NOUN	NOUN	Gender=Fem|Number=Sing	27	obl	_	_
+31	הגליאנית	הגליאנית	ADJ	ADJ	_	30	amod	_	SpaceAfter=No
+32	,	,	PUNCT	PUNCT	_	34	punct	_	_
+33-34	לתיאוריות	_	_	_	_	_	_	_	_
+33	ל	ל	ADP	ADP	_	34	case	_	_
+34	תיאוריות	תיאוריה	NOUN	NOUN	Gender=Fem|Number=Plur	30	dep	_	HebSource=ConvUncertainHead
+35	על	על	ADP	ADP	_	36	case	_	_
+36-38	מקומו	_	_	_	_	_	_	_	_
+36	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	34	nmod	_	_
+37	_של_	של	ADP	ADP	Case=Gen	38	case:gen	_	_
+38	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	36	nmod:poss	_	_
+39	של	של	ADP	ADP	Case=Gen	41	case	_	_
+40-41	האדם	_	_	_	_	_	_	_	_
+40	ה	ה	DET	DET	Definite=Def|PronType=Art	41	det	_	_
+41	אדם	אדם	NOUN	NOUN	Gender=Masc|Number=Sing	36	nmod:poss	_	_
+42-43	הגדול	_	_	_	_	_	_	_	_
+42	ה	ה	DET	DET	Definite=Def|PronType=Art	43	det	_	_
+43	גדול	גדול	ADJ	ADJ	Gender=Masc|Number=Sing	41	amod	_	_
+44-46	בהיסטוריה	_	_	_	_	_	_	_	_
+44	ב	ב	ADP	ADP	_	46	case	_	_
+45	ה_	ה	DET	DET	PronType=Art|Definite=Def	46	det	_	_
+46	היסטוריה	היסטוריה	NOUN	NOUN	Gender=Fem|Number=Sing	36	nmod	_	_
+47-48	וכך	_	_	_	_	_	_	_	_
+47	ו	ו	ADV	ADV	_	30	advmod	_	_
+48	כך	כך	ADV	ADV	_	47	fixed	_	_
+49	הלאה	הלאה	ADV	ADV	_	47	fixed	_	SpaceAfter=No
+50	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:12_7
+# doc_range = 20875-20963
+# sent_id = 272
+# text = וזה אינו מבצע מהסוג שיש לגשת אליו ללא מימון נכבד.
+1-2	וזה	_	_	_	_	_	_	_	_
+1	ו	ו	CCONJ	CCONJ	_	4	cc	_	_
+2	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+3	אינו	אינו	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	4	aux	_	_
+4	מבצע	מבצע	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+5-7	מהסוג	_	_	_	_	_	_	_	_
+5	מ	מ	ADP	ADP	_	7	case	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	סוג	סוג	NOUN	NOUN	Gender=Masc|Number=Sing	4	nmod	_	_
+8-9	שיש	_	_	_	_	_	_	_	_
+8	ש	ש	SCONJ	SCONJ	_	10	mark	_	_
+9	יש	יש	AUX	AUX	VerbType=Mod	10	aux	_	_
+10	לגשת	לגשת	VERB	VERB	HebBinyan=NIFAL|VerbForm=Inf|Voice=Mid	7	acl:relcl	_	_
+11-12	אליו	_	_	_	_	_	_	_	_
+11	אל	אל	ADP	ADP	_	12	case	_	_
+12	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl	_	_
+13	ללא	ללא	ADP	ADP	_	14	case	_	_
+14	מימון	מימון	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
+15	נכבד	נכבד	ADJ	ADJ	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	4	punct	_	_
+

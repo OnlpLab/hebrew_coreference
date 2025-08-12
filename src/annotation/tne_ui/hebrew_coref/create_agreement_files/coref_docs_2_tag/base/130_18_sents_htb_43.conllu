@@ -1,0 +1,534 @@
+# doc_id = htb:43
+# doc_range = 1-141
+# sent_id = 1621
+# text = אורח השבוע בתחזית הלאומית הוא קשר העבר הבין-לאומי של מכבי תל אביב, ירון עוז.
+1	אורח	אורח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	nsubj	_	_
+2-3	השבוע	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4-6	בתחזית	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	6	case	_	_
+5	ה_	ה	DET	DET	PronType=Art|Definite=Def	6	det	_	_
+6	תחזית	תחזית	NOUN	NOUN	Gender=Fem|Number=Sing	1	nmod	_	_
+7-8	הלאומית	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	לאומית	לאומי	ADJ	ADJ	Gender=Fem|Number=Sing	6	amod	_	_
+9	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	10	cop	_	_
+10	קשר	קשר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	_
+11-12	העבר	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	עבר	עבר	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
+13-14	הבין	_	_	_	_	_	_	_	SpaceAfter=No
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+14	בין	בין	ADV	ADV	Prefix=Yes	16	compound:affix	_	_
+15	-	-	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
+16	לאומי	לאומי	ADJ	ADJ	Gender=Masc|Number=Sing	10	amod	_	_
+17	של	של	ADP	ADP	Case=Gen	18	case	_	_
+18	מכבי	מכבי	PROPN	PROPN	_	10	nmod	_	_
+19	תל	תל	PROPN	PROPN	Definite=Cons	18	flat:name	_	_
+20	אביב	אביב	PROPN	PROPN	_	19	compound:smixut	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	22	punct	_	_
+22	ירון	ירון	PROPN	PROPN	_	10	appos	_	_
+23	עוז	עוז	PROPN	PROPN	_	22	flat:name	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:43
+# doc_range = 143-160
+# sent_id = 1622
+# text = בן 83 וחצי.
+1	בן	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	_
+2	83	83	NUM	NUM	_	1	compound:smixut	_	_
+3-4	וחצי	_	_	_	_	_	_	_	SpaceAfter=No
+3	ו	ו	CCONJ	CCONJ	_	4	cc	_	_
+4	חצי	חצי	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	2	conj	_	_
+5	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:43
+# doc_range = 162-273
+# sent_id = 1623
+# text = היה שחקן מפתח במכבי תל אביב וזכה עמו בכמה תוארי אליפות וגביע.
+1	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	0	root	_	_
+2	שחקן	שחקן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	obj	_	_
+3	מפתח	מפתח	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+4-5	במכבי	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	מכבי	מכבי	PROPN	PROPN	_	2	nmod	_	_
+6	תל	תל	PROPN	PROPN	Definite=Cons	5	flat:name	_	_
+7	אביב	אביב	PROPN	PROPN	_	6	compound:smixut	_	_
+8-9	וזכה	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+9	זכה	זכה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	1	conj	_	_
+10-11	עמו	_	_	_	_	_	_	_	_
+10	עם	עם	ADP	ADP	_	11	case	_	_
+11	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	_
+12-13	בכמה	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	14	case	_	_
+13	כמה	כמה	DET	DET	Definite=Cons	14	det	_	_
+14	תוארי	תוארי	NOUN	NOUN	Definite=Cons	9	obl	_	_
+15	אליפות	אליפות	NOUN	NOUN	Gender=Fem|Number=Sing	14	compound:smixut	_	_
+16-17	וגביע	_	_	_	_	_	_	_	SpaceAfter=No
+16	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+17	גביע	גביע	NOUN	NOUN	Gender=Masc|Number=Sing	15	conj	_	_
+18	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:43
+# doc_range = 275-442
+# sent_id = 1624
+# text = היה אחד הבולטים בנבחרת ישראל שהופיעה באולימפיאדת מונטריאול ב-1976, בהדרכת המאמן דוד שוייצר.
+1	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	0	root	_	_
+2	אחד	אחת	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	4	nummod	_	_
+3-4	הבולטים	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	בולטים	בלט	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	1	obj	_	_
+5-6	בנבחרת	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	נבחרת	נבחרת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	obl	_	_
+7	ישראל	ישראל	PROPN	PROPN	_	6	compound:smixut	_	_
+8-9	שהופיעה	_	_	_	_	_	_	_	_
+8	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
+9	הופיעה	הופיע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	6	acl:relcl	_	_
+10-11	באולימפיאדת	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	אולימפיאדת	אולימפיאדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	obl	_	_
+12	מונטריאול	מונטריאול	PROPN	PROPN	_	11	compound:smixut	_	_
+13	ב	ב	ADP	ADP	_	15	case	_	SpaceAfter=No
+14	-	-	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
+15	1976	1976	NUM	NUM	_	9	obl	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	18	punct	_	_
+17-18	בהדרכת	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	_	18	case	_	_
+18	הדרכת	הדרכה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	obl	_	_
+19-20	המאמן	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	מאמן	מאמן	NOUN	NOUN	Gender=Masc|Number=Sing	18	compound:smixut	_	_
+21	דוד	דוד	PROPN	PROPN	_	20	flat:name	_	_
+22	שוייצר	שוייצר	PROPN	PROPN	_	20	flat:name	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:43
+# doc_range = 444-604
+# sent_id = 1625
+# text = אני צופה ניצחון ביתי למכבי חיפה על הפועל פתח תקוה, במשחק המרכזי שיחל בקרית אליעזר ב-1630.
+1	אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	צופה	צפה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+3	ניצחון	ניצחון	NOUN	NOUN	Gender=Masc|Number=Sing	2	obj	_	_
+4	ביתי	ביתי	ADJ	ADJ	Gender=Masc|Number=Sing	3	amod	_	_
+5-6	למכבי	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	מכבי	מכבי	PROPN	PROPN	_	2	obl	_	_
+7	חיפה	חיפה	PROPN	PROPN	_	6	flat:name	_	_
+8	על	על	ADP	ADP	_	10	case	_	_
+9-10	הפועל	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+11	פתח	פתח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	acl	_	_
+12	תקוה	תקוה	PROPN	PROPN	_	11	compound:smixut	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	16	punct	_	_
+14-16	במשחק	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	16	case	_	_
+15	ה_	ה	DET	DET	PronType=Art|Definite=Def	16	det	_	_
+16	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+17-18	המרכזי	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	מרכזי	מרכזי	ADJ	ADJ	Gender=Masc|Number=Sing	16	amod	_	_
+19-20	שיחל	_	_	_	_	_	_	_	_
+19	ש	ש	SCONJ	SCONJ	_	20	mark	_	_
+20	יחל	החל	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	16	acl:relcl	_	_
+21-22	בקרית	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	קרית	קריה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	20	obl	_	_
+23	אליעזר	אליעזר	PROPN	PROPN	_	22	flat:name	_	_
+24	ב	ב	ADP	ADP	_	26	case	_	SpaceAfter=No
+25	-	-	PUNCT	PUNCT	_	26	punct	_	SpaceAfter=No
+26	1630	1630	NUM	NUM	_	20	obl	_	SpaceAfter=No
+27	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:43
+# doc_range = 606-788
+# sent_id = 1626
+# text = חיפה בנויה טוב, עומדת נכון במגרש, יש לה חוליית קישור מצויינת ושני חלוצים שיודעים להבקיע, ומבקיעים.
+1	חיפה	חיפה	PROPN	PROPN	_	2	nsubj	_	_
+2	בנויה	בנה	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+3	טוב	טוב	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	5	punct	_	_
+5	עומדת	עמד	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	2	dep	_	HebSource=ConvUncertainHead
+6	נכון	נכון	ADV	ADV	_	5	advmod	_	_
+7-9	במגרש	_	_	_	_	_	_	_	SpaceAfter=No
+7	ב	ב	ADP	ADP	_	9	case	_	_
+8	ה_	ה	DET	DET	PronType=Art|Definite=Def	9	det	_	_
+9	מגרש	מגרש	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+10	,	,	PUNCT	PUNCT	_	11	punct	_	_
+11	יש	יש	VERB	VERB	HebExistential=Yes	2	dep	_	HebSource=ConvUncertainHead
+12-13	לה	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	_	13	case	_	_
+13	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+14	חוליית	חוליית	NOUN	NOUN	Definite=Cons	11	nsubj	_	_
+15	קישור	קישור	NOUN	NOUN	Gender=Masc|Number=Sing	14	compound:smixut	_	_
+16	מצויינת	צוין	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Pass	14	amod	_	_
+17-18	ושני	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+18	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	19	nummod	_	_
+19	חלוצים	חלוץ	NOUN	NOUN	Gender=Masc|Number=Plur	14	conj	_	_
+20-21	שיודעים	_	_	_	_	_	_	_	_
+20	ש	ש	SCONJ	SCONJ	_	21	mark	_	_
+21	יודעים	ידע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	19	acl:relcl	_	_
+22	להבקיע	הבקיע	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	21	xcomp	_	SpaceAfter=No
+23	,	,	PUNCT	PUNCT	_	25	punct	_	_
+24-25	ומבקיעים	_	_	_	_	_	_	_	SpaceAfter=No
+24	ו	ו	CCONJ	CCONJ	_	25	cc	_	_
+25	מבקיעים	הבקיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	21	conj	_	_
+26	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:43
+# doc_range = 790-860
+# sent_id = 1627
+# text = היא תרצה לחזור לעצמה אחרי הפסדה בימק"א.
+1	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	תרצה	רצה	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Fut	0	root	_	_
+3	לחזור	חזר	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4-5	לעצמה	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	עצמה	עצמו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	obl	_	_
+6	אחרי	אחרי	ADP	ADP	_	7	case	_	_
+7-9	הפסדה	_	_	_	_	_	_	_	_
+7	הפסד	הפסד	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+8	_של_	של	ADP	ADP	Case=Gen	9	case:gen	_	_
+9	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+10-11	בימק"א	_	_	_	_	_	_	_	SpaceAfter=No
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	ימק"א	בימק"א	PROPN	PROPN	Abbr=Yes	7	nmod	_	_
+12	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:43
+# doc_range = 863-1146
+# sent_id = 1628
+# text = למרות שבית"ר ירושלים ראשון בטבלה, אני מהמר על ניצחון של באר שבע (בשעה הראשית 1430), בגלל הביתיות וגם מפני שלשחקני באר שבע תהיה שאפתנות מיוחדת לנצח את המוליך.
+1	למרות	למרות	ADP	ADP	_	5	mark	_	_
+2-3	שבית"ר	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	1	fixed	_	_
+3	בית"ר	בית"ר	PROPN	PROPN	Abbr=Yes	5	nsubj	_	_
+4	ירושלים	ירושלים	PROPN	PROPN	_	3	flat:name	_	_
+5	ראשון	ראשון	ADJ	ADJ	Gender=Masc|Number=Sing	11	advcl	_	_
+6-8	בטבלה	_	_	_	_	_	_	_	SpaceAfter=No
+6	ב	ב	ADP	ADP	_	8	case	_	_
+7	ה_	ה	DET	DET	PronType=Art|Definite=Def	8	det	_	_
+8	טבלה	טבלה	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
+9	,	,	PUNCT	PUNCT	_	5	punct	_	_
+10	אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	מהמר	הימר	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+12	על	על	ADP	ADP	_	13	case	_	_
+13	ניצחון	ניצחון	NOUN	NOUN	Gender=Masc|Number=Sing	11	obl	_	_
+14	של	של	ADP	ADP	Case=Gen	15	case	_	_
+15	באר	באר	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	13	nmod:poss	_	_
+16	שבע	שבע	NUM	NUM	Gender=Fem|Number=Plur	15	flat:name	_	_
+17	(	(	PUNCT	PUNCT	_	20	punct	_	SpaceAfter=No
+18-20	בשעה	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	20	case	_	_
+19	ה_	ה	DET	DET	PronType=Art|Definite=Def	20	det	_	_
+20	שעה	שעה	NOUN	NOUN	Gender=Fem|Number=Sing	15	appos	_	_
+21-22	הראשית	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	ראשית	ראשי	ADJ	ADJ	Gender=Fem|Number=Sing	20	amod	_	_
+23	1430	1430	NUM	NUM	_	20	nummod	_	SpaceAfter=No
+24	)	)	PUNCT	PUNCT	_	20	punct	_	SpaceAfter=No
+25	,	,	PUNCT	PUNCT	_	28	punct	_	_
+26	בגלל	בגלל	ADP	ADP	_	28	case	_	_
+27-28	הביתיות	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	ביתיות	ביתיות	NOUN	NOUN	Gender=Fem|Number=Sing	11	obl	_	_
+29-30	וגם	_	_	_	_	_	_	_	_
+29	ו	ו	CCONJ	CCONJ	_	37	cc	_	_
+30	גם	גם	ADV	ADV	_	31	advmod	_	_
+31	מפני	מפני	ADP	ADP	_	37	mark	_	_
+32-34	שלשחקני	_	_	_	_	_	_	_	_
+32	ש	ש	SCONJ	SCONJ	_	31	fixed	_	_
+33	ל	ל	ADP	ADP	_	34	case	_	_
+34	שחקני	שחקן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	37	obl	_	_
+35	באר	באר	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	34	compound:smixut	_	_
+36	שבע	שבע	NUM	NUM	Gender=Fem|Number=Plur	35	flat:name	_	_
+37	תהיה	היה	VERB	VERB	Gender=Fem|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	28	conj	_	_
+38	שאפתנות	שאפתנות	NOUN	NOUN	Gender=Fem|Number=Sing	37	nsubj	_	_
+39	מיוחדת	מיוחד	ADJ	ADJ	Gender=Fem|Number=Sing	38	amod	_	_
+40	לנצח	ניצח	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	38	acl	_	_
+41	את	את	ADP	ADP	Case=Acc	43	case	_	_
+42-43	המוליך	_	_	_	_	_	_	_	SpaceAfter=No
+42	ה	ה	DET	DET	Definite=Def|PronType=Art	43	det	_	_
+43	מוליך	מוליך	NOUN	NOUN	Gender=Masc|Number=Sing	40	obj	_	_
+44	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:43
+# doc_range = 1148-1254
+# sent_id = 1629
+# text = ראיתי את הפועל תל אביב ולדעתי יש לו קבוצה טובה גם בלי סיני.
+1	ראיתי	ראה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	_
+2	את	את	ADP	ADP	Case=Acc	4	case	_	_
+3-4	הפועל	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	פועל	פועל	PROPN	PROPN	_	1	obj	_	_
+5	תל	תל	PROPN	PROPN	Definite=Cons	4	acl	_	_
+6	אביב	אביב	PROPN	PROPN	_	5	compound:smixut	_	_
+7-11	ולדעתי	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	דעה	דעה	NOUN	NOUN	Gender=Fem|Number=Sing	12	obl	_	_
+10	_של_	של	ADP	ADP	Case=Gen	11	case:gen	_	_
+11	_אני	הוא	PRON	PRON	Definite=Def|Gender=Fem,Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+12	יש	יש	VERB	VERB	HebExistential=Yes	1	conj	_	_
+13-14	לו	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obl	_	_
+15	קבוצה	קבוצה	NOUN	NOUN	Gender=Fem|Number=Sing	12	nsubj	_	_
+16	טובה	טוב	ADJ	ADJ	Gender=Fem|Number=Sing	15	amod	_	_
+17	גם	גם	ADV	ADV	_	19	advmod	_	_
+18	בלי	בלי	ADP	ADP	_	19	case	_	_
+19	סיני	סיני	PROPN	PROPN	_	15	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:43
+# doc_range = 1256-1428
+# sent_id = 1630
+# text = צפוי תיקו בדרבי הזה עם בית"ר (משחק המוקד בבלומפילד 16.30), אלא אם כן יכריע את הכף הניסיון של בית"ר.
+1	צפוי	צפוי	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbType=Mod	0	root	_	_
+2	תיקו	תיקו	NOUN	NOUN	Gender=Masc|Number=Sing	1	nsubj	_	_
+3-5	בדרבי	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	5	case	_	_
+4	ה_	ה	DET	DET	PronType=Art|Definite=Def	5	det	_	_
+5	דרבי	דרבי	NOUN	NOUN	Gender=Masc|Number=Sing	1	obl	_	_
+6-7	הזה	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	det	_	_
+8	עם	עם	ADP	ADP	_	9	case	_	_
+9	בית"ר	בית"ר	PROPN	PROPN	Abbr=Yes	5	nmod	_	_
+10	(	(	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+11	משחק	משחק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	appos	_	_
+12-13	המוקד	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	מוקד	מוקד	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound:smixut	_	_
+14-15	בבלומפילד	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	בלומפילד	בלומפילד	PROPN	PROPN	_	11	nmod	_	_
+16	16.30	16.30	NUM	NUM	_	11	nummod	_	SpaceAfter=No
+17	)	)	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	19	punct	_	_
+19	אלא	אלא	CCONJ	CCONJ	_	1	advcl	_	_
+20	אם	אם	SCONJ	SCONJ	_	19	dep	_	HebSource=ConvUncertainHead
+21	כן	כן	PRON	PRON	Person=3|PronType=Dem	19	dep	_	HebSource=ConvUncertainHead
+22	יכריע	הכריע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	19	dep	_	HebSource=ConvUncertainHead
+23	את	את	ADP	ADP	Case=Acc	25	case	_	_
+24-25	הכף	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	כף	כף	NOUN	NOUN	Gender=Fem|Number=Sing	22	obj	_	_
+26-27	הניסיון	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	ניסיון	ניסיון	NOUN	NOUN	Gender=Masc|Number=Sing	22	nsubj	_	_
+28	של	של	ADP	ADP	Case=Gen	29	case	_	_
+29	בית"ר	בית"ר	PROPN	PROPN	Abbr=Yes	27	nmod:poss	_	SpaceAfter=No
+30	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:43
+# doc_range = 1430-1582
+# sent_id = 1631
+# text = הפועל ירושלים ומכבי נתניה הם פחות או יותר ברמה שווה (המשחק הראשון בבלומפילד 1430).
+1-2	הפועל	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	פועל	פועל	PROPN	PROPN	_	12	nsubj	_	_
+3	ירושלים	ירושלים	PROPN	PROPN	_	2	flat:name	_	_
+4-5	ומכבי	_	_	_	_	_	_	_	_
+4	ו	ו	CCONJ	CCONJ	_	5	cc	_	_
+5	מכבי	מכבי	PROPN	PROPN	_	2	conj	_	_
+6	נתניה	נתניה	PROPN	PROPN	_	5	flat:name	_	_
+7	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|Polarity=Pos	12	cop	_	_
+8	פחות	פחות	ADV	ADV	_	12	advmod	_	_
+9	או	או	CCONJ	CCONJ	_	8	fixed	_	_
+10	יותר	יותר	ADV	ADV	_	8	fixed	_	_
+11-12	ברמה	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	רמה	רמה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+13	שווה	שווה	ADJ	ADJ	Gender=Fem|Number=Sing	12	amod	_	_
+14	(	(	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
+15-16	המשחק	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	12	parataxis	_	_
+17-18	הראשון	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	ראשון	ראשון	ADJ	ADJ	Gender=Masc|Number=Sing	16	amod	_	_
+19-20	בבלומפילד	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	בלומפילד	בלומפילד	PROPN	PROPN	_	16	nmod	_	_
+21	1430	1430	NUM	NUM	_	16	nummod	_	SpaceAfter=No
+22	)	)	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# doc_id = htb:43
+# doc_range = 1587-1714
+# sent_id = 1632
+# text = אני מהמר על נתניה מפני שיש לה התקפה שמסוגלת לנצח והמשחק לא יהיה בימק"א.
+1	אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	מהמר	הימר	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+3	על	על	ADP	ADP	_	4	case	_	_
+4	נתניה	נתניה	PROPN	PROPN	_	2	obl	_	_
+5	מפני	מפני	ADP	ADP	_	7	mark	_	_
+6-7	שיש	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	_	5	fixed	_	_
+7	יש	יש	VERB	VERB	HebExistential=Yes	2	advcl	_	_
+8-9	לה	_	_	_	_	_	_	_	_
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obl	_	_
+10	התקפה	התקפה	NOUN	NOUN	Gender=Fem|Number=Sing	7	nsubj	_	_
+11-12	שמסוגלת	_	_	_	_	_	_	_	_
+11	ש	ש	SCONJ	SCONJ	_	13	mark	_	_
+12	מסוגלת	מסוגל	AUX	AUX	Gender=Fem|Number=Sing|Person=1,2,3|VerbType=Mod	13	aux	_	_
+13	לנצח	ניצח	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	10	acl:relcl	_	_
+14-16	והמשחק	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	18	nsubj	_	_
+17	לא	לא	ADV	ADV	Polarity=Neg	18	advmod	_	_
+18	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	7	conj	_	_
+19-20	בימק"א	_	_	_	_	_	_	_	SpaceAfter=No
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	ימק"א	בימק"א	PROPN	PROPN	Abbr=Yes	18	obl	_	_
+21	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:43
+# doc_range = 1717-1870
+# sent_id = 1633
+# text = אני חושב שמכבי תל אביב חייב לנצח במשחק החוץ מול צפרירים חולון (היחיד שיהיה כבד היום).
+1	אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	חושב	חשב	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+3-4	שמכבי	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
+4	מכבי	מכבי	PROPN	PROPN	_	8	nsubj	_	_
+5	תל	תל	PROPN	PROPN	Definite=Cons	4	flat:name	_	_
+6	אביב	אביב	PROPN	PROPN	_	5	compound:smixut	_	_
+7	חייב	חייב	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	8	aux	_	_
+8	לנצח	ניצח	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	2	ccomp	_	_
+9-10	במשחק	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	משחק	משחק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	obl	_	_
+11-12	החוץ	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
+13	מול	מול	ADP	ADP	_	14	case	_	_
+14	צפרירים	צפריר	NOUN	NOUN	Gender=Masc|Number=Plur	10	nmod	_	_
+15	חולון	חולון	PROPN	PROPN	_	14	flat:name	_	_
+16	(	(	PUNCT	PUNCT	_	18	punct	_	SpaceAfter=No
+17-18	היחיד	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	יחיד	יחיד	ADJ	ADJ	Gender=Masc|Number=Sing	10	appos	_	_
+19-20	שיהיה	_	_	_	_	_	_	_	_
+19	ש	ש	SCONJ	SCONJ	_	20	mark	_	_
+20	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	18	acl:relcl	_	_
+21	כבד	כבד	ADJ	ADJ	Gender=Masc|Number=Sing	20	advmod	_	_
+22	היום	היום	ADV	ADV	_	20	advmod	_	SpaceAfter=No
+23	)	)	PUNCT	PUNCT	_	18	punct	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:43
+# doc_range = 1874-2006
+# sent_id = 1634
+# text = מכבי טוב יותר, מסוגל לנצח בחוץ ואילו בחולון שחקני הרכש עדיין לא התאקלמו.
+1	מכבי	מכבי	PROPN	PROPN	_	2	nsubj	_	_
+2	טוב	טוב	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
+3	יותר	יותר	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	6	punct	_	_
+5	מסוגל	מסוגל	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	6	aux	_	_
+6	לנצח	ניצח	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	2	conj	_	_
+7-9	בחוץ	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	9	case	_	_
+8	ה_	ה	DET	DET	PronType=Art|Definite=Def	9	det	_	_
+9	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+10-11	ואילו	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+11	אילו	אילו	CCONJ	CCONJ	_	10	conj	_	_
+12-13	בחולון	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	חולון	חולון	PROPN	PROPN	_	19	obl	_	_
+14	שחקני	שחקן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	19	nsubj	_	_
+15-16	הרכש	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	רכש	רכש	NOUN	NOUN	Gender=Masc|Number=Sing	14	compound:smixut	_	_
+17	עדיין	עדיין	ADV	ADV	_	19	advmod	_	_
+18	לא	לא	ADV	ADV	Polarity=Neg	19	advmod	_	_
+19	התאקלמו	התאקלם	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	2	conj	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:43
+# doc_range = 2008-2074
+# sent_id = 1635
+# text = בני יהודה ינצח בבית את הפועל כפר סבא.
+1	בני	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	יהודה	יהודה	PROPN	PROPN	_	1	flat:name	_	_
+3	ינצח	ניצח	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+4-6	בבית	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	6	case	_	_
+5	ה_	ה	DET	DET	PronType=Art|Definite=Def	6	det	_	_
+6	בית	בית	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+7	את	את	ADP	ADP	Case=Acc	9	case	_	_
+8-9	הפועל	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	3	obj	_	_
+10	כפר	כפר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	acl	_	_
+11	סבא	סבא	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:43
+# doc_range = 2076-2139
+# sent_id = 1636
+# text = הוא טוב יותר ויהנה מיתרון הביתיות.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	טוב	טוב	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
+3	יותר	יותר	ADV	ADV	_	2	advmod	_	_
+4-5	ויהנה	_	_	_	_	_	_	_	_
+4	ו	ו	CCONJ	CCONJ	_	5	cc	_	_
+5	יהנה	נהנה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Fut|Voice=Mid	2	conj	_	_
+6-7	מיתרון	_	_	_	_	_	_	_	_
+6	מ	מ	ADP	ADP	_	7	case	_	_
+7	יתרון	יתרון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+8-9	הביתיות	_	_	_	_	_	_	_	SpaceAfter=No
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	ביתיות	ביתיות	NOUN	NOUN	Gender=Fem|Number=Sing	7	compound:smixut	_	_
+10	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:43
+# doc_range = 2141-2211
+# sent_id = 1637
+# text = כיום כפר סבא היא אחת משתי החלשות בליגה.
+1	כיום	כיום	ADV	ADV	_	9	advmod	_	_
+2	כפר	כפר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	nsubj	_	_
+3	סבא	סבא	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+4	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	9	cop	_	_
+5	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	9	nummod	_	_
+6-7	משתי	_	_	_	_	_	_	_	_
+6	מ	מ	ADP	ADP	_	9	case	_	_
+7	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	9	nummod	_	_
+8-9	החלשות	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	חלשות	חלש	ADJ	ADJ	Gender=Fem|Number=Plur	0	root	_	_
+10-12	בליגה	_	_	_	_	_	_	_	SpaceAfter=No
+10	ב	ב	ADP	ADP	_	12	case	_	_
+11	ה_	ה	DET	DET	PronType=Art|Definite=Def	12	det	_	_
+12	ליגה	ליגה	NOUN	NOUN	Gender=Fem|Number=Sing	9	obl	_	_
+13	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:43
+# doc_range = 2214-2272
+# sent_id = 1638
+# text = אחת הבעיות שלה היא הגנתה החדירה.
+1	אחת	אחת	NUM	NUM	Definite=Cons|Gender=Fem|Number=Sing	3	nummod	_	_
+2-3	הבעיות	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	בעיות	בעיה	NOUN	NOUN	Gender=Fem|Number=Plur	7	nsubj	_	_
+4-5	שלה	_	_	_	_	_	_	_	_
+4	של	של	ADP	ADP	Case=Gen	5	case	_	_
+5	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+6	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	7	cop	_	_
+7-9	הגנתה	_	_	_	_	_	_	_	_
+7	הגנה	הגנה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+8	_של_	של	ADP	ADP	Case=Gen	9	case:gen	_	_
+9	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+10-11	החדירה	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	חדירה	חדיר	ADJ	ADJ	Gender=Fem|Number=Sing	7	amod	_	_
+12	.	.	PUNCT	PUNCT	_	7	punct	_	_
+

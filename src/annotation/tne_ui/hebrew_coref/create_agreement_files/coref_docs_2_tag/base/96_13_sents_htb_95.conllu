@@ -1,0 +1,489 @@
+# doc_id = htb:95
+# doc_range = 1-5
+# sent_id = 2366
+# text = , 4.
+1	,	,	PUNCT	PUNCT	_	2	punct	_	_
+2	4	4	NUM	NUM	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:95
+# doc_range = 7-134
+# sent_id = 2367
+# text = קרן זו, שפעלה בעבר בשם "העל", נוסדה על-ידי הסתדרות העובדים הלאומיים.
+1	קרן	קרן	NOUN	NOUN	Gender=Fem|Number=Sing	17	nsubj	_	_
+2	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	1	det	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	5	punct	_	_
+4-5	שפעלה	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	5	mark	_	_
+5	פעלה	פעל	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	1	acl:relcl	_	_
+6-8	בעבר	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	8	case	_	_
+7	ה_	ה	DET	DET	PronType=Art|Definite=Def	8	det	_	_
+8	עבר	עבר	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+9-11	בשם	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	11	case	_	_
+10	ה_	ה	DET	DET	PronType=Art|Definite=Def	11	det	_	_
+11	שם	שם	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+12	"	"	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
+13-14	העל	_	_	_	_	_	_	_	SpaceAfter=No
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	על	על	NOUN	NOUN	Gender=Masc|Number=Sing	11	appos	_	_
+15	"	"	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	1	punct	_	_
+17	נוסדה	נוסד	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+18	על	על	ADP	ADP	_	21	case	_	SpaceAfter=No
+19	-	-	PUNCT	PUNCT	_	20	punct	_	SpaceAfter=No
+20	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	18	fixed	_	_
+21	הסתדרות	הסתדרות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	17	obl	_	_
+22-23	העובדים	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	21	compound:smixut	_	_
+24-25	הלאומיים	_	_	_	_	_	_	_	SpaceAfter=No
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	לאומיים	לאומי	ADJ	ADJ	Gender=Masc|Number=Plur	23	amod	_	_
+26	.	.	PUNCT	PUNCT	_	17	punct	_	_
+
+# doc_id = htb:95
+# doc_range = 136-371
+# sent_id = 2368
+# text = בשנים האחרונות הקרן כמעט ולא פעלה, עד שניהולה הועבר לידי מנהלי סוכנות הביטוח סימון את ויזל, שנחשבת לגדולה בארץ בענף ביטוח החיים.
+1-3	בשנים	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	11	obl	_	_
+4-5	האחרונות	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	אחרונות	אחרון	ADJ	ADJ	Gender=Fem|Number=Plur	3	amod	_	_
+6-7	הקרן	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	קרן	קרן	NOUN	NOUN	Gender=Fem|Number=Sing	11	nsubj	_	_
+8	כמעט	כמעט	ADV	ADV	_	11	advmod	_	_
+9-10	ולא	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+10	לא	לא	ADV	ADV	Polarity=Neg	8	conj	_	_
+11	פעלה	פעל	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	18	punct	_	_
+13	עד	עד	ADP	ADP	_	18	mark	_	_
+14-17	שניהולה	_	_	_	_	_	_	_	_
+14	ש	ש	SCONJ	SCONJ	_	13	fixed	_	_
+15	ניהול	ניהול	NOUN	NOUN	Gender=Masc|Number=Sing	18	nsubj:pass	_	_
+16	_של_	של	ADP	ADP	Case=Gen	17	case:gen	_	_
+17	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+18	הועבר	הועבר	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	11	advcl	_	_
+19	לידי	לידי	ADP	ADP	_	20	case	_	_
+20	מנהלי	מנהל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	18	obl	_	_
+21	סוכנות	סוכנות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	20	compound:smixut	_	_
+22-23	הביטוח	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	ביטוח	ביטוח	NOUN	NOUN	Gender=Masc|Number=Sing	21	compound:smixut	_	_
+24	סימון	סימון	PROPN	PROPN	_	21	flat:name	_	_
+25	את	את	ADP	ADP	Case=Acc	21	flat:name	_	_
+26	ויזל	ויזל	PROPN	PROPN	_	24	flat:name	_	SpaceAfter=No
+27	,	,	PUNCT	PUNCT	_	29	punct	_	_
+28-29	שנחשבת	_	_	_	_	_	_	_	_
+28	ש	ש	SCONJ	SCONJ	_	29	mark	_	_
+29	נחשבת	נחשב	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	21	acl:relcl	_	_
+30-32	לגדולה	_	_	_	_	_	_	_	_
+30	ל	ל	ADP	ADP	_	32	case	_	_
+31	ה_	ה	DET	DET	PronType=Art|Definite=Def	32	det	_	_
+32	גדולה	גדולה	NOUN	NOUN	Gender=Fem|Number=Sing	29	obl	_	_
+33-35	בארץ	_	_	_	_	_	_	_	_
+33	ב	ב	ADP	ADP	_	35	case	_	_
+34	ה_	ה	DET	DET	PronType=Art|Definite=Def	35	det	_	_
+35	ארץ	ארץ	NOUN	NOUN	Gender=Fem|Number=Sing	32	nmod	_	_
+36-37	בענף	_	_	_	_	_	_	_	_
+36	ב	ב	ADP	ADP	_	37	case	_	_
+37	ענף	ענף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	32	nmod	_	_
+38	ביטוח	ביטוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	37	compound:smixut	_	_
+39-40	החיים	_	_	_	_	_	_	_	SpaceAfter=No
+39	ה	ה	DET	DET	Definite=Def|PronType=Art	40	det	_	_
+40	חיים	חיים	NOUN	NOUN	Gender=Masc|Number=Plur	38	compound:smixut	_	_
+41	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:95
+# doc_range = 374-663
+# sent_id = 2369
+# text = קרן זו, המאפשרת הצטרפות גם על בסיס אישי, לא רק על בסיס מפעלי, נוהגת לחשב בעבור כל אחד מחבריה את בסיסו האקטוארי, כמקובל בחברות הביטוח לגבי ביטוחי חיים ומנהלים.
+1	קרן	קרן	NOUN	NOUN	Gender=Fem|Number=Sing	18	nsubj	_	_
+2	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	1	det	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	5	punct	_	_
+4-5	המאפשרת	_	_	_	_	_	_	_	_
+4	ה	ה	SCONJ	SCONJ	_	5	mark	_	_
+5	מאפשרת	מאפשרת	AUX	AUX	Gender=Fem|Number=Sing|VerbForm=Part|VerbType=Mod	1	acl:relcl	_	_
+6	הצטרפות	הצטרפות	NOUN	NOUN	Gender=Fem|Number=Sing	5	obj	_	_
+7	גם	גם	ADV	ADV	_	9	advmod	_	_
+8	על	על	ADP	ADP	_	9	case	_	_
+9	בסיס	בסיס	NOUN	NOUN	Gender=Masc|Number=Sing	6	nmod	_	_
+10	אישי	אישי	ADJ	ADJ	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	15	punct	_	_
+12	לא	לא	ADV	ADV	Polarity=Neg	15	advmod	_	HebSource=ConvUncertainHead
+13	רק	רק	ADV	ADV	_	15	case	_	_
+14	על	על	ADP	ADP	_	15	case	_	_
+15	בסיס	בסיס	NOUN	NOUN	Gender=Masc|Number=Sing	6	nmod	_	_
+16	מפעלי	מפעלי	ADJ	ADJ	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	1	punct	_	_
+18	נוהגת	נהג	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+19	לחשב	חישב	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	18	xcomp	_	_
+20	בעבור	בעבור	ADP	ADP	_	24	case	_	_
+21	כל	כול	DET	DET	Definite=Cons	24	det	_	_
+22	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	24	nummod	_	_
+23-26	מחבריה	_	_	_	_	_	_	_	_
+23	מ	מ	ADP	ADP	_	24	case	_	_
+24	חבר	חבר	NOUN	NOUN	Gender=Masc|Number=Plur	19	obl	_	_
+25	_של_	של	ADP	ADP	Case=Gen	26	case:gen	_	_
+26	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+27	את	את	ADP	ADP	Case=Acc	28	case	_	_
+28-30	בסיסו	_	_	_	_	_	_	_	_
+28	בסיס	בסיס	NOUN	NOUN	Gender=Masc|Number=Sing	19	obj	_	_
+29	_של_	של	ADP	ADP	Case=Gen	30	case:gen	_	_
+30	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+31-32	האקטוארי	_	_	_	_	_	_	_	SpaceAfter=No
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	אקטוארי	אקטוארי	ADJ	ADJ	Gender=Masc|Number=Sing	28	amod	_	_
+33	,	,	PUNCT	PUNCT	_	36	punct	_	_
+34-36	כמקובל	_	_	_	_	_	_	_	_
+34	כ	כ	ADP	ADP	_	36	case	_	_
+35	ה_	ה	DET	DET	PronType=Art|Definite=Def	36	det	_	_
+36	מקובל	מקובל	NOUN	NOUN	Gender=Masc|Number=Sing	18	obl	_	_
+37-38	בחברות	_	_	_	_	_	_	_	_
+37	ב	ב	ADP	ADP	_	38	case	_	_
+38	חברות	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	36	nmod	_	_
+39-40	הביטוח	_	_	_	_	_	_	_	_
+39	ה	ה	DET	DET	Definite=Def|PronType=Art	40	det	_	_
+40	ביטוח	ביטוח	NOUN	NOUN	Gender=Masc|Number=Sing	38	compound:smixut	_	_
+41	לגבי	לגבי	ADP	ADP	_	42	case	_	_
+42	ביטוחי	ביטוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	36	nmod	_	_
+43	חיים	חיים	NOUN	NOUN	Gender=Masc|Number=Plur	42	compound:smixut	_	_
+44-45	ומנהלים	_	_	_	_	_	_	_	SpaceAfter=No
+44	ו	ו	CCONJ	CCONJ	_	45	cc	_	_
+45	מנהלים	מנהל	NOUN	NOUN	Gender=Masc|Number=Plur	42	conj	_	_
+46	.	.	PUNCT	PUNCT	_	18	punct	_	_
+
+# doc_id = htb:95
+# doc_range = 665-793
+# sent_id = 2370
+# text = המטרה היא לאפשר לכל מבוטח לבחור את סכום הפנסיה שהוא רוצה להבטיח לעצמו.
+1-2	המטרה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מטרה	מטרה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	4	cop	_	_
+4	לאפשר	אפשר	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	0	root	_	_
+5-6	לכל	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	7	case	_	_
+6	כל	כול	DET	DET	Definite=Cons	7	det	_	_
+7	מבוטח	מבוטח	NOUN	NOUN	Gender=Masc|Number=Sing	4	dep	_	HebSource=ConvUncertainHead
+8	לבחור	בחר	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	4	dep	_	HebSource=ConvUncertainHead
+9	את	את	ADP	ADP	Case=Acc	10	case	_	_
+10	סכום	סכום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	obj	_	_
+11-12	הפנסיה	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	פנסיה	פנסיה	NOUN	NOUN	Gender=Fem|Number=Sing	10	compound:smixut	_	_
+13-14	שהוא	_	_	_	_	_	_	_	_
+13	ש	ש	SCONJ	SCONJ	_	15	mark	_	_
+14	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	רוצה	רצה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	10	acl:relcl	_	_
+16	להבטיח	הבטיח	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+17-18	לעצמו	_	_	_	_	_	_	_	SpaceAfter=No
+17	ל	ל	ADP	ADP	_	18	case	_	_
+18	עצמו	עצמו	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	16	obl	_	_
+19	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:95
+# doc_range = 795-1017
+# sent_id = 2371
+# text = במקביל לכך הקרן משקיעה את כספי החברים באגרות חוב של האוצר המיועדות לקרנות פנסיה והנושאות ריבית גבוהה מזו של חברות הביטוח.
+1	במקביל	במקביל	ADV	ADV	_	3	case	_	_
+2-3	לכך	_	_	_	_	_	_	_	_
+2	ל	ל	ADP	ADP	_	1	fixed	_	_
+3	כך	כך	PRON	PRON	Person=3|PronType=Dem	6	obl	_	_
+4-5	הקרן	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	קרן	קרן	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj	_	_
+6	משקיעה	השקיע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+7	את	את	ADP	ADP	Case=Acc	8	case	_	_
+8	כספי	כסף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	6	obj	_	_
+9-10	החברים	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	חברים	חבר	NOUN	NOUN	Gender=Masc|Number=Plur	8	compound:smixut	_	_
+11-12	באגרות	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	אגרות	אגרה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	6	obl	_	_
+13	חוב	חוב	NOUN	NOUN	Gender=Masc|Number=Sing	12	compound:smixut	_	_
+14	של	של	ADP	ADP	Case=Gen	16	case	_	_
+15-16	האוצר	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	אוצר	אוצר	NOUN	NOUN	Gender=Masc|Number=Sing	13	nmod:poss	_	_
+17-18	המיועדות	_	_	_	_	_	_	_	_
+17	ה	ה	SCONJ	SCONJ	_	18	mark	_	_
+18	מיועדות	יועד	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	12	acl:relcl	_	_
+19-20	לקרנות	_	_	_	_	_	_	_	_
+19	ל	ל	ADP	ADP	_	20	case	_	_
+20	קרנות	קרן	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	18	obl	_	_
+21	פנסיה	פנסיה	NOUN	NOUN	Gender=Fem|Number=Sing	20	compound:smixut	_	_
+22-24	והנושאות	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	_	24	cc	_	_
+23	ה	ה	SCONJ	SCONJ	Definite=Def|PronType=Art	24	mark	_	_
+24	נושאות	נשא	VERB	VERB	Tense=Pres|VerbForm=Part	18	conj	_	_
+25	ריבית	ריבית	NOUN	NOUN	Gender=Fem|Number=Sing	24	obj	_	_
+26	גבוהה	גבוה	ADJ	ADJ	Gender=Fem|Number=Sing	25	amod	_	_
+27-28	מזו	_	_	_	_	_	_	_	_
+27	מ	מ	ADP	ADP	_	28	case	_	_
+28	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	26	obl	_	_
+29	של	של	ADP	ADP	Case=Gen	30	case	_	_
+30	חברות	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	28	nmod:poss	_	_
+31-32	הביטוח	_	_	_	_	_	_	_	SpaceAfter=No
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	ביטוח	ביטוח	NOUN	NOUN	Gender=Masc|Number=Sing	30	compound:smixut	_	_
+33	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:95
+# doc_range = 1020-1205
+# sent_id = 2372
+# text = הקרן גם מאפשרת למבוטח להחליט אם ברצונו בפנסיית זיקנה בלבד או פנסיה מקיפה הכוללת גם ביטוח נכות ושארים.
+1-2	הקרן	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	קרן	קרן	NOUN	NOUN	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	גם	גם	ADV	ADV	_	8	advmod	_	_
+4	מאפשרת	מאפשרת	AUX	AUX	Gender=Fem|Number=Sing|VerbForm=Part|VerbType=Mod	8	aux	_	_
+5-7	למבוטח	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	7	case	_	_
+6	ה_	ה	DET	DET	PronType=Art|Definite=Def	7	det	_	_
+7	מבוטח	מבוטח	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+8	להחליט	החליט	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	0	root	_	_
+9	אם	אם	SCONJ	SCONJ	_	11	case	_	_
+10-13	ברצונו	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	רצון	רצון	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+12	_של_	של	ADP	ADP	Case=Gen	13	case:gen	_	_
+13	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+14-15	בפנסיית	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	פנסיית	פנסיה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	11	nmod	_	_
+16	זיקנה	זקנה	NOUN	NOUN	Gender=Fem|Number=Sing	15	compound:smixut	_	_
+17	בלבד	בלבד	ADV	ADV	_	15	advmod	_	_
+18	או	או	CCONJ	CCONJ	_	19	cc	_	_
+19	פנסיה	פנסיה	NOUN	NOUN	Gender=Fem|Number=Sing	15	conj	_	_
+20	מקיפה	מקיף	ADJ	ADJ	Gender=Fem|Number=Sing	19	amod	_	_
+21-22	הכוללת	_	_	_	_	_	_	_	_
+21	ה	ה	SCONJ	SCONJ	_	22	mark	_	_
+22	כוללת	כלל	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	19	acl:relcl	_	_
+23	גם	גם	ADV	ADV	_	22	advmod	_	_
+24	ביטוח	ביטוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	22	obj	_	_
+25	נכות	נכות	NOUN	NOUN	Gender=Fem|Number=Sing	24	compound:smixut	_	_
+26-27	ושארים	_	_	_	_	_	_	_	SpaceAfter=No
+26	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
+27	שארים	שאר	NOUN	NOUN	Gender=Masc|Number=Plur	25	conj	_	_
+28	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:95
+# doc_range = 1207-1350
+# sent_id = 2373
+# text = החלטת סוכנות סימון את ויזל להפעיל את קרן הפנסיה גרמה לתסיסה בקרב חברות הביטוח.
+1	החלטת	החלטה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	11	nsubj	_	_
+2	סוכנות	סוכנות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	compound:smixut	_	_
+3	סימון	סימון	PROPN	PROPN	_	2	compound:smixut	_	_
+4	את	את	ADP	ADP	Case=Acc	3	flat:name	_	_
+5	ויזל	ויזל	PROPN	PROPN	_	3	flat:name	_	_
+6	להפעיל	הפעיל	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	1	acl	_	_
+7	את	את	ADP	ADP	Case=Acc	8	case	_	_
+8	קרן	קרן	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	obj	_	_
+9-10	הפנסיה	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	פנסיה	פנסיה	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound:smixut	_	_
+11	גרמה	גרם	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+12-13	לתסיסה	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	_	13	case	_	_
+13	תסיסה	תסיסה	NOUN	NOUN	Gender=Fem|Number=Sing	11	obl	_	_
+14	בקרב	בקרב	ADP	ADP	_	15	case	_	_
+15	חברות	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	13	nmod	_	_
+16-17	הביטוח	_	_	_	_	_	_	_	SpaceAfter=No
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	ביטוח	ביטוח	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	_
+18	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:95
+# doc_range = 1352-1506
+# sent_id = 2374
+# text = משה ויזל, מנכ"ל החברה, זומן לבירורים בהתאחדות חברות הביטוח וכן עם מנהלי חברות ביטוח.
+1	משה	משה	PROPN	PROPN	_	8	nsubj:pass	_	_
+2	ויזל	ויזל	PROPN	PROPN	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	4	punct	_	_
+4	מנכ"ל	מנכ"ל	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	1	appos	_	_
+5-6	החברה	_	_	_	_	_	_	_	SpaceAfter=No
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	4	compound:smixut	_	_
+7	,	,	PUNCT	PUNCT	_	1	punct	_	_
+8	זומן	זומן	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+9-10	לבירורים	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	10	case	_	_
+10	בירורים	בירור	NOUN	NOUN	Gender=Masc|Number=Plur	8	obl	_	_
+11-12	בהתאחדות	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	התאחדות	התאחדות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	10	nmod	_	_
+13	חברות	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	12	compound:smixut	_	_
+14-15	הביטוח	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	ביטוח	ביטוח	NOUN	NOUN	Gender=Masc|Number=Sing	13	compound:smixut	_	_
+16-17	וכן	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+17	כן	כן	ADV	ADV	_	19	advmod	_	_
+18	עם	עם	ADP	ADP	_	19	case	_	_
+19	מנהלי	מנהל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	12	conj	_	_
+20	חברות	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	19	compound:smixut	_	_
+21	ביטוח	ביטוח	NOUN	NOUN	Gender=Masc|Number=Sing	20	compound:smixut	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:95
+# doc_range = 1508-1604
+# sent_id = 2375
+# text = טענו בפניו שהוא כורת את הענף של הביטוח עליו הוא יושב.
+1	טענו	טען	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+2-5	בפניו	_	_	_	_	_	_	_	_
+2	ב	ב	ADP	ADP	_	3	case	_	_
+3	פנים	פנים	NOUN	NOUN	Gender=Fem,Masc|Number=Plur	1	obl	_	_
+4	_של_	של	ADP	ADP	Case=Gen	5	case:gen	_	_
+5	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+6-7	שהוא	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
+7	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	כורת	כרת	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	1	ccomp	_	_
+9	את	את	ADP	ADP	Case=Acc	11	case	_	_
+10-11	הענף	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	ענף	ענף	NOUN	NOUN	Gender=Masc|Number=Sing	8	obj	_	_
+12	של	של	ADP	ADP	Case=Gen	14	case	_	_
+13-14	הביטוח	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	ביטוח	ביטוח	NOUN	NOUN	Gender=Masc|Number=Sing	11	nmod	_	_
+15-16	עליו	_	_	_	_	_	_	_	_
+15	על	על	ADP	ADP	_	16	case	_	_
+16	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obl	_	_
+17	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+18	יושב	ישב	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	11	acl:relcl	_	SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:95
+# doc_range = 1606-1790
+# sent_id = 2376
+# text = עם זאת, נמנעו חברות הביטוח מלנקוט בצעדים נגד הסוכנות בגלל היקפי ביטוח חיים הגדולים שסוכנות זו מוכרת.
+1	עם	עם	ADP	ADP	_	2	case	_	_
+2	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	4	obl	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
+4	נמנעו	נמנע	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+5	חברות	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	4	nsubj	_	_
+6-7	הביטוח	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	ביטוח	ביטוח	NOUN	NOUN	Gender=Masc|Number=Sing	5	compound:smixut	_	_
+8-9	מלנקוט	_	_	_	_	_	_	_	_
+8	מ	מ	ADP	ADP	_	9	case	_	_
+9	לנקוט	נקט	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	4	obl	_	_
+10-11	בצעדים	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	צעדים	צעד	NOUN	NOUN	Gender=Masc|Number=Plur	9	obl	_	_
+12	נגד	נגד	ADP	ADP	_	14	case	_	_
+13-14	הסוכנות	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	סוכנות	סוכנות	NOUN	NOUN	Gender=Fem|Number=Sing	11	nmod	_	_
+15	בגלל	בגלל	ADP	ADP	_	16	case	_	_
+16	היקפי	היקף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	obl	_	_
+17	ביטוח	ביטוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	16	compound:smixut	_	_
+18	חיים	חיים	NOUN	NOUN	Gender=Masc|Number=Plur	17	compound:smixut	_	_
+19-20	הגדולים	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	גדולים	גדול	ADJ	ADJ	Gender=Masc|Number=Plur	16	amod	_	_
+21-22	שסוכנות	_	_	_	_	_	_	_	_
+21	ש	ש	SCONJ	SCONJ	_	24	mark	_	_
+22	סוכנות	סוכנות	NOUN	NOUN	Gender=Fem|Number=Sing	24	nsubj	_	_
+23	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	22	det	_	_
+24	מוכרת	מכר	VERB	VERB	Gender=Fem|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	16	acl:relcl	_	SpaceAfter=No
+25	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:95
+# doc_range = 1793-1993
+# sent_id = 2377
+# text = באחרונה הגיעה הקרן להסכם עם אחד המפעלים הגדולים המתמחים בתעשייה עתירת-ידע, לפיו 1,000 העובדים בו יצטרפו לקרן.
+1	באחרונה	באחרונה	ADV	ADV	_	2	advmod	_	_
+2	הגיעה	הגיע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3-4	הקרן	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	קרן	קרן	NOUN	NOUN	Gender=Fem|Number=Sing	2	nsubj	_	_
+5-6	להסכם	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	הסכם	הסכם	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+7	עם	עם	ADP	ADP	_	10	case	_	_
+8	אחד	אחת	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	10	nummod	_	_
+9-10	המפעלים	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	מפעלים	מפעל	NOUN	NOUN	Gender=Masc|Number=Plur	6	nmod	_	_
+11-12	הגדולים	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	גדולים	גדול	ADJ	ADJ	Gender=Masc|Number=Plur	10	amod	_	_
+13-14	המתמחים	_	_	_	_	_	_	_	_
+13	ה	ה	SCONJ	SCONJ	_	14	mark	_	_
+14	מתמחים	התמחה	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	10	acl:relcl	_	_
+15-16	בתעשייה	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	תעשייה	תעשייה	NOUN	NOUN	Gender=Fem|Number=Sing	14	obl	_	_
+17	עתירת	עתיר	ADJ	ADJ	Definite=Cons|Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	-	-	PUNCT	PUNCT	_	19	punct	_	SpaceAfter=No
+19	ידע	ידע	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+20	,	,	PUNCT	PUNCT	_	28	punct	_	_
+21-22	לפיו	_	_	_	_	_	_	_	_
+21	לפי	לפי	ADP	ADP	_	22	case	_	_
+22	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	obl	_	_
+23	1,000	1,000	NUM	NUM	_	28	nsubj	_	_
+24-25	העובדים	_	_	_	_	_	_	_	_
+24	ה	ה	SCONJ	SCONJ	_	25	mark	_	_
+25	עובדים	עבד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	23	acl:relcl	_	_
+26-27	בו	_	_	_	_	_	_	_	_
+26	ב	ב	ADP	ADP	_	27	case	_	_
+27	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obl	_	_
+28	יצטרפו	הצטרף	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Fut	6	acl:relcl	_	_
+29-31	לקרן	_	_	_	_	_	_	_	SpaceAfter=No
+29	ל	ל	ADP	ADP	_	31	case	_	_
+30	ה_	ה	DET	DET	PronType=Art|Definite=Def	31	det	_	_
+31	קרן	קרן	NOUN	NOUN	Gender=Fem|Number=Sing	28	obl	_	_
+32	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:95
+# doc_range = 1995-2196
+# sent_id = 2378
+# text = חלק מעובדים אלה יצטרפו רק לקרן הפנסיה ואחרים יבחרו מסלול הקיים רק במסגרת תשורה, לפיו ישלבו פנסיה וביטוח חיים.
+1	חלק	חלק	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+2-3	מעובדים	_	_	_	_	_	_	_	_
+2	מ	מ	ADP	ADP	_	3	case	_	HebSource=ConvUncertainLabel
+3	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	1	nmod	_	_
+4	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	1	det	_	_
+5	יצטרפו	הצטרף	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Fut	0	root	_	_
+6	רק	רק	ADV	ADV	_	8	advmod	_	_
+7-8	לקרן	_	_	_	_	_	_	_	_
+7	ל	ל	ADP	ADP	_	8	case	_	_
+8	קרן	קרן	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	obl	_	_
+9-10	הפנסיה	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	פנסיה	פנסיה	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound:smixut	_	_
+11-12	ואחרים	_	_	_	_	_	_	_	_
+11	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
+12	אחרים	אחר	ADJ	ADJ	Gender=Masc|Number=Plur	13	nsubj	_	_
+13	יבחרו	בחר	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	5	conj	_	_
+14	מסלול	מסלול	NOUN	NOUN	Gender=Masc|Number=Sing	13	obj	_	_
+15-16	הקיים	_	_	_	_	_	_	_	_
+15	ה	ה	SCONJ	SCONJ	_	16	mark	_	_
+16	קיים	קיים	ADJ	ADJ	Gender=Masc|Number=Sing	14	acl:relcl	_	_
+17	רק	רק	ADV	ADV	_	20	advmod	_	_
+18-19	במסגרת	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	20	case	_	_
+19	מסגרת	מסגרת	NOUN	NOUN	Gender=Fem|Number=Sing	18	fixed	_	_
+20	תשורה	תשורה	NOUN	NOUN	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	24	punct	_	_
+22-23	לפיו	_	_	_	_	_	_	_	_
+22	לפי	לפי	ADP	ADP	_	23	case	_	_
+23	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obl	_	_
+24	ישלבו	שילב	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Fut|Voice=Act	16	parataxis	_	_
+25	פנסיה	פנסיה	NOUN	NOUN	Gender=Fem|Number=Sing	24	obj	_	_
+26-27	וביטוח	_	_	_	_	_	_	_	_
+26	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
+27	ביטוח	ביטוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	25	conj	_	_
+28	חיים	חיים	NOUN	NOUN	Gender=Masc|Number=Plur	27	compound:smixut	_	SpaceAfter=No
+29	.	.	PUNCT	PUNCT	_	5	punct	_	_
+

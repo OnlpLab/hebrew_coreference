@@ -1,0 +1,150 @@
+# doc_id = htb:118_2
+# doc_range = 1791-1933
+# sent_id = 2787
+# text = לב מכבי פ"ת מצמרת הליגה לא הצליח לנצל יתרונו כדי לגבור על מכבי יפו ממרכז הטבלה.
+1	לב	לב	PROPN	PROPN	_	9	nsubj	_	_
+2	מכבי	מכבי	PROPN	PROPN	_	1	nmod	_	_
+3	פ"ת	פ"ת	PROPN	PROPN	Abbr=Yes	2	flat:name	_	_
+4-5	מצמרת	_	_	_	_	_	_	_	_
+4	מ	מ	ADP	ADP	_	5	case	_	_
+5	צמרת	צמרת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	nmod	_	_
+6-7	הליגה	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	ליגה	ליגה	NOUN	NOUN	Gender=Fem|Number=Sing	5	compound:smixut	_	_
+8	לא	לא	ADV	ADV	Polarity=Neg	9	advmod	_	_
+9	הצליח	הצליח	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+10	לנצל	ניצל	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11-13	יתרונו	_	_	_	_	_	_	_	_
+11	יתרון	יתרון	NOUN	NOUN	Gender=Masc|Number=Sing	10	obj	_	_
+12	_של_	של	ADP	ADP	Case=Gen	13	case:gen	_	_
+13	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+14	כדי	כדי	SCONJ	SCONJ	_	15	mark	_	_
+15	לגבור	גבר	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	10	advcl	_	_
+16	על	על	ADP	ADP	_	17	case	_	_
+17	מכבי	מכבי	PROPN	PROPN	_	15	obl	_	_
+18	יפו	יפו	PROPN	PROPN	_	17	flat:name	_	_
+19-20	ממרכז	_	_	_	_	_	_	_	_
+19	מ	מ	ADP	ADP	_	20	case	_	_
+20	מרכז	מרכז	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	15	obl	_	_
+21-22	הטבלה	_	_	_	_	_	_	_	SpaceAfter=No
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	טבלה	טבלה	NOUN	NOUN	Gender=Fem|Number=Sing	20	compound:smixut	_	_
+23	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:118_2
+# doc_range = 1935-2209
+# sent_id = 2788
+# text = האורחים שעלו בהרכב הגנתי הפתיעו בעלייתם ליתרון במחצית הראשונה, אולם המקומיים, שפתחו את המחצית השניה בסערה, הצליחו להשוות והרבו להחמיץ ממצבים נוחים.
+1-2	האורחים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	אורחים	אורח	NOUN	NOUN	Gender=Masc|Number=Plur	8	nsubj	_	_
+3-4	שעלו	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
+4	עלו	עלה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	2	acl:relcl	_	_
+5-6	בהרכב	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	הרכב	הרכב	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+7	הגנתי	הגנתי	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	_
+8	הפתיעו	הפתיע	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+9-12	בעלייתם	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	עלייה	עלייה	NOUN	NOUN	Gender=Fem|Number=Sing	8	obl	_	_
+11	_של_	של	ADP	ADP	Case=Gen	12	case:gen	_	_
+12	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+13-14	ליתרון	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	יתרון	יתרון	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod	_	_
+15-17	במחצית	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	17	case	_	_
+16	ה_	ה	DET	DET	PronType=Art|Definite=Def	17	det	_	_
+17	מחצית	מחצית	NOUN	NOUN	Gender=Fem|Number=Sing	14	nmod	_	_
+18-19	הראשונה	_	_	_	_	_	_	_	SpaceAfter=No
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	ראשונה	ראשונה	ADJ	ADJ	Gender=Fem|Number=Sing	17	amod	_	_
+20	,	,	PUNCT	PUNCT	_	35	punct	_	_
+21	אולם	אולם	CCONJ	CCONJ	_	35	cc	_	_
+22-23	המקומיים	_	_	_	_	_	_	_	SpaceAfter=No
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	מקומיים	מקומי	ADJ	ADJ	Gender=Masc|Number=Plur	35	nsubj	_	_
+24	,	,	PUNCT	PUNCT	_	26	punct	_	_
+25-26	שפתחו	_	_	_	_	_	_	_	_
+25	ש	ש	SCONJ	SCONJ	_	26	mark	_	_
+26	פתחו	פתח	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	23	acl:relcl	_	_
+27	את	את	ADP	ADP	Case=Acc	29	case	_	_
+28-29	המחצית	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	מחצית	מחצית	NOUN	NOUN	Gender=Fem|Number=Sing	26	obj	_	_
+30-31	השניה	_	_	_	_	_	_	_	_
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	שניה	שני	ADJ	ADJ	Gender=Fem|Number=Sing	29	amod	_	_
+32-33	בסערה	_	_	_	_	_	_	_	SpaceAfter=No
+32	ב	ב	ADP	ADP	_	33	case	_	_
+33	סערה	סערה	NOUN	NOUN	Gender=Fem|Number=Sing	26	obl	_	_
+34	,	,	PUNCT	PUNCT	_	23	punct	_	_
+35	הצליחו	הצליח	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	8	conj	_	_
+36	להשוות	השווה	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	35	xcomp	_	_
+37-38	והרבו	_	_	_	_	_	_	_	_
+37	ו	ו	CCONJ	CCONJ	_	38	cc	_	_
+38	הרבו	הרבה	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	35	conj	_	_
+39	להחמיץ	החמיץ	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	38	xcomp	_	_
+40-41	ממצבים	_	_	_	_	_	_	_	_
+40	מ	מ	ADP	ADP	_	41	case	_	_
+41	מצבים	מצב	NOUN	NOUN	Gender=Masc|Number=Plur	39	obl	_	_
+42	נוחים	נוח	ADJ	ADJ	Gender=Masc|Number=Plur	41	amod	_	SpaceAfter=No
+43	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:118_2
+# doc_range = 2211-2344
+# sent_id = 2789
+# text = ההחמצה הגדולה מכולן היתה של אסי בן שמעון דקה לסיום, בהיותו לבד מול השוער.
+1-2	ההחמצה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	החמצה	החמצה	NOUN	NOUN	Gender=Fem|Number=Sing	11	nsubj	_	_
+3-4	הגדולה	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	גדולה	גדול	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+5-8	מכולן	_	_	_	_	_	_	_	_
+5	מ	מ	ADP	ADP	_	6	case	_	_
+6	כול	כול	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+7	_של_	של	ADP	ADP	Case=Gen	8	case:gen	_	_
+8	_הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+9	היתה	היה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	11	cop	_	_
+10	של	של	ADP	ADP	Case=Gen	11	case	_	_
+11	אסי	אסי	PROPN	PROPN	_	0	root	_	_
+12	בן	בן	PROPN	PROPN	_	11	flat:name	_	_
+13	שמעון	שמעון	PROPN	PROPN	_	12	flat:name	_	_
+14	דקה	דקה	NOUN	NOUN	Gender=Fem|Number=Sing	11	dep	_	_
+15-17	לסיום	_	_	_	_	_	_	_	SpaceAfter=No
+15	ל	ל	ADP	ADP	_	17	case	_	_
+16	ה_	ה	DET	DET	PronType=Art|Definite=Def	17	det	_	_
+17	סיום	סיום	NOUN	NOUN	Gender=Masc|Number=Sing	14	nmod	_	_
+18	,	,	PUNCT	PUNCT	_	20	punct	_	_
+19-20	בהיותו	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	_	20	mark	_	_
+20	היותו	היות	VERB	VERB	Gender=Masc|Number=Sing	11	advcl	_	_
+21	לבד	לבד	ADV	ADV	_	20	advmod	_	_
+22	מול	מול	ADP	ADP	_	24	case	_	_
+23-24	השוער	_	_	_	_	_	_	_	SpaceAfter=No
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	שוער	שוער	NOUN	NOUN	Gender=Masc|Number=Sing	20	obl	_	_
+25	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:118_2
+# doc_range = 2346-2410
+# sent_id = 2790
+# text = שפט יעקב בן-חמו, 0001 צופים, בפתח תקוה.
+1	שפט	שפט	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+2	יעקב	יעקב	PROPN	PROPN	_	1	nsubj	_	_
+3	בן	בן	PROPN	PROPN	_	2	flat:name	_	SpaceAfter=No
+4	-	-	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+5	חמו	חמו	PROPN	PROPN	_	3	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	8	punct	_	_
+7	0001	0001	NUM	NUM	_	8	nummod	_	_
+8	צופים	צופה	NOUN	NOUN	Gender=Masc|Number=Plur	1	dep	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	11	punct	_	_
+10-11	בפתח	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	פתח	פתח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	obl	_	_
+12	תקוה	תקוה	PROPN	PROPN	_	11	compound:smixut	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	1	punct	_	_
+

@@ -1,0 +1,718 @@
+# doc_id = htb:235
+# doc_range = 2-303
+# sent_id = 5777
+# text = "אנו פתוחים לכל בקורת לא נתבייש להחליף שחקנים", אלו חלק מהדברים שאמר אתמול המאמן הלאומי יעקב גרונדמן, בדיון על הנבחרת האולימפית בועדה המקצועית של ההתאחדות לכדורגל.
+1	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+2	אנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	פתוחים	פתח	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	14	advcl	_	_
+4-5	לכל	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	6	case	_	_
+5	כל	כול	DET	DET	Definite=Cons	6	det	_	_
+6	בקורת	בקורת	NOUN	NOUN	_	3	obl	_	_
+7	לא	לא	ADV	ADV	Polarity=Neg	8	advmod	_	_
+8	נתבייש	התבייש	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=1|Tense=Fut	3	parataxis	_	_
+9	להחליף	החליף	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	שחקנים	שחקן	NOUN	NOUN	Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
+11	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	3	punct	_	_
+13	אלו	זה	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=3|PronType=Dem	14	nsubj	_	_
+14	חלק	חלק	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+15-17	מהדברים	_	_	_	_	_	_	_	_
+15	מ	מ	ADP	ADP	_	17	case	_	HebSource=ConvUncertainLabel
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+17	דברים	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	14	nmod	_	_
+18-19	שאמר	_	_	_	_	_	_	_	_
+18	ש	ש	SCONJ	SCONJ	_	19	mark	_	_
+19	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	14	acl:relcl	_	_
+20	אתמול	אתמול	ADV	ADV	_	19	advmod	_	_
+21-22	המאמן	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	מאמן	מאמן	NOUN	NOUN	Gender=Masc|Number=Sing	19	nsubj	_	_
+23-24	הלאומי	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	לאומי	לאומי	ADJ	ADJ	Gender=Masc|Number=Sing	22	amod	_	_
+25	יעקב	יעקב	PROPN	PROPN	_	22	appos	_	_
+26	גרונדמן	גרונדמן	PROPN	PROPN	_	25	flat:name	_	SpaceAfter=No
+27	,	,	PUNCT	PUNCT	_	29	punct	_	_
+28-29	בדיון	_	_	_	_	_	_	_	_
+28	ב	ב	ADP	ADP	_	29	case	_	_
+29	דיון	דיון	NOUN	NOUN	Gender=Masc|Number=Sing	19	obl	_	_
+30	על	על	ADP	ADP	_	32	case	_	_
+31-32	הנבחרת	_	_	_	_	_	_	_	_
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	נבחרת	נבחרת	NOUN	NOUN	Gender=Fem|Number=Sing	29	nmod	_	_
+33-34	האולימפית	_	_	_	_	_	_	_	_
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	אולימפית	אולימפי	ADJ	ADJ	Gender=Fem|Number=Sing	32	amod	_	_
+35-37	בועדה	_	_	_	_	_	_	_	_
+35	ב	ב	ADP	ADP	_	37	case	_	_
+36	ה_	ה	DET	DET	PronType=Art|Definite=Def	37	det	_	_
+37	ועדה	ועדה	NOUN	NOUN	Gender=Fem|Number=Sing	29	nmod	_	_
+38-39	המקצועית	_	_	_	_	_	_	_	_
+38	ה	ה	DET	DET	Definite=Def|PronType=Art	39	det	_	_
+39	מקצועית	מקצועי	ADJ	ADJ	Gender=Fem|Number=Sing	37	amod	_	_
+40	של	של	ADP	ADP	Case=Gen	42	case	_	_
+41-42	ההתאחדות	_	_	_	_	_	_	_	_
+41	ה	ה	DET	DET	Definite=Def|PronType=Art	42	det	_	_
+42	התאחדות	התאחדות	NOUN	NOUN	Gender=Fem|Number=Sing	37	nmod	_	_
+43-44	לכדורגל	_	_	_	_	_	_	_	SpaceAfter=No
+43	ל	ל	ADP	ADP	_	44	case	_	_
+44	כדורגל	כדורגל	NOUN	NOUN	Gender=Masc|Number=Sing	42	nmod	_	_
+45	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# doc_id = htb:235
+# doc_range = 305-573
+# sent_id = 5778
+# text = הדיון בועדה המקצועית ובמזכירות התנהל בעקבות מישחקי ההכנה למישחק ביום ד של השבוע הבא ביוון (21 בנובמבר) שיהיה הראשון של ישראל בטורניר הקדם אולימפי.
+1-2	הדיון	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	דיון	דיון	NOUN	NOUN	Gender=Masc|Number=Sing	12	nsubj	_	_
+3-5	בועדה	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	5	case	_	_
+4	ה_	ה	DET	DET	PronType=Art|Definite=Def	5	det	_	_
+5	ועדה	ועדה	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	_
+6-7	המקצועית	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	מקצועית	מקצועי	ADJ	ADJ	Gender=Fem|Number=Sing	5	amod	_	_
+8-11	ובמזכירות	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+9	ב	ב	ADP	ADP	_	11	case	_	_
+10	ה_	ה	DET	DET	PronType=Art|Definite=Def	11	det	_	_
+11	מזכירות	מזכירות	NOUN	NOUN	Gender=Fem|Number=Sing	5	conj	_	_
+12	התנהל	התנהל	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+13	בעקבות	בעקבות	ADP	ADP	_	14	case	_	_
+14	מישחקי	משחק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	12	obl	_	_
+15-16	ההכנה	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	הכנה	הכנה	NOUN	NOUN	Gender=Fem|Number=Sing	14	compound:smixut	_	_
+17-19	למישחק	_	_	_	_	_	_	_	_
+17	ל	ל	ADP	ADP	_	19	case	_	_
+18	ה_	ה	DET	DET	PronType=Art|Definite=Def	19	det	_	_
+19	מישחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	14	nmod	_	_
+20-21	ביום	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	19	nmod	_	_
+22	ד	ד	PROPN	PROPN	_	21	compound:smixut	_	_
+23	של	של	ADP	ADP	Case=Gen	25	case	_	_
+24-25	השבוע	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	21	nmod:poss	_	_
+26-27	הבא	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	בא	בא	ADJ	ADJ	Gender=Masc|Number=Sing	25	amod	_	_
+28-29	ביוון	_	_	_	_	_	_	_	_
+28	ב	ב	ADP	ADP	_	29	case	_	_
+29	יוון	יוון	PROPN	PROPN	_	19	nmod	_	_
+30	(	(	PUNCT	PUNCT	_	31	punct	_	SpaceAfter=No
+31	21	21	NUM	NUM	_	19	appos	_	_
+32-33	בנובמבר	_	_	_	_	_	_	_	SpaceAfter=No
+32	ב	ב	ADP	ADP	_	33	case	_	_
+33	נובמבר	נובמבר	PROPN	PROPN	_	31	obl	_	_
+34	)	)	PUNCT	PUNCT	_	31	punct	_	_
+35-36	שיהיה	_	_	_	_	_	_	_	_
+35	ש	ש	SCONJ	SCONJ	_	38	mark	_	_
+36	יהיה	יהיה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	38	cop	_	_
+37-38	הראשון	_	_	_	_	_	_	_	_
+37	ה	ה	DET	DET	Definite=Def|PronType=Art	38	det	_	_
+38	ראשון	ראשון	PROPN	PROPN	_	19	acl:relcl	_	_
+39	של	של	ADP	ADP	Case=Gen	40	case	_	_
+40	ישראל	ישראל	PROPN	PROPN	_	38	nmod	_	_
+41-43	בטורניר	_	_	_	_	_	_	_	_
+41	ב	ב	ADP	ADP	_	43	case	_	_
+42	ה_	ה	DET	DET	PronType=Art|Definite=Def	43	det	_	_
+43	טורניר	טורניר	NOUN	NOUN	Gender=Masc|Number=Sing	38	nmod	_	_
+44-45	הקדם	_	_	_	_	_	_	_	_
+44	ה	ה	DET	DET	Definite=Def|PronType=Art	46	det	_	_
+45	קדם	קדם	ADV	ADV	Prefix=Yes	46	compound:affix	_	_
+46	אולימפי	אולימפי	ADJ	ADJ	Gender=Masc|Number=Sing	43	amod	_	SpaceAfter=No
+47	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# doc_id = htb:235
+# doc_range = 575-807
+# sent_id = 5779
+# text = הדוברים התייחסו לשני ההפסדים במישחקי החוץ, 2 6 בברית המועצות ו-1 5 בצכיה ולמבחן האחרון ביום ד שעבר, בו ניצחה ישראל 1 3 את פולין באשדוד.
+1-2	הדוברים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	דוברים	דובר	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	התייחסו	התייחס	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	0	root	_	_
+4-5	לשני	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	7	case	_	_
+5	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	7	nummod	_	_
+6-7	ההפסדים	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	הפסדים	הפסד	NOUN	NOUN	Gender=Masc|Number=Plur	3	obl	_	_
+8-9	במישחקי	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	מישחקי	משחק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	7	nmod	_	_
+10-11	החוץ	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound:smixut	_	_
+12	,	,	PUNCT	PUNCT	_	13	punct	_	_
+13	2	2	NUM	NUM	_	7	appos	_	_
+14	6	6	NUM	NUM	_	13	nummod	_	_
+15-16	בברית	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	ברית	ברית	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	13	obl	_	_
+17-18	המועצות	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	מועצות	מועצה	NOUN	NOUN	Gender=Fem|Number=Plur	16	compound:smixut	_	_
+19	ו	ו	CCONJ	CCONJ	_	21	cc	_	SpaceAfter=No
+20	-	-	PUNCT	PUNCT	_	19	punct	_	SpaceAfter=No
+21	1	1	NUM	NUM	_	13	conj	_	_
+22	5	5	NUM	NUM	_	21	nummod	_	_
+23-24	בצכיה	_	_	_	_	_	_	_	_
+23	ב	ב	ADP	ADP	_	24	case	_	_
+24	צכיה	צכיה	PROPN	PROPN	_	21	obl	_	_
+25-28	ולמבחן	_	_	_	_	_	_	_	_
+25	ו	ו	CCONJ	CCONJ	_	28	cc	_	_
+26	ל	ל	ADP	ADP	_	28	case	_	_
+27	ה_	ה	DET	DET	PronType=Art|Definite=Def	28	det	_	_
+28	מבחן	מבחן	NOUN	NOUN	Gender=Masc|Number=Sing	7	conj	_	_
+29-30	האחרון	_	_	_	_	_	_	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	אחרון	אחרון	ADJ	ADJ	Gender=Masc|Number=Sing	28	amod	_	_
+31-32	ביום	_	_	_	_	_	_	_	_
+31	ב	ב	ADP	ADP	_	32	case	_	_
+32	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	28	nmod	_	_
+33	ד	ד	PROPN	PROPN	_	32	compound:smixut	_	_
+34-35	שעבר	_	_	_	_	_	_	_	SpaceAfter=No
+34	ש	ש	SCONJ	SCONJ	_	35	mark	_	_
+35	עבר	עבר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	32	acl:relcl	_	_
+36	,	,	PUNCT	PUNCT	_	39	punct	_	_
+37-38	בו	_	_	_	_	_	_	_	_
+37	ב	ב	ADP	ADP	_	38	case	_	_
+38	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	obl	_	_
+39	ניצחה	ניצח	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	28	acl:relcl	_	_
+40	ישראל	ישראל	PROPN	PROPN	_	39	nsubj	_	_
+41	1	1	NUM	NUM	_	39	dep	_	_
+42	3	3	NUM	NUM	_	41	nummod	_	_
+43	את	את	ADP	ADP	Case=Acc	44	case	_	_
+44	פולין	פולין	PROPN	PROPN	_	39	obj	_	_
+45-46	באשדוד	_	_	_	_	_	_	_	SpaceAfter=No
+45	ב	ב	ADP	ADP	_	46	case	_	_
+46	אשדוד	אשדוד	PROPN	PROPN	_	39	obl	_	_
+47	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:235
+# doc_range = 809-899
+# sent_id = 5780
+# text = גרונדמן שב ואמר, כי לכדורגל הישראלי בעיה עקרונית.
+1	גרונדמן	גרונדמן	PROPN	PROPN	_	2	nsubj	_	_
+2	שב	שב	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3-4	ואמר	_	_	_	_	_	_	_	SpaceAfter=No
+3	ו	ו	CCONJ	CCONJ	_	4	cc	_	_
+4	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	_
+5	,	,	PUNCT	PUNCT	_	9	punct	_	_
+6	כי	כי	SCONJ	SCONJ	_	9	mark	_	_
+7-9	לכדורגל	_	_	_	_	_	_	_	_
+7	ל	ל	ADP	ADP	_	9	case	_	_
+8	ה_	ה	DET	DET	PronType=Art|Definite=Def	9	det	_	_
+9	כדורגל	כדורגל	NOUN	NOUN	Gender=Masc|Number=Sing	2	ccomp	_	_
+10-11	הישראלי	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	ישראלי	ישראלי	ADJ	ADJ	Gender=Masc|Number=Sing	9	amod	_	_
+12	בעיה	בעיה	NOUN	NOUN	Gender=Fem|Number=Sing	9	nsubj	_	_
+13	עקרונית	עקרוני	ADJ	ADJ	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:235
+# doc_range = 903-1024
+# sent_id = 5781
+# text = "הנבחרת האולימפית הוכנה כראוי, אך לכדורגל הישראלי יש בעיות כלליות.
+1	"	"	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+2-3	הנבחרת	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	נבחרת	נבחרת	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+4-5	האולימפית	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	אולימפית	אולימפי	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	_
+6	הוכנה	הוכן	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+7-9	כראוי	_	_	_	_	_	_	_	SpaceAfter=No
+7	כ	כ	ADP	ADP	_	9	case	_	_
+8	ה_	ה	DET	DET	PronType=Art|Definite=Def	9	det	_	_
+9	ראוי	ראוי	ADJ	ADJ	Gender=Masc|Number=Sing	6	obl	_	_
+10	,	,	PUNCT	PUNCT	_	17	punct	_	_
+11	אך	אך	CCONJ	CCONJ	_	17	cc	_	_
+12-14	לכדורגל	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	_	14	case	_	_
+13	ה_	ה	DET	DET	PronType=Art|Definite=Def	14	det	_	_
+14	כדורגל	כדורגל	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	_
+15-16	הישראלי	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	ישראלי	ישראלי	ADJ	ADJ	Gender=Masc|Number=Sing	14	amod	_	_
+17	יש	יש	VERB	VERB	HebExistential=Yes	6	conj	_	_
+18	בעיות	בעיה	NOUN	NOUN	Gender=Fem|Number=Plur	17	nsubj	_	_
+19	כלליות	כללי	ADJ	ADJ	Gender=Fem|Number=Plur	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:235
+# doc_range = 1027-1084
+# sent_id = 5782
+# text = הכדורגל האירופי בורח לנו בגיל 18.
+1-2	הכדורגל	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	כדורגל	כדורגל	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+3-4	האירופי	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	אירופי	אירופי	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+5	בורח	ברח	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+6-7	לנו	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	5	obl	_	_
+8-9	בגיל	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	גיל	גיל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+10	18	18	NUM	NUM	_	9	compound:smixut	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:235
+# doc_range = 1087-1229
+# sent_id = 5783
+# text = הצעירים האירופים משתלבים בליגות שלהם ונוצר פער, בעיקר בכושר הגופני ובמהירות.
+1-2	הצעירים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	צעירים	צעיר	NOUN	NOUN	Gender=Masc|Number=Plur	5	nsubj	_	_
+3-4	האירופים	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	אירופים	אירופי	ADJ	ADJ	Gender=Masc|Number=Plur	2	amod	_	_
+5	משתלבים	השתלב	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+6-8	בליגות	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	8	case	_	_
+7	ה_	ה	DET	DET	PronType=Art|Definite=Def	8	det	_	_
+8	ליגות	ליגה	NOUN	NOUN	Gender=Fem|Number=Plur	5	obl	_	_
+9-10	שלהם	_	_	_	_	_	_	_	_
+9	של	של	ADP	ADP	Case=Gen	10	case	_	_
+10	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+11-12	ונוצר	_	_	_	_	_	_	_	_
+11	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+12	נוצר	נוצר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	5	conj	_	_
+13	פער	פער	NOUN	NOUN	Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	18	punct	_	_
+15	בעיקר	בעיקר	ADV	ADV	_	18	advmod	_	_
+16-18	בכושר	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	18	case	_	_
+17	ה_	ה	DET	DET	PronType=Art|Definite=Def	18	det	_	_
+18	כושר	כושר	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
+19-20	הגופני	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	גופני	גופני	ADJ	ADJ	Gender=Masc|Number=Sing	18	amod	_	_
+21-24	ובמהירות	_	_	_	_	_	_	_	SpaceAfter=No
+21	ו	ו	CCONJ	CCONJ	_	24	cc	_	_
+22	ב	ב	ADP	ADP	_	24	case	_	_
+23	ה_	ה	DET	DET	PronType=Art|Definite=Def	24	det	_	_
+24	מהירות	מהירות	NOUN	NOUN	Gender=Fem|Number=Sing	18	conj	_	_
+25	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:235
+# doc_range = 1231-1327
+# sent_id = 5784
+# text = הניצחון על פולין החזיר לנו את היוקרה, אך לא זו המטרה.
+1-2	הניצחון	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	ניצחון	ניצחון	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	על	על	ADP	ADP	_	4	case	_	_
+4	פולין	פולין	PROPN	PROPN	_	2	nmod	_	_
+5	החזיר	החזיר	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+6-7	לנו	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	5	obl	_	_
+8	את	את	ADP	ADP	Case=Acc	10	case	_	_
+9-10	היוקרה	_	_	_	_	_	_	_	SpaceAfter=No
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	יוקרה	יוקרה	NOUN	NOUN	Gender=Fem|Number=Sing	5	obj	_	_
+11	,	,	PUNCT	PUNCT	_	16	punct	_	_
+12	אך	אך	CCONJ	CCONJ	_	16	cc	_	_
+13	לא	לא	ADV	ADV	Polarity=Neg	16	advmod	_	_
+14	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	16	nsubj	_	_
+15-16	המטרה	_	_	_	_	_	_	_	SpaceAfter=No
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	מטרה	מטרה	NOUN	NOUN	Gender=Fem|Number=Sing	5	conj	_	_
+17	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:235
+# doc_range = 1329-1429
+# sent_id = 5785
+# text = אם נשיג תוצאה טובה ביוון יהיה לנו זמן לעבוד על המהירות.
+1	אם	אם	SCONJ	SCONJ	_	2	mark	_	_
+2	נשיג	השיג	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=1|Tense=Fut|Voice=Act	7	advcl	_	_
+3	תוצאה	תוצאה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obj	_	_
+4	טובה	טוב	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	_
+5-6	ביוון	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	יוון	יוון	PROPN	PROPN	_	2	obl	_	_
+7	יהיה	יהיה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	0	root	_	_
+8-9	לנו	_	_	_	_	_	_	_	_
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	7	obl	_	_
+10	זמן	זמן	NOUN	NOUN	Gender=Masc|Number=Sing	7	dep	_	_
+11	לעבוד	עבד	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	10	acl	_	_
+12	על	על	ADP	ADP	_	14	case	_	_
+13-14	המהירות	_	_	_	_	_	_	_	SpaceAfter=No
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	מהירות	מהירות	NOUN	NOUN	Gender=Fem|Number=Sing	11	obl	_	_
+15	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:235
+# doc_range = 1431-1505
+# sent_id = 5786
+# text = אנחנו משחקים לאט, אך נעשה הכל כדי להצליח.
+1	אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	משחקים	שיחק	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+3	לאט	לאט	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	6	punct	_	_
+5	אך	אך	CCONJ	CCONJ	_	6	cc	_	_
+6	נעשה	עשה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=1|Tense=Fut|Voice=Act	2	conj	_	_
+7	הכל	הכול	NOUN	NOUN	Gender=Masc|Number=Sing	6	obj	_	_
+8	כדי	כדי	SCONJ	SCONJ	_	9	mark	_	_
+9	להצליח	הצליח	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	6	advcl	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:235
+# doc_range = 1507-1552
+# sent_id = 5787
+# text = ההתאחדות נותנת לנו הכל".
+1-2	ההתאחדות	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	התאחדות	התאחדות	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	נותנת	נתן	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4-5	לנו	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	3	obl	_	_
+6	הכל	הכול	NOUN	NOUN	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+7	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:235
+# doc_range = 1554-1683
+# sent_id = 5788
+# text = מ"ם יו"ר הנהלת ההתאחדות עזריקם מילצן שאל מדוע נוצחנו בהפרשים כה גבוהים.
+1	מ"ם	מ"ם	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	8	nsubj	_	_
+2	יו"ר	יו"ר	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	1	dep	_	HebSource=ConvUncertainHead
+3	הנהלת	הנהלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	compound:smixut	_	_
+4-5	ההתאחדות	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	התאחדות	התאחדות	NOUN	NOUN	Gender=Fem|Number=Sing	3	compound:smixut	_	_
+6	עזריקם	עזריקם	PROPN	PROPN	_	1	dep	_	HebSource=ConvUncertainHead
+7	מילצן	מילצן	PROPN	PROPN	_	6	flat:name	_	_
+8	שאל	שאל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+9	מדוע	מדוע	ADV	ADV	PronType=Int	10	advmod	_	_
+10	נוצחנו	נוצח	VERB	VERB	Gender=Fem,Masc|HebBinyan=PUAL|Number=Plur|Person=1|Tense=Past|Voice=Pass	8	advcl	_	_
+11-12	בהפרשים	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	הפרשים	הפרש	NOUN	NOUN	Gender=Masc|Number=Plur	10	obl	_	_
+13	כה	כה	ADV	ADV	_	14	advmod	_	_
+14	גבוהים	גבוה	ADJ	ADJ	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:235
+# doc_range = 1685-1809
+# sent_id = 5789
+# text = הוא טען, כי לא צריך להיות פער כה גדול מהרמה האירופית כמו לפני 10 שנים.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	טען	טען	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	7	punct	_	_
+4	כי	כי	SCONJ	SCONJ	_	7	mark	_	_
+5	לא	לא	ADV	ADV	Polarity=Neg	7	advmod	_	_
+6	צריך	צריך	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	7	aux	_	_
+7	להיות	היה	AUX	AUX	Polarity=Pos|VerbForm=Inf|VerbType=Cop	2	ccomp	_	_
+8	פער	פער	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj	_	_
+9	כה	כה	ADV	ADV	_	10	advmod	_	_
+10	גדול	גדול	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	_
+11-13	מהרמה	_	_	_	_	_	_	_	_
+11	מ	מ	ADP	ADP	_	13	case	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	רמה	רמה	NOUN	NOUN	Gender=Fem|Number=Sing	8	nmod	_	_
+14-15	האירופית	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	אירופית	אירופי	ADJ	ADJ	Gender=Fem|Number=Sing	13	amod	_	_
+16	כמו	כמו	ADP	ADP	_	19	case	_	_
+17	לפני	לפני	ADP	ADP	_	19	case	_	_
+18	10	10	NUM	NUM	_	19	nummod	_	_
+19	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:235
+# doc_range = 1811-1953
+# sent_id = 5790
+# text = דוד לויאן אמר ששום נבחרת שלנו לא ניצחה בטמפרטורה של מינוס אפס ולא הצליחה בקור.
+1	דוד	דוד	PROPN	PROPN	_	3	nsubj	_	_
+2	לויאן	לויאן	PROPN	PROPN	_	1	flat:name	_	_
+3	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4-5	ששום	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	10	mark	_	_
+5	שום	שום	DET	DET	Definite=Cons	6	det	_	_
+6	נבחרת	נבחרת	NOUN	NOUN	Gender=Fem|Number=Sing	10	nsubj	_	_
+7-8	שלנו	_	_	_	_	_	_	_	_
+7	של	של	ADP	ADP	Case=Gen	8	case	_	_
+8	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+9	לא	לא	ADV	ADV	Polarity=Neg	10	advmod	_	_
+10	ניצחה	ניצח	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	3	ccomp	_	_
+11-12	בטמפרטורה	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	טמפרטורה	טמפרטורה	NOUN	NOUN	Gender=Fem|Number=Sing	10	obl	_	_
+13	של	של	ADP	ADP	Case=Gen	14	case	_	_
+14	מינוס	מינוס	NOUN	NOUN	_	12	nmod:poss	_	_
+15	אפס	אפס	NOUN	NOUN	Gender=Masc|Number=Sing	14	nmod	_	HebSource=ConvUncertainLabel
+16-17	ולא	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+17	לא	לא	ADV	ADV	Polarity=Neg	18	advmod	_	_
+18	הצליחה	הצליח	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	10	conj	_	_
+19-20	בקור	_	_	_	_	_	_	_	SpaceAfter=No
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	קור	קור	NOUN	NOUN	Gender=Masc|Number=Sing	18	obl	_	_
+21	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:235
+# doc_range = 1955-2098
+# sent_id = 5791
+# text = גזבר ההתאחדות שלמה סופר קרא לתת כתף לנבחרת והזכיר שאפילו יוון נכנעה 0 5 בשוודיה.
+1	גזבר	גזבר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	nsubj	_	_
+2-3	ההתאחדות	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	התאחדות	התאחדות	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+4	שלמה	שלמה	PROPN	PROPN	_	1	flat:name	_	_
+5	סופר	סופר	PROPN	PROPN	_	1	flat:name	_	_
+6	קרא	קרא	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+7	לתת	נתן	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	כתף	כתף	NOUN	NOUN	Gender=Fem|Number=Sing	7	obj	_	_
+9-11	לנבחרת	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	11	case	_	_
+10	ה_	ה	DET	DET	PronType=Art|Definite=Def	11	det	_	_
+11	נבחרת	נבחרת	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
+12-13	והזכיר	_	_	_	_	_	_	_	_
+12	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
+13	הזכיר	הזכיר	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	6	conj	_	_
+14-15	שאפילו	_	_	_	_	_	_	_	_
+14	ש	ש	SCONJ	SCONJ	_	17	mark	_	_
+15	אפילו	אפילו	ADV	ADV	_	16	advmod	_	_
+16	יוון	יוון	PROPN	PROPN	_	17	nsubj	_	_
+17	נכנעה	נכנע	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	13	ccomp	_	_
+18	0	0	NUM	NUM	_	17	dep	_	_
+19	5	5	NUM	NUM	_	18	nummod	_	_
+20-21	בשוודיה	_	_	_	_	_	_	_	SpaceAfter=No
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	שוודיה	שוודיה	PROPN	PROPN	_	17	obl	_	_
+22	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:235
+# doc_range = 2100-2238
+# sent_id = 5792
+# text = מנהל ההתאחדות יעקב אראל אמר שישראל היא מדינה קטנה, אך יש לה ציפיות של מעצמה.
+1	מנהל	מנהל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	nsubj	_	_
+2-3	ההתאחדות	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	התאחדות	התאחדות	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+4	יעקב	יעקב	PROPN	PROPN	_	1	flat:name	_	_
+5	אראל	אראל	PROPN	PROPN	_	1	flat:name	_	_
+6	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+7-8	שישראל	_	_	_	_	_	_	_	_
+7	ש	ש	SCONJ	SCONJ	_	10	mark	_	_
+8	ישראל	ישראל	PROPN	PROPN	_	10	nsubj	_	_
+9	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	10	cop	_	_
+10	מדינה	מדינה	NOUN	NOUN	Gender=Fem|Number=Sing	6	ccomp	_	_
+11	קטנה	קטן	ADJ	ADJ	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	14	punct	_	_
+13	אך	אך	CCONJ	CCONJ	_	14	cc	_	_
+14	יש	יש	VERB	VERB	HebExistential=Yes	10	conj	_	_
+15-16	לה	_	_	_	_	_	_	_	_
+15	ל	ל	ADP	ADP	_	16	case	_	_
+16	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obl	_	_
+17	ציפיות	ציפייה	NOUN	NOUN	Gender=Fem|Number=Plur	14	nsubj	_	_
+18	של	של	ADP	ADP	Case=Gen	19	case	_	_
+19	מעצמה	מעצמה	NOUN	NOUN	Gender=Fem|Number=Sing	17	nmod:poss	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:235
+# doc_range = 2241-2334
+# sent_id = 5793
+# text = "יש לנו 32 אלף כדורגלנים לעומת ארבעה מיליון בגרמניה.
+1	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+2	יש	יש	VERB	VERB	HebExistential=Yes	0	root	_	_
+3-4	לנו	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	4	case	_	_
+4	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	2	obl	_	_
+5	32	32	NUM	NUM	_	6	nummod	_	_
+6	אלף	אלף	NUM	NUM	Gender=Masc|Number=Plur	7	nummod	_	_
+7	כדורגלנים	כדורגלן	NOUN	NOUN	Gender=Masc|Number=Plur	2	nsubj	_	_
+8	לעומת	לעומת	ADP	ADP	_	10	case	_	_
+9	ארבעה	ארבע	NUM	NUM	Gender=Masc|Number=Sing	10	nummod	_	_
+10	מיליון	מיליון	NUM	NUM	Gender=Masc|Number=Plur	7	nmod	_	_
+11-12	בגרמניה	_	_	_	_	_	_	_	SpaceAfter=No
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	גרמניה	גרמניה	PROPN	PROPN	_	10	obl	_	_
+13	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:235
+# doc_range = 2336-2540
+# sent_id = 5794
+# text = כדאי להתייחס לרמה שלנו בדרגה של מדינות כמו פינלנד, איסלנד ורק אחרי שנרכוש ניסיון נוכל להתמודד בהצלחה עם אחרים".
+1	כדאי	כדאי	AUX	AUX	VerbType=Mod	2	aux	_	_
+2	להתייחס	התייחס	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	0	root	_	_
+3-5	לרמה	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	5	case	_	_
+4	ה_	ה	DET	DET	PronType=Art|Definite=Def	5	det	_	_
+5	רמה	רמה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl	_	_
+6-7	שלנו	_	_	_	_	_	_	_	_
+6	של	של	ADP	ADP	Case=Gen	7	case	_	_
+7	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+8-9	בדרגה	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	דרגה	דרגה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl	_	_
+10	של	של	ADP	ADP	Case=Gen	11	case	_	_
+11	מדינות	מדינה	NOUN	NOUN	Gender=Fem|Number=Plur	9	nmod:poss	_	_
+12	כמו	כמו	ADP	ADP	_	13	case	_	_
+13	פינלנד	פינלנד	PROPN	PROPN	_	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	15	punct	_	_
+15	איסלנד	איסלנד	PROPN	PROPN	_	13	appos	_	_
+16-17	ורק	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	2	cc	_	_
+17	רק	רק	ADV	ADV	_	18	advmod	_	_
+18	אחרי	אחרי	ADP	ADP	_	20	mark	_	_
+19-20	שנרכוש	_	_	_	_	_	_	_	_
+19	ש	ש	SCONJ	SCONJ	_	18	fixed	_	_
+20	נרכוש	רכש	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=1|Tense=Fut|Voice=Act	2	advcl	_	_
+21	ניסיון	ניסיון	NOUN	NOUN	Gender=Masc|Number=Sing	20	obj	_	_
+22	נוכל	יכול	AUX	AUX	VerbType=Mod	20	dep	_	HebSource=ConvUncertainHead
+23	להתמודד	התמודד	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	20	xcomp	_	_
+24-25	בהצלחה	_	_	_	_	_	_	_	_
+24	ב	ב	ADP	ADP	_	25	case	_	_
+25	הצלחה	הצלחה	NOUN	NOUN	Gender=Fem|Number=Sing	20	obl	_	_
+26	עם	עם	ADP	ADP	_	27	case	_	_
+27	אחרים	אחר	ADJ	ADJ	Gender=Masc|Number=Plur	20	obl	_	SpaceAfter=No
+28	"	"	PUNCT	PUNCT	_	20	punct	_	SpaceAfter=No
+29	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:235
+# doc_range = 2542-2661
+# sent_id = 5795
+# text = יו"ר ועדת הנוער נתן סלובטיק אמר שהשחקנים שלנו לא משתלבים באירופה.
+1	יו"ר	יו"ר	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	ועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	compound:smixut	_	_
+3-4	הנוער	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	נוער	נוער	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+5	נתן	נתן	PROPN	PROPN	_	1	flat:name	_	_
+6	סלובטיק	סלובטיק	PROPN	PROPN	_	1	flat:name	_	_
+7	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+8-10	שהשחקנים	_	_	_	_	_	_	_	_
+8	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	שחקנים	שחקן	NOUN	NOUN	Gender=Masc|Number=Plur	14	nsubj	_	_
+11-12	שלנו	_	_	_	_	_	_	_	_
+11	של	של	ADP	ADP	Case=Gen	12	case	_	_
+12	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+13	לא	לא	ADV	ADV	Polarity=Neg	14	advmod	_	_
+14	משתלבים	השתלב	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	7	ccomp	_	_
+15-16	באירופה	_	_	_	_	_	_	_	SpaceAfter=No
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	אירופה	אירופה	PROPN	PROPN	_	14	obl	_	_
+17	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:235
+# doc_range = 2663-2764
+# sent_id = 5796
+# text = ארצי בן יעקב הציע לתת גיבוי למאמנים לפני המשימה החשובה.
+1	ארצי	ארצי	PROPN	PROPN	_	4	nsubj	_	_
+2	בן	בן	PROPN	PROPN	_	1	flat:name	_	_
+3	יעקב	יעקב	PROPN	PROPN	_	2	flat:name	_	_
+4	הציע	הציע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	לתת	נתן	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	גיבוי	גיבוי	NOUN	NOUN	Gender=Masc|Number=Sing	4	obj	_	_
+7-9	למאמנים	_	_	_	_	_	_	_	_
+7	ל	ל	ADP	ADP	_	9	case	_	_
+8	ה_	ה	DET	DET	PronType=Art|Definite=Def	9	det	_	_
+9	מאמנים	מאמן	NOUN	NOUN	Gender=Masc|Number=Plur	4	obl	_	_
+10	לפני	לפני	ADP	ADP	_	12	case	_	_
+11-12	המשימה	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	משימה	משימה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+13-14	החשובה	_	_	_	_	_	_	_	SpaceAfter=No
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	חשובה	חשוב	ADJ	ADJ	Gender=Fem|Number=Sing	12	amod	_	_
+15	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:235
+# doc_range = 2766-2867
+# sent_id = 5797
+# text = הסגל האולימפי יתכנס היום למחנה אימונים שיימשך עד יום ד.
+1-2	הסגל	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	סגל	סגל	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+3-4	האולימפי	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	אולימפי	אולימפי	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+5	יתכנס	התכנס	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Fut	0	root	_	_
+6	היום	היום	ADV	ADV	_	5	advmod	_	_
+7-8	למחנה	_	_	_	_	_	_	_	_
+7	ל	ל	ADP	ADP	_	8	case	_	_
+8	מחנה	מחנה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+9	אימונים	אימון	NOUN	NOUN	Gender=Masc|Number=Plur	8	compound:smixut	_	_
+10-11	שיימשך	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	11	mark	_	_
+11	יימשך	נמשך	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Fut|Voice=Mid	8	acl:relcl	_	_
+12	עד	עד	ADP	ADP	_	13	case	_	_
+13	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	obl	_	_
+14	ד	ד	PROPN	PROPN	_	13	compound:smixut	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:235
+# doc_range = 2869-2987
+# sent_id = 5798
+# text = היום אחר הצהריים מתוכנן מישחק אימון עם הפועל חדרה מהליגה הארצית.
+1	היום	היום	ADV	ADV	_	5	advmod	_	_
+2	אחר	אחר	ADP	ADP	_	4	case	_	_
+3-4	הצהריים	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	צהריים	צהריים	NOUN	NOUN	Gender=Masc|Number=Plur	5	obl	_	_
+5	מתוכנן	תוכנן	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+6	מישחק	משחק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+7	אימון	אימון	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+8	עם	עם	ADP	ADP	_	10	case	_	_
+9-10	הפועל	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	פועל	פועל	PROPN	PROPN	_	6	nmod	_	_
+11	חדרה	חדרה	PROPN	PROPN	_	10	flat:name	_	_
+12-14	מהליגה	_	_	_	_	_	_	_	_
+12	מ	מ	ADP	ADP	_	14	case	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	ליגה	ליגה	NOUN	NOUN	Gender=Fem|Number=Sing	10	nmod	_	_
+15-16	הארצית	_	_	_	_	_	_	_	SpaceAfter=No
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	ארצית	ארצי	ADJ	ADJ	Gender=Fem|Number=Sing	14	amod	_	_
+17	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:235
+# doc_range = 2989-3130
+# sent_id = 5799
+# text = המזכירות החליטה, כי בשבוע הבא לא יהיו מישחקים ביום ו, עקב שהיית הנבחרת ביוון.
+1-2	המזכירות	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מזכירות	מזכירות	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	החליטה	החליט	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	12	punct	_	_
+5	כי	כי	SCONJ	SCONJ	_	12	mark	_	_
+6-8	בשבוע	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	8	case	_	_
+7	ה_	ה	DET	DET	PronType=Art|Definite=Def	8	det	_	_
+8	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
+9-10	הבא	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	בא	בא	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	_
+11	לא	לא	ADV	ADV	Polarity=Neg	12	advmod	_	_
+12	יהיו	יהיו	VERB	VERB	Gender=Fem,Masc|HebExistential=Yes|Number=Plur|Person=3|Polarity=Pos|Tense=Fut	3	ccomp	_	_
+13	מישחקים	משחק	NOUN	NOUN	Gender=Masc|Number=Plur	12	nsubj	_	_
+14-15	ביום	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	obl	_	_
+16	ו	ו	CCONJ	CCONJ	_	15	compound:smixut	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	19	punct	_	_
+18	עקב	עקב	ADP	ADP	_	19	case	_	_
+19	שהיית	שהייה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	obl	_	_
+20-21	הנבחרת	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	נבחרת	נבחרת	NOUN	NOUN	Gender=Fem|Number=Sing	19	compound:smixut	_	_
+22-23	ביוון	_	_	_	_	_	_	_	SpaceAfter=No
+22	ב	ב	ADP	ADP	_	23	case	_	_
+23	יוון	יוון	PROPN	PROPN	_	19	nmod	_	_
+24	.	.	PUNCT	PUNCT	_	3	punct	_	_
+

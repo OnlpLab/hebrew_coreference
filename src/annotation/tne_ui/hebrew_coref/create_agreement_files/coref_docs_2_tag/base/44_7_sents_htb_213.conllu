@@ -1,0 +1,285 @@
+# doc_id = htb:213
+# doc_range = 1-206
+# sent_id = 5275
+# text = מנהל המחלקה לאפידמיולוגיה קלינית במרכז הרפואי שיבא, פרוף ברוך מודן, זכה בפרס קרן סמואל ופאולה אלקלס ז"ל לשנת 1990.
+1	מנהל	מנהל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	18	nsubj	_	_
+2-3	המחלקה	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	מחלקה	מחלקה	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+4-5	לאפידמיולוגיה	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	אפידמיולוגיה	אפידמיולוגיה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nmod	_	_
+6	קלינית	קליני	ADJ	ADJ	Gender=Fem|Number=Sing	5	amod	_	_
+7-9	במרכז	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	9	case	_	_
+8	ה_	ה	DET	DET	PronType=Art|Definite=Def	9	det	_	_
+9	מרכז	מרכז	NOUN	NOUN	Gender=Masc|Number=Sing	1	nmod	_	_
+10-11	הרפואי	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	רפואי	רפואי	ADJ	ADJ	Gender=Masc|Number=Sing	9	flat:name	_	_
+12	שיבא	שיבא	PROPN	PROPN	_	9	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	14	punct	_	_
+14	פרוף	פרופסור	NOUN	NOUN	Gender=Masc|Number=Sing	1	appos	_	_
+15	ברוך	ברוך	PROPN	PROPN	_	14	flat:name	_	_
+16	מודן	מודן	PROPN	PROPN	_	14	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	1	punct	_	_
+18	זכה	זכה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+19-20	בפרס	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	פרס	פרס	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	18	obl	_	_
+21	קרן	קרן	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	20	compound:smixut	_	_
+22	סמואל	סמואל	PROPN	PROPN	_	21	compound:smixut	_	_
+23-24	ופאולה	_	_	_	_	_	_	_	_
+23	ו	ו	CCONJ	CCONJ	_	24	cc	_	_
+24	פאולה	פאולה	PROPN	PROPN	_	22	conj	_	_
+25	אלקלס	אלקלס	PROPN	PROPN	_	22	dep	_	HebSource=ConvUncertainHead
+26	ז"ל	ז"ל	ADJ	ADJ	Abbr=Yes|Gender=Masc|Number=Sing	22	dep	_	HebSource=ConvUncertainHead
+27-28	לשנת	_	_	_	_	_	_	_	_
+27	ל	ל	ADP	ADP	_	28	case	_	_
+28	שנת	שנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	20	nmod	_	_
+29	1990	1990	NUM	NUM	_	28	compound:smixut	_	SpaceAfter=No
+30	.	.	PUNCT	PUNCT	_	18	punct	_	_
+
+# doc_id = htb:213
+# doc_range = 208-330
+# sent_id = 5276
+# text = הפרס בסך 15 אלף פראנקים שווייצריים ניתן לצורך ביצוע מחקרים עתידיים.
+1-2	הפרס	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	פרס	פרס	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj	_	_
+3-4	בסך	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	סך	סך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	nmod	_	_
+5	15	15	NUM	NUM	_	6	nummod	_	_
+6	אלף	אלף	NUM	NUM	Gender=Masc|Number=Plur	7	nummod	_	_
+7	פראנקים	פראנקים	NOUN	NOUN	_	4	compound:smixut	_	_
+8	שווייצריים	שווייצריים	ADJ	ADJ	_	7	amod	_	_
+9	ניתן	ניתן	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+10-11	לצורך	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	11	case	_	_
+11	צורך	צורך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	obl	_	_
+12	ביצוע	ביצוע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	compound:smixut	_	_
+13	מחקרים	מחקר	NOUN	NOUN	Gender=Masc|Number=Plur	12	compound:smixut	_	_
+14	עתידיים	עתידי	ADJ	ADJ	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:213
+# doc_range = 332-479
+# sent_id = 5277
+# text = פרוף מודן נבחר פה אחד על פי המלצת המדען הראשי של משרד הבריאות, פרוף עודד אברמסקי.
+1	פרוף	פרופסור	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+2	מודן	מודן	PROPN	PROPN	_	1	nsubj	_	_
+3	נבחר	נבחר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+4	פה	פה	NOUN	NOUN	Gender=Masc|Number=Sing	3	dep	_	_
+5	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	4	nummod	_	_
+6	על	על	ADP	ADP	_	8	case	_	_
+7	פי	פה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	fixed	_	_
+8	המלצת	המלצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	obl	_	_
+9-10	המדען	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	מדען	מדען	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound:smixut	_	_
+11-12	הראשי	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	ראשי	ראשי	ADJ	ADJ	Gender=Masc|Number=Sing	10	amod	_	_
+13	של	של	ADP	ADP	Case=Gen	14	case	_	_
+14	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	nmod	_	_
+15-16	הבריאות	_	_	_	_	_	_	_	SpaceAfter=No
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	בריאות	בריאות	NOUN	NOUN	Gender=Fem|Number=Sing	14	compound:smixut	_	_
+17	,	,	PUNCT	PUNCT	_	18	punct	_	_
+18	פרוף	פרופסור	NOUN	NOUN	Gender=Masc|Number=Sing	10	appos	_	_
+19	עודד	עודד	PROPN	PROPN	_	18	flat:name	_	_
+20	אברמסקי	אברמסקי	PROPN	PROPN	_	18	flat:name	_	SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:213
+# doc_range = 481-628
+# sent_id = 5278
+# text = הפרס ניתן לו על מפעל חייו ותרומתו המדעית והציבורית בתחום האפידמיולוגיה הקלינית.
+1-2	הפרס	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	פרס	פרס	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ניתן	ניתן	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+4-5	לו	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+6	על	על	ADP	ADP	_	7	case	_	_
+7	מפעל	מפעל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	obl	_	_
+8-10	חייו	_	_	_	_	_	_	_	_
+8	חיים	חיים	NOUN	NOUN	Gender=Masc|Number=Plur	7	compound:smixut	_	_
+9	_של_	של	ADP	ADP	Case=Gen	10	case:gen	_	_
+10	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+11-14	ותרומתו	_	_	_	_	_	_	_	_
+11	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+12	תרומה	תרומה	NOUN	NOUN	Gender=Fem|Number=Sing	7	conj	_	_
+13	_של_	של	ADP	ADP	Case=Gen	14	case:gen	_	_
+14	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+15-16	המדעית	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	מדעית	מדעי	ADJ	ADJ	Gender=Fem|Number=Sing	12	amod	_	_
+17-19	והציבורית	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	ציבורית	ציבורי	ADJ	ADJ	Gender=Fem|Number=Sing	16	conj	_	_
+20-21	בתחום	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	תחום	תחום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	nmod	_	_
+22-23	האפידמיולוגיה	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	אפידמיולוגיה	אפידמיולוגיה	NOUN	NOUN	Gender=Fem|Number=Sing	21	compound:smixut	_	_
+24-25	הקלינית	_	_	_	_	_	_	_	SpaceAfter=No
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	קלינית	קליני	ADJ	ADJ	Gender=Fem|Number=Sing	23	amod	_	_
+26	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:213
+# doc_range = 631-989
+# sent_id = 5279
+# text = פרוף אברמסקי ציין כי הפרס הוענק עבור התרומה לעריכת מחקרים אפידמיולוגיים שתרמו להבנת מחלות כמו סכרת ולחץ דם, ועל מחקרים בהתפתחות מחלות, כמו לדוגמא הקשר בין הקרנות למחלת גזזת והופעת גידולים אחרים.
+1	פרוף	פרופסור	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+2	אברמסקי	אברמסקי	PROPN	PROPN	_	1	compound:smixut	_	_
+3	ציין	ציין	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	כי	כי	SCONJ	SCONJ	_	7	mark	_	_
+5-6	הפרס	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	פרס	פרס	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+7	הוענק	הוענק	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	3	ccomp	_	_
+8	עבור	עבור	ADP	ADP	_	10	case	_	_
+9-10	התרומה	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	תרומה	תרומה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
+11-12	לעריכת	_	_	_	_	_	_	_	_
+11	ל	ל	ADP	ADP	_	12	case	_	_
+12	עריכת	עריכה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	10	nmod	_	_
+13	מחקרים	מחקר	NOUN	NOUN	Gender=Masc|Number=Plur	12	compound:smixut	_	_
+14	אפידמיולוגיים	אפידמיולוגיים	ADJ	ADJ	_	13	amod	_	_
+15-16	שתרמו	_	_	_	_	_	_	_	_
+15	ש	ש	SCONJ	SCONJ	_	16	mark	_	_
+16	תרמו	תרם	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	13	acl:relcl	_	_
+17-18	להבנת	_	_	_	_	_	_	_	_
+17	ל	ל	ADP	ADP	_	18	case	_	_
+18	הבנת	הבנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	16	obl	_	_
+19	מחלות	מחלה	NOUN	NOUN	Gender=Fem|Number=Plur	18	compound:smixut	_	_
+20	כמו	כמו	ADP	ADP	_	21	case	_	_
+21	סכרת	סכרת	NOUN	NOUN	Gender=Fem|Number=Sing	19	nmod	_	_
+22-23	ולחץ	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
+23	לחץ	לחץ	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	21	conj	_	_
+24	דם	דם	NOUN	NOUN	Gender=Masc|Number=Sing	23	compound:smixut	_	SpaceAfter=No
+25	,	,	PUNCT	PUNCT	_	28	punct	_	_
+26-27	ועל	_	_	_	_	_	_	_	_
+26	ו	ו	CCONJ	CCONJ	_	28	cc	_	_
+27	על	על	ADP	ADP	_	28	case	_	_
+28	מחקרים	מחקר	NOUN	NOUN	Gender=Masc|Number=Plur	10	conj	_	_
+29-30	בהתפתחות	_	_	_	_	_	_	_	_
+29	ב	ב	ADP	ADP	_	30	case	_	_
+30	התפתחות	התפתחות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	28	nmod	_	_
+31	מחלות	מחלה	NOUN	NOUN	Gender=Fem|Number=Plur	30	compound:smixut	_	SpaceAfter=No
+32	,	,	PUNCT	PUNCT	_	37	punct	_	_
+33	כמו	כמו	ADP	ADP	_	37	case	_	_
+34-35	לדוגמא	_	_	_	_	_	_	_	_
+34	ל	ל	ADP	ADP	_	35	case	_	_
+35	דוגמא	דוגמה	NOUN	NOUN	Gender=Fem|Number=Sing	37	dep	_	_
+36-37	הקשר	_	_	_	_	_	_	_	_
+36	ה	ה	DET	DET	Definite=Def|PronType=Art	37	det	_	_
+37	קשר	קשר	NOUN	NOUN	Gender=Masc|Number=Sing	31	nmod	_	_
+38	בין	בין	ADP	ADP	_	39	case	_	_
+39	הקרנות	הקרנה	NOUN	NOUN	Gender=Fem|Number=Plur	37	nmod	_	_
+40-41	למחלת	_	_	_	_	_	_	_	_
+40	ל	ל	ADP	ADP	_	41	case	_	_
+41	מחלת	מחלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	37	nmod	_	_
+42	גזזת	גזזת	NOUN	NOUN	Gender=Fem|Number=Sing	41	compound:smixut	_	_
+43-44	והופעת	_	_	_	_	_	_	_	_
+43	ו	ו	CCONJ	CCONJ	_	44	cc	_	_
+44	הופעת	הופעה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	41	conj	_	_
+45	גידולים	גידול	NOUN	NOUN	Gender=Masc|Number=Plur	44	compound:smixut	_	_
+46	אחרים	אחר	ADJ	ADJ	Gender=Masc|Number=Plur	45	amod	_	SpaceAfter=No
+47	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:213
+# doc_range = 991-1065
+# sent_id = 5280
+# text = זו השנה הרביעית שהפרס מחולק לאנשי רפואה.
+1	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	_
+2-3	השנה	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+4-5	הרביעית	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	רביעית	רביעית	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	_
+6-8	שהפרס	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	פרס	פרס	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+9	מחולק	חולק	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	3	acl:relcl	_	_
+10-11	לאנשי	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	11	case	_	_
+11	אנשי	איש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	9	obl	_	_
+12	רפואה	רפואה	NOUN	NOUN	Gender=Fem|Number=Sing	11	compound:smixut	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:213
+# doc_range = 1067-1370
+# sent_id = 5281
+# text = בעבר קיבלו את הפרס פרוף גדעון אורצקי מהמרכז הרפואי "הדסה", פרוף שמעון גליק, כדיקן הפקולטה למדעי הבריאות באוניברסיטת בן גוריון וד"ר איתן ברנע מבית החולים רמב"ם בחיפה.
+1-3	בעבר	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	עבר	עבר	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+4	קיבלו	קיבל	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	את	את	ADP	ADP	Case=Acc	7	case	_	_
+6-7	הפרס	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	פרס	פרס	NOUN	NOUN	Gender=Masc|Number=Sing	4	obj	_	_
+8	פרוף	פרופסור	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
+9	גדעון	גדעון	PROPN	PROPN	_	8	compound:smixut	_	_
+10	אורצקי	אורצקי	PROPN	PROPN	_	9	flat:name	_	_
+11-13	מהמרכז	_	_	_	_	_	_	_	_
+11	מ	מ	ADP	ADP	_	13	case	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	מרכז	מרכז	NOUN	NOUN	Gender=Masc|Number=Sing	8	nmod	_	_
+14-15	הרפואי	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	רפואי	רפואי	ADJ	ADJ	Gender=Masc|Number=Sing	13	amod	_	_
+16	"	"	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No
+17	הדסה	הדסה	PROPN	PROPN	_	13	appos	_	SpaceAfter=No
+18	"	"	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	20	punct	_	_
+20	פרוף	פרף	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	8	dep	_	_
+21	שמעון	שמעון	PROPN	PROPN	_	8	dep	_	HebSource=ConvUncertainHead
+22	גליק	גליק	PROPN	PROPN	_	21	flat:name	_	SpaceAfter=No
+23	,	,	PUNCT	PUNCT	_	25	punct	_	_
+24-25	כדיקן	_	_	_	_	_	_	_	_
+24	כ	כ	ADP	ADP	_	25	case	_	_
+25	דיקן	דיקן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	21	nmod	_	_
+26-27	הפקולטה	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	פקולטה	פקולטה	NOUN	NOUN	Gender=Fem|Number=Sing	25	compound:smixut	_	_
+28-29	למדעי	_	_	_	_	_	_	_	_
+28	ל	ל	ADP	ADP	_	29	case	_	_
+29	מדעי	מדע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	27	nmod	_	_
+30-31	הבריאות	_	_	_	_	_	_	_	_
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	בריאות	בריאות	NOUN	NOUN	Gender=Fem|Number=Sing	29	compound:smixut	_	_
+32-33	באוניברסיטת	_	_	_	_	_	_	_	_
+32	ב	ב	ADP	ADP	_	33	case	_	_
+33	אוניברסיטת	אוניברסיטה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	29	nmod	_	_
+34	בן	בן	PROPN	PROPN	_	33	flat:name	_	_
+35	גוריון	גוריון	PROPN	PROPN	_	34	flat:name	_	_
+36-37	וד"ר	_	_	_	_	_	_	_	_
+36	ו	ו	CCONJ	CCONJ	_	37	cc	_	HebSource=ConvUncertainHead
+37	ד"ר	ד"ר	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	8	dep	_	HebSource=ConvUncertainHead
+38	איתן	איתן	PROPN	PROPN	_	37	flat:name	_	_
+39	ברנע	ברנע	PROPN	PROPN	_	37	flat:name	_	_
+40-41	מבית	_	_	_	_	_	_	_	_
+40	מ	מ	ADP	ADP	_	41	case	_	_
+41	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	37	nmod	_	_
+42-43	החולים	_	_	_	_	_	_	_	_
+42	ה	ה	DET	DET	Definite=Def|PronType=Art	43	det	_	_
+43	חולים	חלה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	41	compound:smixut	_	_
+44	רמב"ם	רמב"ם	PROPN	PROPN	Abbr=Yes	41	appos	_	_
+45-46	בחיפה	_	_	_	_	_	_	_	SpaceAfter=No
+45	ב	ב	ADP	ADP	_	46	case	_	_
+46	חיפה	חיפה	PROPN	PROPN	_	41	nmod	_	_
+47	.	.	PUNCT	PUNCT	_	4	punct	_	_
+

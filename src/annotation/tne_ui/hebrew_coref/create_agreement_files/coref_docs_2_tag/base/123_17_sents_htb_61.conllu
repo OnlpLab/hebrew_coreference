@@ -1,0 +1,635 @@
+# doc_id = htb:61
+# doc_range = 1-89
+# sent_id = 1926
+# text = השנים הבאות בכל הקשור בהתקשרויות של משרד השיכון.
+1-2	השנים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	0	root	_	_
+3-4	הבאות	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	באות	בא	ADJ	ADJ	Gender=Fem|Number=Plur	2	amod	_	_
+5-6	בכל	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	8	case	_	_
+6	כל	כול	DET	DET	Definite=Cons	8	det	_	_
+7-8	הקשור	_	_	_	_	_	_	_	_
+7	ה	ה	SCONJ	SCONJ	_	8	mark	_	_
+8	קשור	קשר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	2	nmod	_	_
+9-10	בהתקשרויות	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	התקשרויות	התקשרות	NOUN	NOUN	Gender=Fem|Number=Plur	8	obl	_	_
+11	של	של	ADP	ADP	Case=Gen	12	case	_	_
+12	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	nmod:poss	_	_
+13-14	השיכון	_	_	_	_	_	_	_	SpaceAfter=No
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	שיכון	שיכון	NOUN	NOUN	Gender=Masc|Number=Sing	12	compound:smixut	_	_
+15	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:61
+# doc_range = 91-228
+# sent_id = 1927
+# text = המינהל יורכב מנציגים של משרד האוצר, משרד השיכון, משרד המשפטים ואנשי ציבור.
+1-2	המינהל	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מינהל	מנהל	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	יורכב	הורכב	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	0	root	_	_
+4-5	מנציגים	_	_	_	_	_	_	_	_
+4	מ	מ	ADP	ADP	_	5	case	_	_
+5	נציגים	נציג	NOUN	NOUN	Gender=Masc|Number=Plur	3	obl	_	_
+6	של	של	ADP	ADP	Case=Gen	7	case	_	_
+7	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	nmod:poss	_	_
+8-9	האוצר	_	_	_	_	_	_	_	SpaceAfter=No
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	אוצר	אוצר	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound:smixut	_	_
+10	,	,	PUNCT	PUNCT	_	11	punct	_	_
+11	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	conj	_	_
+12-13	השיכון	_	_	_	_	_	_	_	SpaceAfter=No
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	שיכון	שיכון	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound:smixut	_	_
+14	,	,	PUNCT	PUNCT	_	15	punct	_	_
+15	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	conj	_	_
+16-17	המשפטים	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	משפטים	משפט	NOUN	NOUN	Gender=Masc|Number=Plur	15	compound:smixut	_	_
+18-19	ואנשי	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+19	אנשי	איש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	7	conj	_	_
+20	ציבור	ציבור	NOUN	NOUN	Gender=Masc|Number=Sing	19	compound:smixut	_	SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:61
+# doc_range = 230-539
+# sent_id = 1928
+# text = על-פי הערכות, ב5 השנים הבאות יושקעו בבנייה הציבורית כ03 מיליארד ש"ח באמצעות בנייה ישירה של הממשלה, הסדרים של הממשלה עם הקבלנים, התחייבויות רכישה של הממשלה לקבלנים ועוד.
+1	על	על	ADP	ADP	_	4	case	_	SpaceAfter=No
+2	-	-	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+3	פי	פה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	fixed	_	_
+4	הערכות	הערכה	NOUN	NOUN	Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	4	punct	_	_
+6-7	ב5	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	9	case	_	_
+7	5	5	NUM	NUM	_	9	nummod	_	_
+8-9	השנים	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	12	obl	_	_
+10-11	הבאות	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	באות	בא	ADJ	ADJ	Gender=Fem|Number=Plur	9	amod	_	_
+12	יושקעו	הושקע	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Fut|Voice=Pass	0	root	_	_
+13-15	בבנייה	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	15	case	_	_
+14	ה_	ה	DET	DET	PronType=Art|Definite=Def	15	det	_	_
+15	בנייה	בנייה	NOUN	NOUN	Gender=Fem|Number=Sing	12	obl	_	_
+16-17	הציבורית	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	ציבורית	ציבורי	ADJ	ADJ	Gender=Fem|Number=Sing	15	amod	_	_
+18-19	כ03	_	_	_	_	_	_	_	_
+18	כ	כ	ADP	ADP	_	21	case	_	_
+19	03	03	NUM	NUM	_	20	nummod	_	_
+20	מיליארד	מיליארד	NUM	NUM	Gender=Masc|Number=Plur	21	nummod	_	_
+21	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+22	באמצעות	באמצעות	ADP	ADP	_	23	case	_	_
+23	בנייה	בנייה	NOUN	NOUN	Gender=Fem|Number=Sing	12	obl	_	_
+24	ישירה	ישיר	ADJ	ADJ	Gender=Fem|Number=Sing	23	amod	_	_
+25	של	של	ADP	ADP	Case=Gen	27	case	_	_
+26-27	הממשלה	_	_	_	_	_	_	_	SpaceAfter=No
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	23	nmod	_	_
+28	,	,	PUNCT	PUNCT	_	29	punct	_	_
+29	הסדרים	הסדר	NOUN	NOUN	Gender=Masc|Number=Plur	23	dep	_	HebSource=ConvUncertainHead
+30	של	של	ADP	ADP	Case=Gen	32	case	_	_
+31-32	הממשלה	_	_	_	_	_	_	_	_
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	29	nmod	_	_
+33	עם	עם	ADP	ADP	_	35	case	_	_
+34-35	הקבלנים	_	_	_	_	_	_	_	SpaceAfter=No
+34	ה	ה	DET	DET	Definite=Def|PronType=Art	35	det	_	_
+35	קבלנים	קבלן	NOUN	NOUN	Gender=Masc|Number=Plur	29	nmod	_	_
+36	,	,	PUNCT	PUNCT	_	37	punct	_	_
+37	התחייבויות	התחייבות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	23	dep	_	HebSource=ConvUncertainHead
+38	רכישה	רכישה	NOUN	NOUN	Gender=Fem|Number=Sing	37	compound:smixut	_	_
+39	של	של	ADP	ADP	Case=Gen	41	case	_	_
+40-41	הממשלה	_	_	_	_	_	_	_	_
+40	ה	ה	DET	DET	Definite=Def|PronType=Art	41	det	_	_
+41	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	37	nmod	_	_
+42-44	לקבלנים	_	_	_	_	_	_	_	_
+42	ל	ל	ADP	ADP	_	44	case	_	_
+43	ה_	ה	DET	DET	PronType=Art|Definite=Def	44	det	_	_
+44	קבלנים	קבלן	NOUN	NOUN	Gender=Masc|Number=Plur	37	nmod	_	_
+45-46	ועוד	_	_	_	_	_	_	_	SpaceAfter=No
+45	ו	ו	CCONJ	CCONJ	_	46	cc	_	_
+46	עוד	עוד	ADV	ADV	_	23	advmod	_	_
+47	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# doc_id = htb:61
+# doc_range = 541-695
+# sent_id = 1929
+# text = לא עולה על הדעת שהתקשרויות אלו ייקבעו ויבוצעו על-ידי המערכת הפנימית של משרד השיכון.
+1	לא	לא	ADV	ADV	Polarity=Neg	2	advmod	_	_
+2	עולה	עלה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+3	על	על	ADP	ADP	_	5	case	_	_
+4-5	הדעת	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	דעת	דעת	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl	_	_
+6-7	שהתקשרויות	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
+7	התקשרויות	התקשרות	NOUN	NOUN	Gender=Fem|Number=Plur	9	nsubj	_	_
+8	אלו	זה	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=3|PronType=Dem	7	det	_	_
+9	ייקבעו	נקבע	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Fut|Voice=Mid	2	advcl	_	_
+10-11	ויבוצעו	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+11	יבוצעו	בוצע	VERB	VERB	Gender=Fem,Masc|HebBinyan=PUAL|Number=Plur|Person=3|Tense=Fut|Voice=Pass	9	conj	_	_
+12	על	על	ADP	ADP	_	16	case	_	SpaceAfter=No
+13	-	-	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
+14	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	12	fixed	_	_
+15-16	המערכת	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	מערכת	מערכת	NOUN	NOUN	Gender=Fem|Number=Sing	9	obl	_	_
+17-18	הפנימית	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	פנימית	פנימי	ADJ	ADJ	Gender=Fem|Number=Sing	16	amod	_	_
+19	של	של	ADP	ADP	Case=Gen	20	case	_	_
+20	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	16	nmod	_	_
+21-22	השיכון	_	_	_	_	_	_	_	SpaceAfter=No
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	שיכון	שיכון	NOUN	NOUN	Gender=Masc|Number=Sing	20	compound:smixut	_	_
+23	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:61
+# doc_range = 697-950
+# sent_id = 1930
+# text = המערכת הפנימית של משרד השיכון תהיה בלחץ אדיר לבצע התקשרויות ולדאוג לקידום הבנייה, ולא יהיה איזון בין מערכת קבלת ההחלטות לבין הלחץ לביצוע.
+1-2	המערכת	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מערכת	מערכת	NOUN	NOUN	Gender=Fem|Number=Sing	11	nsubj	_	_
+3-4	הפנימית	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	פנימית	פנימי	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+5	של	של	ADP	ADP	Case=Gen	6	case	_	_
+6	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	nmod	_	_
+7-8	השיכון	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	שיכון	שיכון	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+9	תהיה	היה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	11	cop	_	_
+10-11	בלחץ	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	לחץ	לחץ	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+12	אדיר	אדיר	ADJ	ADJ	Gender=Masc|Number=Sing	11	amod	_	_
+13	לבצע	ביצע	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	11	acl	_	_
+14	התקשרויות	התקשרות	NOUN	NOUN	Gender=Fem|Number=Plur	13	obj	_	_
+15-16	ולדאוג	_	_	_	_	_	_	_	_
+15	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+16	לדאוג	דאג	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	13	conj	_	_
+17-18	לקידום	_	_	_	_	_	_	_	_
+17	ל	ל	ADP	ADP	_	18	case	_	_
+18	קידום	קידום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	16	obl	_	_
+19-20	הבנייה	_	_	_	_	_	_	_	SpaceAfter=No
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	בנייה	בנייה	NOUN	NOUN	Gender=Fem|Number=Sing	18	compound:smixut	_	_
+21	,	,	PUNCT	PUNCT	_	24	punct	_	_
+22-23	ולא	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	_	24	cc	_	_
+23	לא	לא	ADV	ADV	Polarity=Neg	24	advmod	_	_
+24	יהיה	היה	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	11	conj	_	_
+25	איזון	איזון	NOUN	NOUN	Gender=Masc|Number=Sing	24	nsubj	_	_
+26	בין	בין	ADP	ADP	_	27	case	_	_
+27	מערכת	מערכת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	25	nmod	_	_
+28	קבלת	קבלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	27	compound:smixut	_	_
+29-30	ההחלטות	_	_	_	_	_	_	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	החלטות	החלטה	NOUN	NOUN	Gender=Fem|Number=Plur	28	compound:smixut	_	_
+31	לבין	לבין	ADP	ADP	_	33	case	_	_
+32-33	הלחץ	_	_	_	_	_	_	_	_
+32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
+33	לחץ	לחץ	NOUN	NOUN	Gender=Masc|Number=Sing	27	conj	_	_
+34-35	לביצוע	_	_	_	_	_	_	_	SpaceAfter=No
+34	ל	ל	ADP	ADP	_	35	case	_	_
+35	ביצוע	ביצוע	NOUN	NOUN	Gender=Masc|Number=Sing	33	nmod	_	_
+36	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:61
+# doc_range = 952-1110
+# sent_id = 1931
+# text = הלחץ לביצוע יהיה כל כך גדול עד כי משרד השיכון עשוי להוציא סכומים גדולים בלא שיקול-דעת.
+1-2	הלחץ	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	לחץ	לחץ	NOUN	NOUN	Gender=Masc|Number=Sing	8	nsubj	_	_
+3-4	לביצוע	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	4	case	_	_
+4	ביצוע	ביצוע	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_
+5	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	8	cop	_	_
+6	כל	כול	DET	DET	Definite=Cons	8	advmod	_	_
+7	כך	כך	ADV	ADV	_	6	fixed	_	_
+8	גדול	גדול	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
+9	עד	עד	ADP	ADP	_	15	case	_	_
+10	כי	כי	SCONJ	SCONJ	_	15	mark	_	_
+11	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	15	nsubj	_	_
+12-13	השיכון	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	שיכון	שיכון	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound:smixut	_	_
+14	עשוי	עשוי	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	15	aux	_	_
+15	להוציא	הוציא	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	8	obl	_	_
+16	סכומים	סכום	NOUN	NOUN	Gender=Masc|Number=Plur	15	obj	_	_
+17	גדולים	גדול	ADJ	ADJ	Gender=Masc|Number=Plur	16	amod	_	_
+18	בלא	בלא	ADP	ADP	_	21	case	_	_
+19	שיקול	שיקול	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+20	-	-	PUNCT	PUNCT	_	19	punct	_	SpaceAfter=No
+21	דעת	דעת	NOUN	NOUN	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:61
+# doc_range = 1112-1253
+# sent_id = 1932
+# text = אני חושש שתהיינה החלטות שגויות וכי יחתמו עסקות בלא קריטריונים אחידים ושווים.
+1	אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	חושש	חשש	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+3-4	שתהיינה	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
+4	תהיינה	היה	VERB	VERB	Gender=Fem|HebExistential=Yes|Number=Plur|Person=3|Polarity=Pos|Tense=Fut	2	ccomp	_	_
+5	החלטות	החלטה	NOUN	NOUN	Gender=Fem|Number=Plur	4	nsubj	_	_
+6	שגויות	שגוי	ADJ	ADJ	Gender=Fem|Number=Plur	5	amod	_	_
+7-8	וכי	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+8	כי	כי	SCONJ	SCONJ	_	9	mark	_	_
+9	יחתמו	חתם	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	4	conj	_	_
+10	עסקות	עסקה	NOUN	NOUN	Gender=Fem|Number=Plur	9	nsubj	_	_
+11	בלא	בלא	ADP	ADP	_	12	case	_	_
+12	קריטריונים	קריטריון	NOUN	NOUN	Gender=Masc|Number=Plur	9	obl	_	_
+13	אחידים	אחיד	ADJ	ADJ	Gender=Masc|Number=Plur	12	amod	_	_
+14-15	ושווים	_	_	_	_	_	_	_	SpaceAfter=No
+14	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+15	שווים	שווה	ADJ	ADJ	Gender=Masc|Number=Plur	13	conj	_	_
+16	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:61
+# doc_range = 1255-1377
+# sent_id = 1933
+# text = גם יש חשש בהעברת סכומי כסף אדירים מתקציב המדינה למקורבים פוליטיים.
+1	גם	גם	ADV	ADV	_	2	advmod	_	_
+2	יש	יש	VERB	VERB	HebExistential=Yes	0	root	_	_
+3	חשש	חשש	NOUN	NOUN	Gender=Masc|Number=Sing	2	nsubj	_	_
+4-5	בהעברת	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	העברת	העברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	nmod	_	_
+6	סכומי	סכום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	5	compound:smixut	_	_
+7	כסף	כסף	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+8	אדירים	אדיר	ADJ	ADJ	Gender=Masc|Number=Plur	6	amod	_	_
+9-10	מתקציב	_	_	_	_	_	_	_	_
+9	מ	מ	ADP	ADP	_	10	case	_	_
+10	תקציב	תקציב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	nmod	_	_
+11-12	המדינה	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	מדינה	מדינה	NOUN	NOUN	Gender=Fem|Number=Sing	10	compound:smixut	_	_
+13-14	למקורבים	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	מקורבים	מקורב	NOUN	NOUN	Gender=Masc|Number=Plur	5	nmod	_	_
+15	פוליטיים	פוליטי	ADJ	ADJ	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:61
+# doc_range = 1379-1598
+# sent_id = 1934
+# text = המינהל יוציא לפועל את החלטות הממשלה בעניין המכרזים הסגורים, וכן ההחלטות לבצע התקשרויות בלא מכרז, אלא באמצעות משא ומתן.
+1-2	המינהל	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מינהל	מנהל	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	יוציא	הוציא	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+4-6	לפועל	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	6	case	_	_
+5	ה_	ה	DET	DET	PronType=Art|Definite=Def	6	det	_	_
+6	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+7	את	את	ADP	ADP	Case=Acc	8	case	_	_
+8	החלטות	החלטה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	21	obj	_	_
+9-10	הממשלה	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound:smixut	_	_
+11-12	בעניין	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	עניין	עניין	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	nmod	_	_
+13-14	המכרזים	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	מכרזים	מכרז	NOUN	NOUN	Gender=Masc|Number=Plur	12	compound:smixut	_	_
+15-16	הסגורים	_	_	_	_	_	_	_	SpaceAfter=No
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	סגורים	סגור	ADJ	ADJ	Gender=Masc|Number=Plur	14	amod	_	_
+17	,	,	PUNCT	PUNCT	_	8	punct	_	_
+18-19	וכן	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	_	21	cc	_	HebSource=ConvUncertainHead
+19	כן	כן	ADV	ADV	_	21	advmod	_	_
+20-21	ההחלטות	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	החלטות	החלטה	NOUN	NOUN	Gender=Fem|Number=Plur	3	obj	_	_
+22	לבצע	ביצע	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	21	acl	_	_
+23	התקשרויות	התקשרות	NOUN	NOUN	Gender=Fem|Number=Plur	22	obl	_	_
+24	בלא	בלא	ADP	ADP	_	25	case	_	_
+25	מכרז	מכרז	NOUN	NOUN	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	PUNCT	_	29	punct	_	_
+27	אלא	אלא	CCONJ	CCONJ	_	29	cc	_	_
+28	באמצעות	באמצעות	ADP	ADP	_	29	case	_	_
+29	משא	משא	NOUN	NOUN	Gender=Masc|Number=Sing	25	conj	_	_
+30-31	ומתן	_	_	_	_	_	_	_	SpaceAfter=No
+30	ו	ו	CCONJ	CCONJ	_	31	cc	_	_
+31	מתן	מתן	NOUN	NOUN	Gender=Masc|Number=Sing	29	conj	_	_
+32	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:61
+# doc_range = 1600-1728
+# sent_id = 1935
+# text = כלומר, משרד הבינוי והשיכון יביא את הצעותיו לאישור המינהל בטרם ביצוען.
+1	כלומר	כלומר	ADV	ADV	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	nsubj	_	_
+4-5	הבינוי	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	בינוי	בינוי	NOUN	NOUN	Gender=Masc|Number=Sing	3	compound:smixut	_	_
+6-8	והשיכון	_	_	_	_	_	_	_	_
+6	ו	ו	CCONJ	CCONJ	_	8	cc	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	שיכון	שיכון	NOUN	NOUN	Gender=Masc|Number=Sing	5	conj	_	_
+9	יביא	הביא	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+10	את	את	ADP	ADP	Case=Acc	11	case	_	_
+11-13	הצעותיו	_	_	_	_	_	_	_	_
+11	הצעה	הצעה	NOUN	NOUN	Gender=Fem|Number=Plur	9	obj	_	_
+12	_של_	של	ADP	ADP	Case=Gen	13	case:gen	_	_
+13	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+14-15	לאישור	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	אישור	אישור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	obl	_	_
+16-17	המינהל	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	מינהל	מנהל	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	_
+18	בטרם	בטרם	ADP	ADP	_	19	case	_	_
+19-21	ביצוען	_	_	_	_	_	_	_	SpaceAfter=No
+19	ביצוע	ביצוע	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	_
+20	_של_	של	ADP	ADP	Case=Gen	21	case:gen	_	_
+21	_הן	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+22	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:61
+# doc_range = 1730-1932
+# sent_id = 1936
+# text = המינהל יקבע מי יהיו הקבלנים שעימם יתקשר משרד הבינוי והשיכון, וכן את אמות-המידה שבעזרתן יבחרו את הקבלנים הללו.
+1-2	המינהל	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מינהל	מנהל	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	יקבע	קבע	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	0	root	_	_
+4	מי	מי	PRON	PRON	PronType=Int	5	nsubj	_	_
+5	יהיו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	3	obl	_	_
+6-7	הקבלנים	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	קבלנים	קבלן	NOUN	NOUN	Gender=Masc|Number=Plur	5	dep	_	_
+8-10	שעימם	_	_	_	_	_	_	_	_
+8	ש	ש	SCONJ	SCONJ	_	11	mark	_	_
+9	עם	עם	ADP	ADP	_	10	case	_	_
+10	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	obl	_	_
+11	יתקשר	התקשר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	7	acl:relcl	_	_
+12	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	dep	_	_
+13-14	הבינוי	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	בינוי	בינוי	NOUN	NOUN	Gender=Masc|Number=Sing	12	compound:smixut	_	_
+15-17	והשיכון	_	_	_	_	_	_	_	SpaceAfter=No
+15	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	שיכון	שיכון	NOUN	NOUN	Gender=Masc|Number=Sing	14	conj	_	_
+18	,	,	PUNCT	PUNCT	_	19	punct	_	_
+19-20	וכן	_	_	_	_	_	_	_	_
+19	ו	ו	CCONJ	CCONJ	_	3	cc	_	HebSource=ConvUncertainHead
+20	כן	כן	ADV	ADV	_	25	advmod	_	_
+21	את	את	ADP	ADP	Case=Acc	25	case	_	_
+22	אמות	אמה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
+23	-	-	PUNCT	PUNCT	_	22	punct	_	SpaceAfter=No
+24-25	המידה	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	מידה	מידה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obj	_	_
+26-30	שבעזרתן	_	_	_	_	_	_	_	_
+26	ש	ש	SCONJ	SCONJ	_	31	mark	_	_
+27	ב	ב	ADP	ADP	_	28	case	_	_
+28	עזרה	עזרה	NOUN	NOUN	Gender=Fem|Number=Sing	31	obl	_	_
+29	_של_	של	ADP	ADP	Case=Gen	30	case:gen	_	_
+30	_הן	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+31	יבחרו	בחר	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	25	acl:relcl	_	_
+32	את	את	ADP	ADP	Case=Acc	34	case	_	_
+33-34	הקבלנים	_	_	_	_	_	_	_	_
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	קבלנים	קבלן	NOUN	NOUN	Gender=Masc|Number=Plur	31	obj	_	_
+35	הללו	הללו	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	34	det	_	SpaceAfter=No
+36	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:61
+# doc_range = 1935-2047
+# sent_id = 1937
+# text = המינהל יצטרך לקבל החלטות ולאשר התקשרויות עם קבלנים בלא מיכרז.
+1-2	המינהל	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מינהל	מנהל	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	יצטרך	הצטרך	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Fut	0	root	_	_
+4	לקבל	קיבל	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	החלטות	החלטה	NOUN	NOUN	Gender=Fem|Number=Plur	4	obj	_	_
+6-7	ולאשר	_	_	_	_	_	_	_	_
+6	ו	ו	CCONJ	CCONJ	_	7	cc	_	_
+7	לאשר	אישר	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	4	conj	_	_
+8	התקשרויות	התקשרות	NOUN	NOUN	Gender=Fem|Number=Plur	7	obj	_	_
+9	עם	עם	ADP	ADP	_	10	case	_	_
+10	קבלנים	קבלן	NOUN	NOUN	Gender=Masc|Number=Plur	8	nmod	_	_
+11	בלא	בלא	ADP	ADP	_	12	case	_	_
+12	מיכרז	מכרז	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:61
+# doc_range = 2049-2181
+# sent_id = 1938
+# text = רק לאחר אישורו של המינהל יוכל משרד הבינוי והשיכון לחתום על חוזי התקשרות.
+1	רק	רק	ADV	ADV	_	3	advmod	_	_
+2	לאחר	לאחר	ADP	ADP	_	3	case	_	_
+3-5	אישורו	_	_	_	_	_	_	_	_
+3	אישור	אישור	NOUN	NOUN	Gender=Masc|Number=Sing	16	obl	_	_
+4	_של_	של	ADP	ADP	Case=Gen	5	case:gen	_	_
+5	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+6	של	של	ADP	ADP	Case=Gen	8	case	_	_
+7-8	המינהל	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	מינהל	מנהל	NOUN	NOUN	Gender=Masc|Number=Sing	3	nmod:poss	_	_
+9	יוכל	יכול	AUX	AUX	Gender=Masc|Number=Sing|Person=2|Tense=Fut|VerbType=Mod	16	aux	_	_
+10	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	16	nsubj	_	_
+11-12	הבינוי	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	בינוי	בינוי	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
+13-15	והשיכון	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	שיכון	שיכון	NOUN	NOUN	Gender=Masc|Number=Sing	12	conj	_	_
+16	לחתום	חתם	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	0	root	_	_
+17	על	על	ADP	ADP	_	18	case	_	_
+18	חוזי	חוזה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	16	obl	_	_
+19	התקשרות	התקשרות	NOUN	NOUN	Gender=Fem|Number=Sing	18	compound:smixut	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	16	punct	_	_
+
+# doc_id = htb:61
+# doc_range = 2183-2276
+# sent_id = 1939
+# text = אין בכוונתי שהמינהל ישמש חסם בתהליך ביצוע ההחלטות.
+1	אין	אין	VERB	VERB	HebExistential=Yes	0	root	_	_
+2-5	בכוונתי	_	_	_	_	_	_	_	_
+2	ב	ב	ADP	ADP	_	3	case	_	_
+3	כוונה	כוונה	NOUN	NOUN	Gender=Fem|Number=Sing	1	obl	_	_
+4	_של_	של	ADP	ADP	Case=Gen	5	case:gen	_	_
+5	_אני	הוא	PRON	PRON	Definite=Def|Gender=Fem,Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+6-8	שהמינהל	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	מינהל	מנהל	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj	_	_
+9	ישמש	שימש	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	3	acl:relcl	_	_
+10	חסם	חסם	NOUN	NOUN	Gender=Masc|Number=Sing	9	obj	_	_
+11-12	בתהליך	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	תהליך	תהליך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	obl	_	_
+13	ביצוע	ביצוע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	compound:smixut	_	_
+14-15	ההחלטות	_	_	_	_	_	_	_	SpaceAfter=No
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	החלטות	החלטה	NOUN	NOUN	Gender=Fem|Number=Plur	13	compound:smixut	_	_
+16	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:61
+# doc_range = 2278-2439
+# sent_id = 1940
+# text = המינהל צריך להיות יעיל ומקצועי ומטרתו לתת תשובה הולמת וציבורית להוצאה של כ03 מיליארד ש"ח.
+1-2	המינהל	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מינהל	מנהל	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	צריך	צריך	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	4	aux	_	_
+4	להיות	היה	AUX	AUX	Polarity=Pos|VerbForm=Inf|VerbType=Cop	0	root	_	_
+5	יעיל	יעיל	ADJ	ADJ	Gender=Masc|Number=Sing	4	obl	_	_
+6-7	ומקצועי	_	_	_	_	_	_	_	_
+6	ו	ו	CCONJ	CCONJ	_	7	cc	_	_
+7	מקצועי	מקצועי	ADJ	ADJ	Gender=Masc|Number=Sing	5	conj	_	_
+8-11	ומטרתו	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+9	מטרה	מטרה	NOUN	NOUN	Gender=Fem|Number=Sing	12	nsubj	_	_
+10	_של_	של	ADP	ADP	Case=Gen	11	case:gen	_	_
+11	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+12	לתת	נתן	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	3	conj	_	_
+13	תשובה	תשובה	NOUN	NOUN	Gender=Fem|Number=Sing	12	obj	_	_
+14	הולמת	הולם	ADJ	ADJ	Gender=Fem|Number=Sing	13	amod	_	_
+15-16	וציבורית	_	_	_	_	_	_	_	_
+15	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+16	ציבורית	ציבורי	ADJ	ADJ	Gender=Fem|Number=Sing	14	conj	_	_
+17-18	להוצאה	_	_	_	_	_	_	_	_
+17	ל	ל	ADP	ADP	_	18	case	_	_
+18	הוצאה	הוצאה	NOUN	NOUN	Gender=Fem|Number=Sing	13	nmod	_	_
+19	של	של	ADP	ADP	Case=Gen	23	case	_	_
+20-21	כ03	_	_	_	_	_	_	_	_
+20	כ	כ	ADP	ADP	_	23	case	_	_
+21	03	03	NUM	NUM	_	22	nummod	_	_
+22	מיליארד	מיליארד	NUM	NUM	Gender=Masc|Number=Plur	23	nummod	_	_
+23	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	18	nmod:poss	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:61
+# doc_range = 2441-2710
+# sent_id = 1941
+# text = הגשתי את הצעתי זו לראש הממשלה יצחק שמיר, לשר האוצר יצחק מודעי, לשר המשפטים דן מרידור, למבקרת המדינה מרים בן-פורת, וליועץ המשפטי לממשלה יוסף חריש.
+1	הגשתי	הגיש	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	_
+2	את	את	ADP	ADP	Case=Acc	3	case	_	_
+3-5	הצעתי	_	_	_	_	_	_	_	_
+3	הצעה	הצעה	NOUN	NOUN	Gender=Fem|Number=Sing	1	obj	_	_
+4	_של_	של	ADP	ADP	Case=Gen	5	case:gen	_	_
+5	_אני	הוא	PRON	PRON	Definite=Def|Gender=Fem,Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+6	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	det	_	_
+7-8	לראש	_	_	_	_	_	_	_	_
+7	ל	ל	ADP	ADP	_	8	case	_	_
+8	ראש	ראש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	obl	_	_
+9-10	הממשלה	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound:smixut	_	_
+11	יצחק	יצחק	PROPN	PROPN	_	8	flat:name	_	_
+12	שמיר	שמיר	PROPN	PROPN	_	8	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	15	punct	_	_
+14-15	לשר	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	שר	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	conj	_	_
+16-17	האוצר	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	אוצר	אוצר	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	_
+18	יצחק	יצחק	PROPN	PROPN	_	15	flat:name	_	_
+19	מודעי	מודע	PROPN	PROPN	_	15	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	PUNCT	_	22	punct	_	_
+21-22	לשר	_	_	_	_	_	_	_	_
+21	ל	ל	ADP	ADP	_	22	case	_	_
+22	שר	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	conj	_	_
+23-24	המשפטים	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	משפטים	משפט	NOUN	NOUN	Gender=Masc|Number=Plur	22	compound:smixut	_	_
+25	דן	דן	PROPN	PROPN	_	22	flat:name	_	_
+26	מרידור	מרידור	PROPN	PROPN	_	22	flat:name	_	SpaceAfter=No
+27	,	,	PUNCT	PUNCT	_	29	punct	_	_
+28-29	למבקרת	_	_	_	_	_	_	_	_
+28	ל	ל	ADP	ADP	_	29	case	_	_
+29	מבקרת	מבקר	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	8	conj	_	_
+30-31	המדינה	_	_	_	_	_	_	_	_
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	מדינה	מדינה	NOUN	NOUN	Gender=Fem|Number=Sing	29	compound:smixut	_	_
+32	מרים	מרים	PROPN	PROPN	_	29	flat:name	_	_
+33	בן	בן	PROPN	PROPN	_	29	flat:name	_	SpaceAfter=No
+34	-	-	PUNCT	PUNCT	_	35	punct	_	SpaceAfter=No
+35	פורת	פורת	PROPN	PROPN	_	33	flat:name	_	SpaceAfter=No
+36	,	,	PUNCT	PUNCT	_	40	punct	_	_
+37-40	וליועץ	_	_	_	_	_	_	_	_
+37	ו	ו	CCONJ	CCONJ	_	40	cc	_	_
+38	ל	ל	ADP	ADP	_	40	case	_	_
+39	ה_	ה	DET	DET	PronType=Art|Definite=Def	40	det	_	_
+40	יועץ	יועץ	NOUN	NOUN	Gender=Masc|Number=Sing	8	conj	_	_
+41-42	המשפטי	_	_	_	_	_	_	_	_
+41	ה	ה	DET	DET	Definite=Def|PronType=Art	42	det	_	_
+42	משפטי	משפטי	ADJ	ADJ	Gender=Masc|Number=Sing	40	amod	_	_
+43-45	לממשלה	_	_	_	_	_	_	_	_
+43	ל	ל	ADP	ADP	_	45	case	_	_
+44	ה_	ה	DET	DET	PronType=Art|Definite=Def	45	det	_	_
+45	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	40	nmod	_	_
+46	יוסף	יוסף	PROPN	PROPN	_	40	flat:name	_	_
+47	חריש	חריש	PROPN	PROPN	_	40	flat:name	_	SpaceAfter=No
+48	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:61
+# doc_range = 2712-2901
+# sent_id = 1942
+# text = ההחלטה על הקמתו של גוף כזה תמנע ועדת חקירה ודאית בעתיד, שתוקם אם הדברים ינוהלו על-ידי משרד השיכון בלבד.
+1-2	ההחלטה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	החלטה	החלטה	NOUN	NOUN	Gender=Fem|Number=Sing	12	nsubj	_	_
+3	על	על	ADP	ADP	_	4	case	_	_
+4-6	הקמתו	_	_	_	_	_	_	_	_
+4	הקמה	הקמה	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	_
+5	_של_	של	ADP	ADP	Case=Gen	6	case:gen	_	_
+6	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+7	של	של	ADP	ADP	Case=Gen	8	case	_	_
+8	גוף	גוף	NOUN	NOUN	Gender=Masc|Number=Sing	4	nmod:poss	_	_
+9-11	כזה	_	_	_	_	_	_	_	_
+9	כ	כ	ADP	ADP	_	11	case	_	_
+10	ה_	ה	DET	DET	PronType=Art|Definite=Def	11	det	_	_
+11	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	8	nmod	_	_
+12	תמנע	מנע	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+13	ועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	obj	_	_
+14	חקירה	חקירה	NOUN	NOUN	Gender=Fem|Number=Sing	13	compound:smixut	_	_
+15	ודאית	ודאי	ADJ	ADJ	Gender=Fem|Number=Sing	13	amod	_	_
+16-18	בעתיד	_	_	_	_	_	_	_	SpaceAfter=No
+16	ב	ב	ADP	ADP	_	18	case	_	_
+17	ה_	ה	DET	DET	PronType=Art|Definite=Def	18	det	_	_
+18	עתיד	עתיד	NOUN	NOUN	Gender=Masc|Number=Sing	13	nmod	_	_
+19	,	,	PUNCT	PUNCT	_	21	punct	_	_
+20-21	שתוקם	_	_	_	_	_	_	_	_
+20	ש	ש	SCONJ	SCONJ	_	21	mark	_	_
+21	תוקם	הוקם	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	13	acl:relcl	_	_
+22	אם	אם	SCONJ	SCONJ	_	25	mark	_	_
+23-24	הדברים	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	דברים	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	25	nsubj:pass	_	_
+25	ינוהלו	נוהל	VERB	VERB	Gender=Fem,Masc|HebBinyan=PUAL|Number=Plur|Person=3|Tense=Fut|Voice=Pass	12	advcl	_	_
+26	על	על	ADP	ADP	_	29	case	_	SpaceAfter=No
+27	-	-	PUNCT	PUNCT	_	28	punct	_	SpaceAfter=No
+28	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	26	fixed	_	_
+29	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	25	obl	_	_
+30-31	השיכון	_	_	_	_	_	_	_	_
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	שיכון	שיכון	NOUN	NOUN	Gender=Masc|Number=Sing	29	compound:smixut	_	_
+32	בלבד	בלבד	ADV	ADV	_	29	advmod	_	SpaceAfter=No
+33	.	.	PUNCT	PUNCT	_	12	punct	_	_
+

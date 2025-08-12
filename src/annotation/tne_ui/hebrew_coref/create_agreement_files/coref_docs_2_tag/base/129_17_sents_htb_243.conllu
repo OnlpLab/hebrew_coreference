@@ -1,0 +1,599 @@
+# doc_id = htb:243
+# doc_range = 1-192
+# sent_id = 6013
+# text = ימים אלה מתקיימת במילאנו תערוכה יוצאת דופן של ביצים מחרסינה, שיוצרו בחצר הצאר מהמאה ה17 ועד תחילת המאה ה20.
+1	ימים	יום	NOUN	NOUN	Gender=Masc|Number=Plur	3	obl:tmod	_	_
+2	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	1	det	_	_
+3	מתקיימת	התקיים	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+4-5	במילאנו	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	מילאנו	מילאנו	PROPN	PROPN	_	3	obl	_	_
+6	תערוכה	תערוכה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+7	יוצאת	יצא	VERB	VERB	Definite=Cons|Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	6	amod	_	_
+8	דופן	דופן	NOUN	NOUN	Gender=Fem,Masc|Number=Sing	7	compound:smixut	_	_
+9	של	של	ADP	ADP	Case=Gen	10	case	_	_
+10	ביצים	ביצה	NOUN	NOUN	Gender=Fem|Number=Plur	6	nmod	_	_
+11-12	מחרסינה	_	_	_	_	_	_	_	SpaceAfter=No
+11	מ	מ	ADP	ADP	_	12	case	_	_
+12	חרסינה	חרסינה	NOUN	NOUN	Gender=Fem|Number=Sing	10	nmod	_	_
+13	,	,	PUNCT	PUNCT	_	15	punct	_	_
+14-15	שיוצרו	_	_	_	_	_	_	_	_
+14	ש	ש	SCONJ	SCONJ	_	15	mark	_	_
+15	יוצרו	יוצר	VERB	VERB	Gender=Fem,Masc|HebBinyan=PUAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	10	acl:relcl	_	_
+16-17	בחצר	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	חצר	חצר	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	15	obl	_	_
+18-19	הצאר	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	צאר	צאר	NOUN	NOUN	Gender=Masc|Number=Sing	17	compound:smixut	_	_
+20-22	מהמאה	_	_	_	_	_	_	_	_
+20	מ	מ	ADP	ADP	_	22	case	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	מאה	מאה	NOUN	NOUN	_	15	obl	_	_
+23-24	ה17	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	17	17	NUM	NUM	_	22	amod	_	_
+25-26	ועד	_	_	_	_	_	_	_	_
+25	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
+26	עד	עד	ADP	ADP	_	27	case	_	_
+27	תחילת	תחילה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	22	conj	_	_
+28-29	המאה	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	מאה	מאה	NOUN	NOUN	_	27	compound:smixut	_	_
+30-31	ה20	_	_	_	_	_	_	_	SpaceAfter=No
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	20	20	NUM	NUM	_	29	amod	_	_
+32	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:243
+# doc_range = 195-458
+# sent_id = 6014
+# text = האוסף נמצא במוזיאון ההיסטורי במוסקווה, ונתגלה בעת הכנת תערוכה אחרת, שהובאה לאיטליה לפני כשנה וכללה יצירות מופלאות בלתי מוכרות מאוסף המוזיאון.
+1-2	האוסף	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	אוסף	אוסף	NOUN	NOUN	Gender=Masc|Number=Sing	3	dep	_	_
+3	נמצא	נמצא	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+4-6	במוזיאון	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	6	case	_	_
+5	ה_	ה	DET	DET	PronType=Art|Definite=Def	6	det	_	_
+6	מוזיאון	מוזיאון	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+7-8	ההיסטורי	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	היסטורי	היסטורי	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	_
+9-10	במוסקווה	_	_	_	_	_	_	_	SpaceAfter=No
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	מוסקווה	מוסקבה	PROPN	PROPN	_	6	nmod	_	_
+11	,	,	PUNCT	PUNCT	_	13	punct	_	_
+12-13	ונתגלה	_	_	_	_	_	_	_	_
+12	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
+13	נתגלה	התגלה	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	3	conj	_	_
+14-15	בעת	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	עת	עת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	13	obl	_	_
+16	הכנת	הכנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	15	compound:smixut	_	_
+17	תערוכה	תערוכה	NOUN	NOUN	Gender=Fem|Number=Sing	16	compound:smixut	_	_
+18	אחרת	אחר	ADJ	ADJ	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	21	punct	_	_
+20-21	שהובאה	_	_	_	_	_	_	_	_
+20	ש	ש	SCONJ	SCONJ	_	21	mark	_	_
+21	הובאה	הובא	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	17	acl:relcl	_	_
+22-23	לאיטליה	_	_	_	_	_	_	_	_
+22	ל	ל	ADP	ADP	_	23	case	_	_
+23	איטליה	איטליה	PROPN	PROPN	_	21	obl	_	_
+24	לפני	לפני	ADP	ADP	_	26	case	_	_
+25-26	כשנה	_	_	_	_	_	_	_	_
+25	כ	כ	ADP	ADP	_	26	case	_	_
+26	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	21	obl	_	_
+27-28	וכללה	_	_	_	_	_	_	_	_
+27	ו	ו	CCONJ	CCONJ	_	28	cc	_	_
+28	כללה	כלל	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	21	conj	_	_
+29	יצירות	יצירה	NOUN	NOUN	Gender=Fem|Number=Plur	28	obj	_	_
+30	מופלאות	מופלא	ADJ	ADJ	Gender=Fem|Number=Plur	29	amod	_	_
+31	בלתי	בלתי	ADV	ADV	Prefix=Yes	32	compound:affix	_	_
+32	מוכרות	מוכר	ADJ	ADJ	Gender=Fem|Number=Plur	29	amod	_	_
+33-34	מאוסף	_	_	_	_	_	_	_	_
+33	מ	מ	ADP	ADP	_	34	case	_	_
+34	אוסף	אוסף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	29	nmod	_	_
+35-36	המוזיאון	_	_	_	_	_	_	_	SpaceAfter=No
+35	ה	ה	DET	DET	Definite=Def|PronType=Art	36	det	_	_
+36	מוזיאון	מוזיאון	NOUN	NOUN	Gender=Masc|Number=Sing	34	compound:smixut	_	_
+37	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:243
+# doc_range = 460-572
+# sent_id = 6015
+# text = ביצי הפסחא הן חלק ממסורת הכנסייה האורתודוקסית בברית המועצות.
+1	ביצי	ביצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	5	nsubj	_	_
+2-3	הפסחא	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	פסחא	פסחא	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4	הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|Polarity=Pos	5	cop	_	_
+5	חלק	חלק	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+6-7	ממסורת	_	_	_	_	_	_	_	_
+6	מ	מ	ADP	ADP	_	7	case	_	HebSource=ConvUncertainLabel
+7	מסורת	מסורת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	nmod	_	_
+8-9	הכנסייה	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	כנסייה	כנסייה	NOUN	NOUN	Gender=Fem|Number=Sing	5	compound:smixut	_	_
+10-11	האורתודוקסית	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	אורתודוקסית	אורתודוקסי	ADJ	ADJ	Gender=Fem|Number=Sing	9	amod	_	_
+12-13	בברית	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	ברית	ברית	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	nmod	_	_
+14-15	המועצות	_	_	_	_	_	_	_	SpaceAfter=No
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	מועצות	מועצה	NOUN	NOUN	Gender=Fem|Number=Plur	13	compound:smixut	_	_
+16	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:243
+# doc_range = 574-806
+# sent_id = 6016
+# text = מנהג עתיק הוא לשלוח ביצים צבועות באדום והוא מיוחס לאגדה על מריה מגדלנה, שהביאה אל הקיסר ברומא ביצה צבועה באדום כצבע דמו של ישו.
+1	מנהג	מנהג	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
+2	עתיק	עתיק	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	_
+3	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	4	cop	_	_
+4	לשלוח	שלח	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	0	root	_	_
+5	ביצים	ביצה	NOUN	NOUN	Gender=Fem|Number=Plur	4	obj	_	_
+6	צבועות	צבע	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	5	acl	_	_
+7-8	באדום	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	אדום	אדום	PROPN	PROPN	_	6	obl	_	_
+9-10	והוא	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+10	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj:pass	_	_
+11	מיוחס	יוחס	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	4	conj	_	_
+12-13	לאגדה	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	_	13	case	_	_
+13	אגדה	אגדה	NOUN	NOUN	Gender=Fem|Number=Sing	11	obl	_	_
+14	על	על	ADP	ADP	_	15	case	_	_
+15	מריה	מריה	PROPN	PROPN	_	13	nmod	_	_
+16	מגדלנה	מגדלנה	PROPN	PROPN	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	19	punct	_	_
+18-19	שהביאה	_	_	_	_	_	_	_	_
+18	ש	ש	SCONJ	SCONJ	_	19	mark	_	_
+19	הביאה	הביא	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	15	acl:relcl	_	_
+20	אל	אל	ADP	ADP	_	22	case	_	_
+21-22	הקיסר	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	קיסר	קיסר	NOUN	NOUN	Gender=Masc|Number=Sing	19	obl	_	_
+23-24	ברומא	_	_	_	_	_	_	_	_
+23	ב	ב	ADP	ADP	_	24	case	_	_
+24	רומא	רומא	PROPN	PROPN	_	22	nmod	_	_
+25	ביצה	ביצה	NOUN	NOUN	Gender=Fem|Number=Sing	19	obj	_	_
+26	צבועה	צבע	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	25	acl	_	_
+27-28	באדום	_	_	_	_	_	_	_	_
+27	ב	ב	ADP	ADP	_	28	case	_	_
+28	אדום	אדום	PROPN	PROPN	_	26	obl	_	_
+29-30	כצבע	_	_	_	_	_	_	_	_
+29	כ	כ	ADP	ADP	_	30	case	_	_
+30	צבע	צבע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	28	nmod	_	_
+31-33	דמו	_	_	_	_	_	_	_	_
+31	דם	דם	NOUN	NOUN	Gender=Masc|Number=Sing	30	compound:smixut	_	_
+32	_של_	של	ADP	ADP	Case=Gen	33	case:gen	_	_
+33	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+34	של	של	ADP	ADP	Case=Gen	35	case	_	_
+35	ישו	ישו	PROPN	PROPN	_	31	nmod:poss	_	SpaceAfter=No
+36	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:243
+# doc_range = 808-989
+# sent_id = 6017
+# text = מנהג משלוח הביצים בפסחא הפך לחלק מגינוני החצר מאז ימיו של הצאר אלכסיי מיכאלוביץ, אביו של פטר הגדול.
+1	מנהג	מנהג	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	nsubj	_	_
+2	משלוח	משלוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	compound:smixut	_	_
+3-4	הביצים	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	ביצים	ביצה	NOUN	NOUN	Gender=Fem|Number=Plur	2	compound:smixut	_	_
+5-7	בפסחא	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	7	case	_	_
+6	ה_	ה	DET	DET	PronType=Art|Definite=Def	7	det	_	_
+7	פסחא	פסחא	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_
+8	הפך	הפך	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Tense=Past	10	aux	_	_
+9-10	לחלק	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	10	case	_	_
+10	חלק	חלק	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+11-12	מגינוני	_	_	_	_	_	_	_	_
+11	מ	מ	ADP	ADP	_	12	case	_	HebSource=ConvUncertainLabel
+12	גינוני	גינון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	10	nmod	_	_
+13-14	החצר	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	חצר	חצר	NOUN	NOUN	Gender=Fem|Number=Sing	10	compound:smixut	_	_
+15-16	מאז	_	_	_	_	_	_	_	_
+15	מ	מ	ADP	ADP	_	17	case	_	_
+16	אז	אז	ADV	ADV	_	15	fixed	_	_
+17-19	ימיו	_	_	_	_	_	_	_	_
+17	יום	יום	NOUN	NOUN	Gender=Masc|Number=Plur	10	nmod	_	_
+18	_של_	של	ADP	ADP	Case=Gen	19	case:gen	_	_
+19	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+20	של	של	ADP	ADP	Case=Gen	22	case	_	_
+21-22	הצאר	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	צאר	צאר	NOUN	NOUN	Gender=Masc|Number=Sing	17	nmod:poss	_	_
+23	אלכסיי	אלכסיי	PROPN	PROPN	_	22	flat:name	_	_
+24	מיכאלוביץ	מיכאלוביץ	PROPN	PROPN	_	22	flat:name	_	SpaceAfter=No
+25	,	,	PUNCT	PUNCT	_	26	punct	_	_
+26-28	אביו	_	_	_	_	_	_	_	_
+26	אב	אב	NOUN	NOUN	Gender=Masc|Number=Sing	22	appos	_	_
+27	_של_	של	ADP	ADP	Case=Gen	28	case:gen	_	_
+28	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+29	של	של	ADP	ADP	Case=Gen	30	case	_	_
+30	פטר	פטר	NOUN	NOUN	Gender=Masc|Number=Sing	26	nmod:poss	_	_
+31-32	הגדול	_	_	_	_	_	_	_	SpaceAfter=No
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	גדול	גדול	ADJ	ADJ	Gender=Masc|Number=Sing	30	amod	_	_
+33	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:243
+# doc_range = 991-1131
+# sent_id = 6018
+# text = בזמנו נהגו בני משפחת הצאר לחלק ביצי חרסינה מצוירות לבני משפחתם ולבני האצולה.
+1-4	בזמנו	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	זמן	זמן	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+3	_של_	של	ADP	ADP	Case=Gen	4	case:gen	_	_
+4	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5	נהגו	נהג	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	0	root	_	_
+6	בני	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	5	nsubj	_	_
+7	משפחת	משפחה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	compound:smixut	_	_
+8-9	הצאר	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	צאר	צאר	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound:smixut	_	_
+10	לחלק	חילק	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+11	ביצי	ביצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	10	obj	_	_
+12	חרסינה	חרסינה	NOUN	NOUN	Gender=Fem|Number=Sing	11	compound:smixut	_	_
+13	מצוירות	צויר	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Pass	11	amod	_	_
+14-15	לבני	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	בני	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	10	obl	_	_
+16-18	משפחתם	_	_	_	_	_	_	_	_
+16	משפחה	משפחה	NOUN	NOUN	Gender=Fem|Number=Sing	15	compound:smixut	_	_
+17	_של_	של	ADP	ADP	Case=Gen	18	case:gen	_	_
+18	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+19-21	ולבני	_	_	_	_	_	_	_	_
+19	ו	ו	CCONJ	CCONJ	_	21	cc	_	_
+20	ל	ל	ADP	ADP	_	21	case	_	_
+21	בני	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	15	conj	_	_
+22-23	האצולה	_	_	_	_	_	_	_	SpaceAfter=No
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	אצולה	אצולה	NOUN	NOUN	Gender=Fem|Number=Sing	21	compound:smixut	_	_
+24	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:243
+# doc_range = 1133-1263
+# sent_id = 6019
+# text = היו ביצים קטנות בגודל של ביצת יונה והיו גם ביצים בגודל של ביצת בת-יענה.
+1	היו	היו	VERB	VERB	Gender=Fem,Masc|HebExistential=Yes|Number=Plur|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+2	ביצים	ביצה	NOUN	NOUN	Gender=Fem|Number=Plur	1	nsubj	_	_
+3	קטנות	קטן	ADJ	ADJ	Gender=Fem|Number=Plur	2	amod	_	_
+4-5	בגודל	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	גודל	גודל	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_
+6	של	של	ADP	ADP	Case=Gen	7	case	_	_
+7	ביצת	ביצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	nmod:poss	_	_
+8	יונה	יון	NOUN	NOUN	Gender=Fem|Number=Sing	7	compound:smixut	_	_
+9-10	והיו	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+10	היו	היו	VERB	VERB	Gender=Fem,Masc|HebExistential=Yes|Number=Plur|Person=3|Polarity=Pos|Tense=Past	1	conj	_	_
+11	גם	גם	ADV	ADV	_	12	advmod	_	_
+12	ביצים	ביצה	NOUN	NOUN	Gender=Fem|Number=Plur	10	nsubj	_	_
+13-14	בגודל	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	גודל	גודל	NOUN	NOUN	Gender=Masc|Number=Sing	12	nmod	_	_
+15	של	של	ADP	ADP	Case=Gen	16	case	_	_
+16	ביצת	ביצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	14	nmod:poss	_	_
+17	בת	בת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+18	-	-	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No
+19	יענה	יען	NOUN	NOUN	_	16	compound:smixut	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:243
+# doc_range = 1265-1368
+# sent_id = 6020
+# text = בתחילה נצבעו הביצים הטבעיות בצבעים צמחיים ובקליפות בצל.
+1-3	בתחילה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	תחילה	תחילה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+4	נצבעו	נצבע	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+5-6	הביצים	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	ביצים	ביצה	NOUN	NOUN	Gender=Fem|Number=Plur	4	nsubj	_	_
+7-8	הטבעיות	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	טבעיות	טבעי	ADJ	ADJ	Gender=Fem|Number=Plur	6	amod	_	_
+9-10	בצבעים	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	צבעים	צבע	NOUN	NOUN	Gender=Masc|Number=Plur	4	obl	_	_
+11	צמחיים	צמחי	ADJ	ADJ	Gender=Masc|Number=Plur	10	amod	_	_
+12-14	ובקליפות	_	_	_	_	_	_	_	_
+12	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	קליפות	קליפה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	10	conj	_	_
+15	בצל	בצל	NOUN	NOUN	Gender=Masc|Number=Sing	14	compound:smixut	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:243
+# doc_range = 1370-1472
+# sent_id = 6021
+# text = במשך הזמן יוצרו ביצים מחומרים מגוונים: זכוכית, עצם ועץ.
+1	במשך	במשך	ADP	ADP	_	3	case	_	_
+2-3	הזמן	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	זמן	זמן	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+4	יוצרו	יוצר	VERB	VERB	Gender=Fem,Masc|HebBinyan=PUAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+5	ביצים	ביצה	NOUN	NOUN	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+6-7	מחומרים	_	_	_	_	_	_	_	_
+6	מ	מ	ADP	ADP	_	7	case	_	_
+7	חומרים	חומר	NOUN	NOUN	Gender=Masc|Number=Plur	5	nmod	_	_
+8	מגוונים	מגוון	ADJ	ADJ	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
+9	:	:	PUNCT	PUNCT	_	10	punct	_	_
+10	זכוכית	זכוכית	NOUN	NOUN	Gender=Fem|Number=Sing	7	appos	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	12	punct	_	_
+12	עצם	עצם	NOUN	NOUN	Gender=Fem|Number=Sing	10	conj	_	_
+13-14	ועץ	_	_	_	_	_	_	_	SpaceAfter=No
+13	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
+14	עץ	עץ	NOUN	NOUN	Gender=Masc|Number=Sing	10	conj	_	_
+15	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:243
+# doc_range = 1474-1542
+# sent_id = 6022
+# text = במאה ה18 נוספו ביצים מנייר, בד וקטיפה.
+1-3	במאה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	מאה	מאה	NOUN	NOUN	_	6	obl	_	_
+4-5	ה18	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	18	18	NUM	NUM	_	3	amod	_	_
+6	נוספו	נוסף	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+7	ביצים	ביצה	NOUN	NOUN	Gender=Fem|Number=Plur	6	nsubj	_	_
+8-9	מנייר	_	_	_	_	_	_	_	SpaceAfter=No
+8	מ	מ	ADP	ADP	_	9	case	_	_
+9	נייר	נייר	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
+10	,	,	PUNCT	PUNCT	_	11	punct	_	_
+11	בד	בד	NOUN	NOUN	Gender=Masc|Number=Sing	9	conj	_	_
+12-13	וקטיפה	_	_	_	_	_	_	_	SpaceAfter=No
+12	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
+13	קטיפה	קטיפה	NOUN	NOUN	Gender=Fem|Number=Sing	9	conj	_	_
+14	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:243
+# doc_range = 1544-1785
+# sent_id = 6023
+# text = החידוש הגדול היה במחצית המאה ה19, כשהתחילו לייצר ביצים מחרסינה לבנה ולצייר עליהן מוטיווים דתיים והעתקים מציורים של ציירים מפורסמים.
+1-2	החידוש	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	חידוש	חידוש	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+3-4	הגדול	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	גדול	גדול	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+5	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	0	root	_	_
+6-7	במחצית	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	מחצית	מחצית	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	obl	_	_
+8-9	המאה	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	מאה	מאה	NOUN	NOUN	_	7	compound:smixut	_	_
+10-11	ה19	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	19	19	NUM	NUM	_	9	amod	_	_
+12	,	,	PUNCT	PUNCT	_	14	punct	_	_
+13-14	כשהתחילו	_	_	_	_	_	_	_	_
+13	כש	כש	SCONJ	SCONJ	Case=Tem	14	mark	_	_
+14	התחילו	התחיל	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	5	advcl	_	_
+15	לייצר	ייצר	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+16	ביצים	ביצה	NOUN	NOUN	Gender=Fem|Number=Plur	15	obj	_	_
+17-18	מחרסינה	_	_	_	_	_	_	_	_
+17	מ	מ	ADP	ADP	_	18	case	_	_
+18	חרסינה	חרסינה	NOUN	NOUN	Gender=Fem|Number=Sing	16	nmod	_	_
+19	לבנה	לבן	ADJ	ADJ	Gender=Fem|Number=Sing	18	amod	_	_
+20-21	ולצייר	_	_	_	_	_	_	_	_
+20	ו	ו	CCONJ	CCONJ	_	21	cc	_	_
+21	לצייר	צייר	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	15	conj	_	_
+22-23	עליהן	_	_	_	_	_	_	_	_
+22	עלי	על	ADP	ADP	_	23	case	_	_
+23	_הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	21	obl	_	_
+24	מוטיווים	מוטיווים	NOUN	NOUN	_	21	obj	_	_
+25	דתיים	דתי	ADJ	ADJ	Gender=Masc|Number=Plur	24	amod	_	_
+26-27	והעתקים	_	_	_	_	_	_	_	_
+26	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
+27	העתקים	העתק	NOUN	NOUN	Gender=Masc|Number=Plur	24	conj	_	_
+28-29	מציורים	_	_	_	_	_	_	_	_
+28	מ	מ	ADP	ADP	_	29	case	_	_
+29	ציורים	ציור	NOUN	NOUN	Gender=Masc|Number=Plur	27	nmod	_	_
+30	של	של	ADP	ADP	Case=Gen	31	case	_	_
+31	ציירים	צייר	NOUN	NOUN	Gender=Masc|Number=Plur	29	nmod:poss	_	_
+32	מפורסמים	מפורסם	ADJ	ADJ	Gender=Masc|Number=Plur	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:243
+# doc_range = 1788-1874
+# sent_id = 6024
+# text = את הביצים היו תולים בתוך הבית כמרכיב דקורטיווי.
+1	את	את	ADP	ADP	Case=Acc	3	case	_	_
+2-3	הביצים	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	ביצים	ביצה	NOUN	NOUN	Gender=Fem|Number=Plur	5	obj	_	_
+4	היו	היו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	5	cop	_	_
+5	תולים	תלה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+6	בתוך	בתוך	ADP	ADP	_	8	case	_	_
+7-8	הבית	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	בית	בית	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+9-10	כמרכיב	_	_	_	_	_	_	_	_
+9	כ	כ	ADP	ADP	_	10	case	_	_
+10	מרכיב	מרכיב	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+11	דקורטיווי	דקורטיבי	ADJ	ADJ	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:243
+# doc_range = 1876-2044
+# sent_id = 6025
+# text = בכל ביצה ניקבו שני נקבים לאורך הציר האנכי, ולתוכם השחילו סרט, שנקשר בחלקו העליון לקשר פרפר.
+1-2	בכל	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	כל	כול	DET	DET	Definite=Cons	3	det	_	_
+3	ביצה	ביצה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+4	ניקבו	ניקב	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	6	nummod	_	_
+6	נקבים	נקב	NOUN	NOUN	Gender=Masc|Number=Plur	4	obj	_	_
+7	לאורך	לאורך	ADP	ADP	_	9	case	_	_
+8-9	הציר	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	ציר	ציר	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+10-11	האנכי	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	אנכי	אנכי	ADJ	ADJ	Gender=Masc|Number=Sing	9	amod	_	_
+12	,	,	PUNCT	PUNCT	_	18	punct	_	_
+13-17	ולתוכם	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	תוך	תוך	NOUN	NOUN	Gender=Masc|Number=Sing	18	obl	_	_
+16	_של_	של	ADP	ADP	Case=Gen	17	case:gen	_	_
+17	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+18	השחילו	השחיל	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	4	conj	_	_
+19	סרט	סרט	NOUN	NOUN	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+20	,	,	PUNCT	PUNCT	_	22	punct	_	_
+21-22	שנקשר	_	_	_	_	_	_	_	_
+21	ש	ש	SCONJ	SCONJ	_	22	mark	_	_
+22	נקשר	נקשר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	19	acl:relcl	_	_
+23-26	בחלקו	_	_	_	_	_	_	_	_
+23	ב	ב	ADP	ADP	_	24	case	_	_
+24	חלק	חלק	NOUN	NOUN	Gender=Masc|Number=Sing	22	obl	_	_
+25	_של_	של	ADP	ADP	Case=Gen	26	case:gen	_	_
+26	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+27-28	העליון	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	עליון	עליון	ADJ	ADJ	Gender=Masc|Number=Sing	24	amod	_	_
+29-30	לקשר	_	_	_	_	_	_	_	_
+29	ל	ל	ADP	ADP	_	30	case	_	_
+30	קשר	קשר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	22	obl	_	_
+31	פרפר	פרפר	NOUN	NOUN	Gender=Masc|Number=Sing	30	compound:smixut	_	SpaceAfter=No
+32	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:243
+# doc_range = 2046-2086
+# sent_id = 6026
+# text = את הביצה תלו כאיקונין.
+1	את	את	ADP	ADP	Case=Acc	3	case	_	_
+2-3	הביצה	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	ביצה	ביצה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obj	_	_
+4	תלו	תלה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5-6	כאיקונין	_	_	_	_	_	_	_	SpaceAfter=No
+5	כ	כ	ADP	ADP	_	6	case	_	_
+6	איקונין	איקונין	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+7	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:243
+# doc_range = 2088-2170
+# sent_id = 6027
+# text = הסרט היה שזור בזהב וצבעיו תאמו את צבעי הציור.
+1-2	הסרט	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	סרט	סרט	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	4	cop	_	_
+4	שזור	שזר	VERB	VERB	Aspect=Prog|Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5-6	בזהב	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	זהב	זהב	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+7-10	וצבעיו	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+8	צבע	צבע	NOUN	NOUN	Gender=Masc|Number=Plur	11	nsubj	_	_
+9	_של_	של	ADP	ADP	Case=Gen	10	case:gen	_	_
+10	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+11	תאמו	תיאם	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	4	conj	_	_
+12	את	את	ADP	ADP	Case=Acc	13	case	_	_
+13	צבעי	צבע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	11	obj	_	_
+14-15	הציור	_	_	_	_	_	_	_	SpaceAfter=No
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	ציור	ציור	NOUN	NOUN	Gender=Masc|Number=Sing	13	compound:smixut	_	_
+16	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:243
+# doc_range = 2172-2375
+# sent_id = 6028
+# text = בתערוכה מוצגות 82 ביצים מתוך האוסף של הצאר, שעליהן מצוירים העתקים מציורים מפורסמים של ליאונרדו דה-וינצי ורפאל.
+1-3	בתערוכה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	תערוכה	תערוכה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+4	מוצגות	הוצג	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+5	82	82	NUM	NUM	_	6	nummod	_	_
+6	ביצים	ביצה	NOUN	NOUN	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+7	מתוך	מתוך	ADP	ADP	_	9	case	_	_
+8-9	האוסף	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	אוסף	אוסף	NOUN	NOUN	Gender=Masc|Number=Sing	6	nmod	_	_
+10	של	של	ADP	ADP	Case=Gen	12	case	_	_
+11-12	הצאר	_	_	_	_	_	_	_	SpaceAfter=No
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	צאר	צאר	NOUN	NOUN	Gender=Masc|Number=Sing	9	nmod:poss	_	_
+13	,	,	PUNCT	PUNCT	_	17	punct	_	_
+14-16	שעליהן	_	_	_	_	_	_	_	_
+14	ש	ש	SCONJ	SCONJ	_	17	mark	_	_
+15	עלי	על	ADP	ADP	_	16	case	_	_
+16	_הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	17	obl	_	_
+17	מצוירים	צויר	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	6	acl:relcl	_	_
+18	העתקים	העתק	NOUN	NOUN	Gender=Masc|Number=Plur	17	nsubj:pass	_	_
+19-20	מציורים	_	_	_	_	_	_	_	_
+19	מ	מ	ADP	ADP	_	20	case	_	_
+20	ציורים	ציור	NOUN	NOUN	Gender=Masc|Number=Plur	18	nmod	_	_
+21	מפורסמים	מפורסם	ADJ	ADJ	Gender=Masc|Number=Plur	20	amod	_	_
+22	של	של	ADP	ADP	Case=Gen	23	case	_	_
+23	ליאונרדו	ליאונרדו	PROPN	PROPN	_	20	nmod	_	_
+24	דה	דה	PROPN	PROPN	_	23	flat:name	_	SpaceAfter=No
+25	-	-	PUNCT	PUNCT	_	26	punct	_	SpaceAfter=No
+26	וינצי	וינצי	PROPN	PROPN	_	24	flat:name	_	_
+27-28	ורפאל	_	_	_	_	_	_	_	SpaceAfter=No
+27	ו	ו	CCONJ	CCONJ	_	28	cc	_	_
+28	רפאל	רפאל	PROPN	PROPN	_	23	conj	_	_
+29	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:243
+# doc_range = 2377-2628
+# sent_id = 6029
+# text = את התערוכה הביאה למילאנו האוצרת מרילינה מרדט דריה דה-צוליאנו, והיא חונכת אולם תצוגות ברחוב המפורסם ביותר במילאנו, ויה מונטה נפוליאונה.
+1	את	את	ADP	ADP	Case=Acc	3	case	_	_
+2-3	התערוכה	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	תערוכה	תערוכה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obj	_	_
+4	הביאה	הביא	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5-6	למילאנו	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	מילאנו	מילאנו	PROPN	PROPN	_	4	obl	_	_
+7-8	האוצרת	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	אוצרת	אוצר	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
+9	מרילינה	מרילינה	PROPN	PROPN	_	8	flat:name	_	_
+10	מרדט	מרדט	PROPN	PROPN	_	8	flat:name	_	_
+11	דריה	דריה	PROPN	PROPN	_	10	flat:name	_	_
+12	דה	דה	PROPN	PROPN	_	10	flat:name	_	SpaceAfter=No
+13	-	-	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
+14	צוליאנו	צוליאנו	PROPN	PROPN	_	12	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	18	punct	_	_
+16-17	והיא	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+17	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+18	חונכת	חנך	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	4	conj	_	_
+19	אולם	אולם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	18	obj	_	_
+20	תצוגות	תצוגה	NOUN	NOUN	Gender=Fem|Number=Plur	19	compound:smixut	_	_
+21-23	ברחוב	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	23	case	_	_
+22	ה_	ה	DET	DET	PronType=Art|Definite=Def	23	det	_	_
+23	רחוב	רחוב	NOUN	NOUN	Gender=Masc|Number=Sing	18	obl	_	_
+24-25	המפורסם	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	מפורסם	מפורסם	ADJ	ADJ	Gender=Masc|Number=Sing	23	amod	_	_
+26	ביותר	ביותר	ADV	ADV	_	25	advmod	_	_
+27-28	במילאנו	_	_	_	_	_	_	_	SpaceAfter=No
+27	ב	ב	ADP	ADP	_	28	case	_	_
+28	מילאנו	מילאנו	PROPN	PROPN	_	23	nmod	_	_
+29	,	,	PUNCT	PUNCT	_	30	punct	_	_
+30	ויה	ויה	PROPN	PROPN	_	23	appos	_	_
+31	מונטה	מונטה	PROPN	PROPN	_	30	flat:name	_	_
+32	נפוליאונה	נפוליאונה	PROPN	PROPN	_	30	flat:name	_	SpaceAfter=No
+33	.	.	PUNCT	PUNCT	_	4	punct	_	_
+

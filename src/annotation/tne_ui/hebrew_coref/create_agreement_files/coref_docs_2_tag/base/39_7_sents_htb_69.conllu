@@ -1,0 +1,292 @@
+# doc_id = htb:69
+# doc_range = 1-193
+# sent_id = 2040
+# text = בעשרת החודשים הראשונים של השנה הונפקו 442 היתרים להשקעות ולהקמת חברות בחו"ל, בהיקף כולל של 210 מיליוני דולר.
+1-2	בעשרת	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	4	case	_	_
+2	עשרת	עשרת	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	4	nummod	_	_
+3-4	החודשים	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	חודשים	חודש	NOUN	NOUN	Gender=Masc|Number=Plur	10	obl	_	_
+5-6	הראשונים	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	ראשונים	ראשונים	ADJ	ADJ	Gender=Masc|Number=Plur	4	amod	_	_
+7	של	של	ADP	ADP	Case=Gen	9	case	_	_
+8-9	השנה	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nmod	_	_
+10	הונפקו	הונפק	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+11	442	442	NUM	NUM	_	12	nummod	_	_
+12	היתרים	היתר	NOUN	NOUN	Gender=Masc|Number=Plur	10	nsubj:pass	_	_
+13-14	להשקעות	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	השקעות	השקעה	NOUN	NOUN	Gender=Fem|Number=Plur	10	obl	_	_
+15-17	ולהקמת	_	_	_	_	_	_	_	_
+15	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	הקמת	הקמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	14	conj	_	_
+18	חברות	חברה	NOUN	NOUN	Gender=Fem|Number=Plur	17	compound:smixut	_	_
+19-20	בחו"ל	_	_	_	_	_	_	_	SpaceAfter=No
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	חו"ל	חו"ל	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	18	nmod	_	_
+21	,	,	PUNCT	PUNCT	_	23	punct	_	_
+22-23	בהיקף	_	_	_	_	_	_	_	_
+22	ב	ב	ADP	ADP	_	23	case	_	_
+23	היקף	היקף	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
+24	כולל	כולל	ADJ	ADJ	Gender=Masc|Number=Sing	23	amod	_	_
+25	של	של	ADP	ADP	Case=Gen	28	case	_	_
+26	210	210	NUM	NUM	_	27	nummod	_	_
+27	מיליוני	מיליוני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	28	nummod	_	_
+28	דולר	דולר	NOUN	NOUN	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:69
+# doc_range = 195-310
+# sent_id = 2041
+# text = נתונים אלו נמסרו ל"הארץ" ממחלקת הפיקוח על המטבע חוץ בבנק ישראל.
+1	נתונים	נתון	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
+2	אלו	זה	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=3|PronType=Dem	1	det	_	_
+3	נמסרו	נמסר	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+4-7	ל"הארץ	_	_	_	_	_	_	_	SpaceAfter=No
+4	ל	ל	ADP	ADP	_	7	case	_	_
+5	"	"	PUNCT	PUNCT	_	7	punct	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	ארץ	ארץ	PROPN	PROPN	_	3	obl	_	_
+8	"	"	PUNCT	PUNCT	_	7	punct	_	_
+9-10	ממחלקת	_	_	_	_	_	_	_	_
+9	מ	מ	ADP	ADP	_	10	case	_	_
+10	מחלקת	מחלקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	obl	_	_
+11-12	הפיקוח	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	פיקוח	פיקוח	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
+13	על	על	ADP	ADP	_	15	case	_	_
+14-15	המטבע	_	_	_	_	_	_	_	_
+14	ה	ה	X	X	_	15	dep	_	Xtra=Junk
+15	מטבע	מטבע	X	X	_	12	nmod	_	Xtra=Junk
+16	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	_
+17-18	בבנק	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	_	18	case	_	_
+18	בנק	בנק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	nmod	_	_
+19	ישראל	ישראל	PROPN	PROPN	_	18	flat:name	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:69
+# doc_range = 314-590
+# sent_id = 2042
+# text = כ13% מסך ההשקעות (63.5 מיליון ד) היו בארצות השוק המשותף; 54% בצפון אמריקה; 5% במזרח אירופה; 1% במדינות אפט"א (מדינות מערב-אירופיות שאינן חברות בשוק המשותף).
+1-2	כ13	_	_	_	_	_	_	_	SpaceAfter=No
+1	כ	כ	ADP	ADP	_	3	case	_	_
+2	13	13	NUM	NUM	_	3	nummod	_	_
+3	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	13	nsubj	_	_
+4-5	מסך	_	_	_	_	_	_	_	_
+4	מ	מ	ADP	ADP	_	5	case	_	_
+5	סך	סך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	nmod	_	_
+6-7	ההשקעות	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	השקעות	השקעה	NOUN	NOUN	Gender=Fem|Number=Plur	5	compound:smixut	_	_
+8	(	(	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+9	63.5	63.5	NUM	NUM	_	10	nummod	_	_
+10	מיליון	מיליון	NUM	NUM	Gender=Masc|Number=Plur	11	nummod	_	_
+11	ד	ד	NOUN	NOUN	_	3	appos	_	SpaceAfter=No
+12	)	)	PUNCT	PUNCT	_	11	punct	_	_
+13	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	0	root	_	_
+14-15	בארצות	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	ארצות	ארץ	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	13	obl	_	_
+16-17	השוק	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	שוק	שוק	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	_
+18-19	המשותף	_	_	_	_	_	_	_	SpaceAfter=No
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	משותף	משותף	ADJ	ADJ	Gender=Masc|Number=Sing	17	amod	_	_
+20	;	;	PUNCT	PUNCT	_	22	punct	_	_
+21	54	54	NUM	NUM	_	22	nummod	_	SpaceAfter=No
+22	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	13	dep	_	_
+23-24	בצפון	_	_	_	_	_	_	_	_
+23	ב	ב	ADP	ADP	_	24	case	_	_
+24	צפון	צפון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	22	nmod	_	_
+25	אמריקה	אמריקה	PROPN	PROPN	_	24	flat:name	_	SpaceAfter=No
+26	;	;	PUNCT	PUNCT	_	28	punct	_	_
+27	5	5	NUM	NUM	_	28	nummod	_	SpaceAfter=No
+28	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	22	conj	_	_
+29-30	במזרח	_	_	_	_	_	_	_	_
+29	ב	ב	ADP	ADP	_	30	case	_	_
+30	מזרח	מזרח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	28	nmod	_	_
+31	אירופה	אירופה	PROPN	PROPN	_	30	compound:smixut	_	SpaceAfter=No
+32	;	;	PUNCT	PUNCT	_	34	punct	_	_
+33	1	1	NUM	NUM	_	34	nummod	_	SpaceAfter=No
+34	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	22	conj	_	_
+35-36	במדינות	_	_	_	_	_	_	_	_
+35	ב	ב	ADP	ADP	_	36	case	_	_
+36	מדינות	מדינה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	34	nmod	_	_
+37	אפט"א	אפט"א	PROPN	PROPN	Abbr=Yes	36	compound:smixut	_	_
+38	(	(	PUNCT	PUNCT	_	39	punct	_	SpaceAfter=No
+39	מדינות	מדינה	NOUN	NOUN	Gender=Fem|Number=Plur	36	appos	_	_
+40	מערב	מערב	NOUN	NOUN	Gender=Masc|Number=Sing	39	amod	_	SpaceAfter=No
+41	-	-	PUNCT	PUNCT	_	42	punct	_	SpaceAfter=No
+42	אירופיות	אירופי	ADJ	ADJ	Gender=Fem|Number=Plur	40	dep	_	_
+43-44	שאינן	_	_	_	_	_	_	_	_
+43	ש	ש	SCONJ	SCONJ	_	45	mark	_	_
+44	אינן	אינו	AUX	AUX	Gender=Fem|Number=Plur|Person=3|Polarity=Neg|VerbForm=Part	45	aux	_	_
+45	חברות	חברה	NOUN	NOUN	Gender=Fem|Number=Plur	39	acl:relcl	_	_
+46-48	בשוק	_	_	_	_	_	_	_	_
+46	ב	ב	ADP	ADP	_	48	case	_	_
+47	ה_	ה	DET	DET	PronType=Art|Definite=Def	48	det	_	_
+48	שוק	שוק	NOUN	NOUN	Gender=Masc|Number=Sing	45	nmod	_	_
+49-50	המשותף	_	_	_	_	_	_	_	SpaceAfter=No
+49	ה	ה	DET	DET	Definite=Def|PronType=Art	50	det	_	_
+50	משותף	משותף	ADJ	ADJ	Gender=Masc|Number=Sing	48	amod	_	_
+51	)	)	PUNCT	PUNCT	_	39	punct	_	SpaceAfter=No
+52	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# doc_id = htb:69
+# doc_range = 595-665
+# sent_id = 2043
+# text = רוב ההשקעות היו בתחומי הייצור והשיווק.
+1	רוב	רוב	DET	DET	Definite=Cons	3	det	_	_
+2-3	ההשקעות	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	השקעות	השקעה	NOUN	NOUN	Gender=Fem|Number=Plur	6	nsubj	_	_
+4	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	6	cop	_	_
+5-6	בתחומי	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	תחומי	תחום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	0	root	_	_
+7-8	הייצור	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	ייצור	ייצור	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+9-11	והשיווק	_	_	_	_	_	_	_	SpaceAfter=No
+9	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	שיווק	שיווק	NOUN	NOUN	Gender=Masc|Number=Sing	8	conj	_	_
+12	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:69
+# doc_range = 667-908
+# sent_id = 2044
+# text = הנתונים של בנק ישראל מראים שמאז הונהגו אמות-מידה חדשות למתן ההיתרים ביוני, לא נרשם שינוי משמעותי במספר החברות שביקשו להשקיע בחו"ל.
+1-2	הנתונים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	נתונים	נתון	NOUN	NOUN	Gender=Masc|Number=Plur	6	nsubj	_	_
+3	של	של	ADP	ADP	Case=Gen	4	case	_	_
+4	בנק	בנק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	nmod:poss	_	_
+5	ישראל	ישראל	PROPN	PROPN	_	4	flat:name	_	_
+6	מראים	הראה	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+7-8	שמאז	_	_	_	_	_	_	_	_
+7	ש	ש	SCONJ	SCONJ	_	22	mark	_	_
+8	מאז	מאז	ADV	ADV	_	9	case	_	_
+9	הונהגו	הונהג	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	22	obl	_	_
+10	אמות	אמה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+11	-	-	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+12	מידה	מידה	NOUN	NOUN	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+13	חדשות	חדש	ADJ	ADJ	Gender=Fem|Number=Plur	12	amod	_	_
+14-15	למתן	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	מתן	מתן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	nmod	_	_
+16-17	ההיתרים	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	היתרים	היתר	NOUN	NOUN	Gender=Masc|Number=Plur	15	compound:smixut	_	_
+18-19	ביוני	_	_	_	_	_	_	_	SpaceAfter=No
+18	ב	ב	ADP	ADP	_	19	case	_	_
+19	יוני	יוני	PROPN	PROPN	_	15	nmod	_	_
+20	,	,	PUNCT	PUNCT	_	9	punct	_	_
+21	לא	לא	ADV	ADV	Polarity=Neg	22	advmod	_	_
+22	נרשם	נרשם	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	6	ccomp	_	_
+23	שינוי	שינוי	NOUN	NOUN	Gender=Masc|Number=Sing	22	nsubj	_	_
+24	משמעותי	משמעותי	ADJ	ADJ	Gender=Masc|Number=Sing	23	amod	_	_
+25-26	במספר	_	_	_	_	_	_	_	_
+25	ב	ב	ADP	ADP	_	28	case	_	_
+26	מספר	מספר	DET	DET	Definite=Cons	28	det	_	_
+27-28	החברות	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	חברות	חברה	NOUN	NOUN	Gender=Fem|Number=Plur	23	nmod	_	_
+29-30	שביקשו	_	_	_	_	_	_	_	_
+29	ש	ש	SCONJ	SCONJ	_	30	mark	_	_
+30	ביקשו	ביקש	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	28	acl:relcl	_	_
+31	להשקיע	השקיע	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	30	xcomp	_	_
+32-33	בחו"ל	_	_	_	_	_	_	_	SpaceAfter=No
+32	ב	ב	ADP	ADP	_	33	case	_	_
+33	חו"ל	חו"ל	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	31	obl	_	_
+34	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:69
+# doc_range = 910-1040
+# sent_id = 2045
+# text = על-פי הקריטריונים החדשים, ניתן לכל חברה להשקיע בחו"ל עד ל02% מהיקף הונו.
+1	על	על	ADP	ADP	_	5	case	_	SpaceAfter=No
+2	-	-	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+3	פי	פה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	fixed	_	_
+4-5	הקריטריונים	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	קריטריונים	קריטריון	NOUN	NOUN	Gender=Masc|Number=Plur	9	obl	_	_
+6-7	החדשים	_	_	_	_	_	_	_	SpaceAfter=No
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	חדשים	חדש	ADJ	ADJ	Gender=Masc|Number=Plur	5	amod	_	_
+8	,	,	PUNCT	PUNCT	_	5	punct	_	_
+9	ניתן	ניתן	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+10-11	לכל	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	12	case	_	_
+11	כל	כול	DET	DET	Definite=Cons	12	det	_	_
+12	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	9	obl	_	_
+13	להשקיע	השקיע	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+14-15	בחו"ל	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	חו"ל	חו"ל	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	13	obl	_	_
+16	עד	עד	ADP	ADP	_	19	case	_	_
+17-18	ל02	_	_	_	_	_	_	_	SpaceAfter=No
+17	ל	ל	ADP	ADP	_	16	fixed	_	_
+18	02	02	NUM	NUM	_	19	nummod	_	_
+19	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	13	obl	_	_
+20-21	מהיקף	_	_	_	_	_	_	_	_
+20	מ	מ	ADP	ADP	_	21	case	_	_
+21	היקף	היקף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	19	nmod	_	_
+22-24	הונו	_	_	_	_	_	_	_	SpaceAfter=No
+22	הון	הון	NOUN	NOUN	Gender=Masc|Number=Sing	21	compound:smixut	_	_
+23	_של_	של	ADP	ADP	Case=Gen	24	case:gen	_	_
+24	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+25	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:69
+# doc_range = 1042-1255
+# sent_id = 2046
+# text = מכיוון שההקלה בקריטריונים לא גרמה לבריחת הון מהארץ, מתכוון בנק ישראל לאפשר הקלה נוספת בתנאים הקשורים להשקעות בחו"ל.
+1	מכיוון	מכיוון	SCONJ	SCONJ	_	9	mark	_	_
+2-4	שההקלה	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	הקלה	הקלה	NOUN	NOUN	Gender=Fem|Number=Sing	9	nsubj	_	_
+5-7	בקריטריונים	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	7	case	_	_
+6	ה_	ה	DET	DET	PronType=Art|Definite=Def	7	det	_	_
+7	קריטריונים	קריטריון	NOUN	NOUN	Gender=Masc|Number=Plur	4	nmod	_	_
+8	לא	לא	ADV	ADV	Polarity=Neg	9	advmod	_	_
+9	גרמה	גרם	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	17	obl	_	_
+10-11	לבריחת	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	11	case	_	_
+11	בריחת	בריחה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	obl	_	_
+12	הון	הון	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound:smixut	_	_
+13-15	מהארץ	_	_	_	_	_	_	_	SpaceAfter=No
+13	מ	מ	ADP	ADP	_	15	case	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	ארץ	ארץ	NOUN	NOUN	Gender=Fem|Number=Sing	11	nmod	_	_
+16	,	,	PUNCT	PUNCT	_	9	punct	_	_
+17	מתכוון	התכוון	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+18	בנק	בנק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	nsubj	_	_
+19	ישראל	ישראל	PROPN	PROPN	_	18	flat:name	_	_
+20	לאפשר	אפשר	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+21	הקלה	הקלה	NOUN	NOUN	Gender=Fem|Number=Sing	20	obl	_	_
+22	נוספת	נוסף	ADJ	ADJ	Gender=Fem|Number=Sing	21	amod	_	_
+23-25	בתנאים	_	_	_	_	_	_	_	_
+23	ב	ב	ADP	ADP	_	25	case	_	_
+24	ה_	ה	DET	DET	PronType=Art|Definite=Def	25	det	_	_
+25	תנאים	תנאי	NOUN	NOUN	Gender=Masc|Number=Plur	21	nmod	_	_
+26-27	הקשורים	_	_	_	_	_	_	_	_
+26	ה	ה	SCONJ	SCONJ	_	27	mark	_	_
+27	קשורים	קשר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	25	acl:relcl	_	_
+28-29	להשקעות	_	_	_	_	_	_	_	_
+28	ל	ל	ADP	ADP	_	29	case	_	_
+29	השקעות	השקעה	NOUN	NOUN	Gender=Fem|Number=Plur	27	obl	_	_
+30-31	בחו"ל	_	_	_	_	_	_	_	SpaceAfter=No
+30	ב	ב	ADP	ADP	_	31	case	_	_
+31	חו"ל	חו"ל	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	29	nmod	_	_
+32	.	.	PUNCT	PUNCT	_	17	punct	_	_
+

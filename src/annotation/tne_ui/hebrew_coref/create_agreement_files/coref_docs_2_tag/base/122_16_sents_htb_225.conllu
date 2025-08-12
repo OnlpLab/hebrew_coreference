@@ -1,0 +1,527 @@
+# doc_id = htb:225
+# doc_range = 1-31
+# sent_id = 5564
+# text = מזרח סעודיה (ע"ר).
+1	מזרח	מזרח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	_
+2	סעודיה	סעודיה	PROPN	PROPN	_	1	compound:smixut	_	_
+3	(	(	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+4	ע"ר	ע"ר	NOUN	NOUN	Abbr=Yes	1	parataxis	_	SpaceAfter=No
+5	)	)	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:225
+# doc_range = 35-239
+# sent_id = 5565
+# text = במחנות ארעיים שהוקמו בסעודיה ובנסיכויות המאוחדות מתאמנים בימים אלה 7,000 מתנדבים כווייתים לקראת מלחמה עם עיראק.
+1-2	במחנות	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	מחנות	מחנה	NOUN	NOUN	Gender=Masc|Number=Plur	14	obl	_	_
+3	ארעיים	ארעי	ADJ	ADJ	Gender=Masc|Number=Plur	2	amod	_	_
+4-5	שהוקמו	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	5	mark	_	_
+5	הוקמו	הוקם	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	2	acl:relcl	_	_
+6-7	בסעודיה	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	סעודיה	סעודיה	PROPN	PROPN	_	5	obl	_	_
+8-11	ובנסיכויות	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+9	ב	ב	ADP	ADP	_	11	case	_	_
+10	ה_	ה	DET	DET	PronType=Art|Definite=Def	11	det	_	_
+11	נסיכויות	נסיכות	NOUN	NOUN	Gender=Fem|Number=Plur	7	conj	_	_
+12-13	המאוחדות	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	מאוחדות	מאוחד	ADJ	ADJ	Gender=Fem|Number=Plur	11	amod	_	_
+14	מתאמנים	התאמן	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+15-16	בימים	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	ימים	יום	NOUN	NOUN	Gender=Masc|Number=Plur	14	obl	_	_
+17	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	16	det	_	_
+18	7,000	7,000	NUM	NUM	_	19	nummod	_	_
+19	מתנדבים	מתנדב	NOUN	NOUN	Gender=Masc|Number=Plur	14	nsubj	_	_
+20	כווייתים	כווייתים	ADJ	ADJ	_	19	amod	_	_
+21	לקראת	לקראת	ADP	ADP	_	22	case	_	_
+22	מלחמה	מלחמה	NOUN	NOUN	Gender=Fem|Number=Sing	14	obl	_	_
+23	עם	עם	ADP	ADP	_	24	case	_	_
+24	עיראק	עיראק	PROPN	PROPN	_	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# doc_id = htb:225
+# doc_range = 241-526
+# sent_id = 5566
+# text = כרסיהם הסגלגלות ורגליהם הדקות מעידים על החיים הטובים שהיו להם באמירות העשירה לפני הפלישה העיראקית, אך גם על העובדה שהם עדיין רחוקים מאוד מכושר לחימה נאות.
+1-2	כרסיהם	_	_	_	_	_	_	_	_
+1	כרסי	כרס	NOUN	NOUN	Gender=Masc|Number=Plur	10	nsubj	_	_
+2	הם	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	1	nmod:poss	_	_
+3-4	הסגלגלות	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	סגלגלות	סגלגל	ADJ	ADJ	Gender=Fem|Number=Plur	1	amod	_	_
+5-7	ורגליהם	_	_	_	_	_	_	_	_
+5	ו	ו	CCONJ	CCONJ	_	6	cc	_	_
+6	רגלי	רגל	NOUN	NOUN	Gender=Fem|Number=Plur	1	conj	_	_
+7	הם	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+8-9	הדקות	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	דקות	דק	ADJ	ADJ	Gender=Fem|Number=Plur	6	amod	_	_
+10	מעידים	העיד	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+11	על	על	ADP	ADP	_	13	case	_	_
+12-13	החיים	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	חיים	חיים	NOUN	NOUN	Gender=Masc|Number=Plur	10	obl	_	_
+14-15	הטובים	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	טובים	טוב	ADJ	ADJ	Gender=Masc|Number=Plur	13	amod	_	_
+16-17	שהיו	_	_	_	_	_	_	_	_
+16	ש	ש	SCONJ	SCONJ	_	17	mark	_	_
+17	היו	היו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	13	acl:relcl	_	_
+18-19	להם	_	_	_	_	_	_	_	_
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	17	obl	_	_
+20-22	באמירות	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	22	case	_	_
+21	ה_	ה	DET	DET	PronType=Art|Definite=Def	22	det	_	_
+22	אמירות	אמירות	NOUN	NOUN	Gender=Fem|Number=Sing	17	obl	_	_
+23-24	העשירה	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	עשירה	עשיר	ADJ	ADJ	Gender=Fem|Number=Sing	22	amod	_	_
+25	לפני	לפני	ADP	ADP	_	27	case	_	_
+26-27	הפלישה	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	פלישה	פלישה	NOUN	NOUN	Gender=Fem|Number=Sing	17	obl	_	_
+28-29	העיראקית	_	_	_	_	_	_	_	SpaceAfter=No
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	עיראקית	עיראקי	ADJ	ADJ	Gender=Fem|Number=Sing	27	amod	_	_
+30	,	,	PUNCT	PUNCT	_	35	punct	_	_
+31	אך	אך	CCONJ	CCONJ	_	35	cc	_	_
+32	גם	גם	ADV	ADV	_	35	advmod	_	_
+33	על	על	ADP	ADP	_	35	case	_	_
+34-35	העובדה	_	_	_	_	_	_	_	_
+34	ה	ה	DET	DET	Definite=Def|PronType=Art	35	det	_	_
+35	עובדה	עובדה	NOUN	NOUN	Gender=Fem|Number=Sing	13	conj	_	_
+36-37	שהם	_	_	_	_	_	_	_	_
+36	ש	ש	SCONJ	SCONJ	_	39	mark	_	_
+37	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	39	nsubj	_	_
+38	עדיין	עדיין	ADV	ADV	_	39	advmod	_	_
+39	רחוקים	רחוק	ADJ	ADJ	Gender=Masc|Number=Plur	35	acl	_	_
+40	מאוד	מאוד	ADV	ADV	_	39	advmod	_	_
+41-42	מכושר	_	_	_	_	_	_	_	_
+41	מ	מ	ADP	ADP	_	42	case	_	_
+42	כושר	כושר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	39	obl	_	_
+43	לחימה	לחימה	NOUN	NOUN	Gender=Fem|Number=Sing	42	compound:smixut	_	_
+44	נאות	נאות	ADJ	ADJ	Gender=Masc|Number=Sing	42	amod	_	SpaceAfter=No
+45	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:225
+# doc_range = 528-691
+# sent_id = 5567
+# text = עם זאת, אילו אפשר היה לנצח מלחמה בהתלהבות בלבד, היו המתנדבים הללו כבר עכשיו בכוויית סיטי.
+1	עם	עם	ADP	ADP	_	2	case	_	_
+2	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
+4	אילו	אילו	SCONJ	SCONJ	_	7	mark	_	_
+5	אפשר	אפשר	AUX	AUX	VerbType=Mod	7	aux	_	_
+6	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	7	cop	_	_
+7	לנצח	ניצח	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	0	root	_	_
+8	מלחמה	מלחמה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obj	_	_
+9-10	בהתלהבות	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	התלהבות	התלהבות	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
+11	בלבד	בלבד	ADV	ADV	_	10	advmod	_	HebSource=ConvUncertainHead|SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	13	punct	_	_
+13	היו	היו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	7	cop	_	_
+14-15	המתנדבים	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	מתנדבים	מתנדב	NOUN	NOUN	Gender=Masc|Number=Plur	7	nsubj	_	_
+16	הללו	הללו	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	15	det	_	_
+17	כבר	כבר	ADV	ADV	_	18	advmod	_	_
+18	עכשיו	עכשיו	ADV	ADV	_	7	advmod	_	_
+19-20	בכוויית	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	כוויית	כווית	PROPN	PROPN	_	7	obl	_	_
+21	סיטי	סיטי	NOUN	NOUN	Gender=Fem|Number=Sing	20	nmod	_	HebSource=ConvUncertainLabel|SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:225
+# doc_range = 693-858
+# sent_id = 5568
+# text = רבים מהם חשו להתנדב בשגרירויות כוויית ברחבי העולם ושילמו בעד נסיעתם למחנות האימונים שלהם.
+1	רבים	רב	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	4	nsubj	_	_
+2-3	מהם	_	_	_	_	_	_	_	_
+2	מן	מן	ADP	ADP	_	1	dep	_	_
+3	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	dep	_	HebSource=ConvUncertainHead
+4	חשו	חש	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	להתנדב	התנדב	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	4	xcomp	_	_
+6-7	בשגרירויות	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	שגרירויות	שגרירות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	5	obl	_	_
+8	כוויית	כווית	PROPN	PROPN	_	7	compound:smixut	_	_
+9-10	ברחבי	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	רחבי	רחב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	7	nmod	_	_
+11-12	העולם	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	עולם	עולם	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
+13-14	ושילמו	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
+14	שילמו	שילם	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	4	conj	_	_
+15	בעד	בעד	ADP	ADP	_	16	case	_	_
+16-18	נסיעתם	_	_	_	_	_	_	_	_
+16	נסיעה	נסיעה	NOUN	NOUN	Gender=Fem|Number=Sing	14	obl	_	_
+17	_של_	של	ADP	ADP	Case=Gen	18	case:gen	_	_
+18	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+19-20	למחנות	_	_	_	_	_	_	_	_
+19	ל	ל	ADP	ADP	_	20	case	_	_
+20	מחנות	מחנה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	16	nmod	_	_
+21-22	האימונים	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	אימונים	אימון	NOUN	NOUN	Gender=Masc|Number=Plur	20	compound:smixut	_	_
+23-24	שלהם	_	_	_	_	_	_	_	SpaceAfter=No
+23	של	של	ADP	ADP	Case=Gen	24	case	_	_
+24	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+25	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:225
+# doc_range = 861-957
+# sent_id = 5569
+# text = "אנו מקווים כי נהיה החיילים הראשונים שיחזרו לכוויית.
+1	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+2	אנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	מקווים	קיווה	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4	כי	כי	SCONJ	SCONJ	_	5	mark	_	_
+5	נהיה	היה	VERB	VERB	Gender=Fem,Masc|HebExistential=Yes|Number=Plur|Person=1|Polarity=Pos|Tense=Fut	3	ccomp	_	_
+6-7	החיילים	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	חיילים	חייל	NOUN	NOUN	Gender=Masc|Number=Plur	5	nsubj	_	_
+8-9	הראשונים	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	ראשונים	ראשונים	ADJ	ADJ	Gender=Masc|Number=Plur	7	amod	_	_
+10-11	שיחזרו	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	11	mark	_	_
+11	יחזרו	חזר	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	7	acl:relcl	_	_
+12-13	לכוויית	_	_	_	_	_	_	_	SpaceAfter=No
+12	ל	ל	ADP	ADP	_	13	case	_	_
+13	כוויית	כווית	PROPN	PROPN	_	11	obl	_	_
+14	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:225
+# doc_range = 959-1201
+# sent_id = 5570
+# text = אנו כולנו מוכנים להילחם ולמות למען אללה ולמען ארצנו", אמר קולונל סידי סאלח א-שמיירי, קצין הצבא הכווייתי המופקד על אימוני המתנדבים.
+1	אנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+2-4	כולנו	_	_	_	_	_	_	_	_
+2	כול	כול	ADV	ADV	_	6	advmod	_	_
+3	_של_	של	ADP	ADP	Case=Gen	4	case:gen	_	_
+4	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5	מוכנים	מוכן	AUX	AUX	Gender=Masc|Number=Plur|Person=1,2,3|VerbType=Mod	6	aux	_	_
+6	להילחם	נלחם	VERB	VERB	HebBinyan=NIFAL|VerbForm=Inf|Voice=Mid	18	ccomp	_	_
+7-8	ולמות	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	8	cc	_	_
+8	למות	מת	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	6	conj	_	_
+9	למען	למען	ADP	ADP	_	10	case	_	_
+10	אללה	אללה	PROPN	PROPN	_	6	obl	_	_
+11-12	ולמען	_	_	_	_	_	_	_	_
+11	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
+12	למען	למען	ADP	ADP	_	13	case	_	_
+13-15	ארצנו	_	_	_	_	_	_	_	SpaceAfter=No
+13	ארץ	ארץ	NOUN	NOUN	Gender=Fem|Number=Sing	10	conj	_	_
+14	_של_	של	ADP	ADP	Case=Gen	15	case:gen	_	_
+15	_אנחנו	הוא	PRON	PRON	Definite=Def|Gender=Fem,Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+16	"	"	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	6	punct	_	_
+18	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+19	קולונל	קולונל	NOUN	NOUN	Gender=Masc|Number=Sing	18	nsubj	_	_
+20	סידי	סידי	PROPN	PROPN	_	19	flat:name	_	_
+21	סאלח	סאלח	PROPN	PROPN	_	19	flat:name	_	_
+22	א	א	PROPN	PROPN	_	21	flat:name	_	SpaceAfter=No
+23	-	-	PUNCT	PUNCT	_	24	punct	_	SpaceAfter=No
+24	שמיירי	שמיירי	PROPN	PROPN	_	22	flat:name	_	SpaceAfter=No
+25	,	,	PUNCT	PUNCT	_	26	punct	_	_
+26	קצין	קצין	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	19	appos	_	_
+27-28	הצבא	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	צבא	צבא	NOUN	NOUN	Gender=Masc|Number=Sing	26	compound:smixut	_	_
+29-30	הכווייתי	_	_	_	_	_	_	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	כווייתי	כוויתי	ADJ	ADJ	Gender=Masc|Number=Sing	28	amod	_	_
+31-32	המופקד	_	_	_	_	_	_	_	_
+31	ה	ה	SCONJ	SCONJ	_	32	mark	_	_
+32	מופקד	הופקד	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	26	acl:relcl	_	_
+33	על	על	ADP	ADP	_	34	case	_	_
+34	אימוני	אימון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	32	obl	_	_
+35-36	המתנדבים	_	_	_	_	_	_	_	SpaceAfter=No
+35	ה	ה	DET	DET	Definite=Def|PronType=Art	36	det	_	_
+36	מתנדבים	מתנדב	NOUN	NOUN	Gender=Masc|Number=Plur	34	compound:smixut	_	_
+37	.	.	PUNCT	PUNCT	_	18	punct	_	_
+
+# doc_id = htb:225
+# doc_range = 1203-1390
+# sent_id = 5571
+# text = במחנה האימונים הסעודי צעדו בסך 600 מתנדבים בתוך ענן אבק, וקראו בקצב סיסמאות כמו: "אללה, כוויית, האמיר".
+1-2	במחנה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	מחנה	מחנה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	obl	_	_
+3-4	האימונים	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	אימונים	אימון	NOUN	NOUN	Gender=Masc|Number=Plur	2	compound:smixut	_	_
+5-6	הסעודי	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	סעודי	סעודי	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+7	צעדו	צעד	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+8-10	בסך	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	10	case	_	_
+9	ה_	ה	DET	DET	PronType=Art|Definite=Def	10	det	_	_
+10	סך	סך	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
+11	600	600	NUM	NUM	_	12	nummod	_	_
+12	מתנדבים	מתנדב	NOUN	NOUN	Gender=Masc|Number=Plur	7	nsubj	_	_
+13	בתוך	בתוך	ADP	ADP	_	14	case	_	_
+14	ענן	ענן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	obl	_	_
+15	אבק	אבק	NOUN	NOUN	Gender=Masc|Number=Sing	14	compound:smixut	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	18	punct	_	_
+17-18	וקראו	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+18	קראו	קרא	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	7	conj	_	_
+19-20	בקצב	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	קצב	קצב	NOUN	NOUN	Gender=Masc|Number=Sing	18	obl	_	_
+21	סיסמאות	סיסמה	NOUN	NOUN	Gender=Fem|Number=Plur	18	obj	_	_
+22	כמו	כמו	ADP	ADP	_	25	case	_	SpaceAfter=No
+23	:	:	PUNCT	PUNCT	_	25	punct	_	_
+24	"	"	PUNCT	PUNCT	_	25	punct	_	SpaceAfter=No
+25	אללה	אללה	PROPN	PROPN	_	21	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	PUNCT	_	27	punct	_	_
+27	כוויית	כווית	PROPN	PROPN	_	25	conj	_	SpaceAfter=No
+28	,	,	PUNCT	PUNCT	_	30	punct	_	_
+29-30	האמיר	_	_	_	_	_	_	_	SpaceAfter=No
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	אמיר	אמיר	NOUN	NOUN	Gender=Masc|Number=Sing	25	conj	_	_
+31	"	"	PUNCT	PUNCT	_	25	punct	_	SpaceAfter=No
+32	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:225
+# doc_range = 1392-1482
+# sent_id = 5572
+# text = רמקולים השמיעו שירים פטריוטים לחיזוק לב הלוחמים.
+1	רמקולים	רמקול	NOUN	NOUN	Gender=Masc|Number=Plur	2	nsubj	_	_
+2	השמיעו	השמיע	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	שירים	שיר	NOUN	NOUN	Gender=Masc|Number=Plur	2	obj	_	_
+4	פטריוטים	פטריוט	ADJ	ADJ	Gender=Masc|Number=Plur	3	amod	_	_
+5-6	לחיזוק	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	חיזוק	חיזוק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	obl	_	_
+7	לב	לב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	compound:smixut	_	_
+8-9	הלוחמים	_	_	_	_	_	_	_	SpaceAfter=No
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	לוחמים	לוחם	NOUN	NOUN	Gender=Masc|Number=Plur	7	compound:smixut	_	_
+10	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:225
+# doc_range = 1485-1560
+# sent_id = 5573
+# text = "הגיע הזמן לצאת לארצנו ולהילחם נגד עיראק.
+1	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+2	הגיע	הגיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3-4	הזמן	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	זמן	זמן	NOUN	NOUN	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	לצאת	יצא	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+6-9	לארצנו	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	ארץ	ארץ	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
+8	_של_	של	ADP	ADP	Case=Gen	9	case:gen	_	_
+9	_אנחנו	הוא	PRON	PRON	Definite=Def|Gender=Fem,Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+10-11	ולהילחם	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+11	להילחם	נלחם	VERB	VERB	HebBinyan=NIFAL|VerbForm=Inf|Voice=Mid	5	conj	_	_
+12	נגד	נגד	ADP	ADP	_	13	case	_	_
+13	עיראק	עיראק	PROPN	PROPN	_	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:225
+# doc_range = 1562-1639
+# sent_id = 5574
+# text = הגיע הזמן להתגייס לצבא", נאמר באחד השירים.
+1	הגיע	הגיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	10	ccomp	_	_
+2-3	הזמן	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	זמן	זמן	NOUN	NOUN	Gender=Masc|Number=Sing	1	nsubj	_	_
+4	להתגייס	התגייס	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	3	acl	_	_
+5-7	לצבא	_	_	_	_	_	_	_	SpaceAfter=No
+5	ל	ל	ADP	ADP	_	7	case	_	_
+6	ה_	ה	DET	DET	PronType=Art|Definite=Def	7	det	_	_
+7	צבא	צבא	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+8	"	"	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	1	punct	_	_
+10	נאמר	נאמר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+11-12	באחד	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	14	case	_	_
+12	אחד	אחת	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	14	nummod	_	_
+13-14	השירים	_	_	_	_	_	_	_	SpaceAfter=No
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	שירים	שיר	NOUN	NOUN	Gender=Masc|Number=Plur	10	obl	_	_
+15	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:225
+# doc_range = 1641-1798
+# sent_id = 5575
+# text = הקבוצה הראשונה של המתנדבים כבר מתאמנת שלושה שבועות, אולם אף לא אחד מהם החזיק רובה ביד.
+1-2	הקבוצה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	קבוצה	קבוצה	NOUN	NOUN	Gender=Fem|Number=Sing	9	nsubj	_	_
+3-4	הראשונה	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	ראשונה	ראשונה	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+5	של	של	ADP	ADP	Case=Gen	7	case	_	_
+6-7	המתנדבים	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	מתנדבים	מתנדב	NOUN	NOUN	Gender=Masc|Number=Plur	2	nmod	_	_
+8	כבר	כבר	ADV	ADV	_	9	advmod	_	_
+9	מתאמנת	התאמן	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+10	שלושה	שלוש	NUM	NUM	Gender=Masc|Number=Plur	11	nummod	_	_
+11	שבועות	שבוע	NOUN	NOUN	Gender=Masc|Number=Plur	9	obl:tmod	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	19	punct	_	_
+13	אולם	אולם	CCONJ	CCONJ	_	19	cc	_	_
+14	אף	אף	ADV	ADV	_	18	advmod	_	_
+15	לא	לא	DET	DET	Polarity=Neg	18	det	_	_
+16	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	18	nummod	_	_
+17-18	מהם	_	_	_	_	_	_	_	_
+17	מ	מן	ADP	ADP	_	18	case	_	_
+18	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
+19	החזיק	החזיק	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	9	conj	_	_
+20	רובה	רובה	NOUN	NOUN	Gender=Masc|Number=Sing	19	obj	_	_
+21-23	ביד	_	_	_	_	_	_	_	SpaceAfter=No
+21	ב	ב	ADP	ADP	_	23	case	_	_
+22	ה_	ה	DET	DET	PronType=Art|Definite=Def	23	det	_	_
+23	יד	יד	NOUN	NOUN	Gender=Fem|Number=Sing	19	obl	_	_
+24	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:225
+# doc_range = 1801-1977
+# sent_id = 5576
+# text = קולונל א-שמיירי אמר כי הם יתחילו להתאמן בנשק קל ובמקלעים כבר השבוע והוסיף כי יש מספיק נשק לכולם.
+1	קולונל	קולונל	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+2	א	א	PROPN	PROPN	_	1	flat:name	_	SpaceAfter=No
+3	-	-	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+4	שמיירי	שמיירי	PROPN	PROPN	_	2	flat:name	_	_
+5	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+6	כי	כי	SCONJ	SCONJ	_	8	mark	_	_
+7	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+8	יתחילו	התחיל	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	5	ccomp	_	_
+9	להתאמן	התאמן	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	8	xcomp	_	_
+10-11	בנשק	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	נשק	נשק	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	_
+12	קל	קל	ADJ	ADJ	Gender=Masc|Number=Sing	11	amod	_	_
+13-15	ובמקלעים	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	מקלעים	מקלע	NOUN	NOUN	Gender=Masc|Number=Plur	11	conj	_	_
+16	כבר	כבר	ADV	ADV	_	17	advmod	_	_
+17	השבוע	השבוע	ADV	ADV	_	8	advmod	_	_
+18-19	והוסיף	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+19	הוסיף	הוסיף	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	_
+20	כי	כי	SCONJ	SCONJ	_	21	mark	_	_
+21	יש	יש	VERB	VERB	HebExistential=Yes	19	ccomp	_	_
+22	מספיק	מספיק	DET	DET	_	23	det	_	_
+23	נשק	נשק	NOUN	NOUN	Gender=Masc|Number=Sing	21	nsubj	_	_
+24-25	לכולם	_	_	_	_	_	_	_	SpaceAfter=No
+24	ל	ל	ADP	ADP	_	25	case	_	_
+25	כולם	כולם	NOUN	NOUN	Gender=Masc|Number=Plur	21	obl	_	_
+26	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:225
+# doc_range = 1979-2159
+# sent_id = 5577
+# text = בסעודיה נפוצו שמועות כי כוחות הברית מהססים לתת נשק בידי הכווייתים מחשש שהם יתחילו את המלחמה בעצמם.
+1-2	בסעודיה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	סעודיה	סעודיה	PROPN	PROPN	_	3	obl	_	_
+3	נפוצו	נפוץ	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+4	שמועות	שמועה	NOUN	NOUN	Gender=Fem|Number=Plur	3	nsubj	_	_
+5	כי	כי	SCONJ	SCONJ	_	9	mark	_	_
+6	כוחות	כוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	9	nsubj	_	_
+7-8	הברית	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	ברית	ברית	NOUN	NOUN	Gender=Fem|Number=Sing	6	compound:smixut	_	_
+9	מהססים	היסס	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	4	acl:relcl	_	_
+10	לתת	נתן	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	נשק	נשק	NOUN	NOUN	Gender=Masc|Number=Sing	10	obj	_	_
+12	בידי	בידי	ADP	ADP	_	14	case	_	_
+13-14	הכווייתים	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	כווייתים	כווייתים	NOUN	NOUN	_	10	obl	_	_
+15-16	מחשש	_	_	_	_	_	_	_	_
+15	מ	מ	ADP	ADP	_	16	case	_	_
+16	חשש	חשש	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	_
+17-18	שהם	_	_	_	_	_	_	_	_
+17	ש	ש	SCONJ	SCONJ	_	19	mark	_	_
+18	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
+19	יתחילו	התחיל	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	16	acl:relcl	_	_
+20	את	את	ADP	ADP	Case=Acc	22	case	_	_
+21-22	המלחמה	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	מלחמה	מלחמה	NOUN	NOUN	Gender=Fem|Number=Sing	19	obj	_	_
+23-24	בעצמם	_	_	_	_	_	_	_	SpaceAfter=No
+23	ב	ב	ADP	ADP	_	24	case	_	_
+24	עצמם	עצמו	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	19	obl	_	_
+25	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:225
+# doc_range = 2161-2266
+# sent_id = 5578
+# text = עדיין לא ברור כיצד ישתלבו המתנדבים במהלך המלחמה אם תפרוץ.
+1	עדיין	עדיין	ADV	ADV	_	3	advmod	_	_
+2	לא	לא	ADV	ADV	Polarity=Neg	3	advmod	_	_
+3	ברור	ברר	VERB	VERB	Gender=Masc|Mood=Imp|Number=Sing|Person=2	0	root	_	_
+4	כיצד	כיצד	ADV	ADV	PronType=Int	5	advmod	_	_
+5	ישתלבו	השתלב	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Fut	3	advcl	_	_
+6-7	המתנדבים	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	מתנדבים	מתנדב	NOUN	NOUN	Gender=Masc|Number=Plur	5	dep	_	_
+8-9	במהלך	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	11	case	_	_
+9	מהלך	מהלך	NOUN	NOUN	Gender=Masc|Number=Sing	8	fixed	_	_
+10-11	המלחמה	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	מלחמה	מלחמה	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
+12	אם	אם	SCONJ	SCONJ	_	13	mark	_	_
+13	תפרוץ	פרץ	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	5	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:225
+# doc_range = 2268-2421
+# sent_id = 5579
+# text = בין היתר מדובר שהם ישמשו תגבורת לצבא הסדיר הכווייתי המוצב בסעודיה והמונה 0054 חיילים.
+1	בין	בין	ADP	ADP	_	3	case	_	_
+2-3	היתר	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	יתר	יתר	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+4	מדובר	דובר	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+5-6	שהם	_	_	_	_	_	_	_	_
+5	ש	ש	SCONJ	SCONJ	_	7	mark	_	_
+6	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
+7	ישמשו	שימש	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Fut|Voice=Act	4	ccomp	_	_
+8	תגבורת	תגבורת	NOUN	NOUN	Gender=Fem|Number=Sing	7	dep	_	_
+9-11	לצבא	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	11	case	_	_
+10	ה_	ה	DET	DET	PronType=Art|Definite=Def	11	det	_	_
+11	צבא	צבא	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
+12-13	הסדיר	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	סדיר	סדיר	ADJ	ADJ	Gender=Masc|Number=Sing	11	amod	_	_
+14-15	הכווייתי	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	כווייתי	כוויתי	ADJ	ADJ	Gender=Masc|Number=Sing	11	amod	_	_
+16-17	המוצב	_	_	_	_	_	_	_	_
+16	ה	ה	SCONJ	SCONJ	_	17	mark	_	_
+17	מוצב	הוצב	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	11	acl:relcl	_	_
+18-19	בסעודיה	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	19	case	_	_
+19	סעודיה	סעודיה	PROPN	PROPN	_	17	obl	_	_
+20-22	והמונה	_	_	_	_	_	_	_	_
+20	ו	ו	CCONJ	CCONJ	_	22	cc	_	_
+21	ה	ה	SCONJ	SCONJ	Definite=Def|PronType=Art	22	mark	_	_
+22	מונה	מונה	VERB	VERB	Tense=Pres|VerbForm=Part	17	conj	_	_
+23	0054	0054	NUM	NUM	_	24	nummod	_	_
+24	חיילים	חייל	NOUN	NOUN	Gender=Masc|Number=Plur	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	PUNCT	_	4	punct	_	_
+

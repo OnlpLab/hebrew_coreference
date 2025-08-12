@@ -1,0 +1,604 @@
+# doc_id = htb:160_4
+# doc_range = 8630-8727
+# sent_id = 4188
+# text = ואילנה נחום מעירה: "זה רע מאוד אם יגיעו אלינו מכורח".
+1-2	ואילנה	_	_	_	_	_	_	_	_
+1	ו	ו	CCONJ	CCONJ	_	4	cc	_	_
+2	אילנה	אילנה	PROPN	PROPN	_	4	nsubj	_	_
+3	נחום	נחום	PROPN	PROPN	_	2	flat:name	_	_
+4	מעירה	העיר	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	PUNCT	_	8	punct	_	_
+6	"	"	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+7	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+8	רע	רע	ADJ	ADJ	Gender=Masc|Number=Sing	4	ccomp	_	_
+9	מאוד	מאוד	ADV	ADV	_	8	advmod	_	_
+10	אם	אם	SCONJ	SCONJ	_	11	mark	_	_
+11	יגיעו	הגיע	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Fut|Voice=Act	8	advcl	_	_
+12-13	אלינו	_	_	_	_	_	_	_	_
+12	אל	אל	ADP	ADP	_	13	case	_	_
+13	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	11	obl	_	_
+14-15	מכורח	_	_	_	_	_	_	_	SpaceAfter=No
+14	מ	מ	ADP	ADP	_	15	case	_	_
+15	כורח	כורח	NOUN	NOUN	Gender=Masc|Number=Sing	11	obl	_	_
+16	"	"	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:160_4
+# doc_range = 8729-8850
+# sent_id = 4189
+# text = אחרים בתנועה הקיבוצית אינם מאמינים בכוחם להביא אליהם עולים מרצון.
+1	אחרים	אחר	ADJ	ADJ	Gender=Masc|Number=Plur	8	nsubj	_	_
+2-4	בתנועה	_	_	_	_	_	_	_	_
+2	ב	ב	ADP	ADP	_	4	case	_	_
+3	ה_	ה	DET	DET	PronType=Art|Definite=Def	4	det	_	_
+4	תנועה	תנועה	NOUN	NOUN	Gender=Fem|Number=Sing	1	obl	_	_
+5-6	הקיבוצית	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	קיבוצית	קיבוצי	ADJ	ADJ	Gender=Fem|Number=Sing	4	amod	_	_
+7	אינם	אינו	AUX	AUX	Gender=Masc|Number=Plur|Person=3|Polarity=Neg|VerbForm=Part	8	aux	_	_
+8	מאמינים	האמין	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+9-12	בכוחם	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	כוח	כוח	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+11	_של_	של	ADP	ADP	Case=Gen	12	case:gen	_	_
+12	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+13	להביא	הביא	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	10	acl	_	_
+14-15	אליהם	_	_	_	_	_	_	_	_
+14	אלי	אל	ADP	ADP	_	15	case	_	_
+15	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	obl	_	_
+16	עולים	עולה	NOUN	NOUN	Gender=Masc|Number=Plur	13	obj	_	_
+17-18	מרצון	_	_	_	_	_	_	_	SpaceAfter=No
+17	מ	מ	ADP	ADP	_	18	case	_	_
+18	רצון	רצון	NOUN	NOUN	Gender=Masc|Number=Sing	16	nmod	_	_
+19	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:160_4
+# doc_range = 8852-8984
+# sent_id = 4190
+# text = הכל נושאים עמם את כישלונות הקליטה בעליות הקודמות, את הדימויים השליליים.
+1	הכל	הכול	NOUN	NOUN	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	נושאים	נשא	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+3-4	עמם	_	_	_	_	_	_	_	_
+3	עם	עם	ADP	ADP	_	4	case	_	_
+4	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	obl	_	_
+5	את	את	ADP	ADP	Case=Acc	6	case	_	_
+6	כישלונות	כישלון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	2	obj	_	_
+7-8	הקליטה	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	קליטה	קליטה	NOUN	NOUN	Gender=Fem|Number=Sing	6	compound:smixut	_	_
+9-11	בעליות	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	11	case	_	_
+10	ה_	ה	DET	DET	PronType=Art|Definite=Def	11	det	_	_
+11	עליות	עלייה	NOUN	NOUN	Gender=Fem|Number=Plur	6	nmod	_	_
+12-13	הקודמות	_	_	_	_	_	_	_	SpaceAfter=No
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	קודמות	קודם	ADJ	ADJ	Gender=Fem|Number=Plur	11	amod	_	_
+14	,	,	PUNCT	PUNCT	_	17	punct	_	HebSource=ConvUncertainHead
+15	את	את	ADP	ADP	Case=Acc	17	case	_	_
+16-17	הדימויים	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	דימויים	דימוי	NOUN	NOUN	Gender=Masc|Number=Plur	6	dep	_	HebSource=ConvUncertainHead
+18-19	השליליים	_	_	_	_	_	_	_	SpaceAfter=No
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	שליליים	שלילי	ADJ	ADJ	Gender=Masc|Number=Plur	17	amod	_	_
+20	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:160_4
+# doc_range = 8986-9140
+# sent_id = 4191
+# text = מזכיר התק"ם, מוקי צור: החלטנו מראש שצריך להיות אלמנט מסוים של בחירה בצעד זה של העולה.
+1	מזכיר	מזכיר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	nsubj	_	_
+2-3	התק"ם	_	_	_	_	_	_	_	SpaceAfter=No
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	תק"ם	התק"ם	PROPN	PROPN	Abbr=Yes	1	compound:smixut	_	_
+4	,	,	PUNCT	PUNCT	_	5	punct	_	_
+5	מוקי	מוקי	PROPN	PROPN	_	1	appos	_	_
+6	צור	צור	PROPN	PROPN	_	5	flat:name	_	SpaceAfter=No
+7	:	:	PUNCT	PUNCT	_	1	punct	_	_
+8	החלטנו	החליט	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=1|Tense=Past|Voice=Act	0	root	_	_
+9	מראש	מראש	ADV	ADV	_	8	advmod	_	_
+10-11	שצריך	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	12	mark	_	_
+11	צריך	צריך	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	12	aux	_	_
+12	להיות	היה	AUX	AUX	Polarity=Pos|VerbForm=Inf|VerbType=Cop	8	ccomp	_	_
+13	אלמנט	אלמנט	NOUN	NOUN	Gender=Masc|Number=Sing	12	nsubj	_	_
+14	מסוים	מסוים	ADJ	ADJ	Gender=Masc|Number=Sing	13	amod	_	_
+15	של	של	ADP	ADP	Case=Gen	16	case	_	_
+16	בחירה	בחירה	NOUN	NOUN	Gender=Fem|Number=Sing	13	nmod	_	_
+17-18	בצעד	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	_	18	case	_	_
+18	צעד	צעד	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
+19	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	det	_	_
+20	של	של	ADP	ADP	Case=Gen	22	case	_	_
+21-22	העולה	_	_	_	_	_	_	_	SpaceAfter=No
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	עולה	עולה	NOUN	NOUN	Gender=Masc|Number=Sing	18	nmod	_	_
+23	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:160_4
+# doc_range = 9142-9236
+# sent_id = 4192
+# text = לא ייתכן שעולה יבוא לקיבוץ כמו שהוא מגיע למחנה צה"ל.
+1	לא	לא	ADV	ADV	Polarity=Neg	2	advmod	_	_
+2	ייתכן	ייתכן	AUX	AUX	VerbType=Mod	0	root	_	_
+3-4	שעולה	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	5	mark	_	_
+4	עולה	עולה	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+5	יבוא	בא	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	2	advcl	_	_
+6-8	לקיבוץ	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	8	case	_	_
+7	ה_	ה	DET	DET	PronType=Art|Definite=Def	8	det	_	_
+8	קיבוץ	קיבוץ	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+9	כמו	כמו	ADP	ADP	_	12	case	_	_
+10-11	שהוא	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	12	mark	_	_
+11	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	מגיע	הגיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	5	obl	_	_
+13-14	למחנה	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	מחנה	מחנה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	obl	_	_
+15	צה"ל	צה"ל	PROPN	PROPN	Abbr=Yes	14	compound:smixut	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:160_4
+# doc_range = 9238-9365
+# sent_id = 4193
+# text = לא הסכמנו שהוא יירד מן המטוס וישימו אותו על הדשא, בלי שיאמר: אני רוצה.
+1	לא	לא	ADV	ADV	Polarity=Neg	2	advmod	_	_
+2	הסכמנו	הסכים	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=1|Tense=Past|Voice=Act	0	root	_	_
+3-4	שהוא	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	5	mark	_	_
+4	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	יירד	ירד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	2	advcl	_	_
+6	מן	מן	ADP	ADP	_	8	case	_	_
+7-8	המטוס	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	מטוס	מטוס	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+9-10	וישימו	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+10	ישימו	שם	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	2	conj	_	_
+11-12	אותו	_	_	_	_	_	_	_	_
+11	את	את	ADP	ADP	Case=Acc	12	case	_	_
+12	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+13	על	על	ADP	ADP	_	15	case	_	_
+14-15	הדשא	_	_	_	_	_	_	_	SpaceAfter=No
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	דשא	דשא	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
+16	,	,	PUNCT	PUNCT	_	19	punct	_	_
+17	בלי	בלי	ADP	ADP	_	19	case	_	_
+18-19	שיאמר	_	_	_	_	_	_	_	SpaceAfter=No
+18	ש	ש	SCONJ	SCONJ	_	19	mark	_	_
+19	יאמר	אמר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	10	obl	_	_
+20	:	:	PUNCT	PUNCT	_	22	punct	_	_
+21	אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+22	רוצה	רצה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	19	ccomp	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:160_4
+# doc_range = 9367-9489
+# sent_id = 4194
+# text = לכן קבענו עיקרון שצריכה להיות שיחה מוקדמת בין העולה לבין קיבוצניק.
+1	לכן	לכן	ADV	ADV	_	2	advmod	_	_
+2	קבענו	קבע	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=1|Tense=Past	0	root	_	_
+3	עיקרון	עיקרון	NOUN	NOUN	Gender=Masc|Number=Sing	2	obj	_	_
+4-5	שצריכה	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	6	mark	_	_
+5	צריכה	צריך	AUX	AUX	Gender=Fem|Number=Sing|Person=1,2,3|VerbType=Mod	6	aux	_	_
+6	להיות	היה	AUX	AUX	Polarity=Pos|VerbForm=Inf|VerbType=Cop	3	acl:relcl	_	_
+7	שיחה	שיחה	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj	_	_
+8	מוקדמת	מוקדם	ADJ	ADJ	Gender=Fem|Number=Sing	7	amod	_	_
+9	בין	בין	ADP	ADP	_	11	case	_	_
+10-11	העולה	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	עולה	עולה	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
+12	לבין	לבין	ADP	ADP	_	13	case	_	_
+13	קיבוצניק	קיבוצניק	NOUN	NOUN	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:160_4
+# doc_range = 9491-9535
+# sent_id = 4195
+# text = בתחום ההסברה השתנה המצב.
+1-2	בתחום	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	תחום	תחום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+3-4	ההסברה	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	הסברה	הסברה	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound:smixut	_	_
+5	השתנה	השתנה	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+6-7	המצב	_	_	_	_	_	_	_	SpaceAfter=No
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	מצב	מצב	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+8	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:160_4
+# doc_range = 9537-9649
+# sent_id = 4196
+# text = הקיבוצים הוציאו חוברות ושלחו לבריה"ם מורים מהתנועה הקיבוצית.
+1-2	הקיבוצים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	קיבוצים	קיבוץ	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	הוציאו	הוציא	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	חוברות	חוברת	NOUN	NOUN	Gender=Fem|Number=Plur	3	obj	_	_
+5-6	ושלחו	_	_	_	_	_	_	_	_
+5	ו	ו	CCONJ	CCONJ	_	6	cc	_	_
+6	שלחו	שלח	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	3	conj	_	_
+7-8	לבריה"ם	_	_	_	_	_	_	_	_
+7	ל	ל	ADP	ADP	_	8	case	_	_
+8	בריה"ם	לבריה"ם	PROPN	PROPN	Abbr=Yes	6	obl	_	_
+9	מורים	מורה	NOUN	NOUN	Gender=Masc|Number=Plur	6	obj	_	_
+10-12	מהתנועה	_	_	_	_	_	_	_	_
+10	מ	מ	ADP	ADP	_	12	case	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	תנועה	תנועה	NOUN	NOUN	Gender=Fem|Number=Sing	9	nmod	_	_
+13-14	הקיבוצית	_	_	_	_	_	_	_	SpaceAfter=No
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	קיבוצית	קיבוצי	ADJ	ADJ	Gender=Fem|Number=Sing	12	amod	_	_
+15	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:160_4
+# doc_range = 9651-9789
+# sent_id = 4197
+# text = היום העולה יודע על הקיבוץ יותר ממה שהוא יודע על כל צורת התיישבות כפרית אחרת.
+1	היום	היום	ADV	ADV	_	4	advmod	_	_
+2-3	העולה	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	עולה	עולה	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	יודע	ידע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+5	על	על	ADP	ADP	_	7	case	_	_
+6-7	הקיבוץ	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	קיבוץ	קיבוץ	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+8	יותר	יותר	ADV	ADV	_	10	advmod	_	HebSource=ConvUncertainHead
+9-10	ממה	_	_	_	_	_	_	_	_
+9	מ	מ	ADP	ADP	_	8	fixed	_	_
+10	מה	מה	ADV	ADV	PronType=Int	4	advmod	_	_
+11-12	שהוא	_	_	_	_	_	_	_	_
+11	ש	ש	SCONJ	SCONJ	_	13	mark	_	_
+12	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	יודע	ידע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	10	acl:relcl	_	_
+14	על	על	ADP	ADP	_	16	case	_	_
+15	כל	כול	DET	DET	Definite=Cons	16	det	_	_
+16	צורת	צורה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	13	obl	_	_
+17	התיישבות	התיישבות	NOUN	NOUN	Gender=Fem|Number=Sing	16	compound:smixut	_	_
+18	כפרית	כפרי	ADJ	ADJ	Gender=Fem|Number=Sing	16	amod	_	_
+19	אחרת	אחר	ADJ	ADJ	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:160_4
+# doc_range = 9791-9961
+# sent_id = 4198
+# text = מחקרים אחרונים של המחלקה להתיישבות מלמדים כי 5% 51% מהעולים מוכנים לבדוק אפשרות של חיים בקיבוץ.
+1	מחקרים	מחקר	NOUN	NOUN	Gender=Masc|Number=Plur	8	nsubj	_	_
+2	אחרונים	אחרון	ADJ	ADJ	Gender=Masc|Number=Plur	1	amod	_	_
+3	של	של	ADP	ADP	Case=Gen	5	case	_	_
+4-5	המחלקה	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	מחלקה	מחלקה	NOUN	NOUN	Gender=Fem|Number=Sing	1	nmod	_	_
+6-7	להתיישבות	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	התיישבות	התיישבות	NOUN	NOUN	Gender=Fem|Number=Sing	5	nmod	_	_
+8	מלמדים	לימד	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+9	כי	כי	SCONJ	SCONJ	_	18	mark	_	_
+10	5	5	NUM	NUM	_	11	nummod	_	SpaceAfter=No
+11	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	18	nsubj	_	_
+12	51	51	NUM	NUM	_	13	nummod	_	SpaceAfter=No
+13	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	11	nmod	_	_
+14-16	מהעולים	_	_	_	_	_	_	_	_
+14	מ	מ	ADP	ADP	_	11	dep	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	עולים	עולה	NOUN	NOUN	Gender=Masc|Number=Plur	11	nummod	_	_
+17	מוכנים	מוכן	AUX	AUX	Gender=Masc|Number=Plur|Person=1,2,3|VerbType=Mod	18	aux	_	_
+18	לבדוק	בדק	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	8	ccomp	_	_
+19	אפשרות	אפשרות	NOUN	NOUN	Gender=Fem|Number=Sing	18	obl	_	_
+20	של	של	ADP	ADP	Case=Gen	21	case	_	_
+21	חיים	חיים	NOUN	NOUN	Gender=Masc|Number=Plur	19	nmod:poss	_	_
+22-24	בקיבוץ	_	_	_	_	_	_	_	SpaceAfter=No
+22	ב	ב	ADP	ADP	_	24	case	_	_
+23	ה_	ה	DET	DET	PronType=Art|Definite=Def	24	det	_	_
+24	קיבוץ	קיבוץ	NOUN	NOUN	Gender=Masc|Number=Sing	21	nmod	_	_
+25	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:160_4
+# doc_range = 9966-10090
+# sent_id = 4199
+# text = על-אף ממצאים אלה אין הקיבוצים עושים הרבה כדי לכבוש את לבם של העולים.
+1	על	על	ADP	ADP	_	4	case	_	SpaceAfter=No
+2	-	-	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+3	אף	אף	CCONJ	CCONJ	_	1	fixed	_	_
+4	ממצאים	ממצא	NOUN	NOUN	Gender=Masc|Number=Plur	9	obl	_	_
+5	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	4	det	_	_
+6	אין	אין	ADV	ADV	Polarity=Neg	9	advmod	_	_
+7-8	הקיבוצים	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	קיבוצים	קיבוץ	NOUN	NOUN	Gender=Masc|Number=Plur	9	nsubj	_	_
+9	עושים	עשה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+10	הרבה	הרבה	ADV	ADV	_	9	advmod	_	_
+11	כדי	כדי	SCONJ	SCONJ	_	12	mark	_	_
+12	לכבוש	כבש	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	9	advcl	_	_
+13	את	את	ADP	ADP	Case=Acc	14	case	_	_
+14-16	לבם	_	_	_	_	_	_	_	_
+14	לב	לב	NOUN	NOUN	Gender=Masc|Number=Sing	12	obj	_	_
+15	_של_	של	ADP	ADP	Case=Gen	16	case:gen	_	_
+16	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+17	של	של	ADP	ADP	Case=Gen	19	case	_	_
+18-19	העולים	_	_	_	_	_	_	_	SpaceAfter=No
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	עולים	עולה	NOUN	NOUN	Gender=Masc|Number=Plur	14	nmod:poss	_	_
+20	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:160_4
+# doc_range = 10093-10254
+# sent_id = 4200
+# text = קשה לומר שהם מסתערים על העולה במידע ובסיוע, כדרכם של עשרות גופי מתנדבים, בהם גוש אמונים.
+1	קשה	קשה	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbType=Mod	2	aux	_	_
+2	לומר	אמר	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	0	root	_	_
+3-4	שהם	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	5	mark	_	_
+4	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+5	מסתערים	הסתער	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	2	advcl	_	_
+6	על	על	ADP	ADP	_	8	case	_	_
+7-8	העולה	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	עולה	עולה	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+9-10	במידע	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	מידע	מידע	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+11-13	ובסיוע	_	_	_	_	_	_	_	SpaceAfter=No
+11	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	סיוע	סיוע	NOUN	NOUN	Gender=Masc|Number=Sing	10	conj	_	_
+14	,	,	PUNCT	PUNCT	_	16	punct	_	_
+15-18	כדרכם	_	_	_	_	_	_	_	_
+15	כ	כ	ADP	ADP	_	16	case	_	_
+16	דרך	דרך	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
+17	_של_	של	ADP	ADP	Case=Gen	18	case:gen	_	_
+18	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+19	של	של	ADP	ADP	Case=Gen	21	case	_	_
+20	עשרות	עשרות	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	21	nummod	_	_
+21	גופי	גוף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	16	nmod:poss	_	_
+22	מתנדבים	מתנדב	NOUN	NOUN	Gender=Masc|Number=Plur	21	compound:smixut	_	SpaceAfter=No
+23	,	,	PUNCT	PUNCT	_	25	punct	_	_
+24-25	בהם	_	_	_	_	_	_	_	_
+24	ב	ב	ADP	ADP	_	25	case	_	_
+25	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	21	acl:relcl	_	_
+26	גוש	גוש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	25	nsubj	_	_
+27	אמונים	אמון	NOUN	NOUN	Gender=Masc|Number=Plur	26	compound:smixut	_	SpaceAfter=No
+28	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:160_4
+# doc_range = 10256-10342
+# sent_id = 4201
+# text = מוקי צור מודה שהדברים אינם נעשים לשביעות רצונו.
+1	מוקי	מוקי	PROPN	PROPN	_	3	nsubj	_	_
+2	צור	צור	PROPN	PROPN	_	1	flat:name	_	_
+3	מודה	הודה	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4-6	שהדברים	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	דברים	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	8	nsubj	_	_
+7	אינם	אינו	AUX	AUX	Gender=Masc|Number=Plur|Person=3|Polarity=Neg|VerbForm=Part	8	aux	_	_
+8	נעשים	נעשה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	3	ccomp	_	_
+9-10	לשביעות	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	10	case	_	_
+10	שביעות	שביעות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	8	obl	_	_
+11-13	רצונו	_	_	_	_	_	_	_	SpaceAfter=No
+11	רצון	רצון	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
+12	_של_	של	ADP	ADP	Case=Gen	13	case:gen	_	_
+13	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+14	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:160_4
+# doc_range = 10344-10513
+# sent_id = 4202
+# text = הוא מסביר זאת בהעדר תקציב, ובכך שאנשי הקיבוצים נכוו בעבר בקליטת עליות ובסיוע לעיירות פיתוח.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	מסביר	הסביר	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+3	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	obj	_	_
+4-5	בהעדר	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	6	case	_	_
+5	העדר	העדר	NOUN	NOUN	Gender=Masc|Number=Sing	4	fixed	_	_
+6	תקציב	תקציב	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	10	punct	_	_
+8-10	ובכך	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	כך	כך	PRON	PRON	Person=3|PronType=Dem	6	conj	_	_
+11-12	שאנשי	_	_	_	_	_	_	_	_
+11	ש	ש	SCONJ	SCONJ	_	15	mark	_	_
+12	אנשי	איש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	15	nsubj	_	_
+13-14	הקיבוצים	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	קיבוצים	קיבוץ	NOUN	NOUN	Gender=Masc|Number=Plur	12	compound:smixut	_	_
+15	נכוו	ניכווה	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	10	acl:relcl	_	_
+16-18	בעבר	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	18	case	_	_
+17	ה_	ה	DET	DET	PronType=Art|Definite=Def	18	det	_	_
+18	עבר	עבר	NOUN	NOUN	Gender=Masc|Number=Sing	15	obl	_	_
+19-20	בקליטת	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	קליטת	קליטה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	15	obl	_	_
+21	עליות	עלייה	NOUN	NOUN	Gender=Fem|Number=Plur	20	compound:smixut	_	_
+22-24	ובסיוע	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	_	24	cc	_	_
+23	ב	ב	ADP	ADP	_	24	case	_	_
+24	סיוע	סיוע	NOUN	NOUN	Gender=Masc|Number=Sing	20	conj	_	_
+25-26	לעיירות	_	_	_	_	_	_	_	_
+25	ל	ל	ADP	ADP	_	26	case	_	_
+26	עיירות	עיירה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	24	nmod	_	_
+27	פיתוח	פיתוח	NOUN	NOUN	Gender=Masc|Number=Sing	26	compound:smixut	_	SpaceAfter=No
+28	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:160_4
+# doc_range = 10515-10636
+# sent_id = 4203
+# text = החשש הוא ששוב נגיע לתחושה שנקלוט ונקלוט, ובסוף הם לא יאהבו אותנו".
+1-2	החשש	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	חשש	חשש	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	6	cop	_	_
+4-5	ששוב	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	6	mark	_	_
+5	שוב	שוב	ADV	ADV	_	6	advmod	_	_
+6	נגיע	הגיע	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=1|Tense=Fut|Voice=Act	0	root	_	_
+7-9	לתחושה	_	_	_	_	_	_	_	_
+7	ל	ל	ADP	ADP	_	9	case	_	_
+8	ה_	ה	DET	DET	PronType=Art|Definite=Def	9	det	_	_
+9	תחושה	תחושה	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	_
+10-11	שנקלוט	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	11	mark	_	_
+11	נקלוט	קלט	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=1|Tense=Fut|Voice=Act	9	acl:relcl	_	_
+12-13	ונקלוט	_	_	_	_	_	_	_	SpaceAfter=No
+12	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
+13	נקלוט	קלט	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=1|Tense=Fut|Voice=Act	11	conj	_	_
+14	,	,	PUNCT	PUNCT	_	19	punct	_	_
+15-16	ובסוף	_	_	_	_	_	_	_	_
+15	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+16	בסוף	בסוף	ADV	ADV	_	19	advmod	_	_
+17	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
+18	לא	לא	ADV	ADV	Polarity=Neg	19	advmod	_	_
+19	יאהבו	אהב	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	11	conj	_	_
+20-21	אותנו	_	_	_	_	_	_	_	SpaceAfter=No
+20	את	את	ADP	ADP	Case=Acc	21	case	_	_
+21	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	19	obj	_	_
+22	"	"	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:160_4
+# doc_range = 10638-10723
+# sent_id = 4204
+# text = צור מודע היטב גם להיבט הפוליטי של קליטת העלייה.
+1	צור	צור	PROPN	PROPN	_	2	nsubj	_	_
+2	מודע	מודע	VERB	VERB	Tense=Pres|VerbForm=Part	0	root	_	_
+3	היטב	היטב	ADV	ADV	_	2	advmod	_	_
+4	גם	גם	ADV	ADV	_	2	advmod	_	_
+5-7	להיבט	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	7	case	_	_
+6	ה_	ה	DET	DET	PronType=Art|Definite=Def	7	det	_	_
+7	היבט	היבט	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+8-9	הפוליטי	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	פוליטי	פוליטי	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	_
+10	של	של	ADP	ADP	Case=Gen	11	case	_	_
+11	קליטת	קליטה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	nmod	_	_
+12-13	העלייה	_	_	_	_	_	_	_	SpaceAfter=No
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	עלייה	עלייה	NOUN	NOUN	Gender=Fem|Number=Sing	11	compound:smixut	_	_
+14	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:160_4
+# doc_range = 10726-10779
+# sent_id = 4205
+# text = מי שיקצור מוקדם יישאר עם מעט.
+1	מי	מי	PRON	PRON	PronType=Int	5	nsubj	_	_
+2-3	שיקצור	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	3	mark	_	_
+3	יקצור	קצר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	1	acl:relcl	_	_
+4	מוקדם	מוקדם	ADV	ADV	_	3	advmod	_	_
+5	יישאר	נשאר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Fut|Voice=Mid	0	root	_	_
+6	עם	עם	ADP	ADP	_	7	case	_	_
+7	מעט	מעט	DET	DET	Definite=Cons	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:160_4
+# doc_range = 10780-10809
+# sent_id = 4206
+# text = הבעיה היא לזרוע.
+1-2	הבעיה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	בעיה	בעיה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	היא	הוא	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	0	root	_	_
+4	לזרוע	זרע	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	3	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:160_4
+# doc_range = 10811-10909
+# sent_id = 4207
+# text = בשלב הזה אני מפקיע את הפן של הקיבוץ מן העניין הפוליטי.
+1-3	בשלב	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	שלב	שלב	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
+4-5	הזה	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	det	_	_
+6	אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	מפקיע	הפקיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+8	את	את	ADP	ADP	Case=Acc	10	case	_	_
+9-10	הפן	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	פן	פן	NOUN	NOUN	Gender=Masc|Number=Sing	7	obj	_	_
+11	של	של	ADP	ADP	Case=Gen	13	case	_	_
+12-13	הקיבוץ	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	קיבוץ	קיבוץ	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod:poss	_	_
+14	מן	מן	ADP	ADP	_	16	case	_	_
+15-16	העניין	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	עניין	עניין	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
+17-18	הפוליטי	_	_	_	_	_	_	_	SpaceAfter=No
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	פוליטי	פוליטי	ADJ	ADJ	Gender=Masc|Number=Sing	16	amod	_	_
+19	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:160_4
+# doc_range = 10911-11134
+# sent_id = 4208
+# text = אמנם המפלגות דורשות בעקיפין להביא גם רווח פוליטי, אבל המפלגות הפוליטיות ייכנסו לתמונה כשהעולה יהיה מוכן להכרעות מסוג זה.
+1	אמנם	אמנם	ADV	ADV	_	4	advmod	_	_
+2-3	המפלגות	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	מפלגות	מפלגה	NOUN	NOUN	Gender=Fem|Number=Plur	4	nsubj	_	_
+4	דורשות	דרש	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+5	בעקיפין	בעקיפין	ADV	ADV	_	4	advmod	_	_
+6	להביא	הביא	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+7	גם	גם	ADV	ADV	_	6	advmod	_	_
+8	רווח	רווח	NOUN	NOUN	Gender=Masc|Number=Sing	6	obj	_	_
+9	פוליטי	פוליטי	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	16	punct	_	_
+11	אבל	אבל	CCONJ	CCONJ	_	16	cc	_	_
+12-13	המפלגות	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	מפלגות	מפלגה	NOUN	NOUN	Gender=Fem|Number=Plur	16	nsubj	_	_
+14-15	הפוליטיות	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	פוליטיות	פוליטי	ADJ	ADJ	Gender=Fem|Number=Plur	13	amod	_	_
+16	ייכנסו	נכנס	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Fut|Voice=Mid	4	conj	_	_
+17-19	לתמונה	_	_	_	_	_	_	_	_
+17	ל	ל	ADP	ADP	_	19	case	_	_
+18	ה_	ה	DET	DET	PronType=Art|Definite=Def	19	det	_	_
+19	תמונה	תמונה	NOUN	NOUN	Gender=Fem|Number=Sing	16	obl	_	_
+20-22	כשהעולה	_	_	_	_	_	_	_	_
+20	כש	כש	SCONJ	SCONJ	Case=Tem	24	mark	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	עולה	עולה	NOUN	NOUN	Gender=Masc|Number=Sing	24	nsubj	_	_
+23	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	24	cop	_	_
+24	מוכן	מוכן	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	16	advcl	_	_
+25-26	להכרעות	_	_	_	_	_	_	_	_
+25	ל	ל	ADP	ADP	_	26	case	_	_
+26	הכרעות	הכרעה	NOUN	NOUN	Gender=Fem|Number=Plur	24	obl	_	_
+27-28	מסוג	_	_	_	_	_	_	_	_
+27	מ	מ	ADP	ADP	_	28	case	_	_
+28	סוג	סוג	NOUN	NOUN	Gender=Masc|Number=Sing	26	nmod	_	_
+29	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	28	det	_	SpaceAfter=No
+30	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:160_4
+# doc_range = 11136-11202
+# sent_id = 4209
+# text = לנו חשוב שהוא ילמד איך כל זה התהווה".
+1-2	לנו	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	3	obl	_	_
+3	חשוב	חשוב	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	0	root	_	_
+4-5	שהוא	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	6	mark	_	_
+5	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	ילמד	למד	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	3	advcl	_	_
+7	איך	איך	ADV	ADV	PronType=Int	10	advmod	_	_
+8	כל	כול	DET	DET	Definite=Cons	9	det	_	_
+9	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+10	התהווה	התהווה	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	6	advcl	_	SpaceAfter=No
+11	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	3	punct	_	_
+

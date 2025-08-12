@@ -1,0 +1,376 @@
+# doc_id = htb:231
+# doc_range = 1-162
+# sent_id = 5719
+# text = נ שאפו לנצח כדי לשפר את מצב הרוח בעקבות הארועים הסוערים שעברו עליהם בשבוע שעבר בירושלים.
+1	נ	ן	PROPN	PROPN	_	2	nsubj	_	_
+2	שאפו	שאף	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	לנצח	ניצח	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	2	dep	_	HebSource=ConvUncertainHead
+4	כדי	כדי	SCONJ	SCONJ	_	5	mark	_	_
+5	לשפר	שיפר	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	2	advcl	_	_
+6	את	את	ADP	ADP	Case=Acc	7	case	_	_
+7	מצב	מצב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obj	_	_
+8-9	הרוח	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	רוח	רוח	NOUN	NOUN	Gender=Fem|Number=Sing	7	compound:smixut	_	_
+10	בעקבות	בעקבות	ADP	ADP	_	12	case	_	_
+11-12	הארועים	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	ארועים	אירוע	NOUN	NOUN	Gender=Masc|Number=Plur	7	nmod	_	_
+13-14	הסוערים	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	סוערים	סוער	ADJ	ADJ	Gender=Masc|Number=Plur	12	amod	_	_
+15-16	שעברו	_	_	_	_	_	_	_	_
+15	ש	ש	SCONJ	SCONJ	_	16	mark	_	_
+16	עברו	עבר	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	12	acl:relcl	_	_
+17-18	עליהם	_	_	_	_	_	_	_	_
+17	עלי	על	ADP	ADP	_	18	case	_	_
+18	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	obl	_	_
+19-21	בשבוע	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	_	21	case	_	_
+20	ה_	ה	DET	DET	PronType=Art|Definite=Def	21	det	_	_
+21	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	16	obl	_	_
+22-23	שעבר	_	_	_	_	_	_	_	_
+22	ש	ש	SCONJ	SCONJ	_	23	mark	_	_
+23	עבר	עבר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	21	acl:relcl	_	_
+24-25	בירושלים	_	_	_	_	_	_	_	SpaceAfter=No
+24	ב	ב	ADP	ADP	_	25	case	_	_
+25	ירושלים	ירושלים	PROPN	PROPN	_	16	obl	_	_
+26	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:231
+# doc_range = 164-321
+# sent_id = 5720
+# text = מנגד ביקשו האורחים מרמת גן לנצל את מצב הרוח הירוד של המדומיים ולזכות בניצחון חוץ נוסף.
+1-2	מנגד	_	_	_	_	_	_	_	_
+1	מ	מ	ADP	ADP	_	2	case	_	_
+2	נגד	נגד	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+3	ביקשו	ביקש	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4-5	האורחים	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	אורחים	אורח	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
+6-7	מרמת	_	_	_	_	_	_	_	_
+6	מ	מ	ADP	ADP	_	7	case	_	_
+7	רמת	רמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	nmod	_	_
+8	גן	גן	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound:smixut	_	_
+9	לנצל	ניצל	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+10	את	את	ADP	ADP	Case=Acc	11	case	_	_
+11	מצב	מצב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	obj	_	_
+12-13	הרוח	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	רוח	רוח	NOUN	NOUN	Gender=Fem|Number=Sing	11	compound:smixut	_	_
+14-15	הירוד	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	ירוד	ירוד	ADJ	ADJ	Gender=Masc|Number=Sing	11	amod	_	_
+16	של	של	ADP	ADP	Case=Gen	18	case	_	_
+17-18	המדומיים	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	מדומיים	מדומיים	NOUN	NOUN	_	11	nmod	_	_
+19-20	ולזכות	_	_	_	_	_	_	_	_
+19	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
+20	לזכות	זכה	VERB	VERB	VerbForm=Inf	9	conj	_	_
+21-22	בניצחון	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	ניצחון	ניצחון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	20	obl	_	_
+23	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	22	compound:smixut	_	_
+24	נוסף	נוסף	ADJ	ADJ	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+25	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:231
+# doc_range = 323-413
+# sent_id = 5721
+# text = עם תחילת המשחק לא הותיר הגליל ספק באשר לכוונותיו.
+1	עם	עם	ADP	ADP	_	2	case	_	_
+2	תחילת	תחילה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	obl	_	_
+3-4	המשחק	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+5	לא	לא	ADV	ADV	Polarity=Neg	6	advmod	_	_
+6	הותיר	הותיר	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+7-8	הגליל	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	גליל	גליל	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
+9	ספק	ספק	NOUN	NOUN	Gender=Masc|Number=Sing	6	obj	_	_
+10	באשר	באשר	ADP	ADP	_	12	case	_	_
+11-14	לכוונותיו	_	_	_	_	_	_	_	SpaceAfter=No
+11	ל	ל	ADP	ADP	_	10	fixed	_	_
+12	כוונה	כוונה	NOUN	NOUN	Gender=Fem|Number=Plur	9	nmod	_	_
+13	_של_	של	ADP	ADP	Case=Gen	14	case:gen	_	_
+14	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+15	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:231
+# doc_range = 415-577
+# sent_id = 5722
+# text = בהנהגתו של עדי גורדון, שלט גליל עליון במשחק והכתיב את הקצב: 1421 (דקה 7), 2840 (דקה 13), 4054 (דקה 17).
+1-4	בהנהגתו	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	הנהגה	הנהגה	NOUN	NOUN	Gender=Fem|Number=Sing	9	obl	_	_
+3	_של_	של	ADP	ADP	Case=Gen	4	case:gen	_	_
+4	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5	של	של	ADP	ADP	Case=Gen	6	case	_	_
+6	עדי	עדי	PROPN	PROPN	_	2	nmod:poss	_	_
+7	גורדון	גורדון	PROPN	PROPN	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	2	punct	_	_
+9	שלט	שלט	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	_
+10	גליל	גליל	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj	_	_
+11	עליון	עליון	ADJ	ADJ	Gender=Masc|Number=Sing	10	amod	_	_
+12-14	במשחק	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	14	case	_	_
+13	ה_	ה	DET	DET	PronType=Art|Definite=Def	14	det	_	_
+14	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	_
+15-16	והכתיב	_	_	_	_	_	_	_	_
+15	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+16	הכתיב	הכתיב	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	9	conj	_	_
+17	את	את	ADP	ADP	Case=Acc	19	case	_	_
+18-19	הקצב	_	_	_	_	_	_	_	SpaceAfter=No
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	קצב	קצב	NOUN	NOUN	Gender=Masc|Number=Sing	16	obj	_	_
+20	:	:	PUNCT	PUNCT	_	21	punct	_	_
+21	1421	1421	NUM	NUM	_	19	appos	_	_
+22	(	(	PUNCT	PUNCT	_	23	punct	_	SpaceAfter=No
+23	דקה	דקה	NOUN	NOUN	Gender=Fem|Number=Sing	21	appos	_	_
+24	7	7	NUM	NUM	_	23	nummod	_	SpaceAfter=No
+25	)	)	PUNCT	PUNCT	_	23	punct	_	SpaceAfter=No
+26	,	,	PUNCT	PUNCT	_	27	punct	_	_
+27	2840	2840	NUM	NUM	_	21	dep	_	HebSource=ConvUncertainHead
+28	(	(	PUNCT	PUNCT	_	29	punct	_	SpaceAfter=No
+29	דקה	דקה	NOUN	NOUN	Gender=Fem|Number=Sing	27	appos	_	_
+30	13	13	NUM	NUM	_	29	nummod	_	SpaceAfter=No
+31	)	)	PUNCT	PUNCT	_	29	punct	_	SpaceAfter=No
+32	,	,	PUNCT	PUNCT	_	33	punct	_	_
+33	4054	4054	NUM	NUM	_	21	dep	_	HebSource=ConvUncertainHead
+34	(	(	PUNCT	PUNCT	_	35	punct	_	SpaceAfter=No
+35	דקה	דקה	NOUN	NOUN	Gender=Fem|Number=Sing	33	appos	_	_
+36	17	17	NUM	NUM	_	35	nummod	_	SpaceAfter=No
+37	)	)	PUNCT	PUNCT	_	35	punct	_	SpaceAfter=No
+38	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:231
+# doc_range = 582-769
+# sent_id = 5723
+# text = לגליל לא היתה תשובה ליכולת האישית הגבוהה של פירסון, שקלע 33 נקודות וריכז את משחק קבוצתו במשך דקות רבות.
+1-2	לגליל	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	גליל	גליל	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+3	לא	לא	ADV	ADV	Polarity=Neg	4	advmod	_	_
+4	היתה	היתה	VERB	VERB	Gender=Fem|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+5	תשובה	תשובה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
+6-8	ליכולת	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	8	case	_	_
+7	ה_	ה	DET	DET	PronType=Art|Definite=Def	8	det	_	_
+8	יכולת	יכולת	NOUN	NOUN	Gender=Fem|Number=Sing	5	nmod	_	_
+9-10	האישית	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	אישית	אישי	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	_
+11-12	הגבוהה	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	גבוהה	גבוה	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	_
+13	של	של	ADP	ADP	Case=Gen	14	case	_	_
+14	פירסון	פירסון	PROPN	PROPN	_	8	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	17	punct	_	_
+16-17	שקלע	_	_	_	_	_	_	_	_
+16	ש	ש	SCONJ	SCONJ	_	17	mark	_	_
+17	קלע	קלע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	14	acl:relcl	_	_
+18	33	33	NUM	NUM	_	19	nummod	_	_
+19	נקודות	נקודה	NOUN	NOUN	Gender=Fem|Number=Plur	17	obj	_	_
+20-21	וריכז	_	_	_	_	_	_	_	_
+20	ו	ו	CCONJ	CCONJ	_	21	cc	_	_
+21	ריכז	ריכז	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	17	conj	_	_
+22	את	את	ADP	ADP	Case=Acc	23	case	_	_
+23	משחק	משחק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	21	obj	_	_
+24-26	קבוצתו	_	_	_	_	_	_	_	_
+24	קבוצה	קבוצה	NOUN	NOUN	Gender=Fem|Number=Sing	23	compound:smixut	_	_
+25	_של_	של	ADP	ADP	Case=Gen	26	case:gen	_	_
+26	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+27	במשך	במשך	ADP	ADP	_	28	case	_	_
+28	דקות	דקה	NOUN	NOUN	Gender=Fem|Number=Plur	21	obl	_	_
+29	רבות	רב	ADJ	ADJ	Gender=Fem|Number=Plur	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:231
+# doc_range = 771-840
+# sent_id = 5724
+# text = שפר וליף ששמרו עליו, יצאו בחמש עבירות.
+1	שפר	שפר	PROPN	PROPN	_	9	nsubj	_	_
+2-3	וליף	_	_	_	_	_	_	_	_
+2	ו	ו	CCONJ	CCONJ	_	3	cc	_	_
+3	ליף	ליף	PROPN	PROPN	_	1	conj	_	_
+4-5	ששמרו	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	5	mark	_	_
+5	שמרו	שמר	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	1	acl:relcl	_	_
+6-7	עליו	_	_	_	_	_	_	_	SpaceAfter=No
+6	עליו	עליו	ADP	ADP	_	7	case	_	_
+7	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
+8	,	,	PUNCT	PUNCT	_	1	punct	_	_
+9	יצאו	יצא	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	0	root	_	_
+10-11	בחמש	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	12	case	_	_
+11	חמש	חמש	NUM	NUM	Gender=Fem|Number=Plur	12	nummod	_	_
+12	עבירות	עבירה	NOUN	NOUN	Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:231
+# doc_range = 842-910
+# sent_id = 5725
+# text = אך הוא לבדו לא יכול היה לנצח את המשחק.
+1	אך	אך	CCONJ	CCONJ	_	7	cc	_	_
+2	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+3	לבדו	לבד	ADV	ADV	_	2	advmod	_	_
+4	לא	לא	ADV	ADV	Polarity=Neg	7	advmod	_	_
+5	יכול	יכול	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part|VerbType=Mod	7	aux	_	_
+6	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	7	cop	_	_
+7	לנצח	ניצח	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	0	root	_	_
+8	את	את	ADP	ADP	Case=Acc	10	case	_	_
+9-10	המשחק	_	_	_	_	_	_	_	SpaceAfter=No
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	7	obj	_	_
+11	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:231
+# doc_range = 912-1304
+# sent_id = 5726
+# text = הולקומב לא הזכיר את יכולתו, קרטר וסמית שהיו אמורים לעזור בריבאונד, נתקלו בקמבל ובורמור שקטפו את מרבית הכדורים החוזרים עובדה שאיפשרה לגליל לצאת להתקפות מתפרצות בורמור הוביל, גורדון ומטלון סיימו במרבית המקרים בסל.
+1	הולקומב	הולקומב	PROPN	PROPN	_	3	nsubj	_	_
+2	לא	לא	ADV	ADV	Polarity=Neg	3	advmod	_	_
+3	הזכיר	הזכיר	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	את	את	ADP	ADP	Case=Acc	5	case	_	_
+5-7	יכולתו	_	_	_	_	_	_	_	SpaceAfter=No
+5	יכולת	יכולת	NOUN	NOUN	Gender=Fem|Number=Sing	3	obj	_	_
+6	_של_	של	ADP	ADP	Case=Gen	7	case:gen	_	_
+7	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+8	,	,	PUNCT	PUNCT	_	19	punct	_	_
+9	קרטר	קרטר	PROPN	PROPN	_	19	nsubj	_	_
+10-11	וסמית	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+11	סמית	סמית	PROPN	PROPN	_	9	conj	_	_
+12-13	שהיו	_	_	_	_	_	_	_	_
+12	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
+13	היו	היו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	14	cop	_	_
+14	אמורים	אמור	AUX	AUX	Gender=Masc|Number=Plur|Person=1,2,3|VerbType=Mod	9	acl:relcl	_	_
+15	לעזור	עזר	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	14	dep	_	HebSource=ConvUncertainHead
+16-17	בריבאונד	_	_	_	_	_	_	_	SpaceAfter=No
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	ריבאונד	ריבאונד	NOUN	NOUN	Gender=Masc|Number=Sing	14	obl	_	_
+18	,	,	PUNCT	PUNCT	_	9	punct	_	_
+19	נתקלו	נתקל	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	3	parataxis	_	_
+20-21	בקמבל	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	קמבל	קמבל	PROPN	PROPN	_	19	obl	_	_
+22-23	ובורמור	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
+23	בורמור	בורמור	PROPN	PROPN	_	21	conj	_	_
+24-25	שקטפו	_	_	_	_	_	_	_	_
+24	ש	ש	SCONJ	SCONJ	_	25	mark	_	_
+25	קטפו	קטף	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	21	acl:relcl	_	_
+26	את	את	ADP	ADP	Case=Acc	29	case	_	_
+27	מרבית	מרבית	DET	DET	Definite=Cons	29	det	_	_
+28-29	הכדורים	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	כדורים	כדור	NOUN	NOUN	Gender=Masc|Number=Plur	25	obj	_	_
+30-31	החוזרים	_	_	_	_	_	_	_	_
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	חוזרים	חוזר	ADJ	ADJ	Gender=Masc|Number=Plur	29	amod	_	_
+32	עובדה	עובדה	NOUN	NOUN	Gender=Fem|Number=Sing	21	nmod	_	_
+33-34	שאיפשרה	_	_	_	_	_	_	_	_
+33	ש	ש	SCONJ	SCONJ	_	34	mark	_	_
+34	איפשרה	אפשר	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	32	acl:relcl	_	_
+35-37	לגליל	_	_	_	_	_	_	_	_
+35	ל	ל	ADP	ADP	_	37	case	_	_
+36	ה_	ה	DET	DET	PronType=Art|Definite=Def	37	det	_	_
+37	גליל	גליל	NOUN	NOUN	Gender=Masc|Number=Sing	34	obl	_	_
+38	לצאת	יצא	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	34	xcomp	_	_
+39-40	להתקפות	_	_	_	_	_	_	_	_
+39	ל	ל	ADP	ADP	_	40	case	_	_
+40	התקפות	התקפה	NOUN	NOUN	Gender=Fem|Number=Plur	34	obl	_	_
+41	מתפרצות	התפרץ	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|VerbForm=Part	40	amod	_	_
+42	בורמור	בורמור	PROPN	PROPN	_	43	nsubj	_	_
+43	הוביל	הוביל	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	40	acl:relcl	_	SpaceAfter=No
+44	,	,	PUNCT	PUNCT	_	48	punct	_	_
+45	גורדון	גורדון	PROPN	PROPN	_	48	nsubj	_	_
+46-47	ומטלון	_	_	_	_	_	_	_	_
+46	ו	ו	CCONJ	CCONJ	_	47	cc	_	_
+47	מטלון	מטלון	PROPN	PROPN	_	45	conj	_	_
+48	סיימו	סיים	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	43	parataxis	_	_
+49-50	במרבית	_	_	_	_	_	_	_	_
+49	ב	ב	ADP	ADP	_	52	case	_	_
+50	מרבית	מרבית	DET	DET	Definite=Cons	52	det	_	_
+51-52	המקרים	_	_	_	_	_	_	_	_
+51	ה	ה	DET	DET	Definite=Def|PronType=Art	52	det	_	_
+52	מקרים	מקרה	NOUN	NOUN	Gender=Masc|Number=Plur	48	obl	_	_
+53-54	בסל	_	_	_	_	_	_	_	SpaceAfter=No
+53	ב	ב	ADP	ADP	_	54	case	_	_
+54	סל	סל	NOUN	NOUN	Gender=Masc|Number=Sing	48	obl	_	_
+55	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:231
+# doc_range = 1306-1358
+# sent_id = 5727
+# text = בדקה ה-37 היה יתרון הגליל 91 81.
+1-3	בדקה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	דקה	דקה	NOUN	NOUN	Gender=Fem|Number=Sing	11	obl	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	SpaceAfter=No
+5	-	-	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+6	37	37	NUM	NUM	_	3	amod	_	_
+7	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	11	cop	_	_
+8	יתרון	יתרון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	nsubj	_	_
+9-10	הגליל	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	גליל	גליל	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound:smixut	_	_
+11	91	91	NUM	NUM	_	0	root	_	_
+12	81	81	NUM	NUM	_	11	nummod	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:231
+# doc_range = 1360-1451
+# sent_id = 5728
+# text = יציאתו של ליף גררה בתוך דקה את צימצום התוצאה ל-91 88.
+1-3	יציאתו	_	_	_	_	_	_	_	_
+1	יציאה	יציאה	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj	_	_
+2	_של_	של	ADP	ADP	Case=Gen	3	case:gen	_	_
+3	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	nmod:poss	_	_
+4	של	של	ADP	ADP	Case=Gen	5	case	_	_
+5	ליף	ליף	PROPN	PROPN	_	1	nmod:poss	_	_
+6	גררה	גרר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+7	בתוך	בתוך	ADP	ADP	_	8	case	_	_
+8	דקה	דקה	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	_
+9	את	את	ADP	ADP	Case=Acc	10	case	_	_
+10	צימצום	צימצום	NOUN	NOUN	Definite=Cons	6	obj	_	_
+11-12	התוצאה	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	תוצאה	תוצאה	NOUN	NOUN	Gender=Fem|Number=Sing	10	compound:smixut	_	_
+13	ל	ל	ADP	ADP	_	15	case	_	SpaceAfter=No
+14	-	-	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
+15	91	91	NUM	NUM	_	10	nmod	_	_
+16	88	88	NUM	NUM	_	15	nummod	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:231
+# doc_range = 1453-1560
+# sent_id = 5729
+# text = אולם קמבל וגורדון דייקו בקליעותיהם והבטיחו את הניצחון (99 91).
+1	אולם	אולם	CCONJ	CCONJ	_	5	cc	_	_
+2	קמבל	קמבל	PROPN	PROPN	_	5	nsubj	_	_
+3-4	וגורדון	_	_	_	_	_	_	_	_
+3	ו	ו	CCONJ	CCONJ	_	4	cc	_	_
+4	גורדון	גורדון	PROPN	PROPN	_	2	conj	_	_
+5	דייקו	דייק	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+6-9	בקליעותיהם	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	קליעה	קליעה	NOUN	NOUN	Gender=Fem|Number=Plur	5	obl	_	_
+8	_של_	של	ADP	ADP	Case=Gen	9	case:gen	_	_
+9	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+10-11	והבטיחו	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+11	הבטיחו	הבטיח	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	5	conj	_	_
+12	את	את	ADP	ADP	Case=Acc	14	case	_	_
+13-14	הניצחון	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	ניצחון	ניצחון	NOUN	NOUN	Gender=Masc|Number=Sing	11	obj	_	_
+15	(	(	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
+16	99	99	NUM	NUM	_	14	appos	_	_
+17	91	91	NUM	NUM	_	16	nummod	_	SpaceAfter=No
+18	)	)	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	5	punct	_	_
+

@@ -1,0 +1,495 @@
+# doc_id = htb:217
+# doc_range = 1-87
+# sent_id = 5382
+# text = הדולר נחלש ביחס למרבית המטבעות העיקריים ביום ו.
+1-2	הדולר	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	דולר	דולר	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	נחלש	נחלש	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+4-5	ביחס	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	7	case	_	_
+5	יחס	יחס	NOUN	NOUN	Gender=Masc|Number=Sing	4	fixed	_	_
+6-7	למרבית	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	4	fixed	_	_
+7	מרבית	מרבית	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	obl	_	_
+8-9	המטבעות	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	מטבעות	מטבע	NOUN	NOUN	Gender=Fem,Masc|Number=Plur	7	compound:smixut	_	_
+10-11	העיקריים	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	עיקריים	עיקרי	ADJ	ADJ	Gender=Masc|Number=Plur	9	amod	_	_
+12-13	ביום	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	obl	_	_
+14	ו	ו	CCONJ	CCONJ	_	13	compound:smixut	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:217
+# doc_range = 89-340
+# sent_id = 5383
+# text = בדרך כלל ירד שער הדולר בשיעור מתון במסחר עם המטבעות האירופיים ונחלש בשיעור חד רק במסחר עם הין היפאני, ששערו נפל מאוד בימי המסחר האחרונים.
+1-2	בדרך	_	_	_	_	_	_	_	_
+1	ב	ב	ADV	ADV	_	4	advmod	_	_
+2	דרך	דרך	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	fixed	_	_
+3	כלל	כלל	NOUN	NOUN	Gender=Masc|Number=Sing	1	fixed	_	_
+4	ירד	ירד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	שער	שער	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nsubj	_	_
+6-7	הדולר	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	דולר	דולר	NOUN	NOUN	Gender=Masc|Number=Sing	5	compound:smixut	_	_
+8-9	בשיעור	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	שיעור	שיעור	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+10	מתון	מתון	ADJ	ADJ	Gender=Masc|Number=Sing	9	amod	_	_
+11-13	במסחר	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	13	case	_	_
+12	ה_	ה	DET	DET	PronType=Art|Definite=Def	13	det	_	_
+13	מסחר	מסחר	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+14	עם	עם	ADP	ADP	_	16	case	_	_
+15-16	המטבעות	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	מטבעות	מטבע	NOUN	NOUN	Gender=Fem,Masc|Number=Plur	13	nmod	_	_
+17-18	האירופיים	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	אירופיים	אירופי	ADJ	ADJ	Gender=Masc|Number=Plur	16	amod	_	_
+19-20	ונחלש	_	_	_	_	_	_	_	_
+19	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
+20	נחלש	נחלש	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	4	conj	_	_
+21-22	בשיעור	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	שיעור	שיעור	NOUN	NOUN	Gender=Masc|Number=Sing	20	obl	_	_
+23	חד	חד	ADJ	ADJ	Gender=Masc|Number=Sing	22	amod	_	_
+24	רק	רק	ADV	ADV	_	27	advmod	_	_
+25-27	במסחר	_	_	_	_	_	_	_	_
+25	ב	ב	ADP	ADP	_	27	case	_	_
+26	ה_	ה	DET	DET	PronType=Art|Definite=Def	27	det	_	_
+27	מסחר	מסחר	NOUN	NOUN	Gender=Masc|Number=Sing	20	obl	_	_
+28	עם	עם	ADP	ADP	_	30	case	_	_
+29-30	הין	_	_	_	_	_	_	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	ין	ין	NOUN	NOUN	Gender=Masc|Number=Sing	27	nmod	_	_
+31-32	היפאני	_	_	_	_	_	_	_	SpaceAfter=No
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	יפאני	יפני	ADJ	ADJ	Gender=Masc|Number=Sing	30	amod	_	_
+33	,	,	PUNCT	PUNCT	_	38	punct	_	_
+34-37	ששערו	_	_	_	_	_	_	_	_
+34	ש	ש	SCONJ	SCONJ	_	38	mark	_	_
+35	שער	שער	NOUN	NOUN	Gender=Masc|Number=Sing	38	nsubj	_	_
+36	_של_	של	ADP	ADP	Case=Gen	37	case:gen	_	_
+37	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	_	_
+38	נפל	נפל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	30	acl:relcl	_	_
+39	מאוד	מאוד	ADV	ADV	_	38	advmod	_	_
+40-41	בימי	_	_	_	_	_	_	_	_
+40	ב	ב	ADP	ADP	_	41	case	_	_
+41	ימי	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	38	obl	_	_
+42-43	המסחר	_	_	_	_	_	_	_	_
+42	ה	ה	DET	DET	Definite=Def|PronType=Art	43	det	_	_
+43	מסחר	מסחר	NOUN	NOUN	Gender=Masc|Number=Sing	41	compound:smixut	_	_
+44-45	האחרונים	_	_	_	_	_	_	_	SpaceAfter=No
+44	ה	ה	DET	DET	Definite=Def|PronType=Art	45	det	_	_
+45	אחרונים	אחרון	ADJ	ADJ	Gender=Masc|Number=Plur	41	amod	_	_
+46	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:217
+# doc_range = 342-486
+# sent_id = 5384
+# text = הדולר החל להחלש בעקבות ידיעות על כוונת הפדרל רזרב להפחית את שערי הריבית בארה"ב.
+1-2	הדולר	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	דולר	דולר	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	החל	החל	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	להחלש	נחלש	VERB	VERB	VerbForm=Inf	3	xcomp	_	_
+5	בעקבות	בעקבות	ADP	ADP	_	6	case	_	_
+6	ידיעות	ידיעה	NOUN	NOUN	Gender=Fem|Number=Plur	3	obl	_	_
+7	על	על	ADP	ADP	_	8	case	_	_
+8	כוונת	כוונה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	nmod	_	_
+9-10	הפדרל	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	פדרל	פדרל	NOUN	NOUN	_	8	compound:smixut	_	_
+11	רזרב	רזרב	PROPN	PROPN	_	10	flat:name	_	_
+12	להפחית	הפחית	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	8	acl	_	_
+13	את	את	ADP	ADP	Case=Acc	14	case	_	_
+14	שערי	שער	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	12	obj	_	_
+15-16	הריבית	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	ריבית	ריבית	NOUN	NOUN	Gender=Fem|Number=Sing	14	compound:smixut	_	_
+17-18	בארה"ב	_	_	_	_	_	_	_	SpaceAfter=No
+17	ב	ב	ADP	ADP	_	18	case	_	_
+18	ארה"ב	ארה"ב	PROPN	PROPN	Abbr=Yes	14	nmod	_	_
+19	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:217
+# doc_range = 488-740
+# sent_id = 5385
+# text = כלכלנים ציינו כי הכלכלה האמריקאית ניצבת בפני תקופה של האטה משמעותית והנתונים האחרונים מצביעים על כך שמגמה זו תלך ותחריף בחודשים הקרובים.
+1	כלכלנים	כלכלן	NOUN	NOUN	Gender=Masc|Number=Plur	2	nsubj	_	_
+2	ציינו	ציין	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	כי	כי	SCONJ	SCONJ	_	8	mark	_	_
+4-5	הכלכלה	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	כלכלה	כלכלה	NOUN	NOUN	Gender=Fem|Number=Sing	8	nsubj	_	_
+6-7	האמריקאית	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	אמריקאית	אמריקני	ADJ	ADJ	Gender=Fem|Number=Sing	5	amod	_	_
+8	ניצבת	ניצב	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=1|Tense=Pres|VerbForm=Part|Voice=Mid	2	ccomp	_	_
+9	בפני	בפני	ADP	ADP	_	10	case	_	_
+10	תקופה	תקופה	NOUN	NOUN	Gender=Fem|Number=Sing	8	obl	_	_
+11	של	של	ADP	ADP	Case=Gen	12	case	_	_
+12	האטה	האטה	NOUN	NOUN	Gender=Fem|Number=Sing	10	nmod:poss	_	_
+13	משמעותית	משמעותי	ADJ	ADJ	Gender=Fem|Number=Sing	12	amod	_	_
+14-16	והנתונים	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	נתונים	נתון	NOUN	NOUN	Gender=Masc|Number=Plur	19	nsubj	_	_
+17-18	האחרונים	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	אחרונים	אחרון	ADJ	ADJ	Gender=Masc|Number=Plur	16	amod	_	_
+19	מצביעים	הצביע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	2	conj	_	_
+20	על	על	ADP	ADP	_	21	case	_	_
+21	כך	כך	PRON	PRON	Person=3|PronType=Dem	19	obl	_	_
+22-23	שמגמה	_	_	_	_	_	_	_	_
+22	ש	ש	SCONJ	SCONJ	_	25	mark	_	_
+23	מגמה	מגמה	NOUN	NOUN	Gender=Fem|Number=Sing	25	nsubj	_	_
+24	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	23	det	_	_
+25	תלך	הלך	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	21	acl:relcl	_	_
+26-27	ותחריף	_	_	_	_	_	_	_	_
+26	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
+27	תחריף	החריף	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	25	conj	_	_
+28-30	בחודשים	_	_	_	_	_	_	_	_
+28	ב	ב	ADP	ADP	_	30	case	_	_
+29	ה_	ה	DET	DET	PronType=Art|Definite=Def	30	det	_	_
+30	חודשים	חודש	NOUN	NOUN	Gender=Masc|Number=Plur	25	obl	_	_
+31-32	הקרובים	_	_	_	_	_	_	_	SpaceAfter=No
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	קרובים	קרוב	ADJ	ADJ	Gender=Masc|Number=Plur	30	amod	_	_
+33	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:217
+# doc_range = 742-967
+# sent_id = 5386
+# text = הידיעות על כוונת הפדרל רזרב לקצץ בשערי הריבית בארה"ב זכו למשנה תוקף אחרי פרסום נתוני מדד המחירים הסיטונאיים לחודש אוקטובר.
+1-2	הידיעות	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	ידיעות	ידיעה	NOUN	NOUN	Gender=Fem|Number=Plur	15	nsubj	_	_
+3	על	על	ADP	ADP	_	4	case	_	_
+4	כוונת	כוונה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	nmod	_	_
+5-6	הפדרל	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	פדרל	פדרל	NOUN	NOUN	_	4	compound:smixut	_	_
+7	רזרב	רזרב	PROPN	PROPN	_	6	flat:name	_	_
+8	לקצץ	קיצץ	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	4	acl	_	_
+9-10	בשערי	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	שערי	שער	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	8	obl	_	_
+11-12	הריבית	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	ריבית	ריבית	NOUN	NOUN	Gender=Fem|Number=Sing	10	compound:smixut	_	_
+13-14	בארה"ב	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	ארה"ב	ארה"ב	PROPN	PROPN	Abbr=Yes	10	nmod	_	_
+15	זכו	זכה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+16-17	למשנה	_	_	_	_	_	_	_	_
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	משנה	משנה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	15	obl	_	_
+18	תוקף	תוקף	NOUN	NOUN	Gender=Masc|Number=Sing	17	compound:smixut	_	_
+19	אחרי	אחרי	ADP	ADP	_	20	case	_	_
+20	פרסום	פרסום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	15	obl	_	_
+21	נתוני	נתון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	20	compound:smixut	_	_
+22	מדד	מדד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	21	compound:smixut	_	_
+23-24	המחירים	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	מחירים	מחיר	NOUN	NOUN	Gender=Masc|Number=Plur	22	compound:smixut	_	_
+25-26	הסיטונאיים	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	סיטונאיים	סיטונאי	ADJ	ADJ	Gender=Masc|Number=Plur	24	amod	_	_
+27-28	לחודש	_	_	_	_	_	_	_	_
+27	ל	ל	ADP	ADP	_	28	case	_	_
+28	חודש	חודש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	22	nmod	_	_
+29	אוקטובר	אוקטובר	PROPN	PROPN	_	28	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+30	.	.	PUNCT	PUNCT	_	15	punct	_	_
+
+# doc_id = htb:217
+# doc_range = 969-1152
+# sent_id = 5387
+# text = על פי מדד זה, שפורסם ביום ו, עלתה רמת המחירים הסיטונאית ב1.1% הרבה מעל לנתון של 7.0% שנחזה על ידי השוק.
+1	על	על	ADP	ADP	_	3	case	_	_
+2	פי	פה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	fixed	_	_
+3	מדד	מדד	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
+4	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	det	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	7	punct	_	_
+6-7	שפורסם	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	_	7	mark	_	_
+7	פורסם	פורסם	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	3	acl:relcl	_	_
+8-9	ביום	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	obl	_	_
+10	ו	ו	CCONJ	CCONJ	_	9	compound:smixut	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	3	punct	_	_
+12	עלתה	עלה	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+13	רמת	רמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	nsubj	_	_
+14-15	המחירים	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	מחירים	מחיר	NOUN	NOUN	Gender=Masc|Number=Plur	13	compound:smixut	_	_
+16-17	הסיטונאית	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	סיטונאית	סיטונאי	ADJ	ADJ	Gender=Fem|Number=Sing	13	amod	_	_
+18-19	ב1.1	_	_	_	_	_	_	_	SpaceAfter=No
+18	ב	ב	ADP	ADP	_	20	case	_	_
+19	1.1	1.1	NUM	NUM	_	20	nummod	_	_
+20	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	12	obl	_	_
+21	הרבה	הרבה	ADV	ADV	_	24	advmod	_	_
+22	מעל	מעל	ADP	ADP	_	24	case	_	_
+23-24	לנתון	_	_	_	_	_	_	_	_
+23	ל	ל	ADP	ADP	_	22	fixed	_	_
+24	נתון	נתון	NOUN	NOUN	Gender=Masc|Number=Sing	20	nmod	_	_
+25	של	של	ADP	ADP	Case=Gen	27	case	_	_
+26	7.0	7.0	NUM	NUM	_	27	nummod	_	SpaceAfter=No
+27	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	24	nmod	_	_
+28-29	שנחזה	_	_	_	_	_	_	_	_
+28	ש	ש	SCONJ	SCONJ	_	29	mark	_	_
+29	נחזה	נחזה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	24	acl:relcl	_	_
+30	על	על	ADP	ADP	_	33	case	_	_
+31	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	30	fixed	_	_
+32-33	השוק	_	_	_	_	_	_	_	SpaceAfter=No
+32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
+33	שוק	שוק	NOUN	NOUN	Gender=Masc|Number=Sing	29	obl	_	_
+34	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# doc_id = htb:217
+# doc_range = 1155-1462
+# sent_id = 5388
+# text = יחד עם זאת, הכלכלנים ציינו כי בניכוי העלייה במחירי האנרגיה והמזון, עלה מדד זה בשיעור זהה לעלייה בחודש ספטמבר והעריכו כי יש בכך כדי להצביע על הקיצוץ הצפוי בריבית בארה"ב.
+1	יחד	יחד	ADV	ADV	_	3	case	_	_
+2	עם	עם	ADP	ADP	_	3	case	_	_
+3	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	3	punct	_	_
+5-6	הכלכלנים	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	כלכלנים	כלכלן	NOUN	NOUN	Gender=Masc|Number=Plur	7	nsubj	_	_
+7	ציינו	ציין	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+8	כי	כי	SCONJ	SCONJ	_	21	mark	_	_
+9-10	בניכוי	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	ניכוי	ניכוי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	21	obl	_	_
+11-12	העלייה	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	עלייה	עלייה	NOUN	NOUN	Gender=Fem|Number=Sing	10	compound:smixut	_	_
+13-14	במחירי	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	מחירי	מחיר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	12	nmod	_	_
+15-16	האנרגיה	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	אנרגיה	אנרגיה	NOUN	NOUN	Gender=Fem|Number=Sing	14	compound:smixut	_	_
+17-19	והמזון	_	_	_	_	_	_	_	SpaceAfter=No
+17	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	מזון	מזון	NOUN	NOUN	Gender=Masc|Number=Sing	16	conj	_	_
+20	,	,	PUNCT	PUNCT	_	10	punct	_	_
+21	עלה	עלה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	7	ccomp	_	_
+22	מדד	מדד	NOUN	NOUN	Gender=Masc|Number=Sing	21	nsubj	_	_
+23	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	22	det	_	_
+24-25	בשיעור	_	_	_	_	_	_	_	_
+24	ב	ב	ADP	ADP	_	25	case	_	_
+25	שיעור	שיעור	NOUN	NOUN	Gender=Masc|Number=Sing	21	obl	_	_
+26	זהה	זהה	ADJ	ADJ	Gender=Masc|Number=Sing	25	amod	_	_
+27-29	לעלייה	_	_	_	_	_	_	_	_
+27	ל	ל	ADP	ADP	_	29	case	_	_
+28	ה_	ה	DET	DET	PronType=Art|Definite=Def	29	det	_	_
+29	עלייה	עלייה	NOUN	NOUN	Gender=Fem|Number=Sing	25	nmod	_	_
+30-31	בחודש	_	_	_	_	_	_	_	_
+30	ב	ב	ADP	ADP	_	31	case	_	_
+31	חודש	חודש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	29	nmod	_	_
+32	ספטמבר	ספטמבר	PROPN	PROPN	_	31	compound:smixut	_	_
+33-34	והעריכו	_	_	_	_	_	_	_	_
+33	ו	ו	CCONJ	CCONJ	_	34	cc	_	_
+34	העריכו	העריך	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	7	conj	_	_
+35	כי	כי	SCONJ	SCONJ	_	36	mark	_	_
+36	יש	יש	VERB	VERB	HebExistential=Yes	34	ccomp	_	_
+37-38	בכך	_	_	_	_	_	_	_	_
+37	ב	ב	ADP	ADP	_	38	case	_	_
+38	כך	כך	PRON	PRON	Person=3|PronType=Dem	36	obl	_	_
+39	כדי	כדי	SCONJ	SCONJ	_	40	mark	_	_
+40	להצביע	הצביע	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	36	advcl	_	_
+41	על	על	ADP	ADP	_	43	case	_	_
+42-43	הקיצוץ	_	_	_	_	_	_	_	_
+42	ה	ה	DET	DET	Definite=Def|PronType=Art	43	det	_	_
+43	קיצוץ	קיצוץ	NOUN	NOUN	Gender=Masc|Number=Sing	40	obl	_	_
+44-45	הצפוי	_	_	_	_	_	_	_	_
+44	ה	ה	DET	DET	Definite=Def|PronType=Art	45	det	_	_
+45	צפוי	צפוי	ADJ	ADJ	Gender=Masc|Number=Sing	43	amod	_	_
+46-48	בריבית	_	_	_	_	_	_	_	_
+46	ב	ב	ADP	ADP	_	48	case	_	_
+47	ה_	ה	DET	DET	PronType=Art|Definite=Def	48	det	_	_
+48	ריבית	ריבית	NOUN	NOUN	Gender=Fem|Number=Sing	43	nmod	_	_
+49-50	בארה"ב	_	_	_	_	_	_	_	SpaceAfter=No
+49	ב	ב	ADP	ADP	_	50	case	_	_
+50	ארה"ב	ארה"ב	PROPN	PROPN	Abbr=Yes	43	nmod	_	_
+51	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:217
+# doc_range = 1464-1620
+# sent_id = 5389
+# text = קפידבינהמארק הוסיף והתחזק ביום ו במסחר עם הלירטה והפרנק הצרפתי במסגרת המסחר באירופה.
+1-3	קפידבינהמארק	_	_	_	_	_	_	_	_
+1	קפידבינ	קפידבינ	X	X	_	4	dep	_	Xtra=Junk
+2	ה	ה	DET	DET	_	3	det	_	Xtra=Junk
+3	מארק	מארק	X	X	_	4	nsubj	_	Xtra=Junk
+4	הוסיף	הוסיף	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5-6	והתחזק	_	_	_	_	_	_	_	_
+5	ו	ו	CCONJ	CCONJ	_	6	cc	_	_
+6	התחזק	התחזק	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	4	conj	_	_
+7-8	ביום	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	obl	_	_
+9	ו	ו	CCONJ	CCONJ	_	8	compound:smixut	_	_
+10-12	במסחר	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	12	case	_	_
+11	ה_	ה	DET	DET	PronType=Art|Definite=Def	12	det	_	_
+12	מסחר	מסחר	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+13	עם	עם	ADP	ADP	_	15	case	_	_
+14-15	הלירטה	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	לירטה	לירטה	NOUN	NOUN	Gender=Fem|Number=Sing	12	nmod	_	_
+16-18	והפרנק	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	פרנק	פרנק	NOUN	NOUN	Gender=Masc|Number=Sing	15	conj	_	_
+19-20	הצרפתי	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	צרפתי	צרפתי	ADJ	ADJ	Gender=Masc|Number=Sing	18	amod	_	_
+21-22	במסגרת	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	24	case	_	_
+22	מסגרת	מסגרת	NOUN	NOUN	Gender=Fem|Number=Sing	21	fixed	_	_
+23-24	המסחר	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	מסחר	מסחר	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+25-26	באירופה	_	_	_	_	_	_	_	SpaceAfter=No
+25	ב	ב	ADP	ADP	_	26	case	_	_
+26	אירופה	אירופה	PROPN	PROPN	_	24	nmod	_	_
+27	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:217
+# doc_range = 1622-1900
+# sent_id = 5390
+# text = הסוחרים ציינו כי חוסר הנכונות של ראשי 7 המדינות המתועשות המובילות להיפגש על מנת לדון במעמד הדולר בשוק הכספים מצביע על מעמדו האיתן של המארק בשוק הפיננסי.
+1-2	הסוחרים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	סוחרים	סוחר	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	ציינו	ציין	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	כי	כי	SCONJ	SCONJ	_	29	mark	_	_
+5	חוסר	חוסר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	29	nsubj	_	_
+6-7	הנכונות	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	נכונות	נכונות	NOUN	NOUN	Gender=Fem|Number=Sing	5	compound:smixut	_	_
+8	של	של	ADP	ADP	Case=Gen	9	case	_	_
+9	ראשי	ראש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	5	nmod	_	_
+10	7	7	NUM	NUM	_	12	nummod	_	_
+11-12	המדינות	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	מדינות	מדינה	NOUN	NOUN	Gender=Fem|Number=Plur	9	compound:smixut	_	_
+13-14	המתועשות	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	מתועשות	תועש	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Pass	12	amod	_	_
+15-16	המובילות	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	מובילות	הוביל	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	12	amod	_	_
+17	להיפגש	נפגש	VERB	VERB	HebBinyan=NIFAL|VerbForm=Inf|Voice=Mid	5	acl	_	_
+18	על	על	ADP	ADP	_	20	case	_	_
+19	מנת	מנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	18	fixed	_	_
+20	לדון	דן	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	17	advcl	_	_
+21-22	במעמד	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	מעמד	מעמד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	20	obl	_	_
+23-24	הדולר	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	דולר	דולר	NOUN	NOUN	Gender=Masc|Number=Sing	22	compound:smixut	_	_
+25-26	בשוק	_	_	_	_	_	_	_	_
+25	ב	ב	ADP	ADP	_	26	case	_	_
+26	שוק	שוק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	22	nmod	_	_
+27-28	הכספים	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	כספים	כסף	NOUN	NOUN	Gender=Masc|Number=Plur	26	compound:smixut	_	_
+29	מצביע	הצביע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	3	ccomp	_	_
+30	על	על	ADP	ADP	_	31	case	_	_
+31-33	מעמדו	_	_	_	_	_	_	_	_
+31	מעמד	מעמד	NOUN	NOUN	Gender=Masc|Number=Sing	29	obl	_	_
+32	_של_	של	ADP	ADP	Case=Gen	33	case:gen	_	_
+33	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+34-35	האיתן	_	_	_	_	_	_	_	_
+34	ה	ה	DET	DET	Definite=Def|PronType=Art	35	det	_	_
+35	איתן	איתן	ADJ	ADJ	Gender=Masc|Number=Sing	31	amod	_	_
+36	של	של	ADP	ADP	Case=Gen	38	case	_	_
+37-38	המארק	_	_	_	_	_	_	_	_
+37	ה	ה	DET	DET	Definite=Def|PronType=Art	38	det	_	_
+38	מארק	מארק	PROPN	PROPN	_	31	nmod	_	_
+39-41	בשוק	_	_	_	_	_	_	_	_
+39	ב	ב	ADP	ADP	_	41	case	_	_
+40	ה_	ה	DET	DET	PronType=Art|Definite=Def	41	det	_	_
+41	שוק	שוק	NOUN	NOUN	Gender=Masc|Number=Sing	31	nmod	_	_
+42-43	הפיננסי	_	_	_	_	_	_	_	SpaceAfter=No
+42	ה	ה	DET	DET	Definite=Def|PronType=Art	43	det	_	_
+43	פיננסי	פיננסי	ADJ	ADJ	Gender=Masc|Number=Sing	41	amod	_	_
+44	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:217
+# doc_range = 1902-2039
+# sent_id = 5391
+# text = המארק טיפס והגיע לרמה של 257.5958 לירטות לעומת שער של 752 לירטות עם פתיחת המסחר.
+1-2	המארק	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מארק	מארק	PROPN	PROPN	_	3	nsubj	_	_
+3	טיפס	טיפס	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4-5	והגיע	_	_	_	_	_	_	_	_
+4	ו	ו	CCONJ	CCONJ	_	5	cc	_	_
+5	הגיע	הגיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	_
+6-7	לרמה	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	רמה	רמה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+8	של	של	ADP	ADP	Case=Gen	10	case	_	_
+9	257.5958	257.5958	NUM	NUM	_	10	nummod	_	_
+10	לירטות	לירטה	NOUN	NOUN	Gender=Fem|Number=Plur	7	nmod:poss	_	_
+11	לעומת	לעומת	ADP	ADP	_	12	case	_	_
+12	שער	שער	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+13	של	של	ADP	ADP	Case=Gen	15	case	_	_
+14	752	752	NUM	NUM	_	15	nummod	_	_
+15	לירטות	לירטה	NOUN	NOUN	Gender=Fem|Number=Plur	12	nmod	_	_
+16	עם	עם	ADP	ADP	_	17	case	_	_
+17	פתיחת	פתיחה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	nmod	_	_
+18-19	המסחר	_	_	_	_	_	_	_	SpaceAfter=No
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	מסחר	מסחר	NOUN	NOUN	Gender=Masc|Number=Sing	17	compound:smixut	_	_
+20	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:217
+# doc_range = 2041-2208
+# sent_id = 5392
+# text = המשך ניסיונו של הבנק המרכזי של איטליה לבלום את החלשות הלירטה על ידי מכירת מארקים, לא הצליח.
+1	המשך	המשך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	23	nsubj	_	_
+2-4	ניסיונו	_	_	_	_	_	_	_	_
+2	ניסיון	ניסיון	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+3	_של_	של	ADP	ADP	Case=Gen	4	case:gen	_	_
+4	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5	של	של	ADP	ADP	Case=Gen	7	case	_	_
+6-7	הבנק	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	בנק	בנק	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod:poss	_	_
+8-9	המרכזי	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	מרכזי	מרכזי	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	_
+10	של	של	ADP	ADP	Case=Gen	11	case	_	_
+11	איטליה	איטליה	PROPN	PROPN	_	7	nmod	_	_
+12	לבלום	בלם	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	1	acl	_	_
+13	את	את	ADP	ADP	Case=Acc	14	case	_	_
+14	החלשות	היחלשות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	obj	_	_
+15-16	הלירטה	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	לירטה	לירטה	NOUN	NOUN	Gender=Fem|Number=Sing	14	compound:smixut	_	_
+17	על	על	ADP	ADP	_	19	case	_	_
+18	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	17	fixed	_	_
+19	מכירת	מכירה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	obl	_	_
+20	מארקים	מארקים	NOUN	NOUN	_	19	compound:smixut	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	1	punct	_	_
+22	לא	לא	ADV	ADV	Polarity=Neg	23	advmod	_	_
+23	הצליח	הצליח	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	23	punct	_	_
+

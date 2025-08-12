@@ -1,0 +1,407 @@
+# doc_id = htb:35_2
+# doc_range = 5509-5631
+# sent_id = 1500
+# text = זה היה רמז, דקיק בערך כעוביו של פיל, לנישואי התערובת של פול ולסטון.
+1	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+2	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	3	cop	_	_
+3	רמז	רמז	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	5	punct	_	_
+5	דקיק	דקיק	ADJ	ADJ	Gender=Masc|Number=Sing	3	appos	_	_
+6	בערך	בערך	ADV	ADV	_	8	advmod	_	_
+7-10	כעוביו	_	_	_	_	_	_	_	_
+7	כ	כ	ADP	ADP	_	8	case	_	_
+8	עובי	עובי	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+9	_של_	של	ADP	ADP	Case=Gen	10	case:gen	_	_
+10	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+11	של	של	ADP	ADP	Case=Gen	12	case	_	_
+12	פיל	פיל	NOUN	NOUN	Gender=Masc|Number=Sing	8	nmod:poss	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	5	punct	_	_
+14-15	לנישואי	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	נישואי	נישואין	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	3	nmod	_	_
+16-17	התערובת	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	תערובת	תערובת	NOUN	NOUN	Gender=Fem|Number=Sing	15	compound:smixut	_	_
+18	של	של	ADP	ADP	Case=Gen	19	case	_	_
+19	פול	פול	PROPN	PROPN	_	15	nmod:poss	_	_
+20	ולסטון	ולסטון	PROPN	PROPN	_	19	flat:name	_	SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:35_2
+# doc_range = 5633-5819
+# sent_id = 1501
+# text = בושוויץ אמנם לא חתם על המכתב עשו כן בשמו 27 יהודים מינסוטיים אבל לפי מטה הבחירות שלו הוא סמך עליו את ידיו.
+1	בושוויץ	בושוויץ	PROPN	PROPN	_	4	nsubj	_	_
+2	אמנם	אמנם	ADV	ADV	_	4	advmod	_	_
+3	לא	לא	ADV	ADV	Polarity=Neg	4	advmod	_	_
+4	חתם	חתם	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	על	על	ADP	ADP	_	7	case	_	_
+6-7	המכתב	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	מכתב	מכתב	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+8	עשו	עשה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	4	parataxis	_	_
+9	כן	כן	ADV	ADV	_	8	advmod	_	_
+10-13	בשמו	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	שם	שם	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+12	_של_	של	ADP	ADP	Case=Gen	13	case:gen	_	_
+13	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+14	27	27	NUM	NUM	_	15	nummod	_	_
+15	יהודים	יהודי	NOUN	NOUN	Gender=Masc|Number=Plur	8	nsubj	_	_
+16	מינסוטיים	מינסוטיים	ADJ	ADJ	_	15	amod	_	_
+17	אבל	אבל	CCONJ	CCONJ	_	25	cc	_	_
+18	לפי	לפי	ADP	ADP	_	19	case	_	_
+19	מטה	מטה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	25	obl	_	_
+20-21	הבחירות	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	בחירות	בחירות	NOUN	NOUN	Gender=Fem|Number=Plur	19	compound:smixut	_	_
+22-23	שלו	_	_	_	_	_	_	_	_
+22	של	של	ADP	ADP	Case=Gen	23	case	_	_
+23	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+24	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+25	סמך	סמך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	_
+26-27	עליו	_	_	_	_	_	_	_	_
+26	על	על	ADP	ADP	_	27	case	_	_
+27	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obl	_	_
+28	את	את	ADP	ADP	Case=Acc	29	case	_	_
+29-31	ידיו	_	_	_	_	_	_	_	SpaceAfter=No
+29	יד	יד	NOUN	NOUN	Gender=Fem|Number=Plur	25	obj	_	_
+30	_של_	של	ADP	ADP	Case=Gen	31	case:gen	_	_
+31	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+32	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:35_2
+# doc_range = 5821-5913
+# sent_id = 1502
+# text = כאשר פרצה השערורייה היתה לבושוויץ הזדמנות להתנצל.
+1	כאשר	כאשר	SCONJ	SCONJ	_	2	mark	_	_
+2	פרצה	פרץ	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	5	advcl	_	_
+3-4	השערורייה	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	שערורייה	שערורייה	NOUN	NOUN	Gender=Fem|Number=Sing	2	nsubj	_	_
+5	היתה	היה	VERB	VERB	Gender=Fem|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+6-7	לבושוויץ	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	בושוויץ	בושוויץ	PROPN	PROPN	_	5	obl	_	_
+8	הזדמנות	הזדמנות	NOUN	NOUN	Gender=Fem|Number=Sing	5	nsubj	_	_
+9	להתנצל	התנצל	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	8	acl	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:35_2
+# doc_range = 5915-6011
+# sent_id = 1503
+# text = תחת זאת הוא רק אמר, ש"המכתב נופח מחוץ לכל פרופורציה".
+1	תחת	תחת	ADP	ADP	_	2	case	_	_
+2	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	5	obl	_	_
+3	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	רק	רק	ADV	ADV	_	5	advmod	_	_
+5	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	11	punct	_	_
+7-10	ש"המכתב	_	_	_	_	_	_	_	_
+7	ש	ש	SCONJ	SCONJ	_	11	mark	_	_
+8	"	"	PUNCT	PUNCT	_	11	punct	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	מכתב	מכתב	NOUN	NOUN	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+11	נופח	נופח	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	5	ccomp	_	_
+12-13	מחוץ	_	_	_	_	_	_	_	_
+12	מ	מ	ADP	ADP	_	16	case	_	_
+13	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	12	fixed	_	_
+14-15	לכל	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	12	fixed	_	_
+15	כל	כול	DET	DET	Definite=Cons	16	det	_	_
+16	פרופורציה	פרופורציה	NOUN	NOUN	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+17	"	"	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:35_2
+# doc_range = 6013-6082
+# sent_id = 1504
+# text = בישראל אנחנו מכירים את האב-טיפוס הזה.
+1-2	בישראל	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	ישראל	ישראל	PROPN	PROPN	_	4	obl	_	_
+3	אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+4	מכירים	הכיר	VERB	VERB	Gender=Masc|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+5	את	את	ADP	ADP	Case=Acc	7	case	_	_
+6-7	האב	_	_	_	_	_	_	_	SpaceAfter=No
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	אב	אב	NOUN	NOUN	Gender=Masc|Number=Sing	4	obj	_	_
+8	-	-	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+9	טיפוס	טיפוס	NOUN	NOUN	Gender=Masc|Number=Sing	7	fixed	_	_
+10-11	הזה	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	det	_	_
+12	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:35_2
+# doc_range = 6084-6191
+# sent_id = 1505
+# text = בישראל רצח-אופי מן הסוג שעשה בושוויץ הוא מעשה של יום-יום.
+1-2	בישראל	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	ישראל	ישראל	PROPN	PROPN	_	13	nmod	_	_
+3	רצח	רצח	NOUN	NOUN	Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
+4	-	-	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+5	אופי	אופי	NOUN	NOUN	Gender=Masc|Number=Sing	3	fixed	_	_
+6	מן	מן	ADP	ADP	_	8	case	_	_
+7-8	הסוג	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	סוג	סוג	NOUN	NOUN	Gender=Masc|Number=Sing	3	nmod	_	_
+9-10	שעשה	_	_	_	_	_	_	_	_
+9	ש	ש	SCONJ	SCONJ	_	10	mark	_	_
+10	עשה	עשה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	8	acl:relcl	_	_
+11	בושוויץ	בושוויץ	PROPN	PROPN	_	10	nsubj	_	_
+12	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	13	cop	_	_
+13	מעשה	מעשה	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+14	של	של	ADP	ADP	Case=Gen	15	case	_	_
+15	יום	יום	NOUN	NOUN	Gender=Masc|Number=Sing	13	nmod:poss	_	SpaceAfter=No
+16	-	-	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No
+17	יום	יום	NOUN	NOUN	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# doc_id = htb:35_2
+# doc_range = 6193-6365
+# sent_id = 1506
+# text = פטריוטים מטעם עצמם עוסקים בישראל בהחשדה שיטתית של נאמנות יריבים פוליטיים למדינה ולעם היהודי.
+1	פטריוטים	פטריוט	ADJ	ADJ	Gender=Masc|Number=Plur	5	nsubj	_	_
+2-3	מטעם	_	_	_	_	_	_	_	_
+2	מ	מ	ADP	ADP	_	3	case	_	_
+3	טעם	טעם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	obl	_	_
+4	עצמם	עצמו	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	3	compound:smixut	_	_
+5	עוסקים	עסק	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+6-7	בישראל	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	ישראל	ישראל	PROPN	PROPN	_	5	obl	_	_
+8-9	בהחשדה	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	החשדה	החשדה	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
+10	שיטתית	שיטתי	ADJ	ADJ	Gender=Fem|Number=Sing	9	amod	_	_
+11	של	של	ADP	ADP	Case=Gen	12	case	_	_
+12	נאמנות	נאמנות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	nmod	_	_
+13	יריבים	יריב	NOUN	NOUN	Gender=Masc|Number=Plur	12	compound:smixut	_	_
+14	פוליטיים	פוליטי	ADJ	ADJ	Gender=Masc|Number=Plur	13	amod	_	_
+15-17	למדינה	_	_	_	_	_	_	_	_
+15	ל	ל	ADP	ADP	_	17	case	_	_
+16	ה_	ה	DET	DET	PronType=Art|Definite=Def	17	det	_	_
+17	מדינה	מדינה	NOUN	NOUN	Gender=Fem|Number=Sing	12	nmod	_	_
+18-21	ולעם	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	_	21	cc	_	_
+19	ל	ל	ADP	ADP	_	21	case	_	_
+20	ה_	ה	DET	DET	PronType=Art|Definite=Def	21	det	_	_
+21	עם	עם	NOUN	NOUN	Gender=Masc|Number=Sing	17	conj	_	_
+22-23	היהודי	_	_	_	_	_	_	_	SpaceAfter=No
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	יהודי	יהודי	ADJ	ADJ	Gender=Masc|Number=Sing	21	amod	_	_
+24	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:35_2
+# doc_range = 6367-6543
+# sent_id = 1507
+# text = אחת הסטיות הנפסדות ביותר של הציונות היא זו שהעלתה לדרגה של דוקטרינה את מטבע-הלשון "שנאה עצמית".
+1	אחת	אחת	NUM	NUM	Definite=Cons|Gender=Fem|Number=Sing	3	nummod	_	_
+2-3	הסטיות	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	סטיות	סטייה	NOUN	NOUN	Gender=Fem|Number=Plur	11	nsubj	_	_
+4-5	הנפסדות	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	נפסדות	נפסד	ADJ	ADJ	Gender=Fem|Number=Plur	3	amod	_	_
+6	ביותר	ביותר	ADV	ADV	_	5	advmod	_	_
+7	של	של	ADP	ADP	Case=Gen	9	case	_	_
+8-9	הציונות	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	ציונות	ציונות	NOUN	NOUN	Gender=Fem|Number=Sing	3	nmod	_	_
+10	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	11	cop	_	_
+11	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	0	root	_	_
+12-13	שהעלתה	_	_	_	_	_	_	_	_
+12	ש	ש	SCONJ	SCONJ	_	13	mark	_	_
+13	העלתה	העלה	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	11	acl:relcl	_	_
+14-15	לדרגה	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	דרגה	דרגה	NOUN	NOUN	Gender=Fem|Number=Sing	13	obl	_	_
+16	של	של	ADP	ADP	Case=Gen	17	case	_	_
+17	דוקטרינה	דוקטרינה	NOUN	NOUN	Gender=Fem|Number=Sing	15	nmod:poss	_	_
+18	את	את	ADP	ADP	Case=Acc	22	case	_	_
+19	מטבע	מטבע	NOUN	NOUN	Definite=Cons|Gender=Fem,Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+20	-	-	PUNCT	PUNCT	_	19	punct	_	SpaceAfter=No
+21-22	הלשון	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	לשון	לשון	NOUN	NOUN	Gender=Fem|Number=Sing	13	obj	_	_
+23	"	"	PUNCT	PUNCT	_	24	punct	_	SpaceAfter=No
+24	שנאה	שנאה	NOUN	NOUN	Gender=Fem|Number=Sing	22	appos	_	_
+25	עצמית	עצמי	ADJ	ADJ	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
+26	"	"	PUNCT	PUNCT	_	24	punct	_	SpaceAfter=No
+27	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:35_2
+# doc_range = 6545-6746
+# sent_id = 1508
+# text = כאשר פטריוטים רוצים להימנע מוויכוח רציני עם ליברלים, הם פוטרים אותם במלים "לוקה בשנאה עצמית", או "סוכן אש"ף".
+1	כאשר	כאשר	SCONJ	SCONJ	_	3	mark	_	_
+2	פטריוטים	פטריוט	ADJ	ADJ	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	רוצים	רצה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	12	advcl	_	_
+4	להימנע	נמנע	VERB	VERB	HebBinyan=NIFAL|VerbForm=Inf|Voice=Mid	3	xcomp	_	_
+5-6	מוויכוח	_	_	_	_	_	_	_	_
+5	מ	מ	ADP	ADP	_	6	case	_	_
+6	וויכוח	ויכוח	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+7	רציני	רציני	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	_
+8	עם	עם	ADP	ADP	_	9	case	_	_
+9	ליברלים	ליברל	NOUN	NOUN	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	3	punct	_	_
+11	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_
+12	פוטרים	פטר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+13-14	אותם	_	_	_	_	_	_	_	_
+13	את	את	ADP	ADP	Case=Acc	14	case	_	_
+14	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	obj	_	_
+15-16	במלים	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	מלים	מילה	NOUN	NOUN	Gender=Fem|Number=Plur	12	obl	_	_
+17	"	"	PUNCT	PUNCT	_	18	punct	_	SpaceAfter=No
+18	לוקה	לקה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	16	appos	_	_
+19-20	בשנאה	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	שנאה	שנאה	NOUN	NOUN	Gender=Fem|Number=Sing	18	obl	_	_
+21	עצמית	עצמי	ADJ	ADJ	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	"	"	PUNCT	PUNCT	_	18	punct	_	SpaceAfter=No
+23	,	,	PUNCT	PUNCT	_	26	punct	_	_
+24	או	או	CCONJ	CCONJ	_	26	cc	_	_
+25	"	"	PUNCT	PUNCT	_	26	punct	_	SpaceAfter=No
+26	סוכן	סוכן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	18	conj	_	_
+27	אש"ף	אש"ף	PROPN	PROPN	Abbr=Yes	26	compound:smixut	_	SpaceAfter=No
+28	"	"	PUNCT	PUNCT	_	26	punct	_	SpaceAfter=No
+29	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# doc_id = htb:35_2
+# doc_range = 6748-6848
+# sent_id = 1509
+# text = לאלוהי היהודים יש כנראה דרכים משלו לגמול על מעשים כאלה.
+1-2	לאלוהי	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	אלוהי	אלוהים	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+3-4	היהודים	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	יהודים	יהודי	NOUN	NOUN	Gender=Masc|Number=Plur	2	compound:smixut	_	_
+5	יש	יש	VERB	VERB	HebExistential=Yes	0	root	_	_
+6	כנראה	כנראה	ADV	ADV	_	5	advmod	_	_
+7	דרכים	דרך	NOUN	NOUN	Gender=Fem|Number=Plur	5	nsubj	_	_
+8-10	משלו	_	_	_	_	_	_	_	_
+8	מ	מ	ADP	ADP	_	10	case	_	_
+9	של	של	ADP	ADP	Case=Gen	10	case	_	_
+10	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nmod	_	_
+11	לגמול	גמל	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	7	acl	_	_
+12	על	על	ADP	ADP	_	13	case	_	_
+13	מעשים	מעשה	NOUN	NOUN	Gender=Masc|Number=Plur	11	obl	_	_
+14-16	כאלה	_	_	_	_	_	_	_	SpaceAfter=No
+14	כ	כ	ADP	ADP	_	16	case	_	_
+15	ה_	ה	DET	DET	PronType=Art|Definite=Def	16	det	_	_
+16	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	13	nmod	_	_
+17	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:35_2
+# doc_range = 6850-6973
+# sent_id = 1510
+# text = בושוויץ, אשר הוביל בסקרים בהפרש של 9% לפני פרסום המכתב, נוצח ביום ג.
+1	בושוויץ	בושוויץ	PROPN	PROPN	_	18	nsubj:pass	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	4	punct	_	_
+3	אשר	אשר	SCONJ	SCONJ	_	4	mark	_	_
+4	הוביל	הוביל	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	1	acl:relcl	_	_
+5-7	בסקרים	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	7	case	_	_
+6	ה_	ה	DET	DET	PronType=Art|Definite=Def	7	det	_	_
+7	סקרים	סקר	NOUN	NOUN	Gender=Masc|Number=Plur	4	obl	_	_
+8-9	בהפרש	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	הפרש	הפרש	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+10	של	של	ADP	ADP	Case=Gen	12	case	_	_
+11	9	9	NUM	NUM	_	12	nummod	_	SpaceAfter=No
+12	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	9	nmod:poss	_	_
+13	לפני	לפני	ADP	ADP	_	14	case	_	_
+14	פרסום	פרסום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	obl	_	_
+15-16	המכתב	_	_	_	_	_	_	_	SpaceAfter=No
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	מכתב	מכתב	NOUN	NOUN	Gender=Masc|Number=Sing	14	compound:smixut	_	_
+17	,	,	PUNCT	PUNCT	_	1	punct	_	_
+18	נוצח	נוצח	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+19-20	ביום	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	18	obl	_	_
+21	ג	ג	PROPN	PROPN	_	20	compound:smixut	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	18	punct	_	_
+
+# doc_id = htb:35_2
+# doc_range = 6975-7090
+# sent_id = 1511
+# text = משקיפים פוליטיים במינסוטה רואים קשר ישיר בין המכתב ובין המפלה.
+1	משקיפים	משקיף	NOUN	NOUN	Gender=Masc|Number=Plur	5	nsubj	_	_
+2	פוליטיים	פוליטי	ADJ	ADJ	Gender=Masc|Number=Plur	1	amod	_	_
+3-4	במינסוטה	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	מינסוטה	מינסוטה	PROPN	PROPN	_	1	nmod	_	_
+5	רואים	ראה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+6	קשר	קשר	NOUN	NOUN	Gender=Masc|Number=Sing	5	obj	_	_
+7	ישיר	ישיר	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	_
+8	בין	בין	ADP	ADP	_	10	case	_	_
+9-10	המכתב	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	מכתב	מכתב	NOUN	NOUN	Gender=Masc|Number=Sing	6	nmod	_	_
+11-12	ובין	_	_	_	_	_	_	_	_
+11	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
+12	בין	בין	ADP	ADP	_	14	case	_	_
+13-14	המפלה	_	_	_	_	_	_	_	SpaceAfter=No
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	מפלה	מפלה	NOUN	NOUN	Gender=Fem|Number=Sing	10	conj	_	_
+15	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:35_2
+# doc_range = 7092-7347
+# sent_id = 1512
+# text = כמעט טרגדיה היא שפליט יהודי מגרמניה הנאצית, אשר הצלחותיו האישיות היו תמצית החלום האמריקאי, מסיים את הקריירה הפוליטית שלו באופן כל כך מביש.
+1	כמעט	כמעט	ADV	ADV	_	2	advmod	_	_
+2	טרגדיה	טרגדיה	NOUN	NOUN	Gender=Fem|Number=Sing	25	nsubj	_	_
+3	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	25	cop	_	_
+4-5	שפליט	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	25	mark	_	_
+5	פליט	פליט	NOUN	NOUN	Gender=Masc|Number=Sing	25	nsubj	_	_
+6	יהודי	יהודי	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	_
+7-8	מגרמניה	_	_	_	_	_	_	_	_
+7	מ	מ	ADP	ADP	_	8	case	_	_
+8	גרמניה	גרמניה	PROPN	PROPN	_	5	nmod	_	_
+9-10	הנאצית	_	_	_	_	_	_	_	SpaceAfter=No
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	נאצית	נאצי	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	_
+11	,	,	PUNCT	PUNCT	_	19	punct	_	_
+12	אשר	אשר	SCONJ	SCONJ	_	19	mark	_	_
+13-15	הצלחותיו	_	_	_	_	_	_	_	_
+13	הצלחה	הצלחה	NOUN	NOUN	Gender=Fem|Number=Plur	19	nsubj	_	_
+14	_של_	של	ADP	ADP	Case=Gen	15	case:gen	_	_
+15	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+16-17	האישיות	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	אישיות	אישי	ADJ	ADJ	Gender=Fem|Number=Plur	13	amod	_	_
+18	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	19	cop	_	_
+19	תמצית	תמצית	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	acl:relcl	_	_
+20-21	החלום	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	חלום	חלום	NOUN	NOUN	Gender=Masc|Number=Sing	19	compound:smixut	_	_
+22-23	האמריקאי	_	_	_	_	_	_	_	SpaceAfter=No
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	אמריקאי	אמריקני	ADJ	ADJ	Gender=Masc|Number=Sing	21	amod	_	_
+24	,	,	PUNCT	PUNCT	_	5	punct	_	_
+25	מסיים	סיים	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+26	את	את	ADP	ADP	Case=Acc	28	case	_	_
+27-28	הקריירה	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	קריירה	קריירה	NOUN	NOUN	Gender=Fem|Number=Sing	25	obj	_	_
+29-30	הפוליטית	_	_	_	_	_	_	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	פוליטית	פוליטי	ADJ	ADJ	Gender=Fem|Number=Sing	28	amod	_	_
+31-32	שלו	_	_	_	_	_	_	_	_
+31	של	של	ADP	ADP	Case=Gen	32	case	_	_
+32	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nmod	_	_
+33-34	באופן	_	_	_	_	_	_	_	_
+33	ב	ב	ADP	ADP	_	34	case	_	_
+34	אופן	אופן	NOUN	NOUN	Gender=Masc|Number=Sing	25	obl	_	_
+35	כל	כול	DET	DET	Definite=Cons	37	advmod	_	_
+36	כך	כך	ADV	ADV	_	35	fixed	_	_
+37	מביש	מביש	ADJ	ADJ	Gender=Masc|Number=Sing	34	amod	_	SpaceAfter=No
+38	.	.	PUNCT	PUNCT	_	25	punct	_	_
+

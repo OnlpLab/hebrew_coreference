@@ -1,0 +1,96 @@
+# doc_id = htb:134_4
+# doc_range = 6563-6712
+# sent_id = 3310
+# text = תל-אביב: ח"כ יוסי שריד הודיע לאחרונה כי טעה כאשר התנגד להפצצת הכור האטומי בעיראק.
+1	תל	תל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	-	-	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+3	אביב	אביב	NOUN	NOUN	Gender=Masc|Number=Sing	1	flat:name	_	SpaceAfter=No
+4	:	:	PUNCT	PUNCT	_	8	punct	_	_
+5	ח"כ	ח"כ	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	8	nsubj	_	_
+6	יוסי	יוסי	PROPN	PROPN	_	5	flat:name	_	_
+7	שריד	שריד	PROPN	PROPN	_	5	flat:name	_	_
+8	הודיע	הודיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	1	nmod	_	_
+9	לאחרונה	לאחרונה	ADV	ADV	_	8	advmod	_	_
+10	כי	כי	SCONJ	SCONJ	_	11	mark	_	_
+11	טעה	טעה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	8	ccomp	_	_
+12	כאשר	כאשר	SCONJ	SCONJ	_	13	mark	_	_
+13	התנגד	התנגד	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	11	advcl	_	_
+14-15	להפצצת	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	הפצצת	הפצצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	13	obl	_	_
+16-17	הכור	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	כור	כור	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	_
+18-19	האטומי	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	אטומי	אטומי	ADJ	ADJ	Gender=Masc|Number=Sing	17	amod	_	_
+20-21	בעיראק	_	_	_	_	_	_	_	SpaceAfter=No
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	עיראק	עיראק	PROPN	PROPN	_	17	nmod	_	_
+22	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:134_4
+# doc_range = 6714-6754
+# sent_id = 3311
+# text = ליוסי שריד מותר לטעות.
+1-2	ליוסי	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	יוסי	יוסי	PROPN	PROPN	_	5	obl	_	_
+3	שריד	שריד	PROPN	PROPN	_	2	flat:name	_	_
+4	מותר	מותר	AUX	AUX	VerbType=Mod	5	aux	_	_
+5	לטעות	טעה	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:134_4
+# doc_range = 6757-6830
+# sent_id = 3312
+# text = למזלנו, איננו צריכים לשלם את מחיר טעותו.
+1-4	למזלנו	_	_	_	_	_	_	_	SpaceAfter=No
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	מזל	מזל	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+3	_של_	של	ADP	ADP	Case=Gen	4	case:gen	_	_
+4	_אנחנו	הוא	PRON	PRON	Definite=Def|Gender=Fem,Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5	,	,	PUNCT	PUNCT	_	2	punct	_	_
+6	איננו	איננו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=1|Polarity=Neg|VerbForm=Part	8	aux	_	_
+7	צריכים	צריך	AUX	AUX	Gender=Masc|Number=Plur|Person=1,2,3|VerbType=Mod	8	aux	_	_
+8	לשלם	שילם	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	0	root	_	_
+9	את	את	ADP	ADP	Case=Acc	10	case	_	_
+10	מחיר	מחיר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	obj	_	_
+11-13	טעותו	_	_	_	_	_	_	_	SpaceAfter=No
+11	טעות	טעות	NOUN	NOUN	Gender=Fem|Number=Sing	10	compound:smixut	_	_
+12	_של_	של	ADP	ADP	Case=Gen	13	case:gen	_	_
+13	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+14	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:134_4
+# doc_range = 6832-6964
+# sent_id = 3313
+# text = מנחם בגין קיבל החלטה שונה, ואולי בזכותה יוסי שריד חי ויכול להכיר בטעותו.
+1	מנחם	מנחם	PROPN	PROPN	_	3	nsubj	_	_
+2	בגין	בגין	PROPN	PROPN	_	1	flat:name	_	_
+3	קיבל	קיבל	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	החלטה	החלטה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obj	_	_
+5	שונה	שונה	ADJ	ADJ	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	15	punct	_	_
+7-8	ואולי	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+8	אולי	אולי	ADV	ADV	_	15	advmod	_	_
+9-12	בזכותה	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	זכות	זכות	NOUN	NOUN	Gender=Fem|Number=Sing	15	obl	_	_
+11	_של_	של	ADP	ADP	Case=Gen	12	case:gen	_	_
+12	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+13	יוסי	יוסי	PROPN	PROPN	_	15	nsubj	_	_
+14	שריד	שריד	PROPN	PROPN	_	13	flat:name	_	_
+15	חי	חי	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	3	conj	_	_
+16-17	ויכול	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+17	יכול	יכול	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part|VerbType=Mod	18	aux	_	_
+18	להכיר	הכיר	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	15	conj	_	_
+19-22	בטעותו	_	_	_	_	_	_	_	SpaceAfter=No
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	טעות	טעות	NOUN	NOUN	Gender=Fem|Number=Sing	18	obl	_	_
+21	_של_	של	ADP	ADP	Case=Gen	22	case:gen	_	_
+22	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+23	.	.	PUNCT	PUNCT	_	3	punct	_	_
+

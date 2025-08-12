@@ -1,0 +1,178 @@
+# doc_id = htb:44
+# doc_range = 1-29
+# sent_id = 1639
+# text = לייפציג (רויטר).
+1	לייפציג	לייפציג	PROPN	PROPN	_	0	root	_	_
+2	(	(	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+3	רויטר	רויטר	PROPN	PROPN	_	1	parataxis	_	SpaceAfter=No
+4	)	)	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:44
+# doc_range = 33-288
+# sent_id = 1640
+# text = שלטונות עיריית לייפציג עלולים לבטל את המשחק האחרון בין נבחרות מזרח ומערב גרמניה, עקב האיום באלימות מצד אוהדי כדורגל אמר אתמול דובר העיריה.
+1	שלטונות	שלטון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	עיריית	עירייה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	compound:smixut	_	_
+3	לייפציג	לייפציג	PROPN	PROPN	_	2	compound:smixut	_	_
+4	עלולים	עלול	AUX	AUX	Gender=Masc|Number=Plur|Person=1,2,3|VerbType=Mod	5	aux	_	_
+5	לבטל	ביטל	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	26	obl	_	_
+6	את	את	ADP	ADP	Case=Acc	8	case	_	_
+7-8	המשחק	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	5	obj	_	_
+9-10	האחרון	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	אחרון	אחרון	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	_
+11	בין	בין	ADP	ADP	_	12	case	_	_
+12	נבחרות	נבחרת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	8	nmod	_	_
+13	מזרח	מזרח	NOUN	NOUN	Gender=Masc|Number=Sing	12	compound:smixut	_	_
+14-15	ומערב	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+15	מערב	מערב	NOUN	NOUN	Gender=Masc|Number=Sing	13	conj	_	_
+16	גרמניה	גרמניה	PROPN	PROPN	_	13	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	20	punct	_	_
+18	עקב	עקב	ADP	ADP	_	20	case	_	_
+19-20	האיום	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	איום	איום	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+21-22	באלימות	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	אלימות	אלימות	NOUN	NOUN	Gender=Fem|Number=Sing	20	nmod	_	_
+23	מצד	מצד	ADP	ADP	_	24	case	_	_
+24	אוהדי	אוהד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	20	nmod	_	_
+25	כדורגל	כדורגל	NOUN	NOUN	Gender=Masc|Number=Sing	24	compound:smixut	_	_
+26	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+27	אתמול	אתמול	ADV	ADV	_	26	advmod	_	_
+28	דובר	דובר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	26	nsubj	_	_
+29-30	העיריה	_	_	_	_	_	_	_	SpaceAfter=No
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	עיריה	עירייה	NOUN	NOUN	Gender=Fem|Number=Sing	28	compound:smixut	_	_
+31	.	.	PUNCT	PUNCT	_	26	punct	_	_
+
+# doc_id = htb:44
+# doc_range = 291-599
+# sent_id = 1641
+# text = "אנו מודאגים מאוד לגבי הבטחון, אמר הדובר, ריינהארדט בוהז, בהתייחסו למשחק המשחק האחרון בין שתי הנבחרות הגרמניות, לפני שתוקם נבחרת מאוחדת, אמור להתקיים כאן ב-12 בנובמבר.
+1	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+2	אנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	מודאגים	מודאג	ADJ	ADJ	Gender=Masc|Number=Plur	9	obl	_	_
+4	מאוד	מאוד	ADV	ADV	_	3	advmod	_	_
+5	לגבי	לגבי	ADP	ADP	_	7	case	_	_
+6-7	הבטחון	_	_	_	_	_	_	_	SpaceAfter=No
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	בטחון	ביטחון	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+8	,	,	PUNCT	PUNCT	_	3	punct	_	_
+9	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+10-11	הדובר	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	דובר	דובר	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj	_	_
+12	,	,	PUNCT	PUNCT	_	13	punct	_	_
+13	ריינהארדט	ריינהארדט	PROPN	PROPN	_	11	appos	_	_
+14	בוהז	בוהז	PROPN	PROPN	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	17	punct	_	_
+16-17	בהתייחסו	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	mark	_	_
+17	התייחסו	התייחס	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	9	advcl	_	_
+18-20	למשחק	_	_	_	_	_	_	_	_
+18	ל	ל	ADP	ADP	_	20	case	_	_
+19	ה_	ה	DET	DET	PronType=Art|Definite=Def	20	det	_	_
+20	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	_
+21-22	המשחק	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	20	appos	_	_
+23-24	האחרון	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	אחרון	אחרון	ADJ	ADJ	Gender=Masc|Number=Sing	22	amod	_	_
+25	בין	בין	ADP	ADP	_	28	case	_	_
+26	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	28	nummod	_	_
+27-28	הנבחרות	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	נבחרות	נבחרת	NOUN	NOUN	Gender=Fem|Number=Plur	22	nmod	_	_
+29-30	הגרמניות	_	_	_	_	_	_	_	SpaceAfter=No
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	גרמניות	גרמני	ADJ	ADJ	Gender=Fem|Number=Plur	28	amod	_	_
+31	,	,	PUNCT	PUNCT	_	34	punct	_	_
+32	לפני	לפני	ADP	ADP	_	34	mark	_	_
+33-34	שתוקם	_	_	_	_	_	_	_	_
+33	ש	ש	SCONJ	SCONJ	_	32	fixed	_	_
+34	תוקם	הוקם	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	22	advcl	_	_
+35	נבחרת	נבחרת	NOUN	NOUN	Gender=Fem|Number=Sing	34	nsubj:pass	_	_
+36	מאוחדת	מאוחד	ADJ	ADJ	Gender=Fem|Number=Sing	35	amod	_	SpaceAfter=No
+37	,	,	PUNCT	PUNCT	_	39	punct	_	_
+38	אמור	אמור	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	39	aux	_	_
+39	להתקיים	התקיים	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	20	appos	_	_
+40	כאן	כאן	ADV	ADV	_	39	advmod	_	_
+41	ב	ב	ADP	ADP	_	43	case	_	SpaceAfter=No
+42	-	-	PUNCT	PUNCT	_	43	punct	_	SpaceAfter=No
+43	12	12	NUM	NUM	_	39	obl	_	_
+44-45	בנובמבר	_	_	_	_	_	_	_	SpaceAfter=No
+44	ב	ב	ADP	ADP	_	45	case	_	_
+45	נובמבר	נובמבר	PROPN	PROPN	_	43	obl	_	_
+46	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:44
+# doc_range = 601-805
+# sent_id = 1642
+# text = בשבת האחרונה ירתה משטרת לייפציג באדם אחד למוות ופצעה קשה שלושה אחרים, בנסיון לבלום השתוללות אוהדי כדורגל בעיר.
+1-3	בשבת	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	שבת	שבת	PROPN	PROPN	_	6	obl	_	_
+4-5	האחרונה	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	אחרונה	אחרון	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	_
+6	ירתה	ירה	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+7	משטרת	משטרה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	nsubj	_	_
+8	לייפציג	לייפציג	PROPN	PROPN	_	7	compound:smixut	_	_
+9-10	באדם	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	אדם	אדם	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+11	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	10	nummod	_	_
+12-14	למוות	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	_	14	case	_	_
+13	ה_	ה	DET	DET	PronType=Art|Definite=Def	14	det	_	_
+14	מוות	מוות	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+15-16	ופצעה	_	_	_	_	_	_	_	_
+15	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+16	פצעה	פצע	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	6	conj	_	_
+17	קשה	קשה	ADV	ADV	_	16	advmod	_	_
+18	שלושה	שלוש	NUM	NUM	Gender=Masc|Number=Plur	19	nummod	_	_
+19	אחרים	אחר	ADJ	ADJ	Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
+20	,	,	PUNCT	PUNCT	_	22	punct	_	_
+21-22	בנסיון	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	נסיון	ניסיון	NOUN	NOUN	Gender=Masc|Number=Sing	16	obl	_	_
+23	לבלום	בלם	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	22	acl	_	_
+24	השתוללות	השתוללות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	23	obl	_	_
+25	אוהדי	אוהד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	24	compound:smixut	_	_
+26	כדורגל	כדורגל	NOUN	NOUN	Gender=Masc|Number=Sing	25	compound:smixut	_	_
+27-29	בעיר	_	_	_	_	_	_	_	SpaceAfter=No
+27	ב	ב	ADP	ADP	_	29	case	_	_
+28	ה_	ה	DET	DET	PronType=Art|Definite=Def	29	det	_	_
+29	עיר	עיר	NOUN	NOUN	Gender=Fem|Number=Sing	23	obl	_	_
+30	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:44
+# doc_range = 807-924
+# sent_id = 1643
+# text = כמה ימים קודם לכן השתוללו בלוכסמבורג אוהדי כדורגל ממערב גרמניה.
+1	כמה	כמה	DET	DET	Definite=Cons	2	det	_	_
+2	ימים	יום	NOUN	NOUN	Gender=Masc|Number=Plur	7	obl:tmod	_	_
+3	קודם	קודם	ADV	ADV	_	2	advmod	_	_
+4-6	לכן	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	3	fixed	_	_
+5	ה_	ה	DET	DET	PronType=Art|Definite=Def	6	det	_	_
+6	כן	כן	PRON	PRON	Person=3|PronType=Dem	3	fixed	_	_
+7	השתוללו	השתולל	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	0	root	_	_
+8-9	בלוכסמבורג	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	לוכסמבורג	לוכסמבורג	PROPN	PROPN	_	7	obl	_	_
+10	אוהדי	אוהד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	7	nsubj	_	_
+11	כדורגל	כדורגל	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
+12-13	ממערב	_	_	_	_	_	_	_	_
+12	מ	מ	ADP	ADP	_	13	case	_	_
+13	מערב	מערב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	nmod	_	_
+14	גרמניה	גרמניה	PROPN	PROPN	_	13	compound:smixut	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	7	punct	_	_
+

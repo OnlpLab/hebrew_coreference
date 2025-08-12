@@ -1,0 +1,514 @@
+# doc_id = htb:161
+# doc_range = 3-6
+# sent_id = 4210
+# text = (ע).
+1	(	(	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+2	ע	ע	PROPN	PROPN	_	0	root	_	SpaceAfter=No
+3	)	)	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:161
+# doc_range = 10-166
+# sent_id = 4211
+# text = פרשה מזעזעת של מעשי סדום ומעשים מגונים בקטינים נחשפה ביום ו בבית משפט השלום בירושלים.
+1	פרשה	פרשה	NOUN	NOUN	Gender=Fem|Number=Sing	11	nsubj	_	_
+2	מזעזעת	זיעזע	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	1	amod	_	_
+3	של	של	ADP	ADP	Case=Gen	4	case	_	_
+4	מעשי	מעשה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	1	nmod	_	_
+5	סדום	סדום	PROPN	PROPN	_	4	compound:smixut	_	_
+6-7	ומעשים	_	_	_	_	_	_	_	_
+6	ו	ו	CCONJ	CCONJ	_	7	cc	_	_
+7	מעשים	מעשה	NOUN	NOUN	Gender=Masc|Number=Plur	4	conj	_	_
+8	מגונים	מגונה	ADJ	ADJ	Gender=Masc|Number=Plur	7	amod	_	_
+9-10	בקטינים	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	קטינים	קטין	NOUN	NOUN	Gender=Masc|Number=Plur	4	nmod	_	_
+11	נחשפה	נחשף	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+12-13	ביום	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	obl	_	_
+14	ו	ו	CCONJ	CCONJ	_	13	compound:smixut	_	_
+15-16	בבית	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	obl	_	_
+17	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	16	compound:smixut	_	_
+18-19	השלום	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	שלום	שלום	NOUN	NOUN	Gender=Masc|Number=Sing	16	nmod	_	_
+20-21	בירושלים	_	_	_	_	_	_	_	SpaceAfter=No
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	ירושלים	ירושלים	PROPN	PROPN	_	16	nmod	_	_
+22	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:161
+# doc_range = 168-418
+# sent_id = 4212
+# text = לבית המשפט הובאו שלושה תושבי העיר, בני כ04, ששמם נאסר לפרסום, בחשד כי ביצעו שורה של מעשי סדום ומעשים מגונים במספר קטינים בדירות בירושלים.
+1-2	לבית	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+3-4	המשפט	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+5	הובאו	הובא	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+6	שלושה	שלוש	NUM	NUM	Gender=Masc|Number=Plur	7	nummod	_	_
+7	תושבי	תושב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+8-9	העיר	_	_	_	_	_	_	_	SpaceAfter=No
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	עיר	עיר	NOUN	NOUN	Gender=Fem|Number=Sing	7	compound:smixut	_	_
+10	,	,	PUNCT	PUNCT	_	11	punct	_	_
+11	בני	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	7	acl	_	_
+12-13	כ04	_	_	_	_	_	_	_	SpaceAfter=No
+12	כ	כ	ADP	ADP	_	13	case	_	_
+13	04	04	NUM	NUM	_	11	compound:smixut	_	_
+14	,	,	PUNCT	PUNCT	_	19	punct	_	_
+15-18	ששמם	_	_	_	_	_	_	_	_
+15	ש	ש	SCONJ	SCONJ	_	19	mark	_	_
+16	שם	שם	NOUN	NOUN	Gender=Masc|Number=Sing	19	nsubj	_	_
+17	_של_	של	ADP	ADP	Case=Gen	18	case:gen	_	_
+18	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+19	נאסר	נאסר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	7	acl:relcl	_	_
+20-21	לפרסום	_	_	_	_	_	_	_	SpaceAfter=No
+20	ל	ל	ADP	ADP	_	21	case	_	_
+21	פרסום	פרסום	NOUN	NOUN	Gender=Masc|Number=Sing	19	obl	_	_
+22	,	,	PUNCT	PUNCT	_	24	punct	_	_
+23-24	בחשד	_	_	_	_	_	_	_	_
+23	ב	ב	ADP	ADP	_	24	case	_	_
+24	חשד	חשד	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+25	כי	כי	SCONJ	SCONJ	_	26	mark	_	_
+26	ביצעו	ביצע	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	24	acl:relcl	_	_
+27	שורה	שורה	NOUN	NOUN	Gender=Fem|Number=Sing	26	obj	_	_
+28	של	של	ADP	ADP	Case=Gen	29	case	_	_
+29	מעשי	מעשה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	27	nmod:poss	_	_
+30	סדום	סדום	PROPN	PROPN	_	29	compound:smixut	_	_
+31-32	ומעשים	_	_	_	_	_	_	_	_
+31	ו	ו	CCONJ	CCONJ	_	32	cc	_	_
+32	מעשים	מעשה	NOUN	NOUN	Gender=Masc|Number=Plur	29	conj	_	_
+33	מגונים	מגונה	ADJ	ADJ	Gender=Masc|Number=Plur	32	amod	_	_
+34-35	במספר	_	_	_	_	_	_	_	_
+34	ב	ב	ADP	ADP	_	36	case	_	_
+35	מספר	מספר	DET	DET	Definite=Cons	36	det	_	_
+36	קטינים	קטין	NOUN	NOUN	Gender=Masc|Number=Plur	26	obl	_	_
+37-38	בדירות	_	_	_	_	_	_	_	_
+37	ב	ב	ADP	ADP	_	38	case	_	_
+38	דירות	דירה	NOUN	NOUN	Gender=Fem|Number=Plur	26	obl	_	_
+39-40	בירושלים	_	_	_	_	_	_	_	SpaceAfter=No
+39	ב	ב	ADP	ADP	_	40	case	_	_
+40	ירושלים	ירושלים	PROPN	PROPN	_	38	nmod	_	_
+41	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:161
+# doc_range = 420-547
+# sent_id = 4213
+# text = שלושת החשודים נעצרו כבר ב4 בנובמבר, אולם אז הוטל איסור פרסום על הפרשה.
+1	שלושת	שלושת	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	3	nummod	_	_
+2-3	החשודים	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	חשודים	חשוד	NOUN	NOUN	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	נעצרו	נעצר	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+5	כבר	כבר	ADV	ADV	_	4	advmod	_	_
+6-8	ב4	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	8	case	_	_
+7	ה_	ה	DET	DET	PronType=Art|Definite=Def	8	det	_	_
+8	4	4	NUM	NUM	_	4	obl	_	_
+9-10	בנובמבר	_	_	_	_	_	_	_	SpaceAfter=No
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	נובמבר	נובמבר	PROPN	PROPN	_	8	obl	_	_
+11	,	,	PUNCT	PUNCT	_	14	punct	_	_
+12	אולם	אולם	CCONJ	CCONJ	_	14	cc	_	_
+13	אז	אז	ADV	ADV	_	14	advmod	_	_
+14	הוטל	הוטל	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	4	conj	_	_
+15	איסור	איסור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	14	nsubj:pass	_	_
+16	פרסום	פרסום	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	_
+17	על	על	ADP	ADP	_	19	case	_	_
+18-19	הפרשה	_	_	_	_	_	_	_	SpaceAfter=No
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	פרשה	פרשה	NOUN	NOUN	Gender=Fem|Number=Sing	14	obl	_	_
+20	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:161
+# doc_range = 549-859
+# sent_id = 4214
+# text = ביום ו טען בבית המשפט נציג מחלק הפשעים של משטרת ירושלים, כי ב51 באוקטובר השנה התלוננו שני קטינים במשטרת תל-אביב ששלושת החשודים ביצעו בגופם מעשים מגונים במשך שבעה חודשים.
+1-2	ביום	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	obl	_	_
+3	ו	ו	CCONJ	CCONJ	_	2	compound:smixut	_	_
+4	טען	טען	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5-6	בבית	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	obl	_	_
+7-8	המשפט	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+9	נציג	נציג	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nsubj	_	_
+10	מחלק	מחלק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	compound:smixut	_	_
+11-12	הפשעים	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	פשעים	פשע	NOUN	NOUN	Gender=Masc|Number=Plur	10	compound:smixut	_	_
+13	של	של	ADP	ADP	Case=Gen	14	case	_	_
+14	משטרת	משטרה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	10	nmod:poss	_	_
+15	ירושלים	ירושלים	PROPN	PROPN	_	14	compound:smixut	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	24	punct	_	_
+17	כי	כי	SCONJ	SCONJ	_	24	mark	_	_
+18-20	ב51	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	20	case	_	_
+19	ה_	ה	DET	DET	PronType=Art|Definite=Def	20	det	_	_
+20	51	51	NUM	NUM	_	24	obl	_	_
+21-22	באוקטובר	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	אוקטובר	אוקטובר	PROPN	PROPN	_	20	obl	_	_
+23	השנה	השנה	ADV	ADV	_	20	advmod	_	_
+24	התלוננו	התלונן	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	4	ccomp	_	_
+25	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	26	nummod	_	_
+26	קטינים	קטין	NOUN	NOUN	Gender=Masc|Number=Plur	24	nsubj	_	_
+27-28	במשטרת	_	_	_	_	_	_	_	_
+27	ב	ב	ADP	ADP	_	28	case	_	_
+28	משטרת	משטרה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	24	obl	_	_
+29	תל	תל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	28	compound:smixut	_	SpaceAfter=No
+30	-	-	PUNCT	PUNCT	_	31	punct	_	SpaceAfter=No
+31	אביב	אביב	NOUN	NOUN	Gender=Masc|Number=Sing	29	flat:name	_	_
+32-33	ששלושת	_	_	_	_	_	_	_	_
+32	ש	ש	SCONJ	SCONJ	_	36	mark	_	_
+33	שלושת	שלושת	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	35	nummod	_	_
+34-35	החשודים	_	_	_	_	_	_	_	_
+34	ה	ה	DET	DET	Definite=Def|PronType=Art	35	det	_	_
+35	חשודים	חשוד	NOUN	NOUN	Gender=Masc|Number=Plur	36	nsubj	_	_
+36	ביצעו	ביצע	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	24	advcl	_	_
+37-40	בגופם	_	_	_	_	_	_	_	_
+37	ב	ב	ADP	ADP	_	38	case	_	_
+38	גוף	גוף	NOUN	NOUN	Gender=Masc|Number=Sing	36	obl	_	_
+39	_של_	של	ADP	ADP	Case=Gen	40	case:gen	_	_
+40	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	38	nmod:poss	_	_
+41	מעשים	מעשה	NOUN	NOUN	Gender=Masc|Number=Plur	36	obj	_	_
+42	מגונים	מגונה	ADJ	ADJ	Gender=Masc|Number=Plur	41	amod	_	_
+43	במשך	במשך	ADP	ADP	_	45	case	_	_
+44	שבעה	שבע	NUM	NUM	Gender=Masc|Number=Plur	45	nummod	_	_
+45	חודשים	חודש	NOUN	NOUN	Gender=Masc|Number=Plur	36	obl	_	SpaceAfter=No
+46	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:161
+# doc_range = 861-983
+# sent_id = 4215
+# text = בתלונתם טענו הקטינים כי החשודים ביצעו בהם מעשי אוננות ומין אוראלי.
+1-4	בתלונתם	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	תלונה	תלונה	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
+3	_של_	של	ADP	ADP	Case=Gen	4	case:gen	_	_
+4	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5	טענו	טען	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+6-7	הקטינים	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	קטינים	קטין	NOUN	NOUN	Gender=Masc|Number=Plur	5	nsubj	_	_
+8	כי	כי	SCONJ	SCONJ	_	11	mark	_	_
+9-10	החשודים	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	חשודים	חשוד	NOUN	NOUN	Gender=Masc|Number=Plur	11	nsubj	_	_
+11	ביצעו	ביצע	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	5	ccomp	_	_
+12-13	בהם	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	obl	_	_
+14	מעשי	מעשה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	11	obj	_	_
+15	אוננות	אוננות	NOUN	NOUN	Gender=Fem|Number=Sing	14	compound:smixut	_	_
+16-17	ומין	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+17	מין	מין	NOUN	NOUN	Gender=Masc|Number=Sing	14	conj	_	_
+18	אוראלי	אוראלי	ADJ	ADJ	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:161
+# doc_range = 985-1175
+# sent_id = 4216
+# text = הנערים סיפרו עוד כי השלושה נהגו להציג להם סרטים פורנוגראפיים וביצעו בהם תוך כדי צפייה בסרטים מעשי סדום.
+1-2	הנערים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	נערים	נער	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	סיפרו	סיפר	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	עוד	עוד	ADV	ADV	_	3	advmod	_	_
+5	כי	כי	SCONJ	SCONJ	_	8	mark	_	_
+6-7	השלושה	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	שלושה	שלוש	NUM	NUM	Gender=Masc|Number=Plur	8	nsubj	_	_
+8	נהגו	נהג	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	3	ccomp	_	_
+9	להציג	הציג	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10-11	להם	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	11	case	_	_
+11	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	obl	_	_
+12	סרטים	סרט	NOUN	NOUN	Gender=Masc|Number=Plur	9	obj	_	_
+13	פורנוגראפיים	פורנוגרפי	ADJ	ADJ	_	12	amod	_	_
+14-15	וביצעו	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+15	ביצעו	ביצע	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	8	conj	_	_
+16-17	בהם	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	obl	_	_
+18	תוך	תוך	ADP	ADP	_	20	case	_	_
+19	כדי	כדי	ADP	ADP	_	18	fixed	_	_
+20	צפייה	צפייה	NOUN	NOUN	Gender=Fem|Number=Sing	15	obl	_	_
+21-23	בסרטים	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	23	case	_	_
+22	ה_	ה	DET	DET	PronType=Art|Definite=Def	23	det	_	_
+23	סרטים	סרט	NOUN	NOUN	Gender=Masc|Number=Plur	20	nmod	_	_
+24	מעשי	מעשה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	15	obj	_	_
+25	סדום	סדום	PROPN	PROPN	_	24	compound:smixut	_	SpaceAfter=No
+26	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:161
+# doc_range = 1177-1241
+# sent_id = 4217
+# text = בתמורה נתנו לנערים סכומי כסף קטנים.
+1-2	בתמורה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	תמורה	תמורה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+3	נתנו	נתן	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	0	root	_	_
+4-6	לנערים	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	6	case	_	_
+5	ה_	ה	DET	DET	PronType=Art|Definite=Def	6	det	_	_
+6	נערים	נער	NOUN	NOUN	Gender=Masc|Number=Plur	3	obl	_	_
+7	סכומי	סכום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	3	obj	_	_
+8	כסף	כסף	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound:smixut	_	_
+9	קטנים	קטן	ADJ	ADJ	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:161
+# doc_range = 1243-1334
+# sent_id = 4218
+# text = במהלך הדיון התברר כי בפרשה מעורבים קטינים נוספים.
+1-2	במהלך	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	4	case	_	_
+2	מהלך	מהלך	NOUN	NOUN	Gender=Masc|Number=Sing	1	fixed	_	_
+3-4	הדיון	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	דיון	דיון	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+5	התברר	התברר	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+6	כי	כי	SCONJ	SCONJ	_	10	mark	_	_
+7-9	בפרשה	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	9	case	_	_
+8	ה_	ה	DET	DET	PronType=Art|Definite=Def	9	det	_	_
+9	פרשה	פרשה	NOUN	NOUN	Gender=Fem|Number=Sing	10	obl	_	_
+10	מעורבים	מעורב	VERB	VERB	Tense=Pres|VerbForm=Part	5	advcl	_	_
+11	קטינים	קטין	NOUN	NOUN	Gender=Masc|Number=Plur	10	nsubj	_	_
+12	נוספים	נוסף	ADJ	ADJ	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:161
+# doc_range = 1336-1509
+# sent_id = 4219
+# text = חוקר המשטרה טען כי שניים מן החשודים הודו במעשים ויש כוונה להגיש נגדם כתב אישום תוך תקופת מעצרם.
+1	חוקר	חוקר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nsubj	_	_
+2-3	המשטרה	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+4	טען	טען	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	כי	כי	SCONJ	SCONJ	_	10	mark	_	_
+6	שניים	שתיים	NUM	NUM	Gender=Masc|Number=Plur	9	nummod	_	_
+7	מן	מן	ADP	ADP	_	9	case	_	_
+8-9	החשודים	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	חשודים	חשוד	NOUN	NOUN	Gender=Masc|Number=Plur	10	nsubj	_	_
+10	הודו	הודה	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	4	ccomp	_	_
+11-13	במעשים	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	13	case	_	_
+12	ה_	ה	DET	DET	PronType=Art|Definite=Def	13	det	_	_
+13	מעשים	מעשה	NOUN	NOUN	Gender=Masc|Number=Plur	10	obl	_	_
+14-15	ויש	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+15	יש	יש	VERB	VERB	HebExistential=Yes	10	conj	_	_
+16	כוונה	כוונה	NOUN	NOUN	Gender=Fem|Number=Sing	15	nsubj	_	_
+17	להגיש	הגיש	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	16	acl	_	_
+18-19	נגדם	_	_	_	_	_	_	_	_
+18	נגד	נגד	ADP	ADP	_	19	case	_	_
+19	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	17	obl	_	_
+20	כתב	כתב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	obj	_	_
+21	אישום	אישום	NOUN	NOUN	Gender=Masc|Number=Sing	20	compound:smixut	_	_
+22	תוך	תוך	ADP	ADP	_	23	case	_	_
+23	תקופת	תקופה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	17	obl	_	_
+24-26	מעצרם	_	_	_	_	_	_	_	SpaceAfter=No
+24	מעצר	מעצר	NOUN	NOUN	Gender=Masc|Number=Sing	23	compound:smixut	_	_
+25	_של_	של	ADP	ADP	Case=Gen	26	case:gen	_	_
+26	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+27	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:161
+# doc_range = 1511-1746
+# sent_id = 4220
+# text = השופטת דליה קובל קבעה בהחלטתה כי אין תשתית עובדתית לטענות שהעלו עורכי הדין של החשודים, שמדובר בקטינים המשמשים כפרוצות ממין זכר.
+1-2	השופטת	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	שופטת	שופט	NOUN	NOUN	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	דליה	דליה	PROPN	PROPN	_	2	flat:name	_	_
+4	קובל	קובל	PROPN	PROPN	_	2	flat:name	_	_
+5	קבעה	קבע	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Past	0	root	_	_
+6-9	בהחלטתה	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	החלטה	החלטה	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
+8	_של_	של	ADP	ADP	Case=Gen	9	case:gen	_	_
+9	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+10	כי	כי	SCONJ	SCONJ	_	11	mark	_	_
+11	אין	אין	VERB	VERB	HebExistential=Yes	5	ccomp	_	_
+12	תשתית	תשתית	NOUN	NOUN	Gender=Fem|Number=Sing	11	nsubj	_	_
+13	עובדתית	עובדתי	ADJ	ADJ	Gender=Fem|Number=Sing	12	amod	_	_
+14-16	לטענות	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	16	case	_	_
+15	ה_	ה	DET	DET	PronType=Art|Definite=Def	16	det	_	_
+16	טענות	טענה	NOUN	NOUN	Gender=Fem|Number=Plur	12	nmod	_	_
+17-18	שהעלו	_	_	_	_	_	_	_	_
+17	ש	ש	SCONJ	SCONJ	_	18	mark	_	_
+18	העלו	העלה	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	16	acl:relcl	_	_
+19	עורכי	עורך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	18	nsubj	_	_
+20-21	הדין	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	דין	דין	NOUN	NOUN	Gender=Masc|Number=Sing	19	compound:smixut	_	_
+22	של	של	ADP	ADP	Case=Gen	24	case	_	_
+23-24	החשודים	_	_	_	_	_	_	_	SpaceAfter=No
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	חשודים	חשוד	NOUN	NOUN	Gender=Masc|Number=Plur	19	nmod:poss	_	_
+25	,	,	PUNCT	PUNCT	_	27	punct	_	_
+26-27	שמדובר	_	_	_	_	_	_	_	_
+26	ש	ש	SCONJ	SCONJ	_	27	mark	_	_
+27	מדובר	דובר	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	16	acl:relcl	_	_
+28-29	בקטינים	_	_	_	_	_	_	_	_
+28	ב	ב	ADP	ADP	_	29	case	_	_
+29	קטינים	קטין	NOUN	NOUN	Gender=Masc|Number=Plur	27	obl	_	_
+30-31	המשמשים	_	_	_	_	_	_	_	_
+30	ה	ה	SCONJ	SCONJ	_	31	mark	_	_
+31	משמשים	שימש	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	29	acl:relcl	_	_
+32-33	כפרוצות	_	_	_	_	_	_	_	_
+32	כ	כ	ADP	ADP	_	33	case	_	_
+33	פרוצות	פרוצה	NOUN	NOUN	Gender=Fem|Number=Plur	31	obl	_	_
+34-35	ממין	_	_	_	_	_	_	_	_
+34	מ	מ	ADP	ADP	_	35	case	_	_
+35	מין	מין	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	33	nmod	_	_
+36	זכר	זכר	NOUN	NOUN	Gender=Masc|Number=Sing	35	compound:smixut	_	SpaceAfter=No
+37	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:161
+# doc_range = 1748-1866
+# sent_id = 4221
+# text = לדבריה, מן העדויות מתברר שהפרשייה הולכת ומסתעפת לעומקה ולרוחבה.
+1-4	לדבריה	_	_	_	_	_	_	_	SpaceAfter=No
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	9	obl	_	_
+3	_של_	של	ADP	ADP	Case=Gen	4	case:gen	_	_
+4	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5	,	,	PUNCT	PUNCT	_	2	punct	_	_
+6	מן	מן	ADP	ADP	_	8	case	_	_
+7-8	העדויות	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	עדויות	עדות	NOUN	NOUN	Gender=Fem|Number=Plur	9	obl	_	_
+9	מתברר	התברר	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+10-12	שהפרשייה	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	13	mark	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	פרשייה	פרשייה	NOUN	NOUN	Gender=Fem|Number=Sing	13	nsubj	_	_
+13	הולכת	הלך	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	9	advcl	_	_
+14-15	ומסתעפת	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+15	מסתעפת	הסתעף	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	13	conj	_	_
+16-19	לעומקה	_	_	_	_	_	_	_	_
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	עומק	עומק	NOUN	NOUN	Gender=Masc|Number=Sing	13	obl	_	_
+18	_של_	של	ADP	ADP	Case=Gen	19	case:gen	_	_
+19	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+20-24	ולרוחבה	_	_	_	_	_	_	_	SpaceAfter=No
+20	ו	ו	CCONJ	CCONJ	_	22	cc	_	_
+21	ל	ל	ADP	ADP	_	22	case	_	_
+22	רוחב	רוחב	NOUN	NOUN	Gender=Masc|Number=Sing	17	conj	_	_
+23	_של_	של	ADP	ADP	Case=Gen	24	case:gen	_	_
+24	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+25	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:161
+# doc_range = 1869-2086
+# sent_id = 4222
+# text = "יצוין שגם תוך ניתוק מרגש הסלידה העולה למקרא הודעות הקטינים, מוקדם עדין לדבר בהמשך חקירה שלא בתנאי מעצר", אמרה השופטת.
+1	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+2	יצוין	צוין	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	32	advcl	_	_
+3-4	שגם	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	19	mark	_	_
+4	גם	גם	ADV	ADV	_	6	advmod	_	_
+5	תוך	תוך	ADP	ADP	_	6	case	_	_
+6	ניתוק	ניתוק	NOUN	NOUN	Gender=Masc|Number=Sing	19	obl	_	_
+7-8	מרגש	_	_	_	_	_	_	_	_
+7	מ	מ	ADP	ADP	_	8	case	_	_
+8	רגש	רגש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	nmod	_	_
+9-10	הסלידה	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	סלידה	סלידה	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound:smixut	_	_
+11-12	העולה	_	_	_	_	_	_	_	_
+11	ה	ה	SCONJ	SCONJ	_	12	mark	_	_
+12	עולה	עלה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	8	acl:relcl	_	_
+13-14	למקרא	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	מקרא	מקרא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	obl	_	_
+15	הודעות	הודעה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	14	compound:smixut	_	_
+16-17	הקטינים	_	_	_	_	_	_	_	SpaceAfter=No
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	קטינים	קטין	NOUN	NOUN	Gender=Masc|Number=Plur	15	compound:smixut	_	_
+18	,	,	PUNCT	PUNCT	_	6	punct	_	_
+19	מוקדם	מוקדם	ADV	ADV	_	2	advcl	_	_
+20	עדין	עדין	ADJ	ADJ	Gender=Masc|Number=Sing	19	advmod	_	_
+21	לדבר	דיבר	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	19	xcomp	_	_
+22-23	בהמשך	_	_	_	_	_	_	_	_
+22	ב	ב	ADP	ADP	_	23	case	_	_
+23	המשך	המשך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	21	obl	_	_
+24	חקירה	חקירה	NOUN	NOUN	Gender=Fem|Number=Sing	23	compound:smixut	_	_
+25-26	שלא	_	_	_	_	_	_	_	_
+25	ש	ש	SCONJ	SCONJ	_	28	mark	_	_
+26	לא	לא	ADV	ADV	Polarity=Neg	28	advmod	_	_
+27-28	בתנאי	_	_	_	_	_	_	_	_
+27	ב	ב	ADP	ADP	_	28	case	_	_
+28	תנאי	תנאי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	23	acl:relcl	_	_
+29	מעצר	מעצר	NOUN	NOUN	Gender=Masc|Number=Sing	28	compound:smixut	_	SpaceAfter=No
+30	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+31	,	,	PUNCT	PUNCT	_	2	punct	_	_
+32	אמרה	אמר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+33-34	השופטת	_	_	_	_	_	_	_	SpaceAfter=No
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	שופטת	שופט	NOUN	NOUN	Gender=Fem|Number=Sing	32	nsubj	_	_
+35	.	.	PUNCT	PUNCT	_	32	punct	_	_
+
+# doc_id = htb:161
+# doc_range = 2088-2276
+# sent_id = 4223
+# text = היא ציוותה להאריך את מעצרם של שניים מן החשודים ב6 ו01 ימים ואילו החשוד השלישי שוחרר בערבות של 01 אלפים ש"ח.
+1	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	ציוותה	ציווה	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	להאריך	האריך	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	את	את	ADP	ADP	Case=Acc	5	case	_	_
+5-7	מעצרם	_	_	_	_	_	_	_	_
+5	מעצר	מעצר	NOUN	NOUN	Gender=Masc|Number=Sing	3	obj	_	_
+6	_של_	של	ADP	ADP	Case=Gen	7	case:gen	_	_
+7	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+8	של	של	ADP	ADP	Case=Gen	12	case	_	_
+9	שניים	שתיים	NUM	NUM	Gender=Masc|Number=Plur	12	nummod	_	_
+10	מן	מן	ADP	ADP	_	12	case	_	_
+11-12	החשודים	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	חשודים	חשוד	NOUN	NOUN	Gender=Masc|Number=Plur	5	nmod:poss	_	_
+13-14	ב6	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	17	case	_	_
+14	6	6	NUM	NUM	_	17	nummod	_	_
+15-16	ו01	_	_	_	_	_	_	_	_
+15	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+16	01	01	NUM	NUM	_	14	conj	_	_
+17	ימים	יום	NOUN	NOUN	Gender=Masc|Number=Plur	3	obl	_	_
+18-19	ואילו	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	_	24	cc	_	_
+19	אילו	אילו	CCONJ	CCONJ	_	18	conj	_	_
+20-21	החשוד	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	חשוד	חשוד	NOUN	NOUN	Gender=Masc|Number=Sing	24	nsubj:pass	_	_
+22-23	השלישי	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	שלישי	שלישי	ADJ	ADJ	Gender=Masc|Number=Sing	21	amod	_	_
+24	שוחרר	שוחרר	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	2	conj	_	_
+25-26	בערבות	_	_	_	_	_	_	_	_
+25	ב	ב	ADP	ADP	_	26	case	_	_
+26	ערבות	ערבות	NOUN	NOUN	Gender=Fem|Number=Sing	24	obl	_	_
+27	של	של	ADP	ADP	Case=Gen	30	case	_	_
+28	01	01	NUM	NUM	_	29	nummod	_	_
+29	אלפים	אלפים	NUM	NUM	Gender=Masc|Number=Plur	30	nummod	_	_
+30	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	26	nmod:poss	_	SpaceAfter=No
+31	.	.	PUNCT	PUNCT	_	2	punct	_	_
+

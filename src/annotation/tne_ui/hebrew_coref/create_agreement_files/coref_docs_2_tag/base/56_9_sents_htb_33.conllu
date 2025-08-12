@@ -1,0 +1,372 @@
+# doc_id = htb:33
+# doc_range = 1-223
+# sent_id = 1432
+# text = יש כמה עסקני ספורט, בעיקר הוותיקים והמשופשפים שבהם, המתפקדים תחת לחץ כאילו הזמן אוזל ויש להספיק לעשות הכל ומהר ובכל מחיר.
+1	יש	יש	VERB	VERB	HebExistential=Yes	0	root	_	_
+2	כמה	כמה	DET	DET	Definite=Cons	3	det	_	_
+3	עסקני	עסקן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	1	nsubj	_	_
+4	ספורט	ספורט	NOUN	NOUN	Gender=Masc|Number=Sing	3	compound:smixut	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	8	punct	_	_
+6	בעיקר	בעיקר	ADV	ADV	_	8	advmod	_	_
+7-8	הוותיקים	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	וותיקים	ותיק	NOUN	NOUN	Gender=Masc|Number=Plur	3	appos	_	_
+9-11	והמשופשפים	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	משופשפים	שופשף	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	8	conj	_	_
+12-14	שבהם	_	_	_	_	_	_	_	SpaceAfter=No
+12	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	acl:relcl	_	_
+15	,	,	PUNCT	PUNCT	_	17	punct	_	_
+16-17	המתפקדים	_	_	_	_	_	_	_	_
+16	ה	ה	SCONJ	SCONJ	_	17	mark	_	_
+17	מתפקדים	התפקד	VERB	VERB	Gender=Masc|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	3	acl:relcl	_	_
+18	תחת	תחת	ADP	ADP	_	19	case	_	_
+19	לחץ	לחץ	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	_
+20	כאילו	כאילו	SCONJ	SCONJ	_	23	mark	_	_
+21-22	הזמן	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	זמן	זמן	NOUN	NOUN	Gender=Masc|Number=Sing	23	nsubj	_	_
+23	אוזל	אזל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	17	advcl	_	_
+24-25	ויש	_	_	_	_	_	_	_	_
+24	ו	ו	CCONJ	CCONJ	_	26	cc	_	_
+25	יש	יש	AUX	AUX	VerbType=Mod	26	aux	_	_
+26	להספיק	הספיק	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	23	conj	_	_
+27	לעשות	עשה	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	26	dep	_	HebSource=ConvUncertainHead
+28	הכל	הכול	NOUN	NOUN	Gender=Masc|Number=Sing	27	obj	_	_
+29-30	ומהר	_	_	_	_	_	_	_	_
+29	ו	ו	CCONJ	CCONJ	_	27	cc	_	HebSource=ConvUncertainHead
+30	מהר	מהר	ADV	ADV	_	27	advmod	_	_
+31-33	ובכל	_	_	_	_	_	_	_	_
+31	ו	ו	CCONJ	CCONJ	_	27	cc	_	HebSource=ConvUncertainHead
+32	ב	ב	ADP	ADP	_	34	case	_	_
+33	כל	כול	DET	DET	Definite=Cons	34	det	_	_
+34	מחיר	מחיר	NOUN	NOUN	Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
+35	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:33
+# doc_range = 225-370
+# sent_id = 1433
+# text = הם מציירים מטרות על הגלובוס, ואחר כך מוצאים סיבות שונות ומשונות להגיע אל המטרה.
+1	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	מציירים	צייר	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+3	מטרות	מטרה	NOUN	NOUN	Gender=Fem|Number=Plur	2	obj	_	_
+4	על	על	ADP	ADP	_	6	case	_	_
+5-6	הגלובוס	_	_	_	_	_	_	_	SpaceAfter=No
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	גלובוס	גלובוס	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+7	,	,	PUNCT	PUNCT	_	11	punct	_	_
+8-9	ואחר	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+9	אחר	אחר	ADP	ADP	_	10	case	_	_
+10	כך	כך	PRON	PRON	Person=3|PronType=Dem	11	obl	_	_
+11	מוצאים	מצא	VERB	VERB	Gender=Masc|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	2	conj	_	_
+12	סיבות	סיבה	NOUN	NOUN	Gender=Fem|Number=Plur	11	obj	_	_
+13	שונות	שונה	ADJ	ADJ	Gender=Fem|Number=Plur	12	amod	_	_
+14-15	ומשונות	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+15	משונות	שונה	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	13	conj	_	_
+16	להגיע	הגיע	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	12	acl	_	_
+17	אל	אל	ADP	ADP	_	19	case	_	_
+18-19	המטרה	_	_	_	_	_	_	_	SpaceAfter=No
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	מטרה	מטרה	NOUN	NOUN	Gender=Fem|Number=Sing	16	obl	_	_
+20	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:33
+# doc_range = 372-560
+# sent_id = 1434
+# text = כך נראה גם רצונו של מנכ"ל ההתאחדות לספורט שמואל ללקין לנסוע לקונגרס איגרוף, שיהיה בשבוע הבא באוסטרליה.
+1	כך	כך	ADV	ADV	_	2	advmod	_	_
+2	נראה	נראה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+3	גם	גם	ADV	ADV	_	4	advmod	_	_
+4-6	רצונו	_	_	_	_	_	_	_	_
+4	רצון	רצון	NOUN	NOUN	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	_של_	של	ADP	ADP	Case=Gen	6	case:gen	_	_
+6	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+7	של	של	ADP	ADP	Case=Gen	8	case	_	_
+8	מנכ"ל	מנכ"ל	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	4	nmod:poss	_	_
+9-10	ההתאחדות	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	התאחדות	התאחדות	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound:smixut	_	_
+11-12	לספורט	_	_	_	_	_	_	_	_
+11	ל	ל	ADP	ADP	_	12	case	_	_
+12	ספורט	ספורט	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod	_	_
+13	שמואל	שמואל	PROPN	PROPN	_	8	flat:name	_	_
+14	ללקין	ללקין	PROPN	PROPN	_	8	flat:name	_	_
+15	לנסוע	נסע	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	4	acl	_	_
+16-17	לקונגרס	_	_	_	_	_	_	_	_
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	קונגרס	קונגרס	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	15	obl	_	_
+18	איגרוף	אגרוף	NOUN	NOUN	Gender=Masc|Number=Sing	17	compound:smixut	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	21	punct	_	_
+20-21	שיהיה	_	_	_	_	_	_	_	_
+20	ש	ש	SCONJ	SCONJ	_	21	mark	_	_
+21	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	17	acl:relcl	_	_
+22-24	בשבוע	_	_	_	_	_	_	_	_
+22	ב	ב	ADP	ADP	_	24	case	_	_
+23	ה_	ה	DET	DET	PronType=Art|Definite=Def	24	det	_	_
+24	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	21	obl	_	_
+25-26	הבא	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	בא	בא	ADJ	ADJ	Gender=Masc|Number=Sing	24	amod	_	_
+27-28	באוסטרליה	_	_	_	_	_	_	_	SpaceAfter=No
+27	ב	ב	ADP	ADP	_	28	case	_	_
+28	אוסטרליה	אוסטרליה	PROPN	PROPN	_	21	obl	_	_
+29	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:33
+# doc_range = 562-813
+# sent_id = 1435
+# text = התנגדותם לנסיעה זו של כמה מראשי האיגודים המסונפים להתאחדות, שפעילותם נפגעת בגלל קשיי מימון וחוסר תקציב, מובנת בהחלט וגם מוצדקת לחלוטין.
+1-3	התנגדותם	_	_	_	_	_	_	_	_
+1	התנגדות	התנגדות	NOUN	NOUN	Gender=Fem|Number=Sing	31	nsubj	_	_
+2	_של_	של	ADP	ADP	Case=Gen	3	case:gen	_	_
+3	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	1	nmod:poss	_	_
+4-5	לנסיעה	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	נסיעה	נסיעה	NOUN	NOUN	Gender=Fem|Number=Sing	1	nmod	_	_
+6	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	5	det	_	_
+7	של	של	ADP	ADP	Case=Gen	10	case	_	_
+8	כמה	כמה	DET	DET	Definite=Cons	10	det	_	_
+9-10	מראשי	_	_	_	_	_	_	_	_
+9	מ	מ	ADP	ADP	_	10	case	_	_
+10	ראשי	ראש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	1	nmod:poss	_	_
+11-12	האיגודים	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	איגודים	איגוד	NOUN	NOUN	Gender=Masc|Number=Plur	10	compound:smixut	_	_
+13-14	המסונפים	_	_	_	_	_	_	_	_
+13	ה	ה	SCONJ	SCONJ	_	14	mark	_	_
+14	מסונפים	סונף	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	12	acl:relcl	_	_
+15-17	להתאחדות	_	_	_	_	_	_	_	SpaceAfter=No
+15	ל	ל	ADP	ADP	_	17	case	_	_
+16	ה_	ה	DET	DET	PronType=Art|Definite=Def	17	det	_	_
+17	התאחדות	התאחדות	NOUN	NOUN	Gender=Fem|Number=Sing	14	obl	_	_
+18	,	,	PUNCT	PUNCT	_	23	punct	_	_
+19-22	שפעילותם	_	_	_	_	_	_	_	_
+19	ש	ש	SCONJ	SCONJ	_	23	mark	_	_
+20	פעילות	פעילות	NOUN	NOUN	Gender=Fem|Number=Sing	23	nsubj	_	_
+21	_של_	של	ADP	ADP	Case=Gen	22	case:gen	_	_
+22	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+23	נפגעת	נפגע	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	12	acl:relcl	_	_
+24	בגלל	בגלל	ADP	ADP	_	25	case	_	_
+25	קשיי	קושי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	23	obl	_	_
+26	מימון	מימון	NOUN	NOUN	Gender=Masc|Number=Sing	25	compound:smixut	_	_
+27-28	וחוסר	_	_	_	_	_	_	_	_
+27	ו	ו	CCONJ	CCONJ	_	28	cc	_	_
+28	חוסר	חוסר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	25	conj	_	_
+29	תקציב	תקציב	NOUN	NOUN	Gender=Masc|Number=Sing	28	compound:smixut	_	SpaceAfter=No
+30	,	,	PUNCT	PUNCT	_	1	punct	_	_
+31	מובנת	מובן	ADJ	ADJ	Gender=Fem|Number=Sing	0	root	_	_
+32	בהחלט	בהחלט	ADV	ADV	_	31	advmod	_	_
+33-34	וגם	_	_	_	_	_	_	_	_
+33	ו	ו	CCONJ	CCONJ	_	35	cc	_	_
+34	גם	גם	ADV	ADV	_	35	advmod	_	_
+35	מוצדקת	הוצדק	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	31	conj	_	_
+36	לחלוטין	לחלוטין	ADV	ADV	_	35	advmod	_	SpaceAfter=No
+37	.	.	PUNCT	PUNCT	_	31	punct	_	_
+
+# doc_id = htb:33
+# doc_range = 815-1009
+# sent_id = 1436
+# text = חובתם לא רק להדליף התנגדותם לתקשורת, אלא להתארגן ולמנוע את ההתרוצצות הבזבזנית של עסקני הספורט בכל היבשות.
+1-3	חובתם	_	_	_	_	_	_	_	_
+1	חובה	חובה	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj	_	_
+2	_של_	של	ADP	ADP	Case=Gen	3	case:gen	_	_
+3	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	1	nmod:poss	_	_
+4	לא	לא	ADV	ADV	Polarity=Neg	5	advmod	_	_
+5	רק	רק	ADV	ADV	_	6	advmod	_	_
+6	להדליף	הדליף	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	0	root	_	_
+7-9	התנגדותם	_	_	_	_	_	_	_	_
+7	התנגדות	התנגדות	NOUN	NOUN	Gender=Fem|Number=Sing	6	obj	_	_
+8	_של_	של	ADP	ADP	Case=Gen	9	case:gen	_	_
+9	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+10-12	לתקשורת	_	_	_	_	_	_	_	SpaceAfter=No
+10	ל	ל	ADP	ADP	_	12	case	_	_
+11	ה_	ה	DET	DET	PronType=Art|Definite=Def	12	det	_	_
+12	תקשורת	תקשורת	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	_
+13	,	,	PUNCT	PUNCT	_	15	punct	_	_
+14	אלא	אלא	CCONJ	CCONJ	_	15	cc	_	_
+15	להתארגן	התארגן	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	6	conj	_	_
+16-17	ולמנוע	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+17	למנוע	מנע	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	15	conj	_	_
+18	את	את	ADP	ADP	Case=Acc	20	case	_	_
+19-20	ההתרוצצות	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	התרוצצות	התרוצצות	NOUN	NOUN	Gender=Fem|Number=Sing	17	obj	_	_
+21-22	הבזבזנית	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	בזבזנית	בזבזני	ADJ	ADJ	Gender=Fem|Number=Sing	20	amod	_	_
+23	של	של	ADP	ADP	Case=Gen	24	case	_	_
+24	עסקני	עסקן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	20	nmod	_	_
+25-26	הספורט	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	ספורט	ספורט	NOUN	NOUN	Gender=Masc|Number=Sing	24	compound:smixut	_	_
+27-28	בכל	_	_	_	_	_	_	_	_
+27	ב	ב	ADP	ADP	_	30	case	_	_
+28	כל	כול	DET	DET	Definite=Cons	30	det	_	_
+29-30	היבשות	_	_	_	_	_	_	_	SpaceAfter=No
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	יבשות	יבשת	NOUN	NOUN	Gender=Fem|Number=Plur	24	nmod	_	_
+31	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:33
+# doc_range = 1011-1125
+# sent_id = 1437
+# text = חובת נשיאות ההתאחדות לספורט להתכנס ולבטל את הנסיעה לאוסטרליה.
+1	חובת	חובה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	nsubj	_	_
+2	נשיאות	נשיאות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	compound:smixut	_	_
+3-4	ההתאחדות	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	התאחדות	התאחדות	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound:smixut	_	_
+5-6	לספורט	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	ספורט	ספורט	NOUN	NOUN	Gender=Masc|Number=Sing	4	nmod	_	_
+7	להתכנס	התכנס	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	0	root	_	_
+8-9	ולבטל	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+9	לבטל	ביטל	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	7	conj	_	_
+10	את	את	ADP	ADP	Case=Acc	12	case	_	_
+11-12	הנסיעה	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	נסיעה	נסיעה	NOUN	NOUN	Gender=Fem|Number=Sing	9	obj	_	_
+13-14	לאוסטרליה	_	_	_	_	_	_	_	SpaceAfter=No
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	אוסטרליה	אוסטרליה	PROPN	PROPN	_	12	nmod	_	_
+15	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:33
+# doc_range = 1127-1299
+# sent_id = 1438
+# text = יציאתו הצפויה של ללקין, המתאמץ לצרף לנסיעתו עסקן נוסף, היא בקטיגוריה של טיולי ביזבוז מיותרים.
+1-3	יציאתו	_	_	_	_	_	_	_	_
+1	יציאה	יציאה	NOUN	NOUN	Gender=Fem|Number=Sing	21	nsubj	_	_
+2	_של_	של	ADP	ADP	Case=Gen	3	case:gen	_	_
+3	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	nmod:poss	_	_
+4-5	הצפויה	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	צפויה	צפוי	ADJ	ADJ	Gender=Fem|Number=Sing	1	amod	_	_
+6	של	של	ADP	ADP	Case=Gen	7	case	_	_
+7	ללקין	ללקין	PROPN	PROPN	_	1	nmod:poss	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	10	punct	_	_
+9-10	המתאמץ	_	_	_	_	_	_	_	_
+9	ה	ה	SCONJ	SCONJ	_	10	mark	_	_
+10	מתאמץ	התאמץ	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	7	acl:relcl	_	_
+11	לצרף	צירף	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12-15	לנסיעתו	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	_	13	case	_	_
+13	נסיעה	נסיעה	NOUN	NOUN	Gender=Fem|Number=Sing	11	obl	_	_
+14	_של_	של	ADP	ADP	Case=Gen	15	case:gen	_	_
+15	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+16	עסקן	עסקן	NOUN	NOUN	Gender=Masc|Number=Sing	11	obj	_	_
+17	נוסף	נוסף	ADJ	ADJ	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	1	punct	_	_
+19	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	21	cop	_	_
+20-21	בקטיגוריה	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	קטיגוריה	קטגוריה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+22	של	של	ADP	ADP	Case=Gen	23	case	_	_
+23	טיולי	טיול	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	21	nmod:poss	_	_
+24	ביזבוז	בזבוז	NOUN	NOUN	Gender=Masc|Number=Sing	23	compound:smixut	_	_
+25	מיותרים	מיותר	ADJ	ADJ	Gender=Masc|Number=Plur	23	amod	_	SpaceAfter=No
+26	.	.	PUNCT	PUNCT	_	21	punct	_	_
+
+# doc_id = htb:33
+# doc_range = 1302-1526
+# sent_id = 1439
+# text = מה שברור מעל לכל ספק: מצבו של האיגרוף בישראל לא יהיה טוב יותר, או טוב פחות, בגלל נסיעתו או אי נסיעתו של ללקין ליבשת החמישית.
+1	מה	מה	PRON	PRON	PronType=Int	19	nsubj	_	_
+2-3	שברור	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	3	mark	_	_
+3	ברור	ברור	ADJ	ADJ	Gender=Masc|Number=Sing	1	acl:relcl	_	_
+4	מעל	מעל	ADP	ADP	_	7	case	_	_
+5-6	לכל	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	4	fixed	_	_
+6	כל	כול	DET	DET	Definite=Cons	7	det	_	_
+7	ספק	ספק	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+8	:	:	PUNCT	PUNCT	_	1	punct	_	_
+9-11	מצבו	_	_	_	_	_	_	_	_
+9	מצב	מצב	NOUN	NOUN	Gender=Masc|Number=Sing	19	nsubj	_	_
+10	_של_	של	ADP	ADP	Case=Gen	11	case:gen	_	_
+11	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+12	של	של	ADP	ADP	Case=Gen	14	case	_	_
+13-14	האיגרוף	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	איגרוף	אגרוף	NOUN	NOUN	Gender=Masc|Number=Sing	9	nmod:poss	_	_
+15-16	בישראל	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	ישראל	ישראל	PROPN	PROPN	_	14	nmod	_	_
+17	לא	לא	ADV	ADV	Polarity=Neg	19	advmod	_	_
+18	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	19	cop	_	_
+19	טוב	טוב	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
+20	יותר	יותר	ADV	ADV	_	19	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	23	punct	_	_
+22	או	או	CCONJ	CCONJ	_	23	cc	_	_
+23	טוב	טוב	ADJ	ADJ	Gender=Masc|Number=Sing	19	conj	_	_
+24	פחות	פחות	ADV	ADV	_	23	advmod	_	SpaceAfter=No
+25	,	,	PUNCT	PUNCT	_	27	punct	_	_
+26	בגלל	בגלל	ADP	ADP	_	27	case	_	_
+27-29	נסיעתו	_	_	_	_	_	_	_	_
+27	נסיעה	נסיעה	NOUN	NOUN	Gender=Fem|Number=Sing	19	obl	_	_
+28	_של_	של	ADP	ADP	Case=Gen	29	case:gen	_	_
+29	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+30	או	או	CCONJ	CCONJ	_	32	cc	_	_
+31	אי	אי	ADV	ADV	Prefix=Yes	32	compound:affix	_	HebSource=ConvUncertainHead
+32-34	נסיעתו	_	_	_	_	_	_	_	_
+32	נסיעה	נסיעה	NOUN	NOUN	Gender=Fem|Number=Sing	27	conj	_	_
+33	_של_	של	ADP	ADP	Case=Gen	34	case:gen	_	_
+34	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+35	של	של	ADP	ADP	Case=Gen	36	case	_	_
+36	ללקין	ללקין	PROPN	PROPN	_	27	nmod:poss	_	_
+37-39	ליבשת	_	_	_	_	_	_	_	_
+37	ל	ל	ADP	ADP	_	39	case	_	_
+38	ה_	ה	DET	DET	PronType=Art|Definite=Def	39	det	_	_
+39	יבשת	יבשת	NOUN	NOUN	Gender=Fem|Number=Sing	27	nmod	_	_
+40-41	החמישית	_	_	_	_	_	_	_	SpaceAfter=No
+40	ה	ה	DET	DET	Definite=Def|PronType=Art	41	det	_	_
+41	חמישית	חמישית	ADJ	ADJ	Gender=Fem|Number=Sing	39	amod	_	_
+42	.	.	PUNCT	PUNCT	_	19	punct	_	_
+
+# doc_id = htb:33
+# doc_range = 1528-1721
+# sent_id = 1440
+# text = ומה שעוד ברור: מצב קופת ההתאחדות לספורט בהחלט יהיה פחות טוב, אם למרות הכל יממש ללקין את נסיעתו לאוסטרליה.
+1-2	ומה	_	_	_	_	_	_	_	_
+1	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+2	מה	מה	PRON	PRON	PronType=Int	16	nsubj	_	_
+3-4	שעוד	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	5	mark	_	_
+4	עוד	עוד	ADV	ADV	_	5	advmod	_	_
+5	ברור	ברור	ADJ	ADJ	Gender=Masc|Number=Sing	2	acl:relcl	_	SpaceAfter=No
+6	:	:	PUNCT	PUNCT	_	2	punct	_	_
+7	מצב	מצב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	16	nsubj	_	_
+8	קופת	קופה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	compound:smixut	_	_
+9-10	ההתאחדות	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	התאחדות	התאחדות	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound:smixut	_	_
+11-12	לספורט	_	_	_	_	_	_	_	_
+11	ל	ל	ADP	ADP	_	12	case	_	_
+12	ספורט	ספורט	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod	_	_
+13	בהחלט	בהחלט	ADV	ADV	_	16	advmod	_	_
+14	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	16	cop	_	_
+15	פחות	פחות	ADV	ADV	_	16	advmod	_	_
+16	טוב	טוב	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	21	punct	_	_
+18	אם	אם	SCONJ	SCONJ	_	21	mark	_	_
+19	למרות	למרות	ADP	ADP	_	20	case	_	_
+20	הכל	הכול	NOUN	NOUN	Gender=Masc|Number=Sing	21	obl	_	_
+21	יממש	מימש	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	16	advcl	_	_
+22	ללקין	ללקין	PROPN	PROPN	_	21	nsubj	_	_
+23	את	את	ADP	ADP	Case=Acc	24	case	_	_
+24-26	נסיעתו	_	_	_	_	_	_	_	_
+24	נסיעה	נסיעה	NOUN	NOUN	Gender=Fem|Number=Sing	21	obj	_	_
+25	_של_	של	ADP	ADP	Case=Gen	26	case:gen	_	_
+26	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+27-28	לאוסטרליה	_	_	_	_	_	_	_	SpaceAfter=No
+27	ל	ל	ADP	ADP	_	28	case	_	_
+28	אוסטרליה	אוסטרליה	PROPN	PROPN	_	24	nmod	_	_
+29	.	.	PUNCT	PUNCT	_	16	punct	_	_
+

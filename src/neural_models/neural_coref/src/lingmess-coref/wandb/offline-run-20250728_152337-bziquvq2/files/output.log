@@ -1,0 +1,26 @@
+07/28/2025 15:23:39 - INFO - coref_dataset -   Creating batches for 301 examples...
+0it [00:00, ?it/s]You're using a BertTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+301it [00:00, 806.82it/s]
+07/28/2025 15:23:40 - INFO - coref_dataset -   301 batches created.
+07/28/2025 15:23:40 - INFO - __main__ -   Dataset({
+    features: ['doc_key', 'tokens', 'input_ids', 'gold_clusters', 'subtoken_map', 'new_token_map', 'num_clusters', 'max_cluster_size', 'length', 'attention_mask', 'leftovers'],
+    num_rows: 301
+})
+07/28/2025 15:23:40 - ERROR - training -   [ERROR] CUDA is not available. This script requires a GPU to run.
+07/28/2025 15:23:40 - ERROR - __main__ -   [ERROR] Exception in lingmess-coref run.py: CUDA is not available. Please run on a machine with a GPU.
+Traceback (most recent call last):
+  File "/Users/s0g0a87/studies/neural_hebrew_coref/src/lingmess-coref/run.py", line 157, in <module>
+    main()
+  File "/Users/s0g0a87/studies/neural_hebrew_coref/src/lingmess-coref/run.py", line 135, in main
+    global_step, tr_loss = train(args, train_batches, model, tokenizer, evaluator)
+  File "/Users/s0g0a87/studies/neural_hebrew_coref/src/lingmess-coref/training.py", line 17, in train
+    raise RuntimeError("CUDA is not available. Please run on a machine with a GPU.")
+RuntimeError: CUDA is not available. Please run on a machine with a GPU.
+Traceback (most recent call last):
+  File "/Users/s0g0a87/studies/neural_hebrew_coref/src/lingmess-coref/run.py", line 157, in <module>
+    main()
+  File "/Users/s0g0a87/studies/neural_hebrew_coref/src/lingmess-coref/run.py", line 135, in main
+    global_step, tr_loss = train(args, train_batches, model, tokenizer, evaluator)
+  File "/Users/s0g0a87/studies/neural_hebrew_coref/src/lingmess-coref/training.py", line 17, in train
+    raise RuntimeError("CUDA is not available. Please run on a machine with a GPU.")
+RuntimeError: CUDA is not available. Please run on a machine with a GPU.

@@ -1,0 +1,911 @@
+# doc_id = htb:112
+# doc_range = 1-234
+# sent_id = 2654
+# text = בעוד השניה בטבלה ארסנל סיימה 0 0 בדרבי לונדוני במגרשה של קריסטל פאלאס, המשיכה מכונת השערים מליוורפול לעבוד באנפילד במלוא העוצמה.
+1	בעוד	בעוד	ADP	ADP	_	8	mark	_	_
+2-3	השניה	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	שניה	שנייה	NOUN	NOUN	Gender=Fem|Number=Sing	8	nsubj	_	_
+4-6	בטבלה	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	6	case	_	_
+5	ה_	ה	DET	DET	PronType=Art|Definite=Def	6	det	_	_
+6	טבלה	טבלה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nmod	_	_
+7	ארסנל	ארסנל	NOUN	NOUN	Gender=Masc|Number=Sing	3	appos	_	_
+8	סיימה	סיים	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	22	advcl	_	_
+9	0	0	NUM	NUM	_	8	dep	_	_
+10	0	0	NUM	NUM	_	9	nummod	_	_
+11-12	בדרבי	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	דרבי	דרבי	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+13	לונדוני	לונדוני	ADJ	ADJ	Gender=Masc|Number=Sing	12	amod	_	_
+14-17	במגרשה	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	מגרש	מגרש	NOUN	NOUN	Gender=Masc|Number=Sing	12	nmod	_	_
+16	_של_	של	ADP	ADP	Case=Gen	17	case:gen	_	_
+17	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+18	של	של	ADP	ADP	Case=Gen	19	case	_	_
+19	קריסטל	קריסטל	PROPN	PROPN	_	15	nmod:poss	_	_
+20	פאלאס	פאלאס	PROPN	PROPN	_	19	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	8	punct	_	_
+22	המשיכה	המשיך	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+23	מכונת	מכונה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	22	nsubj	_	_
+24-25	השערים	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	שערים	שער	NOUN	NOUN	Gender=Masc|Number=Plur	23	compound:smixut	_	_
+26-27	מליוורפול	_	_	_	_	_	_	_	_
+26	מ	מ	ADP	ADP	_	27	case	_	_
+27	ליוורפול	ליוורפול	PROPN	PROPN	_	23	nmod	_	_
+28	לעבוד	עבד	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	22	xcomp	_	_
+29-30	באנפילד	_	_	_	_	_	_	_	_
+29	ב	ב	ADP	ADP	_	30	case	_	_
+30	אנפילד	באנפילד	PROPN	PROPN	_	28	obl	_	_
+31-32	במלוא	_	_	_	_	_	_	_	_
+31	ב	ב	ADP	ADP	_	32	case	_	_
+32	מלוא	מלוא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	28	obl	_	_
+33-34	העוצמה	_	_	_	_	_	_	_	SpaceAfter=No
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	עוצמה	עוצמה	NOUN	NOUN	Gender=Fem|Number=Sing	32	compound:smixut	_	_
+35	.	.	PUNCT	PUNCT	_	22	punct	_	_
+
+# doc_id = htb:112
+# doc_range = 236-297
+# sent_id = 2655
+# text = ליוורפול הובילה 2 0 כבר אחרי 9 דקות.
+1	ליוורפול	ליוורפול	PROPN	PROPN	_	2	nsubj	_	_
+2	הובילה	הוביל	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	2	2	NUM	NUM	_	2	dep	_	_
+4	0	0	NUM	NUM	_	3	nummod	_	_
+5	כבר	כבר	ADV	ADV	_	8	advmod	_	_
+6	אחרי	אחרי	ADP	ADP	_	8	case	_	_
+7	9	9	NUM	NUM	_	8	nummod	_	_
+8	דקות	דקה	NOUN	NOUN	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:112
+# doc_range = 299-404
+# sent_id = 2656
+# text = תחילה היה זה איאן ראש שהבקיע בדקה ה-5 מסירה של ריי האוטון.
+1	תחילה	תחילה	ADV	ADV	_	4	advmod	_	_
+2	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	4	cop	_	_
+3	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+4	איאן	איאן	PROPN	PROPN	_	0	root	_	_
+5	ראש	ראש	NOUN	NOUN	Gender=Masc|Number=Sing	4	flat:name	_	_
+6-7	שהבקיע	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	_	7	mark	_	_
+7	הבקיע	הבקיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	4	acl:relcl	_	_
+8-10	בדקה	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	10	case	_	_
+9	ה_	ה	DET	DET	PronType=Art|Definite=Def	10	det	_	_
+10	דקה	דקה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	SpaceAfter=No
+12	-	-	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+13	5	5	NUM	NUM	_	10	amod	_	_
+14	מסירה	מסירה	NOUN	NOUN	Gender=Fem|Number=Sing	7	parataxis	_	_
+15	של	של	ADP	ADP	Case=Gen	16	case	_	_
+16	ריי	ריי	PROPN	PROPN	_	14	nmod:poss	_	_
+17	האוטון	האוטון	PROPN	PROPN	_	16	flat:name	_	SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:112
+# doc_range = 406-514
+# sent_id = 2657
+# text = בדקה ה-9 הכשיל ברחבה בלם נוריץ ריצארד הארווי את סטיב ניקול.
+1-3	בדקה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	דקה	דקה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	SpaceAfter=No
+5	-	-	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+6	9	9	NUM	NUM	_	3	amod	_	_
+7	הכשיל	הכשיל	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+8-10	ברחבה	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	10	case	_	_
+9	ה_	ה	DET	DET	PronType=Art|Definite=Def	10	det	_	_
+10	רחבה	רחבה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
+11	בלם	בלם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nsubj	_	_
+12	נוריץ	נוריץ	PROPN	PROPN	_	11	compound:smixut	_	_
+13	ריצארד	ריצארד	PROPN	PROPN	_	11	appos	_	_
+14	הארווי	הארווי	PROPN	PROPN	_	13	flat:name	_	_
+15	את	את	ADP	ADP	Case=Acc	16	case	_	_
+16	סטיב	סטיב	PROPN	PROPN	_	7	obj	_	_
+17	ניקול	ניקול	PROPN	PROPN	_	16	flat:name	_	SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:112
+# doc_range = 516-630
+# sent_id = 2658
+# text = יאן מולבי, הקשר הדני שעשוי לעבר השבוע לברצלונה, דייק מ-11 מטרים.
+1	יאן	יאן	PROPN	PROPN	_	15	nsubj	_	_
+2	מולבי	מולבי	PROPN	PROPN	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	5	punct	_	_
+4-5	הקשר	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	קשר	קשר	NOUN	NOUN	Gender=Masc|Number=Sing	1	appos	_	_
+6-7	הדני	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	דני	דני	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	_
+8-9	שעשוי	_	_	_	_	_	_	_	_
+8	ש	ש	SCONJ	SCONJ	_	10	mark	_	_
+9	עשוי	עשוי	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	10	aux	_	_
+10	לעבר	עיבר	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	5	acl:relcl	_	_
+11	השבוע	השבוע	ADV	ADV	_	10	advmod	_	_
+12-13	לברצלונה	_	_	_	_	_	_	_	SpaceAfter=No
+12	ל	ל	ADP	ADP	_	13	case	_	_
+13	ברצלונה	ברצלונה	PROPN	PROPN	_	10	obl	_	_
+14	,	,	PUNCT	PUNCT	_	1	punct	_	_
+15	דייק	דייק	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+16	מ	מ	ADP	ADP	_	19	case	_	SpaceAfter=No
+17	-	-	PUNCT	PUNCT	_	19	punct	_	SpaceAfter=No
+18	11	11	NUM	NUM	_	19	nummod	_	_
+19	מטרים	מטר	NOUN	NOUN	Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	15	punct	_	_
+
+# doc_id = htb:112
+# doc_range = 632-717
+# sent_id = 2659
+# text = ראש הבקיע שער שני במשחק (11 שלו העונה) בדקה ה-93.
+1	ראש	ראש	NOUN	NOUN	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	הבקיע	הבקיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	שער	שער	NOUN	NOUN	Gender=Masc|Number=Sing	2	obj	_	_
+4	שני	שני	ADJ	ADJ	Gender=Masc|Number=Sing	3	amod	_	_
+5-7	במשחק	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	7	case	_	_
+6	ה_	ה	DET	DET	PronType=Art|Definite=Def	7	det	_	_
+7	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	3	nmod	_	_
+8	(	(	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+9	11	11	NUM	NUM	_	3	appos	_	_
+10-11	שלו	_	_	_	_	_	_	_	_
+10	של	של	ADP	ADP	Case=Gen	11	case	_	_
+11	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	_
+12	העונה	העונה	ADV	ADV	_	9	advmod	_	SpaceAfter=No
+13	)	)	PUNCT	PUNCT	_	9	punct	_	_
+14-16	בדקה	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	16	case	_	_
+15	ה_	ה	DET	DET	PronType=Art|Definite=Def	16	det	_	_
+16	דקה	דקה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	SpaceAfter=No
+18	-	-	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No
+19	93	93	NUM	NUM	_	16	amod	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:112
+# doc_range = 720-838
+# sent_id = 2660
+# text = במהשך הבקיע פיטר בירדסלי את השער הרביעי, גם הוא ממסירה של האוטון.
+1-2	במהשך	_	_	_	_	_	_	_	_
+1	ב	ב	X	X	_	2	case	_	Xtra=Junk
+2	מהשך	מהשך	X	X	_	3	obl	_	Xtra=Junk
+3	הבקיע	הבקיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	פיטר	פיטר	PROPN	PROPN	_	3	nsubj	_	_
+5	בירדסלי	בירדסלי	PROPN	PROPN	_	4	flat:name	_	_
+6	את	את	ADP	ADP	Case=Acc	8	case	_	_
+7-8	השער	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	שער	שער	NOUN	NOUN	Gender=Masc|Number=Sing	3	obj	_	_
+9-10	הרביעי	_	_	_	_	_	_	_	SpaceAfter=No
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	רביעי	רביעי	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	_
+11	,	,	PUNCT	PUNCT	_	13	punct	_	_
+12	גם	גם	ADV	ADV	_	13	advmod	_	_
+13	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	conj	_	_
+14-15	ממסירה	_	_	_	_	_	_	_	_
+14	מ	מ	ADP	ADP	_	15	case	_	_
+15	מסירה	מסירה	NOUN	NOUN	Gender=Fem|Number=Sing	13	nmod	_	_
+16	של	של	ADP	ADP	Case=Gen	17	case	_	_
+17	האוטון	האוטון	PROPN	PROPN	_	15	nmod:poss	_	SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:112
+# doc_range = 840-1081
+# sent_id = 2661
+# text = השלישית בטבלה, טוטנהאם, הבקיעה פעמיים בארבע הדקות האחרונות כדי למנוע 22 ולזכות בשלוש נקודות עם ניצחון 42 בדרבי לונדוני על ווימבלדון.
+1-2	השלישית	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	שלישית	שלישייה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	nsubj	_	_
+3-5	בטבלה	_	_	_	_	_	_	_	SpaceAfter=No
+3	ב	ב	ADP	ADP	_	5	case	_	_
+4	ה_	ה	DET	DET	PronType=Art|Definite=Def	5	det	_	_
+5	טבלה	טבלה	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	_
+6	,	,	PUNCT	PUNCT	_	7	punct	_	_
+7	טוטנהאם	טוטנהאם	PROPN	PROPN	_	2	appos	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	2	punct	_	_
+9	הבקיעה	הבקיע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+10	פעמיים	פעמיים	ADV	ADV	_	9	advmod	_	_
+11-12	בארבע	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	14	case	_	_
+12	ארבע	ארבע	NUM	NUM	Definite=Cons|Gender=Fem|Number=Sing	14	nummod	_	_
+13-14	הדקות	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	דקות	דקה	NOUN	NOUN	Gender=Fem|Number=Plur	9	obl	_	_
+15-16	האחרונות	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	אחרונות	אחרון	ADJ	ADJ	Gender=Fem|Number=Plur	14	amod	_	_
+17	כדי	כדי	SCONJ	SCONJ	_	18	mark	_	_
+18	למנוע	מנע	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	9	advcl	_	_
+19	22	22	NUM	NUM	_	18	obj	_	_
+20-21	ולזכות	_	_	_	_	_	_	_	_
+20	ו	ו	CCONJ	CCONJ	_	21	cc	_	_
+21	לזכות	לזכות	VERB	VERB	VerbForm=Inf	18	conj	_	_
+22-23	בשלוש	_	_	_	_	_	_	_	_
+22	ב	ב	ADP	ADP	_	24	case	_	_
+23	שלוש	שלוש	NUM	NUM	Gender=Fem|Number=Plur	24	nummod	_	_
+24	נקודות	נקודה	NOUN	NOUN	Gender=Fem|Number=Plur	21	obl	_	_
+25	עם	עם	ADP	ADP	_	26	case	_	_
+26	ניצחון	ניצחון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	21	obl	_	_
+27	42	42	NUM	NUM	_	26	compound:smixut	_	_
+28-29	בדרבי	_	_	_	_	_	_	_	_
+28	ב	ב	ADP	ADP	_	29	case	_	_
+29	דרבי	דרבי	NOUN	NOUN	Gender=Masc|Number=Sing	26	nmod	_	_
+30	לונדוני	לונדוני	ADJ	ADJ	Gender=Masc|Number=Sing	29	amod	_	_
+31	על	על	ADP	ADP	_	32	case	_	_
+32	ווימבלדון	ווימבלדון	PROPN	PROPN	_	26	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:112
+# doc_range = 1083-1202
+# sent_id = 2662
+# text = פול גאסקוין קבע 1 0 לטוטנהאם בדקה ה-01 אולם אלן קורק הישווה בדקה ה-72.
+1	פול	פול	PROPN	PROPN	_	3	nsubj	_	_
+2	גאסקוין	גאסקוין	PROPN	PROPN	_	1	flat:name	_	_
+3	קבע	קבע	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	1	1	NUM	NUM	_	3	dep	_	_
+5	0	0	NUM	NUM	_	4	nummod	_	_
+6-7	לטוטנהאם	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	טוטנהאם	טוטנהאם	PROPN	PROPN	_	3	obl	_	_
+8-10	בדקה	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	10	case	_	_
+9	ה_	ה	DET	DET	PronType=Art|Definite=Def	10	det	_	_
+10	דקה	דקה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	SpaceAfter=No
+12	-	-	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+13	01	01	NUM	NUM	_	10	amod	_	_
+14	אולם	אולם	CCONJ	CCONJ	_	17	cc	_	_
+15	אלן	אלן	PROPN	PROPN	_	17	nsubj	_	_
+16	קורק	קורק	PROPN	PROPN	_	15	flat:name	_	_
+17	הישווה	הישווה	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1|Tense=Past|Voice=Act	3	conj	_	_
+18-20	בדקה	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	20	case	_	_
+19	ה_	ה	DET	DET	PronType=Art|Definite=Def	20	det	_	_
+20	דקה	דקה	NOUN	NOUN	Gender=Fem|Number=Sing	17	obl	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	SpaceAfter=No
+22	-	-	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No
+23	72	72	NUM	NUM	_	20	amod	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:112
+# doc_range = 1204-1296
+# sent_id = 2663
+# text = בדקה ה-34 עלתה ווימבלדון ליתרון 21 משער של פול מקגי.
+1-3	בדקה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	דקה	דקה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	SpaceAfter=No
+5	-	-	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+6	34	34	NUM	NUM	_	3	amod	_	_
+7	עלתה	עלה	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+8	ווימבלדון	ווימבלדון	PROPN	PROPN	_	7	nsubj	_	_
+9-10	ליתרון	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	10	case	_	_
+10	יתרון	יתרון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	obl	_	_
+11	21	21	NUM	NUM	_	10	compound:smixut	_	_
+12-13	משער	_	_	_	_	_	_	_	_
+12	מ	מ	ADP	ADP	_	13	case	_	_
+13	שער	שער	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
+14	של	של	ADP	ADP	Case=Gen	15	case	_	_
+15	פול	פול	PROPN	PROPN	_	13	nmod:poss	_	_
+16	מקגי	מקגי	PROPN	PROPN	_	15	flat:name	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:112
+# doc_range = 1298-1410
+# sent_id = 2664
+# text = קפטן טוטנהאם, הבלם גארי מאבוט, הצליח להשוות לפני ההפסקה ל-22.
+1	קפטן	קפטן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	nsubj	_	_
+2	טוטנהאם	טוטנהאם	PROPN	PROPN	_	1	compound:smixut	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	5	punct	_	_
+4-5	הבלם	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	בלם	בלם	NOUN	NOUN	Gender=Masc|Number=Sing	1	appos	_	_
+6	גארי	גארי	PROPN	PROPN	_	5	flat:name	_	_
+7	מאבוט	מאבוט	PROPN	PROPN	_	5	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	1	punct	_	_
+9	הצליח	הצליח	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+10	להשוות	השווה	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	לפני	לפני	ADP	ADP	_	13	case	_	_
+12-13	ההפסקה	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	הפסקה	הפסקה	NOUN	NOUN	Gender=Fem|Number=Sing	10	obl	_	_
+14	ל	ל	ADP	ADP	_	16	case	_	SpaceAfter=No
+15	-	-	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
+16	22	22	NUM	NUM	_	10	obl	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:112
+# doc_range = 1412-1465
+# sent_id = 2665
+# text = אז הגיעו ארבע הדקות הדרמטיות.
+1	אז	אז	ADV	ADV	_	2	advmod	_	_
+2	הגיעו	הגיע	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	ארבע	ארבע	NUM	NUM	Definite=Cons|Gender=Fem|Number=Sing	5	nummod	_	_
+4-5	הדקות	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	דקות	דקה	NOUN	NOUN	Gender=Fem|Number=Plur	2	nsubj	_	_
+6-7	הדרמטיות	_	_	_	_	_	_	_	SpaceAfter=No
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	דרמטיות	דרמטי	ADJ	ADJ	Gender=Fem|Number=Plur	5	amod	_	_
+8	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:112
+# doc_range = 1468-1580
+# sent_id = 2666
+# text = תחילה שער של פול וולש בדקה ה-68 ואחר כך של גארי לינקר בדקה ה-88.
+1	תחילה	תחילה	ADV	ADV	_	2	advmod	_	_
+2	שער	שער	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+3	של	של	ADP	ADP	Case=Gen	4	case	_	_
+4	פול	פול	PROPN	PROPN	_	2	nmod	_	_
+5	וולש	וולש	PROPN	PROPN	_	4	flat:name	_	_
+6-8	בדקה	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	8	case	_	_
+7	ה_	ה	DET	DET	PronType=Art|Definite=Def	8	det	_	_
+8	דקה	דקה	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	SpaceAfter=No
+10	-	-	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+11	68	68	NUM	NUM	_	8	amod	_	_
+12-13	ואחר	_	_	_	_	_	_	_	_
+12	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+13	אחר	אחר	ADP	ADP	_	14	case	_	_
+14	כך	כך	PRON	PRON	Person=3|PronType=Dem	16	nmod	_	_
+15	של	של	ADP	ADP	Case=Gen	16	case	_	_
+16	גארי	גארי	PROPN	PROPN	_	2	conj	_	_
+17	לינקר	לינקר	PROPN	PROPN	_	16	flat:name	_	_
+18-20	בדקה	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	20	case	_	_
+19	ה_	ה	DET	DET	PronType=Art|Definite=Def	20	det	_	_
+20	דקה	דקה	NOUN	NOUN	Gender=Fem|Number=Sing	16	dep	_	HebSource=ConvUncertainHead
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	SpaceAfter=No
+22	-	-	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No
+23	88	88	NUM	NUM	_	20	amod	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:112
+# doc_range = 1583-1660
+# sent_id = 2667
+# text = סאותהמפטון ניצחה 3 1 את קווינס פארק ריינגרס.
+1	סאותהמפטון	סאותהמפטון	PROPN	PROPN	_	2	nsubj	_	_
+2	ניצחה	ניצח	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	3	3	NUM	NUM	_	2	dep	_	_
+4	1	1	NUM	NUM	_	3	nummod	_	_
+5	את	את	ADP	ADP	Case=Acc	6	case	_	_
+6	קווינס	קווינס	PROPN	PROPN	_	2	obj	_	_
+7	פארק	פארק	NOUN	NOUN	Gender=Masc|Number=Sing	6	flat:name	_	_
+8	ריינגרס	ריינגרס	PROPN	PROPN	_	6	flat:name	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:112
+# doc_range = 1662-1794
+# sent_id = 2668
+# text = השערים לסאותהפטון: פול ריידאאוט (8), מאתיו לה טיסייה (47), רוד וואלאס (88).
+1-2	השערים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	שערים	שער	NOUN	NOUN	Gender=Masc|Number=Plur	6	nsubj	_	_
+3-4	לסאותהפטון	_	_	_	_	_	_	_	SpaceAfter=No
+3	ל	ל	ADP	ADP	_	4	case	_	_
+4	סאותהפטון	לסאותהפטון	PROPN	PROPN	_	2	nmod	_	_
+5	:	:	PUNCT	PUNCT	_	2	punct	_	_
+6	פול	פול	PROPN	PROPN	_	0	root	_	_
+7	ריידאאוט	ריידאאוט	PROPN	PROPN	_	6	flat:name	_	_
+8	(	(	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+9	8	8	NUM	NUM	_	6	appos	_	SpaceAfter=No
+10	)	)	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	12	punct	_	HebSource=ConvUncertainHead
+12	מאתיו	מאתיו	PROPN	PROPN	_	6	dep	_	HebSource=ConvUncertainHead
+13	לה	לה	PROPN	PROPN	_	12	flat:name	_	_
+14	טיסייה	טיסייה	PROPN	PROPN	_	13	flat:name	_	_
+15	(	(	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
+16	47	47	NUM	NUM	_	12	appos	_	SpaceAfter=No
+17	)	)	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	19	punct	_	HebSource=ConvUncertainHead
+19	רוד	רוד	PROPN	PROPN	_	6	dep	_	HebSource=ConvUncertainHead
+20	וואלאס	וואלאס	PROPN	PROPN	_	19	flat:name	_	_
+21	(	(	PUNCT	PUNCT	_	22	punct	_	SpaceAfter=No
+22	88	88	NUM	NUM	_	19	appos	_	SpaceAfter=No
+23	)	)	PUNCT	PUNCT	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:112
+# doc_range = 1808-1841
+# sent_id = 2669
+# text = לק.פ.ר.: מרק פאלקו (1 4).
+1	לק.פ.ר.	לקyyד%תפyyד%תרyyד%ת	PROPN	PROPN	Abbr=Yes	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	PUNCT	_	3	punct	_	_
+3	מרק	מרק	NOUN	NOUN	Gender=Masc|Number=Sing	1	nmod	_	_
+4	פאלקו	פאלקו	PROPN	PROPN	_	3	flat:name	_	_
+5	(	(	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+6	1	1	NUM	NUM	_	3	appos	_	_
+7	4	4	NUM	NUM	_	6	nummod	_	SpaceAfter=No
+8	)	)	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:112
+# doc_range = 1845-1907
+# sent_id = 2670
+# text = במגרשים אחרים קשה היה למצוא שערים.
+1-2	במגרשים	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	מגרשים	מגרש	NOUN	NOUN	Gender=Masc|Number=Plur	6	obl	_	_
+3	אחרים	אחר	ADJ	ADJ	Gender=Masc|Number=Plur	2	amod	_	_
+4	קשה	קשה	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbType=Mod	6	aux	_	_
+5	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	6	cop	_	_
+6	למצוא	מצא	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	0	root	_	_
+7	שערים	שער	NOUN	NOUN	Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:112
+# doc_range = 1910-2324
+# sent_id = 2671
+# text = מלבד המשחק בין ארסנל לקריסטל פאלאס, הסתיימו עוד שלושה מאבקים ללא שערים: דרבי (מקום 91) מנצסטר יונייטד, סנדרלנד קובנטרי, ומאבק התחתית בין שפילד יונייטד לאוורטון עם המנהל החדש-ישן האוורד קנדל שהותיר את המארחים ללא ניצחון ליגה.
+1	מלבד	מלבד	ADP	ADP	_	3	case	_	_
+2-3	המשחק	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
+4	בין	בין	ADP	ADP	_	5	case	_	_
+5	ארסנל	ארסנל	NOUN	NOUN	Gender=Masc|Number=Sing	3	nmod	_	_
+6-7	לקריסטל	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	קריסטל	קריסטל	PROPN	PROPN	_	5	nmod	_	_
+8	פאלאס	פאלאס	PROPN	PROPN	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	3	punct	_	_
+10	הסתיימו	הסתיים	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	0	root	_	_
+11	עוד	עוד	DET	DET	_	13	det	_	_
+12	שלושה	שלוש	NUM	NUM	Gender=Masc|Number=Plur	13	nummod	_	_
+13	מאבקים	מאבק	NOUN	NOUN	Gender=Masc|Number=Plur	10	nsubj	_	_
+14	ללא	ללא	ADP	ADP	_	15	case	_	_
+15	שערים	שער	NOUN	NOUN	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+16	:	:	PUNCT	PUNCT	_	17	punct	_	_
+17	דרבי	דרבי	NOUN	NOUN	Gender=Masc|Number=Sing	13	appos	_	_
+18	(	(	PUNCT	PUNCT	_	19	punct	_	SpaceAfter=No
+19	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	17	appos	_	_
+20	91	91	NUM	NUM	_	19	amod	_	SpaceAfter=No
+21	)	)	PUNCT	PUNCT	_	19	punct	_	_
+22	מנצסטר	מנצסטר	PROPN	PROPN	_	17	appos	_	_
+23	יונייטד	יונייטד	PROPN	PROPN	_	22	flat:name	_	SpaceAfter=No
+24	,	,	PUNCT	PUNCT	_	25	punct	_	_
+25	סנדרלנד	סנדרלנד	PROPN	PROPN	_	17	conj	_	_
+26	קובנטרי	קובנטרי	PROPN	PROPN	_	25	flat:name	_	SpaceAfter=No
+27	,	,	PUNCT	PUNCT	_	29	punct	_	_
+28-29	ומאבק	_	_	_	_	_	_	_	_
+28	ו	ו	CCONJ	CCONJ	_	29	cc	_	_
+29	מאבק	מאבק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	conj	_	_
+30-31	התחתית	_	_	_	_	_	_	_	_
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	תחתית	תחתית	NOUN	NOUN	Gender=Fem|Number=Sing	29	compound:smixut	_	_
+32	בין	בין	ADP	ADP	_	33	case	_	_
+33	שפילד	שפילד	PROPN	PROPN	_	29	nmod	_	_
+34	יונייטד	יונייטד	PROPN	PROPN	_	33	flat:name	_	_
+35-36	לאוורטון	_	_	_	_	_	_	_	_
+35	ל	ל	ADP	ADP	_	36	case	_	_
+36	אוורטון	אוורטון	PROPN	PROPN	_	33	conj	_	_
+37	עם	עם	ADP	ADP	_	39	case	_	_
+38-39	המנהל	_	_	_	_	_	_	_	_
+38	ה	ה	DET	DET	Definite=Def|PronType=Art	39	det	_	_
+39	מנהל	מנהל	NOUN	NOUN	Gender=Masc|Number=Sing	36	nmod	_	_
+40-41	החדש	_	_	_	_	_	_	_	SpaceAfter=No
+40	ה	ה	DET	DET	Definite=Def|PronType=Art	41	det	_	_
+41	חדש	חדש	ADJ	ADJ	Gender=Masc|Number=Sing	39	amod	_	_
+42	-	-	PUNCT	PUNCT	_	43	punct	_	SpaceAfter=No
+43	ישן	ישן	ADJ	ADJ	Gender=Masc|Number=Sing	41	dep	_	_
+44	האוורד	האוורד	PROPN	PROPN	_	39	appos	_	_
+45	קנדל	קנדל	PROPN	PROPN	_	44	flat:name	_	_
+46-47	שהותיר	_	_	_	_	_	_	_	_
+46	ש	ש	SCONJ	SCONJ	_	47	mark	_	_
+47	הותיר	הותיר	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	39	acl:relcl	_	_
+48	את	את	ADP	ADP	Case=Acc	50	case	_	_
+49-50	המארחים	_	_	_	_	_	_	_	_
+49	ה	ה	DET	DET	Definite=Def|PronType=Art	50	det	_	_
+50	מארחים	מארח	NOUN	NOUN	Gender=Masc|Number=Plur	47	obj	_	_
+51	ללא	ללא	ADP	ADP	_	52	case	_	_
+52	ניצחון	ניצחון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	47	obl	_	_
+53	ליגה	ליגה	NOUN	NOUN	Gender=Fem|Number=Sing	52	compound:smixut	_	SpaceAfter=No
+54	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:112
+# doc_range = 2326-2676
+# sent_id = 2672
+# text = אסטון וילה, שהודחה בשבוע שעבר מגביע אופ"א בידי אינטר מילאנו, הבקיעה אתמול שער ראשון בליגה אחרי חודש מרגלי הבלם הדני קנט נילסן בדקה ה-16, אבל הסתפקה ב-1 1 במגרשה עם נוטינגהאם שהישוותה בדקה ה-87.
+1	אסטון	אסטון	PROPN	PROPN	_	18	nsubj	_	_
+2	וילה	וילה	NOUN	NOUN	Gender=Fem|Number=Sing	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	5	punct	_	_
+4-5	שהודחה	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	5	mark	_	_
+5	הודחה	הודח	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	1	acl:relcl	_	_
+6-8	בשבוע	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	8	case	_	_
+7	ה_	ה	DET	DET	PronType=Art|Definite=Def	8	det	_	_
+8	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+9-10	שעבר	_	_	_	_	_	_	_	_
+9	ש	ש	SCONJ	SCONJ	_	10	mark	_	_
+10	עבר	עבר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	8	acl:relcl	_	_
+11-12	מגביע	_	_	_	_	_	_	_	_
+11	מ	מ	ADP	ADP	_	12	case	_	_
+12	גביע	גביע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+13	אופ"א	אופ"א	PROPN	PROPN	Abbr=Yes	12	compound:smixut	_	_
+14	בידי	בידי	ADP	ADP	_	15	case	_	_
+15	אינטר	אינטר	PROPN	PROPN	_	5	obl	_	_
+16	מילאנו	מילאנו	PROPN	PROPN	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	1	punct	_	_
+18	הבקיעה	הבקיע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+19	אתמול	אתמול	ADV	ADV	_	18	advmod	_	_
+20	שער	שער	NOUN	NOUN	Gender=Masc|Number=Sing	18	obj	_	_
+21	ראשון	ראשון	ADJ	ADJ	Gender=Masc|Number=Sing	20	amod	_	_
+22-24	בליגה	_	_	_	_	_	_	_	_
+22	ב	ב	ADP	ADP	_	24	case	_	_
+23	ה_	ה	DET	DET	PronType=Art|Definite=Def	24	det	_	_
+24	ליגה	ליגה	NOUN	NOUN	Gender=Fem|Number=Sing	20	nmod	_	_
+25	אחרי	אחרי	ADP	ADP	_	26	case	_	_
+26	חודש	חודש	NOUN	NOUN	Gender=Masc|Number=Sing	18	obl	_	_
+27-28	מרגלי	_	_	_	_	_	_	_	_
+27	מ	מ	ADP	ADP	_	28	case	_	_
+28	רגלי	רגל	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	18	obl	_	_
+29-30	הבלם	_	_	_	_	_	_	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	בלם	בלם	NOUN	NOUN	Gender=Masc|Number=Sing	28	compound:smixut	_	_
+31-32	הדני	_	_	_	_	_	_	_	_
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	דני	דני	ADJ	ADJ	Gender=Masc|Number=Sing	30	amod	_	_
+33	קנט	קנט	PROPN	PROPN	_	30	appos	_	_
+34	נילסן	נילסן	PROPN	PROPN	_	33	flat:name	_	_
+35-37	בדקה	_	_	_	_	_	_	_	_
+35	ב	ב	ADP	ADP	_	37	case	_	_
+36	ה_	ה	DET	DET	PronType=Art|Definite=Def	37	det	_	_
+37	דקה	דקה	NOUN	NOUN	Gender=Fem|Number=Sing	18	obl	_	_
+38	ה	ה	DET	DET	Definite=Def|PronType=Art	40	det	_	SpaceAfter=No
+39	-	-	PUNCT	PUNCT	_	38	punct	_	SpaceAfter=No
+40	16	16	NUM	NUM	_	37	amod	_	SpaceAfter=No
+41	,	,	PUNCT	PUNCT	_	43	punct	_	_
+42	אבל	אבל	CCONJ	CCONJ	_	43	cc	_	_
+43	הסתפקה	הסתפק	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	18	conj	_	_
+44	ב	ב	ADP	ADP	_	46	case	_	SpaceAfter=No
+45	-	-	PUNCT	PUNCT	_	46	punct	_	SpaceAfter=No
+46	1	1	NUM	NUM	_	43	obl	_	_
+47	1	1	NUM	NUM	_	46	nummod	_	_
+48-51	במגרשה	_	_	_	_	_	_	_	_
+48	ב	ב	ADP	ADP	_	49	case	_	_
+49	מגרש	מגרש	NOUN	NOUN	Gender=Masc|Number=Sing	43	obl	_	_
+50	_של_	של	ADP	ADP	Case=Gen	51	case:gen	_	_
+51	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	49	nmod:poss	_	_
+52	עם	עם	ADP	ADP	_	53	case	_	_
+53	נוטינגהאם	נוטינגהאם	PROPN	PROPN	_	43	obl	_	_
+54-55	שהישוותה	_	_	_	_	_	_	_	_
+54	ש	ש	SCONJ	SCONJ	_	55	mark	_	_
+55	הישוותה	הישוותה	VERB	VERB	_	53	acl:relcl	_	_
+56-58	בדקה	_	_	_	_	_	_	_	_
+56	ב	ב	ADP	ADP	_	58	case	_	_
+57	ה_	ה	DET	DET	PronType=Art|Definite=Def	58	det	_	_
+58	דקה	דקה	NOUN	NOUN	Gender=Fem|Number=Sing	55	obl	_	_
+59	ה	ה	DET	DET	Definite=Def|PronType=Art	61	det	_	SpaceAfter=No
+60	-	-	PUNCT	PUNCT	_	59	punct	_	SpaceAfter=No
+61	87	87	NUM	NUM	_	58	amod	_	SpaceAfter=No
+62	.	.	PUNCT	PUNCT	_	18	punct	_	_
+
+# doc_id = htb:112
+# doc_range = 2678-2767
+# sent_id = 2673
+# text = בדקה ה-06 החטיא דייויד פלאט בעיטת-11 לאסטון וילה.
+1-3	בדקה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	דקה	דקה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	SpaceAfter=No
+5	-	-	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+6	06	06	NUM	NUM	_	3	amod	_	_
+7	החטיא	החטיא	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+8	דייויד	דייויד	PROPN	PROPN	_	7	nsubj	_	_
+9	פלאט	פלאט	PROPN	PROPN	_	8	flat:name	_	_
+10	בעיטת	בעיטה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+11	-	-	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+12	11	11	NUM	NUM	_	7	obj	_	_
+13-14	לאסטון	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	אסטון	לאסטון	PROPN	PROPN	_	7	obl	_	_
+15	וילה	וילה	NOUN	NOUN	Gender=Fem|Number=Sing	14	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:112
+# doc_range = 2769-2905
+# sent_id = 2674
+# text = חלוץ נוריץ, דייל גורדון, הבקיע שער בכורה העונה בדקה ה-31 בבעיטה מ-02 מטרים.
+1	חלוץ	חלוץ	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	נוריץ	נוריץ	PROPN	PROPN	_	1	compound:smixut	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	4	punct	_	_
+4	דייל	דייל	NOUN	NOUN	Gender=Masc|Number=Sing	1	appos	_	_
+5	גורדון	גורדון	PROPN	PROPN	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	1	punct	_	_
+7	הבקיע	הבקיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+8	שער	שער	NOUN	NOUN	Gender=Masc|Number=Sing	7	obj	_	_
+9	בכורה	בכורה	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	_
+10	העונה	העונה	ADV	ADV	_	7	advmod	_	_
+11-13	בדקה	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	13	case	_	_
+12	ה_	ה	DET	DET	PronType=Art|Definite=Def	13	det	_	_
+13	דקה	דקה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	SpaceAfter=No
+15	-	-	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
+16	31	31	NUM	NUM	_	13	amod	_	_
+17-18	בבעיטה	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	_	18	case	_	_
+18	בעיטה	בעיטה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
+19	מ	מ	ADP	ADP	_	22	case	_	SpaceAfter=No
+20	-	-	PUNCT	PUNCT	_	22	punct	_	SpaceAfter=No
+21	02	02	NUM	NUM	_	22	nummod	_	_
+22	מטרים	מטר	NOUN	NOUN	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:112
+# doc_range = 2907-3125
+# sent_id = 2675
+# text = שער השיוויון של צלסי הובקע בבעיטת-11 של דניס ווייס, שקודם לכן בעט את הכדור שפגע על קו בשער בידו של בלם נוריץ יאן באטרוורת.
+1	שער	שער	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+2-3	השיוויון	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	שיוויון	שוויון	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4	של	של	ADP	ADP	Case=Gen	5	case	_	_
+5	צלסי	צלסי	PROPN	PROPN	_	1	nmod:poss	_	_
+6	הובקע	הובקע	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+7-8	בבעיטת	_	_	_	_	_	_	_	SpaceAfter=No
+7	ב	ב	ADP	ADP	_	10	case	_	_
+8	בעיטת	בעיטה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	10	obl	_	_
+9	-	-	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+10	11	11	NUM	NUM	_	6	obl	_	_
+11	של	של	ADP	ADP	Case=Gen	12	case	_	_
+12	דניס	דניס	PROPN	PROPN	_	10	nmod:poss	_	_
+13	ווייס	וייס	PROPN	PROPN	_	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	20	punct	_	_
+15-16	שקודם	_	_	_	_	_	_	_	_
+15	ש	ש	SCONJ	SCONJ	_	20	mark	_	_
+16	קודם	קודם	ADV	ADV	_	20	advmod	_	_
+17-19	לכן	_	_	_	_	_	_	_	_
+17	ל	ל	ADP	ADP	_	16	fixed	_	_
+18	ה_	ה	DET	DET	PronType=Art|Definite=Def	19	det	_	_
+19	כן	כן	PRON	PRON	Person=3|PronType=Dem	16	fixed	_	_
+20	בעט	בעט	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	12	acl:relcl	_	_
+21	את	את	ADP	ADP	Case=Acc	23	case	_	_
+22-23	הכדור	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	כדור	כדור	NOUN	NOUN	Gender=Masc|Number=Sing	20	obj	_	_
+24-25	שפגע	_	_	_	_	_	_	_	_
+24	ש	ש	SCONJ	SCONJ	_	25	mark	_	_
+25	פגע	פגע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	23	acl:relcl	_	_
+26	על	על	ADP	ADP	_	27	case	_	_
+27	קו	קו	NOUN	NOUN	Gender=Masc|Number=Sing	25	obl	_	_
+28-30	בשער	_	_	_	_	_	_	_	_
+28	ב	ב	ADP	ADP	_	30	case	_	_
+29	ה_	ה	DET	DET	PronType=Art|Definite=Def	30	det	_	_
+30	שער	שער	NOUN	NOUN	Gender=Masc|Number=Sing	27	nmod	_	_
+31-34	בידו	_	_	_	_	_	_	_	_
+31	ב	ב	ADP	ADP	_	32	case	_	_
+32	יד	יד	NOUN	NOUN	Gender=Fem|Number=Sing	25	obl	_	_
+33	_של_	של	ADP	ADP	Case=Gen	34	case:gen	_	_
+34	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+35	של	של	ADP	ADP	Case=Gen	36	case	_	_
+36	בלם	בלם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	32	nmod:poss	_	_
+37	נוריץ	נוריץ	PROPN	PROPN	_	36	compound:smixut	_	_
+38	יאן	יאן	PROPN	PROPN	_	36	appos	_	_
+39	באטרוורת	באטרוורת	PROPN	PROPN	_	38	flat:name	_	SpaceAfter=No
+40	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:112
+# doc_range = 3127-3328
+# sent_id = 2676
+# text = קפספבינאולדהאם נותרה ראשונה בליגה השניה עם 83 נקודות אחרי ניצחון 4 1 על ווטפורד, המדורגת אחרונה עם 9 נקודות בלבד.
+1-2	קפספבינאולדהאם	_	_	_	_	_	_	_	_
+1	קפספבינ	קפספבינ	X	X	_	3	dep	_	Xtra=Junk
+2	אולדהאם	אולדהאם	X	X	_	3	nsubj	_	Xtra=Junk
+3	נותרה	נותר	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+4	ראשונה	ראשונה	ADJ	ADJ	Gender=Fem|Number=Sing	3	xcomp	_	_
+5-7	בליגה	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	7	case	_	_
+6	ה_	ה	DET	DET	PronType=Art|Definite=Def	7	det	_	_
+7	ליגה	ליגה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+8-9	השניה	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	שניה	שני	ADJ	ADJ	Gender=Fem|Number=Sing	7	amod	_	_
+10	עם	עם	ADP	ADP	_	12	case	_	_
+11	83	83	NUM	NUM	_	12	nummod	_	_
+12	נקודות	נקודה	NOUN	NOUN	Gender=Fem|Number=Plur	3	obl	_	_
+13	אחרי	אחרי	ADP	ADP	_	14	case	_	_
+14	ניצחון	ניצחון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	obl	_	_
+15	4	4	NUM	NUM	_	14	compound:smixut	_	_
+16	1	1	NUM	NUM	_	15	nummod	_	_
+17	על	על	ADP	ADP	_	18	case	_	_
+18	ווטפורד	ווטפורד	PROPN	PROPN	_	14	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	21	punct	_	_
+20-21	המדורגת	_	_	_	_	_	_	_	_
+20	ה	ה	SCONJ	SCONJ	_	21	mark	_	_
+21	מדורגת	דורג	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	18	acl:relcl	_	_
+22	אחרונה	אחרון	ADJ	ADJ	Gender=Fem|Number=Sing	21	xcomp	_	_
+23	עם	עם	ADP	ADP	_	25	case	_	_
+24	9	9	NUM	NUM	_	25	nummod	_	_
+25	נקודות	נקודה	NOUN	NOUN	Gender=Fem|Number=Plur	21	obl	_	_
+26	בלבד	בלבד	ADV	ADV	_	25	advmod	_	SpaceAfter=No
+27	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:112
+# doc_range = 3330-3435
+# sent_id = 2677
+# text = השניה בדירוג, ווסטהאם (43 נקודות), סיימה 1 1 בחוץ עם מילוול.
+1-2	השניה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	שניה	שנייה	NOUN	NOUN	Gender=Fem|Number=Sing	13	nsubj	_	_
+3-5	בדירוג	_	_	_	_	_	_	_	SpaceAfter=No
+3	ב	ב	ADP	ADP	_	5	case	_	_
+4	ה_	ה	DET	DET	PronType=Art|Definite=Def	5	det	_	_
+5	דירוג	דירוג	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_
+6	,	,	PUNCT	PUNCT	_	7	punct	_	_
+7	ווסטהאם	ווסטהאם	PROPN	PROPN	_	2	appos	_	_
+8	(	(	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+9	43	43	NUM	NUM	_	10	nummod	_	_
+10	נקודות	נקודה	NOUN	NOUN	Gender=Fem|Number=Plur	2	appos	_	SpaceAfter=No
+11	)	)	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	2	punct	_	_
+13	סיימה	סיים	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+14	1	1	NUM	NUM	_	13	dep	_	_
+15	1	1	NUM	NUM	_	14	nummod	_	_
+16-18	בחוץ	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	18	case	_	_
+17	ה_	ה	DET	DET	PronType=Art|Definite=Def	18	det	_	_
+18	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	13	obl	_	_
+19	עם	עם	ADP	ADP	_	20	case	_	_
+20	מילוול	מילוול	PROPN	PROPN	_	13	obl	_	SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# doc_id = htb:112
+# doc_range = 3437-3550
+# sent_id = 2678
+# text = המשחק התעכב ב-51 דקות בגלל אלימות קהל אוהדים שנותר מחוץ למגרש.
+1-2	המשחק	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	התעכב	התעכב	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	ב	ב	ADP	ADP	_	7	case	_	SpaceAfter=No
+5	-	-	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
+6	51	51	NUM	NUM	_	7	nummod	_	_
+7	דקות	דקה	NOUN	NOUN	Gender=Fem|Number=Plur	3	obl	_	_
+8	בגלל	בגלל	ADP	ADP	_	9	case	_	_
+9	אלימות	אלימות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	obl	_	_
+10	קהל	קהל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	compound:smixut	_	_
+11	אוהדים	אוהד	NOUN	NOUN	Gender=Masc|Number=Plur	10	compound:smixut	_	_
+12-13	שנותר	_	_	_	_	_	_	_	_
+12	ש	ש	SCONJ	SCONJ	_	13	mark	_	_
+13	נותר	נותר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	10	acl:relcl	_	_
+14-15	מחוץ	_	_	_	_	_	_	_	_
+14	מ	מ	ADP	ADP	_	18	case	_	_
+15	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	14	fixed	_	_
+16-18	למגרש	_	_	_	_	_	_	_	SpaceAfter=No
+16	ל	ל	ADP	ADP	_	14	fixed	_	_
+17	ה_	ה	DET	DET	PronType=Art|Definite=Def	18	det	_	_
+18	מגרש	מגרש	NOUN	NOUN	Gender=Masc|Number=Sing	13	obl	_	_
+19	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:112
+# doc_range = 3552-3672
+# sent_id = 2679
+# text = נמסר כי שלושה אנשים הועברו לבית החולים ו-01 אחרים נפגעו בצורה קלה.
+1	נמסר	נמסר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+2	כי	כי	SCONJ	SCONJ	_	5	mark	_	_
+3	שלושה	שלוש	NUM	NUM	Gender=Masc|Number=Plur	4	nummod	_	_
+4	אנשים	איש	NOUN	NOUN	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+5	הועברו	הועבר	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	1	advcl	_	_
+6-7	לבית	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+8-9	החולים	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	חולים	חלה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	7	compound:smixut	_	_
+10	ו	ו	CCONJ	CCONJ	_	14	cc	_	SpaceAfter=No
+11	-	-	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+12	01	01	NUM	NUM	_	13	nummod	_	_
+13	אחרים	אחר	ADJ	ADJ	Gender=Masc|Number=Plur	14	nsubj	_	_
+14	נפגעו	נפגע	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	5	conj	_	_
+15-16	בצורה	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	צורה	צורה	NOUN	NOUN	Gender=Fem|Number=Sing	14	obl	_	_
+17	קלה	קל	ADJ	ADJ	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:112
+# doc_range = 3674-3773
+# sent_id = 2680
+# text = בתיגרה הגדולה יידו אוהדים אבנים וגרמו נזקים למכוניות.
+1-3	בתיגרה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	תיגרה	תגרה	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	_
+4-5	הגדולה	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	גדולה	גדול	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	_
+6	יידו	יידה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+7	אוהדים	אוהד	NOUN	NOUN	Gender=Masc|Number=Plur	6	nsubj	_	_
+8	אבנים	אבן	NOUN	NOUN	Gender=Fem|Number=Plur	6	obj	_	_
+9-10	וגרמו	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+10	גרמו	גרם	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	6	conj	_	_
+11	נזקים	נזק	NOUN	NOUN	Gender=Masc|Number=Plur	10	obj	_	_
+12-14	למכוניות	_	_	_	_	_	_	_	SpaceAfter=No
+12	ל	ל	ADP	ADP	_	14	case	_	_
+13	ה_	ה	DET	DET	PronType=Art|Definite=Def	14	det	_	_
+14	מכוניות	מכונית	NOUN	NOUN	Gender=Fem|Number=Plur	10	obl	_	_
+15	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:112
+# doc_range = 3775-4221
+# sent_id = 2681
+# text = תוצאות אחרות בליגה השניה: בארנסלי 1 לסטר 1; בלקבורן 1 שפילד וונסדיי 0; ברייטון 3 פלימות 2; בריסטול רוברס 2 פורט וייל 0; האל 3 איפסוויץ 3; מידלסבורו 1 צארלטון 2; נוטס קאונטי 4 ווסט ברומיץ 3; אוכספורד 3 בריסטול סיטי 1; סווינדון 3 פורטסמות 0; וולבס 2 ניוקאסל 1.
+1	תוצאות	תוצאה	NOUN	NOUN	Gender=Fem|Number=Plur	0	root	_	_
+2	אחרות	אחר	ADJ	ADJ	Gender=Fem|Number=Plur	1	amod	_	_
+3-5	בליגה	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	5	case	_	_
+4	ה_	ה	DET	DET	PronType=Art|Definite=Def	5	det	_	_
+5	ליגה	ליגה	NOUN	NOUN	Gender=Fem|Number=Sing	1	nmod	_	_
+6-7	השניה	_	_	_	_	_	_	_	SpaceAfter=No
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	שניה	שני	ADJ	ADJ	Gender=Fem|Number=Sing	5	amod	_	_
+8	:	:	PUNCT	PUNCT	_	9	punct	_	_
+9	בארנסלי	בארנסלי	PROPN	PROPN	_	1	appos	_	_
+10	1	1	NUM	NUM	_	9	nummod	_	_
+11	לסטר	לסטר	PROPN	PROPN	_	9	nmod	_	_
+12	1	1	NUM	NUM	_	11	nummod	_	SpaceAfter=No
+13	;	;	PUNCT	PUNCT	_	14	punct	_	_
+14	בלקבורן	בלקבורן	PROPN	PROPN	_	9	conj	_	_
+15	1	1	NUM	NUM	_	14	nummod	_	_
+16	שפילד	שפילד	PROPN	PROPN	_	14	nmod	_	_
+17	וונסדיי	וונסדיי	PROPN	PROPN	_	16	flat:name	_	_
+18	0	0	NUM	NUM	_	16	nummod	_	SpaceAfter=No
+19	;	;	PUNCT	PUNCT	_	20	punct	_	_
+20	ברייטון	ברייטון	PROPN	PROPN	_	9	conj	_	_
+21	3	3	NUM	NUM	_	20	nummod	_	_
+22	פלימות	פלימות	PROPN	PROPN	_	20	nmod	_	_
+23	2	2	NUM	NUM	_	22	nummod	_	SpaceAfter=No
+24	;	;	PUNCT	PUNCT	_	25	punct	_	_
+25	בריסטול	בריסטול	NOUN	NOUN	Gender=Masc|Number=Sing	9	conj	_	_
+26	רוברס	רוברס	PROPN	PROPN	_	25	flat:name	_	_
+27	2	2	NUM	NUM	_	25	nummod	_	_
+28	פורט	פורט	PROPN	PROPN	_	25	nmod	_	_
+29	וייל	וייל	PROPN	PROPN	_	28	flat:name	_	_
+30	0	0	NUM	NUM	_	28	nummod	_	SpaceAfter=No
+31	;	;	PUNCT	PUNCT	_	32	punct	_	_
+32	האל	האל	PROPN	PROPN	_	9	conj	_	_
+33	3	3	NUM	NUM	_	32	nummod	_	_
+34	איפסוויץ	איפסוויץ	PROPN	PROPN	_	32	nmod	_	_
+35	3	3	NUM	NUM	_	34	nummod	_	SpaceAfter=No
+36	;	;	PUNCT	PUNCT	_	37	punct	_	_
+37	מידלסבורו	מידלסבורו	PROPN	PROPN	_	9	conj	_	_
+38	1	1	NUM	NUM	_	37	nummod	_	_
+39	צארלטון	צארלטון	PROPN	PROPN	_	37	nmod	_	_
+40	2	2	NUM	NUM	_	39	nummod	_	SpaceAfter=No
+41	;	;	PUNCT	PUNCT	_	42	punct	_	_
+42	נוטס	הוטס	PROPN	PROPN	_	9	conj	_	_
+43	קאונטי	קאונטי	PROPN	PROPN	_	42	flat:name	_	_
+44	4	4	NUM	NUM	_	42	nummod	_	_
+45	ווסט	וסט	NOUN	NOUN	Gender=Masc|Number=Sing	42	nmod	_	_
+46	ברומיץ	ברומיץ	PROPN	PROPN	_	45	flat:name	_	_
+47	3	3	NUM	NUM	_	45	nummod	_	SpaceAfter=No
+48	;	;	PUNCT	PUNCT	_	49	punct	_	_
+49	אוכספורד	אוכספורד	PROPN	PROPN	_	9	conj	_	_
+50	3	3	NUM	NUM	_	49	nummod	_	_
+51	בריסטול	בריסטול	NOUN	NOUN	Gender=Masc|Number=Sing	49	nmod	_	_
+52	סיטי	סיטי	NOUN	NOUN	Gender=Fem|Number=Sing	51	flat:name	_	_
+53	1	1	NUM	NUM	_	51	nummod	_	SpaceAfter=No
+54	;	;	PUNCT	PUNCT	_	55	punct	_	_
+55	סווינדון	סווינדון	PROPN	PROPN	_	9	conj	_	_
+56	3	3	NUM	NUM	_	55	nummod	_	_
+57	פורטסמות	פורטסמות	PROPN	PROPN	_	55	nmod	_	_
+58	0	0	NUM	NUM	_	57	nummod	_	SpaceAfter=No
+59	;	;	PUNCT	PUNCT	_	60	punct	_	_
+60	וולבס	וולבס	PROPN	PROPN	_	9	conj	_	_
+61	2	2	NUM	NUM	_	60	nummod	_	_
+62	ניוקאסל	ניוקאסל	PROPN	PROPN	_	60	nmod	_	_
+63	1	1	NUM	NUM	_	62	nummod	_	SpaceAfter=No
+64	.	.	PUNCT	PUNCT	_	1	punct	_	_
+

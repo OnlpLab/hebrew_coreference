@@ -1,0 +1,550 @@
+# doc_id = htb:144
+# doc_range = 1-168
+# sent_id = 3611
+# text = מי שברשותו מזגן אוויר, מקרר ומחמם, הוא בעל מזל: הוצאות החימום באמצעות מזגן הן הזולות ביותר.
+1	מי	מי	PRON	PRON	PronType=Int	15	nsubj	_	_
+2-6	שברשותו	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	רשות	רשות	NOUN	NOUN	Gender=Fem|Number=Sing	1	acl:relcl	_	_
+5	_של_	של	ADP	ADP	Case=Gen	6	case:gen	_	_
+6	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+7	מזגן	מזגן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nsubj	_	_
+8	אוויר	אוויר	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound:smixut	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	10	punct	_	_
+10	מקרר	קירר	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	7	amod	_	_
+11-12	ומחמם	_	_	_	_	_	_	_	SpaceAfter=No
+11	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+12	מחמם	חימם	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	10	conj	_	_
+13	,	,	PUNCT	PUNCT	_	1	punct	_	_
+14	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	15	cop	_	_
+15	בעל	בעל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	_
+16	מזל	מזל	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	SpaceAfter=No
+17	:	:	PUNCT	PUNCT	_	25	punct	_	_
+18	הוצאות	הוצאה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	25	nsubj	_	_
+19-20	החימום	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	חימום	חימום	NOUN	NOUN	Gender=Masc|Number=Sing	18	compound:smixut	_	_
+21	באמצעות	באמצעות	ADP	ADP	_	22	case	_	_
+22	מזגן	מזגן	NOUN	NOUN	Gender=Masc|Number=Sing	20	nmod	_	_
+23	הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|Polarity=Pos	25	cop	_	_
+24-25	הזולות	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	זולות	זול	ADJ	ADJ	Gender=Fem|Number=Plur	15	conj	_	_
+26	ביותר	ביותר	ADV	ADV	_	25	advmod	_	SpaceAfter=No
+27	.	.	PUNCT	PUNCT	_	15	punct	_	_
+
+# doc_id = htb:144
+# doc_range = 170-260
+# sent_id = 3612
+# text = לעומת זאת, החימום באמצעות תנור גז הוא היקר ביותר.
+1	לעומת	לעומת	ADP	ADP	_	2	case	_	_
+2	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	11	obl	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
+4-5	החימום	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	חימום	חימום	NOUN	NOUN	Gender=Masc|Number=Sing	11	nsubj	_	_
+6	באמצעות	באמצעות	ADP	ADP	_	7	case	_	_
+7	תנור	תנור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	nmod	_	_
+8	גז	גז	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound:smixut	_	_
+9	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	11	cop	_	_
+10-11	היקר	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	יקר	יקר	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
+12	ביותר	ביותר	ADV	ADV	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:144
+# doc_range = 262-391
+# sent_id = 3613
+# text = כך עולה מסקר אמצעי חימום שערכה הרשות להגנת הצרכן בהסתדרות לקראת החורף.
+1	כך	כך	PRON	PRON	Person=3|PronType=Dem	2	nsubj	_	_
+2	עולה	עלה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+3-4	מסקר	_	_	_	_	_	_	_	_
+3	מ	מ	ADP	ADP	_	4	case	_	_
+4	סקר	סקר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	obl	_	_
+5	אמצעי	אמצע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	compound:smixut	_	_
+6	חימום	חימום	NOUN	NOUN	Gender=Masc|Number=Sing	5	compound:smixut	_	_
+7-8	שערכה	_	_	_	_	_	_	_	_
+7	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
+8	ערכה	ערך	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	4	acl:relcl	_	_
+9-10	הרשות	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	רשות	רשות	NOUN	NOUN	Gender=Fem|Number=Sing	8	nsubj	_	_
+11-12	להגנת	_	_	_	_	_	_	_	_
+11	ל	ל	ADP	ADP	_	12	case	_	_
+12	הגנת	הגנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	10	nmod	_	_
+13-14	הצרכן	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	צרכן	צרכן	NOUN	NOUN	Gender=Masc|Number=Sing	12	compound:smixut	_	_
+15-17	בהסתדרות	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	17	case	_	_
+16	ה_	ה	DET	DET	PronType=Art|Definite=Def	17	det	_	_
+17	הסתדרות	הסתדרות	NOUN	NOUN	Gender=Fem|Number=Sing	10	nmod	_	_
+18	לקראת	לקראת	ADP	ADP	_	20	case	_	_
+19-20	החורף	_	_	_	_	_	_	_	SpaceAfter=No
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	חורף	חורף	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+21	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:144
+# doc_range = 393-688
+# sent_id = 3614
+# text = להלן עלויות החימום לכל 1,000 ק"ק (קילו קלוריות יחידת מדידה של תפוקת אנרגיה): מזגן 01 אגתנור גז (מרכזיה) עד 72 אגתנור גז (ממיכל) 91 אגתנור חשמל 12 אגתנור סולר עם ארובה 5.
+1	להלן	להלן	ADV	ADV	_	0	root	_	_
+2	עלויות	עלות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	1	dep	_	HebSource=ConvUncertainHead
+3-4	החימום	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	חימום	חימום	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+5-6	לכל	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	8	case	_	_
+6	כל	כול	DET	DET	Definite=Cons	8	det	_	_
+7	1,000	1,000	NUM	NUM	_	8	nummod	_	_
+8	ק"ק	ק"ק	NOUN	NOUN	Abbr=Yes	2	nmod	_	_
+9	(	(	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+10	קילו	קילוגרם	NOUN	NOUN	Gender=Masc|Number=Sing	8	appos	_	_
+11	קלוריות	קלוריה	NOUN	NOUN	Gender=Fem|Number=Plur	10	nmod	_	HebSource=ConvUncertainLabel
+12	יחידת	יחידה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	10	acl	_	_
+13	מדידה	מדידה	NOUN	NOUN	Gender=Fem|Number=Sing	12	compound:smixut	_	_
+14	של	של	ADP	ADP	Case=Gen	15	case	_	_
+15	תפוקת	תפוקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	13	nmod:poss	_	_
+16	אנרגיה	אנרגיה	NOUN	NOUN	Gender=Fem|Number=Sing	15	compound:smixut	_	SpaceAfter=No
+17	)	)	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+18	:	:	PUNCT	PUNCT	_	19	punct	_	HebSource=ConvUncertainHead
+19	מזגן	מזגן	NOUN	NOUN	Gender=Masc|Number=Sing	1	dep	_	HebSource=ConvUncertainHead
+20	01	01	NUM	NUM	_	21	nummod	_	_
+21	אגתנור	אגתנור	NOUN	NOUN	Definite=Cons	19	nmod	_	HebSource=ConvUncertainLabel
+22	גז	גז	NOUN	NOUN	Gender=Masc|Number=Sing	21	compound:smixut	_	_
+23	(	(	PUNCT	PUNCT	_	24	punct	_	SpaceAfter=No
+24	מרכזיה	מרכזייה	NOUN	NOUN	Gender=Fem|Number=Sing	22	appos	_	SpaceAfter=No
+25	)	)	PUNCT	PUNCT	_	24	punct	_	_
+26	עד	עד	ADP	ADP	_	28	case	_	_
+27	72	72	NUM	NUM	_	28	nummod	_	_
+28	אגתנור	אגתנור	NOUN	NOUN	Definite=Cons	21	nmod	_	_
+29	גז	גז	NOUN	NOUN	Gender=Masc|Number=Sing	28	compound:smixut	_	_
+30	(	(	PUNCT	PUNCT	_	32	punct	_	SpaceAfter=No
+31-32	ממיכל	_	_	_	_	_	_	_	SpaceAfter=No
+31	מ	מ	ADP	ADP	_	32	case	_	_
+32	מיכל	מכל	NOUN	NOUN	_	29	appos	_	_
+33	)	)	PUNCT	PUNCT	_	32	punct	_	_
+34	91	91	NUM	NUM	_	35	nummod	_	_
+35	אגתנור	אגתנור	NOUN	NOUN	Definite=Cons	28	dep	_	HebSource=ConvUncertainHead
+36	חשמל	חשמל	NOUN	NOUN	Gender=Masc|Number=Sing	35	compound:smixut	_	_
+37	12	12	NUM	NUM	_	38	nummod	_	_
+38	אגתנור	אגתנור	NOUN	NOUN	Definite=Cons	28	dep	_	HebSource=ConvUncertainHead
+39	סולר	סולר	NOUN	NOUN	Gender=Masc|Number=Sing	38	compound:smixut	_	_
+40	עם	עם	ADP	ADP	_	41	case	_	_
+41	ארובה	ארובה	NOUN	NOUN	Gender=Fem|Number=Sing	39	nmod	_	_
+42	5	5	NUM	NUM	_	41	nummod	_	SpaceAfter=No
+43	.	.	PUNCT	PUNCT	_	1	punct	_	HebSource=ConvUncertainHead
+
+# doc_id = htb:144
+# doc_range = 690-921
+# sent_id = 3615
+# text = 71 אגמי שעומד לרכוש תנור חימום חדש ימצא עניין בסקר מחירי התנורים לסוגיהם שערכה הרשות: תנורי גז מ354 עד 496 ש"ח, תלוי בעוצמת המכשיר.
+1	71	71	NUM	NUM	_	9	dep	_	_
+2	אגמי	אגמי	PROPN	PROPN	_	9	nsubj	_	_
+3-4	שעומד	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
+4	עומד	עמד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	2	acl:relcl	_	_
+5	לרכוש	רכש	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	תנור	תנור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obj	_	_
+7	חימום	חימום	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+8	חדש	חדש	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	_
+9	ימצא	מצא	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+10	עניין	עניין	NOUN	NOUN	Gender=Masc|Number=Sing	9	obj	_	_
+11-12	בסקר	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	סקר	סקר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	obl	_	_
+13	מחירי	מחיר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	12	compound:smixut	_	_
+14-15	התנורים	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	תנורים	תנור	NOUN	NOUN	Gender=Masc|Number=Plur	13	compound:smixut	_	_
+16-18	לסוגיהם	_	_	_	_	_	_	_	_
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	סוגי	סוג	NOUN	NOUN	Gender=Masc|Number=Plur	15	nmod	_	_
+18	הם	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+19-20	שערכה	_	_	_	_	_	_	_	_
+19	ש	ש	SCONJ	SCONJ	_	20	mark	_	_
+20	ערכה	ערך	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	12	acl:relcl	_	_
+21-22	הרשות	_	_	_	_	_	_	_	SpaceAfter=No
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	רשות	רשות	NOUN	NOUN	Gender=Fem|Number=Sing	20	nsubj	_	_
+23	:	:	PUNCT	PUNCT	_	24	punct	_	_
+24	תנורי	תנור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	12	appos	_	_
+25	גז	גז	NOUN	NOUN	Gender=Masc|Number=Sing	24	compound:smixut	_	_
+26-27	מ354	_	_	_	_	_	_	_	_
+26	מ	מ	ADP	ADP	_	30	case	_	_
+27	354	354	NUM	NUM	_	30	nummod	_	_
+28	עד	עד	ADP	ADP	_	27	dep	_	_
+29	496	496	NUM	NUM	_	27	nummod	_	_
+30	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	PUNCT	_	32	punct	_	_
+32	תלוי	תלוי	ADJ	ADJ	Gender=Masc|Number=Sing	24	appos	_	_
+33-34	בעוצמת	_	_	_	_	_	_	_	_
+33	ב	ב	ADP	ADP	_	34	case	_	_
+34	עוצמת	עוצמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	32	obl	_	_
+35-36	המכשיר	_	_	_	_	_	_	_	SpaceAfter=No
+35	ה	ה	DET	DET	Definite=Def|PronType=Art	36	det	_	_
+36	מכשיר	מכשיר	NOUN	NOUN	Gender=Masc|Number=Sing	34	compound:smixut	_	_
+37	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:144
+# doc_range = 923-972
+# sent_id = 3616
+# text = מקרנים חשמליים מ57 עד 701 ש"ח.
+1	מקרנים	מקרן	NOUN	NOUN	Gender=Masc|Number=Plur	0	root	_	_
+2	חשמליים	חשמלי	ADJ	ADJ	Gender=Masc|Number=Plur	1	amod	_	_
+3-4	מ57	_	_	_	_	_	_	_	_
+3	מ	מ	ADP	ADP	_	7	case	_	_
+4	57	57	NUM	NUM	_	7	nummod	_	_
+5	עד	עד	ADP	ADP	_	4	dep	_	_
+6	701	701	NUM	NUM	_	4	nummod	_	_
+7	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:144
+# doc_range = 974-1018
+# sent_id = 3617
+# text = קונווקטורים מ891 עד 505 ש"ח.
+1	קונווקטורים	קונווקטור	NOUN	NOUN	Gender=Masc|Number=Plur	0	root	_	_
+2-3	מ891	_	_	_	_	_	_	_	_
+2	מ	מ	ADP	ADP	_	6	case	_	_
+3	891	891	NUM	NUM	_	6	nummod	_	_
+4	עד	עד	ADP	ADP	_	3	dep	_	_
+5	505	505	NUM	NUM	_	3	nummod	_	_
+6	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:144
+# doc_range = 1020-1103
+# sent_id = 3618
+# text = רדיאטורי שמן חשמליים מ035 עד 536 ש"ח, תלוי ביצרן.
+1	רדיאטורי	רדיאטור	NOUN	NOUN	Definite=Cons	0	root	_	_
+2	שמן	שמן	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+3	חשמליים	חשמלי	ADJ	ADJ	Gender=Masc|Number=Plur	1	amod	_	_
+4-5	מ035	_	_	_	_	_	_	_	_
+4	מ	מ	ADP	ADP	_	8	case	_	_
+5	035	035	NUM	NUM	_	8	nummod	_	_
+6	עד	עד	ADP	ADP	_	5	dep	_	_
+7	536	536	NUM	NUM	_	5	nummod	_	_
+8	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	10	punct	_	_
+10	תלוי	תלוי	ADJ	ADJ	Gender=Masc|Number=Sing	8	appos	_	_
+11-13	ביצרן	_	_	_	_	_	_	_	SpaceAfter=No
+11	ב	ב	ADP	ADP	_	13	case	_	_
+12	ה_	ה	DET	DET	PronType=Art|Definite=Def	13	det	_	_
+13	יצרן	יצרן	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
+14	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:144
+# doc_range = 1105-1144
+# sent_id = 3619
+# text = מפזרי חום מ521 עד 772 ש"ח.
+1	מפזרי	פיזר	VERB	VERB	Definite=Cons|Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+2	חום	חום	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+3-4	מ521	_	_	_	_	_	_	_	_
+3	מ	מ	ADP	ADP	_	7	case	_	_
+4	521	521	NUM	NUM	_	7	nummod	_	_
+5	עד	עד	ADP	ADP	_	4	dep	_	_
+6	772	772	NUM	NUM	_	4	nummod	_	_
+7	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:144
+# doc_range = 1146-1474
+# sent_id = 3620
+# text = אנשי הרשות להגנת הצרכן מצאו, כי בהשוואה לחורף שעבר, רוב מכשירי החימום התייקרו בשיעורים נמוכים משיעורי עליית המדד, או שלא עלו כלל; לעומת זאת, במקרים אחדים היו עליות מחירים של עד 54%.
+1	אנשי	איש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	8	nsubj	_	_
+2-3	הרשות	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	רשות	רשות	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+4-5	להגנת	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	הגנת	הגנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	nmod	_	_
+6-7	הצרכן	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	צרכן	צרכן	NOUN	NOUN	Gender=Masc|Number=Sing	5	compound:smixut	_	_
+8	מצאו	מצא	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	23	punct	_	_
+10	כי	כי	SCONJ	SCONJ	_	23	mark	_	_
+11-12	בהשוואה	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	15	case	_	_
+12	השוואה	השוואה	NOUN	NOUN	Gender=Fem|Number=Sing	11	fixed	_	_
+13-15	לחורף	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	11	fixed	_	_
+14	ה_	ה	DET	DET	PronType=Art|Definite=Def	15	det	_	_
+15	חורף	חורף	NOUN	NOUN	Gender=Masc|Number=Sing	23	obl	_	_
+16-17	שעבר	_	_	_	_	_	_	_	SpaceAfter=No
+16	ש	ש	SCONJ	SCONJ	_	17	mark	_	_
+17	עבר	עבר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	15	acl:relcl	_	_
+18	,	,	PUNCT	PUNCT	_	15	punct	_	_
+19	רוב	רוב	DET	DET	Definite=Cons	20	det	_	_
+20	מכשירי	מכשיר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	23	nsubj	_	_
+21-22	החימום	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	חימום	חימום	NOUN	NOUN	Gender=Masc|Number=Sing	20	compound:smixut	_	_
+23	התייקרו	התייקר	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	8	ccomp	_	_
+24-25	בשיעורים	_	_	_	_	_	_	_	_
+24	ב	ב	ADP	ADP	_	25	case	_	_
+25	שיעורים	שיעור	NOUN	NOUN	Gender=Masc|Number=Plur	23	obl	_	_
+26	נמוכים	נמוך	ADJ	ADJ	Gender=Masc|Number=Plur	25	amod	_	_
+27-28	משיעורי	_	_	_	_	_	_	_	_
+27	מ	מ	ADP	ADP	_	28	case	_	_
+28	שיעורי	שיעור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	26	obl	_	_
+29	עליית	עלייה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	28	compound:smixut	_	_
+30-31	המדד	_	_	_	_	_	_	_	SpaceAfter=No
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	מדד	מדד	NOUN	NOUN	Gender=Masc|Number=Sing	29	compound:smixut	_	_
+32	,	,	PUNCT	PUNCT	_	33	punct	_	_
+33	או	או	CCONJ	CCONJ	_	36	cc	_	_
+34-35	שלא	_	_	_	_	_	_	_	_
+34	ש	ש	SCONJ	SCONJ	_	23	dep	_	_
+35	לא	לא	ADV	ADV	Polarity=Neg	36	advmod	_	_
+36	עלו	עלה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	23	conj	_	_
+37	כלל	כלל	ADV	ADV	_	36	advmod	_	SpaceAfter=No
+38	;	;	PUNCT	PUNCT	_	45	punct	_	_
+39	לעומת	לעומת	ADP	ADP	_	40	case	_	_
+40	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	45	obl	_	SpaceAfter=No
+41	,	,	PUNCT	PUNCT	_	40	punct	_	_
+42-43	במקרים	_	_	_	_	_	_	_	_
+42	ב	ב	ADP	ADP	_	43	case	_	_
+43	מקרים	מקרה	NOUN	NOUN	Gender=Masc|Number=Plur	45	obl	_	_
+44	אחדים	אחד	ADJ	ADJ	Gender=Masc|Number=Plur	43	amod	_	_
+45	היו	היה	VERB	VERB	Gender=Fem,Masc|HebExistential=Yes|Number=Plur|Person=3|Polarity=Pos|Tense=Past	23	conj	_	_
+46	עליות	עלייה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	45	nsubj	_	_
+47	מחירים	מחיר	NOUN	NOUN	Gender=Masc|Number=Plur	46	compound:smixut	_	_
+48	של	של	ADP	ADP	Case=Gen	51	case	_	_
+49	עד	עד	ADP	ADP	_	51	case	_	_
+50	54	54	NUM	NUM	_	51	nummod	_	SpaceAfter=No
+51	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	46	nmod:poss	_	SpaceAfter=No
+52	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:144
+# doc_range = 1479-1551
+# sent_id = 3621
+# text = אין ספק שכדאי לעשות סקר שוק לפני הקנייה.
+1	אין	אין	VERB	VERB	HebExistential=Yes	0	root	_	_
+2	ספק	ספק	NOUN	NOUN	Gender=Masc|Number=Sing	1	nsubj	_	_
+3-4	שכדאי	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	5	mark	_	_
+4	כדאי	כדאי	AUX	AUX	VerbType=Mod	5	aux	_	_
+5	לעשות	עשה	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	2	acl:relcl	_	_
+6	סקר	סקר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obj	_	_
+7	שוק	שוק	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+8	לפני	לפני	ADP	ADP	_	10	case	_	_
+9-10	הקנייה	_	_	_	_	_	_	_	SpaceAfter=No
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	קנייה	קנייה	NOUN	NOUN	Gender=Fem|Number=Sing	6	nmod	_	_
+11	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:144
+# doc_range = 1554-1632
+# sent_id = 3622
+# text = החימום בחשמל נוח יותר, בטוח יותר ונקי יותר.
+1-2	החימום	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	חימום	חימום	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+3-4	בחשמל	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	חשמל	חשמל	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_
+5	נוח	נוח	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
+6	יותר	יותר	ADV	ADV	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	8	punct	_	_
+8	בטוח	בטוח	ADJ	ADJ	Gender=Masc|Number=Sing	5	conj	_	_
+9	יותר	יותר	ADV	ADV	_	8	advmod	_	_
+10-11	ונקי	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+11	נקי	נקי	ADJ	ADJ	Gender=Masc|Number=Sing	5	conj	_	_
+12	יותר	יותר	ADV	ADV	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:144
+# doc_range = 1634-1830
+# sent_id = 3623
+# text = החימום בגז מסוכן יותר, מאחר שהוא צורך את החמצן בחדר ופולט גז רעיל (); כמו כן הצנרת עשויה להיות מפגע בטיחותי.
+1-2	החימום	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	חימום	חימום	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+3-4	בגז	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	גז	גז	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_
+5	מסוכן	מסוכן	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
+6	יותר	יותר	ADV	ADV	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	11	punct	_	_
+8	מאחר	מאחר	SCONJ	SCONJ	_	11	mark	_	_
+9-10	שהוא	_	_	_	_	_	_	_	_
+9	ש	ש	SCONJ	SCONJ	_	8	fixed	_	_
+10	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	צורך	צרך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	5	advcl	_	_
+12	את	את	ADP	ADP	Case=Acc	14	case	_	_
+13-14	החמצן	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	חמצן	חמצן	NOUN	NOUN	Gender=Masc|Number=Sing	11	obj	_	_
+15-17	בחדר	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	17	case	_	_
+16	ה_	ה	DET	DET	PronType=Art|Definite=Def	17	det	_	_
+17	חדר	חדר	NOUN	NOUN	Gender=Masc|Number=Sing	14	nmod	_	_
+18-19	ופולט	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+19	פולט	פלט	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	11	conj	_	_
+20	גז	גז	NOUN	NOUN	Gender=Masc|Number=Sing	19	obj	_	_
+21	רעיל	רעיל	ADJ	ADJ	Gender=Masc|Number=Sing	20	amod	_	_
+22	(	(	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+23	)	)	PUNCT	PUNCT	_	30	punct	_	SpaceAfter=No
+24	;	;	PUNCT	PUNCT	_	30	punct	_	_
+25	כמו	כמו	ADP	ADP	_	26	case	_	_
+26	כן	כן	PRON	PRON	Person=3|PronType=Dem	30	obl	_	_
+27-28	הצנרת	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	צנרת	צנרת	NOUN	NOUN	Gender=Fem|Number=Sing	30	nsubj	_	_
+29	עשויה	עשוי	AUX	AUX	Gender=Fem|Number=Sing|Person=1,2,3|VerbType=Mod	30	aux	_	_
+30	להיות	היה	AUX	AUX	Polarity=Pos|VerbForm=Inf|VerbType=Cop	5	conj	_	_
+31	מפגע	מפגע	NOUN	NOUN	Gender=Masc|Number=Sing	30	obl	_	_
+32	בטיחותי	בטיחותי	ADJ	ADJ	Gender=Masc|Number=Sing	31	amod	_	SpaceAfter=No
+33	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:144
+# doc_range = 1832-2069
+# sent_id = 3624
+# text = תנורי נפט (ללא ארובה) עלולים גם הם, כמובן, להיות מסוכנים, משום שהם צורכים את חמצן החדר ומזהמים את האוויר, ואף קיימת סכנת התלקחות.
+1	תנורי	תנור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	13	nsubj	_	_
+2	נפט	נפט	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+3	(	(	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+4	ללא	ללא	ADP	ADP	_	5	case	_	_
+5	ארובה	ארובה	NOUN	NOUN	Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
+6	)	)	PUNCT	PUNCT	_	5	punct	_	_
+7	עלולים	עלול	AUX	AUX	Gender=Masc|Number=Plur|Person=1,2,3|VerbType=Mod	13	aux	_	_
+8	גם	גם	ADV	ADV	_	9	advmod	_	_
+9	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	dep	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	11	punct	_	_
+11	כמובן	כמובן	ADV	ADV	_	13	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	13	punct	_	_
+13	להיות	היה	AUX	AUX	Polarity=Pos|VerbForm=Inf|VerbType=Cop	0	root	_	_
+14	מסוכנים	מסוכן	ADJ	ADJ	Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	19	punct	_	_
+16	משום	משום	SCONJ	SCONJ	_	19	mark	_	_
+17-18	שהם	_	_	_	_	_	_	_	_
+17	ש	ש	SCONJ	SCONJ	_	16	fixed	_	_
+18	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
+19	צורכים	צרך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	13	advcl	_	_
+20	את	את	ADP	ADP	Case=Acc	21	case	_	_
+21	חמצן	חמצן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	19	obj	_	_
+22-23	החדר	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	חדר	חדר	NOUN	NOUN	Gender=Masc|Number=Sing	21	compound:smixut	_	_
+24-25	ומזהמים	_	_	_	_	_	_	_	_
+24	ו	ו	CCONJ	CCONJ	_	25	cc	_	_
+25	מזהמים	זיהם	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	19	conj	_	_
+26	את	את	ADP	ADP	Case=Acc	28	case	_	_
+27-28	האוויר	_	_	_	_	_	_	_	SpaceAfter=No
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	אוויר	אוויר	NOUN	NOUN	Gender=Masc|Number=Sing	25	obj	_	_
+29	,	,	PUNCT	PUNCT	_	32	punct	_	_
+30-31	ואף	_	_	_	_	_	_	_	_
+30	ו	ו	CCONJ	CCONJ	_	32	cc	_	_
+31	אף	אף	ADV	ADV	_	32	advmod	_	_
+32	קיימת	קיים	ADJ	ADJ	Gender=Fem|Number=Sing	25	conj	_	_
+33	סכנת	סכנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	32	nsubj	_	_
+34	התלקחות	התלקחות	NOUN	NOUN	Gender=Fem|Number=Sing	33	compound:smixut	_	SpaceAfter=No
+35	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# doc_id = htb:144
+# doc_range = 2071-2170
+# sent_id = 3625
+# text = כאשר מחממים בגז או בנפט, חשוב מאוד להשאיר פתחי אוורור.
+1	כאשר	כאשר	SCONJ	SCONJ	_	2	mark	_	_
+2	מחממים	חימם	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	11	advcl	_	_
+3-4	בגז	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	גז	גז	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+5	או	או	CCONJ	CCONJ	_	7	cc	_	_
+6-7	בנפט	_	_	_	_	_	_	_	SpaceAfter=No
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	נפט	נפט	NOUN	NOUN	Gender=Masc|Number=Sing	4	conj	_	_
+8	,	,	PUNCT	PUNCT	_	2	punct	_	_
+9	חשוב	חשוב	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	11	aux	_	_
+10	מאוד	מאוד	ADV	ADV	_	11	advmod	_	_
+11	להשאיר	השאיר	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	0	root	_	_
+12	פתחי	פתח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	11	obj	_	_
+13	אוורור	אוורור	NOUN	NOUN	Gender=Masc|Number=Sing	12	compound:smixut	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:144
+# doc_range = 2172-2298
+# sent_id = 3626
+# text = לא מומלץ בשום אופן להשתמש בתנורי גז ונפט בלילה, ובכלל לא בחדרי ילדים.
+1	לא	לא	ADV	ADV	Polarity=Neg	6	advmod	_	_
+2	מומלץ	מומלץ	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbType=Mod	6	aux	_	_
+3-4	בשום	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	5	case	_	_
+4	שום	שום	DET	DET	Definite=Cons	5	det	_	_
+5	אופן	אופן	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+6	להשתמש	השתמש	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	0	root	_	_
+7-8	בתנורי	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	תנורי	תנור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	6	obl	_	_
+9	גז	גז	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound:smixut	_	_
+10-11	ונפט	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+11	נפט	נפט	NOUN	NOUN	Gender=Masc|Number=Sing	9	conj	_	_
+12-14	בלילה	_	_	_	_	_	_	_	SpaceAfter=No
+12	ב	ב	ADP	ADP	_	14	case	_	_
+13	ה_	ה	DET	DET	PronType=Art|Definite=Def	14	det	_	_
+14	לילה	לילה	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+15	,	,	PUNCT	PUNCT	_	16	punct	_	_
+16-17	ובכלל	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
+17	בכלל	בכלל	ADV	ADV	_	14	advmod	_	HebSource=ConvUncertainHead
+18	לא	לא	ADV	ADV	Polarity=Neg	17	advmod	_	HebSource=ConvUncertainHead
+19-20	בחדרי	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	חדרי	חדר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	17	dep	_	HebSource=ConvUncertainHead
+21	ילדים	ילד	NOUN	NOUN	Gender=Masc|Number=Plur	20	compound:smixut	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:144
+# doc_range = 2300-2526
+# sent_id = 3627
+# text = תנורי החימום המומלצים ביותר בחדרי ילדים הם קונבקטורים חשמליים, שאינם מזהמים את האוויר ושאין חשש כווייה גם אם הילד נוגע בהם.
+1	תנורי	תנור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	11	nsubj	_	_
+2-3	החימום	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	חימום	חימום	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4-5	המומלצים	_	_	_	_	_	_	_	_
+4	ה	ה	SCONJ	SCONJ	_	5	mark	_	_
+5	מומלצים	הומלץ	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	1	acl:relcl	_	_
+6	ביותר	ביותר	ADV	ADV	_	5	advmod	_	_
+7-8	בחדרי	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	חדרי	חדר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	5	obl	_	_
+9	ילדים	ילד	NOUN	NOUN	Gender=Masc|Number=Plur	8	compound:smixut	_	_
+10	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|Polarity=Pos	11	cop	_	_
+11	קונבקטורים	קונבקטור	NOUN	NOUN	_	0	root	_	_
+12	חשמליים	חשמלי	ADJ	ADJ	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	16	punct	_	_
+14-15	שאינם	_	_	_	_	_	_	_	_
+14	ש	ש	SCONJ	SCONJ	_	16	mark	_	_
+15	אינם	אינו	AUX	AUX	Gender=Masc|Number=Plur|Person=3|Polarity=Neg|VerbForm=Part	16	aux	_	_
+16	מזהמים	זיהם	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	11	acl:relcl	_	_
+17	את	את	ADP	ADP	Case=Acc	19	case	_	_
+18-19	האוויר	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	אוויר	אוויר	NOUN	NOUN	Gender=Masc|Number=Sing	16	obj	_	_
+20-22	ושאין	_	_	_	_	_	_	_	_
+20	ו	ו	CCONJ	CCONJ	_	22	cc	_	_
+21	ש	ש	SCONJ	SCONJ	_	22	mark	_	_
+22	אין	אין	VERB	VERB	HebExistential=Yes	16	conj	_	_
+23	חשש	חשש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	22	nsubj	_	_
+24	כווייה	כווייה	NOUN	NOUN	Gender=Fem|Number=Sing	23	compound:smixut	_	_
+25	גם	גם	ADV	ADV	_	29	advmod	_	_
+26	אם	אם	SCONJ	SCONJ	_	29	mark	_	_
+27-28	הילד	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	ילד	ילד	NOUN	NOUN	Gender=Masc|Number=Sing	29	nsubj	_	_
+29	נוגע	נגע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	22	advcl	_	_
+30-31	בהם	_	_	_	_	_	_	_	SpaceAfter=No
+30	ב	ב	ADP	ADP	_	31	case	_	_
+31	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	29	obl	_	_
+32	.	.	PUNCT	PUNCT	_	11	punct	_	_
+

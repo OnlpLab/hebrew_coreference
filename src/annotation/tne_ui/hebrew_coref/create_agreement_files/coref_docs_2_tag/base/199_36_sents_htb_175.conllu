@@ -1,0 +1,1456 @@
+# doc_id = htb:175
+# doc_range = 1-166
+# sent_id = 4617
+# text = שלוש המכללות למשפטים שנפתחו השנה הביאו עמן תרופה מוחשית למצוקתם של אלה שנדחו ע"י הפקולטות.
+1	שלוש	שלוש	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	3	nummod	_	_
+2-3	המכללות	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	מכללות	מכללה	NOUN	NOUN	Gender=Fem|Number=Plur	9	nsubj	_	_
+4-5	למשפטים	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	משפטים	משפט	NOUN	NOUN	Gender=Masc|Number=Plur	3	nmod	_	_
+6-7	שנפתחו	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	_	7	mark	_	_
+7	נפתחו	נפתח	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	3	acl:relcl	_	_
+8	השנה	השנה	ADV	ADV	_	7	advmod	_	_
+9	הביאו	הביא	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+10-11	עמן	_	_	_	_	_	_	_	_
+10	עם	עם	ADP	ADP	_	11	case	_	_
+11	_הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	9	obl	_	_
+12	תרופה	תרופה	NOUN	NOUN	Gender=Fem|Number=Sing	9	obj	_	_
+13	מוחשית	מוחשי	ADJ	ADJ	Gender=Fem|Number=Sing	12	amod	_	_
+14-17	למצוקתם	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	מצוקה	מצוקה	NOUN	NOUN	Gender=Fem|Number=Sing	12	nmod	_	_
+16	_של_	של	ADP	ADP	Case=Gen	17	case:gen	_	_
+17	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+18	של	של	ADP	ADP	Case=Gen	19	case	_	_
+19	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Dem	15	nmod:poss	_	_
+20-21	שנדחו	_	_	_	_	_	_	_	_
+20	ש	ש	SCONJ	SCONJ	_	21	mark	_	_
+21	נדחו	נדחה	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	19	acl:relcl	_	_
+22	ע"י	ע"י	ADP	ADP	Abbr=Yes	24	case	_	_
+23-24	הפקולטות	_	_	_	_	_	_	_	SpaceAfter=No
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	פקולטות	פקולטה	NOUN	NOUN	Gender=Fem|Number=Plur	21	obl	_	_
+25	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 168-311
+# sent_id = 4618
+# text = למעלה מ007 סטודנטים פי שניים ממספר הלומדים בשנה א במסגרת הרגילה החלו בלימודיהם.
+1	למעלה	למעלה	ADV	ADV	_	4	advmod	_	HebSource=ConvUncertainHead
+2-3	מ007	_	_	_	_	_	_	_	_
+2	מ	מ	ADP	ADP	_	1	fixed	_	_
+3	007	007	NUM	NUM	_	4	nummod	_	_
+4	סטודנטים	סטודנט	NOUN	NOUN	Gender=Masc|Number=Plur	19	nsubj	_	_
+5	פי	פי	ADV	ADV	_	4	advmod	_	_
+6	שניים	שתיים	NUM	NUM	Gender=Masc|Number=Plur	4	compound:smixut	_	_
+7-8	ממספר	_	_	_	_	_	_	_	_
+7	מ	מ	ADP	ADP	_	10	case	_	_
+8	מספר	מספר	DET	DET	Definite=Cons	10	det	_	_
+9-10	הלומדים	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	לומדים	למד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	6	obl	_	_
+11-12	בשנה	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	10	obl	_	_
+13	א	א	PROPN	PROPN	_	12	flat:name	_	_
+14-16	במסגרת	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	16	case	_	_
+15	ה_	ה	DET	DET	PronType=Art|Definite=Def	16	det	_	_
+16	מסגרת	מסגרת	NOUN	NOUN	Gender=Fem|Number=Sing	10	obl	_	_
+17-18	הרגילה	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	רגילה	רגיל	ADJ	ADJ	Gender=Fem|Number=Sing	16	amod	_	_
+19	החלו	החל	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+20-23	בלימודיהם	_	_	_	_	_	_	_	SpaceAfter=No
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	לימודים	לימודים	NOUN	NOUN	Gender=Masc|Number=Plur	19	obl	_	_
+22	_של_	של	ADP	ADP	Case=Gen	23	case:gen	_	_
+23	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+24	.	.	PUNCT	PUNCT	_	19	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 313-516
+# sent_id = 4619
+# text = בין-לילה הוכח כי ניתן לפתור בעייה מכאיבה בת-שנים, אם הולכים בדרך נכונה ונוטשים את הרעיונות הריכוזיים הישנים.
+1	בין	בין	ADP	ADP	_	3	case	_	SpaceAfter=No
+2	-	-	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+3	לילה	לילה	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+4	הוכח	הוכח	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+5	כי	כי	SCONJ	SCONJ	_	7	mark	_	_
+6	ניתן	ניתן	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	7	aux	_	_
+7	לפתור	פתר	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	4	advcl	_	_
+8	בעייה	בעיה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obj	_	_
+9	מכאיבה	הכאיב	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	8	amod	_	_
+10	בת	בת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+11	-	-	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+12	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	8	acl	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	15	punct	_	_
+14	אם	אם	SCONJ	SCONJ	_	15	mark	_	_
+15	הולכים	הלך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	7	advcl	_	_
+16-17	בדרך	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	דרך	דרך	NOUN	NOUN	Gender=Fem|Number=Sing	15	obl	_	_
+18	נכונה	נכון	ADJ	ADJ	Gender=Fem|Number=Sing	17	amod	_	_
+19-20	ונוטשים	_	_	_	_	_	_	_	_
+19	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
+20	נוטשים	נטש	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	15	conj	_	_
+21	את	את	ADP	ADP	Case=Acc	23	case	_	_
+22-23	הרעיונות	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	רעיונות	רעיון	NOUN	NOUN	Gender=Masc|Number=Plur	20	obj	_	_
+24-25	הריכוזיים	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	ריכוזיים	ריכוזי	ADJ	ADJ	Gender=Masc|Number=Plur	23	amod	_	_
+26-27	הישנים	_	_	_	_	_	_	_	SpaceAfter=No
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	ישנים	ישן	ADJ	ADJ	Gender=Masc|Number=Plur	23	amod	_	_
+28	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 518-765
+# sent_id = 4620
+# text = חשוב מזה: מדובר בצעד ראשון לקראת רפורמה כללית בהשכלה הגבוהה, שתבטיח, בין השאר, לימודי תואר ראשון לכל עולה ולכל ישראלי בעל תעודת בגרות.
+1	חשוב	חשוב	ADJ	ADJ	Gender=Masc|Number=Sing	5	parataxis	_	_
+2-3	מזה	_	_	_	_	_	_	_	SpaceAfter=No
+2	מ	מ	ADP	ADP	_	3	case	_	_
+3	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	dep	_	_
+4	:	:	PUNCT	PUNCT	_	1	punct	_	_
+5	מדובר	דובר	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+6-7	בצעד	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	צעד	צעד	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+8	ראשון	ראשון	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	_
+9	לקראת	לקראת	ADP	ADP	_	10	case	_	_
+10	רפורמה	רפורמה	NOUN	NOUN	Gender=Fem|Number=Sing	7	nmod	_	_
+11	כללית	כללי	ADJ	ADJ	Gender=Fem|Number=Sing	10	amod	_	_
+12-14	בהשכלה	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	14	case	_	_
+13	ה_	ה	DET	DET	PronType=Art|Definite=Def	14	det	_	_
+14	השכלה	השכלה	NOUN	NOUN	Gender=Fem|Number=Sing	10	nmod	_	_
+15-16	הגבוהה	_	_	_	_	_	_	_	SpaceAfter=No
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	גבוהה	גבוה	ADJ	ADJ	Gender=Fem|Number=Sing	14	amod	_	_
+17	,	,	PUNCT	PUNCT	_	19	punct	_	_
+18-19	שתבטיח	_	_	_	_	_	_	_	SpaceAfter=No
+18	ש	ש	SCONJ	SCONJ	_	19	mark	_	_
+19	תבטיח	הבטיח	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	10	acl:relcl	_	_
+20	,	,	PUNCT	PUNCT	_	23	punct	_	_
+21	בין	בין	ADP	ADP	_	23	case	_	_
+22-23	השאר	_	_	_	_	_	_	_	SpaceAfter=No
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	שאר	שאר	NOUN	NOUN	Gender=Masc|Number=Sing	19	obl	_	_
+24	,	,	PUNCT	PUNCT	_	25	punct	_	_
+25	לימודי	לימודים	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	19	obj	_	_
+26	תואר	תואר	NOUN	NOUN	Gender=Masc|Number=Sing	25	compound:smixut	_	_
+27	ראשון	ראשון	ADJ	ADJ	Gender=Masc|Number=Sing	26	amod	_	_
+28-29	לכל	_	_	_	_	_	_	_	_
+28	ל	ל	ADP	ADP	_	30	case	_	_
+29	כל	כול	DET	DET	Definite=Cons	30	det	_	_
+30	עולה	עולה	NOUN	NOUN	Gender=Masc|Number=Sing	19	obl	_	_
+31-33	ולכל	_	_	_	_	_	_	_	_
+31	ו	ו	CCONJ	CCONJ	_	34	cc	_	_
+32	ל	ל	ADP	ADP	_	34	case	_	_
+33	כל	כול	DET	DET	Definite=Cons	34	det	_	_
+34	ישראלי	ישראלי	NOUN	NOUN	Gender=Masc|Number=Sing	30	conj	_	_
+35	בעל	בעל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	34	acl	_	_
+36	תעודת	תעודה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	35	compound:smixut	_	_
+37	בגרות	בגרות	NOUN	NOUN	Gender=Fem|Number=Sing	36	compound:smixut	_	SpaceAfter=No
+38	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 767-1010
+# sent_id = 4621
+# text = מכיוון שכך, ראוי לבדוק גם את הביקורת המושמעת על מכללות אלה, על-מנת לבחון את השלכותיהן לגבי הרפורמה העתידית: "המכללות אינן אקדמיות".
+1	מכיוון	מכיוון	SCONJ	SCONJ	_	3	mark	_	_
+2-3	שכך	_	_	_	_	_	_	_	SpaceAfter=No
+2	ש	ש	SCONJ	SCONJ	_	3	mark	_	_
+3	כך	כך	PRON	PRON	Person=3|PronType=Dem	6	obl	_	_
+4	,	,	PUNCT	PUNCT	_	3	punct	_	_
+5	ראוי	ראוי	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	6	aux	_	_
+6	לבדוק	בדק	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	0	root	_	_
+7	גם	גם	ADV	ADV	_	10	advmod	_	_
+8	את	את	ADP	ADP	Case=Acc	10	case	_	_
+9-10	הביקורת	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	ביקורת	ביקורת	NOUN	NOUN	Gender=Fem|Number=Sing	6	obj	_	_
+11-12	המושמעת	_	_	_	_	_	_	_	_
+11	ה	ה	SCONJ	SCONJ	_	12	mark	_	_
+12	מושמעת	הושמע	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	10	acl:relcl	_	_
+13	על	על	ADP	ADP	_	14	case	_	_
+14	מכללות	מכללה	NOUN	NOUN	Gender=Fem|Number=Plur	12	obl	_	_
+15	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	14	det	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	20	punct	_	_
+17	על	על	ADP	ADP	_	20	case	_	SpaceAfter=No
+18	-	-	PUNCT	PUNCT	_	20	punct	_	SpaceAfter=No
+19	מנת	מנה	ADP	ADP	_	20	case	_	_
+20	לבחון	בחן	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	6	advcl	_	_
+21	את	את	ADP	ADP	Case=Acc	22	case	_	_
+22-23	השלכותיהן	_	_	_	_	_	_	_	_
+22	השלכותי	השלכה	NOUN	NOUN	Gender=Fem|Number=Plur	20	obj	_	_
+23	הן	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+24	לגבי	לגבי	ADP	ADP	_	26	case	_	_
+25-26	הרפורמה	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	רפורמה	רפורמה	NOUN	NOUN	Gender=Fem|Number=Sing	22	nmod	_	_
+27-28	העתידית	_	_	_	_	_	_	_	SpaceAfter=No
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	עתידית	עתידי	ADJ	ADJ	Gender=Fem|Number=Sing	26	amod	_	_
+29	:	:	PUNCT	PUNCT	_	34	punct	_	_
+30	"	"	PUNCT	PUNCT	_	34	punct	_	SpaceAfter=No
+31-32	המכללות	_	_	_	_	_	_	_	_
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	מכללות	מכללה	NOUN	NOUN	Gender=Fem|Number=Plur	34	nsubj	_	_
+33	אינן	אינו	AUX	AUX	Gender=Fem|Number=Plur|Person=3|Polarity=Neg|VerbForm=Part	34	aux	_	_
+34	אקדמיות	אקדמי	ADJ	ADJ	Gender=Fem|Number=Plur	22	appos	_	SpaceAfter=No
+35	"	"	PUNCT	PUNCT	_	34	punct	_	SpaceAfter=No
+36	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 1013-1477
+# sent_id = 4622
+# text = כמי שמלמד משפטים בהתנדבות במכללה למינהל, אני יכול להעיד כי מדובר בבית ספר למשפטים בעל רמה אקדמית גבוהה ביותר: רוב המורים הם בעלי תואר שלישי; תוכנית הלימודים שווה לתוכניות המקבילות של האוניברסיטאות; הסטודנטים הם ידענים, למדנים, ובעלי מוטיוובציה גבוהה.
+1-2	כמי	_	_	_	_	_	_	_	_
+1	כ	כ	ADP	ADP	_	2	case	_	_
+2	מי	מי	PRON	PRON	PronType=Int	16	obl	_	_
+3-4	שמלמד	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
+4	מלמד	לימד	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	2	acl:relcl	_	_
+5	משפטים	משפט	NOUN	NOUN	Gender=Masc|Number=Plur	4	obj	_	_
+6-7	בהתנדבות	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	התנדבות	התנדבות	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+8-10	במכללה	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	10	case	_	_
+9	ה_	ה	DET	DET	PronType=Art|Definite=Def	10	det	_	_
+10	מכללה	מכללה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+11-12	למינהל	_	_	_	_	_	_	_	SpaceAfter=No
+11	ל	ל	ADP	ADP	_	12	case	_	_
+12	מינהל	מנהל	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod	_	_
+13	,	,	PUNCT	PUNCT	_	2	punct	_	_
+14	אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+15	יכול	יכול	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part|VerbType=Mod	16	aux	_	_
+16	להעיד	העיד	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	0	root	_	_
+17	כי	כי	SCONJ	SCONJ	_	18	mark	_	_
+18	מדובר	דובר	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	16	advcl	_	_
+19-20	בבית	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	18	obl	_	_
+21	ספר	ספר	NOUN	NOUN	Gender=Masc|Number=Sing	20	compound:smixut	_	_
+22-23	למשפטים	_	_	_	_	_	_	_	_
+22	ל	ל	ADP	ADP	_	23	case	_	_
+23	משפטים	משפט	NOUN	NOUN	Gender=Masc|Number=Plur	20	nmod	_	_
+24	בעל	בעל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	20	acl	_	_
+25	רמה	רמה	NOUN	NOUN	Gender=Fem|Number=Sing	24	compound:smixut	_	_
+26	אקדמית	אקדמי	ADJ	ADJ	Gender=Fem|Number=Sing	25	amod	_	_
+27	גבוהה	גבוה	ADJ	ADJ	Gender=Fem|Number=Sing	25	amod	_	_
+28	ביותר	ביותר	ADV	ADV	_	27	advmod	_	SpaceAfter=No
+29	:	:	PUNCT	PUNCT	_	34	punct	_	_
+30	רוב	רוב	DET	DET	Definite=Cons	32	det	_	_
+31-32	המורים	_	_	_	_	_	_	_	_
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	מורים	מורה	NOUN	NOUN	Gender=Masc|Number=Plur	34	nsubj	_	_
+33	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|Polarity=Pos	34	cop	_	_
+34	בעלי	בעל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	18	parataxis	_	_
+35	תואר	תואר	NOUN	NOUN	Gender=Masc|Number=Sing	34	compound:smixut	_	_
+36	שלישי	שלישי	ADJ	ADJ	Gender=Masc|Number=Sing	35	amod	_	SpaceAfter=No
+37	;	;	PUNCT	PUNCT	_	41	punct	_	_
+38	תוכנית	תוכנית	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	41	nsubj	_	_
+39-40	הלימודים	_	_	_	_	_	_	_	_
+39	ה	ה	DET	DET	Definite=Def|PronType=Art	40	det	_	_
+40	לימודים	לימודים	NOUN	NOUN	Gender=Masc|Number=Plur	38	compound:smixut	_	_
+41	שווה	שווה	ADJ	ADJ	Gender=Fem|Number=Sing	34	conj	_	_
+42-44	לתוכניות	_	_	_	_	_	_	_	_
+42	ל	ל	ADP	ADP	_	44	case	_	_
+43	ה_	ה	DET	DET	PronType=Art|Definite=Def	44	det	_	_
+44	תוכניות	תוכנית	NOUN	NOUN	Gender=Fem|Number=Plur	41	obl	_	_
+45-46	המקבילות	_	_	_	_	_	_	_	_
+45	ה	ה	DET	DET	Definite=Def|PronType=Art	46	det	_	_
+46	מקבילות	מקביל	ADJ	ADJ	Gender=Fem|Number=Plur	44	amod	_	_
+47	של	של	ADP	ADP	Case=Gen	49	case	_	_
+48-49	האוניברסיטאות	_	_	_	_	_	_	_	SpaceAfter=No
+48	ה	ה	DET	DET	Definite=Def|PronType=Art	49	det	_	_
+49	אוניברסיטאות	אוניברסיטה	NOUN	NOUN	Gender=Fem|Number=Plur	44	nmod	_	_
+50	;	;	PUNCT	PUNCT	_	54	punct	_	_
+51-52	הסטודנטים	_	_	_	_	_	_	_	_
+51	ה	ה	DET	DET	Definite=Def|PronType=Art	52	det	_	_
+52	סטודנטים	סטודנט	NOUN	NOUN	Gender=Masc|Number=Plur	54	nsubj	_	_
+53	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|Polarity=Pos	54	cop	_	_
+54	ידענים	ידען	NOUN	NOUN	Gender=Masc|Number=Plur	34	conj	_	SpaceAfter=No
+55	,	,	PUNCT	PUNCT	_	56	punct	_	_
+56	למדנים	למדן	NOUN	NOUN	Gender=Masc|Number=Plur	54	conj	_	SpaceAfter=No
+57	,	,	PUNCT	PUNCT	_	59	punct	_	_
+58-59	ובעלי	_	_	_	_	_	_	_	_
+58	ו	ו	CCONJ	CCONJ	_	59	cc	_	_
+59	בעלי	בעל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	54	conj	_	_
+60	מוטיוובציה	מוטיוובציה	NOUN	NOUN	_	59	compound:smixut	_	_
+61	גבוהה	גבוה	ADJ	ADJ	Gender=Fem|Number=Sing	60	amod	_	SpaceAfter=No
+62	.	.	PUNCT	PUNCT	_	16	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 1479-1658
+# sent_id = 4623
+# text = כל משקיף אובייקטיווי יאמר כי יש לנו עניין בבית ספר השייך לקבוצת עלית עפ"י מבחנים אנגלו-אמריקאיים.
+1	כל	כול	DET	DET	Definite=Cons	2	det	_	_
+2	משקיף	משקיף	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	אובייקטיווי	אובייקטיבי	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+4	יאמר	אמר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	0	root	_	_
+5	כי	כי	SCONJ	SCONJ	_	6	mark	_	_
+6	יש	יש	VERB	VERB	HebExistential=Yes	4	ccomp	_	_
+7-8	לנו	_	_	_	_	_	_	_	_
+7	ל	ל	ADP	ADP	_	8	case	_	_
+8	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	6	obl	_	_
+9	עניין	עניין	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
+10-11	בבית	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	nmod	_	_
+12	ספר	ספר	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound:smixut	_	_
+13-14	השייך	_	_	_	_	_	_	_	_
+13	ה	ה	SCONJ	SCONJ	_	14	mark	_	_
+14	שייך	שייך	ADJ	ADJ	Gender=Masc|Number=Sing	11	acl:relcl	_	_
+15-16	לקבוצת	_	_	_	_	_	_	_	_
+15	ל	ל	ADP	ADP	_	16	case	_	_
+16	קבוצת	קבוצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	14	obl	_	_
+17	עלית	עלית	NOUN	NOUN	Gender=Fem|Number=Sing	16	compound:smixut	_	_
+18	עפ"י	עפ"י	ADP	ADP	Abbr=Yes	19	case	_	_
+19	מבחנים	מבחן	NOUN	NOUN	Gender=Masc|Number=Plur	14	obl	_	_
+20	אנגלו	אנגלו	ADJ	ADJ	_	19	amod	_	SpaceAfter=No
+21	-	-	PUNCT	PUNCT	_	22	punct	_	SpaceAfter=No
+22	אמריקאיים	אמריקני	ADJ	ADJ	Gender=Masc|Number=Plur	20	dep	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 1661-1758
+# sent_id = 4624
+# text = מדוע, אם כן, נטענת הטענה כי אין למכללות כשירות אקדמית?
+1	מדוע	מדוע	ADV	ADV	PronType=Int	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3	אם	אם	SCONJ	SCONJ	_	4	case	_	_
+4	כן	כן	ADV	ADV	_	6	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	4	punct	_	_
+6	נטענת	נטען	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	0	root	_	_
+7-8	הטענה	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	טענה	טענה	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj	_	_
+9	כי	כי	SCONJ	SCONJ	_	10	mark	_	_
+10	אין	אין	VERB	VERB	HebExistential=Yes	8	acl:relcl	_	_
+11-13	למכללות	_	_	_	_	_	_	_	_
+11	ל	ל	ADP	ADP	_	13	case	_	_
+12	ה_	ה	DET	DET	PronType=Art|Definite=Def	13	det	_	_
+13	מכללות	מכללה	NOUN	NOUN	Gender=Fem|Number=Plur	10	obl	_	_
+14	כשירות	כשירות	NOUN	NOUN	Gender=Fem|Number=Sing	10	nsubj	_	_
+15	אקדמית	אקדמי	ADJ	ADJ	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+16	?	?	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 1761-1907
+# sent_id = 4625
+# text = משום שאין להן הכרה אקדמית (בינתיים), ואין הן רשאיות עדיין להעניק תארים אקדמיים.
+1	משום	משום	SCONJ	SCONJ	_	3	mark	_	_
+2-3	שאין	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	1	fixed	_	_
+3	אין	אין	VERB	VERB	HebExistential=Yes	0	root	_	_
+4-5	להן	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	_הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	3	obl	_	_
+6	הכרה	הכרה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+7	אקדמית	אקדמי	ADJ	ADJ	Gender=Fem|Number=Sing	6	amod	_	_
+8	(	(	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+9	בינתיים	בינתיים	ADV	ADV	_	3	advmod	_	SpaceAfter=No
+10	)	)	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	17	punct	_	_
+12-13	ואין	_	_	_	_	_	_	_	_
+12	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+13	אין	אין	ADV	ADV	Polarity=Neg	17	advmod	_	_
+14	הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
+15	רשאיות	רשאי	AUX	AUX	Gender=Fem|Number=Plur|Person=1,2,3|VerbType=Mod	17	aux	_	_
+16	עדיין	עדיין	ADV	ADV	_	17	advmod	_	_
+17	להעניק	העניק	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	3	conj	_	_
+18	תארים	תואר	NOUN	NOUN	Gender=Masc|Number=Plur	17	obj	_	_
+19	אקדמיים	אקדמי	ADJ	ADJ	Gender=Masc|Number=Plur	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 1910-1949
+# sent_id = 4626
+# text = מהו תואר אקדמי בישראל?
+1	מהו	מה	PRON	PRON	Gender=Masc|Number=Sing|PronType=Int	0	root	_	_
+2	תואר	תואר	NOUN	NOUN	Gender=Masc|Number=Sing	1	nsubj	_	_
+3	אקדמי	אקדמי	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+4-5	בישראל	_	_	_	_	_	_	_	SpaceAfter=No
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	ישראל	ישראל	PROPN	PROPN	_	2	nmod	_	_
+6	?	?	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 1952-2170
+# sent_id = 4627
+# text = למשל, אם אתה לומד קולנוע במסגרת פקולטה לאמנויות באוניברסיטה מוכרת אתה לומד לימודים אקדמיים המקנים לך תואר ראוי ומכובד.
+1	למשל	למשל	ADV	ADV	_	17	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3	אם	אם	SCONJ	SCONJ	_	5	mark	_	_
+4	אתה	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
+5	לומד	למד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	17	advcl	_	_
+6	קולנוע	קולנוע	NOUN	NOUN	Gender=Masc|Number=Sing	5	obj	_	_
+7-8	במסגרת	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	9	case	_	_
+8	מסגרת	מסגרת	NOUN	NOUN	Gender=Fem|Number=Sing	7	fixed	_	_
+9	פקולטה	פקולטה	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
+10-12	לאמנויות	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	12	case	_	_
+11	ה_	ה	DET	DET	PronType=Art|Definite=Def	12	det	_	_
+12	אמנויות	אמנות	NOUN	NOUN	Gender=Fem|Number=Plur	9	nmod	_	_
+13-14	באוניברסיטה	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	אוניברסיטה	אוניברסיטה	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
+15	מוכרת	מוכר	ADJ	ADJ	Gender=Fem|Number=Sing	14	amod	_	_
+16	אתה	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	17	nsubj	_	_
+17	לומד	למד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+18	לימודים	לימודים	NOUN	NOUN	Gender=Masc|Number=Plur	17	obj	_	_
+19	אקדמיים	אקדמי	ADJ	ADJ	Gender=Masc|Number=Plur	18	amod	_	_
+20-21	המקנים	_	_	_	_	_	_	_	_
+20	ה	ה	SCONJ	SCONJ	_	21	mark	_	_
+21	מקנים	הקנה	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	18	acl:relcl	_	_
+22-23	לך	_	_	_	_	_	_	_	_
+22	ל	ל	ADP	ADP	_	23	case	_	_
+23	_אתה	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	21	obl	_	_
+24	תואר	תואר	NOUN	NOUN	Gender=Masc|Number=Sing	21	obj	_	_
+25	ראוי	ראוי	ADJ	ADJ	Gender=Masc|Number=Sing	24	amod	_	_
+26-27	ומכובד	_	_	_	_	_	_	_	SpaceAfter=No
+26	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
+27	מכובד	מכובד	ADJ	ADJ	Gender=Masc|Number=Sing	25	conj	_	_
+28	.	.	PUNCT	PUNCT	_	17	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 2173-2292
+# sent_id = 4628
+# text = אם אתה לומד זאת בבית ספר פרטי באותה תוכנית, אין לך לא תואר ולא הדר.
+1	אם	אם	SCONJ	SCONJ	_	3	mark	_	_
+2	אתה	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+3	לומד	למד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	13	advcl	_	_
+4	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	obj	_	_
+5-6	בבית	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	obl	_	_
+7	ספר	ספר	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+8	פרטי	פרטי	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	_
+9-10	באותה	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	11	case	_	_
+10	אותה	אותו	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	det	_	_
+11	תוכנית	תוכנית	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	3	punct	_	_
+13	אין	אין	VERB	VERB	HebExistential=Yes	0	root	_	_
+14-15	לך	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	_אתה	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	13	obl	_	_
+16	לא	לא	DET	DET	Polarity=Neg	17	det	_	_
+17	תואר	תואר	NOUN	NOUN	Gender=Masc|Number=Sing	13	nsubj	_	_
+18-19	ולא	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
+19	לא	לא	DET	DET	Polarity=Neg	20	det	_	_
+20	הדר	הדר	NOUN	NOUN	Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 2295-2539
+# sent_id = 4629
+# text = ההבדל המהותי הוא שהמורה לפנטומימה באוניברסיטה נחשב חוקר וזכאי לשבתון ולקרן השתלמות, ושכר הלימוד של הסטודנטים מסובסד ע"י אוצר המדינה.
+1-2	ההבדל	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	הבדל	הבדל	NOUN	NOUN	Gender=Masc|Number=Sing	14	nsubj	_	_
+3-4	המהותי	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	מהותי	מהותי	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+5	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	14	cop	_	_
+6-8	שהמורה	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	מורה	מורה	NOUN	NOUN	Gender=Masc|Number=Sing	14	nsubj	_	_
+9-10	לפנטומימה	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	10	case	_	_
+10	פנטומימה	פנטומימה	NOUN	NOUN	Gender=Fem|Number=Sing	8	nmod	_	_
+11-13	באוניברסיטה	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	13	case	_	_
+12	ה_	ה	DET	DET	PronType=Art|Definite=Def	13	det	_	_
+13	אוניברסיטה	אוניברסיטה	NOUN	NOUN	Gender=Fem|Number=Sing	8	nmod	_	_
+14	נחשב	נחשב	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	0	root	_	_
+15	חוקר	חוקר	NOUN	NOUN	Gender=Masc|Number=Sing	14	obj	_	_
+16-17	וזכאי	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+17	זכאי	זכאי	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	14	conj	_	_
+18-19	לשבתון	_	_	_	_	_	_	_	_
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	שבתון	שבתון	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	_
+20-22	ולקרן	_	_	_	_	_	_	_	_
+20	ו	ו	CCONJ	CCONJ	_	22	cc	_	_
+21	ל	ל	ADP	ADP	_	22	case	_	_
+22	קרן	קרן	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	19	conj	_	_
+23	השתלמות	השתלמות	NOUN	NOUN	Gender=Fem|Number=Sing	22	compound:smixut	_	SpaceAfter=No
+24	,	,	PUNCT	PUNCT	_	32	punct	_	_
+25-26	ושכר	_	_	_	_	_	_	_	_
+25	ו	ו	CCONJ	CCONJ	_	32	cc	_	_
+26	שכר	שכר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	32	nsubj:pass	_	_
+27-28	הלימוד	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	לימוד	לימוד	NOUN	NOUN	Gender=Masc|Number=Sing	26	compound:smixut	_	_
+29	של	של	ADP	ADP	Case=Gen	31	case	_	_
+30-31	הסטודנטים	_	_	_	_	_	_	_	_
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	סטודנטים	סטודנט	NOUN	NOUN	Gender=Masc|Number=Plur	26	nmod:poss	_	_
+32	מסובסד	סובסד	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	14	conj	_	_
+33	ע"י	ע"י	ADP	ADP	Abbr=Yes	34	case	_	_
+34	אוצר	אוצר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	32	obl	_	_
+35-36	המדינה	_	_	_	_	_	_	_	SpaceAfter=No
+35	ה	ה	DET	DET	Definite=Def|PronType=Art	36	det	_	_
+36	מדינה	מדינה	NOUN	NOUN	Gender=Fem|Number=Sing	34	compound:smixut	_	_
+37	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 2541-2651
+# sent_id = 4630
+# text = בבית הספר הפרטי אין זכויות כספיות כאלה, לא למורה, לא לתלמיד.
+1-2	בבית	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	obl	_	_
+3-4	הספר	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	ספר	ספר	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+5-6	הפרטי	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	פרטי	פרטי	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+7	אין	אין	VERB	VERB	HebExistential=Yes	0	root	_	_
+8	זכויות	זכות	NOUN	NOUN	Gender=Fem|Number=Plur	7	nsubj	_	_
+9	כספיות	כספי	ADJ	ADJ	Gender=Fem|Number=Plur	8	amod	_	_
+10-12	כאלה	_	_	_	_	_	_	_	SpaceAfter=No
+10	כ	כ	ADP	ADP	_	12	case	_	_
+11	ה_	ה	DET	DET	PronType=Art|Definite=Def	12	det	_	_
+12	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	8	nmod	_	_
+13	,	,	PUNCT	PUNCT	_	17	punct	_	_
+14	לא	לא	ADV	ADV	Polarity=Neg	17	advmod	_	_
+15-17	למורה	_	_	_	_	_	_	_	SpaceAfter=No
+15	ל	ל	ADP	ADP	_	17	case	_	_
+16	ה_	ה	DET	DET	PronType=Art|Definite=Def	17	det	_	_
+17	מורה	מורה	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
+18	,	,	PUNCT	PUNCT	_	22	punct	_	_
+19	לא	לא	ADV	ADV	Polarity=Neg	22	advmod	_	_
+20-22	לתלמיד	_	_	_	_	_	_	_	SpaceAfter=No
+20	ל	ל	ADP	ADP	_	22	case	_	_
+21	ה_	ה	DET	DET	PronType=Art|Definite=Def	22	det	_	_
+22	תלמיד	תלמיד	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
+23	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 2653-2706
+# sent_id = 4631
+# text = מצב אבסורדי זה הוא בלתי נסבל.
+1	מצב	מצב	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
+2	אבסורדי	אבסורדי	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	_
+3	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	det	_	_
+4	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	6	cop	_	_
+5	בלתי	בלתי	ADV	ADV	Prefix=Yes	6	compound:affix	_	_
+6	נסבל	נסבל	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 2708-2880
+# sent_id = 4632
+# text = הרפורמה המוצעת שהגשנו, קבוצת חברי כנסת, בתיקון לחוק המועצה הההשכלה הגבוהה, מבקשת לתקן מצב זה.
+1-2	הרפורמה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	רפורמה	רפורמה	NOUN	NOUN	Gender=Fem|Number=Sing	24	dislocated	_	_
+3-4	המוצעת	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	מוצעת	מוצע	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+5-6	שהגשנו	_	_	_	_	_	_	_	SpaceAfter=No
+5	ש	ש	SCONJ	SCONJ	_	6	mark	_	_
+6	הגשנו	הגיש	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=1|Tense=Past|Voice=Act	2	acl:relcl	_	_
+7	,	,	PUNCT	PUNCT	_	2	punct	_	_
+8	קבוצת	קבוצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	24	nsubj	_	_
+9	חברי	חבר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	8	compound:smixut	_	_
+10	כנסת	כנסת	PROPN	PROPN	_	9	compound:smixut	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	8	punct	_	_
+12-13	בתיקון	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	תיקון	תיקון	NOUN	NOUN	Gender=Masc|Number=Sing	24	obl	_	_
+14-15	לחוק	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	חוק	חוק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	nmod	_	_
+16-17	המועצה	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	מועצה	מועצה	NOUN	NOUN	Gender=Fem|Number=Sing	15	compound:smixut	_	_
+18-20	הההשכלה	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	17	dep	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	השכלה	השכלה	NOUN	NOUN	_	17	nmod	_	_
+21-22	הגבוהה	_	_	_	_	_	_	_	SpaceAfter=No
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	גבוהה	גבוה	ADJ	ADJ	Gender=Fem|Number=Sing	17	amod	_	_
+23	,	,	PUNCT	PUNCT	_	13	punct	_	_
+24	מבקשת	ביקש	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+25	לתקן	תיקן	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	24	xcomp	_	_
+26	מצב	מצב	NOUN	NOUN	Gender=Masc|Number=Sing	25	obj	_	_
+27	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	det	_	SpaceAfter=No
+28	.	.	PUNCT	PUNCT	_	24	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 2882-3104
+# sent_id = 4633
+# text = המכללות החוץ-תקציביות אינן מבקשות כסף מהמדינה, אינן מתיימרות להעניק תארים מחקריים אך הן אקדמיות למהדרין וראויות להכרה.
+1-2	המכללות	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מכללות	מכללה	NOUN	NOUN	Gender=Fem|Number=Plur	8	nsubj	_	_
+3-4	החוץ	_	_	_	_	_	_	_	SpaceAfter=No
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+4	חוץ	חוץ	ADV	ADV	Prefix=Yes	6	compound:affix	_	_
+5	-	-	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+6	תקציביות	תקציבי	ADJ	ADJ	Gender=Fem|Number=Plur	2	amod	_	_
+7	אינן	אינו	AUX	AUX	Gender=Fem|Number=Plur|Person=3|Polarity=Neg|VerbForm=Part	8	aux	_	_
+8	מבקשות	ביקש	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+9	כסף	כסף	NOUN	NOUN	Gender=Masc|Number=Sing	8	obj	_	_
+10-12	מהמדינה	_	_	_	_	_	_	_	SpaceAfter=No
+10	מ	מ	ADP	ADP	_	12	case	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	מדינה	מדינה	NOUN	NOUN	Gender=Fem|Number=Sing	9	nmod	_	_
+13	,	,	PUNCT	PUNCT	_	15	punct	_	_
+14	אינן	אינו	AUX	AUX	Gender=Fem|Number=Plur|Person=3|Polarity=Neg|VerbForm=Part	15	aux	_	_
+15	מתיימרות	התיימר	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	8	conj	_	_
+16	להעניק	העניק	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+17	תארים	תואר	NOUN	NOUN	Gender=Masc|Number=Plur	16	obj	_	_
+18	מחקריים	מחקרי	ADJ	ADJ	Gender=Masc|Number=Plur	17	amod	_	_
+19	אך	אך	CCONJ	CCONJ	_	21	cc	_	_
+20	הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	_
+21	אקדמיות	אקדמי	ADJ	ADJ	Gender=Fem|Number=Plur	8	conj	_	_
+22	למהדרין	למהדרין	ADV	ADV	_	21	advmod	_	_
+23-24	וראויות	_	_	_	_	_	_	_	_
+23	ו	ו	CCONJ	CCONJ	_	24	cc	_	_
+24	ראויות	ראוי	AUX	AUX	Gender=Fem|Number=Plur|Person=1,2,3|VerbType=Mod	21	conj	_	_
+25-26	להכרה	_	_	_	_	_	_	_	SpaceAfter=No
+25	ל	ל	ADP	ADP	_	26	case	_	_
+26	הכרה	הכרה	NOUN	NOUN	Gender=Fem|Number=Sing	24	obl	_	_
+27	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 3107-3154
+# sent_id = 4634
+# text = "המכללות הן לעשירים בלבד".
+1	"	"	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
+2-3	המכללות	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	מכללות	מכללה	NOUN	NOUN	Gender=Fem|Number=Plur	7	nsubj	_	_
+4	הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|Polarity=Pos	7	cop	_	_
+5-7	לעשירים	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	7	case	_	_
+6	ה_	ה	DET	DET	PronType=Art|Definite=Def	7	det	_	_
+7	עשירים	עשיר	ADJ	ADJ	Gender=Masc|Number=Plur	0	root	_	_
+8	בלבד	בלבד	ADV	ADV	_	7	advmod	_	SpaceAfter=No
+9	"	"	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 3156-3294
+# sent_id = 4635
+# text = טענה זו מסתמכת על כך ששכר הלימוד במכללות גבוה יותר מאשר בפקולטות המסובסדות.
+1	טענה	טענה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+2	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	1	det	_	_
+3	מסתמכת	הסתמך	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+4	על	על	ADP	ADP	_	5	case	_	_
+5	כך	כך	PRON	PRON	Person=3|PronType=Dem	3	obl	_	_
+6-7	ששכר	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	_	13	mark	_	_
+7	שכר	שכר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	nsubj	_	_
+8-9	הלימוד	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	לימוד	לימוד	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound:smixut	_	_
+10-12	במכללות	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	12	case	_	_
+11	ה_	ה	DET	DET	PronType=Art|Definite=Def	12	det	_	_
+12	מכללות	מכללה	NOUN	NOUN	Gender=Fem|Number=Plur	7	nmod	_	_
+13	גבוה	גבוה	ADJ	ADJ	Gender=Masc|Number=Sing	5	acl:relcl	_	_
+14	יותר	יותר	ADV	ADV	_	13	advmod	_	_
+15	מאשר	מאשר	ADP	ADP	_	18	case	_	_
+16-18	בפקולטות	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	18	case	_	_
+17	ה_	ה	DET	DET	PronType=Art|Definite=Def	18	det	_	_
+18	פקולטות	פקולטה	NOUN	NOUN	Gender=Fem|Number=Plur	13	obl	_	_
+19-20	המסובסדות	_	_	_	_	_	_	_	SpaceAfter=No
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	מסובסדות	מסובסד	ADJ	ADJ	Gender=Fem|Number=Plur	18	amod	_	_
+21	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 3296-3488
+# sent_id = 4636
+# text = במכללה למינהל שכר הלימוד גבוה יותר ב05% ממקבילו באוניברסיטה (שכר לימוד זה מממן הוצאות תשתית והקמת ספרייה).
+1-3	במכללה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	מכללה	מכללה	NOUN	NOUN	Gender=Fem|Number=Sing	9	obl	_	_
+4-5	למינהל	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	מינהל	מנהל	NOUN	NOUN	Gender=Masc|Number=Sing	3	nmod	_	_
+6	שכר	שכר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	nsubj	_	_
+7-8	הלימוד	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	לימוד	לימוד	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+9	גבוה	גבוה	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
+10	יותר	יותר	ADV	ADV	_	9	advmod	_	_
+11-12	ב05	_	_	_	_	_	_	_	SpaceAfter=No
+11	ב	ב	ADP	ADP	_	13	case	_	_
+12	05	05	NUM	NUM	_	13	nummod	_	_
+13	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	9	dep	_	_
+14-15	ממקבילו	_	_	_	_	_	_	_	_
+14	מ	מ	ADP	ADP	_	15	case	_	_
+15	מקבילו	הקביל	NOUN	NOUN	_	9	dep	_	_
+16-18	באוניברסיטה	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	18	case	_	_
+17	ה_	ה	DET	DET	PronType=Art|Definite=Def	18	det	_	_
+18	אוניברסיטה	אוניברסיטה	NOUN	NOUN	Gender=Fem|Number=Sing	15	nmod	_	_
+19	(	(	PUNCT	PUNCT	_	23	punct	_	SpaceAfter=No
+20	שכר	שכר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	23	nsubj	_	_
+21	לימוד	לימוד	NOUN	NOUN	Gender=Masc|Number=Sing	20	compound:smixut	_	_
+22	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	det	_	_
+23	מממן	מימן	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	9	parataxis	_	_
+24	הוצאות	הוצאה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	23	obj	_	_
+25	תשתית	תשתית	NOUN	NOUN	Gender=Fem|Number=Sing	24	compound:smixut	_	_
+26-27	והקמת	_	_	_	_	_	_	_	_
+26	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
+27	הקמת	הקמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	24	conj	_	_
+28	ספרייה	ספרייה	NOUN	NOUN	Gender=Fem|Number=Sing	27	compound:smixut	_	SpaceAfter=No
+29	)	)	PUNCT	PUNCT	_	23	punct	_	SpaceAfter=No
+30	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 3492-3551
+# sent_id = 4637
+# text = אכן, אין שום סיבה שיהיה הפרש כזה.
+1	אכן	אכן	ADV	ADV	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3	אין	אין	VERB	VERB	HebExistential=Yes	0	root	_	_
+4	שום	שום	DET	DET	Definite=Cons	5	det	_	_
+5	סיבה	סיבה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+6-7	שיהיה	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	_	7	mark	_	_
+7	יהיה	היה	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	5	acl:relcl	_	_
+8	הפרש	הפרש	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj	_	_
+9-11	כזה	_	_	_	_	_	_	_	SpaceAfter=No
+9	כ	כ	ADP	ADP	_	11	case	_	_
+10	ה_	ה	DET	DET	PronType=Art|Definite=Def	11	det	_	_
+11	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	8	nmod	_	_
+12	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 3554-3673
+# sent_id = 4638
+# text = מדוע לא תסייע הממשלה לפחות לסטודנטים נזקקים במתן מענקים והלוואות?
+1	מדוע	מדוע	ADV	ADV	PronType=Int	3	advmod	_	_
+2	לא	לא	ADV	ADV	Polarity=Neg	3	advmod	_	_
+3	תסייע	סייע	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+4-5	הממשלה	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+6	לפחות	לפחות	ADV	ADV	_	8	advmod	_	_
+7-8	לסטודנטים	_	_	_	_	_	_	_	_
+7	ל	ל	ADP	ADP	_	8	case	_	_
+8	סטודנטים	סטודנט	NOUN	NOUN	Gender=Masc|Number=Plur	3	obl	_	_
+9	נזקקים	נזקק	ADJ	ADJ	Gender=Masc|Number=Plur	8	amod	_	_
+10-11	במתן	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	מתן	מתן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	obl	_	_
+12	מענקים	מענק	NOUN	NOUN	Gender=Masc|Number=Plur	11	compound:smixut	_	_
+13-14	והלוואות	_	_	_	_	_	_	_	SpaceAfter=No
+13	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
+14	הלוואות	הלוואה	NOUN	NOUN	Gender=Fem|Number=Plur	12	conj	_	_
+15	?	?	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 3677-3929
+# sent_id = 4639
+# text = הסיוע לסטודנט צריך להיות ישיר ונפרד לחלוטין מהסיוע לאוניברסיטה, והוא צריך להינתן לכל ציבור הסטודנטים בארץ, בלי שים לב למוסד בו הם לומדים.
+1-2	הסיוע	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	סיוע	סיוע	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj	_	_
+3-5	לסטודנט	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	5	case	_	_
+4	ה_	ה	DET	DET	PronType=Art|Definite=Def	5	det	_	_
+5	סטודנט	סטודנט	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_
+6	צריך	צריך	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	7	aux	_	_
+7	להיות	היה	AUX	AUX	Polarity=Pos|VerbForm=Inf|VerbType=Cop	0	root	_	_
+8	ישיר	ישיר	ADJ	ADJ	Gender=Masc|Number=Sing	7	obl	_	_
+9-10	ונפרד	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+10	נפרד	נפרד	ADJ	ADJ	Gender=Masc|Number=Sing	8	conj	_	_
+11	לחלוטין	לחלוטין	ADV	ADV	_	10	advmod	_	_
+12-14	מהסיוע	_	_	_	_	_	_	_	_
+12	מ	מ	ADP	ADP	_	14	case	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	סיוע	סיוע	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
+15-17	לאוניברסיטה	_	_	_	_	_	_	_	SpaceAfter=No
+15	ל	ל	ADP	ADP	_	17	case	_	_
+16	ה_	ה	DET	DET	PronType=Art|Definite=Def	17	det	_	_
+17	אוניברסיטה	אוניברסיטה	NOUN	NOUN	Gender=Fem|Number=Sing	14	nmod	_	_
+18	,	,	PUNCT	PUNCT	_	22	punct	_	_
+19-20	והוא	_	_	_	_	_	_	_	_
+19	ו	ו	CCONJ	CCONJ	_	22	cc	_	_
+20	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+21	צריך	צריך	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	22	aux	_	_
+22	להינתן	ניתן	VERB	VERB	HebBinyan=NIFAL|VerbForm=Inf|Voice=Mid	6	conj	_	_
+23-24	לכל	_	_	_	_	_	_	_	_
+23	ל	ל	ADP	ADP	_	25	case	_	_
+24	כל	כול	DET	DET	Definite=Cons	25	det	_	_
+25	ציבור	ציבור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	22	obl	_	_
+26-27	הסטודנטים	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	סטודנטים	סטודנט	NOUN	NOUN	Gender=Masc|Number=Plur	25	compound:smixut	_	_
+28-30	בארץ	_	_	_	_	_	_	_	SpaceAfter=No
+28	ב	ב	ADP	ADP	_	30	case	_	_
+29	ה_	ה	DET	DET	PronType=Art|Definite=Def	30	det	_	_
+30	ארץ	ארץ	NOUN	NOUN	Gender=Fem|Number=Sing	27	nmod	_	_
+31	,	,	PUNCT	PUNCT	_	33	punct	_	_
+32	בלי	בלי	ADP	ADP	_	33	case	_	_
+33	שים	שים	NOUN	NOUN	Definite=Cons	22	obl	_	_
+34	לב	לב	NOUN	NOUN	Gender=Masc|Number=Sing	33	compound:smixut	_	_
+35-37	למוסד	_	_	_	_	_	_	_	_
+35	ל	ל	ADP	ADP	_	37	case	_	_
+36	ה_	ה	DET	DET	PronType=Art|Definite=Def	37	det	_	_
+37	מוסד	מוסד	NOUN	NOUN	Gender=Masc|Number=Sing	33	nmod	_	_
+38-39	בו	_	_	_	_	_	_	_	_
+38	ב	ב	ADP	ADP	_	39	case	_	_
+39	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	41	obl	_	_
+40	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	41	nsubj	_	_
+41	לומדים	למד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	37	acl:relcl	_	SpaceAfter=No
+42	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 3932-4168
+# sent_id = 4640
+# text = אך האמת היא כי שכר הלימוד האפקטיווי הממוצע לכלל לומדי המשפטים באוניברסיטאות גבוה הרבה יותר משכר הלימוד הרשמי ומזה הנהוג במכללות.
+1	אך	אך	CCONJ	CCONJ	_	21	cc	_	_
+2-3	האמת	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	אמת	אמת	NOUN	NOUN	Gender=Fem|Number=Sing	21	nsubj	_	_
+4	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	21	cop	_	_
+5	כי	כי	SCONJ	SCONJ	_	21	mark	_	_
+6	שכר	שכר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	21	nsubj	_	_
+7-8	הלימוד	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	לימוד	לימוד	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+9-10	האפקטיווי	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	אפקטיווי	אפקטיבי	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	_
+11-12	הממוצע	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	ממוצע	ממוצע	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	_
+13-14	לכלל	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	כלל	כלל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	nmod	_	_
+15	לומדי	למד	VERB	VERB	Definite=Cons|Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	14	compound:smixut	_	_
+16-17	המשפטים	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	משפטים	משפט	NOUN	NOUN	Gender=Masc|Number=Plur	15	compound:smixut	_	_
+18-20	באוניברסיטאות	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	20	case	_	_
+19	ה_	ה	DET	DET	PronType=Art|Definite=Def	20	det	_	_
+20	אוניברסיטאות	אוניברסיטה	NOUN	NOUN	Gender=Fem|Number=Plur	14	nmod	_	_
+21	גבוה	גבוה	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
+22	הרבה	הרבה	ADV	ADV	_	21	advmod	_	_
+23	יותר	יותר	ADV	ADV	_	21	advmod	_	_
+24-25	משכר	_	_	_	_	_	_	_	_
+24	מ	מ	ADP	ADP	_	25	case	_	_
+25	שכר	שכר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	21	obl	_	_
+26-27	הלימוד	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	לימוד	לימוד	NOUN	NOUN	Gender=Masc|Number=Sing	25	compound:smixut	_	_
+28-29	הרשמי	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	רשמי	רשמי	ADJ	ADJ	Gender=Masc|Number=Sing	25	amod	_	_
+30-32	ומזה	_	_	_	_	_	_	_	_
+30	ו	ו	CCONJ	CCONJ	_	32	cc	_	_
+31	מ	מ	ADP	ADP	_	32	case	_	_
+32	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	25	conj	_	_
+33-34	הנהוג	_	_	_	_	_	_	_	_
+33	ה	ה	SCONJ	SCONJ	_	34	mark	_	_
+34	נהוג	נהג	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	32	acl:relcl	_	_
+35-37	במכללות	_	_	_	_	_	_	_	SpaceAfter=No
+35	ב	ב	ADP	ADP	_	37	case	_	_
+36	ה_	ה	DET	DET	PronType=Art|Definite=Def	37	det	_	_
+37	מכללות	מכללה	NOUN	NOUN	Gender=Fem|Number=Plur	34	obl	_	_
+38	.	.	PUNCT	PUNCT	_	21	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 4170-4367
+# sent_id = 4641
+# text = לשכר הלימוד צריך להוסיף את ההכנה לקורסים המכינים לבחינות הפסיכומטריות, ולבזבוז השנים הקודם לקבלה לפקולטה.
+1-2	לשכר	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	שכר	שכר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	obl	_	_
+3-4	הלימוד	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	לימוד	לימוד	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+5	צריך	צריך	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	6	aux	_	_
+6	להוסיף	הוסיף	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	0	root	_	_
+7	את	את	ADP	ADP	Case=Acc	9	case	_	_
+8-9	ההכנה	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	הכנה	הכנה	NOUN	NOUN	Gender=Fem|Number=Sing	6	obj	_	_
+10-12	לקורסים	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	12	case	_	_
+11	ה_	ה	DET	DET	PronType=Art|Definite=Def	12	det	_	_
+12	קורסים	קורס	NOUN	NOUN	Gender=Masc|Number=Plur	9	nmod	_	_
+13-14	המכינים	_	_	_	_	_	_	_	_
+13	ה	ה	SCONJ	SCONJ	_	14	mark	_	_
+14	מכינים	הכין	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	12	acl:relcl	_	_
+15-17	לבחינות	_	_	_	_	_	_	_	_
+15	ל	ל	ADP	ADP	_	17	case	_	_
+16	ה_	ה	DET	DET	PronType=Art|Definite=Def	17	det	_	_
+17	בחינות	בחינה	NOUN	NOUN	Gender=Fem|Number=Plur	14	obl	_	_
+18-19	הפסיכומטריות	_	_	_	_	_	_	_	SpaceAfter=No
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	פסיכומטריות	פסיכומטרי	ADJ	ADJ	Gender=Fem|Number=Plur	17	amod	_	_
+20	,	,	PUNCT	PUNCT	_	23	punct	_	_
+21-23	ולבזבוז	_	_	_	_	_	_	_	_
+21	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
+22	ל	ל	ADP	ADP	_	23	case	_	_
+23	בזבוז	בזבוז	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	conj	_	_
+24-25	השנים	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	23	compound:smixut	_	_
+26-27	הקודם	_	_	_	_	_	_	_	_
+26	ה	ה	SCONJ	SCONJ	_	27	mark	_	_
+27	קודם	קדם	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	23	acl:relcl	_	_
+28-30	לקבלה	_	_	_	_	_	_	_	_
+28	ל	ל	ADP	ADP	_	30	case	_	_
+29	ה_	ה	DET	DET	PronType=Art|Definite=Def	30	det	_	_
+30	קבלה	קבלה	NOUN	NOUN	Gender=Fem|Number=Sing	27	obl	_	_
+31-33	לפקולטה	_	_	_	_	_	_	_	SpaceAfter=No
+31	ל	ל	ADP	ADP	_	33	case	_	_
+32	ה_	ה	DET	DET	PronType=Art|Definite=Def	33	det	_	_
+33	פקולטה	פקולטה	NOUN	NOUN	Gender=Fem|Number=Sing	30	nmod	_	_
+34	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 4369-4508
+# sent_id = 4642
+# text = מאות נאלצו ללמוד מקצועות אחרים מתוך תקווה שיתקבלו, יום אחד, ללימודי משפטים.
+1	מאות	מאה	NUM	NUM	Gender=Fem|Number=Plur	2	nsubj	_	_
+2	נאלצו	נאלץ	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+3	ללמוד	למד	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	מקצועות	מקצוע	NOUN	NOUN	Gender=Masc|Number=Plur	3	obj	_	_
+5	אחרים	אחר	ADJ	ADJ	Gender=Masc|Number=Plur	4	amod	_	_
+6	מתוך	מתוך	ADP	ADP	_	7	case	_	_
+7	תקווה	תקווה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl	_	_
+8-9	שיתקבלו	_	_	_	_	_	_	_	SpaceAfter=No
+8	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
+9	יתקבלו	התקבל	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Fut	7	acl:relcl	_	_
+10	,	,	PUNCT	PUNCT	_	11	punct	_	_
+11	יום	יום	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl:tmod	_	_
+12	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	11	nummod	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	15	punct	_	_
+14-15	ללימודי	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	לימודי	לימודים	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	9	obl	_	_
+16	משפטים	משפט	NOUN	NOUN	Gender=Masc|Number=Plur	15	compound:smixut	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 4510-4743
+# sent_id = 4643
+# text = הסטטיסטיקה היא מדהימה: 22.5% מתלמידי המשפטים במכללה הם בעלי תואר אקדמי במקצועות אחרים, ושיעור דומה למד לימודים אקדמיים חלקיים.
+1-2	הסטטיסטיקה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	סטטיסטיקה	סטטיסטיקה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	4	cop	_	_
+4	מדהימה	מדהים	ADJ	ADJ	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	PUNCT	_	16	punct	_	_
+6	22.5	22.5	NUM	NUM	_	7	nummod	_	SpaceAfter=No
+7	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	16	nsubj	_	_
+8-9	מתלמידי	_	_	_	_	_	_	_	_
+8	מ	מ	ADP	ADP	_	9	case	_	_
+9	תלמידי	תלמיד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	7	nmod	_	_
+10-11	המשפטים	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	משפטים	משפט	NOUN	NOUN	Gender=Masc|Number=Plur	9	compound:smixut	_	_
+12-14	במכללה	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	14	case	_	_
+13	ה_	ה	DET	DET	PronType=Art|Definite=Def	14	det	_	_
+14	מכללה	מכללה	NOUN	NOUN	Gender=Fem|Number=Sing	9	nmod	_	_
+15	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|Polarity=Pos	16	cop	_	_
+16	בעלי	בעל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	parataxis	_	_
+17	תואר	תואר	NOUN	NOUN	Gender=Masc|Number=Sing	16	compound:smixut	_	_
+18	אקדמי	אקדמי	ADJ	ADJ	Gender=Masc|Number=Sing	17	amod	_	_
+19-20	במקצועות	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	מקצועות	מקצוע	NOUN	NOUN	Gender=Masc|Number=Plur	17	nmod	_	_
+21	אחרים	אחר	ADJ	ADJ	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	PUNCT	_	26	punct	_	_
+23-24	ושיעור	_	_	_	_	_	_	_	_
+23	ו	ו	CCONJ	CCONJ	_	26	cc	_	_
+24	שיעור	שיעור	NOUN	NOUN	Gender=Masc|Number=Sing	26	nsubj	_	_
+25	דומה	דומה	ADJ	ADJ	Gender=Masc|Number=Sing	24	amod	_	_
+26	למד	למד	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	16	conj	_	_
+27	לימודים	לימודים	NOUN	NOUN	Gender=Masc|Number=Plur	26	obj	_	_
+28	אקדמיים	אקדמי	ADJ	ADJ	Gender=Masc|Number=Plur	27	amod	_	_
+29	חלקיים	חלקי	ADJ	ADJ	Gender=Masc|Number=Plur	27	amod	_	SpaceAfter=No
+30	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 4745-4873
+# sent_id = 4644
+# text = כמחצית התלמידים למדו, אפוא, שנות לימוד ארוכות ויקרות בדרך ליעד הנכסף.
+1-2	כמחצית	_	_	_	_	_	_	_	_
+1	כ	כ	ADP	ADP	_	4	case	_	_
+2	מחצית	מחצית	DET	DET	Definite=Cons	4	det	_	_
+3-4	התלמידים	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	תלמידים	תלמיד	NOUN	NOUN	Gender=Masc|Number=Plur	5	nsubj	_	_
+5	למדו	למד	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	7	punct	_	_
+7	אפוא	אפוא	ADV	ADV	_	5	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	9	punct	_	_
+9	שנות	שנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	5	obj	_	_
+10	לימוד	לימוד	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound:smixut	_	_
+11	ארוכות	ארוך	ADJ	ADJ	Gender=Fem|Number=Plur	9	amod	_	_
+12-13	ויקרות	_	_	_	_	_	_	_	_
+12	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
+13	יקרות	יקר	ADJ	ADJ	Gender=Fem|Number=Plur	11	conj	_	_
+14-16	בדרך	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	16	case	_	_
+15	ה_	ה	DET	DET	PronType=Art|Definite=Def	16	det	_	_
+16	דרך	דרך	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
+17-19	ליעד	_	_	_	_	_	_	_	_
+17	ל	ל	ADP	ADP	_	19	case	_	_
+18	ה_	ה	DET	DET	PronType=Art|Definite=Def	19	det	_	_
+19	יעד	יעד	NOUN	NOUN	Gender=Masc|Number=Sing	16	nmod	_	_
+20-21	הנכסף	_	_	_	_	_	_	_	SpaceAfter=No
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	נכסף	נכסף	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	_
+22	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 4875-4987
+# sent_id = 4645
+# text = שום לימוד אינו בזבוז, אך האם מישהו מודד מחיר זה לסטודנט ולמשק?
+1	שום	שום	DET	DET	Definite=Cons	2	det	_	_
+2	לימוד	לימוד	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	אינו	אינו	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	4	aux	_	_
+4	בזבוז	בזבוז	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	6	punct	_	_
+6	אך	אך	CCONJ	CCONJ	_	4	cc	_	_
+7	האם	האם	ADV	ADV	PronType=Int	9	mark	_	_
+8	מישהו	מישהו	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj	_	_
+9	מודד	מדד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	4	dep	_	_
+10	מחיר	מחיר	NOUN	NOUN	Gender=Masc|Number=Sing	9	obj	_	_
+11	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	det	_	_
+12-14	לסטודנט	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	_	14	case	_	_
+13	ה_	ה	DET	DET	PronType=Art|Definite=Def	14	det	_	_
+14	סטודנט	סטודנט	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	_
+15-18	ולמשק	_	_	_	_	_	_	_	SpaceAfter=No
+15	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+16	ל	ל	ADP	ADP	_	18	case	_	_
+17	ה_	ה	DET	DET	PronType=Art|Definite=Def	18	det	_	_
+18	משק	משק	NOUN	NOUN	Gender=Masc|Number=Sing	14	conj	_	_
+19	?	?	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 4990-5158
+# sent_id = 4646
+# text = שאל את התלמיד עצמו מה יותר זול ההשקעה בלימודים שנכפו עליו, או תשלום נוסף עבור לימודים כחפצו.
+1	שאל	שאל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Mood=Imp|Number=Sing|Person=2|Voice=Act	0	root	_	_
+2	את	את	ADP	ADP	Case=Acc	4	case	_	_
+3-4	התלמיד	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	תלמיד	תלמיד	NOUN	NOUN	Gender=Masc|Number=Sing	1	obj	_	_
+5	עצמו	עצמו	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Emp|Reflex=Yes	4	nmod	_	_
+6	מה	מה	PRON	PRON	PronType=Int	8	nsubj	_	_
+7	יותר	יותר	ADV	ADV	_	8	advmod	_	_
+8	זול	זול	ADJ	ADJ	Gender=Masc|Number=Sing	1	xcomp	_	_
+9-10	ההשקעה	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	השקעה	השקעה	NOUN	NOUN	Gender=Fem|Number=Sing	8	dep	_	HebSource=ConvUncertainHead
+11-12	בלימודים	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	לימודים	לימודים	NOUN	NOUN	Gender=Masc|Number=Plur	10	nmod	_	_
+13-14	שנכפו	_	_	_	_	_	_	_	_
+13	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
+14	נכפו	נכפה	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	12	acl:relcl	_	_
+15-16	עליו	_	_	_	_	_	_	_	SpaceAfter=No
+15	על	על	ADP	ADP	_	16	case	_	_
+16	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obl	_	_
+17	,	,	PUNCT	PUNCT	_	19	punct	_	_
+18	או	או	CCONJ	CCONJ	_	19	cc	_	_
+19	תשלום	תשלום	NOUN	NOUN	Gender=Masc|Number=Sing	10	conj	_	_
+20	נוסף	נוסף	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	_
+21	עבור	עבור	ADP	ADP	_	22	case	_	_
+22	לימודים	לימודים	NOUN	NOUN	Gender=Masc|Number=Plur	19	nmod	_	_
+23-26	כחפצו	_	_	_	_	_	_	_	SpaceAfter=No
+23	כ	כ	ADP	ADP	_	24	case	_	_
+24	חפץ	חפץ	NOUN	NOUN	Gender=Masc|Number=Sing	22	nmod	_	_
+25	_של_	של	ADP	ADP	Case=Gen	26	case:gen	_	_
+26	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+27	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 5160-5381
+# sent_id = 4647
+# text = בניגוד מוחלט לטענות הדמגוגיות, תלמידי המכללה למינהל מייצגים חתך חברתי מגוון וצודק יותר מאשר התלמידים בפקולטות הרגילות.
+1-2	בניגוד	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	ניגוד	ניגוד	NOUN	NOUN	Gender=Masc|Number=Sing	15	obl	_	_
+3	מוחלט	מוחלט	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+4-6	לטענות	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	6	case	_	_
+5	ה_	ה	DET	DET	PronType=Art|Definite=Def	6	det	_	_
+6	טענות	טענה	NOUN	NOUN	Gender=Fem|Number=Plur	2	nmod	_	_
+7-8	הדמגוגיות	_	_	_	_	_	_	_	SpaceAfter=No
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	דמגוגיות	דמגוגי	ADJ	ADJ	Gender=Fem|Number=Plur	6	amod	_	_
+9	,	,	PUNCT	PUNCT	_	2	punct	_	_
+10	תלמידי	תלמיד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	15	nsubj	_	_
+11-12	המכללה	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	מכללה	מכללה	NOUN	NOUN	Gender=Fem|Number=Sing	10	compound:smixut	_	_
+13-14	למינהל	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	מינהל	מנהל	NOUN	NOUN	Gender=Masc|Number=Sing	12	nmod	_	_
+15	מייצגים	ייצג	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+16	חתך	חתך	NOUN	NOUN	Gender=Masc|Number=Sing	15	obj	_	_
+17	חברתי	חברתי	ADJ	ADJ	Gender=Masc|Number=Sing	16	amod	_	_
+18	מגוון	מגוון	ADJ	ADJ	Gender=Masc|Number=Sing	16	amod	_	_
+19-20	וצודק	_	_	_	_	_	_	_	_
+19	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
+20	צודק	צדק	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	18	conj	_	_
+21	יותר	יותר	ADV	ADV	_	18	advmod	_	_
+22	מאשר	מאשר	ADP	ADP	_	24	case	_	_
+23-24	התלמידים	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	תלמידים	תלמיד	NOUN	NOUN	Gender=Masc|Number=Plur	18	obl	_	_
+25-27	בפקולטות	_	_	_	_	_	_	_	_
+25	ב	ב	ADP	ADP	_	27	case	_	_
+26	ה_	ה	DET	DET	PronType=Art|Definite=Def	27	det	_	_
+27	פקולטות	פקולטה	NOUN	NOUN	Gender=Fem|Number=Plur	24	nmod	_	_
+28-29	הרגילות	_	_	_	_	_	_	_	SpaceAfter=No
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	רגילות	רגיל	ADJ	ADJ	Gender=Fem|Number=Plur	27	amod	_	_
+30	.	.	PUNCT	PUNCT	_	15	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 5383-5499
+# sent_id = 4648
+# text = זאת משום שסף הציון הנדרש בבגרות הוא נמוך יותר, אף כי עדיין גבוה.
+1	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	0	root	_	_
+2	משום	משום	SCONJ	SCONJ	_	13	mark	_	_
+3-4	שסף	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	2	fixed	_	_
+4	סף	סף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	nsubj	_	_
+5-6	הציון	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	ציון	ציון	NOUN	NOUN	Gender=Masc|Number=Sing	4	compound:smixut	_	_
+7-8	הנדרש	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	נדרש	נדרש	ADJ	ADJ	Gender=Masc|Number=Sing	4	amod	_	_
+9-11	בבגרות	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	11	case	_	_
+10	ה_	ה	DET	DET	PronType=Art|Definite=Def	11	det	_	_
+11	בגרות	בגרות	NOUN	NOUN	Gender=Fem|Number=Sing	4	nmod	_	_
+12	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	13	cop	_	_
+13	נמוך	נמוך	ADJ	ADJ	Gender=Masc|Number=Sing	1	advcl	_	HebSource=ConvUncertainHead
+14	יותר	יותר	ADV	ADV	_	13	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	19	punct	_	_
+16	אף	אף	ADP	ADP	_	19	case	_	_
+17	כי	כי	SCONJ	SCONJ	_	19	mark	_	_
+18	עדיין	עדיין	ADV	ADV	_	19	advmod	_	_
+19	גבוה	גבוה	ADJ	ADJ	Gender=Masc|Number=Sing	13	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	1	punct	_	HebSource=ConvUncertainHead
+
+# doc_id = htb:175
+# doc_range = 5501-5736
+# sent_id = 4649
+# text = בביה"ס למשפטים של המכללה למינהל, התפלגות התלמידים לפי ארץ מוצא האב היא כדלקמן: ישראל: 53.8%, אירופה-ארה"ב: 23%, ואסיה-אפריקה 32.3%.
+1-2	בביה"ס	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	ביה"ס	בי"ס	NOUN	NOUN	Abbr=Yes|Gender=Masc	22	nmod	_	_
+3-4	למשפטים	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	4	case	_	_
+4	משפטים	משפט	NOUN	NOUN	Gender=Masc|Number=Plur	2	nmod	_	_
+5	של	של	ADP	ADP	Case=Gen	7	case	_	_
+6-7	המכללה	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	מכללה	מכללה	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	_
+8-9	למינהל	_	_	_	_	_	_	_	SpaceAfter=No
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	מינהל	מנהל	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
+10	,	,	PUNCT	PUNCT	_	2	punct	_	_
+11	התפלגות	התפלגות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	22	nsubj	_	_
+12-13	התלמידים	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	תלמידים	תלמיד	NOUN	NOUN	Gender=Masc|Number=Plur	11	compound:smixut	_	_
+14	לפי	לפי	ADP	ADP	_	15	case	_	_
+15	ארץ	ארץ	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	11	nmod	_	_
+16	מוצא	מוצא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	15	compound:smixut	_	_
+17-18	האב	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	אב	אב	NOUN	NOUN	Gender=Masc|Number=Sing	16	compound:smixut	_	_
+19	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	22	cop	_	_
+20	כדלקמן	כדלקמן	ADV	ADV	_	22	advmod	_	SpaceAfter=No
+21	:	:	PUNCT	PUNCT	_	20	punct	_	_
+22	ישראל	ישראל	PROPN	PROPN	_	0	root	_	SpaceAfter=No
+23	:	:	PUNCT	PUNCT	_	25	punct	_	_
+24	53.8	53.8	NUM	NUM	_	25	nummod	_	SpaceAfter=No
+25	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	22	nummod	_	SpaceAfter=No
+26	,	,	PUNCT	PUNCT	_	27	punct	_	_
+27	אירופה	אירופה	PROPN	PROPN	_	22	conj	_	SpaceAfter=No
+28	-	-	PUNCT	PUNCT	_	29	punct	_	SpaceAfter=No
+29	ארה"ב	ארה"ב	PROPN	PROPN	Abbr=Yes	27	nmod	_	SpaceAfter=No
+30	:	:	PUNCT	PUNCT	_	32	punct	_	_
+31	23	23	NUM	NUM	_	32	nummod	_	SpaceAfter=No
+32	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	27	nummod	_	SpaceAfter=No
+33	,	,	PUNCT	PUNCT	_	35	punct	_	_
+34-35	ואסיה	_	_	_	_	_	_	_	SpaceAfter=No
+34	ו	ו	CCONJ	CCONJ	_	35	cc	_	_
+35	אסיה	אסיה	PROPN	PROPN	_	22	conj	_	_
+36	-	-	PUNCT	PUNCT	_	37	punct	_	SpaceAfter=No
+37	אפריקה	אפריקה	PROPN	PROPN	_	35	nmod	_	_
+38	32.3	32.3	NUM	NUM	_	39	nummod	_	SpaceAfter=No
+39	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	35	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	PUNCT	_	22	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 5742-5935
+# sent_id = 4650
+# text = שיעור יוצאי אפריקה-אסיה במכללה הפרטית, "לעשירים בלבד", עולה איפוא על שעורם הדל והנמוך בפקולטות הרגילות.
+1	שיעור	שיעור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	19	nsubj	_	_
+2	יוצאי	יוצא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	1	compound:smixut	_	_
+3	אפריקה	אפריקה	PROPN	PROPN	_	2	compound:smixut	_	SpaceAfter=No
+4	-	-	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+5	אסיה	אסיה	PROPN	PROPN	_	3	nmod	_	_
+6-8	במכללה	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	8	case	_	_
+7	ה_	ה	DET	DET	PronType=Art|Definite=Def	8	det	_	_
+8	מכללה	מכללה	NOUN	NOUN	Gender=Fem|Number=Sing	1	nmod	_	_
+9-10	הפרטית	_	_	_	_	_	_	_	SpaceAfter=No
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	פרטית	פרטי	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	_
+11	,	,	PUNCT	PUNCT	_	15	punct	_	_
+12	"	"	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
+13-15	לעשירים	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	15	case	_	_
+14	ה_	ה	DET	DET	PronType=Art|Definite=Def	15	det	_	_
+15	עשירים	עשיר	ADJ	ADJ	Gender=Masc|Number=Plur	8	nmod	_	_
+16	בלבד	בלבד	ADV	ADV	_	15	advmod	_	SpaceAfter=No
+17	"	"	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	1	punct	_	_
+19	עולה	עלה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+20	איפוא	אפוא	ADV	ADV	_	19	advmod	_	_
+21	על	על	ADP	ADP	_	22	case	_	_
+22	שעורם	שעורם	NOUN	NOUN	_	19	obl	_	_
+23-24	הדל	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	דל	דל	ADJ	ADJ	Gender=Masc|Number=Sing	22	amod	_	_
+25-27	והנמוך	_	_	_	_	_	_	_	_
+25	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	נמוך	נמוך	ADJ	ADJ	Gender=Masc|Number=Sing	24	conj	_	_
+28-30	בפקולטות	_	_	_	_	_	_	_	_
+28	ב	ב	ADP	ADP	_	30	case	_	_
+29	ה_	ה	DET	DET	PronType=Art|Definite=Def	30	det	_	_
+30	פקולטות	פקולטה	NOUN	NOUN	Gender=Fem|Number=Plur	22	nmod	_	_
+31-32	הרגילות	_	_	_	_	_	_	_	SpaceAfter=No
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	רגילות	רגיל	ADJ	ADJ	Gender=Fem|Number=Plur	30	amod	_	_
+33	.	.	PUNCT	PUNCT	_	19	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 5937-6352
+# sent_id = 4651
+# text = מי שמתנגד לרפורמה זו שתחילתה במשפטים, המשכה בהנדסאים ובחינוך הטכנולוגי וסופה במערכת כולה, מבקש אפוא להקפיא מצב בלתי נסבל מבחינה חברתית ולמנוע מאלפי תלמידים יוצאי אסיה אפריקה, לקבל את זכותם המגיעה להם לנסות כוחם בהשכלה גבוהה.
+1	מי	מי	PRON	PRON	PronType=Int	36	nsubj	_	_
+2-3	שמתנגד	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	3	mark	_	_
+3	מתנגד	התנגד	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	1	acl:relcl	_	_
+4-5	לרפורמה	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	רפורמה	רפורמה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+6	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	5	det	_	_
+7-10	שתחילתה	_	_	_	_	_	_	_	_
+7	ש	ש	SCONJ	SCONJ	_	12	mark	_	_
+8	תחילה	תחילה	NOUN	NOUN	Gender=Fem|Number=Sing	12	nsubj	_	_
+9	_של_	של	ADP	ADP	Case=Gen	10	case:gen	_	_
+10	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+11-12	במשפטים	_	_	_	_	_	_	_	SpaceAfter=No
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	משפטים	משפט	NOUN	NOUN	Gender=Masc|Number=Plur	5	acl:relcl	_	_
+13	,	,	PUNCT	PUNCT	_	18	punct	_	_
+14-16	המשכה	_	_	_	_	_	_	_	_
+14	המשך	המשך	NOUN	NOUN	Gender=Masc|Number=Sing	18	nsubj	_	_
+15	_של_	של	ADP	ADP	Case=Gen	16	case:gen	_	_
+16	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+17-18	בהנדסאים	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	_	18	case	_	_
+18	הנדסאים	הנדסאים	NOUN	NOUN	_	12	conj	_	_
+19-22	ובחינוך	_	_	_	_	_	_	_	_
+19	ו	ו	CCONJ	CCONJ	_	22	cc	_	_
+20	ב	ב	ADP	ADP	_	22	case	_	_
+21	ה_	ה	DET	DET	PronType=Art|Definite=Def	22	det	_	_
+22	חינוך	חינוך	NOUN	NOUN	Gender=Masc|Number=Sing	18	conj	_	_
+23-24	הטכנולוגי	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	טכנולוגי	טכנולוגי	ADJ	ADJ	Gender=Masc|Number=Sing	22	amod	_	_
+25-28	וסופה	_	_	_	_	_	_	_	_
+25	ו	ו	CCONJ	CCONJ	_	31	cc	_	_
+26	סוף	סוף	NOUN	NOUN	Gender=Masc|Number=Sing	31	nsubj	_	_
+27	_של_	של	ADP	ADP	Case=Gen	28	case:gen	_	_
+28	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+29-31	במערכת	_	_	_	_	_	_	_	_
+29	ב	ב	ADP	ADP	_	31	case	_	_
+30	ה_	ה	DET	DET	PronType=Art|Definite=Def	31	det	_	_
+31	מערכת	מערכת	NOUN	NOUN	Gender=Fem|Number=Sing	12	conj	_	_
+32-34	כולה	_	_	_	_	_	_	_	SpaceAfter=No
+32	כול	כול	NOUN	NOUN	Gender=Masc|Number=Sing	31	amod	_	_
+33	_של_	של	ADP	ADP	Case=Gen	34	case:gen	_	_
+34	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+35	,	,	PUNCT	PUNCT	_	1	punct	_	_
+36	מבקש	ביקש	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+37	אפוא	אפוא	ADV	ADV	_	36	advmod	_	_
+38	להקפיא	הקפיא	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	36	xcomp	_	_
+39	מצב	מצב	NOUN	NOUN	Gender=Masc|Number=Sing	38	obj	_	_
+40	בלתי	בלתי	ADV	ADV	Prefix=Yes	41	compound:affix	_	_
+41	נסבל	נסבל	ADJ	ADJ	Gender=Masc|Number=Sing	39	amod	_	_
+42-43	מבחינה	_	_	_	_	_	_	_	_
+42	מ	מ	ADP	ADP	_	43	case	_	_
+43	בחינה	בחינה	NOUN	NOUN	Gender=Fem|Number=Sing	41	obl	_	_
+44	חברתית	חברתי	ADJ	ADJ	Gender=Fem|Number=Sing	43	amod	_	_
+45-46	ולמנוע	_	_	_	_	_	_	_	_
+45	ו	ו	CCONJ	CCONJ	_	46	cc	_	_
+46	למנוע	מנע	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	38	conj	_	_
+47-48	מאלפי	_	_	_	_	_	_	_	_
+47	מ	מ	ADP	ADP	_	49	case	_	_
+48	אלפי	אלפי	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	49	nummod	_	_
+49	תלמידים	תלמיד	NOUN	NOUN	Gender=Masc|Number=Plur	46	obl	_	_
+50	יוצאי	יוצא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	49	acl	_	_
+51	אסיה	אסיה	PROPN	PROPN	_	50	compound:smixut	_	_
+52	אפריקה	אפריקה	PROPN	PROPN	_	51	nmod	_	HebSource=ConvUncertainLabel|SpaceAfter=No
+53	,	,	PUNCT	PUNCT	_	54	punct	_	_
+54	לקבל	קיבל	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	46	dep	_	HebSource=ConvUncertainHead
+55	את	את	ADP	ADP	Case=Acc	56	case	_	_
+56-58	זכותם	_	_	_	_	_	_	_	_
+56	זכות	זכות	NOUN	NOUN	Gender=Fem|Number=Sing	54	obj	_	_
+57	_של_	של	ADP	ADP	Case=Gen	58	case:gen	_	_
+58	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	56	nmod:poss	_	_
+59-60	המגיעה	_	_	_	_	_	_	_	_
+59	ה	ה	SCONJ	SCONJ	_	60	mark	_	_
+60	מגיעה	הגיע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	56	acl:relcl	_	_
+61-62	להם	_	_	_	_	_	_	_	_
+61	ל	ל	ADP	ADP	_	62	case	_	_
+62	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	60	obl	_	_
+63	לנסות	ניסה	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	56	acl	_	_
+64-66	כוחם	_	_	_	_	_	_	_	_
+64	כוח	כוח	NOUN	NOUN	Gender=Masc|Number=Sing	63	obj	_	_
+65	_של_	של	ADP	ADP	Case=Gen	66	case:gen	_	_
+66	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	64	nmod:poss	_	_
+67-68	בהשכלה	_	_	_	_	_	_	_	_
+67	ב	ב	ADP	ADP	_	68	case	_	_
+68	השכלה	השכלה	NOUN	NOUN	Gender=Fem|Number=Sing	63	obl	_	_
+69	גבוהה	גבוה	ADJ	ADJ	Gender=Fem|Number=Sing	68	amod	_	SpaceAfter=No
+70	.	.	PUNCT	PUNCT	_	36	punct	_	_
+
+# doc_id = htb:175
+# doc_range = 6354-6791
+# sent_id = 4652
+# text = כמרצה במכללה למינהל ואני משוכנע שהדברים נכונים גם לגבי המכללות האחרות אני יכול לומר דבר אחד: מי שמנע מתלמידים אלה את זכותם ללמוד מקצוע כחפצם וכרצונם עשה מעשה שאין לו מחילה ואין לו כפרה לא מבחינה אקדמית, לא מבחינה חברתית ולא מבחינה לאומית.
+1-2	כמרצה	_	_	_	_	_	_	_	_
+1	כ	כ	ADP	ADP	_	2	case	_	_
+2	מרצה	הרצה	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	23	obl	_	_
+3-5	במכללה	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	5	case	_	_
+4	ה_	ה	DET	DET	PronType=Art|Definite=Def	5	det	_	_
+5	מכללה	מכללה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl	_	_
+6-7	למינהל	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	מינהל	מנהל	NOUN	NOUN	Gender=Masc|Number=Sing	5	nmod	_	_
+8-9	ואני	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+9	אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	10	nsubj:pass	_	_
+10	משוכנע	שוכנע	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	23	parataxis	_	_
+11-13	שהדברים	_	_	_	_	_	_	_	_
+11	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	דברים	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	14	nsubj	_	_
+14	נכונים	נכון	ADJ	ADJ	Gender=Masc|Number=Plur	10	ccomp	_	_
+15	גם	גם	ADV	ADV	_	18	advmod	_	_
+16	לגבי	לגבי	ADP	ADP	_	18	case	_	_
+17-18	המכללות	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	מכללות	מכללה	NOUN	NOUN	Gender=Fem|Number=Plur	14	obl	_	_
+19-20	האחרות	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	אחרות	אחר	ADJ	ADJ	Gender=Fem|Number=Plur	18	amod	_	_
+21	אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+22	יכול	יכול	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part|VerbType=Mod	23	aux	_	_
+23	לומר	אמר	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	0	root	_	_
+24	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Sing	23	obj	_	_
+25	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	24	nummod	_	SpaceAfter=No
+26	:	:	PUNCT	PUNCT	_	48	punct	_	_
+27	מי	מי	PRON	PRON	PronType=Int	48	nsubj	_	_
+28-29	שמנע	_	_	_	_	_	_	_	_
+28	ש	ש	SCONJ	SCONJ	_	29	mark	_	_
+29	מנע	מנע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	27	acl:relcl	_	_
+30-31	מתלמידים	_	_	_	_	_	_	_	_
+30	מ	מ	ADP	ADP	_	31	case	_	_
+31	תלמידים	תלמיד	NOUN	NOUN	Gender=Masc|Number=Plur	29	obl	_	_
+32	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	31	det	_	_
+33	את	את	ADP	ADP	Case=Acc	34	case	_	_
+34-36	זכותם	_	_	_	_	_	_	_	_
+34	זכות	זכות	NOUN	NOUN	Gender=Fem|Number=Sing	29	obj	_	_
+35	_של_	של	ADP	ADP	Case=Gen	36	case:gen	_	_
+36	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
+37	ללמוד	למד	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	34	acl	_	_
+38	מקצוע	מקצוע	NOUN	NOUN	Gender=Masc|Number=Sing	37	obj	_	_
+39-42	כחפצם	_	_	_	_	_	_	_	_
+39	כ	כ	ADP	ADP	_	40	case	_	_
+40	חפץ	חפץ	NOUN	NOUN	Gender=Masc|Number=Sing	37	obl	_	_
+41	_של_	של	ADP	ADP	Case=Gen	42	case:gen	_	_
+42	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	40	nmod:poss	_	_
+43-47	וכרצונם	_	_	_	_	_	_	_	_
+43	ו	ו	CCONJ	CCONJ	_	45	cc	_	_
+44	כ	כ	ADP	ADP	_	45	case	_	_
+45	רצון	רצון	NOUN	NOUN	Gender=Masc|Number=Sing	40	conj	_	_
+46	_של_	של	ADP	ADP	Case=Gen	47	case:gen	_	_
+47	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	45	nmod:poss	_	_
+48	עשה	עשה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	24	acl:relcl	_	_
+49	מעשה	מעשה	NOUN	NOUN	Gender=Masc|Number=Sing	48	obj	_	_
+50-51	שאין	_	_	_	_	_	_	_	_
+50	ש	ש	SCONJ	SCONJ	_	51	mark	_	_
+51	אין	אין	VERB	VERB	HebExistential=Yes	49	acl:relcl	_	_
+52-53	לו	_	_	_	_	_	_	_	_
+52	ל	ל	ADP	ADP	_	53	case	_	_
+53	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	51	obl	_	_
+54	מחילה	מחילה	NOUN	NOUN	Gender=Fem|Number=Sing	51	nsubj	_	_
+55-56	ואין	_	_	_	_	_	_	_	_
+55	ו	ו	CCONJ	CCONJ	_	56	cc	_	_
+56	אין	אין	VERB	VERB	HebExistential=Yes	51	conj	_	_
+57-58	לו	_	_	_	_	_	_	_	_
+57	ל	ל	ADP	ADP	_	58	case	_	_
+58	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	56	obl	_	_
+59	כפרה	כפרה	NOUN	NOUN	Gender=Fem|Number=Sing	56	nsubj	_	_
+60	לא	לא	ADV	ADV	Polarity=Neg	62	advmod	_	_
+61-62	מבחינה	_	_	_	_	_	_	_	_
+61	מ	מ	ADP	ADP	_	62	case	_	_
+62	בחינה	בחינה	NOUN	NOUN	Gender=Fem|Number=Sing	56	obl	_	_
+63	אקדמית	אקדמי	ADJ	ADJ	Gender=Fem|Number=Sing	62	amod	_	SpaceAfter=No
+64	,	,	PUNCT	PUNCT	_	67	punct	_	_
+65	לא	לא	ADV	ADV	Polarity=Neg	67	advmod	_	_
+66-67	מבחינה	_	_	_	_	_	_	_	_
+66	מ	מ	ADP	ADP	_	67	case	_	_
+67	בחינה	בחינה	NOUN	NOUN	Gender=Fem|Number=Sing	62	conj	_	_
+68	חברתית	חברתי	ADJ	ADJ	Gender=Fem|Number=Sing	67	amod	_	_
+69-70	ולא	_	_	_	_	_	_	_	_
+69	ו	ו	CCONJ	CCONJ	_	72	cc	_	_
+70	לא	לא	ADV	ADV	Polarity=Neg	72	advmod	_	_
+71-72	מבחינה	_	_	_	_	_	_	_	_
+71	מ	מ	ADP	ADP	_	72	case	_	_
+72	בחינה	בחינה	NOUN	NOUN	Gender=Fem|Number=Sing	62	conj	_	_
+73	לאומית	לאומי	ADJ	ADJ	Gender=Fem|Number=Sing	72	amod	_	SpaceAfter=No
+74	.	.	PUNCT	PUNCT	_	23	punct	_	_
+

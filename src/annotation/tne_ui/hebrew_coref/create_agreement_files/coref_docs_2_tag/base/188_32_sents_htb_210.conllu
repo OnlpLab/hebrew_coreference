@@ -1,0 +1,1054 @@
+# doc_id = htb:210
+# doc_range = 1-232
+# sent_id = 5219
+# text = מצבו של השוטר עופר חאגבי, שנדקר אתמול בבוקר ברח הנביאים בירושלים על ידי צעיר ערבי משכם, מוסיף להיות קשה והוא טרם יצא מכלל סכנה.
+1-3	מצבו	_	_	_	_	_	_	_	_
+1	מצב	מצב	NOUN	NOUN	Gender=Masc|Number=Sing	29	nsubj	_	_
+2	_של_	של	ADP	ADP	Case=Gen	3	case:gen	_	_
+3	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	nmod:poss	_	_
+4	של	של	ADP	ADP	Case=Gen	6	case	_	_
+5-6	השוטר	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	שוטר	שוטר	NOUN	NOUN	Gender=Masc|Number=Sing	1	nmod:poss	_	_
+7	עופר	עופר	PROPN	PROPN	_	6	flat:name	_	_
+8	חאגבי	חאגבי	PROPN	PROPN	_	6	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	11	punct	_	_
+10-11	שנדקר	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	11	mark	_	_
+11	נדקר	נדקר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	6	acl:relcl	_	_
+12	אתמול	אתמול	ADV	ADV	_	11	advmod	_	_
+13-15	בבוקר	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	15	case	_	_
+14	ה_	ה	DET	DET	PronType=Art|Definite=Def	15	det	_	_
+15	בוקר	בוקר	NOUN	NOUN	Gender=Masc|Number=Sing	11	obl	_	_
+16-17	ברח	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	רח	רח	NOUN	NOUN	Definite=Cons	11	obl	_	_
+18-19	הנביאים	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	נביאים	נביא	NOUN	NOUN	Gender=Masc|Number=Plur	17	compound:smixut	_	_
+20-21	בירושלים	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	ירושלים	ירושלים	PROPN	PROPN	_	17	nmod	_	_
+22	על	על	ADP	ADP	_	24	case	_	_
+23	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	22	fixed	_	_
+24	צעיר	צעיר	NOUN	NOUN	Gender=Masc|Number=Sing	11	obl	_	_
+25	ערבי	ערבי	ADJ	ADJ	Gender=Masc|Number=Sing	24	amod	_	_
+26-27	משכם	_	_	_	_	_	_	_	SpaceAfter=No
+26	מ	מ	ADP	ADP	_	27	case	_	_
+27	שכם	שכם	PROPN	PROPN	_	24	nmod	_	_
+28	,	,	PUNCT	PUNCT	_	1	punct	_	_
+29	מוסיף	הוסיף	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+30	להיות	היה	AUX	AUX	Polarity=Pos|VerbForm=Inf|VerbType=Cop	29	xcomp	_	_
+31	קשה	קשה	ADV	ADV	_	30	advmod	_	_
+32-33	והוא	_	_	_	_	_	_	_	_
+32	ו	ו	CCONJ	CCONJ	_	35	cc	_	_
+33	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
+34	טרם	טרם	ADV	ADV	_	35	advmod	_	_
+35	יצא	יצא	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	29	conj	_	_
+36-37	מכלל	_	_	_	_	_	_	_	_
+36	מ	מ	ADP	ADP	_	37	case	_	_
+37	כלל	כלל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	35	obl	_	_
+38	סכנה	סכנה	NOUN	NOUN	Gender=Fem|Number=Sing	37	compound:smixut	_	SpaceAfter=No
+39	.	.	PUNCT	PUNCT	_	29	punct	_	_
+
+# doc_id = htb:210
+# doc_range = 234-369
+# sent_id = 5220
+# text = חאגבי נותח למעלה משש שעות בביה"ח הדסה עין-כרם ועדיין שוהה בחדר ההתאוששות.
+1	חאגבי	חאגבי	PROPN	PROPN	_	2	nsubj:pass	_	_
+2	נותח	נותח	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+3	למעלה	למעלה	ADV	ADV	_	6	advmod	_	HebSource=ConvUncertainHead
+4-5	משש	_	_	_	_	_	_	_	_
+4	מ	מ	ADP	ADP	_	3	fixed	_	_
+5	שש	שש	NUM	NUM	Gender=Fem|Number=Plur	6	nummod	_	_
+6	שעות	שעה	NOUN	NOUN	Gender=Fem|Number=Plur	2	obl:tmod	_	_
+7-8	בביה"ח	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	ביה"ח	בי"ח	NOUN	NOUN	Abbr=Yes	2	obl	_	_
+9	הדסה	הדסה	PROPN	PROPN	_	8	flat:name	_	_
+10	עין	עין	NOUN	NOUN	Gender=Fem|Number=Sing	8	flat:name	_	SpaceAfter=No
+11	-	-	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+12	כרם	כרם	NOUN	NOUN	Gender=Masc|Number=Sing	9	flat:name	_	_
+13-14	ועדיין	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+14	עדיין	עדיין	ADV	ADV	_	15	advmod	_	_
+15	שוהה	שהה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	2	conj	_	_
+16-17	בחדר	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	חדר	חדר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	15	obl	_	_
+18-19	ההתאוששות	_	_	_	_	_	_	_	SpaceAfter=No
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	התאוששות	התאוששות	NOUN	NOUN	Gender=Fem|Number=Sing	17	compound:smixut	_	_
+20	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:210
+# doc_range = 372-521
+# sent_id = 5221
+# text = בשעת הדקירה לא לבשו חאגבי וחבריו את אפודי המגן, כפי שנצטוו השוטרים לעשות באחרונה.
+1-2	בשעת	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	שעת	שעה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	obl	_	_
+3-4	הדקירה	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	דקירה	דקירה	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound:smixut	_	_
+5	לא	לא	ADV	ADV	Polarity=Neg	6	advmod	_	_
+6	לבשו	לבש	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+7	חאגבי	חאגבי	PROPN	PROPN	_	6	nsubj	_	_
+8-11	וחבריו	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+9	חבר	חבר	NOUN	NOUN	Gender=Masc|Number=Plur	7	conj	_	_
+10	_של_	של	ADP	ADP	Case=Gen	11	case:gen	_	_
+11	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+12	את	את	ADP	ADP	Case=Acc	13	case	_	_
+13	אפודי	אפוד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	6	obj	_	_
+14-15	המגן	_	_	_	_	_	_	_	SpaceAfter=No
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	מגן	מגן	NOUN	NOUN	Gender=Masc|Number=Sing	13	compound:smixut	_	_
+16	,	,	PUNCT	PUNCT	_	19	punct	_	_
+17	כפי	כפי	SCONJ	SCONJ	_	19	mark	_	_
+18-19	שנצטוו	_	_	_	_	_	_	_	_
+18	ש	ש	SCONJ	SCONJ	_	17	fixed	_	_
+19	נצטוו	הצטווה	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	6	advcl	_	_
+20-21	השוטרים	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	שוטרים	שוטר	NOUN	NOUN	Gender=Masc|Number=Plur	19	nsubj	_	_
+22	לעשות	עשה	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	19	xcomp	_	_
+23	באחרונה	באחרונה	ADV	ADV	_	19	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:210
+# doc_range = 523-618
+# sent_id = 5222
+# text = הדוקר אמין אחמד עבד ראבו בן 17 משכם, נורה ברגלו ונעצר.
+1-2	הדוקר	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	דוקר	דקר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	12	nsubj	_	_
+3	אמין	אמין	NOUN	NOUN	Gender=Masc|Number=Sing	2	dep	_	HebSource=ConvUncertainHead
+4	אחמד	אחמד	PROPN	PROPN	_	3	flat:name	_	_
+5	עבד	עבד	PROPN	PROPN	_	4	flat:name	_	_
+6	ראבו	ראבו	PROPN	PROPN	_	4	flat:name	_	_
+7	בן	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	dep	_	HebSource=ConvUncertainHead
+8	17	17	NUM	NUM	_	7	compound:smixut	_	_
+9-10	משכם	_	_	_	_	_	_	_	SpaceAfter=No
+9	מ	מ	ADP	ADP	_	10	case	_	_
+10	שכם	שכם	PROPN	PROPN	_	2	obl	_	_
+11	,	,	PUNCT	PUNCT	_	2	punct	_	_
+12	נורה	נורה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+13-16	ברגלו	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	רגל	רגל	NOUN	NOUN	Gender=Fem|Number=Sing	12	obl	_	_
+15	_של_	של	ADP	ADP	Case=Gen	16	case:gen	_	_
+16	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+17-18	ונעצר	_	_	_	_	_	_	_	SpaceAfter=No
+17	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+18	נעצר	נעצר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	12	conj	_	_
+19	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# doc_id = htb:210
+# doc_range = 621-872
+# sent_id = 5223
+# text = חאגבי, תושב נתניה וצוער בקורס סמלים של המשטרה, שהה בירושלים במסגרת כוחות התגבור שהובאו לעיר מאז האירועים בהר הבית, בבקעה ובהלוויית כהנא.
+1	חאגבי	חאגבי	PROPN	PROPN	_	14	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	3	punct	_	_
+3	תושב	תושב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	appos	_	_
+4	נתניה	נתניה	PROPN	PROPN	_	3	compound:smixut	_	_
+5-6	וצוער	_	_	_	_	_	_	_	_
+5	ו	ו	CCONJ	CCONJ	_	6	cc	_	_
+6	צוער	צוער	NOUN	NOUN	Gender=Masc|Number=Sing	3	conj	_	_
+7-8	בקורס	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	קורס	קורס	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	nmod	_	_
+9	סמלים	סמל	NOUN	NOUN	Gender=Masc|Number=Plur	8	compound:smixut	_	_
+10	של	של	ADP	ADP	Case=Gen	12	case	_	_
+11-12	המשטרה	_	_	_	_	_	_	_	SpaceAfter=No
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	8	nmod:poss	_	_
+13	,	,	PUNCT	PUNCT	_	1	punct	_	_
+14	שהה	שהה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+15-16	בירושלים	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	ירושלים	ירושלים	PROPN	PROPN	_	14	obl	_	_
+17-18	במסגרת	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	_	19	case	_	_
+18	מסגרת	מסגרת	NOUN	NOUN	Gender=Fem|Number=Sing	17	fixed	_	_
+19	כוחות	כוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	14	obl	_	_
+20-21	התגבור	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	תגבור	תגבור	NOUN	NOUN	Gender=Masc|Number=Sing	19	compound:smixut	_	_
+22-23	שהובאו	_	_	_	_	_	_	_	_
+22	ש	ש	SCONJ	SCONJ	_	23	mark	_	_
+23	הובאו	הובא	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	19	acl:relcl	_	_
+24-26	לעיר	_	_	_	_	_	_	_	_
+24	ל	ל	ADP	ADP	_	26	case	_	_
+25	ה_	ה	DET	DET	PronType=Art|Definite=Def	26	det	_	_
+26	עיר	עיר	NOUN	NOUN	Gender=Fem|Number=Sing	23	obl	_	_
+27-28	מאז	_	_	_	_	_	_	_	_
+27	מ	מ	ADP	ADP	_	30	case	_	_
+28	אז	אז	ADV	ADV	_	27	fixed	_	_
+29-30	האירועים	_	_	_	_	_	_	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	אירועים	אירוע	NOUN	NOUN	Gender=Masc|Number=Plur	23	obl	_	_
+31-32	בהר	_	_	_	_	_	_	_	_
+31	ב	ב	ADP	ADP	_	32	case	_	_
+32	הר	הר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	30	nmod	_	_
+33-34	הבית	_	_	_	_	_	_	_	SpaceAfter=No
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	בית	בית	NOUN	NOUN	Gender=Masc|Number=Sing	32	compound:smixut	_	_
+35	,	,	PUNCT	PUNCT	_	38	punct	_	_
+36-38	בבקעה	_	_	_	_	_	_	_	_
+36	ב	ב	ADP	ADP	_	38	case	_	_
+37	ה_	ה	DET	DET	PronType=Art|Definite=Def	38	det	_	_
+38	בקעה	בקעה	NOUN	NOUN	Gender=Fem|Number=Sing	32	conj	_	_
+39-41	ובהלוויית	_	_	_	_	_	_	_	_
+39	ו	ו	CCONJ	CCONJ	_	41	cc	_	_
+40	ב	ב	ADP	ADP	_	41	case	_	_
+41	הלוויית	הלוויה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	32	conj	_	_
+42	כהנא	כהנא	PROPN	PROPN	_	41	compound:smixut	_	SpaceAfter=No
+43	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# doc_id = htb:210
+# doc_range = 875-1058
+# sent_id = 5224
+# text = אתמול סמוך לשעה 9:00 בבוקר, צעד חאגבי עם שלושה מחבריו ברח הנביאים ליד אזור המאפיות, במהלך סיור שגרתי.
+1	אתמול	אתמול	ADV	ADV	_	10	advmod	_	_
+2	סמוך	סמוך	ADP	ADP	_	4	case	_	_
+3-4	לשעה	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	2	obl	_	_
+4	שעה	שעה	NOUN	NOUN	Gender=Fem|Number=Sing	10	obl	_	_
+5	9:00	9:00	NUM	NUM	Case=Tem	8	nummod	_	_
+6-8	בבוקר	_	_	_	_	_	_	_	SpaceAfter=No
+6	ב	ב	ADP	ADP	_	8	case	_	_
+7	ה_	ה	DET	DET	PronType=Art|Definite=Def	8	det	_	_
+8	בוקר	בוקר	NOUN	NOUN	Gender=Masc|Number=Sing	4	nmod	_	HebSource=ConvUncertainLabel
+9	,	,	PUNCT	PUNCT	_	4	punct	_	_
+10	צעד	צעד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+11	חאגבי	חאגבי	PROPN	PROPN	_	10	nsubj	_	_
+12	עם	עם	ADP	ADP	_	15	case	_	_
+13	שלושה	שלוש	NUM	NUM	Gender=Masc|Number=Plur	15	nummod	_	_
+14-17	מחבריו	_	_	_	_	_	_	_	_
+14	מ	מ	ADP	ADP	_	15	case	_	_
+15	חבר	חבר	NOUN	NOUN	Gender=Masc|Number=Plur	10	obl	_	_
+16	_של_	של	ADP	ADP	Case=Gen	17	case:gen	_	_
+17	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+18-19	ברח	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	19	case	_	_
+19	רח	רח	NOUN	NOUN	Definite=Cons	10	obl	_	_
+20-21	הנביאים	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	נביאים	נביא	NOUN	NOUN	Gender=Masc|Number=Plur	19	compound:smixut	_	_
+22	ליד	ליד	ADP	ADP	_	23	case	_	_
+23	אזור	אזור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	21	nmod	_	_
+24-25	המאפיות	_	_	_	_	_	_	_	SpaceAfter=No
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	מאפיות	מאפיה	NOUN	NOUN	Gender=Fem|Number=Plur	23	compound:smixut	_	_
+26	,	,	PUNCT	PUNCT	_	29	punct	_	_
+27-28	במהלך	_	_	_	_	_	_	_	_
+27	ב	ב	ADP	ADP	_	29	case	_	_
+28	מהלך	מהלך	NOUN	NOUN	Gender=Masc|Number=Sing	27	fixed	_	_
+29	סיור	סיור	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
+30	שגרתי	שגרתי	ADJ	ADJ	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:210
+# doc_range = 1060-1171
+# sent_id = 5225
+# text = לפתע הגיח מחנות עצים ברח הנביאים 14 צעיר ערבי, כשסכין גדול בידו
+1	לפתע	לפתע	ADV	ADV	_	2	advmod	_	_
+2	הגיח	הגיח	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3-4	מחנות	_	_	_	_	_	_	_	_
+3	מ	מ	ADP	ADP	_	4	case	_	_
+4	חנות	חנות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	obl	_	_
+5	עצים	עץ	NOUN	NOUN	Gender=Masc|Number=Plur	4	compound:smixut	_	_
+6-7	ברח	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	רח	רח	NOUN	NOUN	Definite=Cons	4	nmod	_	_
+8-9	הנביאים	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	נביאים	נביא	NOUN	NOUN	Gender=Masc|Number=Plur	7	compound:smixut	_	_
+10	14	14	NUM	NUM	_	9	nummod	_	_
+11	צעיר	צעיר	NOUN	NOUN	Gender=Masc|Number=Sing	2	nsubj	_	_
+12	ערבי	ערבי	ADJ	ADJ	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	18	punct	_	_
+14-15	כשסכין	_	_	_	_	_	_	_	_
+14	כש	כש	SCONJ	SCONJ	Case=Tem	18	mark	_	_
+15	סכין	סכין	NOUN	NOUN	Gender=Fem,Masc|Number=Sing	18	nsubj	_	_
+16	גדול	גדול	ADJ	ADJ	Gender=Masc|Number=Sing	15	amod	_	_
+17-19	בידו	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	_	18	case	_	_
+18	יד	יד	NOUN	NOUN	Gender=Fem|Number=Sing	2	advcl	_	_
+19	ו	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+
+# doc_id = htb:210
+# doc_range = 1262-1379
+# sent_id = 5226
+# text = חברו לסיור בס חש אליו, השכיב אותו על המדרכה ושלף את הסכין מגופו.
+1-3	חברו	_	_	_	_	_	_	_	_
+1	חבר	חבר	NOUN	NOUN	Gender=Masc|Number=Sing	8	nsubj	_	_
+2	_של_	של	ADP	ADP	Case=Gen	3	case:gen	_	_
+3	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	nmod:poss	_	_
+4-6	לסיור	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	6	case	_	_
+5	ה_	ה	DET	DET	PronType=Art|Definite=Def	6	det	_	_
+6	סיור	סיור	NOUN	NOUN	Gender=Masc|Number=Sing	1	nmod	_	_
+7	בס	בס	NOUN	NOUN	Gender=Masc|Number=Sing	1	appos	_	_
+8	חש	חש	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+9-10	אליו	_	_	_	_	_	_	_	SpaceAfter=No
+9	אל	אל	ADP	ADP	_	10	case	_	_
+10	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obl	_	_
+11	,	,	PUNCT	PUNCT	_	12	punct	_	_
+12	השכיב	השכיב	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	8	conj	_	_
+13-14	אותו	_	_	_	_	_	_	_	_
+13	את	את	ADP	ADP	Case=Acc	14	case	_	_
+14	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+15	על	על	ADP	ADP	_	17	case	_	_
+16-17	המדרכה	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	מדרכה	מדרכה	NOUN	NOUN	Gender=Fem|Number=Sing	12	obl	_	_
+18-19	ושלף	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+19	שלף	שלף	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	8	conj	_	_
+20	את	את	ADP	ADP	Case=Acc	22	case	_	_
+21-22	הסכין	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	סכין	סכין	NOUN	NOUN	Gender=Fem,Masc|Number=Sing	19	obj	_	_
+23-26	מגופו	_	_	_	_	_	_	_	SpaceAfter=No
+23	מ	מ	ADP	ADP	_	24	case	_	_
+24	גוף	גוף	NOUN	NOUN	Gender=Masc|Number=Sing	19	obl	_	_
+25	_של_	של	ADP	ADP	Case=Gen	26	case:gen	_	_
+26	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+27	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:210
+# doc_range = 1382-1532
+# sent_id = 5227
+# text = "הוא התמוטט על מכונית פגו", סיפר אתמול בס, "השכבתי אותו על הרצפה והוצאתי את הסכין.
+1	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+2	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	התמוטט	התמוטט	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	על	על	ADP	ADP	_	5	case	_	_
+5	מכונית	מכונית	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	obl	_	_
+6	פגו	פגו	PROPN	PROPN	_	5	compound:smixut	_	SpaceAfter=No
+7	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	9	punct	_	_
+9	סיפר	סיפר	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	3	parataxis	_	_
+10	אתמול	אתמול	ADV	ADV	_	9	advmod	_	_
+11	בס	בס	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	9	punct	_	_
+13	"	"	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
+14	השכבתי	השכיב	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Sing|Person=1|Tense=Past|Voice=Act	3	parataxis	_	_
+15-16	אותו	_	_	_	_	_	_	_	_
+15	את	את	ADP	ADP	Case=Acc	16	case	_	_
+16	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+17	על	על	ADP	ADP	_	19	case	_	_
+18-19	הרצפה	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	רצפה	רצפה	NOUN	NOUN	Gender=Fem|Number=Sing	14	obl	_	_
+20-21	והוצאתי	_	_	_	_	_	_	_	_
+20	ו	ו	CCONJ	CCONJ	_	21	cc	_	_
+21	הוצאתי	הוציא	VERB	VERB	Gender=Fem,Masc|Number=Sing|Person=1|Tense=Past	14	conj	_	_
+22	את	את	ADP	ADP	Case=Acc	24	case	_	_
+23-24	הסכין	_	_	_	_	_	_	_	SpaceAfter=No
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	סכין	סכין	NOUN	NOUN	Gender=Fem,Masc|Number=Sing	21	obj	_	_
+25	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:210
+# doc_range = 1534-1593
+# sent_id = 5228
+# text = הרבה דם פרץ וניסיתי לחסום את הדם.
+1	הרבה	הרבה	DET	DET	Definite=Cons	2	det	_	_
+2	דם	דם	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	פרץ	פרץ	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4-5	וניסיתי	_	_	_	_	_	_	_	_
+4	ו	ו	CCONJ	CCONJ	_	5	cc	_	_
+5	ניסיתי	ניסה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Sing|Person=1|Tense=Past|Voice=Act	3	conj	_	_
+6	לחסום	חסם	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	את	את	ADP	ADP	Case=Acc	9	case	_	_
+8-9	הדם	_	_	_	_	_	_	_	SpaceAfter=No
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	דם	דם	NOUN	NOUN	Gender=Masc|Number=Sing	6	obj	_	_
+10	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:210
+# doc_range = 1596-1629
+# sent_id = 5229
+# text = אמבולנס הגיע מהר".
+1	אמבולנס	אמבולנס	NOUN	NOUN	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	הגיע	הגיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	מהר	מהר	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+4	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:210
+# doc_range = 1631-1830
+# sent_id = 5230
+# text = שני השוטרים האחרים שהשתתפו בסיור רדפו אחר הדוקר בכיוון מגרש החניה הסמוך וירו ברגליו בתת מקלע "עוזי" שברשותם.
+1	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	3	nummod	_	_
+2-3	השוטרים	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	שוטרים	שוטר	NOUN	NOUN	Gender=Masc|Number=Plur	11	nsubj	_	_
+4-5	האחרים	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	אחרים	אחר	ADJ	ADJ	Gender=Masc|Number=Plur	3	amod	_	_
+6-7	שהשתתפו	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	_	7	mark	_	_
+7	השתתפו	השתתף	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	3	acl:relcl	_	_
+8-10	בסיור	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	10	case	_	_
+9	ה_	ה	DET	DET	PronType=Art|Definite=Def	10	det	_	_
+10	סיור	סיור	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
+11	רדפו	רדף	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+12	אחר	אחר	ADP	ADP	_	14	case	_	_
+13-14	הדוקר	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	דוקר	דקר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	11	obl	_	_
+15-16	בכיוון	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	כיוון	כיוון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	obl	_	_
+17	מגרש	מגרש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	16	compound:smixut	_	_
+18-19	החניה	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	חניה	חנייה	NOUN	NOUN	Gender=Fem|Number=Sing	17	compound:smixut	_	_
+20-21	הסמוך	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	סמוך	סמוך	ADJ	ADJ	Gender=Masc|Number=Sing	17	amod	_	_
+22-23	וירו	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
+23	ירו	ירה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	11	conj	_	_
+24-25	ברגליו	_	_	_	_	_	_	_	_
+24	ב	ב	ADP	ADP	_	25	case	_	_
+25	רגליו	רגליו	NOUN	NOUN	_	23	obl	_	_
+26-27	בתת	_	_	_	_	_	_	_	_
+26	ב	ב	ADP	ADP	_	28	case	_	_
+27	תת	תת	ADV	ADV	Prefix=Yes	28	compound:affix	_	HebSource=ConvUncertainHead
+28	מקלע	מקלע	NOUN	NOUN	Gender=Masc|Number=Sing	23	obl	_	_
+29	"	"	PUNCT	PUNCT	_	30	punct	_	SpaceAfter=No
+30	עוזי	עוזי	PROPN	PROPN	_	28	appos	_	SpaceAfter=No
+31	"	"	PUNCT	PUNCT	_	30	punct	_	_
+32-36	שברשותם	_	_	_	_	_	_	_	SpaceAfter=No
+32	ש	ש	SCONJ	SCONJ	_	34	case	_	_
+33	ב	ב	ADP	ADP	_	34	case	_	_
+34	רשות	רשות	NOUN	NOUN	Gender=Fem|Number=Sing	28	nmod	_	_
+35	_של_	של	ADP	ADP	Case=Gen	36	case:gen	_	_
+36	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
+37	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:210
+# doc_range = 1832-1880
+# sent_id = 5231
+# text = הדוקר נפצע באורח קל ונלכד.
+1-2	הדוקר	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	דוקר	דקר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	3	nsubj	_	_
+3	נפצע	נפצע	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+4-5	באורח	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	אורח	אורח	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+6	קל	קל	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	_
+7-8	ונלכד	_	_	_	_	_	_	_	SpaceAfter=No
+7	ו	ו	CCONJ	CCONJ	_	8	cc	_	_
+8	נלכד	נלכד	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	3	conj	_	_
+9	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:210
+# doc_range = 1882-1974
+# sent_id = 5232
+# text = מחקירתו עולה כי הוא תושב שכם הלומד במכללת אבו-דיס.
+1-4	מחקירתו	_	_	_	_	_	_	_	_
+1	מ	מ	ADP	ADP	_	5	dep	_	_
+2	חקירה	חקירה	NOUN	NOUN	Gender=Fem|Number=Sing	5	dep	_	_
+3	_של_	של	ADP	ADP	Case=Gen	4	case:gen	_	_
+4	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5	עולה	עלה	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+6	כי	כי	SCONJ	SCONJ	_	5	dep	_	_
+7	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	dep	_	_
+8	תושב	תושב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	dep	_	_
+9	שכם	שכם	PROPN	PROPN	_	5	dep	_	_
+10-11	הלומד	_	_	_	_	_	_	_	_
+10	ה	ה	SCONJ	SCONJ	_	5	dep	_	_
+11	לומד	למד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	5	dep	_	HebSource=ConvUncertainHead
+12-13	במכללת	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	5	dep	_	_
+13	מכללת	מכללה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	dep	_	_
+14	אבו	אבו	PROPN	PROPN	_	5	dep	_	SpaceAfter=No
+15	-	-	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
+16	דיס	דיס	PROPN	PROPN	_	5	dep	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:210
+# doc_range = 1977-2105
+# sent_id = 5233
+# text = לפני יומיים נסע לבקר חבר ביריחו ואתמול בבוקר הגיע עם אוטובוס לירושלים.
+1	לפני	לפני	ADP	ADP	_	2	case	_	_
+2	יומיים	יום	NOUN	NOUN	Gender=Masc|Number=Dual	3	obl	_	_
+3	נסע	נסע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	לבקר	ביקר	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	חבר	חבר	NOUN	NOUN	Gender=Masc|Number=Sing	4	obj	_	_
+6-7	ביריחו	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	יריחו	יריחו	PROPN	PROPN	_	3	obl	_	_
+8-9	ואתמול	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
+9	אתמול	אתמול	ADV	ADV	_	13	advmod	_	_
+10-12	בבוקר	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	12	case	_	_
+11	ה_	ה	DET	DET	PronType=Art|Definite=Def	12	det	_	_
+12	בוקר	בוקר	NOUN	NOUN	Gender=Masc|Number=Sing	13	obl	_	_
+13	הגיע	הגיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	_
+14	עם	עם	ADP	ADP	_	15	case	_	_
+15	אוטובוס	אוטובוס	NOUN	NOUN	Gender=Masc|Number=Sing	13	obl	_	_
+16-17	לירושלים	_	_	_	_	_	_	_	SpaceAfter=No
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	ירושלים	ירושלים	PROPN	PROPN	_	13	obl	_	_
+18	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:210
+# doc_range = 2108-2298
+# sent_id = 5234
+# text = הוא פנה לחנות סכינים במזרח העיר, רכש סכין גדול ומשם צעד רגלית במעלה רח הנביאים, נכנס לחנות העצים והמתין.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	פנה	פנה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3-4	לחנות	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	4	case	_	_
+4	חנות	חנות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	obl	_	_
+5	סכינים	סכין	NOUN	NOUN	Gender=Fem,Masc|Number=Plur	4	compound:smixut	_	_
+6-7	במזרח	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	מזרח	מזרח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nmod	_	_
+8-9	העיר	_	_	_	_	_	_	_	SpaceAfter=No
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	עיר	עיר	NOUN	NOUN	Gender=Fem|Number=Sing	7	compound:smixut	_	_
+10	,	,	PUNCT	PUNCT	_	11	punct	_	_
+11	רכש	רכש	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	_
+12	סכין	סכין	NOUN	NOUN	Gender=Fem,Masc|Number=Sing	11	obj	_	_
+13	גדול	גדול	ADJ	ADJ	Gender=Masc|Number=Sing	12	amod	_	_
+14-15	ומשם	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+15	משם	משם	ADV	ADV	_	16	advmod	_	_
+16	צעד	צעד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	_
+17	רגלית	רגלית	ADV	ADV	_	16	advmod	_	_
+18-19	במעלה	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	19	case	_	_
+19	מעלה	מעלה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	16	obl	_	_
+20	רח	רח	NOUN	NOUN	_	19	compound:smixut	_	_
+21-22	הנביאים	_	_	_	_	_	_	_	SpaceAfter=No
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	נביאים	נביא	NOUN	NOUN	Gender=Masc|Number=Plur	20	appos	_	_
+23	,	,	PUNCT	PUNCT	_	24	punct	_	_
+24	נכנס	נכנס	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	16	conj	_	_
+25-26	לחנות	_	_	_	_	_	_	_	_
+25	ל	ל	ADP	ADP	_	26	case	_	_
+26	חנות	חנות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	24	obl	_	_
+27-28	העצים	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	עצים	עץ	NOUN	NOUN	Gender=Masc|Number=Plur	26	compound:smixut	_	_
+29-30	והמתין	_	_	_	_	_	_	_	SpaceAfter=No
+29	ו	ו	CCONJ	CCONJ	_	30	cc	_	_
+30	המתין	המתין	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	16	conj	_	_
+31	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:210
+# doc_range = 2300-2443
+# sent_id = 5235
+# text = כאשר עברו ארבעת השוטרים בפתח החנות הגיח הדוקר כשהסכין בידו ודקר את עופר חאגבי.
+1	כאשר	כאשר	SCONJ	SCONJ	_	2	mark	_	_
+2	עברו	עבר	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	10	advcl	_	_
+3	ארבעת	ארבעת	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	5	nummod	_	_
+4-5	השוטרים	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	שוטרים	שוטר	NOUN	NOUN	Gender=Masc|Number=Plur	2	nsubj	_	_
+6-7	בפתח	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	פתח	פתח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	obl	_	_
+8-9	החנות	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	חנות	חנות	NOUN	NOUN	Gender=Fem|Number=Sing	7	compound:smixut	_	_
+10	הגיח	הגיח	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+11-12	הדוקר	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	דוקר	דקר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	10	nsubj	_	_
+13-15	כשהסכין	_	_	_	_	_	_	_	_
+13	כש	כש	SCONJ	SCONJ	Case=Tem	17	mark	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	סכין	סכין	NOUN	NOUN	Gender=Fem,Masc|Number=Sing	17	nsubj	_	_
+16-19	בידו	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	יד	יד	NOUN	NOUN	Gender=Fem|Number=Sing	10	ccomp	_	_
+18	_של_	של	ADP	ADP	Case=Gen	19	case:gen	_	_
+19	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+20-21	ודקר	_	_	_	_	_	_	_	_
+20	ו	ו	CCONJ	CCONJ	_	21	cc	_	_
+21	דקר	דקר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	10	conj	_	_
+22	את	את	ADP	ADP	Case=Acc	23	case	_	_
+23	עופר	עופר	PROPN	PROPN	_	21	obj	_	_
+24	חאגבי	חאגבי	PROPN	PROPN	_	23	flat:name	_	SpaceAfter=No
+25	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:210
+# doc_range = 2445-2548
+# sent_id = 5236
+# text = תוך זמן קצר חשו למקום כוחות משטרה גדולים וצוותים של מד"א.
+1	תוך	תוך	ADP	ADP	_	2	case	_	_
+2	זמן	זמן	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+3	קצר	קצר	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+4	חשו	חש	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5-7	למקום	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	7	case	_	_
+6	ה_	ה	DET	DET	PronType=Art|Definite=Def	7	det	_	_
+7	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+8	כוחות	כוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	nsubj	_	_
+9	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound:smixut	_	_
+10	גדולים	גדול	ADJ	ADJ	Gender=Masc|Number=Plur	8	amod	_	_
+11-12	וצוותים	_	_	_	_	_	_	_	_
+11	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+12	צוותים	צוות	NOUN	NOUN	Gender=Fem|Number=Plur	8	conj	_	_
+13	של	של	ADP	ADP	Case=Gen	14	case	_	_
+14	מד"א	מד"א	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	12	nmod:poss	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:210
+# doc_range = 2550-2655
+# sent_id = 5237
+# text = הם טיפלו שעה ארוכה בעופר חגבי, שאיבד דם רב ואיבד את הכרתו.
+1	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	טיפלו	טיפל	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	שעה	שעה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl:tmod	_	_
+4	ארוכה	ארוך	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	_
+5-6	בעופר	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	עופר	עופר	PROPN	PROPN	_	2	obl	_	_
+7	חגבי	חגבי	PROPN	PROPN	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	10	punct	_	_
+9-10	שאיבד	_	_	_	_	_	_	_	_
+9	ש	ש	SCONJ	SCONJ	_	10	mark	_	_
+10	איבד	איבד	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	6	acl:relcl	_	_
+11	דם	דם	NOUN	NOUN	Gender=Masc|Number=Sing	10	obj	_	_
+12	רב	רב	ADJ	ADJ	Gender=Masc|Number=Sing	11	amod	_	_
+13-14	ואיבד	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
+14	איבד	איבד	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	10	conj	_	_
+15	את	את	ADP	ADP	Case=Acc	16	case	_	_
+16-18	הכרתו	_	_	_	_	_	_	_	SpaceAfter=No
+16	הכרה	הכרה	NOUN	NOUN	Gender=Fem|Number=Sing	14	obj	_	_
+17	_של_	של	ADP	ADP	Case=Gen	18	case:gen	_	_
+18	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+19	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:210
+# doc_range = 2657-2743
+# sent_id = 5238
+# text = חגבי הובא להדסה עין-כרם כשהוא ללא דופק ומונשם.
+1	חגבי	חגבי	PROPN	PROPN	_	2	nsubj:pass	_	_
+2	הובא	הובא	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+3-4	להדסה	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	4	case	_	_
+4	הדסה	הדסה	PROPN	PROPN	_	2	obl	_	_
+5	עין	עין	NOUN	NOUN	Gender=Fem|Number=Sing	4	flat:name	_	SpaceAfter=No
+6	-	-	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
+7	כרם	כרם	NOUN	NOUN	Gender=Masc|Number=Sing	4	flat:name	_	_
+8-9	כשהוא	_	_	_	_	_	_	_	_
+8	כש	כש	SCONJ	SCONJ	Case=Tem	11	mark	_	_
+9	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	ללא	ללא	ADP	ADP	_	11	case	_	_
+11	דופק	דופק	NOUN	NOUN	Gender=Masc|Number=Sing	2	ccomp	_	_
+12-13	ומונשם	_	_	_	_	_	_	_	SpaceAfter=No
+12	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
+13	מונשם	הונשם	VERB	VERB	Tense=Pres|VerbForm=Part	11	conj	_	_
+14	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:210
+# doc_range = 2745-2946
+# sent_id = 5239
+# text = לאחר טיפול קצר בחדר מיון הוא הוכנס מיד לחדר הניתוחים, שם עמלו כירורגים על איחוי העצבים וכלי הדם שנקרעו מהסכין.
+1	לאחר	לאחר	ADP	ADP	_	2	case	_	_
+2	טיפול	טיפול	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+3	קצר	קצר	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+4-5	בחדר	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	חדר	חדר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	nmod	_	_
+6	מיון	מיון	NOUN	NOUN	Gender=Masc|Number=Sing	5	compound:smixut	_	_
+7	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj:pass	_	_
+8	הוכנס	הוכנס	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+9	מיד	מייד	ADV	ADV	_	8	advmod	_	_
+10-11	לחדר	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	11	case	_	_
+11	חדר	חדר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	obl	_	_
+12-13	הניתוחים	_	_	_	_	_	_	_	SpaceAfter=No
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	ניתוחים	ניתוח	NOUN	NOUN	Gender=Masc|Number=Plur	11	compound:smixut	_	_
+14	,	,	PUNCT	PUNCT	_	16	punct	_	_
+15	שם	שם	ADV	ADV	_	16	advmod	_	_
+16	עמלו	עמל	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	8	conj	_	_
+17	כירורגים	כירורגים	NOUN	NOUN	_	16	nsubj	_	_
+18	על	על	ADP	ADP	_	19	case	_	_
+19	איחוי	איחוי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	16	obl	_	_
+20-21	העצבים	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	עצבים	עצב	NOUN	NOUN	Gender=Masc|Number=Plur	19	compound:smixut	_	_
+22-23	וכלי	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
+23	כלי	כלי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	19	conj	_	_
+24-25	הדם	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	דם	דם	NOUN	NOUN	Gender=Masc|Number=Sing	23	compound:smixut	_	_
+26-27	שנקרעו	_	_	_	_	_	_	_	_
+26	ש	ש	SCONJ	SCONJ	_	27	mark	_	_
+27	נקרעו	נקרע	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	23	acl:relcl	_	_
+28-30	מהסכין	_	_	_	_	_	_	_	SpaceAfter=No
+28	מ	מ	ADP	ADP	_	30	case	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	סכין	סכין	NOUN	NOUN	Gender=Fem,Masc|Number=Sing	27	obl	_	_
+31	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:210
+# doc_range = 2948-3085
+# sent_id = 5240
+# text = מצבו של הדוקר שנפגע ברגל הוגדר קל, וגם הוא נלקח להדסה עין כרם שם קיבל טיפול.
+1-3	מצבו	_	_	_	_	_	_	_	_
+1	מצב	מצב	NOUN	NOUN	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+2	_של_	של	ADP	ADP	Case=Gen	3	case:gen	_	_
+3	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	nmod:poss	_	_
+4	של	של	ADP	ADP	Case=Gen	6	case	_	_
+5-6	הדוקר	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	דוקר	דקר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	1	nmod:poss	_	_
+7-8	שנפגע	_	_	_	_	_	_	_	_
+7	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
+8	נפגע	נפגע	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	6	acl:relcl	_	_
+9-11	ברגל	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	11	case	_	_
+10	ה_	ה	DET	DET	PronType=Art|Definite=Def	11	det	_	_
+11	רגל	רגל	NOUN	NOUN	_	8	obl	_	_
+12	הוגדר	הוגדר	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+13	קל	קל	ADJ	ADJ	Gender=Masc|Number=Sing	12	dep	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	18	punct	_	_
+15-16	וגם	_	_	_	_	_	_	_	_
+15	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+16	גם	גם	ADV	ADV	_	17	advmod	_	_
+17	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+18	נלקח	נלקח	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	12	conj	_	_
+19-20	להדסה	_	_	_	_	_	_	_	_
+19	ל	ל	ADP	ADP	_	20	case	_	_
+20	הדסה	הדסה	PROPN	PROPN	_	18	obl	_	_
+21	עין	עין	NOUN	NOUN	Gender=Fem|Number=Sing	20	flat:name	_	_
+22	כרם	כרם	NOUN	NOUN	Gender=Masc|Number=Sing	20	flat:name	_	_
+23	שם	שם	ADV	ADV	_	24	advmod	_	_
+24	קיבל	קיבל	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	20	dep	_	_
+25	טיפול	טיפול	NOUN	NOUN	Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No
+26	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# doc_id = htb:210
+# doc_range = 3087-3300
+# sent_id = 5241
+# text = השוטר וחבריו לא לבשו אפודות מגן ומיד לאחר הדקירה הורה מפכ"ל המשטרה רב ניצב יעקב טרנר לשוטרים בעיר להקפיד על הוראה זו.
+1-2	השוטר	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	שוטר	שוטר	NOUN	NOUN	Gender=Masc|Number=Sing	8	nsubj	_	_
+3-6	וחבריו	_	_	_	_	_	_	_	_
+3	ו	ו	CCONJ	CCONJ	_	4	cc	_	_
+4	חבר	חבר	NOUN	NOUN	Gender=Masc|Number=Plur	2	conj	_	_
+5	_של_	של	ADP	ADP	Case=Gen	6	case:gen	_	_
+6	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+7	לא	לא	ADV	ADV	Polarity=Neg	8	advmod	_	_
+8	לבשו	לבש	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+9	אפודות	אפודה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	8	obj	_	_
+10	מגן	מגן	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound:smixut	_	_
+11-12	ומיד	_	_	_	_	_	_	_	_
+11	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+12	מיד	מייד	ADV	ADV	_	16	advmod	_	_
+13	לאחר	לאחר	ADP	ADP	_	15	case	_	_
+14-15	הדקירה	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	דקירה	דקירה	NOUN	NOUN	Gender=Fem|Number=Sing	16	obl	_	_
+16	הורה	הורה	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	8	conj	_	_
+17	מפכ"ל	מפכ"ל	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	16	nsubj	_	_
+18-19	המשטרה	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	17	compound:smixut	_	_
+20	רב	רב	NOUN	NOUN	_	21	dep	_	HebSource=ConvUncertainHead
+21	ניצב	ניצב	NOUN	NOUN	Gender=Masc|Number=Sing	17	dep	_	HebSource=ConvUncertainHead
+22	יעקב	יעקב	PROPN	PROPN	_	17	dep	_	HebSource=ConvUncertainHead
+23	טרנר	טרנר	PROPN	PROPN	_	22	flat:name	_	_
+24-26	לשוטרים	_	_	_	_	_	_	_	_
+24	ל	ל	ADP	ADP	_	26	case	_	_
+25	ה_	ה	DET	DET	PronType=Art|Definite=Def	26	det	_	_
+26	שוטרים	שוטר	NOUN	NOUN	Gender=Masc|Number=Plur	16	obl	_	_
+27-29	בעיר	_	_	_	_	_	_	_	_
+27	ב	ב	ADP	ADP	_	29	case	_	_
+28	ה_	ה	DET	DET	PronType=Art|Definite=Def	29	det	_	_
+29	עיר	עיר	NOUN	NOUN	Gender=Fem|Number=Sing	26	nmod	_	_
+30	להקפיד	הקפיד	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+31	על	על	ADP	ADP	_	32	case	_	_
+32	הוראה	הוראה	NOUN	NOUN	Gender=Fem|Number=Sing	30	obl	_	_
+33	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	32	det	_	SpaceAfter=No
+34	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:210
+# doc_range = 3302-3365
+# sent_id = 5242
+# text = לדוקר לא היה עבר פלילי, או ביטחוני.
+1-3	לדוקר	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	דוקר	דקר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	5	obl	_	_
+4	לא	לא	ADV	ADV	Polarity=Neg	5	advmod	_	_
+5	היה	היה	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+6	עבר	עבר	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+7	פלילי	פלילי	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	10	punct	_	_
+9	או	או	CCONJ	CCONJ	_	10	cc	_	_
+10	ביטחוני	בטחוני	ADJ	ADJ	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:210
+# doc_range = 3368-3560
+# sent_id = 5243
+# text = הוא נחקר ארוכות על ידי השב"ך, המנסה לברר האם פעל באופן עצמאי, או נשלח על ידי ארגון וכן מה היה המניע למעשהו.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	נחקר	נחקר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+3	ארוכות	ארוכות	ADV	ADV	_	2	advmod	_	_
+4	על	על	ADP	ADP	_	7	case	_	_
+5	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	4	fixed	_	_
+6-7	השב"ך	_	_	_	_	_	_	_	SpaceAfter=No
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	שב"ך	השב"ך	PROPN	PROPN	Abbr=Yes	2	obl	_	_
+8	,	,	PUNCT	PUNCT	_	10	punct	_	_
+9-10	המנסה	_	_	_	_	_	_	_	_
+9	ה	ה	SCONJ	SCONJ	_	10	mark	_	_
+10	מנסה	ניסה	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	7	acl:relcl	_	_
+11	לברר	בירר	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	האם	האם	ADV	ADV	PronType=Int	13	mark	_	_
+13	פעל	פעל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	11	dep	_	_
+14-15	באופן	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	אופן	אופן	NOUN	NOUN	Gender=Masc|Number=Sing	13	obl	_	_
+16	עצמאי	עצמאי	ADJ	ADJ	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	19	punct	_	_
+18	או	או	CCONJ	CCONJ	_	19	cc	_	_
+19	נשלח	נשלח	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	13	conj	_	_
+20	על	על	ADP	ADP	_	21	case	_	_
+21	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	19	obl	_	_
+22	ארגון	ארגון	NOUN	NOUN	Gender=Masc|Number=Sing	21	compound:smixut	_	_
+23-24	וכן	_	_	_	_	_	_	_	_
+23	ו	ו	CCONJ	CCONJ	_	28	cc	_	_
+24	כן	כן	ADV	ADV	_	28	advmod	_	_
+25	מה	מה	PRON	PRON	PronType=Int	28	nsubj	_	_
+26	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	28	cop	_	_
+27-28	המניע	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	מניע	מניע	NOUN	NOUN	Gender=Masc|Number=Sing	13	conj	_	_
+29-32	למעשהו	_	_	_	_	_	_	_	SpaceAfter=No
+29	ל	ל	ADP	ADP	_	30	case	_	_
+30	מעשה	מעשה	NOUN	NOUN	Gender=Masc|Number=Sing	28	nmod	_	_
+31	_של_	של	ADP	ADP	Case=Gen	32	case:gen	_	_
+32	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+33	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:210
+# doc_range = 3562-3627
+# sent_id = 5244
+# text = טרנר אמר כי היה קשה למנוע אירוע כזה.
+1	טרנר	טרנר	PROPN	PROPN	_	2	nsubj	_	_
+2	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	כי	כי	SCONJ	SCONJ	_	6	mark	_	_
+4	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	6	cop	_	_
+5	קשה	קשה	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbType=Mod	6	aux	_	_
+6	למנוע	מנע	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	2	ccomp	_	_
+7	אירוע	אירוע	NOUN	NOUN	Gender=Masc|Number=Sing	6	obj	_	_
+8-10	כזה	_	_	_	_	_	_	_	SpaceAfter=No
+8	כ	כ	ADP	ADP	_	10	case	_	_
+9	ה_	ה	DET	DET	PronType=Art|Definite=Def	10	det	_	_
+10	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	7	nmod	_	_
+11	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:210
+# doc_range = 3629-3705
+# sent_id = 5245
+# text = הוא שיבח את התגובה של השוטרים שהיו בסביבה.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	שיבח	שיבח	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	את	את	ADP	ADP	Case=Acc	5	case	_	_
+4-5	התגובה	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	תגובה	תגובה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obj	_	_
+6	של	של	ADP	ADP	Case=Gen	8	case	_	_
+7-8	השוטרים	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	שוטרים	שוטר	NOUN	NOUN	Gender=Masc|Number=Plur	5	nmod:poss	_	_
+9-10	שהיו	_	_	_	_	_	_	_	_
+9	ש	ש	SCONJ	SCONJ	_	10	mark	_	_
+10	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	8	acl:relcl	_	_
+11-13	בסביבה	_	_	_	_	_	_	_	SpaceAfter=No
+11	ב	ב	ADP	ADP	_	13	case	_	_
+12	ה_	ה	DET	DET	PronType=Art|Definite=Def	13	det	_	_
+13	סביבה	סביבה	NOUN	NOUN	Gender=Fem|Number=Sing	10	obl	_	_
+14	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:210
+# doc_range = 3708-3789
+# sent_id = 5246
+# text = "לולא כן לא היו פוגעים ותופסים את הדוקר" אמר.
+1	"	"	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+2	לולא	לולא	ADV	ADV	_	3	advmod	_	_
+3	כן	כן	ADV	ADV	_	6	advmod	_	_
+4	לא	לא	ADV	ADV	Polarity=Neg	6	advmod	_	_
+5	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	6	cop	_	_
+6	פוגעים	פגע	VERB	VERB	Aspect=Prog|Tense=Past|VerbForm=Part	13	advcl	_	_
+7-8	ותופסים	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	8	cc	_	_
+8	תופסים	תפס	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	6	conj	_	_
+9	את	את	ADP	ADP	Case=Acc	11	case	_	_
+10-11	הדוקר	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	דוקר	דקר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	8	obj	_	_
+12	"	"	PUNCT	PUNCT	_	6	punct	_	_
+13	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# doc_id = htb:210
+# doc_range = 3791-4023
+# sent_id = 5247
+# text = טרנר הורה לבדוק מדוע לחגאבי ושאר השוטרים לא היו אפודי מגן, אם כי הדגיש כי אין ביטחון שהדקירה היתה נמנעת גם אם הוא היה לבוש אפוד.
+1	טרנר	טרנר	PROPN	PROPN	_	2	nsubj	_	_
+2	הורה	הורה	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	לבדוק	בדק	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	מדוע	מדוע	ADV	ADV	PronType=Int	12	advmod	_	_
+5-6	לחגאבי	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	חגאבי	לחגאבי	PROPN	PROPN	_	12	obl	_	_
+7-8	ושאר	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+8	שאר	שאר	DET	DET	Definite=Cons|Gender=Masc	10	det	_	_
+9-10	השוטרים	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	שוטרים	שוטר	NOUN	NOUN	Gender=Masc|Number=Plur	6	conj	_	_
+11	לא	לא	ADV	ADV	Polarity=Neg	12	advmod	_	_
+12	היו	היה	VERB	VERB	Gender=Fem,Masc|HebExistential=Yes|Number=Plur|Person=3|Polarity=Pos|Tense=Past	3	advcl	_	_
+13	אפודי	אפוד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	12	nsubj	_	_
+14	מגן	מגן	NOUN	NOUN	Gender=Masc|Number=Sing	13	compound:smixut	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	16	punct	_	_
+16	אם	אם	SCONJ	SCONJ	_	2	advcl	_	_
+17	כי	כי	SCONJ	SCONJ	_	16	dep	_	HebSource=ConvUncertainHead
+18	הדגיש	הדגיש	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	16	dep	_	HebSource=ConvUncertainHead
+19	כי	כי	SCONJ	SCONJ	_	20	mark	_	_
+20	אין	אין	VERB	VERB	HebExistential=Yes	18	ccomp	_	_
+21	ביטחון	ביטחון	NOUN	NOUN	Gender=Masc|Number=Sing	20	nsubj	_	_
+22-24	שהדקירה	_	_	_	_	_	_	_	_
+22	ש	ש	SCONJ	SCONJ	_	26	mark	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	דקירה	דקירה	NOUN	NOUN	Gender=Fem|Number=Sing	26	dep	_	_
+25	היתה	היה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	26	cop	_	_
+26	נמנעת	נמנע	VERB	VERB	Aspect=Prog|Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Past|VerbForm=Part|Voice=Mid	21	acl:relcl	_	_
+27	גם	גם	ADV	ADV	_	31	advmod	_	_
+28	אם	אם	SCONJ	SCONJ	_	31	mark	_	_
+29	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
+30	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past	31	aux	_	_
+31	לבוש	לבש	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Mood=Irr|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	26	advcl	_	_
+32	אפוד	אפוד	NOUN	NOUN	Gender=Masc|Number=Sing	31	dep	_	SpaceAfter=No
+33	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:210
+# doc_range = 4025-4254
+# sent_id = 5248
+# text = המפכ"ל הוסיף כי השוטרים סיירו בקטע זה של הרחוב שבין מוסרארה לשער שכם, כדי לאבטח מתפללים העושים דרכם בשבת לכותל המערבי ובחזרה.
+1-2	המפכ"ל	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מפכ"ל	מפכ"ל	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	הוסיף	הוסיף	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	כי	כי	SCONJ	SCONJ	_	7	mark	_	_
+5-6	השוטרים	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	שוטרים	שוטר	NOUN	NOUN	Gender=Masc|Number=Plur	7	nsubj	_	_
+7	סיירו	סייר	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	3	ccomp	_	_
+8-9	בקטע	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	קטע	קטע	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
+10	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	det	_	_
+11	של	של	ADP	ADP	Case=Gen	13	case	_	_
+12-13	הרחוב	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	רחוב	רחוב	NOUN	NOUN	Gender=Masc|Number=Sing	9	nmod	_	_
+14-15	שבין	_	_	_	_	_	_	_	_
+14	ש	ש	SCONJ	SCONJ	_	16	case	_	_
+15	בין	בין	ADP	ADP	_	16	case	_	_
+16	מוסרארה	מוסרארה	PROPN	PROPN	_	13	nmod	_	_
+17-18	לשער	_	_	_	_	_	_	_	_
+17	ל	ל	ADP	ADP	_	18	case	_	_
+18	שער	שער	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	16	conj	_	_
+19	שכם	שכם	PROPN	PROPN	_	18	compound:smixut	_	SpaceAfter=No
+20	,	,	PUNCT	PUNCT	_	22	punct	_	_
+21	כדי	כדי	SCONJ	SCONJ	_	22	mark	_	_
+22	לאבטח	לאבטח	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	7	advcl	_	_
+23	מתפללים	מתפלל	NOUN	NOUN	Gender=Masc|Number=Plur	22	obl	_	_
+24-25	העושים	_	_	_	_	_	_	_	_
+24	ה	ה	SCONJ	SCONJ	_	25	mark	_	_
+25	עושים	עשה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	23	acl:relcl	_	_
+26-28	דרכם	_	_	_	_	_	_	_	_
+26	דרך	דרך	NOUN	NOUN	Gender=Fem|Number=Sing	25	obj	_	_
+27	_של_	של	ADP	ADP	Case=Gen	28	case:gen	_	_
+28	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+29-30	בשבת	_	_	_	_	_	_	_	_
+29	ב	ב	ADP	ADP	_	30	case	_	_
+30	שבת	שבת	PROPN	PROPN	_	25	obl	_	_
+31-33	לכותל	_	_	_	_	_	_	_	_
+31	ל	ל	ADP	ADP	_	33	case	_	_
+32	ה_	ה	DET	DET	PronType=Art|Definite=Def	33	det	_	_
+33	כותל	כותל	NOUN	NOUN	Gender=Masc|Number=Sing	25	obl	_	_
+34-35	המערבי	_	_	_	_	_	_	_	_
+34	ה	ה	DET	DET	Definite=Def|PronType=Art	35	det	_	_
+35	מערבי	מערבי	ADJ	ADJ	Gender=Masc|Number=Sing	33	amod	_	_
+36-38	ובחזרה	_	_	_	_	_	_	_	SpaceAfter=No
+36	ו	ו	CCONJ	CCONJ	_	38	cc	_	_
+37	ב	ב	ADP	ADP	_	38	case	_	_
+38	חזרה	חזרה	NOUN	NOUN	Gender=Fem|Number=Sing	33	conj	_	_
+39	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:210
+# doc_range = 4256-4349
+# sent_id = 5249
+# text = לאחר הפיגוע נסגר האזור וכל הסוחרים נעלו את החנויות.
+1	לאחר	לאחר	ADP	ADP	_	3	case	_	_
+2-3	הפיגוע	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	פיגוע	פיגוע	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+4	נסגר	נסגר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+5-6	האזור	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	אזור	אזור	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
+7-8	וכל	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+8	כל	כול	DET	DET	Definite=Cons	10	det	_	_
+9-10	הסוחרים	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	סוחרים	סוחר	NOUN	NOUN	Gender=Masc|Number=Plur	11	nsubj	_	_
+11	נעלו	נעל	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	4	conj	_	_
+12	את	את	ADP	ADP	Case=Acc	14	case	_	_
+13-14	החנויות	_	_	_	_	_	_	_	SpaceAfter=No
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	חנויות	חנות	NOUN	NOUN	Gender=Fem|Number=Plur	11	obj	_	_
+15	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:210
+# doc_range = 4351-4451
+# sent_id = 5250
+# text = זהו המקרה השני של דקירת שוטר באותו אזור בתוך עשרה ימים.
+1	זהו	זהו	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	_
+2-3	המקרה	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	מקרה	מקרה	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+4-5	השני	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	שני	שני	ADJ	ADJ	Gender=Masc|Number=Sing	3	amod	_	_
+6	של	של	ADP	ADP	Case=Gen	7	case	_	_
+7	דקירת	דקירה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	nmod	_	_
+8	שוטר	שוטר	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound:smixut	_	_
+9-10	באותו	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	11	case	_	_
+10	אותו	אותו	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	det	_	_
+11	אזור	אזור	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
+12	בתוך	בתוך	ADP	ADP	_	14	case	_	_
+13	עשרה	עשר	NUM	NUM	Gender=Masc|Number=Plur	14	nummod	_	_
+14	ימים	יום	NOUN	NOUN	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	3	punct	_	_
+

@@ -1,0 +1,447 @@
+# doc_id = htb:51
+# doc_range = 1-237
+# sent_id = 1705
+# text = נ מוראלי חשוב השיג הפועל תל אביב במשחק שלא התעלה לרמה גבוהה ואלמלא המאבק הצמוד והסיום הדרמאטי, לפני ההארכה, הוא היה מוכתר כמאכזב.
+1	נ	נ	PROPN	PROPN	_	4	obj	_	_
+2	מוראלי	מוראלי	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	_
+3	חשוב	חשוב	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	_
+4	השיג	השיג	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5-6	הפועל	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	פועל	פועל	PROPN	PROPN	_	4	nsubj	_	_
+7	תל	תל	PROPN	PROPN	Definite=Cons	6	acl	_	_
+8	אביב	אביב	PROPN	PROPN	_	7	compound:smixut	_	_
+9-11	במשחק	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	11	case	_	_
+10	ה_	ה	DET	DET	PronType=Art|Definite=Def	11	det	_	_
+11	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+12-13	שלא	_	_	_	_	_	_	_	_
+12	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
+13	לא	לא	ADV	ADV	Polarity=Neg	14	advmod	_	_
+14	התעלה	התעלה	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	11	acl:relcl	_	_
+15-16	לרמה	_	_	_	_	_	_	_	_
+15	ל	ל	ADP	ADP	_	16	case	_	_
+16	רמה	רמה	NOUN	NOUN	Gender=Fem|Number=Sing	14	obl	_	_
+17	גבוהה	גבוה	ADJ	ADJ	Gender=Fem|Number=Sing	16	amod	_	_
+18-19	ואלמלא	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	_	36	cc	_	_
+19	אלמלא	אלמלא	ADP	ADP	_	21	case	_	_
+20-21	המאבק	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	מאבק	מאבק	NOUN	NOUN	Gender=Masc|Number=Sing	36	obl	_	_
+22-23	הצמוד	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	צמוד	צמוד	ADJ	ADJ	Gender=Masc|Number=Sing	21	amod	_	_
+24-26	והסיום	_	_	_	_	_	_	_	_
+24	ו	ו	CCONJ	CCONJ	_	26	cc	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	סיום	סיום	NOUN	NOUN	Gender=Masc|Number=Sing	21	conj	_	_
+27-28	הדרמאטי	_	_	_	_	_	_	_	SpaceAfter=No
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	דרמאטי	דרמאטי	ADJ	ADJ	_	26	amod	_	_
+29	,	,	PUNCT	PUNCT	_	32	punct	_	_
+30	לפני	לפני	ADP	ADP	_	32	case	_	_
+31-32	ההארכה	_	_	_	_	_	_	_	SpaceAfter=No
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	הארכה	הארכה	NOUN	NOUN	Gender=Fem|Number=Sing	26	nmod	_	_
+33	,	,	PUNCT	PUNCT	_	21	punct	_	_
+34	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	nsubj:pass	_	_
+35	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	36	cop	_	_
+36	מוכתר	הוכתר	VERB	VERB	Aspect=Prog|Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	_
+37-38	כמאכזב	_	_	_	_	_	_	_	SpaceAfter=No
+37	כ	כ	ADP	ADP	_	38	case	_	_
+38	מאכזב	מאכזב	ADJ	ADJ	Gender=Masc|Number=Sing	36	obl	_	_
+39	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:51
+# doc_range = 239-376
+# sent_id = 1706
+# text = הפועל, למרות שליטה מוחלטת בכדורים החוזרים, לא מימש יתרון זה לעשיית נקודות.
+1-2	הפועל	_	_	_	_	_	_	_	SpaceAfter=No
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	14	nsubj	_	_
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
+4	למרות	למרות	ADP	ADP	_	5	case	_	_
+5	שליטה	שליטה	NOUN	NOUN	Gender=Fem|Number=Sing	14	obl	_	_
+6	מוחלטת	מוחלט	ADJ	ADJ	Gender=Fem|Number=Sing	5	amod	_	_
+7-9	בכדורים	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	9	case	_	_
+8	ה_	ה	DET	DET	PronType=Art|Definite=Def	9	det	_	_
+9	כדורים	כדור	NOUN	NOUN	Gender=Masc|Number=Plur	5	nmod	_	_
+10-11	החוזרים	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	חוזרים	חוזר	ADJ	ADJ	Gender=Masc|Number=Plur	9	amod	_	_
+12	,	,	PUNCT	PUNCT	_	5	punct	_	_
+13	לא	לא	ADV	ADV	Polarity=Neg	14	advmod	_	_
+14	מימש	מימש	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+15	יתרון	יתרון	NOUN	NOUN	Gender=Masc|Number=Sing	14	obj	_	_
+16	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	det	_	_
+17-18	לעשיית	_	_	_	_	_	_	_	_
+17	ל	ל	ADP	ADP	_	18	case	_	_
+18	עשיית	עשייה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	14	obl	_	_
+19	נקודות	נקודה	NOUN	NOUN	Gender=Fem|Number=Plur	18	compound:smixut	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# doc_id = htb:51
+# doc_range = 379-697
+# sent_id = 1707
+# text = שחקניו הגבוהים, טרי וגיבסון, החטיאו כטירונים מתחת לסל, כשגיבסון זוכה לכיסוי דאבל-אף, אולם הוא הצליח להוציא כדורים החוצה לאנדרסון ולפרישמן הפנויים שניצלו זאת לנקודות קלות.
+1-3	שחקניו	_	_	_	_	_	_	_	_
+1	שחקן	שחקן	NOUN	NOUN	Gender=Masc|Number=Plur	11	nsubj	_	_
+2	_של_	של	ADP	ADP	Case=Gen	3	case:gen	_	_
+3	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	nmod:poss	_	_
+4-5	הגבוהים	_	_	_	_	_	_	_	SpaceAfter=No
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	גבוהים	גבוה	ADJ	ADJ	Gender=Masc|Number=Plur	1	amod	_	_
+6	,	,	PUNCT	PUNCT	_	7	punct	_	_
+7	טרי	טרי	PROPN	PROPN	_	1	appos	_	_
+8-9	וגיבסון	_	_	_	_	_	_	_	SpaceAfter=No
+8	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+9	גיבסון	גיבסון	PROPN	PROPN	_	7	conj	_	_
+10	,	,	PUNCT	PUNCT	_	1	punct	_	_
+11	החטיאו	החטיא	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+12-13	כטירונים	_	_	_	_	_	_	_	_
+12	כ	כ	ADP	ADP	_	13	case	_	_
+13	טירונים	טירון	NOUN	NOUN	Gender=Masc|Number=Plur	11	obl	_	_
+14	מתחת	מתחת	ADP	ADP	_	17	case	_	_
+15-17	לסל	_	_	_	_	_	_	_	SpaceAfter=No
+15	ל	ל	ADP	ADP	_	14	fixed	_	_
+16	ה_	ה	DET	DET	PronType=Art|Definite=Def	17	det	_	_
+17	סל	סל	NOUN	NOUN	Gender=Masc|Number=Sing	11	obl	_	_
+18	,	,	PUNCT	PUNCT	_	21	punct	_	_
+19-20	כשגיבסון	_	_	_	_	_	_	_	_
+19	כש	כש	SCONJ	SCONJ	Case=Tem	21	mark	_	_
+20	גיבסון	גיבסון	PROPN	PROPN	_	21	nsubj	_	_
+21	זוכה	זכה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	11	advcl	_	_
+22-23	לכיסוי	_	_	_	_	_	_	_	_
+22	ל	ל	ADP	ADP	_	23	case	_	_
+23	כיסוי	כיסוי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	21	obl	_	_
+24	דאבל	דאבל	PROPN	PROPN	_	23	compound:smixut	_	SpaceAfter=No
+25	-	-	PUNCT	PUNCT	_	26	punct	_	SpaceAfter=No
+26	אף	אף	NOUN	NOUN	Gender=Masc|Number=Sing	24	flat:name	_	SpaceAfter=No
+27	,	,	PUNCT	PUNCT	_	30	punct	_	_
+28	אולם	אולם	CCONJ	CCONJ	_	30	cc	_	_
+29	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
+30	הצליח	הצליח	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	11	conj	_	_
+31	להוציא	הוציא	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	30	xcomp	_	_
+32	כדורים	כדור	NOUN	NOUN	Gender=Masc|Number=Plur	31	obj	_	_
+33	החוצה	החוצה	ADV	ADV	_	31	advmod	_	_
+34-35	לאנדרסון	_	_	_	_	_	_	_	_
+34	ל	ל	ADP	ADP	_	35	case	_	_
+35	אנדרסון	אנדרסון	PROPN	PROPN	_	42	dep	_	HebSource=ConvUncertainHead
+36-38	ולפרישמן	_	_	_	_	_	_	_	_
+36	ו	ו	CCONJ	CCONJ	_	38	cc	_	_
+37	ל	ל	ADP	ADP	_	38	case	_	_
+38	פרישמן	פרישמן	PROPN	PROPN	_	35	conj	_	_
+39-40	הפנויים	_	_	_	_	_	_	_	_
+39	ה	ה	DET	DET	Definite=Def|PronType=Art	40	det	_	_
+40	פנויים	פנוי	ADJ	ADJ	Gender=Masc|Number=Plur	42	dep	_	_
+41-42	שניצלו	_	_	_	_	_	_	_	_
+41	ש	ש	SCONJ	SCONJ	_	42	mark	_	_
+42	ניצלו	ניצלו	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	31	advcl	_	_
+43	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	42	obj	_	_
+44-45	לנקודות	_	_	_	_	_	_	_	_
+44	ל	ל	ADP	ADP	_	45	case	_	_
+45	נקודות	נקודה	NOUN	NOUN	Gender=Fem|Number=Plur	42	obl	_	_
+46	קלות	קל	ADJ	ADJ	Gender=Fem|Number=Plur	45	amod	_	SpaceAfter=No
+47	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:51
+# doc_range = 699-876
+# sent_id = 1708
+# text = ניצחון הפועל הושג בעיקר בזכות לחימה עיקשת של אמסלם ופרישמן, שהשתפר וניווט התקפת קבוצתו ללא דופי.
+1	ניצחון	ניצחון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+2-3	הפועל	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4	הושג	הושג	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+5	בעיקר	בעיקר	ADV	ADV	_	4	advmod	_	_
+6	בזכות	בזכות	ADP	ADP	_	7	case	_	_
+7	לחימה	לחימה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+8	עיקשת	עיקש	ADJ	ADJ	Gender=Fem|Number=Sing	7	amod	_	_
+9	של	של	ADP	ADP	Case=Gen	10	case	_	_
+10	אמסלם	אמסלם	PROPN	PROPN	_	7	nmod	_	_
+11-12	ופרישמן	_	_	_	_	_	_	_	SpaceAfter=No
+11	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+12	פרישמן	פרישמן	PROPN	PROPN	_	10	conj	_	_
+13	,	,	PUNCT	PUNCT	_	15	punct	_	_
+14-15	שהשתפר	_	_	_	_	_	_	_	_
+14	ש	ש	SCONJ	SCONJ	_	15	mark	_	_
+15	השתפר	השתפר	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	12	acl:relcl	_	_
+16-17	וניווט	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+17	ניווט	ניווט	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	15	conj	_	_
+18	התקפת	התקפה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	15	obj	_	_
+19-21	קבוצתו	_	_	_	_	_	_	_	_
+19	קבוצה	קבוצה	NOUN	NOUN	Gender=Fem|Number=Sing	18	compound:smixut	_	_
+20	_של_	של	ADP	ADP	Case=Gen	21	case:gen	_	_
+21	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+22	ללא	ללא	ADP	ADP	_	23	case	_	_
+23	דופי	דופי	NOUN	NOUN	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:51
+# doc_range = 878-975
+# sent_id = 1709
+# text = מכבי רמת גן שמט ניצחון אחרי שהוביל במרבית דקות המשחק.
+1	מכבי	מכבי	PROPN	PROPN	_	4	nsubj	_	_
+2	רמת	רמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	flat:name	_	_
+3	גן	גן	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+4	שמט	שמט	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	ניצחון	ניצחון	NOUN	NOUN	Gender=Masc|Number=Sing	4	obj	_	_
+6	אחרי	אחרי	ADP	ADP	_	8	mark	_	_
+7-8	שהוביל	_	_	_	_	_	_	_	_
+7	ש	ש	SCONJ	SCONJ	_	6	fixed	_	_
+8	הוביל	הוביל	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	4	advcl	_	_
+9-10	במרבית	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	11	case	_	_
+10	מרבית	מרבית	DET	DET	Definite=Cons	11	det	_	_
+11	דקות	דקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	8	obl	_	_
+12-13	המשחק	_	_	_	_	_	_	_	SpaceAfter=No
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound:smixut	_	_
+14	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:51
+# doc_range = 977-1155
+# sent_id = 1710
+# text = שחקני החיזוק הולקומב ופירסון עשו את המוטל עליהם וקלעו את מיכסת הנקודות שמצפים מהם (ביחד 94 נקודות).
+1	שחקני	שחקן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	7	nsubj	_	_
+2-3	החיזוק	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	חיזוק	חיזוק	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4	הולקומב	הולקומב	PROPN	PROPN	_	1	nmod	_	_
+5-6	ופירסון	_	_	_	_	_	_	_	_
+5	ו	ו	CCONJ	CCONJ	_	6	cc	_	_
+6	פירסון	פירסון	PROPN	PROPN	_	4	conj	_	_
+7	עשו	עשה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+8	את	את	ADP	ADP	Case=Acc	10	case	_	_
+9-10	המוטל	_	_	_	_	_	_	_	_
+9	ה	ה	SCONJ	SCONJ	_	10	mark	_	_
+10	מוטל	הוטל	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	7	obj	_	_
+11-12	עליהם	_	_	_	_	_	_	_	_
+11	עלי	על	ADP	ADP	_	12	case	_	_
+12	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	obl	_	_
+13-14	וקלעו	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
+14	קלעו	קלע	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	7	conj	_	_
+15	את	את	ADP	ADP	Case=Acc	16	case	_	_
+16	מיכסת	מכסה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	14	obj	_	_
+17-18	הנקודות	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	נקודות	נקודה	NOUN	NOUN	Gender=Fem|Number=Plur	16	compound:smixut	_	_
+19-20	שמצפים	_	_	_	_	_	_	_	_
+19	ש	ש	SCONJ	SCONJ	_	20	mark	_	_
+20	מצפים	ציפה	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	16	acl:relcl	_	_
+21-22	מהם	_	_	_	_	_	_	_	_
+21	מ	מן	ADP	ADP	_	22	case	_	_
+22	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	obl	_	_
+23	(	(	PUNCT	PUNCT	_	24	punct	_	SpaceAfter=No
+24	ביחד	ביחד	ADV	ADV	_	16	appos	_	_
+25	94	94	NUM	NUM	_	26	nummod	_	_
+26	נקודות	נקודה	NOUN	NOUN	Gender=Fem|Number=Plur	24	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+27	)	)	PUNCT	PUNCT	_	24	punct	_	SpaceAfter=No
+28	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:51
+# doc_range = 1160-1339
+# sent_id = 1711
+# text = האכזבה באה דווקא מבינו, שלא הצליח להתמודד עם גבוהי הפועל, ומעושה המשחק שוורצמן שאיבד כדורים רבים.
+1-2	האכזבה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	אכזבה	אכזבה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	באה	בא	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	דווקא	דווקא	ADV	ADV	_	3	advmod	_	_
+5-6	מבינו	_	_	_	_	_	_	_	SpaceAfter=No
+5	מ	מ	ADP	ADP	_	6	case	_	_
+6	בינו	בין	PROPN	PROPN	_	3	obl	_	_
+7	,	,	PUNCT	PUNCT	_	10	punct	_	_
+8-9	שלא	_	_	_	_	_	_	_	_
+8	ש	ש	SCONJ	SCONJ	_	10	mark	_	_
+9	לא	לא	ADV	ADV	Polarity=Neg	10	advmod	_	_
+10	הצליח	הצליח	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	6	acl:relcl	_	_
+11	להתמודד	התמודד	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	10	xcomp	_	_
+12	עם	עם	ADP	ADP	_	13	case	_	_
+13	גבוהי	גבוה	ADJ	ADJ	Definite=Cons|Gender=Masc|Number=Plur	11	obl	_	_
+14-15	הפועל	_	_	_	_	_	_	_	SpaceAfter=No
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	13	compound:smixut	_	_
+16	,	,	PUNCT	PUNCT	_	19	punct	_	_
+17-19	ומעושה	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+18	מ	מ	ADP	ADP	_	19	case	_	_
+19	עושה	עשה	VERB	VERB	Definite=Cons|Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	6	conj	_	_
+20-21	המשחק	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	19	compound:smixut	_	_
+22	שוורצמן	שוורצמן	PROPN	PROPN	_	19	flat:name	_	_
+23-24	שאיבד	_	_	_	_	_	_	_	_
+23	ש	ש	SCONJ	SCONJ	_	24	mark	_	_
+24	איבד	איבד	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	19	acl:relcl	_	_
+25	כדורים	כדור	NOUN	NOUN	Gender=Masc|Number=Plur	24	obj	_	_
+26	רבים	רב	ADJ	ADJ	Gender=Masc|Number=Plur	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:51
+# doc_range = 1341-1396
+# sent_id = 1712
+# text = הדרמה הגיעה לשיאה בדקות הסיום.
+1-2	הדרמה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	דרמה	דרמה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	הגיעה	הגיע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4-7	לשיאה	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	שיא	שיא	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+6	_של_	של	ADP	ADP	Case=Gen	7	case:gen	_	_
+7	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+8-9	בדקות	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	דקות	דקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	3	obl	_	_
+10-11	הסיום	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	סיום	סיום	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound:smixut	_	_
+12	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:51
+# doc_range = 1398-1716
+# sent_id = 1713
+# text = סל רדף סל ובדקה ה-83 הורה לוח התוצאות על שוויון 18, 75 שניות לסיום היה להפועל יתרון 77 79, וכשנותרה שנייה לסיום נשרקה עבירה טכנית לזכות קרטר מרמת גן והוא הישווה בשתי זריקות עונשין.
+1	סל	סל	NOUN	NOUN	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	רדף	רדף	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	סל	סל	NOUN	NOUN	Gender=Masc|Number=Sing	2	obj	_	_
+4-7	ובדקה	_	_	_	_	_	_	_	_
+4	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+5	ב	ב	ADP	ADP	_	7	case	_	_
+6	ה_	ה	DET	DET	PronType=Art|Definite=Def	7	det	_	_
+7	דקה	דקה	NOUN	NOUN	Gender=Fem|Number=Sing	11	obl	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	SpaceAfter=No
+9	-	-	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+10	83	83	NUM	NUM	_	7	amod	_	_
+11	הורה	הורה	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	_
+12	לוח	לוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	nsubj	_	_
+13-14	התוצאות	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	תוצאות	תוצאה	NOUN	NOUN	Gender=Fem|Number=Plur	12	compound:smixut	_	_
+15	על	על	ADP	ADP	_	16	case	_	_
+16	שוויון	שוויון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	obl	_	_
+17	18	18	NUM	NUM	_	16	compound:smixut	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	24	punct	_	_
+19	75	75	NUM	NUM	_	20	nummod	_	_
+20	שניות	שנייה	NOUN	NOUN	Gender=Fem|Number=Plur	24	dep	_	_
+21-23	לסיום	_	_	_	_	_	_	_	_
+21	ל	ל	ADP	ADP	_	23	case	_	_
+22	ה_	ה	DET	DET	PronType=Art|Definite=Def	23	det	_	_
+23	סיום	סיום	NOUN	NOUN	Gender=Masc|Number=Sing	20	nmod	_	_
+24	היה	היה	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Past	2	conj	_	_
+25-27	להפועל	_	_	_	_	_	_	_	_
+25	ל	ל	ADP	ADP	_	27	case	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	24	obl	_	_
+28	יתרון	יתרון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	24	nsubj	_	_
+29	77	77	NUM	NUM	_	28	compound:smixut	_	_
+30	79	79	NUM	NUM	_	29	nummod	_	SpaceAfter=No
+31	,	,	PUNCT	PUNCT	_	39	punct	_	_
+32-34	וכשנותרה	_	_	_	_	_	_	_	_
+32	ו	ו	CCONJ	CCONJ	_	39	cc	_	_
+33	כש	כש	ADP	ADP	Case=Tem	34	mark	_	_
+34	נותרה	נותר	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	39	advcl	_	_
+35	שנייה	שנייה	NOUN	NOUN	Gender=Fem|Number=Sing	34	nsubj	_	_
+36-38	לסיום	_	_	_	_	_	_	_	_
+36	ל	ל	ADP	ADP	_	38	case	_	_
+37	ה_	ה	DET	DET	PronType=Art|Definite=Def	38	det	_	_
+38	סיום	סיום	NOUN	NOUN	Gender=Masc|Number=Sing	35	nmod	_	_
+39	נשרקה	נשרק	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	2	conj	_	_
+40	עבירה	עבירה	NOUN	NOUN	Gender=Fem|Number=Sing	39	nsubj	_	_
+41	טכנית	טכני	ADJ	ADJ	Gender=Fem|Number=Sing	40	amod	_	_
+42	לזכות	לזכות	ADP	ADP	_	43	case	_	_
+43	קרטר	קרטר	PROPN	PROPN	_	39	obl	_	_
+44-45	מרמת	_	_	_	_	_	_	_	_
+44	מ	מ	ADP	ADP	_	45	case	_	_
+45	רמת	רמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	43	nmod	_	_
+46	גן	גן	NOUN	NOUN	Gender=Masc|Number=Sing	45	compound:smixut	_	_
+47-48	והוא	_	_	_	_	_	_	_	_
+47	ו	ו	CCONJ	CCONJ	_	49	cc	_	_
+48	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	49	nsubj	_	_
+49	הישווה	הישווה	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1|Tense=Past|Voice=Act	39	conj	_	_
+50-51	בשתי	_	_	_	_	_	_	_	_
+50	ב	ב	ADP	ADP	_	52	case	_	_
+51	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	52	nummod	_	_
+52	זריקות	זריקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	49	obl	_	_
+53	עונשין	עונש	NOUN	NOUN	Gender=Masc|Number=Plur	52	compound:smixut	_	SpaceAfter=No
+54	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:51
+# doc_range = 1718-1852
+# sent_id = 1714
+# text = הוצאת הכדור בידי רמת גן שנייה לסיום לא שינתה דבר והקבוצות התייצבו להארכה.
+1	הוצאת	הוצאה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	nsubj	_	_
+2-3	הכדור	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	כדור	כדור	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4	בידי	בידי	ADP	ADP	_	5	case	_	_
+5	רמת	רמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	nmod	_	_
+6	גן	גן	NOUN	NOUN	Gender=Masc|Number=Sing	5	compound:smixut	_	_
+7	שנייה	שנייה	NOUN	NOUN	Gender=Fem|Number=Sing	1	nmod	_	_
+8-10	לסיום	_	_	_	_	_	_	_	_
+8	ל	ל	ADP	ADP	_	10	case	_	_
+9	ה_	ה	DET	DET	PronType=Art|Definite=Def	10	det	_	_
+10	סיום	סיום	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
+11	לא	לא	ADV	ADV	Polarity=Neg	12	advmod	_	_
+12	שינתה	שינה	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+13	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Sing	12	obj	_	_
+14-16	והקבוצות	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	קבוצות	קבוצה	NOUN	NOUN	Gender=Fem|Number=Plur	17	nsubj	_	_
+17	התייצבו	התייצב	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	12	conj	_	_
+18-19	להארכה	_	_	_	_	_	_	_	SpaceAfter=No
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	הארכה	הארכה	NOUN	NOUN	Gender=Fem|Number=Sing	17	obl	_	_
+20	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# doc_id = htb:51
+# doc_range = 1854-1944
+# sent_id = 1715
+# text = בהארכה נראתה במגרש קבוצה אחת בלבד, הפועל תל אביב.
+1-3	בהארכה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	הארכה	הארכה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+4	נראתה	נראה	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+5-7	במגרש	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	7	case	_	_
+6	ה_	ה	DET	DET	PronType=Art|Definite=Def	7	det	_	_
+7	מגרש	מגרש	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+8	קבוצה	קבוצה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
+9	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	8	nummod	_	_
+10	בלבד	בלבד	ADV	ADV	_	8	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	13	punct	_	_
+12-13	הפועל	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	פועל	פועל	PROPN	PROPN	_	8	appos	_	_
+14	תל	תל	PROPN	PROPN	Definite=Cons	13	acl	_	_
+15	אביב	אביב	PROPN	PROPN	_	14	compound:smixut	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:51
+# doc_range = 1946-2018
+# sent_id = 1716
+# text = 61 נקודות שלה מול 4 של רמת גן עשו את ההבדל.
+1	61	61	NUM	NUM	_	2	nummod	_	_
+2	נקודות	נקודה	NOUN	NOUN	Gender=Fem|Number=Plur	10	nsubj	_	_
+3-4	שלה	_	_	_	_	_	_	_	_
+3	של	של	ADP	ADP	Case=Gen	4	case	_	_
+4	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5	מול	מול	ADP	ADP	_	6	case	_	_
+6	4	4	NUM	NUM	_	2	nmod	_	_
+7	של	של	ADP	ADP	Case=Gen	8	case	_	_
+8	רמת	רמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	nmod:poss	_	_
+9	גן	גן	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound:smixut	_	_
+10	עשו	עשה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+11	את	את	ADP	ADP	Case=Acc	13	case	_	_
+12-13	ההבדל	_	_	_	_	_	_	_	SpaceAfter=No
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	הבדל	הבדל	NOUN	NOUN	Gender=Masc|Number=Sing	10	obj	_	_
+14	.	.	PUNCT	PUNCT	_	10	punct	_	_
+

@@ -1,0 +1,137 @@
+# doc_id = htb:109
+# doc_range = 1-111
+# sent_id = 2590
+# text = שני אחים, עולים חדשים מבריה"ם, ניצחו אתמול בתחרויות התעמלות.
+1	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	2	nummod	_	_
+2	אחים	אח	NOUN	NOUN	Number=Plur	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	4	punct	_	_
+4	עולים	עולה	NOUN	NOUN	Gender=Masc|Number=Plur	2	appos	_	_
+5	חדשים	חדש	ADJ	ADJ	Gender=Masc|Number=Plur	4	amod	_	_
+6-7	מבריה"ם	_	_	_	_	_	_	_	SpaceAfter=No
+6	מ	מ	ADP	ADP	_	7	case	_	_
+7	בריה"ם	מבריה"ם	PROPN	PROPN	Abbr=Yes	4	nmod	_	_
+8	,	,	PUNCT	PUNCT	_	2	punct	_	_
+9	ניצחו	ניצח	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+10	אתמול	אתמול	ADV	ADV	_	9	advmod	_	_
+11-12	בתחרויות	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	תחרויות	תחרות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	9	obl	_	_
+13	התעמלות	התעמלות	NOUN	NOUN	Gender=Fem|Number=Sing	12	compound:smixut	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:109
+# doc_range = 113-231
+# sent_id = 2591
+# text = יורי רביץ זכה באליפות ישראל בדרגה לאומית ב לאחר שצבר 49.80 נקודות.
+1	יורי	יורי	PROPN	PROPN	_	3	nsubj	_	_
+2	רביץ	רביץ	PROPN	PROPN	_	1	flat:name	_	_
+3	זכה	זכה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4-5	באליפות	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	אליפות	אליפות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	obl	_	_
+6	ישראל	ישראל	PROPN	PROPN	_	5	compound:smixut	_	_
+7-8	בדרגה	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	דרגה	דרגה	NOUN	NOUN	Gender=Fem|Number=Sing	5	nmod	_	_
+9	לאומית	לאומי	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	_
+10	ב	ב	PROPN	PROPN	_	8	nmod	_	_
+11	לאחר	לאחר	ADP	ADP	_	13	case	_	_
+12-13	שצבר	_	_	_	_	_	_	_	_
+12	ש	ש	SCONJ	SCONJ	_	13	mark	_	_
+13	צבר	צבר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	3	obl	_	_
+14	49.80	49.80	NUM	NUM	_	15	nummod	_	_
+15	נקודות	נקודה	NOUN	NOUN	Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:109
+# doc_range = 233-328
+# sent_id = 2592
+# text = בגביע האיגוד בדרגה 5 זכה אלכס רביץ, שצבר 52.05 נקודות.
+1-2	בגביע	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	גביע	גביע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	obl	_	_
+3-4	האיגוד	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	איגוד	איגוד	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+5-6	בדרגה	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	דרגה	דרגה	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	_
+7	5	5	NUM	NUM	_	6	nummod	_	_
+8	זכה	זכה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+9	אלכס	אלכס	PROPN	PROPN	_	8	nsubj	_	_
+10	רביץ	רביץ	PROPN	PROPN	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	13	punct	_	_
+12-13	שצבר	_	_	_	_	_	_	_	_
+12	ש	ש	SCONJ	SCONJ	_	13	mark	_	_
+13	צבר	צבר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	9	acl:relcl	_	_
+14	52.05	52.05	NUM	NUM	_	15	nummod	_	_
+15	נקודות	נקודה	NOUN	NOUN	Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:109
+# doc_range = 330-465
+# sent_id = 2593
+# text = מתעמלות הפועל ראשון לציון זכו בגביע האיגוד לגילאים הצעירים, לפני עמק חפר.
+1	מתעמלות	התעמל	VERB	VERB	Definite=Cons|Gender=Fem|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	7	dep	_	_
+2-3	הפועל	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	פועל	פועל	PROPN	PROPN	_	1	compound:smixut	_	_
+4	ראשון	ראשון	PROPN	PROPN	_	3	flat:name	_	_
+5-6	לציון	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	ציון	ציון	PROPN	PROPN	_	4	flat:name	_	_
+7	זכו	זכה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+8-9	בגביע	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	גביע	גביע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	obl	_	_
+10-11	האיגוד	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	איגוד	איגוד	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound:smixut	_	_
+12-14	לגילאים	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	_	14	case	_	_
+13	ה_	ה	DET	DET	PronType=Art|Definite=Def	14	det	_	_
+14	גילאים	גיל	NOUN	NOUN	Gender=Masc|Number=Plur	9	nmod	_	_
+15-16	הצעירים	_	_	_	_	_	_	_	SpaceAfter=No
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	צעירים	צעיר	ADJ	ADJ	Gender=Masc|Number=Plur	14	amod	_	_
+17	,	,	PUNCT	PUNCT	_	19	punct	_	_
+18	לפני	לפני	ADP	ADP	_	19	case	_	_
+19	עמק	עמק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	obl	_	_
+20	חפר	חפר	PROPN	PROPN	_	19	flat:name	_	SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:109
+# doc_range = 467-553
+# sent_id = 2594
+# text = בדרגה ב ניצחה המיכל שחף מעמק חפר עם 38.27 נקודות.
+1-2	בדרגה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	דרגה	דרגה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+3	ב	ב	PROPN	PROPN	_	2	flat:name	_	_
+4	ניצחה	ניצח	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5-6	המיכל	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	4	dep	_	_
+6	מיכל	מיכל	PROPN	PROPN	_	4	nsubj	_	_
+7	שחף	שחף	PROPN	PROPN	_	6	flat:name	_	_
+8-9	מעמק	_	_	_	_	_	_	_	_
+8	מ	מ	ADP	ADP	_	9	case	_	_
+9	עמק	עמק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	nmod	_	_
+10	חפר	חפר	PROPN	PROPN	_	9	flat:name	_	_
+11	עם	עם	ADP	ADP	_	13	case	_	_
+12	38.27	38.27	NUM	NUM	_	13	nummod	_	_
+13	נקודות	נקודה	NOUN	NOUN	Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:109
+# doc_range = 555-596
+# sent_id = 2595
+# text = התחרויות היו בוינגייט.
+1-2	התחרויות	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	תחרויות	תחרות	NOUN	NOUN	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	0	root	_	_
+4-5	בוינגייט	_	_	_	_	_	_	_	SpaceAfter=No
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	וינגייט	וינגייט	PROPN	PROPN	_	3	obl	_	_
+6	.	.	PUNCT	PUNCT	_	3	punct	_	_
+

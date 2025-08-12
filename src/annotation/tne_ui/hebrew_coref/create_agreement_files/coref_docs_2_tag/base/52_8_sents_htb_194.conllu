@@ -1,0 +1,308 @@
+# doc_id = htb:194
+# doc_range = 1-22
+# sent_id = 4966
+# text = ביירות (ע"ם).
+1	ביירות	בירות	PROPN	PROPN	_	0	root	_	_
+2	(	(	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+3	ע"ם	ע"ם	NOUN	NOUN	Abbr=Yes	1	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+4	)	)	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	1	punct	_	HebSource=ConvUncertainHead
+
+# doc_id = htb:194
+# doc_range = 26-277
+# sent_id = 4967
+# text = היוזמה הסובייטית לפתרון המשבר במפרץ כוללת כינוס ועידה בין-לאומית, שתדון בשלב ראשון בזכויות עיראק בכוויית ולאחר מכן גם בבעיה הפלשתינית.
+1-2	היוזמה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	יוזמה	יוזמה	NOUN	NOUN	Gender=Fem|Number=Sing	12	nsubj	_	_
+3-4	הסובייטית	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	סובייטית	סובייטי	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+5-6	לפתרון	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	פתרון	פתרון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	nmod	_	_
+7-8	המשבר	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	משבר	משבר	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+9-11	במפרץ	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	11	case	_	_
+10	ה_	ה	DET	DET	PronType=Art|Definite=Def	11	det	_	_
+11	מפרץ	מפרץ	NOUN	NOUN	Gender=Masc|Number=Sing	8	nmod	_	_
+12	כוללת	כלל	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+13	כינוס	כינוס	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	obj	_	_
+14	ועידה	ועידה	NOUN	NOUN	Gender=Fem|Number=Sing	13	compound:smixut	_	_
+15	בין	בין	ADV	ADV	Prefix=Yes	17	compound:affix	_	SpaceAfter=No
+16	-	-	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
+17	לאומית	לאומי	ADJ	ADJ	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	20	punct	_	_
+19-20	שתדון	_	_	_	_	_	_	_	_
+19	ש	ש	SCONJ	SCONJ	_	20	mark	_	_
+20	תדון	דן	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Fut	14	acl:relcl	_	_
+21-22	בשלב	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	שלב	שלב	NOUN	NOUN	Gender=Masc|Number=Sing	20	obl	_	_
+23	ראשון	ראשון	ADJ	ADJ	Gender=Masc|Number=Sing	22	amod	_	_
+24-25	בזכויות	_	_	_	_	_	_	_	_
+24	ב	ב	ADP	ADP	_	25	case	_	_
+25	זכויות	זכות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	36	nmod	_	_
+26	עיראק	עיראק	PROPN	PROPN	_	25	compound:smixut	_	_
+27-28	בכוויית	_	_	_	_	_	_	_	_
+27	ב	ב	ADP	ADP	_	28	case	_	_
+28	כוויית	כווית	PROPN	PROPN	_	25	nmod	_	_
+29-30	ולאחר	_	_	_	_	_	_	_	_
+29	ו	ו	CCONJ	CCONJ	_	36	cc	_	HebSource=ConvUncertainHead
+30	לאחר	לאחר	ADP	ADP	_	36	case	_	_
+31-32	מכן	_	_	_	_	_	_	_	_
+31	מ	מ	ADP	ADP	_	36	case	_	_
+32	כן	כן	ADV	ADV	_	36	case	_	_
+33	גם	גם	ADV	ADV	_	36	advmod	_	HebSource=ConvUncertainHead
+34-36	בבעיה	_	_	_	_	_	_	_	_
+34	ב	ב	ADP	ADP	_	36	case	_	_
+35	ה_	ה	DET	DET	PronType=Art|Definite=Def	36	det	_	_
+36	בעיה	בעיה	NOUN	NOUN	Gender=Fem|Number=Sing	20	obl	_	_
+37-38	הפלשתינית	_	_	_	_	_	_	_	SpaceAfter=No
+37	ה	ה	DET	DET	Definite=Def|PronType=Art	38	det	_	_
+38	פלשתינית	פלסטיני	ADJ	ADJ	Gender=Fem|Number=Sing	36	amod	_	_
+39	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# doc_id = htb:194
+# doc_range = 279-567
+# sent_id = 4968
+# text = העיתון הלבנוני "אל ראיה המוסר על כך טוען כי הסעיפים הבולטים של התוכנית הסובייטית, שעל בסיסה ניהל פרימאקוב מגעים באזור, הם: נסיגה עיראקית מכוויית כצעד ראשון.
+1-2	העיתון	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	עיתון	עיתון	NOUN	NOUN	Gender=Masc|Number=Sing	12	nsubj	_	_
+3-4	הלבנוני	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	לבנוני	לבנוני	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+5	"	"	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+6	אל	אל	PROPN	PROPN	_	2	appos	_	_
+7	ראיה	ראיה	NOUN	NOUN	Gender=Fem|Number=Sing	6	flat:name	_	_
+8-9	המוסר	_	_	_	_	_	_	_	_
+8	ה	ה	SCONJ	SCONJ	_	9	mark	_	_
+9	מוסר	מסר	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	2	acl:relcl	_	_
+10	על	על	ADP	ADP	_	11	case	_	_
+11	כך	כך	PRON	PRON	Person=3|PronType=Dem	9	obl	_	_
+12	טוען	טען	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+13	כי	כי	SCONJ	SCONJ	_	38	mark	_	_
+14-15	הסעיפים	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	סעיפים	סעיף	NOUN	NOUN	Gender=Masc|Number=Plur	38	nsubj	_	_
+16-17	הבולטים	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	בולטים	בולט	ADJ	ADJ	Gender=Masc|Number=Plur	15	amod	_	_
+18	של	של	ADP	ADP	Case=Gen	20	case	_	_
+19-20	התוכנית	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	תוכנית	תוכנית	NOUN	NOUN	Gender=Fem|Number=Sing	15	nmod	_	_
+21-22	הסובייטית	_	_	_	_	_	_	_	SpaceAfter=No
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	סובייטית	סובייטי	ADJ	ADJ	Gender=Fem|Number=Sing	20	amod	_	_
+23	,	,	PUNCT	PUNCT	_	29	punct	_	_
+24-25	שעל	_	_	_	_	_	_	_	_
+24	ש	ש	SCONJ	SCONJ	_	29	mark	_	_
+25	על	על	ADP	ADP	_	26	case	_	_
+26-28	בסיסה	_	_	_	_	_	_	_	_
+26	בסיס	בסיס	NOUN	NOUN	Gender=Masc|Number=Sing	29	obl	_	_
+27	_של_	של	ADP	ADP	Case=Gen	28	case:gen	_	_
+28	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+29	ניהל	ניהל	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	20	acl:relcl	_	_
+30	פרימאקוב	פרימאקוב	PROPN	PROPN	_	29	nsubj	_	_
+31	מגעים	מגע	NOUN	NOUN	Gender=Masc|Number=Plur	29	obj	_	_
+32-34	באזור	_	_	_	_	_	_	_	SpaceAfter=No
+32	ב	ב	ADP	ADP	_	34	case	_	_
+33	ה_	ה	DET	DET	PronType=Art|Definite=Def	34	det	_	_
+34	אזור	אזור	NOUN	NOUN	Gender=Masc|Number=Sing	31	nmod	_	_
+35	,	,	PUNCT	PUNCT	_	15	punct	_	_
+36	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|Polarity=Pos	38	cop	_	SpaceAfter=No
+37	:	:	PUNCT	PUNCT	_	36	punct	_	_
+38	נסיגה	נסיגה	NOUN	NOUN	Gender=Fem|Number=Sing	12	ccomp	_	_
+39	עיראקית	עיראקי	ADJ	ADJ	Gender=Fem|Number=Sing	38	amod	_	_
+40-41	מכוויית	_	_	_	_	_	_	_	_
+40	מ	מ	ADP	ADP	_	41	case	_	_
+41	כוויית	כווית	PROPN	PROPN	_	38	nmod	_	_
+42-43	כצעד	_	_	_	_	_	_	_	_
+42	כ	כ	ADP	ADP	_	43	case	_	_
+43	צעד	צעד	NOUN	NOUN	Gender=Masc|Number=Sing	38	nmod	_	_
+44	ראשון	ראשון	ADJ	ADJ	Gender=Masc|Number=Sing	43	amod	_	SpaceAfter=No
+45	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# doc_id = htb:194
+# doc_range = 569-696
+# sent_id = 4969
+# text = כינוס ועידה בין-לאומית לדיון בזכויותיה ההיסטוריות של עיראק בכוויית.
+1	כינוס	כינוס	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	_
+2	ועידה	ועידה	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+3	בין	בין	ADV	ADV	Prefix=Yes	5	compound:affix	_	SpaceAfter=No
+4	-	-	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+5	לאומית	לאומי	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+6-7	לדיון	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	דיון	דיון	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_
+8-11	בזכויותיה	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	זכות	זכות	NOUN	NOUN	Gender=Fem|Number=Plur	7	nmod	_	_
+10	_של_	של	ADP	ADP	Case=Gen	11	case:gen	_	_
+11	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+12-13	ההיסטוריות	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	היסטוריות	היסטורי	ADJ	ADJ	Gender=Fem|Number=Plur	9	amod	_	_
+14	של	של	ADP	ADP	Case=Gen	15	case	_	_
+15	עיראק	עיראק	PROPN	PROPN	_	9	nmod:poss	_	_
+16-17	בכוויית	_	_	_	_	_	_	_	SpaceAfter=No
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	כוויית	כווית	PROPN	PROPN	_	9	nmod	_	_
+18	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:194
+# doc_range = 698-1004
+# sent_id = 4970
+# text = אם שני הצדדים הנוגעים והצדדים הבין-לאומיים האחרים לא יגיעו לפתרון משביע רצון, יועלה המשבר בפני פורום בין-לאומי עליון, שתוצאות פסיקתו והחלטותיו יהיו תקפות ומחייבות.
+1	אם	אם	SCONJ	SCONJ	_	17	mark	_	_
+2	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	4	nummod	_	_
+3-4	הצדדים	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	צדדים	צד	NOUN	NOUN	Gender=Masc|Number=Plur	17	nsubj	_	_
+5-6	הנוגעים	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	נוגעים	נגע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	4	amod	_	_
+7-9	והצדדים	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	צדדים	צד	NOUN	NOUN	Gender=Masc|Number=Plur	4	conj	_	_
+10-11	הבין	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+11	בין	בין	ADV	ADV	Prefix=Yes	13	compound:affix	_	_
+12	-	-	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+13	לאומיים	לאומי	ADJ	ADJ	Gender=Masc|Number=Plur	9	amod	_	_
+14-15	האחרים	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	אחרים	אחר	ADJ	ADJ	Gender=Masc|Number=Plur	9	amod	_	_
+16	לא	לא	ADV	ADV	Polarity=Neg	17	advmod	_	_
+17	יגיעו	הגיע	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Fut|Voice=Act	23	advcl	_	_
+18-19	לפתרון	_	_	_	_	_	_	_	_
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	פתרון	פתרון	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	_
+20	משביע	השביע	VERB	VERB	Definite=Cons|Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	19	amod	_	_
+21	רצון	רצון	NOUN	NOUN	Gender=Masc|Number=Sing	20	compound:smixut	_	SpaceAfter=No
+22	,	,	PUNCT	PUNCT	_	17	punct	_	_
+23	יועלה	הועלה	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	0	root	_	_
+24-25	המשבר	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	משבר	משבר	NOUN	NOUN	Gender=Masc|Number=Sing	23	nsubj:pass	_	_
+26	בפני	בפני	ADP	ADP	_	27	case	_	_
+27	פורום	פורום	NOUN	NOUN	Gender=Masc|Number=Sing	23	obl	_	_
+28	בין	בין	ADV	ADV	Prefix=Yes	30	compound:affix	_	SpaceAfter=No
+29	-	-	PUNCT	PUNCT	_	28	punct	_	SpaceAfter=No
+30	לאומי	לאומי	ADJ	ADJ	Gender=Masc|Number=Sing	27	amod	_	_
+31	עליון	עליון	ADJ	ADJ	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
+32	,	,	PUNCT	PUNCT	_	43	punct	_	_
+33-34	שתוצאות	_	_	_	_	_	_	_	_
+33	ש	ש	SCONJ	SCONJ	_	43	mark	_	_
+34	תוצאות	תוצאה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	43	nsubj	_	_
+35-37	פסיקתו	_	_	_	_	_	_	_	_
+35	פסיקה	פסיקה	NOUN	NOUN	Gender=Fem|Number=Sing	34	compound:smixut	_	_
+36	_של_	של	ADP	ADP	Case=Gen	37	case:gen	_	_
+37	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	_	_
+38-41	והחלטותיו	_	_	_	_	_	_	_	_
+38	ו	ו	CCONJ	CCONJ	_	39	cc	_	_
+39	החלטה	החלטה	NOUN	NOUN	Gender=Fem|Number=Plur	34	conj	_	_
+40	_של_	של	ADP	ADP	Case=Gen	41	case:gen	_	_
+41	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	39	nmod:poss	_	_
+42	יהיו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	43	cop	_	_
+43	תקפות	תקף	ADJ	ADJ	Gender=Fem|Number=Plur	27	acl:relcl	_	_
+44-45	ומחייבות	_	_	_	_	_	_	_	SpaceAfter=No
+44	ו	ו	CCONJ	CCONJ	_	45	cc	_	_
+45	מחייבות	מחייב	ADJ	ADJ	Gender=Fem|Number=Plur	43	conj	_	_
+46	.	.	PUNCT	PUNCT	_	23	punct	_	_
+
+# doc_id = htb:194
+# doc_range = 1006-1107
+# sent_id = 4971
+# text = בד בבד יוסר המצור מעיראק באורח הדרגתי ויבוטל החרם עליה.
+1	בד	בד	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+2-3	בבד	_	_	_	_	_	_	_	_
+2	ב	ב	ADP	ADP	_	1	case	_	_
+3	בד	בד	NOUN	NOUN	Gender=Masc|Number=Sing	1	dep	_	HebSource=ConvUncertainHead
+4	יוסר	הוסר	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	0	root	_	_
+5-6	המצור	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	מצור	מצור	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+7-8	מעיראק	_	_	_	_	_	_	_	_
+7	מ	מ	ADP	ADP	_	8	case	_	_
+8	עיראק	עיראק	PROPN	PROPN	_	6	nmod	_	_
+9-10	באורח	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	אורח	אורח	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+11	הדרגתי	הדרגתי	ADJ	ADJ	Gender=Masc|Number=Sing	10	amod	_	_
+12-13	ויבוטל	_	_	_	_	_	_	_	_
+12	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
+13	יבוטל	בוטל	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	4	conj	_	_
+14-15	החרם	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	חרם	חרם	NOUN	NOUN	Gender=Masc|Number=Sing	13	nsubj:pass	_	_
+16-17	עליה	_	_	_	_	_	_	_	SpaceAfter=No
+16	על	על	ADP	ADP	_	17	case	_	_
+17	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nmod	_	_
+18	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:194
+# doc_range = 1109-1235
+# sent_id = 4972
+# text = התחייבות אמריקאית-בריטית-צרפתית שלא לבצע צעד צבאי כלשהו נגד עיראק.
+1	התחייבות	התחייבות	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+2	אמריקאית	אמריקני	ADJ	ADJ	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
+3	-	-	PUNCT	PUNCT	_	4	punct	_	HebSource=ConvUncertainHead|SpaceAfter=No
+4	בריטית	בריטי	ADJ	ADJ	Gender=Fem|Number=Sing	2	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+5	-	-	PUNCT	PUNCT	_	6	punct	_	HebSource=ConvUncertainHead|SpaceAfter=No
+6	צרפתית	צרפתי	ADJ	ADJ	Gender=Fem|Number=Sing	2	dep	_	HebSource=ConvUncertainHead
+7	שלא	שלא	ADV	ADV	_	8	advmod	_	_
+8	לבצע	ביצע	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	1	acl	_	_
+9	צעד	צעד	NOUN	NOUN	Gender=Masc|Number=Sing	8	obj	_	_
+10	צבאי	צבאי	ADJ	ADJ	Gender=Masc|Number=Sing	9	amod	_	_
+11	כלשהו	כלשהו	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	det	_	_
+12	נגד	נגד	ADP	ADP	_	13	case	_	_
+13	עיראק	עיראק	PROPN	PROPN	_	9	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:194
+# doc_range = 1237-1404
+# sent_id = 4973
+# text = הוועידה הבין-לאומית תרחיב את דיוניה ותעסוק גם בבעיות המזרח התיכון, לרבות הבעיה הפלשתינית.
+1-2	הוועידה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	וועידה	ועידה	NOUN	NOUN	Gender=Fem|Number=Sing	7	nsubj	_	_
+3-4	הבין	_	_	_	_	_	_	_	SpaceAfter=No
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+4	בין	בין	ADV	ADV	Prefix=Yes	6	compound:affix	_	_
+5	-	-	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+6	לאומית	לאומי	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+7	תרחיב	הרחיב	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+8	את	את	ADP	ADP	Case=Acc	9	case	_	_
+9-11	דיוניה	_	_	_	_	_	_	_	_
+9	דיון	דיון	NOUN	NOUN	Gender=Masc|Number=Plur	7	obj	_	_
+10	_של_	של	ADP	ADP	Case=Gen	11	case:gen	_	_
+11	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+12-13	ותעסוק	_	_	_	_	_	_	_	_
+12	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
+13	תעסוק	עסק	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	7	conj	_	_
+14	גם	גם	ADV	ADV	_	24	advmod	_	_
+15-16	בבעיות	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	24	case	_	_
+16	בעיות	בעיה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	24	case	_	_
+17-18	המזרח	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	מזרח	מזרח	NOUN	NOUN	Gender=Masc|Number=Sing	24	compound:smixut	_	_
+19-20	התיכון	_	_	_	_	_	_	_	SpaceAfter=No
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	תיכון	תיכון	ADJ	ADJ	Gender=Masc|Number=Sing	18	amod	_	_
+21	,	,	PUNCT	PUNCT	_	24	punct	_	_
+22	לרבות	לרבות	ADV	ADV	_	24	case	_	_
+23-24	הבעיה	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	בעיה	בעיה	NOUN	NOUN	Gender=Fem|Number=Sing	13	obl	_	_
+25-26	הפלשתינית	_	_	_	_	_	_	_	SpaceAfter=No
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	פלשתינית	פלסטיני	ADJ	ADJ	Gender=Fem|Number=Sing	24	amod	_	_
+27	.	.	PUNCT	PUNCT	_	7	punct	_	_
+

@@ -1,0 +1,740 @@
+<html>
+   <head>
+      <style type="text/css">
+         body {
+         font-family: Arial, Helvetica, sans-serif;
+         font-size:medium;
+         zoom:90%;
+         width:100%;
+         }
+         section {
+         width:100%;
+         }
+         #morenotes {
+         display: none;
+         }
+         #intro {
+         display:block;
+         }
+         #showMoreNotes,#gotIt,#goBack{
+         /*   display:block; */
+         width:150px;
+         height:50px;
+         }
+         #showMoreNotes{
+         display:block;
+         }
+         #gotIt,#goBack{
+         display:inline-block;  
+         }
+         .text_cell { 
+         width: 100%;  
+         }
+         .sign_cell {   
+         font-size:300%; 
+         float:left; 
+         }
+         .example {
+         float: left;  
+         width: 80%; 
+         background-color:#BCE2F4;
+         height: auto; /* only for demonstration, should be removed */
+         border: 1px solid black;
+         border-radius:5px;
+         margin-left: 80px;
+         margin-right: 80px;
+         margin-top:10px; */
+         margin-bottom:10px; */
+         }
+         .moreExamples{
+         height:auto;
+         width:80%;
+         border:1px solid #ccc;
+         /*   overflow:auto; */
+         background-color:white;
+         float: left; 
+         margin-left: 80px;
+         margin-right: 80px;
+         /*   margin-top:10px; */
+         margin-bottom:10px;
+         display: none;
+         background-color:#F5E4E4;
+         }
+         .sect {
+         /*   float: left;   */
+         width: 80%;
+         /*   background-color: #A0DBF7; */
+         height: auto; /* only for demonstration, should be removed */
+         /*   border: 1px solid black;
+         border-radius:20px; */
+         margin-left: 80px;
+         margin-right: 80px;
+         /*   margin-top:10px; */ */
+         }
+         .sect1 {
+         /*   float: left;   */
+         width: 90%;
+         /*   background-color: #A0DBF7; */
+         height: auto; /* only for demonstration, should be removed */
+         /*   border: 1px solid black;
+         border-radius:20px; */
+         margin-left: 40px;
+         margin-right: 40px;
+         /*   margin-top:10px; */ */
+         }
+         .hly{
+         background-color:yellow; 
+         }
+         .hlb{
+         background-color:#3FB6BF;
+         }
+         .prgrf {
+         /*  float: left;   */
+         width: 80%; 
+         clear: both;
+         margin-left: 80px;
+         margin-right: 80px;
+         }
+         .prgrf1 {
+         /*  float: left;   */
+         width: 90%; 
+         clear: both;
+         margin-left: 40px;
+         margin-right: 40px;
+         }
+         .tab { margin-left: 40px; }
+         @media print {
+         body { 
+         -webkit-print-color-adjust: exact; 
+         }
+         .customClass{
+         //customCss + !important;
+         }
+         //more of your custom css
+         }
+         @media screen and (max-device-width: 480px) {
+         /*  .column {
+         float: none;
+         } */
+         .example {
+         width:100%;
+         }
+         .moreExamples{
+         width:100%;
+         }
+         .sect{
+         width:100%;
+         }
+         .prgrf{
+         width:100%;
+         }
+         } 
+         /* new part */
+         #training{
+         display: none;
+         }
+         C* {
+         box-sizing: border-box;
+         }
+         html{
+         width:100%;
+         }
+         section {
+         width:100%;
+         }
+         /* Style the header */
+         header { 
+         font-size: 25px;
+         display: none;
+         margin-top:30px;
+         margin-left: 80px;		 
+         padding-right:30px;
+         padding-top:30px;
+         }
+         /* Create two columns/boxes that floats next to each other */
+         aside {  
+         display:none;
+         float: left;
+         width: 31%;
+         height: 300px; /* only for demonstration, should be removed */
+         margin-top:70px;
+         }
+         @keyframes gradient {
+         0% {
+         background-position: 0% 50%;
+         }
+         50% {
+         background-position: 100% 50%;
+         }
+         100% {
+         background-position: 0% 50%;
+         }
+         }
+         /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+         @media (max-width: 767px) {
+         aside, article {
+         width: 100%;
+         height: auto;
+         margin-right:0px;
+         margin-left:0px;
+         float:none;
+         }
+         }
+         a, input, label, button {  
+         cursor:pointer;
+         }
+         a, input, label, button {  
+         cursor:pointer;
+         }
+         .dropOnClick:hover{
+         color:darkblue;
+         }
+         <!-- images -->
+         .gfg { 
+         margin-left: 180px;
+         margin-right: 80px;
+         } 
+         img { 
+         width: 60%; 
+         height: auto; 
+         object-fit: fill; 
+         } 
+      </style>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+      <script type="text/javascript">
+         //mode  0 = training; mode 1 = qualification test
+         
+         //***
+         function displayExamples(myId) {
+         var examples = document.getElementById(myId);
+         var disp = window
+         .getComputedStyle(examples, null)
+         .getPropertyValue("display");
+         if (disp == "none") {
+         examples.style.display = "block";
+         } else if (disp == "block") {
+         examples.style.display = "none";
+         }
+         }
+         //***
+         function showMoreNotes() {
+         var notes = document.getElementById("morenotes");
+         
+         notes.style.display = "block";
+         
+         var intro = document.getElementById("intro");
+         
+         intro.style.display = "none";
+         window.location.href = "#heading2";
+         }
+         
+         //***
+         function goBack() {
+         
+         
+         var notes = document.getElementById("morenotes");
+         
+         notes.style.display = "none";
+         var training = document.getElementById("training"); 
+         
+         var intro = document.getElementById("intro");
+         
+         intro.style.display = "block";
+         window.location.href = "#heading0";
+         }
+         
+         
+         function showTraining() {
+         window.open(document.URL.replace('intro_tne','tne_training').replace('#heading2',''));  
+         
+         }
+         
+         //This function detects the user's browser and device and alerts the user when they are not Chrome an PC respectively	 
+         function detectNavigatorAndDevice(){
+         
+         console.log(navigator);
+         isChrome = /Google Inc/.test(navigator.vendor);
+         var isMobile = false; //initiate as false
+         // device detection
+         if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|ipad|iris|kindle|Android|Silk|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(navigator.userAgent) 
+         || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(navigator.userAgent.substr(0,4))) { 
+         isMobile = true;
+         }
+         
+         if(isChrome == true && isMobile == false){
+         console.log("Device ok");
+         } else if (!confirm('This application might not function properly on a mobile device and/or in a non-Chrome browser. Click "OK" if you want to continue. Click "Cancel" to close the tab.')){
+         window.close();
+         } 
+         }	
+         
+             
+      </script>       
+   </head>
+   <body oncontextmenu="return false" onpageshow="detectNavigatorAndDevice();">
+      <div id = intro>
+         <section class = sect>
+            <h2  class = prgrf  id = "heading0" > Your Task: Finding Links Between Entities in Texts</h2>
+            <p class = prgrf>
+               Your task is to find and mark <b>all</b> relations (links) between entities in the text.
+            </p>
+            <h2  class = prgrf  id = "heading0.0" > Explicit And Implicit Links</h2>
+            <p class = prgrf>	
+               Some links are <i>explicit</i>: in <b>"the ceiling of the room"</b> there is a clear link <b>"of"</b> 
+               between <b>"the ceiling"</b> and <b>"the room"</b>.
+            </p>
+            <p class = prgrf>
+               Other links are  <i>implicit</i>, and are harder to track.  For example, in <b>"I entered the room. The ceiling was high"</b> 
+               there is an <i>implicit</i> link <b>"of"</b> between <b>"the ceiling"</b> and <b>"the room"</b>, even though the phrase <b>"the ceiling of the room"</b> is not explicitly written.
+               Such implicit links are called <i>"bridging"</i>. 
+            </p>
+            <p class = prgrf>
+               Let's learn how to identify both explicit and implicit links between entities.
+            </p>
+         </section>
+         <section class = sect>
+            <h2  class = prgrf  id = "heading1" > Identifying Links Between Entities</h2>
+            <p class = prgrf>
+               1. Bridging is an <i>implicit</i> relation between two nouns in the text. Even though this relation is not expressed <em>explicitly</em>, humans can reconstruct it intuitively as they read.
+               For example:
+            </p>
+            <table>
+               <tr>
+                  <td class = text_cell>
+                     <div class = example>
+                        <p>
+                           <b>(1)</b> I entered the <span class=hlb>room</span>. The ceiling</span> was high.
+                        </p>
+                     </div>
+                  </td>
+                  <td class = sign_cell style = "color:green;">&#10004;</td>
+               </tr>
+            </table>
+            <p class = prgrf>
+               In (1) the relation between the <b>ceiling</b> and the <b>room</b> is not explicitly mentioned in the text. However, we understand that the <b> ceiling </b> refers to <q>the ceiling <b>[of the room]</b></q>.  
+            </p>
+            <p class = prgrf>The word <b> room </b> here is  <em>the complement</em> of the word <b> ceiling </b>. Without the <em>complement</em> the word <b> ceiling </b>feels incomplete (because a ceiling does not exist on its own; it has to be a part of some room).
+            </p>
+            <p class = prgrf style = "margin-top:15;margin-bottom:10">
+               We can make these relations explicit using prepositions (of, in, for etc.). The resulting sentence will look like this:
+            </p>
+            <table>
+               <tr>
+                  <td class = text_cell>
+                     <div class = example>
+                        <p>
+                           <b>(2)</b> I entered the <span class=hlb>room</span>. The <span class=hly>ceiling</span> <b>[of the room]</b> was high.
+                        </p>
+                     </div>
+                  </td>
+                  <td class = sign_cell style = "color:green;">&#10004;</td>
+               </tr>
+            </table>
+            <p class = prgrf style = "margin-top:20">
+               <a   class="dropOnClick" role="button" onclick = "displayExamples('ex1')" style="font-size:16px;"><u>Click here to see more examples of bridging</u></a>
+            </p>
+            <div class = moreExamples id = ex1>
+               <p>
+                  1. The <span class=hlb>manuscript</span> described a new system for classifying plants. When Gronovius saw it, he was very impressed, and offered to help pay for the <span class=hly>printing</span>.
+               </p>
+               <p class = tab>
+                  <em>Resulting expression</em>: <span class=hly>printing <b>[of the manuscript]</b></span>
+               </p>
+               <p>
+                  2. <span class=hlb>The Ingleton branch line</span> was a rural railway line in the West Riding of Yorkshire, Lancashire and Westmorland in England (now North Yorkshire, Lancashire and Cumbria). It was originally planned in 1846 to form part of a main line route from London to Scotland, but fell victim to rivalry between railway companies. <span class=hly>Completion</span> was delayed until 1861, and it was only ever a rural branch line, serving the towns of Ingleton, Kirkby Lonsdale and Sedbergh. It closed to passengers in 1954 and was dismantled in 1967. 
+               </p>
+               <p class = tab>
+                  <em>Resulting expression</em>: <span class=hly>completion <b>[of the Ingleton branch line]</b></span> or: <span class=hly>completion <b>[of the line]</b></span>
+               </p>
+               <p>
+                  3. Linnaeus quickly discovered the specimen was a fake cobbled together from the <span class=hly>jaws</span> and paws of <span class=hlb>weasels</span> and the skins of snakes.
+               </p>
+               <p class = tab>
+                  <em>Resulting expression</em>: <span class=hly>jaws <b>[of weasels]</b></span>
+               </p>
+            </div>
+            <p class = prgrf style = "margin-top:15;margin-bottom:10">
+               2. However, often links between nouns are <i>explicit</i>.
+            </p>
+            <table>
+               <tr>
+                  <td class = text_cell>
+                     <div class = example>
+                        <p>
+                           <b>(3)</b>The police located the <span class = hlb>vehicle</span>'s <span class = hly>engine</span> in an alley a few days later.
+                        </p>
+                     </div>
+                  </td>
+                  <td class = sign_cell style = "color:green;">&#10004;</td>
+               </tr>
+            </table>
+            <p class = prgrf>
+               The sentence explicitly states which <b>engine</b> it is talking about (the engine [of the <b>vehicle</b>]). We will be looking for such <i>explicit</i> links too. Here the complement of <b>engine</b> is <b>the vehicle</b>.
+            </p>
+            <p class = prgrf>
+               <b>Everything we say below applies both to implicit links (bridging) and to explicit links.</b>
+            </p>
+            <p class = prgrf></p>
+            <div class = prgrf style = "border:3px solid lightblue;border-radius:6px;">
+               <p class = prgrf>
+                  <b>Some terminology</b>
+               </p>
+               <p class = prgrf>
+                  As you see, when we use a preposition to express relations between two expressions, 
+               <ul class = prgrf>
+                  <li>  one of the expressions appears <b>before the preposition</b> (we will call it <b>"main expression"</b>), </li>
+                  <li>  and the other expression appears <b>after the preposition</b> (we will call it <b>"complement"</b>).</li>
+               </ul>
+               </p>
+               <p class = prgrf>
+                  For example, in (2) "the ceiling" would be the <b>main expression</b> and "room" would be its <b>complement</b>.
+               </p>
+            </div>
+         </section>
+         <section id = multipleComplements class = sect style = "margin-top:0">
+            <p class = prgrf style = "margin-top:15;margin-bottom:10">
+               3. Sometimes we can find <b>multiple complements</b> for the main expression. For example:
+            </p>
+            <table>
+               <tr>
+                  <td class = text_cell>
+                     <div class = example>
+                        <p>
+                           <b>(4)</b> I spent a wonderful weekend in <span class = hlb>Paris</span>. I walked through its  <span class = hlb>streets</span> and enjoyed the <span class = hly>view</span>.
+                        </p>
+                     </div>
+                  </td>
+                  <td class = sign_cell style = "color:green;">&#10004;</td>
+               </tr>
+            </table>
+            <p class = prgrf>
+               Here both "the views <b>[of Paris]</b>" and "the views <b>[of the streets]</b>" would be correct.
+            </p>
+            <p class = prgrf>
+               <b>In this task you should try your best to find as many valid complements for each expression as possible</b>. 
+               For details on selecting multiple complements see section <a href = "#heading1.1">"When And How to Select Multiple Complements?"</a> below.
+            </p>
+         </section>
+         </section>
+         <section id = noncoref class = sect style = "margin-top:0">
+            <p class = prgrf style = "margin-top:15;margin-bottom:10">
+               3. We are looking for links between <i>two different entities</i>. Therefore the expression and its complement are related but <u>do not refer to the same thing</u>!
+               Consider the following example:
+            </p>
+            <table>
+               <tr>
+                  <td class = text_cell>
+                     <div class = example>
+                        <p>
+                           <b>(5)</b> The <span style="background-color:#B0B9B4;">car</span> was stolen. Fortunately, the police located the  <span style="background-color:#B0B9B4;">vehicle</span> within seconds.
+                        </p>
+                     </div>
+                  </td>
+                  <td class = sign_cell style = "color:red;">&#10008;</td>
+               </tr>
+            </table>
+            <p class = prgrf>
+               The words <b>car</b> and <b>vehicle</b> refer to the same entity. This is <em>not</em> a relation between <i>two different entities</i>, so these two expressions <i>should not</i> be linked.
+            </p>
+            <p class = prgrf>
+               <a   class="dropOnClick" role="button" onclick = "displayExamples('ex2')" style="font-size:16px;"><u>Click here to see more examples of expressions that refer to the same entity and therefore <i>should not</i> be linked</u></a>
+            </p>
+            <div class = moreExamples id = ex2>
+               <p>
+                  1. <span style="background-color:#B0B9B4">Triple Trouble</span> is a 1950 comedy film directed by Jean Yarbrough and starring The Bowery Boys. The <span style="background-color:#B0B9B4;">film</span> was released on August 13, 1950 by Monogram Pictures.
+               </p>
+               <p class = tab>
+                  "Triple Trouble" and "film" refer to the same entity and therefore <i>should not</i> be linked.
+               </p>
+               <p>
+                  2. The memoir's <span style="background-color:#B0B9B4;">author</span> uses the pseudonym Humbert Humbert to refer to himself in the manuscript. <span style="background-color:#B0B9B4;">Humbert</span> begins the memoir with his Parisian childhood and ends it with his incarceration. 
+               <p class = tab>
+                  "Author" and "Humbert" refer to the same person and therefore <i>should not</i> be linked.
+               </p>
+               <p>
+                  3. <span style="background-color:#B0B9B4;">Voice cloning</span> is a deep-learning algorithm that takes in voice recordings of an individual and is able to synthesize a voice is very similar to the original voice. Similar to deepfakes, there are numerous apps, such as LyreBird, iSpeech, and CereVoice Me, that gives the public access to such <span style="background-color:#B0B9B4;">technology</span>.
+               <p class = tab>
+                  "Voice cloning" and "technology" refer to the same entity and therefore <i>should not</i> be linked.
+               </p>
+            </div>
+         </section>
+         <section id = note3 class = sect style = "margin-top:0">
+            <p class = prgrf style = "margin-top:15;margin-bottom:10">
+               4. Complements can appear not only before, but also after the main expression. For example:
+            </p>
+            <table>
+               <tr>
+                  <td class = text_cell>
+                     <div class = example>
+                        <p>
+                           <b>(6)</b> M. Pagnol could not find any <span class=hly>birth certificate</span> in the Jersey archives. He therefore concluded that <span class=hlb>James</span> was not born on the island, and that he did not belong to the Carteret family.
+                        </p>
+                     </div>
+                  </td>
+                  <td class = sign_cell style = "color:green;">&#10004;</td>
+               </tr>
+            </table>
+            <p class = prgrf>
+               <em>Resulting expression</em>: <span class=hly>birth certificate <b>[of James]</b></span>
+            </p>
+            <p class = prgrf>
+               <a   class="dropOnClick" role="button" onclick = "displayExamples('ex4')" style="font-size:16px;"><u>Click here to see more examples of complements that appear after the main expression</u></a>
+            </p>
+            <div class = moreExamples id = ex4>
+               <p>
+                  1. As the idea of institutional <span class = hly> care </span> gained acceptance, formal rules appeared about how to place <span class = hlb> children </span> into families.
+               </p>
+               <p class = tab>
+                  <em>Resulting expression</em>: <span class=hly>care <b>[for children]</b></span>
+               </p>
+               <p>
+                  2. A personal <span class = hly>name</span> is the set of names by which an <span class = hlb>individual</span> is known.
+               </p>
+               <p class = tab>
+                  <em>Complete expression</em>: <span class=hly>name <b>[of an individual]</b></span>
+               </p>
+               <p>
+                  3. <span class = hly>Sleep</span> has a complex, and as of yet not fully elucidated, relationship with mood. Most commonly if <span class = hlb>a person</span> is sleep deprived he/she will become more irritable, angry, more prone to stress, and less energized throughout the day.
+               </p>
+               <p class = tab>
+                  <em>Complete expression</em>: <span class=hly>sleep <b>[of a person]</b></span>
+               </p>
+            </div>
+         </section>
+         <section  class = sect style = "margin-top:0">
+            <p class = prgrf style = "margin-top:15;margin-bottom:10">
+               5. Sometimes complements appear in a different sentence, or even paragraph, than the main expresion. For example:
+            </p>
+            <table>
+               <tr>
+                  <td class = text_cell>
+                     <div class = example>
+                        <p>
+                           <b>(7)</b> Prior to forming his own Madison-based company in 1985, <span class=hlb>John</span> was a producer at CBS and ABC in Chicago for six years. His credits include six Chicago Emmys, a National Iris Award for Best Television Special and a national CableACE nomination. He received the Peter Lisagor Award for Special News Production, plus recognition from the Organization of American Women in TV and Radio for his documentary work.<br>
+                           Additional <span class=hly>accolades</span> include the San Francisco Film Festival Award, the Silver Anvil, the Golden Spotlight, the Addy, the Cine Golden Eagle and numerous Tellys.
+                        </p>
+                     </div>
+                  </td>
+                  <td class = sign_cell style = "color:green;">&#10004;</td>
+               </tr>
+            </table>
+            <p class = prgrf>
+               <em>Resulting expression</em>: <span class=hly>accolades <b>[for John]</b></span>
+            </p>
+            <p class = prgrf>
+               <a   class="dropOnClick" role="button" onclick = "displayExamples('ex3')" style="font-size:16px;"><u>Click here to see more examples of complements in other paragraphs</u></a>
+            </p>
+            <div class = moreExamples id = ex3>
+               <p>
+                  1. <span class = hlb> Maldives </span> is a presidential republic, with extensive influence of the president as head of government and head of state. The president heads the executive branch, acts at the same time as minister of defence and appoints the cabinet which is approved by the People's Majlis (Parliament). He leads police, army, coast guards, fire brigade and judiciary. There is no separation of powers. The current president as of 17 November 2018 is Ibrahim Mohamed Solih. Members of the unicameral Majlis serve five-year terms, with the total number of members determined by atoll populations. At the 2014 election, 77 members were elected. The People's Majlis, located in Male, houses members from all over the country.<br><br>
+                  The republican <span class = hly>  constitution</span> came into force in 1968, and was amended in 1970, 1972, and 1975.
+               </p>
+               <p class = tab>
+                  <em>Resulting expression</em>: <span class=hly>constitution <b>[of Maldives]</b></span>
+               </p>
+            </div>
+         </section>
+         <section class = sect id = task>
+            <div class = prgrf style = "border:3px solid lightblue;border-radius:6px; margin-top:20">
+               <p class = prgrf>
+                  <b>In this task you will have to:</b>
+               </p>
+               <ol class = prgrf>
+                  <li>look for expressions that are related but do not refer to the same thing;</li>
+                  <li>identify the relations between them;</li>
+                  <li>use prepositions to express these relations.</li>
+               </ol>
+            </div>
+         </section>
+         <section class = sect>
+            <br>
+            <h2  class = prgrf id = "heading1.1"> When And How to Select Multiple Complements?</h2>
+            <p class = prgrf style = "margin-top:15;margin-bottom:10">
+               1. Sometimes, when you choose a complement from the text, there are two or more words that sound right. In such cases you should choose the option that is correct in this particular context. For example:
+            </p>
+            <table>
+               <tr>
+                  <td class = text_cell>
+                     <div class = example>
+                        <p>
+                           <b>(8)</b> The <span class = hlb> car[1]</span> was stolen. The police located the  <span class = hly>engine</span> a few days later. One week later another <span style = "background-color:#B0B9B4">car[2]</span> was stolen.
+                        </p>
+                     </div>
+                  </td>
+                  <td class = sign_cell style = "color:green;"></td>
+               </tr>
+            </table>
+            <p class = prgrf>
+               The word "car" is mentioned here twice. Which one, do you think is the correct complement for the word <b>engine</b> here: <b>car[1]</b>  or <b>car[2]</b>? Generally, both could apply, because an engine can be a part of any car. But in this context the engine belongs to <b>car[1]</b>, from the first sentence, not to <b>car[2]</b> from the second sentence.
+            </p>
+         </section>
+         <section id = note8 class = sect>
+            <p class = prgrf style = "margin-top:15;margin-bottom:10">
+               2. Now, let's take a very similar example, but instead of two identical words ("car") we'll use different words ("car" vs. "vehicle"). This does not change the situation!
+            </p>
+            <table>
+               <tr>
+                  <td class = text_cell>
+                     <div class = example>
+                        <p>
+                           <b>(9)</b> The <span class = hlb> car</span> was stolen. The police located the  <span class = hly>engine</span> a few days later. One week later another <span style = "background-color:#B0B9B4">vehicle</span> was stolen.
+                        </p>
+                     </div>
+                  </td>
+                  <td class = sign_cell style = "color:green;"></td>
+               </tr>
+            </table>
+            <p class = prgrf>
+               Which word, do you think, is the correct complement for the word <b>engine</b> in this case: <b>car</b>, <b>vehicle</b> or both? Just like in the example above, in this particular context the engine belongs to the <b>car</b> from the first sentence, not to the <b>vehicle</b> from the second sentence.
+            </p>
+         </section>
+         <section id = note8 class = sect>
+            <p class = prgrf style = "margin-top:15;margin-bottom:10">
+               3. However, if there are multiple complements and <b>all</b> of them sound right in this particular context, select all of them! For example:
+            </p>
+            <table>
+               <tr>
+                  <td class = text_cell>
+                     <div class = example>
+                        <p>
+                           <b>(10)</b> She was wearing a mauve <span class = hlb>dress</span> and matching <span class = hlb>shoes</span>. I really liked the <span class = hly>color</span>.
+                        </p>
+                     </div>
+                  </td>
+                  <td></td>
+               </tr>
+            </table>
+            <p class = prgrf>
+               Here the word <b>color</b> means both "the color <b>[of the dress]</b>" and "the color <b>[of the shoes]</b>". So we need to select both.
+            </p>
+         </section>
+         <section class = sect>
+            <p class = prgrf style = "margin-top:15;margin-bottom:10">
+               4. If there are several possible complements, but you are not sure which one is correct in this context, do not select any of them. For example:
+            </p>
+            <table>
+               <tr>
+                  <td class = text_cell>
+                     <div class = example>
+                        <p>
+                           <b>(11)</b> A new <span style = "background-color:#B0B9B4">car</span> and a <span style = "background-color:#B0B9B4">truck</span> were stolen last week. The police located the <span class = hly>engine</span> a few days later.
+                        </p>
+                     </div>
+                  </td>
+                  <td></td>
+               </tr>
+            </table>
+            <p class = prgrf>
+               From the context of this sentence it is not clear whether the <b>engine</b> belongs to the <b>truck</b> or to the <b>car</b>. So we should not select either of those words. 
+            </p>
+         </section>
+         <section class = sect>
+            <p class = prgrf style = "margin-top:10">
+               <a   class="dropOnClick" role="button" onclick = "displayExamples('rule_summary');"><u>Short summary of the rules (click to open)</u></a>
+            </p>
+            <div class = moreExamples id = 'rule_summary'>
+               <ol class = prgrf >
+                  <li>We are looking for links between two nouns or noun phrases in texts.</li>
+                  <li>The relations between them can be IMPLICIT (not expressed) or EXPLICIT (expressed).</li>
+                  <li>The incomplete expression and the complement DO NOT refer to the same thing.</li>
+                  <!-- <li>The complement can be absent from the text, but you can still specify them if they can be inferred from the context/world knowledge.</li> -->
+                  <li>Select <b>only</b> the complements that are correct in this specific context.</li>
+                  <li>Select <b>all</b> the complements that are correct in this specific context (as many as you can find!).</li>
+                  <li>If there are multiple possible complements, but you don't know which one(s) is/are correct - do not select ANY OF THEM.</li>
+               </ol>
+            </div>
+         </section>
+         <section class = sect>
+            <p class = prgrf>
+               Now let's see what the interface looks like.
+            </p>
+         </section>
+         <section class = sect>
+            <p class = prgrf>
+               <input type="button" id = showMoreNotes value="Got it!" onclick = "showMoreNotes()" style = "background-color:lightgreen">
+            </p>
+         </section>
+      </div>
+      <div id = morenotes>
+         <section  class = "sect1" style = "margin-right:0;padding-right:0;margin-left:0">
+            <h2  class = prgrf1 id = heading2 style = "margin-bottom:0;"> <img class = "gfg" src="Image_for_tne_intro.jpg" alt="UI screenshot" style = "float:left;padding: 0px 40px 0px 0px;"/>
+               What Will You See on the Screen?
+            </h2>
+            <ol style = "padding-left:20;margin-right:0;text-align:justify">
+               <li style = "margin-bottom:5;">The text of the article. <b>Please, read the text before you start the annotation!</b></li>
+               <li style = "margin-bottom:5;">The expression you are currently working on: it is the "main expression". 
+                  Your task is to find its "complements": establish its <i>links</i> with other expressions in the text.
+               </li>
+               <li style = "margin-bottom:5;"> All the expressions you need to annotate. The current expression is highlighted in yellow.
+                  The "done" items are light grey and scratched out. <b>You can go to any item any time by clicking it on the "items pane" and change its annotation</b>.
+               </li>
+               <li style = "margin-bottom:5;"><b>"Entity clusters" are groups of expressions that refer to the same thing</b>. For example, "the Mayor of New York" and "Michael Bloomberg"
+                  would be in the same cluster, because they refer to the same person). Sometimes you will link "main expressions" to <i>clusters</i> of expressions rather than to individual expressions.
+               </li>
+               <div style = "float:right;max-width:40%">
+                  <li style = "margin-bottom:5;">This is the section where annotation takes place. You see some suggested links between the
+                     "main expressions" and possible "complements" - either individual expressions or <i>clusters</i> of expressions (see 3).
+                     You need to select <b>all</b> the links that apply - as many as you can find. For details see section <a href = "#heading3">"Options and Annotation Process"</a> below.
+                  </li>
+                  <li style = "margin-bottom:5;">"Next" button. Click it when you are done with the current expression, and it will take you to the next one.</li>
+                  <li style = "margin-bottom:5;">In this section you will see all the links you have created so far.</li>
+                  <li style = "margin-bottom:5;">Use this button to see detailed annotation instructions. We recommend you to use it before you start and also every time you have a doubt about something.</li>
+                  <li style = "margin-bottom:5;">If you hover over the question signs in black circles, you'll see help boxes for each section.</li>
+               </div>
+            </ol>
+         </section>
+         <section style= "margin-bottom:0;padding-bottom:0">
+            <h2  class = "prgrf1" id = "heading3" style = "margin-bottom:0"> Options and Annotation Process</h2>
+         </section>
+         <section  class = "sect1" style = "margin-right:0;padding-right:0;">
+            <p>The suggested links in the "Options pane" (see 5 above) are structured as follows:</p>
+            <img src="options_pane1.jpg" alt="options" style = "border: 5px solid lightblue;padding:20;border-radius:6px">
+            <br>
+            <p style= "max-width:80%">You can select "member(s) of" instead of a preposition. It's at the end of the dropdown menue. 
+               You have to do so if the "main expression" refers to a set and the "complement" - to an element(s) of the same set(for example, "Chilean miner" [member(s) of "the 33 miners"]).
+            </p>
+            <p>If you scroll all the way down the "options" you will see this:</p>
+            <img src="options_pane2.jpg" alt="options2" style = "max-width:50%;">
+            <br>
+            <p style= "max-width:80%"> The option with the textbox allows you to type a "complement" of your own, not found among our suggestions.
+               It has to be a <b>noun</b> phrase <b>from the text.</b>
+            </p>
+            <p>"None of the above" should be selected if you are <b>sure</b> the current expression has no links in the text.</p>
+            <p class = "prgrf1"></p>
+            <div class = "prgrf1" style = "border:3px solid lightblue;border-radius:6px;margin-left:0;">
+               <p class = "prgrf1">
+                  <b>Important notes:</b>      
+                  <!--        As you work on  the task, you should always try your best to find a complement in the text before you choose any other options.  -->
+               </p>
+               <ol class = "prgrf1" style = "margin-left:0;">
+                  <!-- <li>Main expressions and complements should be nouns (noun phrases).</li> -->
+                  <!-- <li>You can (and are supposed to) select or specify multiple complements for an expression, if they are all correct, not mutually exclusive and do not refer to the same thing. </li> -->
+                  <li style = "margin-bottom:5;">The preposition should clearly express the relations between the main expression and the complement (for example, in the expression <b>"the novel [by Tolstoy]"</b> the relation is clear: <b>Tolstoy</b> is the author of <b>the novel</b>. We don't need any additional words except for the preposition <b>"by"</b> to make this relation clear.</li>
+                  <li style = "margin-bottom:5;">You have to use <b>"member(s) of"</b> instead of a preposition if the relation between the main expression and the complement can be described as "set-element(s)".
+                     For example, given this sentence: "Some Brazilian ministers were present at the event: Antonio Palocci, Roberto Rodrigues, Luiz Fernando Furlan" -
+                     it is correct to say "Antonio Palocci [member(s) of Some Brazilian ministers]", because "Some Brazilian ministers" refers to a set, and "Palocci" - to its element; Palocci is one of the ministers.
+                  </li>
+                  <li style = "margin-bottom:5;">You should always <b>try your best</b> to find one or more complements in the text.</li>
+                  <!-- <li>On each question you can change your mind as many times as you like, until you click "Next".</li> -->
+                  <li style = "margin-bottom:5;">However do not hesitate to say there's no complement, if you really cannot find anything (do not specify any false or forced complemets).</li>
+                  <li style = "margin-bottom:5;">As a test, try inserting the complement into the sentence that contains the main expression. It should not change the meaning of the sentence! In the sentence <b>"I entered the room, the ceiling was high",</b> if we insert the complements into the sentence, we'll get: <b>"I entered the room. The ceiling [of the room] was high."</b> It does not change the meaning of the sentence. </li>
+                  <li>The complement should clarify the main expression, make it more specific, make it explicit which thing it refers to.
+                     In the text <b>"She was wearing a mauve dress. I really liked the color"</b> the expression <b>"the color"</b> on its own is very general. It is unclear <i>which color</i> or <i>the color of what</i> is being discussed.
+                     However, when we add the complement - <b>"the color [of the dress]"</b>,  - it becomes much clearer and much more specific.
+                     <span style = "font-size:small"><br>For this reason there it is sometimes unnecessary to provide links for mentions of some famous people, cities, countries etc. whose reference cannot be specified any further (like "Chile", "New York" etc.).
+                     However, we do want you to provide such "redundant" or "tautological" links as, for example, "Chilean miner [from Chile]", and links for less known proper names, such as "Edison Peña [from Chile]".</span>
+                  </li>
+               </ol>
+            </div>
+            <p class = "prgrf1" style = "margin-left:0;">
+               Now, if you are ready, please, do a training exercise that will help you understand the task and get to know the interface even better! (<b>This introduction will remain open in a separate tab, so that you can go back anytime and reread.</b>)    
+            </p>
+            <p>
+               <input type="button" id = goBack value="Back" onclick = goBack() style = "background-color:lightpink;padding-left:0">
+               <input type="button" id = gotIt value="Go to training!" onclick = "showTraining()"style = "background-color:lightgreen" >
+            </p>
+         </section>
+      </div>
+      </div>
+   </body>
+</html>

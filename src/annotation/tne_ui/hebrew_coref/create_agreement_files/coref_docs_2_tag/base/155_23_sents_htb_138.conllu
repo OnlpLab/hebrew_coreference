@@ -1,0 +1,721 @@
+# doc_id = htb:138
+# doc_range = 1-134
+# sent_id = 3397
+# text = מן הכתבה עולה כי קיים לכאורה קשר בין מוצרי חברת "לנקום" לבין חברת "גמיי".
+1	מן	מן	ADP	ADP	_	3	case	_	_
+2-3	הכתבה	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	כתבה	כתבה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+4	עולה	עלה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+5	כי	כי	SCONJ	SCONJ	_	6	mark	_	_
+6	קיים	קיים	ADJ	ADJ	Gender=Masc|Number=Sing	4	xcomp	_	_
+7	לכאורה	לכאורה	ADV	ADV	_	6	advmod	_	_
+8	קשר	קשר	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
+9	בין	בין	ADP	ADP	_	10	case	_	_
+10	מוצרי	מוצר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	8	nmod	_	_
+11	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	10	compound:smixut	_	_
+12	"	"	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No
+13	לנקום	נקם	PROPN	PROPN	_	11	compound:smixut	_	SpaceAfter=No
+14	"	"	PUNCT	PUNCT	_	13	punct	_	_
+15	לבין	לבין	ADP	ADP	_	16	case	_	_
+16	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	10	conj	_	_
+17	"	"	PUNCT	PUNCT	_	18	punct	_	SpaceAfter=No
+18	גמיי	גמיי	PROPN	PROPN	_	16	compound:smixut	_	SpaceAfter=No
+19	"	"	PUNCT	PUNCT	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:138
+# doc_range = 136-256
+# sent_id = 3398
+# text = היבואן צוטט באומרו כי "אכן מדובר באותו מפעל ואפילו במוצרים זהים".
+1-2	היבואן	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	יבואן	יבואן	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	צוטט	צוטט	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+4-5	באומרו	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	אומרו	אומר	VERB	VERB	Gender=Masc|Number=Sing	3	obl	_	_
+6	כי	כי	SCONJ	SCONJ	_	9	mark	_	_
+7	"	"	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+8	אכן	אכן	ADV	ADV	_	9	advmod	_	_
+9	מדובר	דובר	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	5	acl:relcl	_	_
+10-11	באותו	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	12	case	_	_
+11	אותו	אותו	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	det	_	_
+12	מפעל	מפעל	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	_
+13-14	ואפילו	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+14	אפילו	אפילו	ADV	ADV	_	16	advmod	_	_
+15-16	במוצרים	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	מוצרים	מוצר	NOUN	NOUN	Gender=Masc|Number=Plur	12	conj	_	_
+17	זהים	זהה	ADJ	ADJ	Gender=Masc|Number=Plur	16	amod	_	SpaceAfter=No
+18	"	"	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:138
+# doc_range = 258-427
+# sent_id = 3399
+# text = ברצוני להבהיר חד משמעית, שבמפעל של לנקום, אשר נמצא בקודרי בצפון צרפת, לא מיוצרים מוצרי גמיי.
+1-4	ברצוני	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	רצון	רצון	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+3	_של_	של	ADP	ADP	Case=Gen	4	case:gen	_	_
+4	_אני	הוא	PRON	PRON	Definite=Def|Gender=Fem,Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5	להבהיר	הבהיר	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+6	חד	חד	ADV	ADV	Prefix=Yes	5	compound:affix	_	_
+7	משמעית	משמעי	ADV	ADV	_	6	fixed	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	25	punct	_	_
+9-12	שבמפעל	_	_	_	_	_	_	_	_
+9	ש	ש	SCONJ	SCONJ	_	25	mark	_	_
+10	ב	ב	ADP	ADP	_	12	case	_	_
+11	ה_	ה	DET	DET	PronType=Art|Definite=Def	12	det	_	_
+12	מפעל	מפעל	NOUN	NOUN	Gender=Masc|Number=Sing	25	obl	_	_
+13	של	של	ADP	ADP	Case=Gen	14	case	_	_
+14	לנקום	נקם	PROPN	PROPN	_	12	nmod:poss	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	17	punct	_	_
+16	אשר	אשר	SCONJ	SCONJ	_	17	mark	_	_
+17	נמצא	נמצא	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	12	acl:relcl	_	_
+18-19	בקודרי	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	19	case	_	_
+19	קודרי	קודרי	PROPN	PROPN	_	17	obl	_	_
+20-21	בצפון	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	צפון	צפון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	obl	_	_
+22	צרפת	צרפת	PROPN	PROPN	_	21	compound:smixut	_	SpaceAfter=No
+23	,	,	PUNCT	PUNCT	_	12	punct	_	_
+24	לא	לא	ADV	ADV	Polarity=Neg	25	advmod	_	_
+25	מיוצרים	יוצר	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	5	advcl	_	_
+26	מוצרי	מוצר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	25	nsubj:pass	_	_
+27	גמיי	גמיי	PROPN	PROPN	_	26	compound:smixut	_	SpaceAfter=No
+28	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:138
+# doc_range = 429-547
+# sent_id = 3400
+# text = הנוסחאות של מוצרי לנקום בלעדיות ומוגנות ואינן זהות לאלה של גמיי.
+1-2	הנוסחאות	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	נוסחאות	נוסחה	NOUN	NOUN	Gender=Fem|Number=Plur	6	nsubj	_	_
+3	של	של	ADP	ADP	Case=Gen	4	case	_	_
+4	מוצרי	מוצר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	2	nmod:poss	_	_
+5	לנקום	נקם	PROPN	PROPN	_	4	compound:smixut	_	_
+6	בלעדיות	בלעדי	ADJ	ADJ	Gender=Fem|Number=Plur	0	root	_	_
+7-8	ומוגנות	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	8	cc	_	_
+8	מוגנות	מוגן	ADJ	ADJ	Gender=Fem|Number=Plur	6	conj	_	_
+9-10	ואינן	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+10	אינן	אינו	AUX	AUX	Gender=Fem|Number=Plur|Person=3|Polarity=Neg|VerbForm=Part	11	aux	_	_
+11	זהות	זהה	ADJ	ADJ	Gender=Fem|Number=Plur	6	conj	_	_
+12-13	לאלה	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	_	13	case	_	_
+13	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	11	obl	_	_
+14	של	של	ADP	ADP	Case=Gen	15	case	_	_
+15	גמיי	גמיי	PROPN	PROPN	_	13	nmod:poss	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:138
+# doc_range = 549-726
+# sent_id = 3401
+# text = הידע שלי מבוסס לא רק על שיחות רבות עם אנשי לנקום, אלא גם על ביקורים שערכתי במפעל, ובחינת הנושא שם.
+1-2	הידע	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	ידע	ידע	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+3-4	שלי	_	_	_	_	_	_	_	_
+3	של	של	ADP	ADP	Case=Gen	4	case	_	_
+4	_אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5	מבוסס	מבוסס	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+6	לא	לא	ADV	ADV	Polarity=Neg	7	advmod	_	_
+7	רק	רק	ADV	ADV	_	9	advmod	_	_
+8	על	על	ADP	ADP	_	9	case	_	_
+9	שיחות	שיחה	NOUN	NOUN	Gender=Fem|Number=Plur	18	nmod	_	_
+10	רבות	רב	ADJ	ADJ	Gender=Fem|Number=Plur	9	amod	_	_
+11	עם	עם	ADP	ADP	_	12	case	_	_
+12	אנשי	איש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	9	nmod	_	_
+13	לנקום	נקם	PROPN	PROPN	_	12	compound:smixut	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	9	punct	_	_
+15	אלא	אלא	CCONJ	CCONJ	_	18	dep	_	HebSource=ConvUncertainHead
+16	גם	גם	ADV	ADV	_	18	advmod	_	_
+17	על	על	ADP	ADP	_	18	case	_	_
+18	ביקורים	ביקור	NOUN	NOUN	Gender=Masc|Number=Plur	5	obl	_	_
+19-20	שערכתי	_	_	_	_	_	_	_	_
+19	ש	ש	SCONJ	SCONJ	_	20	mark	_	_
+20	ערכתי	ערך	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Sing|Person=1|Tense=Past|Voice=Act	18	acl:relcl	_	_
+21-23	במפעל	_	_	_	_	_	_	_	SpaceAfter=No
+21	ב	ב	ADP	ADP	_	23	case	_	_
+22	ה_	ה	DET	DET	PronType=Art|Definite=Def	23	det	_	_
+23	מפעל	מפעל	NOUN	NOUN	Gender=Masc|Number=Sing	20	obl	_	_
+24	,	,	PUNCT	PUNCT	_	26	punct	_	_
+25-26	ובחינת	_	_	_	_	_	_	_	_
+25	ו	ו	CCONJ	CCONJ	_	26	cc	_	_
+26	בחינת	בחינה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	18	conj	_	_
+27-28	הנושא	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	נושא	נושא	NOUN	NOUN	Gender=Masc|Number=Sing	26	compound:smixut	_	_
+29	שם	שם	ADV	ADV	_	26	advmod	_	SpaceAfter=No
+30	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:138
+# doc_range = 728-920
+# sent_id = 3402
+# text = נכון הדבר, שחברת לנקום וחברת גמיי שתיהן בבעלות קונצרן לוריאל, שהוא הקונצרן הגדול בעולם בתחום הקוסמטיקה.
+1	נכון	נכון	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
+2-3	הדבר	_	_	_	_	_	_	_	SpaceAfter=No
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Sing	1	nsubj	_	_
+4	,	,	PUNCT	PUNCT	_	13	punct	_	_
+5-6	שחברת	_	_	_	_	_	_	_	_
+5	ש	ש	SCONJ	SCONJ	_	13	mark	_	_
+6	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	13	nsubj	_	_
+7	לנקום	נקם	PROPN	PROPN	_	6	compound:smixut	_	_
+8-9	וחברת	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+9	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	conj	_	_
+10	גמיי	גמיי	PROPN	PROPN	_	9	compound:smixut	_	_
+11	שתיהן	שתיים	ADV	ADV	Gender=Fem|Number=Plur|Person=3|PronType=Prs	6	advmod	_	_
+12-13	בבעלות	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	בעלות	בעלות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	acl:relcl	_	_
+14	קונצרן	קונצרן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	compound:smixut	_	_
+15	לוריאל	לוריאל	PROPN	PROPN	_	14	compound:smixut	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	20	punct	_	_
+17-18	שהוא	_	_	_	_	_	_	_	_
+17	ש	ש	SCONJ	SCONJ	_	20	mark	_	_
+18	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+19-20	הקונצרן	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	קונצרן	קונצרן	NOUN	NOUN	Gender=Masc|Number=Sing	14	acl:relcl	_	_
+21-22	הגדול	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	גדול	גדול	ADJ	ADJ	Gender=Masc|Number=Sing	20	amod	_	_
+23-25	בעולם	_	_	_	_	_	_	_	_
+23	ב	ב	ADP	ADP	_	25	case	_	_
+24	ה_	ה	DET	DET	PronType=Art|Definite=Def	25	det	_	_
+25	עולם	עולם	NOUN	NOUN	Gender=Masc|Number=Sing	22	dep	_	_
+26-27	בתחום	_	_	_	_	_	_	_	_
+26	ב	ב	ADP	ADP	_	27	case	_	_
+27	תחום	תחום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	22	dep	_	_
+28-29	הקוסמטיקה	_	_	_	_	_	_	_	SpaceAfter=No
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	קוסמטיקה	קוסמטיקה	NOUN	NOUN	Gender=Fem|Number=Sing	27	compound:smixut	_	_
+30	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:138
+# doc_range = 922-985
+# sent_id = 3403
+# text = אך בכך מסתיים הקשר שבין שתי החברות.
+1	אך	אך	CCONJ	CCONJ	_	4	cc	_	_
+2-3	בכך	_	_	_	_	_	_	_	_
+2	ב	ב	ADP	ADP	_	3	case	_	_
+3	כך	כך	PRON	PRON	Person=3|PronType=Dem	4	obl	_	_
+4	מסתיים	הסתיים	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+5-6	הקשר	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	קשר	קשר	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
+7-8	שבין	_	_	_	_	_	_	_	_
+7	ש	ש	SCONJ	SCONJ	_	11	mark	_	_
+8	בין	בין	ADP	ADP	_	11	case	_	_
+9	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	11	nummod	_	_
+10-11	החברות	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	חברות	חברה	NOUN	NOUN	Gender=Fem|Number=Plur	6	acl:relcl	_	_
+12	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:138
+# doc_range = 988-1084
+# sent_id = 3404
+# text = לנקום וגמיי שייכות לחטיבות שונות ופועלות באופן נפרד.
+1	לנקום	נקם	PROPN	PROPN	_	4	nsubj	_	_
+2-3	וגמיי	_	_	_	_	_	_	_	_
+2	ו	ו	CCONJ	CCONJ	_	3	cc	_	_
+3	גמיי	וגמיי	PROPN	PROPN	_	1	conj	_	_
+4	שייכות	שייך	ADJ	ADJ	Gender=Fem|Number=Plur	0	root	_	_
+5-6	לחטיבות	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	חטיבות	חטיבה	NOUN	NOUN	Gender=Fem|Number=Plur	4	obl	_	_
+7	שונות	שונה	ADJ	ADJ	Gender=Fem|Number=Plur	6	amod	_	_
+8-9	ופועלות	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+9	פועלות	פעל	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	4	conj	_	_
+10-11	באופן	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	אופן	אופן	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	_
+12	נפרד	נפרד	ADJ	ADJ	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:138
+# doc_range = 1086-1216
+# sent_id = 3405
+# text = הופתעתי לקרוא שעל גבי מוצרי לנקום מופיע כתובת היצרן רחוב רויאל 41, פריס.
+1	הופתעתי	הופתע	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Sing|Person=1|Tense=Past|Voice=Pass	0	root	_	_
+2	לקרוא	קרא	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	1	xcomp	_	_
+3-4	שעל	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
+4	על	על	ADP	ADP	_	6	case	_	_
+5	גבי	גב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	fixed	_	_
+6	מוצרי	מוצר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	8	obl	_	_
+7	לנקום	נקם	PROPN	PROPN	_	6	compound:smixut	_	_
+8	מופיע	הופיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	2	advcl	_	_
+9	כתובת	כתובת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	8	nsubj	_	_
+10-11	היצרן	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	יצרן	יצרן	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound:smixut	_	_
+12	רחוב	רחוב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	acl	_	_
+13	רויאל	רויאל	PROPN	PROPN	_	12	compound:smixut	_	_
+14	41	41	NUM	NUM	_	12	nummod	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	16	punct	_	_
+16	פריס	פריז	PROPN	PROPN	_	12	appos	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:138
+# doc_range = 1218-1387
+# sent_id = 3406
+# text = בדקנו מוצרים מספר של חברת לנקום ומצאנו שעל גבי האריזה מופיע בדרך כלל הסימון בלבד, ללא כתובת.
+1	בדקנו	בדק	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=1|Tense=Past|Voice=Act	0	root	_	_
+2	מוצרים	מוצר	NOUN	NOUN	Gender=Masc|Number=Plur	1	obj	_	_
+3	מספר	מספר	DET	DET	Definite=Cons	2	dep	_	_
+4	של	של	ADP	ADP	Case=Gen	5	case	_	_
+5	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	nmod:poss	_	_
+6	לנקום	נקם	PROPN	PROPN	_	5	compound:smixut	_	_
+7-8	ומצאנו	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	8	cc	_	_
+8	מצאנו	מצא	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=1|Tense=Past|Voice=Act	1	conj	_	_
+9-10	שעל	_	_	_	_	_	_	_	_
+9	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
+10	על	על	ADP	ADP	_	13	case	_	_
+11	גבי	גב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	10	fixed	_	_
+12-13	האריזה	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	אריזה	אריזה	NOUN	NOUN	Gender=Fem|Number=Sing	14	obl	_	_
+14	מופיע	הופיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	8	ccomp	_	_
+15-16	בדרך	_	_	_	_	_	_	_	_
+15	ב	ב	ADV	ADV	_	14	advmod	_	_
+16	דרך	דרך	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	15	fixed	_	_
+17	כלל	כלל	NOUN	NOUN	Gender=Masc|Number=Sing	15	fixed	_	_
+18-19	הסימון	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	סימון	סימון	NOUN	NOUN	Gender=Masc|Number=Sing	14	nsubj	_	_
+20	בלבד	בלבד	ADV	ADV	_	19	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	23	punct	_	_
+22	ללא	ללא	ADP	ADP	_	23	case	_	_
+23	כתובת	כתובת	NOUN	NOUN	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:138
+# doc_range = 1389-1768
+# sent_id = 3407
+# text = על דפי ההסבר המצורפים למוצרים מופיעה הכתובת הידועה של לנקום מנהל שיווק, פי. סי. פרסטיגקוסמטיקס בע"ם לעתים קרובות אנו עדים לתופעות שליליות בתחום הצרכנות, אבל יש גם תופעות חיוביות, ועל שתיים כאלה ברצוני לספר.
+1	על	על	ADP	ADP	_	2	case	_	_
+2	דפי	דף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	17	nmod	_	_
+3-4	ההסבר	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	הסבר	הסבר	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+5-6	המצורפים	_	_	_	_	_	_	_	_
+5	ה	ה	SCONJ	SCONJ	_	6	mark	_	_
+6	מצורפים	צורף	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	2	acl:relcl	_	_
+7-9	למוצרים	_	_	_	_	_	_	_	_
+7	ל	ל	ADP	ADP	_	9	case	_	_
+8	ה_	ה	DET	DET	PronType=Art|Definite=Def	9	det	_	_
+9	מוצרים	מוצר	NOUN	NOUN	Gender=Masc|Number=Plur	6	obl	_	_
+10	מופיעה	הופיע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	17	dep	_	HebSource=ConvUncertainHead
+11-12	הכתובת	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	כתובת	כתובת	NOUN	NOUN	Gender=Fem|Number=Sing	17	nsubj	_	_
+13-14	הידועה	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	ידועה	ידוע	ADJ	ADJ	Gender=Fem|Number=Sing	12	amod	_	_
+15	של	של	ADP	ADP	Case=Gen	16	case	_	_
+16	לנקום	נקם	PROPN	PROPN	_	12	nmod	_	_
+17	מנהל	מנהל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	_
+18	שיווק	שיווק	NOUN	NOUN	Gender=Masc|Number=Sing	17	compound:smixut	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	20	punct	_	_
+20	פי.	פיyyד%ת	PROPN	PROPN	Abbr=Yes	17	appos	_	_
+21	סי.	סיyyד%ת	PROPN	PROPN	Abbr=Yes	20	flat:name	_	_
+22	פרסטיגקוסמטיקס	פרסטיגקוסמטיקס	PROPN	PROPN	_	20	flat:name	_	_
+23	בע"ם	בע"ם	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	20	flat:name	_	_
+24	לעתים	לעתים	ADV	ADV	_	27	advmod	_	_
+25	קרוב	קרוב	ADJ	ADJ	Gender=Fem|Number=Plur	24	fixed	_	_
+26	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	27	nsubj	_	_
+27	עדים	עד	NOUN	NOUN	Gender=Masc|Number=Plur	17	parataxis	_	_
+28-29	לתופעות	_	_	_	_	_	_	_	_
+28	ל	ל	ADP	ADP	_	29	case	_	_
+29	תופעות	תופעה	NOUN	NOUN	Gender=Fem|Number=Plur	27	nmod	_	_
+30	שליליות	שלילי	ADJ	ADJ	Gender=Fem|Number=Plur	29	amod	_	_
+31-32	בתחום	_	_	_	_	_	_	_	_
+31	ב	ב	ADP	ADP	_	32	case	_	_
+32	תחום	תחום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	29	nmod	_	_
+33-34	הצרכנות	_	_	_	_	_	_	_	SpaceAfter=No
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	צרכנות	צרכנות	NOUN	NOUN	Gender=Fem|Number=Sing	32	compound:smixut	_	_
+35	,	,	PUNCT	PUNCT	_	37	punct	_	_
+36	אבל	אבל	CCONJ	CCONJ	_	37	cc	_	_
+37	יש	יש	VERB	VERB	HebExistential=Yes	27	conj	_	_
+38	גם	גם	ADV	ADV	_	39	advmod	_	_
+39	תופעות	תופעה	NOUN	NOUN	Gender=Fem|Number=Plur	37	nsubj	_	_
+40	חיוביות	חיובי	ADJ	ADJ	Gender=Fem|Number=Plur	39	amod	_	SpaceAfter=No
+41	,	,	PUNCT	PUNCT	_	49	punct	_	_
+42-43	ועל	_	_	_	_	_	_	_	_
+42	ו	ו	CCONJ	CCONJ	_	49	cc	_	_
+43	על	על	ADP	ADP	_	44	case	_	_
+44	שתיים	שתיים	NUM	NUM	Gender=Fem|Number=Plur	49	nmod	_	_
+45-47	כאלה	_	_	_	_	_	_	_	_
+45	כ	כ	ADP	ADP	_	47	case	_	_
+46	ה_	ה	DET	DET	PronType=Art|Definite=Def	47	det	_	_
+47	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	44	obl	_	_
+48-51	ברצוני	_	_	_	_	_	_	_	_
+48	ב	ב	ADP	ADP	_	49	case	_	_
+49	רצון	רצון	NOUN	NOUN	Gender=Masc|Number=Sing	37	conj	_	_
+50	_של_	של	ADP	ADP	Case=Gen	51	case:gen	_	_
+51	_אני	הוא	PRON	PRON	Definite=Def|Gender=Fem,Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	49	nmod:poss	_	_
+52	לספר	סיפר	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	49	xcomp	_	SpaceAfter=No
+53	.	.	PUNCT	PUNCT	_	17	punct	_	_
+
+# doc_id = htb:138
+# doc_range = 1770-1876
+# sent_id = 3408
+# text = לפני זמן מה ערכתי קנייה גדולה בהיפרכל בגבעת שאול בירושלים.
+1	לפני	לפני	ADP	ADP	_	2	case	_	_
+2	זמן	זמן	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+3	מה	מה	PRON	PRON	PronType=Int	2	amod	_	_
+4	ערכתי	ערך	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	_
+5	קנייה	קנייה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obj	_	_
+6	גדולה	גדול	ADJ	ADJ	Gender=Fem|Number=Sing	5	amod	_	_
+7-8	בהיפרכל	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	היפרכל	היפרכל	PROPN	PROPN	_	5	nmod	_	_
+9-10	בגבעת	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	גבעת	גבעה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	8	nmod	_	_
+11	שאול	שאול	PROPN	PROPN	_	10	flat:name	_	_
+12-13	בירושלים	_	_	_	_	_	_	_	SpaceAfter=No
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	ירושלים	ירושלים	PROPN	PROPN	_	10	nmod	_	_
+14	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:138
+# doc_range = 1879-1968
+# sent_id = 3409
+# text = בין היתר קניתי גם חצי ק"ג שקדים ואגוזי לוז בקליפה.
+1	בין	בין	ADP	ADP	_	3	case	_	_
+2-3	היתר	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	יתר	יתר	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+4	קניתי	קנה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	_
+5	גם	גם	ADV	ADV	_	6	advmod	_	_
+6	חצי	חצי	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	4	obj	_	_
+7	ק"ג	קילוגרם	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	6	compound:smixut	_	_
+8	שקדים	שקד	NOUN	NOUN	Gender=Masc|Number=Plur	7	compound:smixut	_	_
+9-10	ואגוזי	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+10	אגוזי	אגוז	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	6	conj	_	_
+11	לוז	לוז	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
+12-13	בקליפה	_	_	_	_	_	_	_	SpaceAfter=No
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	קליפה	קליפה	NOUN	NOUN	Gender=Fem|Number=Sing	10	nmod	_	_
+14	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:138
+# doc_range = 1970-2014
+# sent_id = 3410
+# text = בבית ראיתי שהם מקולקלים.
+1-3	בבית	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	בית	בית	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+4	ראיתי	ראה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	_
+5-6	שהם	_	_	_	_	_	_	_	_
+5	ש	ש	SCONJ	SCONJ	_	7	mark	_	_
+6	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	nsubj:pass	_	_
+7	מקולקלים	קולקל	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	4	ccomp	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:138
+# doc_range = 2017-2297
+# sent_id = 3411
+# text = היות שהתכוונתי לתת את הפירות במתנה, התקשרתי בערב אל מנהל החנות ושאלתי אם יוכל לשלוח לי ביום ששי שקדים ואגוזי לוז טריים (אין לי מכונית והחנות רחוקה מביתי).
+1	היות	היות	SCONJ	SCONJ	_	3	mark	_	_
+2-3	שהתכוונתי	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	1	fixed	_	_
+3	התכוונתי	התכוון	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Sing|Person=1|Tense=Past	11	advcl	_	_
+4	לתת	נתן	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	את	את	ADP	ADP	Case=Acc	7	case	_	_
+6-7	הפירות	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	פירות	פרי	NOUN	NOUN	Gender=Masc|Number=Plur	4	obj	_	_
+8-9	במתנה	_	_	_	_	_	_	_	SpaceAfter=No
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	מתנה	מתנה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+10	,	,	PUNCT	PUNCT	_	3	punct	_	_
+11	התקשרתי	התקשר	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Sing|Person=1|Tense=Past	0	root	_	_
+12-14	בערב	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	14	case	_	_
+13	ה_	ה	DET	DET	PronType=Art|Definite=Def	14	det	_	_
+14	ערב	ערב	NOUN	NOUN	Gender=Masc|Number=Sing	11	obl	_	_
+15	אל	אל	ADP	ADP	_	16	case	_	_
+16	מנהל	מנהל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	obl	_	_
+17-18	החנות	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	חנות	חנות	NOUN	NOUN	Gender=Fem|Number=Sing	16	compound:smixut	_	_
+19-20	ושאלתי	_	_	_	_	_	_	_	_
+19	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
+20	שאלתי	שאל	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Sing|Person=1|Tense=Past|Voice=Act	11	conj	_	_
+21	אם	אם	SCONJ	SCONJ	_	23	mark	_	_
+22	יוכל	יכול	AUX	AUX	Gender=Masc|Number=Sing|Person=2|Tense=Fut|VerbType=Mod	23	aux	_	_
+23	לשלוח	שלח	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	20	ccomp	_	_
+24-25	לי	_	_	_	_	_	_	_	_
+24	ל	ל	ADP	ADP	_	25	case	_	_
+25	_אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	23	obl	_	_
+26-27	ביום	_	_	_	_	_	_	_	_
+26	ב	ב	ADP	ADP	_	27	case	_	_
+27	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	23	obl	_	_
+28	ששי	ששי	PROPN	PROPN	_	27	compound:smixut	_	_
+29	שקדים	שקד	NOUN	NOUN	Gender=Masc|Number=Plur	23	obj	_	_
+30-31	ואגוזי	_	_	_	_	_	_	_	_
+30	ו	ו	CCONJ	CCONJ	_	31	cc	_	_
+31	אגוזי	אגוז	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	29	conj	_	_
+32	לוז	לוז	NOUN	NOUN	Gender=Masc|Number=Sing	31	compound:smixut	_	_
+33	טריים	טרי	ADJ	ADJ	Gender=Masc|Number=Plur	31	amod	_	_
+34	(	(	PUNCT	PUNCT	_	35	punct	_	SpaceAfter=No
+35	אין	אין	VERB	VERB	HebExistential=Yes	23	parataxis	_	_
+36-37	לי	_	_	_	_	_	_	_	_
+36	ל	ל	ADP	ADP	_	37	case	_	_
+37	_אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	35	obl	_	_
+38	מכונית	מכונית	NOUN	NOUN	Gender=Fem|Number=Sing	35	nsubj	_	_
+39-41	והחנות	_	_	_	_	_	_	_	_
+39	ו	ו	CCONJ	CCONJ	_	42	cc	_	_
+40	ה	ה	DET	DET	Definite=Def|PronType=Art	41	det	_	_
+41	חנות	חנות	NOUN	NOUN	Gender=Fem|Number=Sing	42	nsubj	_	_
+42	רחוקה	רחוק	ADJ	ADJ	Gender=Fem|Number=Sing	35	conj	_	_
+43-46	מביתי	_	_	_	_	_	_	_	SpaceAfter=No
+43	מ	מ	ADP	ADP	_	44	case	_	_
+44	בית	בית	NOUN	NOUN	Gender=Masc|Number=Sing	42	obl	_	_
+45	_של_	של	ADP	ADP	Case=Gen	46	case:gen	_	_
+46	_אני	הוא	PRON	PRON	Definite=Def|Gender=Fem,Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	44	nmod:poss	_	_
+47	)	)	PUNCT	PUNCT	_	35	punct	_	SpaceAfter=No
+48	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:138
+# doc_range = 2301-2524
+# sent_id = 3412
+# text = ביום ששי בצהריים בא שליח מיוחד מהחנות והביא ארבע אריזות, שבכל אחת מהן רבע ק"ג פיצוחים, שקדים, אגוזים וכו, קלופים ומצוינים.
+1-2	ביום	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	obl	_	_
+3	ששי	ששי	PROPN	PROPN	_	2	compound:smixut	_	_
+4-6	בצהריים	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	6	case	_	_
+5	ה_	ה	DET	DET	PronType=Art|Definite=Def	6	det	_	_
+6	צהריים	צהריים	NOUN	NOUN	Gender=Masc|Number=Plur	2	nmod	_	_
+7	בא	בא	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+8	שליח	שליח	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj	_	_
+9	מיוחד	מיוחד	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	_
+10-12	מהחנות	_	_	_	_	_	_	_	_
+10	מ	מ	ADP	ADP	_	12	case	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	חנות	חנות	NOUN	NOUN	Gender=Fem|Number=Sing	8	nmod	_	_
+13-14	והביא	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
+14	הביא	הביא	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	7	conj	_	_
+15	ארבע	ארבע	NUM	NUM	Gender=Fem|Number=Sing	16	nummod	_	_
+16	אריזות	אריזה	NOUN	NOUN	Gender=Fem|Number=Plur	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	23	punct	_	_
+18-20	שבכל	_	_	_	_	_	_	_	_
+18	ש	ש	SCONJ	SCONJ	_	23	mark	_	_
+19	ב	ב	ADP	ADP	_	23	case	_	_
+20	כל	כול	DET	DET	Definite=Cons	23	det	_	_
+21	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	23	nummod	_	_
+22-23	מהן	_	_	_	_	_	_	_	_
+22	מ	מן	ADP	ADP	_	23	case	_	_
+23	הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	16	acl:relcl	_	_
+24	רבע	רבע	NUM	NUM	Gender=Masc|Number=Sing	23	nsubj	_	_
+25	ק"ג	קילוגרם	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	24	compound:smixut	_	_
+26	פיצוחים	פיצוחים	NOUN	NOUN	Gender=Masc|Number=Plur	25	compound:smixut	_	SpaceAfter=No
+27	,	,	PUNCT	PUNCT	_	28	punct	_	_
+28	שקדים	שקד	NOUN	NOUN	Gender=Masc|Number=Plur	26	conj	_	SpaceAfter=No
+29	,	,	PUNCT	PUNCT	_	30	punct	_	_
+30	אגוזים	אגוז	NOUN	NOUN	Gender=Masc|Number=Plur	26	conj	_	_
+31-32	וכו	_	_	_	_	_	_	_	SpaceAfter=No
+31	ו	ו	CCONJ	CCONJ	_	26	conj	_	_
+32	כו	כו	ADV	ADV	_	31	fixed	_	_
+33	,	,	PUNCT	PUNCT	_	34	punct	_	_
+34	קלופים	קלוף	ADJ	ADJ	Gender=Masc|Number=Plur	26	amod	_	_
+35-36	ומצוינים	_	_	_	_	_	_	_	SpaceAfter=No
+35	ו	ו	CCONJ	CCONJ	_	36	cc	_	_
+36	מצוינים	מצוין	ADJ	ADJ	Gender=Masc|Number=Plur	34	conj	_	_
+37	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:138
+# doc_range = 2527-2616
+# sent_id = 3413
+# text = הצעתי לשלם את הפרש המחירים, אך נציג ההיפרכל סירב.
+1	הצעתי	הציע	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	_
+2	לשלם	שילם	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	1	xcomp	_	_
+3	את	את	ADP	ADP	Case=Acc	4	case	_	_
+4	הפרש	הפרש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	obj	_	_
+5-6	המחירים	_	_	_	_	_	_	_	SpaceAfter=No
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	מחירים	מחיר	NOUN	NOUN	Gender=Masc|Number=Plur	4	compound:smixut	_	_
+7	,	,	PUNCT	PUNCT	_	12	punct	_	_
+8	אך	אך	CCONJ	CCONJ	_	12	cc	_	_
+9	נציג	נציג	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	nsubj	_	_
+10-11	ההיפרכל	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	היפרכל	היפרכל	PROPN	PROPN	_	9	compound:smixut	_	_
+12	סירב	סירב	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	1	conj	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:138
+# doc_range = 2618-2665
+# sent_id = 3414
+# text = שמו של מנהל החנות הוא דוד.
+1-3	שמו	_	_	_	_	_	_	_	_
+1	שם	שם	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj	_	_
+2	_של_	של	ADP	ADP	Case=Gen	3	case:gen	_	_
+3	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	nmod:poss	_	_
+4	של	של	ADP	ADP	Case=Gen	5	case	_	_
+5	מנהל	מנהל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	nmod:poss	_	_
+6-7	החנות	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	חנות	חנות	NOUN	NOUN	Gender=Fem|Number=Sing	5	compound:smixut	_	_
+8	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	9	cop	_	_
+9	דוד	דוד	PROPN	PROPN	_	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:138
+# doc_range = 2667-2778
+# sent_id = 3415
+# text = באחרונה קיבלתי כמות גדולה של תרופות מתוצרת חברת טבע בכפר סבא.
+1	באחרונה	באחרונה	ADV	ADV	_	2	advmod	_	_
+2	קיבלתי	קיבל	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	_
+3	כמות	כמות	NOUN	NOUN	Gender=Fem|Number=Sing	2	obj	_	_
+4	גדולה	גדול	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	_
+5	של	של	ADP	ADP	Case=Gen	6	case	_	_
+6	תרופות	תרופה	NOUN	NOUN	Gender=Fem|Number=Plur	3	nmod	_	_
+7-8	מתוצרת	_	_	_	_	_	_	_	_
+7	מ	מ	ADP	ADP	_	8	case	_	_
+8	תוצרת	תוצרת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	nmod	_	_
+9	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	8	compound:smixut	_	_
+10	טבע	טבע	PROPN	PROPN	_	9	compound:smixut	_	_
+11-12	בכפר	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	כפר	כפר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	nmod	_	_
+13	סבא	סבא	NOUN	NOUN	Gender=Masc|Number=Sing	12	compound:smixut	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:138
+# doc_range = 2781-2834
+# sent_id = 3416
+# text = התרופות נראו לי שונות מהרגיל.
+1-2	התרופות	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	תרופות	תרופה	NOUN	NOUN	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	נראו	נראה	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+4-5	לי	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	_אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+6	שונות	שונה	ADJ	ADJ	Gender=Fem|Number=Plur	3	xcomp	_	HebSource=ConvUncertainLabel
+7-9	מהרגיל	_	_	_	_	_	_	_	SpaceAfter=No
+7	מ	מ	ADP	ADP	_	9	case	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	רגיל	רגיל	ADJ	ADJ	Gender=Masc|Number=Sing	6	advmod	_	_
+10	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:138
+# doc_range = 2836-2898
+# sent_id = 3417
+# text = טילפנתי לרוקח האחראי, מר ליזר קסל.
+1	טילפנתי	טילפן	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	_
+2-4	לרוקח	_	_	_	_	_	_	_	_
+2	ל	ל	ADP	ADP	_	4	case	_	_
+3	ה_	ה	DET	DET	PronType=Art|Definite=Def	4	det	_	_
+4	רוקח	רוקח	NOUN	NOUN	Gender=Masc|Number=Sing	1	obl	_	_
+5-6	האחראי	_	_	_	_	_	_	_	SpaceAfter=No
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	אחראי	אחראי	ADJ	ADJ	Gender=Masc|Number=Sing	4	amod	_	_
+7	,	,	PUNCT	PUNCT	_	8	punct	_	_
+8	מר	מר	ADJ	ADJ	Gender=Masc|Number=Sing	4	appos	_	_
+9	ליזר	ליזר	PROPN	PROPN	_	8	appos	_	_
+10	קסל	קסל	PROPN	PROPN	_	9	flat:name	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:138
+# doc_range = 2901-3145
+# sent_id = 3418
+# text = כעבור יומיים, הוא טילפן אלי, לירושלים, הודיע לי שבדק את כל קו הייצור ומצא כי אין תקלה בתרופה עצמה, אלא שהיא יבשה מהרגיל ומתפוררת יותר.
+1	כעבור	כעבור	ADP	ADP	_	2	case	_	_
+2	יומיים	יום	NOUN	NOUN	Gender=Masc|Number=Dual	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
+4	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	טילפן	טילפן	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+6-7	אלי	_	_	_	_	_	_	_	SpaceAfter=No
+6	אל	אל	ADP	ADP	_	7	case	_	_
+7	_אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	5	obl	_	_
+8	,	,	PUNCT	PUNCT	_	10	punct	_	_
+9-10	לירושלים	_	_	_	_	_	_	_	SpaceAfter=No
+9	ל	ל	ADP	ADP	_	10	case	_	_
+10	ירושלים	ירושלים	PROPN	PROPN	_	5	obl	_	_
+11	,	,	PUNCT	PUNCT	_	12	punct	_	_
+12	הודיע	הודיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	5	parataxis	_	_
+13-14	לי	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	_אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	12	obl	_	_
+15-16	שבדק	_	_	_	_	_	_	_	_
+15	ש	ש	SCONJ	SCONJ	_	16	mark	_	_
+16	בדק	בדק	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	12	ccomp	_	_
+17	את	את	ADP	ADP	Case=Acc	19	case	_	_
+18	כל	כול	DET	DET	Definite=Cons	19	det	_	_
+19	קו	קו	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	16	obj	_	_
+20-21	הייצור	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	ייצור	ייצור	NOUN	NOUN	Gender=Masc|Number=Sing	19	compound:smixut	_	_
+22-23	ומצא	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
+23	מצא	מצא	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	16	conj	_	_
+24	כי	כי	SCONJ	SCONJ	_	25	mark	_	_
+25	אין	אין	VERB	VERB	HebExistential=Yes	23	ccomp	_	_
+26	תקלה	תקלה	NOUN	NOUN	Gender=Fem|Number=Sing	25	nsubj	_	_
+27-29	בתרופה	_	_	_	_	_	_	_	_
+27	ב	ב	ADP	ADP	_	29	case	_	_
+28	ה_	ה	DET	DET	PronType=Art|Definite=Def	29	det	_	_
+29	תרופה	תרופה	NOUN	NOUN	Gender=Fem|Number=Sing	26	nmod	_	_
+30	עצמה	עצמו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Emp|Reflex=Yes	29	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	PUNCT	_	35	punct	_	_
+32	אלא	אלא	CCONJ	CCONJ	_	35	cc	_	_
+33-34	שהיא	_	_	_	_	_	_	_	_
+33	ש	ש	SCONJ	SCONJ	_	35	mark	_	_
+34	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
+35	יבשה	יבש	ADJ	ADJ	Gender=Fem|Number=Sing	25	conj	_	_
+36-38	מהרגיל	_	_	_	_	_	_	_	_
+36	מ	מ	ADP	ADP	_	38	case	_	_
+37	ה	ה	DET	DET	Definite=Def|PronType=Art	38	det	_	_
+38	רגיל	רגיל	ADJ	ADJ	Gender=Masc|Number=Sing	35	advmod	_	_
+39-40	ומתפוררת	_	_	_	_	_	_	_	_
+39	ו	ו	CCONJ	CCONJ	_	40	cc	_	_
+40	מתפוררת	התפורר	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	35	conj	_	_
+41	יותר	יותר	ADV	ADV	_	40	advmod	_	SpaceAfter=No
+42	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:138
+# doc_range = 3148-3247
+# sent_id = 3419
+# text = הוא הבטיח לשלוח לי בדואר חוזר משלוח מלא מקו ייצור קודם.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	הבטיח	הבטיח	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	לשלוח	שלח	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4-5	לי	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	_אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+6-7	בדואר	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	דואר	דואר	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+8	חוזר	חוזר	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	_
+9	משלוח	משלוח	NOUN	NOUN	Gender=Masc|Number=Sing	3	obj	_	_
+10	מלא	מלא	ADJ	ADJ	Gender=Masc|Number=Sing	9	amod	_	_
+11-12	מקו	_	_	_	_	_	_	_	_
+11	מ	מ	ADP	ADP	_	12	case	_	_
+12	קו	קו	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	nmod	_	_
+13	ייצור	ייצור	NOUN	NOUN	Gender=Masc|Number=Sing	12	compound:smixut	_	_
+14	קודם	קודם	ADJ	ADJ	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	2	punct	_	_
+

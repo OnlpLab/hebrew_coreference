@@ -1,0 +1,329 @@
+# doc_id = htb:119
+# doc_range = 1-243
+# sent_id = 2816
+# text = האלוף הישראלי בכדורעף, מכבי תל אביב, עלה אמש לסיבוב השני בגביע אירופה לאלופות, לאחר שניצחה בפמגוסטה, קפריסין, את סאלמינה 3 0 (516, 5111, 519).
+1-2	האלוף	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	אלוף	אלוף	NOUN	NOUN	Gender=Masc|Number=Sing	12	nsubj	_	_
+3-4	הישראלי	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	ישראלי	ישראלי	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+5-6	בכדורעף	_	_	_	_	_	_	_	SpaceAfter=No
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	כדורעף	כדורעף	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_
+7	,	,	PUNCT	PUNCT	_	8	punct	_	_
+8	מכבי	מכבי	PROPN	PROPN	_	2	appos	_	_
+9	תל	תל	PROPN	PROPN	Definite=Cons	8	flat:name	_	_
+10	אביב	אביב	PROPN	PROPN	_	9	compound:smixut	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	2	punct	_	_
+12	עלה	עלה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+13	אמש	אמש	ADV	ADV	_	12	advmod	_	_
+14-16	לסיבוב	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	16	case	_	_
+15	ה_	ה	DET	DET	PronType=Art|Definite=Def	16	det	_	_
+16	סיבוב	סיבוב	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
+17-18	השני	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	שני	שני	ADJ	ADJ	Gender=Masc|Number=Sing	16	amod	_	_
+19-20	בגביע	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	גביע	גביע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	16	nmod	_	_
+21	אירופה	אירופה	PROPN	PROPN	_	20	compound:smixut	_	_
+22-24	לאלופות	_	_	_	_	_	_	_	SpaceAfter=No
+22	ל	ל	ADP	ADP	_	24	case	_	_
+23	ה_	ה	DET	DET	PronType=Art|Definite=Def	24	det	_	_
+24	אלופות	אלופה	NOUN	NOUN	Gender=Fem|Number=Plur	20	nmod	_	_
+25	,	,	PUNCT	PUNCT	_	28	punct	_	_
+26	לאחר	לאחר	ADP	ADP	_	28	case	_	_
+27-28	שניצחה	_	_	_	_	_	_	_	_
+27	ש	ש	SCONJ	SCONJ	_	28	mark	_	_
+28	ניצחה	ניצח	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	12	obl	_	_
+29-30	בפמגוסטה	_	_	_	_	_	_	_	SpaceAfter=No
+29	ב	ב	ADP	ADP	_	30	case	_	_
+30	פמגוסטה	בפמגוסטה	PROPN	PROPN	_	28	obl	_	_
+31	,	,	PUNCT	PUNCT	_	32	punct	_	_
+32	קפריסין	קפריסין	PROPN	PROPN	_	30	appos	_	SpaceAfter=No
+33	,	,	PUNCT	PUNCT	_	35	punct	_	_
+34	את	את	ADP	ADP	Case=Acc	35	case	_	_
+35	סאלמינה	סאלמינה	PROPN	PROPN	_	28	obj	_	_
+36	3	3	NUM	NUM	_	28	dep	_	_
+37	0	0	NUM	NUM	_	36	nummod	_	_
+38	(	(	PUNCT	PUNCT	_	39	punct	_	SpaceAfter=No
+39	516	516	NUM	NUM	_	36	appos	_	SpaceAfter=No
+40	,	,	PUNCT	PUNCT	_	41	punct	_	_
+41	5111	5111	NUM	NUM	_	39	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+42	,	,	PUNCT	PUNCT	_	43	punct	_	_
+43	519	519	NUM	NUM	_	39	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+44	)	)	PUNCT	PUNCT	_	39	punct	_	SpaceAfter=No
+45	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# doc_id = htb:119
+# doc_range = 247-326
+# sent_id = 2817
+# text = המצטיינים: מרטין אפל, דני פרידמן וארז שכטר.
+1-2	המצטיינים	_	_	_	_	_	_	_	SpaceAfter=No
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מצטיינים	הצטיין	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	4	nsubj	_	_
+3	:	:	PUNCT	PUNCT	_	2	punct	_	_
+4	מרטין	מרטין	PROPN	PROPN	_	0	root	_	_
+5	אפל	אפל	PROPN	PROPN	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	7	punct	_	_
+7	דני	דני	PROPN	PROPN	_	4	conj	_	_
+8	פרידמן	פרידמן	PROPN	PROPN	_	7	flat:name	_	_
+9-10	וארז	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+10	ארז	ארז	PROPN	PROPN	_	4	conj	_	_
+11	שכטר	שכטר	PROPN	PROPN	_	10	flat:name	_	SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:119
+# doc_range = 328-477
+# sent_id = 2818
+# text = מכבי, שניצח גם במשחק הראשון בתל אביב 3 0, יתמודד בסיבוב השני עם פרטיזן בלגרד החזקה.
+1	מכבי	מכבי	PROPN	PROPN	_	17	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	4	punct	_	_
+3-4	שניצח	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
+4	ניצח	ניצח	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	1	acl:relcl	_	_
+5	גם	גם	ADV	ADV	_	4	advmod	_	_
+6-8	במשחק	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	8	case	_	_
+7	ה_	ה	DET	DET	PronType=Art|Definite=Def	8	det	_	_
+8	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+9-10	הראשון	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	ראשון	ראשון	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	_
+11-12	בתל	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	תל	תל	PROPN	PROPN	Definite=Cons	8	nmod	_	_
+13	אביב	אביב	PROPN	PROPN	_	12	compound:smixut	_	_
+14	3	3	NUM	NUM	_	8	nummod	_	_
+15	0	0	NUM	NUM	_	14	nummod	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	1	punct	_	_
+17	יתמודד	התמודד	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Fut	0	root	_	_
+18-20	בסיבוב	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	20	case	_	_
+19	ה_	ה	DET	DET	PronType=Art|Definite=Def	20	det	_	_
+20	סיבוב	סיבוב	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	_
+21-22	השני	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	שני	שני	ADJ	ADJ	Gender=Masc|Number=Sing	20	amod	_	_
+23	עם	עם	ADP	ADP	_	24	case	_	_
+24	פרטיזן	פרטיזן	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	_
+25	בלגרד	בלגרד	PROPN	PROPN	_	24	flat:name	_	_
+26-27	החזקה	_	_	_	_	_	_	_	SpaceAfter=No
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	חזקה	חזק	ADJ	ADJ	Gender=Fem|Number=Sing	24	amod	_	_
+28	.	.	PUNCT	PUNCT	_	17	punct	_	_
+
+# doc_id = htb:119
+# doc_range = 479-658
+# sent_id = 2819
+# text = בטורניר לקבוצות מחזיקות גביע הודח הפועל בת ים, אחרי שנוצח בגומלין 0 3 בידי הקבוצה הבלגית גנאק רוזלסר.
+1-3	בטורניר	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	טורניר	טורניר	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+4-5	לקבוצות	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	קבוצות	קבוצה	NOUN	NOUN	Gender=Fem|Number=Plur	3	nmod	_	_
+6	מחזיקות	החזיק	VERB	VERB	Definite=Cons|Gender=Fem|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	5	acl	_	_
+7	גביע	גביע	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+8	הודח	הודח	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+9-10	הפועל	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+11	בת	בת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	10	acl	_	_
+12	ים	ים	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound:smixut	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	16	punct	_	_
+14	אחרי	אחרי	ADP	ADP	_	16	mark	_	_
+15-16	שנוצח	_	_	_	_	_	_	_	_
+15	ש	ש	SCONJ	SCONJ	_	14	fixed	_	_
+16	נוצח	נוצח	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	8	advcl	_	_
+17-19	בגומלין	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	_	19	case	_	_
+18	ה_	ה	DET	DET	PronType=Art|Definite=Def	19	det	_	_
+19	גומלין	גומלין	NOUN	NOUN	Gender=Masc|Number=Sing	16	obl	_	_
+20	0	0	NUM	NUM	_	16	dep	_	_
+21	3	3	NUM	NUM	_	20	nummod	_	_
+22	בידי	בידי	ADP	ADP	_	24	case	_	_
+23-24	הקבוצה	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	קבוצה	קבוצה	NOUN	NOUN	Gender=Fem|Number=Sing	16	obl	_	_
+25-26	הבלגית	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	בלגית	בלגי	ADJ	ADJ	Gender=Fem|Number=Sing	24	amod	_	_
+27	גנאק	גנאק	PROPN	PROPN	_	24	appos	_	_
+28	רוזלסר	רוזלסר	PROPN	PROPN	_	27	flat:name	_	SpaceAfter=No
+29	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:119
+# doc_range = 660-781
+# sent_id = 2820
+# text = המשחק הראשון בין שתי הקבוצות, שנערך גם הוא בבלגיה, ניצחו הבלגים 3 0.
+1-2	המשחק	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	17	obj	_	_
+3-4	הראשון	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	ראשון	ראשון	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+5	בין	בין	ADP	ADP	_	8	case	_	_
+6	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	8	nummod	_	_
+7-8	הקבוצות	_	_	_	_	_	_	_	SpaceAfter=No
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	קבוצות	קבוצה	NOUN	NOUN	Gender=Fem|Number=Plur	2	nmod	_	_
+9	,	,	PUNCT	PUNCT	_	11	punct	_	_
+10-11	שנערך	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	11	mark	_	_
+11	נערך	נערך	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	2	acl:relcl	_	_
+12	גם	גם	ADV	ADV	_	13	advmod	_	_
+13	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	dep	_	_
+14-15	בבלגיה	_	_	_	_	_	_	_	SpaceAfter=No
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	בלגיה	בלגיה	PROPN	PROPN	_	11	obl	_	_
+16	,	,	PUNCT	PUNCT	_	2	punct	_	_
+17	ניצחו	ניצח	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+18-19	הבלגים	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	בלגים	בלגי	NOUN	NOUN	Gender=Masc|Number=Plur	17	nsubj	_	_
+20	3	3	NUM	NUM	_	17	dep	_	_
+21	0	0	NUM	NUM	_	20	nummod	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	17	punct	_	_
+
+# doc_id = htb:119
+# doc_range = 783-1010
+# sent_id = 2821
+# text = אלופת ישראל לנשים, קבוצת הפועל מטה אשר, נוצחה 0 3 (451, 451, 1151) במשחק הראשון בגביע אירופה לאלופות בידי אנטוניוס הרנטאלס מבלגיה.
+1	אלופת	אלופה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	nsubj:pass	_	_
+2	ישראל	ישראל	PROPN	PROPN	_	1	compound:smixut	_	_
+3-4	לנשים	_	_	_	_	_	_	_	SpaceAfter=No
+3	ל	ל	ADP	ADP	_	4	case	_	_
+4	נשים	איש	NOUN	NOUN	Gender=Fem|Number=Plur	1	nmod	_	_
+5	,	,	PUNCT	PUNCT	_	6	punct	_	_
+6	קבוצת	קבוצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	appos	_	_
+7-8	הפועל	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+9	מטה	מטה	NOUN	NOUN	Gender=Masc|Number=Sing	8	flat:name	_	_
+10	אשר	אשר	PROPN	PROPN	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	1	punct	_	_
+12	נוצחה	נוצח	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+13	0	0	NUM	NUM	_	12	dep	_	_
+14	3	3	NUM	NUM	_	13	nummod	_	_
+15	(	(	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
+16	451	451	NUM	NUM	_	13	appos	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	18	punct	_	_
+18	451	451	NUM	NUM	_	16	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	20	punct	_	_
+20	1151	1151	NUM	NUM	_	16	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+21	)	)	PUNCT	PUNCT	_	16	punct	_	_
+22-24	במשחק	_	_	_	_	_	_	_	_
+22	ב	ב	ADP	ADP	_	24	case	_	_
+23	ה_	ה	DET	DET	PronType=Art|Definite=Def	24	det	_	_
+24	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
+25-26	הראשון	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	ראשון	ראשון	ADJ	ADJ	Gender=Masc|Number=Sing	24	amod	_	_
+27-28	בגביע	_	_	_	_	_	_	_	_
+27	ב	ב	ADP	ADP	_	28	case	_	_
+28	גביע	גביע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	24	nmod	_	_
+29	אירופה	אירופה	PROPN	PROPN	_	28	compound:smixut	_	_
+30-32	לאלופות	_	_	_	_	_	_	_	_
+30	ל	ל	ADP	ADP	_	32	case	_	_
+31	ה_	ה	DET	DET	PronType=Art|Definite=Def	32	det	_	_
+32	אלופות	אלופה	NOUN	NOUN	Gender=Fem|Number=Plur	28	nmod	_	_
+33	בידי	בידי	ADP	ADP	_	34	case	_	_
+34	אנטוניוס	אנטוניוס	PROPN	PROPN	_	12	obl	_	_
+35	הרנטאלס	הרנטאלס	PROPN	PROPN	_	34	flat:name	_	_
+36-37	מבלגיה	_	_	_	_	_	_	_	SpaceAfter=No
+36	מ	מ	ADP	ADP	_	37	case	_	_
+37	בלגיה	בלגיה	PROPN	PROPN	_	34	nmod	_	_
+38	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# doc_id = htb:119
+# doc_range = 1012-1083
+# sent_id = 2822
+# text = משחק הגומלין יתקיים גם הוא הערב בבלגיה.
+1	משחק	משחק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nsubj	_	_
+2-3	הגומלין	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	גומלין	גומלין	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4	יתקיים	התקיים	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Fut	0	root	_	_
+5	גם	גם	ADV	ADV	_	6	advmod	_	_
+6	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	dep	_	_
+7	הערב	הערב	ADV	ADV	_	4	advmod	_	_
+8-9	בבלגיה	_	_	_	_	_	_	_	SpaceAfter=No
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	בלגיה	בלגיה	PROPN	PROPN	_	4	obl	_	_
+10	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:119
+# doc_range = 1086-1325
+# sent_id = 2823
+# text = מעופפות הפועל עמק יזרעאל הודחו משחקי גביע ההתאחדות האירופית, לאחר שנוצחו אמש בגומלין בגורן יזרעאל 0 3 בידי בנות גאלטאסראי איסטנבול.
+1	מעופפות	עופף	VERB	VERB	Definite=Cons|Gender=Fem|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	6	nsubj:pass	_	_
+2-3	הפועל	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4	עמק	עמק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	flat:name	_	_
+5	יזרעאל	יזרעאל	PROPN	PROPN	_	4	flat:name	_	_
+6	הודחו	הודח	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+7	משחקי	משחק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	8	dep	_	HebSource=ConvUncertainHead
+8	גביע	גביע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	obl	_	_
+9-10	ההתאחדות	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	התאחדות	התאחדות	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound:smixut	_	_
+11-12	האירופית	_	_	_	_	_	_	_	SpaceAfter=No
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	אירופית	אירופי	ADJ	ADJ	Gender=Fem|Number=Sing	10	amod	_	_
+13	,	,	PUNCT	PUNCT	_	16	punct	_	_
+14	לאחר	לאחר	ADP	ADP	_	16	case	_	_
+15-16	שנוצחו	_	_	_	_	_	_	_	_
+15	ש	ש	SCONJ	SCONJ	_	16	mark	_	_
+16	נוצחו	נוצח	VERB	VERB	Gender=Fem,Masc|HebBinyan=PUAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	6	obl	_	_
+17	אמש	אמש	ADV	ADV	_	16	advmod	_	_
+18-20	בגומלין	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	20	case	_	_
+19	ה_	ה	DET	DET	PronType=Art|Definite=Def	20	det	_	_
+20	גומלין	גומלין	NOUN	NOUN	Gender=Masc|Number=Sing	16	obl	_	_
+21-22	בגורן	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	גורן	גורן	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	16	obl	_	_
+23	יזרעאל	יזרעאל	PROPN	PROPN	_	22	compound:smixut	_	_
+24	0	0	NUM	NUM	_	16	dep	_	_
+25	3	3	NUM	NUM	_	24	nummod	_	_
+26	בידי	בידי	ADP	ADP	_	27	case	_	_
+27	בנות	בת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	16	obl	_	_
+28	גאלטאסראי	גאלטאסראי	PROPN	PROPN	_	27	compound:smixut	_	_
+29	איסטנבול	איסטנבול	PROPN	PROPN	_	28	flat:name	_	SpaceAfter=No
+30	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:119
+# doc_range = 1327-1425
+# sent_id = 2824
+# text = גם במשחק הראשון שהיה בטורקיה נוצחה הקבוצה הישראלית 0 3.
+1	גם	גם	ADV	ADV	_	4	advmod	_	_
+2-4	במשחק	_	_	_	_	_	_	_	_
+2	ב	ב	ADP	ADP	_	4	case	_	_
+3	ה_	ה	DET	DET	PronType=Art|Definite=Def	4	det	_	_
+4	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	11	obl	_	_
+5-6	הראשון	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	ראשון	ראשון	ADJ	ADJ	Gender=Masc|Number=Sing	4	amod	_	_
+7-8	שהיה	_	_	_	_	_	_	_	_
+7	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
+8	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	4	acl:relcl	_	_
+9-10	בטורקיה	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	טורקיה	טורקיה	PROPN	PROPN	_	8	obl	_	_
+11	נוצחה	נוצח	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+12-13	הקבוצה	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	קבוצה	קבוצה	NOUN	NOUN	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+14-15	הישראלית	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	ישראלית	ישראלי	ADJ	ADJ	Gender=Fem|Number=Sing	13	amod	_	_
+16	0	0	NUM	NUM	_	11	dep	_	_
+17	3	3	NUM	NUM	_	16	nummod	_	SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	11	punct	_	_
+

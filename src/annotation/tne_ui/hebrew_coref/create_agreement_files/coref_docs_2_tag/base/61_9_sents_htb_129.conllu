@@ -1,0 +1,262 @@
+# doc_id = htb:129
+# doc_range = 2-26
+# sent_id = 3137
+# text = אחר-הצהריים.
+1	אחר	אחר	ADP	ADP	_	4	case	_	SpaceAfter=No
+2	-	-	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+3-4	הצהריים	_	_	_	_	_	_	_	SpaceAfter=No
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	צהריים	צהריים	NOUN	NOUN	Gender=Masc|Number=Plur	0	root	_	_
+5	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:129
+# doc_range = 27-187
+# sent_id = 3138
+# text = המשתתפים מסיירים באתרים השונים ומגלים את מאחורי הקלעים של עיצוב המשטחים ותכנון הסביבה.
+1-2	המשתתפים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	משתתפים	משתתף	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	מסיירים	סייר	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4-6	באתרים	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	6	case	_	_
+5	ה_	ה	DET	DET	PronType=Art|Definite=Def	6	det	_	_
+6	אתרים	אתר	NOUN	NOUN	Gender=Masc|Number=Plur	3	obl	_	_
+7-8	השונים	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	שונים	שונה	ADJ	ADJ	Gender=Masc|Number=Plur	6	amod	_	_
+9-10	ומגלים	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+10	מגלים	גילה	VERB	VERB	Gender=Masc|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	3	conj	_	_
+11	את	את	ADP	ADP	Case=Acc	12	case	_	_
+12	מאחורי	מאחורי	ADP	ADP	_	10	obj	_	_
+13-14	הקלעים	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	קלעים	קלע	NOUN	NOUN	Gender=Masc|Number=Plur	12	compound:smixut	_	_
+15	של	של	ADP	ADP	Case=Gen	16	case	_	_
+16	עיצוב	עיצוב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	14	nmod:poss	_	_
+17-18	המשטחים	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	משטחים	משטח	NOUN	NOUN	Gender=Masc|Number=Plur	16	compound:smixut	_	_
+19-20	ותכנון	_	_	_	_	_	_	_	_
+19	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
+20	תכנון	תכנון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	16	conj	_	_
+21-22	הסביבה	_	_	_	_	_	_	_	SpaceAfter=No
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	סביבה	סביבה	NOUN	NOUN	Gender=Fem|Number=Sing	20	compound:smixut	_	_
+23	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:129
+# doc_range = 189-268
+# sent_id = 3139
+# text = סמינר אחד מתמקד בצמחייה של המקום, ואחר בחי.
+1	סמינר	סמינר	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+2	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	1	nummod	_	_
+3	מתמקד	התמקד	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+4-6	בצמחייה	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	6	case	_	_
+5	ה_	ה	DET	DET	PronType=Art|Definite=Def	6	det	_	_
+6	צמחייה	צמחייה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+7	של	של	ADP	ADP	Case=Gen	9	case	_	_
+8-9	המקום	_	_	_	_	_	_	_	SpaceAfter=No
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	6	nmod:poss	_	_
+10	,	,	PUNCT	PUNCT	_	12	punct	_	_
+11-12	ואחר	_	_	_	_	_	_	_	_
+11	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+12	אחר	אחר	ADJ	ADJ	Gender=Masc|Number=Sing	3	conj	_	_
+13-15	בחי	_	_	_	_	_	_	_	SpaceAfter=No
+13	ב	ב	ADP	ADP	_	15	case	_	_
+14	ה_	ה	DET	DET	PronType=Art|Definite=Def	15	det	_	_
+15	חי	חי	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
+16	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:129
+# doc_range = 270-450
+# sent_id = 3140
+# text = הילדים משתתפים בפעילות היומית של עובדי העיצוב והתכנון ומבלים גם בחדרי הלימוד של אוניברסיטת דיסני.
+1-2	הילדים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	ילדים	ילד	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	משתתפים	השתתף	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+4-6	בפעילות	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	6	case	_	_
+5	ה_	ה	DET	DET	PronType=Art|Definite=Def	6	det	_	_
+6	פעילות	פעילות	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+7-8	היומית	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	יומית	יומי	ADJ	ADJ	Gender=Fem|Number=Sing	6	amod	_	_
+9	של	של	ADP	ADP	Case=Gen	10	case	_	_
+10	עובדי	עובד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	6	nmod	_	_
+11-12	העיצוב	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	עיצוב	עיצוב	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
+13-15	והתכנון	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	תכנון	תכנון	NOUN	NOUN	Gender=Masc|Number=Sing	12	conj	_	_
+16-17	ומבלים	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+17	מבלים	בילה	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	3	conj	_	_
+18	גם	גם	ADV	ADV	_	17	advmod	_	_
+19-20	בחדרי	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	חדרי	חדר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	17	obl	_	_
+21-22	הלימוד	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	לימוד	לימוד	NOUN	NOUN	Gender=Masc|Number=Sing	20	compound:smixut	_	_
+23	של	של	ADP	ADP	Case=Gen	24	case	_	_
+24	אוניברסיטת	אוניברסיטה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	20	nmod:poss	_	_
+25	דיסני	דיסני	PROPN	PROPN	_	24	flat:name	_	SpaceAfter=No
+26	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:129
+# doc_range = 452-546
+# sent_id = 3141
+# text = הסמינר כולל מסע לאפקוט ועבודה מעשית בציור או רישום.
+1-2	הסמינר	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	סמינר	סמינר	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	כולל	כלל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4	מסע	מסע	NOUN	NOUN	Gender=Masc|Number=Sing	3	obj	_	_
+5-6	לאפקוט	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	אפקוט	אפקוט	PROPN	PROPN	_	4	nmod	_	_
+7-8	ועבודה	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	8	cc	_	_
+8	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	4	conj	_	_
+9	מעשית	מעשי	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	_
+10-11	בציור	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	ציור	ציור	NOUN	NOUN	Gender=Masc|Number=Sing	8	nmod	_	_
+12	או	או	CCONJ	CCONJ	_	13	cc	_	_
+13	רישום	רישום	NOUN	NOUN	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:129
+# doc_range = 548-641
+# sent_id = 3142
+# text = סמינר ממושך מקצועי יותר החל השנה, ונערך שלושה ימים.
+1	סמינר	סמינר	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+2	ממושך	ממושך	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	_
+3	מקצועי	מקצועי	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	_
+4	יותר	יותר	ADV	ADV	_	3	advmod	_	_
+5	החל	החל	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+6	השנה	השנה	ADV	ADV	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	9	punct	_	_
+8-9	ונערך	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+9	נערך	נערך	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	5	conj	_	_
+10	שלושה	שלוש	NUM	NUM	Gender=Masc|Number=Plur	11	nummod	_	_
+11	ימים	יום	NOUN	NOUN	Gender=Masc|Number=Plur	9	obl:tmod	_	SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:129
+# doc_range = 644-793
+# sent_id = 3143
+# text = בנוסף להכרת הסביבה, ילמדו המשתתפים את סודות הניהול של המקום, ויישמו את חלקם בשטח.
+1-2	בנוסף	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	4	case	_	_
+2	נוסף	נוסף	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	1	fixed	_	_
+3-4	להכרת	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	1	fixed	_	_
+4	הכרת	הכרה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	8	obl	_	_
+5-6	הסביבה	_	_	_	_	_	_	_	SpaceAfter=No
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	סביבה	סביבה	NOUN	NOUN	Gender=Fem|Number=Sing	4	compound:smixut	_	_
+7	,	,	PUNCT	PUNCT	_	4	punct	_	_
+8	ילמדו	למד	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	0	root	_	_
+9-10	המשתתפים	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	משתתפים	משתתף	NOUN	NOUN	Gender=Masc|Number=Plur	8	nsubj	_	_
+11	את	את	ADP	ADP	Case=Acc	12	case	_	_
+12	סודות	סוד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	8	obj	_	_
+13-14	הניהול	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	ניהול	ניהול	NOUN	NOUN	Gender=Masc|Number=Sing	12	compound:smixut	_	_
+15	של	של	ADP	ADP	Case=Gen	17	case	_	_
+16-17	המקום	_	_	_	_	_	_	_	SpaceAfter=No
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	12	nmod:poss	_	_
+18	,	,	PUNCT	PUNCT	_	20	punct	_	_
+19-20	ויישמו	_	_	_	_	_	_	_	_
+19	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
+20	יישמו	יישם	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Fut|Voice=Act	8	conj	_	_
+21	את	את	ADP	ADP	Case=Acc	22	case	_	_
+22-24	חלקם	_	_	_	_	_	_	_	_
+22	חלק	חלק	NOUN	NOUN	Gender=Masc|Number=Sing	20	obj	_	_
+23	_של_	של	ADP	ADP	Case=Gen	24	case:gen	_	_
+24	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+25-27	בשטח	_	_	_	_	_	_	_	SpaceAfter=No
+25	ב	ב	ADP	ADP	_	27	case	_	_
+26	ה_	ה	DET	DET	PronType=Art|Definite=Def	27	det	_	_
+27	שטח	שטח	NOUN	NOUN	Gender=Masc|Number=Sing	20	obl	_	_
+28	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:129
+# doc_range = 795-878
+# sent_id = 3144
+# text = השתתפות בסמינר כזה תעלה כ586 דולר (כולל חומרים).
+1	השתתפות	השתתפות	NOUN	NOUN	Gender=Fem|Number=Sing	7	nsubj	_	_
+2-3	בסמינר	_	_	_	_	_	_	_	_
+2	ב	ב	ADP	ADP	_	3	case	_	_
+3	סמינר	סמינר	NOUN	NOUN	Gender=Masc|Number=Sing	1	nmod	_	_
+4-6	כזה	_	_	_	_	_	_	_	_
+4	כ	כ	ADP	ADP	_	6	case	_	_
+5	ה_	ה	DET	DET	PronType=Art|Definite=Def	6	det	_	_
+6	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+7	תעלה	עלה	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Fut	0	root	_	_
+8-9	כ586	_	_	_	_	_	_	_	_
+8	כ	כ	ADP	ADP	_	10	case	_	_
+9	586	586	NUM	NUM	_	10	nummod	_	_
+10	דולר	דולר	NOUN	NOUN	Gender=Masc|Number=Sing	7	obj	_	_
+11	(	(	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No
+12	כולל	כלל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	13	case	_	_
+13	חומרים	חומר	NOUN	NOUN	Gender=Masc|Number=Plur	10	appos	_	SpaceAfter=No
+14	)	)	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:129
+# doc_range = 883-1074
+# sent_id = 3145
+# text = הורים הבאים לתקופה ממושכת יוכלו לנוח מהצעירים לשעות ארוכות ולבלות בעשרות אתרי הנופש בסביבה ובבית המלון.
+1	הורים	הורה	NOUN	NOUN	Gender=Masc|Number=Plur	8	nsubj	_	_
+2-3	הבאים	_	_	_	_	_	_	_	_
+2	ה	ה	SCONJ	SCONJ	_	3	mark	_	_
+3	באים	בא	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	1	acl:relcl	_	_
+4-5	לתקופה	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	תקופה	תקופה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+6	ממושכת	ממושך	ADJ	ADJ	Gender=Fem|Number=Sing	5	amod	_	_
+7	יוכלו	יכול	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut|VerbType=Mod	8	aux	_	_
+8	לנוח	נח	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	0	root	_	_
+9-11	מהצעירים	_	_	_	_	_	_	_	_
+9	מ	מ	ADP	ADP	_	11	case	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	צעירים	צעיר	NOUN	NOUN	Gender=Masc|Number=Plur	8	obl	_	_
+12-13	לשעות	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	_	13	case	_	_
+13	שעות	שעה	NOUN	NOUN	Gender=Fem|Number=Plur	8	obl	_	_
+14	ארוכות	ארוך	ADJ	ADJ	Gender=Fem|Number=Plur	13	amod	_	_
+15-16	ולבלות	_	_	_	_	_	_	_	_
+15	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+16	לבלות	לבלות	VERB	VERB	VerbForm=Inf	8	conj	_	_
+17-18	בעשרות	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	_	19	case	_	_
+18	עשרות	עשרות	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	19	nummod	_	_
+19	אתרי	אתר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	16	obl	_	_
+20-21	הנופש	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	נופש	נופש	NOUN	NOUN	Gender=Masc|Number=Sing	19	compound:smixut	_	_
+22-24	בסביבה	_	_	_	_	_	_	_	_
+22	ב	ב	ADP	ADP	_	24	case	_	_
+23	ה_	ה	DET	DET	PronType=Art|Definite=Def	24	det	_	_
+24	סביבה	סביבה	NOUN	NOUN	Gender=Fem|Number=Sing	19	nmod	_	_
+25-27	ובבית	_	_	_	_	_	_	_	_
+25	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
+26	ב	ב	ADP	ADP	_	27	case	_	_
+27	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	24	conj	_	_
+28-29	המלון	_	_	_	_	_	_	_	SpaceAfter=No
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	מלון	מלון	NOUN	NOUN	Gender=Masc|Number=Sing	27	compound:smixut	_	_
+30	.	.	PUNCT	PUNCT	_	8	punct	_	_
+

@@ -1,0 +1,398 @@
+# doc_id = htb:165_2
+# doc_range = 2674-2743
+# sent_id = 4314
+# text = המאבק בין רוסיה לטטרים הוא עתיק יומין.
+1-2	המאבק	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מאבק	מאבק	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	בין	בין	ADP	ADP	_	4	case	_	_
+4	רוסיה	רוסיה	PROPN	PROPN	_	2	nmod	_	_
+5-7	לטטרים	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	7	case	_	_
+6	ה_	ה	DET	DET	PronType=Art|Definite=Def	7	det	_	_
+7	טטרים	טטארי	ADJ	ADJ	Gender=Masc|Number=Plur	4	conj	_	_
+8	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	9	cop	_	_
+9	עתיק	עתיק	ADJ	ADJ	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	_
+10	יומין	יום	NOUN	NOUN	Gender=Masc|Number=Plur	9	compound:smixut	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:165_2
+# doc_range = 2745-2940
+# sent_id = 4315
+# text = ממלכת החאן של קזאן הוקמה במאה ה41 בעקבות הגל העצום מערבה וכיבושיהם של גינגיס חאן והצבא המונגולי-הטטרי שלו.
+1	ממלכת	ממלכה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+2-3	החאן	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	חאן	ח'אן	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4	של	של	ADP	ADP	Case=Gen	5	case	_	_
+5	קזאן	קזאן	PROPN	PROPN	_	1	nmod:poss	_	_
+6	הוקמה	הוקם	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+7-9	במאה	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	9	case	_	_
+8	ה_	ה	DET	DET	PronType=Art|Definite=Def	9	det	_	_
+9	מאה	מאה	NUM	NUM	Gender=Fem|Number=Plur	6	obl	_	_
+10-11	ה41	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	41	41	NUM	NUM	_	9	amod	_	_
+12	בעקבות	בעקבות	ADP	ADP	_	14	case	_	_
+13-14	הגל	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	גל	גל	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+15-16	העצום	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	עצום	עצום	ADJ	ADJ	Gender=Masc|Number=Sing	14	amod	_	_
+17	מערבה	מערבה	ADV	ADV	_	14	advmod	_	_
+18-20	וכיבושיהם	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+19	כיבושי	כיבוש	NOUN	NOUN	Gender=Masc|Number=Plur	14	conj	_	_
+20	הם	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+21	של	של	ADP	ADP	Case=Gen	22	case	_	_
+22	גינגיס	גינגיס	PROPN	PROPN	_	19	nmod:poss	_	_
+23	חאן	ח'אן	NOUN	NOUN	Gender=Masc|Number=Sing	22	flat:name	_	_
+24-26	והצבא	_	_	_	_	_	_	_	_
+24	ו	ו	CCONJ	CCONJ	_	26	cc	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	צבא	צבא	NOUN	NOUN	Gender=Masc|Number=Sing	22	conj	_	_
+27-28	המונגולי	_	_	_	_	_	_	_	SpaceAfter=No
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	מונגולי	מונגולי	ADJ	ADJ	Gender=Masc|Number=Sing	26	amod	_	_
+29	-	-	PUNCT	PUNCT	_	31	punct	_	SpaceAfter=No
+30-31	הטטרי	_	_	_	_	_	_	_	_
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	טטרי	טטרי	ADJ	ADJ	Gender=Masc|Number=Sing	28	amod	_	_
+32-33	שלו	_	_	_	_	_	_	_	SpaceAfter=No
+32	של	של	ADP	ADP	Case=Gen	33	case	_	_
+33	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nmod	_	_
+34	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:165_2
+# doc_range = 2942-3181
+# sent_id = 4316
+# text = בתקופת הרנסאנס באירופה כונה כל האזור, ממזרח לפולין עד לאוקיינוס השקט, "טטרי", ועל פי אמרה נושנה, "בעורקי כל רוסי זורם גם דם טטרי".
+1-2	בתקופת	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	תקופת	תקופה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	obl	_	_
+3-4	הרנסאנס	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	רנסאנס	רנסאנס	NOUN	NOUN	_	2	compound:smixut	_	_
+5-6	באירופה	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	אירופה	אירופה	PROPN	PROPN	_	2	nmod	_	_
+7	כונה	כונה	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+8	כל	כול	DET	DET	Definite=Cons	10	det	_	_
+9-10	האזור	_	_	_	_	_	_	_	SpaceAfter=No
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	אזור	אזור	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+11	,	,	PUNCT	PUNCT	_	13	punct	_	_
+12-13	ממזרח	_	_	_	_	_	_	_	_
+12	מ	מ	ADP	ADP	_	13	case	_	_
+13	מזרח	מזרח	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod	_	_
+14-15	לפולין	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	פולין	פולין	PROPN	PROPN	_	13	nmod	_	_
+16	עד	עד	ADP	ADP	_	19	case	_	_
+17-19	לאוקיינוס	_	_	_	_	_	_	_	_
+17	ל	ל	ADP	ADP	_	16	fixed	_	_
+18	ה_	ה	DET	DET	PronType=Art|Definite=Def	19	det	_	_
+19	אוקיינוס	אוקיינוס	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod	_	_
+20-21	השקט	_	_	_	_	_	_	_	SpaceAfter=No
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	שקט	שקט	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	_
+22	,	,	PUNCT	PUNCT	_	24	punct	_	_
+23	"	"	PUNCT	PUNCT	_	24	punct	_	SpaceAfter=No
+24	טטרי	טטרי	ADJ	ADJ	Gender=Masc|Number=Sing	7	xcomp	_	HebSource=ConvUncertainLabel|SpaceAfter=No
+25	"	"	PUNCT	PUNCT	_	24	punct	_	SpaceAfter=No
+26	,	,	PUNCT	PUNCT	_	38	punct	_	_
+27-28	ועל	_	_	_	_	_	_	_	_
+27	ו	ו	CCONJ	CCONJ	_	38	cc	_	_
+28	על	על	ADP	ADP	_	30	case	_	_
+29	פי	פה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	28	fixed	_	_
+30	אמרה	אמרה	NOUN	NOUN	Gender=Fem|Number=Sing	38	obl	_	_
+31	נושנה	נושן	ADJ	ADJ	Gender=Fem|Number=Sing	30	amod	_	SpaceAfter=No
+32	,	,	PUNCT	PUNCT	_	30	punct	_	_
+33	"	"	PUNCT	PUNCT	_	38	punct	_	SpaceAfter=No
+34-35	בעורקי	_	_	_	_	_	_	_	_
+34	ב	ב	ADP	ADP	_	35	case	_	_
+35	עורקי	עורק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	38	obl	_	_
+36	כל	כול	DET	DET	Definite=Cons	37	det	_	_
+37	רוסי	רוסי	NOUN	NOUN	Gender=Masc|Number=Sing	35	compound:smixut	_	_
+38	זורם	זרם	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	7	conj	_	_
+39	גם	גם	ADV	ADV	_	40	advmod	_	_
+40	דם	דם	NOUN	NOUN	Gender=Masc|Number=Sing	38	nsubj	_	_
+41	טטרי	טטרי	ADJ	ADJ	Gender=Masc|Number=Sing	40	amod	_	SpaceAfter=No
+42	"	"	PUNCT	PUNCT	_	38	punct	_	SpaceAfter=No
+43	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:165_2
+# doc_range = 3183-3294
+# sent_id = 4317
+# text = מחצית האוכלוסייה בטטרסטן היא רוסית תוצאה של מאות שנות מלחמה.
+1	מחצית	מחצית	DET	DET	Definite=Cons	3	det	_	_
+2-3	האוכלוסייה	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	אוכלוסייה	אוכלוסייה	NOUN	NOUN	Gender=Fem|Number=Sing	7	nsubj	_	_
+4-5	בטטרסטן	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	טטרסטן	טטרסטן	PROPN	PROPN	_	3	nmod	_	_
+6	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	7	cop	_	_
+7	רוסית	רוסי	ADJ	ADJ	Gender=Fem|Number=Sing	0	root	_	_
+8	תוצאה	תוצאה	NOUN	NOUN	Gender=Fem|Number=Sing	7	dep	_	HebSource=ConvUncertainHead
+9	של	של	ADP	ADP	Case=Gen	11	case	_	_
+10	מאות	מאה	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	11	nummod	_	_
+11	שנות	שנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	8	nmod:poss	_	_
+12	מלחמה	מלחמה	NOUN	NOUN	Gender=Fem|Number=Sing	11	compound:smixut	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:165_2
+# doc_range = 3296-3367
+# sent_id = 4318
+# text = ממלכת החאן נכבשה בידי איוואן האיום ב2551.
+1	ממלכת	ממלכה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	nsubj	_	_
+2-3	החאן	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	חאן	ח'אן	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4	נכבשה	נכבש	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+5	בידי	בידי	ADP	ADP	_	6	case	_	_
+6	איוואן	איוואן	PROPN	PROPN	_	4	obl	_	_
+7-8	האיום	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	איום	איום	ADJ	ADJ	Gender=Masc|Number=Sing	6	flat:name	_	_
+9-10	ב2551	_	_	_	_	_	_	_	SpaceAfter=No
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	2551	2551	NUM	NUM	_	4	obl	_	_
+11	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:165_2
+# doc_range = 3369-3493
+# sent_id = 4319
+# text = ב41 באוקטובר השנה ציינו הטטרים יום זה בעצרת המונית של אלפי אדם בקזאן.
+1-3	ב41	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	41	41	NUM	NUM	_	7	obl	_	_
+4-5	באוקטובר	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	אוקטובר	אוקטובר	PROPN	PROPN	_	7	obl	_	_
+6	השנה	השנה	ADV	ADV	_	7	advmod	_	_
+7	ציינו	ציין	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+8-9	הטטרים	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	טטרים	טטארי	ADJ	ADJ	Gender=Masc|Number=Plur	7	nsubj	_	_
+10	יום	יום	NOUN	NOUN	Gender=Masc|Number=Sing	7	obj	_	_
+11	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	det	_	_
+12-13	בעצרת	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	עצרת	עצרת	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
+14	המונית	המוני	ADJ	ADJ	Gender=Fem|Number=Sing	13	amod	_	_
+15	של	של	ADP	ADP	Case=Gen	17	case	_	_
+16	אלפי	אלפי	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	17	nummod	_	_
+17	אדם	אדם	NOUN	NOUN	Gender=Masc|Number=Sing	13	nmod	_	_
+18-19	בקזאן	_	_	_	_	_	_	_	SpaceAfter=No
+18	ב	ב	ADP	ADP	_	19	case	_	_
+19	קזאן	בקזאן	PROPN	PROPN	_	13	nmod	_	_
+20	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:165_2
+# doc_range = 3495-3588
+# sent_id = 4320
+# text = מולות קראו פסוקים מהקוראן וצעירים קראו "אללה גדול.
+1	מולות	מולה	NOUN	NOUN	Gender=Fem|Number=Plur	2	nsubj	_	_
+2	קראו	קרא	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	פסוקים	פסוק	NOUN	NOUN	Gender=Masc|Number=Plur	2	obj	_	_
+4-6	מהקוראן	_	_	_	_	_	_	_	_
+4	מ	מ	ADP	ADP	_	6	case	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	קוראן	קוראן	NOUN	NOUN	Gender=Masc|Number=Sing	3	nmod	_	_
+7-8	וצעירים	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+8	צעירים	צעיר	NOUN	NOUN	Gender=Masc|Number=Plur	9	nsubj	_	_
+9	קראו	קרא	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	2	conj	_	_
+10	"	"	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
+11	אללה	אללה	PROPN	PROPN	_	12	nsubj	_	_
+12	גדול	גדול	ADJ	ADJ	Gender=Masc|Number=Sing	9	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:165_2
+# doc_range = 3591-3745
+# sent_id = 4321
+# text = "העצרות שלנו מעולם לא לבשו אופי דתי", אמר האימאם גליולין גאבדולה, "העיר היתה המומה".
+1	"	"	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+2-3	העצרות	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	עצרות	עצרת	NOUN	NOUN	Gender=Fem|Number=Plur	8	nsubj	_	_
+4-5	שלנו	_	_	_	_	_	_	_	_
+4	של	של	ADP	ADP	Case=Gen	5	case	_	_
+5	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+6	מעולם	מעולם	ADV	ADV	_	7	advmod	_	_
+7	לא	לא	ADV	ADV	Polarity=Neg	8	advmod	_	_
+8	לבשו	לבש	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+9	אופי	אופי	NOUN	NOUN	Gender=Masc|Number=Sing	8	obj	_	_
+10	דתי	דתי	ADJ	ADJ	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	"	"	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	13	punct	_	_
+13	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	8	parataxis	_	_
+14-15	האימאם	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	אימאם	אימאם	NOUN	NOUN	Gender=Masc|Number=Sing	13	nsubj	_	_
+16	גליולין	גליולין	PROPN	PROPN	_	15	flat:name	_	_
+17	גאבדולה	גאבדולה	PROPN	PROPN	_	15	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	13	punct	_	_
+19	"	"	PUNCT	PUNCT	_	23	punct	_	SpaceAfter=No
+20-21	העיר	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	עיר	עיר	NOUN	NOUN	Gender=Fem|Number=Sing	23	nsubj	_	_
+22	היתה	היה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	23	cop	_	_
+23	המומה	המום	ADJ	ADJ	Gender=Fem|Number=Sing	8	parataxis	_	SpaceAfter=No
+24	"	"	PUNCT	PUNCT	_	23	punct	_	SpaceAfter=No
+25	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:165_2
+# doc_range = 3748-3936
+# sent_id = 4322
+# text = הכיפה דמוית הבצל של הכנסייה הרוסית-האורתודוקסית חלשה זה כבר על בניין הקרמלין הקטן, המוקף חומה, בקזאן.
+1-2	הכיפה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	כיפה	כיפה	NOUN	NOUN	Gender=Fem|Number=Sing	14	nsubj	_	_
+3	דמוית	דמוי	ADJ	ADJ	Definite=Cons|Gender=Fem|Number=Sing	2	amod	_	_
+4-5	הבצל	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	בצל	בצל	NOUN	NOUN	Gender=Masc|Number=Sing	3	compound:smixut	_	_
+6	של	של	ADP	ADP	Case=Gen	8	case	_	_
+7-8	הכנסייה	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	כנסייה	כנסייה	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	_
+9-10	הרוסית	_	_	_	_	_	_	_	SpaceAfter=No
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	רוסית	רוסי	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	_
+11	-	-	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No
+12-13	האורתודוקסית	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	אורתודוקסית	אורתודוקסי	ADJ	ADJ	Gender=Fem|Number=Sing	10	amod	_	_
+14	חלשה	חלש	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+15	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	14	dep	_	_
+16	כבר	כבר	ADV	ADV	_	15	fixed	_	_
+17	על	על	ADP	ADP	_	18	case	_	_
+18	בניין	בניין	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	14	obl	_	_
+19-20	הקרמלין	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	18	compound:smixut	_	_
+20	קרמלין	הקרמלין	PROPN	PROPN	_	19	flat:name	_	_
+21-22	הקטן	_	_	_	_	_	_	_	SpaceAfter=No
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	קטן	קטן	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	_
+23	,	,	PUNCT	PUNCT	_	25	punct	_	_
+24-25	המוקף	_	_	_	_	_	_	_	_
+24	ה	ה	SCONJ	SCONJ	_	25	mark	_	_
+25	מוקף	הוקף	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	18	acl:relcl	_	_
+26	חומה	חומה	NOUN	NOUN	Gender=Fem|Number=Sing	25	obj	_	SpaceAfter=No
+27	,	,	PUNCT	PUNCT	_	29	punct	_	_
+28-29	בקזאן	_	_	_	_	_	_	_	SpaceAfter=No
+28	ב	ב	ADP	ADP	_	29	case	_	_
+29	קזאן	בקזאן	PROPN	PROPN	_	25	obl	_	_
+30	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# doc_id = htb:165_2
+# doc_range = 3938-4056
+# sent_id = 4323
+# text = אבל לאחר הכרזת הריבונות נתלו סהר וכוכב על ראש מגדל סמוך מהמאה ה41.
+1	אבל	אבל	CCONJ	CCONJ	_	6	cc	_	_
+2	לאחר	לאחר	ADP	ADP	_	3	case	_	_
+3	הכרזת	הכרזה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	obl	_	_
+4-5	הריבונות	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	ריבונות	ריבונות	NOUN	NOUN	Gender=Fem|Number=Sing	3	compound:smixut	_	_
+6	נתלו	נתלה	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+7	סהר	סהר	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
+8-9	וכוכב	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+9	כוכב	כוכב	NOUN	NOUN	Gender=Masc|Number=Sing	7	conj	_	_
+10	על	על	ADP	ADP	_	11	case	_	_
+11	ראש	ראש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	obl	_	_
+12	מגדל	מגדל	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound:smixut	_	_
+13	סמוך	סמוך	ADJ	ADJ	Gender=Masc|Number=Sing	12	amod	_	_
+14-16	מהמאה	_	_	_	_	_	_	_	_
+14	מ	מ	ADP	ADP	_	16	case	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	מאה	מאה	NUM	NUM	Gender=Fem|Number=Plur	12	nmod	_	_
+17-18	ה41	_	_	_	_	_	_	_	SpaceAfter=No
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	41	41	NUM	NUM	_	16	amod	_	_
+19	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:165_2
+# doc_range = 4059-4215
+# sent_id = 4324
+# text = "הכנסייה שלהם אולי גדולה יותר, אבל הסמל שלנו גבוה יותר", אומר המולה גוסמן מינלבאייאב.
+1	"	"	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
+2-3	הכנסייה	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	כנסייה	כנסייה	NOUN	NOUN	Gender=Fem|Number=Sing	7	nsubj	_	_
+4-5	שלהם	_	_	_	_	_	_	_	_
+4	של	של	ADP	ADP	Case=Gen	5	case	_	_
+5	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+6	אולי	אולי	ADV	ADV	_	7	advmod	_	_
+7	גדולה	גדול	ADJ	ADJ	Gender=Fem|Number=Sing	19	xcomp	_	_
+8	יותר	יותר	ADV	ADV	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	15	punct	_	_
+10	אבל	אבל	CCONJ	CCONJ	_	15	cc	_	_
+11-12	הסמל	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	סמל	סמל	NOUN	NOUN	Gender=Masc|Number=Sing	15	nsubj	_	_
+13-14	שלנו	_	_	_	_	_	_	_	_
+13	של	של	ADP	ADP	Case=Gen	14	case	_	_
+14	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+15	גבוה	גבוה	ADJ	ADJ	Gender=Masc|Number=Sing	7	conj	_	_
+16	יותר	יותר	ADV	ADV	_	15	advmod	_	SpaceAfter=No
+17	"	"	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	7	punct	_	_
+19	אומר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+20-21	המולה	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	מולה	מולה	NOUN	NOUN	Gender=Fem|Number=Sing	19	nsubj	_	_
+22	גוסמן	גוסמן	PROPN	PROPN	_	21	flat:name	_	_
+23	מינלבאייאב	מינלבאייאב	PROPN	PROPN	_	21	flat:name	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	19	punct	_	_
+
+# doc_id = htb:165_2
+# doc_range = 4217-4355
+# sent_id = 4325
+# text = צמרת המפלגה המקומית קיוותה אולי למתן את הלהט הלאומי על-ידי הכרזת הריבונות.
+1	צמרת	צמרת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	nsubj	_	_
+2-3	המפלגה	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	מפלגה	מפלגה	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+4-5	המקומית	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	מקומית	מקומי	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	_
+6	קיוותה	קיווה	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+7	אולי	אולי	ADV	ADV	_	6	advmod	_	_
+8	למתן	מיתן	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+9	את	את	ADP	ADP	Case=Acc	11	case	_	_
+10-11	הלהט	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	להט	להט	NOUN	NOUN	Gender=Masc|Number=Sing	8	obj	_	_
+12-13	הלאומי	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	לאומי	לאומי	ADJ	ADJ	Gender=Masc|Number=Sing	11	amod	_	_
+14	על	על	ADP	ADP	_	17	case	_	SpaceAfter=No
+15	-	-	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
+16	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	14	fixed	_	_
+17	הכרזת	הכרזה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	8	obl	_	_
+18-19	הריבונות	_	_	_	_	_	_	_	SpaceAfter=No
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	ריבונות	ריבונות	NOUN	NOUN	Gender=Fem|Number=Sing	17	compound:smixut	_	_
+20	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:165_2
+# doc_range = 4357-4407
+# sent_id = 4326
+# text = אך נראה שההשפעה היתה הפוכה.
+1	אך	אך	CCONJ	CCONJ	_	2	cc	_	_
+2	נראה	נראה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	0	root	_	_
+3-5	שההשפעה	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	7	mark	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	השפעה	השפעה	NOUN	NOUN	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	היתה	היה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	7	cop	_	_
+7	הפוכה	הפוך	ADJ	ADJ	Gender=Fem|Number=Sing	2	ccomp	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	2	punct	_	_
+

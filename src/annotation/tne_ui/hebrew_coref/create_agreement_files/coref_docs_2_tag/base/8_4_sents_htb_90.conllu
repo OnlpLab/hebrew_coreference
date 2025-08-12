@@ -1,0 +1,141 @@
+# doc_id = htb:90
+# doc_range = 1-126
+# sent_id = 2315
+# text = הקהילה היהודית של יוצאי קובה בארה"ב מארגנת מסע הזדהות עם מדינת ישראל.
+1-2	הקהילה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	קהילה	קהילה	NOUN	NOUN	Gender=Fem|Number=Sing	10	nsubj	_	_
+3-4	היהודית	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	יהודית	יהודי	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+5	של	של	ADP	ADP	Case=Gen	6	case	_	_
+6	יוצאי	יוצא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	2	nmod	_	_
+7	קובה	קובה	PROPN	PROPN	_	6	compound:smixut	_	_
+8-9	בארה"ב	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	ארה"ב	ארה"ב	PROPN	PROPN	Abbr=Yes	6	nmod	_	_
+10	מארגנת	ארגן	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+11	מסע	מסע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	obj	_	_
+12	הזדהות	הזדהות	NOUN	NOUN	Gender=Fem|Number=Sing	11	compound:smixut	_	_
+13	עם	עם	ADP	ADP	_	14	case	_	_
+14	מדינת	מדינה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	nmod	_	_
+15	ישראל	ישראל	PROPN	PROPN	_	14	compound:smixut	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:90
+# doc_range = 129-268
+# sent_id = 2316
+# text = מדיווח שהגיע אתמול למשרד התיירות בירושלים, ישתתפו במשלחת כמאה מראשי הקהילה.
+1-2	מדיווח	_	_	_	_	_	_	_	_
+1	מ	מ	ADP	ADP	_	2	case	_	_
+2	דיווח	דיווח	NOUN	NOUN	Gender=Masc|Number=Sing	13	obl	_	_
+3-4	שהגיע	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
+4	הגיע	הגיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	acl:relcl	_	_
+5	אתמול	אתמול	ADV	ADV	_	4	advmod	_	_
+6-7	למשרד	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	obl	_	_
+8-9	התיירות	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	תיירות	תיירות	NOUN	NOUN	Gender=Fem|Number=Sing	7	compound:smixut	_	_
+10-11	בירושלים	_	_	_	_	_	_	_	SpaceAfter=No
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	ירושלים	ירושלים	PROPN	PROPN	_	7	nmod	_	_
+12	,	,	PUNCT	PUNCT	_	2	punct	_	_
+13	ישתתפו	השתתף	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Fut	0	root	_	_
+14-16	במשלחת	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	16	case	_	_
+15	ה_	ה	DET	DET	PronType=Art|Definite=Def	16	det	_	_
+16	משלחת	משלחת	NOUN	NOUN	Gender=Fem|Number=Sing	13	obl	_	_
+17-18	כמאה	_	_	_	_	_	_	_	_
+17	כ	כ	ADP	ADP	_	20	case	_	_
+18	מאה	מאה	NUM	NUM	Gender=Fem|Number=Plur	20	nummod	_	_
+19-20	מראשי	_	_	_	_	_	_	_	_
+19	מ	מ	ADP	ADP	_	20	case	_	_
+20	ראשי	ראש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	13	nsubj	_	_
+21-22	הקהילה	_	_	_	_	_	_	_	SpaceAfter=No
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	קהילה	קהילה	NOUN	NOUN	Gender=Fem|Number=Sing	20	compound:smixut	_	_
+23	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# doc_id = htb:90
+# doc_range = 270-467
+# sent_id = 2317
+# text = הביקור מתוכנן להתקיים בחודש מארס הקרוב ויתלוו אליו אנשי תקשורת דוברי ספרדית ובהם צוותי טלוויזיה ועיתונאים.
+1-2	הביקור	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	ביקור	ביקור	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	מתוכנן	תוכנן	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+4	להתקיים	התקיים	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	3	xcomp	_	_
+5-6	בחודש	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	חודש	חודש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	obl	_	_
+7	מארס	מרס	PROPN	PROPN	_	6	compound:smixut	_	_
+8-9	הקרוב	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	קרוב	קרוב	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	_
+10-11	ויתלוו	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+11	יתלוו	התלווה	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Fut	3	conj	_	_
+12-13	אליו	_	_	_	_	_	_	_	_
+12	אל	אל	ADP	ADP	_	13	case	_	_
+13	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+14	אנשי	איש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	11	nsubj	_	_
+15	תקשורת	תקשורת	NOUN	NOUN	Gender=Fem|Number=Sing	14	compound:smixut	_	_
+16	דוברי	דובר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	14	acl	_	_
+17	ספרדית	ספרדית	PROPN	PROPN	_	16	compound:smixut	_	_
+18-20	ובהם	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	_	14	cc	_	HebSource=ConvUncertainHead
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	21	dep	_	HebSource=ConvUncertainHead
+21	צוותי	צוות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	14	nmod	_	_
+22	טלוויזיה	טלוויזיה	NOUN	NOUN	Gender=Fem|Number=Sing	21	compound:smixut	_	_
+23-24	ועיתונאים	_	_	_	_	_	_	_	SpaceAfter=No
+23	ו	ו	CCONJ	CCONJ	_	24	cc	_	_
+24	עיתונאים	עיתונאי	NOUN	NOUN	Gender=Masc|Number=Plur	22	conj	_	_
+25	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:90
+# doc_range = 469-695
+# sent_id = 2318
+# text = בעת הביקור מבקשים המשתתפים לקיים צעדת הזדהות עם מדינת ישראל ברחובות ירושלים ופגישות עם נשיא המדינה, שר התיירות וחברי כנסת.
+1-2	בעת	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	עת	עת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	obl	_	_
+3-4	הביקור	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	ביקור	ביקור	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+5	מבקשים	ביקש	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+6-7	המשתתפים	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	משתתפים	משתתף	NOUN	NOUN	Gender=Masc|Number=Plur	5	nsubj	_	_
+8	לקיים	קיים	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+9	צעדת	צעדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	8	obj	_	_
+10	הזדהות	הזדהות	NOUN	NOUN	Gender=Fem|Number=Sing	9	compound:smixut	_	_
+11	עם	עם	ADP	ADP	_	12	case	_	_
+12	מדינת	מדינה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	10	nmod	_	_
+13	ישראל	ישראל	PROPN	PROPN	_	12	compound:smixut	_	_
+14-15	ברחובות	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	רחובות	רחוב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	9	nmod	_	_
+16	ירושלים	ירושלים	PROPN	PROPN	_	15	compound:smixut	_	_
+17-18	ופגישות	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+18	פגישות	פגישה	NOUN	NOUN	Gender=Fem|Number=Plur	9	conj	_	_
+19	עם	עם	ADP	ADP	_	20	case	_	_
+20	נשיא	נשיא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	18	nmod	_	_
+21-22	המדינה	_	_	_	_	_	_	_	SpaceAfter=No
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	מדינה	מדינה	NOUN	NOUN	Gender=Fem|Number=Sing	20	compound:smixut	_	_
+23	,	,	PUNCT	PUNCT	_	24	punct	_	_
+24	שר	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	20	conj	_	_
+25-26	התיירות	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	תיירות	תיירות	NOUN	NOUN	Gender=Fem|Number=Sing	24	compound:smixut	_	_
+27-28	וחברי	_	_	_	_	_	_	_	_
+27	ו	ו	CCONJ	CCONJ	_	28	cc	_	_
+28	חברי	חבר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	20	conj	_	_
+29	כנסת	כנסת	PROPN	PROPN	_	28	compound:smixut	_	SpaceAfter=No
+30	.	.	PUNCT	PUNCT	_	5	punct	_	_
+

@@ -1,0 +1,21 @@
+# Minimal requirements for local testing on macOS M3
+# Core dependencies for lingmess-coref inference
+
+# PyTorch with MPS support for M3 Mac
+torch>=2.0.0
+
+# Transformers for model loading and tokenization
+transformers>=4.30.0
+
+# Core data processing
+numpy>=1.21.0
+pandas>=1.3.0
+
+# JSON handling
+jsonlines>=3.0.0
+
+# Optional: for better progress bars
+tqdm>=4.64.0
+
+# Optional: for better logging
+colorama>=0.4.6 

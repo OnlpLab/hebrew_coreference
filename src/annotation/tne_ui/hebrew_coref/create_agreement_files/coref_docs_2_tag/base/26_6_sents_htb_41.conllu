@@ -1,0 +1,170 @@
+# doc_id = htb:41
+# doc_range = 1-161
+# sent_id = 1610
+# text = המשלחת הישראלית לאליפות העולם בהרמת משקולות יצאה אתמול לבודאפשט, שם יחלו מחר התחרויות.
+1-2	המשלחת	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	משלחת	משלחת	NOUN	NOUN	Gender=Fem|Number=Sing	12	nsubj	_	_
+3-4	הישראלית	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	ישראלית	ישראלי	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+5-6	לאליפות	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	אליפות	אליפות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	nmod	_	_
+7-8	העולם	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	עולם	עולם	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+9-10	בהרמת	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	הרמת	הרמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	nmod	_	_
+11	משקולות	משקולת	NOUN	NOUN	Gender=Fem|Number=Plur	10	compound:smixut	_	_
+12	יצאה	יצא	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Past	0	root	_	_
+13	אתמול	אתמול	ADV	ADV	_	12	advmod	_	_
+14-15	לבודאפשט	_	_	_	_	_	_	_	SpaceAfter=No
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	בודאפשט	בודפשט	PROPN	PROPN	_	12	obl	_	_
+16	,	,	PUNCT	PUNCT	_	18	punct	_	_
+17	שם	שם	ADV	ADV	_	18	advmod	_	_
+18	יחלו	החל	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	15	acl:relcl	_	_
+19	מחר	מחר	ADV	ADV	_	18	advmod	_	_
+20-21	התחרויות	_	_	_	_	_	_	_	SpaceAfter=No
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	תחרויות	תחרות	NOUN	NOUN	Gender=Fem|Number=Plur	18	nsubj	_	_
+22	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# doc_id = htb:41
+# doc_range = 163-215
+# sent_id = 1611
+# text = המשלחת כוללת שלושה משקולאים.
+1-2	המשלחת	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	משלחת	משלחת	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	כוללת	כלל	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4	שלושה	שלוש	NUM	NUM	Gender=Masc|Number=Plur	5	nummod	_	_
+5	משקולאים	משקולאים	NOUN	NOUN	_	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:41
+# doc_range = 217-350
+# sent_id = 1612
+# text = שניים מהם יצאו אתמול, ראובן חדינטוב ופליקס תומרין, שיתחרו במשקל עד 06 ק"ג.
+1	שניים	שתיים	NUM	NUM	Gender=Masc|Number=Plur	3	nummod	_	_
+2-3	מהם	_	_	_	_	_	_	_	_
+2	מ	מן	ADP	ADP	_	3	case	_	_
+3	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+4	יצאו	יצא	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	0	root	_	_
+5	אתמול	אתמול	ADV	ADV	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	7	punct	_	_
+7	ראובן	ראובן	PROPN	PROPN	_	4	dep	_	_
+8	חדינטוב	חדינטוב	PROPN	PROPN	_	7	flat:name	_	_
+9-10	ופליקס	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+10	פליקס	פליקס	PROPN	PROPN	_	7	conj	_	_
+11	תומרין	תומרין	PROPN	PROPN	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	14	punct	_	_
+13-14	שיתחרו	_	_	_	_	_	_	_	_
+13	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
+14	יתחרו	התחרה	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Fut	7	acl:relcl	_	_
+15-16	במשקל	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	משקל	משקל	NOUN	NOUN	Gender=Masc|Number=Sing	14	obl	_	_
+17	עד	עד	ADP	ADP	_	19	case	_	_
+18	06	06	NUM	NUM	_	19	nummod	_	_
+19	ק"ג	קילוגרם	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:41
+# doc_range = 352-498
+# sent_id = 1613
+# text = אליהם יצטרף בתחילת השבוע הבא איגור דנדיק, הנחשב בין הטובים בעולם במשקל עד 001 ק"ג.
+1-2	אליהם	_	_	_	_	_	_	_	_
+1	אלי	אל	ADP	ADP	_	2	case	_	_
+2	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	obl	_	_
+3	יצטרף	הצטרף	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Fut	0	root	_	_
+4-5	בתחילת	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	תחילת	תחילה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	obl	_	_
+6-7	השבוע	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	5	compound:smixut	_	_
+8-9	הבא	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	בא	בא	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	_
+10	איגור	איגור	PROPN	PROPN	_	3	nsubj	_	_
+11	דנדיק	דנדיק	PROPN	PROPN	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	14	punct	_	_
+13-14	הנחשב	_	_	_	_	_	_	_	_
+13	ה	ה	SCONJ	SCONJ	_	14	mark	_	_
+14	נחשב	נחשב	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	10	acl:relcl	_	_
+15	בין	בין	ADP	ADP	_	17	case	_	_
+16-17	הטובים	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	טובים	טוב	NOUN	NOUN	Gender=Masc|Number=Plur	14	obl	_	_
+18-20	בעולם	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	20	case	_	_
+19	ה_	ה	DET	DET	PronType=Art|Definite=Def	20	det	_	_
+20	עולם	עולם	NOUN	NOUN	Gender=Masc|Number=Sing	17	nmod	_	_
+21-22	במשקל	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	משקל	משקל	NOUN	NOUN	Gender=Masc|Number=Sing	14	obl	_	_
+23	עד	עד	ADP	ADP	_	25	case	_	_
+24	001	001	NUM	NUM	_	25	nummod	_	_
+25	ק"ג	קילוגרם	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:41
+# doc_range = 501-545
+# sent_id = 1614
+# text = המאמן הוא בוריס קודשביץ.
+1-2	המאמן	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מאמן	מאמן	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	4	cop	_	_
+4	בוריס	בוריס	PROPN	PROPN	_	0	root	_	_
+5	קודשביץ	קודשביץ	PROPN	PROPN	_	4	flat:name	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:41
+# doc_range = 547-763
+# sent_id = 1615
+# text = זו הפעם הראשונה שבאליפות זו תהיה בדיקת סמים רטרואקטיווית, לחצי שנה האחרונה, כך שסביר כי ההישגים יהיו הפעם פחות טובים.
+1	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	_
+2-3	הפעם	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	פעם	פעם	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+4-5	הראשונה	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	ראשונה	ראשונה	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	_
+6-8	שבאליפות	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	_	10	mark	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	אליפות	אליפות	NOUN	NOUN	Gender=Fem|Number=Sing	10	obl	_	_
+9	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	8	det	_	_
+10	תהיה	היה	VERB	VERB	Gender=Fem|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	3	acl:relcl	_	_
+11	בדיקת	בדיקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	10	nsubj	_	_
+12	סמים	סם	NOUN	NOUN	Gender=Masc|Number=Plur	11	compound:smixut	_	_
+13	רטרואקטיווית	רטרואקטיבי	ADJ	ADJ	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	17	punct	_	_
+15-17	לחצי	_	_	_	_	_	_	_	_
+15	ל	ל	ADP	ADP	_	17	case	_	_
+16	ה_	ה	DET	DET	PronType=Art|Definite=Def	17	det	_	_
+17	חצי	חצי	NUM	NUM	_	11	nmod	_	_
+18	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	17	compound:smixut	_	_
+19-20	האחרונה	_	_	_	_	_	_	_	SpaceAfter=No
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	אחרונה	אחרון	ADJ	ADJ	Gender=Fem|Number=Sing	18	amod	_	_
+21	,	,	PUNCT	PUNCT	_	22	punct	_	_
+22	כך	כך	ADV	ADV	_	3	advmod	_	_
+23-24	שסביר	_	_	_	_	_	_	_	_
+23	ש	ש	SCONJ	SCONJ	_	24	mark	_	_
+24	סביר	סביר	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbType=Mod	22	advcl	_	_
+25	כי	כי	SCONJ	SCONJ	_	31	mark	_	_
+26-27	ההישגים	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	הישגים	הישג	NOUN	NOUN	Gender=Masc|Number=Plur	31	nsubj	_	_
+28	יהיו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	31	cop	_	_
+29	הפעם	הפעם	ADV	ADV	_	31	advmod	_	_
+30	פחות	פחות	ADV	ADV	_	31	advmod	_	_
+31	טובים	טוב	ADJ	ADJ	Gender=Masc|Number=Plur	24	csubj	_	SpaceAfter=No
+32	.	.	PUNCT	PUNCT	_	3	punct	_	_
+

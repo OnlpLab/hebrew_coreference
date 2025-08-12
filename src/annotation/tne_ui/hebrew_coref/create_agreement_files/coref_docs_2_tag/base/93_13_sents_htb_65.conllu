@@ -1,0 +1,470 @@
+# doc_id = htb:65
+# doc_range = 1-245
+# sent_id = 1981
+# text = משרד רואי החשבון מרון סובל ושות נבחר בימים אלה לרואה החשבון של התעשייה הצבאית, לאחר שהפכה בשבוע שעבר מיחידת סמך ממשלתית לחברה עצמאית.
+1	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	nsubj	_	_
+2	רואי	רואה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	1	compound:smixut	_	_
+3-4	החשבון	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	חשבון	חשבון	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+5	מרון	מרון	PROPN	PROPN	_	1	flat:name	_	_
+6	סובל	סובל	PROPN	PROPN	_	1	flat:name	_	_
+7-8	ושות	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	5	flat:name	_	_
+8	שות	שת	NOUN	NOUN	Gender=Masc|Number=Plur	5	flat:name	_	_
+9	נבחר	נבחר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+10-11	בימים	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	ימים	יום	NOUN	NOUN	Gender=Masc|Number=Plur	9	obl	_	_
+12	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	11	det	_	_
+13-14	לרואה	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	רואה	רואה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	obl	_	_
+15-16	החשבון	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	חשבון	חשבון	NOUN	NOUN	Gender=Masc|Number=Sing	14	compound:smixut	_	_
+17	של	של	ADP	ADP	Case=Gen	19	case	_	_
+18-19	התעשייה	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	תעשייה	תעשייה	NOUN	NOUN	Gender=Fem|Number=Sing	14	nmod:poss	_	_
+20-21	הצבאית	_	_	_	_	_	_	_	SpaceAfter=No
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	צבאית	צבאי	ADJ	ADJ	Gender=Fem|Number=Sing	19	amod	_	_
+22	,	,	PUNCT	PUNCT	_	25	punct	_	_
+23	לאחר	לאחר	ADP	ADP	_	25	case	_	_
+24-25	שהפכה	_	_	_	_	_	_	_	_
+24	ש	ש	SCONJ	SCONJ	_	25	mark	_	_
+25	הפכה	הפך	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Past	9	obl	_	_
+26-28	בשבוע	_	_	_	_	_	_	_	_
+26	ב	ב	ADP	ADP	_	28	case	_	_
+27	ה_	ה	DET	DET	PronType=Art|Definite=Def	28	det	_	_
+28	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	25	obl	_	_
+29-30	שעבר	_	_	_	_	_	_	_	_
+29	ש	ש	SCONJ	SCONJ	_	30	mark	_	_
+30	עבר	עבר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	28	acl:relcl	_	_
+31-32	מיחידת	_	_	_	_	_	_	_	_
+31	מ	מ	ADP	ADP	_	32	case	_	_
+32	יחידת	יחידה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	25	obl	_	_
+33	סמך	סמך	NOUN	NOUN	_	32	compound:smixut	_	_
+34	ממשלתית	ממשלתי	ADJ	ADJ	Gender=Fem|Number=Sing	32	amod	_	_
+35-36	לחברה	_	_	_	_	_	_	_	_
+35	ל	ל	ADP	ADP	_	36	case	_	_
+36	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	25	obl	_	_
+37	עצמאית	עצמאי	ADJ	ADJ	Gender=Fem|Number=Sing	36	amod	_	SpaceAfter=No
+38	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:65
+# doc_range = 247-494
+# sent_id = 1982
+# text = על תיק הביקורת החשבונאית של התעשייה הצבאית התמודדו כמה משרדי רואי-חשבון גדולים, ובראשם סומך חייקין, אלמגור, ברייטמן ושות ומרון סובל.
+1	על	על	ADP	ADP	_	2	case	_	_
+2	תיק	תיק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	obl	_	_
+3-4	הביקורת	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	ביקורת	ביקורת	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound:smixut	_	_
+5-6	החשבונאית	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	חשבונאית	חשבונאי	ADJ	ADJ	Gender=Fem|Number=Sing	4	amod	_	_
+7	של	של	ADP	ADP	Case=Gen	9	case	_	_
+8-9	התעשייה	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	תעשייה	תעשייה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nmod	_	_
+10-11	הצבאית	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	צבאית	צבאי	ADJ	ADJ	Gender=Fem|Number=Sing	9	amod	_	_
+12	התמודדו	התמודד	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	0	root	_	_
+13	כמה	כמה	DET	DET	Definite=Cons	14	det	_	_
+14	משרדי	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	12	nsubj	_	_
+15	רואי	רואה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+16	-	-	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
+17	חשבון	חשבון	NOUN	NOUN	Gender=Masc|Number=Sing	14	compound:smixut	_	_
+18	גדולים	גדול	ADJ	ADJ	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	22	punct	_	_
+20-24	ובראשם	_	_	_	_	_	_	_	_
+20	ו	ו	CCONJ	CCONJ	_	22	cc	_	_
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	ראש	ראש	NOUN	NOUN	Gender=Masc|Number=Sing	12	conj	_	_
+23	_של_	של	ADP	ADP	Case=Gen	24	case:gen	_	_
+24	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+25	סומך	סומך	NOUN	NOUN	Gender=Masc|Number=Sing	22	nsubj	_	_
+26	חייקין	חייקין	PROPN	PROPN	_	25	flat:name	_	SpaceAfter=No
+27	,	,	PUNCT	PUNCT	_	28	punct	_	_
+28	אלמגור	אלמגור	PROPN	PROPN	_	25	conj	_	SpaceAfter=No
+29	,	,	PUNCT	PUNCT	_	30	punct	_	_
+30	ברייטמן	ברייטמן	PROPN	PROPN	_	25	conj	_	_
+31-32	ושות	_	_	_	_	_	_	_	_
+31	ו	ו	CCONJ	CCONJ	_	30	flat:name	_	_
+32	שות	שת	NOUN	NOUN	Gender=Masc|Number=Plur	30	flat:name	_	_
+33-34	ומרון	_	_	_	_	_	_	_	_
+33	ו	ו	CCONJ	CCONJ	_	34	cc	_	_
+34	מרון	מרון	PROPN	PROPN	_	25	conj	_	_
+35	סובל	סובל	PROPN	PROPN	_	34	flat:name	_	SpaceAfter=No
+36	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# doc_id = htb:65
+# doc_range = 496-769
+# sent_id = 1983
+# text = בהערכות ראשוניות דובר על האפשרות שתיק התעשייה הצבאית ייפול בחלקו של משרד סומך חייקין, שאף ביצע את עבודות ההכנה לקראת הפיכתה של התעשייה הצבאית לחברה.
+1-2	בהערכות	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	הערכות	הערכה	NOUN	NOUN	Gender=Fem|Number=Plur	4	obl	_	_
+3	ראשוניות	ראשוני	ADJ	ADJ	Gender=Fem|Number=Plur	2	amod	_	_
+4	דובר	דובר	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+5	על	על	ADP	ADP	_	7	case	_	_
+6-7	האפשרות	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	אפשרות	אפשרות	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+8-9	שתיק	_	_	_	_	_	_	_	_
+8	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
+9	תיק	תיק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	14	nsubj	_	_
+10-11	התעשייה	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	תעשייה	תעשייה	NOUN	NOUN	Gender=Fem|Number=Sing	9	compound:smixut	_	_
+12-13	הצבאית	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	צבאית	צבאי	ADJ	ADJ	Gender=Fem|Number=Sing	11	amod	_	_
+14	ייפול	נפל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	7	acl:relcl	_	_
+15-18	בחלקו	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	חלק	חלק	NOUN	NOUN	Gender=Masc|Number=Sing	14	obl	_	_
+17	_של_	של	ADP	ADP	Case=Gen	18	case:gen	_	_
+18	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+19	של	של	ADP	ADP	Case=Gen	20	case	_	_
+20	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	16	nmod:poss	_	_
+21	סומך	סומך	NOUN	NOUN	Gender=Masc|Number=Sing	20	compound:smixut	_	_
+22	חייקין	חייקין	PROPN	PROPN	_	21	flat:name	_	SpaceAfter=No
+23	,	,	PUNCT	PUNCT	_	26	punct	_	_
+24-25	שאף	_	_	_	_	_	_	_	_
+24	ש	ש	SCONJ	SCONJ	_	26	mark	_	_
+25	אף	אף	ADV	ADV	_	26	advmod	_	_
+26	ביצע	ביצע	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	16	acl:relcl	_	_
+27	את	את	ADP	ADP	Case=Acc	28	case	_	_
+28	עבודות	עבודה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	26	obj	_	_
+29-30	ההכנה	_	_	_	_	_	_	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	הכנה	הכנה	NOUN	NOUN	Gender=Fem|Number=Sing	28	compound:smixut	_	_
+31	לקראת	לקראת	ADP	ADP	_	32	case	_	_
+32-34	הפיכתה	_	_	_	_	_	_	_	_
+32	הפיכה	הפיכה	NOUN	NOUN	Gender=Fem|Number=Sing	26	obl	_	_
+33	_של_	של	ADP	ADP	Case=Gen	34	case:gen	_	_
+34	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+35	של	של	ADP	ADP	Case=Gen	37	case	_	_
+36-37	התעשייה	_	_	_	_	_	_	_	_
+36	ה	ה	DET	DET	Definite=Def|PronType=Art	37	det	_	_
+37	תעשייה	תעשייה	NOUN	NOUN	Gender=Fem|Number=Sing	32	nmod:poss	_	_
+38-39	הצבאית	_	_	_	_	_	_	_	_
+38	ה	ה	DET	DET	Definite=Def|PronType=Art	39	det	_	_
+39	צבאית	צבאי	ADJ	ADJ	Gender=Fem|Number=Sing	37	amod	_	_
+40-41	לחברה	_	_	_	_	_	_	_	SpaceAfter=No
+40	ל	ל	ADP	ADP	_	41	case	_	_
+41	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	32	nmod	_	_
+42	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:65
+# doc_range = 772-905
+# sent_id = 1984
+# text = נראה כי סומך לא נבחר בגלל העובדה שהוא כבר מכהן כרואה החשבון של חברת החשמל.
+1	נראה	נראה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+2	כי	כי	SCONJ	SCONJ	_	5	mark	_	_
+3	סומך	סומך	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	לא	לא	ADV	ADV	Polarity=Neg	5	advmod	_	_
+5	נבחר	נבחר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	1	ccomp	_	_
+6	בגלל	בגלל	ADP	ADP	_	8	case	_	_
+7-8	העובדה	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	עובדה	עובדה	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
+9-10	שהוא	_	_	_	_	_	_	_	_
+9	ש	ש	SCONJ	SCONJ	_	12	mark	_	_
+10	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	כבר	כבר	ADV	ADV	_	12	advmod	_	_
+12	מכהן	כיהן	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	8	acl:relcl	_	_
+13-14	כרואה	_	_	_	_	_	_	_	_
+13	כ	כ	ADP	ADP	_	14	case	_	_
+14	רואה	רואה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	obl	_	_
+15-16	החשבון	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	חשבון	חשבון	NOUN	NOUN	Gender=Masc|Number=Sing	14	compound:smixut	_	_
+17	של	של	ADP	ADP	Case=Gen	18	case	_	_
+18	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	14	nmod:poss	_	_
+19-20	החשמל	_	_	_	_	_	_	_	SpaceAfter=No
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	חשמל	חשמל	NOUN	NOUN	Gender=Masc|Number=Sing	18	compound:smixut	_	_
+21	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:65
+# doc_range = 908-1050
+# sent_id = 1985
+# text = בשנה שחלפה נערכו חילופי משמרות בקרב רואי החשבון של כמה חברות ממשלתיות גדולות.
+1-3	בשנה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	_
+4-5	שחלפה	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	5	mark	_	_
+5	חלפה	חלף	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	3	acl:relcl	_	_
+6	נערכו	נערך	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+7	חילופי	חילוף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	6	nsubj	_	_
+8	משמרות	משמרת	NOUN	NOUN	Gender=Fem|Number=Plur	7	compound:smixut	_	_
+9	בקרב	בקרב	ADP	ADP	_	10	case	_	_
+10	רואי	רואה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	6	obl	_	_
+11-12	החשבון	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	חשבון	חשבון	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
+13	של	של	ADP	ADP	Case=Gen	15	case	_	_
+14	כמה	כמה	DET	DET	Definite=Cons	15	det	_	_
+15	חברות	חברה	NOUN	NOUN	Gender=Fem|Number=Plur	10	nmod:poss	_	_
+16	ממשלתיות	ממשלתי	ADJ	ADJ	Gender=Fem|Number=Plur	15	amod	_	_
+17	גדולות	גדול	ADJ	ADJ	Gender=Fem|Number=Plur	15	amod	_	SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:65
+# doc_range = 1052-1233
+# sent_id = 1986
+# text = לפני שבועות מספר נבחר משרד אלמגור איקה בש לרואה החשבון של התעשייה האווירית במקום משרד האפט את האפט.
+1	לפני	לפני	ADP	ADP	_	2	case	_	_
+2	שבועות	שבוע	NOUN	NOUN	Gender=Masc|Number=Plur	4	obl	_	_
+3	מספר	מספר	DET	DET	Definite=Cons	2	dep	_	_
+4	נבחר	נבחר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+5	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nsubj	_	_
+6	אלמגור	אלמגור	PROPN	PROPN	_	5	compound:smixut	_	_
+7	איקה	איקה	PROPN	PROPN	_	6	flat:name	_	_
+8	בש	בש	PROPN	PROPN	_	6	flat:name	_	_
+9-10	לרואה	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	10	case	_	_
+10	רואה	רואה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	obl	_	_
+11-12	החשבון	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	חשבון	חשבון	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
+13	של	של	ADP	ADP	Case=Gen	15	case	_	_
+14-15	התעשייה	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	תעשייה	תעשייה	NOUN	NOUN	Gender=Fem|Number=Sing	10	nmod:poss	_	_
+16-17	האווירית	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	אווירית	אווירי	ADJ	ADJ	Gender=Fem|Number=Sing	15	amod	_	_
+18	במקום	במקום	ADP	ADP	_	19	case	_	_
+19	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	obl	_	_
+20	האפט	האפט	PROPN	PROPN	_	19	compound:smixut	_	_
+21	את	את	ADP	ADP	Case=Acc	20	flat:name	_	_
+22	האפט	האפט	PROPN	PROPN	_	20	flat:name	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:65
+# doc_range = 1236-1540
+# sent_id = 1987
+# text = חוגים באוצר מעריכים כי בקרוב תבוצע החלפה נוספת בתעשייה האווירית, כשמשרד ברייטמן ושות יתפוס את מקומו של משרד גורן בן-יעקב (שהוא רואה החשבון השני של התעשייה האווירית.
+1	חוגים	חוג	NOUN	NOUN	Gender=Masc|Number=Plur	5	nsubj	_	_
+2-4	באוצר	_	_	_	_	_	_	_	_
+2	ב	ב	ADP	ADP	_	4	case	_	_
+3	ה_	ה	DET	DET	PronType=Art|Definite=Def	4	det	_	_
+4	אוצר	אוצר	NOUN	NOUN	Gender=Masc|Number=Sing	1	nmod	_	_
+5	מעריכים	העריך	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+6	כי	כי	SCONJ	SCONJ	_	8	mark	_	_
+7	בקרוב	בקרוב	ADV	ADV	_	8	advmod	_	_
+8	תבוצע	בוצע	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	5	ccomp	_	_
+9	החלפה	החלפה	NOUN	NOUN	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+10	נוספת	נוסף	ADJ	ADJ	Gender=Fem|Number=Sing	9	amod	_	_
+11-13	בתעשייה	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	13	case	_	_
+12	ה_	ה	DET	DET	PronType=Art|Definite=Def	13	det	_	_
+13	תעשייה	תעשייה	NOUN	NOUN	Gender=Fem|Number=Sing	8	obl	_	_
+14-15	האווירית	_	_	_	_	_	_	_	SpaceAfter=No
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	אווירית	אווירי	ADJ	ADJ	Gender=Fem|Number=Sing	13	amod	_	_
+16	,	,	PUNCT	PUNCT	_	22	punct	_	_
+17-18	כשמשרד	_	_	_	_	_	_	_	_
+17	כש	כש	SCONJ	SCONJ	Case=Tem	22	mark	_	_
+18	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	22	nsubj	_	_
+19	ברייטמן	ברייטמן	PROPN	PROPN	_	21	dep	_	_
+20-21	ושות	_	_	_	_	_	_	_	_
+20	ו	ו	CCONJ	CCONJ	_	21	cc	_	HebSource=ConvUncertainHead
+21	שות	שת	NOUN	NOUN	Gender=Masc|Number=Plur	18	flat:name	_	_
+22	יתפוס	תפס	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	8	advcl	_	_
+23	את	את	ADP	ADP	Case=Acc	24	case	_	_
+24-26	מקומו	_	_	_	_	_	_	_	_
+24	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	22	obj	_	_
+25	_של_	של	ADP	ADP	Case=Gen	26	case:gen	_	_
+26	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+27	של	של	ADP	ADP	Case=Gen	28	case	_	_
+28	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	24	nmod:poss	_	_
+29	גורן	גורן	PROPN	PROPN	_	28	flat:name	_	_
+30	בן	בן	PROPN	PROPN	_	29	flat:name	_	SpaceAfter=No
+31	-	-	PUNCT	PUNCT	_	32	punct	_	SpaceAfter=No
+32	יעקב	יעקב	PROPN	PROPN	_	30	flat:name	_	_
+33	(	(	PUNCT	PUNCT	_	36	punct	_	SpaceAfter=No
+34-35	שהוא	_	_	_	_	_	_	_	_
+34	ש	ש	SCONJ	SCONJ	_	36	mark	_	_
+35	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	_
+36	רואה	רואה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	28	appos	_	_
+37-38	החשבון	_	_	_	_	_	_	_	_
+37	ה	ה	DET	DET	Definite=Def|PronType=Art	38	det	_	_
+38	חשבון	חשבון	NOUN	NOUN	Gender=Masc|Number=Sing	36	compound:smixut	_	_
+39-40	השני	_	_	_	_	_	_	_	_
+39	ה	ה	DET	DET	Definite=Def|PronType=Art	40	det	_	_
+40	שני	שני	ADJ	ADJ	Gender=Masc|Number=Sing	36	amod	_	_
+41	של	של	ADP	ADP	Case=Gen	43	case	_	_
+42-43	התעשייה	_	_	_	_	_	_	_	_
+42	ה	ה	DET	DET	Definite=Def|PronType=Art	43	det	_	_
+43	תעשייה	תעשייה	NOUN	NOUN	Gender=Fem|Number=Sing	36	nmod	_	_
+44-45	האווירית	_	_	_	_	_	_	_	SpaceAfter=No
+44	ה	ה	DET	DET	Definite=Def|PronType=Art	45	det	_	_
+45	אווירית	אווירי	ADJ	ADJ	Gender=Fem|Number=Sing	43	nmod	_	_
+46	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:65
+# doc_range = 1541-1735
+# sent_id = 1988
+# text = חילופי תפקידים במשרדי רואי חשבון של חברות ממשלתיות גדולות צפויים גם בחברת הברום (מקבוצת כימיקלים לישראל).
+1	חילופי	חילוף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	11	nsubj	_	_
+2	תפקידים	תפקיד	NOUN	NOUN	Gender=Masc|Number=Plur	1	compound:smixut	_	_
+3-4	במשרדי	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	משרדי	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	1	nmod	_	_
+5	רואי	רואה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	compound:smixut	_	_
+6	חשבון	חשבון	NOUN	NOUN	Gender=Masc|Number=Sing	5	compound:smixut	_	_
+7	של	של	ADP	ADP	Case=Gen	8	case	_	_
+8	חברות	חברה	NOUN	NOUN	Gender=Fem|Number=Plur	4	nmod:poss	_	_
+9	ממשלתיות	ממשלתי	ADJ	ADJ	Gender=Fem|Number=Plur	8	amod	_	_
+10	גדולות	גדול	ADJ	ADJ	Gender=Fem|Number=Plur	8	amod	_	_
+11	צפויים	צפה	VERB	VERB	Gender=Masc|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+12	גם	גם	ADV	ADV	_	14	advmod	_	_
+13-14	בחברת	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	11	obl	_	_
+15-16	הברום	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	ברום	ברום	NOUN	NOUN	Gender=Masc|Number=Sing	14	compound:smixut	_	_
+17	(	(	PUNCT	PUNCT	_	19	punct	_	SpaceAfter=No
+18-19	מקבוצת	_	_	_	_	_	_	_	_
+18	מ	מ	ADP	ADP	_	19	case	_	_
+19	קבוצת	קבוצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	14	appos	_	_
+20	כימיקלים	כימיקל	NOUN	NOUN	Gender=Masc|Number=Plur	19	compound:smixut	_	_
+21-22	לישראל	_	_	_	_	_	_	_	SpaceAfter=No
+21	ל	ל	ADP	ADP	_	22	case	_	_
+22	ישראל	ישראל	PROPN	PROPN	_	19	nmod	_	_
+23	)	)	PUNCT	PUNCT	_	19	punct	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:65
+# doc_range = 1739-1860
+# sent_id = 1989
+# text = משרד שחק ושות אמור להחליף בתחילת השנה הבאה את משרד ליובושיץ קסירר.
+1	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	dep	_	_
+2	שחק	שחק	PROPN	PROPN	_	1	flat:name	_	_
+3-4	ושות	_	_	_	_	_	_	_	_
+3	ו	ו	CCONJ	CCONJ	_	2	flat:name	_	_
+4	שות	שת	NOUN	NOUN	Gender=Masc|Number=Plur	2	flat:name	_	_
+5	אמור	אמור	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	6	aux	_	_
+6	להחליף	החליף	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	0	root	_	_
+7-8	בתחילת	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	תחילת	תחילה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	obl	_	_
+9-10	השנה	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound:smixut	_	_
+11-12	הבאה	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	באה	בא	ADJ	ADJ	Gender=Fem|Number=Sing	10	amod	_	_
+13	את	את	ADP	ADP	Case=Acc	14	case	_	_
+14	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	obj	_	_
+15	ליובושיץ	ליובושיץ	PROPN	PROPN	_	14	flat:name	_	_
+16	קסירר	קסירר	PROPN	PROPN	_	15	flat:name	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:65
+# doc_range = 1862-1962
+# sent_id = 1990
+# text = חילוף מהותי נוסף במשרדי רואה החשבון נעשה בבנק החקלאות.
+1	חילוף	חילוף	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj	_	_
+2	מהותי	מהותי	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	_
+3	נוסף	נוסף	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	_
+4-5	במשרדי	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	משרדי	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	1	nmod	_	_
+6	רואה	רואה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	compound:smixut	_	_
+7-8	החשבון	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	חשבון	חשבון	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+9	נעשה	נעשה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+10-11	בבנק	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	בנק	בנק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	obl	_	_
+12-13	החקלאות	_	_	_	_	_	_	_	SpaceAfter=No
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	חקלאות	חקלאות	NOUN	NOUN	Gender=Fem|Number=Sing	11	compound:smixut	_	_
+14	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:65
+# doc_range = 1964-2055
+# sent_id = 1991
+# text = משרד רונאל ושות נכנס לתפקיד במקום משרד בבלי מילנר.
+1	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	רונאל	רונאל	PROPN	PROPN	_	1	flat:name	_	_
+3-4	ושות	_	_	_	_	_	_	_	_
+3	ו	ו	CCONJ	CCONJ	_	2	flat:name	_	_
+4	שות	שת	NOUN	NOUN	Gender=Masc|Number=Plur	2	flat:name	_	_
+5	נכנס	נכנס	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+6-8	לתפקיד	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	8	case	_	_
+7	ה_	ה	DET	DET	PronType=Art|Definite=Def	8	det	_	_
+8	תפקיד	תפקיד	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+9	במקום	במקום	ADP	ADP	_	10	case	_	_
+10	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+11	בבלי	בבלי	NOUN	NOUN	Gender=Masc|Number=Sing	10	flat:name	_	_
+12	מילנר	מילנר	PROPN	PROPN	_	11	flat:name	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:65
+# doc_range = 2057-2205
+# sent_id = 1992
+# text = החילופים במשרדי רואי החשבון של החברות הממשלתיות נעשים לאחר שנים ארוכות של הקפאה.
+1-2	החילופים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	חילופים	חילוף	NOUN	NOUN	Gender=Masc|Number=Plur	13	nsubj	_	_
+3-4	במשרדי	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	משרדי	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	2	nmod	_	_
+5	רואי	רואה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	compound:smixut	_	_
+6-7	החשבון	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	חשבון	חשבון	NOUN	NOUN	Gender=Masc|Number=Sing	5	compound:smixut	_	_
+8	של	של	ADP	ADP	Case=Gen	10	case	_	_
+9-10	החברות	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	חברות	חברה	NOUN	NOUN	Gender=Fem|Number=Plur	4	nmod:poss	_	_
+11-12	הממשלתיות	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	ממשלתיות	ממשלתי	ADJ	ADJ	Gender=Fem|Number=Plur	10	amod	_	_
+13	נעשים	נעשה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	0	root	_	_
+14	לאחר	לאחר	ADP	ADP	_	15	case	_	_
+15	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	13	obl	_	_
+16	ארוכות	ארוך	ADJ	ADJ	Gender=Fem|Number=Plur	15	amod	_	_
+17	של	של	ADP	ADP	Case=Gen	18	case	_	_
+18	הקפאה	הקפאה	NOUN	NOUN	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# doc_id = htb:65
+# doc_range = 2208-2343
+# sent_id = 1993
+# text = הם נעשים בעקבות מדיניות חדשה של רוטציה, שהונהגה ע"י רשות החברות הממשלתיות.
+1	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	נעשים	נעשה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	0	root	_	_
+3	בעקבות	בעקבות	ADP	ADP	_	4	case	_	_
+4	מדיניות	מדיניות	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl	_	_
+5	חדשה	חדש	ADJ	ADJ	Gender=Fem|Number=Sing	4	amod	_	_
+6	של	של	ADP	ADP	Case=Gen	7	case	_	_
+7	רוטציה	רוטציה	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	10	punct	_	_
+9-10	שהונהגה	_	_	_	_	_	_	_	_
+9	ש	ש	SCONJ	SCONJ	_	10	mark	_	_
+10	הונהגה	הונהג	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	4	acl:relcl	_	_
+11	ע"י	ע"י	ADP	ADP	Abbr=Yes	12	case	_	_
+12	רשות	רשות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	10	obl	_	_
+13-14	החברות	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	חברות	חברה	NOUN	NOUN	Gender=Fem|Number=Plur	12	compound:smixut	_	_
+15-16	הממשלתיות	_	_	_	_	_	_	_	SpaceAfter=No
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	ממשלתיות	ממשלתי	ADJ	ADJ	Gender=Fem|Number=Plur	14	amod	_	_
+17	.	.	PUNCT	PUNCT	_	2	punct	_	_
+

@@ -1,0 +1,336 @@
+# doc_id = htb:67
+# doc_range = 1-333
+# sent_id = 2014
+# text = בדיון שהתקיים אתמול בבית-הדין האזורי לעבודה בתל-אביב, האריכה השופטת עדנה גבריאלי, בנוכחות נציגי העובדים וההנהלה של בנק ישראל, את הצו להפסקת השביתה שנתנה שלשום בלילה במעמד צד אחד.
+1-3	בדיון	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	דיון	דיון	NOUN	NOUN	Gender=Masc|Number=Sing	22	obl	_	_
+4-5	שהתקיים	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	5	mark	_	_
+5	התקיים	התקיים	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	3	acl:relcl	_	_
+6	אתמול	אתמול	ADV	ADV	_	5	advmod	_	_
+7-8	בבית	_	_	_	_	_	_	_	SpaceAfter=No
+7	ב	ב	ADP	ADP	_	11	case	_	_
+8	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	nmod	_	_
+9	-	-	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+10-11	הדין	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	דין	דין	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+12-13	האזורי	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	אזורי	אזורי	ADJ	ADJ	Gender=Masc|Number=Sing	11	nmod	_	HebSource=ConvUncertainLabel
+14-16	לעבודה	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	16	case	_	_
+15	ה_	ה	DET	DET	PronType=Art|Definite=Def	16	det	_	_
+16	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	11	nmod	_	HebSource=ConvUncertainLabel
+17-18	בתל	_	_	_	_	_	_	_	SpaceAfter=No
+17	ב	ב	ADP	ADP	_	18	case	_	_
+18	תל	תל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	nmod	_	_
+19	-	-	PUNCT	PUNCT	_	20	punct	_	SpaceAfter=No
+20	אביב	אביב	NOUN	NOUN	Gender=Masc|Number=Sing	18	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	3	punct	_	_
+22	האריכה	האריך	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+23-24	השופטת	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	שופטת	שופט	NOUN	NOUN	Gender=Fem|Number=Sing	22	nsubj	_	_
+25	עדנה	עדנה	PROPN	PROPN	_	24	flat:name	_	_
+26	גבריאלי	גבריאלי	PROPN	PROPN	_	24	flat:name	_	SpaceAfter=No
+27	,	,	PUNCT	PUNCT	_	29	punct	_	_
+28-29	בנוכחות	_	_	_	_	_	_	_	_
+28	ב	ב	ADP	ADP	_	29	case	_	_
+29	נוכחות	נוכחות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	22	obl	_	_
+30	נציגי	נציג	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	29	compound:smixut	_	_
+31-32	העובדים	_	_	_	_	_	_	_	_
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	30	compound:smixut	_	_
+33-35	וההנהלה	_	_	_	_	_	_	_	_
+33	ו	ו	CCONJ	CCONJ	_	35	cc	_	_
+34	ה	ה	DET	DET	Definite=Def|PronType=Art	35	det	_	_
+35	הנהלה	הנהלה	NOUN	NOUN	Gender=Fem|Number=Sing	32	conj	_	_
+36	של	של	ADP	ADP	Case=Gen	37	case	_	_
+37	בנק	בנק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	32	nmod:poss	_	_
+38	ישראל	ישראל	PROPN	PROPN	_	37	flat:name	_	SpaceAfter=No
+39	,	,	PUNCT	PUNCT	_	42	punct	_	_
+40	את	את	ADP	ADP	Case=Acc	42	case	_	_
+41-42	הצו	_	_	_	_	_	_	_	_
+41	ה	ה	DET	DET	Definite=Def|PronType=Art	42	det	_	_
+42	צו	צו	NOUN	NOUN	Gender=Masc|Number=Sing	22	obj	_	_
+43-44	להפסקת	_	_	_	_	_	_	_	_
+43	ל	ל	ADP	ADP	_	44	case	_	_
+44	הפסקת	הפסקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	42	nmod	_	_
+45-46	השביתה	_	_	_	_	_	_	_	_
+45	ה	ה	DET	DET	Definite=Def|PronType=Art	46	det	_	_
+46	שביתה	שביתה	NOUN	NOUN	Gender=Fem|Number=Sing	44	compound:smixut	_	_
+47-48	שנתנה	_	_	_	_	_	_	_	_
+47	ש	ש	SCONJ	SCONJ	_	48	mark	_	_
+48	נתנה	נתן	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Past	42	acl:relcl	_	_
+49	שלשום	שלשום	ADV	ADV	_	48	advmod	_	_
+50-52	בלילה	_	_	_	_	_	_	_	_
+50	ב	ב	ADP	ADP	_	52	case	_	_
+51	ה_	ה	DET	DET	PronType=Art|Definite=Def	52	det	_	_
+52	לילה	לילה	NOUN	NOUN	Gender=Masc|Number=Sing	48	obl	_	_
+53-54	במעמד	_	_	_	_	_	_	_	_
+53	ב	ב	ADP	ADP	_	54	case	_	_
+54	מעמד	מעמד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	48	obl	_	_
+55	צד	צד	NOUN	NOUN	Gender=Masc|Number=Sing	54	compound:smixut	_	_
+56	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	55	nummod	_	SpaceAfter=No
+57	.	.	PUNCT	PUNCT	_	22	punct	_	_
+
+# doc_id = htb:67
+# doc_range = 335-435
+# sent_id = 2015
+# text = הוצאת הצו שלשום הביאה לחידוש העבודה במחשב בשעה 2 בלילה.
+1	הוצאת	הוצאה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	nsubj	_	_
+2-3	הצו	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	צו	צו	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4	שלשום	שלשום	ADV	ADV	_	5	advmod	_	_
+5	הביאה	הביא	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+6-7	לחידוש	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	חידוש	חידוש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+8-9	העבודה	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	7	compound:smixut	_	_
+10-12	במחשב	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	12	case	_	_
+11	ה_	ה	DET	DET	PronType=Art|Definite=Def	12	det	_	_
+12	מחשב	מחשב	NOUN	NOUN	Gender=Masc|Number=Sing	9	nmod	_	_
+13-14	בשעה	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	שעה	שעה	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
+15	2	2	NUM	NUM	_	14	nummod	_	_
+16-18	בלילה	_	_	_	_	_	_	_	SpaceAfter=No
+16	ב	ב	ADP	ADP	_	18	case	_	_
+17	ה_	ה	DET	DET	PronType=Art|Definite=Def	18	det	_	_
+18	לילה	לילה	NOUN	NOUN	Gender=Masc|Number=Sing	14	nmod	_	_
+19	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:67
+# doc_range = 437-626
+# sent_id = 2016
+# text = השופטת גבריאלי קבעה כי מאחר שנקבעו לצדדים דיונים לשבוע הבא, יישאר הצו בתוקפו עד לישיבה הבאה בבית-הדין.
+1-2	השופטת	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	שופטת	שופט	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	גבריאלי	גבריאלי	PROPN	PROPN	_	2	flat:name	_	_
+4	קבעה	קבע	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Past	0	root	_	_
+5	כי	כי	SCONJ	SCONJ	_	19	mark	_	_
+6	מאחר	מאחר	SCONJ	SCONJ	_	8	mark	_	_
+7-8	שנקבעו	_	_	_	_	_	_	_	_
+7	ש	ש	SCONJ	SCONJ	_	6	fixed	_	_
+8	נקבעו	נקבע	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	19	advcl	_	_
+9-11	לצדדים	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	11	case	_	_
+10	ה_	ה	DET	DET	PronType=Art|Definite=Def	11	det	_	_
+11	צדדים	צד	NOUN	NOUN	Gender=Masc|Number=Plur	8	obl	_	_
+12	דיונים	דיון	NOUN	NOUN	Gender=Masc|Number=Plur	8	nsubj	_	_
+13-15	לשבוע	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	15	case	_	_
+14	ה_	ה	DET	DET	PronType=Art|Definite=Def	15	det	_	_
+15	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+16-17	הבא	_	_	_	_	_	_	_	SpaceAfter=No
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	בא	בא	ADJ	ADJ	Gender=Masc|Number=Sing	15	amod	_	_
+18	,	,	PUNCT	PUNCT	_	8	punct	_	_
+19	יישאר	נשאר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Fut|Voice=Mid	4	ccomp	_	_
+20-21	הצו	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	צו	צו	NOUN	NOUN	Gender=Masc|Number=Sing	19	nsubj	_	_
+22-25	בתוקפו	_	_	_	_	_	_	_	_
+22	ב	ב	ADP	ADP	_	23	case	_	_
+23	תוקף	תוקף	NOUN	NOUN	Gender=Masc|Number=Sing	19	obl	_	_
+24	_של_	של	ADP	ADP	Case=Gen	25	case:gen	_	_
+25	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+26	עד	עד	ADP	ADP	_	29	case	_	_
+27-29	לישיבה	_	_	_	_	_	_	_	_
+27	ל	ל	ADP	ADP	_	26	fixed	_	_
+28	ה_	ה	DET	DET	PronType=Art|Definite=Def	29	det	_	_
+29	ישיבה	ישיבה	NOUN	NOUN	Gender=Fem|Number=Sing	19	obl	_	_
+30-31	הבאה	_	_	_	_	_	_	_	_
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	באה	בא	ADJ	ADJ	Gender=Fem|Number=Sing	29	amod	_	_
+32-33	בבית	_	_	_	_	_	_	_	SpaceAfter=No
+32	ב	ב	ADP	ADP	_	36	case	_	_
+33	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	36	nmod	_	_
+34	-	-	PUNCT	PUNCT	_	33	punct	_	SpaceAfter=No
+35-36	הדין	_	_	_	_	_	_	_	SpaceAfter=No
+35	ה	ה	DET	DET	Definite=Def|PronType=Art	36	det	_	_
+36	דין	דין	NOUN	NOUN	Gender=Masc|Number=Sing	29	nmod	_	_
+37	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:67
+# doc_range = 628-911
+# sent_id = 2017
+# text = בדיון טען ועד עובדי בנק ישראל כי העיצומים שפרצו ביום שלישי, ומהלכם הופסקה עבודת המחשב, הם על רקע קידום בשכר ולאחר סכסוך עבודה עליו הוכרז כבר לפני שבועיים.
+1-3	בדיון	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	דיון	דיון	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+4	טען	טען	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	ועד	ועד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nsubj	_	_
+6	עובדי	עובד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	5	compound:smixut	_	_
+7	בנק	בנק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	compound:smixut	_	_
+8	ישראל	ישראל	PROPN	PROPN	_	7	flat:name	_	_
+9	כי	כי	SCONJ	SCONJ	_	30	mark	_	_
+10-11	העיצומים	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	עיצומים	עיצומים	NOUN	NOUN	Gender=Masc|Number=Plur	30	nsubj	_	_
+12-13	שפרצו	_	_	_	_	_	_	_	_
+12	ש	ש	SCONJ	SCONJ	_	13	mark	_	_
+13	פרצו	פרץ	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	11	acl:relcl	_	_
+14-15	ביום	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	obl	_	_
+16	שלישי	שלישי	PROPN	PROPN	_	15	compound:smixut	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	22	punct	_	_
+18-21	ומהלכם	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	_	22	cc	_	_
+19	מהלך	מהלך	NOUN	NOUN	Gender=Masc|Number=Sing	22	dep	_	_
+20	_של_	של	ADP	ADP	Case=Gen	21	case:gen	_	_
+21	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+22	הופסקה	הופסק	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	13	conj	_	_
+23	עבודת	עבודה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	22	nsubj:pass	_	_
+24-25	המחשב	_	_	_	_	_	_	_	SpaceAfter=No
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	מחשב	מחשב	NOUN	NOUN	Gender=Masc|Number=Sing	23	compound:smixut	_	_
+26	,	,	PUNCT	PUNCT	_	11	punct	_	_
+27	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|Polarity=Pos	30	cop	_	_
+28	על	על	ADP	ADP	_	30	case	_	_
+29	רקע	רקע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	28	fixed	_	_
+30	קידום	קידום	NOUN	NOUN	Gender=Masc|Number=Sing	4	ccomp	_	_
+31-33	בשכר	_	_	_	_	_	_	_	_
+31	ב	ב	ADP	ADP	_	33	case	_	_
+32	ה_	ה	DET	DET	PronType=Art|Definite=Def	33	det	_	_
+33	שכר	שכר	NOUN	NOUN	Gender=Masc|Number=Sing	30	nmod	_	_
+34-35	ולאחר	_	_	_	_	_	_	_	_
+34	ו	ו	CCONJ	CCONJ	_	36	cc	_	_
+35	לאחר	לאחר	ADP	ADP	_	36	case	_	_
+36	סכסוך	סכסוך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	30	conj	_	_
+37	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	36	compound:smixut	_	_
+38-39	עליו	_	_	_	_	_	_	_	_
+38	על	על	ADP	ADP	_	39	case	_	_
+39	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	40	obl	_	_
+40	הוכרז	הוכרז	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	36	acl	_	_
+41	כבר	כבר	ADV	ADV	_	40	advmod	_	_
+42	לפני	לפני	ADP	ADP	_	43	case	_	_
+43	שבועיים	שבוע	NOUN	NOUN	Gender=Masc|Number=Dual	40	obl	_	SpaceAfter=No
+44	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:67
+# doc_range = 913-1123
+# sent_id = 2018
+# text = הוועד הכחיש כי העיצומים היו על רקע של השעיית אחד מחבריו, יעקב קטורזה, סגן מנהל מדור במחלקת המטבע, כפי שטענה ההנהלה.
+1-2	הוועד	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	וועד	ועד	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	הכחיש	הכחיש	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	כי	כי	SCONJ	SCONJ	_	9	mark	_	_
+5-6	העיצומים	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	עיצומים	עיצומים	NOUN	NOUN	Gender=Masc|Number=Plur	9	nsubj	_	_
+7	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	9	cop	_	_
+8	על	על	ADP	ADP	_	9	case	_	_
+9	רקע	רקע	NOUN	NOUN	Gender=Masc|Number=Sing	3	ccomp	_	_
+10	של	של	ADP	ADP	Case=Gen	11	case	_	_
+11	השעיית	השעיה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	nmod:poss	_	_
+12	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	14	nummod	_	_
+13-16	מחבריו	_	_	_	_	_	_	_	SpaceAfter=No
+13	מ	מ	ADP	ADP	_	14	case	_	_
+14	חבר	חבר	NOUN	NOUN	Gender=Masc|Number=Plur	11	compound:smixut	_	_
+15	_של_	של	ADP	ADP	Case=Gen	16	case:gen	_	_
+16	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+17	,	,	PUNCT	PUNCT	_	18	punct	_	_
+18	יעקב	יעקב	PROPN	PROPN	_	14	appos	_	_
+19	קטורזה	קטורזה	PROPN	PROPN	_	18	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	PUNCT	_	21	punct	_	_
+21	סגן	סגן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	18	appos	_	_
+22	מנהל	מנהל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	21	compound:smixut	_	_
+23	מדור	מדור	NOUN	NOUN	Gender=Masc|Number=Sing	22	compound:smixut	_	_
+24-25	במחלקת	_	_	_	_	_	_	_	_
+24	ב	ב	ADP	ADP	_	25	case	_	_
+25	מחלקת	מחלקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	21	nmod	_	_
+26-27	המטבע	_	_	_	_	_	_	_	SpaceAfter=No
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	מטבע	מטבע	NOUN	NOUN	Gender=Fem,Masc|Number=Sing	25	compound:smixut	_	_
+28	,	,	PUNCT	PUNCT	_	18	punct	_	_
+29	כפי	כפי	SCONJ	SCONJ	_	31	mark	_	_
+30-31	שטענה	_	_	_	_	_	_	_	_
+30	ש	ש	SCONJ	SCONJ	_	29	fixed	_	_
+31	טענה	טען	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	3	advcl	_	_
+32-33	ההנהלה	_	_	_	_	_	_	_	SpaceAfter=No
+32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
+33	הנהלה	הנהלה	NOUN	NOUN	Gender=Fem|Number=Sing	31	nsubj	_	_
+34	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:67
+# doc_range = 1125-1300
+# sent_id = 2019
+# text = קטורזה הושעה בשל חשד שהעביר לעיתונות מידע על נוהל סודי הקשור בביעור והשמדת שטרי כסף בבנק ישראל.
+1	קטורזה	קטורזה	PROPN	PROPN	_	2	nsubj:pass	_	_
+2	הושעה	הושעה	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+3	בשל	בשל	ADP	ADP	_	4	case	_	_
+4	חשד	חשד	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+5-6	שהעביר	_	_	_	_	_	_	_	_
+5	ש	ש	SCONJ	SCONJ	_	6	mark	_	_
+6	העביר	העביר	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	4	acl:relcl	_	_
+7-9	לעיתונות	_	_	_	_	_	_	_	_
+7	ל	ל	ADP	ADP	_	9	case	_	_
+8	ה_	ה	DET	DET	PronType=Art|Definite=Def	9	det	_	_
+9	עיתונות	עיתונות	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	_
+10	מידע	מידע	NOUN	NOUN	Gender=Masc|Number=Sing	6	obj	_	_
+11	על	על	ADP	ADP	_	12	case	_	_
+12	נוהל	נוהל	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod	_	_
+13	סודי	סודי	ADJ	ADJ	Gender=Masc|Number=Sing	12	amod	_	_
+14-15	הקשור	_	_	_	_	_	_	_	_
+14	ה	ה	SCONJ	SCONJ	_	15	mark	_	_
+15	קשור	קשר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	12	acl:relcl	_	_
+16-17	בביעור	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	ביעור	ביעור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	15	obl	_	_
+18-19	והשמדת	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+19	השמדת	השמדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	17	conj	_	_
+20	שטרי	שטר	NOUN	NOUN	Definite=Cons	19	compound:smixut	_	_
+21	כסף	כסף	NOUN	NOUN	Gender=Masc|Number=Sing	20	compound:smixut	_	_
+22-23	בבנק	_	_	_	_	_	_	_	_
+22	ב	ב	ADP	ADP	_	23	case	_	_
+23	בנק	בנק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	21	nmod	_	_
+24	ישראל	ישראל	PROPN	PROPN	_	23	flat:name	_	SpaceAfter=No
+25	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:67
+# doc_range = 1302-1433
+# sent_id = 2020
+# text = בדיון לא הופיעו נציגי ההסתדרות, ששלחו מברק בו הביעו את התנגדותם לשביתה.
+1-3	בדיון	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	דיון	דיון	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+4	לא	לא	ADV	ADV	Polarity=Neg	5	advmod	_	_
+5	הופיעו	הופיע	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+6	נציגי	נציג	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	5	nsubj	_	_
+7-8	ההסתדרות	_	_	_	_	_	_	_	SpaceAfter=No
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	הסתדרות	הסתדרות	NOUN	NOUN	Gender=Fem|Number=Sing	6	compound:smixut	_	_
+9	,	,	PUNCT	PUNCT	_	11	punct	_	_
+10-11	ששלחו	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	11	mark	_	_
+11	שלחו	שלח	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	6	acl:relcl	_	_
+12	מברק	מברק	NOUN	NOUN	Gender=Masc|Number=Sing	11	obj	_	_
+13-14	בו	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obl	_	_
+15	הביעו	הביע	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	12	acl	_	_
+16	את	את	ADP	ADP	Case=Acc	17	case	_	_
+17-19	התנגדותם	_	_	_	_	_	_	_	_
+17	התנגדות	התנגדות	NOUN	NOUN	Gender=Fem|Number=Sing	15	obj	_	_
+18	_של_	של	ADP	ADP	Case=Gen	19	case:gen	_	_
+19	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+20-22	לשביתה	_	_	_	_	_	_	_	SpaceAfter=No
+20	ל	ל	ADP	ADP	_	22	case	_	_
+21	ה_	ה	DET	DET	PronType=Art|Definite=Def	22	det	_	_
+22	שביתה	שביתה	NOUN	NOUN	Gender=Fem|Number=Sing	17	nmod	_	_
+23	.	.	PUNCT	PUNCT	_	5	punct	_	_
+

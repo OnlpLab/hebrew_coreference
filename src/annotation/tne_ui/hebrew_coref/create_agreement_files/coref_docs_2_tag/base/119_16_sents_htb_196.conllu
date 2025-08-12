@@ -1,0 +1,804 @@
+# doc_id = htb:196
+# doc_range = 1-272
+# sent_id = 4986
+# text = שיבושים צפויים מהיום באספקת המים, בעיקר למגזר העירוני, לנוכח כוונתה של חברת החשמל לנתק את זרם החשמל למוביל המים הארצי ולמתקני שאיבה של חברת מקורות.
+1	שיבושים	שיבוש	NOUN	NOUN	Gender=Masc|Number=Plur	2	nsubj	_	_
+2	צפויים	צפה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+3-5	מהיום	_	_	_	_	_	_	_	_
+3	מ	מ	ADP	ADP	_	5	case	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	יום	יום	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+6-7	באספקת	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	אספקת	אספקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	obl	_	_
+8-9	המים	_	_	_	_	_	_	_	SpaceAfter=No
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	מים	מים	NOUN	NOUN	Gender=Masc|Number=Plur	7	compound:smixut	_	_
+10	,	,	PUNCT	PUNCT	_	14	punct	_	_
+11	בעיקר	בעיקר	ADV	ADV	_	14	advmod	_	_
+12-14	למגזר	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	_	14	case	_	_
+13	ה_	ה	DET	DET	PronType=Art|Definite=Def	14	det	_	_
+14	מגזר	מגזר	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+15-16	העירוני	_	_	_	_	_	_	_	SpaceAfter=No
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	עירוני	עירוני	ADJ	ADJ	Gender=Masc|Number=Sing	14	amod	_	_
+17	,	,	PUNCT	PUNCT	_	19	punct	_	_
+18	לנוכח	לנוכח	ADP	ADP	_	19	case	_	_
+19-21	כוונתה	_	_	_	_	_	_	_	_
+19	כוונה	כוונה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl	_	_
+20	_של_	של	ADP	ADP	Case=Gen	21	case:gen	_	_
+21	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+22	של	של	ADP	ADP	Case=Gen	23	case	_	_
+23	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	19	nmod:poss	_	_
+24-25	החשמל	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	חשמל	חשמל	NOUN	NOUN	Gender=Masc|Number=Sing	23	compound:smixut	_	_
+26	לנתק	לנתק	VERB	VERB	VerbForm=Inf	19	acl	_	_
+27	את	את	ADP	ADP	Case=Acc	28	case	_	_
+28	זרם	זרם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	26	obj	_	_
+29-30	החשמל	_	_	_	_	_	_	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	חשמל	חשמל	NOUN	NOUN	Gender=Masc|Number=Sing	28	compound:smixut	_	_
+31-32	למוביל	_	_	_	_	_	_	_	_
+31	ל	ל	ADP	ADP	_	32	case	_	_
+32	מוביל	מוביל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	26	obl	_	_
+33-34	המים	_	_	_	_	_	_	_	_
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	מים	מים	NOUN	NOUN	Gender=Masc|Number=Plur	32	compound:smixut	_	_
+35-36	הארצי	_	_	_	_	_	_	_	_
+35	ה	ה	DET	DET	Definite=Def|PronType=Art	36	det	_	_
+36	ארצי	ארצי	ADJ	ADJ	Gender=Masc|Number=Sing	32	amod	_	_
+37-39	ולמתקני	_	_	_	_	_	_	_	_
+37	ו	ו	CCONJ	CCONJ	_	39	cc	_	_
+38	ל	ל	ADP	ADP	_	39	case	_	_
+39	מתקני	מתקן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	32	conj	_	_
+40	שאיבה	שאיבה	NOUN	NOUN	Gender=Fem|Number=Sing	39	compound:smixut	_	_
+41	של	של	ADP	ADP	Case=Gen	42	case	_	_
+42	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	39	nmod:poss	_	_
+43	מקורות	מקור	NOUN	NOUN	Gender=Masc|Number=Plur	42	compound:smixut	_	SpaceAfter=No
+44	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:196
+# doc_range = 274-453
+# sent_id = 4987
+# text = חברת החשמל החליטה על ניתוק הזרם בעקבות חוב של מקורות לחודשים ספטמבר ואוקטובר, המגיע ל41 מיליון ש"ח.
+1	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	nsubj	_	_
+2-3	החשמל	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	חשמל	חשמל	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4	החליטה	החליט	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	על	על	ADP	ADP	_	6	case	_	_
+6	ניתוק	ניתוק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	obl	_	_
+7-8	הזרם	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	זרם	זרם	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+9	בעקבות	בעקבות	ADP	ADP	_	10	case	_	_
+10	חוב	חוב	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+11	של	של	ADP	ADP	Case=Gen	12	case	_	_
+12	מקורות	מקור	NOUN	NOUN	Gender=Masc|Number=Plur	10	nmod	_	_
+13-14	לחודשים	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	חודשים	חודש	NOUN	NOUN	Gender=Masc|Number=Plur	10	nmod	_	_
+15	ספטמבר	ספטמבר	PROPN	PROPN	_	14	nmod	_	HebSource=ConvUncertainLabel
+16-17	ואוקטובר	_	_	_	_	_	_	_	SpaceAfter=No
+16	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+17	אוקטובר	אוקטובר	PROPN	PROPN	_	15	conj	_	_
+18	,	,	PUNCT	PUNCT	_	20	punct	_	_
+19-20	המגיע	_	_	_	_	_	_	_	_
+19	ה	ה	SCONJ	SCONJ	_	20	mark	_	_
+20	מגיע	הגיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	10	acl:relcl	_	_
+21-22	ל41	_	_	_	_	_	_	_	_
+21	ל	ל	ADP	ADP	_	24	case	_	_
+22	41	41	NUM	NUM	_	23	nummod	_	_
+23	מיליון	מיליון	NUM	NUM	Gender=Masc|Number=Plur	24	nummod	_	_
+24	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+25	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:196
+# doc_range = 455-637
+# sent_id = 4988
+# text = חברת החשמל התכוונה להתחיל בניתוק הזרם ב1 בנובמבר, אך החליטה לתת ארכה של 10 ימים למקורות לפירעון החוב.
+1	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	nsubj	_	_
+2-3	החשמל	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	חשמל	חשמל	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4	התכוונה	התכוון	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+5	להתחיל	להתחיל	VERB	VERB	VerbForm=Inf	4	xcomp	_	_
+6-7	בניתוק	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	ניתוק	ניתוק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+8-9	הזרם	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	זרם	זרם	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound:smixut	_	_
+10-11	ב1	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	1	1	NUM	NUM	_	4	obl	_	_
+12-13	בנובמבר	_	_	_	_	_	_	_	SpaceAfter=No
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	נובמבר	נובמבר	PROPN	PROPN	_	11	obl	_	_
+14	,	,	PUNCT	PUNCT	_	16	punct	_	_
+15	אך	אך	CCONJ	CCONJ	_	16	cc	_	_
+16	החליטה	החליט	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	_
+17	לתת	נתן	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+18	ארכה	ארכה	NOUN	NOUN	Gender=Fem|Number=Sing	17	obj	_	_
+19	של	של	ADP	ADP	Case=Gen	21	case	_	_
+20	10	10	NUM	NUM	_	21	nummod	_	_
+21	ימים	יום	NOUN	NOUN	Gender=Masc|Number=Plur	18	nmod	_	_
+22-23	למקורות	_	_	_	_	_	_	_	_
+22	ל	ל	ADP	ADP	_	23	case	_	_
+23	מקורות	מקור	NOUN	NOUN	Gender=Masc|Number=Plur	18	nmod	_	_
+24-25	לפירעון	_	_	_	_	_	_	_	_
+24	ל	ל	ADP	ADP	_	25	case	_	_
+25	פירעון	פירעון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	18	nmod	_	_
+26-27	החוב	_	_	_	_	_	_	_	SpaceAfter=No
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	חוב	חוב	NOUN	NOUN	Gender=Masc|Number=Sing	25	compound:smixut	_	_
+28	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:196
+# doc_range = 640-838
+# sent_id = 4989
+# text = שר האנרגיה יובל נאמן ניסה בשבוע שעבר להביא לחיסול החוב לחברת החשמל ולמנוע בכך שיבושים באספקת המים, אך לשווא.
+1	שר	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	nsubj	_	_
+2-3	האנרגיה	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	אנרגיה	אנרגיה	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+4	יובל	יובל	PROPN	PROPN	_	1	flat:name	_	_
+5	נאמן	נאמן	PROPN	PROPN	_	1	flat:name	_	_
+6	ניסה	ניסה	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+7-8	בשבוע	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+9-10	שעבר	_	_	_	_	_	_	_	_
+9	ש	ש	SCONJ	SCONJ	_	10	mark	_	_
+10	עבר	עבר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	8	acl:relcl	_	_
+11	להביא	הביא	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+12-13	לחיסול	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	_	13	case	_	_
+13	חיסול	חיסול	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	obl	_	_
+14-15	החוב	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	חוב	חוב	NOUN	NOUN	Gender=Masc|Number=Sing	13	compound:smixut	_	_
+16-17	לחברת	_	_	_	_	_	_	_	_
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	11	obl	_	_
+18-19	החשמל	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	חשמל	חשמל	NOUN	NOUN	Gender=Masc|Number=Sing	17	compound:smixut	_	_
+20-21	ולמנוע	_	_	_	_	_	_	_	_
+20	ו	ו	CCONJ	CCONJ	_	21	cc	_	_
+21	למנוע	מנע	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	11	conj	_	_
+22-23	בכך	_	_	_	_	_	_	_	_
+22	ב	ב	ADP	ADP	_	23	case	_	_
+23	כך	כך	PRON	PRON	Person=3|PronType=Dem	21	obl	_	_
+24	שיבושים	שיבוש	NOUN	NOUN	Gender=Masc|Number=Plur	21	obj	_	_
+25-26	באספקת	_	_	_	_	_	_	_	_
+25	ב	ב	ADP	ADP	_	26	case	_	_
+26	אספקת	אספקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	24	nmod	_	_
+27-28	המים	_	_	_	_	_	_	_	SpaceAfter=No
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	מים	מים	NOUN	NOUN	Gender=Masc|Number=Plur	26	compound:smixut	_	_
+29	,	,	PUNCT	PUNCT	_	30	punct	_	_
+30	אך	אך	CCONJ	CCONJ	_	6	dep	_	HebSource=ConvUncertainHead
+31	לשווא	לשווא	ADV	ADV	_	30	advmod	_	HebSource=ConvUncertainHead|SpaceAfter=No
+32	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:196
+# doc_range = 840-1011
+# sent_id = 4990
+# text = דובר מקורות אישר אמש שהחברה קיבלה הודעה מחברת החשמל על ניתוק הזרם למוביל הארצי ולמתקני שאיבה.
+1	דובר	דובר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	מקורות	מקור	NOUN	NOUN	Gender=Masc|Number=Plur	1	compound:smixut	_	_
+3	אישר	אישר	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	אמש	אמש	ADV	ADV	_	3	advmod	_	_
+5-7	שהחברה	_	_	_	_	_	_	_	_
+5	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	קיבלה	קיבל	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	3	advcl	_	_
+9	הודעה	הודעה	NOUN	NOUN	Gender=Fem|Number=Sing	8	obj	_	_
+10-11	מחברת	_	_	_	_	_	_	_	_
+10	מ	מ	ADP	ADP	_	11	case	_	_
+11	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	nmod	_	_
+12-13	החשמל	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	חשמל	חשמל	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound:smixut	_	_
+14	על	על	ADP	ADP	_	15	case	_	_
+15	ניתוק	ניתוק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	nmod	_	_
+16-17	הזרם	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	זרם	זרם	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	_
+18-20	למוביל	_	_	_	_	_	_	_	_
+18	ל	ל	ADP	ADP	_	20	case	_	_
+19	ה_	ה	DET	DET	PronType=Art|Definite=Def	20	det	_	_
+20	מוביל	מוביל	NOUN	NOUN	Gender=Masc|Number=Sing	15	nmod	_	_
+21-22	הארצי	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	ארצי	ארצי	ADJ	ADJ	Gender=Masc|Number=Sing	20	amod	_	_
+23-25	ולמתקני	_	_	_	_	_	_	_	_
+23	ו	ו	CCONJ	CCONJ	_	25	cc	_	_
+24	ל	ל	ADP	ADP	_	25	case	_	_
+25	מתקני	מתקן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	20	conj	_	_
+26	שאיבה	שאיבה	NOUN	NOUN	Gender=Fem|Number=Sing	25	compound:smixut	_	SpaceAfter=No
+27	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:196
+# doc_range = 1013-1127
+# sent_id = 4991
+# text = לדבריו, למקורות גירעון מצטבר שבגללו אין באפשרותה לפרוע חובות.
+1-4	לדבריו	_	_	_	_	_	_	_	SpaceAfter=No
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	7	nmod	_	_
+3	_של_	של	ADP	ADP	Case=Gen	4	case:gen	_	_
+4	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5	,	,	PUNCT	PUNCT	_	2	punct	_	_
+6-7	למקורות	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	מקורות	מקור	NOUN	NOUN	Gender=Masc|Number=Plur	0	root	_	_
+8	גירעון	גירעון	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj	_	_
+9	מצטבר	הצטבר	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|VerbForm=Part	8	amod	_	_
+10-12	שבגללו	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	15	mark	_	_
+11	בגלל	בגלל	ADP	ADP	_	12	case	_	_
+12	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nmod	_	_
+13	אין	אין	ADV	ADV	_	15	advmod	_	_
+14-17	באפשרותה	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	אפשרות	אפשרות	NOUN	NOUN	Gender=Fem|Number=Sing	8	acl:relcl	_	_
+16	_של_	של	ADP	ADP	Case=Gen	17	case:gen	_	_
+17	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+18	לפרוע	פרע	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+19	חובות	חוב	NOUN	NOUN	Gender=Masc|Number=Plur	18	obj	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:196
+# doc_range = 1129-1337
+# sent_id = 4992
+# text = הוא האשים את משרד האוצר בעיכוב העברת 80 מיליון ש"ח למקורות כסובסידיה לשנת 90 וכתשלום על מפעלי מים שהחברה הקימה השנה.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	האשים	האשים	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	את	את	ADP	ADP	Case=Acc	4	case	_	_
+4	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	obj	_	_
+5-6	האוצר	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	אוצר	אוצר	NOUN	NOUN	Gender=Masc|Number=Sing	4	compound:smixut	_	_
+7-8	בעיכוב	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	עיכוב	עיכוב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	obl	_	_
+9	העברת	העברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	8	compound:smixut	_	_
+10	80	80	NUM	NUM	_	11	nummod	_	_
+11	מיליון	מיליון	NUM	NUM	Gender=Masc|Number=Plur	12	nummod	_	_
+12	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	9	compound:smixut	_	_
+13-14	למקורות	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	מקורות	מקור	NOUN	NOUN	Gender=Masc|Number=Plur	12	nmod	_	_
+15-16	כסובסידיה	_	_	_	_	_	_	_	_
+15	כ	כ	ADP	ADP	_	16	case	_	_
+16	סובסידיה	סובסידיה	NOUN	NOUN	Gender=Fem|Number=Sing	12	nmod	_	_
+17-18	לשנת	_	_	_	_	_	_	_	_
+17	ל	ל	ADP	ADP	_	18	case	_	_
+18	שנת	שנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	16	nmod	_	_
+19	90	90	NUM	NUM	_	18	compound:smixut	_	_
+20-22	וכתשלום	_	_	_	_	_	_	_	_
+20	ו	ו	CCONJ	CCONJ	_	22	cc	_	_
+21	כ	כ	ADP	ADP	_	22	case	_	_
+22	תשלום	תשלום	NOUN	NOUN	Gender=Masc|Number=Sing	16	conj	_	_
+23	על	על	ADP	ADP	_	24	case	_	_
+24	מפעלי	מפעל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	22	nmod	_	_
+25	מים	מים	NOUN	NOUN	Gender=Masc|Number=Plur	24	compound:smixut	_	_
+26-28	שהחברה	_	_	_	_	_	_	_	_
+26	ש	ש	SCONJ	SCONJ	_	29	mark	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	29	nsubj	_	_
+29	הקימה	הקים	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	24	acl:relcl	_	_
+30	השנה	השנה	ADV	ADV	_	29	advmod	_	SpaceAfter=No
+31	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:196
+# doc_range = 1339-1568
+# sent_id = 4993
+# text = בכירים במקורות האשימו את משרד האוצר כי "הפך את החברה לבת ערובה", שכן אי-העברת הכספים מקורה בדרישת האוצר לייקר את מחירי המים.
+1	בכירים	בכיר	NOUN	NOUN	Gender=Masc|Number=Plur	4	nsubj	_	_
+2-3	במקורות	_	_	_	_	_	_	_	_
+2	ב	ב	ADP	ADP	_	3	case	_	_
+3	מקורות	מקור	NOUN	NOUN	Gender=Masc|Number=Plur	1	nmod	_	_
+4	האשימו	האשים	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	את	את	ADP	ADP	Case=Acc	6	case	_	_
+6	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	obj	_	_
+7-8	האוצר	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	אוצר	אוצר	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+9	כי	כי	SCONJ	SCONJ	_	23	mark	_	_
+10	"	"	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+11	הפך	הפך	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	23	dep	_	HebSource=ConvUncertainHead
+12	את	את	ADP	ADP	Case=Acc	14	case	_	_
+13-14	החברה	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	11	obj	_	_
+15-16	לבת	_	_	_	_	_	_	_	_
+15	ל	ל	ADP	ADP	_	16	case	_	_
+16	בת	בת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	11	obl	_	_
+17	ערובה	ערובה	NOUN	NOUN	Gender=Fem|Number=Sing	16	compound:smixut	_	SpaceAfter=No
+18	"	"	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	11	punct	_	_
+20	שכן	שכן	SCONJ	SCONJ	_	23	mark	_	_
+21	אי	אי	ADV	ADV	Prefix=Yes	23	compound:affix	_	SpaceAfter=No
+22	-	-	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No
+23	העברת	העברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	advcl	_	_
+24-25	הכספים	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	כספים	כסף	NOUN	NOUN	Gender=Masc|Number=Plur	23	compound:smixut	_	_
+26-28	מקורה	_	_	_	_	_	_	_	_
+26	מקור	מקור	NOUN	NOUN	Gender=Masc|Number=Sing	30	nsubj	_	_
+27	_של_	של	ADP	ADP	Case=Gen	28	case:gen	_	_
+28	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+29-30	בדרישת	_	_	_	_	_	_	_	_
+29	ב	ב	ADP	ADP	_	30	case	_	_
+30	דרישת	דרישה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	23	acl:relcl	_	_
+31-32	האוצר	_	_	_	_	_	_	_	_
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	אוצר	אוצר	NOUN	NOUN	Gender=Masc|Number=Sing	30	compound:smixut	_	_
+33	לייקר	ייקר	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	30	acl	_	_
+34	את	את	ADP	ADP	Case=Acc	35	case	_	_
+35	מחירי	מחיר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	33	obj	_	_
+36-37	המים	_	_	_	_	_	_	_	SpaceAfter=No
+36	ה	ה	DET	DET	Definite=Def|PronType=Art	37	det	_	_
+37	מים	מים	NOUN	NOUN	Gender=Masc|Number=Plur	35	compound:smixut	_	_
+38	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:196
+# doc_range = 1570-1731
+# sent_id = 4994
+# text = ניתוק הזרם למתקני מים של מקורות יפגע פחות בחקלאים, הודות לגשמים שירדו ביומיים האחרונים.
+1	ניתוק	ניתוק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	nsubj	_	_
+2-3	הזרם	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	זרם	זרם	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4-5	למתקני	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	מתקני	מתקן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	1	nmod	_	_
+6	מים	מים	NOUN	NOUN	Gender=Masc|Number=Plur	5	compound:smixut	_	_
+7	של	של	ADP	ADP	Case=Gen	8	case	_	_
+8	מקורות	מקור	NOUN	NOUN	Gender=Masc|Number=Plur	5	nmod:poss	_	_
+9	יפגע	פגע	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	0	root	_	_
+10	פחות	פחות	ADV	ADV	_	13	advmod	_	_
+11-13	בחקלאים	_	_	_	_	_	_	_	SpaceAfter=No
+11	ב	ב	ADP	ADP	_	13	case	_	_
+12	ה_	ה	DET	DET	PronType=Art|Definite=Def	13	det	_	_
+13	חקלאים	חקלאי	NOUN	NOUN	Gender=Masc|Number=Plur	9	obl	_	_
+14	,	,	PUNCT	PUNCT	_	18	punct	_	_
+15	הודות	הודות	ADP	ADP	_	18	case	_	_
+16-18	לגשמים	_	_	_	_	_	_	_	_
+16	ל	ל	ADP	ADP	_	15	fixed	_	_
+17	ה_	ה	DET	DET	PronType=Art|Definite=Def	18	det	_	_
+18	גשמים	גשם	NOUN	NOUN	Gender=Masc|Number=Plur	9	obl	_	_
+19-20	שירדו	_	_	_	_	_	_	_	_
+19	ש	ש	SCONJ	SCONJ	_	20	mark	_	_
+20	ירדו	ירד	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	18	acl:relcl	_	_
+21-23	ביומיים	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	23	case	_	_
+22	ה_	ה	DET	DET	PronType=Art|Definite=Def	23	det	_	_
+23	יומיים	יום	NOUN	NOUN	Gender=Masc|Number=Dual	20	obl	_	_
+24-25	האחרונים	_	_	_	_	_	_	_	SpaceAfter=No
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	אחרונים	אחרון	ADJ	ADJ	Gender=Masc|Number=Plur	23	amod	_	_
+26	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:196
+# doc_range = 1733-1864
+# sent_id = 4995
+# text = הגשמים, שהיו בכמויות משמעותיות בעיקר בצפון, הביאו לצמצום בהיקף ההשקיה.
+1-2	הגשמים	_	_	_	_	_	_	_	SpaceAfter=No
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	גשמים	גשם	NOUN	NOUN	Gender=Masc|Number=Plur	14	nsubj	_	_
+3	,	,	PUNCT	PUNCT	_	5	punct	_	_
+4-5	שהיו	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	5	dep	_	_
+5	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	2	dep	_	_
+6-7	בכמויות	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	כמויות	כמות	NOUN	NOUN	Gender=Fem|Number=Plur	5	obl	_	_
+8	משמעותיות	משמעותי	ADJ	ADJ	Gender=Fem|Number=Plur	7	amod	_	_
+9	בעיקר	בעיקר	ADV	ADV	_	12	advmod	_	_
+10-12	בצפון	_	_	_	_	_	_	_	SpaceAfter=No
+10	ב	ב	ADP	ADP	_	12	case	_	_
+11	ה_	ה	DET	DET	PronType=Art|Definite=Def	12	det	_	_
+12	צפון	צפון	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+13	,	,	PUNCT	PUNCT	_	2	punct	_	_
+14	הביאו	הביא	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+15-16	לצמצום	_	_	_	_	_	_	_	_
+15	ל	ל	ADP	ADP	_	16	case	_	_
+16	צמצום	צמצום	NOUN	NOUN	Gender=Masc|Number=Sing	14	obl	_	_
+17-18	בהיקף	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	_	18	case	_	_
+18	היקף	היקף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	16	nmod	_	_
+19-20	ההשקיה	_	_	_	_	_	_	_	SpaceAfter=No
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	השקיה	השקיה	NOUN	NOUN	Gender=Fem|Number=Sing	18	compound:smixut	_	_
+21	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# doc_id = htb:196
+# doc_range = 1866-2097
+# sent_id = 4996
+# text = יו"ר ועדת המים של הכנסת, ח"כ עדנה סולודר (מערך), הגישה הצעה דחופה לסדר היום במליאת הכנסת בנושא חובה של חברת מקורות לחברת החשמל.
+1	יו"ר	יו"ר	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	16	nsubj	_	_
+2	ועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	compound:smixut	_	_
+3-4	המים	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	מים	מים	NOUN	NOUN	Gender=Masc|Number=Plur	2	compound:smixut	_	_
+5	של	של	ADP	ADP	Case=Gen	7	case	_	_
+6-7	הכנסת	_	_	_	_	_	_	_	SpaceAfter=No
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	כנסת	כנסת	PROPN	PROPN	_	2	nmod:poss	_	_
+8	,	,	PUNCT	PUNCT	_	9	punct	_	_
+9	ח"כ	ח"כ	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	1	appos	_	_
+10	עדנה	עדנה	PROPN	PROPN	_	9	flat:name	_	_
+11	סולודר	סולודר	PROPN	PROPN	_	9	flat:name	_	_
+12	(	(	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No
+13	מערך	מערך	PROPN	PROPN	_	1	appos	_	SpaceAfter=No
+14	)	)	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	1	punct	_	_
+16	הגישה	הגיש	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+17	הצעה	הצעה	NOUN	NOUN	Gender=Fem|Number=Sing	16	obj	_	_
+18	דחופה	דחוף	ADJ	ADJ	Gender=Fem|Number=Sing	17	amod	_	_
+19-20	לסדר	_	_	_	_	_	_	_	_
+19	ל	ל	ADP	ADP	_	20	case	_	_
+20	סדר	סדר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	nmod	_	_
+21-22	היום	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	יום	יום	NOUN	NOUN	Gender=Masc|Number=Sing	20	compound:smixut	_	_
+23-24	במליאת	_	_	_	_	_	_	_	_
+23	ב	ב	ADP	ADP	_	24	case	_	_
+24	מליאת	מליאה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	17	nmod	_	_
+25-26	הכנסת	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	כנסת	כנסת	PROPN	PROPN	_	24	compound:smixut	_	_
+27-28	בנושא	_	_	_	_	_	_	_	_
+27	ב	ב	ADP	ADP	_	28	case	_	_
+28	נושא	נושא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	nmod	_	_
+29	חובה	חובה	NOUN	NOUN	Gender=Fem|Number=Sing	28	compound:smixut	_	_
+30	של	של	ADP	ADP	Case=Gen	31	case	_	_
+31	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	29	nmod	_	_
+32	מקורות	מקור	NOUN	NOUN	Gender=Masc|Number=Plur	31	compound:smixut	_	_
+33-34	לחברת	_	_	_	_	_	_	_	_
+33	ל	ל	ADP	ADP	_	34	case	_	_
+34	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	29	nmod	_	_
+35-36	החשמל	_	_	_	_	_	_	_	SpaceAfter=No
+35	ה	ה	DET	DET	Definite=Def|PronType=Art	36	det	_	_
+36	חשמל	חשמל	NOUN	NOUN	Gender=Masc|Number=Sing	34	compound:smixut	_	_
+37	.	.	PUNCT	PUNCT	_	16	punct	_	_
+
+# doc_id = htb:196
+# doc_range = 2099-2395
+# sent_id = 4997
+# text = ח"כ סולודר האשימה את משרד האוצר שהפך את חברת מקורות לבת ערובה להעלאת מחירי המים, וזאת נוכח האיומים של חברת החשמל להפסיק מהיום את אספקת החשמל למקורות בגין חובותיה.
+1	ח"כ	ח"כ	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	סולודר	סולודר	PROPN	PROPN	_	1	flat:name	_	_
+3	האשימה	האשים	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	את	את	ADP	ADP	Case=Acc	5	case	_	_
+5	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	obj	_	_
+6-7	האוצר	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	אוצר	אוצר	NOUN	NOUN	Gender=Masc|Number=Sing	5	compound:smixut	_	_
+8-9	שהפך	_	_	_	_	_	_	_	_
+8	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
+9	הפך	הפך	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	3	ccomp	_	_
+10	את	את	ADP	ADP	Case=Acc	11	case	_	_
+11	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	obj	_	_
+12	מקורות	מקור	NOUN	NOUN	Gender=Masc|Number=Plur	11	compound:smixut	_	_
+13-14	לבת	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	בת	בת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	obl	_	_
+15	ערובה	ערובה	NOUN	NOUN	Gender=Fem|Number=Sing	14	compound:smixut	_	_
+16-17	להעלאת	_	_	_	_	_	_	_	_
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	העלאת	העלאה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	14	nmod	_	_
+18	מחירי	מחיר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	17	compound:smixut	_	_
+19-20	המים	_	_	_	_	_	_	_	SpaceAfter=No
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	מים	מים	NOUN	NOUN	Gender=Masc|Number=Plur	18	compound:smixut	_	_
+21	,	,	PUNCT	PUNCT	_	26	punct	_	_
+22-23	וזאת	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	_	26	cc	_	_
+23	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	26	nsubj	_	_
+24	נוכח	נוכח	ADP	ADP	_	26	case	_	_
+25-26	האיומים	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	איומים	איום	NOUN	NOUN	Gender=Masc|Number=Plur	3	conj	_	_
+27	של	של	ADP	ADP	Case=Gen	28	case	_	_
+28	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	26	nmod	_	_
+29-30	החשמל	_	_	_	_	_	_	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	חשמל	חשמל	NOUN	NOUN	Gender=Masc|Number=Sing	28	compound:smixut	_	_
+31	להפסיק	הפסיק	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	26	acl	_	_
+32-34	מהיום	_	_	_	_	_	_	_	_
+32	מ	מ	ADP	ADP	_	34	case	_	_
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	יום	יום	NOUN	NOUN	Gender=Masc|Number=Sing	31	obl	_	_
+35	את	את	ADP	ADP	Case=Acc	36	case	_	_
+36	אספקת	אספקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	31	obj	_	_
+37-38	החשמל	_	_	_	_	_	_	_	_
+37	ה	ה	DET	DET	Definite=Def|PronType=Art	38	det	_	_
+38	חשמל	חשמל	NOUN	NOUN	Gender=Masc|Number=Sing	36	compound:smixut	_	_
+39-40	למקורות	_	_	_	_	_	_	_	_
+39	ל	ל	ADP	ADP	_	40	case	_	_
+40	מקורות	מקור	NOUN	NOUN	Gender=Masc|Number=Plur	36	nmod	_	_
+41	בגין	בגין	ADP	ADP	_	42	case	_	_
+42-44	חובותיה	_	_	_	_	_	_	_	SpaceAfter=No
+42	חוב	חוב	NOUN	NOUN	Gender=Masc|Number=Plur	31	obl	_	_
+43	_של_	של	ADP	ADP	Case=Gen	44	case:gen	_	_
+44	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	42	nmod:poss	_	_
+45	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:196
+# doc_range = 2397-2630
+# sent_id = 4998
+# text = ח"כ סולודר אומרת כי העלאת מחירי המים, לא תוכל לספק את המימון לתפעול מקורות הן לטיפול השוטף, וגם לפיתוח מקורות מים אלטרנטיוויים.
+1	ח"כ	ח"כ	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	סולודר	סולודר	PROPN	PROPN	_	1	flat:name	_	_
+3	אומרת	אמר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4	כי	כי	SCONJ	SCONJ	_	12	mark	_	_
+5	העלאת	העלאה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	nsubj	_	_
+6	מחירי	מחיר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	5	compound:smixut	_	_
+7-8	המים	_	_	_	_	_	_	_	SpaceAfter=No
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	מים	מים	NOUN	NOUN	Gender=Masc|Number=Plur	6	compound:smixut	_	_
+9	,	,	PUNCT	PUNCT	_	5	punct	_	_
+10	לא	לא	ADV	ADV	Polarity=Neg	12	advmod	_	_
+11	תוכל	יכול	AUX	AUX	VerbType=Mod	12	aux	_	_
+12	לספק	סיפק	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	3	ccomp	_	_
+13	את	את	ADP	ADP	Case=Acc	15	case	_	_
+14-15	המימון	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	מימון	מימון	NOUN	NOUN	Gender=Masc|Number=Sing	12	obj	_	_
+16-17	לתפעול	_	_	_	_	_	_	_	_
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	תפעול	תפעול	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	15	nmod	_	_
+18	מקורות	מקור	NOUN	NOUN	Gender=Masc|Number=Plur	17	compound:smixut	_	_
+19	הן	הן	ADV	ADV	_	22	advmod	_	_
+20-22	לטיפול	_	_	_	_	_	_	_	_
+20	ל	ל	ADP	ADP	_	22	case	_	_
+21	ה_	ה	DET	DET	PronType=Art|Definite=Def	22	det	_	_
+22	טיפול	טיפול	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
+23-24	השוטף	_	_	_	_	_	_	_	SpaceAfter=No
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	שוטף	שוטף	ADJ	ADJ	Gender=Masc|Number=Sing	22	amod	_	_
+25	,	,	PUNCT	PUNCT	_	29	punct	_	_
+26-27	וגם	_	_	_	_	_	_	_	_
+26	ו	ו	CCONJ	CCONJ	_	29	cc	_	_
+27	גם	גם	ADV	ADV	_	29	advmod	_	_
+28-29	לפיתוח	_	_	_	_	_	_	_	_
+28	ל	ל	ADP	ADP	_	29	case	_	_
+29	פיתוח	פיתוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	22	conj	_	_
+30	מקורות	מקור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	29	compound:smixut	_	_
+31	מים	מים	NOUN	NOUN	Gender=Masc|Number=Plur	30	compound:smixut	_	_
+32	אלטרנטיוויים	אלטרנטיבי	ADJ	ADJ	Gender=Masc|Number=Plur	30	amod	_	SpaceAfter=No
+33	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:196
+# doc_range = 2632-2982
+# sent_id = 4999
+# text = יו"ר ועדת הכלכלה, ח"כ שושנה ארבלי אלמוזלינו (מערך), שיגרה ביום ו מברק דחוף אל מנכ"ל חברת החשמל יצחק חופי, וביקשה לדחות בשבוע ימים את ביצוע החלטתה של החברה, בדבר הפסקת אספקת החשמל למוביל הארצי.
+1	יו"ר	יו"ר	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	14	nsubj	_	_
+2	ועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	compound:smixut	_	_
+3-4	הכלכלה	_	_	_	_	_	_	_	SpaceAfter=No
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	כלכלה	כלכלה	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound:smixut	_	_
+5	,	,	PUNCT	PUNCT	_	6	punct	_	_
+6	ח"כ	ח"כ	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	1	appos	_	_
+7	שושנה	שושנה	PROPN	PROPN	_	6	flat:name	_	_
+8	ארבלי	ארבלי	PROPN	PROPN	_	6	flat:name	_	_
+9	אלמוזלינו	אלמוזלינו	PROPN	PROPN	_	7	flat:name	_	_
+10	(	(	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+11	מערך	מערך	PROPN	PROPN	_	1	appos	_	SpaceAfter=No
+12	)	)	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	1	punct	_	_
+14	שיגרה	שיגר	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+15-16	ביום	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	14	obl	_	_
+17	ו	ו	CCONJ	CCONJ	_	16	compound:smixut	_	_
+18	מברק	מברק	NOUN	NOUN	Gender=Masc|Number=Sing	14	obj	_	_
+19	דחוף	דחוף	ADJ	ADJ	Gender=Masc|Number=Sing	18	amod	_	_
+20	אל	אל	ADP	ADP	_	21	case	_	_
+21	מנכ"ל	מנכ"ל	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	14	obl	_	_
+22	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	21	compound:smixut	_	_
+23-24	החשמל	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	חשמל	חשמל	NOUN	NOUN	Gender=Masc|Number=Sing	22	compound:smixut	_	_
+25	יצחק	יצחק	PROPN	PROPN	_	21	flat:name	_	_
+26	חופי	חופי	ADJ	ADJ	Gender=Masc|Number=Sing	21	flat:name	_	SpaceAfter=No
+27	,	,	PUNCT	PUNCT	_	29	punct	_	_
+28-29	וביקשה	_	_	_	_	_	_	_	_
+28	ו	ו	CCONJ	CCONJ	_	29	cc	_	_
+29	ביקשה	ביקש	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	14	conj	_	_
+30	לדחות	דחה	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	29	xcomp	_	_
+31-32	בשבוע	_	_	_	_	_	_	_	_
+31	ב	ב	ADP	ADP	_	32	case	_	_
+32	שבוע	שבוע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	30	obl	_	_
+33	ימים	יום	NOUN	NOUN	Gender=Masc|Number=Plur	32	compound:smixut	_	_
+34	את	את	ADP	ADP	Case=Acc	35	case	_	_
+35	ביצוע	ביצוע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	30	obj	_	_
+36-38	החלטתה	_	_	_	_	_	_	_	_
+36	החלטה	החלטה	NOUN	NOUN	Gender=Fem|Number=Sing	35	compound:smixut	_	_
+37	_של_	של	ADP	ADP	Case=Gen	38	case:gen	_	_
+38	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	36	nmod:poss	_	_
+39	של	של	ADP	ADP	Case=Gen	41	case	_	_
+40-41	החברה	_	_	_	_	_	_	_	SpaceAfter=No
+40	ה	ה	DET	DET	Definite=Def|PronType=Art	41	det	_	_
+41	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	36	nmod:poss	_	_
+42	,	,	PUNCT	PUNCT	_	44	punct	_	_
+43-44	בדבר	_	_	_	_	_	_	_	_
+43	ב	ב	ADP	ADP	_	44	case	_	_
+44	דבר	דבר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	36	nmod	_	_
+45	הפסקת	הפסקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	44	compound:smixut	_	_
+46	אספקת	אספקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	45	compound:smixut	_	_
+47-48	החשמל	_	_	_	_	_	_	_	_
+47	ה	ה	DET	DET	Definite=Def|PronType=Art	48	det	_	_
+48	חשמל	חשמל	NOUN	NOUN	Gender=Masc|Number=Sing	46	compound:smixut	_	_
+49-51	למוביל	_	_	_	_	_	_	_	_
+49	ל	ל	ADP	ADP	_	51	case	_	_
+50	ה_	ה	DET	DET	PronType=Art|Definite=Def	51	det	_	_
+51	מוביל	מוביל	NOUN	NOUN	Gender=Masc|Number=Sing	45	nmod	_	_
+52-53	הארצי	_	_	_	_	_	_	_	SpaceAfter=No
+52	ה	ה	DET	DET	Definite=Def|PronType=Art	53	det	_	_
+53	ארצי	ארצי	ADJ	ADJ	Gender=Masc|Number=Sing	51	amod	_	_
+54	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# doc_id = htb:196
+# doc_range = 2984-3263
+# sent_id = 5000
+# text = ארבלי כתבה כי "עם כל הבנתי לצדקת התביעה של חברת החשמל, שעל מקורות לשלם את החוב המצטבר, אין להעניש את צרכני המים ולגרום נזקים למשק, על-ידי הפסקת ההזרמה".
+1	ארבלי	ארבלי	PROPN	PROPN	_	2	nsubj	_	_
+2	כתבה	כתב	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	כי	כי	SCONJ	SCONJ	_	30	mark	_	_
+4	"	"	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
+5	עם	עם	ADP	ADP	_	7	case	_	_
+6	כל	כול	DET	DET	Definite=Cons	7	det	_	_
+7-9	הבנתי	_	_	_	_	_	_	_	_
+7	הבנה	הבנה	NOUN	NOUN	Gender=Fem|Number=Sing	30	obl	_	_
+8	_של_	של	ADP	ADP	Case=Gen	9	case:gen	_	_
+9	_אני	הוא	PRON	PRON	Definite=Def|Gender=Fem,Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+10-11	לצדקת	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	11	case	_	_
+11	צדקת	צדקת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	nmod	_	_
+12-13	התביעה	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	תביעה	תביעה	NOUN	NOUN	Gender=Fem|Number=Sing	11	compound:smixut	_	_
+14	של	של	ADP	ADP	Case=Gen	15	case	_	_
+15	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	13	nmod:poss	_	_
+16-17	החשמל	_	_	_	_	_	_	_	SpaceAfter=No
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	חשמל	חשמל	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	_
+18	,	,	PUNCT	PUNCT	_	21	punct	_	_
+19-20	שעל	_	_	_	_	_	_	_	_
+19	ש	ש	SCONJ	SCONJ	_	21	mark	_	_
+20	על	על	ADP	ADP	_	21	case	_	_
+21	מקורות	מקור	NOUN	NOUN	Gender=Masc|Number=Plur	13	acl:relcl	_	_
+22	לשלם	שילם	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	21	xcomp	_	_
+23	את	את	ADP	ADP	Case=Acc	25	case	_	_
+24-25	החוב	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	חוב	חוב	NOUN	NOUN	Gender=Masc|Number=Sing	22	obj	_	_
+26-27	המצטבר	_	_	_	_	_	_	_	SpaceAfter=No
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	מצטבר	הצטבר	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|VerbForm=Part	25	amod	_	_
+28	,	,	PUNCT	PUNCT	_	7	punct	_	_
+29	אין	אין	AUX	AUX	VerbType=Mod	30	aux	_	_
+30	להעניש	העניש	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	2	ccomp	_	_
+31	את	את	ADP	ADP	Case=Acc	32	case	_	_
+32	צרכני	צרכן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	30	obj	_	_
+33-34	המים	_	_	_	_	_	_	_	_
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	מים	מים	NOUN	NOUN	Gender=Masc|Number=Plur	32	compound:smixut	_	_
+35-36	ולגרום	_	_	_	_	_	_	_	_
+35	ו	ו	CCONJ	CCONJ	_	36	cc	_	_
+36	לגרום	גרם	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	30	conj	_	_
+37	נזקים	נזק	NOUN	NOUN	Gender=Masc|Number=Plur	36	obj	_	_
+38-40	למשק	_	_	_	_	_	_	_	SpaceAfter=No
+38	ל	ל	ADP	ADP	_	40	case	_	_
+39	ה_	ה	DET	DET	PronType=Art|Definite=Def	40	det	_	_
+40	משק	משק	NOUN	NOUN	Gender=Masc|Number=Sing	37	nmod	_	_
+41	,	,	PUNCT	PUNCT	_	45	punct	_	_
+42	על	על	ADP	ADP	_	45	case	_	SpaceAfter=No
+43	-	-	PUNCT	PUNCT	_	44	punct	_	SpaceAfter=No
+44	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	42	fixed	_	_
+45	הפסקת	הפסקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	36	obl	_	_
+46-47	ההזרמה	_	_	_	_	_	_	_	SpaceAfter=No
+46	ה	ה	DET	DET	Definite=Def|PronType=Art	47	det	_	_
+47	הזרמה	הזרמה	NOUN	NOUN	Gender=Fem|Number=Sing	45	compound:smixut	_	_
+48	"	"	PUNCT	PUNCT	_	30	punct	_	SpaceAfter=No
+49	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:196
+# doc_range = 3265-3630
+# sent_id = 5001
+# text = היא הוסיפה כי בדעתה לזמן באופן דחוף את ועדת הכלכלה לדיון בנושא שבו ישתתפו כל הגורמים שבידם למצוא פתרון למצוקה הכספית של מקורות, ולאפשר על-ידי כך את תפעולה התקין של החברה, ותשלום חובותיה לחברת החשמל.
+1	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	הוסיפה	הוסיף	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	כי	כי	SCONJ	SCONJ	_	5	mark	_	_
+4-7	בדעתה	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	דעה	דעה	NOUN	NOUN	Gender=Fem|Number=Sing	2	ccomp	_	_
+6	_של_	של	ADP	ADP	Case=Gen	7	case:gen	_	_
+7	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+8	לזמן	זימן	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+9-10	באופן	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	אופן	אופן	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+11	דחוף	דחוף	ADJ	ADJ	Gender=Masc|Number=Sing	10	amod	_	_
+12	את	את	ADP	ADP	Case=Acc	13	case	_	_
+13	ועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	8	obj	_	_
+14-15	הכלכלה	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	כלכלה	כלכלה	NOUN	NOUN	Gender=Fem|Number=Sing	13	compound:smixut	_	_
+16-17	לדיון	_	_	_	_	_	_	_	_
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	דיון	דיון	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+18-20	בנושא	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	20	case	_	_
+19	ה_	ה	DET	DET	PronType=Art|Definite=Def	20	det	_	_
+20	נושא	נושא	NOUN	NOUN	Gender=Masc|Number=Sing	17	nmod	_	_
+21-23	שבו	_	_	_	_	_	_	_	_
+21	ש	ש	SCONJ	SCONJ	_	24	mark	_	_
+22	ב	ב	ADP	ADP	_	23	case	_	_
+23	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obl	_	_
+24	ישתתפו	השתתף	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Fut	17	acl:relcl	_	_
+25	כל	כול	DET	DET	Definite=Cons	27	det	_	_
+26-27	הגורמים	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	גורמים	גורם	NOUN	NOUN	Gender=Masc|Number=Plur	24	nsubj	_	_
+28-32	שבידם	_	_	_	_	_	_	_	_
+28	ש	ש	SCONJ	SCONJ	_	30	mark	_	_
+29	ב	ב	ADP	ADP	_	30	case	_	_
+30	יד	יד	NOUN	NOUN	Gender=Fem|Number=Sing	27	acl:relcl	_	_
+31	_של_	של	ADP	ADP	Case=Gen	32	case:gen	_	_
+32	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+33	למצוא	מצא	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	30	xcomp	_	_
+34	פתרון	פתרון	NOUN	NOUN	Gender=Masc|Number=Sing	33	obj	_	_
+35-37	למצוקה	_	_	_	_	_	_	_	_
+35	ל	ל	ADP	ADP	_	37	case	_	_
+36	ה_	ה	DET	DET	PronType=Art|Definite=Def	37	det	_	_
+37	מצוקה	מצוקה	NOUN	NOUN	Gender=Fem|Number=Sing	34	nmod	_	_
+38-39	הכספית	_	_	_	_	_	_	_	_
+38	ה	ה	DET	DET	Definite=Def|PronType=Art	39	det	_	_
+39	כספית	כספי	ADJ	ADJ	Gender=Fem|Number=Sing	37	amod	_	_
+40	של	של	ADP	ADP	Case=Gen	41	case	_	_
+41	מקורות	מקור	NOUN	NOUN	Gender=Masc|Number=Plur	37	nmod	_	SpaceAfter=No
+42	,	,	PUNCT	PUNCT	_	44	punct	_	_
+43-44	ולאפשר	_	_	_	_	_	_	_	_
+43	ו	ו	CCONJ	CCONJ	_	44	cc	_	_
+44	לאפשר	אפשר	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	33	conj	_	_
+45	על	על	ADP	ADP	_	48	case	_	SpaceAfter=No
+46	-	-	PUNCT	PUNCT	_	47	punct	_	SpaceAfter=No
+47	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	45	fixed	_	_
+48	כך	כך	PRON	PRON	Person=3|PronType=Dem	44	obl	_	_
+49	את	את	ADP	ADP	Case=Acc	50	case	_	_
+50-52	תפעולה	_	_	_	_	_	_	_	_
+50	תפעול	תפעול	NOUN	NOUN	Gender=Masc|Number=Sing	44	obj	_	_
+51	_של_	של	ADP	ADP	Case=Gen	52	case:gen	_	_
+52	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	50	nmod:poss	_	_
+53-54	התקין	_	_	_	_	_	_	_	_
+53	ה	ה	DET	DET	Definite=Def|PronType=Art	54	det	_	_
+54	תקין	תקין	ADJ	ADJ	Gender=Masc|Number=Sing	50	amod	_	_
+55	של	של	ADP	ADP	Case=Gen	57	case	_	_
+56-57	החברה	_	_	_	_	_	_	_	SpaceAfter=No
+56	ה	ה	DET	DET	Definite=Def|PronType=Art	57	det	_	_
+57	חברה	חבר	NOUN	NOUN	Gender=Fem|Number=Sing	50	nmod	_	_
+58	,	,	PUNCT	PUNCT	_	60	punct	_	_
+59-60	ותשלום	_	_	_	_	_	_	_	_
+59	ו	ו	CCONJ	CCONJ	_	60	cc	_	_
+60	תשלום	תשלום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	50	conj	_	_
+61-63	חובותיה	_	_	_	_	_	_	_	_
+61	חוב	חוב	NOUN	NOUN	Gender=Masc|Number=Plur	60	compound:smixut	_	_
+62	_של_	של	ADP	ADP	Case=Gen	63	case:gen	_	_
+63	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	61	nmod:poss	_	_
+64-65	לחברת	_	_	_	_	_	_	_	_
+64	ל	ל	ADP	ADP	_	65	case	_	_
+65	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	60	nmod	_	_
+66-67	החשמל	_	_	_	_	_	_	_	SpaceAfter=No
+66	ה	ה	DET	DET	Definite=Def|PronType=Art	67	det	_	_
+67	חשמל	חשמל	NOUN	NOUN	Gender=Masc|Number=Sing	65	compound:smixut	_	_
+68	.	.	PUNCT	PUNCT	_	2	punct	_	_
+

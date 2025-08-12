@@ -1,0 +1,145 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Cache and temporary files
+cache/
+*.cache
+*.tmp
+*.temp
+*.log
+*.out
+
+# Model files and large data
+*.bin
+*.safetensors
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.pth
+*.pt
+*.ckpt
+*.model
+*.weights
+
+# Data files (now in separate repo)
+# Note: data/ is now a submodule, so we don't ignore it
+!data/
+outputs/
+np_chunk_output/
+np_result_test/
+
+# Neural model caches
+src/neural_models/neural_coref/cache/
+src/neural_models/neural_coref/cache/cache/
+
+# Large output files
+*.webbano
+*.webanno
+*.7z
+*.zip
+*.tar.gz
+*.rar
+
+# Jupyter notebooks
+*.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Documentation builds
+docs/_build/
+site/
+
+# Large statistics outputs
+statistics/outputs/
+error_analysis/outputs/
+
+# Agreement calculation (moved to data repo)
+agreement_calculation/
+
+# Submodules (will be added separately)
+src/llm_evaluation/llm_coref/src/
+src/neural_models/neural_coref/
+
+# Large data directories in src
+src/llm_evaluation/llm_coref/data/
+src/llm_evaluation/llm_coref/neural_models/*/data/
+src/neural_models/neural_coref/data/
+
+# Large model files and downloads
+*.bin
+*.safetensors
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.pth
+*.pt
+*.ckpt
+*.model
+*.weights
+*.tar.gz
+*.zip
+*.7z
+*.rar
+
+# Large data directories
+src/llm_evaluation/llm_coref/neural_models/*/downloads/
+src/llm_evaluation/llm_coref/neural_models/*/results/
+src/neural_models/neural_coref/results/
+src/llm_evaluation/llm_coref/data_coref/
+
+# Exclude all .git directories in subdirectories
+**/.git/ src/mention_detection/trankit_parser/cache/
+src/annotation/tne_ui/data/tne_data.dat

@@ -1,0 +1,547 @@
+# doc_id = htb:102_1
+# doc_range = 1-299
+# sent_id = 2418
+# text = ביטול תחרות המאסטרס היוקרתית בסיף, בהשתתפות 08 הטובים בעולם לצורך ניקוד בדירוג העולמי (כמו בטניס) הינה ביטוי חריף נוסף לבעיה תקציבית חמורה בה נתקל הספורט הישראלי.
+1	ביטול	ביטול	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	32	nsubj	_	_
+2	תחרות	תחרות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	compound:smixut	_	_
+3-4	המאסטרס	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	מאסטרס	המאסטרס	PROPN	PROPN	_	2	compound:smixut	_	_
+5-6	היוקרתית	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	יוקרתית	יוקרתי	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+7-8	בסיף	_	_	_	_	_	_	_	SpaceAfter=No
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	סיף	סיף	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_
+9	,	,	PUNCT	PUNCT	_	11	punct	_	_
+10-11	בהשתתפות	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	השתתפות	השתתפות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	nmod	_	_
+12	08	08	NUM	NUM	_	11	compound:smixut	_	_
+13-14	הטובים	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	טובים	טוב	ADJ	ADJ	Gender=Masc|Number=Plur	12	amod	_	_
+15-17	בעולם	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	17	case	_	_
+16	ה_	ה	DET	DET	PronType=Art|Definite=Def	17	det	_	_
+17	עולם	עולם	NOUN	NOUN	Gender=Masc|Number=Sing	14	obl	_	_
+18-19	לצורך	_	_	_	_	_	_	_	_
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	צורך	צורך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	nmod	_	_
+20	ניקוד	ניקוד	NOUN	NOUN	Gender=Masc|Number=Sing	19	compound:smixut	_	_
+21-23	בדירוג	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	23	case	_	_
+22	ה_	ה	DET	DET	PronType=Art|Definite=Def	23	det	_	_
+23	דירוג	דירוג	NOUN	NOUN	Gender=Masc|Number=Sing	20	nmod	_	_
+24-25	העולמי	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	עולמי	עולמי	ADJ	ADJ	Gender=Masc|Number=Sing	23	amod	_	_
+26	(	(	PUNCT	PUNCT	_	29	punct	_	SpaceAfter=No
+27	כמו	כמו	ADP	ADP	_	29	case	_	_
+28-29	בטניס	_	_	_	_	_	_	_	SpaceAfter=No
+28	ב	ב	ADP	ADP	_	29	case	_	_
+29	טניס	טניס	NOUN	NOUN	Gender=Masc|Number=Sing	20	appos	_	_
+30	)	)	PUNCT	PUNCT	_	29	punct	_	_
+31	הינה	הינה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	32	cop	_	_
+32	ביטוי	ביטוי	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+33	חריף	חריף	ADJ	ADJ	Gender=Masc|Number=Sing	32	amod	_	_
+34	נוסף	נוסף	ADJ	ADJ	Gender=Masc|Number=Sing	32	amod	_	_
+35-36	לבעיה	_	_	_	_	_	_	_	_
+35	ל	ל	ADP	ADP	_	36	case	_	_
+36	בעיה	בעיה	NOUN	NOUN	Gender=Fem|Number=Sing	32	nmod	_	_
+37	תקציבית	תקציבי	ADJ	ADJ	Gender=Fem|Number=Sing	36	amod	_	_
+38	חמורה	חמור	ADJ	ADJ	Gender=Fem|Number=Sing	36	amod	_	_
+39-40	בה	_	_	_	_	_	_	_	_
+39	ב	ב	ADP	ADP	_	40	case	_	_
+40	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	41	obl	_	_
+41	נתקל	נתקל	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	36	acl:relcl	_	_
+42-43	הספורט	_	_	_	_	_	_	_	_
+42	ה	ה	DET	DET	Definite=Def|PronType=Art	43	det	_	_
+43	ספורט	ספורט	NOUN	NOUN	Gender=Masc|Number=Sing	41	nsubj	_	_
+44-45	הישראלי	_	_	_	_	_	_	_	SpaceAfter=No
+44	ה	ה	DET	DET	Definite=Def|PronType=Art	45	det	_	_
+45	ישראלי	ישראלי	ADJ	ADJ	Gender=Masc|Number=Sing	43	amod	_	_
+46	.	.	PUNCT	PUNCT	_	32	punct	_	_
+
+# doc_id = htb:102_1
+# doc_range = 301-342
+# sent_id = 2419
+# text = התמונה המצטיירת עגומה.
+1-2	התמונה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	תמונה	תמונה	NOUN	NOUN	Gender=Fem|Number=Sing	5	nsubj	_	_
+3-4	המצטיירת	_	_	_	_	_	_	_	_
+3	ה	ה	SCONJ	SCONJ	_	4	mark	_	_
+4	מצטיירת	הצטייר	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	2	acl:relcl	_	_
+5	עגומה	עגום	ADJ	ADJ	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:102_1
+# doc_range = 344-564
+# sent_id = 2420
+# text = ההתאחדות לספורט והאיגודים הענפיים המסונפים אליה, מתחבטים בבעיות קיום, בנסיון לניהול מקצועי תחת לחצים ואילוצים כספיים.
+1-2	ההתאחדות	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	התאחדות	התאחדות	NOUN	NOUN	Gender=Fem|Number=Sing	15	dep	_	_
+3-4	לספורט	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	4	case	_	_
+4	ספורט	ספורט	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_
+5-7	והאיגודים	_	_	_	_	_	_	_	_
+5	ו	ו	CCONJ	CCONJ	_	7	cc	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	איגודים	איגוד	NOUN	NOUN	Gender=Masc|Number=Plur	2	conj	_	_
+8-9	הענפיים	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	ענפיים	ענפי	ADJ	ADJ	Gender=Masc|Number=Plur	7	amod	_	_
+10-11	המסונפים	_	_	_	_	_	_	_	_
+10	ה	ה	SCONJ	SCONJ	_	11	mark	_	_
+11	מסונפים	סונף	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	7	acl:relcl	_	_
+12-13	אליה	_	_	_	_	_	_	_	SpaceAfter=No
+12	אל	אל	ADP	ADP	_	13	case	_	_
+13	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+14	,	,	PUNCT	PUNCT	_	2	punct	_	_
+15	מתחבטים	התחבט	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+16-17	בבעיות	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	בעיות	בעיה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	15	obl	_	_
+18	קיום	קיום	NOUN	NOUN	Gender=Masc|Number=Sing	17	compound:smixut	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	21	punct	_	_
+20-21	בנסיון	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	נסיון	ניסיון	NOUN	NOUN	Gender=Masc|Number=Sing	15	obl	_	_
+22-23	לניהול	_	_	_	_	_	_	_	_
+22	ל	ל	ADP	ADP	_	23	case	_	_
+23	ניהול	ניהול	NOUN	NOUN	Gender=Masc|Number=Sing	21	nmod	_	_
+24	מקצועי	מקצועי	ADJ	ADJ	Gender=Masc|Number=Sing	23	amod	_	_
+25	תחת	תחת	ADP	ADP	_	26	case	_	_
+26	לחצים	לחץ	NOUN	NOUN	Gender=Masc|Number=Plur	23	nmod	_	_
+27-28	ואילוצים	_	_	_	_	_	_	_	_
+27	ו	ו	CCONJ	CCONJ	_	28	cc	_	_
+28	אילוצים	אילוץ	NOUN	NOUN	Gender=Masc|Number=Plur	26	conj	_	_
+29	כספיים	כספי	ADJ	ADJ	Gender=Masc|Number=Plur	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	PUNCT	_	15	punct	_	_
+
+# doc_id = htb:102_1
+# doc_range = 566-655
+# sent_id = 2421
+# text = העתיד אינו צופן שינוי, גם עלול להיות רע עוד יותר.
+1-2	העתיד	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	עתיד	עתיד	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	אינו	אינו	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	4	aux	_	_
+4	צופן	צפן	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+5	שינוי	שינוי	NOUN	NOUN	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	9	punct	_	_
+7	גם	גם	ADV	ADV	_	9	advmod	_	_
+8	עלול	עלול	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	9	aux	_	_
+9	להיות	היה	AUX	AUX	Polarity=Pos|VerbForm=Inf|VerbType=Cop	4	parataxis	_	_
+10	רע	רע	ADJ	ADJ	Gender=Masc|Number=Sing	9	obl	_	_
+11	עוד	עוד	ADV	ADV	_	10	advmod	_	_
+12	יותר	יותר	ADV	ADV	_	11	fixed	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:102_1
+# doc_range = 657-787
+# sent_id = 2422
+# text = קשה לדבר על התפתחות כאשר חומר הגלם הכסף אינו מצוי אפילו במינימום הנחוץ.
+1	קשה	קשה	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbType=Mod	2	aux	_	_
+2	לדבר	דיבר	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	0	root	_	_
+3	על	על	ADP	ADP	_	4	case	_	_
+4	התפתחות	התפתחות	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl	_	_
+5	כאשר	כאשר	SCONJ	SCONJ	_	12	mark	_	_
+6	חומר	חומר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	nsubj	_	_
+7-8	הגלם	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	גלם	גלם	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+9-10	הכסף	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	כסף	כסף	NOUN	NOUN	Gender=Masc|Number=Sing	6	nmod	_	_
+11	אינו	אינו	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	12	aux	_	_
+12	מצוי	מצוי	ADJ	ADJ	Gender=Masc|Number=Sing	2	advcl	_	_
+13	אפילו	אפילו	ADV	ADV	_	16	advmod	_	_
+14-16	במינימום	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	16	case	_	_
+15	ה_	ה	DET	DET	PronType=Art|Definite=Def	16	det	_	_
+16	מינימום	מינימום	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
+17-18	הנחוץ	_	_	_	_	_	_	_	SpaceAfter=No
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	נחוץ	נחוץ	ADJ	ADJ	Gender=Masc|Number=Sing	16	amod	_	_
+19	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:102_1
+# doc_range = 789-952
+# sent_id = 2423
+# text = את מה שיש מגדיר מנכ"ל ההתאחדות לספורט, שמואל ללקין, כ"תקציבי קיום" וגם "תקציבים אומללים".
+1	את	את	ADP	ADP	Case=Acc	2	case	_	_
+2	מה	מה	PRON	PRON	PronType=Int	5	obj	_	_
+3-4	שיש	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
+4	יש	יש	VERB	VERB	HebExistential=Yes	2	acl:relcl	_	_
+5	מגדיר	הגדיר	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+6	מנכ"ל	מנכ"ל	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	5	nsubj	_	_
+7-8	ההתאחדות	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	התאחדות	התאחדות	NOUN	NOUN	Gender=Fem|Number=Sing	6	compound:smixut	_	_
+9-10	לספורט	_	_	_	_	_	_	_	SpaceAfter=No
+9	ל	ל	ADP	ADP	_	10	case	_	_
+10	ספורט	ספורט	NOUN	NOUN	Gender=Masc|Number=Sing	8	nmod	_	_
+11	,	,	PUNCT	PUNCT	_	12	punct	_	_
+12	שמואל	שמואל	PROPN	PROPN	_	6	appos	_	_
+13	ללקין	ללקין	PROPN	PROPN	_	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	17	punct	_	_
+15-17	כ"תקציבי	_	_	_	_	_	_	_	_
+15	כ	כ	ADP	ADP	_	17	case	_	_
+16	"	"	PUNCT	PUNCT	_	17	punct	_	_
+17	תקציבי	תקציבי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	5	obl	_	_
+18	קיום	קיום	NOUN	NOUN	Gender=Masc|Number=Sing	17	compound:smixut	_	SpaceAfter=No
+19	"	"	PUNCT	PUNCT	_	17	punct	_	_
+20-21	וגם	_	_	_	_	_	_	_	_
+20	ו	ו	CCONJ	CCONJ	_	21	cc	_	_
+21	גם	גם	ADV	ADV	_	17	conj	_	_
+22	"	"	PUNCT	PUNCT	_	23	punct	_	SpaceAfter=No
+23	תקציבים	תקציב	NOUN	NOUN	Gender=Masc|Number=Plur	17	conj	_	_
+24	אומללים	אומלל	ADJ	ADJ	Gender=Masc|Number=Plur	23	amod	_	SpaceAfter=No
+25	"	"	PUNCT	PUNCT	_	23	punct	_	SpaceAfter=No
+26	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:102_1
+# doc_range = 954-1088
+# sent_id = 2424
+# text = לא רק זאת: תקציב ההתאחדות לספורט ב-1991 יפחת באופן ריאלי בשיעור 03 עד 04 אחוזים.
+1	לא	לא	ADV	ADV	Polarity=Neg	2	advmod	_	_
+2	רק	רק	ADV	ADV	_	13	advmod	_	_
+3	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+4	:	:	PUNCT	PUNCT	_	2	punct	_	_
+5	תקציב	תקציב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	nsubj	_	_
+6-7	ההתאחדות	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	התאחדות	התאחדות	NOUN	NOUN	Gender=Fem|Number=Sing	5	compound:smixut	_	_
+8-9	לספורט	_	_	_	_	_	_	_	_
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	ספורט	ספורט	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
+10	ב	ב	ADP	ADP	_	12	case	_	SpaceAfter=No
+11	-	-	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
+12	1991	1991	NUM	NUM	_	5	nmod	_	_
+13	יפחת	פחת	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	0	root	_	_
+14-15	באופן	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	אופן	אופן	NOUN	NOUN	Gender=Masc|Number=Sing	13	obl	_	_
+16	ריאלי	ריאלי	ADJ	ADJ	Gender=Masc|Number=Sing	15	amod	_	_
+17-18	בשיעור	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	_	18	case	_	_
+18	שיעור	שיעור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	obl	_	_
+19	03	03	NUM	NUM	_	22	nummod	_	_
+20	עד	עד	ADP	ADP	_	19	dep	_	_
+21	04	04	NUM	NUM	_	19	nummod	_	_
+22	אחוזים	אחוז	NOUN	NOUN	Gender=Masc|Number=Plur	18	compound:smixut	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# doc_id = htb:102_1
+# doc_range = 1090-1173
+# sent_id = 2425
+# text = תקציב השנה שעברה היה קצת יותר מ-21 מיליון שקל.
+1	תקציב	תקציב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	nsubj	_	_
+2-3	השנה	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+4-5	שעברה	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	5	mark	_	_
+5	עברה	עבר	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Past	3	acl:relcl	_	_
+6	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	13	cop	_	_
+7	קצת	קצת	ADV	ADV	_	8	advmod	_	_
+8	יותר	יותר	ADV	ADV	_	13	advmod	_	_
+9	מ	מ	ADP	ADP	_	8	fixed	_	SpaceAfter=No
+10	-	-	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+11	21	21	NUM	NUM	_	12	nummod	_	_
+12	מיליון	מיליון	NUM	NUM	Gender=Masc|Number=Plur	13	nummod	_	_
+13	שקל	שקל	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# doc_id = htb:102_1
+# doc_range = 1178-1239
+# sent_id = 2426
+# text = כ-11 מיליון מהמועצה להסדר ההימורים.
+1	כ	כ	ADP	ADP	_	4	case	_	SpaceAfter=No
+2	-	-	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+3	11	11	NUM	NUM	_	4	nummod	_	_
+4	מיליון	מיליון	NUM	NUM	Gender=Masc|Number=Plur	0	root	_	_
+5-7	מהמועצה	_	_	_	_	_	_	_	_
+5	מ	מ	ADP	ADP	_	7	case	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	מועצה	מועצה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+8-9	להסדר	_	_	_	_	_	_	_	_
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	הסדר	הסדר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nmod	_	_
+10-11	ההימורים	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	הימורים	הימור	NOUN	NOUN	Gender=Masc|Number=Plur	9	compound:smixut	_	_
+12	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:102_1
+# doc_range = 1241-1285
+# sent_id = 2427
+# text = המדינה הקציבה 300,000 שקל.
+1-2	המדינה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מדינה	מדינה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	הקציבה	הקציב	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	300,000	300,000	NUM	NUM	_	5	nummod	_	_
+5	שקל	שקל	NOUN	NOUN	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:102_1
+# doc_range = 1287-1316
+# sent_id = 2428
+# text = היתר כסף מגוייס.
+1-2	היתר	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	יתר	יתר	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	כסף	כסף	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+4	מגוייס	מגוייס	ADJ	ADJ	_	3	amod	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:102_1
+# doc_range = 1318-1369
+# sent_id = 2429
+# text = תקציב 1991 דומה: 31 מיליון שקל.
+1	תקציב	תקציב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	1991	1991	NUM	NUM	_	1	compound:smixut	_	_
+3	דומה	דומה	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	PUNCT	_	7	punct	_	_
+5	31	31	NUM	NUM	_	6	nummod	_	_
+6	מיליון	מיליון	NUM	NUM	Gender=Masc|Number=Plur	7	nummod	_	_
+7	שקל	שקל	NOUN	NOUN	Gender=Masc|Number=Sing	3	dep	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:102_1
+# doc_range = 1371-1419
+# sent_id = 2430
+# text = 02 איגודים בהתאחדות לספורט.
+1	02	02	NUM	NUM	_	2	nummod	_	_
+2	איגודים	איגוד	NOUN	NOUN	Gender=Masc|Number=Plur	5	nsubj	_	_
+3-5	בהתאחדות	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	5	case	_	_
+4	ה_	ה	DET	DET	PronType=Art|Definite=Def	5	det	_	_
+5	התאחדות	התאחדות	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+6-7	לספורט	_	_	_	_	_	_	_	SpaceAfter=No
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	ספורט	ספורט	NOUN	NOUN	Gender=Masc|Number=Sing	5	nmod	_	_
+8	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:102_1
+# doc_range = 1421-1495
+# sent_id = 2431
+# text = יש המקבלים תקציב שנתי בסך 350,000 שקל בלבד.
+1	יש	יש	VERB	VERB	HebExistential=Yes	0	root	_	_
+2-3	המקבלים	_	_	_	_	_	_	_	_
+2	ה	ה	SCONJ	SCONJ	_	3	mark	_	_
+3	מקבלים	קיבל	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	1	csubj	_	_
+4	תקציב	תקציב	NOUN	NOUN	Gender=Masc|Number=Sing	3	obj	_	_
+5	שנתי	שנתי	ADJ	ADJ	Gender=Masc|Number=Sing	4	amod	_	_
+6-7	בסך	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	סך	סך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nmod	_	_
+8	350,000	350,000	NUM	NUM	_	9	nummod	_	_
+9	שקל	שקל	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound:smixut	_	_
+10	בלבד	בלבד	ADV	ADV	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:102_1
+# doc_range = 1497-1580
+# sent_id = 2432
+# text = בנתח הגדול ביותר זוכה איגוד הכדוריד 900,000 שקל.
+1-3	בנתח	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	נתח	נתח	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
+4-5	הגדול	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	גדול	גדול	ADJ	ADJ	Gender=Masc|Number=Sing	3	amod	_	_
+6	ביותר	ביותר	ADV	ADV	_	5	advmod	_	_
+7	זוכה	זכה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+8	איגוד	איגוד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nsubj	_	_
+9-10	הכדוריד	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	כדוריד	כדוריד	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound:smixut	_	_
+11	900,000	900,000	NUM	NUM	_	12	nummod	_	_
+12	שקל	שקל	NOUN	NOUN	Gender=Masc|Number=Sing	7	parataxis	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:102_1
+# doc_range = 1581-1640
+# sent_id = 2433
+# text = 300,000 ממנו הולכים על הוצאות שיפוט.
+1	300,000	300,000	NUM	NUM	_	3	nummod	_	_
+2-3	ממנו	_	_	_	_	_	_	_	_
+2	מן	מן	ADP	ADP	_	3	case	_	_
+3	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	הולכים	הלך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+5	על	על	ADP	ADP	_	6	case	_	_
+6	הוצאות	הוצאה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	4	obl	_	_
+7	שיפוט	שיפוט	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:102_1
+# doc_range = 1642-1883
+# sent_id = 2434
+# text = מלבד האיגודים, מקיימת ההתאחדות לספורט גם פעולות ייחודיות: היחידה לספורט הישגי, מרכזי אימון, סיוע לקבוצות אלופות, בית ספר למאמנים.
+1	מלבד	מלבד	ADP	ADP	_	3	case	_	_
+2-3	האיגודים	_	_	_	_	_	_	_	SpaceAfter=No
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	איגודים	איגוד	NOUN	NOUN	Gender=Masc|Number=Plur	5	obl	_	_
+4	,	,	PUNCT	PUNCT	_	3	punct	_	_
+5	מקיימת	קיים	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+6-7	ההתאחדות	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	התאחדות	התאחדות	NOUN	NOUN	Gender=Fem|Number=Sing	5	nsubj	_	_
+8-9	לספורט	_	_	_	_	_	_	_	_
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	ספורט	ספורט	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
+10	גם	גם	ADV	ADV	_	5	advmod	_	_
+11	פעולות	פעולה	NOUN	NOUN	Gender=Fem|Number=Plur	5	obj	_	_
+12	ייחודיות	ייחודי	ADJ	ADJ	Gender=Fem|Number=Plur	11	amod	_	SpaceAfter=No
+13	:	:	PUNCT	PUNCT	_	15	punct	_	_
+14-15	היחידה	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	יחידה	יחידה	NOUN	NOUN	Gender=Fem|Number=Sing	11	nmod	_	_
+16-17	לספורט	_	_	_	_	_	_	_	_
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	ספורט	ספורט	NOUN	NOUN	Gender=Masc|Number=Sing	15	nmod	_	_
+18	הישגי	הישגי	ADJ	ADJ	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	20	punct	_	HebSource=ConvUncertainHead
+20	מרכזי	מרכז	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	15	dep	_	HebSource=ConvUncertainHead
+21	אימון	אימון	NOUN	NOUN	Gender=Masc|Number=Sing	20	compound:smixut	_	SpaceAfter=No
+22	,	,	PUNCT	PUNCT	_	23	punct	_	HebSource=ConvUncertainHead
+23	סיוע	סיוע	NOUN	NOUN	Gender=Masc|Number=Sing	15	dep	_	HebSource=ConvUncertainHead
+24-25	לקבוצות	_	_	_	_	_	_	_	_
+24	ל	ל	ADP	ADP	_	25	case	_	_
+25	קבוצות	קבוצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	23	nmod	_	_
+26	אלופות	אלופה	NOUN	NOUN	Gender=Fem|Number=Plur	25	compound:smixut	_	SpaceAfter=No
+27	,	,	PUNCT	PUNCT	_	28	punct	_	HebSource=ConvUncertainHead
+28	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	15	dep	_	HebSource=ConvUncertainHead
+29	ספר	ספר	NOUN	NOUN	Gender=Masc|Number=Sing	28	compound:smixut	_	_
+30-31	למאמנים	_	_	_	_	_	_	_	SpaceAfter=No
+30	ל	ל	ADP	ADP	_	31	case	_	_
+31	מאמנים	מאמן	NOUN	NOUN	Gender=Masc|Number=Plur	28	nmod	_	_
+32	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:102_1
+# doc_range = 1885-1968
+# sent_id = 2435
+# text = באחרונה הוכנסו מערכת מחשב ותוכנות לכל הענפים.
+1	באחרונה	באחרונה	ADV	ADV	_	2	advmod	_	_
+2	הוכנסו	הוכנס	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+3	מערכת	מערכת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	nsubj:pass	_	_
+4	מחשב	מחשב	NOUN	NOUN	Gender=Masc|Number=Sing	3	compound:smixut	_	_
+5-6	ותוכנות	_	_	_	_	_	_	_	_
+5	ו	ו	CCONJ	CCONJ	_	6	cc	_	_
+6	תוכנות	תוכנה	NOUN	NOUN	Gender=Fem|Number=Plur	3	conj	_	_
+7-8	לכל	_	_	_	_	_	_	_	_
+7	ל	ל	ADP	ADP	_	10	case	_	_
+8	כל	כול	DET	DET	Definite=Cons	10	det	_	_
+9-10	הענפים	_	_	_	_	_	_	_	SpaceAfter=No
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	ענפים	ענף	NOUN	NOUN	Gender=Masc|Number=Plur	2	obl	_	_
+11	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:102_1
+# doc_range = 1971-2001
+# sent_id = 2436
+# text = זה עולה הרבה כסף.
+1	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	עולה	עלה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+3	הרבה	הרבה	DET	DET	Definite=Cons	4	det	_	_
+4	כסף	כסף	NOUN	NOUN	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:102_1
+# doc_range = 2003-2041
+# sent_id = 2437
+# text = קפספבינהגרעון משתנה.
+1-3	קפספבינהגרעון	_	_	_	_	_	_	_	_
+1	קפספבינ	קפספבינ	X	X	_	4	dep	_	Xtra=Junk
+2	ה	ה	DET	DET	_	3	det	_	_
+3	גרעון	גרעון	X	X	_	4	nsubj	_	_
+4	משתנה	השתנה	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:102_1
+# doc_range = 2043-2106
+# sent_id = 2438
+# text = ללקין: "הוא פונקציה של מה שנותנים.
+1	ללקין	ללקין	PROPN	PROPN	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	PUNCT	_	5	punct	_	_
+3	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+4	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	פונקציה	פונקציה	NOUN	NOUN	Gender=Fem|Number=Sing	1	ccomp	_	_
+6	של	של	ADP	ADP	Case=Gen	7	case	_	_
+7	מה	מה	PRON	PRON	Poss=Yes|PronType=Int	5	nmod:poss	_	_
+8-9	שנותנים	_	_	_	_	_	_	_	SpaceAfter=No
+8	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
+9	נותנים	נתן	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	7	acl:relcl	_	_
+10	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:102_1
+# doc_range = 2108-2250
+# sent_id = 2439
+# text = עבור 1991 אנחנו מקבלים רק 80 אחוז מה-31 מיליון, כי עדיין לא יודעים מה מצב ההכנסות.
+1	עבור	עבור	ADP	ADP	_	2	case	_	_
+2	1991	1991	NUM	NUM	_	4	obl	_	_
+3	אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+4	מקבלים	קיבל	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+5	רק	רק	ADV	ADV	_	7	advmod	_	_
+6	80	80	NUM	NUM	_	7	nummod	_	_
+7	אחוז	אחוז	NOUN	NOUN	Gender=Masc|Number=Sing	4	obj	_	_
+8-9	מה	_	_	_	_	_	_	_	SpaceAfter=No
+8	מ	מ	ADP	ADP	_	12	case	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	11	dep	_	_
+10	-	-	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+11	31	31	NUM	NUM	_	12	nummod	_	_
+12	מיליון	מיליון	NUM	NUM	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	17	punct	_	_
+14	כי	כי	SCONJ	SCONJ	_	17	mark	_	_
+15	עדיין	עדיין	ADV	ADV	_	16	advmod	_	_
+16	לא	לא	ADV	ADV	Polarity=Neg	17	advmod	_	_
+17	יודעים	ידע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	4	advcl	_	_
+18	מה	מה	PRON	PRON	PronType=Int	17	obj	_	_
+19	מצב	מצב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	18	acl	_	_
+20-21	ההכנסות	_	_	_	_	_	_	_	SpaceAfter=No
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	הכנסות	הכנסה	NOUN	NOUN	Gender=Fem|Number=Plur	19	compound:smixut	_	_
+22	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:102_1
+# doc_range = 2252-2307
+# sent_id = 2440
+# text = המדינה מסייעת ב-300,000 או 400,000.
+1-2	המדינה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מדינה	מדינה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	מסייעת	סייע	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4	ב	ב	ADP	ADP	_	6	case	_	SpaceAfter=No
+5	-	-	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+6	300,000	300,000	NUM	NUM	_	3	obl	_	_
+7	או	או	CCONJ	CCONJ	_	8	cc	_	_
+8	400,000	400,000	NUM	NUM	_	6	conj	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:102_1
+# doc_range = 2311-2393
+# sent_id = 2441
+# text = מה זה נותן בחלוקה ל-02 איגודים במשך שנה כלום".
+1	מה	מה	PRON	PRON	PronType=Int	3	obj	_	_
+2	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+3	נותן	נתן	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4-5	בחלוקה	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	חלוקה	חלוקה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+6	ל	ל	ADP	ADP	_	9	case	_	SpaceAfter=No
+7	-	-	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+8	02	02	NUM	NUM	_	9	nummod	_	_
+9	איגודים	איגוד	NOUN	NOUN	Gender=Masc|Number=Plur	5	nmod	_	_
+10	במשך	במשך	ADP	ADP	_	11	case	_	_
+11	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	5	nmod	_	_
+12	כלום	כלום	NOUN	NOUN	Gender=Masc|Number=Sing	3	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+13	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	3	punct	_	_
+

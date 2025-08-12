@@ -1,0 +1,789 @@
+# doc_id = htb:166
+# doc_range = 1-140
+# sent_id = 4371
+# text = לוקח לה זמן עד שקומדיה איטלקית זו מתחילה להתחמם, וגם אז היא בוערת על אש קטנה.
+1	לוקח	לקח	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+2-3	לה	_	_	_	_	_	_	_	_
+2	ל	ל	ADP	ADP	_	3	case	_	_
+3	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obl	_	_
+4	זמן	זמן	NOUN	NOUN	Gender=Masc|Number=Sing	1	obj	_	_
+5	עד	עד	ADP	ADP	_	10	mark	_	_
+6-7	שקומדיה	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	_	5	fixed	_	_
+7	קומדיה	קומדיה	NOUN	NOUN	Gender=Fem|Number=Sing	10	nsubj	_	_
+8	איטלקית	איטלקי	ADJ	ADJ	Gender=Fem|Number=Sing	7	amod	_	_
+9	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	7	det	_	_
+10	מתחילה	התחיל	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	1	advcl	_	_
+11	להתחמם	התחמם	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	10	xcomp	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	17	punct	_	_
+13-14	וגם	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+14	גם	גם	ADV	ADV	_	15	advmod	_	_
+15	אז	אז	ADV	ADV	_	17	advmod	_	_
+16	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+17	בוערת	בער	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	1	conj	_	_
+18	על	על	ADP	ADP	_	19	case	_	_
+19	אש	אש	NOUN	NOUN	Gender=Fem|Number=Sing	17	obl	_	_
+20	קטנה	קטן	ADJ	ADJ	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:166
+# doc_range = 142-269
+# sent_id = 4372
+# text = אולם, משום שזו להבה נעימה למדי, אפשר במידה מסוימת ליהנות מחומה הקומי.
+1	אולם	אולם	CCONJ	CCONJ	_	14	cc	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3	משום	משום	SCONJ	SCONJ	_	6	mark	_	_
+4-5	שזו	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	3	fixed	_	_
+5	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	6	nsubj	_	_
+6	להבה	להבה	NOUN	NOUN	Gender=Fem|Number=Sing	14	advcl	_	_
+7	נעימה	נעים	ADJ	ADJ	Gender=Fem|Number=Sing	6	amod	_	_
+8	למדי	למדי	ADV	ADV	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	6	punct	_	_
+10	אפשר	אפשר	AUX	AUX	VerbType=Mod	14	aux	_	_
+11-12	במידה	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	מידה	מידה	NOUN	NOUN	Gender=Fem|Number=Sing	14	obl	_	_
+13	מסוימת	מסוים	ADJ	ADJ	Gender=Fem|Number=Sing	12	amod	_	_
+14	ליהנות	נהנה	VERB	VERB	HebBinyan=NIFAL|VerbForm=Inf|Voice=Mid	0	root	_	_
+15-18	מחומה	_	_	_	_	_	_	_	_
+15	מ	מ	ADP	ADP	_	16	case	_	_
+16	חום	חום	NOUN	NOUN	Gender=Masc|Number=Sing	14	obl	_	_
+17	_של_	של	ADP	ADP	Case=Gen	18	case:gen	_	_
+18	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+19-20	הקומי	_	_	_	_	_	_	_	SpaceAfter=No
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	קומי	קומי	ADJ	ADJ	Gender=Masc|Number=Sing	16	amod	_	_
+21	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# doc_id = htb:166
+# doc_range = 271-461
+# sent_id = 4373
+# text = הסרט, שמבוסס על מחזה, מפגיש שש דמויות המחפשות אהבה בדירה רומאית אחת, והוא איננו זז ממנה לכל אורך העלילה.
+1-2	הסרט	_	_	_	_	_	_	_	SpaceAfter=No
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	סרט	סרט	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	,	,	PUNCT	PUNCT	_	5	punct	_	_
+4-5	שמבוסס	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	5	mark	_	_
+5	מבוסס	מבוסס	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	2	acl:relcl	_	_
+6	על	על	ADP	ADP	_	7	case	_	_
+7	מחזה	מחזה	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	2	punct	_	_
+9	מפגיש	הפגיש	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+10	שש	שש	NUM	NUM	Gender=Fem|Number=Plur	11	nummod	_	_
+11	דמויות	דמות	NOUN	NOUN	Gender=Fem|Number=Plur	9	obj	_	_
+12-13	המחפשות	_	_	_	_	_	_	_	_
+12	ה	ה	SCONJ	SCONJ	_	13	mark	_	_
+13	מחפשות	חיפש	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	11	acl:relcl	_	_
+14	אהבה	אהבה	NOUN	NOUN	Gender=Fem|Number=Sing	13	obj	_	_
+15-16	בדירה	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	דירה	דירה	NOUN	NOUN	Gender=Fem|Number=Sing	13	obl	_	_
+17	רומאית	רומאי	ADJ	ADJ	Gender=Fem|Number=Sing	16	amod	_	_
+18	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	16	nummod	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	23	punct	_	_
+20-21	והוא	_	_	_	_	_	_	_	_
+20	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
+21	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+22	איננו	איננו	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	23	aux	_	_
+23	זז	זז	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	9	conj	_	_
+24-25	ממנה	_	_	_	_	_	_	_	_
+24	מן	מן	ADP	ADP	_	25	case	_	_
+25	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	obl	_	_
+26-27	לכל	_	_	_	_	_	_	_	_
+26	ל	ל	ADP	ADP	_	28	case	_	_
+27	כל	כול	DET	DET	Definite=Cons	28	det	_	_
+28	אורך	אורך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	23	obl	_	_
+29-30	העלילה	_	_	_	_	_	_	_	SpaceAfter=No
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	עלילה	עלילה	NOUN	NOUN	Gender=Fem|Number=Sing	28	compound:smixut	_	_
+31	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:166
+# doc_range = 463-698
+# sent_id = 4374
+# text = החבורה מורכבת מארבעה גברים ושתי נשים, כולם צעירים וסימפאטים וכולם אנשי תיאטרון, עובדה המעניקה צידוק לצביון התיאטרלי של העיבוד.
+1-2	החבורה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	חבורה	חבורה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+3	מורכבת	הורכב	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+4-5	מארבעה	_	_	_	_	_	_	_	_
+4	מ	מ	ADP	ADP	_	6	case	_	_
+5	ארבעה	ארבע	NUM	NUM	Gender=Masc|Number=Sing	6	nummod	_	_
+6	גברים	גבר	NOUN	NOUN	Gender=Masc|Number=Plur	3	obl	_	_
+7-8	ושתי	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+8	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	9	nummod	_	_
+9	נשים	איש	NOUN	NOUN	Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	12	punct	_	_
+11	כולם	כולם	NOUN	NOUN	Gender=Masc|Number=Plur	12	nsubj	_	_
+12	צעירים	צעיר	ADJ	ADJ	Gender=Masc|Number=Plur	6	acl:relcl	_	_
+13-14	וסימפאטים	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
+14	סימפאטים	סימפתי	ADJ	ADJ	Gender=Masc|Number=Plur	12	conj	_	_
+15-16	וכולם	_	_	_	_	_	_	_	_
+15	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+16	כולם	כולם	NOUN	NOUN	Gender=Masc|Number=Plur	17	nsubj	_	_
+17	אנשי	איש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	12	conj	_	_
+18	תיאטרון	תיאטרון	NOUN	NOUN	Gender=Masc|Number=Sing	17	compound:smixut	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	20	punct	_	_
+20	עובדה	עובדה	NOUN	NOUN	Gender=Fem|Number=Sing	17	parataxis	_	_
+21-22	המעניקה	_	_	_	_	_	_	_	_
+21	ה	ה	SCONJ	SCONJ	_	22	mark	_	_
+22	מעניקה	העניק	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	20	acl:relcl	_	_
+23	צידוק	צידוק	NOUN	NOUN	Gender=Masc|Number=Sing	22	obj	_	_
+24-26	לצביון	_	_	_	_	_	_	_	_
+24	ל	ל	ADP	ADP	_	26	case	_	_
+25	ה_	ה	DET	DET	PronType=Art|Definite=Def	26	det	_	_
+26	צביון	צביון	NOUN	NOUN	Gender=Masc|Number=Sing	23	nmod	_	_
+27-28	התיאטרלי	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	תיאטרלי	תיאטרלי	ADJ	ADJ	Gender=Masc|Number=Sing	26	amod	_	_
+29	של	של	ADP	ADP	Case=Gen	31	case	_	_
+30-31	העיבוד	_	_	_	_	_	_	_	SpaceAfter=No
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	עיבוד	עיבוד	NOUN	NOUN	Gender=Masc|Number=Sing	26	nmod	_	_
+32	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:166
+# doc_range = 700-824
+# sent_id = 4375
+# text = הדירה שייכת לפראנצסקה, וכאשר הסרט נפתח מתגורר בה פאולו, חברה לשעבר.
+1-2	הדירה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	דירה	דירה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	שייכת	שייך	ADJ	ADJ	Gender=Fem|Number=Sing	0	root	_	_
+4-5	לפראנצסקה	_	_	_	_	_	_	_	SpaceAfter=No
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	פראנצסקה	פראנצסקה	PROPN	PROPN	_	3	obl	_	_
+6	,	,	PUNCT	PUNCT	_	12	punct	_	_
+7-8	וכאשר	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+8	כאשר	כאשר	SCONJ	SCONJ	_	11	mark	_	_
+9-10	הסרט	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	סרט	סרט	NOUN	NOUN	Gender=Masc|Number=Sing	11	nsubj	_	_
+11	נפתח	נפתח	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	12	advcl	_	_
+12	מתגורר	התגורר	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	3	conj	_	_
+13-14	בה	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obl	_	_
+15	פאולו	פאול	PROPN	PROPN	_	12	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	17	punct	_	_
+17-19	חברה	_	_	_	_	_	_	_	_
+17	חבר	חבר	NOUN	NOUN	Gender=Masc|Number=Sing	15	appos	_	_
+18	_של_	של	ADP	ADP	Case=Gen	19	case:gen	_	_
+19	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+20	לשעבר	לשעבר	ADV	ADV	_	17	advmod	_	HebSource=ConvUncertainHead|SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:166
+# doc_range = 826-945
+# sent_id = 4376
+# text = היא מגיעה לדירה לאחר סיבוב הופעות ברחבי איטליה, יחד עם חבר פיירו.
+1	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	מגיעה	הגיע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+3-5	לדירה	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	5	case	_	_
+4	ה_	ה	DET	DET	PronType=Art|Definite=Def	5	det	_	_
+5	דירה	דירה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl	_	_
+6	לאחר	לאחר	ADP	ADP	_	7	case	_	_
+7	סיבוב	סיבוב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	obl	_	_
+8	הופעות	הופעה	NOUN	NOUN	Gender=Fem|Number=Plur	7	compound:smixut	_	_
+9-10	ברחבי	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	רחבי	רחב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	7	nmod	_	_
+11	איטליה	איטליה	PROPN	PROPN	_	10	compound:smixut	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	15	punct	_	_
+13	יחד	יחד	ADV	ADV	_	15	case	_	_
+14	עם	עם	ADP	ADP	_	13	fixed	_	_
+15	חבר	חבר	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+16	פיירו	פיירו	PROPN	PROPN	_	15	flat:name	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:166
+# doc_range = 947-1173
+# sent_id = 4377
+# text = כדי שפראנצסקה לא תחשוב שהוא חסר חברה נשית, מזמין פאולו לדירה את סופי שבה מאוהב חברו לדירה, גוליאנו כדי שתתחזה לחברתו החדשה.
+1	כדי	כדי	ADP	ADP	_	5	mark	_	_
+2-3	שפראנצסקה	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	1	fixed	_	_
+3	פראנצסקה	פראנצסקה	PROPN	PROPN	_	5	nsubj	_	_
+4	לא	לא	ADV	ADV	Polarity=Neg	5	advmod	_	_
+5	תחשוב	חשב	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	12	advcl	_	_
+6-7	שהוא	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
+7	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	חסר	חסר	ADJ	ADJ	Definite=Cons|Gender=Masc|Number=Sing	5	ccomp	_	_
+9	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound:smixut	_	_
+10	נשית	נשי	ADJ	ADJ	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	5	punct	_	_
+12	מזמין	הזמין	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+13	פאולו	פאול	PROPN	PROPN	_	12	nsubj	_	_
+14-16	לדירה	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	16	case	_	_
+15	ה_	ה	DET	DET	PronType=Art|Definite=Def	16	det	_	_
+16	דירה	דירה	NOUN	NOUN	Gender=Fem|Number=Sing	12	obl	_	_
+17	את	את	ADP	ADP	Case=Acc	18	case	_	_
+18	סופי	סופי	PROPN	PROPN	_	12	obj	_	_
+19-21	שבה	_	_	_	_	_	_	_	_
+19	ש	ש	SCONJ	SCONJ	_	22	mark	_	_
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	obl	_	_
+22	מאוהב	מאוהב	VERB	VERB	Tense=Pres|VerbForm=Part	18	acl:relcl	_	_
+23-25	חברו	_	_	_	_	_	_	_	_
+23	חבר	חבר	NOUN	NOUN	Gender=Masc|Number=Sing	22	nsubj	_	_
+24	_של_	של	ADP	ADP	Case=Gen	25	case:gen	_	_
+25	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+26-28	לדירה	_	_	_	_	_	_	_	SpaceAfter=No
+26	ל	ל	ADP	ADP	_	28	case	_	_
+27	ה_	ה	DET	DET	PronType=Art|Definite=Def	28	det	_	_
+28	דירה	דירה	NOUN	NOUN	Gender=Fem|Number=Sing	23	nmod	_	_
+29	,	,	PUNCT	PUNCT	_	30	punct	_	_
+30	גוליאנו	גוליאנו	PROPN	PROPN	_	23	appos	_	_
+31	כדי	כדי	ADP	ADP	_	33	mark	_	_
+32-33	שתתחזה	_	_	_	_	_	_	_	_
+32	ש	ש	SCONJ	SCONJ	_	31	fixed	_	_
+33	תתחזה	התחזה	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Fut	12	advcl	_	_
+34-37	לחברתו	_	_	_	_	_	_	_	_
+34	ל	ל	ADP	ADP	_	35	case	_	_
+35	חבר	חבר	NOUN	NOUN	Gender=Fem|Number=Sing	33	obl	_	_
+36	_של_	של	ADP	ADP	Case=Gen	37	case:gen	_	_
+37	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	_	_
+38-39	החדשה	_	_	_	_	_	_	_	SpaceAfter=No
+38	ה	ה	DET	DET	Definite=Def|PronType=Art	39	det	_	_
+39	חדשה	חדש	ADJ	ADJ	Gender=Fem|Number=Sing	35	amod	_	_
+40	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# doc_id = htb:166
+# doc_range = 1175-1347
+# sent_id = 4378
+# text = הצלע הששית בתסבוכת אהבים זו היא אנריקו, חברו של פאולו, שאולי ניהל רומן עם פראנצסקה מאחורי גבו.
+1-2	הצלע	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	צלע	צלע	NOUN	NOUN	Gender=Fem|Number=Sing	10	nsubj	_	_
+3-4	הששית	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	ששית	ששית	NUM	NUM	Gender=Fem|Number=Plur	2	amod	_	_
+5-6	בתסבוכת	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	תסבוכת	תסבוכת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	nmod	_	_
+7	אהבים	אהבים	NOUN	NOUN	Gender=Masc|Number=Plur	6	compound:smixut	_	_
+8	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	6	det	_	_
+9	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	10	cop	_	_
+10	אנריקו	אנריקו	PROPN	PROPN	_	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	12	punct	_	_
+12-14	חברו	_	_	_	_	_	_	_	_
+12	חבר	חבר	NOUN	NOUN	Gender=Masc|Number=Sing	10	appos	_	_
+13	_של_	של	ADP	ADP	Case=Gen	14	case:gen	_	_
+14	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+15	של	של	ADP	ADP	Case=Gen	16	case	_	_
+16	פאולו	פאול	PROPN	PROPN	_	12	nmod:poss	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	20	punct	_	_
+18-19	שאולי	_	_	_	_	_	_	_	_
+18	ש	ש	SCONJ	SCONJ	_	20	mark	_	_
+19	אולי	אולי	ADV	ADV	_	20	advmod	_	_
+20	ניהל	ניהל	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	10	acl:relcl	_	_
+21	רומן	רומן	NOUN	NOUN	Gender=Masc|Number=Sing	20	obj	_	_
+22	עם	עם	ADP	ADP	_	23	case	_	_
+23	פראנצסקה	פראנצסקה	PROPN	PROPN	_	20	obl	_	_
+24	מאחורי	מאחורי	ADP	ADP	_	25	case	_	_
+25-27	גבו	_	_	_	_	_	_	_	SpaceAfter=No
+25	גב	גב	NOUN	NOUN	Gender=Masc|Number=Sing	20	obl	_	_
+26	_של_	של	ADP	ADP	Case=Gen	27	case:gen	_	_
+27	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+28	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:166
+# doc_range = 1349-1359
+# sent_id = 4379
+# text = מסובך?
+1	מסובך	מסובך	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:166
+# doc_range = 1363-1379
+# sent_id = 4380
+# text = לא כל כך.
+1	לא	לא	ADV	ADV	Polarity=Neg	0	root	_	_
+2	כל	כול	DET	DET	Definite=Cons	1	dep	_	HebSource=ConvUncertainHead
+3	כך	כך	ADV	ADV	_	2	fixed	_	SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	1	punct	_	HebSource=ConvUncertainHead
+
+# doc_id = htb:166
+# doc_range = 1380-1424
+# sent_id = 4381
+# text = וגם לא ממש ברומו של עולם.
+1-2	וגם	_	_	_	_	_	_	_	_
+1	ו	ו	CCONJ	CCONJ	_	4	cc	_	_
+2	גם	גם	ADV	ADV	_	4	advmod	_	_
+3	לא	לא	ADV	ADV	Polarity=Neg	4	advmod	_	_
+4	ממש	ממש	ADV	ADV	_	0	root	_	_
+5-8	ברומו	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	רום	רום	NOUN	NOUN	Gender=Masc|Number=Sing	4	dep	_	HebSource=ConvUncertainHead
+7	_של_	של	ADP	ADP	Case=Gen	8	case:gen	_	_
+8	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+9	של	של	ADP	ADP	Case=Gen	10	case	_	_
+10	עולם	עולם	NOUN	NOUN	Gender=Masc|Number=Sing	6	nmod:poss	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:166
+# doc_range = 1426-1524
+# sent_id = 4382
+# text = קשה להתרגש מהשאלה אם פאולו ופראנצסקה יחזרו לחיות יחד.
+1	קשה	קשה	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbType=Mod	2	aux	_	_
+2	להתרגש	התרגש	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	0	root	_	_
+3-5	מהשאלה	_	_	_	_	_	_	_	_
+3	מ	מ	ADP	ADP	_	5	case	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	שאלה	שאלה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl	_	_
+6	אם	אם	SCONJ	SCONJ	_	10	mark	_	_
+7	פאולו	פאול	PROPN	PROPN	_	10	nsubj	_	_
+8-9	ופראנצסקה	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+9	פראנצסקה	פראנצסקה	PROPN	PROPN	_	7	conj	_	_
+10	יחזרו	חזר	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	5	acl:relcl	_	_
+11	לחיות	לחיות	VERB	VERB	VerbForm=Inf	10	xcomp	_	_
+12	יחד	יחד	ADV	ADV	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:166
+# doc_range = 1526-1622
+# sent_id = 4383
+# text = אולם יש לסרט חן מסוים שמכפר על טריוויאליות מסוימת זו.
+1	אולם	אולם	CCONJ	CCONJ	_	2	cc	_	_
+2	יש	יש	VERB	VERB	HebExistential=Yes	0	root	_	_
+3-5	לסרט	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	5	case	_	_
+4	ה_	ה	DET	DET	PronType=Art|Definite=Def	5	det	_	_
+5	סרט	סרט	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+6	חן	חן	NOUN	NOUN	Gender=Masc|Number=Sing	2	nsubj	_	_
+7	מסוים	מסוים	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	_
+8-9	שמכפר	_	_	_	_	_	_	_	_
+8	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
+9	מכפר	כיפר	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	6	acl:relcl	_	_
+10	על	על	ADP	ADP	_	11	case	_	_
+11	טריוויאליות	טריוויאליות	NOUN	NOUN	_	9	obl	_	_
+12	מסוימת	מסוים	ADJ	ADJ	Gender=Fem|Number=Sing	11	amod	_	_
+13	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	11	det	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:166
+# doc_range = 1625-1875
+# sent_id = 4384
+# text = הסרט שייך לזאנר ותיק של מחזות וסרטים שמפגישים קבוצה של דמויות באתר אחד, מפרידים ביניהם ומאחדים ביניהם מחדש בזיווגים רומנטים חדשימישנים.
+1-2	הסרט	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	סרט	סרט	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	שייך	שייך	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
+4-5	לזאנר	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	זאנר	ז'אנר	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+6	ותיק	ותיק	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	_
+7	של	של	ADP	ADP	Case=Gen	8	case	_	_
+8	מחזות	מחזה	NOUN	NOUN	Gender=Masc|Number=Plur	5	nmod	_	_
+9-10	וסרטים	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+10	סרטים	סרט	NOUN	NOUN	Gender=Masc|Number=Plur	8	conj	_	_
+11-12	שמפגישים	_	_	_	_	_	_	_	_
+11	ש	ש	SCONJ	SCONJ	_	12	mark	_	_
+12	מפגישים	הפגיש	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	8	acl:relcl	_	_
+13	קבוצה	קבוצה	NOUN	NOUN	Gender=Fem|Number=Sing	12	obj	_	_
+14	של	של	ADP	ADP	Case=Gen	15	case	_	_
+15	דמויות	דמות	NOUN	NOUN	Gender=Fem|Number=Plur	13	nmod:poss	_	_
+16-17	באתר	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	אתר	אתר	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
+18	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	17	nummod	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	20	punct	_	_
+20	מפרידים	הפריד	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	12	conj	_	_
+21-22	ביניהם	_	_	_	_	_	_	_	_
+21	ביני	בין	ADP	ADP	_	22	case	_	_
+22	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	obl	_	_
+23-24	ומאחדים	_	_	_	_	_	_	_	_
+23	ו	ו	CCONJ	CCONJ	_	24	cc	_	_
+24	מאחדים	איחד	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	12	conj	_	_
+25-26	ביניהם	_	_	_	_	_	_	_	_
+25	ביני	בין	ADP	ADP	_	26	case	_	_
+26	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	24	obl	_	_
+27	מחדש	מחדש	ADV	ADV	_	24	advmod	_	_
+28-29	בזיווגים	_	_	_	_	_	_	_	_
+28	ב	ב	ADP	ADP	_	29	case	_	_
+29	זיווגים	זיווג	NOUN	NOUN	Gender=Masc|Number=Plur	24	obl	_	_
+30	רומנטים	רומנטים	ADJ	ADJ	_	29	amod	_	_
+31	חדשימישנים	חדשימישנים	ADJ	ADJ	_	29	amod	_	SpaceAfter=No
+32	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:166
+# doc_range = 1877-2169
+# sent_id = 4385
+# text = משחקי אהבה ומקריות אלה מתנהלים כאן במידה מסוימת של אלגנטיות ושנינות, ולפיכך אנו מוכנים להתעלם מהעובדה שבדירה הזו כבר היינו במנהאטן, לונדון וערים רבות נוספות.
+1	משחקי	משחק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	6	nsubj	_	_
+2	אהבה	אהבה	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+3-4	ומקריות	_	_	_	_	_	_	_	_
+3	ו	ו	CCONJ	CCONJ	_	4	cc	_	_
+4	מקריות	מקריות	NOUN	NOUN	Gender=Fem|Number=Sing	2	conj	_	_
+5	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	1	det	_	_
+6	מתנהלים	התנהל	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+7	כאן	כאן	ADV	ADV	_	6	advmod	_	_
+8-9	במידה	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	מידה	מידה	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	_
+10	מסוימת	מסוים	ADJ	ADJ	Gender=Fem|Number=Sing	9	amod	_	_
+11	של	של	ADP	ADP	Case=Gen	12	case	_	_
+12	אלגנטיות	אלגנטיות	NOUN	NOUN	Gender=Fem|Number=Sing	9	nmod	_	_
+13-14	ושנינות	_	_	_	_	_	_	_	SpaceAfter=No
+13	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
+14	שנינות	שנינות	NOUN	NOUN	Gender=Fem|Number=Sing	12	conj	_	_
+15	,	,	PUNCT	PUNCT	_	20	punct	_	_
+16-17	ולפיכך	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
+17	לפיכך	לפיכך	ADV	ADV	_	20	advmod	_	_
+18	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	20	nsubj	_	_
+19	מוכנים	מוכן	AUX	AUX	Gender=Masc|Number=Plur|Person=1,2,3|VerbType=Mod	20	aux	_	_
+20	להתעלם	התעלם	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	6	conj	_	_
+21-23	מהעובדה	_	_	_	_	_	_	_	_
+21	מ	מ	ADP	ADP	_	23	case	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	עובדה	עובדה	NOUN	NOUN	Gender=Fem|Number=Sing	20	obl	_	_
+24-27	שבדירה	_	_	_	_	_	_	_	_
+24	ש	ש	SCONJ	SCONJ	_	31	mark	_	_
+25	ב	ב	ADP	ADP	_	27	case	_	_
+26	ה_	ה	DET	DET	PronType=Art|Definite=Def	27	det	_	_
+27	דירה	דירה	NOUN	NOUN	Gender=Fem|Number=Sing	31	obl	_	_
+28-29	הזו	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	27	det	_	_
+30	כבר	כבר	ADV	ADV	_	31	advmod	_	_
+31	היינו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=1|Polarity=Pos|Tense=Past|VerbType=Cop	23	acl:relcl	_	_
+32-33	במנהאטן	_	_	_	_	_	_	_	SpaceAfter=No
+32	ב	ב	ADP	ADP	_	33	case	_	_
+33	מנהאטן	במנהאטן	PROPN	PROPN	_	31	obl	_	_
+34	,	,	PUNCT	PUNCT	_	35	punct	_	_
+35	לונדון	לונדון	PROPN	PROPN	_	33	conj	_	_
+36-37	וערים	_	_	_	_	_	_	_	_
+36	ו	ו	CCONJ	CCONJ	_	37	cc	_	_
+37	ערים	עיר	NOUN	NOUN	Gender=Fem|Number=Plur	33	conj	_	_
+38	רבות	רב	ADJ	ADJ	Gender=Fem|Number=Plur	37	amod	_	_
+39	נוספות	נוסף	ADJ	ADJ	Gender=Fem|Number=Plur	37	amod	_	SpaceAfter=No
+40	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:166
+# doc_range = 2171-2387
+# sent_id = 4386
+# text = מה שמציל את הסרט היא העובדה שלמרות אופיו הבין-לאומי זהו, בכל זאת, סרט איטלקי, והחן האיטלקי פורץ ממנו בהזדמנויות רבות.
+1	מה	מה	PRON	PRON	PronType=Int	9	nsubj	_	_
+2-3	שמציל	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	3	mark	_	_
+3	מציל	הציל	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	1	acl:relcl	_	_
+4	את	את	ADP	ADP	Case=Acc	6	case	_	_
+5-6	הסרט	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	סרט	סרט	NOUN	NOUN	Gender=Masc|Number=Sing	3	obj	_	_
+7	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	9	cop	_	_
+8-9	העובדה	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	עובדה	עובדה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+10-11	שלמרות	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	25	mark	_	_
+11	למרות	למרות	ADP	ADP	_	12	case	_	_
+12-14	אופיו	_	_	_	_	_	_	_	_
+12	אופה	אופה	NOUN	NOUN	Gender=Masc|Number=Plur	25	nmod	_	_
+13	_של_	של	ADP	ADP	Case=Gen	14	case:gen	_	_
+14	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+15-16	הבין	_	_	_	_	_	_	_	SpaceAfter=No
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+16	בין	בין	ADV	ADV	Prefix=Yes	18	compound:affix	_	_
+17	-	-	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
+18	לאומי	לאומי	ADJ	ADJ	Gender=Masc|Number=Sing	12	amod	_	_
+19	זהו	זהו	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	25	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	PUNCT	_	19	punct	_	_
+21-22	בכל	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	25	parataxis	_	_
+22	כל	כול	DET	DET	Definite=Cons	21	fixed	_	_
+23	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	21	fixed	_	SpaceAfter=No
+24	,	,	PUNCT	PUNCT	_	21	punct	_	_
+25	סרט	סרט	NOUN	NOUN	Gender=Masc|Number=Sing	9	acl:relcl	_	_
+26	איטלקי	איטלקי	ADJ	ADJ	Gender=Masc|Number=Sing	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	PUNCT	_	33	punct	_	_
+28-30	והחן	_	_	_	_	_	_	_	_
+28	ו	ו	CCONJ	CCONJ	_	33	cc	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	חן	חן	NOUN	NOUN	Gender=Masc|Number=Sing	33	nsubj	_	_
+31-32	האיטלקי	_	_	_	_	_	_	_	_
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	איטלקי	איטלקי	ADJ	ADJ	Gender=Masc|Number=Sing	30	amod	_	_
+33	פורץ	פרץ	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	25	conj	_	_
+34-35	ממנו	_	_	_	_	_	_	_	_
+34	מן	מן	ADP	ADP	_	35	case	_	_
+35	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	obl	_	_
+36-37	בהזדמנויות	_	_	_	_	_	_	_	_
+36	ב	ב	ADP	ADP	_	37	case	_	_
+37	הזדמנויות	הזדמנות	NOUN	NOUN	Gender=Fem|Number=Plur	33	obl	_	_
+38	רבות	רב	ADJ	ADJ	Gender=Fem|Number=Plur	37	amod	_	SpaceAfter=No
+39	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:166
+# doc_range = 2389-2699
+# sent_id = 4387
+# text = גם כאשר הדמויות אומרות משפטים, שאפילו וודי אלן לא היה מתבייש להיות חתום עליהם, הצליל האיטלקי מוסיף להם מידה של ספונטניות ואנרגיה שהופכת אותם למוצלחים יותר ממה שהם באמת.
+1	גם	גם	ADV	ADV	_	5	advmod	_	_
+2	כאשר	כאשר	SCONJ	SCONJ	_	5	mark	_	_
+3-4	הדמויות	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	דמויות	דמות	NOUN	NOUN	Gender=Fem|Number=Plur	5	nsubj	_	_
+5	אומרות	אמר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	24	advcl	_	_
+6	משפטים	משפט	NOUN	NOUN	Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	14	punct	_	_
+8-9	שאפילו	_	_	_	_	_	_	_	_
+8	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
+9	אפילו	אפילו	ADV	ADV	_	10	advmod	_	_
+10	וודי	וודי	PROPN	PROPN	_	14	nsubj	_	_
+11	אלן	אלן	PROPN	PROPN	_	10	flat:name	_	_
+12	לא	לא	ADV	ADV	Polarity=Neg	14	advmod	_	_
+13	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	14	cop	_	_
+14	מתבייש	התבייש	VERB	VERB	Aspect=Prog|Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+15	להיות	היה	AUX	AUX	Polarity=Pos|VerbForm=Inf|VerbType=Cop	14	xcomp	_	_
+16	חתום	חתום	ADJ	ADJ	Gender=Masc|Number=Sing	15	obl	_	_
+17-18	עליהם	_	_	_	_	_	_	_	SpaceAfter=No
+17	עלי	על	ADP	ADP	_	18	case	_	_
+18	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	obl	_	_
+19	,	,	PUNCT	PUNCT	_	5	punct	_	_
+20-21	הצליל	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	צליל	צליל	NOUN	NOUN	Gender=Masc|Number=Sing	24	nsubj	_	_
+22-23	האיטלקי	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	איטלקי	איטלקי	ADJ	ADJ	Gender=Masc|Number=Sing	21	amod	_	_
+24	מוסיף	הוסיף	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+25-26	להם	_	_	_	_	_	_	_	_
+25	ל	ל	ADP	ADP	_	26	case	_	_
+26	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	24	obl	_	_
+27	מידה	מידה	NOUN	NOUN	Gender=Fem|Number=Sing	24	obj	_	_
+28	של	של	ADP	ADP	Case=Gen	29	case	_	_
+29	ספונטניות	ספונטניות	NOUN	NOUN	Gender=Fem|Number=Sing	27	nmod	_	_
+30-31	ואנרגיה	_	_	_	_	_	_	_	_
+30	ו	ו	CCONJ	CCONJ	_	31	cc	_	_
+31	אנרגיה	אנרגיה	NOUN	NOUN	Gender=Fem|Number=Sing	29	conj	_	_
+32-33	שהופכת	_	_	_	_	_	_	_	_
+32	ש	ש	SCONJ	SCONJ	_	33	mark	_	_
+33	הופכת	הפך	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	27	acl:relcl	_	_
+34-35	אותם	_	_	_	_	_	_	_	_
+34	את	את	ADP	ADP	Case=Acc	35	case	_	_
+35	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	33	obj	_	_
+36-37	למוצלחים	_	_	_	_	_	_	_	_
+36	ל	ל	ADP	ADP	_	37	case	_	_
+37	מוצלחים	מוצלח	ADJ	ADJ	Gender=Masc|Number=Plur	33	obl	_	_
+38	יותר	יותר	ADV	ADV	_	37	advmod	_	_
+39-40	ממה	_	_	_	_	_	_	_	_
+39	מ	מ	ADP	ADP	_	40	case	_	_
+40	מה	מה	ADV	ADV	PronType=Int	37	advmod	_	_
+41-42	שהם	_	_	_	_	_	_	_	_
+41	ש	ש	SCONJ	SCONJ	_	42	mark	_	_
+42	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	40	acl:relcl	_	_
+43	באמת	באמת	ADV	ADV	_	42	advmod	_	HebSource=ConvUncertainHead|SpaceAfter=No
+44	.	.	PUNCT	PUNCT	_	24	punct	_	_
+
+# doc_id = htb:166
+# doc_range = 2701-2901
+# sent_id = 4388
+# text = הדבר נכון גם לגבי שחקני הסרט, ובראשת לינה ססטרי, המגלמת את פראנצסקה, וסרגיו קסטליטו, המגלם את דמותו של פאולו.
+1-2	הדבר	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	נכון	נכון	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
+4	גם	גם	ADV	ADV	_	6	advmod	_	_
+5	לגבי	לגבי	ADP	ADP	_	6	case	_	_
+6	שחקני	שחקן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	3	obl	_	_
+7-8	הסרט	_	_	_	_	_	_	_	SpaceAfter=No
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	סרט	סרט	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+9	,	,	PUNCT	PUNCT	_	10	punct	_	_
+10	ובראשת	ובראשת	PROPN	PROPN	_	6	appos	_	_
+11	לינה	לינה	NOUN	NOUN	Gender=Fem|Number=Sing	10	flat:name	_	_
+12	ססטרי	ססטרי	PROPN	PROPN	_	10	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	15	punct	_	_
+14-15	המגלמת	_	_	_	_	_	_	_	_
+14	ה	ה	SCONJ	SCONJ	_	15	mark	_	_
+15	מגלמת	גילם	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	10	acl:relcl	_	_
+16	את	את	ADP	ADP	Case=Acc	17	case	_	_
+17	פראנצסקה	פראנצסקה	PROPN	PROPN	_	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	20	punct	_	_
+19-20	וסרגיו	_	_	_	_	_	_	_	_
+19	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
+20	סרגיו	סרגיו	PROPN	PROPN	_	10	conj	_	_
+21	קסטליטו	קסטליטו	PROPN	PROPN	_	20	flat:name	_	SpaceAfter=No
+22	,	,	PUNCT	PUNCT	_	24	punct	_	_
+23-24	המגלם	_	_	_	_	_	_	_	_
+23	ה	ה	SCONJ	SCONJ	_	24	mark	_	_
+24	מגלם	גילם	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	20	acl:relcl	_	_
+25	את	את	ADP	ADP	Case=Acc	26	case	_	_
+26-28	דמותו	_	_	_	_	_	_	_	_
+26	דמות	דמות	NOUN	NOUN	Gender=Fem|Number=Sing	24	obj	_	_
+27	_של_	של	ADP	ADP	Case=Gen	28	case:gen	_	_
+28	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+29	של	של	ADP	ADP	Case=Gen	30	case	_	_
+30	פאולו	פאול	PROPN	PROPN	_	26	nmod:poss	_	SpaceAfter=No
+31	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:166
+# doc_range = 2904-3087
+# sent_id = 4389
+# text = קסטליטו ממשיך מסורת של מאהבים איטלקים חביבים ועגומים, כאלה שגילמו בעבר אלברטו סורדי או נינו מנפרדי.
+1	קסטליטו	קסטליטו	PROPN	PROPN	_	2	nsubj	_	_
+2	ממשיך	המשיך	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+3	מסורת	מסורת	NOUN	NOUN	Gender=Fem|Number=Sing	2	obj	_	_
+4	של	של	ADP	ADP	Case=Gen	5	case	_	_
+5	מאהבים	מאהב	NOUN	NOUN	Gender=Masc|Number=Plur	3	nmod:poss	_	_
+6	איטלקים	איטלקי	ADJ	ADJ	Gender=Masc|Number=Plur	5	amod	_	_
+7	חביבים	חביב	ADJ	ADJ	Gender=Masc|Number=Plur	5	amod	_	_
+8-9	ועגומים	_	_	_	_	_	_	_	SpaceAfter=No
+8	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+9	עגומים	עגום	ADJ	ADJ	Gender=Masc|Number=Plur	7	conj	_	_
+10	,	,	PUNCT	PUNCT	_	13	punct	_	_
+11-13	כאלה	_	_	_	_	_	_	_	_
+11	כ	כ	ADP	ADP	_	13	case	_	_
+12	ה_	ה	DET	DET	PronType=Art|Definite=Def	13	det	_	_
+13	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	5	nmod	_	_
+14-15	שגילמו	_	_	_	_	_	_	_	_
+14	ש	ש	SCONJ	SCONJ	_	15	mark	_	_
+15	גילמו	גילם	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	13	acl:relcl	_	_
+16-18	בעבר	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	18	case	_	_
+17	ה_	ה	DET	DET	PronType=Art|Definite=Def	18	det	_	_
+18	עבר	עבר	NOUN	NOUN	Gender=Masc|Number=Sing	15	obl	_	_
+19	אלברטו	אלברטו	PROPN	PROPN	_	15	nsubj	_	_
+20	סורדי	סורדי	PROPN	PROPN	_	19	flat:name	_	_
+21	או	או	CCONJ	CCONJ	_	22	cc	_	_
+22	נינו	נין	PROPN	PROPN	_	19	conj	_	_
+23	מנפרדי	מנפרדי	PROPN	PROPN	_	22	flat:name	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:166
+# doc_range = 3089-3243
+# sent_id = 4390
+# text = את הסרט ביים ריקי טוניאצי, בנו של השחקן האיטלקי אוגו טוניאצי, שנפטר לפני ימים אחדים.
+1	את	את	ADP	ADP	Case=Acc	3	case	_	_
+2-3	הסרט	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	סרט	סרט	NOUN	NOUN	Gender=Masc|Number=Sing	4	obj	_	_
+4	ביים	ביים	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	ריקי	ריקי	PROPN	PROPN	_	4	nsubj	_	_
+6	טוניאצי	טוניאצי	PROPN	PROPN	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	8	punct	_	_
+8-10	בנו	_	_	_	_	_	_	_	_
+8	בן	בן	NOUN	NOUN	Gender=Masc|Number=Sing	5	appos	_	_
+9	_של_	של	ADP	ADP	Case=Gen	10	case:gen	_	_
+10	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+11	של	של	ADP	ADP	Case=Gen	13	case	_	_
+12-13	השחקן	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	שחקן	שחקן	NOUN	NOUN	Gender=Masc|Number=Sing	8	nmod:poss	_	_
+14-15	האיטלקי	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	איטלקי	איטלקי	ADJ	ADJ	Gender=Masc|Number=Sing	13	amod	_	_
+16	אוגו	אוג	PROPN	PROPN	_	13	appos	_	_
+17	טוניאצי	טוניאצי	PROPN	PROPN	_	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	20	punct	_	_
+19-20	שנפטר	_	_	_	_	_	_	_	_
+19	ש	ש	SCONJ	SCONJ	_	20	mark	_	_
+20	נפטר	נפטר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	13	acl:relcl	_	_
+21	לפני	לפני	ADP	ADP	_	22	case	_	_
+22	ימים	יום	NOUN	NOUN	Gender=Masc|Number=Plur	20	obl	_	_
+23	אחדים	אחד	ADJ	ADJ	Gender=Masc|Number=Plur	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:166
+# doc_range = 3245-3434
+# sent_id = 4391
+# text = זהו סרטו הראשון כבמאי, ויש משהו סימפאטי בעובדה שהוא בחר לפתוח את הקריירה שלו עם סרט קאמרי וצנוע באופיו.
+1	זהו	זהו	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	_
+2-4	סרטו	_	_	_	_	_	_	_	_
+2	סרט	סרט	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+3	_של_	של	ADP	ADP	Case=Gen	4	case:gen	_	_
+4	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5-6	הראשון	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	ראשון	ראשון	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+7-8	כבמאי	_	_	_	_	_	_	_	SpaceAfter=No
+7	כ	כ	ADP	ADP	_	8	case	_	_
+8	במאי	במאי	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_
+9	,	,	PUNCT	PUNCT	_	11	punct	_	_
+10-11	ויש	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+11	יש	יש	VERB	VERB	HebExistential=Yes	2	conj	_	_
+12	משהו	משהו	NOUN	NOUN	Gender=Masc|Number=Sing	11	nsubj	_	_
+13	סימפאטי	סימפתי	ADJ	ADJ	Gender=Masc|Number=Sing	12	amod	_	_
+14-16	בעובדה	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	16	case	_	_
+15	ה_	ה	DET	DET	PronType=Art|Definite=Def	16	det	_	_
+16	עובדה	עובדה	NOUN	NOUN	Gender=Fem|Number=Sing	11	obl	_	_
+17-18	שהוא	_	_	_	_	_	_	_	_
+17	ש	ש	SCONJ	SCONJ	_	19	mark	_	_
+18	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	בחר	בחר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	16	acl:relcl	_	_
+20	לפתוח	פתח	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	19	xcomp	_	_
+21	את	את	ADP	ADP	Case=Acc	23	case	_	_
+22-23	הקריירה	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	קריירה	קריירה	NOUN	NOUN	Gender=Fem|Number=Sing	20	obj	_	_
+24-25	שלו	_	_	_	_	_	_	_	_
+24	של	של	ADP	ADP	Case=Gen	25	case	_	_
+25	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nmod	_	_
+26	עם	עם	ADP	ADP	_	27	case	_	_
+27	סרט	סרט	NOUN	NOUN	Gender=Masc|Number=Sing	23	nmod	_	_
+28	קאמרי	קאמרי	ADJ	ADJ	Gender=Masc|Number=Sing	27	amod	_	_
+29-30	וצנוע	_	_	_	_	_	_	_	_
+29	ו	ו	CCONJ	CCONJ	_	30	cc	_	_
+30	צנוע	צנוע	ADJ	ADJ	Gender=Masc|Number=Sing	28	conj	_	_
+31-34	באופיו	_	_	_	_	_	_	_	SpaceAfter=No
+31	ב	ב	ADP	ADP	_	32	case	_	_
+32	אופה	אופה	NOUN	NOUN	Gender=Masc|Number=Plur	30	obl	_	_
+33	_של_	של	ADP	ADP	Case=Gen	34	case:gen	_	_
+34	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+35	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:166
+# doc_range = 3436-3619
+# sent_id = 4392
+# text = יש לסרט בעיות של קצב וכיוון, אולם, הוא מעניק בידור חביב למדי, ואנו מצליחים להתיידד עמו ועם דמויותיו.
+1	יש	יש	VERB	VERB	HebExistential=Yes	0	root	_	_
+2-4	לסרט	_	_	_	_	_	_	_	_
+2	ל	ל	ADP	ADP	_	4	case	_	_
+3	ה_	ה	DET	DET	PronType=Art|Definite=Def	4	det	_	_
+4	סרט	סרט	NOUN	NOUN	Gender=Masc|Number=Sing	1	obl	_	_
+5	בעיות	בעיה	NOUN	NOUN	Gender=Fem|Number=Plur	1	nsubj	_	_
+6	של	של	ADP	ADP	Case=Gen	7	case	_	_
+7	קצב	קצב	NOUN	NOUN	Gender=Masc|Number=Sing	5	nmod:poss	_	_
+8-9	וכיוון	_	_	_	_	_	_	_	SpaceAfter=No
+8	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+9	כיוון	כיוון	NOUN	NOUN	Gender=Masc|Number=Sing	7	conj	_	_
+10	,	,	PUNCT	PUNCT	_	11	punct	_	_
+11	אולם	אולם	CCONJ	CCONJ	_	14	cc	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	11	punct	_	_
+13	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	מעניק	העניק	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	1	conj	_	_
+15	בידור	בידור	NOUN	NOUN	Gender=Masc|Number=Sing	14	obj	_	_
+16	חביב	חביב	ADJ	ADJ	Gender=Masc|Number=Sing	15	amod	_	_
+17	למדי	למדי	ADV	ADV	_	15	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	21	punct	_	_
+19-20	ואנו	_	_	_	_	_	_	_	_
+19	ו	ו	CCONJ	CCONJ	_	21	cc	_	_
+20	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	_
+21	מצליחים	הצליח	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	14	conj	_	_
+22	להתיידד	התיידד	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	21	xcomp	_	_
+23-24	עמו	_	_	_	_	_	_	_	_
+23	עם	עם	ADP	ADP	_	24	case	_	_
+24	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obl	_	_
+25-26	ועם	_	_	_	_	_	_	_	_
+25	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
+26	עם	עם	ADP	ADP	_	27	case	_	_
+27-29	דמויותיו	_	_	_	_	_	_	_	SpaceAfter=No
+27	דמות	דמות	NOUN	NOUN	Gender=Fem|Number=Plur	24	conj	_	_
+28	_של_	של	ADP	ADP	Case=Gen	29	case:gen	_	_
+29	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+30	.	.	PUNCT	PUNCT	_	1	punct	_	_
+

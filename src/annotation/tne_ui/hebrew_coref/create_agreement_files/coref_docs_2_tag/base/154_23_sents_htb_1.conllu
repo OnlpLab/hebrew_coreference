@@ -1,0 +1,908 @@
+# doc_id = htb:1
+# doc_range = 1-172
+# sent_id = 1
+# text = עשרות אנשים מגיעים מתאילנד לישראל כשהם נרשמים כמתנדבים, אך למעשה משמשים עובדים שכירים זולים.
+1	עשרות	עשרות	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	2	nummod	_	_
+2	אנשים	איש	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	מגיעים	הגיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4-5	מתאילנד	_	_	_	_	_	_	_	_
+4	מ	מ	ADP	ADP	_	5	case	_	_
+5	תאילנד	תאילנד	PROPN	PROPN	_	3	obl	_	_
+6-7	לישראל	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	ישראל	ישראל	PROPN	PROPN	_	3	obl	_	_
+8-9	כשהם	_	_	_	_	_	_	_	_
+8	כש	כש	SCONJ	SCONJ	Case=Tem	10	mark	_	_
+9	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+10	נרשמים	נרשם	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	3	advcl	_	_
+11-12	כמתנדבים	_	_	_	_	_	_	_	SpaceAfter=No
+11	כ	כ	ADP	ADP	_	12	case	_	_
+12	מתנדבים	מתנדב	NOUN	NOUN	Gender=Masc|Number=Plur	10	obl	_	_
+13	,	,	PUNCT	PUNCT	_	16	punct	_	_
+14	אך	אך	CCONJ	CCONJ	_	16	cc	_	_
+15	למעשה	למעשה	ADV	ADV	_	16	advmod	_	_
+16	משמשים	שימש	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	10	conj	_	_
+17	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	16	obj	_	_
+18	שכירים	שכיר	ADJ	ADJ	Gender=Masc|Number=Plur	17	amod	_	_
+19	זולים	זול	ADJ	ADJ	Gender=Masc|Number=Plur	17	amod	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:1
+# doc_range = 174-327
+# sent_id = 2
+# text = תופעה זו התבררה אתמול בוועדת העבודה והרווחה של הכנסת, שדנה בנושא העסקת עובדים זרים.
+1	תופעה	תופעה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+2	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	1	det	_	_
+3	התבררה	התברר	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	אתמול	אתמול	ADV	ADV	_	3	advmod	_	_
+5-6	בוועדת	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	וועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	obl	_	_
+7-8	העבודה	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	6	compound:smixut	_	_
+9-11	והרווחה	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	רווחה	רווחה	NOUN	NOUN	Gender=Fem|Number=Sing	8	conj	_	_
+12	של	של	ADP	ADP	Case=Gen	14	case	_	_
+13-14	הכנסת	_	_	_	_	_	_	_	SpaceAfter=No
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	כנסת	כנסת	PROPN	PROPN	_	6	nmod:poss	_	_
+15	,	,	PUNCT	PUNCT	_	17	punct	_	_
+16-17	שדנה	_	_	_	_	_	_	_	_
+16	ש	ש	SCONJ	SCONJ	_	17	mark	_	_
+17	דנה	דן	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	6	acl:relcl	_	_
+18-19	בנושא	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	19	case	_	_
+19	נושא	נושא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	obl	_	_
+20	העסקת	העסקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	19	compound:smixut	_	_
+21	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	20	compound:smixut	_	_
+22	זרים	זר	ADJ	ADJ	Gender=Masc|Number=Plur	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:1
+# doc_range = 329-561
+# sent_id = 3
+# text = יו"ר הוועדה, ח"כ אורה נמיר (מערך), טענה כי "מביאים עובדים זרים לישראל על תקן של מתנדבים מתאילנד, רק כדי לא לשלם להם שכר מינימום.
+1	יו"ר	יו"ר	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	12	nsubj	_	_
+2-3	הוועדה	_	_	_	_	_	_	_	SpaceAfter=No
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	וועדה	ועדה	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+4	,	,	PUNCT	PUNCT	_	5	punct	_	_
+5	ח"כ	ח"כ	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	1	appos	_	_
+6	אורה	אורה	PROPN	PROPN	_	5	flat:name	_	_
+7	נמיר	נמיר	PROPN	PROPN	_	5	flat:name	_	_
+8	(	(	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+9	מערך	מערך	PROPN	PROPN	_	5	appos	_	SpaceAfter=No
+10	)	)	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	1	punct	_	_
+12	טענה	טען	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+13	כי	כי	SCONJ	SCONJ	_	15	mark	_	_
+14	"	"	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No
+15	מביאים	הביא	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	12	ccomp	_	_
+16	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	15	obj	_	_
+17	זרים	זר	ADJ	ADJ	Gender=Masc|Number=Plur	16	amod	_	_
+18-19	לישראל	_	_	_	_	_	_	_	_
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	ישראל	ישראל	PROPN	PROPN	_	15	obl	_	_
+20	על	על	ADP	ADP	_	21	case	_	_
+21	תקן	תקן	NOUN	NOUN	Gender=Masc|Number=Sing	15	obl	_	_
+22	של	של	ADP	ADP	Case=Gen	23	case	_	_
+23	מתנדבים	מתנדב	NOUN	NOUN	Gender=Masc|Number=Plur	21	nmod:poss	_	_
+24-25	מתאילנד	_	_	_	_	_	_	_	SpaceAfter=No
+24	מ	מ	ADP	ADP	_	25	case	_	_
+25	תאילנד	תאילנד	PROPN	PROPN	_	23	nmod	_	_
+26	,	,	PUNCT	PUNCT	_	30	punct	_	_
+27	רק	רק	ADV	ADV	_	30	advmod	_	_
+28	כדי	כדי	SCONJ	SCONJ	_	30	mark	_	_
+29	לא	לא	ADV	ADV	Polarity=Neg	30	advmod	_	_
+30	לשלם	שילם	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	15	advcl	_	_
+31-32	להם	_	_	_	_	_	_	_	_
+31	ל	ל	ADP	ADP	_	32	case	_	_
+32	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	30	obl	_	_
+33	שכר	שכר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	30	obj	_	_
+34	מינימום	מינימום	NOUN	NOUN	Gender=Masc|Number=Sing	33	compound:smixut	_	SpaceAfter=No
+35	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# doc_id = htb:1
+# doc_range = 563-766
+# sent_id = 4
+# text = מצד אחד רוצה האוצר להוריד את שכר המינימום, ומצד שני מתיר משרד העבודה והרווחה להעסיק עובדים זרים בפחות משכר זה".
+1-2	מצד	_	_	_	_	_	_	_	_
+1	מ	מ	ADP	ADP	_	2	case	_	_
+2	צד	צד	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+3	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	2	amod	_	_
+4	רוצה	רצה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+5-6	האוצר	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	אוצר	אוצר	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
+7	להוריד	הוריד	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+8	את	את	ADP	ADP	Case=Acc	9	case	_	_
+9	שכר	שכר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	obj	_	_
+10-11	המינימום	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	מינימום	מינימום	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound:smixut	_	_
+12	,	,	PUNCT	PUNCT	_	17	punct	_	_
+13-15	ומצד	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+14	מ	מ	ADP	ADP	_	15	case	_	_
+15	צד	צד	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	_
+16	שני	שני	ADJ	ADJ	Gender=Masc|Number=Sing	15	amod	_	_
+17	מתיר	התיר	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	4	conj	_	_
+18	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	nsubj	_	_
+19-20	העבודה	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	18	compound:smixut	_	_
+21-23	והרווחה	_	_	_	_	_	_	_	_
+21	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	רווחה	רווחה	NOUN	NOUN	Gender=Fem|Number=Sing	20	conj	_	_
+24	להעסיק	העסיק	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+25	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	24	obj	_	_
+26	זרים	זר	ADJ	ADJ	Gender=Masc|Number=Plur	25	amod	_	_
+27-28	בפחות	_	_	_	_	_	_	_	_
+27	ב	ב	ADP	ADP	_	30	case	_	_
+28	פחות	פחות	ADV	ADV	_	30	advmod	_	HebSource=ConvUncertainHead
+29-30	משכר	_	_	_	_	_	_	_	_
+29	מ	מ	ADP	ADP	_	28	fixed	_	_
+30	שכר	שכר	NOUN	NOUN	Gender=Masc|Number=Sing	24	obl	_	_
+31	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	30	det	_	SpaceAfter=No
+32	"	"	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+33	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:1
+# doc_range = 769-1015
+# sent_id = 5
+# text = נמיר הודיעה כי תפנה לשרי הפנים והעבודה והרווחה ולמזכיר תנועת המושבים, בתביעה לבטל את הזמנתם של 500 עובדים זרים מתאילנד כמתנדבים כביכול.
+1	נמיר	נמיר	PROPN	PROPN	_	2	nsubj	_	_
+2	הודיעה	הודיע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	כי	כי	SCONJ	SCONJ	_	4	mark	_	_
+4	תפנה	פנה	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Fut	2	ccomp	_	_
+5-6	לשרי	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	שרי	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	obl	_	_
+7-8	הפנים	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	פנים	פנים	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+9-11	והעבודה	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	8	conj	_	_
+12-14	והרווחה	_	_	_	_	_	_	_	_
+12	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	רווחה	רווחה	NOUN	NOUN	Gender=Fem|Number=Sing	11	conj	_	_
+15-17	ולמזכיר	_	_	_	_	_	_	_	_
+15	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	מזכיר	מזכיר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	conj	_	_
+18	תנועת	תנועה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	17	compound:smixut	_	_
+19-20	המושבים	_	_	_	_	_	_	_	SpaceAfter=No
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	מושבים	מושב	NOUN	NOUN	Gender=Masc|Number=Plur	18	compound:smixut	_	_
+21	,	,	PUNCT	PUNCT	_	23	punct	_	_
+22-23	בתביעה	_	_	_	_	_	_	_	_
+22	ב	ב	ADP	ADP	_	23	case	_	_
+23	תביעה	תביעה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+24	לבטל	ביטל	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	23	acl	_	_
+25	את	את	ADP	ADP	Case=Acc	26	case	_	_
+26-28	הזמנתם	_	_	_	_	_	_	_	_
+26	הזמנה	הזמנה	NOUN	NOUN	Gender=Fem|Number=Sing	24	obj	_	_
+27	_של_	של	ADP	ADP	Case=Gen	28	case:gen	_	_
+28	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+29	של	של	ADP	ADP	Case=Gen	31	case	_	_
+30	500	500	NUM	NUM	_	31	nummod	_	_
+31	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	26	nmod:poss	_	_
+32	זרים	זר	ADJ	ADJ	Gender=Masc|Number=Plur	31	amod	_	_
+33-34	מתאילנד	_	_	_	_	_	_	_	_
+33	מ	מ	ADP	ADP	_	34	case	_	_
+34	תאילנד	תאילנד	PROPN	PROPN	_	31	nmod	_	_
+35-36	כמתנדבים	_	_	_	_	_	_	_	_
+35	כ	כ	ADP	ADP	_	36	case	_	_
+36	מתנדבים	מתנדב	NOUN	NOUN	Gender=Masc|Number=Plur	26	nmod	_	_
+37	כביכול	כביכול	ADV	ADV	_	36	advmod	_	HebSource=ConvUncertainHead|SpaceAfter=No
+38	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:1
+# doc_range = 1017-1299
+# sent_id = 6
+# text = היא הודיעה כי הוועדה תגבש הצעת חוק בנושא העובדים הזרים, שתכלול איסור על מתן שכר לעובדים מתחת לשכר המינימום ומתן התנאים הסוציאליים המקובלים במקום העבודה.
+1	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	הודיעה	הודיע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	כי	כי	SCONJ	SCONJ	_	6	mark	_	_
+4-5	הוועדה	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	וועדה	ועדה	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj	_	_
+6	תגבש	גיבש	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	2	ccomp	_	_
+7	הצעת	הצעה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	obj	_	_
+8	חוק	חוק	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound:smixut	_	_
+9-10	בנושא	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	נושא	נושא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nmod	_	_
+11-12	העובדים	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	10	compound:smixut	_	_
+13-14	הזרים	_	_	_	_	_	_	_	SpaceAfter=No
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	זרים	זר	ADJ	ADJ	Gender=Masc|Number=Plur	12	amod	_	_
+15	,	,	PUNCT	PUNCT	_	17	punct	_	_
+16-17	שתכלול	_	_	_	_	_	_	_	_
+16	ש	ש	SCONJ	SCONJ	_	17	mark	_	_
+17	תכלול	כלל	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	7	acl:relcl	_	_
+18	איסור	איסור	NOUN	NOUN	Gender=Masc|Number=Sing	17	obj	_	_
+19	על	על	ADP	ADP	_	20	case	_	_
+20	מתן	מתן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	18	nmod	_	_
+21	שכר	שכר	NOUN	NOUN	Gender=Masc|Number=Sing	20	compound:smixut	_	_
+22-24	לעובדים	_	_	_	_	_	_	_	_
+22	ל	ל	ADP	ADP	_	24	case	_	_
+23	ה_	ה	DET	DET	PronType=Art|Definite=Def	24	det	_	_
+24	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	20	nmod	_	_
+25	מתחת	מתחת	ADP	ADP	_	27	case	_	_
+26-27	לשכר	_	_	_	_	_	_	_	_
+26	ל	ל	ADP	ADP	_	25	fixed	_	_
+27	שכר	שכר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	20	nmod	_	_
+28-29	המינימום	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	מינימום	מינימום	NOUN	NOUN	Gender=Masc|Number=Sing	27	compound:smixut	_	_
+30-31	ומתן	_	_	_	_	_	_	_	_
+30	ו	ו	CCONJ	CCONJ	_	31	cc	_	_
+31	מתן	מתן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	18	conj	_	_
+32-33	התנאים	_	_	_	_	_	_	_	_
+32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
+33	תנאים	תנאי	NOUN	NOUN	Gender=Masc|Number=Plur	31	compound:smixut	_	_
+34-35	הסוציאליים	_	_	_	_	_	_	_	_
+34	ה	ה	DET	DET	Definite=Def|PronType=Art	35	det	_	_
+35	סוציאליים	סוציאלי	ADJ	ADJ	Gender=Masc|Number=Plur	33	amod	_	_
+36-37	המקובלים	_	_	_	_	_	_	_	_
+36	ה	ה	DET	DET	Definite=Def|PronType=Art	37	det	_	_
+37	מקובלים	מקובל	ADJ	ADJ	Gender=Masc|Number=Plur	33	amod	_	_
+38-39	במקום	_	_	_	_	_	_	_	_
+38	ב	ב	ADP	ADP	_	39	case	_	_
+39	מקום	מקום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	31	nmod	_	_
+40-41	העבודה	_	_	_	_	_	_	_	SpaceAfter=No
+40	ה	ה	DET	DET	Definite=Def|PronType=Art	41	det	_	_
+41	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	39	compound:smixut	_	_
+42	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:1
+# doc_range = 1301-1456
+# sent_id = 7
+# text = כמו כן, תציב הצעת החוק עונשי מאסר והטלת קנסות כבדים למי שיעסיק עובדים זרים בלא רשיון.
+1	כמו	כמו	ADP	ADP	_	2	case	_	_
+2	כן	כן	PRON	PRON	Person=3|PronType=Dem	4	obl	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
+4	תציב	הציב	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+5	הצעת	הצעה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	nsubj	_	_
+6-7	החוק	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	חוק	חוק	NOUN	NOUN	Gender=Masc|Number=Sing	5	compound:smixut	_	_
+8	עונשי	עונש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	obj	_	_
+9	מאסר	מאסר	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound:smixut	_	_
+10-11	והטלת	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+11	הטלת	הטלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	8	conj	_	_
+12	קנסות	קנס	NOUN	NOUN	Gender=Masc|Number=Plur	11	compound:smixut	_	_
+13	כבדים	כבד	ADJ	ADJ	Gender=Masc|Number=Plur	12	amod	_	_
+14-15	למי	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	מי	מי	PRON	PRON	PronType=Int	8	nmod	_	_
+16-17	שיעסיק	_	_	_	_	_	_	_	_
+16	ש	ש	SCONJ	SCONJ	_	17	mark	_	_
+17	יעסיק	העסיק	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	15	acl:relcl	_	_
+18	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	17	obj	_	_
+19	זרים	זר	ADJ	ADJ	Gender=Masc|Number=Plur	18	amod	_	_
+20	בלא	בלא	ADP	ADP	_	21	case	_	_
+21	רשיון	רישיון	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:1
+# doc_range = 1458-1696
+# sent_id = 8
+# text = מרגלית אילת, הממונה על מתן היתרי עבודה לזרים בשירות התעסוקה, מסרה כי תנועת המושבים הפעילה לחץ שיותר לה להביא עובדים זרים מתאילנד.
+1	מרגלית	מרגלית	PROPN	PROPN	_	17	nsubj	_	_
+2	אילת	אילת	PROPN	PROPN	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	5	punct	_	_
+4-5	הממונה	_	_	_	_	_	_	_	_
+4	ה	ה	SCONJ	SCONJ	_	5	mark	_	_
+5	ממונה	מונה	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	1	acl:relcl	_	_
+6	על	על	ADP	ADP	_	7	case	_	_
+7	מתן	מתן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+8	היתרי	היתר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	7	compound:smixut	_	_
+9	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound:smixut	_	_
+10-11	לזרים	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	11	case	_	_
+11	זרים	זר	NOUN	NOUN	Gender=Masc|Number=Plur	7	nmod	_	_
+12-13	בשירות	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	שירות	שירות	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+14-15	התעסוקה	_	_	_	_	_	_	_	SpaceAfter=No
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	תעסוקה	תעסוקה	NOUN	NOUN	Gender=Fem|Number=Sing	13	compound:smixut	_	_
+16	,	,	PUNCT	PUNCT	_	1	punct	_	_
+17	מסרה	מסר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+18	כי	כי	SCONJ	SCONJ	_	22	mark	_	_
+19	תנועת	תנועה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	22	nsubj	_	_
+20-21	המושבים	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	מושבים	מושב	NOUN	NOUN	Gender=Masc|Number=Plur	19	compound:smixut	_	_
+22	הפעילה	הפעיל	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	17	ccomp	_	_
+23	לחץ	לחץ	NOUN	NOUN	Gender=Masc|Number=Sing	22	obj	_	_
+24-25	שיותר	_	_	_	_	_	_	_	_
+24	ש	ש	SCONJ	SCONJ	_	25	mark	_	_
+25	יותר	הותר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	23	acl:relcl	_	_
+26-27	לה	_	_	_	_	_	_	_	_
+26	ל	ל	ADP	ADP	_	27	case	_	_
+27	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	obl	_	_
+28	להביא	הביא	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	25	xcomp	_	_
+29	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	28	obj	_	_
+30	זרים	זר	ADJ	ADJ	Gender=Masc|Number=Plur	29	amod	_	_
+31-32	מתאילנד	_	_	_	_	_	_	_	SpaceAfter=No
+31	מ	מ	ADP	ADP	_	32	case	_	_
+32	תאילנד	תאילנד	PROPN	PROPN	_	28	obl	_	_
+33	.	.	PUNCT	PUNCT	_	17	punct	_	_
+
+# doc_id = htb:1
+# doc_range = 1698-1845
+# sent_id = 9
+# text = היא אמרה כי שירות התעסוקה הציע להביא עובדים מדרום לבנון, אך תנועת המושבים סירבה.
+1	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	אמרה	אמר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	כי	כי	SCONJ	SCONJ	_	7	mark	_	_
+4	שירות	שירות	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nsubj	_	_
+5-6	התעסוקה	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	תעסוקה	תעסוקה	NOUN	NOUN	Gender=Fem|Number=Sing	4	compound:smixut	_	_
+7	הציע	הציע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	ccomp	_	_
+8	להביא	הביא	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	8	obj	_	_
+10-11	מדרום	_	_	_	_	_	_	_	_
+10	מ	מ	ADP	ADP	_	11	case	_	_
+11	דרום	דרום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	obl	_	_
+12	לבנון	לבנון	PROPN	PROPN	_	11	compound:smixut	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	18	punct	_	_
+14	אך	אך	CCONJ	CCONJ	_	18	cc	_	_
+15	תנועת	תנועה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	18	nsubj	_	_
+16-17	המושבים	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	מושבים	מושב	NOUN	NOUN	Gender=Masc|Number=Plur	15	compound:smixut	_	_
+18	סירבה	סירב	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	7	conj	_	SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:1
+# doc_range = 1847-2121
+# sent_id = 10
+# text = ישראל ארד, סמנכ"ל הביטוח הלאומי, אמר כי ממלא מקום שר העבודה והרווחה, דוד מגן, הקים ועדה בין-משרדית, שהמליצה להגדיל באופן משמעותי את הקנסות למעסיקים.
+1	ישראל	ישראל	PROPN	PROPN	_	10	nsubj	_	_
+2	ארד	ארד	PROPN	PROPN	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	4	punct	_	_
+4	סמנכ"ל	סמנכ"ל	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	1	appos	_	_
+5-6	הביטוח	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	ביטוח	ביטוח	NOUN	NOUN	Gender=Masc|Number=Sing	4	compound:smixut	_	_
+7-8	הלאומי	_	_	_	_	_	_	_	SpaceAfter=No
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	לאומי	לאומי	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	_
+9	,	,	PUNCT	PUNCT	_	1	punct	_	_
+10	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+11	כי	כי	SCONJ	SCONJ	_	24	mark	_	_
+12	ממלא	מילא	VERB	VERB	Definite=Cons|Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	24	nsubj	_	_
+13	מקום	מקום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	compound:smixut	_	_
+14	שר	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	compound:smixut	_	_
+15-16	העבודה	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	14	compound:smixut	_	_
+17-19	והרווחה	_	_	_	_	_	_	_	SpaceAfter=No
+17	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	רווחה	רווחה	NOUN	NOUN	Gender=Fem|Number=Sing	16	conj	_	_
+20	,	,	PUNCT	PUNCT	_	21	punct	_	_
+21	דוד	דוד	PROPN	PROPN	_	12	appos	_	_
+22	מגן	מגן	PROPN	PROPN	_	21	flat:name	_	SpaceAfter=No
+23	,	,	PUNCT	PUNCT	_	12	punct	_	_
+24	הקים	הקים	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	10	ccomp	_	_
+25	ועדה	ועדה	NOUN	NOUN	Gender=Fem|Number=Sing	24	obj	_	_
+26	בין	בין	ADV	ADV	Prefix=Yes	28	compound:affix	_	SpaceAfter=No
+27	-	-	PUNCT	PUNCT	_	26	punct	_	SpaceAfter=No
+28	משרדית	משרדי	ADJ	ADJ	Gender=Fem|Number=Sing	25	amod	_	SpaceAfter=No
+29	,	,	PUNCT	PUNCT	_	31	punct	_	_
+30-31	שהמליצה	_	_	_	_	_	_	_	_
+30	ש	ש	SCONJ	SCONJ	_	31	mark	_	_
+31	המליצה	המליץ	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	25	acl:relcl	_	_
+32	להגדיל	הגדיל	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	31	xcomp	_	_
+33-34	באופן	_	_	_	_	_	_	_	_
+33	ב	ב	ADP	ADP	_	34	case	_	_
+34	אופן	אופן	NOUN	NOUN	Gender=Masc|Number=Sing	32	obl	_	_
+35	משמעותי	משמעותי	ADJ	ADJ	Gender=Masc|Number=Sing	34	amod	_	_
+36	את	את	ADP	ADP	Case=Acc	38	case	_	_
+37-38	הקנסות	_	_	_	_	_	_	_	_
+37	ה	ה	DET	DET	Definite=Def|PronType=Art	38	det	_	_
+38	קנסות	קנס	NOUN	NOUN	Gender=Masc|Number=Plur	32	obj	_	_
+39-41	למעסיקים	_	_	_	_	_	_	_	SpaceAfter=No
+39	ל	ל	ADP	ADP	_	41	case	_	_
+40	ה_	ה	DET	DET	PronType=Art|Definite=Def	41	det	_	_
+41	מעסיקים	מעסיק	NOUN	NOUN	Gender=Masc|Number=Plur	38	nmod	_	_
+42	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:1
+# doc_range = 2123-2322
+# sent_id = 11
+# text = ח"כ אלי דיין (מערך) הגיש הצעת חוק שלפיה יוטל היטל על מעסיקי עובדים זרים, כדי למנוע העדפתם על עובדים ישראליים.
+1	ח"כ	ח"כ	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	אלי	אלי	PROPN	PROPN	_	1	flat:name	_	_
+3	דיין	דיין	PROPN	PROPN	_	1	flat:name	_	_
+4	(	(	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+5	מערך	מערך	PROPN	PROPN	_	1	appos	_	SpaceAfter=No
+6	)	)	PUNCT	PUNCT	_	5	punct	_	_
+7	הגיש	הגיש	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+8	הצעת	הצעה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	obj	_	_
+9	חוק	חוק	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound:smixut	_	_
+10-12	שלפיה	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	13	mark	_	_
+11	לפי	לפי	ADP	ADP	_	12	case	_	_
+12	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obl	_	_
+13	יוטל	הוטל	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	8	acl:relcl	_	_
+14	היטל	היטל	NOUN	NOUN	Gender=Masc|Number=Sing	13	nsubj:pass	_	_
+15	על	על	ADP	ADP	_	16	case	_	_
+16	מעסיקי	מעסיק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	13	obl	_	_
+17	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	16	compound:smixut	_	_
+18	זרים	זר	ADJ	ADJ	Gender=Masc|Number=Plur	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	21	punct	_	_
+20	כדי	כדי	SCONJ	SCONJ	_	21	mark	_	_
+21	למנוע	מנע	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	7	advcl	_	_
+22-24	העדפתם	_	_	_	_	_	_	_	_
+22	העדפה	העדפה	NOUN	NOUN	Gender=Fem|Number=Sing	21	obj	_	_
+23	_של_	של	ADP	ADP	Case=Gen	24	case:gen	_	_
+24	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+25	על	על	ADP	ADP	_	26	case	_	_
+26	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	22	nmod	_	_
+27	ישראליים	ישראלי	ADJ	ADJ	Gender=Masc|Number=Plur	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:1
+# doc_range = 2324-2467
+# sent_id = 12
+# text = חברות המעסיקות עובדים זרים זוכות במכרזים, היות והן מציעות שירותים זולים יותר.
+1	חברות	חברה	NOUN	NOUN	Gender=Fem|Number=Plur	6	nsubj	_	_
+2-3	המעסיקות	_	_	_	_	_	_	_	_
+2	ה	ה	SCONJ	SCONJ	_	3	mark	_	_
+3	מעסיקות	העסיק	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	1	acl:relcl	_	_
+4	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	3	obj	_	_
+5	זרים	זר	ADJ	ADJ	Gender=Masc|Number=Plur	4	amod	_	_
+6	זוכות	זכה	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+7-8	במכרזים	_	_	_	_	_	_	_	SpaceAfter=No
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	מכרזים	מכרז	NOUN	NOUN	Gender=Masc|Number=Plur	6	obl	_	_
+9	,	,	PUNCT	PUNCT	_	13	punct	_	_
+10	היות	היות	SCONJ	SCONJ	_	13	mark	_	_
+11-12	והן	_	_	_	_	_	_	_	_
+11	ו	ו	CCONJ	CCONJ	_	10	fixed	_	HebSource=ConvUncertainHead
+12	הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
+13	מציעות	הציע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	6	advcl	_	HebSource=ConvUncertainHead
+14	שירותים	שירות	NOUN	NOUN	Gender=Masc|Number=Plur	13	obj	_	_
+15	זולים	זול	ADJ	ADJ	Gender=Masc|Number=Plur	14	amod	_	_
+16	יותר	יותר	ADV	ADV	_	15	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:1
+# doc_range = 2469-2733
+# sent_id = 13
+# text = ח"כ רן כהן (רץ) אמר כי על הוועדה לפנות לממשלה בדרישה לחסל את העסקת העובדים הזרים לאלתר, על רקע היצע העולים המוכנים לעבוד בכל עבודה בשכר המינימום.
+1	ח"כ	ח"כ	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	7	dep	_	_
+2	רן	רן	PROPN	PROPN	_	1	flat:name	_	_
+3	כהן	כהן	PROPN	PROPN	_	1	flat:name	_	_
+4	(	(	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+5	רץ	רץ	PROPN	PROPN	_	1	appos	_	SpaceAfter=No
+6	)	)	PUNCT	PUNCT	_	5	punct	_	_
+7	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+8	כי	כי	SCONJ	SCONJ	_	11	mark	_	_
+9	על	על	ADP	ADP	_	11	case	_	_
+10-11	הוועדה	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	וועדה	ועדה	NOUN	NOUN	Gender=Fem|Number=Sing	7	ccomp	_	_
+12	לפנות	פנה	VERB	VERB	VerbForm=Inf	11	xcomp	_	_
+13-15	לממשלה	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	15	case	_	_
+14	ה_	ה	DET	DET	PronType=Art|Definite=Def	15	det	_	_
+15	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	12	obl	_	_
+16-17	בדרישה	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	דרישה	דרישה	NOUN	NOUN	Gender=Fem|Number=Sing	12	obl	_	_
+18	לחסל	חיסל	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	17	acl	_	_
+19	את	את	ADP	ADP	Case=Acc	20	case	_	_
+20	העסקת	העסקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	18	obj	_	_
+21-22	העובדים	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	20	compound:smixut	_	_
+23-24	הזרים	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	זרים	זר	ADJ	ADJ	Gender=Masc|Number=Plur	22	amod	_	_
+25	לאלתר	לאלתר	ADV	ADV	_	18	advmod	_	SpaceAfter=No
+26	,	,	PUNCT	PUNCT	_	29	punct	_	_
+27	על	על	ADP	ADP	_	29	case	_	_
+28	רקע	רקע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	27	fixed	_	_
+29	היצע	היצע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	obl	_	_
+30-31	העולים	_	_	_	_	_	_	_	_
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	עולים	עולה	NOUN	NOUN	Gender=Masc|Number=Plur	29	compound:smixut	_	_
+32-33	המוכנים	_	_	_	_	_	_	_	_
+32	ה	ה	SCONJ	SCONJ	_	34	mark	_	_
+33	מוכנים	מוכן	AUX	AUX	Gender=Masc|Number=Plur|Person=1,2,3|VerbType=Mod	34	aux	_	_
+34	לעבוד	עבד	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	31	acl:relcl	_	_
+35-36	בכל	_	_	_	_	_	_	_	_
+35	ב	ב	ADP	ADP	_	37	case	_	_
+36	כל	כול	DET	DET	Definite=Cons	37	det	_	_
+37	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	34	obl	_	_
+38-39	בשכר	_	_	_	_	_	_	_	_
+38	ב	ב	ADP	ADP	_	39	case	_	_
+39	שכר	שכר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	34	obl	_	_
+40-41	המינימום	_	_	_	_	_	_	_	SpaceAfter=No
+40	ה	ה	DET	DET	Definite=Def|PronType=Art	41	det	_	_
+41	מינימום	מינימום	NOUN	NOUN	Gender=Masc|Number=Sing	39	compound:smixut	_	_
+42	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:1
+# doc_range = 2735-2954
+# sent_id = 14
+# text = לדבריו, יש לפנות למשרד העבודה והרווחה בדרישה לבטל בתוך חודש את עבודת העובדים הזרים המועסקים כיום תחת הכותרת "מתנדבים".
+1-4	לדבריו	_	_	_	_	_	_	_	SpaceAfter=No
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	7	obl	_	_
+3	_של_	של	ADP	ADP	Case=Gen	4	case:gen	_	_
+4	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5	,	,	PUNCT	PUNCT	_	2	punct	_	_
+6	יש	יש	AUX	AUX	VerbType=Mod	7	aux	_	_
+7	לפנות	פנה	VERB	VERB	VerbForm=Inf	0	root	_	_
+8-9	למשרד	_	_	_	_	_	_	_	_
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	obl	_	_
+10-11	העבודה	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	9	compound:smixut	_	_
+12-14	והרווחה	_	_	_	_	_	_	_	_
+12	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	רווחה	רווחה	NOUN	NOUN	Gender=Fem|Number=Sing	11	conj	_	_
+15-16	בדרישה	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	דרישה	דרישה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
+17	לבטל	ביטל	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	16	acl	_	_
+18	בתוך	בתוך	ADP	ADP	_	19	case	_	_
+19	חודש	חודש	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	_
+20	את	את	ADP	ADP	Case=Acc	21	case	_	_
+21	עבודת	עבודה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	17	obj	_	_
+22-23	העובדים	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	21	compound:smixut	_	_
+24-25	הזרים	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	זרים	זר	ADJ	ADJ	Gender=Masc|Number=Plur	23	amod	_	_
+26-27	המועסקים	_	_	_	_	_	_	_	_
+26	ה	ה	SCONJ	SCONJ	_	27	mark	_	_
+27	מועסקים	הועסק	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	23	acl:relcl	_	_
+28	כיום	כיום	ADV	ADV	_	27	advmod	_	_
+29	תחת	תחת	ADP	ADP	_	31	case	_	_
+30-31	הכותרת	_	_	_	_	_	_	_	_
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	כותרת	כותרת	NOUN	NOUN	Gender=Fem|Number=Sing	27	obl	_	_
+32	"	"	PUNCT	PUNCT	_	33	punct	_	SpaceAfter=No
+33	מתנדבים	מתנדב	NOUN	NOUN	Gender=Masc|Number=Plur	31	appos	_	SpaceAfter=No
+34	"	"	PUNCT	PUNCT	_	33	punct	_	SpaceAfter=No
+35	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:1
+# doc_range = 2956-3107
+# sent_id = 15
+# text = ח"כ יאיר צבן (מפם) אמר כי פרשת המתנדבים התאילנדיים היא "כתם חרפה על פרצופנו הלאומי.
+1	ח"כ	ח"כ	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	יאיר	יאיר	PROPN	PROPN	_	1	flat:name	_	_
+3	צבן	צבן	PROPN	PROPN	_	1	flat:name	_	_
+4	(	(	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+5	מפם	מפם	PROPN	PROPN	_	1	appos	_	SpaceAfter=No
+6	)	)	PUNCT	PUNCT	_	5	punct	_	_
+7	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+8	כי	כי	SCONJ	SCONJ	_	16	mark	_	_
+9	פרשת	פרשה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	16	nsubj	_	_
+10-11	המתנדבים	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	מתנדבים	מתנדב	NOUN	NOUN	Gender=Masc|Number=Plur	9	compound:smixut	_	_
+12-13	התאילנדיים	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	תאילנדיים	תאילנדי	ADJ	ADJ	Gender=Masc|Number=Plur	11	amod	_	_
+14	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	16	cop	_	_
+15	"	"	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
+16	כתם	כתם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	ccomp	_	_
+17	חרפה	חרפה	NOUN	NOUN	Gender=Fem|Number=Sing	16	compound:smixut	_	_
+18	על	על	ADP	ADP	_	19	case	_	_
+19-21	פרצופנו	_	_	_	_	_	_	_	_
+19	פרצוף	פרצוף	NOUN	NOUN	Gender=Masc|Number=Sing	16	nmod	_	_
+20	_של_	של	ADP	ADP	Case=Gen	21	case:gen	_	_
+21	_אנחנו	הוא	PRON	PRON	Definite=Def|Gender=Fem,Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+22-23	הלאומי	_	_	_	_	_	_	_	SpaceAfter=No
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	לאומי	לאומי	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	_
+24	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:1
+# doc_range = 3109-3204
+# sent_id = 16
+# text = המוח מתפלץ לא רק מהתופעה המבישה אלא גם מדרכי ההערמה.
+1-2	המוח	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מוח	מוח	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	מתפלץ	התפלץ	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+4	לא	לא	ADV	ADV	Polarity=Neg	5	advmod	_	_
+5	רק	רק	ADV	ADV	_	8	advmod	_	_
+6-8	מהתופעה	_	_	_	_	_	_	_	_
+6	מ	מ	ADP	ADP	_	8	case	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	תופעה	תופעה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+9-10	המבישה	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	מבישה	מביש	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	_
+11	אלא	אלא	CCONJ	CCONJ	_	14	cc	_	_
+12	גם	גם	ADV	ADV	_	14	advmod	_	_
+13-14	מדרכי	_	_	_	_	_	_	_	_
+13	מ	מ	ADP	ADP	_	14	case	_	_
+14	דרכי	דרך	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	8	conj	_	_
+15-16	ההערמה	_	_	_	_	_	_	_	SpaceAfter=No
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	הערמה	הערמה	NOUN	NOUN	Gender=Fem|Number=Sing	14	compound:smixut	_	_
+17	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:1
+# doc_range = 3206-3325
+# sent_id = 17
+# text = הראש היהודי ממציא לנו פטנטים בדמות מתנדבים, המשולמים שכר מחפיר".
+1-2	הראש	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	ראש	ראש	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+3-4	היהודי	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	יהודי	יהודי	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+5	ממציא	המציא	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+6-7	לנו	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	5	obl	_	_
+8	פטנטים	פטנט	NOUN	NOUN	Gender=Masc|Number=Plur	5	obj	_	_
+9-10	בדמות	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	דמות	דמות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	8	nmod	_	_
+11	מתנדבים	מתנדב	NOUN	NOUN	Gender=Masc|Number=Plur	10	compound:smixut	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	14	punct	_	_
+13-14	המשולמים	_	_	_	_	_	_	_	_
+13	ה	ה	SCONJ	SCONJ	_	14	mark	_	_
+14	משולמים	שולם	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	11	acl:relcl	_	_
+15	שכר	שכר	NOUN	NOUN	Gender=Masc|Number=Sing	14	obj	_	_
+16	מחפיר	מחפיר	ADJ	ADJ	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:1
+# doc_range = 3327-3486
+# sent_id = 18
+# text = הוא קרא להפסקת התופעה ולמתן תשלומים רטרואקטיוויים לתאילנדים, שישלימו את שכר המינימום.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	קרא	קרא	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3-4	להפסקת	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	4	case	_	_
+4	הפסקת	הפסקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	obl	_	_
+5-6	התופעה	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	תופעה	תופעה	NOUN	NOUN	Gender=Fem|Number=Sing	4	compound:smixut	_	_
+7-9	ולמתן	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	מתן	מתן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	conj	_	_
+10	תשלומים	תשלום	NOUN	NOUN	Gender=Masc|Number=Plur	9	compound:smixut	_	_
+11	רטרואקטיוויים	רטרואקטיבי	ADJ	ADJ	Gender=Masc|Number=Plur	10	amod	_	_
+12-14	לתאילנדים	_	_	_	_	_	_	_	SpaceAfter=No
+12	ל	ל	ADP	ADP	_	14	case	_	_
+13	ה_	ה	DET	DET	PronType=Art|Definite=Def	14	det	_	_
+14	תאילנדים	תאילנדי	NOUN	NOUN	Gender=Masc|Number=Plur	10	nmod	_	_
+15	,	,	PUNCT	PUNCT	_	17	punct	_	_
+16-17	שישלימו	_	_	_	_	_	_	_	_
+16	ש	ש	SCONJ	SCONJ	_	17	mark	_	_
+17	ישלימו	השלים	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Fut|Voice=Act	10	acl:relcl	_	_
+18	את	את	ADP	ADP	Case=Acc	19	case	_	_
+19	שכר	שכר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	obj	_	_
+20-21	המינימום	_	_	_	_	_	_	_	SpaceAfter=No
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	מינימום	מינימום	NOUN	NOUN	Gender=Masc|Number=Sing	19	compound:smixut	_	_
+22	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:1
+# doc_range = 3488-3693
+# sent_id = 19
+# text = דוברת שירות התעסוקה מסרה אתמול בתגובה, כי השירות פועל לצמצום מספרם של העובדים הזרים ולהכנסת עולים חדשים במקומם.
+1	דוברת	דובר	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	שירות	שירות	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	compound:smixut	_	_
+3-4	התעסוקה	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	תעסוקה	תעסוקה	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound:smixut	_	_
+5	מסרה	מסר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+6	אתמול	אתמול	ADV	ADV	_	5	advmod	_	_
+7-8	בתגובה	_	_	_	_	_	_	_	SpaceAfter=No
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	תגובה	תגובה	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
+9	,	,	PUNCT	PUNCT	_	13	punct	_	_
+10	כי	כי	SCONJ	SCONJ	_	13	mark	_	_
+11-12	השירות	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	שירות	שירות	NOUN	NOUN	Gender=Masc|Number=Sing	13	nsubj	_	_
+13	פועל	פעל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	5	ccomp	_	_
+14-15	לצמצום	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	צמצום	צמצום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	obl	_	_
+16-18	מספרם	_	_	_	_	_	_	_	_
+16	מספר	מספר	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	_
+17	_של_	של	ADP	ADP	Case=Gen	18	case:gen	_	_
+18	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+19	של	של	ADP	ADP	Case=Gen	21	case	_	_
+20-21	העובדים	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	16	nmod:poss	_	_
+22-23	הזרים	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	זרים	זר	ADJ	ADJ	Gender=Masc|Number=Plur	21	amod	_	_
+24-26	ולהכנסת	_	_	_	_	_	_	_	_
+24	ו	ו	CCONJ	CCONJ	_	26	cc	_	_
+25	ל	ל	ADP	ADP	_	26	case	_	_
+26	הכנסת	הכנסה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	15	conj	_	_
+27	עולים	עולה	NOUN	NOUN	Gender=Masc|Number=Plur	26	compound:smixut	_	_
+28	חדשים	חדש	ADJ	ADJ	Gender=Masc|Number=Plur	27	amod	_	_
+29-32	במקומם	_	_	_	_	_	_	_	SpaceAfter=No
+29	ב	ב	ADP	ADP	_	30	case	_	_
+30	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	26	nmod	_	_
+31	_של_	של	ADP	ADP	Case=Gen	32	case:gen	_	_
+32	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+33	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:1
+# doc_range = 3697-3841
+# sent_id = 20
+# text = "לאחר פעילות נמרצת בשבועות האחרונים, צומצם מספר העובדים הזרים בענף האחיות ב50%.
+1	"	"	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+2	לאחר	לאחר	ADP	ADP	_	3	case	_	_
+3	פעילות	פעילות	NOUN	NOUN	Gender=Fem|Number=Sing	11	obl	_	_
+4	נמרצת	נמרץ	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	_
+5-7	בשבועות	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	7	case	_	_
+6	ה_	ה	DET	DET	PronType=Art|Definite=Def	7	det	_	_
+7	שבועות	שבוע	NOUN	NOUN	Gender=Masc|Number=Plur	3	nmod	_	_
+8-9	האחרונים	_	_	_	_	_	_	_	SpaceAfter=No
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	אחרונים	אחרון	ADJ	ADJ	Gender=Masc|Number=Plur	7	amod	_	_
+10	,	,	PUNCT	PUNCT	_	3	punct	_	_
+11	צומצם	צומצם	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+12	מספר	מספר	DET	DET	Definite=Cons	14	det	_	_
+13-14	העובדים	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	11	nsubj:pass	_	_
+15-16	הזרים	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	זרים	זר	ADJ	ADJ	Gender=Masc|Number=Plur	14	amod	_	_
+17-18	בענף	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	_	18	case	_	_
+18	ענף	ענף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	14	nmod	_	_
+19-20	האחיות	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	אחיות	אח	NOUN	NOUN	Gender=Fem|Number=Plur	18	compound:smixut	_	_
+21-22	ב50	_	_	_	_	_	_	_	SpaceAfter=No
+21	ב	ב	ADP	ADP	_	23	case	_	_
+22	50	50	NUM	NUM	_	23	nummod	_	_
+23	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	11	obl	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:1
+# doc_range = 3842-3924
+# sent_id = 21
+# text = עד סוף השנה לא תועסק בארץ אף אחות כעובדת זרה".
+1	עד	עד	ADP	ADP	_	2	case	_	_
+2	סוף	סוף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	obl	_	_
+3-4	השנה	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound:smixut	_	_
+5	לא	לא	ADV	ADV	Polarity=Neg	6	advmod	_	_
+6	תועסק	הועסק	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	0	root	_	_
+7-9	בארץ	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	9	case	_	_
+8	ה_	ה	DET	DET	PronType=Art|Definite=Def	9	det	_	_
+9	ארץ	ארץ	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	_
+10	אף	אף	DET	DET	Definite=Cons	11	det	_	_
+11	אחות	אח	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+12-13	כעובדת	_	_	_	_	_	_	_	_
+12	כ	כ	ADP	ADP	_	13	case	_	_
+13	עובדת	עובד	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	_
+14	זרה	זר	ADJ	ADJ	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	"	"	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:1
+# doc_range = 3926-4066
+# sent_id = 22
+# text = הדוברת אמרה כי השירות קורא לחקלאים לדאוג לעובדים ישראליים, במקום לתאילנדים.
+1-2	הדוברת	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	דוברת	דובר	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	אמרה	אמר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	כי	כי	SCONJ	SCONJ	_	7	mark	_	_
+5-6	השירות	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	שירות	שירות	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	קורא	קרא	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	3	ccomp	_	_
+8-10	לחקלאים	_	_	_	_	_	_	_	_
+8	ל	ל	ADP	ADP	_	10	case	_	_
+9	ה_	ה	DET	DET	PronType=Art|Definite=Def	10	det	_	_
+10	חקלאים	חקלאי	NOUN	NOUN	Gender=Masc|Number=Plur	7	obl	_	_
+11	לדאוג	דאג	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+12-13	לעובדים	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	_	13	case	_	_
+13	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	11	obl	_	_
+14	ישראליים	ישראלי	ADJ	ADJ	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	18	punct	_	_
+16	במקום	במקום	ADP	ADP	_	18	case	_	_
+17-18	לתאילנדים	_	_	_	_	_	_	_	SpaceAfter=No
+17	ל	ל	ADP	ADP	_	18	case	_	_
+18	תאילנדים	תאילנדי	NOUN	NOUN	Gender=Masc|Number=Plur	11	obl	_	_
+19	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:1
+# doc_range = 4070-4360
+# sent_id = 23
+# text = "השירות לא שינה את המדיניות בנושא העסקת תאילנדים בחקלאות, אלא להיפך, הוא הבהיר לתנועת המושבים שכל עובד ישראלי שיסכים לעבוד בענף החקלאות, ישובץ לעבודה לאלתר".
+1	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+2-3	השירות	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	שירות	שירות	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	לא	לא	ADV	ADV	Polarity=Neg	5	advmod	_	_
+5	שינה	שינה	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+6	את	את	ADP	ADP	Case=Acc	8	case	_	_
+7-8	המדיניות	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	מדיניות	מדיניות	NOUN	NOUN	Gender=Fem|Number=Sing	5	obj	_	_
+9-10	בנושא	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	נושא	נושא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	nmod	_	_
+11	העסקת	העסקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	10	compound:smixut	_	_
+12	תאילנדים	תאילנדי	NOUN	NOUN	Gender=Masc|Number=Plur	11	compound:smixut	_	_
+13-14	בחקלאות	_	_	_	_	_	_	_	SpaceAfter=No
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	חקלאות	חקלאות	NOUN	NOUN	Gender=Fem|Number=Sing	11	nmod	_	_
+15	,	,	PUNCT	PUNCT	_	20	punct	_	_
+16	אלא	אלא	CCONJ	CCONJ	_	20	cc	_	_
+17	להיפך	להיפך	ADV	ADV	_	20	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	17	punct	_	_
+19	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+20	הבהיר	הבהיר	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	_
+21-22	לתנועת	_	_	_	_	_	_	_	_
+21	ל	ל	ADP	ADP	_	22	case	_	_
+22	תנועת	תנועה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	20	obl	_	_
+23-24	המושבים	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	מושבים	מושב	NOUN	NOUN	Gender=Masc|Number=Plur	22	compound:smixut	_	_
+25-26	שכל	_	_	_	_	_	_	_	_
+25	ש	ש	SCONJ	SCONJ	_	37	mark	_	_
+26	כל	כול	DET	DET	Definite=Cons	27	det	_	_
+27	עובד	עובד	NOUN	NOUN	Gender=Masc|Number=Sing	37	nsubj:pass	_	_
+28	ישראלי	ישראלי	ADJ	ADJ	Gender=Masc|Number=Sing	27	amod	_	_
+29-30	שיסכים	_	_	_	_	_	_	_	_
+29	ש	ש	SCONJ	SCONJ	_	30	mark	_	_
+30	יסכים	הסכים	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	27	acl:relcl	_	_
+31	לעבוד	עבד	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	30	xcomp	_	_
+32-33	בענף	_	_	_	_	_	_	_	_
+32	ב	ב	ADP	ADP	_	33	case	_	_
+33	ענף	ענף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	31	obl	_	_
+34-35	החקלאות	_	_	_	_	_	_	_	SpaceAfter=No
+34	ה	ה	DET	DET	Definite=Def|PronType=Art	35	det	_	_
+35	חקלאות	חקלאות	NOUN	NOUN	Gender=Fem|Number=Sing	33	compound:smixut	_	_
+36	,	,	PUNCT	PUNCT	_	27	punct	_	_
+37	ישובץ	שובץ	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	20	ccomp	_	_
+38-40	לעבודה	_	_	_	_	_	_	_	_
+38	ל	ל	ADP	ADP	_	40	case	_	_
+39	ה_	ה	DET	DET	PronType=Art|Definite=Def	40	det	_	_
+40	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	37	obl	_	_
+41	לאלתר	לאלתר	ADV	ADV	_	37	advmod	_	SpaceAfter=No
+42	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+43	.	.	PUNCT	PUNCT	_	5	punct	_	_
+

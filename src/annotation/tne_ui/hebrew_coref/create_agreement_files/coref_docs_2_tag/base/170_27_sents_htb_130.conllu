@@ -1,0 +1,1046 @@
+# doc_id = htb:130
+# doc_range = 1-380
+# sent_id = 3146
+# text = ניגוד לגישה המקובלת בריפוי עיניים, הגורסת כי כל מי שנתגלה אצלו קוצר או רוחק ראייה נדון להרכיב משקפיים למשך כל ימי חייו, טוענת שיטת בייטס, שהיא שיטת ריפוי טבעי, כי בעזרת תרגילים נכונים ניתן לתקן ליקויי ראייה.
+1	ניגוד	ניגוד	NOUN	NOUN	Gender=Masc|Number=Sing	35	dep	_	_
+2-4	לגישה	_	_	_	_	_	_	_	_
+2	ל	ל	ADP	ADP	_	4	case	_	_
+3	ה_	ה	DET	DET	PronType=Art|Definite=Def	4	det	_	_
+4	גישה	גישה	NOUN	NOUN	Gender=Fem|Number=Sing	35	obl	_	_
+5-6	המקובלת	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	מקובלת	מקובל	ADJ	ADJ	Gender=Fem|Number=Sing	4	amod	_	_
+7-8	בריפוי	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	ריפוי	ריפוי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nmod	_	_
+9	עיניים	עין	NOUN	NOUN	Gender=Fem|Number=Plur	8	compound:smixut	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	12	punct	_	_
+11-12	הגורסת	_	_	_	_	_	_	_	_
+11	ה	ה	SCONJ	SCONJ	_	12	mark	_	_
+12	גורסת	גרס	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	4	acl:relcl	_	_
+13	כי	כי	SCONJ	SCONJ	_	24	mark	_	_
+14	כל	כול	DET	DET	Definite=Cons	15	det	_	_
+15	מי	מי	PRON	PRON	PronType=Int	24	nsubj	_	_
+16-17	שנתגלה	_	_	_	_	_	_	_	_
+16	ש	ש	SCONJ	SCONJ	_	17	mark	_	_
+17	נתגלה	התגלה	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	15	acl:relcl	_	_
+18-19	אצלו	_	_	_	_	_	_	_	_
+18	אצל	אצל	ADP	ADP	_	19	case	_	_
+19	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obl	_	_
+20	קוצר	קוצר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	nsubj	_	_
+21	או	או	CCONJ	CCONJ	_	22	cc	_	_
+22	רוחק	רוחק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	20	conj	_	_
+23	ראייה	ראייה	NOUN	NOUN	Gender=Fem|Number=Sing	22	compound:smixut	_	_
+24	נדון	נדון	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	12	ccomp	_	_
+25	להרכיב	הרכיב	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	24	xcomp	_	_
+26	משקפיים	משקף	NOUN	NOUN	Gender=Masc|Number=Dual	25	obj	_	_
+27-28	למשך	_	_	_	_	_	_	_	_
+27	ל	ל	ADP	ADP	_	30	case	_	_
+28	משך	משך	NOUN	NOUN	Gender=Masc|Number=Sing	27	fixed	_	_
+29	כל	כול	DET	DET	Definite=Cons	30	det	_	_
+30	ימי	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	25	obl	_	_
+31-33	חייו	_	_	_	_	_	_	_	SpaceAfter=No
+31	חיים	חיים	NOUN	NOUN	Gender=Masc|Number=Plur	30	compound:smixut	_	_
+32	_של_	של	ADP	ADP	Case=Gen	33	case:gen	_	_
+33	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+34	,	,	PUNCT	PUNCT	_	4	punct	_	_
+35	טוענת	טען	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+36	שיטת	שיטה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	35	nsubj	_	_
+37	בייטס	בייטס	PROPN	PROPN	_	36	compound:smixut	_	SpaceAfter=No
+38	,	,	PUNCT	PUNCT	_	41	punct	_	_
+39-40	שהיא	_	_	_	_	_	_	_	_
+39	ש	ש	SCONJ	SCONJ	_	41	mark	_	_
+40	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	41	nsubj	_	_
+41	שיטת	שיטה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	36	acl:relcl	_	_
+42	ריפוי	ריפוי	NOUN	NOUN	Gender=Masc|Number=Sing	41	compound:smixut	_	_
+43	טבעי	טבעי	ADJ	ADJ	Gender=Masc|Number=Sing	42	amod	_	SpaceAfter=No
+44	,	,	PUNCT	PUNCT	_	51	punct	_	_
+45	כי	כי	SCONJ	SCONJ	_	51	mark	_	_
+46-47	בעזרת	_	_	_	_	_	_	_	_
+46	ב	ב	ADP	ADP	_	47	case	_	_
+47	עזרת	עזרה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	51	obl	_	_
+48	תרגילים	תרגיל	NOUN	NOUN	Gender=Masc|Number=Plur	47	compound:smixut	_	_
+49	נכונים	נכון	ADJ	ADJ	Gender=Masc|Number=Plur	48	amod	_	_
+50	ניתן	ניתן	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	51	aux	_	_
+51	לתקן	תיקן	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	35	ccomp	_	_
+52	ליקויי	ליקוי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	51	obj	_	_
+53	ראייה	ראייה	NOUN	NOUN	Gender=Fem|Number=Sing	52	compound:smixut	_	SpaceAfter=No
+54	.	.	PUNCT	PUNCT	_	35	punct	_	_
+
+# doc_id = htb:130
+# doc_range = 383-575
+# sent_id = 3147
+# text = שלומית נצח, שמצב ראייתה הידרדר מגיל 91 ואילך, התוודעה לשיטת הריפוי הטבעי, השוללת בתוקף את הטיפול המסורתי.
+1	שלומית	שלומית	PROPN	PROPN	_	16	nsubj	_	_
+2	נצח	נצח	PROPN	PROPN	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	9	punct	_	_
+4-5	שמצב	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
+5	מצב	מצב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	nsubj	_	_
+6-8	ראייתה	_	_	_	_	_	_	_	_
+6	ראייה	ראייה	NOUN	NOUN	Gender=Fem|Number=Sing	5	compound:smixut	_	_
+7	_של_	של	ADP	ADP	Case=Gen	8	case:gen	_	_
+8	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+9	הידרדר	הידרדר	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	1	acl:relcl	_	_
+10-11	מגיל	_	_	_	_	_	_	_	_
+10	מ	מ	ADP	ADP	_	11	case	_	_
+11	גיל	גיל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	obl	_	_
+12	91	91	NUM	NUM	_	11	compound:smixut	_	_
+13-14	ואילך	_	_	_	_	_	_	_	SpaceAfter=No
+13	ו	ו	ADV	ADV	_	11	advmod	_	_
+14	אילך	אילך	ADV	ADV	_	13	fixed	_	_
+15	,	,	PUNCT	PUNCT	_	1	punct	_	_
+16	התוודעה	התוודע	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+17-18	לשיטת	_	_	_	_	_	_	_	_
+17	ל	ל	ADP	ADP	_	18	case	_	_
+18	שיטת	שיטה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	16	obl	_	_
+19-20	הריפוי	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	ריפוי	ריפוי	NOUN	NOUN	Gender=Masc|Number=Sing	18	compound:smixut	_	_
+21-22	הטבעי	_	_	_	_	_	_	_	SpaceAfter=No
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	טבעי	טבעי	ADJ	ADJ	Gender=Masc|Number=Sing	20	amod	_	_
+23	,	,	PUNCT	PUNCT	_	25	punct	_	_
+24-25	השוללת	_	_	_	_	_	_	_	_
+24	ה	ה	SCONJ	SCONJ	_	25	mark	_	_
+25	שוללת	שלל	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	18	acl:relcl	_	_
+26-27	בתוקף	_	_	_	_	_	_	_	_
+26	ב	ב	ADP	ADP	_	27	case	_	_
+27	תוקף	תוקף	NOUN	NOUN	Gender=Masc|Number=Sing	25	obl	_	_
+28	את	את	ADP	ADP	Case=Acc	30	case	_	_
+29-30	הטיפול	_	_	_	_	_	_	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	טיפול	טיפול	NOUN	NOUN	Gender=Masc|Number=Sing	25	obj	_	_
+31-32	המסורתי	_	_	_	_	_	_	_	SpaceAfter=No
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	מסורתי	מסורתי	ADJ	ADJ	Gender=Masc|Number=Sing	30	amod	_	_
+33	.	.	PUNCT	PUNCT	_	16	punct	_	_
+
+# doc_id = htb:130
+# doc_range = 577-827
+# sent_id = 3148
+# text = היא שאבה ידע מקריאת ספרים ומפגישות עם אנשים כמו לוטה דאוס ומאיר שניידר, שהצליח בכוחות עצמו להתרפא ממצב של כמעט עיוורון ואף כתב על כך ספר.
+1	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	שאבה	שאב	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	ידע	ידע	NOUN	NOUN	Gender=Masc|Number=Sing	2	obj	_	_
+4-5	מקריאת	_	_	_	_	_	_	_	_
+4	מ	מ	ADP	ADP	_	5	case	_	_
+5	קריאת	קריאה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	obl	_	_
+6	ספרים	ספר	NOUN	NOUN	Gender=Masc|Number=Plur	5	compound:smixut	_	_
+7-9	ומפגישות	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+8	מ	מ	ADP	ADP	_	9	case	_	_
+9	פגישות	פגישה	NOUN	NOUN	Gender=Fem|Number=Plur	5	conj	_	_
+10	עם	עם	ADP	ADP	_	11	case	_	_
+11	אנשים	איש	NOUN	NOUN	Gender=Masc|Number=Plur	9	nmod	_	_
+12	כמו	כמו	ADP	ADP	_	13	case	_	_
+13	לוטה	לוטה	PROPN	PROPN	_	11	nmod	_	_
+14	דאוס	דאוס	PROPN	PROPN	_	13	flat:name	_	_
+15-16	ומאיר	_	_	_	_	_	_	_	_
+15	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+16	מאיר	מאיר	PROPN	PROPN	_	13	conj	_	_
+17	שניידר	שניידר	PROPN	PROPN	_	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	20	punct	_	_
+19-20	שהצליח	_	_	_	_	_	_	_	_
+19	ש	ש	SCONJ	SCONJ	_	20	mark	_	_
+20	הצליח	הצליח	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	16	acl:relcl	_	_
+21-22	בכוחות	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	כוחות	כוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	20	obl	_	_
+23	עצמו	עצמו	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	22	compound:smixut	_	_
+24	להתרפא	התרפא	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	20	xcomp	_	_
+25-26	ממצב	_	_	_	_	_	_	_	_
+25	מ	מ	ADP	ADP	_	26	case	_	_
+26	מצב	מצב	NOUN	NOUN	Gender=Masc|Number=Sing	24	obl	_	_
+27	של	של	ADP	ADP	Case=Gen	29	case	_	_
+28	כמעט	כמעט	ADV	ADV	_	29	advmod	_	_
+29	עיוורון	עיוורון	NOUN	NOUN	Gender=Masc|Number=Sing	26	nmod:poss	_	_
+30-31	ואף	_	_	_	_	_	_	_	_
+30	ו	ו	CCONJ	CCONJ	_	32	cc	_	_
+31	אף	אף	ADV	ADV	_	32	advmod	_	_
+32	כתב	כתב	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	20	conj	_	_
+33	על	על	ADP	ADP	_	34	case	_	_
+34	כך	כך	PRON	PRON	Person=3|PronType=Dem	32	obl	_	_
+35	ספר	ספר	NOUN	NOUN	Gender=Masc|Number=Sing	32	obj	_	SpaceAfter=No
+36	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:130
+# doc_range = 829-978
+# sent_id = 3149
+# text = נצח למדה את השיטה ויישמה אותה הלכה למעשה, בתחילה על עצמה ואחר-כך על חברים ומכרים.
+1	נצח	נצח	PROPN	PROPN	_	2	nsubj	_	_
+2	למדה	למד	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Past	0	root	_	_
+3	את	את	ADP	ADP	Case=Acc	5	case	_	_
+4-5	השיטה	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	שיטה	שיטה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obj	_	_
+6-7	ויישמה	_	_	_	_	_	_	_	_
+6	ו	ו	CCONJ	CCONJ	_	7	cc	_	_
+7	יישמה	יישם	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	_
+8-9	אותה	_	_	_	_	_	_	_	_
+8	את	את	ADP	ADP	Case=Acc	9	case	_	_
+9	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+10	הלכה	הלכה	NOUN	NOUN	Gender=Fem|Number=Sing	7	dep	_	_
+11-12	למעשה	_	_	_	_	_	_	_	SpaceAfter=No
+11	ל	ל	ADP	ADP	_	12	case	_	_
+12	מעשה	מעשה	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod	_	_
+13	,	,	PUNCT	PUNCT	_	16	punct	_	_
+14	בתחילה	בתחילה	ADV	ADV	_	16	advmod	_	_
+15	על	על	ADP	ADP	_	16	case	_	_
+16	עצמה	עצמו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	obl	_	_
+17-18	ואחר	_	_	_	_	_	_	_	SpaceAfter=No
+17	ו	ו	CCONJ	CCONJ	_	22	cc	_	_
+18	אחר	אחר	ADP	ADP	_	20	case	_	_
+19	-	-	PUNCT	PUNCT	_	20	punct	_	SpaceAfter=No
+20	כך	כך	PRON	PRON	Person=3|PronType=Dem	22	nmod	_	_
+21	על	על	ADP	ADP	_	22	case	_	_
+22	חברים	חבר	NOUN	NOUN	Gender=Masc|Number=Plur	16	conj	_	_
+23-24	ומכרים	_	_	_	_	_	_	_	SpaceAfter=No
+23	ו	ו	CCONJ	CCONJ	_	24	cc	_	_
+24	מכרים	מכר	NOUN	NOUN	Gender=Masc|Number=Plur	22	conj	_	_
+25	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:130
+# doc_range = 980-1137
+# sent_id = 3150
+# text = בהדרגה התרחב חוג הפונים אליה והיא החלה להדריך קבוצות בקייטנות, מתנ"סים ובבתים פרטיים.
+1-2	בהדרגה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	הדרגה	הדרגה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+3	התרחב	התרחב	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	חוג	חוג	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	nsubj	_	_
+5-6	הפונים	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	פונים	פוני	NOUN	NOUN	Gender=Masc|Number=Plur	4	compound:smixut	_	_
+7-8	אליה	_	_	_	_	_	_	_	_
+7	אל	אל	ADP	ADP	_	8	case	_	_
+8	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nmod	_	_
+9-10	והיא	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+10	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	החלה	החל	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	_
+12	להדריך	הדריך	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	קבוצות	קבוצה	NOUN	NOUN	Gender=Fem|Number=Plur	12	obj	_	_
+14-15	בקייטנות	_	_	_	_	_	_	_	SpaceAfter=No
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	קייטנות	קייטנה	NOUN	NOUN	Gender=Fem|Number=Plur	13	nmod	_	_
+16	,	,	PUNCT	PUNCT	_	17	punct	_	_
+17	מתנ"סים	מתנ"ס	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Plur	15	appos	_	_
+18-20	ובבתים	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	בתים	בית	NOUN	NOUN	Gender=Masc|Number=Plur	15	conj	_	_
+21	פרטיים	פרטי	ADJ	ADJ	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:130
+# doc_range = 1140-1342
+# sent_id = 3151
+# text = כעבור זמן-מה הוזמנה לסייע לצוות המורות בכיתה לילדים הסובלים מבעיות ראייה קשות בבית-הספר יוסף קארו בבאר-שבע.
+1	כעבור	כעבור	ADP	ADP	_	2	case	_	_
+2	זמן	זמן	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+3	-	-	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+4	מה	מה	PRON	PRON	PronType=Int	2	amod	_	_
+5	הוזמנה	הוזמן	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+6	לסייע	סייע	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7-8	לצוות	_	_	_	_	_	_	_	_
+7	ל	ל	ADP	ADP	_	8	case	_	_
+8	צוות	צוות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	obl	_	_
+9-10	המורות	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	מורות	מורה	NOUN	NOUN	Gender=Fem|Number=Plur	8	compound:smixut	_	_
+11-13	בכיתה	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	13	case	_	_
+12	ה_	ה	DET	DET	PronType=Art|Definite=Def	13	det	_	_
+13	כיתה	כיתה	NOUN	NOUN	Gender=Fem|Number=Sing	8	nmod	_	_
+14-16	לילדים	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	16	case	_	_
+15	ה_	ה	DET	DET	PronType=Art|Definite=Def	16	det	_	_
+16	ילדים	ילד	NOUN	NOUN	Gender=Masc|Number=Plur	6	obl	_	_
+17-18	הסובלים	_	_	_	_	_	_	_	_
+17	ה	ה	SCONJ	SCONJ	_	18	mark	_	_
+18	סובלים	סבל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	16	acl:relcl	_	_
+19-20	מבעיות	_	_	_	_	_	_	_	_
+19	מ	מ	ADP	ADP	_	20	case	_	_
+20	בעיות	בעיה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	18	obl	_	_
+21	ראייה	ראייה	NOUN	NOUN	Gender=Fem|Number=Sing	20	compound:smixut	_	_
+22	קשות	קשה	ADJ	ADJ	Gender=Fem|Number=Plur	20	amod	_	_
+23-24	בבית	_	_	_	_	_	_	_	SpaceAfter=No
+23	ב	ב	ADP	ADP	_	27	case	_	_
+24	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	27	nmod	_	_
+25	-	-	PUNCT	PUNCT	_	24	punct	_	SpaceAfter=No
+26-27	הספר	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	ספר	ספר	NOUN	NOUN	Gender=Masc|Number=Sing	16	nmod	_	_
+28	יוסף	יוסף	PROPN	PROPN	_	27	flat:name	_	_
+29	קארו	קארו	PROPN	PROPN	_	27	flat:name	_	_
+30-31	בבאר	_	_	_	_	_	_	_	SpaceAfter=No
+30	ב	ב	ADP	ADP	_	31	case	_	_
+31	באר	באר	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	27	nmod	_	_
+32	-	-	PUNCT	PUNCT	_	33	punct	_	SpaceAfter=No
+33	שבע	שבע	NUM	NUM	Gender=Fem|Number=Plur	31	flat:name	_	SpaceAfter=No
+34	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:130
+# doc_range = 1344-1427
+# sent_id = 3152
+# text = היא עבדה שם שנתיים והגיעה איתם להישגים נאותים.
+1	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	עבדה	עבד	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Past	0	root	_	_
+3	שם	שם	ADV	ADV	_	2	advmod	_	_
+4	שנתיים	שנה	NOUN	NOUN	Gender=Fem|Number=Dual	2	obl:tmod	_	_
+5-6	והגיעה	_	_	_	_	_	_	_	_
+5	ו	ו	CCONJ	CCONJ	_	6	cc	_	_
+6	הגיעה	הגיע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	_
+7-8	איתם	_	_	_	_	_	_	_	_
+7	את	את	ADP	ADP	_	8	case	_	_
+8	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	obl	_	_
+9-10	להישגים	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	10	case	_	_
+10	הישגים	הישג	NOUN	NOUN	Gender=Masc|Number=Plur	6	obl	_	_
+11	נאותים	נאות	ADJ	ADJ	Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:130
+# doc_range = 1429-1625
+# sent_id = 3153
+# text = נצח אומרת, כי נדרשו לה שנתיים וחצי עד שהגיעה לראייה תקינה, מכיוון שעשתה הרבה הפסקות בתרגול ולא היתה במסגרת.
+1	נצח	נצח	PROPN	PROPN	_	2	nsubj	_	_
+2	אומרת	אמר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	5	punct	_	_
+4	כי	כי	SCONJ	SCONJ	_	5	mark	_	_
+5	נדרשו	נדרש	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	2	ccomp	_	_
+6-7	לה	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
+8	שנתיים	שנה	NOUN	NOUN	Gender=Fem|Number=Dual	5	nsubj	_	_
+9-10	וחצי	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+10	חצי	חצי	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	8	conj	_	_
+11	עד	עד	ADP	ADP	_	13	mark	_	_
+12-13	שהגיעה	_	_	_	_	_	_	_	_
+12	ש	ש	SCONJ	SCONJ	_	11	fixed	_	_
+13	הגיעה	הגיע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	5	advcl	_	_
+14-15	לראייה	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	ראייה	ראייה	NOUN	NOUN	Gender=Fem|Number=Sing	13	obl	_	_
+16	תקינה	תקין	ADJ	ADJ	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	20	punct	_	_
+18	מכיוון	מכיוון	SCONJ	SCONJ	_	20	mark	_	_
+19-20	שעשתה	_	_	_	_	_	_	_	_
+19	ש	ש	SCONJ	SCONJ	_	20	mark	_	_
+20	עשתה	עשה	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	5	obl	_	_
+21	הרבה	הרבה	DET	DET	Definite=Cons	22	det	_	_
+22	הפסקות	הפסקה	NOUN	NOUN	Gender=Fem|Number=Plur	20	obj	_	_
+23-24	בתרגול	_	_	_	_	_	_	_	_
+23	ב	ב	ADP	ADP	_	24	case	_	_
+24	תרגול	תרגול	NOUN	NOUN	Gender=Masc|Number=Sing	22	nmod	_	_
+25-26	ולא	_	_	_	_	_	_	_	_
+25	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
+26	לא	לא	ADV	ADV	Polarity=Neg	27	advmod	_	_
+27	היתה	היה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	20	conj	_	_
+28-29	במסגרת	_	_	_	_	_	_	_	SpaceAfter=No
+28	ב	ב	ADP	ADP	_	29	case	_	_
+29	מסגרת	מסגרת	NOUN	NOUN	Gender=Fem|Number=Sing	27	obl	_	_
+30	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:130
+# doc_range = 1627-1819
+# sent_id = 3154
+# text = שיטתה מבוססת על כמה עקרונות פשוטים, כשבבסיסה ההנחה שהמצב הנפשי הוא זה שמשפיע על העיניים ועל כושר הראייה.
+1-3	שיטתה	_	_	_	_	_	_	_	_
+1	שיטה	שיטה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
+2	_של_	של	ADP	ADP	Case=Gen	3	case:gen	_	_
+3	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	nmod:poss	_	_
+4	מבוססת	מבוססת	VERB	VERB	Gender=Fem|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+5	על	על	ADP	ADP	_	7	case	_	_
+6	כמה	כמה	DET	DET	Definite=Cons	7	det	_	_
+7	עקרונות	עיקרון	NOUN	NOUN	Gender=Masc|Number=Plur	4	obl	_	_
+8	פשוטים	פשוט	ADJ	ADJ	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	12	punct	_	_
+10-14	כשבבסיסה	_	_	_	_	_	_	_	_
+10	כש	כש	SCONJ	SCONJ	Case=Tem	12	mark	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	בסיס	בסיס	NOUN	NOUN	Gender=Masc|Number=Sing	4	advcl	_	_
+13	_של_	של	ADP	ADP	Case=Gen	14	case:gen	_	_
+14	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+15-16	ההנחה	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	הנחה	הנחה	NOUN	NOUN	Gender=Fem|Number=Sing	12	nsubj	_	_
+17-19	שהמצב	_	_	_	_	_	_	_	_
+17	ש	ש	SCONJ	SCONJ	_	23	mark	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	מצב	מצב	NOUN	NOUN	Gender=Masc|Number=Sing	23	nsubj	_	_
+20-21	הנפשי	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	נפשי	נפשי	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	_
+22	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	23	cop	_	_
+23	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	16	acl:relcl	_	_
+24-25	שמשפיע	_	_	_	_	_	_	_	_
+24	ש	ש	SCONJ	SCONJ	_	25	mark	_	_
+25	משפיע	השפיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	23	acl:relcl	_	_
+26	על	על	ADP	ADP	_	28	case	_	_
+27-28	העיניים	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	עיניים	עין	NOUN	NOUN	Gender=Fem|Number=Plur	25	obl	_	_
+29-30	ועל	_	_	_	_	_	_	_	_
+29	ו	ו	CCONJ	CCONJ	_	31	cc	_	_
+30	על	על	ADP	ADP	_	31	case	_	_
+31	כושר	כושר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	28	conj	_	_
+32-33	הראייה	_	_	_	_	_	_	_	SpaceAfter=No
+32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
+33	ראייה	ראייה	NOUN	NOUN	Gender=Fem|Number=Sing	31	compound:smixut	_	_
+34	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:130
+# doc_range = 1821-1973
+# sent_id = 3155
+# text = מתח נפשי, מחלות קשות או טראומות, עשויים להשפיע לרעה על מצב העיניים ועל כושר הראייה.
+1	מתח	מתח	NOUN	NOUN	Gender=Masc|Number=Sing	10	nsubj	_	_
+2	נפשי	נפשי	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	4	punct	_	_
+4	מחלות	מחלה	NOUN	NOUN	Gender=Fem|Number=Plur	1	conj	_	_
+5	קשות	קשה	ADJ	ADJ	Gender=Fem|Number=Plur	4	amod	_	_
+6	או	או	CCONJ	CCONJ	_	7	cc	_	_
+7	טראומות	טראומה	NOUN	NOUN	Gender=Fem|Number=Plur	1	conj	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	1	punct	_	_
+9	עשויים	עשוי	AUX	AUX	Gender=Masc|Number=Plur|Person=1,2,3|VerbType=Mod	10	aux	_	_
+10	להשפיע	השפיע	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	0	root	_	_
+11-12	לרעה	_	_	_	_	_	_	_	_
+11	ל	ל	ADP	ADP	_	12	case	_	_
+12	רעה	רע	NOUN	NOUN	Gender=Fem|Number=Sing	10	obl	_	_
+13	על	על	ADP	ADP	_	14	case	_	_
+14	מצב	מצב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	obl	_	_
+15-16	העיניים	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	עיניים	עין	NOUN	NOUN	Gender=Fem|Number=Plur	14	compound:smixut	_	_
+17-18	ועל	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+18	על	על	ADP	ADP	_	19	case	_	_
+19	כושר	כושר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	14	conj	_	_
+20-21	הראייה	_	_	_	_	_	_	_	SpaceAfter=No
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	ראייה	ראייה	NOUN	NOUN	Gender=Fem|Number=Sing	19	compound:smixut	_	_
+22	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:130
+# doc_range = 1975-2105
+# sent_id = 3156
+# text = היום רואה שלומית נצח היטב, גם למרחקים ארוכים, ללא משקפיים או עדשות מגע.
+1	היום	היום	ADV	ADV	_	2	advmod	_	_
+2	רואה	ראה	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+3	שלומית	שלומית	PROPN	PROPN	_	2	nsubj	_	_
+4	נצח	נצח	PROPN	PROPN	_	3	flat:name	_	_
+5	היטב	היטב	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	9	punct	_	_
+7	גם	גם	ADV	ADV	_	9	advmod	_	_
+8-9	למרחקים	_	_	_	_	_	_	_	_
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	מרחקים	מרחק	NOUN	NOUN	Gender=Masc|Number=Plur	2	obl	_	_
+10	ארוכים	ארוך	ADJ	ADJ	Gender=Masc|Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	13	punct	_	_
+12	ללא	ללא	ADP	ADP	_	13	case	_	_
+13	משקפיים	משקפיים	NOUN	NOUN	_	2	obl	_	_
+14	או	או	CCONJ	CCONJ	_	15	cc	_	_
+15	עדשות	עדשה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	13	conj	_	_
+16	מגע	מגע	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:130
+# doc_range = 2107-2264
+# sent_id = 3157
+# text = היא גם מטפלת בשיטה זו בהצלחה באנשים הסובלים מליקויי ראייה שונים קטרקט, גלאוקומה ועוד.
+1	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	גם	גם	ADV	ADV	_	3	advmod	_	_
+3	מטפלת	טיפל	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4-5	בשיטה	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	שיטה	שיטה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+6	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	5	det	_	_
+7-8	בהצלחה	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	הצלחה	הצלחה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+9-10	באנשים	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	אנשים	איש	NOUN	NOUN	Gender=Masc|Number=Plur	3	obl	_	_
+11-12	הסובלים	_	_	_	_	_	_	_	_
+11	ה	ה	SCONJ	SCONJ	_	12	mark	_	_
+12	סובלים	סבל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	10	acl:relcl	_	_
+13-14	מליקויי	_	_	_	_	_	_	_	_
+13	מ	מ	ADP	ADP	_	14	case	_	_
+14	ליקויי	ליקוי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	12	obl	_	_
+15	ראייה	ראייה	NOUN	NOUN	Gender=Fem|Number=Sing	14	compound:smixut	_	_
+16	שונים	שונה	ADJ	ADJ	Gender=Masc|Number=Plur	14	amod	_	_
+17	קטרקט	קטרקט	NOUN	NOUN	_	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	19	punct	_	_
+19	גלאוקומה	גלאוקומה	NOUN	NOUN	Gender=Fem|Number=Sing	17	conj	_	_
+20-21	ועוד	_	_	_	_	_	_	_	SpaceAfter=No
+20	ו	ו	CCONJ	CCONJ	_	21	cc	_	_
+21	עוד	עוד	ADV	ADV	_	17	conj	_	_
+22	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:130
+# doc_range = 2267-2527
+# sent_id = 3158
+# text = "לפי הגישה הטבעית", מוסיפה נצח, "כושר הראייה הינו תוצאה של מצב העיניים ואין להפריד בין השניים, כשם שאי אפשר להפריד בין כושר גופני ויכולת ריצה.
+1	"	"	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+2	לפי	לפי	ADP	ADP	_	4	case	_	_
+3-4	הגישה	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	גישה	גישה	NOUN	NOUN	Gender=Fem|Number=Sing	17	nmod	_	_
+5-6	הטבעית	_	_	_	_	_	_	_	SpaceAfter=No
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	טבעית	טבעי	ADJ	ADJ	Gender=Fem|Number=Sing	4	amod	_	_
+7	"	"	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	9	punct	_	_
+9	מוסיפה	הוסיף	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	17	parataxis	_	_
+10	נצח	נצח	PROPN	PROPN	_	9	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	9	punct	_	_
+12	"	"	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+13	כושר	כושר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	nsubj	_	_
+14-15	הראייה	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	ראייה	ראייה	NOUN	NOUN	Gender=Fem|Number=Sing	13	compound:smixut	_	_
+16	הינו	הנו	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	17	cop	_	_
+17	תוצאה	תוצאה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+18	של	של	ADP	ADP	Case=Gen	19	case	_	_
+19	מצב	מצב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	nmod:poss	_	_
+20-21	העיניים	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	עיניים	עין	NOUN	NOUN	Gender=Fem|Number=Plur	19	compound:smixut	_	_
+22-23	ואין	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	_	24	cc	_	_
+23	אין	אין	AUX	AUX	VerbType=Mod	24	aux	_	_
+24	להפריד	הפריד	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	17	conj	_	_
+25	בין	בין	ADP	ADP	_	27	case	_	_
+26-27	השניים	_	_	_	_	_	_	_	SpaceAfter=No
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	שניים	שתיים	NUM	NUM	Gender=Masc|Number=Plur	24	obl	_	_
+28	,	,	PUNCT	PUNCT	_	33	punct	_	_
+29	כשם	כשם	SCONJ	SCONJ	_	32	mark	_	_
+30-31	שאי	_	_	_	_	_	_	_	_
+30	ש	ש	SCONJ	SCONJ	_	29	fixed	_	_
+31	אי	אי	ADV	ADV	Prefix=Yes	33	advmod	_	_
+32	אפשר	אפשר	AUX	AUX	VerbType=Mod	33	advcl	_	_
+33	להפריד	הפריד	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	24	obl	_	_
+34	בין	בין	ADP	ADP	_	35	case	_	_
+35	כושר	כושר	NOUN	NOUN	Gender=Masc|Number=Sing	33	obl	_	_
+36	גופני	גופני	ADJ	ADJ	Gender=Masc|Number=Sing	35	amod	_	_
+37-38	ויכולת	_	_	_	_	_	_	_	_
+37	ו	ו	CCONJ	CCONJ	_	38	cc	_	_
+38	יכולת	יכולת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	35	conj	_	_
+39	ריצה	ריצה	NOUN	NOUN	Gender=Fem|Number=Sing	38	compound:smixut	_	SpaceAfter=No
+40	.	.	PUNCT	PUNCT	_	17	punct	_	_
+
+# doc_id = htb:130
+# doc_range = 2530-2739
+# sent_id = 3159
+# text = בגישה הקונוונציונלית, לעומת זאת, מצב העיניים נחשב לצד הבריאותי וליקויי ראייה נחשבים לצד התפקודי ואפילו הקוסמטי".
+1-3	בגישה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	גישה	גישה	NOUN	NOUN	Gender=Fem|Number=Sing	13	obl	_	_
+4-5	הקונוונציונלית	_	_	_	_	_	_	_	SpaceAfter=No
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	קונוונציונלית	קונבנציונלי	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	_
+6	,	,	PUNCT	PUNCT	_	3	punct	_	_
+7	לעומת	לעומת	ADP	ADP	_	8	case	_	_
+8	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	13	obl	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	8	punct	_	_
+10	מצב	מצב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	nsubj	_	_
+11-12	העיניים	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	עיניים	עין	NOUN	NOUN	Gender=Fem|Number=Plur	10	compound:smixut	_	_
+13	נחשב	נחשב	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	0	root	_	_
+14-16	לצד	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	16	case	_	_
+15	ה_	ה	DET	DET	PronType=Art|Definite=Def	16	det	_	_
+16	צד	צד	NOUN	NOUN	Gender=Masc|Number=Sing	13	obl	_	_
+17-18	הבריאותי	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	בריאותי	בריאותי	ADJ	ADJ	Gender=Masc|Number=Sing	16	amod	_	_
+19-20	וליקויי	_	_	_	_	_	_	_	_
+19	ו	ו	CCONJ	CCONJ	_	22	cc	_	_
+20	ליקויי	ליקוי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	22	nsubj	_	_
+21	ראייה	ראייה	NOUN	NOUN	Gender=Fem|Number=Sing	20	compound:smixut	_	_
+22	נחשבים	נחשב	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	13	conj	_	_
+23-25	לצד	_	_	_	_	_	_	_	_
+23	ל	ל	ADP	ADP	_	25	case	_	_
+24	ה_	ה	DET	DET	PronType=Art|Definite=Def	25	det	_	_
+25	צד	צד	NOUN	NOUN	Gender=Masc|Number=Sing	22	obl	_	_
+26-27	התפקודי	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	תפקודי	תפקודי	ADJ	ADJ	Gender=Masc|Number=Sing	25	amod	_	_
+28-29	ואפילו	_	_	_	_	_	_	_	_
+28	ו	ו	CCONJ	CCONJ	_	31	cc	_	_
+29	אפילו	אפילו	ADV	ADV	_	31	advmod	_	_
+30-31	הקוסמטי	_	_	_	_	_	_	_	SpaceAfter=No
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	קוסמטי	קוסמטי	ADJ	ADJ	Gender=Masc|Number=Sing	27	conj	_	_
+32	"	"	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No
+33	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# doc_id = htb:130
+# doc_range = 2741-2953
+# sent_id = 3160
+# text = לעפעוף בעיניים יש תפקיד מרכזי בשמירה על ראייה תקינה, אומרת נצח, כיוון שהוא מאפשר מנוחה לעין, מעין הרפיה רגעית קצרה.
+1-2	לעפעוף	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	עפעוף	עפעוף	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+3-5	בעיניים	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	5	case	_	_
+4	ה_	ה	DET	DET	PronType=Art|Definite=Def	5	det	_	_
+5	עיניים	עין	NOUN	NOUN	Gender=Fem|Number=Plur	2	nmod	_	_
+6	יש	יש	VERB	VERB	HebExistential=Yes	0	root	_	_
+7	תפקיד	תפקיד	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
+8	מרכזי	מרכזי	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	_
+9-10	בשמירה	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	שמירה	שמירה	NOUN	NOUN	Gender=Fem|Number=Sing	7	nmod	_	_
+11	על	על	ADP	ADP	_	12	case	_	_
+12	ראייה	ראייה	NOUN	NOUN	Gender=Fem|Number=Sing	10	nmod	_	_
+13	תקינה	תקין	ADJ	ADJ	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	15	punct	_	_
+15	אומרת	אמר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	6	parataxis	_	_
+16	נצח	נצח	PROPN	PROPN	_	15	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	15	punct	_	_
+18	כיוון	כיוון	SCONJ	SCONJ	_	21	case	_	_
+19-20	שהוא	_	_	_	_	_	_	_	_
+19	ש	ש	SCONJ	SCONJ	_	21	mark	_	_
+20	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+21	מאפשר	מאפשר	AUX	AUX	Gender=Fem,Masc|Number=Sing|VerbForm=Part|VerbType=Mod	6	obl	_	_
+22	מנוחה	מנוחה	NOUN	NOUN	Gender=Fem|Number=Sing	21	obj	_	_
+23-25	לעין	_	_	_	_	_	_	_	SpaceAfter=No
+23	ל	ל	ADP	ADP	_	25	case	_	_
+24	ה_	ה	DET	DET	PronType=Art|Definite=Def	25	det	_	_
+25	עין	עין	NOUN	NOUN	Gender=Fem|Number=Sing	22	nmod	_	_
+26	,	,	PUNCT	PUNCT	_	28	punct	_	_
+27	מעין	מעין	ADV	ADV	_	28	advmod	_	_
+28	הרפיה	הרפיה	NOUN	NOUN	Gender=Fem|Number=Sing	22	appos	_	_
+29	רגעית	רגעי	ADJ	ADJ	Gender=Fem|Number=Sing	28	amod	_	_
+30	קצרה	קצר	ADJ	ADJ	Gender=Fem|Number=Sing	28	amod	_	SpaceAfter=No
+31	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:130
+# doc_range = 2955-3069
+# sent_id = 3161
+# text = כאשר מעפעפים, משתחררות דמעות שתפקידן לשטוף ולנקות את העיניים.
+1	כאשר	כאשר	SCONJ	SCONJ	_	2	mark	_	_
+2	מעפעפים	עפעף	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	4	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
+4	משתחררות	השתחרר	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+5	דמעות	דמעה	NOUN	NOUN	Gender=Fem|Number=Plur	4	nsubj	_	_
+6-9	שתפקידן	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	_	10	mark	_	_
+7	תפקיד	תפקיד	NOUN	NOUN	Gender=Masc|Number=Sing	10	nsubj	_	_
+8	_של_	של	ADP	ADP	Case=Gen	9	case:gen	_	_
+9	_הן	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+10	לשטוף	שטף	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	5	acl:relcl	_	_
+11-12	ולנקות	_	_	_	_	_	_	_	_
+11	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+12	לנקות	ניקה	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	10	conj	_	_
+13	את	את	ADP	ADP	Case=Acc	15	case	_	_
+14-15	העיניים	_	_	_	_	_	_	_	SpaceAfter=No
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	עיניים	עין	NOUN	NOUN	Gender=Fem|Number=Plur	12	obj	_	_
+16	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:130
+# doc_range = 3071-3212
+# sent_id = 3162
+# text = מאחר שהעיניים אמורות להיות בתנועה מתמדת, סיכת העין מאפשרת תנועה רכה ונינוחה.
+1	מאחר	מאחר	SCONJ	SCONJ	_	5	mark	_	_
+2-4	שהעיניים	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	1	fixed	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	עיניים	עין	NOUN	NOUN	Gender=Fem|Number=Plur	5	nsubj	_	_
+5	אמורות	אמור	AUX	AUX	Gender=Fem|Number=Plur|Person=1,2,3|VerbType=Mod	6	advcl	_	_
+6	להיות	היה	AUX	AUX	Polarity=Pos|VerbForm=Inf|VerbType=Cop	14	obl	_	_
+7-8	בתנועה	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	תנועה	תנועה	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	_
+9	מתמדת	מתמיד	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	6	punct	_	_
+11	סיכת	סיכה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	14	nsubj	_	_
+12-13	העין	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	עין	עין	NOUN	NOUN	Gender=Fem|Number=Sing	11	compound:smixut	_	_
+14	מאפשרת	מאפשרת	AUX	AUX	Gender=Fem|Number=Sing|VerbForm=Part|VerbType=Mod	0	root	_	_
+15	תנועה	תנועה	NOUN	NOUN	Gender=Fem|Number=Sing	14	obj	_	_
+16	רכה	רך	ADJ	ADJ	Gender=Fem|Number=Sing	15	amod	_	_
+17-18	ונינוחה	_	_	_	_	_	_	_	SpaceAfter=No
+17	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+18	נינוחה	נינוח	ADJ	ADJ	Gender=Fem|Number=Sing	16	conj	_	_
+19	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# doc_id = htb:130
+# doc_range = 3214-3285
+# sent_id = 3163
+# text = אפשר להשוות זאת לשימון צירי דלת חלודים.
+1	אפשר	אפשר	AUX	AUX	VerbType=Mod	2	aux	_	_
+2	להשוות	השווה	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	0	root	_	_
+3	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	obj	_	_
+4-5	לשימון	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	שימון	שימון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	obl	_	_
+6	צירי	ציר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	5	compound:smixut	_	_
+7	דלת	דלת	NOUN	NOUN	Gender=Fem|Number=Sing	6	compound:smixut	_	_
+8	חלודים	חלוד	ADJ	ADJ	Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:130
+# doc_range = 3287-3518
+# sent_id = 3164
+# text = כאשר יש ליקוי ראייה, מהפגם הפעוט ביותר ועד למסובך, נמצא כי העיניים אינן עובדות בהרפיה מספקת והעפעוף לוקה בחסר או לא קיים בכלל.
+1	כאשר	כאשר	SCONJ	SCONJ	_	2	mark	_	_
+2	יש	יש	VERB	VERB	HebExistential=Yes	18	advcl	_	_
+3	ליקוי	ליקוי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	nsubj	_	_
+4	ראייה	ראייה	NOUN	NOUN	Gender=Fem|Number=Sing	3	compound:smixut	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	8	punct	_	_
+6-8	מהפגם	_	_	_	_	_	_	_	_
+6	מ	מ	ADP	ADP	_	8	case	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	פגם	פגם	NOUN	NOUN	Gender=Masc|Number=Sing	3	nmod	_	_
+9-10	הפעוט	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	פעוט	פעוט	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	_
+11	ביותר	ביותר	ADV	ADV	_	10	advmod	_	_
+12-13	ועד	_	_	_	_	_	_	_	_
+12	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+13	עד	עד	ADP	ADP	_	16	case	_	_
+14-16	למסובך	_	_	_	_	_	_	_	SpaceAfter=No
+14	ל	ל	ADP	ADP	_	13	fixed	_	_
+15	ה_	ה	DET	DET	PronType=Art|Definite=Def	16	det	_	_
+16	מסובך	מסובך	ADJ	ADJ	Gender=Masc|Number=Sing	8	conj	_	_
+17	,	,	PUNCT	PUNCT	_	2	punct	_	_
+18	נמצא	נמצא	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+19	כי	כי	SCONJ	SCONJ	_	23	mark	_	_
+20-21	העיניים	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	עיניים	עין	NOUN	NOUN	Gender=Fem|Number=Plur	23	nsubj	_	_
+22	אינן	אינו	AUX	AUX	Gender=Fem|Number=Plur|Person=3|Polarity=Neg|VerbForm=Part	23	aux	_	_
+23	עובדות	עבד	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	18	ccomp	_	_
+24-25	בהרפיה	_	_	_	_	_	_	_	_
+24	ב	ב	ADP	ADP	_	25	case	_	_
+25	הרפיה	הרפיה	NOUN	NOUN	Gender=Fem|Number=Sing	23	obl	_	_
+26	מספקת	סיפק	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	25	amod	_	_
+27-29	והעפעוף	_	_	_	_	_	_	_	_
+27	ו	ו	CCONJ	CCONJ	_	30	cc	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	עפעוף	עפעוף	NOUN	NOUN	Gender=Masc|Number=Sing	30	nsubj	_	_
+30	לוקה	לקה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	23	conj	_	_
+31-32	בחסר	_	_	_	_	_	_	_	_
+31	ב	ב	ADP	ADP	_	32	case	_	_
+32	חסר	חסר	NOUN	NOUN	Gender=Masc|Number=Sing	30	obl	_	_
+33	או	או	CCONJ	CCONJ	_	35	cc	_	_
+34	לא	לא	ADV	ADV	Polarity=Neg	35	advmod	_	_
+35	קיים	קיים	ADJ	ADJ	Gender=Masc|Number=Sing	30	conj	_	_
+36	בכלל	בכלל	ADV	ADV	_	35	advmod	_	SpaceAfter=No
+37	.	.	PUNCT	PUNCT	_	18	punct	_	_
+
+# doc_id = htb:130
+# doc_range = 3520-3641
+# sent_id = 3165
+# text = בעבודתה עם אנשים, העפעוף ותנועות העין מהווים אינדיקציה למצב העין.
+1-4	בעבודתה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	14	obl	_	_
+3	_של_	של	ADP	ADP	Case=Gen	4	case:gen	_	_
+4	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5	עם	עם	ADP	ADP	_	6	case	_	_
+6	אנשים	איש	NOUN	NOUN	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	2	punct	_	_
+8-9	העפעוף	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	עפעוף	עפעוף	NOUN	NOUN	Gender=Masc|Number=Sing	14	nsubj	_	_
+10-11	ותנועות	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+11	תנועות	תנועה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	9	conj	_	_
+12-13	העין	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	עין	עין	NOUN	NOUN	Gender=Fem|Number=Sing	11	compound:smixut	_	_
+14	מהווים	היווה	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+15	אינדיקציה	אינדיקציה	NOUN	NOUN	Gender=Fem|Number=Sing	14	obj	_	_
+16-17	למצב	_	_	_	_	_	_	_	_
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	מצב	מצב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	15	nmod	_	_
+18-19	העין	_	_	_	_	_	_	_	SpaceAfter=No
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	עין	עין	NOUN	NOUN	Gender=Fem|Number=Sing	17	compound:smixut	_	_
+20	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# doc_id = htb:130
+# doc_range = 3643-3778
+# sent_id = 3166
+# text = הטיפול, אומרת נצח, צריך להיות מותאם לאדם ולאישיותו ולא רק לאבחנה הרפואית.
+1-2	הטיפול	_	_	_	_	_	_	_	SpaceAfter=No
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	טיפול	טיפול	NOUN	NOUN	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	,	,	PUNCT	PUNCT	_	4	punct	_	_
+4	אומרת	אמר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	8	parataxis	_	_
+5	נצח	נצח	PROPN	PROPN	_	4	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	4	punct	_	_
+7	צריך	צריך	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	8	aux	_	_
+8	להיות	היה	AUX	AUX	Polarity=Pos|VerbForm=Inf|VerbType=Cop	0	root	_	_
+9	מותאם	מותאם	ADJ	ADJ	Gender=Masc|Number=Sing	8	obl	_	_
+10-12	לאדם	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	12	case	_	_
+11	ה_	ה	DET	DET	PronType=Art|Definite=Def	12	det	_	_
+12	אדם	אדם	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	_
+13-17	ולאישיותו	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	אישיות	אישיות	NOUN	NOUN	Gender=Fem|Number=Sing	12	conj	_	_
+16	_של_	של	ADP	ADP	Case=Gen	17	case:gen	_	_
+17	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+18-19	ולא	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+19	לא	לא	ADV	ADV	Polarity=Neg	20	advmod	_	_
+20	רק	רק	ADV	ADV	_	23	advmod	_	_
+21-23	לאבחנה	_	_	_	_	_	_	_	_
+21	ל	ל	ADP	ADP	_	23	case	_	_
+22	ה_	ה	DET	DET	PronType=Art|Definite=Def	23	det	_	_
+23	אבחנה	אבחנה	NOUN	NOUN	Gender=Fem|Number=Sing	12	dep	_	HebSource=ConvUncertainHead
+24-25	הרפואית	_	_	_	_	_	_	_	SpaceAfter=No
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	רפואית	רפואי	ADJ	ADJ	Gender=Fem|Number=Sing	23	amod	_	_
+26	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:130
+# doc_range = 3781-3863
+# sent_id = 3167
+# text = "טיפול בשיפור ראייה דורש שילוב של הגוף והנפש.
+1	"	"	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+2	טיפול	טיפול	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
+3-4	בשיפור	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	שיפור	שיפור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	nmod	_	_
+5	ראייה	ראייה	NOUN	NOUN	Gender=Fem|Number=Sing	4	compound:smixut	_	_
+6	דורש	דרש	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+7	שילוב	שילוב	NOUN	NOUN	Gender=Masc|Number=Sing	6	obj	_	_
+8	של	של	ADP	ADP	Case=Gen	10	case	_	_
+9-10	הגוף	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	גוף	גוף	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod:poss	_	_
+11-13	והנפש	_	_	_	_	_	_	_	SpaceAfter=No
+11	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	נפש	נפש	NOUN	NOUN	Gender=Fem|Number=Sing	10	conj	_	_
+14	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:130
+# doc_range = 3865-4052
+# sent_id = 3168
+# text = אם אדם משיג שיפור ראייה רק על ידי תרגול מכני, הוא צריך להמשיך את התרגילים כל הזמן כדי לשמור את מה שהשיג.
+1	אם	אם	SCONJ	SCONJ	_	3	mark	_	_
+2	אדם	אדם	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	משיג	השיג	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	14	advcl	_	_
+4	שיפור	שיפור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	obj	_	_
+5	ראייה	ראייה	NOUN	NOUN	Gender=Fem|Number=Sing	4	compound:smixut	_	_
+6	רק	רק	ADV	ADV	_	9	advmod	_	_
+7	על	על	ADP	ADP	_	9	case	_	_
+8	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	7	fixed	_	_
+9	תרגול	תרגול	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+10	מכני	מכאני	ADJ	ADJ	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	3	punct	_	_
+12	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+13	צריך	צריך	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	14	aux	_	_
+14	להמשיך	המשיך	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	0	root	_	_
+15	את	את	ADP	ADP	Case=Acc	17	case	_	_
+16-17	התרגילים	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	תרגילים	תרגיל	NOUN	NOUN	Gender=Masc|Number=Plur	14	obj	_	_
+18	כל	כול	DET	DET	Definite=Cons	20	det	_	_
+19-20	הזמן	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	זמן	זמן	NOUN	NOUN	Gender=Masc|Number=Sing	14	obl	_	_
+21	כדי	כדי	SCONJ	SCONJ	_	22	mark	_	_
+22	לשמור	שמר	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	14	advcl	_	_
+23	את	את	ADP	ADP	Case=Acc	24	case	_	_
+24	מה	מה	PRON	PRON	PronType=Int	22	obj	_	_
+25-26	שהשיג	_	_	_	_	_	_	_	SpaceAfter=No
+25	ש	ש	SCONJ	SCONJ	_	26	mark	_	_
+26	השיג	השיג	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	24	acl:relcl	_	_
+27	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# doc_id = htb:130
+# doc_range = 4054-4288
+# sent_id = 3169
+# text = עבודה המשלבת גם אספקטים נפשיים גורמת לאדם להחזיר לעצמו את האינסטינקטים הטבעיים לשימוש נכון בעיניים, ואז אין עוד צורך בתרגילים.
+1	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	7	nsubj	_	_
+2-3	המשלבת	_	_	_	_	_	_	_	_
+2	ה	ה	SCONJ	SCONJ	_	3	mark	_	_
+3	משלבת	שילב	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	1	acl:relcl	_	_
+4	גם	גם	ADV	ADV	_	3	advmod	_	_
+5	אספקטים	אספקט	NOUN	NOUN	Gender=Masc|Number=Plur	3	obj	_	_
+6	נפשיים	נפשי	ADJ	ADJ	Gender=Masc|Number=Plur	5	amod	_	_
+7	גורמת	גרם	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+8-10	לאדם	_	_	_	_	_	_	_	_
+8	ל	ל	ADP	ADP	_	10	case	_	_
+9	ה_	ה	DET	DET	PronType=Art|Definite=Def	10	det	_	_
+10	אדם	אדם	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
+11	להחזיר	החזיר	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+12-13	לעצמו	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	_	13	case	_	_
+13	עצמו	עצמו	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	11	obl	_	_
+14	את	את	ADP	ADP	Case=Acc	16	case	_	_
+15-16	האינסטינקטים	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	אינסטינקטים	אינסטינקט	NOUN	NOUN	Gender=Masc|Number=Plur	11	obj	_	_
+17-18	הטבעיים	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	טבעיים	טבעי	ADJ	ADJ	Gender=Masc|Number=Plur	16	amod	_	_
+19-20	לשימוש	_	_	_	_	_	_	_	_
+19	ל	ל	ADP	ADP	_	20	case	_	_
+20	שימוש	שימוש	NOUN	NOUN	Gender=Masc|Number=Sing	16	nmod	_	_
+21	נכון	נכון	ADJ	ADJ	Gender=Masc|Number=Sing	20	amod	_	_
+22-24	בעיניים	_	_	_	_	_	_	_	SpaceAfter=No
+22	ב	ב	ADP	ADP	_	24	case	_	_
+23	ה_	ה	DET	DET	PronType=Art|Definite=Def	24	det	_	_
+24	עיניים	עין	NOUN	NOUN	Gender=Fem|Number=Plur	20	nmod	_	_
+25	,	,	PUNCT	PUNCT	_	28	punct	_	_
+26-27	ואז	_	_	_	_	_	_	_	_
+26	ו	ו	CCONJ	CCONJ	_	28	cc	_	_
+27	אז	אז	ADV	ADV	_	28	advmod	_	_
+28	אין	אין	VERB	VERB	HebExistential=Yes	7	conj	_	_
+29	עוד	עוד	DET	DET	_	30	det	_	_
+30	צורך	צורך	NOUN	NOUN	Gender=Masc|Number=Sing	28	nsubj	_	_
+31-32	בתרגילים	_	_	_	_	_	_	_	SpaceAfter=No
+31	ב	ב	ADP	ADP	_	32	case	_	_
+32	תרגילים	תרגיל	NOUN	NOUN	Gender=Masc|Number=Plur	30	nmod	_	_
+33	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:130
+# doc_range = 4290-4421
+# sent_id = 3170
+# text = אני מלמדת את האדם להפעיל את עיניו כפי שעשה בעבר, כשהיתה לו ראייה תקינה".
+1	אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	מלמדת	לימד	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+3	את	את	ADP	ADP	Case=Acc	5	case	_	_
+4-5	האדם	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	אדם	אדם	NOUN	NOUN	Gender=Masc|Number=Sing	2	obj	_	_
+6	להפעיל	הפעיל	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+7	את	את	ADP	ADP	Case=Acc	8	case	_	_
+8-10	עיניו	_	_	_	_	_	_	_	_
+8	עין	עין	NOUN	NOUN	Gender=Fem|Number=Plur	6	obj	_	_
+9	_של_	של	ADP	ADP	Case=Gen	10	case:gen	_	_
+10	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+11	כפי	כפי	SCONJ	SCONJ	_	13	mark	_	_
+12-13	שעשה	_	_	_	_	_	_	_	_
+12	ש	ש	SCONJ	SCONJ	_	11	fixed	_	_
+13	עשה	עשה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	6	advcl	_	_
+14-16	בעבר	_	_	_	_	_	_	_	SpaceAfter=No
+14	ב	ב	ADP	ADP	_	16	case	_	_
+15	ה_	ה	DET	DET	PronType=Art|Definite=Def	16	det	_	_
+16	עבר	עבר	NOUN	NOUN	Gender=Masc|Number=Sing	13	obl	_	_
+17	,	,	PUNCT	PUNCT	_	19	punct	_	_
+18-19	כשהיתה	_	_	_	_	_	_	_	_
+18	כש	כש	SCONJ	SCONJ	Case=Tem	19	mark	_	_
+19	היתה	היה	VERB	VERB	Gender=Fem|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Past	13	advcl	_	_
+20-21	לו	_	_	_	_	_	_	_	_
+20	ל	ל	ADP	ADP	_	21	case	_	_
+21	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obl	_	_
+22	ראייה	ראייה	NOUN	NOUN	Gender=Fem|Number=Sing	19	nsubj	_	_
+23	תקינה	תקין	ADJ	ADJ	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+24	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+25	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:130
+# doc_range = 4423-4649
+# sent_id = 3171
+# text = השיטה הטבעית לשיפור הראייה כוללת סדרת תרגילים המבוצעים באוויר הפתוח מול השמש, שלה תפקיד חשוב בהחזרת האינסטינקטים הטבעיים.
+1-2	השיטה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	שיטה	שיטה	NOUN	NOUN	Gender=Fem|Number=Sing	9	nsubj	_	_
+3-4	הטבעית	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	טבעית	טבעי	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+5-6	לשיפור	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	שיפור	שיפור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	nmod	_	_
+7-8	הראייה	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	ראייה	ראייה	NOUN	NOUN	Gender=Fem|Number=Sing	6	compound:smixut	_	_
+9	כוללת	כלל	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+10	סדרת	סדרה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	obj	_	_
+11	תרגילים	תרגיל	NOUN	NOUN	Gender=Masc|Number=Plur	10	compound:smixut	_	_
+12-13	המבוצעים	_	_	_	_	_	_	_	_
+12	ה	ה	SCONJ	SCONJ	_	13	mark	_	_
+13	מבוצעים	בוצע	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	11	acl:relcl	_	_
+14-16	באוויר	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	16	case	_	_
+15	ה_	ה	DET	DET	PronType=Art|Definite=Def	16	det	_	_
+16	אוויר	אוויר	NOUN	NOUN	Gender=Masc|Number=Sing	13	obl	_	_
+17-18	הפתוח	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	פתוח	פתוח	ADJ	ADJ	Gender=Masc|Number=Sing	16	amod	_	_
+19	מול	מול	ADP	ADP	_	21	case	_	_
+20-21	השמש	_	_	_	_	_	_	_	SpaceAfter=No
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	שמש	שמש	NOUN	NOUN	Gender=Fem|Number=Sing	16	nmod	_	_
+22	,	,	PUNCT	PUNCT	_	25	punct	_	_
+23-25	שלה	_	_	_	_	_	_	_	_
+23	ש	ש	SCONJ	SCONJ	_	25	mark	_	_
+24	ל	ל	ADP	ADP	_	25	case	_	_
+25	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	acl:relcl	_	_
+26	תפקיד	תפקיד	NOUN	NOUN	Gender=Masc|Number=Sing	25	nsubj	_	_
+27	חשוב	חשוב	ADJ	ADJ	Gender=Masc|Number=Sing	26	amod	_	_
+28-29	בהחזרת	_	_	_	_	_	_	_	_
+28	ב	ב	ADP	ADP	_	29	case	_	_
+29	החזרת	החזרה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	26	nmod	_	_
+30-31	האינסטינקטים	_	_	_	_	_	_	_	_
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	אינסטינקטים	אינסטינקט	NOUN	NOUN	Gender=Masc|Number=Plur	29	compound:smixut	_	_
+32-33	הטבעיים	_	_	_	_	_	_	_	SpaceAfter=No
+32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
+33	טבעיים	טבעי	ADJ	ADJ	Gender=Masc|Number=Plur	31	amod	_	_
+34	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:130
+# doc_range = 4652-4912
+# sent_id = 3172
+# text = "תרגילי השמש הם חשובים ויעילים", אומרת נצח, "אבל צריך להיזהר, כיוון שחשיפה מרובה יכולה לגרום רפיון ובמקרים קיצוניים להתערערות מערכת העצבים".
+1	"	"	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+2	תרגילי	תרגיל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	6	nsubj	_	_
+3-4	השמש	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	שמש	שמש	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound:smixut	_	_
+5	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|Polarity=Pos	6	cop	_	_
+6	חשובים	חשוב	ADJ	ADJ	Gender=Masc|Number=Plur	0	root	_	_
+7-8	ויעילים	_	_	_	_	_	_	_	SpaceAfter=No
+7	ו	ו	CCONJ	CCONJ	_	8	cc	_	_
+8	יעילים	יעיל	ADJ	ADJ	Gender=Masc|Number=Plur	6	conj	_	_
+9	"	"	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	11	punct	_	_
+11	אומרת	אמר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	6	parataxis	_	_
+12	נצח	נצח	PROPN	PROPN	_	11	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	11	punct	_	_
+14	"	"	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No
+15	אבל	אבל	CCONJ	CCONJ	_	17	cc	_	_
+16	צריך	צריך	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	17	aux	_	HebSource=ConvUncertainHead
+17	להיזהר	נזהר	VERB	VERB	HebBinyan=NIFAL|VerbForm=Inf|Voice=Mid	6	dep	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	24	punct	_	_
+19	כיוון	כיוון	SCONJ	SCONJ	_	24	mark	_	_
+20-21	שחשיפה	_	_	_	_	_	_	_	_
+20	ש	ש	SCONJ	SCONJ	_	24	mark	_	_
+21	חשיפה	חשיפה	NOUN	NOUN	Gender=Fem|Number=Sing	24	nsubj	_	_
+22	מרובה	מרובה	ADJ	ADJ	Gender=Fem|Number=Sing	21	amod	_	_
+23	יכולה	יכול	AUX	AUX	Gender=Fem|Number=Sing|Person=1,2,3|VerbForm=Part|VerbType=Mod	24	aux	_	_
+24	לגרום	גרם	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	17	obl	_	_
+25	רפיון	רפיון	NOUN	NOUN	Gender=Masc|Number=Sing	24	obj	_	_
+26-28	ובמקרים	_	_	_	_	_	_	_	_
+26	ו	ו	CCONJ	CCONJ	_	28	cc	_	_
+27	ב	ב	ADP	ADP	_	28	case	_	_
+28	מקרים	מקרה	NOUN	NOUN	Gender=Masc|Number=Plur	24	conj	_	_
+29	קיצוניים	קיצוני	ADJ	ADJ	Gender=Masc|Number=Plur	28	amod	_	_
+30-31	להתערערות	_	_	_	_	_	_	_	_
+30	ל	ל	ADP	ADP	_	31	case	_	_
+31	התערערות	התערערות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	28	dep	_	HebSource=ConvUncertainHead
+32	מערכת	מערכת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	31	compound:smixut	_	_
+33-34	העצבים	_	_	_	_	_	_	_	SpaceAfter=No
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	עצבים	עצב	NOUN	NOUN	Gender=Masc|Number=Plur	32	compound:smixut	_	_
+35	"	"	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No
+36	.	.	PUNCT	PUNCT	_	6	punct	_	_
+

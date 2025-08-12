@@ -1,0 +1,281 @@
+# doc_id = htb:38
+# doc_range = 2-34
+# sent_id = 1580
+# text = ניו יורק (אי-פי).
+1	ניו	ניו	PROPN	PROPN	_	0	root	_	_
+2	יורק	יורק	PROPN	PROPN	_	1	flat:name	_	_
+3	(	(	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+4	אי	אי	NOUN	NOUN	Gender=Masc|Number=Sing	1	parataxis	_	SpaceAfter=No
+5	-	-	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+6	פי	פי	PROPN	PROPN	_	4	flat:name	_	SpaceAfter=No
+7	)	)	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:38
+# doc_range = 35-219
+# sent_id = 1581
+# text = דייויד רובינסון קלע אור לאתמול שיא קאריירה, 34 נקודות, והצעיד את סן אנטוניו ספארס לניצחון על דנוור 161351.
+1	דייויד	דייויד	PROPN	PROPN	_	3	nsubj	_	_
+2	רובינסון	רובינסון	PROPN	PROPN	_	1	flat:name	_	_
+3	קלע	קלע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	אור	אור	NOUN	NOUN	Gender=Masc|Number=Sing	3	dep	_	_
+5-6	לאתמול	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	אתמול	אתמול	ADV	ADV	_	4	nmod	_	_
+7	שיא	שיא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	obj	_	_
+8	קאריירה	קריירה	NOUN	NOUN	_	7	compound:smixut	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	11	punct	_	_
+10	34	34	NUM	NUM	_	11	nummod	_	_
+11	נקודות	נקודה	NOUN	NOUN	Gender=Fem|Number=Plur	7	appos	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	14	punct	_	_
+13-14	והצעיד	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
+14	הצעיד	הצעיד	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	_
+15	את	את	ADP	ADP	Case=Acc	16	case	_	_
+16	סן	סן	PROPN	PROPN	_	14	obj	_	_
+17	אנטוניו	אנטוניו	PROPN	PROPN	_	16	flat:name	_	_
+18	ספארס	ספארס	PROPN	PROPN	_	16	flat:name	_	_
+19-20	לניצחון	_	_	_	_	_	_	_	_
+19	ל	ל	ADP	ADP	_	20	case	_	_
+20	ניצחון	ניצחון	NOUN	NOUN	Gender=Masc|Number=Sing	14	obl	_	_
+21	על	על	ADP	ADP	_	22	case	_	_
+22	דנוור	דנוור	PROPN	PROPN	_	20	nmod	_	_
+23	161351	161351	NUM	NUM	_	20	nummod	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:38
+# doc_range = 221-440
+# sent_id = 1582
+# text = בחגיגה על הסל של דנוור, שספגה עד כה בממוצע 251 נקודות למשחק, השתתפו גם טרי קאמינגס עם 13 נק ושון אליוט 92 (גם לו שיא קאריירה).
+1-3	בחגיגה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	חגיגה	חגיגה	NOUN	NOUN	Gender=Fem|Number=Sing	21	obl	_	_
+4	על	על	ADP	ADP	_	6	case	_	_
+5-6	הסל	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	סל	סל	NOUN	NOUN	Gender=Masc|Number=Sing	3	nmod	_	_
+7	של	של	ADP	ADP	Case=Gen	8	case	_	_
+8	דנוור	דנוור	PROPN	PROPN	_	6	nmod:poss	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	11	punct	_	_
+10-11	שספגה	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	11	mark	_	_
+11	ספגה	ספג	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	8	acl:relcl	_	_
+12	עד	עד	ADP	ADP	_	13	case	_	_
+13	כה	כה	ADV	ADV	_	11	obl	_	_
+14-15	בממוצע	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	ממוצע	ממוצע	NOUN	NOUN	Gender=Masc|Number=Sing	11	obl	_	_
+16	251	251	NUM	NUM	_	17	nummod	_	_
+17	נקודות	נקודה	NOUN	NOUN	Gender=Fem|Number=Plur	11	obj	_	_
+18-19	למשחק	_	_	_	_	_	_	_	SpaceAfter=No
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	17	nmod	_	_
+20	,	,	PUNCT	PUNCT	_	3	punct	_	_
+21	השתתפו	השתתף	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	0	root	_	_
+22	גם	גם	ADV	ADV	_	23	advmod	_	_
+23	טרי	טרי	PROPN	PROPN	_	21	nsubj	_	_
+24	קאמינגס	קאמינגס	PROPN	PROPN	_	23	flat:name	_	_
+25	עם	עם	ADP	ADP	_	27	case	_	_
+26	13	13	NUM	NUM	_	27	nummod	_	_
+27	נק	נק	NOUN	NOUN	_	23	nmod	_	_
+28-29	ושון	_	_	_	_	_	_	_	_
+28	ו	ו	CCONJ	CCONJ	_	29	cc	_	_
+29	שון	שון	PROPN	PROPN	_	23	conj	_	_
+30	אליוט	אליוט	PROPN	PROPN	_	29	flat:name	_	_
+31	92	92	NUM	NUM	_	29	nummod	_	_
+32	(	(	PUNCT	PUNCT	_	35	punct	_	SpaceAfter=No
+33	גם	גם	ADV	ADV	_	35	advmod	_	_
+34-35	לו	_	_	_	_	_	_	_	_
+34	ל	ל	ADP	ADP	_	35	case	_	_
+35	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	appos	_	_
+36	שיא	שיא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	35	dep	_	HebSource=ConvUncertainHead
+37	קאריירה	קריירה	NOUN	NOUN	_	36	compound:smixut	_	SpaceAfter=No
+38	)	)	PUNCT	PUNCT	_	35	punct	_	SpaceAfter=No
+39	.	.	PUNCT	PUNCT	_	21	punct	_	_
+
+# doc_id = htb:38
+# doc_range = 444-507
+# sent_id = 1583
+# text = אורלאנדו וולדרידג קלע 73 נק לנאגטס.
+1	אורלאנדו	אורלנדו	PROPN	PROPN	_	3	nsubj	_	_
+2	וולדרידג	וולדרידג	PROPN	PROPN	_	1	flat:name	_	_
+3	קלע	קלע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	73	73	NUM	NUM	_	5	nummod	_	_
+5	נק	נק	NOUN	NOUN	_	3	dep	_	_
+6-7	לנאגטס	_	_	_	_	_	_	_	SpaceAfter=No
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	נאגטס	לנאגטס	PROPN	PROPN	_	3	obl	_	_
+8	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:38
+# doc_range = 509-620
+# sent_id = 1584
+# text = שיקאגו בולס השיגו ניצחון ראשון במיניאפוליס על מינסוטה, 91 96.
+1	שיקאגו	שיקאגו	PROPN	PROPN	_	3	nsubj	_	_
+2	בולס	בולס	PROPN	PROPN	_	1	flat:name	_	_
+3	השיגו	השיג	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	ניצחון	ניצחון	NOUN	NOUN	Gender=Masc|Number=Sing	3	obj	_	_
+5	ראשון	ראשון	ADJ	ADJ	Gender=Masc|Number=Sing	4	amod	_	_
+6-7	במיניאפוליס	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	מיניאפוליס	מיניאפוליס	PROPN	PROPN	_	4	nmod	_	_
+8	על	על	ADP	ADP	_	9	case	_	_
+9	מינסוטה	מינסוטה	PROPN	PROPN	_	4	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	11	punct	_	_
+11	91	91	NUM	NUM	_	4	nummod	_	_
+12	96	96	NUM	NUM	_	11	nummod	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:38
+# doc_range = 614-751
+# sent_id = 1585
+# text = גורדן קלע רק 71 נק, אך כוכב הניצחון היה הרכז המחליף בי. גיי. ארמסטרונג (41 נק).
+1	גורדן	גורד	PROPN	PROPN	_	2	nsubj	_	_
+2	קלע	קלע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	רק	רק	ADV	ADV	_	5	advmod	_	_
+4	71	71	NUM	NUM	_	5	nummod	_	_
+5	נק	נק	NOUN	NOUN	_	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	13	punct	_	_
+7	אך	אך	CCONJ	CCONJ	_	13	cc	_	_
+8	כוכב	כוכב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	nsubj	_	_
+9-10	הניצחון	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	ניצחון	ניצחון	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound:smixut	_	_
+11	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	13	cop	_	_
+12-13	הרכז	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	רכז	רכז	NOUN	NOUN	Gender=Masc|Number=Sing	2	conj	_	_
+14-15	המחליף	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	מחליף	מחליף	ADJ	ADJ	Gender=Masc|Number=Sing	13	amod	_	_
+16	בי.	ביyyד%ת	PROPN	PROPN	Abbr=Yes	13	appos	_	_
+17	גיי.	גייyyד%ת	PROPN	PROPN	Abbr=Yes	16	flat:name	_	_
+18	ארמסטרונג	ארמסטרונג	PROPN	PROPN	_	16	flat:name	_	_
+19	(	(	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No
+20	41	41	NUM	NUM	_	21	nummod	_	_
+21	נק	נק	NOUN	NOUN	_	13	appos	_	SpaceAfter=No
+22	)	)	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:38
+# doc_range = 755-937
+# sent_id = 1586
+# text = דאלאס השיגה ניצחון גדול בפילדלפיה על הסיקסרס, 101 104, כשרוי טארפלי היה שוב הבולט בשורות המאווריקס עם 62 נק.
+1	דאלאס	דאלאס	PROPN	PROPN	_	2	nsubj	_	_
+2	השיגה	השיג	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	ניצחון	ניצחון	NOUN	NOUN	Gender=Masc|Number=Sing	2	obj	_	_
+4	גדול	גדול	ADJ	ADJ	Gender=Masc|Number=Sing	3	amod	_	_
+5-6	בפילדלפיה	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	פילדלפיה	פילדלפיה	PROPN	PROPN	_	3	nmod	_	_
+7	על	על	ADP	ADP	_	9	case	_	_
+8-9	הסיקסרס	_	_	_	_	_	_	_	SpaceAfter=No
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	סיקסרס	הסיקסרס	PROPN	PROPN	_	3	nmod	_	_
+10	,	,	PUNCT	PUNCT	_	11	punct	_	_
+11	101	101	NUM	NUM	_	3	appos	_	_
+12	104	104	NUM	NUM	_	11	nummod	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	11	punct	_	_
+14-15	כשרוי	_	_	_	_	_	_	_	_
+14	כש	כש	SCONJ	SCONJ	Case=Tem	20	mark	_	_
+15	רוי	רוי	PROPN	PROPN	_	20	nsubj	_	_
+16	טארפלי	טארפלי	PROPN	PROPN	_	15	flat:name	_	_
+17	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	20	cop	_	_
+18	שוב	שוב	ADV	ADV	_	20	advmod	_	_
+19-20	הבולט	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	בולט	בולט	ADJ	ADJ	Gender=Masc|Number=Sing	2	xcomp	_	_
+21-22	בשורות	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	שורות	שורה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	20	dep	_	_
+23-24	המאווריקס	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	מאווריקס	מאווריקס	PROPN	PROPN	_	22	compound:smixut	_	_
+25	עם	עם	ADP	ADP	_	27	case	_	_
+26	62	62	NUM	NUM	_	27	nummod	_	_
+27	נק	נק	NOUN	NOUN	_	20	dep	_	SpaceAfter=No
+28	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:38
+# doc_range = 939-1143
+# sent_id = 1587
+# text = קליוולנד גברה על שארלוט 001 98 ודטרויט התאוששה מההפסד בסיאטל עם ניצחון גדול על הקליפרס בלוס אנגלס 011 38 (דומארס 25 נק).
+1	קליוולנד	קליוולנד	PROPN	PROPN	_	2	nsubj	_	_
+2	גברה	גבר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	על	על	ADP	ADP	_	4	case	_	_
+4	שארלוט	שארלוט	PROPN	PROPN	_	2	obl	_	_
+5	001	001	NUM	NUM	_	2	dep	_	_
+6	98	98	NUM	NUM	_	5	nummod	_	_
+7-8	ודטרויט	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+8	דטרויט	דטרויט	PROPN	PROPN	_	9	nsubj	_	_
+9	התאוששה	התאושש	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	2	conj	_	_
+10-12	מההפסד	_	_	_	_	_	_	_	_
+10	מ	מ	ADP	ADP	_	12	case	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	הפסד	הפסד	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	_
+13-14	בסיאטל	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	סיאטל	סיאטל	PROPN	PROPN	_	12	nmod	_	_
+15	עם	עם	ADP	ADP	_	16	case	_	_
+16	ניצחון	ניצחון	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	_
+17	גדול	גדול	ADJ	ADJ	Gender=Masc|Number=Sing	16	amod	_	_
+18	על	על	ADP	ADP	_	20	case	_	_
+19-20	הקליפרס	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	קליפרס	הקליפרס	PROPN	PROPN	_	16	nmod	_	_
+21-22	בלוס	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	לוס	לוס	PROPN	PROPN	_	16	nmod	_	_
+23	אנגלס	אנגלס	PROPN	PROPN	_	22	flat:name	_	_
+24	011	011	NUM	NUM	_	16	nummod	_	_
+25	38	38	NUM	NUM	_	24	nummod	_	_
+26	(	(	PUNCT	PUNCT	_	27	punct	_	SpaceAfter=No
+27	דומארס	דומארס	PROPN	PROPN	_	16	appos	_	_
+28	25	25	NUM	NUM	_	29	nummod	_	_
+29	נק	נק	NOUN	NOUN	_	27	nmod	_	SpaceAfter=No
+30	)	)	PUNCT	PUNCT	_	27	punct	_	SpaceAfter=No
+31	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:38
+# doc_range = 1147-1273
+# sent_id = 1588
+# text = פיניקס סאנס ניצחו בביתם את גולדן סטייט 119 126 (אדי גונסון קלע 53 לפיניקס).
+1	פיניקס	פיניקס	PROPN	PROPN	_	3	nsubj	_	_
+2	סאנס	סאנס	PROPN	PROPN	_	1	flat:name	_	_
+3	ניצחו	ניצח	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4-7	בביתם	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	בית	בית	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+6	_של_	של	ADP	ADP	Case=Gen	7	case:gen	_	_
+7	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+8	את	את	ADP	ADP	Case=Acc	9	case	_	_
+9	גולדן	גולדן	PROPN	PROPN	_	3	obj	_	_
+10	סטייט	סטייט	PROPN	PROPN	_	9	flat:name	_	_
+11	119	119	NUM	NUM	_	3	dep	_	_
+12	126	126	NUM	NUM	_	11	nummod	_	_
+13	(	(	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
+14	אדי	אדי	PROPN	PROPN	_	16	nsubj	_	_
+15	גונסון	גונסון	PROPN	PROPN	_	14	flat:name	_	_
+16	קלע	קלע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	3	parataxis	_	_
+17	53	53	NUM	NUM	_	16	obj	_	_
+18-19	לפיניקס	_	_	_	_	_	_	_	SpaceAfter=No
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	פיניקס	פיניקס	PROPN	PROPN	_	16	obl	_	_
+20	)	)	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:38
+# doc_range = 1277-1324
+# sent_id = 1589
+# text = כריס מולין קלע 03 לווריירס.
+1	כריס	כריס	PROPN	PROPN	_	3	nsubj	_	_
+2	מולין	מולין	PROPN	PROPN	_	1	flat:name	_	_
+3	קלע	קלע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	03	03	NUM	NUM	_	3	obj	_	_
+5-6	לווריירס	_	_	_	_	_	_	_	SpaceAfter=No
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	ווריירס	לווריירס	PROPN	PROPN	_	3	obl	_	_
+7	.	.	PUNCT	PUNCT	_	3	punct	_	_
+

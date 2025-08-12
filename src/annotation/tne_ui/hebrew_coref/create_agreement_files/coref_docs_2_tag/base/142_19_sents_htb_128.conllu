@@ -1,0 +1,696 @@
+# doc_id = htb:128
+# doc_range = 1-238
+# sent_id = 3118
+# text = צרכנית חדת-עין מחיפה, סוזי גיורא, הבחינה כי על האריזה של פסטה מיובאת מארה"ב, "פטוציני עם תרד וביצים", צוין כי היא "ללא כולסטרול".
+1	צרכנית	צרכן	NOUN	NOUN	Gender=Fem|Number=Sing	11	nsubj	_	_
+2	חדת	חד	ADJ	ADJ	Definite=Cons|Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
+3	-	-	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+4	עין	עין	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl	_	_
+5-6	מחיפה	_	_	_	_	_	_	_	SpaceAfter=No
+5	מ	מ	ADP	ADP	_	6	case	_	_
+6	חיפה	חיפה	PROPN	PROPN	_	1	nmod	_	_
+7	,	,	PUNCT	PUNCT	_	8	punct	_	_
+8	סוזי	סוזי	PROPN	PROPN	_	1	appos	_	_
+9	גיורא	גיורא	PROPN	PROPN	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	1	punct	_	_
+11	הבחינה	הבחין	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+12	כי	כי	SCONJ	SCONJ	_	30	mark	_	_
+13	על	על	ADP	ADP	_	15	case	_	_
+14-15	האריזה	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	אריזה	אריזה	NOUN	NOUN	Gender=Fem|Number=Sing	30	obl	_	_
+16	של	של	ADP	ADP	Case=Gen	17	case	_	_
+17	פסטה	פסטה	NOUN	NOUN	Gender=Fem|Number=Sing	15	nmod:poss	_	_
+18	מיובאת	יובא	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Pass	17	amod	_	_
+19-20	מארה"ב	_	_	_	_	_	_	_	SpaceAfter=No
+19	מ	מ	ADP	ADP	_	20	case	_	_
+20	ארה"ב	ארה"ב	PROPN	PROPN	Abbr=Yes	18	obl	_	_
+21	,	,	PUNCT	PUNCT	_	23	punct	_	_
+22	"	"	PUNCT	PUNCT	_	23	punct	_	SpaceAfter=No
+23	פטוציני	פטוציני	NOUN	NOUN	_	17	appos	_	_
+24	עם	עם	ADP	ADP	_	25	case	_	_
+25	תרד	תרד	NOUN	NOUN	Gender=Masc|Number=Sing	23	nmod	_	_
+26-27	וביצים	_	_	_	_	_	_	_	SpaceAfter=No
+26	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
+27	ביצים	ביצה	NOUN	NOUN	Gender=Fem|Number=Plur	25	conj	_	_
+28	"	"	PUNCT	PUNCT	_	23	punct	_	SpaceAfter=No
+29	,	,	PUNCT	PUNCT	_	15	punct	_	_
+30	צוין	צוין	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	11	ccomp	_	_
+31	כי	כי	SCONJ	SCONJ	_	35	mark	_	_
+32	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
+33	"	"	PUNCT	PUNCT	_	35	punct	_	SpaceAfter=No
+34	ללא	ללא	ADP	ADP	_	35	case	_	_
+35	כולסטרול	כולסטרול	NOUN	NOUN	Gender=Masc|Number=Sing	30	ccomp	_	SpaceAfter=No
+36	"	"	PUNCT	PUNCT	_	35	punct	_	SpaceAfter=No
+37	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:128
+# doc_range = 241-320
+# sent_id = 3119
+# text = איך ייתכן שמוצר המכיל ביצים אין בו כולסטרול?
+1	איך	איך	ADV	ADV	PronType=Int	2	advmod	_	_
+2	ייתכן	ייתכן	AUX	AUX	VerbType=Mod	0	root	_	_
+3-4	שמוצר	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
+4	מוצר	מוצר	NOUN	NOUN	Gender=Masc|Number=Sing	8	dislocated	_	_
+5-6	המכיל	_	_	_	_	_	_	_	_
+5	ה	ה	SCONJ	SCONJ	_	6	mark	_	_
+6	מכיל	הכיל	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	4	acl:relcl	_	_
+7	ביצים	ביצה	NOUN	NOUN	Gender=Fem|Number=Plur	6	obj	_	_
+8	אין	אין	VERB	VERB	HebExistential=Yes	2	advcl	_	_
+9-10	בו	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obl	_	_
+11	כולסטרול	כולסטרול	NOUN	NOUN	Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
+12	?	?	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:128
+# doc_range = 323-490
+# sent_id = 3120
+# text = הצרכנית פנתה ליבואן (חברת "הנץ", ששייכת לרשת השופרסל), על פי מספר הטלפון שהופיע על האריזה.
+1-2	הצרכנית	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	צרכנית	צרכן	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	פנתה	פנה	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4-6	ליבואן	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	6	case	_	_
+5	ה_	ה	DET	DET	PronType=Art|Definite=Def	6	det	_	_
+6	יבואן	יבואן	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+7	(	(	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+8	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	appos	_	_
+9	"	"	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+10	הנץ	הנץ	PROPN	PROPN	_	8	compound:smixut	_	SpaceAfter=No
+11	"	"	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	14	punct	_	_
+13-14	ששייכת	_	_	_	_	_	_	_	_
+13	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
+14	שייכת	שייך	ADJ	ADJ	Gender=Fem|Number=Sing	8	acl:relcl	_	_
+15-16	לרשת	_	_	_	_	_	_	_	_
+15	ל	ל	ADP	ADP	_	16	case	_	_
+16	רשת	רשת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	14	obl	_	_
+17-18	השופרסל	_	_	_	_	_	_	_	SpaceAfter=No
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	שופרסל	שופרסל	PROPN	PROPN	_	16	compound:smixut	_	_
+19	)	)	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+20	,	,	PUNCT	PUNCT	_	23	punct	_	_
+21	על	על	ADP	ADP	_	23	case	_	_
+22	פי	פה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	21	fixed	_	_
+23	מספר	מספר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	obl	_	_
+24-25	הטלפון	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	טלפון	טלפון	NOUN	NOUN	Gender=Masc|Number=Sing	23	compound:smixut	_	_
+26-27	שהופיע	_	_	_	_	_	_	_	_
+26	ש	ש	SCONJ	SCONJ	_	27	mark	_	_
+27	הופיע	הופיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	23	acl:relcl	_	_
+28	על	על	ADP	ADP	_	30	case	_	_
+29-30	האריזה	_	_	_	_	_	_	_	SpaceAfter=No
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	אריזה	אריזה	NOUN	NOUN	Gender=Fem|Number=Sing	27	obl	_	_
+31	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:128
+# doc_range = 492-595
+# sent_id = 3121
+# text = כאן נמסר לה כי מדובר בטעות אנוש, וכי העניין יימסר לטיפול.
+1	כאן	כאן	ADV	ADV	_	2	advmod	_	_
+2	נמסר	נמסר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+3-4	לה	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	4	case	_	_
+4	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+5	כי	כי	SCONJ	SCONJ	_	6	mark	_	_
+6	מדובר	דובר	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+7-8	בטעות	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	טעות	טעות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	obl	_	_
+9	אנוש	אנוש	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound:smixut	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	15	punct	_	_
+11-12	וכי	_	_	_	_	_	_	_	_
+11	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+12	כי	כי	SCONJ	SCONJ	_	15	mark	_	_
+13-14	העניין	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	עניין	עניין	NOUN	NOUN	Gender=Masc|Number=Sing	15	nsubj	_	_
+15	יימסר	נמסר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Fut|Voice=Mid	6	conj	_	_
+16-17	לטיפול	_	_	_	_	_	_	_	SpaceAfter=No
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	טיפול	טיפול	NOUN	NOUN	Gender=Masc|Number=Sing	15	obl	_	_
+18	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:128
+# doc_range = 598-730
+# sent_id = 3122
+# text = כיוון שעברו ימים אחדים והטעות לא תוקנה, פנתה לרשות להגנת הצרכן בהסתדרות.
+1	כיוון	כיוון	SCONJ	SCONJ	_	3	mark	_	_
+2-3	שעברו	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	3	mark	_	_
+3	עברו	עבר	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	12	obl	_	_
+4	ימים	יום	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
+5	אחדים	אחד	ADJ	ADJ	Gender=Masc|Number=Plur	4	amod	_	_
+6-8	והטעות	_	_	_	_	_	_	_	_
+6	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	טעות	טעות	NOUN	NOUN	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+9	לא	לא	ADV	ADV	Polarity=Neg	10	advmod	_	_
+10	תוקנה	תוקן	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	3	conj	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	3	punct	_	_
+12	פנתה	פנה	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+13-15	לרשות	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	15	case	_	_
+14	ה_	ה	DET	DET	PronType=Art|Definite=Def	15	det	_	_
+15	רשות	רשות	NOUN	NOUN	Gender=Fem|Number=Sing	12	obl	_	_
+16-17	להגנת	_	_	_	_	_	_	_	_
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	הגנת	הגנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	15	nmod	_	_
+18-19	הצרכן	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	צרכן	צרכן	NOUN	NOUN	Gender=Masc|Number=Sing	17	compound:smixut	_	_
+20-22	בהסתדרות	_	_	_	_	_	_	_	SpaceAfter=No
+20	ב	ב	ADP	ADP	_	22	case	_	_
+21	ה_	ה	DET	DET	PronType=Art|Definite=Def	22	det	_	_
+22	הסתדרות	הסתדרות	NOUN	NOUN	Gender=Fem|Number=Sing	15	nmod	_	_
+23	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# doc_id = htb:128
+# doc_range = 733-966
+# sent_id = 3123
+# text = לאחר התערבותו של יועץ הרשות לענייני מזון, ד"ר יורם מלבסקי, הודיעה הנהלת השופרסל כי תחליף את כל התוויות השגויות בתוויות מתוקנות.
+1	לאחר	לאחר	ADP	ADP	_	2	case	_	_
+2-4	התערבותו	_	_	_	_	_	_	_	_
+2	התערבות	התערבות	NOUN	NOUN	Gender=Fem|Number=Sing	17	obl	_	_
+3	_של_	של	ADP	ADP	Case=Gen	4	case:gen	_	_
+4	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5	של	של	ADP	ADP	Case=Gen	6	case	_	_
+6	יועץ	יועץ	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	nmod:poss	_	_
+7-8	הרשות	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	רשות	רשות	NOUN	NOUN	Gender=Fem|Number=Sing	6	compound:smixut	_	_
+9-10	לענייני	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	10	case	_	_
+10	ענייני	עניין	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	8	nmod	_	_
+11	מזון	מזון	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	13	punct	_	_
+13	ד"ר	ד"ר	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	6	appos	_	_
+14	יורם	יורם	PROPN	PROPN	_	13	flat:name	_	_
+15	מלבסקי	מלבסקי	PROPN	PROPN	_	13	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	2	punct	_	_
+17	הודיעה	הודיע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+18	הנהלת	הנהלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	17	nsubj	_	_
+19-20	השופרסל	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	שופרסל	שופרסל	PROPN	PROPN	_	18	compound:smixut	_	_
+21	כי	כי	SCONJ	SCONJ	_	22	mark	_	_
+22	תחליף	החליף	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	17	ccomp	_	_
+23	את	את	ADP	ADP	Case=Acc	26	case	_	_
+24	כל	כול	DET	DET	Definite=Cons	26	det	_	_
+25-26	התוויות	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	תוויות	תווית	NOUN	NOUN	Gender=Fem|Number=Plur	22	obj	_	_
+27-28	השגויות	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	שגויות	שגוי	ADJ	ADJ	Gender=Fem|Number=Plur	26	amod	_	_
+29-30	בתוויות	_	_	_	_	_	_	_	_
+29	ב	ב	ADP	ADP	_	30	case	_	_
+30	תוויות	תווית	NOUN	NOUN	Gender=Fem|Number=Plur	22	obl	_	_
+31	מתוקנות	מתוקן	ADJ	ADJ	Gender=Fem|Number=Plur	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	PUNCT	_	17	punct	_	_
+
+# doc_id = htb:128
+# doc_range = 969-1270
+# sent_id = 3124
+# text = מנהל השיווק וסמנכ"ל השופרסל, מרדכי קריינר, אישר בתגובה לפנייתנו כי אכן היתה טעות בתרגום וכבר נשלחו לכל נקודות המכירה התוויות חדשות ובהן הוצאו המלים "ללא כולסטרול".
+1	מנהל	מנהל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	nsubj	_	_
+2-3	השיווק	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	שיווק	שיווק	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4-5	וסמנכ"ל	_	_	_	_	_	_	_	_
+4	ו	ו	CCONJ	CCONJ	_	5	cc	_	_
+5	סמנכ"ל	סמנכ"ל	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	1	conj	_	_
+6-7	השופרסל	_	_	_	_	_	_	_	SpaceAfter=No
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	שופרסל	שופרסל	PROPN	PROPN	_	5	compound:smixut	_	_
+8	,	,	PUNCT	PUNCT	_	9	punct	_	_
+9	מרדכי	מרדכי	PROPN	PROPN	_	1	appos	_	_
+10	קריינר	קריינר	PROPN	PROPN	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	1	punct	_	_
+12	אישר	אישר	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+13-14	בתגובה	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	תגובה	תגובה	NOUN	NOUN	Gender=Fem|Number=Sing	12	obl	_	_
+15-18	לפנייתנו	_	_	_	_	_	_	_	_
+15	ל	ל	ADP	ADP	_	16	case	_	_
+16	פנייה	פנייה	NOUN	NOUN	Gender=Fem|Number=Sing	14	nmod	_	_
+17	_של_	של	ADP	ADP	Case=Gen	18	case:gen	_	_
+18	_אנחנו	הוא	PRON	PRON	Definite=Def|Gender=Fem,Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+19	כי	כי	SCONJ	SCONJ	_	21	mark	_	_
+20	אכן	אכן	ADV	ADV	_	21	advmod	_	_
+21	היתה	היה	VERB	VERB	Gender=Fem|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Past	12	ccomp	_	_
+22	טעות	טעות	NOUN	NOUN	Gender=Fem|Number=Sing	21	nsubj	_	_
+23-25	בתרגום	_	_	_	_	_	_	_	_
+23	ב	ב	ADP	ADP	_	25	case	_	_
+24	ה_	ה	DET	DET	PronType=Art|Definite=Def	25	det	_	_
+25	תרגום	תרגום	NOUN	NOUN	Gender=Masc|Number=Sing	22	nmod	_	_
+26-27	וכבר	_	_	_	_	_	_	_	_
+26	ו	ו	CCONJ	CCONJ	_	28	cc	_	_
+27	כבר	כבר	ADV	ADV	_	28	advmod	_	_
+28	נשלחו	נשלח	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	21	conj	_	_
+29-30	לכל	_	_	_	_	_	_	_	_
+29	ל	ל	ADP	ADP	_	31	case	_	_
+30	כל	כול	DET	DET	Definite=Cons	31	det	_	_
+31	נקודות	נקודה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	28	obl	_	_
+32-33	המכירה	_	_	_	_	_	_	_	_
+32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
+33	מכירה	מכירה	NOUN	NOUN	Gender=Fem|Number=Sing	31	compound:smixut	_	_
+34-35	התוויות	_	_	_	_	_	_	_	_
+34	ה	ה	DET	DET	Definite=Def|PronType=Art	35	det	_	_
+35	תוויות	תווית	NOUN	NOUN	Gender=Fem|Number=Plur	28	nsubj	_	_
+36	חדשות	חדש	ADJ	ADJ	Gender=Fem|Number=Plur	35	amod	_	_
+37-39	ובהן	_	_	_	_	_	_	_	_
+37	ו	ו	SCONJ	SCONJ	_	40	mark	_	_
+38	ב	ב	ADP	ADP	_	39	case	_	_
+39	הן	הן	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	40	obl	_	_
+40	הוצאו	הוצא	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	35	acl:relcl	_	_
+41-42	המלים	_	_	_	_	_	_	_	_
+41	ה	ה	DET	DET	Definite=Def|PronType=Art	42	det	_	_
+42	מלים	מילה	NOUN	NOUN	Gender=Fem|Number=Plur	40	nsubj:pass	_	_
+43	"	"	PUNCT	PUNCT	_	45	punct	_	SpaceAfter=No
+44	ללא	ללא	ADP	ADP	_	45	case	_	_
+45	כולסטרול	כולסטרול	NOUN	NOUN	Gender=Masc|Number=Sing	42	appos	_	SpaceAfter=No
+46	"	"	PUNCT	PUNCT	_	45	punct	_	SpaceAfter=No
+47	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# doc_id = htb:128
+# doc_range = 1272-1397
+# sent_id = 3125
+# text = הצרכנית גיורא העירה את אוזנינו לסימון במוצר אחר, שלדעתה גם הוא מטעה.
+1-2	הצרכנית	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	צרכנית	צרכן	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	גיורא	גיורא	PROPN	PROPN	_	2	flat:name	_	_
+4	העירה	העיר	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	את	את	ADP	ADP	Case=Acc	6	case	_	_
+6-8	אוזנינו	_	_	_	_	_	_	_	_
+6	אוזן	אוזן	NOUN	NOUN	Gender=Fem|Number=Plur	4	obj	_	_
+7	_של_	של	ADP	ADP	Case=Gen	8	case:gen	_	_
+8	_אנחנו	הוא	PRON	PRON	Definite=Def|Gender=Fem,Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+9-10	לסימון	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	10	case	_	_
+10	סימון	סימון	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+11-12	במוצר	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	מוצר	מוצר	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod	_	_
+13	אחר	אחר	ADJ	ADJ	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	22	punct	_	_
+15-19	שלדעתה	_	_	_	_	_	_	_	_
+15	ש	ש	SCONJ	SCONJ	_	22	mark	_	_
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	דעה	דעה	NOUN	NOUN	Gender=Fem|Number=Sing	22	obl	_	_
+18	_של_	של	ADP	ADP	Case=Gen	19	case:gen	_	_
+19	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+20	גם	גם	ADV	ADV	_	21	advmod	_	_
+21	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+22	מטעה	הטעה	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	12	acl:relcl	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:128
+# doc_range = 1399-1539
+# sent_id = 3126
+# text = מדובר בגבינה מסוג "גודה", המיובאת אף היא מארה"ב, במסגרת חודש אמריקה בשופרסל.
+1	מדובר	דובר	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+2-3	בגבינה	_	_	_	_	_	_	_	_
+2	ב	ב	ADP	ADP	_	3	case	_	_
+3	גבינה	גבינה	NOUN	NOUN	Gender=Fem|Number=Sing	1	obl	_	_
+4-5	מסוג	_	_	_	_	_	_	_	_
+4	מ	מ	ADP	ADP	_	5	case	_	_
+5	סוג	סוג	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	nmod	_	_
+6	"	"	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
+7	גודה	גודה	PROPN	PROPN	_	5	compound:smixut	_	SpaceAfter=No
+8	"	"	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	11	punct	_	_
+10-11	המיובאת	_	_	_	_	_	_	_	_
+10	ה	ה	SCONJ	SCONJ	_	11	mark	_	_
+11	מיובאת	יובא	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	3	acl:relcl	_	_
+12	אף	אף	ADV	ADV	_	13	advmod	_	_
+13	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	dep	_	_
+14-15	מארה"ב	_	_	_	_	_	_	_	SpaceAfter=No
+14	מ	מ	ADP	ADP	_	15	case	_	_
+15	ארה"ב	ארה"ב	PROPN	PROPN	Abbr=Yes	11	obl	_	_
+16	,	,	PUNCT	PUNCT	_	19	punct	_	_
+17-18	במסגרת	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	_	19	case	_	_
+18	מסגרת	מסגרת	NOUN	NOUN	Gender=Fem|Number=Sing	17	fixed	_	_
+19	חודש	חודש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	obl	_	_
+20	אמריקה	אמריקה	PROPN	PROPN	_	19	compound:smixut	_	_
+21-23	בשופרסל	_	_	_	_	_	_	_	SpaceAfter=No
+21	ב	ב	ADP	ADP	_	23	case	_	_
+22	ה_	ה	DET	DET	PronType=Art|Definite=Def	23	det	_	_
+23	שופרסל	שופרסל	PROPN	PROPN	_	19	nmod	_	_
+24	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:128
+# doc_range = 1541-1639
+# sent_id = 3127
+# text = על האריזה סומן באנגלית: (חלב כחוש בחלקו) וכן (שומן) 62%.
+1	על	על	ADP	ADP	_	3	case	_	_
+2-3	האריזה	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	אריזה	אריזה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+4	סומן	סומן	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+5-6	באנגלית	_	_	_	_	_	_	_	SpaceAfter=No
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	אנגלית	אנגלית	PROPN	PROPN	_	4	obl	_	_
+7	:	:	PUNCT	PUNCT	_	9	punct	_	_
+8	(	(	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+9	חלב	חלב	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+10	כחוש	כחוש	ADJ	ADJ	Gender=Masc|Number=Sing	9	amod	_	_
+11-14	בחלקו	_	_	_	_	_	_	_	SpaceAfter=No
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	חלק	חלק	NOUN	NOUN	Gender=Masc|Number=Sing	9	nmod	_	_
+13	_של_	של	ADP	ADP	Case=Gen	14	case:gen	_	_
+14	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+15	)	)	PUNCT	PUNCT	_	9	punct	_	_
+16-17	וכן	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	22	cc	_	HebSource=ConvUncertainHead
+17	כן	כן	ADV	ADV	_	22	advmod	_	_
+18	(	(	PUNCT	PUNCT	_	19	punct	_	SpaceAfter=No
+19	שומן	שומן	NOUN	NOUN	Gender=Masc|Number=Sing	22	dep	_	SpaceAfter=No
+20	)	)	PUNCT	PUNCT	_	19	punct	_	_
+21	62	62	NUM	NUM	_	22	nummod	_	SpaceAfter=No
+22	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	9	conj	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:128
+# doc_range = 1644-1765
+# sent_id = 3128
+# text = על אריזה אחרת סומן באנגלית: (חלב כחוש מפוסטר) ללא ציון אחוז השומן.
+1	על	על	ADP	ADP	_	2	case	_	_
+2	אריזה	אריזה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+3	אחרת	אחר	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+4	סומן	סומן	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+5-6	באנגלית	_	_	_	_	_	_	_	SpaceAfter=No
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	אנגלית	אנגלית	PROPN	PROPN	_	4	obl	_	_
+7	:	:	PUNCT	PUNCT	_	9	punct	_	_
+8	(	(	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+9	חלב	חלב	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+10	כחוש	כחוש	ADJ	ADJ	Gender=Masc|Number=Sing	9	amod	_	_
+11	מפוסטר	מפוסטר	ADJ	ADJ	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+12	)	)	PUNCT	PUNCT	_	9	punct	_	_
+13	ללא	ללא	ADP	ADP	_	14	case	_	_
+14	ציון	ציון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	dep	_	HebSource=ConvUncertainHead
+15	אחוז	אחוז	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	14	compound:smixut	_	_
+16-17	השומן	_	_	_	_	_	_	_	SpaceAfter=No
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	שומן	שומן	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	_
+18	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:128
+# doc_range = 1767-1886
+# sent_id = 3129
+# text = בשני המקרים הסימון בעברית היה: "עשוי מחלב דל שומן, אחוז שומן 62%".
+1-2	בשני	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	4	case	_	_
+2	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	4	nummod	_	_
+3-4	המקרים	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	מקרים	מקרה	NOUN	NOUN	Gender=Masc|Number=Plur	12	obl	_	_
+5-6	הסימון	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	סימון	סימון	NOUN	NOUN	Gender=Masc|Number=Sing	12	nsubj	_	_
+7-8	בעברית	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	עברית	עברית	PROPN	PROPN	_	6	nmod	_	_
+9	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	12	cop	_	SpaceAfter=No
+10	:	:	PUNCT	PUNCT	_	9	punct	_	_
+11	"	"	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
+12	עשוי	עשוי	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
+13-14	מחלב	_	_	_	_	_	_	_	_
+13	מ	מ	ADP	ADP	_	14	case	_	_
+14	חלב	חלב	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
+15	דל	דל	ADJ	ADJ	Definite=Cons|Gender=Masc|Number=Sing	14	amod	_	_
+16	שומן	שומן	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	21	punct	_	_
+18	אחוז	אחוז	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	21	nsubj	_	_
+19	שומן	שומן	NOUN	NOUN	Gender=Masc|Number=Sing	18	compound:smixut	_	_
+20	62	62	NUM	NUM	_	21	nummod	_	SpaceAfter=No
+21	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	12	parataxis	_	SpaceAfter=No
+22	"	"	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# doc_id = htb:128
+# doc_range = 1888-2043
+# sent_id = 3130
+# text = שואלת הקוראת: אם הגבינה עשויה מחלב דל שומן, איך ייתכן שהיא מכילה אחוז כה גבוה של שומן?
+1	שואלת	שאל	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+2-3	הקוראת	_	_	_	_	_	_	_	SpaceAfter=No
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	קוראת	קרא	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	1	nsubj	_	_
+4	:	:	PUNCT	PUNCT	_	15	punct	_	_
+5	אם	אם	SCONJ	SCONJ	_	8	mark	_	_
+6-7	הגבינה	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	גבינה	גבינה	NOUN	NOUN	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	עשויה	עשוי	ADJ	ADJ	Gender=Fem|Number=Sing	15	advcl	_	_
+9-10	מחלב	_	_	_	_	_	_	_	_
+9	מ	מ	ADP	ADP	_	10	case	_	_
+10	חלב	חלב	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+11	דל	דל	ADJ	ADJ	Definite=Cons|Gender=Masc|Number=Sing	10	amod	_	_
+12	שומן	שומן	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound:smixut	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	8	punct	_	_
+14	איך	איך	ADV	ADV	PronType=Int	15	advmod	_	_
+15	ייתכן	ייתכן	AUX	AUX	VerbType=Mod	1	ccomp	_	_
+16-17	שהיא	_	_	_	_	_	_	_	_
+16	ש	ש	SCONJ	SCONJ	_	18	mark	_	_
+17	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+18	מכילה	הכיל	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	15	advcl	_	_
+19	אחוז	אחוז	NOUN	NOUN	Gender=Masc|Number=Sing	18	dep	_	_
+20	כה	כה	ADV	ADV	_	21	advmod	_	_
+21	גבוה	גבוה	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	_
+22	של	של	ADP	ADP	Case=Gen	23	case	_	_
+23	שומן	שומן	NOUN	NOUN	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+24	?	?	PUNCT	PUNCT	_	15	punct	_	_
+
+# doc_id = htb:128
+# doc_range = 2046-2251
+# sent_id = 3131
+# text = מנהל שירות המזון במשרד הבריאות, דניאל רייכמן, שבדק את התוויות, קבע כי במקרה זה, הסימון נעשה בהתאם לתקן הישראלי.
+1	מנהל	מנהל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	19	nsubj	_	_
+2	שירות	שירות	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	compound:smixut	_	_
+3-4	המזון	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	מזון	מזון	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+5-6	במשרד	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	nmod	_	_
+7-8	הבריאות	_	_	_	_	_	_	_	SpaceAfter=No
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	בריאות	בריאות	NOUN	NOUN	Gender=Fem|Number=Sing	6	compound:smixut	_	_
+9	,	,	PUNCT	PUNCT	_	10	punct	_	_
+10	דניאל	דניאל	PROPN	PROPN	_	1	appos	_	_
+11	רייכמן	רייכמן	PROPN	PROPN	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	14	punct	_	_
+13-14	שבדק	_	_	_	_	_	_	_	_
+13	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
+14	בדק	בדק	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	1	acl:relcl	_	_
+15	את	את	ADP	ADP	Case=Acc	17	case	_	_
+16-17	התוויות	_	_	_	_	_	_	_	SpaceAfter=No
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	תוויות	תווית	NOUN	NOUN	Gender=Fem|Number=Plur	14	obj	_	_
+18	,	,	PUNCT	PUNCT	_	1	punct	_	_
+19	קבע	קבע	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	_
+20	כי	כי	SCONJ	SCONJ	_	27	mark	_	_
+21-22	במקרה	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	מקרה	מקרה	NOUN	NOUN	Gender=Masc|Number=Sing	27	obl	_	_
+23	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	22	det	_	SpaceAfter=No
+24	,	,	PUNCT	PUNCT	_	22	punct	_	_
+25-26	הסימון	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	סימון	סימון	NOUN	NOUN	Gender=Masc|Number=Sing	27	nsubj	_	_
+27	נעשה	נעשה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	19	ccomp	_	_
+28-29	בהתאם	_	_	_	_	_	_	_	_
+28	ב	ב	ADP	ADP	_	32	case	_	_
+29	התאם	התאם	NOUN	NOUN	Gender=Masc|Number=Sing	28	fixed	_	_
+30-32	לתקן	_	_	_	_	_	_	_	_
+30	ל	ל	ADP	ADP	_	28	fixed	_	_
+31	ה_	ה	DET	DET	PronType=Art|Definite=Def	32	det	_	_
+32	תקן	תקן	NOUN	NOUN	Gender=Masc|Number=Sing	27	obl	_	_
+33-34	הישראלי	_	_	_	_	_	_	_	SpaceAfter=No
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	ישראלי	ישראלי	ADJ	ADJ	Gender=Masc|Number=Sing	32	amod	_	_
+35	.	.	PUNCT	PUNCT	_	19	punct	_	_
+
+# doc_id = htb:128
+# doc_range = 2253-2399
+# sent_id = 3132
+# text = מתברר, שבניגוד לתקן הישראלי, אין התקן האמריקאי דורש לסמן את אחוז השומן בגבינות.
+1	מתברר	התברר	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	16	punct	_	_
+3-4	שבניגוד	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	16	mark	_	_
+4	בניגוד	בניגוד	ADP	ADP	_	7	case	_	_
+5-7	לתקן	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	4	fixed	_	_
+6	ה_	ה	DET	DET	PronType=Art|Definite=Def	7	det	_	_
+7	תקן	תקן	NOUN	NOUN	Gender=Masc|Number=Sing	16	obl	_	_
+8-9	הישראלי	_	_	_	_	_	_	_	SpaceAfter=No
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	ישראלי	ישראלי	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	_
+10	,	,	PUNCT	PUNCT	_	7	punct	_	_
+11	אין	אין	ADV	ADV	Polarity=Neg	16	advmod	_	_
+12-13	התקן	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	תקן	תקן	NOUN	NOUN	Gender=Masc|Number=Sing	16	nsubj	_	_
+14-15	האמריקאי	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	אמריקאי	אמריקני	ADJ	ADJ	Gender=Masc|Number=Sing	13	amod	_	_
+16	דורש	דרש	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	1	advcl	_	_
+17	לסמן	סימן	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+18	את	את	ADP	ADP	Case=Acc	19	case	_	_
+19	אחוז	אחוז	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	obj	_	_
+20-21	השומן	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	שומן	שומן	NOUN	NOUN	Gender=Masc|Number=Sing	19	compound:smixut	_	_
+22-23	בגבינות	_	_	_	_	_	_	_	SpaceAfter=No
+22	ב	ב	ADP	ADP	_	23	case	_	_
+23	גבינות	גבינה	NOUN	NOUN	Gender=Fem|Number=Plur	19	nmod	_	_
+24	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:128
+# doc_range = 2401-2506
+# sent_id = 3133
+# text = נשאלת השאלה, מנין האחוז הגבוה של שומן אם משתמשים בחלב רזה?
+1	נשאלת	נשאל	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	0	root	_	_
+2-3	השאלה	_	_	_	_	_	_	_	SpaceAfter=No
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	שאלה	שאלה	NOUN	NOUN	Gender=Fem|Number=Sing	1	nsubj	_	_
+4	,	,	PUNCT	PUNCT	_	5	punct	_	_
+5	מנין	מנין	ADV	ADV	_	3	acl	_	_
+6-7	האחוז	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	אחוז	אחוז	NOUN	NOUN	Gender=Masc|Number=Sing	5	dep	_	HebSource=ConvUncertainHead
+8-9	הגבוה	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	גבוה	גבוה	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	_
+10	של	של	ADP	ADP	Case=Gen	11	case	_	_
+11	שומן	שומן	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
+12	אם	אם	SCONJ	SCONJ	_	13	mark	_	_
+13	משתמשים	השתמש	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	5	dep	_	HebSource=ConvUncertainHead
+14-15	בחלב	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	חלב	חלב	NOUN	NOUN	Gender=Masc|Number=Sing	13	obl	_	_
+16	רזה	רזה	ADJ	ADJ	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	?	?	PUNCT	PUNCT	_	5	punct	_	HebSource=ConvUncertainHead
+
+# doc_id = htb:128
+# doc_range = 2509-2770
+# sent_id = 3134
+# text = רייכמן מסביר, כי בעת הייצור מרכזים את החלב ושואבים ממנו את השומן (בחלב רזה יש בדרך כלל 1% שומן, ואילו בחלב מלא כ3% שומן), וכך מגיעים לאחוז הדרוש.
+1	רייכמן	רייכמן	PROPN	PROPN	_	2	nsubj	_	_
+2	מסביר	הסביר	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	9	punct	_	_
+4	כי	כי	SCONJ	SCONJ	_	9	mark	_	_
+5-6	בעת	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	עת	עת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	obl	_	_
+7-8	הייצור	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	ייצור	ייצור	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+9	מרכזים	ריכז	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	2	advcl	_	_
+10	את	את	ADP	ADP	Case=Acc	12	case	_	_
+11-12	החלב	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	חלב	חלב	NOUN	NOUN	Gender=Masc|Number=Sing	9	obj	_	_
+13-14	ושואבים	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
+14	שואבים	שאב	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	9	conj	_	_
+15-16	ממנו	_	_	_	_	_	_	_	_
+15	מן	מן	ADP	ADP	_	16	case	_	_
+16	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obl	_	_
+17	את	את	ADP	ADP	Case=Acc	19	case	_	_
+18-19	השומן	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	שומן	שומן	NOUN	NOUN	Gender=Masc|Number=Sing	14	obj	_	_
+20	(	(	PUNCT	PUNCT	_	24	punct	_	SpaceAfter=No
+21-22	בחלב	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	חלב	חלב	NOUN	NOUN	Gender=Masc|Number=Sing	24	obl	_	_
+23	רזה	רזה	ADJ	ADJ	Gender=Masc|Number=Sing	22	amod	_	_
+24	יש	יש	VERB	VERB	HebExistential=Yes	9	parataxis	_	_
+25-26	בדרך	_	_	_	_	_	_	_	_
+25	ב	ב	ADP	ADP	_	26	case	_	_
+26	דרך	דרך	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	24	obl	_	_
+27	כלל	כלל	NOUN	NOUN	Gender=Masc|Number=Sing	26	dep	_	HebSource=ConvUncertainHead
+28	1	1	NUM	NUM	_	29	nummod	_	SpaceAfter=No
+29	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	24	nsubj	_	_
+30	שומן	שומן	NOUN	NOUN	Gender=Masc|Number=Sing	29	nmod	_	HebSource=ConvUncertainLabel|SpaceAfter=No
+31	,	,	PUNCT	PUNCT	_	35	punct	_	_
+32-33	ואילו	_	_	_	_	_	_	_	_
+32	ו	ו	CCONJ	CCONJ	_	35	cc	_	_
+33	אילו	אילו	CCONJ	CCONJ	_	32	conj	_	_
+34-35	בחלב	_	_	_	_	_	_	_	_
+34	ב	ב	ADP	ADP	_	35	case	_	_
+35	חלב	חלב	NOUN	NOUN	Gender=Masc|Number=Sing	24	conj	_	_
+36	מלא	מלא	ADJ	ADJ	Gender=Masc|Number=Sing	35	amod	_	_
+37-38	כ3	_	_	_	_	_	_	_	SpaceAfter=No
+37	כ	כ	ADP	ADP	_	39	case	_	_
+38	3	3	NUM	NUM	_	39	nummod	_	_
+39	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	35	dep	_	HebSource=ConvUncertainHead
+40	שומן	שומן	NOUN	NOUN	Gender=Masc|Number=Sing	39	nmod	_	HebSource=ConvUncertainLabel|SpaceAfter=No
+41	)	)	PUNCT	PUNCT	_	24	punct	_	SpaceAfter=No
+42	,	,	PUNCT	PUNCT	_	45	punct	_	_
+43-44	וכך	_	_	_	_	_	_	_	_
+43	ו	ו	CCONJ	CCONJ	_	45	cc	_	_
+44	כך	כך	ADV	ADV	_	45	advmod	_	_
+45	מגיעים	הגיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	9	conj	_	_
+46-48	לאחוז	_	_	_	_	_	_	_	_
+46	ל	ל	ADP	ADP	_	48	case	_	_
+47	ה_	ה	DET	DET	PronType=Art|Definite=Def	48	det	_	_
+48	אחוז	אחוז	NOUN	NOUN	Gender=Masc|Number=Sing	45	obl	_	_
+49-50	הדרוש	_	_	_	_	_	_	_	SpaceAfter=No
+49	ה	ה	DET	DET	Definite=Def|PronType=Art	50	det	_	_
+50	דרוש	דרוש	ADJ	ADJ	Gender=Masc|Number=Sing	48	amod	_	_
+51	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:128
+# doc_range = 2772-2888
+# sent_id = 3135
+# text = רייכמן מסכים, כי על אף שהסימון נעשה כחוק, יש בו אולי כדי להטעות.
+1	רייכמן	רייכמן	PROPN	PROPN	_	2	nsubj	_	_
+2	מסכים	הסכים	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	15	punct	_	_
+4	כי	כי	SCONJ	SCONJ	_	15	mark	_	_
+5	על	על	ADP	ADP	_	10	case	_	_
+6	אף	אף	CCONJ	CCONJ	_	5	fixed	_	_
+7-9	שהסימון	_	_	_	_	_	_	_	_
+7	ש	ש	SCONJ	SCONJ	_	10	mark	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	סימון	סימון	NOUN	NOUN	Gender=Masc|Number=Sing	10	nsubj	_	_
+10	נעשה	נעשה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	15	obl	_	_
+11-13	כחוק	_	_	_	_	_	_	_	SpaceAfter=No
+11	כ	כ	ADP	ADP	_	13	case	_	_
+12	ה_	ה	DET	DET	PronType=Art|Definite=Def	13	det	_	_
+13	חוק	חוק	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
+14	,	,	PUNCT	PUNCT	_	10	punct	_	_
+15	יש	יש	VERB	VERB	HebExistential=Yes	2	advcl	_	_
+16-17	בו	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obl	_	_
+18	אולי	אולי	ADV	ADV	_	15	advmod	_	_
+19	כדי	כדי	SCONJ	SCONJ	_	20	mark	_	_
+20	להטעות	הטעה	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	15	advcl	_	SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:128
+# doc_range = 2890-2938
+# sent_id = 3136
+# text = מסקנה: צריך לשנות את התקן.
+1	מסקנה	מסקנה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No
+2	:	:	PUNCT	PUNCT	_	1	punct	_	_
+3	צריך	צריך	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	4	aux	_	_
+4	לשנות	לשנות	VERB	VERB	VerbForm=Inf	0	root	_	_
+5	את	את	ADP	ADP	Case=Acc	7	case	_	_
+6-7	התקן	_	_	_	_	_	_	_	SpaceAfter=No
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	תקן	תקן	NOUN	NOUN	Gender=Masc|Number=Sing	4	obj	_	_
+8	.	.	PUNCT	PUNCT	_	4	punct	_	_
+

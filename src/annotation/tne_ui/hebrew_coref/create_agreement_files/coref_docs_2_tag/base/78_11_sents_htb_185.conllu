@@ -1,0 +1,420 @@
+# doc_id = htb:185
+# doc_range = 1-32
+# sent_id = 4852
+# text = קטמאנדו (ע"ץ וע"ר).
+1	קטמאנדו	קטמאנדו	PROPN	PROPN	_	0	root	_	_
+2	(	(	PUNCT	PUNCT	_	3	punct	_	HebSource=ConvUncertainHead|SpaceAfter=No
+3	ע"ץ	ע"ץ	PROPN	PROPN	Abbr=Yes	1	dep	_	HebSource=ConvUncertainHead
+4	וע"ר	וע"ר	PROPN	PROPN	Abbr=Yes	1	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+5	)	)	PUNCT	PUNCT	_	4	punct	_	HebSource=ConvUncertainHead|SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	1	punct	_	HebSource=ConvUncertainHead
+
+# doc_id = htb:185
+# doc_range = 36-240
+# sent_id = 4853
+# text = המלך בירנדרה הכריז ביום ששי על חוקה חדשה לנפאל, המבטיחה לממלכה משטר דמוקרטי רב-מפלגתי ומגבילה את סמכויות המלך.
+1-2	המלך	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מלך	מלך	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+3-4	בירנדרה	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	ירנדרה	בירנדרה	PROPN	PROPN	_	2	nmod	_	_
+5	הכריז	הכריז	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+6-7	ביום	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+8	ששי	ששי	PROPN	PROPN	_	7	compound:smixut	_	_
+9	על	על	ADP	ADP	_	10	case	_	_
+10	חוקה	חוקה	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
+11	חדשה	חדש	ADJ	ADJ	Gender=Fem|Number=Sing	10	amod	_	_
+12-13	לנפאל	_	_	_	_	_	_	_	SpaceAfter=No
+12	ל	ל	ADP	ADP	_	13	case	_	_
+13	נפאל	נפאל	PROPN	PROPN	_	10	nmod	_	_
+14	,	,	PUNCT	PUNCT	_	16	punct	_	_
+15-16	המבטיחה	_	_	_	_	_	_	_	_
+15	ה	ה	SCONJ	SCONJ	_	16	mark	_	_
+16	מבטיחה	הבטיח	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	10	acl:relcl	_	_
+17-19	לממלכה	_	_	_	_	_	_	_	_
+17	ל	ל	ADP	ADP	_	19	case	_	_
+18	ה_	ה	DET	DET	PronType=Art|Definite=Def	19	det	_	_
+19	ממלכה	ממלכה	NOUN	NOUN	Gender=Fem|Number=Sing	16	obl	_	_
+20	משטר	משטר	NOUN	NOUN	Gender=Masc|Number=Sing	16	obj	_	_
+21	דמוקרטי	דמוקרטי	ADJ	ADJ	Gender=Masc|Number=Sing	20	amod	_	_
+22	רב	רב	ADJ	ADJ	_	24	compound:affix	_	SpaceAfter=No
+23	-	-	PUNCT	PUNCT	_	22	punct	_	SpaceAfter=No
+24	מפלגתי	מפלגתי	ADJ	ADJ	Gender=Masc|Number=Sing	20	amod	_	_
+25-26	ומגבילה	_	_	_	_	_	_	_	_
+25	ו	ו	CCONJ	CCONJ	_	26	cc	_	_
+26	מגבילה	הגביל	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	16	conj	_	_
+27	את	את	ADP	ADP	Case=Acc	28	case	_	_
+28	סמכויות	סמכות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	26	obj	_	_
+29-30	המלך	_	_	_	_	_	_	_	SpaceAfter=No
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	מלך	מלך	NOUN	NOUN	Gender=Masc|Number=Sing	28	compound:smixut	_	_
+31	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:185
+# doc_range = 243-538
+# sent_id = 4854
+# text = "חוקה זו מבטיחה בצורה הברורה ביותר את החופש האישי ואת זכויות האדם", אמר המלך בנאום שנמשך שלוש דקות בלבד בארמון המלכותי ואשר שודר לכל העם הנפאלי המונה 17 מיליון נפש.
+1	"	"	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+2	חוקה	חוקה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	det	_	_
+4	מבטיחה	הבטיח	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	23	advcl	_	_
+5-7	בצורה	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	7	case	_	_
+6	ה_	ה	DET	DET	PronType=Art|Definite=Def	7	det	_	_
+7	צורה	צורה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+8-9	הברורה	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	ברורה	ברור	ADJ	ADJ	Gender=Fem|Number=Sing	7	amod	_	_
+10	ביותר	ביותר	ADV	ADV	_	9	advmod	_	_
+11	את	את	ADP	ADP	Case=Acc	13	case	_	_
+12-13	החופש	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	חופש	חופש	NOUN	NOUN	Gender=Masc|Number=Sing	4	obj	_	_
+14-15	האישי	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	אישי	אישי	ADJ	ADJ	Gender=Masc|Number=Sing	13	amod	_	_
+16-17	ואת	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+17	את	את	ADP	ADP	Case=Acc	18	case	_	_
+18	זכויות	זכות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	13	conj	_	_
+19-20	האדם	_	_	_	_	_	_	_	SpaceAfter=No
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	אדם	אדם	NOUN	NOUN	Gender=Masc|Number=Sing	18	compound:smixut	_	_
+21	"	"	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+22	,	,	PUNCT	PUNCT	_	4	punct	_	_
+23	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+24-25	המלך	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	מלך	מלך	NOUN	NOUN	Gender=Masc|Number=Sing	23	nsubj	_	_
+26-27	בנאום	_	_	_	_	_	_	_	_
+26	ב	ב	ADP	ADP	_	27	case	_	_
+27	נאום	נאום	NOUN	NOUN	Gender=Masc|Number=Sing	23	obl	_	_
+28-29	שנמשך	_	_	_	_	_	_	_	_
+28	ש	ש	SCONJ	SCONJ	_	29	mark	_	_
+29	נמשך	נמשך	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	27	acl:relcl	_	_
+30	שלוש	שלוש	NUM	NUM	Gender=Fem|Number=Plur	31	nummod	_	_
+31	דקות	דקה	NOUN	NOUN	Gender=Fem|Number=Plur	29	obl:tmod	_	_
+32	בלבד	בלבד	ADV	ADV	_	31	advmod	_	_
+33-35	בארמון	_	_	_	_	_	_	_	_
+33	ב	ב	ADP	ADP	_	35	case	_	_
+34	ה_	ה	DET	DET	PronType=Art|Definite=Def	35	det	_	_
+35	ארמון	ארמון	NOUN	NOUN	Gender=Masc|Number=Sing	29	obl	_	_
+36-37	המלכותי	_	_	_	_	_	_	_	_
+36	ה	ה	DET	DET	Definite=Def|PronType=Art	37	det	_	_
+37	מלכותי	מלכותי	ADJ	ADJ	Gender=Masc|Number=Sing	35	amod	_	_
+38-39	ואשר	_	_	_	_	_	_	_	_
+38	ו	ו	CCONJ	CCONJ	_	40	cc	_	_
+39	אשר	אשר	SCONJ	SCONJ	_	40	mark	_	_
+40	שודר	שודר	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	29	conj	_	_
+41-42	לכל	_	_	_	_	_	_	_	_
+41	ל	ל	ADP	ADP	_	44	case	_	_
+42	כל	כול	DET	DET	Definite=Cons	44	det	_	_
+43-44	העם	_	_	_	_	_	_	_	_
+43	ה	ה	DET	DET	Definite=Def|PronType=Art	44	det	_	_
+44	עם	עם	NOUN	NOUN	Gender=Masc|Number=Sing	40	obl	_	_
+45-46	הנפאלי	_	_	_	_	_	_	_	_
+45	ה	ה	DET	DET	Definite=Def|PronType=Art	46	det	_	_
+46	נפאלי	נפאלי	NOUN	NOUN	_	44	amod	_	_
+47-48	המונה	_	_	_	_	_	_	_	_
+47	ה	ה	SCONJ	SCONJ	_	48	mark	_	_
+48	מונה	מנה	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	44	acl:relcl	_	_
+49	17	17	NUM	NUM	_	50	nummod	_	_
+50	מיליון	מיליון	NUM	NUM	Gender=Masc|Number=Plur	51	nummod	_	_
+51	נפש	נפש	NOUN	NOUN	Gender=Fem|Number=Sing	48	obj	_	SpaceAfter=No
+52	.	.	PUNCT	PUNCT	_	23	punct	_	_
+
+# doc_id = htb:185
+# doc_range = 540-602
+# sent_id = 4855
+# text = החוקה החדשה מתבססת על הדגם הבריטי.
+1-2	החוקה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	חוקה	חוקה	NOUN	NOUN	Gender=Fem|Number=Sing	5	nsubj	_	_
+3-4	החדשה	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	חדשה	חדש	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+5	מתבססת	התבסס	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+6	על	על	ADP	ADP	_	8	case	_	_
+7-8	הדגם	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	דגם	דגם	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+9-10	הבריטי	_	_	_	_	_	_	_	SpaceAfter=No
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	בריטי	בריטי	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	_
+11	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:185
+# doc_range = 604-763
+# sent_id = 4856
+# text = המלך, שבעיני נפאלים רבים מגלם את האל "וישנו" בדת ההינדית, יקבל את תפקיד של יועץ לממשלה.
+1-2	המלך	_	_	_	_	_	_	_	SpaceAfter=No
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מלך	מלך	NOUN	NOUN	Gender=Masc|Number=Sing	22	nsubj	_	_
+3	,	,	PUNCT	PUNCT	_	8	punct	_	_
+4-5	שבעיני	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
+5	בעיני	בעין	ADP	ADP	_	6	case	_	_
+6	נפאלים	נפאלים	NOUN	NOUN	_	8	obl	_	_
+7	רבים	רב	ADJ	ADJ	Gender=Masc|Number=Plur	6	amod	_	_
+8	מגלם	גילם	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	2	acl:relcl	_	_
+9	את	את	ADP	ADP	Case=Acc	11	case	_	_
+10-11	האל	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	אל	אל	NOUN	NOUN	Gender=Masc|Number=Sing	8	obj	_	_
+12	"	"	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
+13-14	וישנו	_	_	_	_	_	_	_	SpaceAfter=No
+13	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
+14	ישנו	יישן	VERB	VERB	Gender=Fem,Masc|Mood=Imp|Number=Plur|Person=2	8	conj	_	_
+15	"	"	PUNCT	PUNCT	_	14	punct	_	_
+16-18	בדת	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	18	case	_	_
+17	ה_	ה	DET	DET	PronType=Art|Definite=Def	18	det	_	_
+18	דת	דת	NOUN	NOUN	Gender=Fem|Number=Sing	14	obl	_	_
+19-20	ההינדית	_	_	_	_	_	_	_	SpaceAfter=No
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	הינדית	הינדית	ADJ	ADJ	_	18	amod	_	_
+21	,	,	PUNCT	PUNCT	_	2	punct	_	_
+22	יקבל	קיבל	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+23	את	את	ADP	ADP	Case=Acc	24	case	_	_
+24	תפקיד	תפקיד	NOUN	NOUN	Gender=Masc|Number=Sing	22	obj	_	_
+25	של	של	ADP	ADP	Case=Gen	26	case	_	_
+26	יועץ	יועץ	NOUN	NOUN	Gender=Masc|Number=Sing	24	nmod:poss	_	_
+27-29	לממשלה	_	_	_	_	_	_	_	SpaceAfter=No
+27	ל	ל	ADP	ADP	_	29	case	_	_
+28	ה_	ה	DET	DET	PronType=Art|Definite=Def	29	det	_	_
+29	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	26	nmod	_	_
+30	.	.	PUNCT	PUNCT	_	22	punct	_	_
+
+# doc_id = htb:185
+# doc_range = 767-948
+# sent_id = 4857
+# text = "לבית המלוכה נשארת הזכות של קבלת מידע שוטף, הזכות לעודד והזכות להזהיר את הממשלה", נאמר בחוקה החדשה.
+1	"	"	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+2-3	לבית	_	_	_	_	_	_	_	_
+2	ל	ל	ADP	ADP	_	3	case	_	_
+3	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	obl	_	_
+4-5	המלוכה	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	מלוכה	מלוכה	NOUN	NOUN	Gender=Fem|Number=Sing	3	compound:smixut	_	_
+6	נשארת	נשאר	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	26	advcl	_	_
+7-8	הזכות	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	זכות	זכות	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj	_	_
+9	של	של	ADP	ADP	Case=Gen	10	case	_	_
+10	קבלת	קבלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	8	nmod:poss	_	_
+11	מידע	מידע	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
+12	שוטף	שוטף	ADJ	ADJ	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	15	punct	_	_
+14-15	הזכות	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	זכות	זכות	NOUN	NOUN	Gender=Fem|Number=Sing	8	conj	_	_
+16	לעודד	עודד	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	15	acl	_	_
+17-19	והזכות	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	זכות	זכות	NOUN	NOUN	Gender=Fem|Number=Sing	8	conj	_	_
+20	להזהיר	הזהיר	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	19	acl	_	_
+21	את	את	ADP	ADP	Case=Acc	23	case	_	_
+22-23	הממשלה	_	_	_	_	_	_	_	SpaceAfter=No
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	20	obj	_	_
+24	"	"	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+25	,	,	PUNCT	PUNCT	_	6	punct	_	_
+26	נאמר	נאמר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+27-29	בחוקה	_	_	_	_	_	_	_	_
+27	ב	ב	ADP	ADP	_	29	case	_	_
+28	ה_	ה	DET	DET	PronType=Art|Definite=Def	29	det	_	_
+29	חוקה	חוקה	NOUN	NOUN	Gender=Fem|Number=Sing	26	obl	_	_
+30-31	החדשה	_	_	_	_	_	_	_	SpaceAfter=No
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	חדשה	חדש	ADJ	ADJ	Gender=Fem|Number=Sing	29	amod	_	_
+32	.	.	PUNCT	PUNCT	_	26	punct	_	_
+
+# doc_id = htb:185
+# doc_range = 950-1236
+# sent_id = 4858
+# text = קפידבינהמלך בירנדרה הסכים לבטל את החוקה הישנה לאחר הפגנות סוערות למען הדמוקרטיה בחודש אפריל, אשר גרמו להפלת ראש הממשלה בו בחר המלך ובמקומו קמה ממשלה זמנית.
+1-3	קפידבינהמלך	_	_	_	_	_	_	_	_
+1	קפידבינ	קפידבינ	X	X	_	5	dep	_	Xtra=Junk
+2	ה	ה	DET	DET	_	3	det	_	Xtra=Junk
+3	מלך	מלך	X	X	_	5	nsubj	_	Xtra=Junk
+4	בירנדרה	בירנדרה	PROPN	PROPN	_	3	appos	_	_
+5	הסכים	הסכים	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+6	לבטל	ביטל	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	את	את	ADP	ADP	Case=Acc	9	case	_	_
+8-9	החוקה	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	חוקה	חוקה	NOUN	NOUN	Gender=Fem|Number=Sing	6	obj	_	_
+10-11	הישנה	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	ישנה	ישן	ADJ	ADJ	Gender=Fem|Number=Sing	9	amod	_	_
+12	לאחר	לאחר	ADP	ADP	_	13	case	_	_
+13	הפגנות	הפגנה	NOUN	NOUN	Gender=Fem|Number=Plur	5	obl	_	_
+14	סוערות	סוער	ADJ	ADJ	Gender=Fem|Number=Plur	13	amod	_	_
+15	למען	למען	ADP	ADP	_	17	case	_	_
+16-17	הדמוקרטיה	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	דמוקרטיה	דמוקרטיה	NOUN	NOUN	Gender=Fem|Number=Sing	13	nmod	_	_
+18-19	בחודש	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	19	case	_	_
+19	חודש	חודש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	nmod	_	_
+20	אפריל	אפריל	PROPN	PROPN	_	19	compound:smixut	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	23	punct	_	_
+22	אשר	אשר	SCONJ	SCONJ	_	23	mark	_	_
+23	גרמו	גרם	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	13	acl:relcl	_	_
+24-25	להפלת	_	_	_	_	_	_	_	_
+24	ל	ל	ADP	ADP	_	25	case	_	_
+25	הפלת	הפלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	23	obl	_	_
+26	ראש	ראש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	25	compound:smixut	_	_
+27-28	הממשלה	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	26	compound:smixut	_	_
+29-30	בו	_	_	_	_	_	_	_	_
+29	ב	ב	ADP	ADP	_	30	case	_	_
+30	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	obl	_	_
+31	בחר	בחר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	26	acl:relcl	_	_
+32-33	המלך	_	_	_	_	_	_	_	_
+32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
+33	מלך	מלך	NOUN	NOUN	Gender=Masc|Number=Sing	31	nsubj	_	_
+34-38	ובמקומו	_	_	_	_	_	_	_	_
+34	ו	ו	CCONJ	CCONJ	_	39	cc	_	_
+35	ב	ב	ADP	ADP	_	36	case	_	_
+36	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	39	obl	_	_
+37	_של_	של	ADP	ADP	Case=Gen	38	case:gen	_	_
+38	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	36	nmod:poss	_	_
+39	קמה	קם	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	31	conj	_	_
+40	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	39	nsubj	_	_
+41	זמנית	זמני	ADJ	ADJ	Gender=Fem|Number=Sing	40	amod	_	SpaceAfter=No
+42	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:185
+# doc_range = 1238-1352
+# sent_id = 4859
+# text = סעיף מפתח במסמך החוקתי מחייב את המלך "לציית לחוקה ולהגן עליה".
+1	סעיף	סעיף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	nsubj	_	_
+2	מפתח	מפתח	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+3-5	במסמך	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	5	case	_	_
+4	ה_	ה	DET	DET	PronType=Art|Definite=Def	5	det	_	_
+5	מסמך	מסמך	NOUN	NOUN	Gender=Masc|Number=Sing	1	nmod	_	_
+6-7	החוקתי	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	חוקתי	חוקתי	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	_
+8	מחייב	חייב	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+9	את	את	ADP	ADP	Case=Acc	11	case	_	_
+10-11	המלך	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	מלך	מלך	NOUN	NOUN	Gender=Masc|Number=Sing	8	obj	_	_
+12	"	"	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No
+13	לציית	ציית	VERB	VERB	VerbForm=Inf	8	xcomp	_	_
+14-16	לחוקה	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	16	case	_	_
+15	ה_	ה	DET	DET	PronType=Art|Definite=Def	16	det	_	_
+16	חוקה	חוקה	NOUN	NOUN	Gender=Fem|Number=Sing	13	obl	_	_
+17-18	ולהגן	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+18	להגן	הגן	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	13	conj	_	_
+19-20	עליה	_	_	_	_	_	_	_	SpaceAfter=No
+19	על	על	ADP	ADP	_	20	case	_	_
+20	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obl	_	_
+21	"	"	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:185
+# doc_range = 1354-1421
+# sent_id = 4860
+# text = על פי החוקה הישנה עמד המלך מעל לחוקה.
+1	על	על	ADP	ADP	_	4	case	_	_
+2	פי	פה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	fixed	_	_
+3-4	החוקה	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	חוקה	חוקה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
+5-6	הישנה	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	ישנה	ישן	ADJ	ADJ	Gender=Fem|Number=Sing	4	amod	_	_
+7	עמד	עמד	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	_
+8-9	המלך	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	מלך	מלך	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj	_	_
+10	מעל	מעל	ADP	ADP	_	13	case	_	_
+11-13	לחוקה	_	_	_	_	_	_	_	SpaceAfter=No
+11	ל	ל	ADP	ADP	_	10	fixed	_	_
+12	ה_	ה	DET	DET	PronType=Art|Definite=Def	13	det	_	_
+13	חוקה	חוק	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
+14	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:185
+# doc_range = 1423-1616
+# sent_id = 4861
+# text = המלכה איישוואריה, שהמונים הפגינו נגד העסקות שלה באפריל, לא נכחה בטקס בו נשא המלך את הנאום בארמון המלכותי.
+1-2	המלכה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מלכה	מלך	NOUN	NOUN	Gender=Fem|Number=Sing	17	nsubj	_	_
+3	איישוואריה	איישוואריה	PROPN	PROPN	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	7	punct	_	_
+5-6	שהמונים	_	_	_	_	_	_	_	_
+5	ש	ש	SCONJ	SCONJ	_	7	mark	_	_
+6	המונים	המון	NOUN	NOUN	Gender=Masc|Number=Plur	7	nsubj	_	_
+7	הפגינו	הפגין	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	2	acl:relcl	_	_
+8	נגד	נגד	ADP	ADP	_	10	case	_	_
+9-10	העסקות	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	עסקות	עסקה	NOUN	NOUN	Gender=Fem|Number=Plur	7	obl	_	_
+11-12	שלה	_	_	_	_	_	_	_	_
+11	של	של	ADP	ADP	Case=Gen	12	case	_	_
+12	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+13-14	באפריל	_	_	_	_	_	_	_	SpaceAfter=No
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	אפריל	אפריל	PROPN	PROPN	_	7	obl	_	_
+15	,	,	PUNCT	PUNCT	_	2	punct	_	_
+16	לא	לא	ADV	ADV	Polarity=Neg	17	advmod	_	_
+17	נכחה	נכח	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+18-20	בטקס	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	20	case	_	_
+19	ה_	ה	DET	DET	PronType=Art|Definite=Def	20	det	_	_
+20	טקס	טקס	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	_
+21-22	בו	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obl	_	_
+23	נשא	נשא	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	20	acl:relcl	_	_
+24-25	המלך	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	מלך	מלך	NOUN	NOUN	Gender=Masc|Number=Sing	23	nsubj	_	_
+26	את	את	ADP	ADP	Case=Acc	28	case	_	_
+27-28	הנאום	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	נאום	נאום	NOUN	NOUN	Gender=Masc|Number=Sing	23	obj	_	_
+29-31	בארמון	_	_	_	_	_	_	_	_
+29	ב	ב	ADP	ADP	_	31	case	_	_
+30	ה_	ה	DET	DET	PronType=Art|Definite=Def	31	det	_	_
+31	ארמון	ארמון	NOUN	NOUN	Gender=Masc|Number=Sing	23	obl	_	_
+32-33	המלכותי	_	_	_	_	_	_	_	SpaceAfter=No
+32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
+33	מלכותי	מלכותי	ADJ	ADJ	Gender=Masc|Number=Sing	31	amod	_	_
+34	.	.	PUNCT	PUNCT	_	17	punct	_	_
+
+# doc_id = htb:185
+# doc_range = 1618-1694
+# sent_id = 4862
+# text = גם נסיך הכתר דיפנדרה, בן 20, לא נראה בהיכל.
+1	גם	גם	ADV	ADV	_	2	advmod	_	_
+2	נסיך	נסיך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	nsubj	_	_
+3-4	הכתר	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	כתר	כתר	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+5	דיפנדרה	דיפנדרה	PROPN	PROPN	_	2	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	7	punct	_	_
+7	בן	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	appos	_	_
+8	20	20	NUM	NUM	_	7	compound:smixut	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	2	punct	_	_
+10	לא	לא	ADV	ADV	Polarity=Neg	11	advmod	_	_
+11	נראה	נראה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+12-14	בהיכל	_	_	_	_	_	_	_	SpaceAfter=No
+12	ב	ב	ADP	ADP	_	14	case	_	_
+13	ה_	ה	DET	DET	PronType=Art|Definite=Def	14	det	_	_
+14	היכל	היכל	NOUN	NOUN	Gender=Masc|Number=Sing	11	obl	_	_
+15	.	.	PUNCT	PUNCT	_	11	punct	_	_
+

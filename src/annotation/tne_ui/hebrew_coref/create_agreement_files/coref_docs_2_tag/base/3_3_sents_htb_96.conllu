@@ -1,0 +1,142 @@
+# doc_id = htb:96
+# doc_range = 1-278
+# sent_id = 2379
+# text = ההנהלה הפעילה של חברת בית הספר המרכזי למלונאות תדמור בהרצליה, החליטה לוותר על 5% ברוטו ממשכורתם החודשית של ארבעת חבריה, בשל המשבר הפוקד את ענף התיירות.
+1-2	ההנהלה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	הנהלה	הנהלה	NOUN	NOUN	Gender=Fem|Number=Sing	18	nsubj	_	_
+3-4	הפעילה	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	פעילה	פעיל	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+5	של	של	ADP	ADP	Case=Gen	6	case	_	_
+6	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	nmod	_	_
+7	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	compound:smixut	_	_
+8-9	הספר	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	ספר	ספר	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound:smixut	_	_
+10-11	המרכזי	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	מרכזי	מרכזי	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	_
+12-13	למלונאות	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	_	13	case	_	_
+13	מלונאות	מלונאות	NOUN	NOUN	Gender=Fem|Number=Sing	7	nmod	_	_
+14	תדמור	תדמור	PROPN	PROPN	_	7	flat:name	_	_
+15-16	בהרצליה	_	_	_	_	_	_	_	SpaceAfter=No
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	הרצליה	הרצליה	PROPN	PROPN	_	7	nmod	_	_
+17	,	,	PUNCT	PUNCT	_	2	punct	_	_
+18	החליטה	החליט	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+19	לוותר	ויתר	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	18	xcomp	_	_
+20	על	על	ADP	ADP	_	23	case	_	_
+21	5	5	NUM	NUM	_	22	nummod	_	SpaceAfter=No
+22	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	23	nummod	_	_
+23	ברוטו	ברוטו	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	19	obl	_	_
+24-27	ממשכורתם	_	_	_	_	_	_	_	_
+24	מ	מ	ADP	ADP	_	25	case	_	_
+25	משכורת	משכורת	NOUN	NOUN	Gender=Fem|Number=Sing	19	obl	_	_
+26	_של_	של	ADP	ADP	Case=Gen	27	case:gen	_	_
+27	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+28-29	החודשית	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	חודשית	חודשי	ADJ	ADJ	Gender=Fem|Number=Sing	25	amod	_	_
+30	של	של	ADP	ADP	Case=Gen	32	case	_	_
+31	ארבעת	ארבעת	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	32	nummod	_	_
+32-34	חבריה	_	_	_	_	_	_	_	SpaceAfter=No
+32	חבר	חבר	NOUN	NOUN	Gender=Masc|Number=Plur	25	nmod:poss	_	_
+33	_של_	של	ADP	ADP	Case=Gen	34	case:gen	_	_
+34	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+35	,	,	PUNCT	PUNCT	_	38	punct	_	_
+36	בשל	בשל	ADP	ADP	_	38	case	_	_
+37-38	המשבר	_	_	_	_	_	_	_	_
+37	ה	ה	DET	DET	Definite=Def|PronType=Art	38	det	_	_
+38	משבר	משבר	NOUN	NOUN	Gender=Masc|Number=Sing	18	obl	_	_
+39-40	הפוקד	_	_	_	_	_	_	_	_
+39	ה	ה	SCONJ	SCONJ	_	40	mark	_	_
+40	פוקד	פקד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	38	acl:relcl	_	_
+41	את	את	ADP	ADP	Case=Acc	42	case	_	_
+42	ענף	ענף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	40	obj	_	_
+43-44	התיירות	_	_	_	_	_	_	_	SpaceAfter=No
+43	ה	ה	DET	DET	Definite=Def|PronType=Art	44	det	_	_
+44	תיירות	תיירות	NOUN	NOUN	Gender=Fem|Number=Sing	42	compound:smixut	_	_
+45	.	.	PUNCT	PUNCT	_	18	punct	_	_
+
+# doc_id = htb:96
+# doc_range = 280-516
+# sent_id = 2380
+# text = החלטת ההנהלה באה לעודד יוזמות דומות, תוך כדי מתן דוגמה אישית הנחוצה לעמדתה בתקופה זו לעתידה של החברה ועל מנת למנוע פיטורי עובדים.
+1	החלטת	החלטה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	nsubj	_	_
+2-3	ההנהלה	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	הנהלה	הנהלה	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+4	באה	בא	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	לעודד	עודד	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	יוזמות	יוזמה	NOUN	NOUN	Gender=Fem|Number=Plur	5	obj	_	_
+7	דומות	דומה	ADJ	ADJ	Gender=Fem|Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	11	punct	_	_
+9	תוך	תוך	ADP	ADP	_	11	case	_	_
+10	כדי	כדי	ADP	ADP	_	9	fixed	_	_
+11	מתן	מתן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+12	דוגמה	דוגמה	NOUN	NOUN	Gender=Fem|Number=Sing	11	compound:smixut	_	_
+13	אישית	אישי	ADJ	ADJ	Gender=Fem|Number=Sing	12	amod	_	_
+14-15	הנחוצה	_	_	_	_	_	_	_	_
+14	ה	ה	SCONJ	SCONJ	Definite=Def|PronType=Art	15	mark	_	_
+15	נחוצה	נחוץ	AUX	AUX	VerbType=Mod	12	acl:relcl	_	_
+16-19	לעמדתה	_	_	_	_	_	_	_	_
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	עמדה	עמדה	NOUN	NOUN	Gender=Fem|Number=Sing	15	obl	_	_
+18	_של_	של	ADP	ADP	Case=Gen	19	case:gen	_	_
+19	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+20-21	בתקופה	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	תקופה	תקופה	NOUN	NOUN	Gender=Fem|Number=Sing	17	nmod	_	_
+22	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	21	det	_	_
+23-26	לעתידה	_	_	_	_	_	_	_	_
+23	ל	ל	ADP	ADP	_	24	case	_	_
+24	עתיד	עתיד	NOUN	NOUN	Gender=Masc|Number=Sing	17	conj	_	_
+25	_של_	של	ADP	ADP	Case=Gen	26	case:gen	_	_
+26	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+27	של	של	ADP	ADP	Case=Gen	29	case	_	_
+28-29	החברה	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	24	nmod:poss	_	_
+30-31	ועל	_	_	_	_	_	_	_	_
+30	ו	ו	CCONJ	CCONJ	_	32	cc	_	_
+31	על	על	ADP	ADP	_	32	case	_	_
+32	מנת	מנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	17	conj	_	_
+33	למנוע	מנע	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	32	compound:smixut	_	_
+34	פיטורי	פיטורין	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	33	obl	_	_
+35	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	34	compound:smixut	_	SpaceAfter=No
+36	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:96
+# doc_range = 519-661
+# sent_id = 2381
+# text = תרומה זו לא תפגע בצורה כלשהי בתנאים הסוציאליים הקיימים של חברי ההנהלה הפעילה.
+1	תרומה	תרומה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
+2	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	1	det	_	_
+3	לא	לא	ADV	ADV	Polarity=Neg	4	advmod	_	_
+4	תפגע	פגע	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+5-6	בצורה	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	צורה	צורה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+7	כלשהי	כלשהו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Ind	6	det	_	_
+8-10	בתנאים	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	10	case	_	_
+9	ה_	ה	DET	DET	PronType=Art|Definite=Def	10	det	_	_
+10	תנאים	תנאי	NOUN	NOUN	Gender=Masc|Number=Plur	4	obl	_	_
+11-12	הסוציאליים	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	סוציאליים	סוציאלי	ADJ	ADJ	Gender=Masc|Number=Plur	10	amod	_	_
+13-14	הקיימים	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	קיימים	קיים	ADJ	ADJ	Gender=Masc|Number=Plur	10	amod	_	_
+15	של	של	ADP	ADP	Case=Gen	16	case	_	_
+16	חברי	חבר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	10	nmod	_	_
+17-18	ההנהלה	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	הנהלה	הנהלה	NOUN	NOUN	Gender=Fem|Number=Sing	16	compound:smixut	_	_
+19-20	הפעילה	_	_	_	_	_	_	_	SpaceAfter=No
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	פעילה	פעיל	ADJ	ADJ	Gender=Fem|Number=Sing	18	amod	_	_
+21	.	.	PUNCT	PUNCT	_	4	punct	_	_
+

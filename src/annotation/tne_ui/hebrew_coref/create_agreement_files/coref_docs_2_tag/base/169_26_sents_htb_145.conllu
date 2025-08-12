@@ -1,0 +1,851 @@
+# doc_id = htb:145
+# doc_range = 2-120
+# sent_id = 3628
+# text = "אריה היה כה גאה בשדה התעופה; הוא רצה להפוך אותו לנמל אוויר בין-לאומי.
+1	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+2	אריה	אריה	PROPN	PROPN	_	5	nsubj	_	_
+3	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	5	cop	_	_
+4	כה	כה	ADV	ADV	_	5	advmod	_	_
+5	גאה	גאה	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
+6-7	בשדה	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	שדה	שדה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+8-9	התעופה	_	_	_	_	_	_	_	SpaceAfter=No
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	תעופה	תעופה	NOUN	NOUN	Gender=Fem|Number=Sing	7	compound:smixut	_	_
+10	;	;	PUNCT	PUNCT	_	12	punct	_	_
+11	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	רצה	רצה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	_
+13	להפוך	הפך	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14-15	אותו	_	_	_	_	_	_	_	_
+14	את	את	ADP	ADP	Case=Acc	15	case	_	_
+15	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+16-17	לנמל	_	_	_	_	_	_	_	_
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	נמל	נמל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	obl	_	_
+18	אוויר	אוויר	NOUN	NOUN	Gender=Masc|Number=Sing	17	compound:smixut	_	_
+19	בין	בין	ADV	ADV	Prefix=Yes	21	compound:affix	_	SpaceAfter=No
+20	-	-	PUNCT	PUNCT	_	19	punct	_	SpaceAfter=No
+21	לאומי	לאומי	ADJ	ADJ	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:145
+# doc_range = 123-221
+# sent_id = 3629
+# text = לכן פעל להכנסת מערכת הרדאר החדשה ולהקמת תחנת כיבוי אש.
+1	לכן	לכן	ADV	ADV	_	2	advmod	_	_
+2	פעל	פעל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3-4	להכנסת	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	4	case	_	_
+4	הכנסת	הכנסה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	obl	_	_
+5	מערכת	מערכת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	compound:smixut	_	_
+6-7	הרדאר	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	רדאר	רדאר	NOUN	NOUN	Gender=Masc|Number=Sing	5	compound:smixut	_	_
+8-9	החדשה	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	חדשה	חדש	ADJ	ADJ	Gender=Fem|Number=Sing	5	amod	_	_
+10-12	ולהקמת	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+11	ל	ל	ADP	ADP	_	12	case	_	_
+12	הקמת	הקמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	conj	_	_
+13	תחנת	תחנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	compound:smixut	_	_
+14	כיבוי	כיבוי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	compound:smixut	_	_
+15	אש	אש	NOUN	NOUN	Gender=Fem|Number=Sing	14	compound:smixut	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:145
+# doc_range = 223-291
+# sent_id = 3630
+# text = אני מקווה, כי החלומות שהיו לו יתגשמו.
+1	אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	מקווה	קיווה	VERB	VERB	Gender=Fem|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	11	punct	_	_
+4	כי	כי	SCONJ	SCONJ	_	11	mark	_	_
+5-6	החלומות	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	חלומות	חלום	NOUN	NOUN	Gender=Masc|Number=Plur	11	nsubj	_	_
+7-8	שהיו	_	_	_	_	_	_	_	_
+7	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
+8	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	6	acl:relcl	_	_
+9-10	לו	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	10	case	_	_
+10	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obl	_	_
+11	יתגשמו	התגשם	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Fut	2	ccomp	_	SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:145
+# doc_range = 293-392
+# sent_id = 3631
+# text = אריה היה גם המתורגמן שלי, כיוון שהעברית שבפי כה גרועה.
+1	אריה	אריה	PROPN	PROPN	_	5	nsubj	_	_
+2	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	5	cop	_	_
+3	גם	גם	ADV	ADV	_	5	advmod	_	_
+4-5	המתורגמן	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	מתורגמן	מתורגמן	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+6-7	שלי	_	_	_	_	_	_	_	SpaceAfter=No
+6	של	של	ADP	ADP	Case=Gen	7	case	_	_
+7	_אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+8	,	,	PUNCT	PUNCT	_	19	punct	_	_
+9	כיוון	כיוון	SCONJ	SCONJ	_	19	case	_	_
+10-12	שהעברית	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	19	mark	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	עברית	עברית	PROPN	PROPN	_	19	nsubj	_	_
+13-17	שבפי	_	_	_	_	_	_	_	_
+13	ש	ש	SCONJ	SCONJ	_	15	mark	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	פה	פה	NOUN	NOUN	Gender=Masc|Number=Sing	12	acl:relcl	_	_
+16	_של_	של	ADP	ADP	Case=Gen	17	case:gen	_	_
+17	_אני	הוא	PRON	PRON	Definite=Def|Gender=Fem,Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+18	כה	כה	ADV	ADV	_	19	advmod	_	_
+19	גרועה	גרוע	ADJ	ADJ	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:145
+# doc_range = 394-750
+# sent_id = 3632
+# text = הוא יחסר לי כל כך הרבה"; כך נפרדה בבכי, ובשפה האנגלית, האשה פלור, מבעלה, אריה גרוסבורד ז"ל, יו"ר מועצת המנהלים של רשות שדות התעופה, שהובא שלשום למנוחת עולמים בחלקת האצ"ל, בבית העלמין בקריית שאול.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	יחסר	חסר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	11	advcl	_	_
+3-4	לי	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	4	case	_	_
+4	_אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	2	obl	_	_
+5	כל	כול	DET	DET	Definite=Cons	2	advmod	_	_
+6	כך	כך	ADV	ADV	_	5	fixed	_	_
+7	הרבה	הרבה	ADV	ADV	_	5	fixed	_	HebSource=ConvUncertainHead|SpaceAfter=No
+8	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+9	;	;	PUNCT	PUNCT	_	2	punct	_	_
+10	כך	כך	ADV	ADV	_	11	advmod	_	_
+11	נפרדה	נפרד	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+12-13	בבכי	_	_	_	_	_	_	_	SpaceAfter=No
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	בכי	בכי	NOUN	NOUN	Gender=Masc|Number=Sing	11	obl	_	_
+14	,	,	PUNCT	PUNCT	_	18	punct	_	_
+15-18	ובשפה	_	_	_	_	_	_	_	_
+15	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+16	ב	ב	ADP	ADP	_	18	case	_	_
+17	ה_	ה	DET	DET	PronType=Art|Definite=Def	18	det	_	_
+18	שפה	שפה	NOUN	NOUN	Gender=Fem|Number=Sing	13	conj	_	_
+19-20	האנגלית	_	_	_	_	_	_	_	SpaceAfter=No
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	אנגלית	אנגלי	ADJ	ADJ	Gender=Fem|Number=Sing	18	amod	_	_
+21	,	,	PUNCT	PUNCT	_	23	punct	_	_
+22-23	האשה	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	אשה	איש	NOUN	NOUN	Gender=Fem|Number=Sing	11	nsubj	_	_
+24	פלור	פלור	PROPN	PROPN	_	23	flat:name	_	SpaceAfter=No
+25	,	,	PUNCT	PUNCT	_	27	punct	_	_
+26-29	מבעלה	_	_	_	_	_	_	_	SpaceAfter=No
+26	מ	מ	ADP	ADP	_	27	case	_	_
+27	בעל	בעל	NOUN	NOUN	Gender=Masc|Number=Sing	11	obl	_	_
+28	_של_	של	ADP	ADP	Case=Gen	29	case:gen	_	_
+29	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+30	,	,	PUNCT	PUNCT	_	31	punct	_	_
+31	אריה	אריה	PROPN	PROPN	_	27	dep	_	HebSource=ConvUncertainHead
+32	גרוסבורד	גרוסבורד	PROPN	PROPN	_	31	flat:name	_	_
+33	ז"ל	ז"ל	ADJ	ADJ	Abbr=Yes|Gender=Masc|Number=Sing	31	nmod	_	HebSource=ConvUncertainLabel|SpaceAfter=No
+34	,	,	PUNCT	PUNCT	_	35	punct	_	_
+35	יו"ר	יו"ר	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	27	dep	_	HebSource=ConvUncertainHead
+36	מועצת	מועצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	35	compound:smixut	_	_
+37-38	המנהלים	_	_	_	_	_	_	_	_
+37	ה	ה	DET	DET	Definite=Def|PronType=Art	38	det	_	_
+38	מנהלים	מנהל	NOUN	NOUN	Gender=Masc|Number=Plur	36	compound:smixut	_	_
+39	של	של	ADP	ADP	Case=Gen	40	case	_	_
+40	רשות	רשות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	36	nmod:poss	_	_
+41	שדות	שדה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	40	compound:smixut	_	_
+42-43	התעופה	_	_	_	_	_	_	_	SpaceAfter=No
+42	ה	ה	DET	DET	Definite=Def|PronType=Art	43	det	_	_
+43	תעופה	תעופה	NOUN	NOUN	Gender=Fem|Number=Sing	41	compound:smixut	_	_
+44	,	,	PUNCT	PUNCT	_	46	punct	_	_
+45-46	שהובא	_	_	_	_	_	_	_	_
+45	ש	ש	SCONJ	SCONJ	_	46	mark	_	_
+46	הובא	הובא	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	27	acl:relcl	_	_
+47	שלשום	שלשום	ADV	ADV	_	46	advmod	_	_
+48-49	למנוחת	_	_	_	_	_	_	_	_
+48	ל	ל	ADP	ADP	_	49	case	_	_
+49	מנוחת	מנוחה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	46	obl	_	_
+50	עולמים	עולם	NOUN	NOUN	Gender=Masc|Number=Plur	49	compound:smixut	_	_
+51-52	בחלקת	_	_	_	_	_	_	_	_
+51	ב	ב	ADP	ADP	_	52	case	_	_
+52	חלקת	חלקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	46	obl	_	_
+53-54	האצ"ל	_	_	_	_	_	_	_	SpaceAfter=No
+53	ה	ה	DET	DET	Definite=Def|PronType=Art	54	det	_	_
+54	אצ"ל	האצ"ל	PROPN	PROPN	Abbr=Yes	52	compound:smixut	_	_
+55	,	,	PUNCT	PUNCT	_	57	punct	_	_
+56-57	בבית	_	_	_	_	_	_	_	_
+56	ב	ב	ADP	ADP	_	57	case	_	_
+57	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	52	nmod	_	_
+58-59	העלמין	_	_	_	_	_	_	_	_
+58	ה	ה	DET	DET	Definite=Def|PronType=Art	59	det	_	_
+59	עלמין	עלמין	NOUN	NOUN	Gender=Masc|Number=Sing	57	compound:smixut	_	_
+60-61	בקריית	_	_	_	_	_	_	_	_
+60	ב	ב	ADP	ADP	_	61	case	_	_
+61	קריית	קריה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	57	nmod	_	_
+62	שאול	שאול	NOUN	NOUN	Gender=Fem|Number=Sing	61	compound:smixut	_	SpaceAfter=No
+63	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:145
+# doc_range = 752-989
+# sent_id = 3633
+# text = גרוסבורד נהרג בתאונת דרכים בתחילת השבוע שעבר בארה"ב, שבוע ימים בלבד לאחר שהתמנה בשיקאגו לנשיא העולמי של ארגון רשויות שדות התעופה.
+1	גרוסבורד	גרוסבורד	PROPN	PROPN	_	2	nsubj	_	_
+2	נהרג	נהרג	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+3-4	בתאונת	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	תאונת	תאונה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	obl	_	_
+5	דרכים	דרך	NOUN	NOUN	Gender=Fem|Number=Plur	4	compound:smixut	_	_
+6-7	בתחילת	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	תחילת	תחילה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	obl	_	_
+8-9	השבוע	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound:smixut	_	_
+10-11	שעבר	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	11	mark	_	_
+11	עבר	עבר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	9	acl:relcl	_	_
+12-13	בארה"ב	_	_	_	_	_	_	_	SpaceAfter=No
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	ארה"ב	ארה"ב	PROPN	PROPN	Abbr=Yes	11	obl	_	_
+14	,	,	PUNCT	PUNCT	_	15	punct	_	_
+15	שבוע	שבוע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	obl:tmod	_	_
+16	ימים	יום	NOUN	NOUN	Gender=Masc|Number=Plur	15	compound:smixut	_	_
+17	בלבד	בלבד	ADV	ADV	_	15	advmod	_	_
+18	לאחר	לאחר	ADP	ADP	_	20	case	_	_
+19-20	שהתמנה	_	_	_	_	_	_	_	_
+19	ש	ש	SCONJ	SCONJ	_	20	mark	_	_
+20	התמנה	התמנה	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	15	nmod	_	_
+21-22	בשיקאגו	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	שיקאגו	שיקאגו	PROPN	PROPN	_	20	obl	_	_
+23-25	לנשיא	_	_	_	_	_	_	_	_
+23	ל	ל	ADP	ADP	_	25	case	_	_
+24	ה_	ה	DET	DET	PronType=Art|Definite=Def	25	det	_	_
+25	נשיא	נשיא	NOUN	NOUN	Gender=Masc|Number=Sing	20	obl	_	_
+26-27	העולמי	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	עולמי	עולמי	ADJ	ADJ	Gender=Masc|Number=Sing	25	amod	_	_
+28	של	של	ADP	ADP	Case=Gen	29	case	_	_
+29	ארגון	ארגון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	25	nmod	_	_
+30	רשויות	רשות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	29	compound:smixut	_	_
+31	שדות	שדה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	30	compound:smixut	_	_
+32-33	התעופה	_	_	_	_	_	_	_	SpaceAfter=No
+32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
+33	תעופה	תעופה	NOUN	NOUN	Gender=Fem|Number=Sing	31	compound:smixut	_	_
+34	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:145
+# doc_range = 991-1283
+# sent_id = 3634
+# text = קהל רב ליווה את אריה גרוסבורד בדרכו האחרונה, בינהם שרים ושרים לשעבר, חברי כנסת, אישי ציבור, ראשי שני הארגונים הבין-לאומיים של רשויות שדות תעופה ועובדי הרשות.
+1	קהל	קהל	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+2	רב	רב	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	_
+3	ליווה	ליווה	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	את	את	ADP	ADP	Case=Acc	5	case	_	_
+5	אריה	אריה	PROPN	PROPN	_	3	obj	_	_
+6	גרוסבורד	גרוסבורד	PROPN	PROPN	_	5	flat:name	_	_
+7-10	בדרכו	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	דרך	דרך	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+9	_של_	של	ADP	ADP	Case=Gen	10	case:gen	_	_
+10	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+11-12	האחרונה	_	_	_	_	_	_	_	SpaceAfter=No
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	אחרונה	אחרון	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	_
+13	,	,	PUNCT	PUNCT	_	15	punct	_	_
+14-15	בינהם	_	_	_	_	_	_	_	_
+14	בינ	בין	ADP	ADP	_	15	case	_	_
+15	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	obl	_	_
+16	שרים	שר	NOUN	NOUN	Gender=Masc|Number=Plur	15	nsubj	_	_
+17-18	ושרים	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+18	שרים	שר	NOUN	NOUN	Gender=Masc|Number=Plur	16	conj	_	_
+19	לשעבר	לשעבר	ADV	ADV	_	18	advmod	_	HebSource=ConvUncertainHead|SpaceAfter=No
+20	,	,	PUNCT	PUNCT	_	21	punct	_	_
+21	חברי	חבר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	16	conj	_	_
+22	כנסת	כנסת	PROPN	PROPN	_	21	compound:smixut	_	SpaceAfter=No
+23	,	,	PUNCT	PUNCT	_	24	punct	_	_
+24	אישי	אישים	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	16	conj	_	_
+25	ציבור	ציבור	NOUN	NOUN	Gender=Masc|Number=Sing	24	compound:smixut	_	SpaceAfter=No
+26	,	,	PUNCT	PUNCT	_	27	punct	_	_
+27	ראשי	ראש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	16	conj	_	_
+28	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	30	nummod	_	_
+29-30	הארגונים	_	_	_	_	_	_	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	ארגונים	ארגון	NOUN	NOUN	Gender=Masc|Number=Plur	27	compound:smixut	_	_
+31-32	הבין	_	_	_	_	_	_	_	SpaceAfter=No
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+32	בין	בין	ADV	ADV	Prefix=Yes	34	compound:affix	_	_
+33	-	-	PUNCT	PUNCT	_	32	punct	_	SpaceAfter=No
+34	לאומיים	לאומי	ADJ	ADJ	Gender=Masc|Number=Plur	30	amod	_	_
+35	של	של	ADP	ADP	Case=Gen	36	case	_	_
+36	רשויות	רשות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	30	nmod	_	_
+37	שדות	שדה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	36	compound:smixut	_	_
+38	תעופה	תעופה	NOUN	NOUN	Gender=Fem|Number=Sing	37	compound:smixut	_	_
+39-40	ועובדי	_	_	_	_	_	_	_	_
+39	ו	ו	CCONJ	CCONJ	_	40	cc	_	_
+40	עובדי	עובד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	16	conj	_	_
+41-42	הרשות	_	_	_	_	_	_	_	SpaceAfter=No
+41	ה	ה	DET	DET	Definite=Def|PronType=Art	42	det	_	_
+42	רשות	רשות	NOUN	NOUN	Gender=Fem|Number=Sing	40	compound:smixut	_	_
+43	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:145
+# doc_range = 1285-1458
+# sent_id = 3635
+# text = ליד הקבר הפתוח ספד לו שר התחבורה, משה קצב, שעמד על פועלו הרב של אריה גרוסבורד ואישיותו המיוחדת.
+1	ליד	ליד	ADP	ADP	_	3	case	_	_
+2-3	הקבר	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	קבר	קבר	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+4-5	הפתוח	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	פתוח	פתוח	ADJ	ADJ	Gender=Masc|Number=Sing	3	amod	_	_
+6	ספד	ספד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+7-8	לו	_	_	_	_	_	_	_	_
+7	ל	ל	ADP	ADP	_	8	case	_	_
+8	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
+9	שר	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	nsubj	_	_
+10-11	התחבורה	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	תחבורה	תחבורה	NOUN	NOUN	Gender=Fem|Number=Sing	9	compound:smixut	_	_
+12	,	,	PUNCT	PUNCT	_	13	punct	_	_
+13	משה	משה	PROPN	PROPN	_	9	appos	_	_
+14	קצב	קצב	PROPN	PROPN	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	17	punct	_	_
+16-17	שעמד	_	_	_	_	_	_	_	_
+16	ש	ש	SCONJ	SCONJ	_	17	mark	_	_
+17	עמד	עמד	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	9	acl:relcl	_	_
+18	על	על	ADP	ADP	_	19	case	_	_
+19-21	פועלו	_	_	_	_	_	_	_	_
+19	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	_
+20	_של_	של	ADP	ADP	Case=Gen	21	case:gen	_	_
+21	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+22-23	הרב	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	רב	רב	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	_
+24	של	של	ADP	ADP	Case=Gen	25	case	_	_
+25	אריה	אריה	PROPN	PROPN	_	19	nmod:poss	_	_
+26	גרוסבורד	גרוסבורד	PROPN	PROPN	_	25	flat:name	_	_
+27-30	ואישיותו	_	_	_	_	_	_	_	_
+27	ו	ו	CCONJ	CCONJ	_	28	cc	_	_
+28	אישיות	אישיות	NOUN	NOUN	Gender=Fem|Number=Sing	19	conj	_	_
+29	_של_	של	ADP	ADP	Case=Gen	30	case:gen	_	_
+30	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+31-32	המיוחדת	_	_	_	_	_	_	_	SpaceAfter=No
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	מיוחדת	מיוחד	ADJ	ADJ	Gender=Fem|Number=Sing	28	amod	_	_
+33	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:145
+# doc_range = 1460-1587
+# sent_id = 3636
+# text = קודם לכן הגיע ארונו של גרוסבורד בטיסה ישירה של חברת אל-על מניו-יורק.
+1	קודם	קודם	ADV	ADV	_	5	advmod	_	_
+2-4	לכן	_	_	_	_	_	_	_	_
+2	ל	ל	ADP	ADP	_	1	fixed	_	_
+3	ה_	ה	DET	DET	PronType=Art|Definite=Def	4	det	_	_
+4	כן	כן	PRON	PRON	Person=3|PronType=Dem	1	fixed	_	_
+5	הגיע	הגיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+6-8	ארונו	_	_	_	_	_	_	_	_
+6	ארון	ארון	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+7	_של_	של	ADP	ADP	Case=Gen	8	case:gen	_	_
+8	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+9	של	של	ADP	ADP	Case=Gen	10	case	_	_
+10	גרוסבורד	גרוסבורד	PROPN	PROPN	_	6	nmod:poss	_	_
+11-12	בטיסה	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	טיסה	טיסה	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
+13	ישירה	ישיר	ADJ	ADJ	Gender=Fem|Number=Sing	12	amod	_	_
+14	של	של	ADP	ADP	Case=Gen	15	case	_	_
+15	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	nmod	_	_
+16	אל	אל	PROPN	PROPN	_	15	compound:smixut	_	SpaceAfter=No
+17	-	-	PUNCT	PUNCT	_	18	punct	_	SpaceAfter=No
+18	על	על	NOUN	NOUN	Gender=Masc|Number=Sing	16	flat:name	_	_
+19-20	מניו	_	_	_	_	_	_	_	SpaceAfter=No
+19	מ	מ	ADP	ADP	_	20	case	_	_
+20	ניו	מניו	PROPN	PROPN	_	5	obl	_	_
+21	-	-	PUNCT	PUNCT	_	22	punct	_	SpaceAfter=No
+22	יורק	יורק	PROPN	PROPN	_	20	flat:name	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:145
+# doc_range = 1589-1700
+# sent_id = 3637
+# text = עטוף בדגל רשות שדות התעופה הונח הארון באולם הנוסעים הנכנסים.
+1	עטוף	עטוף	ADJ	ADJ	Gender=Masc|Number=Sing	8	xcomp	_	HebSource=ConvUncertainLabel
+2-3	בדגל	_	_	_	_	_	_	_	_
+2	ב	ב	ADP	ADP	_	3	case	_	_
+3	דגל	דגל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	obl	_	_
+4	רשות	רשות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	compound:smixut	_	_
+5	שדות	שדה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	compound:smixut	_	_
+6-7	התעופה	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	תעופה	תעופה	NOUN	NOUN	Gender=Fem|Number=Sing	5	compound:smixut	_	_
+8	הונח	הונח	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+9-10	הארון	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	ארון	ארון	NOUN	NOUN	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+11-12	באולם	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	אולם	אולם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	obl	_	_
+13-14	הנוסעים	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	נוסעים	נוסע	NOUN	NOUN	Gender=Masc|Number=Plur	12	compound:smixut	_	_
+15-16	הנכנסים	_	_	_	_	_	_	_	SpaceAfter=No
+15	ה	ה	SCONJ	SCONJ	_	16	mark	_	_
+16	נכנסים	נכנס	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	14	acl:relcl	_	_
+17	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:145
+# doc_range = 1703-1790
+# sent_id = 3638
+# text = "אריה, עומדים אנו לפניך נבוכים, המומים וכואבים.
+1	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+2	אריה	אריה	PROPN	PROPN	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	4	punct	_	_
+4	עמד	עמד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	2	dep	_	HebSource=ConvUncertainHead
+5	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+6-7	לפניך	_	_	_	_	_	_	_	_
+6	לפני	לפני	ADP	ADP	_	7	case	_	_
+7	_אתה	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	2	nmod	_	_
+8	נבוכים	נבוך	ADJ	ADJ	Gender=Masc|Number=Plur	2	advmod	_	HebSource=ConvUncertainLabel|SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	10	punct	_	_
+10	המומים	המום	ADJ	ADJ	Gender=Masc|Number=Plur	8	conj	_	_
+11-12	וכואבים	_	_	_	_	_	_	_	SpaceAfter=No
+11	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+12	כואבים	כאב	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	8	conj	_	_
+13	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:145
+# doc_range = 1792-1858
+# sent_id = 3639
+# text = אין הדעת תופסת את הליכתך בדרך לא דרך.
+1	אין	אין	ADV	ADV	Polarity=Neg	4	advmod	_	_
+2-3	הדעת	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	דעת	דעת	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	תופסת	תפס	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+5	את	את	ADP	ADP	Case=Acc	6	case	_	_
+6-8	הליכתך	_	_	_	_	_	_	_	_
+6	הליכה	הליכה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obj	_	_
+7	_של_	של	ADP	ADP	Case=Gen	8	case:gen	_	_
+8	_אתה	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+9-10	בדרך	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	דרך	דרך	NOUN	NOUN	Gender=Fem|Number=Sing	6	nmod	_	_
+11	לא	לא	DET	DET	Polarity=Neg	12	det	_	_
+12	דרך	דרך	NOUN	NOUN	Gender=Fem|Number=Sing	10	nmod	_	HebSource=ConvUncertainLabel|SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:145
+# doc_range = 1860-2050
+# sent_id = 3640
+# text = הגורל התאכזר אליך, דווקא במי שבמשך עשור שנים תרם לשיפור התעבורה, עוד בתפקידך הקודם כמנכ"ל משרד התחבורה.
+1-2	הגורל	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	גורל	גורל	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	התאכזר	התאכזר	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+4-5	אליך	_	_	_	_	_	_	_	SpaceAfter=No
+4	אל	אל	ADP	ADP	_	5	case	_	_
+5	_אתה	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	3	obl	_	_
+6	,	,	PUNCT	PUNCT	_	7	punct	_	_
+7	דווקא	דווקא	ADV	ADV	_	3	advmod	_	_
+8-9	במי	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	מי	מי	ADV	ADV	PronType=Int	7	advmod	_	_
+10-11	שבמשך	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
+11	במשך	במשך	ADP	ADP	_	12	case	_	_
+12	עשור	עשור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	14	obl	_	_
+13	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	12	compound:smixut	_	_
+14	תרם	תרם	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	9	acl:relcl	_	_
+15-16	לשיפור	_	_	_	_	_	_	_	_
+15	ל	ל	ADP	ADP	_	16	case	_	_
+16	שיפור	שיפור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	14	obl	_	_
+17-18	התעבורה	_	_	_	_	_	_	_	SpaceAfter=No
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	תעבורה	תעבורה	NOUN	NOUN	Gender=Fem|Number=Sing	16	compound:smixut	_	_
+19	,	,	PUNCT	PUNCT	_	22	punct	_	_
+20	עוד	עוד	ADV	ADV	_	22	advmod	_	_
+21-24	בתפקידך	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	תפקיד	תפקיד	NOUN	NOUN	Gender=Masc|Number=Sing	14	obl	_	_
+23	_של_	של	ADP	ADP	Case=Gen	24	case:gen	_	_
+24	_אתה	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+25-26	הקודם	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	קודם	קודם	ADJ	ADJ	Gender=Masc|Number=Sing	22	amod	_	_
+27-28	כמנכ"ל	_	_	_	_	_	_	_	_
+27	כ	כ	ADP	ADP	_	28	case	_	_
+28	מנכ"ל	מנכ"ל	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	22	nmod	_	_
+29	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	28	compound:smixut	_	_
+30-31	התחבורה	_	_	_	_	_	_	_	SpaceAfter=No
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	תחבורה	תחבורה	NOUN	NOUN	Gender=Fem|Number=Sing	29	compound:smixut	_	_
+32	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:145
+# doc_range = 2052-2326
+# sent_id = 3641
+# text = דווקא הוא בחר בך להיות קרבן נוסף לקטל בדרכים שהפך להיות האויב מספר 1", נפרד בקול חנוק מנכ"ל רשות שדות התעופה, ברוך לוי, לפני הארון, במעמד בבית הנתיבות.
+1	דווקא	דווקא	ADV	ADV	_	2	advmod	_	_
+2	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	בחר	בחר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	24	advcl	_	_
+4-5	בך	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	_אתה	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	3	obl	_	_
+6	להיות	היה	AUX	AUX	Polarity=Pos|VerbForm=Inf|VerbType=Cop	3	xcomp	_	_
+7	קרבן	קרבן	NOUN	NOUN	Gender=Masc|Number=Sing	6	obj	_	_
+8	נוסף	נוסף	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	_
+9-11	לקטל	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	11	case	_	_
+10	ה_	ה	DET	DET	PronType=Art|Definite=Def	11	det	_	_
+11	קטל	קטל	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
+12-14	בדרכים	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	14	case	_	_
+13	ה_	ה	DET	DET	PronType=Art|Definite=Def	14	det	_	_
+14	דרכים	דרך	NOUN	NOUN	Gender=Fem|Number=Plur	11	nmod	_	_
+15-16	שהפך	_	_	_	_	_	_	_	_
+15	ש	ש	SCONJ	SCONJ	_	16	mark	_	_
+16	הפך	הפך	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	11	acl:relcl	_	_
+17	להיות	היה	AUX	AUX	Polarity=Pos|VerbForm=Inf|VerbType=Cop	16	xcomp	_	_
+18-19	האויב	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	אויב	אויב	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	_
+20	מספר	מספר	NOUN	NOUN	Gender=Masc|Number=Sing	19	nmod	_	_
+21	1	1	NUM	NUM	_	20	nummod	_	SpaceAfter=No
+22	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+23	,	,	PUNCT	PUNCT	_	3	punct	_	_
+24	נפרד	נפרד	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+25-26	בקול	_	_	_	_	_	_	_	_
+25	ב	ב	ADP	ADP	_	26	case	_	_
+26	קול	קול	NOUN	NOUN	Gender=Masc|Number=Sing	24	obl	_	_
+27	חנוק	חנק	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	26	amod	_	_
+28	מנכ"ל	מנכ"ל	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	24	nsubj	_	_
+29	רשות	רשות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	28	compound:smixut	_	_
+30	שדות	שדה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	29	compound:smixut	_	_
+31-32	התעופה	_	_	_	_	_	_	_	SpaceAfter=No
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	תעופה	תעופה	NOUN	NOUN	Gender=Fem|Number=Sing	30	compound:smixut	_	_
+33	,	,	PUNCT	PUNCT	_	34	punct	_	_
+34	ברוך	ברוך	PROPN	PROPN	_	28	appos	_	_
+35	לוי	לוי	PROPN	PROPN	_	34	flat:name	_	SpaceAfter=No
+36	,	,	PUNCT	PUNCT	_	39	punct	_	_
+37	לפני	לפני	ADP	ADP	_	39	case	_	_
+38-39	הארון	_	_	_	_	_	_	_	SpaceAfter=No
+38	ה	ה	DET	DET	Definite=Def|PronType=Art	39	det	_	_
+39	ארון	ארון	NOUN	NOUN	Gender=Masc|Number=Sing	24	obl	_	_
+40	,	,	PUNCT	PUNCT	_	42	punct	_	_
+41-42	במעמד	_	_	_	_	_	_	_	_
+41	ב	ב	ADP	ADP	_	42	case	_	_
+42	מעמד	מעמד	NOUN	NOUN	Gender=Masc|Number=Sing	24	obl	_	_
+43-44	בבית	_	_	_	_	_	_	_	_
+43	ב	ב	ADP	ADP	_	44	case	_	_
+44	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	42	nmod	_	_
+45-46	הנתיבות	_	_	_	_	_	_	_	SpaceAfter=No
+45	ה	ה	DET	DET	Definite=Def|PronType=Art	46	det	_	_
+46	נתיבות	נתיבה	NOUN	NOUN	Gender=Fem|Number=Plur	44	compound:smixut	_	_
+47	.	.	PUNCT	PUNCT	_	24	punct	_	_
+
+# doc_id = htb:145
+# doc_range = 2329-2393
+# sent_id = 3642
+# text = "משפחת רשות שדות התעופה מרכינה ראש.
+1	"	"	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
+2	משפחת	משפחה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	nsubj	_	_
+3	רשות	רשות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	compound:smixut	_	_
+4	שדות	שדה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	3	compound:smixut	_	_
+5-6	התעופה	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	תעופה	תעופה	NOUN	NOUN	Gender=Fem|Number=Sing	4	compound:smixut	_	_
+7	מרכינה	הרכין	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+8	ראש	ראש	NOUN	NOUN	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:145
+# doc_range = 2395-2491
+# sent_id = 3643
+# text = כואבים את מותו של אחד מעמודי התווך, איש יצירה ומעשים.
+1	כואבים	כאב	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+2	את	את	ADP	ADP	Case=Acc	3	case	_	_
+3-5	מותו	_	_	_	_	_	_	_	_
+3	מוות	מוות	NOUN	NOUN	Gender=Masc|Number=Sing	1	obj	_	_
+4	_של_	של	ADP	ADP	Case=Gen	5	case:gen	_	_
+5	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+6	של	של	ADP	ADP	Case=Gen	9	case	_	_
+7	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	9	nummod	_	_
+8-9	מעמודי	_	_	_	_	_	_	_	_
+8	מ	מ	ADP	ADP	_	9	case	_	_
+9	עמודי	עמוד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	3	nmod:poss	_	_
+10-11	התווך	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	תווך	תווך	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound:smixut	_	_
+12	,	,	PUNCT	PUNCT	_	13	punct	_	_
+13	איש	איש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	appos	_	_
+14	יצירה	יצירה	NOUN	NOUN	Gender=Fem|Number=Sing	13	compound:smixut	_	_
+15-16	ומעשים	_	_	_	_	_	_	_	SpaceAfter=No
+15	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+16	מעשים	מעשה	NOUN	NOUN	Gender=Masc|Number=Plur	14	conj	_	_
+17	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:145
+# doc_range = 2493-2532
+# sent_id = 3644
+# text = טוב לבך כגודלך הטבעי.
+1	טוב	טוב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	לבך	לבך	NOUN	NOUN	_	1	compound:smixut	_	_
+3-6	כגודלך	_	_	_	_	_	_	_	_
+3	כ	כ	ADP	ADP	_	4	case	_	_
+4	גודל	גודל	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+5	_של_	של	ADP	ADP	Case=Gen	6	case:gen	_	_
+6	_אתה	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+7-8	הטבעי	_	_	_	_	_	_	_	SpaceAfter=No
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	טבעי	טבעי	ADJ	ADJ	Gender=Masc|Number=Sing	4	amod	_	_
+9	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:145
+# doc_range = 2534-2565
+# sent_id = 3645
+# text = אוהב לעזור לזולת.
+1	אוהב	אהב	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+2	לעזור	עזר	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	1	xcomp	_	_
+3-5	לזולת	_	_	_	_	_	_	_	SpaceAfter=No
+3	ל	ל	ADP	ADP	_	5	case	_	_
+4	ה_	ה	DET	DET	PronType=Art|Definite=Def	5	det	_	_
+5	זולת	זולת	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+6	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:145
+# doc_range = 2567-2596
+# sent_id = 3646
+# text = את שהבטחת קיימת.
+1	את	את	ADP	ADP	Case=Acc	3	case	_	_
+2-3	שהבטחת	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	3	mark	_	_
+3	הבטחת	הבטיח	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=2|Tense=Past|Voice=Act	4	obj	_	_
+4	קיימת	קיים	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=2|Tense=Past|Voice=Act	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:145
+# doc_range = 2598-2652
+# sent_id = 3647
+# text = אישיותך ודמותך תחסר לנו מאוד.
+1-3	אישיותך	_	_	_	_	_	_	_	_
+1	אישיות	אישיות	NOUN	NOUN	Gender=Fem|Number=Sing	8	nsubj	_	_
+2	_של_	של	ADP	ADP	Case=Gen	3	case:gen	_	_
+3	_אתה	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	1	nmod:poss	_	_
+4-7	ודמותך	_	_	_	_	_	_	_	_
+4	ו	ו	CCONJ	CCONJ	_	5	cc	_	_
+5	דמות	דמות	NOUN	NOUN	Gender=Fem|Number=Sing	1	conj	_	_
+6	_של_	של	ADP	ADP	Case=Gen	7	case:gen	_	_
+7	_אתה	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+8	תחסר	חסר	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Fut	0	root	_	_
+9-10	לנו	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	10	case	_	_
+10	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	8	obl	_	_
+11	מאוד	מאוד	ADV	ADV	_	8	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:145
+# doc_range = 2654-2825
+# sent_id = 3648
+# text = לך לשלום ותהיה מליץ יושר ואנו מבטיחים להמשיך ולשמור על דרכך", ספד יו"ר ועד העובדים, פנחס עידן.
+1	לך	הלך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Mood=Imp|Number=Sing|Person=2|Voice=Act	18	advcl	_	_
+2-3	לשלום	_	_	_	_	_	_	_	_
+2	ל	ל	ADP	ADP	_	3	case	_	_
+3	שלום	שלום	NOUN	NOUN	Gender=Masc|Number=Sing	1	obl	_	_
+4-5	ותהיה	_	_	_	_	_	_	_	_
+4	ו	ו	CCONJ	CCONJ	_	6	cc	_	_
+5	תהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=2|Polarity=Pos|Tense=Fut|VerbType=Cop	6	cop	_	_
+6	מליץ	מליץ	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	conj	_	_
+7	יושר	יושר	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+8-9	ואנו	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+9	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+10	מבטיחים	הבטיח	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	1	conj	_	_
+11	להמשיך	המשיך	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12-13	ולשמור	_	_	_	_	_	_	_	_
+12	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
+13	לשמור	שמר	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	11	conj	_	_
+14	על	על	ADP	ADP	_	15	case	_	_
+15	דרכך	דרך	NOUN	NOUN	_	13	obl	_	SpaceAfter=No
+16	"	"	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	1	punct	_	_
+18	ספד	ספד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+19	יו"ר	יו"ר	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	18	nsubj	_	_
+20	ועד	ועד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	19	compound:smixut	_	_
+21-22	העובדים	_	_	_	_	_	_	_	SpaceAfter=No
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	20	compound:smixut	_	_
+23	,	,	PUNCT	PUNCT	_	24	punct	_	_
+24	פנחס	פנחס	PROPN	PROPN	_	19	appos	_	_
+25	עידן	עידן	PROPN	PROPN	_	24	flat:name	_	SpaceAfter=No
+26	.	.	PUNCT	PUNCT	_	18	punct	_	_
+
+# doc_id = htb:145
+# doc_range = 2827-2940
+# sent_id = 3649
+# text = שר התחבורה, ספד ואמר: "למדנו להכיר אותו, להוקיר אותו ולאהוב אותו.
+1	שר	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	nsubj	_	_
+2-3	התחבורה	_	_	_	_	_	_	_	SpaceAfter=No
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	תחבורה	תחבורה	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+4	,	,	PUNCT	PUNCT	_	1	punct	_	_
+5	ספד	ספד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+6-7	ואמר	_	_	_	_	_	_	_	SpaceAfter=No
+6	ו	ו	CCONJ	CCONJ	_	7	cc	_	_
+7	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	_
+8	:	:	PUNCT	PUNCT	_	10	punct	_	_
+9	"	"	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+10	למדנו	למד	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=1|Tense=Past	5	obl	_	_
+11	להכיר	הכיר	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12-13	אותו	_	_	_	_	_	_	_	SpaceAfter=No
+12	את	את	ADP	ADP	Case=Acc	13	case	_	_
+13	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+14	,	,	PUNCT	PUNCT	_	15	punct	_	_
+15	להוקיר	הוקיר	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	11	conj	_	_
+16-17	אותו	_	_	_	_	_	_	_	_
+16	את	את	ADP	ADP	Case=Acc	17	case	_	_
+17	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+18-19	ולאהוב	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+19	לאהוב	אהב	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	11	conj	_	_
+20-21	אותו	_	_	_	_	_	_	_	SpaceAfter=No
+20	את	את	ADP	ADP	Case=Acc	21	case	_	_
+21	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+22	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:145
+# doc_range = 2942-3013
+# sent_id = 3650
+# text = אריה היה דמות ססגונית, מעניינת ומרתקת.
+1	אריה	אריה	PROPN	PROPN	_	3	nsubj	_	_
+2	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	3	cop	_	_
+3	דמות	דמות	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+4	ססגונית	ססגוני	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	6	punct	_	_
+6	מעניינת	מעניין	ADJ	ADJ	Gender=Fem|Number=Sing	4	conj	_	_
+7-8	ומרתקת	_	_	_	_	_	_	_	SpaceAfter=No
+7	ו	ו	CCONJ	CCONJ	_	8	cc	_	_
+8	מרתקת	מרתק	ADJ	ADJ	Gender=Fem|Number=Sing	4	conj	_	_
+9	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:145
+# doc_range = 3015-3168
+# sent_id = 3651
+# text = בתקופת עבודתנו המשותפת, למדתי ממנו גם ידע וגם פילוסופיה והוא סייע לי מאוד בעבודתי".
+1-2	בתקופת	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	תקופת	תקופה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	obl	_	_
+3-5	עבודתנו	_	_	_	_	_	_	_	_
+3	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound:smixut	_	_
+4	_של_	של	ADP	ADP	Case=Gen	5	case:gen	_	_
+5	_אנחנו	הוא	PRON	PRON	Definite=Def|Gender=Fem,Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+6-7	המשותפת	_	_	_	_	_	_	_	SpaceAfter=No
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	משותפת	משותף	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	_
+8	,	,	PUNCT	PUNCT	_	2	punct	_	_
+9	למדתי	למד	VERB	VERB	Gender=Fem,Masc|Number=Sing|Person=1|Tense=Past	0	root	_	_
+10-11	ממנו	_	_	_	_	_	_	_	_
+10	מן	מן	ADP	ADP	_	11	case	_	_
+11	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	_
+12	גם	גם	ADV	ADV	_	13	advmod	_	_
+13	ידע	ידע	NOUN	NOUN	Gender=Masc|Number=Sing	9	obj	_	_
+14-15	וגם	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+15	גם	גם	ADV	ADV	_	16	advmod	_	_
+16	פילוסופיה	פילוסופיה	NOUN	NOUN	_	13	conj	_	_
+17-18	והוא	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+18	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	סייע	סייע	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	9	conj	_	_
+20-21	לי	_	_	_	_	_	_	_	_
+20	ל	ל	ADP	ADP	_	21	case	_	_
+21	_אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	19	obl	_	_
+22	מאוד	מאוד	ADV	ADV	_	19	advmod	_	_
+23-26	בעבודתי	_	_	_	_	_	_	_	SpaceAfter=No
+23	ב	ב	ADP	ADP	_	24	case	_	_
+24	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	19	obl	_	_
+25	_של_	של	ADP	ADP	Case=Gen	26	case:gen	_	_
+26	_אני	הוא	PRON	PRON	Definite=Def|Gender=Fem,Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+27	"	"	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+28	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:145
+# doc_range = 3171-3299
+# sent_id = 3652
+# text = "הלך לעולמו מומחה בין-לאומי בתחום התעופה עם פוטנציאל שלא נוצל במלואו.
+1	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+2	הלך	הלך	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	_
+3-6	לעולמו	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	4	case	_	_
+4	עולם	עולם	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+5	_של_	של	ADP	ADP	Case=Gen	6	case:gen	_	_
+6	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+7	מומחה	מומחה	NOUN	NOUN	Gender=Masc|Number=Sing	2	nsubj	_	_
+8	בין	בין	ADV	ADV	Prefix=Yes	10	compound:affix	_	SpaceAfter=No
+9	-	-	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+10	לאומי	לאומי	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	_
+11-12	בתחום	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	תחום	תחום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nmod	_	_
+13-14	התעופה	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	תעופה	תעופה	NOUN	NOUN	Gender=Fem|Number=Sing	12	compound:smixut	_	_
+15	עם	עם	ADP	ADP	_	16	case	_	_
+16	פוטנציאל	פוטנציאל	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
+17-18	שלא	_	_	_	_	_	_	_	_
+17	ש	ש	SCONJ	SCONJ	_	19	mark	_	_
+18	לא	לא	ADV	ADV	Polarity=Neg	19	advmod	_	_
+19	נוצל	נוצל	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	16	acl:relcl	_	_
+20-23	במלואו	_	_	_	_	_	_	_	SpaceAfter=No
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	מלוא	מלוא	NOUN	NOUN	Gender=Masc|Number=Sing	19	obl	_	_
+22	_של_	של	ADP	ADP	Case=Gen	23	case:gen	_	_
+23	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+24	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:145
+# doc_range = 3301-3446
+# sent_id = 3653
+# text = האבדה למשפחה גדולה ביותר ואף למדינה, שאיבדה אדם יקר ונכס חשוב לכולנו", אמר קצב.
+1-2	האבדה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	אבדה	אבדה	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj	_	_
+3-5	למשפחה	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	5	case	_	_
+4	ה_	ה	DET	DET	PronType=Art|Definite=Def	5	det	_	_
+5	משפחה	משפחה	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	_
+6	גדולה	גדול	ADJ	ADJ	Gender=Fem|Number=Sing	27	xcomp	_	_
+7	ביותר	ביותר	ADV	ADV	_	6	advmod	_	_
+8-9	ואף	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+9	אף	אף	ADV	ADV	_	12	advmod	_	_
+10-12	למדינה	_	_	_	_	_	_	_	SpaceAfter=No
+10	ל	ל	ADP	ADP	_	12	case	_	_
+11	ה_	ה	DET	DET	PronType=Art|Definite=Def	12	det	_	_
+12	מדינה	מדינה	NOUN	NOUN	Gender=Fem|Number=Sing	6	conj	_	_
+13	,	,	PUNCT	PUNCT	_	15	punct	_	_
+14-15	שאיבדה	_	_	_	_	_	_	_	_
+14	ש	ש	SCONJ	SCONJ	_	15	mark	_	_
+15	איבדה	איבד	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	12	acl:relcl	_	_
+16	אדם	אדם	NOUN	NOUN	Gender=Masc|Number=Sing	15	obj	_	_
+17	יקר	יקר	ADJ	ADJ	Gender=Masc|Number=Sing	16	amod	_	_
+18-19	ונכס	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+19	נכס	נכס	NOUN	NOUN	Gender=Masc|Number=Sing	16	conj	_	_
+20	חשוב	חשוב	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	_
+21-24	לכולנו	_	_	_	_	_	_	_	SpaceAfter=No
+21	ל	ל	ADP	ADP	_	22	case	_	_
+22	כול	כול	NOUN	NOUN	Gender=Masc|Number=Sing	20	obl	_	_
+23	_של_	של	ADP	ADP	Case=Gen	24	case:gen	_	_
+24	_אנחנו	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+25	"	"	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+26	,	,	PUNCT	PUNCT	_	6	punct	_	_
+27	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+28	קצב	קצב	PROPN	PROPN	_	27	nsubj	_	SpaceAfter=No
+29	.	.	PUNCT	PUNCT	_	27	punct	_	_
+

@@ -1,0 +1,543 @@
+# doc_id = htb:202
+# doc_range = 1-36
+# sent_id = 5083
+# text = כלכותה (אי-פי, ע"ר).
+1	כלכותה	כלכותה	PROPN	PROPN	_	0	root	_	_
+2	(	(	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+3	אי	אי	NOUN	NOUN	Gender=Masc|Number=Sing	1	parataxis	_	SpaceAfter=No
+4	-	-	PUNCT	PUNCT	_	5	punct	_	HebSource=ConvUncertainHead|SpaceAfter=No
+5	פי	פה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	7	punct	_	_
+7	ע"ר	ע"ר	NOUN	NOUN	Abbr=Yes	3	appos	_	SpaceAfter=No
+8	)	)	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:202
+# doc_range = 40-211
+# sent_id = 5084
+# text = שלושה צעירים בורמזים שחטפו אתמול מטוס של חברת התעופה התאילנדית נכנעו לכוחות הביטחון ההודיים.
+1	שלושה	שלוש	NUM	NUM	Gender=Masc|Number=Plur	2	nummod	_	_
+2	צעירים	צעיר	NOUN	NOUN	Gender=Masc|Number=Plur	14	nsubj	_	_
+3	בורמזים	בורמזי	ADJ	ADJ	Gender=Masc|Number=Plur	2	amod	_	_
+4-5	שחטפו	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	5	mark	_	_
+5	חטפו	חטף	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	2	acl:relcl	_	_
+6	אתמול	אתמול	ADV	ADV	_	5	advmod	_	_
+7	מטוס	מטוס	NOUN	NOUN	Gender=Masc|Number=Sing	5	obj	_	_
+8	של	של	ADP	ADP	Case=Gen	9	case	_	_
+9	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	nmod:poss	_	_
+10-11	התעופה	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	תעופה	תעופה	NOUN	NOUN	Gender=Fem|Number=Sing	9	compound:smixut	_	_
+12-13	התאילנדית	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	תאילנדית	תאילנדי	ADJ	ADJ	Gender=Fem|Number=Sing	9	amod	_	_
+14	נכנעו	נכנע	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+15-16	לכוחות	_	_	_	_	_	_	_	_
+15	ל	ל	ADP	ADP	_	16	case	_	_
+16	כוחות	כוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	14	obl	_	_
+17-18	הביטחון	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	ביטחון	ביטחון	NOUN	NOUN	Gender=Masc|Number=Sing	16	compound:smixut	_	_
+19-20	ההודיים	_	_	_	_	_	_	_	SpaceAfter=No
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	הודיים	הודי	ADJ	ADJ	Gender=Masc|Number=Plur	16	amod	_	_
+21	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# doc_id = htb:202
+# doc_range = 214-368
+# sent_id = 5085
+# text = 221 הנוסעים ואנשי צוותו של המטוס שהיה בדרכו מבנגקוק לראנגון שוחררו מבלי שאיש מהם נפגע.
+1	221	221	NUM	NUM	_	3	nummod	_	_
+2-3	הנוסעים	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	נוסעים	נוסע	NOUN	NOUN	Gender=Masc|Number=Plur	22	nsubj:pass	_	_
+4-5	ואנשי	_	_	_	_	_	_	_	_
+4	ו	ו	CCONJ	CCONJ	_	5	cc	_	_
+5	אנשי	איש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	3	conj	_	_
+6-8	צוותו	_	_	_	_	_	_	_	_
+6	צוות	צוות	NOUN	NOUN	Gender=Fem|Number=Sing	5	compound:smixut	_	_
+7	_של_	של	ADP	ADP	Case=Gen	8	case:gen	_	_
+8	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+9	של	של	ADP	ADP	Case=Gen	11	case	_	_
+10-11	המטוס	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	מטוס	מטוס	NOUN	NOUN	Gender=Masc|Number=Sing	5	nmod:poss	_	_
+12-13	שהיה	_	_	_	_	_	_	_	_
+12	ש	ש	SCONJ	SCONJ	_	13	mark	_	_
+13	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	11	acl:relcl	_	_
+14-17	בדרכו	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	דרך	דרך	NOUN	NOUN	Gender=Fem|Number=Sing	13	obl	_	_
+16	_של_	של	ADP	ADP	Case=Gen	17	case:gen	_	_
+17	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+18-19	מבנגקוק	_	_	_	_	_	_	_	_
+18	מ	מ	ADP	ADP	_	19	case	_	_
+19	בנגקוק	בנגקוק	PROPN	PROPN	_	15	nmod	_	_
+20-21	לראנגון	_	_	_	_	_	_	_	_
+20	ל	ל	ADP	ADP	_	21	case	_	_
+21	ראנגון	לראנגון	PROPN	PROPN	_	15	nmod	_	_
+22	שוחררו	שוחרר	VERB	VERB	Gender=Fem,Masc|HebBinyan=PUAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+23	מבלי	מבלי	ADP	ADP	_	28	case	_	_
+24-25	שאיש	_	_	_	_	_	_	_	_
+24	ש	ש	SCONJ	SCONJ	_	28	mark	_	_
+25	איש	איש	NOUN	NOUN	Gender=Masc|Number=Sing	28	nsubj	_	_
+26-27	מהם	_	_	_	_	_	_	_	_
+26	מ	מן	ADP	ADP	_	25	dep	_	_
+27	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	25	dep	_	HebSource=ConvUncertainHead
+28	נפגע	נפגע	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	22	obl	_	SpaceAfter=No
+29	.	.	PUNCT	PUNCT	_	22	punct	_	_
+
+# doc_id = htb:202
+# doc_range = 371-580
+# sent_id = 5086
+# text = טאראן דאל, מזכיר בכיר של מדינת מערב בנגאל, אמר קודם לכניעת החוטפים כי הם הזדהו כצעירים בורמזים ומסרו רשימת דרישות.
+1	טאראן	טאראן	PROPN	PROPN	_	11	nsubj	_	_
+2	דאל	דאל	PROPN	PROPN	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	4	punct	_	_
+4	מזכיר	מזכיר	NOUN	NOUN	Gender=Masc|Number=Sing	1	appos	_	_
+5	בכיר	בכיר	ADJ	ADJ	Gender=Masc|Number=Sing	4	amod	_	_
+6	של	של	ADP	ADP	Case=Gen	7	case	_	_
+7	מדינת	מדינה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	nmod	_	_
+8	מערב	מערב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	compound:smixut	_	_
+9	בנגאל	בנגאל	PROPN	PROPN	_	8	compound:smixut	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	1	punct	_	_
+11	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+12	קודם	קודם	ADP	ADP	_	14	case	_	_
+13-14	לכניעת	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	12	fixed	_	_
+14	כניעת	כניעה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	11	obl	_	_
+15-16	החוטפים	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	חוטפים	חוטף	NOUN	NOUN	Gender=Masc|Number=Plur	14	compound:smixut	_	_
+17	כי	כי	SCONJ	SCONJ	_	19	mark	_	_
+18	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
+19	הזדהו	הזדהה	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	11	ccomp	_	_
+20-21	כצעירים	_	_	_	_	_	_	_	_
+20	כ	כ	ADP	ADP	_	21	case	_	_
+21	צעירים	צעיר	NOUN	NOUN	Gender=Masc|Number=Plur	19	obl	_	_
+22	בורמזים	בורמזי	ADJ	ADJ	Gender=Masc|Number=Plur	21	amod	_	_
+23-24	ומסרו	_	_	_	_	_	_	_	_
+23	ו	ו	CCONJ	CCONJ	_	24	cc	_	_
+24	מסרו	מסר	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	19	conj	_	_
+25	רשימת	רשימה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	24	obj	_	_
+26	דרישות	דרישה	NOUN	NOUN	Gender=Fem|Number=Plur	25	compound:smixut	_	SpaceAfter=No
+27	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:202
+# doc_range = 582-718
+# sent_id = 5087
+# text = בבנגקוק התקבלה הודעה מקבוצה בשם "לוחמי הצדק והחירות" שלא היתה ידועה עד כה.
+1-2	בבנגקוק	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	בנגקוק	בנגקוק	PROPN	PROPN	_	3	obl	_	_
+3	התקבלה	התקבל	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	הודעה	הודעה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+5-6	מקבוצה	_	_	_	_	_	_	_	_
+5	מ	מ	ADP	ADP	_	6	case	_	_
+6	קבוצה	קבוצה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+7-8	בשם	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	שם	שם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	nmod	_	_
+9	"	"	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+10	לוחמי	לוחם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	8	compound:smixut	_	_
+11-12	הצדק	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	צדק	צדק	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
+13-15	והחירות	_	_	_	_	_	_	_	SpaceAfter=No
+13	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	חירות	חירות	NOUN	NOUN	Gender=Fem|Number=Sing	12	conj	_	_
+16	"	"	PUNCT	PUNCT	_	10	punct	_	_
+17-18	שלא	_	_	_	_	_	_	_	_
+17	ש	ש	SCONJ	SCONJ	_	20	mark	_	_
+18	לא	לא	ADV	ADV	Polarity=Neg	20	advmod	_	_
+19	היתה	היה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	20	cop	_	_
+20	ידועה	ידע	VERB	VERB	Aspect=Prog|Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Past|VerbForm=Part|Voice=Act	6	acl:relcl	_	_
+21	עד	עד	ADP	ADP	_	22	case	_	_
+22	כה	כה	ADV	ADV	_	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:202
+# doc_range = 720-886
+# sent_id = 5088
+# text = בהודעה נאמר כי החטיפה נועדה לגרום לעולם להקשיב "לכמיהת העם הבורמזי לדמוקרטיה וזכויות אדם.
+1-3	בהודעה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	הודעה	הודעה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+4	נאמר	נאמר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+5	כי	כי	SCONJ	SCONJ	_	8	mark	_	_
+6-7	החטיפה	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	חטיפה	חטיפה	NOUN	NOUN	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	נועדה	נועד	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	4	ccomp	_	_
+9	לגרום	גרם	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10-12	לעולם	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	12	case	_	_
+11	ה_	ה	DET	DET	PronType=Art|Definite=Def	12	det	_	_
+12	עולם	עולם	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	_
+13	להקשיב	הקשיב	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	9	dep	_	HebSource=ConvUncertainHead
+14	"	"	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
+15-16	לכמיהת	_	_	_	_	_	_	_	_
+15	ל	ל	ADP	ADP	_	16	case	_	_
+16	כמיהת	כמיהה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	13	obl	_	_
+17-18	העם	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	עם	עם	NOUN	NOUN	Gender=Masc|Number=Sing	16	compound:smixut	_	_
+19-20	הבורמזי	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	בורמזי	בורמזי	ADJ	ADJ	Gender=Masc|Number=Sing	18	amod	_	_
+21-22	לדמוקרטיה	_	_	_	_	_	_	_	_
+21	ל	ל	ADP	ADP	_	22	case	_	_
+22	דמוקרטיה	דמוקרטיה	NOUN	NOUN	Gender=Fem|Number=Sing	16	nmod	_	_
+23-24	וזכויות	_	_	_	_	_	_	_	_
+23	ו	ו	CCONJ	CCONJ	_	24	cc	_	_
+24	זכויות	זכות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	22	conj	_	_
+25	אדם	אדם	NOUN	NOUN	Gender=Masc|Number=Sing	24	compound:smixut	_	SpaceAfter=No
+26	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:202
+# doc_range = 888-981
+# sent_id = 5089
+# text = אין לנו כל רצון לפגוע בנוסעים ובצוות", נאמר בהודעה.
+1	אין	אין	VERB	VERB	HebExistential=Yes	16	advcl	_	_
+2-3	לנו	_	_	_	_	_	_	_	_
+2	ל	ל	ADP	ADP	_	3	case	_	_
+3	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	1	obl	_	_
+4	כל	כול	DET	DET	Definite=Cons	5	det	_	_
+5	רצון	רצון	NOUN	NOUN	Gender=Masc|Number=Sing	1	nsubj	_	_
+6	לפגוע	פגע	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	5	acl	_	_
+7-9	בנוסעים	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	9	case	_	_
+8	ה_	ה	DET	DET	PronType=Art|Definite=Def	9	det	_	_
+9	נוסעים	נוסע	NOUN	NOUN	Gender=Masc|Number=Plur	6	obl	_	_
+10-13	ובצוות	_	_	_	_	_	_	_	SpaceAfter=No
+10	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
+11	ב	ב	ADP	ADP	_	13	case	_	_
+12	ה_	ה	DET	DET	PronType=Art|Definite=Def	13	det	_	_
+13	צוות	צוות	NOUN	NOUN	Gender=Fem|Number=Sing	9	conj	_	_
+14	"	"	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	1	punct	_	_
+16	נאמר	נאמר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+17-19	בהודעה	_	_	_	_	_	_	_	SpaceAfter=No
+17	ב	ב	ADP	ADP	_	19	case	_	_
+18	ה_	ה	DET	DET	PronType=Art|Definite=Def	19	det	_	_
+19	הודעה	הודעה	NOUN	NOUN	Gender=Fem|Number=Sing	16	obl	_	_
+20	.	.	PUNCT	PUNCT	_	16	punct	_	_
+
+# doc_id = htb:202
+# doc_range = 983-1209
+# sent_id = 5090
+# text = שלושת הסטודנטים חתמו על ההודעה בטביעות אגודליהם המדממים והבהירו: "אם תקבלו את דרישותינו נסגיר עצמנו בשלום לשלטונות הודו".
+1	שלושת	שלושת	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	3	nummod	_	_
+2-3	הסטודנטים	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	סטודנטים	סטודנט	NOUN	NOUN	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	חתמו	חתם	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	על	על	ADP	ADP	_	7	case	_	_
+6-7	ההודעה	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	הודעה	הודעה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+8-9	בטביעות	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	טביעות	טביעה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	4	obl	_	_
+10-11	אגודליהם	_	_	_	_	_	_	_	_
+10	אגודלי	אגודל	NOUN	NOUN	Gender=Masc|Number=Plur	9	compound:smixut	_	_
+11	הם	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+12-13	המדממים	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	מדממים	דימם	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	10	amod	_	_
+14-15	והבהירו	_	_	_	_	_	_	_	SpaceAfter=No
+14	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+15	הבהירו	הבהיר	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	4	conj	_	_
+16	:	:	PUNCT	PUNCT	_	24	punct	_	_
+17	"	"	PUNCT	PUNCT	_	24	punct	_	SpaceAfter=No
+18	אם	אם	SCONJ	SCONJ	_	19	mark	_	_
+19	תקבלו	קיבל	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=2|Tense=Fut	24	advcl	_	_
+20	את	את	ADP	ADP	Case=Acc	21	case	_	_
+21-23	דרישותינו	_	_	_	_	_	_	_	_
+21	דרישה	דרישה	NOUN	NOUN	Gender=Fem|Number=Plur	19	obj	_	_
+22	_של_	של	ADP	ADP	Case=Gen	23	case:gen	_	_
+23	_אנחנו	הוא	PRON	PRON	Definite=Def|Gender=Fem,Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+24	נסגיר	הסגיר	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=1|Tense=Fut|Voice=Act	15	advcl	_	_
+25	עצמנו	עצמו	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	24	obj	_	_
+26-27	בשלום	_	_	_	_	_	_	_	_
+26	ב	ב	ADP	ADP	_	27	case	_	_
+27	שלום	שלום	NOUN	NOUN	Gender=Masc|Number=Sing	24	obl	_	_
+28-29	לשלטונות	_	_	_	_	_	_	_	_
+28	ל	ל	ADP	ADP	_	29	case	_	_
+29	שלטונות	שלטון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	24	obl	_	_
+30	הודו	הודו	PROPN	PROPN	_	29	compound:smixut	_	SpaceAfter=No
+31	"	"	PUNCT	PUNCT	_	24	punct	_	SpaceAfter=No
+32	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:202
+# doc_range = 1211-1430
+# sent_id = 5091
+# text = החוטפים דרשו משלטונות בורמה לשחרר את כל האסירים הפוליטיים, לשים קץ לשלטון הצבאי ולהעביר את השלטון לממשלה אזרחית נבחרת.
+1-2	החוטפים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	חוטפים	חוטף	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	דרשו	דרש	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4-5	משלטונות	_	_	_	_	_	_	_	_
+4	מ	מ	ADP	ADP	_	5	case	_	_
+5	שלטונות	שלטון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	3	obl	_	_
+6	בורמה	בורמה	PROPN	PROPN	_	5	compound:smixut	_	_
+7	לשחרר	שחרר	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+8	את	את	ADP	ADP	Case=Acc	11	case	_	_
+9	כל	כול	DET	DET	Definite=Cons	11	det	_	_
+10-11	האסירים	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	אסירים	אסיר	NOUN	NOUN	Gender=Masc|Number=Plur	7	obj	_	_
+12-13	הפוליטיים	_	_	_	_	_	_	_	SpaceAfter=No
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	פוליטיים	פוליטי	ADJ	ADJ	Gender=Masc|Number=Plur	11	amod	_	_
+14	,	,	PUNCT	PUNCT	_	15	punct	_	_
+15	לשים	שם	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	7	conj	_	_
+16	קץ	קץ	NOUN	NOUN	Gender=Masc|Number=Sing	15	obj	_	_
+17-19	לשלטון	_	_	_	_	_	_	_	_
+17	ל	ל	ADP	ADP	_	19	case	_	_
+18	ה_	ה	DET	DET	PronType=Art|Definite=Def	19	det	_	_
+19	שלטון	שלטון	NOUN	NOUN	Gender=Masc|Number=Sing	15	obl	_	_
+20-21	הצבאי	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	צבאי	צבאי	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	_
+22-23	ולהעביר	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
+23	להעביר	העביר	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	7	conj	_	_
+24	את	את	ADP	ADP	Case=Acc	26	case	_	_
+25-26	השלטון	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	שלטון	שלטון	NOUN	NOUN	Gender=Masc|Number=Sing	23	obj	_	_
+27-28	לממשלה	_	_	_	_	_	_	_	_
+27	ל	ל	ADP	ADP	_	28	case	_	_
+28	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	26	nmod	_	_
+29	אזרחית	אזרחי	ADJ	ADJ	Gender=Fem|Number=Sing	28	amod	_	_
+30	נבחרת	נבחר	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Mid	28	amod	_	SpaceAfter=No
+31	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:202
+# doc_range = 1432-1703
+# sent_id = 5092
+# text = עוד דרשו החוטפים כי תאילנד תפסיק את כל ההשקעות בבורמה עד שהשלטון יימסר לידי ממשלה אזרחית ומתנגדי משטר בורמזים העצורים בתאילנד יקבלו מעמד של פליטים.
+1	עוד	עוד	ADV	ADV	_	2	advmod	_	_
+2	דרשו	דרש	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3-4	החוטפים	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	חוטפים	חוטף	NOUN	NOUN	Gender=Masc|Number=Plur	2	nsubj	_	_
+5	כי	כי	SCONJ	SCONJ	_	7	mark	_	_
+6	תאילנד	תאילנד	PROPN	PROPN	_	7	nsubj	_	_
+7	תפסיק	הפסיק	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	2	ccomp	_	_
+8	את	את	ADP	ADP	Case=Acc	11	case	_	_
+9	כל	כול	DET	DET	Definite=Cons	11	det	_	_
+10-11	ההשקעות	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	השקעות	השקעה	NOUN	NOUN	Gender=Fem|Number=Plur	7	obj	_	_
+12-13	בבורמה	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	בורמה	בורמה	PROPN	PROPN	_	11	nmod	_	_
+14	עד	עד	ADP	ADP	_	18	mark	_	_
+15-17	שהשלטון	_	_	_	_	_	_	_	_
+15	ש	ש	SCONJ	SCONJ	_	14	fixed	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	שלטון	שלטון	NOUN	NOUN	Gender=Masc|Number=Sing	18	nsubj	_	_
+18	יימסר	נמסר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Fut|Voice=Mid	2	advcl	_	_
+19	לידי	לידי	ADP	ADP	_	20	case	_	_
+20	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	18	obl	_	_
+21	אזרחית	אזרחי	ADJ	ADJ	Gender=Fem|Number=Sing	20	amod	_	_
+22-23	ומתנגדי	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	_	30	cc	_	_
+23	מתנגדי	מתנגד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	30	nsubj	_	_
+24	משטר	משטר	NOUN	NOUN	Gender=Masc|Number=Sing	23	compound:smixut	_	_
+25	בורמזים	בורמזי	ADJ	ADJ	Gender=Masc|Number=Plur	23	amod	_	_
+26-27	העצורים	_	_	_	_	_	_	_	_
+26	ה	ה	SCONJ	SCONJ	_	27	mark	_	_
+27	עצורים	עצר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	23	acl:relcl	_	_
+28-29	בתאילנד	_	_	_	_	_	_	_	_
+28	ב	ב	ADP	ADP	_	29	case	_	_
+29	תאילנד	תאילנד	PROPN	PROPN	_	27	obl	_	_
+30	יקבלו	קיבל	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	18	conj	_	_
+31	מעמד	מעמד	NOUN	NOUN	Gender=Masc|Number=Sing	30	obj	_	_
+32	של	של	ADP	ADP	Case=Gen	33	case	_	_
+33	פליטים	פליט	NOUN	NOUN	Gender=Masc|Number=Plur	31	nmod:poss	_	SpaceAfter=No
+34	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:202
+# doc_range = 1705-1871
+# sent_id = 5093
+# text = באוקטובר שעבר חטפו שני סטודנטים מטוס בורמזי שהיה בטיסת פנים ואילצו את הטייס לנחות בתאילנד.
+1-2	באוקטובר	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	אוקטובר	אוקטובר	PROPN	PROPN	_	5	obl	_	_
+3-4	שעבר	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
+4	עבר	עבר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	2	acl:relcl	_	_
+5	חטפו	חטף	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+6	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	7	nummod	_	_
+7	סטודנטים	סטודנט	NOUN	NOUN	Gender=Masc|Number=Plur	5	nsubj	_	_
+8	מטוס	מטוס	NOUN	NOUN	Gender=Masc|Number=Sing	5	obj	_	_
+9	בורמזי	בורמזי	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	_
+10-11	שהיה	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	11	mark	_	_
+11	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	8	acl:relcl	_	_
+12-13	בטיסת	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	טיסת	טיסה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	11	obl	_	_
+14	פנים	פנים	NOUN	NOUN	Gender=Masc|Number=Sing	13	compound:smixut	_	_
+15-16	ואילצו	_	_	_	_	_	_	_	_
+15	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+16	אילצו	אילץ	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	5	conj	_	_
+17	את	את	ADP	ADP	Case=Acc	19	case	_	_
+18-19	הטייס	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	טייס	טייס	NOUN	NOUN	Gender=Masc|Number=Sing	16	obj	_	_
+20	לנחות	נחת	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+21-22	בתאילנד	_	_	_	_	_	_	_	SpaceAfter=No
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	תאילנד	תאילנד	PROPN	PROPN	_	20	obl	_	_
+23	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:202
+# doc_range = 1873-1930
+# sent_id = 5094
+# text = הם נכנעו ועדיין כלואים בבנגקוק.
+1	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	נכנעו	נכנע	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+3-4	ועדיין	_	_	_	_	_	_	_	_
+3	ו	ו	CCONJ	CCONJ	_	5	cc	_	_
+4	עדיין	עדיין	ADV	ADV	_	5	advmod	_	_
+5	כלואים	כלוא	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	2	conj	_	_
+6-7	בבנגקוק	_	_	_	_	_	_	_	SpaceAfter=No
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	בנגקוק	בנגקוק	PROPN	PROPN	_	5	obl	_	_
+8	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:202
+# doc_range = 1933-2028
+# sent_id = 5095
+# text = ארגון לוחמי הצדק והחירות דרש גם את שחרורם של שני אלה.
+1	ארגון	ארגון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	nsubj	_	_
+2	לוחמי	לוחם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	1	compound:smixut	_	_
+3-4	הצדק	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	צדק	צדק	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+5-7	והחירות	_	_	_	_	_	_	_	_
+5	ו	ו	CCONJ	CCONJ	_	7	cc	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	חירות	חירות	NOUN	NOUN	Gender=Fem|Number=Sing	4	conj	_	_
+8	דרש	דרש	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+9	גם	גם	ADV	ADV	_	8	advmod	_	_
+10	את	את	ADP	ADP	Case=Acc	11	case	_	_
+11-13	שחרורם	_	_	_	_	_	_	_	_
+11	שחרור	שחרור	NOUN	NOUN	Gender=Masc|Number=Sing	8	obj	_	_
+12	_של_	של	ADP	ADP	Case=Gen	13	case:gen	_	_
+13	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+14	של	של	ADP	ADP	Case=Gen	16	case	_	_
+15	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	16	nummod	_	_
+16	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Dem	11	nmod:poss	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:202
+# doc_range = 2030-2246
+# sent_id = 5096
+# text = הסטודנטים בבורמה ומחוצה לה נאבקים בממשלה הצבאית שתפסה את השלטון לפני שנתיים אחרי דיכוי הפגנות המוניות למען דמוקרטיה.
+1-2	הסטודנטים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	סטודנטים	סטודנט	NOUN	NOUN	Gender=Masc|Number=Plur	9	nsubj	_	_
+3-4	בבורמה	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	בורמה	בורמה	PROPN	PROPN	_	2	nmod	_	_
+5-6	ומחוצה	_	_	_	_	_	_	_	_
+5	ו	ו	CCONJ	CCONJ	_	8	cc	_	_
+6	מחוצה	מחוצה	ADP	ADP	_	8	case	_	_
+7-8	לה	_	_	_	_	_	_	_	_
+7	ל	ל	ADP	ADP	_	8	case	_	_
+8	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	conj	_	_
+9	נאבקים	נאבק	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	0	root	_	_
+10-12	בממשלה	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	12	case	_	_
+11	ה_	ה	DET	DET	PronType=Art|Definite=Def	12	det	_	_
+12	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	9	obl	_	_
+13-14	הצבאית	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	צבאית	צבאי	ADJ	ADJ	Gender=Fem|Number=Sing	12	amod	_	_
+15-16	שתפסה	_	_	_	_	_	_	_	_
+15	ש	ש	SCONJ	SCONJ	_	16	mark	_	_
+16	תפסה	תפס	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	12	acl:relcl	_	_
+17	את	את	ADP	ADP	Case=Acc	19	case	_	_
+18-19	השלטון	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	שלטון	שלטון	NOUN	NOUN	Gender=Masc|Number=Sing	16	obj	_	_
+20	לפני	לפני	ADP	ADP	_	21	case	_	_
+21	שנתיים	שנה	NOUN	NOUN	Gender=Fem|Number=Dual	16	obl	_	_
+22	אחרי	אחרי	ADP	ADP	_	23	case	_	_
+23	דיכוי	דיכוי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	16	obl	_	_
+24	הפגנות	הפגנה	NOUN	NOUN	Gender=Fem|Number=Plur	23	compound:smixut	_	_
+25	המוניות	המוני	ADJ	ADJ	Gender=Fem|Number=Plur	24	amod	_	_
+26	למען	למען	ADP	ADP	_	27	case	_	_
+27	דמוקרטיה	דמוקרטיה	NOUN	NOUN	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:202
+# doc_range = 2248-2459
+# sent_id = 5097
+# text = במאי נערכו בבורמה בחירות לאספה הלאומית אולם הכת הצבאית סירבה עד כה להעביר את השלטון לאופוזיציה שזכתה בניצחון סוחף.
+1-2	במאי	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	מאי	מאי	PROPN	PROPN	_	3	obl	_	_
+3	נערכו	נערך	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+4-5	בבורמה	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	בורמה	בורמה	PROPN	PROPN	_	3	obl	_	_
+6	בחירות	בחירות	NOUN	NOUN	Gender=Fem|Number=Plur	3	nsubj	_	_
+7-9	לאספה	_	_	_	_	_	_	_	_
+7	ל	ל	ADP	ADP	_	9	case	_	_
+8	ה_	ה	DET	DET	PronType=Art|Definite=Def	9	det	_	_
+9	אספה	אספה	NOUN	NOUN	Gender=Fem|Number=Sing	6	nmod	_	_
+10-11	הלאומית	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	לאומית	לאומי	ADJ	ADJ	Gender=Fem|Number=Sing	9	amod	_	_
+12	אולם	אולם	CCONJ	CCONJ	_	17	cc	_	_
+13-14	הכת	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	כת	כת	NOUN	NOUN	Gender=Fem|Number=Sing	17	nsubj	_	_
+15-16	הצבאית	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	צבאית	צבאי	ADJ	ADJ	Gender=Fem|Number=Sing	14	amod	_	_
+17	סירבה	סירב	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	_
+18	עד	עד	ADV	ADV	_	17	advmod	_	_
+19	כה	כה	ADV	ADV	_	18	fixed	_	_
+20	להעביר	העביר	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+21	את	את	ADP	ADP	Case=Acc	23	case	_	_
+22-23	השלטון	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	שלטון	שלטון	NOUN	NOUN	Gender=Masc|Number=Sing	20	obj	_	_
+24-26	לאופוזיציה	_	_	_	_	_	_	_	_
+24	ל	ל	ADP	ADP	_	26	case	_	_
+25	ה_	ה	DET	DET	PronType=Art|Definite=Def	26	det	_	_
+26	אופוזיציה	אופוזיציה	NOUN	NOUN	Gender=Fem|Number=Sing	20	obl	_	_
+27-28	שזכתה	_	_	_	_	_	_	_	_
+27	ש	ש	SCONJ	SCONJ	_	28	mark	_	_
+28	זכתה	זכה	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	26	acl:relcl	_	_
+29-30	בניצחון	_	_	_	_	_	_	_	_
+29	ב	ב	ADP	ADP	_	30	case	_	_
+30	ניצחון	ניצחון	NOUN	NOUN	Gender=Masc|Number=Sing	28	obl	_	_
+31	סוחף	סחף	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:202
+# doc_range = 2461-2528
+# sent_id = 5098
+# text = מנהיגי האופוזיציה רבים נתונים במעצר.
+1	מנהיגי	מנהיג	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	5	nsubj	_	_
+2-3	האופוזיציה	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	אופוזיציה	אופוזיציה	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+4	רבים	רב	ADJ	ADJ	Gender=Masc|Number=Plur	1	amod	_	_
+5	נתונים	נתן	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+6-7	במעצר	_	_	_	_	_	_	_	SpaceAfter=No
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	מעצר	מעצר	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+8	.	.	PUNCT	PUNCT	_	5	punct	_	_
+

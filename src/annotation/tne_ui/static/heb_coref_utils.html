@@ -1,0 +1,124 @@
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-base64@3.7.7/base64.min.js"></script>
+
+<script>
+    emailjs.init("wAZjpPFKTZptViqho");
+
+
+    function emailResult(elementId, email) {
+        const nameDropdown = document.createElement("select");
+        const optionAriela = document.createElement("option");
+        optionAriela.text = "Ariela";
+        const optionItay = document.createElement("option");
+        optionItay.text = "Itay";
+        const optionHadar = document.createElement("option");
+        optionHadar.text = "Hadar";
+        const optionTal = document.createElement("option");
+        optionTal.text = "Tal";
+        const optionHinoy = document.createElement("option");
+        optionHinoy.text = "Hinoy";
+        const optionYechiel = document.createElement("option");
+        optionYechiel.text = "Yechiel";
+        const optionHadas = document.createElement("option");
+        optionHadas.text = "Hadas";
+        const optionShaked = document.createElement("option");
+        optionShaked.text = "Shaked";
+        const optionConsolidation = document.createElement("option");
+        optionConsolidation.text = "Consolidation";
+        const optionFreeText = document.createElement("option");
+        optionFreeText.text = "Other";
+
+        nameDropdown.add(optionAriela);
+        nameDropdown.add(optionItay);
+        nameDropdown.add(optionHadar);
+        nameDropdown.add(optionTal);
+        nameDropdown.add(optionHinoy);
+        nameDropdown.add(optionYechiel);
+        nameDropdown.add(optionHadas);
+        nameDropdown.add(optionShaked);
+        nameDropdown.add(optionConsolidation);
+        nameDropdown.add(optionFreeText);
+
+        let name;
+        let dropdownResult = confirmDropdown('If you press "OK," an email will be sent to the admin.\n\n' +
+            'Please select your name (which will be displayed in the email)',
+            nameDropdown);
+        dropdownResult.then(function (result) {
+            if (result === true) {
+                name = nameDropdown.options[nameDropdown.selectedIndex].text;
+                if (name === "Other") {
+                    name = prompt('Please enter your name (would be displayed in mail)', 'Moshe Zuchmir');
+                    if (!name) {
+                        alert(
+                            "An email wasn't sent - you may copy and send the text yourself to hebrew.coref@gmail.com Using the copy button"
+                        );
+                        return;
+                    }
+                }
+                // Use email API to send result to the specified email address
+                alert("An email was sent to admin with the name " + name)
+                let annotation_content_bit64 = Base64.encode(document.getElementById(elementId).textContent);
+                emailjs.send(
+                    "service_6i3bvww",
+                    "template_bn4feh5",
+                    {
+                        name: name,
+                        annotation_content: annotation_content_bit64
+                    }
+                ).then(function (response) {
+                    console.log('SUCCESS!', response.status, response.text);
+                }, function (error) {
+                    alert(
+                        "An email wasn't sent - you may copy and send the text yourself to hebrew.coref@gmail.com Using the copy button"
+                    );
+                    console.log('FAILED...', error);
+                });
+            } else {
+                alert(
+                    "An email wasn't sent - you may copy and send the text yourself to hebrew.coref@gmail.com Using the copy button"
+                );
+            }
+        });
+    }
+
+    function confirmDropdown(message, dropdown) {
+        return new Promise((resolve) => {
+            var confirmBox = document.createElement("div");
+            confirmBox.appendChild(document.createTextNode(message));
+            confirmBox.appendChild(dropdown);
+            var okButton = document.createElement("button");
+            okButton.textContent = "OK";
+            var cancelButton = document.createElement("button");
+            cancelButton.textContent = "Cancel";
+            confirmBox.appendChild(okButton);
+            confirmBox.appendChild(cancelButton);
+            okButton.addEventListener("click", function () {
+                confirmBox.style.display = "none";
+                resolve(true);
+            });
+            cancelButton.addEventListener("click", function () {
+                confirmBox.style.display = "none";
+                resolve(false);
+            });
+            document.body.appendChild(confirmBox);
+            confirmBox.style.display = "block";
+            confirmBox.style.position = "fixed";
+            confirmBox.style.top = "50%";
+            confirmBox.style.left = "50%";
+            confirmBox.style.transform = "translate(-50%, -50%)";
+            confirmBox.style.backgroundColor = "#fff";
+            confirmBox.style.padding = "10px";
+            confirmBox.style.border = "1px solid #999";
+            confirmBox.style.boxShadow = "0 0 10px rgba(0, 0, 0, 0.5)";
+            // confirmBox.style.cssText = "display: block; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: #f2f2f2; border-radius: 5px; padding: 10px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);";
+            var messageElement = confirmBox.getElementsByTagName("p")[0];
+            if (messageElement) {
+                messageElement.style.cssText = "font-weight: bold; font-size: 16px; margin-bottom: 10px;";
+            }
+            confirmBox.getElementsByTagName("select")[0].style.cssText = "padding: 5px; margin-bottom: 10px;";
+            confirmBox.getElementsByTagName("button")[0].style.cssText = "background-color: #4CAF50; color: white; padding: 8px 16px; border-radius: 5px; margin-right: 10px; margin-left: 10px;";
+            confirmBox.getElementsByTagName("button")[1].style.cssText = "background-color: #f44336; color: white; padding: 8px 16px; border-radius: 5px;";
+
+        });
+    }
+</script>

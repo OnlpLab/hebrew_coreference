@@ -1,0 +1,470 @@
+================================================================================
+MULTI-SYSTEM OUTPUT COMPARISON SUMMARY REPORT
+================================================================================
+Generated: 2025-08-12 22:57:21
+Total documents: 24
+
+📊 OVERALL PERFORMANCE SUMMARY
+--------------------------------------------------------------------------------
+Document        Approach             Correct    Extra      Missed     Non-Pronoun 
+--------------------------------------------------------------------------------
+htb:232         neural_sota          4          4          5          0.52        
+htb:232         sota_tokenized       4          5          5          1.00        
+htb:233         neural_sota          6          7          11         0.67        
+htb:233         sota_tokenized       6          5          11         1.00        
+htb:234         neural_sota          5          2          5          0.56        
+htb:234         sota_tokenized       3          2          7          1.00        
+htb:235         neural_sota          14         6          4          0.71        
+htb:235         sota_tokenized       5          4          13         1.00        
+htb:236         neural_sota          11         11         11         0.58        
+htb:236         sota_tokenized       3          6          19         1.00        
+htb:237         neural_sota          10         6          13         0.58        
+htb:237         sota_tokenized       7          3          16         1.00        
+htb:238         neural_sota          7          4          7          0.51        
+htb:238         sota_tokenized       5          0          9          1.00        
+htb:239_1       neural_sota          6          5          10         0.36        
+htb:239_1       sota_tokenized       2          6          14         1.00        
+htb:239_2       neural_sota          17         16         15         0.38        
+htb:239_2       sota_tokenized       2          10         30         1.00        
+htb:240         neural_sota          4          3          9          0.25        
+htb:240         sota_tokenized       5          1          8          1.00        
+htb:241_1       neural_sota          10         6          19         0.43        
+htb:241_1       sota_tokenized       6          2          23         1.00        
+htb:241_2       neural_sota          20         6          14         0.62        
+htb:241_2       sota_tokenized       10         4          24         1.00        
+htb:242_1       neural_sota          15         13         16         0.60        
+htb:242_1       sota_tokenized       7          4          24         1.00        
+htb:242_2       neural_sota          7          4          6          0.37        
+htb:242_2       sota_tokenized       5          5          8          1.00        
+htb:243         neural_sota          13         3          5          0.28        
+htb:243         sota_tokenized       6          3          12         1.00        
+htb:244         neural_sota          4          4          10         0.27        
+htb:244         sota_tokenized       2          2          12         1.00        
+htb:245         neural_sota          6          2          5          0.48        
+htb:245         sota_tokenized       2          2          9          1.00        
+htb:246         neural_sota          7          10         19         0.25        
+htb:246         sota_tokenized       8          7          18         1.00        
+htb:247         neural_sota          10         4          8          0.35        
+htb:247         sota_tokenized       6          1          12         1.00        
+htb:248_1       neural_sota          5          4          8          0.44        
+htb:248_1       sota_tokenized       4          2          9          1.00        
+htb:248_2       neural_sota          7          8          12         0.54        
+htb:248_2       sota_tokenized       7          2          12         1.00        
+htb:248_3       neural_sota          6          2          11         0.27        
+htb:248_3       sota_tokenized       5          0          12         1.00        
+htb:249         neural_sota          19         8          17         0.25        
+htb:249         sota_tokenized       15         4          21         1.00        
+htb:250         neural_sota          1          0          0          1.00        
+htb:250         sota_tokenized       1          0          0          1.00        
+--------------------------------------------------------------------------------
+
+📋 DETAILED RESULTS BY DOCUMENT
+================================================================================
+
+📄 Document: htb:232
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 4
+    Extra clusters: 4
+    Missed clusters: 5
+    Non-pronoun ratio: 0.52
+    Total mentions: 25
+    Non-pronoun mentions: 13
+  🔄 sota_tokenized:
+    Correct clusters: 4
+    Extra clusters: 5
+    Missed clusters: 5
+    Non-pronoun ratio: 1.00
+    Total mentions: 26
+    Non-pronoun mentions: 26
+
+📄 Document: htb:233
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 6
+    Extra clusters: 7
+    Missed clusters: 11
+    Non-pronoun ratio: 0.67
+    Total mentions: 42
+    Non-pronoun mentions: 28
+  🔄 sota_tokenized:
+    Correct clusters: 6
+    Extra clusters: 5
+    Missed clusters: 11
+    Non-pronoun ratio: 1.00
+    Total mentions: 40
+    Non-pronoun mentions: 40
+
+📄 Document: htb:234
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 5
+    Extra clusters: 2
+    Missed clusters: 5
+    Non-pronoun ratio: 0.56
+    Total mentions: 27
+    Non-pronoun mentions: 15
+  🔄 sota_tokenized:
+    Correct clusters: 3
+    Extra clusters: 2
+    Missed clusters: 7
+    Non-pronoun ratio: 1.00
+    Total mentions: 21
+    Non-pronoun mentions: 21
+
+📄 Document: htb:235
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 14
+    Extra clusters: 6
+    Missed clusters: 4
+    Non-pronoun ratio: 0.71
+    Total mentions: 66
+    Non-pronoun mentions: 47
+  🔄 sota_tokenized:
+    Correct clusters: 5
+    Extra clusters: 4
+    Missed clusters: 13
+    Non-pronoun ratio: 1.00
+    Total mentions: 37
+    Non-pronoun mentions: 37
+
+📄 Document: htb:236
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 11
+    Extra clusters: 11
+    Missed clusters: 11
+    Non-pronoun ratio: 0.58
+    Total mentions: 66
+    Non-pronoun mentions: 38
+  🔄 sota_tokenized:
+    Correct clusters: 3
+    Extra clusters: 6
+    Missed clusters: 19
+    Non-pronoun ratio: 1.00
+    Total mentions: 37
+    Non-pronoun mentions: 37
+
+📄 Document: htb:237
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 10
+    Extra clusters: 6
+    Missed clusters: 13
+    Non-pronoun ratio: 0.58
+    Total mentions: 59
+    Non-pronoun mentions: 34
+  🔄 sota_tokenized:
+    Correct clusters: 7
+    Extra clusters: 3
+    Missed clusters: 16
+    Non-pronoun ratio: 1.00
+    Total mentions: 47
+    Non-pronoun mentions: 47
+
+📄 Document: htb:238
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 7
+    Extra clusters: 4
+    Missed clusters: 7
+    Non-pronoun ratio: 0.51
+    Total mentions: 39
+    Non-pronoun mentions: 20
+  🔄 sota_tokenized:
+    Correct clusters: 5
+    Extra clusters: 0
+    Missed clusters: 9
+    Non-pronoun ratio: 1.00
+    Total mentions: 29
+    Non-pronoun mentions: 29
+
+📄 Document: htb:239_1
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 6
+    Extra clusters: 5
+    Missed clusters: 10
+    Non-pronoun ratio: 0.36
+    Total mentions: 39
+    Non-pronoun mentions: 14
+  🔄 sota_tokenized:
+    Correct clusters: 2
+    Extra clusters: 6
+    Missed clusters: 14
+    Non-pronoun ratio: 1.00
+    Total mentions: 28
+    Non-pronoun mentions: 28
+
+📄 Document: htb:239_2
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 17
+    Extra clusters: 16
+    Missed clusters: 15
+    Non-pronoun ratio: 0.38
+    Total mentions: 99
+    Non-pronoun mentions: 38
+  🔄 sota_tokenized:
+    Correct clusters: 2
+    Extra clusters: 10
+    Missed clusters: 30
+    Non-pronoun ratio: 1.00
+    Total mentions: 48
+    Non-pronoun mentions: 48
+
+📄 Document: htb:240
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 4
+    Extra clusters: 3
+    Missed clusters: 9
+    Non-pronoun ratio: 0.25
+    Total mentions: 28
+    Non-pronoun mentions: 7
+  🔄 sota_tokenized:
+    Correct clusters: 5
+    Extra clusters: 1
+    Missed clusters: 8
+    Non-pronoun ratio: 1.00
+    Total mentions: 29
+    Non-pronoun mentions: 29
+
+📄 Document: htb:241_1
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 10
+    Extra clusters: 6
+    Missed clusters: 19
+    Non-pronoun ratio: 0.43
+    Total mentions: 65
+    Non-pronoun mentions: 28
+  🔄 sota_tokenized:
+    Correct clusters: 6
+    Extra clusters: 2
+    Missed clusters: 23
+    Non-pronoun ratio: 1.00
+    Total mentions: 49
+    Non-pronoun mentions: 49
+
+📄 Document: htb:241_2
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 20
+    Extra clusters: 6
+    Missed clusters: 14
+    Non-pronoun ratio: 0.62
+    Total mentions: 100
+    Non-pronoun mentions: 62
+  🔄 sota_tokenized:
+    Correct clusters: 10
+    Extra clusters: 4
+    Missed clusters: 24
+    Non-pronoun ratio: 1.00
+    Total mentions: 68
+    Non-pronoun mentions: 68
+
+📄 Document: htb:242_1
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 15
+    Extra clusters: 13
+    Missed clusters: 16
+    Non-pronoun ratio: 0.60
+    Total mentions: 89
+    Non-pronoun mentions: 53
+  🔄 sota_tokenized:
+    Correct clusters: 7
+    Extra clusters: 4
+    Missed clusters: 24
+    Non-pronoun ratio: 1.00
+    Total mentions: 56
+    Non-pronoun mentions: 56
+
+📄 Document: htb:242_2
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 7
+    Extra clusters: 4
+    Missed clusters: 6
+    Non-pronoun ratio: 0.37
+    Total mentions: 38
+    Non-pronoun mentions: 14
+  🔄 sota_tokenized:
+    Correct clusters: 5
+    Extra clusters: 5
+    Missed clusters: 8
+    Non-pronoun ratio: 1.00
+    Total mentions: 33
+    Non-pronoun mentions: 33
+
+📄 Document: htb:243
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 13
+    Extra clusters: 3
+    Missed clusters: 5
+    Non-pronoun ratio: 0.28
+    Total mentions: 60
+    Non-pronoun mentions: 17
+  🔄 sota_tokenized:
+    Correct clusters: 6
+    Extra clusters: 3
+    Missed clusters: 12
+    Non-pronoun ratio: 1.00
+    Total mentions: 39
+    Non-pronoun mentions: 39
+
+📄 Document: htb:244
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 4
+    Extra clusters: 4
+    Missed clusters: 10
+    Non-pronoun ratio: 0.27
+    Total mentions: 30
+    Non-pronoun mentions: 8
+  🔄 sota_tokenized:
+    Correct clusters: 2
+    Extra clusters: 2
+    Missed clusters: 12
+    Non-pronoun ratio: 1.00
+    Total mentions: 22
+    Non-pronoun mentions: 22
+
+📄 Document: htb:245
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 6
+    Extra clusters: 2
+    Missed clusters: 5
+    Non-pronoun ratio: 0.48
+    Total mentions: 31
+    Non-pronoun mentions: 15
+  🔄 sota_tokenized:
+    Correct clusters: 2
+    Extra clusters: 2
+    Missed clusters: 9
+    Non-pronoun ratio: 1.00
+    Total mentions: 19
+    Non-pronoun mentions: 19
+
+📄 Document: htb:246
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 7
+    Extra clusters: 10
+    Missed clusters: 19
+    Non-pronoun ratio: 0.25
+    Total mentions: 57
+    Non-pronoun mentions: 14
+  🔄 sota_tokenized:
+    Correct clusters: 8
+    Extra clusters: 7
+    Missed clusters: 18
+    Non-pronoun ratio: 1.00
+    Total mentions: 57
+    Non-pronoun mentions: 57
+
+📄 Document: htb:247
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 10
+    Extra clusters: 4
+    Missed clusters: 8
+    Non-pronoun ratio: 0.35
+    Total mentions: 52
+    Non-pronoun mentions: 18
+  🔄 sota_tokenized:
+    Correct clusters: 6
+    Extra clusters: 1
+    Missed clusters: 12
+    Non-pronoun ratio: 1.00
+    Total mentions: 37
+    Non-pronoun mentions: 37
+
+📄 Document: htb:248_1
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 5
+    Extra clusters: 4
+    Missed clusters: 8
+    Non-pronoun ratio: 0.44
+    Total mentions: 32
+    Non-pronoun mentions: 14
+  🔄 sota_tokenized:
+    Correct clusters: 4
+    Extra clusters: 2
+    Missed clusters: 9
+    Non-pronoun ratio: 1.00
+    Total mentions: 27
+    Non-pronoun mentions: 27
+
+📄 Document: htb:248_2
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 7
+    Extra clusters: 8
+    Missed clusters: 12
+    Non-pronoun ratio: 0.54
+    Total mentions: 48
+    Non-pronoun mentions: 26
+  🔄 sota_tokenized:
+    Correct clusters: 7
+    Extra clusters: 2
+    Missed clusters: 12
+    Non-pronoun ratio: 1.00
+    Total mentions: 42
+    Non-pronoun mentions: 42
+
+📄 Document: htb:248_3
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 6
+    Extra clusters: 2
+    Missed clusters: 11
+    Non-pronoun ratio: 0.27
+    Total mentions: 37
+    Non-pronoun mentions: 10
+  🔄 sota_tokenized:
+    Correct clusters: 5
+    Extra clusters: 0
+    Missed clusters: 12
+    Non-pronoun ratio: 1.00
+    Total mentions: 32
+    Non-pronoun mentions: 32
+
+📄 Document: htb:249
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 19
+    Extra clusters: 8
+    Missed clusters: 17
+    Non-pronoun ratio: 0.25
+    Total mentions: 101
+    Non-pronoun mentions: 25
+  🔄 sota_tokenized:
+    Correct clusters: 15
+    Extra clusters: 4
+    Missed clusters: 21
+    Non-pronoun ratio: 1.00
+    Total mentions: 85
+    Non-pronoun mentions: 85
+
+📄 Document: htb:250
+----------------------------------------
+  🔄 neural_sota:
+    Correct clusters: 1
+    Extra clusters: 0
+    Missed clusters: 0
+    Non-pronoun ratio: 1.00
+    Total mentions: 4
+    Non-pronoun mentions: 4
+  🔄 sota_tokenized:
+    Correct clusters: 1
+    Extra clusters: 0
+    Missed clusters: 0
+    Non-pronoun ratio: 1.00
+    Total mentions: 4
+    Non-pronoun mentions: 4

@@ -1,0 +1,168 @@
+# doc_id = htb:107
+# doc_range = 1-49
+# sent_id = 2575
+# text = גלאזגו (שרות "ספורט הארץ").
+1	גלאזגו	גלזגו	PROPN	PROPN	_	0	root	_	_
+2	(	(	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+3	שרות	שרות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	parataxis	_	_
+4	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+5	ספורט	ספורט	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	compound:smixut	_	_
+6-7	הארץ	_	_	_	_	_	_	_	SpaceAfter=No
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	ארץ	ארץ	NOUN	NOUN	Gender=Fem|Number=Sing	5	compound:smixut	_	_
+8	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+9	)	)	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:107
+# doc_range = 53-227
+# sent_id = 2576
+# text = דאנדי יונייטד הבהירה, כי אין להביט בפליאה בעובדה שהיא מדורגת ראשונה עם 81 נקודות אחרי 21 מחזורים.
+1	דאנדי	דאנדי	PROPN	PROPN	_	3	nsubj	_	_
+2	יונייטד	יונייטד	PROPN	PROPN	_	1	flat:name	_	_
+3	הבהירה	הבהיר	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	7	punct	_	_
+5	כי	כי	SCONJ	SCONJ	_	7	mark	_	_
+6	אין	אין	AUX	AUX	VerbType=Mod	7	aux	_	_
+7	להביט	הביט	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	3	ccomp	_	_
+8-9	בפליאה	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	פליאה	פליאה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
+10-12	בעובדה	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	12	case	_	_
+11	ה_	ה	DET	DET	PronType=Art|Definite=Def	12	det	_	_
+12	עובדה	עובדה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
+13-14	שהיא	_	_	_	_	_	_	_	_
+13	ש	ש	SCONJ	SCONJ	_	15	mark	_	_
+14	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj:pass	_	_
+15	מדורגת	דורג	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	12	acl:relcl	_	_
+16	ראשונה	ראשונה	ADJ	ADJ	Gender=Fem|Number=Sing	15	xcomp	_	_
+17	עם	עם	ADP	ADP	_	19	case	_	_
+18	81	81	NUM	NUM	_	19	nummod	_	_
+19	נקודות	נקודה	NOUN	NOUN	Gender=Fem|Number=Plur	15	obl	_	_
+20	אחרי	אחרי	ADP	ADP	_	22	case	_	_
+21	21	21	NUM	NUM	_	22	nummod	_	_
+22	מחזורים	מחזור	NOUN	NOUN	Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:107
+# doc_range = 229-360
+# sent_id = 2577
+# text = במאבק הצמרת שהיה אתמול בגלאזגו ניצחה דאנדי יונייטד את האלופה ריינגרס 2 1.
+1-2	במאבק	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	מאבק	מאבק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	obl	_	_
+3-4	הצמרת	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	צמרת	צמרת	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound:smixut	_	_
+5-6	שהיה	_	_	_	_	_	_	_	_
+5	ש	ש	SCONJ	SCONJ	_	6	mark	_	_
+6	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	2	acl:relcl	_	_
+7	אתמול	אתמול	ADV	ADV	_	6	advmod	_	_
+8-9	בגלאזגו	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	גלאזגו	גלזגו	PROPN	PROPN	_	6	obl	_	_
+10	ניצחה	ניצח	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+11	דאנדי	דאנדי	PROPN	PROPN	_	10	nsubj	_	_
+12	יונייטד	יונייטד	PROPN	PROPN	_	11	flat:name	_	_
+13	את	את	ADP	ADP	Case=Acc	15	case	_	_
+14-15	האלופה	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	אלופה	אלופה	NOUN	NOUN	Gender=Fem|Number=Sing	10	obj	_	_
+16	ריינגרס	ריינגרס	PROPN	PROPN	_	15	flat:name	_	_
+17	2	2	NUM	NUM	_	10	dep	_	_
+18	1	1	NUM	NUM	_	17	nummod	_	SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:107
+# doc_range = 362-419
+# sent_id = 2578
+# text = את שני השערים הבקיע דארן גקסון.
+1	את	את	ADP	ADP	Case=Acc	4	case	_	_
+2	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	4	nummod	_	_
+3-4	השערים	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	שערים	שער	NOUN	NOUN	Gender=Masc|Number=Plur	5	obj	_	_
+5	הבקיע	הבקיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+6	דארן	דארן	PROPN	PROPN	_	5	nsubj	_	_
+7	גקסון	גקסון	PROPN	PROPN	_	6	flat:name	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:107
+# doc_range = 421-536
+# sent_id = 2579
+# text = אלן מקויסט החטיא כדור-11 לזכות ריינגרס (מקום שלישי עם 41 נקודות).
+1	אלן	אלן	PROPN	PROPN	_	3	nsubj	_	_
+2	מקויסט	מקויסט	PROPN	PROPN	_	1	flat:name	_	_
+3	החטיא	החטיא	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	כדור	כדור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+5	-	-	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+6	11	11	NUM	NUM	_	3	obj	_	_
+7	לזכות	לזכות	ADP	ADP	_	8	case	_	_
+8	ריינגרס	ריינגרס	PROPN	PROPN	_	3	obl	_	_
+9	(	(	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+10	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	8	appos	_	_
+11	שלישי	שלישי	ADJ	ADJ	Gender=Masc|Number=Sing	10	amod	_	_
+12	עם	עם	ADP	ADP	_	14	case	_	_
+13	41	41	NUM	NUM	_	14	nummod	_	_
+14	נקודות	נקודה	NOUN	NOUN	Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
+15	)	)	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:107
+# doc_range = 540-642
+# sent_id = 2580
+# text = השניה בטבלה, אברדין (71 נקודות), הביסה 4 0 במשחק חוץ את סט.
+1-2	השניה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	שניה	שנייה	NOUN	NOUN	Gender=Fem|Number=Sing	13	nsubj	_	_
+3-5	בטבלה	_	_	_	_	_	_	_	SpaceAfter=No
+3	ב	ב	ADP	ADP	_	5	case	_	_
+4	ה_	ה	DET	DET	PronType=Art|Definite=Def	5	det	_	_
+5	טבלה	טבלה	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	_
+6	,	,	PUNCT	PUNCT	_	7	punct	_	_
+7	אברדין	אברדין	PROPN	PROPN	_	2	appos	_	_
+8	(	(	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+9	71	71	NUM	NUM	_	10	nummod	_	_
+10	נקודות	נקודה	NOUN	NOUN	Gender=Fem|Number=Plur	7	appos	_	SpaceAfter=No
+11	)	)	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	2	punct	_	_
+13	הביסה	הביס	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+14	4	4	NUM	NUM	_	13	dep	_	_
+15	0	0	NUM	NUM	_	14	nummod	_	_
+16-17	במשחק	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	משחק	משחק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	obl	_	_
+18	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	17	compound:smixut	_	_
+19	את	את	ADP	ADP	Case=Acc	20	case	_	_
+20	סט	סט	NOUN	NOUN	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# doc_id = htb:107
+# doc_range = 644-668
+# sent_id = 2581
+# text = מירן האחרונה.
+1	מירן	מירן	PROPN	PROPN	_	0	root	_	_
+2-3	האחרונה	_	_	_	_	_	_	_	SpaceAfter=No
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	אחרונה	אחרון	ADJ	ADJ	Gender=Fem|Number=Sing	1	advmod	_	HebSource=ConvUncertainLabel
+4	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:107
+# doc_range = 670-761
+# sent_id = 2582
+# text = תוצאות אחרות: דאנפרמלין 3 מאתרוול 3; הארטס 1 סלטיק 0.
+1	תוצאות	תוצאה	NOUN	NOUN	Gender=Fem|Number=Plur	4	nsubj	_	_
+2	אחרות	אחר	ADJ	ADJ	Gender=Fem|Number=Plur	1	amod	_	SpaceAfter=No
+3	:	:	PUNCT	PUNCT	_	1	punct	_	_
+4	דאנפרמלין	דאנפרמלין	PROPN	PROPN	_	0	root	_	_
+5	3	3	NUM	NUM	_	4	nummod	_	_
+6	מאתרוול	מאתרוול	PROPN	PROPN	_	4	nmod	_	_
+7	3	3	NUM	NUM	_	6	nummod	_	SpaceAfter=No
+8	;	;	PUNCT	PUNCT	_	9	punct	_	_
+9	הארטס	הארטס	PROPN	PROPN	_	4	conj	_	_
+10	1	1	NUM	NUM	_	9	nummod	_	_
+11	סלטיק	סלטיק	PROPN	PROPN	_	9	nmod	_	_
+12	0	0	NUM	NUM	_	11	nummod	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	4	punct	_	_
+

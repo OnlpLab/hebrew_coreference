@@ -1,0 +1,580 @@
+# doc_id = htb:165_4
+# doc_range = 6590-6766
+# sent_id = 4338
+# text = אנשים רבים, טטרים ורוסים כאחד, חוששים שלשלטונות המקומיים לא יהיו די אמצעים לניהול כלכלה מורכבת.
+1	אנשים	איש	NOUN	NOUN	Gender=Masc|Number=Plur	10	nsubj	_	_
+2	רבים	רב	ADJ	ADJ	Gender=Masc|Number=Plur	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	4	punct	_	_
+4	טטרים	טטארי	ADJ	ADJ	Gender=Masc|Number=Plur	1	appos	_	_
+5-6	ורוסים	_	_	_	_	_	_	_	_
+5	ו	ו	CCONJ	CCONJ	_	6	cc	_	_
+6	רוסים	רוסי	NOUN	NOUN	Gender=Masc|Number=Plur	4	conj	_	_
+7-8	כאחד	_	_	_	_	_	_	_	SpaceAfter=No
+7	כ	כ	ADV	ADV	_	4	advmod	_	_
+8	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	7	fixed	_	_
+9	,	,	PUNCT	PUNCT	_	1	punct	_	_
+10	חוששים	חשש	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+11-14	שלשלטונות	_	_	_	_	_	_	_	_
+11	ש	ש	SCONJ	SCONJ	_	18	mark	_	_
+12	ל	ל	ADP	ADP	_	14	case	_	_
+13	ה_	ה	DET	DET	PronType=Art|Definite=Def	14	det	_	_
+14	שלטונות	שלטון	NOUN	NOUN	Gender=Masc|Number=Plur	18	obl	_	_
+15-16	המקומיים	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	מקומיים	מקומי	ADJ	ADJ	Gender=Masc|Number=Plur	14	amod	_	_
+17	לא	לא	ADV	ADV	Polarity=Neg	18	advmod	_	_
+18	יהיו	היה	VERB	VERB	Gender=Fem,Masc|HebExistential=Yes|Number=Plur|Person=3|Polarity=Pos|Tense=Fut	10	ccomp	_	_
+19	די	די	DET	DET	Definite=Cons	20	det	_	_
+20	אמצעים	אמצעי	NOUN	NOUN	Gender=Masc|Number=Plur	18	nsubj	_	_
+21-22	לניהול	_	_	_	_	_	_	_	_
+21	ל	ל	ADP	ADP	_	22	case	_	_
+22	ניהול	ניהול	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	20	nmod	_	_
+23	כלכלה	כלכלה	NOUN	NOUN	Gender=Fem|Number=Sing	22	compound:smixut	_	_
+24	מורכבת	מורכב	ADJ	ADJ	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:165_4
+# doc_range = 6768-6887
+# sent_id = 4339
+# text = הם מציינים כי לממשלת הרפובליקה אין אפילו מיניסטריון תעשייתי אחד.
+1	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	מציינים	ציין	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+3	כי	כי	SCONJ	SCONJ	_	8	mark	_	_
+4-5	לממשלת	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	ממשלת	ממשלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	8	obl	_	_
+6-7	הרפובליקה	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	רפובליקה	רפובליקה	NOUN	NOUN	Gender=Fem|Number=Sing	5	compound:smixut	_	_
+8	אין	אין	VERB	VERB	HebExistential=Yes	2	ccomp	_	_
+9	אפילו	אפילו	ADV	ADV	_	8	advmod	_	_
+10	מיניסטריון	מיניסטריון	NOUN	NOUN	Gender=Masc|Number=Sing	8	nsubj	_	_
+11	תעשייתי	תעשייתי	ADJ	ADJ	Gender=Masc|Number=Sing	10	amod	_	_
+12	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	10	nummod	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:165_4
+# doc_range = 6890-6972
+# sent_id = 4340
+# text = "כולם מכים על החזה וצווחים על ריבונות כלכלית.
+1	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+2	כולם	כולם	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	מכים	הכה	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4	על	על	ADP	ADP	_	6	case	_	_
+5-6	החזה	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	חזה	חזה	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+7-8	וצווחים	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	8	cc	_	_
+8	צווחים	צווח	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	3	conj	_	_
+9	על	על	ADP	ADP	_	10	case	_	_
+10	ריבונות	ריבונות	NOUN	NOUN	Gender=Fem|Number=Sing	8	obl	_	_
+11	כלכלית	כלכלי	ADJ	ADJ	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:165_4
+# doc_range = 6974-7145
+# sent_id = 4341
+# text = אבל אף אחד אינו יודע איך להשיג זאת", אמר אנדריי גאוורילוב, עורך העיתון היומי "ווצרנאיה קזאן".
+1	אבל	אבל	CCONJ	CCONJ	_	11	cc	_	_
+2	אף	אף	DET	DET	Definite=Cons	3	det	_	_
+3	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	אינו	אינו	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	5	aux	_	_
+5	יודע	ידע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	11	advcl	_	_
+6	איך	איך	ADV	ADV	PronType=Int	5	advcl	_	_
+7	להשיג	השיג	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	7	obj	_	SpaceAfter=No
+9	"	"	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	11	punct	_	_
+11	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+12	אנדריי	אנדריי	PROPN	PROPN	_	11	nsubj	_	_
+13	גאוורילוב	גאוורילוב	PROPN	PROPN	_	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	15	punct	_	_
+15	עורך	עורך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	appos	_	_
+16-17	העיתון	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	עיתון	עיתון	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	_
+18-19	היומי	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	יומי	יומי	ADJ	ADJ	Gender=Masc|Number=Sing	17	amod	_	_
+20	"	"	PUNCT	PUNCT	_	19	punct	_	SpaceAfter=No
+21	ווצרנאיה	ווצרנאיה	PROPN	PROPN	_	17	appos	_	_
+22	קזאן	קזאן	PROPN	PROPN	_	21	flat:name	_	SpaceAfter=No
+23	"	"	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:165_4
+# doc_range = 7148-7184
+# sent_id = 4342
+# text = "אף אחד לא עבד על כך.
+1	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+2	אף	אף	DET	DET	Definite=Cons	3	det	_	_
+3	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	לא	לא	ADV	ADV	Polarity=Neg	5	advmod	_	_
+5	עבד	עבד	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	_
+6	על	על	ADP	ADP	_	7	case	_	_
+7	כך	כך	PRON	PRON	Person=3|PronType=Dem	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:165_4
+# doc_range = 7186-7222
+# sent_id = 4343
+# text = אין להם שום תוכנית".
+1	אין	אין	VERB	VERB	HebExistential=Yes	0	root	_	_
+2-3	להם	_	_	_	_	_	_	_	_
+2	ל	ל	ADP	ADP	_	3	case	_	_
+3	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	obl	_	_
+4	שום	שום	DET	DET	Definite=Cons	5	det	_	_
+5	תוכנית	תוכנית	NOUN	NOUN	Gender=Fem|Number=Sing	1	nsubj	_	SpaceAfter=No
+6	"	"	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:165_4
+# doc_range = 7224-7385
+# sent_id = 4344
+# text = פקידים מקומיים אומרים שעליהם להגיע לעסקה עם מוסקווה לפני שיוכלו להתחיל לתכנן את הכלכלה.
+1	פקידים	פקיד	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
+2	מקומיים	מקומי	ADJ	ADJ	Gender=Masc|Number=Plur	1	amod	_	_
+3	אומרים	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4-6	שעליהם	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	6	mark	_	_
+5	עלי	על	ADP	ADP	_	6	case	_	_
+6	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	ccomp	_	_
+7	להגיע	הגיע	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8-9	לעסקה	_	_	_	_	_	_	_	_
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	עסקה	עסקה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
+10	עם	עם	ADP	ADP	_	11	case	_	_
+11	מוסקווה	מוסקבה	PROPN	PROPN	_	9	nmod	_	_
+12	לפני	לפני	ADP	ADP	_	14	mark	_	_
+13-14	שיוכלו	_	_	_	_	_	_	_	_
+13	ש	ש	SCONJ	SCONJ	_	12	fixed	_	_
+14	יוכלו	יכול	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut|VerbType=Mod	15	advcl	_	_
+15	להתחיל	להתחיל	VERB	VERB	VerbForm=Inf	7	obl	_	_
+16	לתכנן	לתכנן	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	15	dep	_	HebSource=ConvUncertainHead
+17	את	את	ADP	ADP	Case=Acc	19	case	_	_
+18-19	הכלכלה	_	_	_	_	_	_	_	SpaceAfter=No
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	כלכלה	כלכלה	NOUN	NOUN	Gender=Fem|Number=Sing	16	obj	_	_
+20	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:165_4
+# doc_range = 7387-7450
+# sent_id = 4345
+# text = אבל אחרים אומרים שזאת בדיוק הבעיה.
+1	אבל	אבל	CCONJ	CCONJ	_	3	cc	_	_
+2	אחרים	אחר	ADJ	ADJ	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	אומרים	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4-5	שזאת	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
+5	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	_
+6	בדיוק	בדיוק	ADV	ADV	_	8	advmod	_	_
+7-8	הבעיה	_	_	_	_	_	_	_	SpaceAfter=No
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	בעיה	בעיה	NOUN	NOUN	Gender=Fem|Number=Sing	3	ccomp	_	_
+9	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:165_4
+# doc_range = 7452-7675
+# sent_id = 4346
+# text = ריבונות תביא הכנסות מס רבות יותר וכוח השפעה כלכלי רב יותר, ולכן הביורוקרטים לעולם לא יעבירו את המפעלים לשיטת השוק החופשי.
+1	ריבונות	ריבונות	NOUN	NOUN	Gender=Fem|Number=Sing	2	nsubj	_	_
+2	תביא	הביא	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+3	הכנסות	הכנסה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	2	obj	_	_
+4	מס	מס	NOUN	NOUN	Gender=Masc|Number=Sing	3	compound:smixut	_	_
+5	רבות	רב	ADJ	ADJ	Gender=Fem|Number=Plur	3	amod	_	_
+6	יותר	יותר	ADV	ADV	_	5	advmod	_	_
+7-8	וכוח	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	8	cc	_	_
+8	כוח	כוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	conj	_	_
+9	השפעה	השפעה	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound:smixut	_	_
+10	כלכלי	כלכלי	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	_
+11	רב	רב	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	_
+12	יותר	יותר	ADV	ADV	_	11	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	20	punct	_	_
+14-15	ולכן	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+15	לכן	לכן	ADV	ADV	_	20	advmod	_	_
+16-17	הביורוקרטים	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	ביורוקרטים	ביורוקרט	NOUN	NOUN	Gender=Masc|Number=Plur	20	nsubj	_	_
+18	לעולם	לעולם	ADV	ADV	_	19	advmod	_	_
+19	לא	לא	ADV	ADV	Polarity=Neg	20	advmod	_	_
+20	יעבירו	העביר	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Fut|Voice=Act	2	conj	_	_
+21	את	את	ADP	ADP	Case=Acc	23	case	_	_
+22-23	המפעלים	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	מפעלים	מפעל	NOUN	NOUN	Gender=Masc|Number=Plur	20	obj	_	_
+24-25	לשיטת	_	_	_	_	_	_	_	_
+24	ל	ל	ADP	ADP	_	25	case	_	_
+25	שיטת	שיטה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	20	obl	_	_
+26-27	השוק	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	שוק	שוק	NOUN	NOUN	Gender=Masc|Number=Sing	25	compound:smixut	_	_
+28-29	החופשי	_	_	_	_	_	_	_	SpaceAfter=No
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	חופשי	חופשי	ADJ	ADJ	Gender=Masc|Number=Sing	27	amod	_	_
+30	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:165_4
+# doc_range = 7678-7877
+# sent_id = 4347
+# text = "הם רוצים לשמור הכל בידי הממשלה במקום לעבור להפרטה", אומר סולטן סלימזיאנוב, מנכ"ל מפעל מקומי משותף עם פינלנד.
+1	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+2	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	רוצים	רצה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	15	advcl	_	_
+4	לשמור	שמר	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	הכל	הכול	NOUN	NOUN	Gender=Masc|Number=Sing	4	obj	_	_
+6	בידי	בידי	ADP	ADP	_	8	case	_	_
+7-8	הממשלה	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+9	במקום	במקום	ADP	ADP	_	10	case	_	_
+10	לעבור	עבר	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	3	advcl	_	_
+11-12	להפרטה	_	_	_	_	_	_	_	SpaceAfter=No
+11	ל	ל	ADP	ADP	_	12	case	_	_
+12	הפרטה	הפרטה	NOUN	NOUN	Gender=Fem|Number=Sing	10	obl	_	_
+13	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	3	punct	_	_
+15	אומר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+16	סולטן	סולטן	PROPN	PROPN	_	15	nsubj	_	_
+17	סלימזיאנוב	סלימזיאנוב	PROPN	PROPN	_	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	19	punct	_	_
+19	מנכ"ל	מנכ"ל	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	16	appos	_	_
+20	מפעל	מפעל	NOUN	NOUN	Gender=Masc|Number=Sing	19	compound:smixut	_	_
+21	מקומי	מקומי	ADJ	ADJ	Gender=Masc|Number=Sing	20	amod	_	_
+22	משותף	משותף	ADJ	ADJ	Gender=Masc|Number=Sing	20	amod	_	_
+23	עם	עם	ADP	ADP	_	24	case	_	_
+24	פינלנד	פינלנד	PROPN	PROPN	_	22	obl	_	SpaceAfter=No
+25	.	.	PUNCT	PUNCT	_	15	punct	_	_
+
+# doc_id = htb:165_4
+# doc_range = 7879-8004
+# sent_id = 4348
+# text = השאלה מהו היקף הסמכויות שיקבלו הטטרים ממוסקווה נשארה בינתיים פתוחה.
+1-2	השאלה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	שאלה	שאלה	NOUN	NOUN	Gender=Fem|Number=Sing	13	nsubj	_	_
+3	מהו	מה	PRON	PRON	Gender=Masc|Number=Sing|PronType=Int	2	acl:relcl	_	_
+4	היקף	היקף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	nsubj	_	_
+5-6	הסמכויות	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	סמכויות	סמכות	NOUN	NOUN	Gender=Fem|Number=Plur	4	compound:smixut	_	_
+7-8	שיקבלו	_	_	_	_	_	_	_	_
+7	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
+8	יקבלו	קיבל	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	4	acl:relcl	_	_
+9-10	הטטרים	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	טטרים	טטארי	ADJ	ADJ	Gender=Masc|Number=Plur	8	nsubj	_	_
+11-12	ממוסקווה	_	_	_	_	_	_	_	_
+11	מ	מ	ADP	ADP	_	12	case	_	_
+12	מוסקווה	מוסקבה	PROPN	PROPN	_	8	obl	_	_
+13	נשארה	נשאר	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+14	בינתיים	בינתיים	ADV	ADV	_	13	advmod	_	_
+15	פתוחה	פתוח	ADJ	ADJ	Gender=Fem|Number=Sing	13	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# doc_id = htb:165_4
+# doc_range = 8006-8178
+# sent_id = 4349
+# text = קזאן להוטה לחתום על הסכם פדרטיווי חדש עם ילצין (כמו גם על הסכם נפרד עם גורבצוב) ולהתחיל לעבוד.
+1	קזאן	קזאן	PROPN	PROPN	_	2	nsubj	_	_
+2	להוטה	להוט	ADJ	ADJ	Gender=Fem|Number=Sing	0	root	_	_
+3	לחתום	חתם	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	על	על	ADP	ADP	_	5	case	_	_
+5	הסכם	הסכם	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+6	פדרטיווי	פדרטיבי	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	_
+7	חדש	חדש	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	_
+8	עם	עם	ADP	ADP	_	9	case	_	_
+9	ילצין	ילצין	PROPN	PROPN	_	5	nmod	_	_
+10	(	(	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
+11	כמו	כמו	ADP	ADP	_	12	case	_	_
+12	גם	גם	ADV	ADV	_	5	advmod	_	_
+13	על	על	ADP	ADP	_	14	case	_	_
+14	הסכם	הסכם	NOUN	NOUN	Gender=Masc|Number=Sing	12	dep	_	HebSource=ConvUncertainHead
+15	נפרד	נפרד	ADJ	ADJ	Gender=Masc|Number=Sing	14	amod	_	_
+16	עם	עם	ADP	ADP	_	17	case	_	_
+17	גורבצוב	גורבצוב	PROPN	PROPN	_	14	nmod	_	SpaceAfter=No
+18	)	)	PUNCT	PUNCT	_	12	punct	_	_
+19-20	ולהתחיל	_	_	_	_	_	_	_	_
+19	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
+20	להתחיל	להתחיל	VERB	VERB	VerbForm=Inf	3	conj	_	_
+21	לעבוד	עבד	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	20	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:165_4
+# doc_range = 8180-8258
+# sent_id = 4350
+# text = אין רמז לכך שחוזה מעין זה כבר מוכן על הנייר.
+1	אין	אין	VERB	VERB	HebExistential=Yes	0	root	_	_
+2	רמז	רמז	NOUN	NOUN	Gender=Masc|Number=Sing	1	nsubj	_	_
+3-4	לכך	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	4	case	_	_
+4	כך	כך	PRON	PRON	Person=3|PronType=Dem	2	nmod	_	_
+5-6	שחוזה	_	_	_	_	_	_	_	_
+5	ש	ש	SCONJ	SCONJ	_	10	mark	_	_
+6	חוזה	חוזה	NOUN	NOUN	Gender=Masc|Number=Sing	10	nsubj	_	_
+7	מעין	מעין	ADV	ADV	_	8	advmod	_	_
+8	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	det	_	_
+9	כבר	כבר	ADV	ADV	_	10	advmod	_	_
+10	מוכן	מוכן	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	4	acl:relcl	_	_
+11	על	על	ADP	ADP	_	13	case	_	_
+12-13	הנייר	_	_	_	_	_	_	_	SpaceAfter=No
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	נייר	נייר	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
+14	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:165_4
+# doc_range = 8261-8373
+# sent_id = 4351
+# text = "זאת שאלה קשה מאוד", אומר בוריס זולוטוחין, ציר בפרלמנט הרוסי.
+1	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+2	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	_
+3	שאלה	שאלה	NOUN	NOUN	Gender=Fem|Number=Sing	8	advcl	_	_
+4	קשה	קשה	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	_
+5	מאוד	מאוד	ADV	ADV	_	4	advmod	_	SpaceAfter=No
+6	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	3	punct	_	_
+8	אומר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+9	בוריס	בוריס	PROPN	PROPN	_	8	nsubj	_	_
+10	זולוטוחין	זולוטוחין	PROPN	PROPN	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	12	punct	_	_
+12	ציר	ציר	NOUN	NOUN	Gender=Masc|Number=Sing	9	appos	_	_
+13-15	בפרלמנט	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	15	case	_	_
+14	ה_	ה	DET	DET	PronType=Art|Definite=Def	15	det	_	_
+15	פרלמנט	פרלמנט	NOUN	NOUN	Gender=Masc|Number=Sing	12	nmod	_	_
+16-17	הרוסי	_	_	_	_	_	_	_	SpaceAfter=No
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	רוסי	רוסי	ADJ	ADJ	Gender=Masc|Number=Sing	15	amod	_	_
+18	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:165_4
+# doc_range = 8376-8479
+# sent_id = 4352
+# text = "היא כל כך קשה עד שאיש אינו רוצה לעלות לדוכן ולדבר על כך".
+1	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+2	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	כל	כול	DET	DET	Definite=Cons	5	advmod	_	_
+4	כך	כך	ADV	ADV	_	3	fixed	_	_
+5	קשה	קשה	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbType=Mod	0	root	_	_
+6	עד	עד	ADP	ADP	_	10	mark	_	_
+7-8	שאיש	_	_	_	_	_	_	_	_
+7	ש	ש	SCONJ	SCONJ	_	6	fixed	_	_
+8	איש	איש	NOUN	NOUN	Gender=Masc|Number=Sing	10	nsubj	_	_
+9	אינו	אינו	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	10	aux	_	_
+10	רוצה	רצה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	5	advcl	_	_
+11	לעלות	עלה	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12-14	לדוכן	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	_	14	case	_	_
+13	ה_	ה	DET	DET	PronType=Art|Definite=Def	14	det	_	_
+14	דוכן	דוכן	NOUN	NOUN	Gender=Masc|Number=Sing	11	obl	_	_
+15-16	ולדבר	_	_	_	_	_	_	_	_
+15	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+16	לדבר	דיבר	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	11	conj	_	_
+17	על	על	ADP	ADP	_	18	case	_	_
+18	כך	כך	PRON	PRON	Person=3|PronType=Dem	16	obl	_	SpaceAfter=No
+19	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:165_4
+# doc_range = 8481-8582
+# sent_id = 4353
+# text = פקידי ממשלה רוסים מזהירים שריבונות לא תביא עמה רק ברכה.
+1	פקידי	פקיד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	dep	_	_
+2	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+3	רוסים	רוסי	ADJ	ADJ	Gender=Masc|Number=Plur	1	amod	_	_
+4	מזהירים	הזהיר	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+5-6	שריבונות	_	_	_	_	_	_	_	_
+5	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
+6	ריבונות	ריבונות	NOUN	NOUN	Gender=Fem|Number=Sing	8	nsubj	_	_
+7	לא	לא	ADV	ADV	Polarity=Neg	8	advmod	_	_
+8	תביא	הביא	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	4	ccomp	_	_
+9-10	עמה	_	_	_	_	_	_	_	_
+9	עם	עם	ADP	ADP	_	10	case	_	_
+10	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obl	_	_
+11	רק	רק	ADV	ADV	_	12	advmod	_	_
+12	ברכה	ברכה	NOUN	NOUN	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:165_4
+# doc_range = 8585-8747
+# sent_id = 4354
+# text = "הם רוצים את ההכנסה שלהם", אומר ויטלי סירובאטקו, סגן יו"ר בית צירי הלאומים בפרלמנט הרוסי.
+1	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+2	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	advcl	_	_
+3	רוצים	רצה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	2	dep	_	HebSource=ConvUncertainHead
+4	את	את	ADP	ADP	Case=Acc	6	case	_	_
+5-6	ההכנסה	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	הכנסה	הכנסה	NOUN	NOUN	Gender=Fem|Number=Sing	2	dep	_	HebSource=ConvUncertainHead
+7-8	שלהם	_	_	_	_	_	_	_	SpaceAfter=No
+7	של	של	ADP	ADP	Case=Gen	8	case	_	_
+8	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+9	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	2	punct	_	_
+11	אומר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+12	ויטלי	ויטלי	PROPN	PROPN	_	11	nsubj	_	_
+13	סירובאטקו	סירובאטקו	PROPN	PROPN	_	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	15	punct	_	_
+15	סגן	סגן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	appos	_	_
+16	יו"ר	יו"ר	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	15	compound:smixut	_	_
+17	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	16	compound:smixut	_	_
+18	צירי	ציר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	17	compound:smixut	_	_
+19-20	הלאומים	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	לאומים	לאום	NOUN	NOUN	Gender=Masc|Number=Plur	18	compound:smixut	_	_
+21-23	בפרלמנט	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	23	case	_	_
+22	ה_	ה	DET	DET	PronType=Art|Definite=Def	23	det	_	_
+23	פרלמנט	פרלמנט	NOUN	NOUN	Gender=Masc|Number=Sing	15	nmod	_	_
+24-25	הרוסי	_	_	_	_	_	_	_	SpaceAfter=No
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	רוסי	רוסי	ADJ	ADJ	Gender=Masc|Number=Sing	23	amod	_	_
+26	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:165_4
+# doc_range = 8750-8844
+# sent_id = 4355
+# text = "אבל הם גם יצטרכו עכשיו לממן בעצמם את ההוצאות שלהם".
+1	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+2	אבל	אבל	CCONJ	CCONJ	_	5	cc	_	_
+3	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+4	גם	גם	ADV	ADV	_	5	advmod	_	_
+5	יצטרכו	הצטרך	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Fut	0	root	_	_
+6	עכשיו	עכשיו	ADV	ADV	_	5	advmod	_	_
+7	לממן	מימן	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+8-9	בעצמם	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	עצמם	עצמו	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	7	obl	_	_
+10	את	את	ADP	ADP	Case=Acc	12	case	_	_
+11-12	ההוצאות	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	הוצאות	הוצאה	NOUN	NOUN	Gender=Fem|Number=Plur	7	obj	_	_
+13-14	שלהם	_	_	_	_	_	_	_	SpaceAfter=No
+13	של	של	ADP	ADP	Case=Gen	14	case	_	_
+14	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+15	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:165_4
+# doc_range = 8846-8988
+# sent_id = 4356
+# text = פקידים גם חוששים מאפליית רוסים החיים בקרב מיעוטים לאומיים המקבלים אוטונומיה.
+1	פקידים	פקיד	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
+2	גם	גם	ADV	ADV	_	3	advmod	_	_
+3	חוששים	חשש	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4-5	מאפליית	_	_	_	_	_	_	_	_
+4	מ	מ	ADP	ADP	_	5	case	_	_
+5	אפליית	אפליה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	obl	_	_
+6	רוסים	רוסי	NOUN	NOUN	Gender=Masc|Number=Plur	5	compound:smixut	_	_
+7-8	החיים	_	_	_	_	_	_	_	_
+7	ה	ה	SCONJ	SCONJ	_	8	mark	_	_
+8	חיים	חי	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	6	acl:relcl	_	_
+9	בקרב	בקרב	ADP	ADP	_	10	case	_	_
+10	מיעוטים	מיעוט	NOUN	NOUN	Gender=Masc|Number=Plur	8	obl	_	_
+11	לאומיים	לאומי	ADJ	ADJ	Gender=Masc|Number=Plur	10	amod	_	_
+12-13	המקבלים	_	_	_	_	_	_	_	_
+12	ה	ה	SCONJ	SCONJ	_	13	mark	_	_
+13	מקבלים	קיבל	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	10	acl:relcl	_	_
+14	אוטונומיה	אוטונומיה	NOUN	NOUN	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:165_4
+# doc_range = 8990-9152
+# sent_id = 4357
+# text = הרוסים בטטרסטן יצאו למלחמת חורמה נגד חוק חדש ההופך את הטטרית לשפה רשמית שנייה ברפובליקה.
+1-2	הרוסים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	רוסים	רוסי	NOUN	NOUN	Gender=Masc|Number=Plur	5	nsubj	_	_
+3-4	בטטרסטן	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	טטרסטן	טטרסטן	PROPN	PROPN	_	2	nmod	_	_
+5	יצאו	יצא	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	0	root	_	_
+6-7	למלחמת	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	מלחמת	מלחמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	obl	_	_
+8	חורמה	חורמה	NOUN	NOUN	Gender=Fem|Number=Sing	7	compound:smixut	_	_
+9	נגד	נגד	ADP	ADP	_	10	case	_	_
+10	חוק	חוק	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
+11	חדש	חדש	ADJ	ADJ	Gender=Masc|Number=Sing	10	amod	_	_
+12-13	ההופך	_	_	_	_	_	_	_	_
+12	ה	ה	SCONJ	SCONJ	_	13	mark	_	_
+13	הופך	הפך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	10	acl:relcl	_	_
+14	את	את	ADP	ADP	Case=Acc	16	case	_	_
+15-16	הטטרית	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	טטרית	טטרי	NOUN	NOUN	Gender=Fem|Number=Sing	13	obj	_	_
+17-18	לשפה	_	_	_	_	_	_	_	_
+17	ל	ל	ADP	ADP	_	18	case	_	_
+18	שפה	שפה	NOUN	NOUN	Gender=Fem|Number=Sing	13	obl	_	_
+19	רשמית	רשמי	ADJ	ADJ	Gender=Fem|Number=Sing	18	amod	_	_
+20	שנייה	שני	ADJ	ADJ	Gender=Fem|Number=Sing	18	amod	_	_
+21-23	ברפובליקה	_	_	_	_	_	_	_	SpaceAfter=No
+21	ב	ב	ADP	ADP	_	23	case	_	_
+22	ה_	ה	DET	DET	PronType=Art|Definite=Def	23	det	_	_
+23	רפובליקה	רפובליקה	NOUN	NOUN	Gender=Fem|Number=Sing	18	nmod	_	_
+24	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:165_4
+# doc_range = 9155-9252
+# sent_id = 4358
+# text = "איזו תועלת תהיה לילדים שלי מטטרית בכל מקום אחר בעולם?
+1	"	"	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+2	איזו	איזה	DET	DET	PronType=Int	3	det	_	_
+3	תועלת	תועלת	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	תהיה	היה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	0	root	_	_
+5-7	לילדים	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	7	case	_	_
+6	ה_	ה	DET	DET	PronType=Art|Definite=Def	7	det	_	_
+7	ילדים	ילד	NOUN	NOUN	Gender=Masc|Number=Plur	4	obl	_	_
+8-9	שלי	_	_	_	_	_	_	_	_
+8	של	של	ADP	ADP	Case=Gen	9	case	_	_
+9	_אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+10-11	מטטרית	_	_	_	_	_	_	_	_
+10	מ	מ	ADP	ADP	_	11	case	_	_
+11	טטרית	טטרי	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+12-13	בכל	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	14	case	_	_
+13	כל	כול	DET	DET	Definite=Cons	14	det	_	_
+14	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+15	אחר	אחר	ADJ	ADJ	Gender=Masc|Number=Sing	14	amod	_	_
+16-18	בעולם	_	_	_	_	_	_	_	SpaceAfter=No
+16	ב	ב	ADP	ADP	_	18	case	_	_
+17	ה_	ה	DET	DET	PronType=Art|Definite=Def	18	det	_	_
+18	עולם	עולם	NOUN	NOUN	Gender=Masc|Number=Sing	14	nmod	_	_
+19	?	?	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:165_4
+# doc_range = 9255-9333
+# sent_id = 4359
+# text = " שואל יורי וורונין, חבר פרלמנט רוסי מקזאן.
+1	"	"	PUNCT	PUNCT	_	2	punct	_	_
+2	שואל	שאל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+3	יורי	יורי	PROPN	PROPN	_	2	nsubj	_	_
+4	וורונין	וורונין	PROPN	PROPN	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	6	punct	_	_
+6	חבר	חבר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	appos	_	_
+7	פרלמנט	פרלמנט	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+8	רוסי	רוסי	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	_
+9-10	מקזאן	_	_	_	_	_	_	_	SpaceAfter=No
+9	מ	מ	ADP	ADP	_	10	case	_	_
+10	קזאן	מקזאן	PROPN	PROPN	_	6	nmod	_	_
+11	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:165_4
+# doc_range = 9336-9391
+# sent_id = 4360
+# text = "אין שום טעם להקים סביבנו גדר".
+1	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+2	אין	אין	VERB	VERB	HebExistential=Yes	0	root	_	_
+3	שום	שום	DET	DET	Definite=Cons	4	det	_	_
+4	טעם	טעם	NOUN	NOUN	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	להקים	הקים	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	4	acl	_	_
+6-7	סביבנו	_	_	_	_	_	_	_	_
+6	סביב	סביב	ADP	ADP	_	7	case	_	_
+7	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	5	obl	_	_
+8	גדר	גדר	NOUN	NOUN	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+9	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	2	punct	_	_
+

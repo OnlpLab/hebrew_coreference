@@ -1,0 +1,351 @@
+# doc_id = htb:190
+# doc_range = 1-163
+# sent_id = 4931
+# text = המשפחות שנותרו עדיין במאהל מעברת הכנסת בירושלים, נערכות לקראת החורף ולהמשך שהייה במקום.
+1-2	המשפחות	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	משפחות	משפחה	NOUN	NOUN	Gender=Fem|Number=Plur	14	nsubj	_	_
+3-4	שנותרו	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
+4	נותרו	נותר	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	2	acl:relcl	_	_
+5	עדיין	עדיין	ADV	ADV	_	4	advmod	_	_
+6-7	במאהל	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	מאהל	מאהל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	obl	_	_
+8	מעברת	מעברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	compound:smixut	_	_
+9-10	הכנסת	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	כנסת	כנסת	PROPN	PROPN	_	8	compound:smixut	_	_
+11-12	בירושלים	_	_	_	_	_	_	_	SpaceAfter=No
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	ירושלים	ירושלים	PROPN	PROPN	_	8	nmod	_	_
+13	,	,	PUNCT	PUNCT	_	2	punct	_	_
+14	נערכות	נערך	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	0	root	_	_
+15	לקראת	לקראת	ADP	ADP	_	17	case	_	_
+16-17	החורף	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	חורף	חורף	NOUN	NOUN	Gender=Masc|Number=Sing	14	obl	_	_
+18-20	ולהמשך	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
+19	ל	ל	ADP	ADP	_	20	case	_	_
+20	המשך	המשך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	conj	_	_
+21	שהייה	שהייה	NOUN	NOUN	Gender=Fem|Number=Sing	20	compound:smixut	_	_
+22-24	במקום	_	_	_	_	_	_	_	SpaceAfter=No
+22	ב	ב	ADP	ADP	_	24	case	_	_
+23	ה_	ה	DET	DET	PronType=Art|Definite=Def	24	det	_	_
+24	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	21	nmod	_	_
+25	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# doc_id = htb:190
+# doc_range = 166-318
+# sent_id = 4932
+# text = 13 מן המשפחות עקרו בינתיים מן האוהלים הקטנים לאוהלים גדולים בני 25 מ"ר ש התקבלו כתרומה.
+1	13	13	NUM	NUM	_	4	nummod	_	_
+2	מן	מן	ADP	ADP	_	4	case	_	_
+3-4	המשפחות	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	משפחות	משפחה	NOUN	NOUN	Gender=Fem|Number=Plur	5	nsubj	_	_
+5	עקרו	עקר	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	0	root	_	_
+6	בינתיים	בינתיים	ADV	ADV	_	5	advmod	_	_
+7	מן	מן	ADP	ADP	_	9	case	_	_
+8-9	האוהלים	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	אוהלים	אוהל	NOUN	NOUN	Gender=Masc|Number=Plur	5	obl	_	_
+10-11	הקטנים	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	קטנים	קטן	ADJ	ADJ	Gender=Masc|Number=Plur	9	amod	_	_
+12-13	לאוהלים	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	_	13	case	_	_
+13	אוהלים	אוהל	NOUN	NOUN	Gender=Masc|Number=Plur	5	obl	_	_
+14	גדולים	גדול	ADJ	ADJ	Gender=Masc|Number=Plur	13	amod	_	_
+15	בני	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	13	acl	_	_
+16	25	25	NUM	NUM	_	17	nummod	_	_
+17	מ"ר	מ"ר	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	15	compound:smixut	_	_
+18	ש	ש	SCONJ	SCONJ	_	19	mark	_	_
+19	התקבלו	התקבל	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	13	acl:relcl	_	_
+20-21	כתרומה	_	_	_	_	_	_	_	SpaceAfter=No
+20	כ	כ	ADP	ADP	_	21	case	_	_
+21	תרומה	תרומה	NOUN	NOUN	Gender=Fem|Number=Sing	19	obl	_	_
+22	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:190
+# doc_range = 320-457
+# sent_id = 4933
+# text = אוהלים אלה הוצבו על משטחי בטון, המונעים חלחול מי הגשמים אל תוך האוהל מלמטה.
+1	אוהלים	אוהל	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+2	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	1	det	_	_
+3	הוצבו	הוצב	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+4	על	על	ADP	ADP	_	5	case	_	_
+5	משטחי	משטח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	3	obl	_	_
+6	בטון	בטון	NOUN	NOUN	_	5	compound:smixut	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	9	punct	_	_
+8-9	המונעים	_	_	_	_	_	_	_	_
+8	ה	ה	SCONJ	SCONJ	_	9	mark	_	_
+9	מונעים	מנע	VERB	VERB	Gender=Masc|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	5	acl:relcl	_	_
+10	חלחול	חלחול	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	obj	_	_
+11	מי	מים	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	10	compound:smixut	_	_
+12-13	הגשמים	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	גשמים	גשם	NOUN	NOUN	Gender=Masc|Number=Plur	11	compound:smixut	_	_
+14	אל	אל	ADP	ADP	_	17	case	_	_
+15	תוך	תוך	ADP	ADP	_	14	fixed	_	_
+16-17	האוהל	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	אוהל	אוהל	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod	_	_
+18	מלמטה	מלמטה	ADV	ADV	_	9	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:190
+# doc_range = 459-600
+# sent_id = 4934
+# text = עם זאת, עמדו האוהלים החדשים חלקית בלבד במבחן הגשם העז הראשון שירד על ירושלים.
+1	עם	עם	ADP	ADP	_	2	case	_	_
+2	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	4	obl	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
+4	עמדו	עמד	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	0	root	_	_
+5-6	האוהלים	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	אוהלים	אוהל	NOUN	NOUN	Gender=Masc|Number=Plur	4	nsubj	_	_
+7-8	החדשים	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	חדשים	חדש	ADJ	ADJ	Gender=Masc|Number=Plur	6	amod	_	_
+9	חלקית	חלקית	ADV	ADV	_	4	advmod	_	_
+10	בלבד	בלבד	ADV	ADV	_	9	fixed	_	_
+11-12	במבחן	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	מבחן	מבחן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	obl	_	_
+13-14	הגשם	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	גשם	גשם	NOUN	NOUN	Gender=Masc|Number=Sing	12	compound:smixut	_	_
+15-16	העז	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	עז	עז	ADJ	ADJ	Gender=Masc|Number=Sing	14	amod	_	_
+17-18	הראשון	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	ראשון	ראשון	ADJ	ADJ	Gender=Masc|Number=Sing	14	amod	_	_
+19-20	שירד	_	_	_	_	_	_	_	_
+19	ש	ש	SCONJ	SCONJ	_	20	mark	_	_
+20	ירד	ירד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	12	acl:relcl	_	_
+21	על	על	ADP	ADP	_	22	case	_	_
+22	ירושלים	ירושלים	PROPN	PROPN	_	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:190
+# doc_range = 602-793
+# sent_id = 4935
+# text = האוהלים מונעים אומנם חדירת הגשמים, אולם המים נספגו בבד והוסיפו על הקור העז השורר בלילות בירושלים ממילא.
+1-2	האוהלים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	אוהלים	אוהל	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	מונעים	מנע	VERB	VERB	Gender=Masc|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+4	אומנם	אומנם	ADV	ADV	_	3	advmod	_	_
+5	חדירת	חדירה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	obj	_	_
+6-7	הגשמים	_	_	_	_	_	_	_	SpaceAfter=No
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	גשמים	גשם	NOUN	NOUN	Gender=Masc|Number=Plur	5	compound:smixut	_	_
+8	,	,	PUNCT	PUNCT	_	12	punct	_	_
+9	אולם	אולם	CCONJ	CCONJ	_	12	cc	_	_
+10-11	המים	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	מים	מים	NOUN	NOUN	Gender=Masc|Number=Plur	12	nsubj	_	_
+12	נספגו	נספג	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	3	conj	_	_
+13-15	בבד	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	15	case	_	_
+14	ה_	ה	DET	DET	PronType=Art|Definite=Def	15	det	_	_
+15	בד	בד	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
+16-17	והוסיפו	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+17	הוסיפו	הוסיף	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	12	conj	_	_
+18	על	על	ADP	ADP	_	20	case	_	_
+19-20	הקור	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	קור	קור	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	_
+21-22	העז	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	עז	עז	ADJ	ADJ	Gender=Masc|Number=Sing	20	amod	_	_
+23-24	השורר	_	_	_	_	_	_	_	_
+23	ה	ה	SCONJ	SCONJ	_	24	mark	_	_
+24	שורר	שרר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	20	acl:relcl	_	_
+25-27	בלילות	_	_	_	_	_	_	_	_
+25	ב	ב	ADP	ADP	_	27	case	_	_
+26	ה_	ה	DET	DET	PronType=Art|Definite=Def	27	det	_	_
+27	לילות	לילה	NOUN	NOUN	Gender=Masc|Number=Plur	24	obl	_	_
+28-29	בירושלים	_	_	_	_	_	_	_	_
+28	ב	ב	ADP	ADP	_	29	case	_	_
+29	ירושלים	ירושלים	PROPN	PROPN	_	27	nmod	_	_
+30	ממילא	ממילא	ADV	ADV	_	20	advmod	_	SpaceAfter=No
+31	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:190
+# doc_range = 795-919
+# sent_id = 4936
+# text = בסוף השבוע, נפרשו על האוהלים יריעות ניילון, שתרם קיבוץ נאות-מרדכי.
+1-2	בסוף	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	סוף	סוף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	obl	_	_
+3-4	השבוע	_	_	_	_	_	_	_	SpaceAfter=No
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+5	,	,	PUNCT	PUNCT	_	2	punct	_	_
+6	נפרשו	נפרש	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+7	על	על	ADP	ADP	_	9	case	_	_
+8-9	האוהלים	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	אוהלים	אוהל	NOUN	NOUN	Gender=Masc|Number=Plur	6	obl	_	_
+10	יריעות	יריעה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	6	nsubj	_	_
+11	ניילון	ניילון	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	14	punct	_	_
+13-14	שתרם	_	_	_	_	_	_	_	_
+13	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
+14	תרם	תרם	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	11	acl:relcl	_	_
+15	קיבוץ	קיבוץ	NOUN	NOUN	Gender=Masc|Number=Sing	14	nsubj	_	_
+16	נאות	נאות	PROPN	PROPN	_	15	flat:name	_	SpaceAfter=No
+17	-	-	PUNCT	PUNCT	_	18	punct	_	SpaceAfter=No
+18	מרדכי	מרדכי	PROPN	PROPN	_	16	flat:name	_	SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:190
+# doc_range = 921-1096
+# sent_id = 4937
+# text = עד כה דחו המשפחות במאהל את הצעות משרד השיכון לסיוע בשכר דירה, משום החשש שמדובר בפתרון זמני בלבד.
+1	עד	עד	ADV	ADV	_	3	advmod	_	_
+2	כה	כה	ADV	ADV	_	1	fixed	_	_
+3	דחו	דחה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4-5	המשפחות	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	משפחות	משפחה	NOUN	NOUN	Gender=Fem|Number=Plur	3	nsubj	_	_
+6-8	במאהל	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	8	case	_	_
+7	ה_	ה	DET	DET	PronType=Art|Definite=Def	8	det	_	_
+8	מאהל	מאהל	NOUN	NOUN	Gender=Masc|Number=Sing	5	nmod	_	_
+9	את	את	ADP	ADP	Case=Acc	10	case	_	_
+10	הצעות	הצעה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	3	obj	_	_
+11	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	compound:smixut	_	_
+12-13	השיכון	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	שיכון	שיכון	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound:smixut	_	_
+14-15	לסיוע	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	סיוע	סיוע	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod	_	_
+16-17	בשכר	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	שכר	שכר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	15	nmod	_	_
+18	דירה	דירה	NOUN	NOUN	Gender=Fem|Number=Sing	17	compound:smixut	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	22	punct	_	_
+20	משום	משום	SCONJ	SCONJ	_	22	case	_	_
+21-22	החשש	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	חשש	חשש	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+23-24	שמדובר	_	_	_	_	_	_	_	_
+23	ש	ש	SCONJ	SCONJ	_	24	mark	_	_
+24	מדובר	דובר	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	22	acl:relcl	_	_
+25-26	בפתרון	_	_	_	_	_	_	_	_
+25	ב	ב	ADP	ADP	_	26	case	_	_
+26	פתרון	פתרון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	24	obl	_	_
+27	זמני	זמני	ADJ	ADJ	Gender=Masc|Number=Sing	26	amod	_	_
+28	בלבד	בלבד	ADV	ADV	_	27	advmod	_	SpaceAfter=No
+29	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:190
+# doc_range = 1098-1258
+# sent_id = 4938
+# text = השבוע, אמורה עיריית ירושלים להציע למשרד השיכון ארבעה אתרים חלופיים להצבתם של קרוואנים.
+1	השבוע	השבוע	ADV	ADV	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3	אמורה	אמור	AUX	AUX	Gender=Fem|Number=Sing|Person=1,2,3|VerbType=Mod	6	aux	_	_
+4	עיריית	עירייה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	nsubj	_	_
+5	ירושלים	ירושלים	PROPN	PROPN	_	4	compound:smixut	_	_
+6	להציע	הציע	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	0	root	_	_
+7-8	למשרד	_	_	_	_	_	_	_	_
+7	ל	ל	ADP	ADP	_	8	case	_	_
+8	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	obl	_	_
+9-10	השיכון	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	שיכון	שיכון	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound:smixut	_	_
+11	ארבעה	ארבע	NUM	NUM	Gender=Masc|Number=Sing	12	nummod	_	_
+12	אתרים	אתר	NOUN	NOUN	Gender=Masc|Number=Plur	6	obl	_	_
+13	חלופיים	חלופי	ADJ	ADJ	Gender=Masc|Number=Plur	12	amod	_	_
+14-17	להצבתם	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	הצבה	הצבה	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	_
+16	_של_	של	ADP	ADP	Case=Gen	17	case:gen	_	_
+17	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+18	של	של	ADP	ADP	Case=Gen	19	case	_	_
+19	קרוואנים	קרוואן	NOUN	NOUN	Gender=Masc|Number=Plur	15	nmod:poss	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:190
+# doc_range = 1260-1364
+# sent_id = 4939
+# text = כמו כן, הבטיחה העירייה להתקין בדחיפות תאורת חוצות במאהל.
+1	כמו	כמו	ADP	ADP	_	2	case	_	_
+2	כן	כן	ADV	ADV	_	4	obl	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
+4	הבטיחה	הבטיח	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5-6	העירייה	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	עירייה	עירייה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
+7	להתקין	התקין	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+8-9	בדחיפות	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	דחיפות	דחיפות	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
+10	תאורת	תאורה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	obj	_	_
+11	חוצות	חוצות	NOUN	NOUN	Gender=Masc|Number=Plur	10	compound:smixut	_	_
+12-14	במאהל	_	_	_	_	_	_	_	SpaceAfter=No
+12	ב	ב	ADP	ADP	_	14	case	_	_
+13	ה_	ה	DET	DET	PronType=Art|Definite=Def	14	det	_	_
+14	מאהל	מאהל	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
+15	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:190
+# doc_range = 1366-1549
+# sent_id = 4940
+# text = זאת, עקב המצב הביטחוני בבירה המעורר חרדה אצל דיירי המאהל וילדיהם, השרויים בלילה בחושך, באתר המבודד.
+1	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3	עקב	עקב	ADP	ADP	_	5	case	_	_
+4-5	המצב	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	מצב	מצב	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+6-7	הביטחוני	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	ביטחוני	בטחוני	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	_
+8-10	בבירה	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	10	case	_	_
+9	ה_	ה	DET	DET	PronType=Art|Definite=Def	10	det	_	_
+10	בירה	בירה	NOUN	NOUN	Gender=Fem|Number=Sing	5	nmod	_	_
+11-12	המעורר	_	_	_	_	_	_	_	_
+11	ה	ה	SCONJ	SCONJ	_	12	mark	_	_
+12	מעורר	עורר	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	5	acl:relcl	_	_
+13	חרדה	חרדה	NOUN	NOUN	Gender=Fem|Number=Sing	12	obj	_	_
+14	אצל	אצל	ADP	ADP	_	15	case	_	_
+15	דיירי	דייר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	12	obl	_	_
+16-17	המאהל	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	מאהל	מאהל	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	_
+18-20	וילדיהם	_	_	_	_	_	_	_	SpaceAfter=No
+18	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+19	ילדי	ילד	NOUN	NOUN	Gender=Masc|Number=Plur	15	conj	_	_
+20	הם	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+21	,	,	PUNCT	PUNCT	_	23	punct	_	_
+22-23	השרויים	_	_	_	_	_	_	_	_
+22	ה	ה	SCONJ	SCONJ	Definite=Def|PronType=Art	23	mark	_	_
+23	שרויים	שרוי	VERB	VERB	Tense=Pres|VerbForm=Part	15	acl:relcl	_	_
+24-26	בלילה	_	_	_	_	_	_	_	_
+24	ב	ב	ADP	ADP	_	26	case	_	_
+25	ה_	ה	DET	DET	PronType=Art|Definite=Def	26	det	_	_
+26	לילה	לילה	NOUN	NOUN	Gender=Masc|Number=Sing	23	obl	_	_
+27-29	בחושך	_	_	_	_	_	_	_	SpaceAfter=No
+27	ב	ב	ADP	ADP	_	29	case	_	_
+28	ה_	ה	DET	DET	PronType=Art|Definite=Def	29	det	_	_
+29	חושך	חושך	NOUN	NOUN	Gender=Masc|Number=Sing	23	obl	_	_
+30	,	,	PUNCT	PUNCT	_	33	punct	_	_
+31-33	באתר	_	_	_	_	_	_	_	_
+31	ב	ב	ADP	ADP	_	33	case	_	_
+32	ה_	ה	DET	DET	PronType=Art|Definite=Def	33	det	_	_
+33	אתר	אתר	NOUN	NOUN	Gender=Masc|Number=Sing	23	obl	_	_
+34-35	המבודד	_	_	_	_	_	_	_	SpaceAfter=No
+34	ה	ה	DET	DET	Definite=Def|PronType=Art	35	det	_	_
+35	מבודד	מבודד	ADJ	ADJ	Gender=Masc|Number=Sing	33	amod	_	_
+36	.	.	PUNCT	PUNCT	_	5	punct	_	_
+

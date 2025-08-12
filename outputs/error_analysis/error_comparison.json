@@ -1,0 +1,41 @@
+{
+  "total_errors": {
+    "Lingmess Coref": 393,
+    "LLM Raw Text": 451,
+    "LLM Gold Mentions": 445
+  },
+  "error_type_distribution": {
+    "Lingmess Coref": {
+      "partial_match": 195,
+      "no_prediction": 176,
+      "correct": 61,
+      "over_prediction": 22
+    },
+    "LLM Raw Text": {
+      "no_prediction": 271,
+      "partial_match": 180,
+      "correct": 3
+    },
+    "LLM Gold Mentions": {
+      "partial_match": 372,
+      "correct": 9,
+      "over_prediction": 69,
+      "no_prediction": 4
+    }
+  },
+  "severity_distribution": {
+    "Lingmess Coref": {
+      "medium": 195,
+      "high": 198
+    },
+    "LLM Raw Text": {
+      "high": 271,
+      "medium": 180
+    },
+    "LLM Gold Mentions": {
+      "medium": 372,
+      "high": 73
+    }
+  },
+  "common_error_patterns": {}
+}

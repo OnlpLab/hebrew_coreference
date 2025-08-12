@@ -1,0 +1,57 @@
+# doc_id = htb:250
+# doc_range = 1-45
+# sent_id = 6214
+# text = כמו שיעולים, שלשול וחום.
+1	כמו	כמו	ADP	ADP	_	2	case	_	_
+2	שיעולים	שיעול	NOUN	NOUN	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	4	punct	_	_
+4	שלשול	שלשול	NOUN	NOUN	Gender=Masc|Number=Sing	2	conj	_	_
+5-6	וחום	_	_	_	_	_	_	_	SpaceAfter=No
+5	ו	ו	CCONJ	CCONJ	_	6	cc	_	_
+6	חום	חום	NOUN	NOUN	Gender=Masc|Number=Sing	2	conj	_	_
+7	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:250
+# doc_range = 47-197
+# sent_id = 6215
+# text = הוריהם האמינו ברפואה המודרנית והרופאים המליצו על פאראצטמול, תרופה דמוית אספירין.
+1-2	הוריהם	_	_	_	_	_	_	_	_
+1	הורי	הורה	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
+2	הם	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	1	nmod:poss	_	_
+3	האמינו	האמין	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4-6	ברפואה	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	6	case	_	_
+5	ה_	ה	DET	DET	PronType=Art|Definite=Def	6	det	_	_
+6	רפואה	רפואה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+7-8	המודרנית	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	מודרנית	מודרני	ADJ	ADJ	Gender=Fem|Number=Sing	6	amod	_	_
+9-11	והרופאים	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	רופאים	רופא	NOUN	NOUN	Gender=Masc|Number=Plur	12	nsubj	_	_
+12	המליצו	המליץ	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	3	conj	_	_
+13	על	על	ADP	ADP	_	14	case	_	_
+14	פאראצטמול	פאראצטמול	PROPN	PROPN	_	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	16	punct	_	_
+16	תרופה	תרופה	NOUN	NOUN	Gender=Fem|Number=Sing	14	appos	_	_
+17	דמוית	דמוי	ADJ	ADJ	Definite=Cons|Gender=Fem|Number=Sing	16	amod	_	_
+18	אספירין	אספירין	NOUN	NOUN	Gender=Masc|Number=Sing	17	compound:smixut	_	SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:250
+# doc_range = 199-249
+# sent_id = 6216
+# text = העצה היתה טובה אך לא התרופה.
+1-2	העצה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	עצה	עצה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	היתה	היה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	4	cop	_	_
+4	טובה	טוב	ADJ	ADJ	Gender=Fem|Number=Sing	0	root	_	_
+5	אך	אך	CCONJ	CCONJ	_	6	cc	_	_
+6	לא	לא	ADV	ADV	Polarity=Neg	4	conj	_	_
+7-8	התרופה	_	_	_	_	_	_	_	SpaceAfter=No
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	תרופה	תרופה	NOUN	NOUN	Gender=Fem|Number=Sing	6	dep	_	HebSource=ConvUncertainHead
+9	.	.	PUNCT	PUNCT	_	4	punct	_	_
+

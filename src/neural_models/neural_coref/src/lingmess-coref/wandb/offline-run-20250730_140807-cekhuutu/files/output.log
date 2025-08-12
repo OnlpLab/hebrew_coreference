@@ -1,0 +1,70 @@
+
+The device used is: mps
+07/30/2025 14:08:12 - INFO - coref_dataset -   Creating batches for 301 examples...
+0it [00:00, ?it/s]You're using a BertTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+301it [00:00, 830.57it/s]
+07/30/2025 14:08:13 - INFO - coref_dataset -   301 batches created.
+07/30/2025 14:08:13 - INFO - __main__ -   Dataset({
+    features: ['doc_key', 'tokens', 'input_ids', 'gold_clusters', 'subtoken_map', 'new_token_map', 'num_clusters', 'max_cluster_size', 'length', 'attention_mask', 'leftovers'],
+    num_rows: 301
+})
+/Users/s0g0a87/miniforge3/envs/neural_hebrew_coref/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+/Users/s0g0a87/studies/neural_hebrew_coref/src/lingmess-coref/training.py:48: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler()
+/Users/s0g0a87/miniforge3/envs/neural_hebrew_coref/lib/python3.8/site-packages/torch/amp/grad_scaler.py:132: UserWarning: torch.cuda.amp.GradScaler is enabled, but CUDA is not available.  Disabling.
+  warnings.warn(
+07/30/2025 14:08:14 - INFO - training -   ***** Running training *****
+07/30/2025 14:08:14 - INFO - training -     Num Epochs = 50
+07/30/2025 14:08:14 - INFO - training -     Total optimization steps = 15050
+Epoch:   0%|                                                                                                                         | 0/50 [00:00<?, ?it/s]07/30/2025 14:08:14 - INFO - training -   Step 0: outputs type: <class 'tuple'>, length: 3
+07/30/2025 14:08:14 - INFO - training -   Step 0: loss type: <class 'torch.Tensor'>, value: 1751.874267578125                       | 0/301 [00:00<?, ?it/s]
+/Users/s0g0a87/miniforge3/envs/neural_hebrew_coref/lib/python3.8/site-packages/torch/optim/lr_scheduler.py:216: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+                                                                                                                                                            07/30/2025 14:08:15 - INFO - training -   Step 1: outputs type: <class 'tuple'>, length: 3
+07/30/2025 14:08:15 - INFO - training -   Step 1: loss type: <class 'torch.Tensor'>, value: 1206.016357421875               | 1/301 [00:01<06:43,  1.35s/it]
+                                                                                                                                                            07/30/2025 14:08:16 - INFO - training -   Step 2: outputs type: <class 'tuple'>, length: 3
+07/30/2025 14:08:16 - INFO - training -   Step 2: loss type: <class 'torch.Tensor'>, value: 1349.777099609375               | 2/301 [00:02<04:54,  1.01it/s]
+                                                                                                                                                            07/30/2025 14:08:17 - INFO - training -   Step 3: outputs type: <class 'tuple'>, length: 3
+07/30/2025 14:08:17 - INFO - training -   Step 3: loss type: <class 'torch.Tensor'>, value: 1452.6146240234375              | 3/301 [00:03<05:13,  1.05s/it]
+                                                                                                                                                            07/30/2025 14:08:19 - INFO - training -   Step 4: outputs type: <class 'tuple'>, length: 3
+07/30/2025 14:08:19 - INFO - training -   Step 4: loss type: <class 'torch.Tensor'>, value: 1412.440673828125               | 4/301 [00:04<06:05,  1.23s/it]
+Iteration:  17%|██████████████████▍                                                                                        | 52/301 [01:20<06:26,  1.55s/it]
+Epoch:   0%|                                                                                                                         | 0/50 [01:20<?, ?it/s]
+07/30/2025 14:09:35 - ERROR - __main__ -   [ERROR] Exception in lingmess-coref run.py: MPS backend out of memory (MPS allocated: 19.33 GB, other allocations: 26.50 GB, max allowed: 45.90 GB). Tried to allocate 500.00 MB on private pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure).
+Traceback (most recent call last):
+  File "/Users/s0g0a87/studies/neural_hebrew_coref/src/lingmess-coref/run.py", line 157, in <module>
+    main()
+  File "/Users/s0g0a87/studies/neural_hebrew_coref/src/lingmess-coref/run.py", line 135, in main
+    global_step, tr_loss = train(args, train_batches, model, tokenizer, evaluator)
+  File "/Users/s0g0a87/studies/neural_hebrew_coref/src/lingmess-coref/training.py", line 88, in train
+    scaler.step(optimizer)
+  File "/Users/s0g0a87/miniforge3/envs/neural_hebrew_coref/lib/python3.8/site-packages/torch/amp/grad_scaler.py", line 380, in step
+    return optimizer.step(*args, **kwargs)
+  File "/Users/s0g0a87/miniforge3/envs/neural_hebrew_coref/lib/python3.8/site-packages/torch/optim/lr_scheduler.py", line 130, in wrapper
+    return func.__get__(opt, opt.__class__)(*args, **kwargs)
+  File "/Users/s0g0a87/miniforge3/envs/neural_hebrew_coref/lib/python3.8/site-packages/torch/optim/optimizer.py", line 484, in wrapper
+    out = func(*args, **kwargs)
+  File "/Users/s0g0a87/miniforge3/envs/neural_hebrew_coref/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/Users/s0g0a87/miniforge3/envs/neural_hebrew_coref/lib/python3.8/site-packages/transformers/optimization.py", line 467, in step
+    exp_avg_sq.mul_(beta2).addcmul_(grad, grad, value=1.0 - beta2)
+RuntimeError: MPS backend out of memory (MPS allocated: 19.33 GB, other allocations: 26.50 GB, max allowed: 45.90 GB). Tried to allocate 500.00 MB on private pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure).
+Traceback (most recent call last):
+  File "/Users/s0g0a87/studies/neural_hebrew_coref/src/lingmess-coref/run.py", line 157, in <module>
+    main()
+  File "/Users/s0g0a87/studies/neural_hebrew_coref/src/lingmess-coref/run.py", line 135, in main
+    global_step, tr_loss = train(args, train_batches, model, tokenizer, evaluator)
+  File "/Users/s0g0a87/studies/neural_hebrew_coref/src/lingmess-coref/training.py", line 88, in train
+    scaler.step(optimizer)
+  File "/Users/s0g0a87/miniforge3/envs/neural_hebrew_coref/lib/python3.8/site-packages/torch/amp/grad_scaler.py", line 380, in step
+    return optimizer.step(*args, **kwargs)
+  File "/Users/s0g0a87/miniforge3/envs/neural_hebrew_coref/lib/python3.8/site-packages/torch/optim/lr_scheduler.py", line 130, in wrapper
+    return func.__get__(opt, opt.__class__)(*args, **kwargs)
+  File "/Users/s0g0a87/miniforge3/envs/neural_hebrew_coref/lib/python3.8/site-packages/torch/optim/optimizer.py", line 484, in wrapper
+    out = func(*args, **kwargs)
+  File "/Users/s0g0a87/miniforge3/envs/neural_hebrew_coref/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/Users/s0g0a87/miniforge3/envs/neural_hebrew_coref/lib/python3.8/site-packages/transformers/optimization.py", line 467, in step
+    exp_avg_sq.mul_(beta2).addcmul_(grad, grad, value=1.0 - beta2)
+RuntimeError: MPS backend out of memory (MPS allocated: 19.33 GB, other allocations: 26.50 GB, max allowed: 45.90 GB). Tried to allocate 500.00 MB on private pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure).

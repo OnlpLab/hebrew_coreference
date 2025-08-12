@@ -1,0 +1,403 @@
+# doc_id = htb:105
+# doc_range = 1-8
+# sent_id = 2540
+# text = פי).
+1	פי	פי	PROPN	PROPN	_	0	root	_	SpaceAfter=No
+2	)	)	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No
+3	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:105
+# doc_range = 10-202
+# sent_id = 2541
+# text = מי שמיהר להספיד את מייקל גורדן ואת שיקאגו בולס, היה צריך לחכות למשחק הזה בגארדן בבוסטון, שהיה אור לאתמול.
+1	מי	מי	PRON	PRON	PronType=Int	15	nsubj	_	_
+2-3	שמיהר	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	3	mark	_	_
+3	מיהר	מיהר	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	1	acl:relcl	_	_
+4	להספיד	הספיד	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	את	את	ADP	ADP	Case=Acc	6	case	_	_
+6	מייקל	מייקל	PROPN	PROPN	_	4	obj	_	_
+7	גורדן	גורד	PROPN	PROPN	_	6	flat:name	_	_
+8-9	ואת	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+9	את	את	ADP	ADP	Case=Acc	10	case	_	_
+10	שיקאגו	שיקאגו	PROPN	PROPN	_	6	conj	_	_
+11	בולס	בולס	PROPN	PROPN	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	1	punct	_	_
+13	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	15	cop	_	_
+14	צריך	צריך	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	15	aux	_	_
+15	לחכות	חיכה	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	0	root	_	_
+16-18	למשחק	_	_	_	_	_	_	_	_
+16	ל	ל	ADP	ADP	_	18	case	_	_
+17	ה_	ה	DET	DET	PronType=Art|Definite=Def	18	det	_	_
+18	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	15	obl	_	_
+19-20	הזה	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	det	_	_
+21-22	בגארדן	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	גארדן	בגארדן	PROPN	PROPN	_	18	nmod	_	_
+23-24	בבוסטון	_	_	_	_	_	_	_	SpaceAfter=No
+23	ב	ב	ADP	ADP	_	24	case	_	_
+24	בוסטון	בוסטון	PROPN	PROPN	_	22	nmod	_	_
+25	,	,	PUNCT	PUNCT	_	28	punct	_	_
+26-27	שהיה	_	_	_	_	_	_	_	_
+26	ש	ש	SCONJ	SCONJ	_	28	mark	_	_
+27	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	28	cop	_	_
+28	אור	אור	NOUN	NOUN	Gender=Masc|Number=Sing	18	acl:relcl	_	_
+29-30	לאתמול	_	_	_	_	_	_	_	SpaceAfter=No
+29	ל	ל	ADP	ADP	_	30	case	_	_
+30	אתמול	אתמול	ADV	ADV	_	28	nmod	_	_
+31	.	.	PUNCT	PUNCT	_	15	punct	_	_
+
+# doc_id = htb:105
+# doc_range = 204-356
+# sent_id = 2542
+# text = שיקאגו באה לשם עם נצחון יתום בארבעה מישחקים וחזרה עם 021 001 מול הסלטיקס הבלתי מנוצחים.
+1	שיקאגו	שיקאגו	PROPN	PROPN	_	2	dep	_	_
+2	באה	בא	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3-4	לשם	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	4	case	_	_
+4	שם	שם	ADV	ADV	_	2	obl	_	_
+5	עם	עם	ADP	ADP	_	6	case	_	_
+6	נצחון	ניצחון	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+7	יתום	יתום	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	_
+8-9	בארבעה	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	10	case	_	_
+9	ארבעה	ארבע	NUM	NUM	Gender=Masc|Number=Sing	10	nummod	_	_
+10	מישחקים	משחק	NOUN	NOUN	Gender=Masc|Number=Plur	6	nmod	_	_
+11-12	וחזרה	_	_	_	_	_	_	_	_
+11	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+12	חזרה	חזר	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Past	2	conj	_	_
+13	עם	עם	ADP	ADP	_	14	case	_	_
+14	021	021	NUM	NUM	_	12	obl	_	_
+15	001	001	NUM	NUM	_	14	nummod	_	_
+16	מול	מול	ADP	ADP	_	18	case	_	_
+17-18	הסלטיקס	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	סלטיקס	הסלטיקס	PROPN	PROPN	_	12	obl	_	_
+19-20	הבלתי	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+20	בלתי	בלתי	ADV	ADV	Prefix=Yes	21	compound:affix	_	_
+21	מנוצחים	נוצח	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Pass	18	amod	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:105
+# doc_range = 358-471
+# sent_id = 2543
+# text = גורדן עבר לראשונה העונה את גבול ה-04 (14 נק) והיה האיש של הבולס.
+1	גורדן	גורד	PROPN	PROPN	_	2	nsubj	_	_
+2	עבר	עבר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	_
+3	לראשונה	לראשונה	ADV	ADV	_	2	advmod	_	_
+4	העונה	העונה	ADV	ADV	_	2	advmod	_	_
+5	את	את	ADP	ADP	Case=Acc	6	case	_	_
+6	גבול	גבול	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	obj	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	6	compound:smixut	_	SpaceAfter=No
+8	-	-	PUNCT	PUNCT	_	9	punct	_	HebSource=ConvUncertainHead|SpaceAfter=No
+9	04	04	NUM	NUM	_	7	dep	_	HebSource=ConvUncertainHead
+10	(	(	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
+11	14	14	NUM	NUM	_	12	nummod	_	_
+12	נק	נק	NOUN	NOUN	_	6	appos	_	SpaceAfter=No
+13	)	)	PUNCT	PUNCT	_	12	punct	_	_
+14-15	והיה	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+15	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	17	cop	_	_
+16-17	האיש	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	איש	איש	NOUN	NOUN	Gender=Masc|Number=Sing	2	conj	_	_
+18	של	של	ADP	ADP	Case=Gen	20	case	_	_
+19-20	הבולס	_	_	_	_	_	_	_	SpaceAfter=No
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	בולס	בולס	PROPN	PROPN	_	17	nmod:poss	_	_
+21	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:105
+# doc_range = 473-580
+# sent_id = 2544
+# text = קווין מקהייל (42 נק) ולארי בירד (32 נק) לא הושיעו את הירוקים.
+1	קווין	קווין	PROPN	PROPN	_	15	nsubj	_	_
+2	מקהייל	מקהייל	PROPN	PROPN	_	1	flat:name	_	_
+3	(	(	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+4	42	42	NUM	NUM	_	5	nummod	_	_
+5	נק	נק	NOUN	NOUN	_	1	appos	_	SpaceAfter=No
+6	)	)	PUNCT	PUNCT	_	5	punct	_	_
+7-8	ולארי	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	8	cc	_	_
+8	לארי	לארי	PROPN	PROPN	_	1	conj	_	_
+9	בירד	בירד	PROPN	PROPN	_	8	flat:name	_	_
+10	(	(	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
+11	32	32	NUM	NUM	_	12	nummod	_	_
+12	נק	נק	NOUN	NOUN	_	8	appos	_	SpaceAfter=No
+13	)	)	PUNCT	PUNCT	_	12	punct	_	_
+14	לא	לא	ADV	ADV	Polarity=Neg	15	advmod	_	_
+15	הושיעו	הושיע	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+16	את	את	ADP	ADP	Case=Acc	18	case	_	_
+17-18	הירוקים	_	_	_	_	_	_	_	SpaceAfter=No
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	ירוקים	ירוק	ADJ	ADJ	Gender=Masc|Number=Plur	15	obj	_	_
+19	.	.	PUNCT	PUNCT	_	15	punct	_	_
+
+# doc_id = htb:105
+# doc_range = 582-809
+# sent_id = 2545
+# text = הקבוצה היחידה שלא הפסידה עד כה היא פורטלנד, שעשתה לאלופה דטרויט מה שלא הצליחה לעשות לה בגמר הפליי-אוף אשתקד לנצח בביתה 311 101.
+1-2	הקבוצה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	קבוצה	קבוצה	NOUN	NOUN	Gender=Fem|Number=Sing	11	nsubj	_	_
+3-4	היחידה	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	יחידה	יחיד	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+5-6	שלא	_	_	_	_	_	_	_	_
+5	ש	ש	SCONJ	SCONJ	_	7	mark	_	_
+6	לא	לא	ADV	ADV	Polarity=Neg	7	advmod	_	_
+7	הפסידה	הפסיד	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	acl:relcl	_	_
+8	עד	עד	ADV	ADV	_	7	advmod	_	_
+9	כה	כה	ADV	ADV	_	8	fixed	_	_
+10	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	11	cop	_	_
+11	פורטלנד	פורטלנד	PROPN	PROPN	_	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	14	punct	_	_
+13-14	שעשתה	_	_	_	_	_	_	_	_
+13	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
+14	עשתה	עשה	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	11	acl:relcl	_	_
+15-17	לאלופה	_	_	_	_	_	_	_	_
+15	ל	ל	ADP	ADP	_	17	case	_	_
+16	ה_	ה	DET	DET	PronType=Art|Definite=Def	17	det	_	_
+17	אלופה	אלופה	NOUN	NOUN	Gender=Fem|Number=Sing	14	obl	_	_
+18	דטרויט	דטרויט	PROPN	PROPN	_	17	flat:name	_	_
+19	מה	מה	PRON	PRON	PronType=Int	14	obj	_	_
+20-21	שלא	_	_	_	_	_	_	_	_
+20	ש	ש	SCONJ	SCONJ	_	22	mark	_	_
+21	לא	לא	ADV	ADV	Polarity=Neg	22	advmod	_	_
+22	הצליחה	הצליח	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	19	acl:relcl	_	_
+23	לעשות	עשה	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	22	xcomp	_	_
+24-25	לה	_	_	_	_	_	_	_	_
+24	ל	ל	ADP	ADP	_	25	case	_	_
+25	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	obl	_	_
+26-27	בגמר	_	_	_	_	_	_	_	_
+26	ב	ב	ADP	ADP	_	27	case	_	_
+27	גמר	גמר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	22	obl	_	_
+28-29	הפליי	_	_	_	_	_	_	_	SpaceAfter=No
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	פליי	הפליי	PROPN	PROPN	_	27	compound:smixut	_	_
+30	-	-	PUNCT	PUNCT	_	31	punct	_	SpaceAfter=No
+31	אוף	אוף	PROPN	PROPN	_	29	flat:name	_	_
+32	אשתקד	אשתקד	ADV	ADV	_	27	advmod	_	_
+33	לנצח	ניצח	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	19	acl	_	_
+34-37	בביתה	_	_	_	_	_	_	_	_
+34	ב	ב	ADP	ADP	_	35	case	_	_
+35	בית	בית	NOUN	NOUN	Gender=Masc|Number=Sing	33	obl	_	_
+36	_של_	של	ADP	ADP	Case=Gen	37	case:gen	_	_
+37	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	_	_
+38	311	311	NUM	NUM	_	33	obj	_	_
+39	101	101	NUM	NUM	_	38	nummod	_	SpaceAfter=No
+40	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:105
+# doc_range = 811-962
+# sent_id = 2546
+# text = הרכז טרי פורטר עם 82 נק ו-01 אסיסטים והסנטר דאקוורת, שקלע 72 נק, היו אחראים לעיקר הנזק.
+1-2	הרכז	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	רכז	רכז	NOUN	NOUN	Gender=Masc|Number=Sing	23	nsubj	_	_
+3	טרי	טרי	PROPN	PROPN	_	2	flat:name	_	_
+4	פורטר	פורטר	PROPN	PROPN	_	2	flat:name	_	_
+5	עם	עם	ADP	ADP	_	7	case	_	_
+6	82	82	NUM	NUM	_	7	nummod	_	_
+7	נק	נק	NOUN	NOUN	_	2	nmod	_	_
+8	ו	ו	CCONJ	CCONJ	_	11	cc	_	SpaceAfter=No
+9	-	-	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+10	01	01	NUM	NUM	_	11	nummod	_	_
+11	אסיסטים	אסיסט	NOUN	NOUN	Gender=Masc|Number=Plur	7	conj	_	_
+12-14	והסנטר	_	_	_	_	_	_	_	_
+12	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	סנטר	סנטר	NOUN	NOUN	Gender=Masc|Number=Sing	2	conj	_	_
+15	דאקוורת	דאקוורת	PROPN	PROPN	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	18	punct	_	_
+17-18	שקלע	_	_	_	_	_	_	_	_
+17	ש	ש	SCONJ	SCONJ	_	18	mark	_	_
+18	קלע	קלע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	14	acl:relcl	_	_
+19	72	72	NUM	NUM	_	20	nummod	_	_
+20	נק	נק	NOUN	NOUN	_	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	2	punct	_	_
+22	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	23	cop	_	_
+23	אחראים	אחראי	ADJ	ADJ	Gender=Masc|Number=Plur	0	root	_	_
+24-25	לעיקר	_	_	_	_	_	_	_	_
+24	ל	ל	ADP	ADP	_	25	case	_	_
+25	עיקר	עיקר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	23	obl	_	_
+26-27	הנזק	_	_	_	_	_	_	_	SpaceAfter=No
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	נזק	נזק	NOUN	NOUN	Gender=Masc|Number=Sing	25	compound:smixut	_	_
+28	.	.	PUNCT	PUNCT	_	23	punct	_	_
+
+# doc_id = htb:105
+# doc_range = 964-1124
+# sent_id = 2547
+# text = גון סטוקטון שקלע 42 נק הצעיד את יוטה לניצחון חשוב על סן אנטוניו, 301 49, ההפסד הראשון של הספארס.
+1	גון	גוון	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj	_	_
+2	סטוקטון	סטוקטון	PROPN	PROPN	_	1	flat:name	_	_
+3-4	שקלע	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
+4	קלע	קלע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	1	acl:relcl	_	_
+5	42	42	NUM	NUM	_	6	nummod	_	_
+6	נק	נק	NOUN	NOUN	_	4	obj	_	_
+7	הצעיד	הצעיד	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+8	את	את	ADP	ADP	Case=Acc	9	case	_	_
+9	יוטה	יוטה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obj	_	_
+10-11	לניצחון	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	11	case	_	_
+11	ניצחון	ניצחון	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
+12	חשוב	חשוב	ADJ	ADJ	Gender=Masc|Number=Sing	11	amod	_	_
+13	על	על	ADP	ADP	_	14	case	_	_
+14	סן	סן	PROPN	PROPN	_	11	nmod	_	_
+15	אנטוניו	אנטוניו	PROPN	PROPN	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	17	punct	_	_
+17	301	301	NUM	NUM	_	11	nummod	_	_
+18	49	49	NUM	NUM	_	17	nummod	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	21	punct	_	_
+20-21	ההפסד	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	הפסד	הפסד	NOUN	NOUN	Gender=Masc|Number=Sing	7	dep	_	_
+22-23	הראשון	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	ראשון	ראשון	ADJ	ADJ	Gender=Masc|Number=Sing	21	amod	_	_
+24	של	של	ADP	ADP	Case=Gen	26	case	_	_
+25-26	הספארס	_	_	_	_	_	_	_	SpaceAfter=No
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	ספארס	הספארס	PROPN	PROPN	_	21	nmod	_	_
+27	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:105
+# doc_range = 1126-1202
+# sent_id = 2548
+# text = אטלנטה נחלה הפסד ראשון בגולדן סטייט 341 821.
+1	אטלנטה	אטאלנטה	PROPN	PROPN	_	2	nsubj	_	_
+2	נחלה	נחל	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	הפסד	הפסד	NOUN	NOUN	Gender=Masc|Number=Sing	2	obj	_	_
+4	ראשון	ראשון	ADJ	ADJ	Gender=Masc|Number=Sing	3	amod	_	_
+5-6	בגולדן	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	גולדן	בגולדן	PROPN	PROPN	_	3	nmod	_	_
+7	סטייט	סטייט	PROPN	PROPN	_	6	flat:name	_	_
+8	341	341	NUM	NUM	_	3	nummod	_	_
+9	821	821	NUM	NUM	_	8	nummod	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:105
+# doc_range = 1195-1263
+# sent_id = 2549
+# text = לוס אנגלס לייקרס גברה על סאקרמנטו 001 68.
+1	לוס	לוס	PROPN	PROPN	_	4	nsubj	_	_
+2	אנגלס	אנגלס	PROPN	PROPN	_	1	flat:name	_	_
+3	לייקרס	לייקרס	PROPN	PROPN	_	1	flat:name	_	_
+4	גברה	גבר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	על	על	ADP	ADP	_	6	case	_	_
+6	סאקרמנטו	סאקרמנטו	PROPN	PROPN	_	4	obl	_	_
+7	001	001	NUM	NUM	_	4	dep	_	_
+8	68	68	NUM	NUM	_	7	nummod	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:105
+# doc_range = 1265-1357
+# sent_id = 2550
+# text = דאלאס מאווריקס ממשיכים לנצח, הפעם את אורלאנדו 111 99.
+1	דאלאס	דאלאס	PROPN	PROPN	_	3	nsubj	_	_
+2	מאווריקס	מאווריקס	PROPN	PROPN	_	1	flat:name	_	_
+3	ממשיכים	המשיך	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4	לנצח	ניצח	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	3	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	6	punct	_	_
+6	הפעם	הפעם	ADV	ADV	_	3	advmod	_	_
+7	את	את	ADP	ADP	Case=Acc	8	case	_	_
+8	אורלאנדו	אורלנדו	PROPN	PROPN	_	6	dep	_	HebSource=ConvUncertainHead
+9	111	111	NUM	NUM	_	6	dep	_	HebSource=ConvUncertainHead
+10	99	99	NUM	NUM	_	9	nummod	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:105
+# doc_range = 1359-1402
+# sent_id = 2551
+# text = בלאקמן קלע 43 נק למנצחים.
+1	בלאקמן	בלאקמן	PROPN	PROPN	_	2	nsubj	_	_
+2	קלע	קלע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	43	43	NUM	NUM	_	4	nummod	_	_
+4	נק	נק	NOUN	NOUN	_	2	obj	_	_
+5-7	למנצחים	_	_	_	_	_	_	_	SpaceAfter=No
+5	ל	ל	ADP	ADP	_	7	case	_	_
+6	ה_	ה	DET	DET	PronType=Art|Definite=Def	7	det	_	_
+7	מנצחים	מנצח	NOUN	NOUN	Gender=Masc|Number=Plur	2	obl	_	_
+8	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:105
+# doc_range = 1404-1597
+# sent_id = 2552
+# text = אינדיאנה ניצחה את קליוולנד 221 701, מינסוטה גברה על שארלוט 601 77, מילווקי על וושינגטון 801 001 וסיאטל על דנוור 531 921.
+1	אינדיאנה	אינדיאנה	PROPN	PROPN	_	2	nsubj	_	_
+2	ניצחה	ניצח	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	את	את	ADP	ADP	Case=Acc	4	case	_	_
+4	קליוולנד	קליוולנד	PROPN	PROPN	_	2	obj	_	_
+5	221	221	NUM	NUM	_	2	dep	_	_
+6	701	701	NUM	NUM	_	5	nummod	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	9	punct	_	_
+8	מינסוטה	מינסוטה	PROPN	PROPN	_	9	nsubj	_	_
+9	גברה	גבר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	_
+10	על	על	ADP	ADP	_	11	case	_	_
+11	שארלוט	שארלוט	PROPN	PROPN	_	9	obl	_	_
+12	601	601	NUM	NUM	_	9	dep	_	_
+13	77	77	NUM	NUM	_	12	nummod	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	15	punct	_	_
+15	מילווקי	מילווקי	PROPN	PROPN	_	2	conj	_	_
+16	על	על	ADP	ADP	_	17	case	_	_
+17	וושינגטון	ואשינגטון	PROPN	PROPN	_	15	dep	_	HebSource=ConvUncertainHead
+18	801	801	NUM	NUM	_	15	dep	_	HebSource=ConvUncertainHead
+19	001	001	NUM	NUM	_	18	nummod	_	_
+20-21	וסיאטל	_	_	_	_	_	_	_	_
+20	ו	ו	CCONJ	CCONJ	_	21	cc	_	_
+21	סיאטל	סיאטל	PROPN	PROPN	_	2	conj	_	_
+22	על	על	ADP	ADP	_	23	case	_	_
+23	דנוור	דנוור	PROPN	PROPN	_	21	dep	_	HebSource=ConvUncertainHead
+24	531	531	NUM	NUM	_	21	dep	_	HebSource=ConvUncertainHead
+25	921	921	NUM	NUM	_	24	nummod	_	SpaceAfter=No
+26	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:105
+# doc_range = 1599-1842
+# sent_id = 2553
+# text = תוצאות המישחקים שהיו אור ליום שישי: ניו יורק ניקס וושינגטון 411 301, ניו גרזי נאטס מיאמי 411 301, מילווקי פילדלפיה 141 111, יוסטון אורלאנדו 301 99.
+1	תוצאות	תוצאה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	11	nsubj	_	_
+2-3	המישחקים	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	מישחקים	משחק	NOUN	NOUN	Gender=Masc|Number=Plur	1	compound:smixut	_	_
+4-5	שהיו	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	5	mark	_	_
+5	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	1	acl:relcl	_	_
+6	אור	אור	NOUN	NOUN	Gender=Masc|Number=Sing	5	dep	_	_
+7-8	ליום	_	_	_	_	_	_	_	_
+7	ל	ל	ADP	ADP	_	8	case	_	_
+8	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	nmod	_	_
+9	שישי	שישי	PROPN	PROPN	_	8	compound:smixut	_	SpaceAfter=No
+10	:	:	PUNCT	PUNCT	_	1	punct	_	_
+11	ניו	ניו	PROPN	PROPN	_	0	root	_	_
+12	יורק	יורק	PROPN	PROPN	_	11	flat:name	_	_
+13	ניקס	ניקס	PROPN	PROPN	_	11	flat:name	_	_
+14	וושינגטון	ואשינגטון	PROPN	PROPN	_	11	dep	_	HebSource=ConvUncertainHead
+15	411	411	NUM	NUM	_	11	dep	_	HebSource=ConvUncertainHead
+16	301	301	NUM	NUM	_	15	nummod	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	18	punct	_	_
+18	ניו	ניו	PROPN	PROPN	_	11	conj	_	_
+19	גרזי	גירז	PROPN	PROPN	_	18	flat:name	_	_
+20	נאטס	נאטס	PROPN	PROPN	_	18	flat:name	_	_
+21	מיאמי	מיאמי	PROPN	PROPN	_	18	dep	_	HebSource=ConvUncertainHead
+22	411	411	NUM	NUM	_	18	dep	_	HebSource=ConvUncertainHead
+23	301	301	NUM	NUM	_	22	nummod	_	SpaceAfter=No
+24	,	,	PUNCT	PUNCT	_	25	punct	_	_
+25	מילווקי	מילווקי	PROPN	PROPN	_	11	conj	_	_
+26	פילדלפיה	פילדלפיה	PROPN	PROPN	_	25	dep	_	HebSource=ConvUncertainHead
+27	141	141	NUM	NUM	_	25	dep	_	HebSource=ConvUncertainHead
+28	111	111	NUM	NUM	_	27	nummod	_	SpaceAfter=No
+29	,	,	PUNCT	PUNCT	_	30	punct	_	_
+30	יוסטון	יוסטון	PROPN	PROPN	_	11	conj	_	_
+31	אורלאנדו	אורלנדו	PROPN	PROPN	_	30	dep	_	HebSource=ConvUncertainHead
+32	301	301	NUM	NUM	_	30	dep	_	HebSource=ConvUncertainHead
+33	99	99	NUM	NUM	_	32	nummod	_	SpaceAfter=No
+34	.	.	PUNCT	PUNCT	_	11	punct	_	_
+

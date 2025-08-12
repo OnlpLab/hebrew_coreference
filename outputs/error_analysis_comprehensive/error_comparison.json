@@ -1,0 +1,63 @@
+{
+  "total_errors": {
+    "Lingmess Coref": 393,
+    "GPT-4o-mini Raw Text": 451,
+    "GPT-4o-mini Gold Mentions": 445,
+    "Gemini 2.5 Pro Raw Text": 442,
+    "Gemini 2.5 Pro Gold Mentions": 415
+  },
+  "error_type_distribution": {
+    "Lingmess Coref": {
+      "partial_match": 195,
+      "no_prediction": 176,
+      "correct": 61,
+      "over_prediction": 22
+    },
+    "GPT-4o-mini Raw Text": {
+      "no_prediction": 271,
+      "partial_match": 180,
+      "correct": 3
+    },
+    "GPT-4o-mini Gold Mentions": {
+      "partial_match": 372,
+      "correct": 9,
+      "over_prediction": 69,
+      "no_prediction": 4
+    },
+    "Gemini 2.5 Pro Raw Text": {
+      "no_prediction": 201,
+      "partial_match": 231,
+      "over_prediction": 10,
+      "correct": 12
+    },
+    "Gemini 2.5 Pro Gold Mentions": {
+      "partial_match": 354,
+      "over_prediction": 47,
+      "correct": 39,
+      "no_prediction": 14
+    }
+  },
+  "severity_distribution": {
+    "Lingmess Coref": {
+      "medium": 195,
+      "high": 198
+    },
+    "GPT-4o-mini Raw Text": {
+      "high": 271,
+      "medium": 180
+    },
+    "GPT-4o-mini Gold Mentions": {
+      "medium": 372,
+      "high": 73
+    },
+    "Gemini 2.5 Pro Raw Text": {
+      "high": 211,
+      "medium": 231
+    },
+    "Gemini 2.5 Pro Gold Mentions": {
+      "medium": 354,
+      "high": 61
+    }
+  },
+  "common_error_patterns": {}
+}

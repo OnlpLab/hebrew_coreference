@@ -1,0 +1,1091 @@
+# doc_id = htb:146_3
+# doc_range = 11316-11594
+# sent_id = 3724
+# text = הצרכן צריך להחליט אם להעדיף פורמייקה טובה במחיר גבוה יותר, או את המלמין הזול, שיש סיכוי סביר שיספוג נוזלים כמו שמן, מיץ וכדומה ויפתח כתמים שאין להסיר אותם.
+1-2	הצרכן	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	צרכן	צרכן	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	צריך	צריך	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	4	aux	_	_
+4	להחליט	החליט	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	0	root	_	_
+5	אם	אם	SCONJ	SCONJ	_	6	mark	_	_
+6	להעדיף	העדיף	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	4	advcl	_	_
+7	פורמייקה	פורמייקה	NOUN	NOUN	Gender=Fem|Number=Sing	6	obj	_	_
+8	טובה	טוב	ADJ	ADJ	Gender=Fem|Number=Sing	7	amod	_	_
+9-10	במחיר	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	מחיר	מחיר	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
+11	גבוה	גבוה	ADJ	ADJ	Gender=Masc|Number=Sing	10	amod	_	_
+12	יותר	יותר	ADV	ADV	_	11	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	14	punct	_	_
+14	או	או	CCONJ	CCONJ	_	7	cc	_	HebSource=ConvUncertainHead
+15	את	את	ADP	ADP	Case=Acc	17	case	_	_
+16-17	המלמין	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	מלמין	מלמין	NOUN	NOUN	_	7	obj	_	_
+18-19	הזול	_	_	_	_	_	_	_	SpaceAfter=No
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	זול	זול	ADJ	ADJ	Gender=Masc|Number=Sing	17	amod	_	_
+20	,	,	PUNCT	PUNCT	_	22	punct	_	_
+21-22	שיש	_	_	_	_	_	_	_	_
+21	ש	ש	SCONJ	SCONJ	_	22	mark	_	_
+22	יש	יש	VERB	VERB	HebExistential=Yes	17	acl:relcl	_	_
+23	סיכוי	סיכוי	NOUN	NOUN	Gender=Masc|Number=Sing	22	nsubj	_	_
+24	סביר	סביר	ADJ	ADJ	Gender=Masc|Number=Sing	23	amod	_	_
+25-26	שיספוג	_	_	_	_	_	_	_	_
+25	ש	ש	SCONJ	SCONJ	_	26	mark	_	_
+26	יספוג	ספג	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	23	acl:relcl	_	_
+27	נוזלים	נוזל	NOUN	NOUN	Gender=Masc|Number=Plur	26	obj	_	_
+28	כמו	כמו	ADP	ADP	_	29	case	_	_
+29	שמן	שמן	NOUN	NOUN	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	PUNCT	_	31	punct	_	_
+31	מיץ	מיץ	NOUN	NOUN	Gender=Masc|Number=Sing	29	conj	_	_
+32-33	וכדומה	_	_	_	_	_	_	_	_
+32	ו	ו	CCONJ	CCONJ	_	29	conj	_	_
+33	כדומה	כדומה	PRON	PRON	_	32	fixed	_	_
+34-35	ויפתח	_	_	_	_	_	_	_	_
+34	ו	ו	CCONJ	CCONJ	_	35	cc	_	_
+35	יפתח	פיתח	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	26	conj	_	_
+36	כתמים	כתם	NOUN	NOUN	Gender=Masc|Number=Plur	35	obj	_	_
+37-38	שאין	_	_	_	_	_	_	_	_
+37	ש	ש	SCONJ	SCONJ	_	39	mark	_	_
+38	אין	אין	AUX	AUX	VerbType=Mod	39	aux	_	_
+39	להסיר	הסיר	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	36	acl:relcl	_	_
+40-41	אותם	_	_	_	_	_	_	_	SpaceAfter=No
+40	את	את	ADP	ADP	Case=Acc	41	case	_	_
+41	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	39	obj	_	_
+42	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:146_3
+# doc_range = 11596-11806
+# sent_id = 3725
+# text = דוד בדריאן, מנהל מטבחי זיו, אומר כי רצוי לבדוק גם חלקים אחרים, הבאים במגע עם לחות או מים, כמו גב הארון הנוגע בקירות.
+1	דוד	דוד	PROPN	PROPN	_	8	nsubj	_	_
+2	בדריאן	בדריאן	PROPN	PROPN	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	4	punct	_	_
+4	מנהל	מנהל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	appos	_	_
+5	מטבחי	מטבח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	compound:smixut	_	_
+6	זיו	זיו	PROPN	PROPN	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	1	punct	_	_
+8	אומר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+9	כי	כי	SCONJ	SCONJ	_	11	mark	_	_
+10	רצוי	רצוי	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	11	aux	_	_
+11	לבדוק	בדק	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	8	ccomp	_	_
+12	גם	גם	ADV	ADV	_	13	advmod	_	_
+13	חלקים	חלק	NOUN	NOUN	Gender=Masc|Number=Plur	11	obj	_	_
+14	אחרים	אחר	ADJ	ADJ	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	17	punct	_	_
+16-17	הבאים	_	_	_	_	_	_	_	_
+16	ה	ה	SCONJ	SCONJ	_	17	mark	_	_
+17	באים	בא	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	13	acl:relcl	_	_
+18-19	במגע	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	19	case	_	_
+19	מגע	מגע	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	_
+20	עם	עם	ADP	ADP	_	21	case	_	_
+21	לחות	לחות	NOUN	NOUN	Gender=Fem|Number=Sing	19	nmod	_	_
+22	או	או	CCONJ	CCONJ	_	23	cc	_	_
+23	מים	מים	NOUN	NOUN	Gender=Masc|Number=Plur	21	conj	_	SpaceAfter=No
+24	,	,	PUNCT	PUNCT	_	26	punct	_	_
+25	כמו	כמו	ADP	ADP	_	26	case	_	_
+26	גב	גב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	obl	_	_
+27-28	הארון	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	ארון	ארון	NOUN	NOUN	Gender=Masc|Number=Sing	26	compound:smixut	_	_
+29-30	הנוגע	_	_	_	_	_	_	_	_
+29	ה	ה	SCONJ	SCONJ	_	30	mark	_	_
+30	נוגע	נגע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	26	acl:relcl	_	_
+31-33	בקירות	_	_	_	_	_	_	_	SpaceAfter=No
+31	ב	ב	ADP	ADP	_	33	case	_	_
+32	ה_	ה	DET	DET	PronType=Art|Definite=Def	33	det	_	_
+33	קירות	קיר	NOUN	NOUN	Gender=Masc|Number=Plur	30	obl	_	_
+34	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:146_3
+# doc_range = 11808-11904
+# sent_id = 3726
+# text = יש יצרנים המותירים חלקים חבויים אלה בלי ציפוי כלשהו.
+1	יש	יש	VERB	VERB	HebExistential=Yes	0	root	_	_
+2	יצרנים	יצרן	NOUN	NOUN	Gender=Masc|Number=Plur	1	nsubj	_	_
+3-4	המותירים	_	_	_	_	_	_	_	_
+3	ה	ה	SCONJ	SCONJ	_	4	mark	_	_
+4	מותירים	הותיר	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	2	acl:relcl	_	_
+5	חלקים	חלק	NOUN	NOUN	Gender=Masc|Number=Plur	4	obj	_	_
+6	חבויים	חבוי	ADJ	ADJ	Gender=Masc|Number=Plur	5	amod	_	_
+7	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	5	det	_	_
+8	בלי	בלי	ADP	ADP	_	9	case	_	_
+9	ציפוי	ציפוי	NOUN	NOUN	Gender=Masc|Number=Sing	5	nmod	_	_
+10	כלשהו	כלשהו	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	det	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:146_3
+# doc_range = 11906-12259
+# sent_id = 3727
+# text = כמו כן הוא מציע למי שמזמינים מטבחי סנדוויץ עם ציפוי פנימי של פורמייקה, שלא לסמוך על נוסחה כללית זו ולוודא שגם המדפים, המגירות ושאר החלקים הפנימיים, הבאים במגע עם מזון או לחות, מצופים פורמייקה.
+1	כמו	כמו	ADP	ADP	_	2	case	_	_
+2	כן	כן	PRON	PRON	Person=3|PronType=Dem	4	obl	_	_
+3	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	מציע	הציע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+5-6	למי	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	מי	מי	PRON	PRON	PronType=Int	4	obl	_	_
+7-8	שמזמינים	_	_	_	_	_	_	_	_
+7	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
+8	מזמינים	הזמין	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	6	acl:relcl	_	_
+9	מטבחי	מטבח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	8	obj	_	_
+10	סנדוויץ	סנדוויץ	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound:smixut	_	_
+11	עם	עם	ADP	ADP	_	12	case	_	_
+12	ציפוי	ציפוי	NOUN	NOUN	Gender=Masc|Number=Sing	9	nmod	_	_
+13	פנימי	פנימי	ADJ	ADJ	Gender=Masc|Number=Sing	12	amod	_	_
+14	של	של	ADP	ADP	Case=Gen	15	case	_	_
+15	פורמייקה	פורמייקה	NOUN	NOUN	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	18	punct	_	_
+17	שלא	שלא	ADV	ADV	_	18	advmod	_	_
+18	לסמוך	סמך	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+19	על	על	ADP	ADP	_	20	case	_	_
+20	נוסחה	נוסחה	NOUN	NOUN	Gender=Fem|Number=Sing	18	obl	_	_
+21	כללית	כללי	ADJ	ADJ	Gender=Fem|Number=Sing	20	amod	_	_
+22	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	20	det	_	_
+23-24	ולוודא	_	_	_	_	_	_	_	_
+23	ו	ו	CCONJ	CCONJ	_	24	cc	_	_
+24	לוודא	וידא	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	18	conj	_	_
+25-26	שגם	_	_	_	_	_	_	_	_
+25	ש	ש	SCONJ	SCONJ	_	48	mark	_	_
+26	גם	גם	ADV	ADV	_	28	advmod	_	_
+27-28	המדפים	_	_	_	_	_	_	_	SpaceAfter=No
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	מדפים	מדף	NOUN	NOUN	Gender=Masc|Number=Plur	48	nsubj:pass	_	_
+29	,	,	PUNCT	PUNCT	_	31	punct	_	_
+30-31	המגירות	_	_	_	_	_	_	_	_
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	מגירות	מגירה	NOUN	NOUN	Gender=Fem|Number=Plur	28	conj	_	_
+32-33	ושאר	_	_	_	_	_	_	_	_
+32	ו	ו	CCONJ	CCONJ	_	35	cc	_	_
+33	שאר	שאר	DET	DET	Definite=Cons|Gender=Masc	35	det	_	_
+34-35	החלקים	_	_	_	_	_	_	_	_
+34	ה	ה	DET	DET	Definite=Def|PronType=Art	35	det	_	_
+35	חלקים	חלק	NOUN	NOUN	Gender=Masc|Number=Plur	28	conj	_	_
+36-37	הפנימיים	_	_	_	_	_	_	_	SpaceAfter=No
+36	ה	ה	DET	DET	Definite=Def|PronType=Art	37	det	_	_
+37	פנימיים	פנימי	ADJ	ADJ	Gender=Masc|Number=Plur	35	amod	_	_
+38	,	,	PUNCT	PUNCT	_	40	punct	_	_
+39-40	הבאים	_	_	_	_	_	_	_	_
+39	ה	ה	SCONJ	SCONJ	_	40	mark	_	_
+40	באים	בא	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	35	acl:relcl	_	_
+41-42	במגע	_	_	_	_	_	_	_	_
+41	ב	ב	ADP	ADP	_	42	case	_	_
+42	מגע	מגע	NOUN	NOUN	Gender=Masc|Number=Sing	40	obl	_	_
+43	עם	עם	ADP	ADP	_	44	case	_	_
+44	מזון	מזון	NOUN	NOUN	Gender=Masc|Number=Sing	42	nmod	_	_
+45	או	או	CCONJ	CCONJ	_	46	cc	_	_
+46	לחות	לחות	NOUN	NOUN	Gender=Fem|Number=Sing	44	conj	_	SpaceAfter=No
+47	,	,	PUNCT	PUNCT	_	28	punct	_	_
+48	מצופים	צופה	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	24	advcl	_	_
+49	פורמייקה	פורמייקה	NOUN	NOUN	Gender=Fem|Number=Sing	48	dep	_	SpaceAfter=No
+50	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:146_3
+# doc_range = 12261-12382
+# sent_id = 3728
+# text = אזהרה: בשוק מצוי ציפוי נייר דמוי מלמין הנושא את השם המסחרי "דקור".
+1	אזהרה	אזהרה	NOUN	NOUN	Gender=Fem|Number=Sing	6	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+2	:	:	PUNCT	PUNCT	_	1	punct	_	_
+3-5	בשוק	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	5	case	_	_
+4	ה_	ה	DET	DET	PronType=Art|Definite=Def	5	det	_	_
+5	שוק	שוק	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+6	מצוי	מצוי	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
+7	ציפוי	ציפוי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	nsubj	_	_
+8	נייר	נייר	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound:smixut	_	_
+9	דמוי	דמוי	ADJ	ADJ	Definite=Cons	7	amod	_	_
+10	מלמין	מלמין	NOUN	NOUN	_	9	compound:smixut	_	_
+11-12	הנושא	_	_	_	_	_	_	_	_
+11	ה	ה	SCONJ	SCONJ	_	12	mark	_	_
+12	נושא	נשא	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	7	acl:relcl	_	_
+13	את	את	ADP	ADP	Case=Acc	15	case	_	_
+14-15	השם	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	שם	שם	NOUN	NOUN	Gender=Masc|Number=Sing	12	obj	_	_
+16-17	המסחרי	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	מסחרי	מסחרי	ADJ	ADJ	Gender=Masc|Number=Sing	15	amod	_	_
+18	"	"	PUNCT	PUNCT	_	19	punct	_	SpaceAfter=No
+19	דקור	דקור	PROPN	PROPN	_	15	appos	_	SpaceAfter=No
+20	"	"	PUNCT	PUNCT	_	19	punct	_	SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:146_3
+# doc_range = 12384-12681
+# sent_id = 3729
+# text = חומר זה אינו עומד אפילו בדרישות המינימליות של עמידות מפני אדי מים, שריטות או מכות, ולא כל שכן על עמידות בחום, וחשוב להיזהר מלהתפתות למחירו הזול, אומרת אנג הרצברג.
+1	חומר	חומר	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
+2	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	det	_	_
+3	אינו	אינו	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	4	aux	_	_
+4	עומד	עמד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	43	advcl	_	_
+5	אפילו	אפילו	ADV	ADV	_	4	advmod	_	_
+6-8	בדרישות	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	8	case	_	_
+7	ה_	ה	DET	DET	PronType=Art|Definite=Def	8	det	_	_
+8	דרישות	דרישה	NOUN	NOUN	Gender=Fem|Number=Plur	4	obl	_	_
+9-10	המינימליות	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	מינימליות	מינימאלי	ADJ	ADJ	Gender=Fem|Number=Plur	8	amod	_	_
+11	של	של	ADP	ADP	Case=Gen	12	case	_	_
+12	עמידות	עמידות	NOUN	NOUN	Gender=Fem|Number=Sing	8	nmod	_	_
+13	מפני	מפני	ADP	ADP	_	14	case	_	_
+14	אדי	אד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	12	nmod	_	_
+15	מים	מים	NOUN	NOUN	Gender=Masc|Number=Plur	14	compound:smixut	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	17	punct	_	_
+17	שריטות	שריטה	NOUN	NOUN	Gender=Fem|Number=Plur	14	conj	_	_
+18	או	או	CCONJ	CCONJ	_	19	cc	_	_
+19	מכות	מכה	NOUN	NOUN	Gender=Fem|Number=Plur	14	conj	_	SpaceAfter=No
+20	,	,	PUNCT	PUNCT	_	27	punct	_	_
+21-22	ולא	_	_	_	_	_	_	_	_
+21	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
+22	לא	לא	ADV	ADV	Polarity=Neg	27	advmod	_	_
+23	כל	כול	DET	DET	Definite=Cons	22	dep	_	_
+24-25	שכן	_	_	_	_	_	_	_	_
+24	ש	ש	SCONJ	SCONJ	_	22	dep	_	_
+25	כן	כן	PRON	PRON	Person=3|PronType=Dem	22	dep	_	_
+26	על	על	ADP	ADP	_	27	case	_	_
+27	עמידות	עמידות	NOUN	NOUN	Gender=Fem|Number=Sing	14	conj	_	_
+28-29	בחום	_	_	_	_	_	_	_	SpaceAfter=No
+28	ב	ב	ADP	ADP	_	29	case	_	_
+29	חום	חום	NOUN	NOUN	Gender=Masc|Number=Sing	27	nmod	_	_
+30	,	,	PUNCT	PUNCT	_	33	punct	_	_
+31-32	וחשוב	_	_	_	_	_	_	_	_
+31	ו	ו	CCONJ	CCONJ	_	33	cc	_	_
+32	חשוב	חשוב	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	33	aux	_	_
+33	להיזהר	נזהר	VERB	VERB	HebBinyan=NIFAL|VerbForm=Inf|Voice=Mid	4	conj	_	_
+34-35	מלהתפתות	_	_	_	_	_	_	_	_
+34	מ	מ	ADP	ADP	_	35	case	_	_
+35	להתפתות	התפתה	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	33	obl	_	_
+36-39	למחירו	_	_	_	_	_	_	_	_
+36	ל	ל	ADP	ADP	_	37	case	_	_
+37	מחיר	מחיר	NOUN	NOUN	Gender=Masc|Number=Sing	35	obl	_	_
+38	_של_	של	ADP	ADP	Case=Gen	39	case:gen	_	_
+39	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	37	nmod:poss	_	_
+40-41	הזול	_	_	_	_	_	_	_	SpaceAfter=No
+40	ה	ה	DET	DET	Definite=Def|PronType=Art	41	det	_	_
+41	זול	זול	ADJ	ADJ	Gender=Masc|Number=Sing	37	amod	_	_
+42	,	,	PUNCT	PUNCT	_	4	punct	_	_
+43	אומרת	אמר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+44	אנג	אנג	PROPN	PROPN	_	43	nsubj	_	_
+45	הרצברג	הרצברג	PROPN	PROPN	_	44	flat:name	_	SpaceAfter=No
+46	.	.	PUNCT	PUNCT	_	43	punct	_	_
+
+# doc_id = htb:146_3
+# doc_range = 12683-12868
+# sent_id = 3730
+# text = מאחר שבכל דלת יש 21 חיבורים, ברור שלאיכות העבודה, כמו גם לטיב הדבקים, יש חלק מכריע בטיב המטבח שרוכשים.
+1	מאחר	מאחר	SCONJ	SCONJ	_	6	mark	_	_
+2-4	שבכל	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	1	fixed	_	_
+3	ב	ב	ADP	ADP	_	5	case	_	_
+4	כל	כול	DET	DET	Definite=Cons	5	det	_	_
+5	דלת	דלת	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	_
+6	יש	יש	VERB	VERB	HebExistential=Yes	10	advcl	_	_
+7	21	21	NUM	NUM	_	8	nummod	_	_
+8	חיבורים	חיבור	NOUN	NOUN	Gender=Masc|Number=Plur	6	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	6	punct	_	_
+10	ברור	ברור	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
+11-13	שלאיכות	_	_	_	_	_	_	_	_
+11	ש	ש	SCONJ	SCONJ	_	24	mark	_	_
+12	ל	ל	ADP	ADP	_	13	case	_	_
+13	איכות	איכות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	24	obl	_	_
+14-15	העבודה	_	_	_	_	_	_	_	SpaceAfter=No
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	13	compound:smixut	_	_
+16	,	,	PUNCT	PUNCT	_	13	punct	_	_
+17	כמו	כמו	ADP	ADP	_	20	case	_	_
+18	גם	גם	ADV	ADV	_	20	advmod	_	_
+19-20	לטיב	_	_	_	_	_	_	_	_
+19	ל	ל	ADP	ADP	_	20	case	_	_
+20	טיב	טיב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	24	obl	_	_
+21-22	הדבקים	_	_	_	_	_	_	_	SpaceAfter=No
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	דבקים	דבק	NOUN	NOUN	Gender=Masc|Number=Plur	20	compound:smixut	_	_
+23	,	,	PUNCT	PUNCT	_	20	punct	_	_
+24	יש	יש	VERB	VERB	HebExistential=Yes	10	advcl	_	_
+25	חלק	חלק	NOUN	NOUN	Gender=Masc|Number=Sing	24	nsubj	_	_
+26	מכריע	מכריע	ADJ	ADJ	Gender=Masc|Number=Sing	25	amod	_	_
+27-28	בטיב	_	_	_	_	_	_	_	_
+27	ב	ב	ADP	ADP	_	28	case	_	_
+28	טיב	טיב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	25	nmod	_	_
+29-30	המטבח	_	_	_	_	_	_	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	מטבח	מטבח	NOUN	NOUN	Gender=Masc|Number=Sing	28	compound:smixut	_	_
+31-32	שרוכשים	_	_	_	_	_	_	_	SpaceAfter=No
+31	ש	ש	SCONJ	SCONJ	_	32	mark	_	_
+32	רוכשים	רכש	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	30	acl:relcl	_	_
+33	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:146_3
+# doc_range = 12870-13231
+# sent_id = 3731
+# text = לדוגמה, השימוש בדבק מגע בארון המטבח גורע מאוד מאיכותו, משום שדבק זה נוטה להתנתק בהשפעת חום, כפי ששורר במטבח; ההפרדה בין הציפוי לתשתית מאפשרת חדירת לחות ותפיחה (ובימי חמסין התייבשות-יתר ועיוותים).
+1-2	לדוגמה	_	_	_	_	_	_	_	SpaceAfter=No
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	דוגמה	דוגמה	NOUN	NOUN	Gender=Fem|Number=Sing	13	obl	_	_
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
+4-5	השימוש	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	שימוש	שימוש	NOUN	NOUN	Gender=Masc|Number=Sing	13	nsubj	_	_
+6-7	בדבק	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	דבק	דבק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	nmod	_	_
+8	מגע	מגע	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound:smixut	_	_
+9-10	בארון	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	ארון	ארון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nmod	_	_
+11-12	המטבח	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	מטבח	מטבח	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
+13	גורע	גרע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+14	מאוד	מאוד	ADV	ADV	_	13	advmod	_	_
+15-18	מאיכותו	_	_	_	_	_	_	_	SpaceAfter=No
+15	מ	מ	ADP	ADP	_	16	case	_	_
+16	איכות	איכות	NOUN	NOUN	Gender=Fem|Number=Sing	13	obl	_	_
+17	_של_	של	ADP	ADP	Case=Gen	18	case:gen	_	_
+18	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+19	,	,	PUNCT	PUNCT	_	24	punct	_	_
+20	משום	משום	SCONJ	SCONJ	_	24	mark	_	_
+21-22	שדבק	_	_	_	_	_	_	_	_
+21	ש	ש	SCONJ	SCONJ	_	20	fixed	_	_
+22	דבק	דבק	NOUN	NOUN	Gender=Masc|Number=Sing	24	nsubj	_	_
+23	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	22	det	_	_
+24	נוטה	נטה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	13	advcl	_	_
+25	להתנתק	התנתק	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	24	xcomp	_	_
+26-27	בהשפעת	_	_	_	_	_	_	_	_
+26	ב	ב	ADP	ADP	_	27	case	_	_
+27	השפעת	השפעה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	25	obl	_	_
+28	חום	חום	NOUN	NOUN	Gender=Masc|Number=Sing	27	compound:smixut	_	SpaceAfter=No
+29	,	,	PUNCT	PUNCT	_	32	punct	_	_
+30	כפי	כפי	SCONJ	SCONJ	_	32	mark	_	_
+31-32	ששורר	_	_	_	_	_	_	_	_
+31	ש	ש	SCONJ	SCONJ	_	30	fixed	_	_
+32	שורר	שרר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	28	advcl	_	_
+33-35	במטבח	_	_	_	_	_	_	_	SpaceAfter=No
+33	ב	ב	ADP	ADP	_	35	case	_	_
+34	ה_	ה	DET	DET	PronType=Art|Definite=Def	35	det	_	_
+35	מטבח	מטבח	NOUN	NOUN	Gender=Masc|Number=Sing	32	obl	_	_
+36	;	;	PUNCT	PUNCT	_	45	punct	_	_
+37-38	ההפרדה	_	_	_	_	_	_	_	_
+37	ה	ה	DET	DET	Definite=Def|PronType=Art	38	det	_	_
+38	הפרדה	הפרדה	NOUN	NOUN	Gender=Fem|Number=Sing	45	nsubj	_	_
+39	בין	בין	ADP	ADP	_	41	case	_	_
+40-41	הציפוי	_	_	_	_	_	_	_	_
+40	ה	ה	DET	DET	Definite=Def|PronType=Art	41	det	_	_
+41	ציפוי	ציפוי	NOUN	NOUN	Gender=Masc|Number=Sing	38	nmod	_	_
+42-44	לתשתית	_	_	_	_	_	_	_	_
+42	ל	ל	ADP	ADP	_	44	case	_	_
+43	ה_	ה	DET	DET	PronType=Art|Definite=Def	44	det	_	_
+44	תשתית	תשתית	NOUN	NOUN	Gender=Fem|Number=Sing	41	conj	_	_
+45	מאפשרת	מאפשרת	AUX	AUX	Gender=Fem|Number=Sing|VerbForm=Part|VerbType=Mod	24	conj	_	_
+46	חדירת	חדירה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	45	obj	_	_
+47	לחות	לחות	NOUN	NOUN	Gender=Fem|Number=Sing	46	compound:smixut	_	_
+48-49	ותפיחה	_	_	_	_	_	_	_	_
+48	ו	ו	CCONJ	CCONJ	_	49	cc	_	_
+49	תפיחה	תפיחה	NOUN	NOUN	Gender=Fem|Number=Sing	47	conj	_	_
+50	(	(	PUNCT	PUNCT	_	51	punct	_	SpaceAfter=No
+51-53	ובימי	_	_	_	_	_	_	_	_
+51	ו	ו	CCONJ	CCONJ	_	46	appos	_	_
+52	ב	ב	ADP	ADP	_	53	case	_	_
+53	ימי	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	51	dep	_	HebSource=ConvUncertainHead
+54	חמסין	חמסין	NOUN	NOUN	Gender=Masc|Number=Sing	53	compound:smixut	_	_
+55	התייבשות	התייבשות	NOUN	NOUN	Gender=Fem|Number=Sing	51	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+56	-	-	PUNCT	PUNCT	_	57	punct	_	SpaceAfter=No
+57	יתר	יתר	ADJ	ADJ	_	55	dep	_	HebSource=ConvUncertainHead
+58-59	ועיוותים	_	_	_	_	_	_	_	SpaceAfter=No
+58	ו	ו	CCONJ	CCONJ	_	59	cc	_	_
+59	עיוותים	עיוות	NOUN	NOUN	Gender=Fem|Number=Plur	55	conj	_	_
+60	)	)	PUNCT	PUNCT	_	51	punct	_	SpaceAfter=No
+61	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# doc_id = htb:146_3
+# doc_range = 13235-13347
+# sent_id = 3732
+# text = בייצור התעשייתי מעדיפים את דבקי האוריאה או פוליוויניל-אצטט.
+1-3	בייצור	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	ייצור	ייצור	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+4-5	התעשייתי	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	תעשייתי	תעשייתי	ADJ	ADJ	Gender=Masc|Number=Sing	3	amod	_	_
+6	מעדיפים	העדיף	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+7	את	את	ADP	ADP	Case=Acc	8	case	_	_
+8	דבקי	דבק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	6	obj	_	_
+9-10	האוריאה	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	אוריאה	אוריאה	NOUN	NOUN	_	8	compound:smixut	_	_
+11	או	או	CCONJ	CCONJ	_	12	cc	_	_
+12	פוליוויניל	פוליוויניל	NOUN	NOUN	_	8	conj	_	SpaceAfter=No
+13	-	-	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
+14	אצטט	ציטט	NOUN	NOUN	_	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:146_3
+# doc_range = 13349-13460
+# sent_id = 3733
+# text = לדברי הרצברג, רמת איטום הציפוי היא אחד המבחנים לקבלת תו התקן.
+1-2	לדברי	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	דברי	דבר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	12	nmod	_	_
+3	הרצברג	הרצברג	PROPN	PROPN	_	2	compound:smixut	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	2	punct	_	_
+5	רמת	רמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	nsubj	_	_
+6	איטום	איטום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	compound:smixut	_	_
+7-8	הציפוי	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	ציפוי	ציפוי	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+9	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	12	cop	_	_
+10	אחד	אחת	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	12	nummod	_	_
+11-12	המבחנים	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	מבחנים	מבחן	NOUN	NOUN	Gender=Masc|Number=Plur	0	root	_	_
+13-14	לקבלת	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	קבלת	קבלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	nmod	_	_
+15	תו	תו	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	14	compound:smixut	_	_
+16-17	התקן	_	_	_	_	_	_	_	SpaceAfter=No
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	תקן	תקן	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	_
+18	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# doc_id = htb:146_3
+# doc_range = 13463-13622
+# sent_id = 3734
+# text = עד היום זכו בו רק מטבחי רגבה, סאגה ורמט, ובתהליכי אישור מתקדמים נמצאים מטבחי זיו וטופז.
+1	עד	עד	ADP	ADP	_	2	case	_	_
+2	היום	היום	ADV	ADV	_	3	obl	_	_
+3	זכו	זכה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4-5	בו	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+6	רק	רק	ADV	ADV	_	7	advmod	_	_
+7	מטבחי	מטבח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	3	nsubj	_	_
+8	רגבה	רגבה	PROPN	PROPN	_	7	compound:smixut	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	10	punct	_	_
+10	סאגה	סאגה	PROPN	PROPN	_	8	conj	_	_
+11-12	ורמט	_	_	_	_	_	_	_	SpaceAfter=No
+11	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+12	רמט	ורמט	PROPN	PROPN	_	8	conj	_	_
+13	,	,	PUNCT	PUNCT	_	19	punct	_	_
+14-16	ובתהליכי	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	תהליכי	תהליך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	19	obl	_	_
+17	אישור	אישור	NOUN	NOUN	Gender=Masc|Number=Sing	16	compound:smixut	_	_
+18	מתקדמים	מתקדם	ADJ	ADJ	Gender=Masc|Number=Plur	16	amod	_	_
+19	נמצאים	נמצא	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	3	conj	_	_
+20	מטבחי	מטבח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	19	nsubj	_	_
+21	זיו	זיו	PROPN	PROPN	_	20	compound:smixut	_	_
+22-23	וטופז	_	_	_	_	_	_	_	SpaceAfter=No
+22	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
+23	טופז	טופז	PROPN	PROPN	_	21	conj	_	_
+24	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:146_3
+# doc_range = 13624-13726
+# sent_id = 3735
+# text = באשר לצבע, טיבו נמדד בשמירת הגוון ובעמידותו לקרינת אור.
+1	באשר	באשר	ADP	ADP	_	4	case	_	_
+2-4	לצבע	_	_	_	_	_	_	_	SpaceAfter=No
+2	ל	ל	ADP	ADP	_	1	fixed	_	_
+3	ה_	ה	DET	DET	PronType=Art|Definite=Def	4	det	_	_
+4	צבע	צבע	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	_
+5	,	,	PUNCT	PUNCT	_	4	punct	_	_
+6-8	טיבו	_	_	_	_	_	_	_	_
+6	טיב	טיב	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj	_	_
+7	_של_	של	ADP	ADP	Case=Gen	8	case:gen	_	_
+8	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+9	נמדד	נמדד	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+10-11	בשמירת	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	שמירת	שמירה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	obl	_	_
+12-13	הגוון	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	גוון	גוון	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound:smixut	_	_
+14-18	ובעמידותו	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	עמידות	עמידות	NOUN	NOUN	Gender=Fem|Number=Sing	11	conj	_	_
+17	_של_	של	ADP	ADP	Case=Gen	18	case:gen	_	_
+18	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+19-20	לקרינת	_	_	_	_	_	_	_	_
+19	ל	ל	ADP	ADP	_	20	case	_	_
+20	קרינת	קרינה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	16	nmod	_	_
+21	אור	אור	NOUN	NOUN	Gender=Masc|Number=Sing	20	compound:smixut	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:146_3
+# doc_range = 13728-13891
+# sent_id = 3736
+# text = הצרכן אינו יכול לבדוק דברים אלה בעת הקנייה, אבל במכון התקנים אומרים שבודקים היטב גם אותם.
+1-2	הצרכן	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	צרכן	צרכן	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	אינו	אינו	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	5	aux	_	_
+4	יכול	יכול	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part|VerbType=Mod	5	aux	_	_
+5	לבדוק	בדק	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	0	root	_	_
+6	דברים	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	5	obj	_	_
+7	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	6	det	_	_
+8-9	בעת	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	עת	עת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	obl	_	_
+10-11	הקנייה	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	קנייה	קנייה	NOUN	NOUN	Gender=Fem|Number=Sing	9	compound:smixut	_	_
+12	,	,	PUNCT	PUNCT	_	18	punct	_	_
+13	אבל	אבל	CCONJ	CCONJ	_	18	cc	_	_
+14-15	במכון	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	מכון	מכון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	18	obl	_	_
+16-17	התקנים	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	תקנים	תקן	NOUN	NOUN	Gender=Masc|Number=Plur	15	compound:smixut	_	_
+18	אומרים	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	4	conj	_	_
+19-20	שבודקים	_	_	_	_	_	_	_	_
+19	ש	ש	SCONJ	SCONJ	_	20	mark	_	_
+20	בודקים	בדק	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	18	ccomp	_	_
+21	היטב	היטב	ADV	ADV	_	20	advmod	_	_
+22	גם	גם	ADV	ADV	_	24	advmod	_	_
+23-24	אותם	_	_	_	_	_	_	_	SpaceAfter=No
+23	את	את	ADP	ADP	Case=Acc	24	case	_	_
+24	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	obj	_	_
+25	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:146_3
+# doc_range = 13893-13967
+# sent_id = 3737
+# text = עוד נתון חשוב שנבדק במכון הוא טיב הצירים.
+1	עוד	עוד	DET	DET	_	2	det	_	_
+2	נתון	נתון	NOUN	NOUN	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	חשוב	חשוב	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+4-5	שנבדק	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	5	mark	_	_
+5	נבדק	נבדק	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	2	acl:relcl	_	_
+6-8	במכון	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	8	case	_	_
+7	ה_	ה	DET	DET	PronType=Art|Definite=Def	8	det	_	_
+8	מכון	מכון	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+9	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	10	cop	_	_
+10	טיב	טיב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	_
+11-12	הצירים	_	_	_	_	_	_	_	SpaceAfter=No
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	צירים	ציר	NOUN	NOUN	Gender=Masc|Number=Plur	10	compound:smixut	_	_
+13	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:146_3
+# doc_range = 13970-14299
+# sent_id = 3738
+# text = בודקים את רמת העמידות שלהם לקורוזיה ואת תפקדם, הנבדק בסימולציה: כל דלת במדגם נבדקת 05 אלף פעם בפתיחה וסגירה מלאה, באמצעות מכונה מיוחדת, ועוד 02 אלף פעם פתיחה-בכוח בזווית של 03 מעלות.
+1	בודקים	בדק	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+2	את	את	ADP	ADP	Case=Acc	3	case	_	_
+3	רמת	רמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	obj	_	_
+4-5	העמידות	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	עמידות	עמידות	NOUN	NOUN	Gender=Fem|Number=Sing	3	compound:smixut	_	_
+6-7	שלהם	_	_	_	_	_	_	_	_
+6	של	של	ADP	ADP	Case=Gen	7	case	_	_
+7	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nmod	_	_
+8-9	לקורוזיה	_	_	_	_	_	_	_	_
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	קורוזיה	קורוזיה	NOUN	NOUN	Gender=Fem|Number=Sing	5	nmod	_	_
+10-11	ואת	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+11	את	את	ADP	ADP	Case=Acc	12	case	_	_
+12	תפקדם	תפקדם	NOUN	NOUN	_	3	conj	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	15	punct	_	_
+14-15	הנבדק	_	_	_	_	_	_	_	_
+14	ה	ה	SCONJ	SCONJ	_	15	mark	_	_
+15	נבדק	נבדק	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	12	acl:relcl	_	_
+16-17	בסימולציה	_	_	_	_	_	_	_	SpaceAfter=No
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	סימולציה	סימולציה	NOUN	NOUN	Gender=Fem|Number=Sing	15	obl	_	_
+18	:	:	PUNCT	PUNCT	_	24	punct	_	_
+19	כל	כול	DET	DET	Definite=Cons	20	det	_	_
+20	דלת	דלת	NOUN	NOUN	Gender=Fem|Number=Sing	24	nsubj	_	_
+21-23	במדגם	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	23	case	_	_
+22	ה_	ה	DET	DET	PronType=Art|Definite=Def	23	det	_	_
+23	מדגם	מדגם	NOUN	NOUN	Gender=Masc|Number=Sing	20	nmod	_	_
+24	נבדקת	נבדק	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	1	parataxis	_	_
+25	05	05	NUM	NUM	_	26	nummod	_	_
+26	אלף	אלף	NUM	NUM	Gender=Masc|Number=Plur	27	nummod	_	_
+27	פעם	פעם	NOUN	NOUN	Gender=Fem|Number=Sing	24	dep	_	_
+28-29	בפתיחה	_	_	_	_	_	_	_	_
+28	ב	ב	ADP	ADP	_	29	case	_	_
+29	פתיחה	פתיחה	NOUN	NOUN	Gender=Fem|Number=Sing	27	nmod	_	_
+30-31	וסגירה	_	_	_	_	_	_	_	_
+30	ו	ו	CCONJ	CCONJ	_	31	cc	_	_
+31	סגירה	סגירה	NOUN	NOUN	Gender=Fem|Number=Sing	29	conj	_	_
+32	מלאה	מלא	ADJ	ADJ	Gender=Fem|Number=Sing	29	amod	_	SpaceAfter=No
+33	,	,	PUNCT	PUNCT	_	35	punct	_	_
+34	באמצעות	באמצעות	ADP	ADP	_	35	case	_	_
+35	מכונה	מכונה	NOUN	NOUN	Gender=Fem|Number=Sing	27	nmod	_	_
+36	מיוחדת	מיוחד	ADJ	ADJ	Gender=Fem|Number=Sing	35	amod	_	SpaceAfter=No
+37	,	,	PUNCT	PUNCT	_	42	punct	_	_
+38-39	ועוד	_	_	_	_	_	_	_	_
+38	ו	ו	CCONJ	CCONJ	_	42	cc	_	_
+39	עוד	עוד	DET	DET	_	42	det	_	_
+40	02	02	NUM	NUM	_	41	nummod	_	_
+41	אלף	אלף	NUM	NUM	Gender=Masc|Number=Plur	42	nummod	_	_
+42	פעם	פעם	NOUN	NOUN	Gender=Fem|Number=Sing	27	conj	_	_
+43	פתיחה	פתיחה	NOUN	NOUN	Gender=Fem|Number=Sing	42	nmod	_	SpaceAfter=No
+44	-	-	PUNCT	PUNCT	_	46	punct	_	SpaceAfter=No
+45-46	בכוח	_	_	_	_	_	_	_	_
+45	ב	ב	ADP	ADP	_	46	case	_	_
+46	כוח	כוח	NOUN	NOUN	Gender=Masc|Number=Sing	43	nmod	_	_
+47-48	בזווית	_	_	_	_	_	_	_	_
+47	ב	ב	ADP	ADP	_	48	case	_	_
+48	זווית	זווית	NOUN	NOUN	Gender=Fem|Number=Sing	43	nmod	_	_
+49	של	של	ADP	ADP	Case=Gen	51	case	_	_
+50	03	03	NUM	NUM	_	51	nummod	_	_
+51	מעלות	מעלה	NOUN	NOUN	Gender=Fem|Number=Plur	48	nmod:poss	_	SpaceAfter=No
+52	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:146_3
+# doc_range = 14301-14488
+# sent_id = 3739
+# text = מכון התקנים בודק גם את כושר ההעמסה על המדפים, עמידות בשחיקה, בהולם, בחום יבש, בהכתמה, בשריטה ובשבירה.
+1	מכון	מכון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nsubj	_	_
+2-3	התקנים	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	תקנים	תקן	NOUN	NOUN	Gender=Masc|Number=Plur	1	compound:smixut	_	_
+4	בודק	בדק	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+5	גם	גם	ADV	ADV	_	7	advmod	_	_
+6	את	את	ADP	ADP	Case=Acc	7	case	_	_
+7	כושר	כושר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	obj	_	_
+8-9	ההעמסה	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	העמסה	העמסה	NOUN	NOUN	Gender=Fem|Number=Sing	7	compound:smixut	_	_
+10	על	על	ADP	ADP	_	12	case	_	_
+11-12	המדפים	_	_	_	_	_	_	_	SpaceAfter=No
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	מדפים	מדף	NOUN	NOUN	Gender=Masc|Number=Plur	9	nmod	_	_
+13	,	,	PUNCT	PUNCT	_	14	punct	_	HebSource=ConvUncertainHead
+14	עמידות	עמידות	NOUN	NOUN	Gender=Fem|Number=Sing	7	dep	_	HebSource=ConvUncertainHead
+15-16	בשחיקה	_	_	_	_	_	_	_	SpaceAfter=No
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	שחיקה	שחיקה	NOUN	NOUN	Gender=Fem|Number=Sing	14	nmod	_	_
+17	,	,	PUNCT	PUNCT	_	19	punct	_	HebSource=ConvUncertainHead
+18-19	בהולם	_	_	_	_	_	_	_	SpaceAfter=No
+18	ב	ב	ADP	ADP	_	19	case	_	_
+19	הולם	הלם	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	7	dep	_	HebSource=ConvUncertainHead
+20	,	,	PUNCT	PUNCT	_	22	punct	_	_
+21-22	בחום	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	חום	חום	NOUN	NOUN	Gender=Masc|Number=Sing	19	conj	_	_
+23	יבש	יבש	ADJ	ADJ	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	PUNCT	_	26	punct	_	_
+25-26	בהכתמה	_	_	_	_	_	_	_	SpaceAfter=No
+25	ב	ב	ADP	ADP	_	26	case	_	_
+26	הכתמה	הכתמה	NOUN	NOUN	Gender=Fem|Number=Sing	19	conj	_	_
+27	,	,	PUNCT	PUNCT	_	29	punct	_	_
+28-29	בשריטה	_	_	_	_	_	_	_	_
+28	ב	ב	ADP	ADP	_	29	case	_	_
+29	שריטה	שריטה	NOUN	NOUN	Gender=Fem|Number=Sing	19	conj	_	_
+30-32	ובשבירה	_	_	_	_	_	_	_	SpaceAfter=No
+30	ו	ו	CCONJ	CCONJ	_	32	cc	_	_
+31	ב	ב	ADP	ADP	_	32	case	_	_
+32	שבירה	שבירה	NOUN	NOUN	Gender=Fem|Number=Sing	19	conj	_	_
+33	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:146_3
+# doc_range = 14490-14831
+# sent_id = 3740
+# text = מפעל "דלתות קיסריה", בקיבוץ שדות-ים, המתמחה בייצור דלתות לרהיטים ומטבחים, יצא באחרונה במבצע מעניין: חידוש ארון המטבח הקיים על-ידי החלפת הדלתות בלבד, ב04% ממחירו של מטבח חדש באותו גודל.
+1	מפעל	מפעל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	23	nsubj	_	_
+2	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+3	דלתות	דלת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	1	compound:smixut	_	_
+4	קיסריה	קיסריה	PROPN	PROPN	_	3	flat:name	_	SpaceAfter=No
+5	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	8	punct	_	_
+7-8	בקיבוץ	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	קיבוץ	קיבוץ	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	nmod	_	_
+9	שדות	שדה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	8	compound:smixut	_	SpaceAfter=No
+10	-	-	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+11	ים	ים	NOUN	NOUN	Gender=Masc|Number=Sing	9	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	14	punct	_	_
+13-14	המתמחה	_	_	_	_	_	_	_	_
+13	ה	ה	SCONJ	SCONJ	_	14	mark	_	_
+14	מתמחה	התמחה	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	8	acl:relcl	_	_
+15-16	בייצור	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	ייצור	ייצור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	14	obl	_	_
+17	דלתות	דלת	NOUN	NOUN	Gender=Fem|Number=Plur	16	compound:smixut	_	_
+18-19	לרהיטים	_	_	_	_	_	_	_	_
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	רהיטים	רהיט	NOUN	NOUN	Gender=Masc|Number=Plur	16	nmod	_	_
+20-21	ומטבחים	_	_	_	_	_	_	_	SpaceAfter=No
+20	ו	ו	CCONJ	CCONJ	_	21	cc	_	_
+21	מטבחים	מטבח	NOUN	NOUN	Gender=Masc|Number=Plur	19	conj	_	_
+22	,	,	PUNCT	PUNCT	_	1	punct	_	_
+23	יצא	יצא	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	_
+24	באחרונה	באחרונה	ADV	ADV	_	23	advmod	_	_
+25-26	במבצע	_	_	_	_	_	_	_	_
+25	ב	ב	ADP	ADP	_	26	case	_	_
+26	מבצע	מבצע	NOUN	NOUN	Gender=Masc|Number=Sing	23	obl	_	_
+27	מעניין	מעניין	ADJ	ADJ	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+28	:	:	PUNCT	PUNCT	_	29	punct	_	_
+29	חידוש	חידוש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	26	appos	_	_
+30	ארון	ארון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	29	compound:smixut	_	_
+31-32	המטבח	_	_	_	_	_	_	_	_
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	מטבח	מטבח	NOUN	NOUN	Gender=Masc|Number=Sing	30	compound:smixut	_	_
+33-34	הקיים	_	_	_	_	_	_	_	_
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	קיים	קיים	ADJ	ADJ	Gender=Masc|Number=Sing	32	amod	_	_
+35	על	על	ADP	ADP	_	38	case	_	SpaceAfter=No
+36	-	-	PUNCT	PUNCT	_	37	punct	_	SpaceAfter=No
+37	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	35	fixed	_	_
+38	החלפת	החלפה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	29	nmod	_	_
+39-40	הדלתות	_	_	_	_	_	_	_	_
+39	ה	ה	DET	DET	Definite=Def|PronType=Art	40	det	_	_
+40	דלתות	דלת	NOUN	NOUN	Gender=Fem|Number=Plur	38	compound:smixut	_	_
+41	בלבד	בלבד	ADV	ADV	_	40	advmod	_	SpaceAfter=No
+42	,	,	PUNCT	PUNCT	_	45	punct	_	_
+43-44	ב04	_	_	_	_	_	_	_	SpaceAfter=No
+43	ב	ב	ADP	ADP	_	45	case	_	_
+44	04	04	NUM	NUM	_	45	nummod	_	_
+45	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	38	nmod	_	_
+46-49	ממחירו	_	_	_	_	_	_	_	_
+46	מ	מ	ADP	ADP	_	47	case	_	_
+47	מחיר	מחיר	NOUN	NOUN	Gender=Masc|Number=Sing	45	nmod	_	_
+48	_של_	של	ADP	ADP	Case=Gen	49	case:gen	_	_
+49	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	47	nmod:poss	_	_
+50	של	של	ADP	ADP	Case=Gen	51	case	_	_
+51	מטבח	מטבח	NOUN	NOUN	Gender=Masc|Number=Sing	47	nmod:poss	_	_
+52	חדש	חדש	ADJ	ADJ	Gender=Masc|Number=Sing	51	amod	_	_
+53-54	באותו	_	_	_	_	_	_	_	_
+53	ב	ב	ADP	ADP	_	55	case	_	_
+54	אותו	אותו	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	55	det	_	_
+55	גודל	גודל	NOUN	NOUN	Gender=Masc|Number=Sing	51	nmod	_	SpaceAfter=No
+56	.	.	PUNCT	PUNCT	_	23	punct	_	_
+
+# doc_id = htb:146_3
+# doc_range = 14833-15023
+# sent_id = 3741
+# text = מאחר שהדלתות הן המעניקות למטבח את חזותו, והן גם הרגישות ביותר לבלאי, יש בהצעה זו כדי לעניין צרכנים רבים.
+1	מאחר	מאחר	SCONJ	SCONJ	_	7	mark	_	_
+2-4	שהדלתות	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	1	fixed	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	דלתות	דלת	NOUN	NOUN	Gender=Fem|Number=Plur	7	dislocated	_	_
+5	הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
+6-7	המעניקות	_	_	_	_	_	_	_	_
+6	ה	ה	SCONJ	SCONJ	_	7	mark	_	_
+7	מעניקות	העניק	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	25	advcl	_	_
+8-10	למטבח	_	_	_	_	_	_	_	_
+8	ל	ל	ADP	ADP	_	10	case	_	_
+9	ה_	ה	DET	DET	PronType=Art|Definite=Def	10	det	_	_
+10	מטבח	מטבח	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
+11	את	את	ADP	ADP	Case=Acc	12	case	_	_
+12-14	חזותו	_	_	_	_	_	_	_	SpaceAfter=No
+12	חזות	חזות	NOUN	NOUN	Gender=Fem|Number=Sing	7	obj	_	_
+13	_של_	של	ADP	ADP	Case=Gen	14	case:gen	_	_
+14	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+15	,	,	PUNCT	PUNCT	_	20	punct	_	_
+16-17	והן	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
+17	הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
+18	גם	גם	ADV	ADV	_	20	advmod	_	_
+19-20	הרגישות	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	רגישות	רגיש	ADJ	ADJ	Gender=Fem|Number=Plur	7	conj	_	_
+21	ביותר	ביותר	ADV	ADV	_	20	advmod	_	_
+22-23	לבלאי	_	_	_	_	_	_	_	SpaceAfter=No
+22	ל	ל	ADP	ADP	_	23	case	_	_
+23	בלאי	בלאי	NOUN	NOUN	Gender=Masc|Number=Sing	20	obl	_	_
+24	,	,	PUNCT	PUNCT	_	7	punct	_	_
+25	יש	יש	VERB	VERB	HebExistential=Yes	0	root	_	_
+26-27	בהצעה	_	_	_	_	_	_	_	_
+26	ב	ב	ADP	ADP	_	27	case	_	_
+27	הצעה	הצעה	NOUN	NOUN	Gender=Fem|Number=Sing	25	obl	_	_
+28	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	27	det	_	_
+29	כדי	כדי	SCONJ	SCONJ	_	30	mark	_	_
+30	לעניין	עניין	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	25	advcl	_	_
+31	צרכנים	צרכן	NOUN	NOUN	Gender=Masc|Number=Plur	30	obj	_	_
+32	רבים	רב	ADJ	ADJ	Gender=Masc|Number=Plur	31	dep	_	SpaceAfter=No
+33	.	.	PUNCT	PUNCT	_	25	punct	_	_
+
+# doc_id = htb:146_3
+# doc_range = 15025-15323
+# sent_id = 3742
+# text = הדלתות המוצעות עשויות מ-בציפוי ייחודי, או מעץ אלון: את דלתות ה- מתאימה החברה לכל ארון קיים, בכל הדגמים המיוצרים במפעל, אך דלתות אלון אפשר להתאים לשני דגמים בלבד.
+1-2	הדלתות	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	דלתות	דלת	NOUN	NOUN	Gender=Fem|Number=Plur	5	nsubj	_	_
+3-4	המוצעות	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	מוצעות	מוצע	ADJ	ADJ	Gender=Fem|Number=Plur	2	amod	_	_
+5	עשויות	עשוי	ADJ	ADJ	Gender=Fem|Number=Plur	0	root	_	_
+6	מ	מ	ADP	ADP	_	9	case	_	SpaceAfter=No
+7	-	-	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+8-9	בציפוי	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	ציפוי	ציפוי	NOUN	NOUN	Gender=Masc|Number=Sing	14	nmod	_	_
+10	ייחודי	ייחודי	ADJ	ADJ	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	9	punct	_	_
+12	או	או	CCONJ	CCONJ	_	14	cc	_	HebSource=ConvUncertainHead
+13-14	מעץ	_	_	_	_	_	_	_	_
+13	מ	מ	ADP	ADP	_	14	case	_	_
+14	עץ	עץ	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+15	אלון	אלון	NOUN	NOUN	Gender=Masc|Number=Sing	14	compound:smixut	_	SpaceAfter=No
+16	:	:	PUNCT	PUNCT	_	21	punct	_	_
+17	את	את	ADP	ADP	Case=Acc	18	case	_	_
+18	דלתות	דלת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	21	obj	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	18	compound:smixut	_	SpaceAfter=No
+20	-	-	PUNCT	PUNCT	_	18	punct	_	_
+21	מתאימה	התאים	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	5	parataxis	_	_
+22-23	החברה	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	21	nsubj	_	_
+24-25	לכל	_	_	_	_	_	_	_	_
+24	ל	ל	ADP	ADP	_	26	case	_	_
+25	כל	כול	DET	DET	Definite=Cons	26	det	_	_
+26	ארון	ארון	NOUN	NOUN	Gender=Masc|Number=Sing	21	obl	_	_
+27	קיים	קיים	ADJ	ADJ	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
+28	,	,	PUNCT	PUNCT	_	32	punct	_	_
+29-30	בכל	_	_	_	_	_	_	_	_
+29	ב	ב	ADP	ADP	_	32	case	_	_
+30	כל	כול	DET	DET	Definite=Cons	32	det	_	_
+31-32	הדגמים	_	_	_	_	_	_	_	_
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	דגמים	דגם	NOUN	NOUN	Gender=Masc|Number=Plur	21	obl	_	_
+33-34	המיוצרים	_	_	_	_	_	_	_	_
+33	ה	ה	SCONJ	SCONJ	_	34	mark	_	_
+34	מיוצרים	יוצר	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	32	acl:relcl	_	_
+35-37	במפעל	_	_	_	_	_	_	_	SpaceAfter=No
+35	ב	ב	ADP	ADP	_	37	case	_	_
+36	ה_	ה	DET	DET	PronType=Art|Definite=Def	37	det	_	_
+37	מפעל	מפעל	NOUN	NOUN	Gender=Masc|Number=Sing	34	obl	_	_
+38	,	,	PUNCT	PUNCT	_	43	punct	_	_
+39	אך	אך	CCONJ	CCONJ	_	43	cc	_	_
+40	דלתות	דלת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	43	obj	_	_
+41	אלון	אלון	NOUN	NOUN	Gender=Masc|Number=Sing	40	compound:smixut	_	_
+42	אפשר	אפשר	AUX	AUX	VerbType=Mod	43	aux	_	_
+43	להתאים	התאים	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	21	conj	_	_
+44-45	לשני	_	_	_	_	_	_	_	_
+44	ל	ל	ADP	ADP	_	46	case	_	_
+45	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	46	nummod	_	_
+46	דגמים	דגם	NOUN	NOUN	Gender=Masc|Number=Plur	43	obl	_	_
+47	בלבד	בלבד	ADV	ADV	_	46	advmod	_	SpaceAfter=No
+48	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:146_3
+# doc_range = 15325-15445
+# sent_id = 3743
+# text = המפעל מספק את דלתות עץ האלון ללא צביעה (אך מוכן לצבוע, במחיר נוסף).
+1-2	המפעל	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מפעל	מפעל	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	מספק	סיפק	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4	את	את	ADP	ADP	Case=Acc	5	case	_	_
+5	דלתות	דלת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	3	obj	_	_
+6	עץ	עץ	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	compound:smixut	_	_
+7-8	האלון	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	אלון	אלון	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+9	ללא	ללא	ADP	ADP	_	10	case	_	_
+10	צביעה	צביעה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+11	(	(	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
+12	אך	אך	CCONJ	CCONJ	_	3	parataxis	_	_
+13	מוכן	מוכן	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	14	aux	_	HebSource=ConvUncertainHead
+14	לצבוע	צבע	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	12	dep	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	17	punct	_	_
+16-17	במחיר	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	מחיר	מחיר	NOUN	NOUN	Gender=Masc|Number=Sing	14	obl	_	_
+18	נוסף	נוסף	ADJ	ADJ	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+19	)	)	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:146_3
+# doc_range = 15449-15536
+# sent_id = 3744
+# text = דלתות ה- במסגרת המבצע מצופות בטכנולוגיה הנקראת.
+1	דלתות	דלת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	8	nsubj:pass	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	1	compound:smixut	_	SpaceAfter=No
+3	-	-	PUNCT	PUNCT	_	7	punct	_	_
+4-5	במסגרת	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	7	case	_	_
+5	מסגרת	מסגרת	NOUN	NOUN	Gender=Fem|Number=Sing	4	fixed	_	_
+6-7	המבצע	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	מבצע	מבצע	NOUN	NOUN	Gender=Masc|Number=Sing	1	nmod	_	_
+8	מצופות	צופה	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+9-11	בטכנולוגיה	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	11	case	_	_
+10	ה_	ה	DET	DET	PronType=Art|Definite=Def	11	det	_	_
+11	טכנולוגיה	טכנולוגיה	NOUN	NOUN	Gender=Fem|Number=Sing	8	obl	_	_
+12-13	הנקראת	_	_	_	_	_	_	_	SpaceAfter=No
+12	ה	ה	SCONJ	SCONJ	_	13	mark	_	_
+13	נקראת	נקרא	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	11	acl:relcl	_	_
+14	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:146_3
+# doc_range = 15538-15699
+# sent_id = 3745
+# text = זהו ציפוי המילואה בפי-וי-סי, בשיטה שבה ההדבקה נעשית בתנאי ואקום, לחץ וטמפרטורה גבוהה.
+1	זהו	זהו	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	_
+2	ציפוי	ציפוי	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+3-4	המילואה	_	_	_	_	_	_	_	_
+3	ה	ה	X	X	_	2	acl	_	Xtra=Junk
+4	מילואה	מילואה	X	X	_	3	dep	_	HebSource=ConvUncertainHead|Xtra=Junk
+5-6	בפי	_	_	_	_	_	_	_	SpaceAfter=No
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	פי	פי	PROPN	PROPN	_	4	dep	_	HebSource=ConvUncertainHead
+7	-	-	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+8	וי	וי	PROPN	PROPN	_	6	flat:name	_	SpaceAfter=No
+9	-	-	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+10	סי	סי	PROPN	PROPN	_	6	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	14	punct	_	HebSource=ConvUncertainHead
+12-14	בשיטה	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	14	case	_	_
+13	ה_	ה	DET	DET	PronType=Art|Definite=Def	14	det	_	_
+14	שיטה	שיטה	NOUN	NOUN	Gender=Fem|Number=Sing	4	dep	_	HebSource=ConvUncertainHead
+15-17	שבה	_	_	_	_	_	_	_	_
+15	ש	ש	SCONJ	SCONJ	_	20	mark	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obl	_	_
+18-19	ההדבקה	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	הדבקה	הדבקה	NOUN	NOUN	Gender=Fem|Number=Sing	20	nsubj	_	_
+20	נעשית	נעשה	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	14	acl:relcl	_	_
+21-22	בתנאי	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	תנאי	תנאי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	20	obl	_	_
+23	ואקום	ואקום	NOUN	NOUN	Gender=Masc|Number=Sing	22	compound:smixut	_	SpaceAfter=No
+24	,	,	PUNCT	PUNCT	_	25	punct	_	_
+25	לחץ	לחץ	NOUN	NOUN	Gender=Masc|Number=Sing	23	conj	_	_
+26-27	וטמפרטורה	_	_	_	_	_	_	_	_
+26	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
+27	טמפרטורה	טמפרטורה	NOUN	NOUN	Gender=Fem|Number=Sing	23	conj	_	_
+28	גבוהה	גבוה	ADJ	ADJ	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:146_3
+# doc_range = 15701-15834
+# sent_id = 3746
+# text = המחירים להלן מתייחסים לדלתות בגדלים סטנדרדיים (גובה 0408 ס"ם, רוחב עד 24 סם).
+1-2	המחירים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מחירים	מחיר	NOUN	NOUN	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	להלן	להלן	ADV	ADV	_	4	advmod	_	_
+4	מתייחסים	התייחס	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+5-6	לדלתות	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	דלתות	דלת	NOUN	NOUN	Gender=Fem|Number=Plur	4	obl	_	_
+7-8	בגדלים	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	גדלים	גודל	NOUN	NOUN	Gender=Masc|Number=Plur	6	nmod	_	_
+9	סטנדרדיים	סטנדרדיים	ADJ	ADJ	_	8	amod	_	_
+10	(	(	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+11	גובה	גובה	NOUN	NOUN	Gender=Masc|Number=Sing	8	appos	_	_
+12	0408	0408	NUM	NUM	_	13	nummod	_	_
+13	ס"ם	ס"ם	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Plur,Sing	11	nmod	_	HebSource=ConvUncertainLabel|SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	15	punct	_	_
+15	רוחב	רוחב	NOUN	NOUN	Gender=Masc|Number=Sing	11	appos	_	_
+16	עד	עד	ADP	ADP	_	18	case	_	_
+17	24	24	NUM	NUM	_	18	nummod	_	_
+18	סם	סם	NOUN	NOUN	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	)	)	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:146_3
+# doc_range = 15838-16008
+# sent_id = 3747
+# text = המחירים כוללים מע"ם, לתשלום במזומן: אלון 987 ש"ח צביעה 42 ש"ח הרכב 81 ש"ח סה"ך 021 ש"ח לדלת אלון מורכבת.
+1-2	המחירים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מחירים	מחיר	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	כוללים	כלל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4	מע"ם	מע"ם	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	7	punct	_	_
+6-7	לתשלום	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	תשלום	תשלום	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+8-9	במזומן	_	_	_	_	_	_	_	SpaceAfter=No
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	מזומן	זומן	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	7	nmod	_	_
+10	:	:	PUNCT	PUNCT	_	11	punct	_	_
+11	אלון	אלון	NOUN	NOUN	Gender=Masc|Number=Sing	3	dep	_	_
+12	987	987	NUM	NUM	_	13	nummod	_	_
+13	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	11	nmod	_	HebSource=ConvUncertainLabel
+14	צביעה	צביעה	NOUN	NOUN	Gender=Fem|Number=Sing	11	dep	_	HebSource=ConvUncertainHead
+15	42	42	NUM	NUM	_	16	nummod	_	_
+16	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	14	nmod	_	HebSource=ConvUncertainLabel
+17	הרכב	הרכב	NOUN	NOUN	Gender=Masc|Number=Sing	11	dep	_	HebSource=ConvUncertainHead
+18	81	81	NUM	NUM	_	19	nummod	_	_
+19	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	17	nmod	_	HebSource=ConvUncertainLabel
+20	סה"ך	סה"ך	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	11	dep	_	HebSource=ConvUncertainHead
+21	021	021	NUM	NUM	_	22	nummod	_	_
+22	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	20	nmod	_	HebSource=ConvUncertainLabel
+23-24	לדלת	_	_	_	_	_	_	_	_
+23	ל	ל	ADP	ADP	_	24	case	_	_
+24	דלת	דלת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	22	nmod	_	_
+25	אלון	אלון	NOUN	NOUN	Gender=Masc|Number=Sing	24	compound:smixut	_	_
+26	מורכבת	מורכב	ADJ	ADJ	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
+27	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:146_3
+# doc_range = 16010-16275
+# sent_id = 3748
+# text = 26 ש"ח הרכבה 31 ש"ח סה"ך 57 ש"ח לדלת מורכבת עלות חידושו של מטבח בן 01 דלתות (כ01 מטרים) בדלתות תגיע ל-1,875 ש"ח, בלא הלכלוך הנלווה לפירוק מטבח ישן והתקנת חדש.
+1	26	26	NUM	NUM	_	2	nummod	_	_
+2	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	0	root	_	_
+3	הרכבה	הרכבה	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	HebSource=ConvUncertainLabel
+4	31	31	NUM	NUM	_	5	nummod	_	_
+5	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	2	dep	_	HebSource=ConvUncertainHead
+6	סה"ך	סה"ך	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	5	nmod	_	HebSource=ConvUncertainLabel
+7	57	57	NUM	NUM	_	8	nummod	_	_
+8	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	2	dep	_	HebSource=ConvUncertainHead
+9-10	לדלת	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	10	case	_	_
+10	דלת	דלת	NOUN	NOUN	Gender=Fem|Number=Sing	8	nmod	_	_
+11	מורכבת	מורכב	ADJ	ADJ	Gender=Fem|Number=Sing	10	amod	_	_
+12	עלות	עלות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	28	nsubj	_	_
+13-15	חידושו	_	_	_	_	_	_	_	_
+13	חידוש	חידוש	NOUN	NOUN	Gender=Masc|Number=Sing	12	compound:smixut	_	_
+14	_של_	של	ADP	ADP	Case=Gen	15	case:gen	_	_
+15	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+16	של	של	ADP	ADP	Case=Gen	17	case	_	_
+17	מטבח	מטבח	NOUN	NOUN	Gender=Masc|Number=Sing	13	nmod:poss	_	_
+18	בן	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	acl	_	_
+19	01	01	NUM	NUM	_	20	nummod	_	_
+20	דלתות	דלת	NOUN	NOUN	Gender=Fem|Number=Plur	18	compound:smixut	_	_
+21	(	(	PUNCT	PUNCT	_	24	punct	_	SpaceAfter=No
+22-23	כ01	_	_	_	_	_	_	_	_
+22	כ	כ	ADP	ADP	_	24	case	_	_
+23	01	01	NUM	NUM	_	24	nummod	_	_
+24	מטרים	מטר	NOUN	NOUN	Gender=Masc|Number=Plur	17	appos	_	SpaceAfter=No
+25	)	)	PUNCT	PUNCT	_	24	punct	_	_
+26-27	בדלתות	_	_	_	_	_	_	_	_
+26	ב	ב	ADP	ADP	_	27	case	_	_
+27	דלתות	דלת	NOUN	NOUN	Gender=Fem|Number=Plur	17	nmod	_	_
+28	תגיע	הגיע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	2	dep	_	HebSource=ConvUncertainHead
+29	ל	ל	ADP	ADP	_	32	case	_	SpaceAfter=No
+30	-	-	PUNCT	PUNCT	_	32	punct	_	SpaceAfter=No
+31	1,875	1,875	NUM	NUM	_	32	nummod	_	_
+32	ש"ח	ש"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+33	,	,	PUNCT	PUNCT	_	36	punct	_	_
+34	בלא	בלא	ADP	ADP	_	36	case	_	_
+35-36	הלכלוך	_	_	_	_	_	_	_	_
+35	ה	ה	DET	DET	Definite=Def|PronType=Art	36	det	_	_
+36	לכלוך	לכלוך	NOUN	NOUN	Gender=Masc|Number=Sing	28	obl	_	_
+37-38	הנלווה	_	_	_	_	_	_	_	_
+37	ה	ה	SCONJ	SCONJ	_	38	mark	_	_
+38	נלווה	נלווה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	36	acl:relcl	_	_
+39-40	לפירוק	_	_	_	_	_	_	_	_
+39	ל	ל	ADP	ADP	_	40	case	_	_
+40	פירוק	פירוק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	38	obl	_	_
+41	מטבח	מטבח	NOUN	NOUN	Gender=Masc|Number=Sing	40	compound:smixut	_	_
+42	ישן	ישן	ADJ	ADJ	Gender=Masc|Number=Sing	41	amod	_	_
+43-44	והתקנת	_	_	_	_	_	_	_	_
+43	ו	ו	CCONJ	CCONJ	_	44	cc	_	_
+44	התקנת	התקנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	40	conj	_	_
+45	חדש	חדש	ADJ	ADJ	Gender=Masc|Number=Sing	44	compound:smixut	_	SpaceAfter=No
+46	.	.	PUNCT	PUNCT	_	2	punct	_	_
+

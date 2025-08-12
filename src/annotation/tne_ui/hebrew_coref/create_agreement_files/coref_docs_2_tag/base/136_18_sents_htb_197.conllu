@@ -1,0 +1,695 @@
+# doc_id = htb:197
+# doc_range = 1-35
+# sent_id = 5002
+# text = בון (מיוחד ל"הארץ").
+1	בון	בון	PROPN	PROPN	_	0	root	_	_
+2	(	(	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+3	מיוחד	מיוחד	ADJ	ADJ	Gender=Masc|Number=Sing	1	parataxis	_	_
+4-7	ל"הארץ	_	_	_	_	_	_	_	SpaceAfter=No
+4	ל	ל	ADP	ADP	_	7	case	_	_
+5	"	"	PUNCT	PUNCT	_	7	punct	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	ארץ	ארץ	PROPN	PROPN	_	3	obl	_	_
+8	"	"	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
+9	)	)	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:197
+# doc_range = 39-238
+# sent_id = 5003
+# text = נשיא בריה"ם, מיכאיל גורבצוב, סיים אמש בבון ביקור בן יומיים, שבמהלכו נחתם הסכם אי-התקפה בין ארצו לבין גרמניה.
+1	נשיא	נשיא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	בריה"ם	בריה"ם	PROPN	PROPN	Abbr=Yes	1	compound:smixut	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	4	punct	_	_
+4	מיכאיל	מיכאיל	PROPN	PROPN	_	1	appos	_	_
+5	גורבצוב	גורבצוב	PROPN	PROPN	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	1	punct	_	_
+7	סיים	סיים	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+8	אמש	אמש	ADV	ADV	_	7	advmod	_	_
+9-10	בבון	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	בון	בון	PROPN	PROPN	_	7	obl	_	_
+11	ביקור	ביקור	NOUN	NOUN	Gender=Masc|Number=Sing	7	obj	_	_
+12	בן	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	acl	_	_
+13	יומיים	יום	NOUN	NOUN	Gender=Masc|Number=Dual	12	compound:smixut	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	20	punct	_	_
+15-19	שבמהלכו	_	_	_	_	_	_	_	_
+15	ש	ש	SCONJ	SCONJ	_	20	mark	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	מהלך	מהלך	NOUN	NOUN	Gender=Masc|Number=Sing	20	obl	_	_
+18	_של_	של	ADP	ADP	Case=Gen	19	case:gen	_	_
+19	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+20	נחתם	נחתם	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	11	acl:relcl	_	_
+21	הסכם	הסכם	NOUN	NOUN	Gender=Masc|Number=Sing	20	nsubj	_	_
+22	אי	אי	ADV	ADV	Prefix=Yes	24	compound:affix	_	HebSource=ConvUncertainHead|SpaceAfter=No
+23	-	-	PUNCT	PUNCT	_	22	punct	_	SpaceAfter=No
+24	התקפה	התקפה	NOUN	NOUN	Gender=Fem|Number=Sing	21	nmod	_	_
+25	בין	בין	ADP	ADP	_	26	case	_	_
+26-28	ארצו	_	_	_	_	_	_	_	_
+26	ארץ	ארץ	NOUN	NOUN	Gender=Fem|Number=Sing	21	nmod	_	_
+27	_של_	של	ADP	ADP	Case=Gen	28	case:gen	_	_
+28	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+29	לבין	לבין	ADP	ADP	_	30	case	_	_
+30	גרמניה	גרמניה	PROPN	PROPN	_	21	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:197
+# doc_range = 241-512
+# sent_id = 5004
+# text = ההסכם מסדיר את היחסים בין שתי המדינות בשורה ארוכה של תחומים, והוא הוגדר על ידי משקיפים כמסמך היסטורי, הקושר את גורלן של בריה"ם וגרמניה לתקופה ארוכה.
+1-2	ההסכם	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	הסכם	הסכם	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	מסדיר	הסדיר	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4	את	את	ADP	ADP	Case=Acc	6	case	_	_
+5-6	היחסים	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	יחסים	יחסים	NOUN	NOUN	Gender=Masc|Number=Plur	3	obj	_	_
+7	בין	בין	ADP	ADP	_	10	case	_	_
+8	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	10	nummod	_	_
+9-10	המדינות	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	מדינות	מדינה	NOUN	NOUN	Gender=Fem|Number=Plur	6	nmod	_	_
+11-12	בשורה	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	שורה	שורה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+13	ארוכה	ארוך	ADJ	ADJ	Gender=Fem|Number=Sing	12	amod	_	_
+14	של	של	ADP	ADP	Case=Gen	15	case	_	_
+15	תחומים	תחום	NOUN	NOUN	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	19	punct	_	_
+17-18	והוא	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+18	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj:pass	_	_
+19	הוגדר	הוגדר	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	3	conj	_	_
+20	על	על	ADP	ADP	_	22	case	_	_
+21	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	20	fixed	_	_
+22	משקיפים	משקיף	NOUN	NOUN	Gender=Masc|Number=Plur	19	obl	_	_
+23-24	כמסמך	_	_	_	_	_	_	_	_
+23	כ	כ	ADP	ADP	_	24	case	_	_
+24	מסמך	מסמך	NOUN	NOUN	Gender=Masc|Number=Sing	19	obl	_	_
+25	היסטורי	היסטורי	ADJ	ADJ	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	PUNCT	_	28	punct	_	_
+27-28	הקושר	_	_	_	_	_	_	_	_
+27	ה	ה	SCONJ	SCONJ	_	28	mark	_	_
+28	קושר	קשר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	24	acl:relcl	_	_
+29	את	את	ADP	ADP	Case=Acc	30	case	_	_
+30-32	גורלן	_	_	_	_	_	_	_	_
+30	גורל	גורל	NOUN	NOUN	Gender=Masc|Number=Sing	28	obj	_	_
+31	_של_	של	ADP	ADP	Case=Gen	32	case:gen	_	_
+32	_הן	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+33	של	של	ADP	ADP	Case=Gen	34	case	_	_
+34	בריה"ם	בריה"ם	PROPN	PROPN	Abbr=Yes	30	nmod:poss	_	_
+35-36	וגרמניה	_	_	_	_	_	_	_	_
+35	ו	ו	CCONJ	CCONJ	_	36	cc	_	_
+36	גרמניה	גרמניה	PROPN	PROPN	_	34	conj	_	_
+37-38	לתקופה	_	_	_	_	_	_	_	_
+37	ל	ל	ADP	ADP	_	38	case	_	_
+38	תקופה	תקופה	NOUN	NOUN	Gender=Fem|Number=Sing	28	obl	_	_
+39	ארוכה	ארוך	ADJ	ADJ	Gender=Fem|Number=Sing	38	amod	_	SpaceAfter=No
+40	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:197
+# doc_range = 514-744
+# sent_id = 5005
+# text = ההסכם, לתקופה של 20 שנה, כולל התחייבות שנציגים בכירים של בריה"ם וגרמניה ייפגשו לעתים תכופות כדי לתאם את המדיניות של שתי הארצות.
+1-2	ההסכם	_	_	_	_	_	_	_	SpaceAfter=No
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	הסכם	הסכם	NOUN	NOUN	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	,	,	PUNCT	PUNCT	_	5	punct	_	_
+4-5	לתקופה	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	תקופה	תקופה	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	_
+6	של	של	ADP	ADP	Case=Gen	8	case	_	_
+7	20	20	NUM	NUM	_	8	nummod	_	_
+8	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	5	nmod:poss	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	2	punct	_	_
+10	כולל	כלל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+11	התחייבות	התחייבות	NOUN	NOUN	Gender=Fem|Number=Sing	10	obj	_	_
+12-13	שנציגים	_	_	_	_	_	_	_	_
+12	ש	ש	SCONJ	SCONJ	_	19	mark	_	_
+13	נציגים	נציג	NOUN	NOUN	Gender=Masc|Number=Plur	19	nsubj	_	_
+14	בכירים	בכיר	ADJ	ADJ	Gender=Masc|Number=Plur	13	amod	_	_
+15	של	של	ADP	ADP	Case=Gen	16	case	_	_
+16	בריה"ם	בריה"ם	PROPN	PROPN	Abbr=Yes	13	nmod	_	_
+17-18	וגרמניה	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+18	גרמניה	גרמניה	PROPN	PROPN	_	16	conj	_	_
+19	ייפגשו	נפגש	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Fut|Voice=Mid	11	acl:relcl	_	_
+20	לעתים	לעתים	ADV	ADV	_	19	advmod	_	_
+21	תכופות	תכוף	ADJ	ADJ	Gender=Fem|Number=Plur	20	fixed	_	_
+22	כדי	כדי	SCONJ	SCONJ	_	23	mark	_	_
+23	לתאם	תיאם	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	19	advcl	_	_
+24	את	את	ADP	ADP	Case=Acc	26	case	_	_
+25-26	המדיניות	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	מדיניות	מדיניות	NOUN	NOUN	Gender=Fem|Number=Sing	23	obj	_	_
+27	של	של	ADP	ADP	Case=Gen	30	case	_	_
+28	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	30	nummod	_	_
+29-30	הארצות	_	_	_	_	_	_	_	SpaceAfter=No
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	ארצות	ארץ	NOUN	NOUN	Gender=Fem|Number=Plur	26	nmod:poss	_	_
+31	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:197
+# doc_range = 746-887
+# sent_id = 5006
+# text = כך למשל, ייפגשו ראשי הממשלות לפחות פעם אחת בשנה, ושרי החוץ לפחות פעמיים בשנה.
+1	כך	כך	ADV	ADV	_	4	advmod	_	_
+2	למשל	למשל	CCONJ	CCONJ	_	1	dep	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	1	punct	_	_
+4	ייפגשו	נפגש	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Fut|Voice=Mid	0	root	_	_
+5	ראשי	ראש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	nsubj	_	_
+6-7	הממשלות	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	ממשלות	ממשלה	NOUN	NOUN	Gender=Fem|Number=Plur	5	compound:smixut	_	_
+8	לפחות	לפחות	ADV	ADV	_	9	advmod	_	_
+9	פעם	פעם	NOUN	NOUN	Gender=Fem|Number=Sing	4	dep	_	_
+10	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	9	nummod	_	_
+11-12	בשנה	_	_	_	_	_	_	_	SpaceAfter=No
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	9	nmod	_	_
+13	,	,	PUNCT	PUNCT	_	15	punct	_	_
+14-15	ושרי	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+15	שרי	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	conj	_	_
+16-17	החוץ	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	_
+18	לפחות	לפחות	ADV	ADV	_	19	advmod	_	_
+19	פעמיים	פעם	NOUN	NOUN	Gender=Fem|Number=Dual	15	dep	_	HebSource=ConvUncertainHead
+20-21	בשנה	_	_	_	_	_	_	_	SpaceAfter=No
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	19	nmod	_	_
+22	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:197
+# doc_range = 890-1089
+# sent_id = 5007
+# text = על פי ההסכם יפעלו בריה"ם וגרמניה בשיתוף פעולה הדוק בתחומי הכלכלה, התחבורה, איכות הסביבה, חילופי התרבות ועוד.
+1	על	על	ADP	ADP	_	4	case	_	_
+2	פי	פה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	fixed	_	_
+3-4	ההסכם	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	הסכם	הסכם	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+5	יפעלו	פעל	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	0	root	_	_
+6	בריה"ם	בריה"ם	PROPN	PROPN	Abbr=Yes	5	nsubj	_	_
+7-8	וגרמניה	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	8	cc	_	_
+8	גרמניה	גרמניה	PROPN	PROPN	_	6	conj	_	_
+9-10	בשיתוף	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	שיתוף	שיתוף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+11	פעולה	פעולה	NOUN	NOUN	Gender=Fem|Number=Sing	10	compound:smixut	_	_
+12	הדוק	הדוק	ADJ	ADJ	Gender=Masc|Number=Sing	10	amod	_	_
+13-14	בתחומי	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	תחומי	תחום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	5	obl	_	_
+15-16	הכלכלה	_	_	_	_	_	_	_	SpaceAfter=No
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	כלכלה	כלכלה	NOUN	NOUN	Gender=Fem|Number=Sing	14	compound:smixut	_	_
+17	,	,	PUNCT	PUNCT	_	19	punct	_	_
+18-19	התחבורה	_	_	_	_	_	_	_	SpaceAfter=No
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	תחבורה	תחבורה	NOUN	NOUN	Gender=Fem|Number=Sing	16	conj	_	_
+20	,	,	PUNCT	PUNCT	_	21	punct	_	_
+21	איכות	איכות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	16	conj	_	_
+22-23	הסביבה	_	_	_	_	_	_	_	SpaceAfter=No
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	סביבה	סביבה	NOUN	NOUN	Gender=Fem|Number=Sing	21	compound:smixut	_	_
+24	,	,	PUNCT	PUNCT	_	25	punct	_	_
+25	חילופי	חילוף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	16	conj	_	_
+26-27	התרבות	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	תרבות	תרבות	NOUN	NOUN	Gender=Fem|Number=Sing	25	compound:smixut	_	_
+28-29	ועוד	_	_	_	_	_	_	_	SpaceAfter=No
+28	ו	ו	CCONJ	CCONJ	_	29	cc	_	_
+29	עוד	עוד	ADV	ADV	_	16	conj	_	_
+30	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:197
+# doc_range = 1091-1249
+# sent_id = 5008
+# text = גרמניה הביעה נכונות להעמיד לרשות בריה"ם סיוע כלכלי וטכני נרחב, שהיקפו המדויק טרם נקבע.
+1	גרמניה	גרמניה	PROPN	PROPN	_	2	nsubj	_	_
+2	הביעה	הביע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	נכונות	נכונות	NOUN	NOUN	Gender=Fem|Number=Sing	2	obj	_	_
+4	להעמיד	העמיד	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	3	acl	_	_
+5-6	לרשות	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	רשות	רשות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	obl	_	_
+7	בריה"ם	בריה"ם	PROPN	PROPN	Abbr=Yes	6	compound:smixut	_	_
+8	סיוע	סיוע	NOUN	NOUN	Gender=Masc|Number=Sing	4	obj	_	_
+9	כלכלי	כלכלי	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	_
+10-11	וטכני	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+11	טכני	טכני	ADJ	ADJ	Gender=Masc|Number=Sing	9	conj	_	_
+12	נרחב	נרחב	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	21	punct	_	_
+14-17	שהיקפו	_	_	_	_	_	_	_	_
+14	ש	ש	SCONJ	SCONJ	_	21	mark	_	_
+15	היקף	היקף	NOUN	NOUN	Gender=Masc|Number=Sing	21	nsubj	_	_
+16	_של_	של	ADP	ADP	Case=Gen	17	case:gen	_	_
+17	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+18-19	המדויק	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	מדויק	מדויק	ADJ	ADJ	Gender=Masc|Number=Sing	15	amod	_	_
+20	טרם	טרם	ADV	ADV	_	21	advmod	_	_
+21	נקבע	נקבע	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	8	acl:relcl	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:197
+# doc_range = 1251-1501
+# sent_id = 5009
+# text = ללא קשר לכך תעמוד גרמניה בהתחייבות קודמת לממן את פינוי הכוחות הסובייטיים ממזרח-גרמניה ולבנות דיור חליפי ל400 אלף החיילים שישובו לבריה"ם.
+1	ללא	ללא	ADP	ADP	_	2	case	_	_
+2	קשר	קשר	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+3-4	לכך	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	4	case	_	_
+4	כך	כך	PRON	PRON	Person=3|PronType=Dem	2	nmod	_	_
+5	תעמוד	עמד	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+6	גרמניה	גרמניה	PROPN	PROPN	_	5	nsubj	_	_
+7-8	בהתחייבות	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	התחייבות	התחייבות	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
+9	קודמת	קודם	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	_
+10	לממן	מימן	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	8	acl	_	_
+11	את	את	ADP	ADP	Case=Acc	12	case	_	_
+12	פינוי	פינוי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	obj	_	_
+13-14	הכוחות	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	כוחות	כוח	NOUN	NOUN	Gender=Masc|Number=Plur	12	compound:smixut	_	_
+15-16	הסובייטיים	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	סובייטיים	סובייטי	ADJ	ADJ	Gender=Masc|Number=Plur	14	amod	_	_
+17-18	ממזרח	_	_	_	_	_	_	_	SpaceAfter=No
+17	מ	מ	ADP	ADP	_	20	case	_	_
+18	מזרח	מזרח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	20	nmod	_	_
+19	-	-	PUNCT	PUNCT	_	18	punct	_	SpaceAfter=No
+20	גרמניה	גרמניה	PROPN	PROPN	_	12	nmod	_	_
+21-22	ולבנות	_	_	_	_	_	_	_	_
+21	ו	ו	CCONJ	CCONJ	_	22	cc	_	_
+22	לבנות	בנה	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	10	conj	_	_
+23	דיור	דיור	NOUN	NOUN	Gender=Masc|Number=Sing	22	obj	_	_
+24	חליפי	חליפי	ADJ	ADJ	Gender=Masc|Number=Sing	23	amod	_	_
+25-26	ל400	_	_	_	_	_	_	_	_
+25	ל	ל	ADP	ADP	_	29	case	_	_
+26	400	400	NUM	NUM	_	27	nummod	_	_
+27	אלף	אלף	NUM	NUM	Gender=Masc|Number=Plur	29	nummod	_	_
+28-29	החיילים	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	חיילים	חייל	NOUN	NOUN	Gender=Masc|Number=Plur	22	obl	_	_
+30-31	שישובו	_	_	_	_	_	_	_	_
+30	ש	ש	SCONJ	SCONJ	_	31	mark	_	_
+31	ישובו	שב	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Fut|Voice=Act	29	acl:relcl	_	_
+32-33	לבריה"ם	_	_	_	_	_	_	_	SpaceAfter=No
+32	ל	ל	ADP	ADP	_	33	case	_	_
+33	בריה"ם	לבריה"ם	PROPN	PROPN	Abbr=Yes	31	obl	_	_
+34	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:197
+# doc_range = 1503-1607
+# sent_id = 5010
+# text = ההתחייבות הכספית בתחום הזה בלבד מוערכת בכ20 מיליארד מארק.
+1-2	ההתחייבות	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	התחייבות	התחייבות	NOUN	NOUN	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
+3-4	הכספית	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	כספית	כספי	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+5-7	בתחום	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	7	case	_	_
+6	ה_	ה	DET	DET	PronType=Art|Definite=Def	7	det	_	_
+7	תחום	תחום	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_
+8-9	הזה	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	det	_	_
+10	בלבד	בלבד	ADV	ADV	_	7	advmod	_	_
+11	מוערכת	הוערך	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+12-14	בכ20	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	16	case	_	_
+13	כ	כ	ADP	ADP	_	16	case	_	_
+14	20	20	NUM	NUM	_	15	nummod	_	_
+15	מיליארד	מיליארד	NUM	NUM	Gender=Masc|Number=Plur	16	nummod	_	_
+16	מארק	מארק	PROPN	PROPN	_	11	obl	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:197
+# doc_range = 1609-1852
+# sent_id = 5011
+# text = ביקורו של גורבצוב בגרמניה התנהל באווירה לבבית ביותר, וניתן בו ביטוי בולט לסיפוק מכך שהמנהיג הסובייטי תמך בצורה פעילה באיחוד גרמניה.
+1-3	ביקורו	_	_	_	_	_	_	_	_
+1	ביקור	ביקור	NOUN	NOUN	Gender=Masc|Number=Sing	8	nsubj	_	_
+2	_של_	של	ADP	ADP	Case=Gen	3	case:gen	_	_
+3	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	nmod:poss	_	_
+4	של	של	ADP	ADP	Case=Gen	5	case	_	_
+5	גורבצוב	גורבצוב	PROPN	PROPN	_	1	nmod:poss	_	_
+6-7	בגרמניה	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	גרמניה	גרמניה	PROPN	PROPN	_	1	nmod	_	_
+8	התנהל	התנהל	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+9-10	באווירה	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	אווירה	אווירה	NOUN	NOUN	Gender=Fem|Number=Sing	8	obl	_	_
+11	לבבית	לבבי	ADJ	ADJ	Gender=Fem|Number=Sing	10	amod	_	_
+12	ביותר	ביותר	ADV	ADV	_	11	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	15	punct	_	_
+14-15	וניתן	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+15	ניתן	ניתן	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	8	conj	_	_
+16-17	בו	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obl	_	_
+18	ביטוי	ביטוי	NOUN	NOUN	Gender=Masc|Number=Sing	15	nsubj	_	_
+19	בולט	בולט	ADJ	ADJ	Gender=Masc|Number=Sing	18	amod	_	_
+20-22	לסיפוק	_	_	_	_	_	_	_	_
+20	ל	ל	ADP	ADP	_	22	case	_	_
+21	ה_	ה	DET	DET	PronType=Art|Definite=Def	22	det	_	_
+22	סיפוק	סיפוק	NOUN	NOUN	Gender=Masc|Number=Sing	15	obl	_	_
+23-24	מכך	_	_	_	_	_	_	_	_
+23	מ	מ	ADP	ADP	_	24	case	_	_
+24	כך	כך	PRON	PRON	Person=3|PronType=Dem	22	nmod	_	_
+25-27	שהמנהיג	_	_	_	_	_	_	_	_
+25	ש	ש	SCONJ	SCONJ	_	30	mark	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	מנהיג	מנהיג	NOUN	NOUN	Gender=Masc|Number=Sing	30	nsubj	_	_
+28-29	הסובייטי	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	סובייטי	סובייטי	ADJ	ADJ	Gender=Masc|Number=Sing	27	amod	_	_
+30	תמך	תמך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	24	acl:relcl	_	_
+31-32	בצורה	_	_	_	_	_	_	_	_
+31	ב	ב	ADP	ADP	_	32	case	_	_
+32	צורה	צורה	NOUN	NOUN	Gender=Fem|Number=Sing	30	obl	_	_
+33	פעילה	פעיל	ADJ	ADJ	Gender=Fem|Number=Sing	32	amod	_	_
+34-35	באיחוד	_	_	_	_	_	_	_	_
+34	ב	ב	ADP	ADP	_	35	case	_	_
+35	איחוד	איחוד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	30	obl	_	_
+36	גרמניה	גרמניה	PROPN	PROPN	_	35	compound:smixut	_	SpaceAfter=No
+37	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:197
+# doc_range = 1854-2111
+# sent_id = 5012
+# text = הדגשה לכך היתה אתמול כאשר שר החוץ, אדוארד שוורדנאדזה, התלווה אל עמיתו הגרמני, האנס-דיטריך גנשר, בביקור בעיר האלה (בשטח מזרח-גרמניה לשעבר).
+1	הדגשה	הדגשה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
+2-3	לכך	_	_	_	_	_	_	_	_
+2	ל	ל	ADP	ADP	_	3	case	_	_
+3	כך	כך	PRON	PRON	Person=3|PronType=Dem	1	nmod	_	_
+4	היתה	היה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	0	root	_	_
+5	אתמול	אתמול	ADV	ADV	_	4	advmod	_	_
+6	כאשר	כאשר	SCONJ	SCONJ	_	14	mark	_	_
+7	שר	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	14	nsubj	_	_
+8-9	החוץ	_	_	_	_	_	_	_	SpaceAfter=No
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound:smixut	_	_
+10	,	,	PUNCT	PUNCT	_	11	punct	_	_
+11	אדוארד	אדוארד	PROPN	PROPN	_	7	appos	_	_
+12	שוורדנאדזה	שוורדנאדזה	PROPN	PROPN	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	7	punct	_	_
+14	התלווה	התלווה	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	4	advcl	_	_
+15	אל	אל	ADP	ADP	_	16	case	_	_
+16-18	עמיתו	_	_	_	_	_	_	_	_
+16	עמית	עמית	NOUN	NOUN	Gender=Fem|Number=Sing	14	obl	_	_
+17	_של_	של	ADP	ADP	Case=Gen	18	case:gen	_	_
+18	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+19-20	הגרמני	_	_	_	_	_	_	_	SpaceAfter=No
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	גרמני	גרמני	ADJ	ADJ	Gender=Masc|Number=Sing	16	amod	_	_
+21	,	,	PUNCT	PUNCT	_	22	punct	_	_
+22	האנס	האנס	PROPN	PROPN	_	16	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+23	-	-	PUNCT	PUNCT	_	24	punct	_	SpaceAfter=No
+24	דיטריך	דיטריך	PROPN	PROPN	_	22	flat:name	_	_
+25	גנשר	גנשר	PROPN	PROPN	_	22	flat:name	_	SpaceAfter=No
+26	,	,	PUNCT	PUNCT	_	28	punct	_	_
+27-28	בביקור	_	_	_	_	_	_	_	_
+27	ב	ב	ADP	ADP	_	28	case	_	_
+28	ביקור	ביקור	NOUN	NOUN	Gender=Masc|Number=Sing	14	obl	_	_
+29-31	בעיר	_	_	_	_	_	_	_	_
+29	ב	ב	ADP	ADP	_	31	case	_	_
+30	ה_	ה	DET	DET	PronType=Art|Definite=Def	31	det	_	_
+31	עיר	עיר	NOUN	NOUN	Gender=Fem|Number=Sing	28	nmod	_	_
+32	האלה	האלה	PROPN	PROPN	_	31	flat:name	_	_
+33	(	(	PUNCT	PUNCT	_	35	punct	_	SpaceAfter=No
+34-35	בשטח	_	_	_	_	_	_	_	_
+34	ב	ב	ADP	ADP	_	35	case	_	_
+35	שטח	שטח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	31	appos	_	_
+36	מזרח	מזרח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	38	nmod	_	SpaceAfter=No
+37	-	-	PUNCT	PUNCT	_	36	punct	_	SpaceAfter=No
+38	גרמניה	גרמניה	PROPN	PROPN	_	35	compound:smixut	_	_
+39	לשעבר	לשעבר	ADV	ADV	_	38	advmod	_	SpaceAfter=No
+40	)	)	PUNCT	PUNCT	_	35	punct	_	SpaceAfter=No
+41	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:197
+# doc_range = 2115-2260
+# sent_id = 5013
+# text = האלה היא עיר הולדתו של גנשר, ולאחרונה הוא נוהג להביא אליה מבקרים ממדינות שונות.
+1	האלה	האלה	PROPN	PROPN	_	3	nsubj	_	_
+2	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	3	cop	_	_
+3	עיר	עיר	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	0	root	_	_
+4-6	הולדתו	_	_	_	_	_	_	_	_
+4	הולדת	הולדת	NOUN	NOUN	Gender=Fem|Number=Sing	3	compound:smixut	_	_
+5	_של_	של	ADP	ADP	Case=Gen	6	case:gen	_	_
+6	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+7	של	של	ADP	ADP	Case=Gen	8	case	_	_
+8	גנשר	גנשר	PROPN	PROPN	_	4	nmod:poss	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	13	punct	_	_
+10-11	ולאחרונה	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
+11	לאחרונה	לאחרונה	ADV	ADV	_	13	advmod	_	_
+12	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	נוהג	נהג	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	3	conj	_	_
+14	להביא	הביא	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	13	xcomp	_	_
+15-16	אליה	_	_	_	_	_	_	_	_
+15	אל	אל	ADP	ADP	_	16	case	_	_
+16	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obl	_	_
+17	מבקרים	מבקר	NOUN	NOUN	Gender=Masc|Number=Plur	14	obj	_	_
+18-19	ממדינות	_	_	_	_	_	_	_	_
+18	מ	מ	ADP	ADP	_	19	case	_	_
+19	מדינות	מדינה	NOUN	NOUN	Gender=Fem|Number=Plur	17	nmod	_	_
+20	שונות	שונה	ADJ	ADJ	Gender=Fem|Number=Plur	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:197
+# doc_range = 2262-2373
+# sent_id = 5014
+# text = גורבצוב מצדו ביקר את קוהל בביתו באוגרסהיים, עיירה בחבל פאלץ.
+1	גורבצוב	גורבצוב	PROPN	PROPN	_	6	nsubj	_	_
+2-5	מצדו	_	_	_	_	_	_	_	_
+2	מ	מ	ADP	ADP	_	3	case	_	_
+3	צד	צד	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+4	_של_	של	ADP	ADP	Case=Gen	5	case:gen	_	_
+5	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+6	ביקר	ביקר	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+7	את	את	ADP	ADP	Case=Acc	8	case	_	_
+8	קוהל	קוהל	PROPN	PROPN	_	6	obj	_	_
+9-12	בביתו	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	בית	בית	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+11	_של_	של	ADP	ADP	Case=Gen	12	case:gen	_	_
+12	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+13-14	באוגרסהיים	_	_	_	_	_	_	_	SpaceAfter=No
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	אוגרסהיים	באוגרסהיים	PROPN	PROPN	_	10	nmod	_	_
+15	,	,	PUNCT	PUNCT	_	16	punct	_	_
+16	עיירה	עיירה	NOUN	NOUN	Gender=Fem|Number=Sing	14	appos	_	_
+17-18	בחבל	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	_	18	case	_	_
+18	חבל	חבל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	16	nmod	_	_
+19	פאלץ	פאלץ	PROPN	PROPN	_	18	compound:smixut	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:197
+# doc_range = 2375-2529
+# sent_id = 5015
+# text = בסיור משותף בעיר שפאייר התערב גורבצוב בהמון, ואלפים הריעו לו בקריאה "גורבי, גורבי".
+1-2	בסיור	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	סיור	סיור	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+3	משותף	משותף	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+4-6	בעיר	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	6	case	_	_
+5	ה_	ה	DET	DET	PronType=Art|Definite=Def	6	det	_	_
+6	עיר	עיר	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	_
+7	שפאייר	שפאייר	PROPN	PROPN	_	6	flat:name	_	_
+8	התערב	התערב	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+9	גורבצוב	גורבצוב	PROPN	PROPN	_	8	nsubj	_	_
+10-12	בהמון	_	_	_	_	_	_	_	SpaceAfter=No
+10	ב	ב	ADP	ADP	_	12	case	_	_
+11	ה_	ה	DET	DET	PronType=Art|Definite=Def	12	det	_	_
+12	המון	המון	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+13	,	,	PUNCT	PUNCT	_	16	punct	_	_
+14-15	ואלפים	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+15	אלפים	אלפים	NUM	NUM	Gender=Masc|Number=Plur	16	nsubj	_	_
+16	הריעו	הריע	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	8	conj	_	_
+17-18	לו	_	_	_	_	_	_	_	_
+17	ל	ל	ADP	ADP	_	18	case	_	_
+18	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obl	_	_
+19-20	בקריאה	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	קריאה	קריאה	NOUN	NOUN	Gender=Fem|Number=Sing	16	obl	_	_
+21	"	"	PUNCT	PUNCT	_	22	punct	_	SpaceAfter=No
+22	גורבי	גורבי	PROPN	PROPN	_	20	appos	_	SpaceAfter=No
+23	,	,	PUNCT	PUNCT	_	24	punct	_	_
+24	גורבי	גורבי	PROPN	PROPN	_	22	appos	_	SpaceAfter=No
+25	"	"	PUNCT	PUNCT	_	22	punct	_	SpaceAfter=No
+26	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:197
+# doc_range = 2531-2704
+# sent_id = 5016
+# text = בבון נמנעו המארחים הגרמניים מלהפגיש את גורבצוב עם הקהל הרחב מחשש לביטחונו של המנהיג הסובייטי.
+1-2	בבון	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	בון	בון	PROPN	PROPN	_	3	obl	_	_
+3	נמנעו	נמנע	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+4-5	המארחים	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	מארחים	מארח	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
+6-7	הגרמניים	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	גרמניים	גרמני	ADJ	ADJ	Gender=Masc|Number=Plur	5	amod	_	_
+8-9	מלהפגיש	_	_	_	_	_	_	_	_
+8	מ	מ	ADP	ADP	_	9	case	_	_
+9	להפגיש	הפגיש	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	3	obl	_	_
+10	את	את	ADP	ADP	Case=Acc	11	case	_	_
+11	גורבצוב	גורבצוב	PROPN	PROPN	_	9	obj	_	_
+12	עם	עם	ADP	ADP	_	14	case	_	_
+13-14	הקהל	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	קהל	קהל	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	_
+15-16	הרחב	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	רחב	רחב	ADJ	ADJ	Gender=Masc|Number=Sing	14	amod	_	_
+17-18	מחשש	_	_	_	_	_	_	_	_
+17	מ	מ	ADP	ADP	_	18	case	_	_
+18	חשש	חשש	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+19-22	לביטחונו	_	_	_	_	_	_	_	_
+19	ל	ל	ADP	ADP	_	20	case	_	_
+20	ביטחון	ביטחון	NOUN	NOUN	Gender=Masc|Number=Sing	18	nmod	_	_
+21	_של_	של	ADP	ADP	Case=Gen	22	case:gen	_	_
+22	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+23	של	של	ADP	ADP	Case=Gen	25	case	_	_
+24-25	המנהיג	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	מנהיג	מנהיג	NOUN	NOUN	Gender=Masc|Number=Sing	20	nmod:poss	_	_
+26-27	הסובייטי	_	_	_	_	_	_	_	SpaceAfter=No
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	סובייטי	סובייטי	ADJ	ADJ	Gender=Masc|Number=Sing	25	amod	_	_
+28	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:197
+# doc_range = 2706-2873
+# sent_id = 5017
+# text = במהלך הביקור הכריז גורבצוב, כי סיוע לארצו הוא השקעה טובה ומועילה, הפותחת הזדמנויות גדולות.
+1-2	במהלך	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	4	case	_	_
+2	מהלך	מהלך	NOUN	NOUN	Gender=Masc|Number=Sing	1	fixed	_	_
+3-4	הביקור	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	ביקור	ביקור	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+5	הכריז	הכריז	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+6	גורבצוב	גורבצוב	PROPN	PROPN	_	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	15	punct	_	_
+8	כי	כי	SCONJ	SCONJ	_	15	mark	_	_
+9	סיוע	סיוע	NOUN	NOUN	Gender=Masc|Number=Sing	15	nsubj	_	_
+10-13	לארצו	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	11	case	_	_
+11	ארץ	ארץ	NOUN	NOUN	Gender=Fem|Number=Sing	9	nmod	_	_
+12	_של_	של	ADP	ADP	Case=Gen	13	case:gen	_	_
+13	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+14	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	15	cop	_	_
+15	השקעה	השקעה	NOUN	NOUN	Gender=Fem|Number=Sing	5	ccomp	_	_
+16	טובה	טוב	ADJ	ADJ	Gender=Fem|Number=Sing	15	amod	_	_
+17-18	ומועילה	_	_	_	_	_	_	_	SpaceAfter=No
+17	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+18	מועילה	הועיל	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	16	conj	_	_
+19	,	,	PUNCT	PUNCT	_	21	punct	_	_
+20-21	הפותחת	_	_	_	_	_	_	_	_
+20	ה	ה	SCONJ	SCONJ	_	21	mark	_	_
+21	פותחת	פתח	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	15	acl:relcl	_	_
+22	הזדמנויות	הזדמנות	NOUN	NOUN	Gender=Fem|Number=Plur	21	obj	_	_
+23	גדולות	גדול	ADJ	ADJ	Gender=Fem|Number=Plur	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:197
+# doc_range = 2875-3018
+# sent_id = 5018
+# text = הוא ציין, שבריה"ם נותרה מעצמת על המציעה אפשרויות אדירות למי שמשתפים אתה פעולה.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	ציין	ציין	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	6	punct	_	_
+4-5	שבריה"ם	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	6	mark	_	_
+5	בריה"ם	שבריה"ם	PROPN	PROPN	Abbr=Yes	6	nsubj	_	_
+6	נותרה	נותר	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	2	advcl	_	_
+7	מעצמת	מעצמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	nsubj	_	_
+8	על	על	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound:smixut	_	_
+9-10	המציעה	_	_	_	_	_	_	_	_
+9	ה	ה	SCONJ	SCONJ	_	10	mark	_	_
+10	מציעה	הציע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	7	acl:relcl	_	_
+11	אפשרויות	אפשרות	NOUN	NOUN	Gender=Fem|Number=Plur	10	obj	_	_
+12	אדירות	אדיר	ADJ	ADJ	Gender=Fem|Number=Plur	11	amod	_	_
+13-14	למי	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	מי	מי	PRON	PRON	PronType=Int	11	nmod	_	_
+15-16	שמשתפים	_	_	_	_	_	_	_	_
+15	ש	ש	SCONJ	SCONJ	_	16	mark	_	_
+16	משתפים	שיתף	VERB	VERB	Gender=Masc|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	14	acl:relcl	_	_
+17-18	אתה	_	_	_	_	_	_	_	_
+17	את	את	ADP	ADP	_	18	case	_	_
+18	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obl	_	_
+19	פעולה	פעולה	NOUN	NOUN	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:197
+# doc_range = 3020-3227
+# sent_id = 5019
+# text = קוהל מצדו אמר, שארצו תסייע למוסקווה בתהליך הבנייה מחדש, ותפעל אצל בעלות בריתה כדי שגם הן יעזרו בשיקומה של בריה"ם.
+1	קוהל	קוהל	PROPN	PROPN	_	0	root	_	_
+2-5	מצדו	_	_	_	_	_	_	_	_
+2	מ	מ	ADP	ADP	_	3	case	_	_
+3	צד	צד	NOUN	NOUN	Gender=Masc|Number=Sing	1	nmod	_	_
+4	_של_	של	ADP	ADP	Case=Gen	5	case:gen	_	_
+5	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+6	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	1	dep	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	12	punct	_	_
+8-11	שארצו	_	_	_	_	_	_	_	_
+8	ש	ש	SCONJ	SCONJ	_	12	mark	_	_
+9	ארץ	ארץ	NOUN	NOUN	Gender=Fem|Number=Sing	12	nsubj	_	_
+10	_של_	של	ADP	ADP	Case=Gen	11	case:gen	_	_
+11	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+12	תסייע	סייע	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	1	dep	_	HebSource=ConvUncertainHead
+13-14	למוסקווה	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	מוסקווה	מוסקבה	PROPN	PROPN	_	12	obl	_	_
+15-16	בתהליך	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	תהליך	תהליך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	14	nmod	_	_
+17	הבנייה	הבנייה	NOUN	NOUN	_	16	compound:smixut	_	_
+18	מחדש	מחדש	ADV	ADV	_	17	advmod	_	HebSource=ConvUncertainHead|SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	21	punct	_	_
+20-21	ותפעל	_	_	_	_	_	_	_	_
+20	ו	ו	CCONJ	CCONJ	_	21	cc	_	_
+21	תפעל	פעל	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	1	conj	_	_
+22	אצל	אצל	ADP	ADP	_	23	case	_	_
+23	בעלות	בעל	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	21	obl	_	_
+24-26	בריתה	_	_	_	_	_	_	_	_
+24	ברית	ברית	NOUN	NOUN	Gender=Fem|Number=Sing	23	compound:smixut	_	_
+25	_של_	של	ADP	ADP	Case=Gen	26	case:gen	_	_
+26	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+27	כדי	כדי	ADP	ADP	_	31	mark	_	_
+28-29	שגם	_	_	_	_	_	_	_	_
+28	ש	ש	SCONJ	SCONJ	_	27	fixed	_	_
+29	גם	גם	ADV	ADV	_	30	advmod	_	_
+30	הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	31	nsubj	_	_
+31	יעזרו	עזר	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	21	advcl	_	_
+32-35	בשיקומה	_	_	_	_	_	_	_	_
+32	ב	ב	ADP	ADP	_	33	case	_	_
+33	שיקום	שיקום	NOUN	NOUN	Gender=Masc|Number=Sing	31	obl	_	_
+34	_של_	של	ADP	ADP	Case=Gen	35	case:gen	_	_
+35	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	33	nmod:poss	_	_
+36	של	של	ADP	ADP	Case=Gen	37	case	_	_
+37	בריה"ם	בריה"ם	PROPN	PROPN	Abbr=Yes	33	nmod:poss	_	SpaceAfter=No
+38	.	.	PUNCT	PUNCT	_	1	punct	_	_
+

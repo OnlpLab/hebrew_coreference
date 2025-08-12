@@ -1,0 +1,4 @@
+# Load the data to a db
+python load_to_db.py -in hebrew_coref/create_agreement_files/coref_docs_2_tag/tne_conll -out data -db hebrew_v4.dat
+# Run the server
+python --debug -db_dir data -db hebrew_v4.dat

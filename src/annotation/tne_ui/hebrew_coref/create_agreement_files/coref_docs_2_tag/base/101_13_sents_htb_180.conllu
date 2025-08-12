@@ -1,0 +1,546 @@
+# doc_id = htb:180
+# doc_range = 1-30
+# sent_id = 4729
+# text = בוקרשט (ע"ר וע"ץ).
+1	בוקרשט	בוקרשט	PROPN	PROPN	_	0	root	_	_
+2	(	(	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+3	ע"ר	ע"ר	PROPN	PROPN	Abbr=Yes	1	parataxis	_	_
+4-5	וע"ץ	_	_	_	_	_	_	_	SpaceAfter=No
+4	ו	ו	CCONJ	CCONJ	_	3	cc	_	HebSource=ConvUncertainHead
+5	ע"ץ	וע"ץ	PROPN	PROPN	Abbr=Yes	3	dep	_	HebSource=ConvUncertainHead
+6	)	)	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:180
+# doc_range = 34-190
+# sent_id = 4730
+# text = גל של סכסוכי עבודה הולך ומתפשט ברומניה על רקע מדיניות הממשלה הדוגלת במעבר לכלכלת שוק.
+1	גל	גל	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+2	של	של	ADP	ADP	Case=Gen	3	case	_	_
+3	סכסוכי	סכסוך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	1	nmod:poss	_	_
+4	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	3	compound:smixut	_	_
+5	הולך	הלך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+6-7	ומתפשט	_	_	_	_	_	_	_	_
+6	ו	ו	CCONJ	CCONJ	_	7	cc	_	_
+7	מתפשט	התפשט	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	5	conj	_	_
+8-9	ברומניה	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	רומניה	רומניה	PROPN	PROPN	_	5	obl	_	_
+10	על	על	ADP	ADP	_	12	case	_	_
+11	רקע	רקע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	fixed	_	_
+12	מדיניות	מדיניות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	obl	_	_
+13-14	הממשלה	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	12	compound:smixut	_	_
+15-16	הדוגלת	_	_	_	_	_	_	_	_
+15	ה	ה	SCONJ	SCONJ	_	16	mark	_	_
+16	דוגלת	דגל	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	12	acl:relcl	_	_
+17-18	במעבר	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	_	18	case	_	_
+18	מעבר	מעבר	NOUN	NOUN	Gender=Masc|Number=Sing	16	obl	_	_
+19-20	לכלכלת	_	_	_	_	_	_	_	_
+19	ל	ל	ADP	ADP	_	20	case	_	_
+20	כלכלת	כלכלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	18	nmod	_	_
+21	שוק	שוק	NOUN	NOUN	Gender=Masc|Number=Sing	20	compound:smixut	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:180
+# doc_range = 192-526
+# sent_id = 4731
+# text = אלפי עובדים נרגזים הפגינו בטימישוארה במערב רומניה, שם החלה המהפכה נגד צאושסקו, נגד העלאות המחירים החדות עקב ביטול הסובסידיות על מוצרי צריכה לא חיוניים ועל שירותים שונים בשבוע שעבר.
+1	אלפי	אלפי	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	2	nummod	_	_
+2	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	נרגזים	נרגז	ADJ	ADJ	Gender=Masc|Number=Plur	2	amod	_	_
+4	הפגינו	הפגין	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5-6	בטימישוארה	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	טימישוארה	בטימישוארה	PROPN	PROPN	_	4	obl	_	_
+7-8	במערב	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	מערב	מערב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	nmod	_	_
+9	רומניה	רומניה	PROPN	PROPN	_	8	compound:smixut	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	12	punct	_	_
+11	שם	שם	ADV	ADV	_	12	advmod	_	_
+12	החלה	החל	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	6	acl:relcl	_	_
+13-14	המהפכה	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	מהפכה	מהפכה	NOUN	NOUN	Gender=Fem|Number=Sing	12	nsubj	_	_
+15	נגד	נגד	ADP	ADP	_	16	case	_	_
+16	צאושסקו	צאושסקו	PROPN	PROPN	_	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	19	punct	_	_
+18	נגד	נגד	ADP	ADP	_	19	case	_	_
+19	העלאות	העלאה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	14	nmod	_	_
+20-21	המחירים	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	מחירים	מחיר	NOUN	NOUN	Gender=Masc|Number=Plur	19	compound:smixut	_	_
+22-23	החדות	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	חדות	חד	ADJ	ADJ	Gender=Fem|Number=Plur	19	amod	_	_
+24	עקב	עקב	ADP	ADP	_	25	case	_	_
+25	ביטול	ביטול	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	19	nmod	_	_
+26-27	הסובסידיות	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	סובסידיות	סובסידיה	NOUN	NOUN	Gender=Fem|Number=Plur	25	compound:smixut	_	_
+28	על	על	ADP	ADP	_	29	case	_	_
+29	מוצרי	מוצר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	25	nmod	_	_
+30	צריכה	צריכה	NOUN	NOUN	Gender=Fem|Number=Sing	29	compound:smixut	_	_
+31	לא	לא	ADV	ADV	Polarity=Neg	32	advmod	_	_
+32	חיוניים	חיוני	ADJ	ADJ	Gender=Masc|Number=Plur	29	amod	_	_
+33-34	ועל	_	_	_	_	_	_	_	_
+33	ו	ו	CCONJ	CCONJ	_	35	cc	_	_
+34	על	על	ADP	ADP	_	35	case	_	_
+35	שירותים	שירות	NOUN	NOUN	Gender=Masc|Number=Plur	29	conj	_	_
+36	שונים	שונה	ADJ	ADJ	Gender=Masc|Number=Plur	35	amod	_	_
+37-39	בשבוע	_	_	_	_	_	_	_	_
+37	ב	ב	ADP	ADP	_	39	case	_	_
+38	ה_	ה	DET	DET	PronType=Art|Definite=Def	39	det	_	_
+39	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	25	nmod	_	_
+40-41	שעבר	_	_	_	_	_	_	_	SpaceAfter=No
+40	ש	ש	SCONJ	SCONJ	_	41	mark	_	_
+41	עבר	עבר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	39	acl:relcl	_	_
+42	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:180
+# doc_range = 528-817
+# sent_id = 4732
+# text = הפגנות מחאה פרצו גם בטירגוביסטה, עיר תעשייתית בדרום רומניה, ובשבוע הבא צפויות הפגנות בערים נוספות, במלאות שלוש שנים להתקוממות העובדים נגד המשטר הקומוניסטי.
+1	הפגנות	הפגנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	3	nsubj	_	_
+2	מחאה	מחאה	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+3	פרצו	פרץ	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	גם	גם	ADV	ADV	_	6	advmod	_	_
+5-6	בטירגוביסטה	_	_	_	_	_	_	_	SpaceAfter=No
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	טירגוביסטה	בטירגוביסטה	PROPN	PROPN	_	3	obl	_	_
+7	,	,	PUNCT	PUNCT	_	8	punct	_	_
+8	עיר	עיר	NOUN	NOUN	Gender=Fem|Number=Sing	6	appos	_	_
+9	תעשייתית	תעשייתי	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	_
+10-11	בדרום	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	דרום	דרום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	nmod	_	_
+12	רומניה	רומניה	PROPN	PROPN	_	11	compound:smixut	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	20	punct	_	_
+14-17	ובשבוע	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
+15	ב	ב	ADP	ADP	_	17	case	_	_
+16	ה_	ה	DET	DET	PronType=Art|Definite=Def	17	det	_	_
+17	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	20	obl	_	_
+18-19	הבא	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	בא	בא	ADJ	ADJ	Gender=Masc|Number=Sing	17	amod	_	_
+20	צפויות	צפה	VERB	VERB	Gender=Fem|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	3	conj	_	_
+21	הפגנות	הפגנה	NOUN	NOUN	Gender=Fem|Number=Plur	20	nsubj	_	_
+22-23	בערים	_	_	_	_	_	_	_	_
+22	ב	ב	ADP	ADP	_	23	case	_	_
+23	ערים	עיר	NOUN	NOUN	Gender=Fem|Number=Plur	21	nmod	_	_
+24	נוספות	נוסף	ADJ	ADJ	Gender=Fem|Number=Plur	23	amod	_	SpaceAfter=No
+25	,	,	PUNCT	PUNCT	_	27	punct	_	_
+26-27	במלאות	_	_	_	_	_	_	_	_
+26	ב	ב	ADP	ADP	_	27	case	_	_
+27	מלאות	מלאות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	20	obl	_	_
+28	שלוש	שלוש	NUM	NUM	Gender=Fem|Number=Plur	29	nummod	_	_
+29	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	27	compound:smixut	_	_
+30-31	להתקוממות	_	_	_	_	_	_	_	_
+30	ל	ל	ADP	ADP	_	31	case	_	_
+31	התקוממות	התקוממות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	29	nmod	_	_
+32-33	העובדים	_	_	_	_	_	_	_	_
+32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
+33	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	31	compound:smixut	_	_
+34	נגד	נגד	ADP	ADP	_	36	case	_	_
+35-36	המשטר	_	_	_	_	_	_	_	_
+35	ה	ה	DET	DET	Definite=Def|PronType=Art	36	det	_	_
+36	משטר	משטר	NOUN	NOUN	Gender=Masc|Number=Sing	31	nmod	_	_
+37-38	הקומוניסטי	_	_	_	_	_	_	_	SpaceAfter=No
+37	ה	ה	DET	DET	Definite=Def|PronType=Art	38	det	_	_
+38	קומוניסטי	קומוניסטי	ADJ	ADJ	Gender=Masc|Number=Sing	36	amod	_	_
+39	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:180
+# doc_range = 819-939
+# sent_id = 4733
+# text = סכסוכי העבודה החלו בשבוע שעבר בבוקרשט ביוזמת האיגודים המקצועיים.
+1	סכסוכי	סכסוך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	nsubj	_	_
+2-3	העבודה	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+4	החלו	החל	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5-7	בשבוע	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	7	case	_	_
+6	ה_	ה	DET	DET	PronType=Art|Definite=Def	7	det	_	_
+7	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+8-9	שעבר	_	_	_	_	_	_	_	_
+8	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
+9	עבר	עבר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	7	acl:relcl	_	_
+10-11	בבוקרשט	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	בוקרשט	בוקרשט	PROPN	PROPN	_	4	obl	_	_
+12-13	ביוזמת	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	יוזמת	יוזמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	obl	_	_
+14-15	האיגודים	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	איגודים	איגוד	NOUN	NOUN	Gender=Masc|Number=Plur	13	compound:smixut	_	_
+16-17	המקצועיים	_	_	_	_	_	_	_	SpaceAfter=No
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	מקצועיים	מקצועי	ADJ	ADJ	Gender=Masc|Number=Plur	15	amod	_	_
+18	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:180
+# doc_range = 941-1185
+# sent_id = 4734
+# text = אלפי עובדי תעשייה ממורמרים האשימו את ממשלת חזית ההצלה הלאומית בהתעלמות מתקנות שנועדו להגן על העובדים בעת יישום התכנית הכלכלית החדשה.
+1	אלפי	אלפי	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	2	nummod	_	_
+2	עובדי	עובד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	5	nsubj	_	_
+3	תעשייה	תעשייה	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound:smixut	_	_
+4	ממורמרים	ממורמר	ADJ	ADJ	Gender=Masc|Number=Plur	2	amod	_	_
+5	האשימו	האשים	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+6	את	את	ADP	ADP	Case=Acc	7	case	_	_
+7	ממשלת	ממשלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	obj	_	_
+8	חזית	חזית	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	compound:smixut	_	_
+9-10	ההצלה	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	הצלה	הצלה	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound:smixut	_	_
+11-12	הלאומית	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	לאומית	לאומי	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	_
+13-14	בהתעלמות	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	התעלמות	התעלמות	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
+15-16	מתקנות	_	_	_	_	_	_	_	_
+15	מ	מ	ADP	ADP	_	16	case	_	_
+16	תקנות	תקנה	NOUN	NOUN	Gender=Fem|Number=Plur	14	nmod	_	_
+17-18	שנועדו	_	_	_	_	_	_	_	_
+17	ש	ש	SCONJ	SCONJ	_	18	mark	_	_
+18	נועדו	נועד	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	16	acl:relcl	_	_
+19	להגן	הגן	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	18	xcomp	_	_
+20	על	על	ADP	ADP	_	22	case	_	_
+21-22	העובדים	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	19	obl	_	_
+23-24	בעת	_	_	_	_	_	_	_	_
+23	ב	ב	ADP	ADP	_	24	case	_	_
+24	עת	עת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	19	obl	_	_
+25	יישום	יישום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	24	compound:smixut	_	_
+26-27	התכנית	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	תכנית	תוכנית	NOUN	NOUN	Gender=Fem|Number=Sing	25	compound:smixut	_	_
+28-29	הכלכלית	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	כלכלית	כלכלי	ADJ	ADJ	Gender=Fem|Number=Sing	27	amod	_	_
+30-31	החדשה	_	_	_	_	_	_	_	SpaceAfter=No
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	חדשה	חדש	ADJ	ADJ	Gender=Fem|Number=Sing	27	amod	_	_
+32	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:180
+# doc_range = 1188-1531
+# sent_id = 4735
+# text = פרשנים מציינים כי מאחר שכבר עברו על הרומנים עשר שנים של הידרדרות ברמת החיים, אין הם מוכנים לעמוד בתכניות צנע חדשות, הנחשבות להכרחיות במהלך תכנית הליברליזציה של המחירים והמעבר לשוק חופשי.
+1	פרשנים	פרשן	NOUN	NOUN	Gender=Masc|Number=Plur	2	nsubj	_	_
+2	מציינים	ציין	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+3	כי	כי	SCONJ	SCONJ	_	23	mark	_	_
+4	מאחר	מאחר	SCONJ	SCONJ	_	7	mark	_	_
+5-6	שכבר	_	_	_	_	_	_	_	_
+5	ש	ש	SCONJ	SCONJ	_	4	fixed	_	_
+6	כבר	כבר	ADV	ADV	_	7	advmod	_	_
+7	עברו	עבר	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	23	advcl	_	_
+8	על	על	ADP	ADP	_	10	case	_	_
+9-10	הרומנים	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	רומנים	רומני	NOUN	NOUN	Gender=Masc|Number=Plur	7	obl	_	_
+11	עשר	עשר	NUM	NUM	Gender=Fem|Number=Plur	12	nummod	_	_
+12	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	7	nsubj	_	_
+13	של	של	ADP	ADP	Case=Gen	14	case	_	_
+14	הידרדרות	הידרדרות	NOUN	NOUN	Gender=Fem|Number=Sing	12	nmod:poss	_	_
+15-16	ברמת	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	רמת	רמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	14	nmod	_	_
+17-18	החיים	_	_	_	_	_	_	_	SpaceAfter=No
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	חיים	חיים	NOUN	NOUN	Gender=Masc|Number=Plur	16	compound:smixut	_	_
+19	,	,	PUNCT	PUNCT	_	7	punct	_	_
+20	אין	אין	ADV	ADV	Polarity=Neg	23	advmod	_	_
+21	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	_
+22	מוכנים	מוכן	AUX	AUX	Gender=Masc|Number=Plur|Person=1,2,3|VerbType=Mod	23	aux	_	_
+23	לעמוד	עמד	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	2	ccomp	_	_
+24-25	בתכניות	_	_	_	_	_	_	_	_
+24	ב	ב	ADP	ADP	_	25	case	_	_
+25	תכניות	תוכנית	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	23	obl	_	_
+26	צנע	צנע	NOUN	NOUN	Gender=Masc|Number=Sing	25	compound:smixut	_	_
+27	חדשות	חדש	ADJ	ADJ	Gender=Fem|Number=Plur	25	amod	_	SpaceAfter=No
+28	,	,	PUNCT	PUNCT	_	30	punct	_	_
+29-30	הנחשבות	_	_	_	_	_	_	_	_
+29	ה	ה	SCONJ	SCONJ	_	30	mark	_	_
+30	נחשבות	נחשב	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	25	acl:relcl	_	_
+31-32	להכרחיות	_	_	_	_	_	_	_	_
+31	ל	ל	ADP	ADP	_	32	case	_	_
+32	הכרחיות	הכרחיות	NOUN	NOUN	Gender=Fem|Number=Sing	30	obl	_	_
+33-34	במהלך	_	_	_	_	_	_	_	_
+33	ב	ב	ADP	ADP	_	35	case	_	_
+34	מהלך	מהלך	NOUN	NOUN	Gender=Masc|Number=Sing	33	fixed	_	_
+35	תכנית	תוכנית	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	32	nmod	_	_
+36-37	הליברליזציה	_	_	_	_	_	_	_	_
+36	ה	ה	DET	DET	Definite=Def|PronType=Art	37	det	_	_
+37	ליברליזציה	ליברליזציה	NOUN	NOUN	Gender=Fem|Number=Sing	35	compound:smixut	_	_
+38	של	של	ADP	ADP	Case=Gen	40	case	_	_
+39-40	המחירים	_	_	_	_	_	_	_	_
+39	ה	ה	DET	DET	Definite=Def|PronType=Art	40	det	_	_
+40	מחירים	מחיר	NOUN	NOUN	Gender=Masc|Number=Plur	35	nmod:poss	_	_
+41-43	והמעבר	_	_	_	_	_	_	_	_
+41	ו	ו	CCONJ	CCONJ	_	43	cc	_	_
+42	ה	ה	DET	DET	Definite=Def|PronType=Art	43	det	_	_
+43	מעבר	מעבר	NOUN	NOUN	Gender=Masc|Number=Sing	35	conj	_	_
+44-45	לשוק	_	_	_	_	_	_	_	_
+44	ל	ל	ADP	ADP	_	45	case	_	_
+45	שוק	שוק	NOUN	NOUN	Gender=Masc|Number=Sing	43	nmod	_	_
+46	חופשי	חופשי	ADJ	ADJ	Gender=Masc|Number=Sing	45	amod	_	SpaceAfter=No
+47	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:180
+# doc_range = 1533-1766
+# sent_id = 4736
+# text = ראש הממשלה, פטר רומאן, המיישם עתה תכנית של העלאות מחירים חריפות שלא היו כמותן 05 שנה, דחה את גילויי המחאה ואמר כי אין בהם חשיבות.
+1	ראש	ראש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	24	nsubj	_	_
+2-3	הממשלה	_	_	_	_	_	_	_	SpaceAfter=No
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+4	,	,	PUNCT	PUNCT	_	5	punct	_	_
+5	פטר	פטר	NOUN	NOUN	Gender=Masc|Number=Sing	1	appos	_	_
+6	רומאן	רומן	NOUN	NOUN	Gender=Masc|Number=Sing	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	9	punct	_	_
+8-9	המיישם	_	_	_	_	_	_	_	_
+8	ה	ה	SCONJ	SCONJ	_	9	mark	_	_
+9	מיישם	יישם	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	1	acl:relcl	_	_
+10	עתה	עתה	ADV	ADV	_	9	advmod	_	_
+11	תכנית	תוכנית	NOUN	NOUN	Gender=Fem|Number=Sing	9	obj	_	_
+12	של	של	ADP	ADP	Case=Gen	13	case	_	_
+13	העלאות	העלאה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	11	nmod:poss	_	_
+14	מחירים	מחיר	NOUN	NOUN	Gender=Masc|Number=Plur	13	compound:smixut	_	_
+15	חריפות	חריף	ADJ	ADJ	Gender=Fem|Number=Plur	13	amod	_	_
+16-17	שלא	_	_	_	_	_	_	_	_
+16	ש	ש	SCONJ	SCONJ	_	18	mark	_	_
+17	לא	לא	ADV	ADV	Polarity=Neg	18	advmod	_	_
+18	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	13	acl:relcl	_	_
+19-20	כמותן	_	_	_	_	_	_	_	_
+19	כמו	כמו	ADP	ADP	_	20	case	_	_
+20	_הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	18	obl	_	_
+21	05	05	NUM	NUM	_	22	nummod	_	_
+22	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+23	,	,	PUNCT	PUNCT	_	1	punct	_	_
+24	דחה	דחה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+25	את	את	ADP	ADP	Case=Acc	26	case	_	_
+26	גילויי	גילוי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	24	obj	_	_
+27-28	המחאה	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	מחאה	מחאה	NOUN	NOUN	Gender=Fem|Number=Sing	26	compound:smixut	_	_
+29-30	ואמר	_	_	_	_	_	_	_	_
+29	ו	ו	CCONJ	CCONJ	_	30	cc	_	_
+30	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	24	conj	_	_
+31	כי	כי	SCONJ	SCONJ	_	32	mark	_	_
+32	אין	אין	VERB	VERB	HebExistential=Yes	30	ccomp	_	_
+33-34	בהם	_	_	_	_	_	_	_	_
+33	ב	ב	ADP	ADP	_	34	case	_	_
+34	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	32	obl	_	_
+35	חשיבות	חשיבות	NOUN	NOUN	Gender=Fem|Number=Sing	32	nsubj	_	SpaceAfter=No
+36	.	.	PUNCT	PUNCT	_	24	punct	_	_
+
+# doc_id = htb:180
+# doc_range = 1768-1948
+# sent_id = 4737
+# text = ביום חמישי שעבר התכנסו כמה מאות תושבים לציון זכרו של מלך רומניה לשעבר מיכאיל, שהוגלה מן המדינה ב1947.
+1-2	ביום	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	obl	_	_
+3	חמישי	חמישי	PROPN	PROPN	_	2	compound:smixut	_	_
+4-5	שעבר	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	5	mark	_	_
+5	עבר	עבר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	2	acl:relcl	_	_
+6	התכנסו	התכנס	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	0	root	_	_
+7	כמה	כמה	DET	DET	Definite=Cons	9	det	_	_
+8	מאות	מאה	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	9	nummod	_	_
+9	תושבים	תושב	NOUN	NOUN	Gender=Masc|Number=Plur	6	nsubj	_	_
+10-11	לציון	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	11	case	_	_
+11	ציון	ציון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	obl	_	_
+12-14	זכרו	_	_	_	_	_	_	_	_
+12	זכר	זכר	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound:smixut	_	_
+13	_של_	של	ADP	ADP	Case=Gen	14	case:gen	_	_
+14	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+15	של	של	ADP	ADP	Case=Gen	16	case	_	_
+16	מלך	מלך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	nmod:poss	_	_
+17	רומניה	רומניה	PROPN	PROPN	_	16	compound:smixut	_	_
+18	לשעבר	לשעבר	ADV	ADV	_	16	advmod	_	_
+19	מיכאיל	מיכאיל	PROPN	PROPN	_	16	appos	_	SpaceAfter=No
+20	,	,	PUNCT	PUNCT	_	22	punct	_	_
+21-22	שהוגלה	_	_	_	_	_	_	_	_
+21	ש	ש	SCONJ	SCONJ	_	22	mark	_	_
+22	הוגלה	הוגלה	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	16	acl:relcl	_	_
+23	מן	מן	ADP	ADP	_	25	case	_	_
+24-25	המדינה	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	מדינה	מדינה	NOUN	NOUN	Gender=Fem|Number=Sing	22	obl	_	_
+26-27	ב1947	_	_	_	_	_	_	_	SpaceAfter=No
+26	ב	ב	ADP	ADP	_	27	case	_	_
+27	1947	1947	NUM	NUM	_	22	obl	_	_
+28	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:180
+# doc_range = 1952-2121
+# sent_id = 4738
+# text = הם קראו בשמו בכיכר האוניברסיטה בבוקרשט, שם התקיימו כמה הפגנות אנטי ממשלתיות בימים האחרונים.
+1	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	קראו	קרא	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3-6	בשמו	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	שם	שם	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+5	_של_	של	ADP	ADP	Case=Gen	6	case:gen	_	_
+6	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+7-8	בכיכר	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	כיכר	כיכר	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	obl	_	_
+9-10	האוניברסיטה	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	אוניברסיטה	אוניברסיטה	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound:smixut	_	_
+11-12	בבוקרשט	_	_	_	_	_	_	_	SpaceAfter=No
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	בוקרשט	בוקרשט	PROPN	PROPN	_	8	nmod	_	_
+13	,	,	PUNCT	PUNCT	_	15	punct	_	_
+14	שם	שם	ADV	ADV	_	15	advmod	_	_
+15	התקיימו	התקיים	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	8	acl:relcl	_	_
+16	כמה	כמה	DET	DET	Definite=Cons	17	det	_	_
+17	הפגנות	הפגנה	NOUN	NOUN	Gender=Fem|Number=Plur	15	nsubj	_	_
+18	אנטי	אנטי	ADV	ADV	Prefix=Yes	19	compound:affix	_	_
+19	ממשלתיות	ממשלתי	ADJ	ADJ	Gender=Fem|Number=Plur	17	amod	_	_
+20-22	בימים	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	22	case	_	_
+21	ה_	ה	DET	DET	PronType=Art|Definite=Def	22	det	_	_
+22	ימים	יום	NOUN	NOUN	Gender=Masc|Number=Plur	15	obl	_	_
+23-24	האחרונים	_	_	_	_	_	_	_	SpaceAfter=No
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	אחרונים	אחרון	ADJ	ADJ	Gender=Masc|Number=Plur	22	amod	_	_
+25	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:180
+# doc_range = 2123-2469
+# sent_id = 4739
+# text = המפגינים בעצרת בטימישוארה הטילו מצור על משרדי הממשלה בעיר למשך כמה שעות, ומסרו עצומות חתומות על-ידי אלפי אנשים ובהן דרישה למשאל עם בשאלה אם רומניה תוכל להישאר רפובליקה או תהפוך למונארכיה.
+1-2	המפגינים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מפגינים	מפגין	NOUN	NOUN	Gender=Masc|Number=Plur	8	nsubj	_	_
+3-5	בעצרת	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	5	case	_	_
+4	ה_	ה	DET	DET	PronType=Art|Definite=Def	5	det	_	_
+5	עצרת	עצרת	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	_
+6-7	בטימישוארה	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	טימישוארה	בטימישוארה	PROPN	PROPN	_	5	nmod	_	_
+8	הטילו	הטיל	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+9	מצור	מצור	NOUN	NOUN	Gender=Masc|Number=Sing	8	obj	_	_
+10	על	על	ADP	ADP	_	11	case	_	_
+11	משרדי	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	8	obl	_	_
+12-13	הממשלה	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	11	compound:smixut	_	_
+14-16	בעיר	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	16	case	_	_
+15	ה_	ה	DET	DET	PronType=Art|Definite=Def	16	det	_	_
+16	עיר	עיר	NOUN	NOUN	Gender=Fem|Number=Sing	11	nmod	_	_
+17-18	למשך	_	_	_	_	_	_	_	_
+17	ל	ל	ADP	ADP	_	20	case	_	_
+18	משך	משך	NOUN	NOUN	Gender=Masc|Number=Sing	17	fixed	_	_
+19	כמה	כמה	DET	DET	Definite=Cons	20	det	_	_
+20	שעות	שעה	NOUN	NOUN	Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	23	punct	_	_
+22-23	ומסרו	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
+23	מסרו	מסר	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	8	conj	_	_
+24	עצומות	עצומה	NOUN	NOUN	Gender=Fem|Number=Plur	23	obj	_	_
+25	חתומות	חתום	ADJ	ADJ	Gender=Fem|Number=Plur	24	amod	_	_
+26	על	על	ADP	ADP	_	30	case	_	SpaceAfter=No
+27	-	-	PUNCT	PUNCT	_	28	punct	_	SpaceAfter=No
+28	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	26	fixed	_	_
+29	אלפי	אלפי	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	30	nummod	_	_
+30	אנשים	איש	NOUN	NOUN	Gender=Masc|Number=Plur	25	obl	_	_
+31-33	ובהן	_	_	_	_	_	_	_	_
+31	ו	ו	CCONJ	CCONJ	_	33	cc	_	_
+32	ב	ב	ADP	ADP	_	33	case	_	_
+33	הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	23	conj	_	_
+34	דרישה	דרישה	NOUN	NOUN	Gender=Fem|Number=Sing	33	nsubj	_	_
+35-36	למשאל	_	_	_	_	_	_	_	_
+35	ל	ל	ADP	ADP	_	36	case	_	_
+36	משאל	משאל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	34	nmod	_	_
+37	עם	עם	NOUN	NOUN	Gender=Masc|Number=Sing	36	compound:smixut	_	_
+38-40	בשאלה	_	_	_	_	_	_	_	_
+38	ב	ב	ADP	ADP	_	40	case	_	_
+39	ה_	ה	DET	DET	PronType=Art|Definite=Def	40	det	_	_
+40	שאלה	שאלה	NOUN	NOUN	Gender=Fem|Number=Sing	36	nmod	_	_
+41	אם	אם	SCONJ	SCONJ	_	44	mark	_	_
+42	רומניה	רומניה	PROPN	PROPN	_	44	nsubj	_	_
+43	תוכל	תוכל	AUX	AUX	Gender=Masc|Number=Sing|Person=2|Tense=Fut|VerbType=Mod	44	aux	_	_
+44	להישאר	נשאר	VERB	VERB	HebBinyan=NIFAL|VerbForm=Inf|Voice=Mid	40	acl:relcl	_	_
+45	רפובליקה	רפובליקה	NOUN	NOUN	Gender=Fem|Number=Sing	44	obj	_	_
+46	או	או	CCONJ	CCONJ	_	49	cc	_	_
+47	תהפוך	הפך	AUX	AUX	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	49	aux	_	_
+48-49	למונארכיה	_	_	_	_	_	_	_	SpaceAfter=No
+48	ל	ל	ADP	ADP	_	49	case	_	_
+49	מונארכיה	מונרכיה	NOUN	NOUN	Gender=Fem|Number=Sing	43	conj	_	_
+50	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:180
+# doc_range = 2472-2574
+# sent_id = 4740
+# text = לתנועת המחאה הצטרפו גם האיגודים המקצועיים של הטלוויזיה.
+1-2	לתנועת	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	תנועת	תנועה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	obl	_	_
+3-4	המחאה	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	מחאה	מחאה	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound:smixut	_	_
+5	הצטרפו	הצטרף	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	0	root	_	_
+6	גם	גם	ADV	ADV	_	8	advmod	_	_
+7-8	האיגודים	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	איגודים	איגוד	NOUN	NOUN	Gender=Masc|Number=Plur	5	nsubj	_	_
+9-10	המקצועיים	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	מקצועיים	מקצועי	ADJ	ADJ	Gender=Masc|Number=Plur	8	amod	_	_
+11	של	של	ADP	ADP	Case=Gen	13	case	_	_
+12-13	הטלוויזיה	_	_	_	_	_	_	_	SpaceAfter=No
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	טלוויזיה	טלוויזיה	NOUN	NOUN	Gender=Fem|Number=Sing	8	nmod	_	_
+14	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:180
+# doc_range = 2576-2728
+# sent_id = 4741
+# text = העובדים הפגינו ליד בניין הטלוויזיה נגד הצנזורה ונגד סיקור החדשות הנוטה לצד הממשלה.
+1-2	העובדים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	הפגינו	הפגין	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	ליד	ליד	ADP	ADP	_	5	case	_	_
+5	בניין	בניין	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	obl	_	_
+6-7	הטלוויזיה	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	טלוויזיה	טלוויזיה	NOUN	NOUN	Gender=Fem|Number=Sing	5	compound:smixut	_	_
+8	נגד	נגד	ADP	ADP	_	10	case	_	_
+9-10	הצנזורה	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	צנזורה	צנזורה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+11-12	ונגד	_	_	_	_	_	_	_	_
+11	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
+12	נגד	נגד	ADP	ADP	_	13	case	_	_
+13	סיקור	סיקור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	conj	_	_
+14-15	החדשות	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	חדשות	חדשות	NOUN	NOUN	Gender=Fem|Number=Plur	13	compound:smixut	_	_
+16-17	הנוטה	_	_	_	_	_	_	_	_
+16	ה	ה	SCONJ	SCONJ	_	17	mark	_	_
+17	נוטה	נטה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	13	acl:relcl	_	_
+18-19	לצד	_	_	_	_	_	_	_	_
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	צד	צד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	obl	_	_
+20-21	הממשלה	_	_	_	_	_	_	_	SpaceAfter=No
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	19	compound:smixut	_	_
+22	.	.	PUNCT	PUNCT	_	3	punct	_	_
+

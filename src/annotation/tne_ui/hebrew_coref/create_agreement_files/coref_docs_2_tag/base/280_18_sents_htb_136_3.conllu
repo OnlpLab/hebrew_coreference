@@ -1,0 +1,738 @@
+# doc_id = htb:136_3
+# doc_range = 5861-6148
+# sent_id = 3361
+# text = ועדה פרלמנטרית עוקבת באחרונה אחרי אלפי מיליארדים של לירטות, שהוזרמו לדרום אחרי רעש האדמה של נובמבר 1980, שבו כפרים נהרסו כליל, נהרגו 3,100 ונרשמו 200,000 חסרי-גג.
+1	ועדה	ועדה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+2	פרלמנטרית	פרלמנטרי	ADJ	ADJ	Gender=Fem|Number=Sing	1	amod	_	_
+3	עוקבת	עקב	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4	באחרונה	באחרונה	ADV	ADV	_	3	advmod	_	_
+5	אחרי	אחרי	ADP	ADP	_	7	case	_	_
+6	אלפי	אלפי	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	7	nummod	_	_
+7	מיליארדים	מיליארדים	NUM	NUM	Gender=Masc|Number=Plur	3	obl	_	_
+8	של	של	ADP	ADP	Case=Gen	9	case	_	_
+9	לירטות	לירטה	NOUN	NOUN	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	12	punct	_	_
+11-12	שהוזרמו	_	_	_	_	_	_	_	_
+11	ש	ש	SCONJ	SCONJ	_	12	mark	_	_
+12	הוזרמו	הוזרם	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	7	acl:relcl	_	_
+13-15	לדרום	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	15	case	_	_
+14	ה_	ה	DET	DET	PronType=Art|Definite=Def	15	det	_	_
+15	דרום	דרום	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
+16	אחרי	אחרי	ADP	ADP	_	17	case	_	_
+17	רעש	רעש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	obl	_	_
+18-19	האדמה	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	אדמה	אדמה	NOUN	NOUN	Gender=Fem|Number=Sing	17	compound:smixut	_	_
+20	של	של	ADP	ADP	Case=Gen	21	case	_	_
+21	נובמבר	נובמבר	PROPN	PROPN	_	17	nmod	_	_
+22	1980	1980	NUM	NUM	_	21	nmod:tmod	_	SpaceAfter=No
+23	,	,	PUNCT	PUNCT	_	28	punct	_	_
+24-26	שבו	_	_	_	_	_	_	_	_
+24	ש	ש	SCONJ	SCONJ	_	28	mark	_	_
+25	ב	ב	ADP	ADP	_	26	case	_	_
+26	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	obl	_	_
+27	כפרים	כפר	NOUN	NOUN	Gender=Masc|Number=Plur	28	nsubj	_	_
+28	נהרסו	נהרס	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	17	acl:relcl	_	_
+29	כליל	כליל	ADV	ADV	_	28	advmod	_	SpaceAfter=No
+30	,	,	PUNCT	PUNCT	_	31	punct	_	_
+31	נהרגו	נהרג	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	28	conj	_	_
+32	3,100	3,100	NUM	NUM	_	31	nsubj	_	_
+33-34	ונרשמו	_	_	_	_	_	_	_	_
+33	ו	ו	CCONJ	CCONJ	_	34	cc	_	_
+34	נרשמו	נרשם	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	28	conj	_	_
+35	200,000	200,000	NUM	NUM	_	38	nummod	_	_
+36	חסרי	חסר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	38	nmod	_	SpaceAfter=No
+37	-	-	PUNCT	PUNCT	_	36	punct	_	SpaceAfter=No
+38	גג	גג	NOUN	NOUN	Gender=Masc|Number=Sing	34	nsubj	_	SpaceAfter=No
+39	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:136_3
+# doc_range = 6150-6280
+# sent_id = 3362
+# text = כספים הוזרמו לא רק מרומא ומבריסל, אלא גם ישירות ממדינות אירופה ומארה"ב.
+1	כספים	כסף	NOUN	NOUN	Gender=Masc|Number=Plur	2	nsubj:pass	_	_
+2	הוזרמו	הוזרם	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+3	לא	לא	ADV	ADV	Polarity=Neg	4	advmod	_	_
+4	רק	רק	ADV	ADV	_	6	advmod	_	_
+5-6	מרומא	_	_	_	_	_	_	_	_
+5	מ	מ	ADP	ADP	_	6	case	_	_
+6	רומא	רומא	PROPN	PROPN	_	2	obl	_	_
+7-9	ומבריסל	_	_	_	_	_	_	_	SpaceAfter=No
+7	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+8	מ	מ	ADP	ADP	_	9	case	_	_
+9	בריסל	בריסל	PROPN	PROPN	_	6	conj	_	_
+10	,	,	PUNCT	PUNCT	_	12	punct	_	_
+11	אלא	אלא	CCONJ	CCONJ	_	12	cc	_	_
+12	גם	גם	ADV	ADV	_	6	conj	_	_
+13	ישירות	ישירות	ADV	ADV	_	12	advmod	_	HebSource=ConvUncertainHead
+14-15	ממדינות	_	_	_	_	_	_	_	_
+14	מ	מ	ADP	ADP	_	15	case	_	_
+15	מדינות	מדינה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	12	dep	_	HebSource=ConvUncertainHead
+16	אירופה	אירופה	PROPN	PROPN	_	15	compound:smixut	_	_
+17-19	ומארה"ב	_	_	_	_	_	_	_	SpaceAfter=No
+17	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+18	מ	מ	ADP	ADP	_	19	case	_	_
+19	ארה"ב	ארה"ב	PROPN	PROPN	Abbr=Yes	12	conj	_	_
+20	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:136_3
+# doc_range = 6282-6404
+# sent_id = 3363
+# text = רק כפרים ספורים הקימו את הריסותיהם ובנו תשתית כלכלית לפי התוכניות.
+1	רק	רק	ADV	ADV	_	2	advmod	_	_
+2	כפרים	כפר	NOUN	NOUN	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	ספורים	ספור	ADJ	ADJ	Gender=Masc|Number=Plur	2	amod	_	_
+4	הקימו	הקים	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	את	את	ADP	ADP	Case=Acc	6	case	_	_
+6-7	הריסותיהם	_	_	_	_	_	_	_	_
+6	הריסותי	הריסה	NOUN	NOUN	Gender=Fem|Number=Plur	4	obj	_	_
+7	הם	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+8-9	ובנו	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+9	בנו	בנה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	4	conj	_	_
+10	תשתית	תשתית	NOUN	NOUN	Gender=Fem|Number=Sing	9	obj	_	_
+11	כלכלית	כלכלי	ADJ	ADJ	Gender=Fem|Number=Sing	10	amod	_	_
+12	לפי	לפי	ADP	ADP	_	14	case	_	_
+13-14	התוכניות	_	_	_	_	_	_	_	SpaceAfter=No
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	תוכניות	תוכנית	NOUN	NOUN	Gender=Fem|Number=Plur	10	nmod	_	_
+15	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:136_3
+# doc_range = 6406-6541
+# sent_id = 3364
+# text = ברוב המקומות טרם פונו כל ההריסות, ועשרות אלפי אנשים גרים עדיין בצריפונים.
+1-2	ברוב	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	4	case	_	_
+2	רוב	רוב	DET	DET	Definite=Cons	4	det	_	_
+3-4	המקומות	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	מקומות	מקום	NOUN	NOUN	Gender=Masc|Number=Plur	6	obl	_	_
+5	טרם	טרם	ADV	ADV	_	6	advmod	_	_
+6	פונו	פונה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PUAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+7	כל	כול	DET	DET	Definite=Cons	9	det	_	_
+8-9	ההריסות	_	_	_	_	_	_	_	SpaceAfter=No
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	הריסות	הריסה	NOUN	NOUN	Gender=Fem|Number=Plur	6	nsubj:pass	_	_
+10	,	,	PUNCT	PUNCT	_	15	punct	_	_
+11-12	ועשרות	_	_	_	_	_	_	_	_
+11	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+12	עשרות	עשרות	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	13	nummod	_	_
+13	אלפי	אלפי	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	14	nummod	_	_
+14	אנשים	איש	NOUN	NOUN	Gender=Masc|Number=Plur	15	nsubj	_	_
+15	גרים	גר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	6	conj	_	_
+16	עדיין	עדיין	ADV	ADV	_	15	advmod	_	_
+17-18	בצריפונים	_	_	_	_	_	_	_	SpaceAfter=No
+17	ב	ב	ADP	ADP	_	18	case	_	_
+18	צריפונים	צריפון	NOUN	NOUN	Gender=Masc|Number=Plur	15	obl	_	_
+19	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:136_3
+# doc_range = 6543-6633
+# sent_id = 3365
+# text = לעומת זאת, הוקמו כבר איצטדיון וכן כמה כבישי גישה.
+1	לעומת	לעומת	ADP	ADP	_	2	case	_	_
+2	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	4	obl	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
+4	הוקמו	הוקם	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+5	כבר	כבר	ADV	ADV	_	4	advmod	_	_
+6	איצטדיון	אצטדיון	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+7-8	וכן	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+8	כן	כן	ADV	ADV	_	10	advmod	_	_
+9	כמה	כמה	DET	DET	Definite=Cons	10	det	_	_
+10	כבישי	כביש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	6	conj	_	_
+11	גישה	גישה	NOUN	NOUN	Gender=Fem|Number=Sing	10	compound:smixut	_	SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:136_3
+# doc_range = 6635-6727
+# sent_id = 3366
+# text = בעיירה לאביאנו, למשל, הוקצבו בממוצע כ036 דולר לנפש.
+1-3	בעיירה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	עיירה	עיירה	NOUN	NOUN	Gender=Fem|Number=Sing	8	obl	_	_
+4	לאביאנו	לאביאנו	PROPN	PROPN	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	3	punct	_	_
+6	למשל	למשל	ADV	ADV	_	8	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	6	punct	_	_
+8	הוקצבו	הוקצב	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+9-10	בממוצע	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	ממוצע	ממוצע	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+11-12	כ036	_	_	_	_	_	_	_	_
+11	כ	כ	ADP	ADP	_	13	case	_	_
+12	036	036	NUM	NUM	_	13	nummod	_	_
+13	דולר	דולר	NOUN	NOUN	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+14-15	לנפש	_	_	_	_	_	_	_	SpaceAfter=No
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	נפש	נפש	NOUN	NOUN	Gender=Fem|Number=Sing	13	nmod	_	_
+16	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:136_3
+# doc_range = 6729-6821
+# sent_id = 3367
+# text = מי שחולש על הכספים הוא ראש העיר הקשור בארגוני הפשע.
+1	מי	מי	PRON	PRON	PronType=Int	8	nsubj	_	_
+2-3	שחולש	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	3	mark	_	_
+3	חולש	חלש	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	1	acl:relcl	_	_
+4	על	על	ADP	ADP	_	6	case	_	_
+5-6	הכספים	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	כספים	כסף	NOUN	NOUN	Gender=Masc|Number=Plur	3	obl	_	_
+7	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	8	cop	_	_
+8	ראש	ראש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	_
+9-10	העיר	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	עיר	עיר	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound:smixut	_	_
+11-12	הקשור	_	_	_	_	_	_	_	_
+11	ה	ה	SCONJ	SCONJ	_	12	mark	_	_
+12	קשור	קשר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	8	acl:relcl	_	_
+13-14	בארגוני	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	ארגוני	ארגון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	12	obl	_	_
+15-16	הפשע	_	_	_	_	_	_	_	SpaceAfter=No
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	פשע	פשע	NOUN	NOUN	Gender=Masc|Number=Sing	14	compound:smixut	_	_
+17	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:136_3
+# doc_range = 6823-7018
+# sent_id = 3368
+# text = חלק חשוב מהתקציבים שאושרו בזמנו מופקדים בבנקים המקורבים לראש הממשלה לשעבר, הדמו-נוצרי דא מיטה, בן האזור.
+1	חלק	חלק	NOUN	NOUN	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+2	חשוב	חשוב	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	_
+3-5	מהתקציבים	_	_	_	_	_	_	_	_
+3	מ	מ	ADP	ADP	_	5	case	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	תקציבים	תקציב	NOUN	NOUN	Gender=Masc|Number=Plur	1	nmod	_	_
+6-7	שאושרו	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	_	7	mark	_	_
+7	אושרו	אושר	VERB	VERB	Gender=Fem,Masc|HebBinyan=PUAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	5	acl:relcl	_	_
+8-11	בזמנו	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	זמן	זמן	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
+10	_של_	של	ADP	ADP	Case=Gen	11	case:gen	_	_
+11	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+12	מופקדים	הופקד	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+13-15	בבנקים	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	15	case	_	_
+14	ה_	ה	DET	DET	PronType=Art|Definite=Def	15	det	_	_
+15	בנקים	בנק	NOUN	NOUN	Gender=Masc|Number=Plur	12	obl	_	_
+16-17	המקורבים	_	_	_	_	_	_	_	_
+16	ה	ה	SCONJ	SCONJ	_	17	mark	_	_
+17	מקורבים	קורב	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	15	acl:relcl	_	_
+18-19	לראש	_	_	_	_	_	_	_	_
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	ראש	ראש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	obl	_	_
+20-21	הממשלה	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	19	compound:smixut	_	_
+22	לשעבר	לשעבר	ADV	ADV	_	19	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	PUNCT	_	27	punct	_	_
+24-25	הדמו	_	_	_	_	_	_	_	SpaceAfter=No
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+25	דמו	דמו	ADV	ADV	Prefix=Yes	27	compound:affix	_	_
+26	-	-	PUNCT	PUNCT	_	25	punct	_	SpaceAfter=No
+27	נוצרי	נוצרי	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	_
+28	דא	דא	PROPN	PROPN	_	19	dep	_	HebSource=ConvUncertainHead
+29	מיטה	מיטה	NOUN	NOUN	Gender=Fem|Number=Sing	28	flat:name	_	SpaceAfter=No
+30	,	,	PUNCT	PUNCT	_	31	punct	_	_
+31	בן	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	19	dep	_	HebSource=ConvUncertainHead
+32-33	האזור	_	_	_	_	_	_	_	SpaceAfter=No
+32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
+33	אזור	אזור	NOUN	NOUN	Gender=Masc|Number=Sing	31	compound:smixut	_	_
+34	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# doc_id = htb:136_3
+# doc_range = 7020-7168
+# sent_id = 3369
+# text = די לחשב את הריבית על הסכומים כדי להבין את ממדי טובת ההנאה מאיטיות ביצוע התוכניות.
+1	די	די	ADV	ADV	_	0	root	_	_
+2	לחשב	חישב	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	1	xcomp	_	_
+3	את	את	ADP	ADP	Case=Acc	5	case	_	_
+4-5	הריבית	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	ריבית	ריבית	NOUN	NOUN	Gender=Fem|Number=Sing	2	obj	_	_
+6	על	על	ADP	ADP	_	8	case	_	_
+7-8	הסכומים	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	סכומים	סכום	NOUN	NOUN	Gender=Masc|Number=Plur	5	nmod	_	_
+9	כדי	כדי	SCONJ	SCONJ	_	10	mark	_	_
+10	להבין	הבין	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	1	advcl	_	_
+11	את	את	ADP	ADP	Case=Acc	12	case	_	_
+12	ממדי	ממד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	10	obj	_	_
+13	טובת	טובה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	compound:smixut	_	_
+14-15	ההנאה	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	הנאה	הנאה	NOUN	NOUN	Gender=Fem|Number=Sing	13	compound:smixut	_	_
+16-17	מאיטיות	_	_	_	_	_	_	_	_
+16	מ	מ	ADP	ADP	_	17	case	_	_
+17	איטיות	איטיות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	13	nmod	_	_
+18	ביצוע	ביצוע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	compound:smixut	_	_
+19-20	התוכניות	_	_	_	_	_	_	_	SpaceAfter=No
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	תוכניות	תוכנית	NOUN	NOUN	Gender=Fem|Number=Plur	18	compound:smixut	_	_
+21	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:136_3
+# doc_range = 7170-7621
+# sent_id = 3370
+# text = יש להניח שהכספים האלה סייעו לאנשי דא מיטה לאסוף באזורי הדרום מאות אלפי תומכים לעריכת משאל-עם לשינוי שיטת הבחירות משיטה פרופורציונלית טהורה לשיטת חסימה, שתעניק למפלגת הרוב הדמו-נוצרית ולמפלגת האופוזיציה הגדולה של הקומוניסטים יתרון רב בפרלמנט.
+1	יש	יש	AUX	AUX	VerbType=Mod	2	aux	_	_
+2	להניח	הניח	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	0	root	_	_
+3-5	שהכספים	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	כספים	כסף	NOUN	NOUN	Gender=Masc|Number=Plur	8	nsubj	_	_
+6-7	האלה	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	5	det	_	_
+8	סייעו	סייע	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	2	advcl	_	_
+9-10	לאנשי	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	10	case	_	_
+10	אנשי	איש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	8	obl	_	_
+11	דא	דא	PROPN	PROPN	_	10	compound:smixut	_	_
+12	מיטה	מיטה	NOUN	NOUN	Gender=Fem|Number=Sing	11	flat:name	_	_
+13	לאסוף	אסף	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+14-15	באזורי	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	אזורי	אזור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	13	obl	_	_
+16-17	הדרום	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	דרום	דרום	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	_
+18	מאות	מאה	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	19	nummod	_	_
+19	אלפי	אלפי	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	20	nummod	_	_
+20	תומכים	תומך	NOUN	NOUN	Gender=Masc|Number=Plur	13	obl	_	_
+21-22	לעריכת	_	_	_	_	_	_	_	_
+21	ל	ל	ADP	ADP	_	22	case	_	_
+22	עריכת	עריכה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	20	nmod	_	_
+23	משאל	משאל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+24	-	-	PUNCT	PUNCT	_	23	punct	_	SpaceAfter=No
+25	עם	עם	NOUN	NOUN	Gender=Masc|Number=Sing	22	compound:smixut	_	_
+26-27	לשינוי	_	_	_	_	_	_	_	_
+26	ל	ל	ADP	ADP	_	27	case	_	_
+27	שינוי	שינוי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	25	nmod	_	_
+28	שיטת	שיטה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	27	compound:smixut	_	_
+29-30	הבחירות	_	_	_	_	_	_	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	בחירות	בחירות	NOUN	NOUN	Gender=Fem|Number=Plur	28	compound:smixut	_	_
+31-32	משיטה	_	_	_	_	_	_	_	_
+31	מ	מ	ADP	ADP	_	32	case	_	_
+32	שיטה	שיטה	NOUN	NOUN	Gender=Fem|Number=Sing	27	nmod	_	_
+33	פרופורציונלית	פרופורציונלי	ADJ	ADJ	Gender=Fem|Number=Sing	32	amod	_	_
+34	טהורה	טהור	ADJ	ADJ	Gender=Fem|Number=Sing	32	amod	_	_
+35-36	לשיטת	_	_	_	_	_	_	_	_
+35	ל	ל	ADP	ADP	_	36	case	_	_
+36	שיטת	שיטה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	27	nmod	_	_
+37	חסימה	חסימה	NOUN	NOUN	Gender=Fem|Number=Sing	36	compound:smixut	_	SpaceAfter=No
+38	,	,	PUNCT	PUNCT	_	40	punct	_	_
+39-40	שתעניק	_	_	_	_	_	_	_	_
+39	ש	ש	SCONJ	SCONJ	_	40	mark	_	_
+40	תעניק	העניק	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	36	acl:relcl	_	_
+41-42	למפלגת	_	_	_	_	_	_	_	_
+41	ל	ל	ADP	ADP	_	42	case	_	_
+42	מפלגת	מפלגה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	40	obl	_	_
+43-44	הרוב	_	_	_	_	_	_	_	_
+43	ה	ה	DET	DET	Definite=Def|PronType=Art	44	det	_	_
+44	רוב	רוב	NOUN	NOUN	Gender=Masc|Number=Sing	42	compound:smixut	_	_
+45-46	הדמו	_	_	_	_	_	_	_	SpaceAfter=No
+45	ה	ה	DET	DET	Definite=Def|PronType=Art	48	det	_	_
+46	דמו	דמו	ADV	ADV	Prefix=Yes	48	compound:affix	_	_
+47	-	-	PUNCT	PUNCT	_	46	punct	_	SpaceAfter=No
+48	נוצרית	נוצרי	ADJ	ADJ	Gender=Fem|Number=Sing	42	amod	_	_
+49-51	ולמפלגת	_	_	_	_	_	_	_	_
+49	ו	ו	CCONJ	CCONJ	_	51	cc	_	_
+50	ל	ל	ADP	ADP	_	51	case	_	_
+51	מפלגת	מפלגה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	42	conj	_	_
+52-53	האופוזיציה	_	_	_	_	_	_	_	_
+52	ה	ה	DET	DET	Definite=Def|PronType=Art	53	det	_	_
+53	אופוזיציה	אופוזיציה	NOUN	NOUN	Gender=Fem|Number=Sing	51	compound:smixut	_	_
+54-55	הגדולה	_	_	_	_	_	_	_	_
+54	ה	ה	DET	DET	Definite=Def|PronType=Art	55	det	_	_
+55	גדולה	גדול	ADJ	ADJ	Gender=Fem|Number=Sing	51	amod	_	_
+56	של	של	ADP	ADP	Case=Gen	58	case	_	_
+57-58	הקומוניסטים	_	_	_	_	_	_	_	_
+57	ה	ה	DET	DET	Definite=Def|PronType=Art	58	det	_	_
+58	קומוניסטים	קומוניסטי	NOUN	NOUN	Gender=Masc|Number=Plur	51	nmod	_	_
+59	יתרון	יתרון	NOUN	NOUN	Gender=Masc|Number=Sing	40	obj	_	_
+60	רב	רב	ADJ	ADJ	Gender=Masc|Number=Sing	59	amod	_	_
+61-63	בפרלמנט	_	_	_	_	_	_	_	SpaceAfter=No
+61	ב	ב	ADP	ADP	_	63	case	_	_
+62	ה_	ה	DET	DET	PronType=Art|Definite=Def	63	det	_	_
+63	פרלמנט	פרלמנט	NOUN	NOUN	Gender=Masc|Number=Sing	59	nmod	_	_
+64	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:136_3
+# doc_range = 7624-7814
+# sent_id = 3371
+# text = דא מיטה, שמונה שנים מזכיר מפלגתו ופעמיים ראש ממשלה, הפסיד במרוצת השנתיים האחרונות את שני התפקידים האלה.
+1	דא	דא	PROPN	PROPN	_	15	nsubj	_	_
+2	מיטה	מיטה	NOUN	NOUN	Gender=Fem|Number=Sing	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	6	punct	_	_
+4	שמונה	שמונה	NUM	NUM	Gender=Fem|Number=Plur	5	nummod	_	_
+5	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	6	dep	_	_
+6	מזכיר	מזכיר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	acl:relcl	_	_
+7-9	מפלגתו	_	_	_	_	_	_	_	_
+7	מפלגה	מפלגה	NOUN	NOUN	Gender=Fem|Number=Sing	6	compound:smixut	_	_
+8	_של_	של	ADP	ADP	Case=Gen	9	case:gen	_	_
+9	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+10-11	ופעמיים	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+11	פעמיים	פעמיים	ADV	ADV	_	12	advmod	_	_
+12	ראש	ראש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	conj	_	_
+13	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	12	compound:smixut	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	1	punct	_	_
+15	הפסיד	הפסיד	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+16-17	במרוצת	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	מרוצת	מרוצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	15	obl	_	_
+18-19	השנתיים	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	שנתיים	שנה	NOUN	NOUN	Gender=Fem|Number=Dual	17	compound:smixut	_	_
+20-21	האחרונות	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	אחרונות	אחרון	ADJ	ADJ	Gender=Fem|Number=Plur	19	amod	_	_
+22	את	את	ADP	ADP	Case=Acc	25	case	_	_
+23	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	25	nummod	_	_
+24-25	התפקידים	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	תפקידים	תפקיד	NOUN	NOUN	Gender=Masc|Number=Plur	15	obj	_	_
+26-27	האלה	_	_	_	_	_	_	_	SpaceAfter=No
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	25	det	_	_
+28	.	.	PUNCT	PUNCT	_	15	punct	_	_
+
+# doc_id = htb:136_3
+# doc_range = 7816-8275
+# sent_id = 3372
+# text = אם ינצח במשאל-העם על שיטת הבחירות, לא זו בלבד שהשפעתו תגדל וידידיו במפלגה הקומוניסטית ייהנו מהשינוי, אלא שהוא יצליח להחליש במידה ניכרת את יריבו הגדול, קראקסי, מזכיר המפלגה הסוציאליסטית, השלישית בגודלה באיטליה, שהשפעתה היא מעל ומעבר לכוחה בפרלמנט.
+1	אם	אם	SCONJ	SCONJ	_	2	mark	_	_
+2	ינצח	ניצח	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	14	advcl	_	_
+3-4	במשאל	_	_	_	_	_	_	_	SpaceAfter=No
+3	ב	ב	ADP	ADP	_	7	case	_	_
+4	משאל	משאל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nmod	_	_
+5	-	-	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+6-7	העם	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	עם	עם	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+8	על	על	ADP	ADP	_	9	case	_	_
+9	שיטת	שיטה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	nmod	_	_
+10-11	הבחירות	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	בחירות	בחירות	NOUN	NOUN	Gender=Fem|Number=Plur	9	compound:smixut	_	_
+12	,	,	PUNCT	PUNCT	_	2	punct	_	_
+13	לא	לא	DET	DET	Polarity=Neg	14	det	_	_
+14	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	0	root	_	_
+15	בלבד	בלבד	ADV	ADV	_	14	advmod	_	_
+16-19	שהשפעתו	_	_	_	_	_	_	_	_
+16	ש	ש	SCONJ	SCONJ	_	20	mark	_	_
+17	השפעה	השפעה	NOUN	NOUN	Gender=Fem|Number=Sing	20	nsubj	_	_
+18	_של_	של	ADP	ADP	Case=Gen	19	case:gen	_	_
+19	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+20	תגדל	גדל	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Fut	14	advcl	_	_
+21-24	וידידיו	_	_	_	_	_	_	_	_
+21	ו	ו	CCONJ	CCONJ	_	30	cc	_	_
+22	ידיד	ידיד	NOUN	NOUN	Gender=Masc|Number=Plur	30	nsubj	_	_
+23	_של_	של	ADP	ADP	Case=Gen	24	case:gen	_	_
+24	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+25-27	במפלגה	_	_	_	_	_	_	_	_
+25	ב	ב	ADP	ADP	_	27	case	_	_
+26	ה_	ה	DET	DET	PronType=Art|Definite=Def	27	det	_	_
+27	מפלגה	מפלגה	NOUN	NOUN	Gender=Fem|Number=Sing	22	nmod	_	_
+28-29	הקומוניסטית	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	קומוניסטית	קומוניסטי	ADJ	ADJ	Gender=Fem|Number=Sing	27	amod	_	_
+30	ייהנו	נהנה	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Fut|Voice=Mid	20	conj	_	_
+31-33	מהשינוי	_	_	_	_	_	_	_	SpaceAfter=No
+31	מ	מ	ADP	ADP	_	33	case	_	_
+32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
+33	שינוי	שינוי	NOUN	NOUN	Gender=Masc|Number=Sing	30	obl	_	_
+34	,	,	PUNCT	PUNCT	_	38	punct	_	_
+35	אלא	אלא	CCONJ	CCONJ	_	38	cc	_	_
+36-37	שהוא	_	_	_	_	_	_	_	_
+36	ש	ש	SCONJ	SCONJ	_	38	mark	_	_
+37	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	nsubj	_	_
+38	יצליח	הצליח	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	20	conj	_	_
+39	להחליש	החליש	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	38	xcomp	_	_
+40-41	במידה	_	_	_	_	_	_	_	_
+40	ב	ב	ADP	ADP	_	41	case	_	_
+41	מידה	מידה	NOUN	NOUN	Gender=Fem|Number=Sing	39	obl	_	_
+42	ניכרת	ניכר	ADJ	ADJ	Gender=Fem|Number=Sing	41	amod	_	_
+43	את	את	ADP	ADP	Case=Acc	44	case	_	_
+44-46	יריבו	_	_	_	_	_	_	_	_
+44	יריב	יריב	NOUN	NOUN	Gender=Masc|Number=Sing	39	obj	_	_
+45	_של_	של	ADP	ADP	Case=Gen	46	case:gen	_	_
+46	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	44	nmod:poss	_	_
+47-48	הגדול	_	_	_	_	_	_	_	SpaceAfter=No
+47	ה	ה	DET	DET	Definite=Def|PronType=Art	48	det	_	_
+48	גדול	גדול	ADJ	ADJ	Gender=Masc|Number=Sing	44	amod	_	_
+49	,	,	PUNCT	PUNCT	_	50	punct	_	_
+50	קראקסי	קראקסי	PROPN	PROPN	_	44	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+51	,	,	PUNCT	PUNCT	_	52	punct	_	_
+52	מזכיר	מזכיר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	44	dep	_	HebSource=ConvUncertainHead
+53-54	המפלגה	_	_	_	_	_	_	_	_
+53	ה	ה	DET	DET	Definite=Def|PronType=Art	54	det	_	_
+54	מפלגה	מפלגה	NOUN	NOUN	Gender=Fem|Number=Sing	52	compound:smixut	_	_
+55-56	הסוציאליסטית	_	_	_	_	_	_	_	SpaceAfter=No
+55	ה	ה	DET	DET	Definite=Def|PronType=Art	56	det	_	_
+56	סוציאליסטית	סוציאליסטי	ADJ	ADJ	Gender=Fem|Number=Sing	54	amod	_	_
+57	,	,	PUNCT	PUNCT	_	59	punct	_	_
+58-59	השלישית	_	_	_	_	_	_	_	_
+58	ה	ה	DET	DET	Definite=Def|PronType=Art	59	det	_	_
+59	שלישית	שלישייה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	54	nmod	_	_
+60-63	בגודלה	_	_	_	_	_	_	_	_
+60	ב	ב	ADP	ADP	_	61	case	_	_
+61	גודל	גודל	NOUN	NOUN	Gender=Masc|Number=Sing	59	nmod	_	_
+62	_של_	של	ADP	ADP	Case=Gen	63	case:gen	_	_
+63	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	61	nmod:poss	_	_
+64-65	באיטליה	_	_	_	_	_	_	_	SpaceAfter=No
+64	ב	ב	ADP	ADP	_	65	case	_	_
+65	איטליה	איטליה	PROPN	PROPN	_	59	nmod	_	_
+66	,	,	PUNCT	PUNCT	_	76	punct	_	_
+67-70	שהשפעתה	_	_	_	_	_	_	_	_
+67	ש	ש	SCONJ	SCONJ	_	76	mark	_	_
+68	השפעה	השפעה	NOUN	NOUN	Gender=Fem|Number=Sing	76	nsubj	_	_
+69	_של_	של	ADP	ADP	Case=Gen	70	case:gen	_	_
+70	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	68	nmod:poss	_	_
+71	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	76	cop	_	_
+72	מעל	מעל	ADP	ADP	_	76	case	_	_
+73-74	ומעבר	_	_	_	_	_	_	_	_
+73	ו	ו	CCONJ	CCONJ	_	72	fixed	_	_
+74	מעבר	מעבר	ADP	ADP	_	72	fixed	_	_
+75-78	לכוחה	_	_	_	_	_	_	_	_
+75	ל	ל	ADP	ADP	_	76	case	_	_
+76	כוח	כוח	NOUN	NOUN	Gender=Masc|Number=Sing	54	acl:relcl	_	_
+77	_של_	של	ADP	ADP	Case=Gen	78	case:gen	_	_
+78	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	76	nmod:poss	_	_
+79-81	בפרלמנט	_	_	_	_	_	_	_	SpaceAfter=No
+79	ב	ב	ADP	ADP	_	81	case	_	_
+80	ה_	ה	DET	DET	PronType=Art|Definite=Def	81	det	_	_
+81	פרלמנט	פרלמנט	NOUN	NOUN	Gender=Masc|Number=Sing	76	nmod	_	_
+82	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# doc_id = htb:136_3
+# doc_range = 8277-8456
+# sent_id = 3373
+# text = על-פי החלטות הממשלה יישלחו בהקדם שופטים ועובדי משרד המשפטים לדרום, כדי לאייש את המקומות הדרושים.
+1	על	על	ADP	ADP	_	4	case	_	SpaceAfter=No
+2	-	-	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+3	פי	פה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	fixed	_	_
+4	החלטות	החלטה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	7	obl	_	_
+5-6	הממשלה	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	4	compound:smixut	_	_
+7	יישלחו	נשלח	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Fut|Voice=Mid	0	root	_	_
+8	בהקדם	בהקדם	ADV	ADV	_	7	advmod	_	_
+9	שופטים	שופט	NOUN	NOUN	Gender=Masc|Number=Plur	7	nsubj	_	_
+10-11	ועובדי	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+11	עובדי	עובד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	9	conj	_	_
+12	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	compound:smixut	_	_
+13-14	המשפטים	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	משפטים	משפט	NOUN	NOUN	Gender=Masc|Number=Plur	12	compound:smixut	_	_
+15-17	לדרום	_	_	_	_	_	_	_	SpaceAfter=No
+15	ל	ל	ADP	ADP	_	17	case	_	_
+16	ה_	ה	DET	DET	PronType=Art|Definite=Def	17	det	_	_
+17	דרום	דרום	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
+18	,	,	PUNCT	PUNCT	_	20	punct	_	_
+19	כדי	כדי	SCONJ	SCONJ	_	20	mark	_	_
+20	לאייש	אייש	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	7	advcl	_	_
+21	את	את	ADP	ADP	Case=Acc	23	case	_	_
+22-23	המקומות	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	מקומות	מקום	NOUN	NOUN	Gender=Masc|Number=Plur	20	obj	_	_
+24-25	הדרושים	_	_	_	_	_	_	_	SpaceAfter=No
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	דרושים	דרוש	ADJ	ADJ	Gender=Masc|Number=Plur	23	amod	_	_
+26	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:136_3
+# doc_range = 8458-8587
+# sent_id = 3374
+# text = מספר השוטרים יגדל וייתכן ששר האוצר יסכים להגדיל את תקציב משרד המשפטים.
+1	מספר	מספר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nsubj	_	_
+2-3	השוטרים	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	שוטרים	שוטר	NOUN	NOUN	Gender=Masc|Number=Plur	1	compound:smixut	_	_
+4	יגדל	גדל	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	0	root	_	_
+5-6	וייתכן	_	_	_	_	_	_	_	_
+5	ו	ו	CCONJ	CCONJ	_	6	cc	_	_
+6	ייתכן	ייתכן	AUX	AUX	VerbType=Mod	4	conj	_	_
+7-8	ששר	_	_	_	_	_	_	_	_
+7	ש	ש	SCONJ	SCONJ	_	11	mark	_	_
+8	שר	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	nsubj	_	_
+9-10	האוצר	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	אוצר	אוצר	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound:smixut	_	_
+11	יסכים	הסכים	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	6	advcl	_	_
+12	להגדיל	הגדיל	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	את	את	ADP	ADP	Case=Acc	14	case	_	_
+14	תקציב	תקציב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	obj	_	_
+15	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	14	compound:smixut	_	_
+16-17	המשפטים	_	_	_	_	_	_	_	SpaceAfter=No
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	משפטים	משפט	NOUN	NOUN	Gender=Masc|Number=Plur	15	compound:smixut	_	_
+18	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:136_3
+# doc_range = 8589-8766
+# sent_id = 3375
+# text = למרות זאת, השאלה העיקרית היא באיזו מידה ומתי תתגייס רומא הפוליטית למלחמה בהיקף מלא בפשע המאורגן.
+1	למרות	למרות	ADP	ADP	_	2	case	_	_
+2	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	14	obl	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
+4-5	השאלה	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	שאלה	שאלה	NOUN	NOUN	Gender=Fem|Number=Sing	14	nsubj	_	_
+6-7	העיקרית	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	עיקרית	עיקרי	ADJ	ADJ	Gender=Fem|Number=Sing	5	amod	_	_
+8	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	14	cop	_	_
+9-10	באיזו	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	11	case	_	_
+10	איזו	איזה	PRON	PRON	Gender=Fem|Number=Sing|PronType=Int	11	det	_	_
+11	מידה	מידה	NOUN	NOUN	Gender=Fem|Number=Sing	13	dep	_	HebSource=ConvUncertainHead
+12-13	ומתי	_	_	_	_	_	_	_	_
+12	ו	ו	CCONJ	CCONJ	_	13	cc	_	HebSource=ConvUncertainHead
+13	מתי	מתי	ADV	ADV	PronType=Int	14	advmod	_	_
+14	תתגייס	התגייס	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Fut	0	root	_	_
+15	רומא	רומא	PROPN	PROPN	_	14	nsubj	_	_
+16-17	הפוליטית	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	פוליטית	פוליטי	ADJ	ADJ	Gender=Fem|Number=Sing	15	amod	_	_
+18-19	למלחמה	_	_	_	_	_	_	_	_
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	מלחמה	מלחמה	NOUN	NOUN	Gender=Fem|Number=Sing	14	obl	_	_
+20-21	בהיקף	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	היקף	היקף	NOUN	NOUN	Gender=Masc|Number=Sing	19	nmod	_	_
+22	מלא	מלא	ADJ	ADJ	Gender=Masc|Number=Sing	21	amod	_	_
+23-25	בפשע	_	_	_	_	_	_	_	_
+23	ב	ב	ADP	ADP	_	25	case	_	_
+24	ה_	ה	DET	DET	PronType=Art|Definite=Def	25	det	_	_
+25	פשע	פשע	NOUN	NOUN	Gender=Masc|Number=Sing	19	nmod	_	_
+26-27	המאורגן	_	_	_	_	_	_	_	SpaceAfter=No
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	מאורגן	מאורגן	ADJ	ADJ	Gender=Masc|Number=Sing	25	amod	_	_
+28	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# doc_id = htb:136_3
+# doc_range = 8769-9007
+# sent_id = 3376
+# text = ביום שבו הוחלט על תגבורת לבתי המשפט ולמשטרת הדרום, נרצח שופט בעיר היפהפיה אגריגאנטו שבסיציליה, תזכורת נוספת למרחק בין רומא לדרום.
+1-3	ביום	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	יום	יום	NOUN	NOUN	Gender=Masc|Number=Sing	20	obl	_	_
+4-6	שבו	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	7	mark	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obl	_	_
+7	הוחלט	הוחלט	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	3	acl:relcl	_	_
+8	על	על	ADP	ADP	_	9	case	_	_
+9	תגבורת	תגבורת	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
+10-11	לבתי	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	11	case	_	_
+11	בתי	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	9	nmod	_	_
+12-13	המשפט	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound:smixut	_	_
+14-16	ולמשטרת	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+15	ל	ל	ADP	ADP	_	16	case	_	_
+16	משטרת	משטרה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	11	conj	_	_
+17-18	הדרום	_	_	_	_	_	_	_	SpaceAfter=No
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	דרום	דרום	NOUN	NOUN	Gender=Masc|Number=Sing	16	compound:smixut	_	_
+19	,	,	PUNCT	PUNCT	_	3	punct	_	_
+20	נרצח	נרצח	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+21	שופט	שופט	NOUN	NOUN	Gender=Masc|Number=Sing	20	nsubj	_	_
+22-24	בעיר	_	_	_	_	_	_	_	_
+22	ב	ב	ADP	ADP	_	24	case	_	_
+23	ה_	ה	DET	DET	PronType=Art|Definite=Def	24	det	_	_
+24	עיר	עיר	NOUN	NOUN	Gender=Fem|Number=Sing	20	obl	_	_
+25-26	היפהפיה	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	יפהפיה	יפיפה	ADJ	ADJ	Gender=Fem|Number=Sing	24	amod	_	_
+27	אגריגאנטו	אגריגאנטו	PROPN	PROPN	_	24	appos	_	_
+28-30	שבסיציליה	_	_	_	_	_	_	_	SpaceAfter=No
+28	ש	ש	SCONJ	SCONJ	_	30	mark	_	_
+29	ב	ב	ADP	ADP	_	30	case	_	_
+30	סיציליה	סיציליה	PROPN	PROPN	_	24	acl:relcl	_	_
+31	,	,	PUNCT	PUNCT	_	32	punct	_	_
+32	תזכורת	תזכורת	NOUN	NOUN	Gender=Fem|Number=Sing	20	dep	_	HebSource=ConvUncertainHead
+33	נוספת	נוסף	ADJ	ADJ	Gender=Fem|Number=Sing	32	amod	_	_
+34-36	למרחק	_	_	_	_	_	_	_	_
+34	ל	ל	ADP	ADP	_	36	case	_	_
+35	ה_	ה	DET	DET	PronType=Art|Definite=Def	36	det	_	_
+36	מרחק	מרחק	NOUN	NOUN	Gender=Masc|Number=Sing	32	nmod	_	_
+37	בין	בין	ADP	ADP	_	38	case	_	_
+38	רומא	רומא	PROPN	PROPN	_	36	nmod	_	_
+39-41	לדרום	_	_	_	_	_	_	_	SpaceAfter=No
+39	ל	ל	ADP	ADP	_	41	case	_	_
+40	ה_	ה	DET	DET	PronType=Art|Definite=Def	41	det	_	_
+41	דרום	דרום	NOUN	NOUN	Gender=Masc|Number=Sing	38	conj	_	_
+42	.	.	PUNCT	PUNCT	_	20	punct	_	_
+
+# doc_id = htb:136_3
+# doc_range = 9009-9190
+# sent_id = 3377
+# text = שיקאגו של שנות השלושים, אמרו וחזרו ואמרו קציני משטרה בכירים, כאין וכאפס לעומת דרום איטליה של היום.
+1	שיקאגו	שיקאגו	PROPN	PROPN	_	17	nsubj	_	_
+2	של	של	ADP	ADP	Case=Gen	3	case	_	_
+3	שנות	שנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	1	nmod:poss	_	_
+4-5	השלושים	_	_	_	_	_	_	_	SpaceAfter=No
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	שלושים	שלושים	NUM	NUM	Gender=Fem,Masc|Number=Plur	3	compound:smixut	_	_
+6	,	,	PUNCT	PUNCT	_	7	punct	_	_
+7	אמרו	אמר	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	17	parataxis	_	_
+8-9	וחזרו	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+9	חזרו	חזר	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	7	conj	_	_
+10-11	ואמרו	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+11	אמרו	אמר	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	7	conj	_	_
+12	קציני	קצין	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	7	nsubj	_	_
+13	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	12	compound:smixut	_	_
+14	בכירים	בכיר	ADJ	ADJ	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	7	punct	_	_
+16-17	כאין	_	_	_	_	_	_	_	_
+16	כ	כ	ADP	ADP	_	17	case	_	_
+17	אין	אין	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+18-20	וכאפס	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
+19	כ	כ	ADP	ADP	_	20	case	_	_
+20	אפס	אפס	NOUN	NOUN	Gender=Masc|Number=Sing	17	conj	_	_
+21	לעומת	לעומת	ADP	ADP	_	22	case	_	_
+22	דרום	דרום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	dep	_	HebSource=ConvUncertainHead
+23	איטליה	איטליה	PROPN	PROPN	_	22	compound:smixut	_	_
+24	של	של	ADP	ADP	Case=Gen	25	case	_	_
+25	היום	היום	ADV	ADV	_	22	nmod:poss	_	SpaceAfter=No
+26	.	.	PUNCT	PUNCT	_	17	punct	_	_
+
+# doc_id = htb:136_3
+# doc_range = 9192-9273
+# sent_id = 3378
+# text = ודווקא בארץ זו יוקם בסיס מטוסי אף-61 של נאט"ו.
+1-2	ודווקא	_	_	_	_	_	_	_	_
+1	ו	ו	CCONJ	CCONJ	_	6	cc	_	_
+2	דווקא	דווקא	ADV	ADV	_	6	advmod	_	_
+3-4	בארץ	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	ארץ	ארץ	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	_
+5	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	4	det	_	_
+6	יוקם	הוקם	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	0	root	_	_
+7	בסיס	בסיס	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+8	מטוסי	מטוס	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	7	compound:smixut	_	_
+9	אף	אף	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound:smixut	_	SpaceAfter=No
+10	-	-	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+11	61	61	NUM	NUM	_	9	flat:name	_	_
+12	של	של	ADP	ADP	Case=Gen	13	case	_	_
+13	נאט"ו	נאט"ו	PROPN	PROPN	Abbr=Yes	7	nmod:poss	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	6	punct	_	_
+

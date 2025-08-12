@@ -1,0 +1,377 @@
+# doc_id = htb:162_2
+# doc_range = 2310-2316
+# sent_id = 4245
+# text = למה?
+1	למה	למה	PRON	PRON	PronType=Int	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:162_2
+# doc_range = 2319-2382
+# sent_id = 4246
+# text = איזה שד נכנס בצפצפות המרושעות האלה?
+1	איזה	איזה	DET	DET	Definite=Cons	2	det	_	_
+2	שד	שד	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	נכנס	נכנס	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+4-6	בצפצפות	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	6	case	_	_
+5	ה_	ה	DET	DET	PronType=Art|Definite=Def	6	det	_	_
+6	צפצפות	צפצפה	NOUN	NOUN	Gender=Fem|Number=Plur	3	obl	_	_
+7-8	המרושעות	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	מרושעות	מרושע	ADJ	ADJ	Gender=Fem|Number=Plur	6	amod	_	_
+9-10	האלה	_	_	_	_	_	_	_	SpaceAfter=No
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	6	det	_	_
+11	?	?	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:162_2
+# doc_range = 2385-2497
+# sent_id = 4247
+# text = אין ספק כי יש כאן איזושהי אמירה מטאפיסית של היקום על מות האמת.
+1	אין	אין	VERB	VERB	HebExistential=Yes	0	root	_	_
+2	ספק	ספק	NOUN	NOUN	Gender=Masc|Number=Sing	1	nsubj	_	_
+3	כי	כי	SCONJ	SCONJ	_	4	mark	_	_
+4	יש	יש	VERB	VERB	HebExistential=Yes	2	acl:relcl	_	_
+5	כאן	כאן	ADV	ADV	_	4	advmod	_	_
+6	איזושהי	איזה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Ind	7	det	_	_
+7	אמירה	אמירה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
+8	מטאפיסית	מטפיזי	ADJ	ADJ	Gender=Fem|Number=Sing	7	amod	_	_
+9	של	של	ADP	ADP	Case=Gen	11	case	_	_
+10-11	היקום	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	יקום	יקום	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
+12	על	על	ADP	ADP	_	13	case	_	_
+13	מות	מוות	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nmod	_	_
+14-15	האמת	_	_	_	_	_	_	_	SpaceAfter=No
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	אמת	אמת	NOUN	NOUN	Gender=Fem|Number=Sing	13	compound:smixut	_	_
+16	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:162_2
+# doc_range = 2499-2594
+# sent_id = 4248
+# text = שהרי, אם אפילו לאזעקת אמת אי אפשר עוד להאמין מה נותר?
+1-2	שהרי	_	_	_	_	_	_	_	SpaceAfter=No
+1	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
+2	הרי	הרי	ADV	ADV	_	14	advmod	_	_
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
+4	אם	אם	SCONJ	SCONJ	_	12	mark	_	_
+5	אפילו	אפילו	ADV	ADV	_	12	advmod	_	_
+6-7	לאזעקת	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	אזעקת	אזעקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	obl	_	_
+8	אמת	אמת	NOUN	NOUN	Gender=Fem|Number=Sing	7	compound:smixut	_	_
+9	אי	אי	ADV	ADV	Prefix=Yes	12	advmod	_	_
+10	אפשר	אפשר	AUX	AUX	VerbType=Mod	12	aux	_	_
+11	עוד	עוד	ADV	ADV	_	12	advmod	_	_
+12	להאמין	האמין	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	14	advcl	_	_
+13	מה	מה	PRON	PRON	PronType=Int	14	nsubj	_	_
+14	נותר	נותר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	0	root	_	SpaceAfter=No
+15	?	?	PUNCT	PUNCT	_	14	punct	_	_
+
+# doc_id = htb:162_2
+# doc_range = 2597-2717
+# sent_id = 4249
+# text = התקלות הללו הן בפירוש הצהרה אורווליאנית בוטה וצינית: אמת היא שקר.
+1-2	התקלות	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	תקלות	תקלה	NOUN	NOUN	Gender=Fem|Number=Plur	6	nsubj	_	_
+3	הללו	הללו	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	2	det	_	_
+4	הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|Polarity=Pos	6	cop	_	_
+5	בפירוש	בפירוש	ADV	ADV	_	6	advmod	_	_
+6	הצהרה	הצהרה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+7	אורווליאנית	אורווליאני	ADJ	ADJ	Gender=Fem|Number=Sing	6	amod	_	_
+8	בוטה	בוטה	ADJ	ADJ	Gender=Fem|Number=Sing	6	amod	_	_
+9-10	וצינית	_	_	_	_	_	_	_	SpaceAfter=No
+9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+10	צינית	ציני	ADJ	ADJ	Gender=Fem|Number=Sing	8	conj	_	_
+11	:	:	PUNCT	PUNCT	_	14	punct	_	_
+12	אמת	אמת	NOUN	NOUN	Gender=Fem|Number=Sing	14	nsubj	_	_
+13	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	14	cop	_	_
+14	שקר	שקר	NOUN	NOUN	Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:162_2
+# doc_range = 2719-2823
+# sent_id = 4250
+# text = שנית, ראוי לפרוך אצבעות בייאוש ולשאול: מה יהא מעתה והלאה?
+1	שנית	שנית	ADV	ADV	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3	ראוי	ראוי	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	4	aux	_	_
+4	לפרוך	לפרוך	VERB	VERB	VerbForm=Inf	0	root	_	_
+5	אצבעות	אצבע	NOUN	NOUN	Gender=Fem|Number=Plur	4	obj	_	_
+6-7	בייאוש	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	ייאוש	ייאוש	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+8-9	ולשאול	_	_	_	_	_	_	_	SpaceAfter=No
+8	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+9	לשאול	שאל	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	4	conj	_	_
+10	:	:	PUNCT	PUNCT	_	12	punct	_	_
+11	מה	מה	PRON	PRON	PronType=Int	12	nsubj	_	_
+12	יהא	יהא	VERB	VERB	_	9	advcl	_	_
+13	מעתה	מעתה	ADV	ADV	_	12	advmod	_	_
+14-15	והלאה	_	_	_	_	_	_	_	SpaceAfter=No
+14	ו	ו	CCONJ	CCONJ	_	13	fixed	_	_
+15	הלאה	הלאה	ADV	ADV	_	13	fixed	_	_
+16	?	?	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:162_2
+# doc_range = 2826-2952
+# sent_id = 4251
+# text = עם חלב אמנו למדנו כי ארוכה ומתמשכת היא ארגעה, ועולה ויורדת היא מלחמה.
+1	עם	עם	ADP	ADP	_	2	case	_	_
+2	חלב	חלב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	obl	_	_
+3-5	אמנו	_	_	_	_	_	_	_	_
+3	אמה	אמה	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+4	_של_	של	ADP	ADP	Case=Gen	5	case:gen	_	_
+5	_אנחנו	הוא	PRON	PRON	Definite=Def|Gender=Fem,Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+6	למדנו	למד	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=1|Tense=Past	0	root	_	_
+7	כי	כי	SCONJ	SCONJ	_	8	mark	_	_
+8	ארוכה	ארוך	ADJ	ADJ	Gender=Fem|Number=Sing	6	ccomp	_	_
+9-10	ומתמשכת	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+10	מתמשכת	התמשך	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	8	conj	_	_
+11	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	8	cop	_	_
+12	ארגעה	ארגעה	NOUN	NOUN	Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	15	punct	_	_
+14-15	ועולה	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+15	עולה	עלה	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	8	conj	_	_
+16-17	ויורדת	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+17	יורדת	ירד	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	15	conj	_	_
+18	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	15	cop	_	_
+19	מלחמה	מלחמה	NOUN	NOUN	Gender=Fem|Number=Sing	15	nsubj	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:162_2
+# doc_range = 2954-3072
+# sent_id = 4252
+# text = עתה עלינו לשנן כי ארוכה היא עדיין ארגעה, אך עולה ויורדת היא תקלה.
+1	עתה	עתה	ADV	ADV	_	3	advmod	_	_
+2-3	עלינו	_	_	_	_	_	_	_	_
+2	על	על	ADP	ADP	_	3	case	_	_
+3	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	0	root	_	_
+4	לשנן	שינן	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	כי	כי	SCONJ	SCONJ	_	6	mark	_	_
+6	ארוכה	ארוך	ADJ	ADJ	Gender=Fem|Number=Sing	4	ccomp	_	_
+7	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	6	cop	_	_
+8	עדיין	עדיין	ADV	ADV	_	6	advmod	_	_
+9	ארגעה	ארגעה	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	12	punct	_	_
+11	אך	אך	CCONJ	CCONJ	_	12	cc	_	_
+12	עולה	עלה	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	6	conj	_	_
+13-14	ויורדת	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
+14	יורדת	ירד	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	12	conj	_	_
+15	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	12	cop	_	_
+16	תקלה	תקלה	NOUN	NOUN	Gender=Fem|Number=Sing	12	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:162_2
+# doc_range = 3074-3091
+# sent_id = 4253
+# text = ומלחמה מה?
+1-2	ומלחמה	_	_	_	_	_	_	_	_
+1	ו	ו	CCONJ	CCONJ	_	2	cc	_	_
+2	מלחמה	מלחמה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+3	מה	מה	PRON	PRON	PronType=Int	2	nmod	_	SpaceAfter=No
+4	?	?	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:162_2
+# doc_range = 3094-3148
+# sent_id = 4254
+# text = לכאורה אין בעיה; נגיד מקוטעת.
+1	לכאורה	לכאורה	ADV	ADV	_	2	advmod	_	_
+2	אין	אין	VERB	VERB	HebExistential=Yes	0	root	_	_
+3	בעיה	בעיה	NOUN	NOUN	Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
+4	;	;	PUNCT	PUNCT	_	5	punct	_	_
+5	נגיד	הגיד	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=1|Tense=Fut|Voice=Act	2	conj	_	_
+6	מקוטעת	מקוטע	ADJ	ADJ	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:162_2
+# doc_range = 3150-3174
+# sent_id = 4255
+# text = נגיד מסולסלת.
+1	נגיד	הגיד	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=1|Tense=Fut|Voice=Act	0	root	_	_
+2	מסולסלת	סולסל	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	1	obj	_	SpaceAfter=No
+3	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:162_2
+# doc_range = 3176-3235
+# sent_id = 4256
+# text = נגיד תרועה-שברים-תרועה-תקיעה.
+1	נגיד	הגיד	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=1|Tense=Fut|Voice=Act	0	root	_	_
+2	תרועה	תרועה	NOUN	NOUN	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+3	-	-	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+4	שברים	שבר	NOUN	NOUN	Gender=Masc|Number=Plur	2	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+5	-	-	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+6	תרועה	תרועה	NOUN	NOUN	Gender=Fem|Number=Sing	2	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+7	-	-	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+8	תקיעה	תקיעה	NOUN	NOUN	Gender=Fem|Number=Sing	2	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:162_2
+# doc_range = 3237-3261
+# sent_id = 4257
+# text = אך רק לכאורה.
+1	אך	אך	CCONJ	CCONJ	_	0	root	_	_
+2	רק	רק	ADV	ADV	_	1	advmod	_	HebSource=ConvUncertainHead
+3	לכאורה	לכאורה	ADV	ADV	_	1	advmod	_	HebSource=ConvUncertainHead|SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	1	punct	_	HebSource=ConvUncertainHead
+
+# doc_id = htb:162_2
+# doc_range = 3263-3447
+# sent_id = 4258
+# text = שהרי השד המנוול התקוע בגרון הסירנות לא יאחר לאמץ לעצמו גם את הווריאציה החדשה ככלי לתקלותיו הזדוניות.
+1-2	שהרי	_	_	_	_	_	_	_	_
+1	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
+2	הרי	הרי	ADV	ADV	_	14	advmod	_	_
+3-4	השד	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	שד	שד	NOUN	NOUN	Gender=Masc|Number=Sing	14	nsubj	_	_
+5-6	המנוול	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	מנוול	מנוול	ADJ	ADJ	Gender=Masc|Number=Sing	4	amod	_	_
+7-8	התקוע	_	_	_	_	_	_	_	_
+7	ה	ה	SCONJ	SCONJ	_	8	mark	_	_
+8	תקוע	תקע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	4	acl:relcl	_	_
+9-10	בגרון	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	גרון	גרון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	obl	_	_
+11-12	הסירנות	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	סירנות	סירנה	NOUN	NOUN	Gender=Fem|Number=Plur	10	compound:smixut	_	_
+13	לא	לא	ADV	ADV	Polarity=Neg	14	advmod	_	_
+14	יאחר	איחר	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+15	לאמץ	אימץ	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+16-17	לעצמו	_	_	_	_	_	_	_	_
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	עצמו	עצמו	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	15	obl	_	_
+18	גם	גם	ADV	ADV	_	21	advmod	_	_
+19	את	את	ADP	ADP	Case=Acc	21	case	_	_
+20-21	הווריאציה	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	ווריאציה	וריאציה	NOUN	NOUN	Gender=Fem|Number=Sing	15	obj	_	_
+22-23	החדשה	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	חדשה	חדש	ADJ	ADJ	Gender=Fem|Number=Sing	21	amod	_	_
+24-25	ככלי	_	_	_	_	_	_	_	_
+24	כ	כ	ADP	ADP	_	25	case	_	_
+25	כלי	כלי	NOUN	NOUN	Gender=Masc|Number=Sing	15	obl	_	_
+26-29	לתקלותיו	_	_	_	_	_	_	_	_
+26	ל	ל	ADP	ADP	_	27	case	_	_
+27	תקלה	תקלה	NOUN	NOUN	Gender=Fem|Number=Plur	25	nmod	_	_
+28	_של_	של	ADP	ADP	Case=Gen	29	case:gen	_	_
+29	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+30-31	הזדוניות	_	_	_	_	_	_	_	SpaceAfter=No
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	זדוניות	זדוני	ADJ	ADJ	Gender=Fem|Number=Plur	27	amod	_	_
+32	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# doc_id = htb:162_2
+# doc_range = 3449-3485
+# sent_id = 4259
+# text = אז מה יהיה, למען השם?
+1	אז	אז	ADV	ADV	_	3	advmod	_	_
+2	מה	מה	PRON	PRON	PronType=Int	3	nsubj	_	_
+3	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	7	punct	_	_
+5	למען	למען	ADP	ADP	_	7	case	_	_
+6-7	השם	_	_	_	_	_	_	_	SpaceAfter=No
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	שם	שם	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+8	?	?	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:162_2
+# doc_range = 3489-3630
+# sent_id = 4260
+# text = ואם כבר הגענו אל השם, גם מעורבותו הוודאית של הבורא בעניין מעוררת תהיות אפלות.
+1-2	ואם	_	_	_	_	_	_	_	_
+1	ו	ו	CCONJ	CCONJ	_	21	cc	_	_
+2	אם	אם	SCONJ	SCONJ	_	4	mark	_	_
+3	כבר	כבר	ADV	ADV	_	4	advmod	_	_
+4	הגענו	הגיע	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=1|Tense=Past|Voice=Act	21	advcl	_	_
+5	אל	אל	ADP	ADP	_	7	case	_	_
+6-7	השם	_	_	_	_	_	_	_	SpaceAfter=No
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	שם	שם	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+8	,	,	PUNCT	PUNCT	_	4	punct	_	_
+9	גם	גם	ADV	ADV	_	10	advmod	_	_
+10-12	מעורבותו	_	_	_	_	_	_	_	_
+10	מעורבות	מעורבות	NOUN	NOUN	Gender=Fem|Number=Sing	21	nsubj	_	_
+11	_של_	של	ADP	ADP	Case=Gen	12	case:gen	_	_
+12	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+13-14	הוודאית	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	וודאית	ודאי	ADJ	ADJ	Gender=Fem|Number=Sing	10	amod	_	_
+15	של	של	ADP	ADP	Case=Gen	17	case	_	_
+16-17	הבורא	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	בורא	בורא	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod:poss	_	_
+18-20	בעניין	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	20	case	_	_
+19	ה_	ה	DET	DET	PronType=Art|Definite=Def	20	det	_	_
+20	עניין	עניין	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod	_	_
+21	מעוררת	עורר	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+22	תהיות	תהייה	NOUN	NOUN	Gender=Fem|Number=Plur	21	obj	_	_
+23	אפלות	אפל	ADJ	ADJ	Gender=Fem|Number=Plur	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	21	punct	_	_
+
+# doc_id = htb:162_2
+# doc_range = 3632-3702
+# sent_id = 4261
+# text = איש לא יכחיש כי הקב"ה עושה לנו את המוות.
+1	איש	איש	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+2	לא	לא	ADV	ADV	Polarity=Neg	3	advmod	_	_
+3	יכחיש	הכחיש	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+4	כי	כי	SCONJ	SCONJ	_	7	mark	_	_
+5-6	הקב"ה	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	קב"ה	קב"ה	PROPN	PROPN	Abbr=Yes	7	nsubj	_	_
+7	עושה	עשה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	3	ccomp	_	_
+8-9	לנו	_	_	_	_	_	_	_	_
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	7	obl	_	_
+10	את	את	ADP	ADP	Case=Acc	12	case	_	_
+11-12	המוות	_	_	_	_	_	_	_	SpaceAfter=No
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	מוות	מוות	NOUN	NOUN	Gender=Masc|Number=Sing	7	obj	_	_
+13	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:162_2
+# doc_range = 3704-3785
+# sent_id = 4262
+# text = ללא הרף הוא ממיט על ראשנו צרות ומכות מכל עבר.
+1	ללא	ללא	ADP	ADP	_	2	case	_	_
+2	הרף	הרף	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+3	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	ממיט	המיט	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+5	על	על	ADP	ADP	_	6	case	_	_
+6-8	ראשנו	_	_	_	_	_	_	_	_
+6	ראש	ראש	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+7	_של_	של	ADP	ADP	Case=Gen	8	case:gen	_	_
+8	_אנחנו	הוא	PRON	PRON	Definite=Def|Gender=Fem,Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+9	צרות	צרה	NOUN	NOUN	Gender=Fem|Number=Plur	4	obj	_	_
+10-11	ומכות	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+11	מכות	מכה	NOUN	NOUN	Gender=Fem|Number=Plur	9	conj	_	_
+12-13	מכל	_	_	_	_	_	_	_	_
+12	מ	מ	ADP	ADP	_	14	case	_	_
+13	כל	כול	DET	DET	Definite=Cons	14	det	_	_
+14	עבר	עבר	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:162_2
+# doc_range = 3787-3826
+# sent_id = 4263
+# text = גדולות, קשות וכואבות.
+1	גדולות	גדול	ADJ	ADJ	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	3	punct	_	_
+3	קשות	קשה	ADJ	ADJ	Gender=Fem|Number=Plur	1	conj	_	_
+4-5	וכואבות	_	_	_	_	_	_	_	SpaceAfter=No
+4	ו	ו	CCONJ	CCONJ	_	5	cc	_	_
+5	כואבות	כואב	ADJ	ADJ	Gender=Fem|Number=Plur	1	conj	_	_
+6	.	.	PUNCT	PUNCT	_	1	punct	_	_
+

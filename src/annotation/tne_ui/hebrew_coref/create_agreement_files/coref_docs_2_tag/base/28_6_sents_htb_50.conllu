@@ -1,0 +1,222 @@
+# doc_id = htb:50
+# doc_range = 1-27
+# sent_id = 1699
+# text = בלגראד (רויטר).
+1	בלגראד	בלגרד	PROPN	PROPN	_	0	root	_	_
+2	(	(	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+3	רויטר	רויטר	PROPN	PROPN	_	1	parataxis	_	SpaceAfter=No
+4	)	)	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:50
+# doc_range = 31-267
+# sent_id = 1700
+# text = הסיבוב השני של גביעי אירופה הושלם אמש, בהתמודדות בגביע אופ"א, בה ניצחה פרטיזן בלגראד את ריאל סוסיידאד 4 5 בבעיטות הכרעה מ-11 מטרים.
+1-2	הסיבוב	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	סיבוב	סיבוב	NOUN	NOUN	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+3-4	השני	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	שני	שני	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+5	של	של	ADP	ADP	Case=Gen	6	case	_	_
+6	גביעי	גביע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	2	nmod	_	_
+7	אירופה	אירופה	PROPN	PROPN	_	6	compound:smixut	_	_
+8	הושלם	הושלם	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+9	אמש	אמש	ADV	ADV	_	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	12	punct	_	_
+11-12	בהתמודדות	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	התמודדות	התמודדות	NOUN	NOUN	Gender=Fem|Number=Sing	8	obl	_	_
+13-14	בגביע	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	גביע	גביע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	nmod	_	_
+15	אופ"א	אופ"א	PROPN	PROPN	Abbr=Yes	14	compound:smixut	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	19	punct	_	_
+17-18	בה	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	_	18	case	_	_
+18	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obl	_	_
+19	ניצחה	ניצח	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	12	acl:relcl	_	_
+20	פרטיזן	פרטיזן	NOUN	NOUN	Gender=Masc|Number=Sing	19	nsubj	_	_
+21	בלגראד	בלגרד	PROPN	PROPN	_	20	flat:name	_	_
+22	את	את	ADP	ADP	Case=Acc	23	case	_	_
+23	ריאל	ריאל	PROPN	PROPN	_	19	obj	_	_
+24	סוסיידאד	סוסיידאד	PROPN	PROPN	_	23	flat:name	_	_
+25	4	4	NUM	NUM	_	19	dep	_	_
+26	5	5	NUM	NUM	_	25	nummod	_	_
+27-28	בבעיטות	_	_	_	_	_	_	_	_
+27	ב	ב	ADP	ADP	_	28	case	_	_
+28	בעיטות	בעיטה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	19	obl	_	_
+29	הכרעה	הכרעה	NOUN	NOUN	Gender=Fem|Number=Sing	28	compound:smixut	_	_
+30	מ	מ	ADP	ADP	_	33	case	_	SpaceAfter=No
+31	-	-	PUNCT	PUNCT	_	33	punct	_	SpaceAfter=No
+32	11	11	NUM	NUM	_	33	nummod	_	_
+33	מטרים	מטר	NOUN	NOUN	Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:50
+# doc_range = 269-377
+# sent_id = 1701
+# text = פרטיזן ניצחה 0 1 בתום המשחק וגמלה בזה לספרדים שניצחו 0 1 בביתם.
+1	פרטיזן	פרטיזן	NOUN	NOUN	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	ניצחה	ניצח	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	0	0	NUM	NUM	_	2	dep	_	_
+4	1	1	NUM	NUM	_	3	nummod	_	_
+5-6	בתום	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	תום	תום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	obl	_	_
+7-8	המשחק	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+9-10	וגמלה	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+10	גמלה	גמל	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	conj	_	_
+11-13	בזה	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	13	case	_	_
+12	ה_	ה	DET	DET	PronType=Art|Definite=Def	13	det	_	_
+13	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	10	obl	_	_
+14-16	לספרדים	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	16	case	_	_
+15	ה_	ה	DET	DET	PronType=Art|Definite=Def	16	det	_	_
+16	ספרדים	ספרדי	NOUN	NOUN	Gender=Masc|Number=Plur	10	obl	_	_
+17-18	שניצחו	_	_	_	_	_	_	_	_
+17	ש	ש	SCONJ	SCONJ	_	18	mark	_	_
+18	ניצחו	ניצח	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	16	acl:relcl	_	_
+19	0	0	NUM	NUM	_	18	dep	_	_
+20	1	1	NUM	NUM	_	19	nummod	_	_
+21-24	בביתם	_	_	_	_	_	_	_	SpaceAfter=No
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	בית	בית	NOUN	NOUN	Gender=Masc|Number=Sing	18	obl	_	_
+23	_של_	של	ADP	ADP	Case=Gen	24	case:gen	_	_
+24	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+25	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:50
+# doc_range = 379-617
+# sent_id = 1702
+# text = במשחקים מאוחרים שהיו שלשום בלילה גברה פורטו במגרשה על דינאמו בוקארשט 0 4 ועלתה לשלב הבא בטורניר האלופות, אחרי 0 0 במשחק הראשון ברומניה.
+1-2	במשחקים	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	משחקים	משחק	NOUN	NOUN	Gender=Masc|Number=Plur	10	obl	_	_
+3	מאוחרים	מאוחר	ADJ	ADJ	Gender=Masc|Number=Plur	2	amod	_	_
+4-5	שהיו	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	5	mark	_	_
+5	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	2	acl:relcl	_	_
+6	שלשום	שלשום	ADV	ADV	_	5	advmod	_	_
+7-9	בלילה	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	9	case	_	_
+8	ה_	ה	DET	DET	PronType=Art|Definite=Def	9	det	_	_
+9	לילה	לילה	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+10	גברה	גבר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+11	פורטו	פורטו	PROPN	PROPN	_	10	nsubj	_	_
+12-15	במגרשה	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	מגרש	מגרש	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
+14	_של_	של	ADP	ADP	Case=Gen	15	case:gen	_	_
+15	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+16	על	על	ADP	ADP	_	17	case	_	_
+17	דינאמו	דינאמו	PROPN	PROPN	_	10	obl	_	_
+18	בוקארשט	בוקרשט	PROPN	PROPN	_	17	flat:name	_	_
+19	0	0	NUM	NUM	_	10	dep	_	_
+20	4	4	NUM	NUM	_	19	nummod	_	_
+21-22	ועלתה	_	_	_	_	_	_	_	_
+21	ו	ו	CCONJ	CCONJ	_	22	cc	_	_
+22	עלתה	עלה	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	10	conj	_	_
+23-25	לשלב	_	_	_	_	_	_	_	_
+23	ל	ל	ADP	ADP	_	25	case	_	_
+24	ה_	ה	DET	DET	PronType=Art|Definite=Def	25	det	_	_
+25	שלב	שלב	NOUN	NOUN	Gender=Masc|Number=Sing	22	obl	_	_
+26-27	הבא	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	בא	בא	ADJ	ADJ	Gender=Masc|Number=Sing	25	amod	_	_
+28-29	בטורניר	_	_	_	_	_	_	_	_
+28	ב	ב	ADP	ADP	_	29	case	_	_
+29	טורניר	טורניר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	25	nmod	_	_
+30-31	האלופות	_	_	_	_	_	_	_	SpaceAfter=No
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	אלופות	אלופה	NOUN	NOUN	Gender=Fem|Number=Plur	29	compound:smixut	_	_
+32	,	,	PUNCT	PUNCT	_	34	punct	_	_
+33	אחרי	אחרי	ADP	ADP	_	34	case	_	_
+34	0	0	NUM	NUM	_	22	obl	_	_
+35	0	0	NUM	NUM	_	34	nummod	_	_
+36-38	במשחק	_	_	_	_	_	_	_	_
+36	ב	ב	ADP	ADP	_	38	case	_	_
+37	ה_	ה	DET	DET	PronType=Art|Definite=Def	38	det	_	_
+38	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	34	obl	_	_
+39-40	הראשון	_	_	_	_	_	_	_	_
+39	ה	ה	DET	DET	Definite=Def|PronType=Art	40	det	_	_
+40	ראשון	ראשון	ADJ	ADJ	Gender=Masc|Number=Sing	38	amod	_	_
+41-42	ברומניה	_	_	_	_	_	_	_	SpaceAfter=No
+41	ב	ב	ADP	ADP	_	42	case	_	_
+42	רומניה	רומניה	PROPN	PROPN	_	38	nmod	_	_
+43	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:50
+# doc_range = 619-788
+# sent_id = 1703
+# text = אמאדורה מפורטוגל ניצחה 0 1 את פ. צ. ליאז בטורניר למחזיקות גביע, אך הבלגים עלו בזכות ניצחון 0 2.
+1	אמאדורה	אמאדורה	PROPN	PROPN	_	4	nsubj	_	_
+2-3	מפורטוגל	_	_	_	_	_	_	_	_
+2	מ	מ	ADP	ADP	_	3	case	_	_
+3	פורטוגל	פורטוגל	PROPN	PROPN	_	1	nmod	_	_
+4	ניצחה	ניצח	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	0	0	NUM	NUM	_	4	dep	_	_
+6	1	1	NUM	NUM	_	5	nummod	_	_
+7	את	את	ADP	ADP	Case=Acc	8	case	_	_
+8	פ.	פyyד%ת	PROPN	PROPN	Abbr=Yes	4	obj	_	_
+9	צ.	צyyד%ת	PROPN	PROPN	Abbr=Yes	8	flat:name	_	_
+10	ליאז	ליאז	PROPN	PROPN	_	8	flat:name	_	_
+11-12	בטורניר	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	טורניר	טורניר	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+13-14	למחזיקות	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	מחזיקות	החזיק	VERB	VERB	Definite=Cons|Gender=Fem|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	12	nmod	_	_
+15	גביע	גביע	NOUN	NOUN	Gender=Masc|Number=Sing	14	compound:smixut	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	20	punct	_	_
+17	אך	אך	CCONJ	CCONJ	_	20	cc	_	_
+18-19	הבלגים	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	בלגים	בלגי	NOUN	NOUN	Gender=Masc|Number=Plur	20	nsubj	_	_
+20	עלו	עלה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	4	conj	_	_
+21	בזכות	בזכות	ADP	ADP	_	22	case	_	_
+22	ניצחון	ניצחון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	20	obl	_	_
+23	0	0	NUM	NUM	_	22	compound:smixut	_	_
+24	2	2	NUM	NUM	_	23	nummod	_	SpaceAfter=No
+25	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:50
+# doc_range = 788-954
+# sent_id = 1704
+# text = בגביע אופ"א ניצחה סוויליה בספרד את טורפדו מוסקווה 2 1, אך הרוסים ניצחה לפני כן במוסקווה 1 3 ועלו.
+1-2	בגביע	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	גביע	גביע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	obl	_	_
+3	אופ"א	אופ"א	PROPN	PROPN	Abbr=Yes	2	compound:smixut	_	_
+4	ניצחה	ניצח	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	סוויליה	סוויליה	PROPN	PROPN	_	4	nsubj	_	_
+6-7	בספרד	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	ספרד	ספרד	PROPN	PROPN	_	5	nmod	_	_
+8	את	את	ADP	ADP	Case=Acc	9	case	_	_
+9	טורפדו	טורפדו	NOUN	NOUN	Gender=Masc|Number=Sing	4	obj	_	_
+10	מוסקווה	מוסקבה	PROPN	PROPN	_	9	flat:name	_	_
+11	2	2	NUM	NUM	_	4	dep	_	_
+12	1	1	NUM	NUM	_	11	nummod	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	17	punct	_	_
+14	אך	אך	CCONJ	CCONJ	_	17	cc	_	_
+15-16	הרוסים	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	רוסים	רוסי	NOUN	NOUN	Gender=Masc|Number=Plur	17	obj	_	_
+17	ניצחה	ניצח	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	_
+18	לפני	לפני	ADP	ADP	_	19	case	_	_
+19	כן	כן	PRON	PRON	Person=3|PronType=Dem	17	obl	_	_
+20-21	במוסקווה	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	מוסקווה	מוסקבה	PROPN	PROPN	_	17	obl	_	_
+22	1	1	NUM	NUM	_	17	dep	_	_
+23	3	3	NUM	NUM	_	22	nummod	_	_
+24-25	ועלו	_	_	_	_	_	_	_	SpaceAfter=No
+24	ו	ו	CCONJ	CCONJ	_	25	cc	_	_
+25	עלו	עלה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	17	conj	_	_
+26	.	.	PUNCT	PUNCT	_	4	punct	_	_
+

@@ -1,0 +1,76 @@
+{
+  "notebook_agreement_data": {
+    "coref_rounds": {
+      "round_1": {
+        "conll_score": 0.518,
+        "mention_score": 0.628
+      },
+      "round_2": {
+        "conll_score": 0.677,
+        "mention_score": 0.754
+      },
+      "round_3": {
+        "conll_score": 0.677,
+        "mention_score": 0.762
+      },
+      "final_overall": {
+        "conll_score": 0.8108,
+        "mention_score": 0.85
+      }
+    },
+    "pairwise_scores": {
+      "round_1": {
+        "Ido_vs_Elisheva": {
+          "conll": 0.518,
+          "mention": 0.628
+        },
+        "Ohad_vs_Ido": {
+          "conll": 0.518,
+          "mention": 0.628
+        },
+        "Ohad_vs_Elisheva": {
+          "conll": 0.518,
+          "mention": 0.628
+        }
+      },
+      "round_2": {
+        "Ido_vs_Arbel": {
+          "conll": 0.695,
+          "mention": 0.781
+        },
+        "Arbel_vs_Elisheva": {
+          "conll": 0.613,
+          "mention": 0.716
+        },
+        "Elisheva_vs_Ido": {
+          "conll": 0.677,
+          "mention": 0.764
+        }
+      },
+      "round_3": {
+        "Ido_vs_Arbel": {
+          "conll": 0.655,
+          "mention": 0.745
+        },
+        "Arbel_vs_Elisheva": {
+          "conll": 0.65,
+          "mention": 0.737
+        },
+        "Elisheva_vs_Ido": {
+          "conll": 0.726,
+          "mention": 0.804
+        }
+      }
+    },
+    "final_scores": {
+      "coref_agreement": 0.8108,
+      "mention_agreement": 0.85,
+      "overall_agreement": 0.8304
+    }
+  },
+  "annotation_results": {
+    "coref": {},
+    "mention": {}
+  },
+  "timestamp": "2025-08-07T09:26:01.584897"
+}

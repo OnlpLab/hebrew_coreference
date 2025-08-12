@@ -1,0 +1,247 @@
+# doc_id = htb:228
+# doc_range = 1-54
+# sent_id = 5675
+# text = נ חתם בקבוצת נאפולי האיטלקית.
+1	נ	ן	PROPN	PROPN	_	2	nsubj	_	_
+2	חתם	חתם	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3-4	בקבוצת	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	קבוצת	קבוצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	obl	_	_
+5	נאפולי	נאפולי	PROPN	PROPN	_	4	compound:smixut	_	_
+6-7	האיטלקית	_	_	_	_	_	_	_	SpaceAfter=No
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	איטלקית	איטלקי	ADJ	ADJ	Gender=Fem|Number=Sing	4	amod	_	_
+8	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:228
+# doc_range = 56-176
+# sent_id = 5676
+# text = זו פעם שניה שמכבי תל אביב הפסיד את בריאנט במירוץ עם קבוצה איטלקית.
+1	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	_
+2	פעם	פעם	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+3	שניה	שני	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+4-5	שמכבי	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
+5	מכבי	כיבה	VERB	VERB	Definite=Cons|Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	7	dep	_	_
+6	תל	תל	PROPN	PROPN	Definite=Cons	7	dep	_	_
+7	אביב	אביב	PROPN	PROPN	_	8	nsubj	_	_
+8	הפסיד	הפסיד	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	acl:relcl	_	_
+9	את	את	ADP	ADP	Case=Acc	10	case	_	_
+10	בריאנט	בריאנט	PROPN	PROPN	_	8	obj	_	_
+11-12	במירוץ	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	8	dep	_	_
+12	מירוץ	מירוץ	NOUN	NOUN	Gender=Masc|Number=Sing	8	dep	_	_
+13	עם	עם	ADP	ADP	_	8	dep	_	_
+14	קבוצה	קבוצה	NOUN	NOUN	Gender=Fem|Number=Sing	8	dep	_	_
+15	איטלקית	איטלקי	ADJ	ADJ	Gender=Fem|Number=Sing	8	dep	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:228
+# doc_range = 178-422
+# sent_id = 5677
+# text = בקיץ 1982 ניסה טל ברודי (אז עוזר המאמן) להחתימו, אבל בריאנט, שסבתו יהודיה, חתם אז בפורד קאנטו וזכה עמה באותה עונה בגביע אירופה לאלופות.
+1-2	בקיץ	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	קיץ	קיץ	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	obl	_	_
+3	1982	1982	NUM	NUM	_	2	compound:smixut	_	_
+4	ניסה	ניסה	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	טל	טל	PROPN	PROPN	_	4	nsubj	_	_
+6	ברודי	ברודי	PROPN	PROPN	_	5	flat:name	_	_
+7	(	(	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+8	אז	אז	ADV	ADV	_	9	advmod	_	_
+9	עוזר	עוזר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	appos	_	_
+10-11	המאמן	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	מאמן	מאמן	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound:smixut	_	_
+12	)	)	PUNCT	PUNCT	_	9	punct	_	_
+13	להחתימו	החתים	PROPN	PROPN	_	4	dep	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	24	punct	_	_
+15	אבל	אבל	CCONJ	CCONJ	_	24	cc	_	_
+16	בריאנט	בריאנט	PROPN	PROPN	_	24	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	22	punct	_	_
+18-21	שסבתו	_	_	_	_	_	_	_	_
+18	ש	ש	SCONJ	SCONJ	_	22	mark	_	_
+19	סבה	סבה	NOUN	NOUN	Gender=Fem|Number=Sing	22	nsubj	_	_
+20	_של_	של	ADP	ADP	Case=Gen	21	case:gen	_	_
+21	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+22	יהודיה	יהודי	ADJ	ADJ	Gender=Fem|Number=Sing	16	acl:relcl	_	SpaceAfter=No
+23	,	,	PUNCT	PUNCT	_	16	punct	_	_
+24	חתם	חתם	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	_
+25	אז	אז	ADV	ADV	_	24	advmod	_	_
+26-27	בפורד	_	_	_	_	_	_	_	_
+26	ב	ב	ADP	ADP	_	27	case	_	_
+27	פורד	פורד	PROPN	PROPN	_	24	obl	_	_
+28	קאנטו	קאנטו	PROPN	PROPN	_	27	flat:name	_	_
+29-30	וזכה	_	_	_	_	_	_	_	_
+29	ו	ו	CCONJ	CCONJ	_	30	cc	_	_
+30	זכה	זכה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	24	conj	_	_
+31-32	עמה	_	_	_	_	_	_	_	_
+31	עמה	עמה	ADP	ADP	_	32	case	_	_
+32	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	obl	_	_
+33-34	באותה	_	_	_	_	_	_	_	_
+33	ב	ב	ADP	ADP	_	35	case	_	_
+34	אותה	אותו	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	35	det	_	_
+35	עונה	עונה	NOUN	NOUN	Gender=Fem|Number=Sing	30	obl	_	_
+36-37	בגביע	_	_	_	_	_	_	_	_
+36	ב	ב	ADP	ADP	_	37	case	_	_
+37	גביע	גביע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	30	obl	_	_
+38	אירופה	אירופה	PROPN	PROPN	_	37	compound:smixut	_	_
+39-40	לאלופות	_	_	_	_	_	_	_	SpaceAfter=No
+39	ל	ל	ADP	ADP	_	40	case	_	_
+40	אלופות	אלופה	NOUN	NOUN	Gender=Fem|Number=Plur	37	nmod	_	_
+41	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:228
+# doc_range = 424-592
+# sent_id = 5678
+# text = אחר כך הצטרף לדאלאס מאווריקס מהאנ.בי.איי וחזר לשחק באירופה בספרד במדי קאחה בילבאו וחירונה
+1	אחר	אחר	ADV	ADV	_	3	advmod	_	_
+2	כך	כך	PRON	PRON	Person=3|PronType=Dem	1	fixed	_	_
+3	הצטרף	הצטרף	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+4-5	לדאלאס	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	דאלאס	דאלאס	PROPN	PROPN	_	3	obl	_	_
+6	מאווריקס	מאווריקס	PROPN	PROPN	_	5	flat:name	_	_
+7-9	מהאנ.בי.איי	_	_	_	_	_	_	_	_
+7	מ	מ	ADP	ADP	_	8	case	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	3	obl	_	_
+9	אנ.בי.איי	אנ.בי.איי	PROPN	PROPN	Abbr=Yes	8	flat:name	_	_
+10-11	וחזר	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+11	חזר	חזר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	3	conj	_	_
+12	לשחק	שיחק	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13-14	באירופה	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	אירופה	אירופה	PROPN	PROPN	_	11	obl	_	_
+15-16	בספרד	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	ספרד	ספרד	PROPN	PROPN	_	11	obl	_	_
+17-18	במדי	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	_	18	case	_	_
+18	מדי	מדים	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	11	obl	_	_
+19	קאחה	קאחה	PROPN	PROPN	_	18	compound:smixut	_	_
+20	בילבאו	בילבאו	PROPN	PROPN	_	19	flat:name	_	_
+21-22	וחירונה	_	_	_	_	_	_	_	_
+21	ו	ו	CCONJ	CCONJ	_	22	cc	_	_
+22	חירונה	חירונה	PROPN	PROPN	_	19	conj	_	_
+
+# doc_id = htb:228
+# doc_range = 595-701
+# sent_id = 5679
+# text = בריאנט הוא שחקן חזק מאוד שיכול היה לעזור למכבי מתחת לסלים.
+1	בריאנט	בריאנט	PROPN	PROPN	_	3	nsubj	_	_
+2	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	3	cop	_	_
+3	שחקן	שחקן	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+4	חזק	חזק	ADJ	ADJ	Gender=Masc|Number=Sing	3	amod	_	_
+5	מאוד	מאוד	ADV	ADV	_	4	advmod	_	_
+6-7	שיכול	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
+7	יכול	יכול	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part|VerbType=Mod	9	aux	_	_
+8	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	9	cop	_	_
+9	לעזור	עזר	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	3	acl:relcl	_	_
+10-11	למכבי	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	11	case	_	_
+11	מכבי	מכבי	PROPN	PROPN	_	9	obl	_	_
+12	מתחת	מתחת	ADP	ADP	_	15	case	_	_
+13-15	לסלים	_	_	_	_	_	_	_	SpaceAfter=No
+13	ל	ל	ADP	ADP	_	12	fixed	_	_
+14	ה_	ה	DET	DET	PronType=Art|Definite=Def	15	det	_	_
+15	סלים	סל	NOUN	NOUN	Gender=Masc|Number=Plur	9	obl	_	_
+16	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:228
+# doc_range = 703-834
+# sent_id = 5680
+# text = הוא העדיף את נאפולי שם החליף את דיויד באטלר (בוגר נוודה לאס וגאס) שנחתך.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	העדיף	העדיף	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	את	את	ADP	ADP	Case=Acc	4	case	_	_
+4	נאפולי	נאפולי	PROPN	PROPN	_	2	obj	_	_
+5	שם	שם	ADV	ADV	_	6	advmod	_	_
+6	החליף	החליף	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	4	acl	_	_
+7	את	את	ADP	ADP	Case=Acc	8	case	_	_
+8	דיויד	דיויד	PROPN	PROPN	_	6	obj	_	_
+9	באטלר	באטלר	PROPN	PROPN	_	8	flat:name	_	_
+10	(	(	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+11	בוגר	בוגר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	appos	_	_
+12	נוודה	נווד	PROPN	PROPN	_	11	compound:smixut	_	_
+13	לאס	לאס	PROPN	PROPN	_	12	flat:name	_	_
+14	וגאס	וגאס	PROPN	PROPN	_	13	flat:name	_	SpaceAfter=No
+15	)	)	PUNCT	PUNCT	_	11	punct	_	_
+16-17	שנחתך	_	_	_	_	_	_	_	SpaceAfter=No
+16	ש	ש	SCONJ	SCONJ	_	17	mark	_	_
+17	נחתך	נחתך	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	8	acl:relcl	_	_
+18	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:228
+# doc_range = 836-1013
+# sent_id = 5681
+# text = למרות האכזבה מכך שבריאנט "ברח להם מהידיים" מצפים השבוע במכבי לבואו של כדורסלן חיזוק אחר למבחנים.
+1-2	למרות	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	מרות	מרות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	16	obl	_	_
+3-4	האכזבה	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	2	dep	_	_
+4	אכזבה	אכזבה	NOUN	NOUN	Gender=Fem|Number=Sing	2	dep	_	HebSource=ConvUncertainHead
+5-6	מכך	_	_	_	_	_	_	_	_
+5	מ	מ	ADP	ADP	_	2	case	_	_
+6	כך	כך	PRON	PRON	Person=3|PronType=Dem	2	dep	_	HebSource=ConvUncertainHead
+7	שבריאנט	שבריאנט	PROPN	PROPN	_	2	dep	_	HebSource=ConvUncertainHead
+8	"	"	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+9	ברח	ברח	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	dep	_	_
+10-11	להם	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	2	case	_	_
+11	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	dep	_	HebSource=ConvUncertainHead
+12-14	מהידיים	_	_	_	_	_	_	_	SpaceAfter=No
+12	מ	מ	ADP	ADP	_	2	case	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	2	dep	_	_
+14	ידיים	יד	NOUN	NOUN	Gender=Fem|Number=Plur	2	dep	_	HebSource=ConvUncertainHead
+15	"	"	PUNCT	PUNCT	_	14	punct	_	_
+16	מצפים	ציפה	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+17	השבוע	השבוע	ADV	ADV	_	16	advmod	_	_
+18-19	במכבי	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	19	case	_	_
+19	מכבי	מכבי	PROPN	PROPN	_	16	obl	_	_
+20-23	לבואו	_	_	_	_	_	_	_	_
+20	ל	ל	ADP	ADP	_	21	case	_	_
+21	בוא	בוא	NOUN	NOUN	Gender=Masc|Number=Sing	16	obl	_	_
+22	_של_	של	ADP	ADP	Case=Gen	23	case:gen	_	_
+23	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+24	של	של	ADP	ADP	Case=Gen	25	case	_	_
+25	כדורסלן	כדורסלן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	21	nmod:poss	_	_
+26	חיזוק	חיזוק	NOUN	NOUN	Gender=Masc|Number=Sing	25	compound:smixut	_	_
+27	אחר	אחר	ADJ	ADJ	Gender=Masc|Number=Sing	25	amod	_	_
+28-29	למבחנים	_	_	_	_	_	_	_	SpaceAfter=No
+28	ל	ל	ADP	ADP	_	29	case	_	_
+29	מבחנים	מבחן	NOUN	NOUN	Gender=Masc|Number=Plur	21	nmod	_	_
+30	.	.	PUNCT	PUNCT	_	16	punct	_	_
+
+# doc_id = htb:228
+# doc_range = 1013-1123
+# sent_id = 5682
+# text = 27 בנובמבר הוא התאריך האחרון להחלפת שחקנים זרים הארץ ובאירופה.
+1	27	27	NUM	NUM	_	6	nsubj	_	_
+2-3	בנובמבר	_	_	_	_	_	_	_	_
+2	ב	ב	ADP	ADP	_	3	case	_	_
+3	נובמבר	נובמבר	PROPN	PROPN	_	1	obl	_	_
+4	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	6	cop	_	_
+5-6	התאריך	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	תאריך	תאריך	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+7-8	האחרון	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	אחרון	אחרון	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	_
+9-10	להחלפת	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	10	case	_	_
+10	החלפת	החלפה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	nmod	_	_
+11	שחקנים	שחקן	NOUN	NOUN	Gender=Masc|Number=Plur	10	compound:smixut	_	_
+12	זרים	זר	ADJ	ADJ	Gender=Masc|Number=Plur	11	amod	_	_
+13-14	הארץ	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	ארץ	ארץ	NOUN	NOUN	_	11	nmod	_	_
+15-17	ובאירופה	_	_	_	_	_	_	_	SpaceAfter=No
+15	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	אירופה	אירופה	PROPN	PROPN	_	14	conj	_	_
+18	.	.	PUNCT	PUNCT	_	6	punct	_	_
+

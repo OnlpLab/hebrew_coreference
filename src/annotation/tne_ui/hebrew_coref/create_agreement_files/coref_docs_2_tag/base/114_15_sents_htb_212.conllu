@@ -1,0 +1,717 @@
+# doc_id = htb:212
+# doc_range = 1-162
+# sent_id = 5260
+# text = רוב מורשעי משפט גבעתי ב החליטו שלא לערער על הרשעתם ועל גזרי הדין שהוטלו עליהם לפני 11 יום.
+1	רוב	רוב	DET	DET	Definite=Cons	2	det	_	_
+2	מורשעי	הורשע	VERB	VERB	Definite=Cons|Gender=Masc|HebBinyan=HUFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	6	nsubj	_	_
+3	משפט	משפט	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	compound:smixut	_	_
+4	גבעתי	גבעתי	PROPN	PROPN	_	3	compound:smixut	_	_
+5	ב	ב	PROPN	PROPN	_	4	flat:name	_	_
+6	החליטו	החליט	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+7	שלא	שלא	ADV	ADV	_	8	advmod	_	_
+8	לערער	ערער	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+9	על	על	ADP	ADP	_	10	case	_	_
+10-12	הרשעתם	_	_	_	_	_	_	_	_
+10	הרשעה	הרשעה	NOUN	NOUN	Gender=Fem|Number=Sing	8	obl	_	_
+11	_של_	של	ADP	ADP	Case=Gen	12	case:gen	_	_
+12	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+13-14	ועל	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+14	על	על	ADP	ADP	_	15	case	_	_
+15	גזרי	גזר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	10	conj	_	_
+16-17	הדין	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	דין	דין	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	_
+18-19	שהוטלו	_	_	_	_	_	_	_	_
+18	ש	ש	SCONJ	SCONJ	_	19	mark	_	_
+19	הוטלו	הוטל	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	15	acl:relcl	_	_
+20-21	עליהם	_	_	_	_	_	_	_	_
+20	עלי	על	ADP	ADP	_	21	case	_	_
+21	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	obl	_	_
+22	לפני	לפני	ADP	ADP	_	24	case	_	_
+23	11	11	NUM	NUM	_	24	nummod	_	_
+24	יום	יום	NOUN	NOUN	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+25	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:212
+# doc_range = 164-359
+# sent_id = 5261
+# text = הנאשמים הורשעו בבית הדין הצבאי של פיקוד הדרום בגרימת חבלה חמורה ונידונו לעונשי מאסר על תנאי ולהורדה בדרגה.
+1-2	הנאשמים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	נאשמים	נאשם	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+3	הורשעו	הורשע	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+4-5	בבית	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	obl	_	_
+6-7	הדין	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	דין	דין	NOUN	NOUN	Gender=Masc|Number=Sing	5	compound:smixut	_	_
+8-9	הצבאי	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	צבאי	צבאי	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	_
+10	של	של	ADP	ADP	Case=Gen	11	case	_	_
+11	פיקוד	פיקוד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	nmod	_	_
+12-13	הדרום	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	דרום	דרום	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound:smixut	_	_
+14-15	בגרימת	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	גרימת	גרימה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	obl	_	_
+16	חבלה	חבלה	NOUN	NOUN	Gender=Fem|Number=Sing	15	compound:smixut	_	_
+17	חמורה	חמור	ADJ	ADJ	Gender=Fem|Number=Sing	16	amod	_	_
+18-19	ונידונו	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+19	נידונו	נידון	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	3	conj	_	_
+20-21	לעונשי	_	_	_	_	_	_	_	_
+20	ל	ל	ADP	ADP	_	21	case	_	_
+21	עונשי	עונש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	19	obl	_	_
+22	מאסר	מאסר	NOUN	NOUN	Gender=Masc|Number=Sing	21	compound:smixut	_	_
+23	על	על	ADP	ADP	_	24	case	_	_
+24	תנאי	תנאי	NOUN	NOUN	Gender=Masc|Number=Sing	22	nmod	_	_
+25-27	ולהורדה	_	_	_	_	_	_	_	_
+25	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
+26	ל	ל	ADP	ADP	_	27	case	_	_
+27	הורדה	הורדה	NOUN	NOUN	Gender=Fem|Number=Sing	21	conj	_	_
+28-29	בדרגה	_	_	_	_	_	_	_	SpaceAfter=No
+28	ב	ב	ADP	ADP	_	29	case	_	_
+29	דרגה	דרגה	NOUN	NOUN	Gender=Fem|Number=Sing	27	nmod	_	_
+30	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:212
+# doc_range = 361-576
+# sent_id = 5262
+# text = בימים האחרונים התנהלו שיחות ודיונים בין רוב הנאשמים לסניגוריהם וגובשה דעה כי אין מקום לערער על העונשים שהוטלו עליהם.
+1-3	בימים	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	ימים	יום	NOUN	NOUN	Gender=Masc|Number=Plur	0	root	_	_
+4-5	האחרונים	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	אחרונים	אחרון	ADJ	ADJ	Gender=Masc|Number=Plur	3	amod	_	_
+6	התנהלו	התנהל	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	3	dep	_	_
+7	שיחות	שיחה	NOUN	NOUN	Gender=Fem|Number=Plur	3	dep	_	HebSource=ConvUncertainHead
+8-9	ודיונים	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+9	דיונים	דיון	NOUN	NOUN	Gender=Masc|Number=Plur	7	conj	_	_
+10	בין	בין	ADP	ADP	_	13	case	_	_
+11	רוב	רוב	DET	DET	Definite=Cons	13	det	_	_
+12-13	הנאשמים	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	נאשמים	נאשם	NOUN	NOUN	Gender=Masc|Number=Plur	7	nmod	_	_
+14-16	לסניגוריהם	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	סניגורי	סניגור	NOUN	NOUN	Gender=Masc|Number=Plur	7	nmod	_	_
+16	הם	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+17-18	וגובשה	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+18	גובשה	גובש	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	3	conj	_	_
+19	דעה	דעה	NOUN	NOUN	Gender=Fem|Number=Sing	18	nsubj:pass	_	_
+20	כי	כי	SCONJ	SCONJ	_	21	mark	_	_
+21	אין	אין	VERB	VERB	HebExistential=Yes	19	acl:relcl	_	_
+22	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	21	nsubj	_	_
+23	לערער	ערער	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	22	acl	_	_
+24	על	על	ADP	ADP	_	26	case	_	_
+25-26	העונשים	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	עונשים	עונש	NOUN	NOUN	Gender=Masc|Number=Plur	23	obl	_	_
+27-28	שהוטלו	_	_	_	_	_	_	_	_
+27	ש	ש	SCONJ	SCONJ	_	28	mark	_	_
+28	הוטלו	הוטל	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	26	acl:relcl	_	_
+29-30	עליהם	_	_	_	_	_	_	_	SpaceAfter=No
+29	עלי	על	ADP	ADP	_	30	case	_	_
+30	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	28	obl	_	_
+31	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:212
+# doc_range = 578-717
+# sent_id = 5263
+# text = סמל גדי גנבה שהורשע ונידון לעונש מאסר על תנאי ולהורדה לדרגת טוראי, לא יערער.
+1	סמל	סמל	NOUN	NOUN	Gender=Masc|Number=Sing	21	nsubj	_	_
+2	גדי	גדי	PROPN	PROPN	_	1	flat:name	_	_
+3	גנבה	גניבה	NOUN	NOUN	Gender=Fem|Number=Sing	1	flat:name	_	_
+4-5	שהורשע	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	5	mark	_	_
+5	הורשע	הורשע	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	1	acl:relcl	_	_
+6-7	ונידון	_	_	_	_	_	_	_	_
+6	ו	ו	CCONJ	CCONJ	_	7	cc	_	_
+7	נידון	נידון	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	5	conj	_	_
+8-9	לעונש	_	_	_	_	_	_	_	_
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	עונש	עונש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+10	מאסר	מאסר	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound:smixut	_	_
+11	על	על	ADP	ADP	_	12	case	_	_
+12	תנאי	תנאי	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod	_	_
+13-15	ולהורדה	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	הורדה	הורדה	NOUN	NOUN	Gender=Fem|Number=Sing	9	conj	_	_
+16-17	לדרגת	_	_	_	_	_	_	_	_
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	דרגת	דרגה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	15	nmod	_	_
+18	טוראי	טוראי	NOUN	NOUN	Gender=Masc|Number=Sing	17	compound:smixut	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	1	punct	_	_
+20	לא	לא	ADV	ADV	Polarity=Neg	21	advmod	_	_
+21	יערער	ערער	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	21	punct	_	_
+
+# doc_id = htb:212
+# doc_range = 719-891
+# sent_id = 5264
+# text = נאשם נוסף סמל ראשון אלי שוקרון, שהורשע ונידון לעונש מאסר על תנאי ולהורדה לדרגת טוראי לא יערער.
+1	נאשם	נאשם	NOUN	NOUN	Gender=Masc|Number=Sing	24	nsubj	_	_
+2	נוסף	נוסף	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	_
+3	סמל	סמל	NOUN	NOUN	Gender=Masc|Number=Sing	1	appos	_	_
+4	ראשון	ראשון	ADJ	ADJ	Gender=Masc|Number=Sing	3	amod	_	_
+5	אלי	אלי	PROPN	PROPN	_	3	appos	_	_
+6	שוקרון	שוקרון	PROPN	PROPN	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	9	punct	_	_
+8-9	שהורשע	_	_	_	_	_	_	_	_
+8	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
+9	הורשע	הורשע	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	1	acl:relcl	_	_
+10-11	ונידון	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+11	נידון	נידון	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	9	conj	_	_
+12-13	לעונש	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	_	13	case	_	_
+13	עונש	עונש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	dep	_	HebSource=ConvUncertainHead
+14	מאסר	מאסר	NOUN	NOUN	Gender=Masc|Number=Sing	13	compound:smixut	_	_
+15	על	על	ADP	ADP	_	16	case	_	_
+16	תנאי	תנאי	NOUN	NOUN	Gender=Masc|Number=Sing	14	nmod	_	_
+17-19	ולהורדה	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	הורדה	הורדה	NOUN	NOUN	Gender=Fem|Number=Sing	13	conj	_	_
+20-21	לדרגת	_	_	_	_	_	_	_	_
+20	ל	ל	ADP	ADP	_	21	case	_	_
+21	דרגת	דרגה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	19	nmod	_	_
+22	טוראי	טוראי	NOUN	NOUN	Gender=Masc|Number=Sing	21	compound:smixut	_	_
+23	לא	לא	ADV	ADV	Polarity=Neg	24	advmod	_	_
+24	יערער	ערער	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	SpaceAfter=No
+25	.	.	PUNCT	PUNCT	_	24	punct	_	_
+
+# doc_id = htb:212
+# doc_range = 893-1198
+# sent_id = 5265
+# text = המורשע הבכיר ביותר המג"ד רב סרן יצחק לויט אשר הורשע ונידון לעונש מאסר על תנאי ולהורדה לדרגת סגן, אמר אמש כי הנטייה של הסניגורים שלו היא שלא לערער על פסק הדין וגזר הדין.
+1-2	המורשע	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מורשע	הורשע	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	28	nsubj	_	_
+3-4	הבכיר	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	בכיר	בכיר	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+5	ביותר	ביותר	ADV	ADV	_	4	advmod	_	_
+6-7	המג"ד	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	מג"ד	מג"ד	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	2	appos	_	_
+8	רב	רב	NOUN	NOUN	_	9	dep	_	HebSource=ConvUncertainHead
+9	סרן	סרן	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
+10	יצחק	יצחק	PROPN	PROPN	_	9	nmod	_	HebSource=ConvUncertainLabel
+11	לויט	לויט	PROPN	PROPN	_	10	flat:name	_	_
+12	אשר	אשר	SCONJ	SCONJ	_	13	mark	_	_
+13	הורשע	הורשע	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	2	acl:relcl	_	_
+14-15	ונידון	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+15	נידון	נידון	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	13	conj	_	_
+16-17	לעונש	_	_	_	_	_	_	_	_
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	עונש	עונש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	obl	_	_
+18	מאסר	מאסר	NOUN	NOUN	Gender=Masc|Number=Sing	17	compound:smixut	_	_
+19	על	על	ADP	ADP	_	20	case	_	_
+20	תנאי	תנאי	NOUN	NOUN	Gender=Masc|Number=Sing	18	nmod	_	_
+21-23	ולהורדה	_	_	_	_	_	_	_	_
+21	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
+22	ל	ל	ADP	ADP	_	23	case	_	_
+23	הורדה	הורדה	NOUN	NOUN	Gender=Fem|Number=Sing	17	conj	_	_
+24-25	לדרגת	_	_	_	_	_	_	_	_
+24	ל	ל	ADP	ADP	_	25	case	_	_
+25	דרגת	דרגה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	23	nmod	_	_
+26	סגן	סגן	NOUN	NOUN	Gender=Masc|Number=Sing	25	compound:smixut	_	SpaceAfter=No
+27	,	,	PUNCT	PUNCT	_	2	punct	_	_
+28	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+29	אמש	אמש	ADV	ADV	_	28	advmod	_	_
+30	כי	כי	SCONJ	SCONJ	_	40	mark	_	_
+31-32	הנטייה	_	_	_	_	_	_	_	_
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	נטייה	נטייה	NOUN	NOUN	Gender=Fem|Number=Sing	40	dep	_	_
+33	של	של	ADP	ADP	Case=Gen	35	case	_	_
+34-35	הסניגורים	_	_	_	_	_	_	_	_
+34	ה	ה	DET	DET	Definite=Def|PronType=Art	35	det	_	_
+35	סניגורים	סנגור	NOUN	NOUN	Gender=Masc|Number=Plur	32	nmod:poss	_	_
+36-37	שלו	_	_	_	_	_	_	_	_
+36	של	של	ADP	ADP	Case=Gen	37	case	_	_
+37	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	_	_
+38	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	40	cop	_	_
+39	שלא	שלא	ADV	ADV	_	40	advmod	_	_
+40	לערער	ערער	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	28	ccomp	_	_
+41	על	על	ADP	ADP	_	42	case	_	_
+42	פסק	פסק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	40	obl	_	_
+43-44	הדין	_	_	_	_	_	_	_	_
+43	ה	ה	DET	DET	Definite=Def|PronType=Art	44	det	_	_
+44	דין	דין	NOUN	NOUN	Gender=Masc|Number=Sing	42	compound:smixut	_	_
+45-46	וגזר	_	_	_	_	_	_	_	_
+45	ו	ו	CCONJ	CCONJ	_	46	cc	_	_
+46	גזר	גזר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	42	conj	_	_
+47-48	הדין	_	_	_	_	_	_	_	SpaceAfter=No
+47	ה	ה	DET	DET	Definite=Def|PronType=Art	48	det	_	_
+48	דין	דין	NOUN	NOUN	Gender=Masc|Number=Sing	46	compound:smixut	_	_
+49	.	.	PUNCT	PUNCT	_	28	punct	_	_
+
+# doc_id = htb:212
+# doc_range = 1200-1415
+# sent_id = 5266
+# text = לדבריו באופן אישי הוא היה בעד ערעור, אך נוכח השיחות והמלצות הסניגורים, הנטייה היא שלא לערער לבית הדין הצבאי לערעורים.
+1-4	לדבריו	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	11	nmod	_	_
+3	_של_	של	ADP	ADP	Case=Gen	4	case:gen	_	_
+4	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5-6	באופן	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	אופן	אופן	NOUN	NOUN	Gender=Masc|Number=Sing	11	nmod	_	_
+7	אישי	אישי	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	_
+8	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+9	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	11	cop	_	_
+10	בעד	בעד	ADP	ADP	_	11	case	_	_
+11	ערעור	ערעור	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	26	punct	_	_
+13	אך	אך	CCONJ	CCONJ	_	26	cc	_	_
+14	נוכח	נוכח	ADP	ADP	_	16	case	_	_
+15-16	השיחות	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	שיחות	שיחה	NOUN	NOUN	Gender=Fem|Number=Plur	26	obl	_	_
+17-18	והמלצות	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+18	המלצות	המלצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	16	conj	_	_
+19-20	הסניגורים	_	_	_	_	_	_	_	SpaceAfter=No
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	סניגורים	סנגור	NOUN	NOUN	Gender=Masc|Number=Plur	18	compound:smixut	_	_
+21	,	,	PUNCT	PUNCT	_	16	punct	_	_
+22-23	הנטייה	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	נטייה	נטייה	NOUN	NOUN	Gender=Fem|Number=Sing	26	dep	_	_
+24	היא	הוא	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	26	dep	_	_
+25	שלא	שלא	ADV	ADV	_	26	advmod	_	_
+26	לערער	ערער	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	11	conj	_	_
+27-28	לבית	_	_	_	_	_	_	_	_
+27	ל	ל	ADP	ADP	_	28	case	_	_
+28	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	26	obl	_	_
+29-30	הדין	_	_	_	_	_	_	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	דין	דין	NOUN	NOUN	Gender=Masc|Number=Sing	28	compound:smixut	_	_
+31-32	הצבאי	_	_	_	_	_	_	_	_
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	צבאי	צבאי	ADJ	ADJ	Gender=Masc|Number=Sing	28	amod	_	_
+33-34	לערעורים	_	_	_	_	_	_	_	SpaceAfter=No
+33	ל	ל	ADP	ADP	_	34	case	_	_
+34	ערעורים	ערעור	NOUN	NOUN	Gender=Masc|Number=Plur	28	nmod	_	_
+35	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:212
+# doc_range = 1418-1517
+# sent_id = 5267
+# text = עם זאת, אמר אמש לויט כי היום בצהרים תפול ההכרעה הסופית.
+1	עם	עם	ADP	ADP	_	2	case	_	_
+2	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	4	obl	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
+4	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	אמש	אמש	ADV	ADV	_	4	advmod	_	_
+6	לויט	לויט	PROPN	PROPN	_	4	nsubj	_	_
+7	כי	כי	SCONJ	SCONJ	_	12	mark	_	_
+8	היום	היום	ADV	ADV	_	12	advmod	_	_
+9-11	בצהרים	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	11	case	_	_
+10	ה_	ה	DET	DET	PronType=Art|Definite=Def	11	det	_	_
+11	צהרים	צהריים	NOUN	NOUN	Gender=Masc|Number=Plur	12	obl	_	_
+12	תפול	נפל	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	4	ccomp	_	_
+13-14	ההכרעה	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	הכרעה	הכרעה	NOUN	NOUN	Gender=Fem|Number=Sing	12	nsubj	_	_
+15-16	הסופית	_	_	_	_	_	_	_	SpaceAfter=No
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	סופית	סופי	ADJ	ADJ	Gender=Fem|Number=Sing	14	amod	_	_
+17	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:212
+# doc_range = 1519-1820
+# sent_id = 5268
+# text = נאשם נוסף סגן עופר רשף, היחידי שנידון לעונש מאסר של חודשיים בפועל והורדה לדרגת סמל, החליט לערער על ידי בא כוחו עורך הדין משה ישראל, אך בשלב זה טרם הוכן הערעור הסופי.
+1	נאשם	נאשם	NOUN	NOUN	Gender=Masc|Number=Sing	25	nsubj	_	_
+2	נוסף	נוסף	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	_
+3	סגן	סגן	NOUN	NOUN	Gender=Masc|Number=Sing	1	dep	_	HebSource=ConvUncertainHead
+4	עופר	עופר	PROPN	PROPN	_	3	flat:name	_	_
+5	רשף	רשף	PROPN	PROPN	_	3	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	8	punct	_	_
+7-8	היחידי	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	יחידי	יחידי	ADJ	ADJ	Gender=Masc|Number=Sing	1	dep	_	HebSource=ConvUncertainHead
+9-10	שנידון	_	_	_	_	_	_	_	_
+9	ש	ש	SCONJ	SCONJ	_	10	mark	_	_
+10	נידון	נידון	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	8	acl:relcl	_	_
+11-12	לעונש	_	_	_	_	_	_	_	_
+11	ל	ל	ADP	ADP	_	12	case	_	_
+12	עונש	עונש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	obl	_	_
+13	מאסר	מאסר	NOUN	NOUN	Gender=Masc|Number=Sing	12	dep	_	HebSource=ConvUncertainHead
+14	של	של	ADP	ADP	Case=Gen	15	case	_	_
+15	חודשיים	חודש	NOUN	NOUN	Gender=Masc|Number=Dual	13	nmod	_	_
+16-18	בפועל	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	18	case	_	_
+17	ה_	ה	DET	DET	PronType=Art|Definite=Def	18	det	_	_
+18	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	13	nmod	_	_
+19-20	והורדה	_	_	_	_	_	_	_	_
+19	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
+20	הורדה	הורדה	NOUN	NOUN	Gender=Fem|Number=Sing	12	conj	_	_
+21-22	לדרגת	_	_	_	_	_	_	_	_
+21	ל	ל	ADP	ADP	_	22	case	_	_
+22	דרגת	דרגה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	20	nmod	_	_
+23	סמל	סמל	NOUN	NOUN	Gender=Masc|Number=Sing	22	compound:smixut	_	SpaceAfter=No
+24	,	,	PUNCT	PUNCT	_	1	punct	_	_
+25	החליט	החליט	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+26	לערער	ערער	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	25	xcomp	_	_
+27	על	על	ADP	ADP	_	29	case	_	_
+28	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	27	fixed	_	_
+29	בא	בא	NOUN	NOUN	Definite=Cons	26	obl	_	_
+30-32	כוחו	_	_	_	_	_	_	_	_
+30	כוח	כוח	NOUN	NOUN	Gender=Masc|Number=Sing	29	compound:smixut	_	_
+31	_של_	של	ADP	ADP	Case=Gen	32	case:gen	_	_
+32	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+33	עורך	עורך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	29	acl	_	_
+34-35	הדין	_	_	_	_	_	_	_	_
+34	ה	ה	DET	DET	Definite=Def|PronType=Art	35	det	_	_
+35	דין	דין	NOUN	NOUN	Gender=Masc|Number=Sing	33	compound:smixut	_	_
+36	משה	משה	PROPN	PROPN	_	33	flat:name	_	_
+37	ישראל	ישראל	PROPN	PROPN	_	33	flat:name	_	SpaceAfter=No
+38	,	,	PUNCT	PUNCT	_	44	punct	_	_
+39	אך	אך	CCONJ	CCONJ	_	44	cc	_	_
+40-41	בשלב	_	_	_	_	_	_	_	_
+40	ב	ב	ADP	ADP	_	41	case	_	_
+41	שלב	שלב	NOUN	NOUN	Gender=Masc|Number=Sing	44	obl	_	_
+42	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	41	det	_	_
+43	טרם	טרם	ADV	ADV	_	44	advmod	_	_
+44	הוכן	הוכן	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	25	conj	_	_
+45-46	הערעור	_	_	_	_	_	_	_	_
+45	ה	ה	DET	DET	Definite=Def|PronType=Art	46	det	_	_
+46	ערעור	ערעור	NOUN	NOUN	Gender=Masc|Number=Sing	44	nsubj:pass	_	_
+47-48	הסופי	_	_	_	_	_	_	_	SpaceAfter=No
+47	ה	ה	DET	DET	Definite=Def|PronType=Art	48	det	_	_
+48	סופי	סופי	ADJ	ADJ	Gender=Masc|Number=Sing	46	amod	_	_
+49	.	.	PUNCT	PUNCT	_	25	punct	_	_
+
+# doc_id = htb:212
+# doc_range = 1822-2029
+# sent_id = 5269
+# text = אם אכן יגיש עו"ד ישראל ערעור לבית הדין הצבאי לערעורים, הוא יתייחס למתן הפקודות הבלתי חוקיות בעליל שניתנו לחיילים.
+1	אם	אם	SCONJ	SCONJ	_	3	mark	_	_
+2	אכן	אכן	ADV	ADV	_	3	advmod	_	_
+3	יגיש	הגיש	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	17	advcl	_	_
+4	עו"ד	עו"ד	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	3	nsubj	_	_
+5	ישראל	ישראל	PROPN	PROPN	_	4	flat:name	_	_
+6	ערעור	ערעור	NOUN	NOUN	Gender=Masc|Number=Sing	3	obj	_	_
+7-8	לבית	_	_	_	_	_	_	_	_
+7	ל	ל	ADP	ADP	_	8	case	_	_
+8	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	obl	_	_
+9-10	הדין	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	דין	דין	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound:smixut	_	_
+11-12	הצבאי	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	צבאי	צבאי	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	_
+13-14	לערעורים	_	_	_	_	_	_	_	SpaceAfter=No
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	ערעורים	ערעור	NOUN	NOUN	Gender=Masc|Number=Plur	8	nmod	_	_
+15	,	,	PUNCT	PUNCT	_	3	punct	_	_
+16	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+17	יתייחס	התייחס	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Fut	0	root	_	_
+18-19	למתן	_	_	_	_	_	_	_	_
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	מתן	מתן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	obl	_	_
+20-21	הפקודות	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	פקודות	פקודה	NOUN	NOUN	Gender=Fem|Number=Plur	19	compound:smixut	_	_
+22-23	הבלתי	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+23	בלתי	בלתי	ADV	ADV	Prefix=Yes	24	compound:affix	_	_
+24	חוקיות	חוקי	ADJ	ADJ	Gender=Fem|Number=Plur	21	amod	_	_
+25	בעליל	בעליל	ADV	ADV	_	24	advmod	_	_
+26-27	שניתנו	_	_	_	_	_	_	_	_
+26	ש	ש	SCONJ	SCONJ	_	27	mark	_	_
+27	ניתנו	ניתן	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	21	acl:relcl	_	_
+28-29	לחיילים	_	_	_	_	_	_	_	SpaceAfter=No
+28	ל	ל	ADP	ADP	_	29	case	_	_
+29	חיילים	חייל	NOUN	NOUN	Gender=Masc|Number=Plur	27	obl	_	_
+30	.	.	PUNCT	PUNCT	_	17	punct	_	_
+
+# doc_id = htb:212
+# doc_range = 2031-2272
+# sent_id = 5270
+# text = גם התביעה הצבאית החליטה שלא לערער על קולת העונש, אך במקרה שמישהו בקרב הנאשמים שהורשעו יגיש ערעור, תגיש גם התביעה הצבאית ערעור נגדי.
+1	גם	גם	ADV	ADV	_	3	advmod	_	_
+2-3	התביעה	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	תביעה	תביעה	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj	_	_
+4-5	הצבאית	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	צבאית	צבאי	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	_
+6	החליטה	החליט	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+7	שלא	שלא	ADV	ADV	_	8	advmod	_	_
+8	לערער	ערער	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+9	על	על	ADP	ADP	_	12	case	_	_
+10	קולת	קולת	X	X	_	12	dep	_	Xtra=Junk
+11-12	העונש	_	_	_	_	_	_	_	SpaceAfter=No
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	עונש	עונש	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+13	,	,	PUNCT	PUNCT	_	27	punct	_	_
+14	אך	אך	CCONJ	CCONJ	_	27	cc	_	_
+15-16	במקרה	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	מקרה	מקרה	NOUN	NOUN	Gender=Masc|Number=Sing	27	obl	_	_
+17-18	שמישהו	_	_	_	_	_	_	_	_
+17	ש	ש	SCONJ	SCONJ	_	24	mark	_	_
+18	מישהו	מישהו	PRON	PRON	Gender=Masc|Number=Sing|PronType=Ind	24	nsubj	_	_
+19	בקרב	בקרב	ADP	ADP	_	21	case	_	_
+20-21	הנאשמים	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	נאשמים	נאשם	NOUN	NOUN	Gender=Masc|Number=Plur	18	nmod	_	_
+22-23	שהורשעו	_	_	_	_	_	_	_	_
+22	ש	ש	SCONJ	SCONJ	_	23	mark	_	_
+23	הורשעו	הורשע	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	21	acl:relcl	_	_
+24	יגיש	הגיש	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	16	acl:relcl	_	_
+25	ערעור	ערעור	NOUN	NOUN	Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No
+26	,	,	PUNCT	PUNCT	_	16	punct	_	_
+27	תגיש	הגיש	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	6	conj	_	_
+28	גם	גם	ADV	ADV	_	30	advmod	_	_
+29-30	התביעה	_	_	_	_	_	_	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	תביעה	תביעה	NOUN	NOUN	Gender=Fem|Number=Sing	27	nsubj	_	_
+31-32	הצבאית	_	_	_	_	_	_	_	_
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	צבאית	צבאי	ADJ	ADJ	Gender=Fem|Number=Sing	30	amod	_	_
+33	ערעור	ערעור	NOUN	NOUN	Gender=Masc|Number=Sing	27	obj	_	_
+34	נגדי	נגדי	ADJ	ADJ	Gender=Masc|Number=Sing	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:212
+# doc_range = 2274-2608
+# sent_id = 5271
+# text = בניגוד לנאשמי משפט גבעתי ב הנאשמים במשפט גבעתי א ערערו בזמנו על פסק הדין וגזר הדין, ומספר ימים לאחר שהוגש הערעור, ביטלו את הערעור לאחר שהובטח להם כי בצה"ל יקלו בעונשם והם יקבלו חנינה.
+1	בניגוד	בניגוד	ADP	ADP	_	3	case	_	_
+2-3	לנאשמי	_	_	_	_	_	_	_	_
+2	ל	ל	ADP	ADP	_	1	fixed	_	_
+3	נאשמי	נאשם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	13	obl	_	_
+4	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	3	compound:smixut	_	_
+5	גבעתי	גבעתי	PROPN	PROPN	_	4	flat:name	_	_
+6	ב	ב	PROPN	PROPN	_	4	flat:name	_	_
+7-8	הנאשמים	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	נאשמים	נאשם	NOUN	NOUN	Gender=Masc|Number=Plur	13	nsubj	_	_
+9-10	במשפט	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	8	nmod	_	_
+11	גבעתי	גבעתי	PROPN	PROPN	_	10	flat:name	_	_
+12	א	א	PROPN	PROPN	_	10	flat:name	_	_
+13	ערערו	ערער	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+14-17	בזמנו	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	זמן	זמן	NOUN	NOUN	Gender=Masc|Number=Sing	13	obl	_	_
+16	_של_	של	ADP	ADP	Case=Gen	17	case:gen	_	_
+17	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+18	על	על	ADP	ADP	_	19	case	_	_
+19	פסק	פסק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	obl	_	_
+20-21	הדין	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	דין	דין	NOUN	NOUN	Gender=Masc|Number=Sing	19	compound:smixut	_	_
+22-23	וגזר	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
+23	גזר	גזר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	19	conj	_	_
+24-25	הדין	_	_	_	_	_	_	_	SpaceAfter=No
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	דין	דין	NOUN	NOUN	Gender=Masc|Number=Sing	23	compound:smixut	_	_
+26	,	,	PUNCT	PUNCT	_	36	punct	_	_
+27-28	ומספר	_	_	_	_	_	_	_	_
+27	ו	ו	CCONJ	CCONJ	_	36	cc	_	_
+28	מספר	מספר	DET	DET	Definite=Cons	29	det	_	_
+29	ימים	יום	NOUN	NOUN	Gender=Masc|Number=Plur	36	obl:tmod	_	_
+30	לאחר	לאחר	ADP	ADP	_	32	case	_	_
+31-32	שהוגש	_	_	_	_	_	_	_	_
+31	ש	ש	SCONJ	SCONJ	_	32	mark	_	_
+32	הוגש	הוגש	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	29	nmod	_	_
+33-34	הערעור	_	_	_	_	_	_	_	SpaceAfter=No
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	ערעור	ערעור	NOUN	NOUN	Gender=Masc|Number=Sing	32	nsubj:pass	_	_
+35	,	,	PUNCT	PUNCT	_	29	punct	_	_
+36	ביטלו	ביטל	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	13	conj	_	_
+37	את	את	ADP	ADP	Case=Acc	39	case	_	_
+38-39	הערעור	_	_	_	_	_	_	_	_
+38	ה	ה	DET	DET	Definite=Def|PronType=Art	39	det	_	_
+39	ערעור	ערעור	NOUN	NOUN	Gender=Masc|Number=Sing	36	obj	_	_
+40	לאחר	לאחר	ADP	ADP	_	42	case	_	_
+41-42	שהובטח	_	_	_	_	_	_	_	_
+41	ש	ש	SCONJ	SCONJ	_	42	mark	_	_
+42	הובטח	הובטח	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	36	obl	_	_
+43-44	להם	_	_	_	_	_	_	_	_
+43	ל	ל	ADP	ADP	_	44	case	_	_
+44	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	42	obl	_	_
+45	כי	כי	SCONJ	SCONJ	_	48	mark	_	_
+46-47	בצה"ל	_	_	_	_	_	_	_	_
+46	ב	ב	ADP	ADP	_	47	case	_	_
+47	צה"ל	צה"ל	PROPN	PROPN	Abbr=Yes	48	obl	_	_
+48	יקלו	הקל	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	42	ccomp	_	_
+49-52	בעונשם	_	_	_	_	_	_	_	_
+49	ב	ב	ADP	ADP	_	50	case	_	_
+50	עונש	עונש	NOUN	NOUN	Gender=Masc|Number=Sing	48	obl	_	_
+51	_של_	של	ADP	ADP	Case=Gen	52	case:gen	_	_
+52	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	50	nmod:poss	_	_
+53-54	והם	_	_	_	_	_	_	_	_
+53	ו	ו	CCONJ	CCONJ	_	55	cc	_	_
+54	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	55	nsubj	_	_
+55	יקבלו	קיבל	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	48	conj	_	_
+56	חנינה	חנינה	NOUN	NOUN	Gender=Fem|Number=Sing	55	obj	_	SpaceAfter=No
+57	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# doc_id = htb:212
+# doc_range = 2610-2678
+# sent_id = 5272
+# text = ואכן עונשם של נאשמי משפט גבעתי א הוקל.
+1-2	ואכן	_	_	_	_	_	_	_	_
+1	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+2	אכן	אכן	ADV	ADV	_	11	advmod	_	_
+3-5	עונשם	_	_	_	_	_	_	_	_
+3	עונש	עונש	NOUN	NOUN	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+4	_של_	של	ADP	ADP	Case=Gen	5	case:gen	_	_
+5	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+6	של	של	ADP	ADP	Case=Gen	7	case	_	_
+7	נאשמי	נאשם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	3	nmod:poss	_	_
+8	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound:smixut	_	_
+9	גבעתי	גבעתי	PROPN	PROPN	_	8	flat:name	_	_
+10	א	א	PROPN	PROPN	_	8	flat:name	_	_
+11	הוקל	הוקל	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:212
+# doc_range = 2681-3040
+# sent_id = 5273
+# text = מהפרקליטות הצבאית העבירו בימים האחרונים את חומר החקירה בכל הקשור לקצינים הבכירים ששמותיהם הוזכרו במשפט גבעתי ב למשטרה הצבאית, אשר בודקת עתה את החומר ותזמן לחקירה את מח"ט גבעתי לשעבר אל"ם אפי איתם.
+1-3	מהפרקליטות	_	_	_	_	_	_	_	_
+1	מ	מ	ADP	ADP	_	3	case	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	פרקליטות	פרקליטות	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	_
+4-5	הצבאית	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	צבאית	צבאי	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	_
+6	העבירו	העביר	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+7-9	בימים	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	9	case	_	_
+8	ה_	ה	DET	DET	PronType=Art|Definite=Def	9	det	_	_
+9	ימים	יום	NOUN	NOUN	Gender=Masc|Number=Plur	6	obl	_	_
+10-11	האחרונים	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	אחרונים	אחרון	ADJ	ADJ	Gender=Masc|Number=Plur	9	amod	_	_
+12	את	את	ADP	ADP	Case=Acc	13	case	_	_
+13	חומר	חומר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	obj	_	_
+14-15	החקירה	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	חקירה	חקירה	NOUN	NOUN	Gender=Fem|Number=Sing	13	compound:smixut	_	_
+16-17	בכל	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	19	case	_	_
+17	כל	כול	DET	DET	Definite=Cons	19	dep	_	_
+18-19	הקשור	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	dep	_	_
+19	קשור	קשר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	13	nmod	_	_
+20-22	לקצינים	_	_	_	_	_	_	_	_
+20	ל	ל	ADP	ADP	_	22	case	_	_
+21	ה_	ה	DET	DET	PronType=Art|Definite=Def	22	det	_	_
+22	קצינים	קצין	NOUN	NOUN	Gender=Masc|Number=Plur	19	obl	_	_
+23-24	הבכירים	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	בכירים	בכיר	ADJ	ADJ	Gender=Masc|Number=Plur	22	amod	_	_
+25-27	ששמותיהם	_	_	_	_	_	_	_	_
+25	ש	ש	SCONJ	SCONJ	_	28	mark	_	_
+26	שמותי	שם	NOUN	NOUN	Gender=Masc|Number=Plur	28	nsubj:pass	_	_
+27	הם	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+28	הוזכרו	הוזכר	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	22	acl:relcl	_	_
+29-30	במשפט	_	_	_	_	_	_	_	_
+29	ב	ב	ADP	ADP	_	30	case	_	_
+30	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	28	obl	_	_
+31	גבעתי	גבעתי	PROPN	PROPN	_	30	flat:name	_	_
+32	ב	ב	PROPN	PROPN	_	30	flat:name	_	_
+33-35	למשטרה	_	_	_	_	_	_	_	_
+33	ל	ל	ADP	ADP	_	35	case	_	_
+34	ה_	ה	DET	DET	PronType=Art|Definite=Def	35	det	_	_
+35	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	28	obl	_	_
+36-37	הצבאית	_	_	_	_	_	_	_	SpaceAfter=No
+36	ה	ה	DET	DET	Definite=Def|PronType=Art	37	det	_	_
+37	צבאית	צבאי	ADJ	ADJ	Gender=Fem|Number=Sing	35	amod	_	_
+38	,	,	PUNCT	PUNCT	_	40	punct	_	_
+39	אשר	אשר	SCONJ	SCONJ	_	40	mark	_	_
+40	בודקת	בדק	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	35	acl:relcl	_	_
+41	עתה	עתה	ADV	ADV	_	40	advmod	_	_
+42	את	את	ADP	ADP	Case=Acc	44	case	_	_
+43-44	החומר	_	_	_	_	_	_	_	_
+43	ה	ה	DET	DET	Definite=Def|PronType=Art	44	det	_	_
+44	חומר	חומר	NOUN	NOUN	Gender=Masc|Number=Sing	40	obj	_	_
+45-46	ותזמן	_	_	_	_	_	_	_	_
+45	ו	ו	CCONJ	CCONJ	_	46	cc	_	_
+46	תזמן	זימן	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	40	conj	_	_
+47-49	לחקירה	_	_	_	_	_	_	_	_
+47	ל	ל	ADP	ADP	_	49	case	_	_
+48	ה_	ה	DET	DET	PronType=Art|Definite=Def	49	det	_	_
+49	חקירה	חקירה	NOUN	NOUN	Gender=Fem|Number=Sing	46	obl	_	_
+50	את	את	ADP	ADP	Case=Acc	51	case	_	_
+51	מח"ט	מח"ט	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	46	obj	_	_
+52	גבעתי	גבעתי	PROPN	PROPN	_	51	compound:smixut	_	_
+53	לשעבר	לשעבר	ADV	ADV	_	51	advmod	_	_
+54	אל"ם	אל"ם	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	51	nmod	_	_
+55	אפי	אפי	PROPN	PROPN	_	54	nmod	_	HebSource=ConvUncertainLabel
+56	איתם	איתם	PROPN	PROPN	_	55	flat:name	_	SpaceAfter=No
+57	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:212
+# doc_range = 3042-3251
+# sent_id = 5274
+# text = בכל הקשור לאלוף יצחק מרדכי ולתת אלוף יעקב אור, הפרקליט הצבאי הראשי טרם החליט אם להורות על פתיחת החקירה בנושא שלהם.
+1-2	בכל	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	4	case	_	_
+2	כל	כול	DET	DET	Definite=Cons	4	dep	_	_
+3-4	הקשור	_	_	_	_	_	_	_	_
+3	ה	ה	SCONJ	SCONJ	_	4	mark	_	_
+4	קשור	קשר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	23	obl	_	_
+5-6	לאלוף	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	אלוף	אלוף	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+7	יצחק	יצחק	PROPN	PROPN	_	6	flat:name	_	_
+8	מרדכי	מרדכי	PROPN	PROPN	_	6	flat:name	_	_
+9-11	ולתת	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+10	ל	ל	ADP	ADP	_	12	case	_	_
+11	תת	תת	ADV	ADV	Prefix=Yes	12	compound:affix	_	HebSource=ConvUncertainHead
+12	אלוף	אלוף	NOUN	NOUN	Gender=Masc|Number=Sing	6	conj	_	_
+13	יעקב	יעקב	PROPN	PROPN	_	12	nmod	_	HebSource=ConvUncertainLabel
+14	אור	אור	PROPN	PROPN	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	4	punct	_	_
+16-17	הפרקליט	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	פרקליט	פרקליט	NOUN	NOUN	Gender=Masc|Number=Sing	23	nsubj	_	_
+18-19	הצבאי	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	צבאי	צבאי	ADJ	ADJ	Gender=Masc|Number=Sing	17	amod	_	_
+20-21	הראשי	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	ראשי	ראשי	ADJ	ADJ	Gender=Masc|Number=Sing	17	amod	_	_
+22	טרם	טרם	ADV	ADV	_	23	advmod	_	_
+23	החליט	החליט	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+24	אם	אם	SCONJ	SCONJ	_	25	mark	_	_
+25	להורות	הורה	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	23	advcl	_	_
+26	על	על	ADP	ADP	_	27	case	_	_
+27	פתיחת	פתיחה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	25	obl	_	_
+28-29	החקירה	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	חקירה	חקירה	NOUN	NOUN	Gender=Fem|Number=Sing	27	compound:smixut	_	_
+30-32	בנושא	_	_	_	_	_	_	_	_
+30	ב	ב	ADP	ADP	_	32	case	_	_
+31	ה_	ה	DET	DET	PronType=Art|Definite=Def	32	det	_	_
+32	נושא	נושא	NOUN	NOUN	Gender=Masc|Number=Sing	27	nmod	_	_
+33-34	שלהם	_	_	_	_	_	_	_	SpaceAfter=No
+33	של	של	ADP	ADP	Case=Gen	34	case	_	_
+34	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+35	.	.	PUNCT	PUNCT	_	23	punct	_	_
+

@@ -1,0 +1,85 @@
+# doc_id = htb:118_4
+# doc_range = 3095-3250
+# sent_id = 2797
+# text = לב קפספבינהרבה החמצות ממצבים נוחים של יבנה, בגלל משחק הגנתי של טבריה שהזמינה התקפות.
+1	לב	לב	PROPN	PROPN	_	4	dep	_	_
+2-3	קפספבינהרבה	_	_	_	_	_	_	_	_
+2	קפספבינ	קפספבינ	X	X	_	4	dep	_	Xtra=Junk
+3	הרבה	הרבה	DET	DET	_	4	det	_	_
+4	החמצות	החמצה	NOUN	NOUN	Gender=Fem|Number=Plur	0	root	_	_
+5-6	ממצבים	_	_	_	_	_	_	_	_
+5	מ	מ	ADP	ADP	_	6	case	_	_
+6	מצבים	מצב	NOUN	NOUN	Gender=Masc|Number=Plur	4	nmod	_	_
+7	נוחים	נוח	ADJ	ADJ	Gender=Masc|Number=Plur	6	amod	_	_
+8	של	של	ADP	ADP	Case=Gen	9	case	_	_
+9	יבנה	יבנה	PROPN	PROPN	_	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	12	punct	_	_
+11	בגלל	בגלל	ADP	ADP	_	12	case	_	_
+12	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	4	nmod	_	_
+13	הגנתי	הגנתי	ADJ	ADJ	Gender=Masc|Number=Sing	12	amod	_	_
+14	של	של	ADP	ADP	Case=Gen	15	case	_	_
+15	טבריה	טבריה	PROPN	PROPN	_	12	nmod	_	_
+16-17	שהזמינה	_	_	_	_	_	_	_	_
+16	ש	ש	SCONJ	SCONJ	_	17	mark	_	_
+17	הזמינה	הזמין	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	15	acl:relcl	_	_
+18	התקפות	התקפה	NOUN	NOUN	Gender=Fem|Number=Plur	17	obj	_	SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:118_4
+# doc_range = 3252-3479
+# sent_id = 2798
+# text = בין חלוצי יבנה, שהרבו להחמיץ, ניצל אנריקה ורון הזדמנות אחת בלבד, כדי להעניק לקבוצתו פרס של 3 נקודות בעד נצחון שהיתה ראויה לו.
+1	בין	בין	ADP	ADP	_	2	case	_	_
+2	חלוצי	חלוץ	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	9	obl	_	_
+3	יבנה	יבנה	PROPN	PROPN	_	2	compound:smixut	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	6	punct	_	_
+5-6	שהרבו	_	_	_	_	_	_	_	_
+5	ש	ש	SCONJ	SCONJ	_	6	mark	_	_
+6	הרבו	הרבה	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	2	acl:relcl	_	_
+7	להחמיץ	החמיץ	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	6	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	2	punct	_	_
+9	ניצל	ניצל	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	_
+10	אנריקה	אנריקה	PROPN	PROPN	_	9	nsubj	_	_
+11	ורון	ורון	PROPN	PROPN	_	10	flat:name	_	_
+12	הזדמנות	הזדמנות	NOUN	NOUN	Gender=Fem|Number=Sing	9	obj	_	_
+13	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	12	nummod	_	_
+14	בלבד	בלבד	ADV	ADV	_	12	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	17	punct	_	_
+16	כדי	כדי	SCONJ	SCONJ	_	17	mark	_	_
+17	להעניק	העניק	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	9	advcl	_	_
+18-21	לקבוצתו	_	_	_	_	_	_	_	_
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	קבוצה	קבוצה	NOUN	NOUN	Gender=Fem|Number=Sing	17	obl	_	_
+20	_של_	של	ADP	ADP	Case=Gen	21	case:gen	_	_
+21	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+22	פרס	פרס	NOUN	NOUN	Gender=Masc|Number=Sing	17	obj	_	_
+23	של	של	ADP	ADP	Case=Gen	25	case	_	_
+24	3	3	NUM	NUM	_	25	nummod	_	_
+25	נקודות	נקודה	NOUN	NOUN	Gender=Fem|Number=Plur	22	nmod	_	_
+26	בעד	בעד	ADP	ADP	_	27	case	_	_
+27	נצחון	ניצחון	NOUN	NOUN	Gender=Masc|Number=Sing	25	nmod	_	_
+28-29	שהיתה	_	_	_	_	_	_	_	_
+28	ש	ש	SCONJ	SCONJ	_	30	mark	_	_
+29	היתה	היה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	30	cop	_	_
+30	ראויה	ראוי	AUX	AUX	Gender=Fem|Number=Sing|Person=1,2,3|VerbType=Mod	22	acl:relcl	_	_
+31-32	לו	_	_	_	_	_	_	_	SpaceAfter=No
+31	ל	ל	ADP	ADP	_	32	case	_	_
+32	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	obl	_	_
+33	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:118_4
+# doc_range = 3482-3541
+# sent_id = 2799
+# text = שפט אריה וולף, 1,000 צופים, ביבנה.
+1	שפט	שפט	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+2	אריה	אריה	PROPN	PROPN	_	1	nsubj	_	_
+3	וולף	וולף	PROPN	PROPN	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	6	punct	_	_
+5	1,000	1,000	NUM	NUM	_	6	nummod	_	_
+6	צופים	צופה	NOUN	NOUN	Gender=Masc|Number=Plur	1	dep	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	9	punct	_	_
+8-9	ביבנה	_	_	_	_	_	_	_	SpaceAfter=No
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	יבנה	יבנה	PROPN	PROPN	_	1	obl	_	_
+10	.	.	PUNCT	PUNCT	_	1	punct	_	_
+

@@ -1,0 +1,221 @@
+# doc_id = htb:63
+# doc_range = 1-196
+# sent_id = 1952
+# text = חברת אלביט הקימה גוף אשר יעסוק בשיתוף פעולה תעשייתי ויקיים קשר עם הרשות לשיתוף פעולה במשרד התעשייה והמסחר.
+1	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	אלביט	אלביט	PROPN	PROPN	_	1	compound:smixut	_	_
+3	הקימה	הקים	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	גוף	גוף	NOUN	NOUN	Gender=Masc|Number=Sing	3	obj	_	_
+5	אשר	אשר	SCONJ	SCONJ	_	6	mark	_	_
+6	יעסוק	עסק	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	4	acl:relcl	_	_
+7-8	בשיתוף	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	שיתוף	שיתוף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	obl	_	_
+9	פעולה	פעולה	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound:smixut	_	_
+10	תעשייתי	תעשייתי	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	_
+11-12	ויקיים	_	_	_	_	_	_	_	_
+11	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+12	יקיים	קיים	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	6	conj	_	_
+13	קשר	קשר	NOUN	NOUN	Gender=Masc|Number=Sing	12	dep	_	_
+14	עם	עם	ADP	ADP	_	16	case	_	_
+15-16	הרשות	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	רשות	רשות	NOUN	NOUN	Gender=Fem|Number=Sing	13	nmod	_	_
+17-18	לשיתוף	_	_	_	_	_	_	_	_
+17	ל	ל	ADP	ADP	_	18	case	_	_
+18	שיתוף	שיתוף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	16	nmod	_	_
+19	פעולה	פעולה	NOUN	NOUN	Gender=Fem|Number=Sing	18	compound:smixut	_	_
+20-21	במשרד	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	16	nmod	_	_
+22-23	התעשייה	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	תעשייה	תעשייה	NOUN	NOUN	Gender=Fem|Number=Sing	21	compound:smixut	_	_
+24-26	והמסחר	_	_	_	_	_	_	_	SpaceAfter=No
+24	ו	ו	CCONJ	CCONJ	_	26	cc	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	מסחר	מסחר	NOUN	NOUN	Gender=Masc|Number=Sing	23	conj	_	_
+27	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:63
+# doc_range = 198-310
+# sent_id = 1953
+# text = כך מסר חיים גולן, מנהל הרשות לשיתוף פעולה, שחזר מביקור בחברה.
+1	כך	כך	ADV	ADV	_	2	advmod	_	_
+2	מסר	מסר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	חיים	חיים	PROPN	PROPN	_	2	nsubj	_	_
+4	גולן	גולן	PROPN	PROPN	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	6	punct	_	_
+6	מנהל	מנהל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	appos	_	_
+7-8	הרשות	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	רשות	רשות	NOUN	NOUN	Gender=Fem|Number=Sing	6	compound:smixut	_	_
+9-10	לשיתוף	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	10	case	_	_
+10	שיתוף	שיתוף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	nmod	_	_
+11	פעולה	פעולה	NOUN	NOUN	Gender=Fem|Number=Sing	10	compound:smixut	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	14	punct	_	_
+13-14	שחזר	_	_	_	_	_	_	_	_
+13	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
+14	חזר	חזר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	3	acl:relcl	_	_
+15-16	מביקור	_	_	_	_	_	_	_	_
+15	מ	מ	ADP	ADP	_	16	case	_	_
+16	ביקור	ביקור	NOUN	NOUN	Gender=Masc|Number=Sing	14	obl	_	_
+17-19	בחברה	_	_	_	_	_	_	_	SpaceAfter=No
+17	ב	ב	ADP	ADP	_	19	case	_	_
+18	ה_	ה	DET	DET	PronType=Art|Definite=Def	19	det	_	_
+19	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	16	nmod	_	_
+20	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:63
+# doc_range = 312-570
+# sent_id = 1954
+# text = גולן הביע שביעות-רצון מהדרך בה פועלת אלביט, כמפעל פרטי ראשון שקיבל על עצמו, מרצונו, את העקרונות שעל-פיהם עובדת הרשות לשיתוף פעולה תעשייתי.
+1	גולן	גולן	PROPN	PROPN	_	2	nsubj	_	_
+2	הביע	הביע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	שביעות	שביעות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+4	-	-	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+5	רצון	רצון	NOUN	NOUN	Gender=Masc|Number=Sing	2	obj	_	_
+6-8	מהדרך	_	_	_	_	_	_	_	_
+6	מ	מ	ADP	ADP	_	8	case	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	דרך	דרך	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl	_	_
+9-10	בה	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+11	פועלת	פעל	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	8	acl:relcl	_	_
+12	אלביט	אלביט	PROPN	PROPN	_	11	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	15	punct	_	_
+14-15	כמפעל	_	_	_	_	_	_	_	_
+14	כ	כ	ADP	ADP	_	15	case	_	_
+15	מפעל	מפעל	NOUN	NOUN	Gender=Masc|Number=Sing	11	obl	_	_
+16	פרטי	פרטי	ADJ	ADJ	Gender=Masc|Number=Sing	15	amod	_	_
+17	ראשון	ראשון	ADJ	ADJ	Gender=Masc|Number=Sing	15	amod	_	_
+18-19	שקיבל	_	_	_	_	_	_	_	_
+18	ש	ש	SCONJ	SCONJ	_	19	mark	_	_
+19	קיבל	קיבל	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	15	acl:relcl	_	_
+20	על	על	ADP	ADP	_	21	case	_	_
+21	עצמו	עצמו	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	19	obl	_	SpaceAfter=No
+22	,	,	PUNCT	PUNCT	_	24	punct	_	_
+23-26	מרצונו	_	_	_	_	_	_	_	SpaceAfter=No
+23	מ	מ	ADP	ADP	_	24	case	_	_
+24	רצון	רצון	NOUN	NOUN	Gender=Masc|Number=Sing	19	obl	_	_
+25	_של_	של	ADP	ADP	Case=Gen	26	case:gen	_	_
+26	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+27	,	,	PUNCT	PUNCT	_	30	punct	_	_
+28	את	את	ADP	ADP	Case=Acc	30	case	_	_
+29-30	העקרונות	_	_	_	_	_	_	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	עקרונות	עיקרון	NOUN	NOUN	Gender=Masc|Number=Plur	19	obj	_	_
+31-32	שעל	_	_	_	_	_	_	_	SpaceAfter=No
+31	ש	ש	SCONJ	SCONJ	_	37	mark	_	_
+32	על	על	ADP	ADP	_	34	case	_	_
+33	-	-	PUNCT	PUNCT	_	34	punct	_	SpaceAfter=No
+34-36	פיהם	_	_	_	_	_	_	_	_
+34	פה	פה	NOUN	NOUN	Gender=Masc|Number=Sing	37	obl	_	_
+35	_של_	של	ADP	ADP	Case=Gen	36	case:gen	_	_
+36	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	34	nmod:poss	_	_
+37	עובדת	עבד	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	30	acl:relcl	_	_
+38-39	הרשות	_	_	_	_	_	_	_	_
+38	ה	ה	DET	DET	Definite=Def|PronType=Art	39	det	_	_
+39	רשות	רשות	NOUN	NOUN	Gender=Fem|Number=Sing	37	nsubj	_	_
+40-41	לשיתוף	_	_	_	_	_	_	_	_
+40	ל	ל	ADP	ADP	_	41	case	_	_
+41	שיתוף	שיתוף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	39	nmod	_	_
+42	פעולה	פעולה	NOUN	NOUN	Gender=Fem|Number=Sing	41	compound:smixut	_	_
+43	תעשייתי	תעשייתי	ADJ	ADJ	Gender=Masc|Number=Sing	41	amod	_	SpaceAfter=No
+44	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:63
+# doc_range = 572-741
+# sent_id = 1955
+# text = לדבריו הוקם באלביט גוף שמפקח על הקניות ובודק כל הזמנה המיועדת לחו"ל, אם ניתן לרכוש אותה בארץ.
+1-4	לדבריו	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	5	obl	_	_
+3	_של_	של	ADP	ADP	Case=Gen	4	case:gen	_	_
+4	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5	הוקם	הוקם	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+6-7	באלביט	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	אלביט	אלביט	PROPN	PROPN	_	5	obl	_	_
+8	גוף	גוף	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+9-10	שמפקח	_	_	_	_	_	_	_	_
+9	ש	ש	SCONJ	SCONJ	_	10	mark	_	_
+10	מפקח	פיקח	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	8	acl:relcl	_	_
+11	על	על	ADP	ADP	_	12	case	_	_
+12	הקניות	הקניה	NOUN	NOUN	Gender=Fem|Number=Plur	10	obl	_	_
+13-14	ובודק	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
+14	בודק	בדק	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	10	conj	_	_
+15	כל	כול	DET	DET	Definite=Cons	16	det	_	_
+16	הזמנה	הזמנה	NOUN	NOUN	Gender=Fem|Number=Sing	14	obj	_	_
+17-18	המיועדת	_	_	_	_	_	_	_	_
+17	ה	ה	SCONJ	SCONJ	_	18	mark	_	_
+18	מיועדת	יועד	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	16	acl:relcl	_	_
+19-20	לחו"ל	_	_	_	_	_	_	_	SpaceAfter=No
+19	ל	ל	ADP	ADP	_	20	case	_	_
+20	חו"ל	חו"ל	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	18	obl	_	_
+21	,	,	PUNCT	PUNCT	_	23	punct	_	_
+22	אם	אם	SCONJ	SCONJ	_	23	mark	_	_
+23	ניתן	ניתן	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	14	advcl	_	_
+24	לרכוש	רכש	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	23	xcomp	_	_
+25-26	אותה	_	_	_	_	_	_	_	_
+25	את	את	ADP	ADP	Case=Acc	26	case	_	_
+26	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+27-29	בארץ	_	_	_	_	_	_	_	SpaceAfter=No
+27	ב	ב	ADP	ADP	_	29	case	_	_
+28	ה_	ה	DET	DET	PronType=Art|Definite=Def	29	det	_	_
+29	ארץ	ארץ	NOUN	NOUN	Gender=Fem|Number=Sing	24	obl	_	_
+30	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:63
+# doc_range = 743-986
+# sent_id = 1956
+# text = עוד נמסר כי אלביט תעביר לרשות לשיתוף פעולה את רשימות החברות בחו"ל שמהן היא קונה מוצרים, כדי שהרשות תפעל להשגת רכש גומלין מאותן חברות.
+1	עוד	עוד	ADV	ADV	_	2	advmod	_	_
+2	נמסר	נמסר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+3	כי	כי	SCONJ	SCONJ	_	5	mark	_	_
+4	אלביט	אלביט	PROPN	PROPN	_	5	nsubj	_	_
+5	תעביר	העביר	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	2	ccomp	_	_
+6-8	לרשות	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	8	case	_	_
+7	ה_	ה	DET	DET	PronType=Art|Definite=Def	8	det	_	_
+8	רשות	רשות	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
+9-10	לשיתוף	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	10	case	_	_
+10	שיתוף	שיתוף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	nmod	_	_
+11	פעולה	פעולה	NOUN	NOUN	Gender=Fem|Number=Sing	10	compound:smixut	_	_
+12	את	את	ADP	ADP	Case=Acc	13	case	_	_
+13	רשימות	רשימה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	5	obj	_	_
+14-15	החברות	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	חברות	חברה	NOUN	NOUN	Gender=Fem|Number=Plur	13	compound:smixut	_	_
+16-17	בחו"ל	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	חו"ל	חו"ל	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	15	nmod	_	_
+18-20	שמהן	_	_	_	_	_	_	_	_
+18	ש	ש	SCONJ	SCONJ	_	22	mark	_	_
+19	מ	מן	ADP	ADP	_	20	case	_	_
+20	_הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	22	obl	_	_
+21	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+22	קונה	קנה	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	15	acl:relcl	_	_
+23	מוצרים	מוצר	NOUN	NOUN	Gender=Masc|Number=Plur	22	obj	_	SpaceAfter=No
+24	,	,	PUNCT	PUNCT	_	29	punct	_	_
+25	כדי	כדי	ADP	ADP	_	29	mark	_	_
+26-28	שהרשות	_	_	_	_	_	_	_	_
+26	ש	ש	SCONJ	SCONJ	_	25	fixed	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	רשות	רשות	NOUN	NOUN	Gender=Fem|Number=Sing	29	nsubj	_	_
+29	תפעל	פעל	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	5	advcl	_	_
+30-31	להשגת	_	_	_	_	_	_	_	_
+30	ל	ל	ADP	ADP	_	31	case	_	_
+31	השגת	השגה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	29	obl	_	_
+32	רכש	רכש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	31	compound:smixut	_	_
+33	גומלין	גומלין	NOUN	NOUN	Gender=Masc|Number=Sing	32	compound:smixut	_	_
+34-35	מאותן	_	_	_	_	_	_	_	_
+34	מ	מ	ADP	ADP	_	36	case	_	_
+35	אותן	אותו	PRON	PRON	Definite=Def|Gender=Fem|Number=Plur|Person=3|PronType=Prs	36	det	_	_
+36	חברות	חברה	NOUN	NOUN	Gender=Fem|Number=Plur	32	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	PUNCT	_	2	punct	_	_
+

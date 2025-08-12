@@ -1,0 +1,460 @@
+# doc_id = htb:62
+# doc_range = 1-266
+# sent_id = 1943
+# text = הוועד הפועל של מכון התקנים בישראל אישר אתמול כללים חדשים להכנת תקנים ישראליים, מתוך מטרה שיקלו על הסחר עם אירופה ויסייעו לתעשיית היצוא הישראלית.
+1-2	הוועד	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	וועד	ועד	NOUN	NOUN	Gender=Masc|Number=Sing	11	nsubj	_	_
+3-4	הפועל	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	פועל	פעל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	2	amod	_	_
+5	של	של	ADP	ADP	Case=Gen	6	case	_	_
+6	מכון	מכון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	nmod:poss	_	_
+7-8	התקנים	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	תקנים	תקן	NOUN	NOUN	Gender=Masc|Number=Plur	6	compound:smixut	_	_
+9-10	בישראל	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	ישראל	ישראל	PROPN	PROPN	_	6	nmod	_	_
+11	אישר	אישר	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+12	אתמול	אתמול	ADV	ADV	_	11	advmod	_	_
+13	כללים	כלל	NOUN	NOUN	Gender=Masc|Number=Plur	11	obj	_	_
+14	חדשים	חדש	ADJ	ADJ	Gender=Masc|Number=Plur	13	amod	_	_
+15-16	להכנת	_	_	_	_	_	_	_	_
+15	ל	ל	ADP	ADP	_	16	case	_	_
+16	הכנת	הכנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	13	nmod	_	_
+17	תקנים	תקן	NOUN	NOUN	Gender=Masc|Number=Plur	16	compound:smixut	_	_
+18	ישראליים	ישראלי	ADJ	ADJ	Gender=Masc|Number=Plur	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	21	punct	_	_
+20	מתוך	מתוך	ADP	ADP	_	21	case	_	_
+21	מטרה	מטרה	NOUN	NOUN	Gender=Fem|Number=Sing	11	obl	_	_
+22-23	שיקלו	_	_	_	_	_	_	_	_
+22	ש	ש	SCONJ	SCONJ	_	23	mark	_	_
+23	יקלו	הקל	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	21	acl:relcl	_	_
+24	על	על	ADP	ADP	_	26	case	_	_
+25-26	הסחר	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	סחר	סחר	NOUN	NOUN	Gender=Masc|Number=Sing	23	obl	_	_
+27	עם	עם	ADP	ADP	_	28	case	_	_
+28	אירופה	אירופה	PROPN	PROPN	_	26	nmod	_	_
+29-30	ויסייעו	_	_	_	_	_	_	_	_
+29	ו	ו	CCONJ	CCONJ	_	30	cc	_	_
+30	יסייעו	סייע	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Fut|Voice=Act	23	conj	_	_
+31-32	לתעשיית	_	_	_	_	_	_	_	_
+31	ל	ל	ADP	ADP	_	32	case	_	_
+32	תעשיית	תעשייה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	30	obl	_	_
+33-34	היצוא	_	_	_	_	_	_	_	_
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	יצוא	ייצוא	NOUN	NOUN	Gender=Masc|Number=Sing	32	compound:smixut	_	_
+35-36	הישראלית	_	_	_	_	_	_	_	SpaceAfter=No
+35	ה	ה	DET	DET	Definite=Def|PronType=Art	36	det	_	_
+36	ישראלית	ישראלי	ADJ	ADJ	Gender=Fem|Number=Sing	32	amod	_	_
+37	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:62
+# doc_range = 268-508
+# sent_id = 1944
+# text = הכללים יגבילו את האפשרות להשתמש בתקינה כבמכשיר הגנה על התוצרת המקומית מפני היבוא בהתאם למדיניות החדשה שהנהיג משרד התעשייה והמסחר.
+1-2	הכללים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	כללים	כלל	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	יגבילו	הגביל	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+4	את	את	ADP	ADP	Case=Acc	6	case	_	_
+5-6	האפשרות	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	אפשרות	אפשרות	NOUN	NOUN	Gender=Fem|Number=Sing	3	obj	_	_
+7	להשתמש	השתמש	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	6	acl	_	_
+8-10	בתקינה	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	10	case	_	_
+9	ה_	ה	DET	DET	PronType=Art|Definite=Def	10	det	_	_
+10	תקינה	תקינה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
+11-13	כבמכשיר	_	_	_	_	_	_	_	_
+11	כ	כ	ADV	ADV	_	13	advmod	_	_
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	מכשיר	מכשיר	NOUN	NOUN	Definite=Cons	7	obl	_	_
+14	הגנה	הגנה	NOUN	NOUN	Gender=Fem|Number=Sing	13	compound:smixut	_	_
+15	על	על	ADP	ADP	_	17	case	_	_
+16-17	התוצרת	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	תוצרת	תוצרת	NOUN	NOUN	Gender=Fem|Number=Sing	14	nmod	_	_
+18-19	המקומית	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	מקומית	מקומי	ADJ	ADJ	Gender=Fem|Number=Sing	17	amod	_	_
+20	מפני	מפני	ADP	ADP	_	22	case	_	_
+21-22	היבוא	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	יבוא	ייבוא	NOUN	NOUN	Gender=Masc|Number=Sing	14	nmod	_	_
+23-24	בהתאם	_	_	_	_	_	_	_	_
+23	ב	ב	ADP	ADP	_	27	case	_	_
+24	התאם	התאם	NOUN	NOUN	Gender=Masc|Number=Sing	23	fixed	_	_
+25-27	למדיניות	_	_	_	_	_	_	_	_
+25	ל	ל	ADP	ADP	_	23	fixed	_	_
+26	ה_	ה	DET	DET	PronType=Art|Definite=Def	27	det	_	_
+27	מדיניות	מדיניות	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+28-29	החדשה	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	חדשה	חדש	ADJ	ADJ	Gender=Fem|Number=Sing	27	amod	_	_
+30-31	שהנהיג	_	_	_	_	_	_	_	_
+30	ש	ש	SCONJ	SCONJ	_	31	mark	_	_
+31	הנהיג	הנהיג	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	27	acl:relcl	_	_
+32	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	31	nsubj	_	_
+33-34	התעשייה	_	_	_	_	_	_	_	_
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	תעשייה	תעשייה	NOUN	NOUN	Gender=Fem|Number=Sing	32	compound:smixut	_	_
+35-37	והמסחר	_	_	_	_	_	_	_	SpaceAfter=No
+35	ו	ו	CCONJ	CCONJ	_	37	cc	_	_
+36	ה	ה	DET	DET	Definite=Def|PronType=Art	37	det	_	_
+37	מסחר	מסחר	NOUN	NOUN	Gender=Masc|Number=Sing	34	conj	_	_
+38	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:62
+# doc_range = 510-887
+# sent_id = 1945
+# text = יתר על כן, ל"הארץ" נודע כי במסגרת אימוץ המדיניות החדשה הורה יו"ר מכון התקנים, צבי אלון, למנכ"ל המכון, אלי הדר, לדווח לו על כל ניסיון מצד אחת מוועדות התקינה לעשות שימוש בתקינה כבמחסום להגנה על התוצרת המקומית.
+1	יתר	יתר	NOUN	NOUN	Gender=Masc|Number=Sing	10	advmod	_	_
+2	על	על	ADP	ADP	_	1	fixed	_	_
+3	כן	כן	PRON	PRON	Person=3|PronType=Dem	1	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	1	punct	_	_
+5-8	ל"הארץ	_	_	_	_	_	_	_	SpaceAfter=No
+5	ל	ל	ADP	ADP	_	8	case	_	_
+6	"	"	PUNCT	PUNCT	_	8	punct	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	ארץ	ארץ	PROPN	PROPN	_	10	obl	_	_
+9	"	"	PUNCT	PUNCT	_	8	punct	_	_
+10	נודע	נודע	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+11	כי	כי	SCONJ	SCONJ	_	19	mark	_	_
+12-13	במסגרת	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	14	case	_	_
+13	מסגרת	מסגרת	NOUN	NOUN	Gender=Fem|Number=Sing	12	fixed	_	_
+14	אימוץ	אימוץ	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	19	obl	_	_
+15-16	המדיניות	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	מדיניות	מדיניות	NOUN	NOUN	Gender=Fem|Number=Sing	14	compound:smixut	_	_
+17-18	החדשה	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	חדשה	חדש	ADJ	ADJ	Gender=Fem|Number=Sing	16	amod	_	_
+19	הורה	הורה	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	10	ccomp	_	_
+20	יו"ר	יו"ר	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	19	nsubj	_	_
+21	מכון	מכון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	20	compound:smixut	_	_
+22-23	התקנים	_	_	_	_	_	_	_	SpaceAfter=No
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	תקנים	תקן	NOUN	NOUN	Gender=Masc|Number=Plur	21	compound:smixut	_	_
+24	,	,	PUNCT	PUNCT	_	25	punct	_	_
+25	צבי	צבי	PROPN	PROPN	_	20	appos	_	_
+26	אלון	אלון	PROPN	PROPN	_	25	flat:name	_	SpaceAfter=No
+27	,	,	PUNCT	PUNCT	_	29	punct	_	_
+28-29	למנכ"ל	_	_	_	_	_	_	_	_
+28	ל	ל	ADP	ADP	_	29	case	_	_
+29	מנכ"ל	מנכ"ל	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	19	obl	_	_
+30-31	המכון	_	_	_	_	_	_	_	SpaceAfter=No
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	מכון	מכון	NOUN	NOUN	Gender=Masc|Number=Sing	29	compound:smixut	_	_
+32	,	,	PUNCT	PUNCT	_	33	punct	_	_
+33	אלי	אלי	PROPN	PROPN	_	29	appos	_	_
+34	הדר	הדר	PROPN	PROPN	_	33	flat:name	_	SpaceAfter=No
+35	,	,	PUNCT	PUNCT	_	36	punct	_	_
+36	לדווח	דיווח	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	19	xcomp	_	_
+37-38	לו	_	_	_	_	_	_	_	_
+37	ל	ל	ADP	ADP	_	38	case	_	_
+38	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	obl	_	_
+39	על	על	ADP	ADP	_	41	case	_	_
+40	כל	כול	DET	DET	Definite=Cons	41	det	_	_
+41	ניסיון	ניסיון	NOUN	NOUN	Gender=Masc|Number=Sing	36	obl	_	_
+42	מצד	מצד	ADP	ADP	_	45	case	_	_
+43	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	45	nummod	_	_
+44-45	מוועדות	_	_	_	_	_	_	_	_
+44	מ	מ	ADP	ADP	_	45	case	_	_
+45	וועדות	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	41	nmod	_	_
+46-47	התקינה	_	_	_	_	_	_	_	_
+46	ה	ה	DET	DET	Definite=Def|PronType=Art	47	det	_	_
+47	תקינה	תקינה	NOUN	NOUN	Gender=Fem|Number=Sing	45	compound:smixut	_	_
+48	לעשות	עשה	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	41	acl	_	_
+49	שימוש	שימוש	NOUN	NOUN	Gender=Masc|Number=Sing	48	obj	_	_
+50-52	בתקינה	_	_	_	_	_	_	_	_
+50	ב	ב	ADP	ADP	_	52	case	_	_
+51	ה_	ה	DET	DET	PronType=Art|Definite=Def	52	det	_	_
+52	תקינה	תקינה	NOUN	NOUN	Gender=Fem|Number=Sing	49	nmod	_	_
+53-55	כבמחסום	_	_	_	_	_	_	_	_
+53	כ	כ	ADP	ADP	_	55	case	_	_
+54	ב	ב	ADP	ADP	_	55	case	_	_
+55	מחסום	מחסום	NOUN	NOUN	_	49	nmod	_	_
+56-57	להגנה	_	_	_	_	_	_	_	_
+56	ל	ל	ADP	ADP	_	57	case	_	_
+57	הגנה	הגנה	NOUN	NOUN	Gender=Fem|Number=Sing	55	nmod	_	_
+58	על	על	ADP	ADP	_	60	case	_	_
+59-60	התוצרת	_	_	_	_	_	_	_	_
+59	ה	ה	DET	DET	Definite=Def|PronType=Art	60	det	_	_
+60	תוצרת	תוצרת	NOUN	NOUN	Gender=Fem|Number=Sing	57	nmod	_	_
+61-62	המקומית	_	_	_	_	_	_	_	SpaceAfter=No
+61	ה	ה	DET	DET	Definite=Def|PronType=Art	62	det	_	_
+62	מקומית	מקומי	ADJ	ADJ	Gender=Fem|Number=Sing	60	amod	_	_
+63	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:62
+# doc_range = 889-1146
+# sent_id = 1946
+# text = השינויים בכללים נעשו במסגרת פעולות שונות שנוקט מכון התקנים לצורך התאמת התקינה הישראלית לתקינה האירופית, לקראת איחודה הכלכלי של אירופה ב1992.
+1-2	השינויים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	שינויים	שינוי	NOUN	NOUN	Gender=Masc|Number=Plur	6	nsubj	_	_
+3-5	בכללים	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	5	case	_	_
+4	ה_	ה	DET	DET	PronType=Art|Definite=Def	5	det	_	_
+5	כללים	כלל	NOUN	NOUN	Gender=Masc|Number=Plur	2	nmod	_	_
+6	נעשו	נעשה	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+7-8	במסגרת	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	9	case	_	_
+8	מסגרת	מסגרת	NOUN	NOUN	Gender=Fem|Number=Sing	7	fixed	_	_
+9	פעולות	פעולה	NOUN	NOUN	Gender=Fem|Number=Plur	6	obl	_	_
+10	שונות	שונה	ADJ	ADJ	Gender=Fem|Number=Plur	9	amod	_	_
+11-12	שנוקט	_	_	_	_	_	_	_	_
+11	ש	ש	SCONJ	SCONJ	_	12	mark	_	_
+12	נוקט	נקט	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	9	acl:relcl	_	_
+13	מכון	מכון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	nsubj	_	_
+14-15	התקנים	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	תקנים	תקן	NOUN	NOUN	Gender=Masc|Number=Plur	13	compound:smixut	_	_
+16-17	לצורך	_	_	_	_	_	_	_	_
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	צורך	צורך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	obl	_	_
+18	התאמת	התאמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	17	compound:smixut	_	_
+19-20	התקינה	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	תקינה	תקינה	NOUN	NOUN	Gender=Fem|Number=Sing	18	compound:smixut	_	_
+21-22	הישראלית	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	ישראלית	ישראלי	ADJ	ADJ	Gender=Fem|Number=Sing	20	amod	_	_
+23-25	לתקינה	_	_	_	_	_	_	_	_
+23	ל	ל	ADP	ADP	_	25	case	_	_
+24	ה_	ה	DET	DET	PronType=Art|Definite=Def	25	det	_	_
+25	תקינה	תקינה	NOUN	NOUN	Gender=Fem|Number=Sing	18	nmod	_	_
+26-27	האירופית	_	_	_	_	_	_	_	SpaceAfter=No
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	אירופית	אירופי	ADJ	ADJ	Gender=Fem|Number=Sing	25	nmod	_	_
+28	,	,	PUNCT	PUNCT	_	30	punct	_	_
+29	לקראת	לקראת	ADP	ADP	_	30	case	_	_
+30-32	איחודה	_	_	_	_	_	_	_	_
+30	איחוד	איחוד	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
+31	_של_	של	ADP	ADP	Case=Gen	32	case:gen	_	_
+32	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+33-34	הכלכלי	_	_	_	_	_	_	_	_
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	כלכלי	כלכלי	ADJ	ADJ	Gender=Masc|Number=Sing	30	amod	_	_
+35	של	של	ADP	ADP	Case=Gen	36	case	_	_
+36	אירופה	אירופה	PROPN	PROPN	_	30	nmod:poss	_	_
+37-38	ב1992	_	_	_	_	_	_	_	SpaceAfter=No
+37	ב	ב	ADP	ADP	_	38	case	_	_
+38	1992	1992	NUM	NUM	_	30	nmod	_	_
+39	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:62
+# doc_range = 1148-1448
+# sent_id = 1947
+# text = כללים אלה גם יאפשרו למכון לבדוק את מערך ועדות התקינה בישראל במקביל למערך ועדות תקינה בין-לאומיות, ולהגביר את מעורבותו בהשוואת תקנים ישראלים לתקנים הבין-לאומיים.
+1	כללים	כלל	NOUN	NOUN	Gender=Masc|Number=Plur	4	nsubj	_	_
+2	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	1	det	_	_
+3	גם	גם	ADV	ADV	_	4	advmod	_	_
+4	יאפשרו	אפשר	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+5-7	למכון	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	7	case	_	_
+6	ה_	ה	DET	DET	PronType=Art|Definite=Def	7	det	_	_
+7	מכון	מכון	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+8	לבדוק	בדק	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+9	את	את	ADP	ADP	Case=Acc	10	case	_	_
+10	מערך	מערך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	obj	_	_
+11	ועדות	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	10	compound:smixut	_	_
+12-13	התקינה	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	תקינה	תקינה	NOUN	NOUN	Gender=Fem|Number=Sing	11	compound:smixut	_	_
+14-15	בישראל	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	ישראל	ישראל	PROPN	PROPN	_	11	nmod	_	_
+16	במקביל	במקביל	ADP	ADP	_	18	case	_	_
+17-18	למערך	_	_	_	_	_	_	_	_
+17	ל	ל	ADP	ADP	_	16	fixed	_	_
+18	מערך	מערך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	obl	_	_
+19	ועדות	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	18	compound:smixut	_	_
+20	תקינה	תקינה	NOUN	NOUN	Gender=Fem|Number=Sing	19	compound:smixut	_	_
+21	בין	בין	ADV	ADV	Prefix=Yes	23	compound:affix	_	SpaceAfter=No
+22	-	-	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No
+23	לאומיות	לאומי	ADJ	ADJ	Gender=Fem|Number=Plur	19	amod	_	SpaceAfter=No
+24	,	,	PUNCT	PUNCT	_	26	punct	_	_
+25-26	ולהגביר	_	_	_	_	_	_	_	_
+25	ו	ו	CCONJ	CCONJ	_	26	cc	_	_
+26	להגביר	הגביר	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	8	conj	_	_
+27	את	את	ADP	ADP	Case=Acc	28	case	_	_
+28-30	מעורבותו	_	_	_	_	_	_	_	_
+28	מעורבות	מעורבות	NOUN	NOUN	Gender=Fem|Number=Sing	26	obj	_	_
+29	_של_	של	ADP	ADP	Case=Gen	30	case:gen	_	_
+30	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+31-32	בהשוואת	_	_	_	_	_	_	_	_
+31	ב	ב	ADP	ADP	_	32	case	_	_
+32	השוואת	השוואה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	28	nmod	_	_
+33	תקנים	תקן	NOUN	NOUN	Gender=Masc|Number=Plur	32	compound:smixut	_	_
+34	ישראלים	ישראלי	ADJ	ADJ	Gender=Masc|Number=Plur	33	amod	_	_
+35-37	לתקנים	_	_	_	_	_	_	_	_
+35	ל	ל	ADP	ADP	_	37	case	_	_
+36	ה_	ה	DET	DET	PronType=Art|Definite=Def	37	det	_	_
+37	תקנים	תקן	NOUN	NOUN	Gender=Masc|Number=Plur	32	nmod	_	_
+38-39	הבין	_	_	_	_	_	_	_	SpaceAfter=No
+38	ה	ה	DET	DET	Definite=Def|PronType=Art	41	det	_	_
+39	בין	בין	ADV	ADV	Prefix=Yes	41	compound:affix	_	_
+40	-	-	PUNCT	PUNCT	_	39	punct	_	SpaceAfter=No
+41	לאומיים	לאומי	ADJ	ADJ	Gender=Masc|Number=Plur	37	amod	_	SpaceAfter=No
+42	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:62
+# doc_range = 1451-1569
+# sent_id = 1948
+# text = במכון התקנים מאמינים שתהליך זה יהיה לטובת היצרנים והצרכנים כאחד.
+1-2	במכון	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	מכון	מכון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+3-4	התקנים	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	תקנים	תקן	NOUN	NOUN	Gender=Masc|Number=Plur	2	compound:smixut	_	_
+5	מאמינים	האמין	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+6-7	שתהליך	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	_	13	mark	_	_
+7	תהליך	תהליך	NOUN	NOUN	Gender=Masc|Number=Sing	13	nsubj	_	_
+8	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	det	_	_
+9	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	13	cop	_	_
+10-11	לטובת	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	13	case	_	_
+11	טובת	טובה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	10	fixed	_	_
+12-13	היצרנים	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	יצרנים	יצרן	NOUN	NOUN	Gender=Masc|Number=Plur	5	ccomp	_	_
+14-16	והצרכנים	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	צרכנים	צרכן	NOUN	NOUN	Gender=Masc|Number=Plur	13	conj	_	_
+17-18	כאחד	_	_	_	_	_	_	_	SpaceAfter=No
+17	כ	כ	ADV	ADV	_	13	advmod	_	_
+18	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	17	fixed	_	_
+19	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:62
+# doc_range = 1571-1742
+# sent_id = 1949
+# text = באחרונה, לנוכח המאמצים לסיים את הליכי התקינה לקראת 1992, פועל מכון התקנים לזירוז הליכי התקינה.
+1	באחרונה	באחרונה	ADV	ADV	_	14	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3	לנוכח	לנוכח	ADP	ADP	_	5	case	_	_
+4-5	המאמצים	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	מאמצים	מאמץ	NOUN	NOUN	Gender=Masc|Number=Plur	14	obl	_	_
+6	לסיים	סיים	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	5	acl	_	_
+7	את	את	ADP	ADP	Case=Acc	8	case	_	_
+8	הליכי	הליך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	6	obj	_	_
+9-10	התקינה	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	תקינה	תקינה	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound:smixut	_	_
+11	לקראת	לקראת	ADP	ADP	_	12	case	_	_
+12	1992	1992	NUM	NUM	_	6	obl	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	5	punct	_	_
+14	פועל	פעל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+15	מכון	מכון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	14	nsubj	_	_
+16-17	התקנים	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	תקנים	תקן	NOUN	NOUN	Gender=Masc|Number=Plur	15	compound:smixut	_	_
+18-19	לזירוז	_	_	_	_	_	_	_	_
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	זירוז	זירוז	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	14	obl	_	_
+20	הליכי	הליך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	19	compound:smixut	_	_
+21-22	התקינה	_	_	_	_	_	_	_	SpaceAfter=No
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	תקינה	תקינה	NOUN	NOUN	Gender=Fem|Number=Sing	20	compound:smixut	_	_
+23	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# doc_id = htb:62
+# doc_range = 1744-2010
+# sent_id = 1950
+# text = בכוונת מנהליו לקצר הליכים באמצעות העברת הדיונים בתקינה המוצעת מוועדת התקינה המרכזית לוועדות מומחים, שבהן יהיו נציגים ליצרנים, לצרכנים ולממשלה.
+1-2	בכוונת	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	כוונת	כוונה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	0	root	_	_
+3-5	מנהליו	_	_	_	_	_	_	_	_
+3	מנהל	מנהל	NOUN	NOUN	Gender=Masc|Number=Plur	2	compound:smixut	_	_
+4	_של_	של	ADP	ADP	Case=Gen	5	case:gen	_	_
+5	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+6	לקצר	קיצר	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+7	הליכים	הליך	NOUN	NOUN	Gender=Masc|Number=Plur	6	obj	_	_
+8	באמצעות	באמצעות	ADP	ADP	_	9	case	_	_
+9	העברת	העברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	obl	_	_
+10-11	הדיונים	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	דיונים	דיון	NOUN	NOUN	Gender=Masc|Number=Plur	9	compound:smixut	_	_
+12-14	בתקינה	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	14	case	_	_
+13	ה_	ה	DET	DET	PronType=Art|Definite=Def	14	det	_	_
+14	תקינה	תקינה	NOUN	NOUN	Gender=Fem|Number=Sing	11	nmod	_	_
+15-16	המוצעת	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	מוצעת	מוצע	ADJ	ADJ	Gender=Fem|Number=Sing	14	amod	_	_
+17-18	מוועדת	_	_	_	_	_	_	_	_
+17	מ	מ	ADP	ADP	_	18	case	_	_
+18	וועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	nmod	_	_
+19-20	התקינה	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	תקינה	תקינה	NOUN	NOUN	Gender=Fem|Number=Sing	18	compound:smixut	_	_
+21-22	המרכזית	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	מרכזית	מרכזי	ADJ	ADJ	Gender=Fem|Number=Sing	18	amod	_	_
+23-24	לוועדות	_	_	_	_	_	_	_	_
+23	ל	ל	ADP	ADP	_	24	case	_	_
+24	וועדות	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	9	nmod	_	_
+25	מומחים	מומחה	NOUN	NOUN	Gender=Masc|Number=Plur	24	compound:smixut	_	SpaceAfter=No
+26	,	,	PUNCT	PUNCT	_	30	punct	_	_
+27-29	שבהן	_	_	_	_	_	_	_	_
+27	ש	ש	SCONJ	SCONJ	_	30	mark	_	_
+28	ב	ב	ADP	ADP	_	29	case	_	_
+29	_הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	30	obl	_	_
+30	יהיו	היה	VERB	VERB	Gender=Fem,Masc|HebExistential=Yes|Number=Plur|Person=3|Polarity=Pos|Tense=Fut	24	acl:relcl	_	_
+31	נציגים	נציג	NOUN	NOUN	Gender=Masc|Number=Plur	30	nsubj	_	_
+32-34	ליצרנים	_	_	_	_	_	_	_	SpaceAfter=No
+32	ל	ל	ADP	ADP	_	34	case	_	_
+33	ה_	ה	DET	DET	PronType=Art|Definite=Def	34	det	_	_
+34	יצרנים	יצרן	NOUN	NOUN	Gender=Masc|Number=Plur	31	nmod	_	_
+35	,	,	PUNCT	PUNCT	_	38	punct	_	_
+36-38	לצרכנים	_	_	_	_	_	_	_	_
+36	ל	ל	ADP	ADP	_	38	case	_	_
+37	ה_	ה	DET	DET	PronType=Art|Definite=Def	38	det	_	_
+38	צרכנים	צרכן	NOUN	NOUN	Gender=Masc|Number=Plur	34	conj	_	_
+39-42	ולממשלה	_	_	_	_	_	_	_	SpaceAfter=No
+39	ו	ו	CCONJ	CCONJ	_	42	cc	_	_
+40	ל	ל	ADP	ADP	_	42	case	_	_
+41	ה_	ה	DET	DET	PronType=Art|Definite=Def	42	det	_	_
+42	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	34	conj	_	_
+43	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:62
+# doc_range = 2012-2129
+# sent_id = 1951
+# text = זאת, להבדיל מוועדות התקינה הרגילות, שבהן יש נציגות גם ליבואנים.
+1	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3	להבדיל	הבדיל	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	0	root	_	_
+4-5	מוועדות	_	_	_	_	_	_	_	_
+4	מ	מ	ADP	ADP	_	5	case	_	_
+5	וועדות	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	3	obl	_	_
+6-7	התקינה	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	תקינה	תקינה	NOUN	NOUN	Gender=Fem|Number=Sing	5	compound:smixut	_	_
+8-9	הרגילות	_	_	_	_	_	_	_	SpaceAfter=No
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	רגילות	רגיל	ADJ	ADJ	Gender=Fem|Number=Plur	5	amod	_	_
+10	,	,	PUNCT	PUNCT	_	14	punct	_	_
+11-13	שבהן	_	_	_	_	_	_	_	_
+11	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	_הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	14	obl	_	_
+14	יש	יש	VERB	VERB	HebExistential=Yes	5	acl:relcl	_	_
+15	נציגות	נציגות	NOUN	NOUN	Gender=Fem|Number=Sing	14	nsubj	_	_
+16	גם	גם	ADV	ADV	_	19	advmod	_	_
+17-19	ליבואנים	_	_	_	_	_	_	_	SpaceAfter=No
+17	ל	ל	ADP	ADP	_	19	case	_	_
+18	ה_	ה	DET	DET	PronType=Art|Definite=Def	19	det	_	_
+19	יבואנים	יבואן	NOUN	NOUN	Gender=Masc|Number=Plur	15	nmod	_	_
+20	.	.	PUNCT	PUNCT	_	3	punct	_	_
+

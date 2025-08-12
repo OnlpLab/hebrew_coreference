@@ -1,0 +1,408 @@
+# doc_id = htb:224
+# doc_range = 1-215
+# sent_id = 5553
+# text = שלושה שחקני מפתח של נבחרת הנערים פצועים וזה כמובן מטריד את המאמן גדעון כהן, לפני המשחק עם הונגריה בקדם אליפות אירופה.
+1	שלושה	שלוש	NUM	NUM	Gender=Masc|Number=Plur	2	nummod	_	_
+2	שחקני	שחקן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	8	nsubj	_	_
+3	מפתח	מפתח	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+4	של	של	ADP	ADP	Case=Gen	5	case	_	_
+5	נבחרת	נבחרת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	nmod:poss	_	_
+6-7	הנערים	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	נערים	נער	NOUN	NOUN	Gender=Masc|Number=Plur	5	compound:smixut	_	_
+8	פצועים	פצוע	ADJ	ADJ	Gender=Masc|Number=Plur	0	root	_	_
+9-10	וזה	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+10	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+11	כמובן	כמובן	ADV	ADV	_	12	advmod	_	_
+12	מטריד	הטריד	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	8	conj	_	_
+13	את	את	ADP	ADP	Case=Acc	15	case	_	_
+14-15	המאמן	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	מאמן	מאמן	NOUN	NOUN	Gender=Masc|Number=Sing	12	obj	_	_
+16	גדעון	גדעון	PROPN	PROPN	_	15	flat:name	_	_
+17	כהן	כהן	PROPN	PROPN	_	15	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	21	punct	_	_
+19	לפני	לפני	ADP	ADP	_	21	case	_	_
+20-21	המשחק	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
+22	עם	עם	ADP	ADP	_	23	case	_	_
+23	הונגריה	הונגריה	PROPN	PROPN	_	21	nmod	_	_
+24-25	בקדם	_	_	_	_	_	_	_	_
+24	ב	ב	ADP	ADP	_	26	case	_	_
+25	קדם	קדם	ADV	ADV	Prefix=Yes	26	compound:affix	_	_
+26	אליפות	אליפות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	21	nmod	_	_
+27	אירופה	אירופה	PROPN	PROPN	_	26	compound:smixut	_	SpaceAfter=No
+28	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:224
+# doc_range = 217-421
+# sent_id = 5554
+# text = המשחק שיהיה בהרצליה מחרתיים (41.03) הוא השני של נערי ישראל במסגרת זו, לאחר התיקו המחמיא 1 1 עם ברית המועצות בקישינב.
+1-2	המשחק	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	13	nsubj	_	_
+3-4	שיהיה	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
+4	יהיה	יהיה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	2	acl:relcl	_	_
+5-6	בהרצליה	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	הרצליה	הרצליה	PROPN	PROPN	_	4	obl	_	_
+7	מחרתיים	מחרתיים	ADV	ADV	_	4	advmod	_	_
+8	(	(	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+9	41.03	41.03	NUM	NUM	Case=Tem	7	fixed	_	SpaceAfter=No
+10	)	)	PUNCT	PUNCT	_	9	punct	_	_
+11	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	13	cop	_	_
+12-13	השני	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	שני	שני	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+14	של	של	ADP	ADP	Case=Gen	15	case	_	_
+15	נערי	נער	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	13	nmod	_	_
+16	ישראל	ישראל	PROPN	PROPN	_	15	compound:smixut	_	_
+17-18	במסגרת	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	_	18	case	_	_
+18	מסגרת	מסגרת	NOUN	NOUN	Gender=Fem|Number=Sing	13	nmod	_	_
+19	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	18	det	_	SpaceAfter=No
+20	,	,	PUNCT	PUNCT	_	23	punct	_	_
+21	לאחר	לאחר	ADP	ADP	_	23	case	_	_
+22-23	התיקו	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	תיקו	תיקו	NOUN	NOUN	Gender=Masc|Number=Sing	13	nmod	_	_
+24-25	המחמיא	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	מחמיא	החמיא	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	23	amod	_	_
+26	1	1	NUM	NUM	_	23	appos	_	_
+27	1	1	NUM	NUM	_	26	nummod	_	_
+28	עם	עם	ADP	ADP	_	29	case	_	_
+29	ברית	ברית	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	23	nmod	_	_
+30-31	המועצות	_	_	_	_	_	_	_	_
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	מועצות	מועצה	NOUN	NOUN	Gender=Fem|Number=Plur	29	compound:smixut	_	_
+32-33	בקישינב	_	_	_	_	_	_	_	SpaceAfter=No
+32	ב	ב	ADP	ADP	_	33	case	_	_
+33	קישינב	קישינב	PROPN	PROPN	_	23	nmod	_	_
+34	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# doc_id = htb:224
+# doc_range = 423-604
+# sent_id = 5555
+# text = בסגל שיתכנס מחר אחר הצהריים למחנה אימונים בשפיים 17 שחקנים, כולל מוזמן חדש שירן אדירי ממכבי תל אביב.
+1-3	בסגל	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	סגל	סגל	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+4-5	שיתכנס	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	5	mark	_	_
+5	יתכנס	התכנס	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Fut	3	acl:relcl	_	_
+6	מחר	מחר	ADV	ADV	_	5	advmod	_	_
+7	אחר	אחר	ADP	ADP	_	9	case	_	_
+8-9	הצהריים	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	צהריים	צהריים	NOUN	NOUN	Gender=Masc|Number=Plur	5	obl	_	_
+10-11	למחנה	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	11	case	_	_
+11	מחנה	מחנה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+12	אימונים	אימון	NOUN	NOUN	Gender=Masc|Number=Plur	11	compound:smixut	_	_
+13-14	בשפיים	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	שפיים	שפיים	PROPN	PROPN	_	11	nmod	_	_
+15	17	17	NUM	NUM	_	16	nummod	_	_
+16	שחקנים	שחקן	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	19	punct	_	_
+18	כולל	כלל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	19	case	_	_
+19	מוזמן	מוזמן	NOUN	NOUN	Gender=Masc|Number=Sing	16	nmod	_	_
+20	חדש	חדש	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	_
+21	שירן	שירן	PROPN	PROPN	_	19	appos	_	_
+22	אדירי	אדיר	PROPN	PROPN	_	21	flat:name	_	_
+23-24	ממכבי	_	_	_	_	_	_	_	_
+23	מ	מ	ADP	ADP	_	24	case	_	_
+24	מכבי	מכבי	PROPN	PROPN	_	19	nmod	_	_
+25	תל	תל	PROPN	PROPN	Definite=Cons	24	flat:name	_	_
+26	אביב	אביב	PROPN	PROPN	_	25	compound:smixut	_	SpaceAfter=No
+27	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:224
+# doc_range = 606-912
+# sent_id = 5556
+# text = שלושת הפצועים נמנים עם ההרכב הראשון: הקפטן תומר אזולאי (בית"ר ירושלים) המשחק בעמדת בלם אחורי, המגן הימני בהדגט עודה מהפועל פתח תקוה והקשר ערן בן שמחון מהפועל ירושלים.
+1	שלושת	שלושת	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	3	nummod	_	_
+2-3	הפצועים	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	פצועים	פצוע	NOUN	NOUN	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	נמנים	נמנה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	0	root	_	_
+5	עם	עם	ADP	ADP	_	7	case	_	_
+6-7	ההרכב	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	הרכב	הרכב	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+8-9	הראשון	_	_	_	_	_	_	_	SpaceAfter=No
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	ראשון	ראשון	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	_
+10	:	:	PUNCT	PUNCT	_	12	punct	_	_
+11-12	הקפטן	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	קפטן	קפטן	NOUN	NOUN	Gender=Masc|Number=Sing	7	appos	_	_
+13	תומר	תומר	PROPN	PROPN	_	12	flat:name	_	_
+14	אזולאי	אזולאי	PROPN	PROPN	_	12	flat:name	_	_
+15	(	(	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
+16	בית"ר	בית"ר	PROPN	PROPN	Abbr=Yes	12	appos	_	_
+17	ירושלים	ירושלים	PROPN	PROPN	_	16	flat:name	_	SpaceAfter=No
+18	)	)	PUNCT	PUNCT	_	16	punct	_	_
+19-20	המשחק	_	_	_	_	_	_	_	_
+19	ה	ה	SCONJ	SCONJ	_	20	mark	_	_
+20	משחק	שיחק	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	12	acl:relcl	_	_
+21-22	בעמדת	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	עמדת	עמדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	20	obl	_	_
+23	בלם	בלם	NOUN	NOUN	Gender=Masc|Number=Sing	22	compound:smixut	_	_
+24	אחורי	אחורי	ADJ	ADJ	Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
+25	,	,	PUNCT	PUNCT	_	27	punct	_	_
+26-27	המגן	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	מגן	מגן	NOUN	NOUN	Gender=Masc|Number=Sing	12	conj	_	_
+28-29	הימני	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	ימני	ימני	ADJ	ADJ	Gender=Masc|Number=Sing	27	amod	_	_
+30	בהדגט	בהדגט	PROPN	PROPN	_	27	appos	_	_
+31	עודה	עוד	PROPN	PROPN	_	30	flat:name	_	_
+32-34	מהפועל	_	_	_	_	_	_	_	_
+32	מ	מ	ADP	ADP	_	34	case	_	_
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	27	nmod	_	_
+35	פתח	פתח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	34	acl	_	_
+36	תקוה	תקוה	PROPN	PROPN	_	35	compound:smixut	_	_
+37-39	והקשר	_	_	_	_	_	_	_	_
+37	ו	ו	CCONJ	CCONJ	_	39	cc	_	_
+38	ה	ה	DET	DET	Definite=Def|PronType=Art	39	det	_	_
+39	קשר	קשר	NOUN	NOUN	Gender=Masc|Number=Sing	12	conj	_	_
+40	ערן	ערן	PROPN	PROPN	_	39	flat:name	_	_
+41	בן	בן	PROPN	PROPN	_	39	flat:name	_	_
+42	שמחון	שמחון	PROPN	PROPN	_	41	flat:name	_	_
+43-45	מהפועל	_	_	_	_	_	_	_	_
+43	מ	מ	ADP	ADP	_	45	case	_	_
+44	ה	ה	DET	DET	Definite=Def|PronType=Art	45	det	_	_
+45	פועל	פועל	PROPN	PROPN	_	39	nmod	_	_
+46	ירושלים	ירושלים	PROPN	PROPN	_	45	flat:name	_	SpaceAfter=No
+47	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:224
+# doc_range = 915-949
+# sent_id = 5557
+# text = "הפציעות אינן קלות.
+1	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+2-3	הפציעות	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	פציעות	פציעה	NOUN	NOUN	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	אינן	אינו	AUX	AUX	Gender=Fem|Number=Plur|Person=3|Polarity=Neg|VerbForm=Part	5	aux	_	_
+5	קלות	קל	ADJ	ADJ	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:224
+# doc_range = 951-1130
+# sent_id = 5558
+# text = הם היו פצועים כבר בשבוע שעבר, אך שיחקו בסוף השבוע ואף אחד מהשלושה לא סיים את המשחק", אמר גדעון כהן.
+1	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	היו	היו	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	3	cop	_	_
+3	פצועים	פצע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	30	advcl	_	_
+4	כבר	כבר	ADV	ADV	_	7	advmod	_	_
+5-7	בשבוע	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	7	case	_	_
+6	ה_	ה	DET	DET	PronType=Art|Definite=Def	7	det	_	_
+7	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+8-9	שעבר	_	_	_	_	_	_	_	SpaceAfter=No
+8	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
+9	עבר	עבר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	7	acl:relcl	_	_
+10	,	,	PUNCT	PUNCT	_	12	punct	_	_
+11	אך	אך	CCONJ	CCONJ	_	12	cc	_	_
+12	שיחקו	שיחק	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	3	conj	_	_
+13-14	בסוף	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	סוף	סוף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	obl	_	_
+15-16	השבוע	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	14	compound:smixut	_	_
+17-18	ואף	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	_	24	cc	_	_
+18	אף	אף	DET	DET	Definite=Cons	19	det	_	_
+19	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	24	nsubj	_	_
+20-22	מהשלושה	_	_	_	_	_	_	_	_
+20	מ	מ	ADP	ADP	_	22	case	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	שלושה	שלוש	NUM	NUM	Gender=Masc|Number=Plur	19	obl	_	_
+23	לא	לא	ADV	ADV	Polarity=Neg	24	advmod	_	_
+24	סיים	סיים	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	12	conj	_	_
+25	את	את	ADP	ADP	Case=Acc	27	case	_	_
+26-27	המשחק	_	_	_	_	_	_	_	SpaceAfter=No
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	24	obj	_	_
+28	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+29	,	,	PUNCT	PUNCT	_	3	punct	_	_
+30	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+31	גדעון	גדעון	PROPN	PROPN	_	30	nsubj	_	_
+32	כהן	כהן	PROPN	PROPN	_	31	flat:name	_	SpaceAfter=No
+33	.	.	PUNCT	PUNCT	_	30	punct	_	_
+
+# doc_id = htb:224
+# doc_range = 1133-1255
+# sent_id = 5559
+# text = גם כך מתוכנן לפחות שינוי אחד בהרכב הפותח לעומת ההרכב ששיחק בקישינב.
+1	גם	גם	ADV	ADV	_	2	advmod	_	_
+2	כך	כך	ADV	ADV	_	3	advmod	_	_
+3	מתוכנן	תוכנן	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+4	לפחות	לפחות	ADV	ADV	_	5	advmod	_	_
+5	שינוי	שינוי	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+6	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	5	nummod	_	_
+7-9	בהרכב	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	9	case	_	_
+8	ה_	ה	DET	DET	PronType=Art|Definite=Def	9	det	_	_
+9	הרכב	הרכב	NOUN	NOUN	Gender=Masc|Number=Sing	5	nmod	_	_
+10-11	הפותח	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	פותח	פתח	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	9	amod	_	_
+12	לעומת	לעומת	ADP	ADP	_	14	case	_	_
+13-14	ההרכב	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	הרכב	הרכב	NOUN	NOUN	Gender=Masc|Number=Sing	5	nmod	_	_
+15-16	ששיחק	_	_	_	_	_	_	_	_
+15	ש	ש	SCONJ	SCONJ	_	16	mark	_	_
+16	שיחק	שיחק	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	14	acl:relcl	_	_
+17-18	בקישינב	_	_	_	_	_	_	_	SpaceAfter=No
+17	ב	ב	ADP	ADP	_	18	case	_	_
+18	קישינב	קישינב	PROPN	PROPN	_	16	obl	_	_
+19	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:224
+# doc_range = 1258-1376
+# sent_id = 5560
+# text = המאמן כהן מתייחס ברצינות רבה להונגרים העומדים להגיע היום לישראל.
+1-2	המאמן	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מאמן	מאמן	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	כהן	כהן	PROPN	PROPN	_	2	flat:name	_	_
+4	מתייחס	התייחס	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+5-6	ברצינות	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	רצינות	רצינות	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+7	רבה	רב	ADJ	ADJ	Gender=Fem|Number=Sing	6	amod	_	_
+8-10	להונגרים	_	_	_	_	_	_	_	_
+8	ל	ל	ADP	ADP	_	10	case	_	_
+9	ה_	ה	DET	DET	PronType=Art|Definite=Def	10	det	_	_
+10	הונגרים	הונגרי	ADJ	ADJ	Gender=Masc|Number=Plur	4	obl	_	_
+11-12	העומדים	_	_	_	_	_	_	_	_
+11	ה	ה	SCONJ	SCONJ	_	12	mark	_	_
+12	עומדים	עמד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	10	acl:relcl	_	_
+13	להגיע	הגיע	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	היום	היום	ADV	ADV	_	13	advmod	_	_
+15-16	לישראל	_	_	_	_	_	_	_	SpaceAfter=No
+15	ל	ל	ADP	ADP	_	16	case	_	_
+16	ישראל	ישראל	PROPN	PROPN	_	13	obl	_	_
+17	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:224
+# doc_range = 1379-1624
+# sent_id = 5561
+# text = "הם אולי לא חזקים כמו ברית המועצות, אך יש להם נבחרת טובה והיא תבוא לנצח, כי כל תוצאה אחרת תוציא אותה מהתמונה (אחרי ההפסד לברית המועצות).
+1	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+2	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+3	אולי	אולי	ADV	ADV	_	5	advmod	_	_
+4	לא	לא	ADV	ADV	Polarity=Neg	5	advmod	_	_
+5	חזקים	חזק	ADJ	ADJ	Gender=Masc|Number=Plur	0	root	_	_
+6	כמו	כמו	ADP	ADP	_	7	case	_	_
+7	ברית	ברית	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	obl	_	_
+8-9	המועצות	_	_	_	_	_	_	_	SpaceAfter=No
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	מועצות	מועצה	NOUN	NOUN	Gender=Fem|Number=Plur	7	compound:smixut	_	_
+10	,	,	PUNCT	PUNCT	_	12	punct	_	_
+11	אך	אך	CCONJ	CCONJ	_	12	cc	_	_
+12	יש	יש	VERB	VERB	HebExistential=Yes	5	conj	_	_
+13-14	להם	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	obl	_	_
+15	נבחרת	נבחרת	NOUN	NOUN	Gender=Fem|Number=Sing	12	nsubj	_	_
+16	טובה	טוב	ADJ	ADJ	Gender=Fem|Number=Sing	15	amod	_	_
+17-18	והיא	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+18	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	תבוא	בא	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	12	conj	_	_
+20	לנצח	ניצח	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	19	xcomp	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	26	punct	_	_
+22	כי	כי	SCONJ	SCONJ	_	26	mark	_	_
+23	כל	כול	DET	DET	Definite=Cons	24	det	_	_
+24	תוצאה	תוצאה	NOUN	NOUN	Gender=Fem|Number=Sing	26	nsubj	_	_
+25	אחרת	אחר	ADJ	ADJ	Gender=Fem|Number=Sing	24	amod	_	_
+26	תוציא	הוציא	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	19	advcl	_	_
+27-28	אותה	_	_	_	_	_	_	_	_
+27	את	את	ADP	ADP	Case=Acc	28	case	_	_
+28	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
+29-31	מהתמונה	_	_	_	_	_	_	_	_
+29	מ	מ	ADP	ADP	_	31	case	_	_
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	תמונה	תמונה	NOUN	NOUN	Gender=Fem|Number=Sing	26	obl	_	_
+32	(	(	PUNCT	PUNCT	_	35	punct	_	SpaceAfter=No
+33	אחרי	אחרי	ADP	ADP	_	35	case	_	_
+34-35	ההפסד	_	_	_	_	_	_	_	_
+34	ה	ה	DET	DET	Definite=Def|PronType=Art	35	det	_	_
+35	הפסד	הפסד	NOUN	NOUN	Gender=Masc|Number=Sing	26	obl	_	_
+36-37	לברית	_	_	_	_	_	_	_	_
+36	ל	ל	ADP	ADP	_	37	case	_	_
+37	ברית	ברית	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	35	nmod	_	_
+38-39	המועצות	_	_	_	_	_	_	_	SpaceAfter=No
+38	ה	ה	DET	DET	Definite=Def|PronType=Art	39	det	_	_
+39	מועצות	מועצה	NOUN	NOUN	Gender=Fem|Number=Plur	37	compound:smixut	_	_
+40	)	)	PUNCT	PUNCT	_	35	punct	_	SpaceAfter=No
+41	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:224
+# doc_range = 1629-1738
+# sent_id = 5562
+# text = הם ניצחו אותנו 4 0 בטורניר שהיה בקיץ, והמטרה שלנו תהיה ניצחון.
+1	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	ניצחו	ניצח	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3-4	אותנו	_	_	_	_	_	_	_	_
+3	את	את	ADP	ADP	Case=Acc	4	case	_	_
+4	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	2	obj	_	_
+5	4	4	NUM	NUM	_	2	dep	_	_
+6	0	0	NUM	NUM	_	5	nummod	_	_
+7-9	בטורניר	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	9	case	_	_
+8	ה_	ה	DET	DET	PronType=Art|Definite=Def	9	det	_	_
+9	טורניר	טורניר	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+10-11	שהיה	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	11	mark	_	_
+11	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	9	acl:relcl	_	_
+12-14	בקיץ	_	_	_	_	_	_	_	SpaceAfter=No
+12	ב	ב	ADP	ADP	_	14	case	_	_
+13	ה_	ה	DET	DET	PronType=Art|Definite=Def	14	det	_	_
+14	קיץ	קיץ	NOUN	NOUN	Gender=Masc|Number=Sing	11	obl	_	_
+15	,	,	PUNCT	PUNCT	_	22	punct	_	_
+16-18	והמטרה	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	22	cc	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	מטרה	מטרה	NOUN	NOUN	Gender=Fem|Number=Sing	22	nsubj	_	_
+19-20	שלנו	_	_	_	_	_	_	_	_
+19	של	של	ADP	ADP	Case=Gen	20	case	_	_
+20	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+21	תהיה	תהיה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	22	cop	_	_
+22	ניצחון	ניצחון	NOUN	NOUN	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:224
+# doc_range = 1740-1819
+# sent_id = 5563
+# text = נראה איך להתמודד עם המהירות שלהם", אמר כהן.
+1	נראה	ראה	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=1|Tense=Fut	11	ccomp	_	_
+2	איך	איך	ADV	ADV	PronType=Int	3	advmod	_	_
+3	להתמודד	התמודד	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	1	xcomp	_	_
+4	עם	עם	ADP	ADP	_	6	case	_	_
+5-6	המהירות	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	מהירות	מהירות	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+7-8	שלהם	_	_	_	_	_	_	_	SpaceAfter=No
+7	של	של	ADP	ADP	Case=Gen	8	case	_	_
+8	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+9	"	"	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	1	punct	_	_
+11	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+12	כהן	כהן	PROPN	PROPN	_	11	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	11	punct	_	_
+

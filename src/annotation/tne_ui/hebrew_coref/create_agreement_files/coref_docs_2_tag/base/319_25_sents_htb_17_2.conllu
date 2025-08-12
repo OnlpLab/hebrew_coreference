@@ -1,0 +1,1008 @@
+# doc_id = htb:17_2
+# doc_range = 2550-2702
+# sent_id = 596
+# text = "קיטש ומוות", מכנה שגב את מה שראה, תוך שהוא מצטרף בכך לרשימה ארוכה וצפופה של כותבים.
+1	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+2	קיטש	קיטש	NOUN	NOUN	Gender=Masc|Number=Sing	7	obj	_	_
+3-4	ומוות	_	_	_	_	_	_	_	SpaceAfter=No
+3	ו	ו	CCONJ	CCONJ	_	4	cc	_	_
+4	מוות	מוות	NOUN	NOUN	Gender=Masc|Number=Sing	2	conj	_	_
+5	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	2	punct	_	_
+7	מכנה	כינה	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+8	שגב	שגב	PROPN	PROPN	_	7	nsubj	_	_
+9	את	את	ADP	ADP	Case=Acc	10	case	_	_
+10	מה	מה	PRON	PRON	PronType=Int	7	obj	_	_
+11-12	שראה	_	_	_	_	_	_	_	SpaceAfter=No
+11	ש	ש	SCONJ	SCONJ	_	12	mark	_	_
+12	ראה	ראה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	10	acl:relcl	_	_
+13	,	,	PUNCT	PUNCT	_	17	punct	_	_
+14	תוך	תוך	ADP	ADP	_	17	case	_	_
+15-16	שהוא	_	_	_	_	_	_	_	_
+15	ש	ש	SCONJ	SCONJ	_	17	mark	_	_
+16	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+17	מצטרף	הצטרף	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	7	obl	_	_
+18-19	בכך	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	19	case	_	_
+19	כך	כך	PRON	PRON	Person=3|PronType=Dem	17	obl	_	_
+20-21	לרשימה	_	_	_	_	_	_	_	_
+20	ל	ל	ADP	ADP	_	21	case	_	_
+21	רשימה	רשימה	NOUN	NOUN	Gender=Fem|Number=Sing	17	obl	_	_
+22	ארוכה	ארוך	ADJ	ADJ	Gender=Fem|Number=Sing	21	amod	_	_
+23-24	וצפופה	_	_	_	_	_	_	_	_
+23	ו	ו	CCONJ	CCONJ	_	24	cc	_	_
+24	צפופה	צפוף	ADJ	ADJ	Gender=Fem|Number=Sing	22	conj	_	_
+25	של	של	ADP	ADP	Case=Gen	26	case	_	_
+26	כותבים	כותב	NOUN	NOUN	Gender=Masc|Number=Plur	21	nmod:poss	_	SpaceAfter=No
+27	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:17_2
+# doc_range = 2704-2893
+# sent_id = 597
+# text = מאז קבע פרופסור שאול פרידלנדר את הצירוף הלשוני הזה ככותרת לאחד מספריו, הוא הפך שכיח בעיתונות הישראלית.
+1-2	מאז	_	_	_	_	_	_	_	_
+1	מ	מ	ADP	ADP	_	3	case	_	_
+2	אז	אז	ADV	ADV	_	1	fixed	_	_
+3	קבע	קבע	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	25	obl	_	_
+4	פרופסור	פרופסור	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+5	שאול	שאול	PROPN	PROPN	_	4	flat:name	_	_
+6	פרידלנדר	פרידלנדר	PROPN	PROPN	_	4	flat:name	_	_
+7	את	את	ADP	ADP	Case=Acc	9	case	_	_
+8-9	הצירוף	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	צירוף	צירוף	NOUN	NOUN	Gender=Masc|Number=Sing	3	obj	_	_
+10-11	הלשוני	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	לשוני	לשוני	ADJ	ADJ	Gender=Masc|Number=Sing	9	amod	_	_
+12-13	הזה	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	det	_	_
+14-15	ככותרת	_	_	_	_	_	_	_	_
+14	כ	כ	ADP	ADP	_	15	case	_	_
+15	כותרת	כותרת	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+16-17	לאחד	_	_	_	_	_	_	_	_
+16	ל	ל	ADP	ADP	_	19	case	_	_
+17	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	19	nummod	_	_
+18-21	מספריו	_	_	_	_	_	_	_	SpaceAfter=No
+18	מ	מ	ADP	ADP	_	19	case	_	_
+19	ספר	ספר	NOUN	NOUN	Gender=Masc|Number=Plur	15	nmod	_	_
+20	_של_	של	ADP	ADP	Case=Gen	21	case:gen	_	_
+21	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+22	,	,	PUNCT	PUNCT	_	3	punct	_	_
+23	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+24	הפך	הפך	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Tense=Past	25	aux	_	_
+25	שכיח	שכיח	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
+26-28	בעיתונות	_	_	_	_	_	_	_	_
+26	ב	ב	ADP	ADP	_	28	case	_	_
+27	ה_	ה	DET	DET	PronType=Art|Definite=Def	28	det	_	_
+28	עיתונות	עיתונות	NOUN	NOUN	Gender=Fem|Number=Sing	25	obl	_	_
+29-30	הישראלית	_	_	_	_	_	_	_	SpaceAfter=No
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	ישראלית	ישראלי	ADJ	ADJ	Gender=Fem|Number=Sing	28	amod	_	_
+31	.	.	PUNCT	PUNCT	_	25	punct	_	_
+
+# doc_id = htb:17_2
+# doc_range = 2895-3093
+# sent_id = 598
+# text = אלא שכוונתו המקורית של פרידלנדר שונה לחלוטין, ודומה שאף הפוכה ברוחה, מן השימוש הפופולרי שעושים בו עיתונאים.
+1	אלא	אלא	CCONJ	CCONJ	_	10	cc	_	_
+2-5	שכוונתו	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	10	mark	_	_
+3	כוונה	כוונה	NOUN	NOUN	Gender=Fem|Number=Sing	10	nsubj	_	_
+4	_של_	של	ADP	ADP	Case=Gen	5	case:gen	_	_
+5	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+6-7	המקורית	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	מקורית	מקורי	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	_
+8	של	של	ADP	ADP	Case=Gen	9	case	_	_
+9	פרידלנדר	פרידלנדר	PROPN	PROPN	_	3	nmod	_	_
+10	שונה	שונה	ADJ	ADJ	Gender=Fem|Number=Sing	0	root	_	_
+11	לחלוטין	לחלוטין	ADV	ADV	_	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	13	punct	_	_
+13-14	ודומה	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	_	10	parataxis	_	_
+14	דומה	דמה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	13	dep	_	HebSource=ConvUncertainHead
+15-16	שאף	_	_	_	_	_	_	_	_
+15	ש	ש	SCONJ	SCONJ	_	17	mark	_	_
+16	אף	אף	ADV	ADV	_	17	advmod	_	_
+17	הפוכה	הפוך	ADJ	ADJ	Gender=Fem|Number=Sing	14	ccomp	_	_
+18-21	ברוחה	_	_	_	_	_	_	_	SpaceAfter=No
+18	ב	ב	ADP	ADP	_	19	case	_	_
+19	רוח	רוח	NOUN	NOUN	Gender=Fem|Number=Sing	17	obl	_	_
+20	_של_	של	ADP	ADP	Case=Gen	21	case:gen	_	_
+21	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+22	,	,	PUNCT	PUNCT	_	13	punct	_	_
+23	מן	מן	ADP	ADP	_	25	case	_	_
+24-25	השימוש	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	שימוש	שימוש	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
+26-27	הפופולרי	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	פופולרי	פופולרי	ADJ	ADJ	Gender=Masc|Number=Sing	25	amod	_	_
+28-29	שעושים	_	_	_	_	_	_	_	_
+28	ש	ש	SCONJ	SCONJ	_	29	mark	_	_
+29	עושים	עשה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	25	acl:relcl	_	_
+30-31	בו	_	_	_	_	_	_	_	_
+30	ב	ב	ADP	ADP	_	31	case	_	_
+31	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	obl	_	_
+32	עיתונאים	עיתונאי	NOUN	NOUN	Gender=Masc|Number=Plur	29	nsubj	_	SpaceAfter=No
+33	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:17_2
+# doc_range = 3095-3265
+# sent_id = 599
+# text = פרידלנדר עסק בהשתקפות ההוויה הנאצית באגפים השונים של התרבות שלאחר השואה, שאותה כינה "קיטש".
+1	פרידלנדר	פרידלנדר	PROPN	PROPN	_	2	nsubj	_	_
+2	עסק	עסק	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3-4	בהשתקפות	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	השתקפות	השתקפות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	obl	_	_
+5-6	ההוויה	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	הוויה	הוויה	NOUN	NOUN	Gender=Fem|Number=Sing	4	compound:smixut	_	_
+7-8	הנאצית	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	נאצית	נאצי	ADJ	ADJ	Gender=Fem|Number=Sing	6	amod	_	_
+9-11	באגפים	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	11	case	_	_
+10	ה_	ה	DET	DET	PronType=Art|Definite=Def	11	det	_	_
+11	אגפים	אגף	NOUN	NOUN	Gender=Masc|Number=Plur	4	nmod	_	_
+12-13	השונים	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	שונים	שונה	ADJ	ADJ	Gender=Masc|Number=Plur	11	amod	_	_
+14	של	של	ADP	ADP	Case=Gen	16	case	_	_
+15-16	התרבות	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	תרבות	תרבות	NOUN	NOUN	Gender=Fem|Number=Sing	11	nmod	_	_
+17-18	שלאחר	_	_	_	_	_	_	_	_
+17	ש	ש	SCONJ	SCONJ	_	20	mark	_	_
+18	לאחר	לאחר	ADP	ADP	_	20	case	_	_
+19-20	השואה	_	_	_	_	_	_	_	SpaceAfter=No
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	שואה	שואה	NOUN	NOUN	Gender=Fem|Number=Sing	16	acl:relcl	_	_
+21	,	,	PUNCT	PUNCT	_	25	punct	_	_
+22-24	שאותה	_	_	_	_	_	_	_	_
+22	ש	ש	SCONJ	SCONJ	_	25	mark	_	_
+23	אותו	אותו	ADP	ADP	Definite=Def|PronType=Art	24	case	_	_
+24	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
+25	כינה	כינה	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	16	acl:relcl	_	_
+26	"	"	PUNCT	PUNCT	_	27	punct	_	SpaceAfter=No
+27	קיטש	קיטש	NOUN	NOUN	Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No
+28	"	"	PUNCT	PUNCT	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:17_2
+# doc_range = 3267-3509
+# sent_id = 600
+# text = הוא השתמש בצירוף "קיטש ומוות" כדי לחדד את הפער שבין האופי הפופולרי הרדוד של השיקוף האמנותי לבין האפלה האיומה של המציאות הנאצית עצמה.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	השתמש	השתמש	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+3-5	בצירוף	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	5	case	_	_
+4	ה_	ה	DET	DET	PronType=Art|Definite=Def	5	det	_	_
+5	צירוף	צירוף	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+6	"	"	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
+7	קיטש	קיטש	NOUN	NOUN	Gender=Masc|Number=Sing	5	appos	_	_
+8-9	ומוות	_	_	_	_	_	_	_	SpaceAfter=No
+8	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+9	מוות	מוות	NOUN	NOUN	Gender=Masc|Number=Sing	7	conj	_	_
+10	"	"	PUNCT	PUNCT	_	7	punct	_	_
+11	כדי	כדי	SCONJ	SCONJ	_	12	mark	_	_
+12	לחדד	חידד	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	2	advcl	_	_
+13	את	את	ADP	ADP	Case=Acc	15	case	_	_
+14-15	הפער	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	פער	פער	NOUN	NOUN	Gender=Masc|Number=Sing	12	obj	_	_
+16-17	שבין	_	_	_	_	_	_	_	_
+16	ש	ש	SCONJ	SCONJ	_	19	mark	_	_
+17	בין	בין	ADP	ADP	_	19	case	_	_
+18-19	האופי	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	אופי	אופי	NOUN	NOUN	Gender=Masc|Number=Sing	15	acl:relcl	_	_
+20-21	הפופולרי	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	פופולרי	פופולרי	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	_
+22-23	הרדוד	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	רדוד	רדוד	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	_
+24	של	של	ADP	ADP	Case=Gen	26	case	_	_
+25-26	השיקוף	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	שיקוף	שיקוף	NOUN	NOUN	Gender=Masc|Number=Sing	19	nmod	_	_
+27-28	האמנותי	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	אמנותי	אמנותי	ADJ	ADJ	Gender=Masc|Number=Sing	26	amod	_	_
+29	לבין	לבין	ADP	ADP	_	31	case	_	_
+30-31	האפלה	_	_	_	_	_	_	_	_
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	אפלה	אפלה	NOUN	NOUN	Gender=Fem|Number=Sing	19	conj	_	_
+32-33	האיומה	_	_	_	_	_	_	_	_
+32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
+33	איומה	איום	ADJ	ADJ	Gender=Fem|Number=Sing	31	amod	_	_
+34	של	של	ADP	ADP	Case=Gen	36	case	_	_
+35-36	המציאות	_	_	_	_	_	_	_	_
+35	ה	ה	DET	DET	Definite=Def|PronType=Art	36	det	_	_
+36	מציאות	מציאות	NOUN	NOUN	Gender=Fem|Number=Sing	31	nmod	_	_
+37-38	הנאצית	_	_	_	_	_	_	_	_
+37	ה	ה	DET	DET	Definite=Def|PronType=Art	38	det	_	_
+38	נאצית	נאצי	ADJ	ADJ	Gender=Fem|Number=Sing	36	amod	_	_
+39	עצמה	עצמו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Emp|Reflex=Yes	36	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:17_2
+# doc_range = 3512-3634
+# sent_id = 601
+# text = מה בין זה לבין גינוי ציני לאופן שבו צאצאי הקורבנות מתייחדים עם זכרם?
+1	מה	מה	PRON	PRON	PronType=Int	3	nsubj	_	_
+2	בין	בין	ADP	ADP	_	3	case	_	_
+3	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	0	root	_	_
+4	לבין	לבין	ADP	ADP	_	5	case	_	_
+5	גינוי	גינוי	NOUN	NOUN	Gender=Masc|Number=Sing	3	conj	_	_
+6	ציני	ציני	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	_
+7-9	לאופן	_	_	_	_	_	_	_	_
+7	ל	ל	ADP	ADP	_	9	case	_	_
+8	ה_	ה	DET	DET	PronType=Art|Definite=Def	9	det	_	_
+9	אופן	אופן	NOUN	NOUN	Gender=Masc|Number=Sing	5	nmod	_	_
+10-12	שבו	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	16	mark	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obl	_	_
+13	צאצאי	צאצא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	16	nsubj	_	_
+14-15	הקורבנות	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	קורבנות	קורבן	NOUN	NOUN	Gender=Masc|Number=Plur	13	compound:smixut	_	_
+16	מתייחדים	התייחד	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	9	acl:relcl	_	_
+17	עם	עם	ADP	ADP	_	18	case	_	_
+18-20	זכרם	_	_	_	_	_	_	_	SpaceAfter=No
+18	זכר	זכר	NOUN	NOUN	Gender=Masc|Number=Sing	16	obl	_	_
+19	_של_	של	ADP	ADP	Case=Gen	20	case:gen	_	_
+20	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+21	?	?	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:17_2
+# doc_range = 3638-3826
+# sent_id = 602
+# text = ומאמר מוסגר: הצירוף "קיטש ומוות" אינו מאפיין בפובליציסטיקה הישראלית הנוכחית רק את טקסי הזיכרון לשואה.
+1-2	ומאמר	_	_	_	_	_	_	_	_
+1	ו	ו	CCONJ	CCONJ	_	2	cc	_	_
+2	מאמר	מאמר	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+3	מוסגר	הוסגר	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Pass	2	amod	_	SpaceAfter=No
+4	:	:	PUNCT	PUNCT	_	13	punct	_	_
+5-6	הצירוף	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	צירוף	צירוף	NOUN	NOUN	Gender=Masc|Number=Sing	13	nsubj	_	_
+7	"	"	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+8	קיטש	קיטש	NOUN	NOUN	Gender=Masc|Number=Sing	6	appos	_	_
+9-10	ומוות	_	_	_	_	_	_	_	SpaceAfter=No
+9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+10	מוות	מוות	NOUN	NOUN	Gender=Masc|Number=Sing	8	conj	_	_
+11	"	"	PUNCT	PUNCT	_	8	punct	_	_
+12	אינו	אינו	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	13	aux	_	_
+13	מאפיין	אפיין	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	2	dep	_	HebSource=ConvUncertainHead
+14-16	בפובליציסטיקה	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	16	case	_	_
+15	ה_	ה	DET	DET	PronType=Art|Definite=Def	16	det	_	_
+16	פובליציסטיקה	פובליציסטיקה	NOUN	NOUN	Gender=Fem|Number=Sing	13	obl	_	_
+17-18	הישראלית	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	ישראלית	ישראלי	ADJ	ADJ	Gender=Fem|Number=Sing	16	amod	_	_
+19-20	הנוכחית	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	נוכחית	נוכחי	ADJ	ADJ	Gender=Fem|Number=Sing	16	amod	_	_
+21	רק	רק	ADV	ADV	_	23	advmod	_	_
+22	את	את	ADP	ADP	Case=Acc	23	case	_	_
+23	טקסי	טקס	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	13	obj	_	_
+24-25	הזיכרון	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	זיכרון	זיכרון	NOUN	NOUN	Gender=Masc|Number=Sing	23	compound:smixut	_	_
+26-28	לשואה	_	_	_	_	_	_	_	SpaceAfter=No
+26	ל	ל	ADP	ADP	_	28	case	_	_
+27	ה_	ה	DET	DET	PronType=Art|Definite=Def	28	det	_	_
+28	שואה	שואה	NOUN	NOUN	Gender=Fem|Number=Sing	23	nmod	_	_
+29	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:17_2
+# doc_range = 3828-4061
+# sent_id = 603
+# text = אפשר למצוא אותו בהתייחסות לתוכניות רדיו וטלוויזיה ביום הזיכרון לחללי צה"ל, ביחס לדברים הנאמרים באזכרות לקורבנות טרור, וכדומה.
+1	אפשר	אפשר	AUX	AUX	VerbType=Mod	2	aux	_	_
+2	למצוא	מצא	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	0	root	_	_
+3-4	אותו	_	_	_	_	_	_	_	_
+3	את	את	ADP	ADP	Case=Acc	4	case	_	_
+4	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+5-6	בהתייחסות	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	8	case	_	_
+6	התייחסות	התייחסות	NOUN	NOUN	Gender=Fem|Number=Sing	5	fixed	_	_
+7-8	לתוכניות	_	_	_	_	_	_	_	_
+7	ל	ל	ADP	ADP	_	5	fixed	_	_
+8	תוכניות	תוכנית	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	2	obl	_	_
+9	רדיו	רדיו	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound:smixut	_	_
+10-11	וטלוויזיה	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+11	טלוויזיה	טלוויזיה	NOUN	NOUN	Gender=Fem|Number=Sing	9	conj	_	_
+12-13	ביום	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	nmod	_	_
+14-15	הזיכרון	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	זיכרון	זיכרון	NOUN	NOUN	Gender=Masc|Number=Sing	13	compound:smixut	_	_
+16-17	לחללי	_	_	_	_	_	_	_	_
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	חללי	חלל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	13	flat:name	_	_
+18	צה"ל	צה"ל	PROPN	PROPN	Abbr=Yes	17	compound:smixut	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	24	punct	_	_
+20-21	ביחס	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	24	case	_	_
+21	יחס	יחס	NOUN	NOUN	Gender=Masc|Number=Sing	20	fixed	_	_
+22-24	לדברים	_	_	_	_	_	_	_	_
+22	ל	ל	ADP	ADP	_	20	fixed	_	_
+23	ה_	ה	DET	DET	PronType=Art|Definite=Def	24	det	_	_
+24	דברים	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	8	conj	_	_
+25-26	הנאמרים	_	_	_	_	_	_	_	_
+25	ה	ה	SCONJ	SCONJ	_	26	mark	_	_
+26	נאמרים	נאמר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	24	acl:relcl	_	_
+27-28	באזכרות	_	_	_	_	_	_	_	_
+27	ב	ב	ADP	ADP	_	28	case	_	_
+28	אזכרות	אזכרה	NOUN	NOUN	Gender=Fem|Number=Plur	26	obl	_	_
+29-30	לקורבנות	_	_	_	_	_	_	_	_
+29	ל	ל	ADP	ADP	_	30	case	_	_
+30	קורבנות	קורבן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	28	nmod	_	_
+31	טרור	טרור	NOUN	NOUN	Gender=Masc|Number=Sing	30	compound:smixut	_	SpaceAfter=No
+32	,	,	PUNCT	PUNCT	_	34	punct	_	_
+33-35	וכדומה	_	_	_	_	_	_	_	SpaceAfter=No
+33	ו	ו	CCONJ	CCONJ	_	34	cc	_	_
+34	כ	כ	ADP	ADP	_	8	conj	_	_
+35	דומה	דומה	ADJ	ADJ	Gender=Masc|Number=Sing	34	fixed	_	_
+36	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:17_2
+# doc_range = 4063-4268
+# sent_id = 604
+# text = יש גם כללים: לעולם תושמע ההגדרה הצינית הזו כאשר הדברים הנאמרים נושאים אופי לאומי, כמו "במותם ציוו לנו את החיים".
+1	יש	יש	VERB	VERB	HebExistential=Yes	0	root	_	_
+2	גם	גם	ADV	ADV	_	3	advmod	_	_
+3	כללים	כלל	NOUN	NOUN	Gender=Masc|Number=Plur	1	nsubj	_	SpaceAfter=No
+4	:	:	PUNCT	PUNCT	_	6	punct	_	_
+5	לעולם	לעולם	ADV	ADV	_	6	advmod	_	_
+6	תושמע	הושמע	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	1	conj	_	_
+7-8	ההגדרה	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	הגדרה	הגדרה	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+9-10	הצינית	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	צינית	ציני	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	_
+11-12	הזו	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	8	det	_	_
+13	כאשר	כאשר	SCONJ	SCONJ	_	18	mark	_	_
+14-15	הדברים	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	דברים	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	18	nsubj	_	_
+16-17	הנאמרים	_	_	_	_	_	_	_	_
+16	ה	ה	SCONJ	SCONJ	_	17	mark	_	_
+17	נאמרים	נאמר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	15	acl:relcl	_	_
+18	נושאים	נשא	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	6	advcl	_	_
+19	אופי	אופי	NOUN	NOUN	Gender=Masc|Number=Sing	18	obj	_	_
+20	לאומי	לאומי	ADJ	ADJ	Gender=Masc|Number=Sing	19	nmod	_	HebSource=ConvUncertainLabel|SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	28	punct	_	_
+22	כמו	כמו	ADP	ADP	_	28	case	_	_
+23	"	"	PUNCT	PUNCT	_	28	punct	_	SpaceAfter=No
+24-27	במותם	_	_	_	_	_	_	_	_
+24	ב	ב	ADP	ADP	_	25	case	_	_
+25	מוות	מוות	NOUN	NOUN	Gender=Masc|Number=Sing	28	obl	_	_
+26	_של_	של	ADP	ADP	Case=Gen	27	case:gen	_	_
+27	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+28	ציוו	ציווה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	18	obl	_	_
+29-30	לנו	_	_	_	_	_	_	_	_
+29	ל	ל	ADP	ADP	_	30	case	_	_
+30	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	28	obl	_	_
+31	את	את	ADP	ADP	Case=Acc	33	case	_	_
+32-33	החיים	_	_	_	_	_	_	_	SpaceAfter=No
+32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
+33	חיים	חיים	NOUN	NOUN	Gender=Masc|Number=Plur	28	obj	_	_
+34	"	"	PUNCT	PUNCT	_	28	punct	_	SpaceAfter=No
+35	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:17_2
+# doc_range = 4271-4461
+# sent_id = 605
+# text = הטפה בנוסח "ואף על פי כן, סובלנות ודמוקרטיה", על קברו הפתוח של קורבן טרור, לא תזכה אף פעם בגינוי כ"קיטש".
+1	הטפה	הטפה	NOUN	NOUN	Gender=Fem|Number=Sing	27	nsubj	_	_
+2-3	בנוסח	_	_	_	_	_	_	_	_
+2	ב	ב	ADP	ADP	_	3	case	_	_
+3	נוסח	נוסח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	nmod	_	_
+4	"	"	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+5-6	ואף	_	_	_	_	_	_	_	_
+5	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+6	אף	אף	ADV	ADV	_	8	advmod	_	_
+7	על	על	ADP	ADP	_	8	case	_	_
+8	פי	פה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	nmod	_	_
+9	כן	כן	PRON	PRON	Person=3|PronType=Dem	8	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	8	punct	_	_
+11	סובלנות	סובלנות	NOUN	NOUN	Gender=Fem|Number=Sing	3	compound:smixut	_	_
+12-13	ודמוקרטיה	_	_	_	_	_	_	_	SpaceAfter=No
+12	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
+13	דמוקרטיה	דמוקרטיה	NOUN	NOUN	Gender=Fem|Number=Sing	11	conj	_	_
+14	"	"	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	1	punct	_	_
+16	על	על	ADP	ADP	_	17	case	_	_
+17-19	קברו	_	_	_	_	_	_	_	_
+17	קבר	קבר	NOUN	NOUN	Gender=Masc|Number=Sing	27	obl	_	_
+18	_של_	של	ADP	ADP	Case=Gen	19	case:gen	_	_
+19	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+20-21	הפתוח	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	פתוח	פתוח	ADJ	ADJ	Gender=Masc|Number=Sing	17	amod	_	_
+22	של	של	ADP	ADP	Case=Gen	23	case	_	_
+23	קורבן	קורבן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	nmod:poss	_	_
+24	טרור	טרור	NOUN	NOUN	Gender=Masc|Number=Sing	23	compound:smixut	_	SpaceAfter=No
+25	,	,	PUNCT	PUNCT	_	17	punct	_	_
+26	לא	לא	ADV	ADV	Polarity=Neg	27	advmod	_	_
+27	תזכה	זכה	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Fut	0	root	_	_
+28	אף	אף	DET	DET	Definite=Cons	29	det	_	_
+29	פעם	פעם	NOUN	NOUN	Gender=Fem|Number=Sing	27	dep	_	_
+30-31	בגינוי	_	_	_	_	_	_	_	_
+30	ב	ב	ADP	ADP	_	31	case	_	_
+31	גינוי	גינוי	NOUN	NOUN	Gender=Masc|Number=Sing	27	obl	_	_
+32-34	כ"קיטש	_	_	_	_	_	_	_	SpaceAfter=No
+32	כ	כ	ADP	ADP	_	34	case	_	_
+33	"	"	PUNCT	PUNCT	_	34	punct	_	_
+34	קיטש	קיטש	NOUN	NOUN	_	31	nmod	_	_
+35	"	"	PUNCT	PUNCT	_	34	punct	_	SpaceAfter=No
+36	.	.	PUNCT	PUNCT	_	27	punct	_	_
+
+# doc_id = htb:17_2
+# doc_range = 4463-4712
+# sent_id = 606
+# text = מן הגינוי הכוללני הזה ברור, שלא אקט זה או אחר הוא המפריע לשגב (וברשימתו נכללו תיאורי ביטוי והתנהגות, שאינם נראים גם לי), אלא המסכת כולה.
+1	מן	מן	ADP	ADP	_	3	case	_	_
+2-3	הגינוי	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	גינוי	גינוי	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+4-5	הכוללני	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	כוללני	כוללני	ADJ	ADJ	Gender=Masc|Number=Sing	3	amod	_	_
+6-7	הזה	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	det	_	_
+8	ברור	ברור	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	18	punct	_	_
+10-11	שלא	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	18	mark	_	_
+11	לא	לא	DET	DET	Polarity=Neg	12	det	_	_
+12	אקט	אקט	NOUN	NOUN	Gender=Masc|Number=Sing	18	nsubj	_	_
+13	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	det	_	_
+14	או	או	CCONJ	CCONJ	_	13	cc	_	_
+15	אחר	אחר	ADJ	ADJ	Gender=Masc|Number=Sing	13	dep	_	HebSource=ConvUncertainHead
+16	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	18	cop	_	_
+17-18	המפריע	_	_	_	_	_	_	_	_
+17	ה	ה	SCONJ	SCONJ	_	18	mark	_	_
+18	מפריע	הפריע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	8	ccomp	_	_
+19-20	לשגב	_	_	_	_	_	_	_	_
+19	ל	ל	ADP	ADP	_	20	case	_	_
+20	שגב	שגב	PROPN	PROPN	_	18	obl	_	_
+21	(	(	PUNCT	PUNCT	_	27	punct	_	SpaceAfter=No
+22-26	וברשימתו	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
+23	ב	ב	ADP	ADP	_	24	case	_	_
+24	רשימה	רשימה	NOUN	NOUN	Gender=Fem|Number=Sing	27	obl	_	_
+25	_של_	של	ADP	ADP	Case=Gen	26	case:gen	_	_
+26	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+27	נכללו	נכלל	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	18	parataxis	_	_
+28	תיאורי	תיאור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	27	nsubj	_	_
+29	ביטוי	ביטוי	NOUN	NOUN	Gender=Masc|Number=Sing	28	compound:smixut	_	_
+30-31	והתנהגות	_	_	_	_	_	_	_	SpaceAfter=No
+30	ו	ו	CCONJ	CCONJ	_	31	cc	_	_
+31	התנהגות	התנהגות	NOUN	NOUN	Gender=Fem|Number=Sing	29	conj	_	_
+32	,	,	PUNCT	PUNCT	_	35	punct	_	_
+33-34	שאינם	_	_	_	_	_	_	_	_
+33	ש	ש	SCONJ	SCONJ	_	35	mark	_	_
+34	אינם	אינו	AUX	AUX	Gender=Masc|Number=Plur|Person=3|Polarity=Neg|VerbForm=Part	35	aux	_	_
+35	נראים	נראה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	28	acl:relcl	_	_
+36	גם	גם	ADV	ADV	_	38	advmod	_	_
+37-38	לי	_	_	_	_	_	_	_	SpaceAfter=No
+37	ל	ל	ADP	ADP	_	38	case	_	_
+38	_אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	35	obl	_	_
+39	)	)	PUNCT	PUNCT	_	27	punct	_	SpaceAfter=No
+40	,	,	PUNCT	PUNCT	_	43	punct	_	_
+41	אלא	אלא	CCONJ	CCONJ	_	43	cc	_	_
+42-43	המסכת	_	_	_	_	_	_	_	_
+42	ה	ה	DET	DET	Definite=Def|PronType=Art	43	det	_	_
+43	מסכת	מסכת	NOUN	NOUN	Gender=Fem|Number=Sing	18	conj	_	_
+44-46	כולה	_	_	_	_	_	_	_	SpaceAfter=No
+44	כול	כול	NOUN	NOUN	Gender=Masc|Number=Sing	43	amod	_	_
+45	_של_	של	ADP	ADP	Case=Gen	46	case:gen	_	_
+46	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	44	nmod:poss	_	_
+47	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:17_2
+# doc_range = 4714-4850
+# sent_id = 607
+# text = נראה שכל טקס, כל מחווה סמלית כלפי הרצח הקולקטיווי הזה, נתפסת בעיניו כקיטש.
+1	נראה	נראה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	0	root	_	_
+2-3	שכל	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	17	mark	_	_
+3	כל	כול	DET	DET	Definite=Cons	4	det	_	_
+4	טקס	טקס	NOUN	NOUN	Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	7	punct	_	_
+6	כל	כול	DET	DET	Definite=Cons	7	det	_	_
+7	מחווה	מחווה	NOUN	NOUN	Gender=Fem|Number=Sing	4	appos	_	_
+8	סמלית	סמלי	ADJ	ADJ	Gender=Fem|Number=Sing	7	amod	_	_
+9	כלפי	כלפי	ADP	ADP	_	11	case	_	_
+10-11	הרצח	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	רצח	רצח	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
+12-13	הקולקטיווי	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	קולקטיווי	קולקטיבי	ADJ	ADJ	Gender=Masc|Number=Sing	11	amod	_	_
+14-15	הזה	_	_	_	_	_	_	_	SpaceAfter=No
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	det	_	_
+16	,	,	PUNCT	PUNCT	_	4	punct	_	_
+17	נתפסת	נתפס	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	1	ccomp	_	_
+18-21	בעיניו	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	19	case	_	_
+19	עין	עין	NOUN	NOUN	Gender=Fem|Number=Plur	17	obl	_	_
+20	_של_	של	ADP	ADP	Case=Gen	21	case:gen	_	_
+21	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+22-23	כקיטש	_	_	_	_	_	_	_	SpaceAfter=No
+22	כ	כ	ADP	ADP	_	23	case	_	_
+23	קיטש	קיטש	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	_
+24	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:17_2
+# doc_range = 4852-5009
+# sent_id = 608
+# text = כהיסטוריון, הוא בוודאי רוצה שנתעד, נלמד ונשתדל להבין את הרקע שהוליד את התופעה הנאצית.
+1-2	כהיסטוריון	_	_	_	_	_	_	_	SpaceAfter=No
+1	כ	כ	ADP	ADP	_	2	case	_	_
+2	היסטוריון	היסטוריון	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
+4	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	בוודאי	בוודאי	ADV	ADV	_	6	advmod	_	_
+6	רוצה	רצה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+7-8	שנתעד	_	_	_	_	_	_	_	SpaceAfter=No
+7	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
+8	נתעד	תיעד	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=1|Tense=Fut|Voice=Act	6	ccomp	_	_
+9	,	,	PUNCT	PUNCT	_	10	punct	_	_
+10	נלמד	למד	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=1|Tense=Fut	8	conj	_	_
+11-12	ונשתדל	_	_	_	_	_	_	_	_
+11	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+12	נשתדל	השתדל	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=1|Tense=Fut	8	conj	_	_
+13	להבין	הבין	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	12	dep	_	HebSource=ConvUncertainHead
+14	את	את	ADP	ADP	Case=Acc	16	case	_	_
+15-16	הרקע	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	רקע	רקע	NOUN	NOUN	Gender=Masc|Number=Sing	8	obj	_	_
+17-18	שהוליד	_	_	_	_	_	_	_	_
+17	ש	ש	SCONJ	SCONJ	_	18	mark	_	_
+18	הוליד	הוליד	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	16	acl:relcl	_	_
+19	את	את	ADP	ADP	Case=Acc	21	case	_	_
+20-21	התופעה	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	תופעה	תופעה	NOUN	NOUN	Gender=Fem|Number=Sing	18	obj	_	_
+22-23	הנאצית	_	_	_	_	_	_	_	SpaceAfter=No
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	נאצית	נאצי	ADJ	ADJ	Gender=Fem|Number=Sing	21	amod	_	_
+24	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:17_2
+# doc_range = 5011-5193
+# sent_id = 609
+# text = הוא גם אינו מסתייג מהפקת לקחים, ובלבד שיהיה זה לקח מוסרי-אוניוורסלי; לא חלילה לקח של עוצמה לאומית.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	גם	גם	ADV	ADV	_	4	advmod	_	_
+3	אינו	אינו	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	4	aux	_	_
+4	מסתייג	הסתייג	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+5-6	מהפקת	_	_	_	_	_	_	_	_
+5	מ	מ	ADP	ADP	_	6	case	_	_
+6	הפקת	הפקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	obl	_	_
+7	לקחים	לקח	NOUN	NOUN	Gender=Masc|Number=Plur	6	compound:smixut	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	14	punct	_	_
+9-10	ובלבד	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	21	cc	_	_
+10	בלבד	בלבד	ADV	ADV	_	14	case	_	_
+11-12	שיהיה	_	_	_	_	_	_	_	_
+11	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
+12	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	14	cop	_	_
+13	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+14	לקח	לקח	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+15	מוסרי	מוסרי	ADJ	ADJ	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	-	-	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No
+17	אוניוורסלי	אוניברסלי	ADJ	ADJ	Gender=Masc|Number=Sing	15	dep	_	SpaceAfter=No
+18	;	;	PUNCT	PUNCT	_	21	punct	_	_
+19	לא	לא	ADV	ADV	Polarity=Neg	21	advmod	_	_
+20	חלילה	חלילה	ADV	ADV	_	21	advmod	_	_
+21	לקח	לקח	NOUN	NOUN	Gender=Masc|Number=Sing	14	conj	_	_
+22	של	של	ADP	ADP	Case=Gen	23	case	_	_
+23	עוצמה	עוצמה	NOUN	NOUN	Gender=Fem|Number=Sing	21	nmod:poss	_	_
+24	לאומית	לאומי	ADJ	ADJ	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:17_2
+# doc_range = 5195-5430
+# sent_id = 610
+# text = מביקורתו, וכן מנוסח כתיבתו היבש והמנוכר, אתה מסיק שהרגש אינו רלוונטי לעניין, או לפחות אסור לנסות ולבטא אותו באופן טקסי-חיצוני.
+1-4	מביקורתו	_	_	_	_	_	_	_	SpaceAfter=No
+1	מ	מ	ADP	ADP	_	2	case	_	_
+2	ביקורת	ביקורת	NOUN	NOUN	Gender=Fem|Number=Sing	20	obl	_	_
+3	_של_	של	ADP	ADP	Case=Gen	4	case:gen	_	_
+4	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5	,	,	PUNCT	PUNCT	_	9	punct	_	_
+6-7	וכן	_	_	_	_	_	_	_	_
+6	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+7	כן	כן	ADV	ADV	_	9	advmod	_	_
+8-9	מנוסח	_	_	_	_	_	_	_	_
+8	מ	מ	ADP	ADP	_	9	case	_	_
+9	נוסח	נוסח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	conj	_	_
+10-12	כתיבתו	_	_	_	_	_	_	_	_
+10	כתיבה	כתיבה	NOUN	NOUN	Gender=Fem|Number=Sing	9	compound:smixut	_	_
+11	_של_	של	ADP	ADP	Case=Gen	12	case:gen	_	_
+12	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+13-14	היבש	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	יבש	יבש	ADJ	ADJ	Gender=Masc|Number=Sing	9	amod	_	_
+15-17	והמנוכר	_	_	_	_	_	_	_	SpaceAfter=No
+15	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	מנוכר	מנוכר	ADJ	ADJ	Gender=Masc|Number=Sing	14	conj	_	_
+18	,	,	PUNCT	PUNCT	_	2	punct	_	_
+19	אתה	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	20	nsubj	_	_
+20	מסיק	הסיק	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+21-23	שהרגש	_	_	_	_	_	_	_	_
+21	ש	ש	SCONJ	SCONJ	_	25	mark	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	רגש	רגש	NOUN	NOUN	Gender=Masc|Number=Sing	25	nsubj	_	_
+24	אינו	אינו	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	25	aux	_	_
+25	רלוונטי	רלוונטי	ADJ	ADJ	Gender=Masc|Number=Sing	20	ccomp	_	_
+26-28	לעניין	_	_	_	_	_	_	_	SpaceAfter=No
+26	ל	ל	ADP	ADP	_	28	case	_	_
+27	ה_	ה	DET	DET	PronType=Art|Definite=Def	28	det	_	_
+28	עניין	עניין	NOUN	NOUN	Gender=Masc|Number=Sing	25	dep	_	HebSource=ConvUncertainHead
+29	,	,	PUNCT	PUNCT	_	33	punct	_	_
+30	או	או	CCONJ	CCONJ	_	33	cc	_	_
+31	לפחות	לפחות	ADV	ADV	_	33	advmod	_	_
+32	אסור	אסור	AUX	AUX	VerbType=Mod	33	aux	_	_
+33	לנסות	ניסה	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	25	conj	_	_
+34-35	ולבטא	_	_	_	_	_	_	_	_
+34	ו	ו	CCONJ	CCONJ	_	35	cc	_	_
+35	לבטא	ביטא	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	33	conj	_	_
+36-37	אותו	_	_	_	_	_	_	_	_
+36	את	את	ADP	ADP	Case=Acc	37	case	_	_
+37	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	obj	_	_
+38-39	באופן	_	_	_	_	_	_	_	_
+38	ב	ב	ADP	ADP	_	39	case	_	_
+39	אופן	אופן	NOUN	NOUN	Gender=Masc|Number=Sing	35	obl	_	_
+40	טקסי	טקסי	ADJ	ADJ	Gender=Masc|Number=Sing	39	amod	_	SpaceAfter=No
+41	-	-	PUNCT	PUNCT	_	42	punct	_	SpaceAfter=No
+42	חיצוני	חיצוני	ADJ	ADJ	Gender=Masc|Number=Sing	40	dep	_	SpaceAfter=No
+43	.	.	PUNCT	PUNCT	_	20	punct	_	_
+
+# doc_id = htb:17_2
+# doc_range = 5432-5440
+# sent_id = 611
+# text = מדוע?
+1	מדוע	מדוע	ADV	ADV	PronType=Int	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:17_2
+# doc_range = 5443-5589
+# sent_id = 612
+# text = האם מפני שכל מחווה טקסית כזו בהכרח איננה מסוגלת לשקף את הדבר עצמו, את החסר הנורא?
+1	האם	האם	ADV	ADV	PronType=Int	0	root	_	_
+2	מפני	מפני	ADP	ADP	_	12	mark	_	_
+3-4	שכל	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	2	fixed	_	_
+4	כל	כול	DET	DET	Definite=Cons	5	det	_	_
+5	מחווה	מחווה	NOUN	NOUN	Gender=Fem|Number=Sing	12	nsubj	_	_
+6	טקסית	טקסי	ADJ	ADJ	Gender=Fem|Number=Sing	5	amod	_	_
+7-9	כזו	_	_	_	_	_	_	_	_
+7	כ	כ	ADP	ADP	_	9	case	_	_
+8	ה_	ה	DET	DET	PronType=Art|Definite=Def	9	det	_	_
+9	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	5	nmod	_	_
+10	בהכרח	בהכרח	ADV	ADV	_	12	advmod	_	_
+11	איננה	אינו	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	12	aux	_	_
+12	מסוגלת	מסוגל	AUX	AUX	Gender=Fem|Number=Sing|Person=1,2,3|VerbType=Mod	13	advcl	_	HebSource=ConvUncertainHead
+13	לשקף	שיקף	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	1	dep	_	_
+14	את	את	ADP	ADP	Case=Acc	16	case	_	_
+15-16	הדבר	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Sing	13	obj	_	_
+17	עצמו	עצמו	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Emp|Reflex=Yes	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	21	punct	_	HebSource=ConvUncertainHead
+19	את	את	ADP	ADP	Case=Acc	21	case	_	_
+20-21	החסר	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	חסר	חסר	NOUN	NOUN	Gender=Masc|Number=Sing	16	dep	_	HebSource=ConvUncertainHead
+22-23	הנורא	_	_	_	_	_	_	_	SpaceAfter=No
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	נורא	נורא	ADJ	ADJ	Gender=Masc|Number=Sing	21	amod	_	_
+24	?	?	PUNCT	PUNCT	_	1	punct	_	HebSource=ConvUncertainHead
+
+# doc_id = htb:17_2
+# doc_range = 5592-5727
+# sent_id = 613
+# text = זה נכון, כמובן, אבל גם שגב בוודאי יודע שהנפש אינה יכולה בלי מחווה חיצונית.
+1	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	נכון	נכון	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	4	punct	_	_
+4	כמובן	כמובן	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	10	punct	_	_
+6	אבל	אבל	CCONJ	CCONJ	_	10	cc	_	_
+7	גם	גם	ADV	ADV	_	8	advmod	_	_
+8	שגב	שגב	PROPN	PROPN	_	10	nsubj	_	_
+9	בוודאי	בוודאי	ADV	ADV	_	10	advmod	_	_
+10	יודע	ידע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	2	conj	_	_
+11-13	שהנפש	_	_	_	_	_	_	_	_
+11	ש	ש	SCONJ	SCONJ	_	15	mark	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	נפש	נפש	NOUN	NOUN	Gender=Fem|Number=Sing	15	nsubj	_	_
+14	אינה	אינו	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	15	aux	_	_
+15	יכולה	יכול	AUX	AUX	Gender=Fem|Number=Sing|Person=1,2,3|VerbForm=Part|VerbType=Mod	10	ccomp	_	_
+16	בלי	בלי	ADP	ADP	_	17	case	_	_
+17	מחווה	מחווה	NOUN	NOUN	Gender=Fem|Number=Sing	15	obl	_	_
+18	חיצונית	חיצוני	ADJ	ADJ	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:17_2
+# doc_range = 5729-5871
+# sent_id = 614
+# text = למרות שאינו אדם דתי, בוודאי לא יגנה בן האומר קדיש או מדליק נר נשמה על קבר אביו.
+1	למרות	למרות	ADP	ADP	_	4	mark	_	_
+2-3	שאינו	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	1	fixed	_	_
+3	אינו	אינו	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	4	aux	_	_
+4	אדם	אדם	NOUN	NOUN	Gender=Masc|Number=Sing	9	advcl	_	_
+5	דתי	דתי	ADJ	ADJ	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	4	punct	_	_
+7	בוודאי	בוודאי	ADV	ADV	_	9	advmod	_	_
+8	לא	לא	ADV	ADV	Polarity=Neg	9	advmod	_	_
+9	יגנה	גינה	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+10	בן	בן	NOUN	NOUN	Gender=Masc|Number=Sing	9	obj	_	_
+11-12	האומר	_	_	_	_	_	_	_	_
+11	ה	ה	SCONJ	SCONJ	_	12	mark	_	_
+12	אומר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	10	acl:relcl	_	_
+13	קדיש	קדיש	NOUN	NOUN	Gender=Masc|Number=Sing	12	obj	_	_
+14	או	או	CCONJ	CCONJ	_	15	cc	_	_
+15	מדליק	הדליק	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	12	conj	_	_
+16	נר	נר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	15	obj	_	_
+17	נשמה	נשמה	NOUN	NOUN	Gender=Fem|Number=Sing	16	compound:smixut	_	_
+18	על	על	ADP	ADP	_	19	case	_	_
+19	קבר	קבר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	15	obl	_	_
+20-22	אביו	_	_	_	_	_	_	_	SpaceAfter=No
+20	אב	אב	NOUN	NOUN	Gender=Masc|Number=Sing	19	compound:smixut	_	_
+21	_של_	של	ADP	ADP	Case=Gen	22	case:gen	_	_
+22	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+23	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:17_2
+# doc_range = 5873-5972
+# sent_id = 615
+# text = הבעיה, אם כן, איננה בעצם המאמץ להתמודד עם תופעת המוות.
+1-2	הבעיה	_	_	_	_	_	_	_	SpaceAfter=No
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	בעיה	בעיה	NOUN	NOUN	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
+4	אם	אם	SCONJ	SCONJ	_	5	case	_	_
+5	כן	כן	ADV	ADV	_	9	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	5	punct	_	_
+7	איננה	אינו	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	9	aux	_	_
+8-9	בעצם	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	עצם	עצם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	_
+10-11	המאמץ	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	מאמץ	מאמץ	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound:smixut	_	_
+12	להתמודד	התמודד	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	11	acl	_	_
+13	עם	עם	ADP	ADP	_	14	case	_	_
+14	תופעת	תופעה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	obl	_	_
+15-16	המוות	_	_	_	_	_	_	_	SpaceAfter=No
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	מוות	מוות	NOUN	NOUN	Gender=Masc|Number=Sing	14	compound:smixut	_	_
+17	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:17_2
+# doc_range = 5974-6167
+# sent_id = 616
+# text = אלא שבעניין השואה, כמו בכל הנוגע למוות על רקע לאומי בהקשרים אחרים, יש לסמלים משמעות לאומית, ולא רק אישית.
+1	אלא	אלא	CCONJ	CCONJ	_	23	cc	_	_
+2-4	שבעניין	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	23	mark	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	עניין	עניין	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	23	obl	_	_
+5-6	השואה	_	_	_	_	_	_	_	SpaceAfter=No
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	שואה	שואה	NOUN	NOUN	Gender=Fem|Number=Sing	4	compound:smixut	_	_
+7	,	,	PUNCT	PUNCT	_	4	punct	_	_
+8	כמו	כמו	ADP	ADP	_	12	case	_	_
+9-10	בכל	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	12	case	_	_
+10	כל	כול	DET	DET	Definite=Cons	12	dep	_	_
+11-12	הנוגע	_	_	_	_	_	_	_	_
+11	ה	ה	SCONJ	SCONJ	_	12	mark	_	_
+12	נוגע	נגע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	23	obl	_	_
+13-15	למוות	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	15	case	_	_
+14	ה_	ה	DET	DET	PronType=Art|Definite=Def	15	det	_	_
+15	מוות	מוות	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
+16	על	על	ADP	ADP	_	18	case	_	_
+17	רקע	רקע	NOUN	NOUN	Gender=Masc|Number=Sing	16	fixed	_	_
+18	לאומי	לאומי	PROPN	PROPN	_	15	nmod	_	_
+19-20	בהקשרים	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	הקשרים	הקשר	NOUN	NOUN	Gender=Masc|Number=Plur	15	nmod	_	_
+21	אחרים	אחר	ADJ	ADJ	Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	PUNCT	_	12	punct	_	_
+23	יש	יש	VERB	VERB	HebExistential=Yes	0	root	_	_
+24-26	לסמלים	_	_	_	_	_	_	_	_
+24	ל	ל	ADP	ADP	_	26	case	_	_
+25	ה_	ה	DET	DET	PronType=Art|Definite=Def	26	det	_	_
+26	סמלים	סמל	NOUN	NOUN	Gender=Masc|Number=Plur	23	obl	_	_
+27	משמעות	משמעות	NOUN	NOUN	Gender=Fem|Number=Sing	23	nsubj	_	_
+28	לאומית	לאומי	ADJ	ADJ	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
+29	,	,	PUNCT	PUNCT	_	33	punct	_	_
+30-31	ולא	_	_	_	_	_	_	_	_
+30	ו	ו	CCONJ	CCONJ	_	33	cc	_	_
+31	לא	לא	ADV	ADV	Polarity=Neg	32	advmod	_	_
+32	רק	רק	ADV	ADV	_	33	advmod	_	_
+33	אישית	אישי	ADJ	ADJ	Gender=Fem|Number=Sing	28	conj	_	SpaceAfter=No
+34	.	.	PUNCT	PUNCT	_	23	punct	_	_
+
+# doc_id = htb:17_2
+# doc_range = 6169-6394
+# sent_id = 617
+# text = וזה מה שמביא את שגב לפסקה הלא-תיאמן הבאה: "המסע כרך פולחן שכולו רגשות וסמלים, וסגידה ביזארית לעתים לזיכרון, למוות ולקיטש.
+1-2	וזה	_	_	_	_	_	_	_	_
+1	ו	ו	CCONJ	CCONJ	_	3	cc	_	_
+2	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+3	מה	מה	PRON	PRON	PronType=Int	0	root	_	_
+4-5	שמביא	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	5	mark	_	_
+5	מביא	הביא	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	3	acl:relcl	_	_
+6	את	את	ADP	ADP	Case=Acc	7	case	_	_
+7	שגב	שגב	PROPN	PROPN	_	5	obj	_	_
+8-10	לפסקה	_	_	_	_	_	_	_	_
+8	ל	ל	ADP	ADP	_	10	case	_	_
+9	ה_	ה	DET	DET	PronType=Art|Definite=Def	10	det	_	_
+10	פסקה	פסק	NOUN	NOUN	_	5	obl	_	_
+11-12	הלא	_	_	_	_	_	_	_	SpaceAfter=No
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+12	לא	לא	ADV	ADV	Polarity=Neg	14	advmod	_	_
+13	-	-	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
+14	תיאמן	תיאמן	ADJ	ADJ	_	10	amod	_	_
+15-16	הבאה	_	_	_	_	_	_	_	SpaceAfter=No
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	באה	בא	ADJ	ADJ	Gender=Fem|Number=Sing	10	amod	_	_
+17	:	:	PUNCT	PUNCT	_	21	punct	_	_
+18	"	"	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No
+19-20	המסע	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	מסע	מסע	NOUN	NOUN	Gender=Masc|Number=Sing	21	nsubj	_	_
+21	כרך	כרך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	10	appos	_	_
+22	פולחן	פולחן	NOUN	NOUN	Gender=Masc|Number=Sing	21	obj	_	_
+23-26	שכולו	_	_	_	_	_	_	_	_
+23	ש	ש	SCONJ	SCONJ	_	27	mark	_	_
+24	כול	כול	NOUN	NOUN	Gender=Masc|Number=Sing	27	nsubj	_	_
+25	_של_	של	ADP	ADP	Case=Gen	26	case:gen	_	_
+26	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+27	רגשות	רגש	NOUN	NOUN	Gender=Masc|Number=Plur	22	acl:relcl	_	_
+28-29	וסמלים	_	_	_	_	_	_	_	SpaceAfter=No
+28	ו	ו	CCONJ	CCONJ	_	29	cc	_	_
+29	סמלים	סמל	NOUN	NOUN	Gender=Masc|Number=Plur	27	conj	_	_
+30	,	,	PUNCT	PUNCT	_	32	punct	_	_
+31-32	וסגידה	_	_	_	_	_	_	_	_
+31	ו	ו	CCONJ	CCONJ	_	32	cc	_	_
+32	סגידה	סגידה	NOUN	NOUN	Gender=Fem|Number=Sing	27	conj	_	_
+33	ביזארית	ביזארי	ADJ	ADJ	Gender=Fem|Number=Sing	32	amod	_	_
+34	לעתים	לעתים	ADV	ADV	_	33	advmod	_	_
+35-36	לזיכרון	_	_	_	_	_	_	_	SpaceAfter=No
+35	ל	ל	ADP	ADP	_	36	case	_	_
+36	זיכרון	זיכרון	NOUN	NOUN	Gender=Masc|Number=Sing	32	nmod	_	_
+37	,	,	PUNCT	PUNCT	_	39	punct	_	_
+38-39	למוות	_	_	_	_	_	_	_	_
+38	ל	ל	ADP	ADP	_	39	case	_	_
+39	מוות	מוות	NOUN	NOUN	Gender=Masc|Number=Sing	36	conj	_	_
+40-42	ולקיטש	_	_	_	_	_	_	_	SpaceAfter=No
+40	ו	ו	CCONJ	CCONJ	_	42	cc	_	_
+41	ל	ל	ADP	ADP	_	42	case	_	_
+42	קיטש	קיטש	NOUN	NOUN	Gender=Masc|Number=Sing	36	conj	_	_
+43	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:17_2
+# doc_range = 6396-6494
+# sent_id = 618
+# text = הוא שואב את מרכיביו משני מקורות: האחד לאומי והאחר דתי.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	שואב	שאב	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+3	את	את	ADP	ADP	Case=Acc	4	case	_	_
+4-6	מרכיביו	_	_	_	_	_	_	_	_
+4	מרכיב	מרכיב	NOUN	NOUN	Gender=Masc|Number=Plur	2	obj	_	_
+5	_של_	של	ADP	ADP	Case=Gen	6	case:gen	_	_
+6	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+7-8	משני	_	_	_	_	_	_	_	_
+7	מ	מ	ADP	ADP	_	9	case	_	_
+8	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	9	nummod	_	_
+9	מקורות	מקור	NOUN	NOUN	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+10	:	:	PUNCT	PUNCT	_	13	punct	_	_
+11-12	האחד	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	13	nsubj	_	_
+13	לאומי	לאומי	ADJ	ADJ	Gender=Masc|Number=Sing	9	appos	_	_
+14-16	והאחר	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	אחר	אחר	ADJ	ADJ	Gender=Masc|Number=Sing	17	nsubj	_	_
+17	דתי	דתי	ADJ	ADJ	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:17_2
+# doc_range = 6496-6590
+# sent_id = 619
+# text = יש לו כיוון פוליטי מובהק: נטייתו הטבעית היא ימינה".
+1	יש	יש	VERB	VERB	HebExistential=Yes	0	root	_	_
+2-3	לו	_	_	_	_	_	_	_	_
+2	ל	ל	ADP	ADP	_	3	case	_	_
+3	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obl	_	_
+4	כיוון	כיוון	NOUN	NOUN	Gender=Masc|Number=Sing	1	nsubj	_	_
+5	פוליטי	פוליטי	ADJ	ADJ	Gender=Masc|Number=Sing	4	amod	_	_
+6	מובהק	מובהק	ADJ	ADJ	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+7	:	:	PUNCT	PUNCT	_	13	punct	_	_
+8-10	נטייתו	_	_	_	_	_	_	_	_
+8	נטייה	נטייה	NOUN	NOUN	Gender=Fem|Number=Sing	13	nsubj	_	_
+9	_של_	של	ADP	ADP	Case=Gen	10	case:gen	_	_
+10	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+11-12	הטבעית	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	טבעית	טבעי	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	_
+13	היא	הוא	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	1	conj	_	_
+14	ימינה	ימינה	ADV	ADV	_	13	advmod	_	HebSource=ConvUncertainHead|SpaceAfter=No
+15	"	"	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:17_2
+# doc_range = 6592-6787
+# sent_id = 620
+# text = וכך מתאחדים שני חלקי הפסקה: מסע של "פולחן שכולו רגשות וסמלים" מוכיח מיניה וביה ש"נטייתו הטבעית היא ימינה".
+1-2	וכך	_	_	_	_	_	_	_	_
+1	ו	ו	CCONJ	CCONJ	_	3	cc	_	_
+2	כך	כך	ADV	ADV	_	3	advmod	_	_
+3	מתאחדים	התאחד	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+4	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	5	nummod	_	_
+5	חלקי	חלק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	3	nsubj	_	_
+6-7	הפסקה	_	_	_	_	_	_	_	SpaceAfter=No
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	פסקה	פסק	NOUN	NOUN	_	5	compound:smixut	_	_
+8	:	:	PUNCT	PUNCT	_	21	punct	_	_
+9	מסע	מסע	NOUN	NOUN	Gender=Masc|Number=Sing	21	nsubj	_	_
+10	של	של	ADP	ADP	Case=Gen	12	case	_	_
+11	"	"	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
+12	פולחן	פולחן	NOUN	NOUN	Gender=Masc|Number=Sing	9	nmod:poss	_	_
+13-16	שכולו	_	_	_	_	_	_	_	_
+13	ש	ש	SCONJ	SCONJ	_	17	mark	_	_
+14	כול	כול	NOUN	NOUN	Gender=Masc|Number=Sing	17	nsubj	_	_
+15	_של_	של	ADP	ADP	Case=Gen	16	case:gen	_	_
+16	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+17	רגשות	רגש	NOUN	NOUN	Gender=Masc|Number=Plur	12	acl:relcl	_	_
+18-19	וסמלים	_	_	_	_	_	_	_	SpaceAfter=No
+18	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+19	סמלים	סמל	NOUN	NOUN	Gender=Masc|Number=Plur	17	conj	_	_
+20	"	"	PUNCT	PUNCT	_	12	punct	_	_
+21	מוכיח	הוכיח	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	3	parataxis	_	_
+22	מיניה	מיניה	ADV	ADV	_	21	advmod	_	_
+23-24	וביה	_	_	_	_	_	_	_	_
+23	ו	ו	CCONJ	CCONJ	_	24	cc	_	_
+24	ביה	ביה	ADV	ADV	_	22	conj	_	_
+25-29	ש"נטייתו	_	_	_	_	_	_	_	_
+25	ש	ש	SCONJ	SCONJ	_	32	mark	_	_
+26	"	"	PUNCT	PUNCT	_	32	punct	_	_
+27	נטייה	נטייה	NOUN	NOUN	Gender=Fem|Number=Sing	32	nsubj	_	_
+28	_של_	של	ADP	ADP	Case=Gen	29	case:gen	_	_
+29	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+30-31	הטבעית	_	_	_	_	_	_	_	_
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	טבעית	טבעי	ADJ	ADJ	Gender=Fem|Number=Sing	27	amod	_	_
+32	היא	הוא	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	21	ccomp	_	_
+33	ימינה	ימינה	ADV	ADV	_	32	advmod	_	HebSource=ConvUncertainHead|SpaceAfter=No
+34	"	"	PUNCT	PUNCT	_	32	punct	_	SpaceAfter=No
+35	.	.	PUNCT	PUNCT	_	3	punct	_	_
+

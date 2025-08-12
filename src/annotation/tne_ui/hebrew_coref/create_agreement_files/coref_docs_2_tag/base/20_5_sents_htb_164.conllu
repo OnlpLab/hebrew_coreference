@@ -1,0 +1,133 @@
+# doc_id = htb:164
+# doc_range = 1-117
+# sent_id = 4294
+# text = לחברת קדמני שתי מניות 1 שקל ו5 שקל הרשומות ברשימה המקבילה בבורסה.
+1-2	לחברת	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	0	root	_	_
+3	קדמני	קדמני	PROPN	PROPN	_	2	compound:smixut	_	_
+4	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	5	nummod	_	_
+5	מניות	מנייה	NOUN	NOUN	Gender=Fem|Number=Plur	2	nsubj	_	_
+6	1	1	NUM	NUM	_	7	nummod	_	_
+7	שקל	שקל	NOUN	NOUN	Gender=Masc|Number=Sing	5	appos	_	_
+8-9	ו5	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+9	5	5	NUM	NUM	_	10	nummod	_	_
+10	שקל	שקל	NOUN	NOUN	Gender=Masc|Number=Sing	7	conj	_	_
+11-12	הרשומות	_	_	_	_	_	_	_	_
+11	ה	ה	SCONJ	SCONJ	_	12	mark	_	_
+12	רשומות	רשם	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	5	acl:relcl	_	_
+13-15	ברשימה	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	15	case	_	_
+14	ה_	ה	DET	DET	PronType=Art|Definite=Def	15	det	_	_
+15	רשימה	רשימה	NOUN	NOUN	Gender=Fem|Number=Sing	12	obl	_	_
+16-17	המקבילה	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	מקבילה	מקביל	ADJ	ADJ	Gender=Fem|Number=Sing	15	amod	_	_
+18-20	בבורסה	_	_	_	_	_	_	_	SpaceAfter=No
+18	ב	ב	ADP	ADP	_	20	case	_	_
+19	ה_	ה	DET	DET	PronType=Art|Definite=Def	20	det	_	_
+20	בורסה	בורסה	NOUN	NOUN	Gender=Fem|Number=Sing	15	nmod	_	_
+21	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:164
+# doc_range = 119-225
+# sent_id = 4295
+# text = בדומה לחברה, נמצאות המניות מזה שנתיים במגמת ירידה מתמשכת.
+1-2	בדומה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	5	case	_	_
+2	דומה	דומה	ADJ	ADJ	Gender=Masc|Number=Sing	1	fixed	_	_
+3-5	לחברה	_	_	_	_	_	_	_	SpaceAfter=No
+3	ל	ל	ADP	ADP	_	1	fixed	_	_
+4	ה_	ה	DET	DET	PronType=Art|Definite=Def	5	det	_	_
+5	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
+6	,	,	PUNCT	PUNCT	_	5	punct	_	_
+7	נמצאות	נמצא	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	0	root	_	_
+8-9	המניות	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	מניות	מנייה	NOUN	NOUN	Gender=Fem|Number=Plur	7	nsubj	_	_
+10-11	מזה	_	_	_	_	_	_	_	_
+10	מ	מ	ADP	ADP	_	12	case	_	_
+11	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	10	fixed	_	_
+12	שנתיים	שנה	NOUN	NOUN	Gender=Fem|Number=Dual	7	dep	_	_
+13-14	במגמת	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	מגמת	מגמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	obl	_	_
+15	ירידה	ירידה	NOUN	NOUN	Gender=Fem|Number=Sing	14	compound:smixut	_	_
+16	מתמשכת	התמשך	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|VerbForm=Part	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:164
+# doc_range = 227-326
+# sent_id = 4296
+# text = מחזורי המסחר במניות הם בדרך-כלל של אלפי שקלים בודדים.
+1	מחזורי	מחזור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	14	nsubj	_	_
+2-3	המסחר	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	מסחר	מסחר	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4-6	במניות	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	6	case	_	_
+5	ה_	ה	DET	DET	PronType=Art|Definite=Def	6	det	_	_
+6	מניות	מנייה	NOUN	NOUN	Gender=Fem|Number=Plur	1	nmod	_	_
+7	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|Polarity=Pos	14	cop	_	_
+8-9	בדרך	_	_	_	_	_	_	_	SpaceAfter=No
+8	ב	ב	ADP	ADP	_	14	case	_	_
+9	דרך	דרך	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	8	fixed	_	_
+10	-	-	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+11	כלל	כלל	NOUN	NOUN	Gender=Masc|Number=Sing	8	fixed	_	_
+12	של	של	ADP	ADP	Case=Gen	14	case	_	_
+13	אלפי	אלפי	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	14	nummod	_	_
+14	שקלים	שקל	NOUN	NOUN	Gender=Masc|Number=Plur	0	root	_	_
+15	בודדים	בודד	ADJ	ADJ	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# doc_id = htb:164
+# doc_range = 328-469
+# sent_id = 4297
+# text = קרנות הנאמנות ושאר הגופים המוסדיים אינם מחזיקים במניות קדמני זה תקופה ארוכה.
+1	קרנות	קרן	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	11	nsubj	_	_
+2-3	הנאמנות	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	נאמנות	נאמנות	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+4-5	ושאר	_	_	_	_	_	_	_	_
+4	ו	ו	CCONJ	CCONJ	_	7	cc	_	_
+5	שאר	שאר	DET	DET	Definite=Cons|Gender=Masc	7	det	_	_
+6-7	הגופים	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	גופים	גוף	NOUN	NOUN	Gender=Masc|Number=Plur	1	conj	_	_
+8-9	המוסדיים	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	מוסדיים	מוסדי	ADJ	ADJ	Gender=Masc|Number=Plur	7	amod	_	_
+10	אינם	אינו	AUX	AUX	Gender=Masc|Number=Plur|Person=3|Polarity=Neg|VerbForm=Part	11	aux	_	_
+11	מחזיקים	החזיק	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+12-13	במניות	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	מניות	מנייה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	11	obl	_	_
+14	קדמני	קדמני	PROPN	PROPN	_	13	compound:smixut	_	_
+15	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	det	_	_
+16	תקופה	תקופה	NOUN	NOUN	Gender=Fem|Number=Sing	11	dep	_	_
+17	ארוכה	ארוך	ADJ	ADJ	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:164
+# doc_range = 471-586
+# sent_id = 4298
+# text = מרבית הניירות נמצאים בידי בעלי השליטה וכמה מנהלי תיקים בודדים.
+1	מרבית	מרבית	DET	DET	Definite=Cons	3	det	_	_
+2-3	הניירות	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	ניירות	נייר	NOUN	NOUN	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	נמצאים	נמצא	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	0	root	_	_
+5	בידי	בידי	ADP	ADP	_	6	case	_	_
+6	בעלי	בעל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	obl	_	_
+7-8	השליטה	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	שליטה	שליטה	NOUN	NOUN	Gender=Fem|Number=Sing	6	compound:smixut	_	_
+9-10	וכמה	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+10	כמה	כמה	DET	DET	Definite=Cons	11	det	_	_
+11	מנהלי	מנהל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	6	conj	_	_
+12	תיקים	תיק	NOUN	NOUN	Gender=Masc|Number=Plur	11	compound:smixut	_	_
+13	בודדים	בודד	ADJ	ADJ	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	4	punct	_	_
+

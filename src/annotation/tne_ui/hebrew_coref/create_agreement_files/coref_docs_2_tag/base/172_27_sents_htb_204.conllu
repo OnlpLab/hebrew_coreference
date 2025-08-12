@@ -1,0 +1,918 @@
+# doc_id = htb:204
+# doc_range = 1-294
+# sent_id = 5124
+# text = מועצת המנהלים של קרן בית ברל, שבבעלות מפלגת העבודה, החליטה להפקיע את סמכויותיו של אהרן הראל בתפקידו כמנכ"ל הקרן, שנקלעה בתקופתו לחובות כספיים של מיליוני שקלים.
+1	מועצת	מועצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	16	nsubj	_	_
+2-3	המנהלים	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	מנהלים	מנהל	NOUN	NOUN	Gender=Masc|Number=Plur	1	compound:smixut	_	_
+4	של	של	ADP	ADP	Case=Gen	5	case	_	_
+5	קרן	קרן	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	nmod:poss	_	_
+6	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	compound:smixut	_	_
+7	ברל	ברל	PROPN	PROPN	_	6	compound:smixut	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	11	punct	_	_
+9-11	שבבעלות	_	_	_	_	_	_	_	_
+9	ש	ש	SCONJ	SCONJ	_	11	case	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	בעלות	בעלות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	nmod	_	_
+12	מפלגת	מפלגה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	11	compound:smixut	_	_
+13-14	העבודה	_	_	_	_	_	_	_	SpaceAfter=No
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	12	compound:smixut	_	_
+15	,	,	PUNCT	PUNCT	_	1	punct	_	_
+16	החליטה	החליט	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+17	להפקיע	הפקיע	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+18	את	את	ADP	ADP	Case=Acc	19	case	_	_
+19-21	סמכויותיו	_	_	_	_	_	_	_	_
+19	סמכות	סמכות	NOUN	NOUN	Gender=Fem|Number=Plur	17	obj	_	_
+20	_של_	של	ADP	ADP	Case=Gen	21	case:gen	_	_
+21	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+22	של	של	ADP	ADP	Case=Gen	23	case	_	_
+23	אהרן	אהרן	PROPN	PROPN	_	19	nmod:poss	_	_
+24	הראל	הראל	PROPN	PROPN	_	23	flat:name	_	_
+25-28	בתפקידו	_	_	_	_	_	_	_	_
+25	ב	ב	ADP	ADP	_	26	case	_	_
+26	תפקיד	תפקיד	NOUN	NOUN	Gender=Masc|Number=Sing	19	nmod	_	_
+27	_של_	של	ADP	ADP	Case=Gen	28	case:gen	_	_
+28	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+29-30	כמנכ"ל	_	_	_	_	_	_	_	_
+29	כ	כ	ADP	ADP	_	30	case	_	_
+30	מנכ"ל	מנכ"ל	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	26	nmod	_	_
+31-32	הקרן	_	_	_	_	_	_	_	SpaceAfter=No
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	קרן	קרן	NOUN	NOUN	Gender=Fem|Number=Sing	30	compound:smixut	_	_
+33	,	,	PUNCT	PUNCT	_	35	punct	_	_
+34-35	שנקלעה	_	_	_	_	_	_	_	_
+34	ש	ש	SCONJ	SCONJ	_	35	mark	_	_
+35	נקלעה	נקלע	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	32	acl:relcl	_	_
+36-39	בתקופתו	_	_	_	_	_	_	_	_
+36	ב	ב	ADP	ADP	_	37	case	_	_
+37	תקופה	תקופה	NOUN	NOUN	Gender=Fem|Number=Sing	35	obl	_	_
+38	_של_	של	ADP	ADP	Case=Gen	39	case:gen	_	_
+39	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	37	nmod:poss	_	_
+40-41	לחובות	_	_	_	_	_	_	_	_
+40	ל	ל	ADP	ADP	_	41	case	_	_
+41	חובות	חוב	NOUN	NOUN	Gender=Masc|Number=Plur	35	obl	_	_
+42	כספיים	כספי	ADJ	ADJ	Gender=Masc|Number=Plur	41	amod	_	_
+43	של	של	ADP	ADP	Case=Gen	45	case	_	_
+44	מיליוני	מיליוני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	45	nummod	_	_
+45	שקלים	שקל	NOUN	NOUN	Gender=Masc|Number=Plur	41	nmod	_	SpaceAfter=No
+46	.	.	PUNCT	PUNCT	_	16	punct	_	_
+
+# doc_id = htb:204
+# doc_range = 296-502
+# sent_id = 5125
+# text = כמו-כן החליטה המועצה לזמן כינוס של האספה הכללית של בעלי המניות של הקרן, ולהמליץ בפניה על העברתו של הראל מתפקידו.
+1	כמו	כמו	ADP	ADP	_	3	case	_	SpaceAfter=No
+2	-	-	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+3	כן	כן	ADV	ADV	_	4	advmod	_	_
+4	החליטה	החליט	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5-6	המועצה	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	מועצה	מועצה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
+7	לזמן	זימן	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+8	כינוס	כינוס	NOUN	NOUN	Gender=Masc|Number=Sing	7	obj	_	_
+9	של	של	ADP	ADP	Case=Gen	11	case	_	_
+10-11	האספה	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	אספה	אספה	NOUN	NOUN	Gender=Fem|Number=Sing	8	nmod:poss	_	_
+12-13	הכללית	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	כללית	כללי	ADJ	ADJ	Gender=Fem|Number=Sing	11	amod	_	_
+14	של	של	ADP	ADP	Case=Gen	15	case	_	_
+15	בעלי	בעל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	11	nmod	_	_
+16-17	המניות	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	מניות	מנייה	NOUN	NOUN	Gender=Fem|Number=Plur	15	compound:smixut	_	_
+18	של	של	ADP	ADP	Case=Gen	20	case	_	_
+19-20	הקרן	_	_	_	_	_	_	_	SpaceAfter=No
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	קרן	קרן	NOUN	NOUN	Gender=Fem|Number=Sing	15	nmod:poss	_	_
+21	,	,	PUNCT	PUNCT	_	23	punct	_	_
+22-23	ולהמליץ	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
+23	להמליץ	המליץ	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	7	conj	_	_
+24-27	בפניה	_	_	_	_	_	_	_	_
+24	ב	ב	ADP	ADP	_	25	case	_	_
+25	פנים	פנים	NOUN	NOUN	Gender=Fem,Masc|Number=Plur	23	obl	_	_
+26	_של_	של	ADP	ADP	Case=Gen	27	case:gen	_	_
+27	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+28	על	על	ADP	ADP	_	29	case	_	_
+29-31	העברתו	_	_	_	_	_	_	_	_
+29	העברה	העברה	NOUN	NOUN	Gender=Fem|Number=Sing	23	obl	_	_
+30	_של_	של	ADP	ADP	Case=Gen	31	case:gen	_	_
+31	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+32	של	של	ADP	ADP	Case=Gen	33	case	_	_
+33	הראל	הראל	PROPN	PROPN	_	29	nmod:poss	_	_
+34-37	מתפקידו	_	_	_	_	_	_	_	SpaceAfter=No
+34	מ	מ	ADP	ADP	_	35	case	_	_
+35	תפקיד	תפקיד	NOUN	NOUN	Gender=Masc|Number=Sing	29	nmod	_	_
+36	_של_	של	ADP	ADP	Case=Gen	37	case:gen	_	_
+37	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	_	_
+38	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:204
+# doc_range = 505-785
+# sent_id = 5126
+# text = הראל, אשר ביקש בישיבת מועצת המנהלים הקודמת שהות כדי להגיב על ממצאיה החמורים של ועדת הבדיקה לגבי המצב הכספי של בית ברל, לא הופיע לישיבה שהתקיימה ביום ששי.
+1	הראל	הראל	PROPN	PROPN	_	35	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	4	punct	_	_
+3	אשר	אשר	SCONJ	SCONJ	_	4	mark	_	_
+4	ביקש	ביקש	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	1	acl:relcl	_	_
+5-6	בישיבת	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	ישיבת	ישיבה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	obl	_	_
+7	מועצת	מועצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	compound:smixut	_	_
+8-9	המנהלים	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	מנהלים	מנהל	NOUN	NOUN	Gender=Masc|Number=Plur	7	compound:smixut	_	_
+10-11	הקודמת	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	קודמת	קודם	ADJ	ADJ	Gender=Fem|Number=Sing	7	amod	_	_
+12	שהות	שהות	NOUN	NOUN	Gender=Fem|Number=Sing	4	obj	_	_
+13	כדי	כדי	SCONJ	SCONJ	_	14	mark	_	_
+14	להגיב	הגיב	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	4	advcl	_	_
+15	על	על	ADP	ADP	_	16	case	_	_
+16-18	ממצאיה	_	_	_	_	_	_	_	_
+16	ממצא	ממצא	NOUN	NOUN	Gender=Masc|Number=Plur	14	obl	_	_
+17	_של_	של	ADP	ADP	Case=Gen	18	case:gen	_	_
+18	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+19-20	החמורים	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	חמורים	חמור	ADJ	ADJ	Gender=Masc|Number=Plur	16	amod	_	_
+21	של	של	ADP	ADP	Case=Gen	22	case	_	_
+22	ועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	16	nmod	_	_
+23-24	הבדיקה	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	בדיקה	בדיקה	NOUN	NOUN	Gender=Fem|Number=Sing	22	compound:smixut	_	_
+25	לגבי	לגבי	ADP	ADP	_	27	case	_	_
+26-27	המצב	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	מצב	מצב	NOUN	NOUN	Gender=Masc|Number=Sing	16	nmod	_	_
+28-29	הכספי	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	כספי	כספי	ADJ	ADJ	Gender=Masc|Number=Sing	27	amod	_	_
+30	של	של	ADP	ADP	Case=Gen	31	case	_	_
+31	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	27	nmod	_	_
+32	ברל	ברל	PROPN	PROPN	_	31	flat:name	_	SpaceAfter=No
+33	,	,	PUNCT	PUNCT	_	1	punct	_	_
+34	לא	לא	ADV	ADV	Polarity=Neg	35	advmod	_	_
+35	הופיע	הופיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+36-38	לישיבה	_	_	_	_	_	_	_	_
+36	ל	ל	ADP	ADP	_	38	case	_	_
+37	ה_	ה	DET	DET	PronType=Art|Definite=Def	38	det	_	_
+38	ישיבה	ישיבה	NOUN	NOUN	Gender=Fem|Number=Sing	35	obl	_	_
+39-40	שהתקיימה	_	_	_	_	_	_	_	_
+39	ש	ש	SCONJ	SCONJ	_	40	mark	_	_
+40	התקיימה	התקיים	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	38	acl:relcl	_	_
+41-42	ביום	_	_	_	_	_	_	_	_
+41	ב	ב	ADP	ADP	_	42	case	_	_
+42	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	40	obl	_	_
+43	ששי	ששי	PROPN	PROPN	_	42	compound:smixut	_	SpaceAfter=No
+44	.	.	PUNCT	PUNCT	_	35	punct	_	_
+
+# doc_id = htb:204
+# doc_range = 787-1058
+# sent_id = 5127
+# text = במקום זאת נמסר לחברי מועצת המנהלים מכתב ממנו, שבו הוא מוכן לצאת לחופשה ללא תשלום למשך ששה חודשים, בתנאי שימונה בורר חיצוני אשר יבדוק את הטענות נגדו.
+1	במקום	במקום	ADP	ADP	_	2	case	_	_
+2	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	obl	_	_
+3	נמסר	נמסר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+4-5	לחברי	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	חברי	חבר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	3	obl	_	_
+6	מועצת	מועצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	compound:smixut	_	_
+7-8	המנהלים	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	מנהלים	מנהל	NOUN	NOUN	Gender=Masc|Number=Plur	6	compound:smixut	_	_
+9	מכתב	מכתב	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+10-11	ממנו	_	_	_	_	_	_	_	SpaceAfter=No
+10	מן	מן	ADP	ADP	_	11	case	_	_
+11	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nmod	_	_
+12	,	,	PUNCT	PUNCT	_	18	punct	_	_
+13-15	שבו	_	_	_	_	_	_	_	_
+13	ש	ש	SCONJ	SCONJ	_	18	mark	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obl	_	_
+16	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+17	מוכן	מוכן	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	18	aux	_	_
+18	לצאת	יצא	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	9	acl:relcl	_	_
+19-20	לחופשה	_	_	_	_	_	_	_	_
+19	ל	ל	ADP	ADP	_	20	case	_	_
+20	חופשה	חופשה	NOUN	NOUN	Gender=Fem|Number=Sing	18	obl	_	_
+21	ללא	ללא	ADP	ADP	_	22	case	_	_
+22	תשלום	תשלום	NOUN	NOUN	Gender=Masc|Number=Sing	20	nmod	_	_
+23-24	למשך	_	_	_	_	_	_	_	_
+23	ל	ל	ADP	ADP	_	26	case	_	_
+24	משך	משך	NOUN	NOUN	Gender=Masc|Number=Sing	23	fixed	_	_
+25	ששה	שש	NUM	NUM	Gender=Masc|Number=Plur	26	nummod	_	_
+26	חודשים	חודש	NOUN	NOUN	Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	PUNCT	_	29	punct	_	_
+28-29	בתנאי	_	_	_	_	_	_	_	_
+28	ב	ב	ADP	ADP	_	29	case	_	_
+29	תנאי	תנאי	NOUN	NOUN	Gender=Masc|Number=Sing	18	obl	_	_
+30-31	שימונה	_	_	_	_	_	_	_	_
+30	ש	ש	SCONJ	SCONJ	_	31	mark	_	_
+31	ימונה	מונה	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	29	acl:relcl	_	_
+32	בורר	בורר	NOUN	NOUN	Gender=Masc|Number=Sing	31	nsubj:pass	_	_
+33	חיצוני	חיצוני	ADJ	ADJ	Gender=Masc|Number=Sing	32	amod	_	_
+34	אשר	אשר	SCONJ	SCONJ	_	35	mark	_	_
+35	יבדוק	בדק	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	32	acl:relcl	_	_
+36	את	את	ADP	ADP	Case=Acc	38	case	_	_
+37-38	הטענות	_	_	_	_	_	_	_	_
+37	ה	ה	DET	DET	Definite=Def|PronType=Art	38	det	_	_
+38	טענות	טענה	NOUN	NOUN	Gender=Fem|Number=Plur	35	obj	_	_
+39-40	נגדו	_	_	_	_	_	_	_	SpaceAfter=No
+39	נגד	נגד	ADP	ADP	_	40	case	_	_
+40	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	nmod	_	_
+41	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:204
+# doc_range = 1060-1233
+# sent_id = 5128
+# text = חברי מועצת המנהלים היו מוכנים לקבל את יציאתו לחופשה ללא תשלום, אולם דחו פה-אחד את עניין הבורר.
+1	חברי	חבר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	7	nsubj	_	_
+2	מועצת	מועצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	compound:smixut	_	_
+3-4	המנהלים	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	מנהלים	מנהל	NOUN	NOUN	Gender=Masc|Number=Plur	2	compound:smixut	_	_
+5	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	7	cop	_	_
+6	מוכנים	מוכן	AUX	AUX	Gender=Masc|Number=Plur|Person=1,2,3|VerbType=Mod	7	aux	_	_
+7	לקבל	קיבל	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	0	root	_	_
+8	את	את	ADP	ADP	Case=Acc	9	case	_	_
+9-11	יציאתו	_	_	_	_	_	_	_	_
+9	יציאה	יציאה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obj	_	_
+10	_של_	של	ADP	ADP	Case=Gen	11	case:gen	_	_
+11	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+12-13	לחופשה	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	_	13	case	_	_
+13	חופשה	חופשה	NOUN	NOUN	Gender=Fem|Number=Sing	9	nmod	_	_
+14	ללא	ללא	ADP	ADP	_	15	case	_	_
+15	תשלום	תשלום	NOUN	NOUN	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	18	punct	_	_
+17	אולם	אולם	CCONJ	CCONJ	_	18	cc	_	_
+18	דחו	דחה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	6	conj	_	_
+19	פה	פה	NOUN	NOUN	Gender=Masc|Number=Sing	18	dep	_	SpaceAfter=No
+20	-	-	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No
+21	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	19	nummod	_	_
+22	את	את	ADP	ADP	Case=Acc	23	case	_	_
+23	עניין	עניין	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	18	obj	_	_
+24-25	הבורר	_	_	_	_	_	_	_	SpaceAfter=No
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	בורר	בורר	NOUN	NOUN	Gender=Masc|Number=Sing	23	compound:smixut	_	_
+26	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:204
+# doc_range = 1235-1421
+# sent_id = 5129
+# text = יו"ר מועצת המנהלים של קרן בית ברל ריצרד ערמון, זעם על הראל, עמו היה לו סיכום מפורש שהוא אינו נשאר בקרן.
+1	יו"ר	יו"ר	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	12	nsubj	_	_
+2	מועצת	מועצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	compound:smixut	_	_
+3-4	המנהלים	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	מנהלים	מנהל	NOUN	NOUN	Gender=Masc|Number=Plur	2	compound:smixut	_	_
+5	של	של	ADP	ADP	Case=Gen	6	case	_	_
+6	קרן	קרן	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	nmod	_	_
+7	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	compound:smixut	_	_
+8	ברל	ברל	PROPN	PROPN	_	7	flat:name	_	_
+9	ריצרד	ריצרד	PROPN	PROPN	_	1	appos	_	_
+10	ערמון	ערמון	NOUN	NOUN	Gender=Masc|Number=Sing	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	1	punct	_	_
+12	זעם	זעם	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+13	על	על	ADP	ADP	_	14	case	_	_
+14	הראל	הראל	PROPN	PROPN	_	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	18	punct	_	_
+16-17	עמו	_	_	_	_	_	_	_	_
+16	עם	עם	ADP	ADP	_	17	case	_	_
+17	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obl	_	_
+18	היה	היה	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Past	14	acl:relcl	_	_
+19-20	לו	_	_	_	_	_	_	_	_
+19	ל	ל	ADP	ADP	_	20	case	_	_
+20	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obl	_	_
+21	סיכום	סיכום	NOUN	NOUN	Gender=Masc|Number=Sing	18	nsubj	_	_
+22	מפורש	מפורש	ADJ	ADJ	Gender=Masc|Number=Sing	21	amod	_	_
+23-24	שהוא	_	_	_	_	_	_	_	_
+23	ש	ש	SCONJ	SCONJ	_	26	mark	_	_
+24	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+25	אינו	אינו	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	26	aux	_	_
+26	נשאר	נשאר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	21	acl:relcl	_	_
+27-29	בקרן	_	_	_	_	_	_	_	SpaceAfter=No
+27	ב	ב	ADP	ADP	_	29	case	_	_
+28	ה_	ה	DET	DET	PronType=Art|Definite=Def	29	det	_	_
+29	קרן	קרן	NOUN	NOUN	Gender=Fem|Number=Sing	26	obl	_	_
+30	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# doc_id = htb:204
+# doc_range = 1423-1515
+# sent_id = 5130
+# text = חברי הדירקטוריון ראו בהיעדרותו של הראל זלזול בקרן.
+1	חברי	חבר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	nsubj	_	_
+2-3	הדירקטוריון	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	דירקטוריון	דירקטוריון	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4	ראו	ראה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5-8	בהיעדרותו	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	היעדרות	היעדרות	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+7	_של_	של	ADP	ADP	Case=Gen	8	case:gen	_	_
+8	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+9	של	של	ADP	ADP	Case=Gen	10	case	_	_
+10	הראל	הראל	PROPN	PROPN	_	6	nmod:poss	_	_
+11	זלזול	זלזול	NOUN	NOUN	Gender=Masc|Number=Sing	4	obj	_	_
+12-14	בקרן	_	_	_	_	_	_	_	SpaceAfter=No
+12	ב	ב	ADP	ADP	_	14	case	_	_
+13	ה_	ה	DET	DET	PronType=Art|Definite=Def	14	det	_	_
+14	קרן	קרן	NOUN	NOUN	Gender=Fem|Number=Sing	11	nmod	_	_
+15	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:204
+# doc_range = 1518-1671
+# sent_id = 5131
+# text = הראל גם לא הופיע בפני ועדת הבדיקה בראשות דורון שורר, אליה זומן כדי להשיב על שאלותיה.
+1	הראל	הראל	PROPN	PROPN	_	4	nsubj	_	_
+2	גם	גם	ADV	ADV	_	4	advmod	_	_
+3	לא	לא	ADV	ADV	Polarity=Neg	4	advmod	_	_
+4	הופיע	הופיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	בפני	בפני	ADP	ADP	_	6	case	_	_
+6	ועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	obl	_	_
+7-8	הבדיקה	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	בדיקה	בדיקה	NOUN	NOUN	Gender=Fem|Number=Sing	6	compound:smixut	_	_
+9-10	בראשות	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	ראשות	ראשות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	nmod	_	_
+11	דורון	דורון	PROPN	PROPN	_	10	compound:smixut	_	_
+12	שורר	שורר	PROPN	PROPN	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	16	punct	_	_
+14-15	אליה	_	_	_	_	_	_	_	_
+14	אל	אל	ADP	ADP	_	15	case	_	_
+15	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obl	_	_
+16	זומן	זומן	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	6	acl	_	_
+17	כדי	כדי	SCONJ	SCONJ	_	18	mark	_	_
+18	להשיב	השיב	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	16	advcl	_	_
+19	על	על	ADP	ADP	_	20	case	_	_
+20-22	שאלותיה	_	_	_	_	_	_	_	SpaceAfter=No
+20	שאלה	שאלה	NOUN	NOUN	Gender=Fem|Number=Plur	18	obl	_	_
+21	_של_	של	ADP	ADP	Case=Gen	22	case:gen	_	_
+22	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+23	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:204
+# doc_range = 1673-1774
+# sent_id = 5132
+# text = לאחר מכן טען כי הוועדה קבעה את מסקנותיה מבלי להיפגש עמו.
+1	לאחר	לאחר	ADP	ADP	_	3	case	_	_
+2-3	מכן	_	_	_	_	_	_	_	_
+2	מ	מ	ADP	ADP	_	3	case	_	_
+3	כן	כן	ADV	ADV	_	4	advmod	_	_
+4	טען	טען	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	כי	כי	SCONJ	SCONJ	_	8	mark	_	_
+6-7	הוועדה	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	וועדה	ועדה	NOUN	NOUN	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	קבעה	קבע	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Past	4	ccomp	_	_
+9	את	את	ADP	ADP	Case=Acc	10	case	_	_
+10-12	מסקנותיה	_	_	_	_	_	_	_	_
+10	מסקנה	מסקנה	NOUN	NOUN	Gender=Fem|Number=Plur	8	obj	_	_
+11	_של_	של	ADP	ADP	Case=Gen	12	case:gen	_	_
+12	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+13	מבלי	מבלי	ADP	ADP	_	14	case	_	_
+14	להיפגש	נפגש	VERB	VERB	HebBinyan=NIFAL|VerbForm=Inf|Voice=Mid	8	advcl	_	_
+15-16	עמו	_	_	_	_	_	_	_	SpaceAfter=No
+15	עם	עם	ADP	ADP	_	16	case	_	_
+16	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obl	_	_
+17	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:204
+# doc_range = 1777-1949
+# sent_id = 5133
+# text = בדו"ח שורר נאמר כי ועדת הבדיקה לא קיבלה את כל המסמכים הדרושים לה, מכיוון שמסמכים כאלה לא נכתבו.
+1-2	בדו"ח	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	דו"ח	דו"ח	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	4	obl	_	_
+3	שורר	שורר	PROPN	PROPN	_	2	compound:smixut	_	_
+4	נאמר	נאמר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+5	כי	כי	SCONJ	SCONJ	_	10	mark	_	_
+6	ועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	10	nsubj	_	_
+7-8	הבדיקה	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	בדיקה	בדיקה	NOUN	NOUN	Gender=Fem|Number=Sing	6	compound:smixut	_	_
+9	לא	לא	ADV	ADV	Polarity=Neg	10	advmod	_	_
+10	קיבלה	קיבל	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	4	ccomp	_	_
+11	את	את	ADP	ADP	Case=Acc	14	case	_	_
+12	כל	כול	DET	DET	Definite=Cons	14	det	_	_
+13-14	המסמכים	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	מסמכים	מסמך	NOUN	NOUN	Gender=Masc|Number=Plur	10	obj	_	_
+15-16	הדרושים	_	_	_	_	_	_	_	_
+15	ה	ה	SCONJ	SCONJ	_	16	mark	_	_
+16	דרושים	דרש	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	14	acl:relcl	_	_
+17-18	לה	_	_	_	_	_	_	_	SpaceAfter=No
+17	ל	ל	ADP	ADP	_	18	case	_	_
+18	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obl	_	_
+19	,	,	PUNCT	PUNCT	_	27	punct	_	_
+20	מכיוון	מכיוון	SCONJ	SCONJ	_	27	mark	_	_
+21-22	שמסמכים	_	_	_	_	_	_	_	_
+21	ש	ש	SCONJ	SCONJ	_	27	mark	_	_
+22	מסמכים	מסמך	NOUN	NOUN	Gender=Masc|Number=Plur	27	nsubj	_	_
+23-25	כאלה	_	_	_	_	_	_	_	_
+23	כ	כ	ADP	ADP	_	25	case	_	_
+24	ה_	ה	DET	DET	PronType=Art|Definite=Def	25	det	_	_
+25	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	22	nmod	_	_
+26	לא	לא	ADV	ADV	Polarity=Neg	27	advmod	_	_
+27	נכתבו	נכתב	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	10	obl	_	SpaceAfter=No
+28	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:204
+# doc_range = 1951-2091
+# sent_id = 5134
+# text = הדו"ח כלל המלצה לדאוג לכך כי בראש המוסד יעמדו אנשים המסוגלים לספק נתונים אלה.
+1-2	הדו"ח	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	דו"ח	דו"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	כלל	כלל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	המלצה	המלצה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obj	_	_
+5	לדאוג	דאג	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	4	acl	_	_
+6-7	לכך	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	כך	כך	PRON	PRON	Person=3|PronType=Dem	5	dep	_	HebSource=ConvUncertainHead
+8	כי	כי	SCONJ	SCONJ	_	13	mark	_	_
+9-10	בראש	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	ראש	ראש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	obl	_	_
+11-12	המוסד	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	מוסד	מוסד	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
+13	יעמדו	עמד	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	5	dep	_	HebSource=ConvUncertainHead
+14	אנשים	איש	NOUN	NOUN	Gender=Masc|Number=Plur	13	nsubj	_	_
+15-16	המסוגלים	_	_	_	_	_	_	_	_
+15	ה	ה	SCONJ	SCONJ	_	17	mark	_	_
+16	מסוגלים	מסוגל	AUX	AUX	Gender=Masc|Number=Plur|Person=1,2,3|VerbType=Mod	17	aux	_	_
+17	לספק	סיפק	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	14	acl:relcl	_	_
+18	נתונים	נתון	NOUN	NOUN	Gender=Masc|Number=Plur	17	obj	_	_
+19	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	18	det	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:204
+# doc_range = 2093-2382
+# sent_id = 5135
+# text = קפידבינמשמעות ההמלצה היא החלפת דרג המנהלים של בית ברל, בכלל זה אהרן הראל, המשנה מנכ"ל גדעון פלג, ומנהל מכללת בית ברל, שהיא חברה-בת של הקרן, ד"ר אהרן זיידנברג.
+1-2	קפידבינמשמעות	_	_	_	_	_	_	_	_
+1	קפידבינ	קפידבינ	X	X	_	6	dep	_	Xtra=Junk
+2	משמעות	משמעות	X	X	_	6	nsubj	_	Xtra=Junk
+3-4	ההמלצה	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	המלצה	המלצה	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound:smixut	_	_
+5	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	6	cop	_	_
+6	החלפת	החלפה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	0	root	_	_
+7	דרג	דרג	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	compound:smixut	_	_
+8-9	המנהלים	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	מנהלים	מנהל	NOUN	NOUN	Gender=Masc|Number=Plur	7	compound:smixut	_	_
+10	של	של	ADP	ADP	Case=Gen	11	case	_	_
+11	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nmod:poss	_	_
+12	ברל	ברל	PROPN	PROPN	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	17	punct	_	_
+14-15	בכלל	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	כלל	כלל	NOUN	NOUN	Gender=Masc|Number=Sing	17	nmod	_	_
+16	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	dep	_	_
+17	אהרן	אהרן	PROPN	PROPN	_	6	nmod	_	_
+18	הראל	הראל	PROPN	PROPN	_	17	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	22	punct	_	_
+20-21	המשנה	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+21	משנה	משנה	NOUN	NOUN	Gender=Masc|Number=Sing	22	nmod	_	_
+22	מנכ"ל	מנכ"ל	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	17	conj	_	_
+23	גדעון	גדעון	PROPN	PROPN	_	22	flat:name	_	_
+24	פלג	פלג	PROPN	PROPN	_	22	flat:name	_	SpaceAfter=No
+25	,	,	PUNCT	PUNCT	_	27	punct	_	_
+26-27	ומנהל	_	_	_	_	_	_	_	_
+26	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
+27	מנהל	מנהל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	conj	_	_
+28	מכללת	מכללה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	27	compound:smixut	_	_
+29	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	28	compound:smixut	_	_
+30	ברל	ברל	PROPN	PROPN	_	29	flat:name	_	SpaceAfter=No
+31	,	,	PUNCT	PUNCT	_	34	punct	_	_
+32-33	שהיא	_	_	_	_	_	_	_	_
+32	ש	ש	SCONJ	SCONJ	_	34	mark	_	_
+33	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
+34	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	28	acl:relcl	_	SpaceAfter=No
+35	-	-	PUNCT	PUNCT	_	36	punct	_	SpaceAfter=No
+36	בת	בת	NOUN	NOUN	Gender=Fem|Number=Sing	34	nmod	_	_
+37	של	של	ADP	ADP	Case=Gen	39	case	_	_
+38-39	הקרן	_	_	_	_	_	_	_	SpaceAfter=No
+38	ה	ה	DET	DET	Definite=Def|PronType=Art	39	det	_	_
+39	קרן	קרן	NOUN	NOUN	Gender=Fem|Number=Sing	34	nmod:poss	_	_
+40	,	,	PUNCT	PUNCT	_	41	punct	_	_
+41	ד"ר	ד"ר	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	27	appos	_	_
+42	אהרן	אהרן	PROPN	PROPN	_	41	flat:name	_	_
+43	זיידנברג	זיידנברג	PROPN	PROPN	_	41	flat:name	_	SpaceAfter=No
+44	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:204
+# doc_range = 2384-2518
+# sent_id = 5136
+# text = חובות הקרן ומכללת בית-ברל הוערכו עוד בטרם הגשת הדו"ח ביותר מ20 מיליון שקל.
+1	חובות	חוב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	9	nsubj:pass	_	_
+2-3	הקרן	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	קרן	קרן	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+4-5	ומכללת	_	_	_	_	_	_	_	_
+4	ו	ו	CCONJ	CCONJ	_	5	cc	_	_
+5	מכללת	מכללה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	conj	_	_
+6	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	flat:name	_	SpaceAfter=No
+7	-	-	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+8	ברל	ברל	PROPN	PROPN	_	6	flat:name	_	_
+9	הוערכו	הוערך	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+10	עוד	עוד	ADV	ADV	_	12	advmod	_	_
+11	בטרם	בטרם	ADP	ADP	_	12	case	_	_
+12	הגשת	הגשה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	obl	_	_
+13-14	הדו"ח	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	דו"ח	דו"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	12	compound:smixut	_	_
+15-16	ביותר	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	20	case	_	_
+16	יותר	יותר	ADV	ADV	_	20	advmod	_	HebSource=ConvUncertainHead
+17-18	מ20	_	_	_	_	_	_	_	_
+17	מ	מ	ADP	ADP	_	16	fixed	_	_
+18	20	20	NUM	NUM	_	19	nummod	_	_
+19	מיליון	מיליון	NUM	NUM	Gender=Masc|Number=Plur	20	nummod	_	_
+20	שקל	שקל	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:204
+# doc_range = 2520-2624
+# sent_id = 5137
+# text = בתקופתו של הראל לא חוברו דו"חות כספיים על הפעולות שבוצעו.
+1-4	בתקופתו	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	תקופה	תקופה	NOUN	NOUN	Gender=Fem|Number=Sing	8	obl	_	_
+3	_של_	של	ADP	ADP	Case=Gen	4	case:gen	_	_
+4	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5	של	של	ADP	ADP	Case=Gen	6	case	_	_
+6	הראל	הראל	PROPN	PROPN	_	2	nmod:poss	_	_
+7	לא	לא	ADV	ADV	Polarity=Neg	8	advmod	_	_
+8	חוברו	חובר	VERB	VERB	Gender=Fem,Masc|HebBinyan=PUAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+9	דו"חות	דו"ח	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Plur	8	nsubj:pass	_	_
+10	כספיים	כספי	ADJ	ADJ	Gender=Masc|Number=Plur	9	amod	_	_
+11	על	על	ADP	ADP	_	13	case	_	_
+12-13	הפעולות	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	פעולות	פעולה	NOUN	NOUN	Gender=Fem|Number=Plur	9	nmod	_	_
+14-15	שבוצעו	_	_	_	_	_	_	_	SpaceAfter=No
+14	ש	ש	SCONJ	SCONJ	_	15	mark	_	_
+15	בוצעו	בוצע	VERB	VERB	Gender=Fem,Masc|HebBinyan=PUAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	13	acl:relcl	_	_
+16	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:204
+# doc_range = 2626-2697
+# sent_id = 5138
+# text = חוגי לימוד הוכנסו מבלי שנבדקה כדאיותם.
+1	חוגי	חוג	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+2	לימוד	לימוד	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+3	הוכנסו	הוכנס	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+4	מבלי	מבלי	ADP	ADP	_	6	case	_	_
+5-6	שנבדקה	_	_	_	_	_	_	_	_
+5	ש	ש	SCONJ	SCONJ	_	6	mark	_	_
+6	נבדקה	נבדק	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	3	obl	_	_
+7-9	כדאיותם	_	_	_	_	_	_	_	SpaceAfter=No
+7	כדאיות	כדאיות	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj	_	_
+8	_של_	של	ADP	ADP	Case=Gen	9	case:gen	_	_
+9	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+10	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:204
+# doc_range = 2699-2897
+# sent_id = 5139
+# text = נעשו פעולות בנייה בעלת גבוהה מדי, ונרכש מחשב ברבע מיליון שקלים, שלא התאים כלל לצרכי המכללה, ונותר ללא שימוש.
+1	נעשו	נעשה	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+2	פעולות	פעולה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	1	nsubj	_	_
+3	בנייה	בנייה	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound:smixut	_	_
+4-5	בעלת	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	עלת	עלת	NOUN	NOUN	_	1	obl	_	_
+6	גבוהה	גבוה	ADJ	ADJ	Gender=Fem|Number=Sing	5	amod	_	_
+7	מדי	מדי	ADV	ADV	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	10	punct	_	_
+9-10	ונרכש	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+10	נרכש	נרכש	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	1	conj	_	_
+11	מחשב	מחשב	NOUN	NOUN	Gender=Masc|Number=Sing	10	nsubj	_	_
+12-13	ברבע	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	רבע	רבע	NOUN	NOUN	Definite=Cons	11	nmod	_	_
+14	מיליון	מיליון	NUM	NUM	Gender=Masc|Number=Plur	13	compound:smixut	_	_
+15	שקלים	שקל	NOUN	NOUN	Gender=Masc|Number=Plur	13	nmod	_	HebSource=ConvUncertainLabel|SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	19	punct	_	_
+17-18	שלא	_	_	_	_	_	_	_	_
+17	ש	ש	SCONJ	SCONJ	_	19	mark	_	_
+18	לא	לא	ADV	ADV	Polarity=Neg	19	advmod	_	_
+19	התאים	התאים	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	11	acl:relcl	_	_
+20	כלל	כלל	ADV	ADV	_	19	advmod	_	_
+21-22	לצרכי	_	_	_	_	_	_	_	_
+21	ל	ל	ADP	ADP	_	22	case	_	_
+22	צרכי	צורך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	19	obl	_	_
+23-24	המכללה	_	_	_	_	_	_	_	SpaceAfter=No
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	מכללה	מכללה	NOUN	NOUN	Gender=Fem|Number=Sing	22	compound:smixut	_	_
+25	,	,	PUNCT	PUNCT	_	27	punct	_	_
+26-27	ונותר	_	_	_	_	_	_	_	_
+26	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
+27	נותר	נותר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	19	conj	_	_
+28	ללא	ללא	ADP	ADP	_	29	case	_	_
+29	שימוש	שימוש	NOUN	NOUN	Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
+30	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:204
+# doc_range = 2899-3023
+# sent_id = 5140
+# text = בישיבת מועצת המנהלים שלשום התקיים דיון ארוך בתנאי הפיטורים של הראל.
+1-2	בישיבת	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	ישיבת	ישיבה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	obl	_	_
+3	מועצת	מועצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	compound:smixut	_	_
+4-5	המנהלים	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	מנהלים	מנהל	NOUN	NOUN	Gender=Masc|Number=Plur	3	compound:smixut	_	_
+6	שלשום	שלשום	ADV	ADV	_	7	advmod	_	_
+7	התקיים	התקיים	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+8	דיון	דיון	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj	_	_
+9	ארוך	ארוך	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	_
+10-11	בתנאי	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	תנאי	תנאי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	8	nmod	_	_
+12-13	הפיטורים	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	פיטורים	פיטורין	NOUN	NOUN	Gender=Masc|Number=Plur	11	compound:smixut	_	_
+14	של	של	ADP	ADP	Case=Gen	15	case	_	_
+15	הראל	הראל	PROPN	PROPN	_	11	nmod:poss	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:204
+# doc_range = 3025-3114
+# sent_id = 5141
+# text = לבסוף הוחלט ליטול ממנו את כל הסמכויות הניהוליות.
+1	לבסוף	לבסוף	ADV	ADV	_	2	advmod	_	_
+2	הוחלט	הוחלט	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+3	ליטול	נטל	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4-5	ממנו	_	_	_	_	_	_	_	_
+4	מן	מן	ADP	ADP	_	5	case	_	_
+5	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+6	את	את	ADP	ADP	Case=Acc	9	case	_	_
+7	כל	כול	DET	DET	Definite=Cons	9	det	_	_
+8-9	הסמכויות	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	סמכויות	סמכות	NOUN	NOUN	Gender=Fem|Number=Plur	3	obj	_	_
+10-11	הניהוליות	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	ניהוליות	ניהולי	ADJ	ADJ	Gender=Fem|Number=Plur	9	amod	_	_
+12	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:204
+# doc_range = 3116-3321
+# sent_id = 5142
+# text = לפי תקנון הקרן אין למועצת המנהלים סמכות לפטר את המנכ"ל ולכן תפורסם היום הודעת זימון לאספה הכללית של בעלי המניות.
+1	לפי	לפי	ADP	ADP	_	2	case	_	_
+2	תקנון	תקנון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+3-4	הקרן	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	קרן	קרן	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound:smixut	_	_
+5	אין	אין	VERB	VERB	HebExistential=Yes	0	root	_	_
+6-7	למועצת	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	מועצת	מועצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	obl	_	_
+8-9	המנהלים	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	מנהלים	מנהל	NOUN	NOUN	Gender=Masc|Number=Plur	7	compound:smixut	_	_
+10	סמכות	סמכות	NOUN	NOUN	Gender=Fem|Number=Sing	5	nsubj	_	_
+11	לפטר	פיטר	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	10	acl	_	_
+12	את	את	ADP	ADP	Case=Acc	14	case	_	_
+13-14	המנכ"ל	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	מנכ"ל	מנכ"ל	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	11	obj	_	_
+15-16	ולכן	_	_	_	_	_	_	_	_
+15	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+16	לכן	לכן	ADV	ADV	_	17	advmod	_	_
+17	תפורסם	פורסם	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	5	conj	_	_
+18	היום	היום	ADV	ADV	_	17	advmod	_	_
+19	הודעת	הודעה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	17	nsubj:pass	_	_
+20	זימון	זימון	NOUN	NOUN	Gender=Masc|Number=Sing	19	compound:smixut	_	_
+21-23	לאספה	_	_	_	_	_	_	_	_
+21	ל	ל	ADP	ADP	_	23	case	_	_
+22	ה_	ה	DET	DET	PronType=Art|Definite=Def	23	det	_	_
+23	אספה	אספה	NOUN	NOUN	Gender=Fem|Number=Sing	20	nmod	_	_
+24-25	הכללית	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	כללית	כללי	ADJ	ADJ	Gender=Fem|Number=Sing	23	amod	_	_
+26	של	של	ADP	ADP	Case=Gen	27	case	_	_
+27	בעלי	בעל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	23	nmod	_	_
+28-29	המניות	_	_	_	_	_	_	_	SpaceAfter=No
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	מניות	מנייה	NOUN	NOUN	Gender=Fem|Number=Plur	27	compound:smixut	_	_
+30	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:204
+# doc_range = 3323-3543
+# sent_id = 5143
+# text = באספה הכללית תבקש מועצת המנהלים לשנות את התקנון ולהאציל עליה את הסמכות למנות מנהל חדש, תוך המלצה להעביר את הראל מתפקידו.
+1-3	באספה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	אספה	אספה	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	_
+4-5	הכללית	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	כללית	כללי	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	_
+6	תבקש	ביקש	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+7	מועצת	מועצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	nsubj	_	_
+8-9	המנהלים	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	מנהלים	מנהל	NOUN	NOUN	Gender=Masc|Number=Plur	7	compound:smixut	_	_
+10	לשנות	לשנות	VERB	VERB	VerbForm=Inf	6	xcomp	_	_
+11	את	את	ADP	ADP	Case=Acc	13	case	_	_
+12-13	התקנון	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	תקנון	תקנון	NOUN	NOUN	Gender=Masc|Number=Sing	10	obj	_	_
+14-15	ולהאציל	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+15	להאציל	האציל	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	10	conj	_	_
+16-17	עליה	_	_	_	_	_	_	_	_
+16	על	על	ADP	ADP	_	17	case	_	_
+17	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obl	_	_
+18	את	את	ADP	ADP	Case=Acc	20	case	_	_
+19-20	הסמכות	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	סמכות	סמכות	NOUN	NOUN	Gender=Fem|Number=Sing	15	obj	_	_
+21	למנות	למנות	VERB	VERB	VerbForm=Inf	20	acl	_	_
+22	מנהל	מנהל	NOUN	NOUN	Gender=Masc|Number=Sing	21	obj	_	_
+23	חדש	חדש	ADJ	ADJ	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+24	,	,	PUNCT	PUNCT	_	26	punct	_	_
+25	תוך	תוך	ADP	ADP	_	26	case	_	_
+26	המלצה	המלצה	NOUN	NOUN	Gender=Fem|Number=Sing	10	obl	_	_
+27	להעביר	העביר	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	26	acl	_	_
+28	את	את	ADP	ADP	Case=Acc	29	case	_	_
+29	הראל	הראל	PROPN	PROPN	_	27	obj	_	_
+30-33	מתפקידו	_	_	_	_	_	_	_	SpaceAfter=No
+30	מ	מ	ADP	ADP	_	31	case	_	_
+31	תפקיד	תפקיד	NOUN	NOUN	Gender=Masc|Number=Sing	27	obl	_	_
+32	_של_	של	ADP	ADP	Case=Gen	33	case:gen	_	_
+33	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+34	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:204
+# doc_range = 3545-3670
+# sent_id = 5144
+# text = כן תתבקש האספה הכללית לאשר את מאזן הקרן לשנת 88 ואת מינוי רואי החשבון.
+1	כן	כן	ADV	ADV	_	2	advmod	_	_
+2	תתבקש	התבקש	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Fut	0	root	_	_
+3-4	האספה	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	אספה	אספה	NOUN	NOUN	Gender=Fem|Number=Sing	2	nsubj	_	_
+5-6	הכללית	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	כללית	כללי	ADJ	ADJ	Gender=Fem|Number=Sing	4	amod	_	_
+7	לאשר	אישר	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+8	את	את	ADP	ADP	Case=Acc	9	case	_	_
+9	מאזן	מאזן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	obj	_	_
+10-11	הקרן	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	קרן	קרן	NOUN	NOUN	Gender=Fem|Number=Sing	9	compound:smixut	_	_
+12-13	לשנת	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	_	13	case	_	_
+13	שנת	שנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	nmod	_	_
+14	88	88	NUM	NUM	_	13	compound:smixut	_	_
+15-16	ואת	_	_	_	_	_	_	_	_
+15	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+16	את	את	ADP	ADP	Case=Acc	17	case	_	_
+17	מינוי	מינוי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	conj	_	_
+18	רואי	רואה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	17	compound:smixut	_	_
+19-20	החשבון	_	_	_	_	_	_	_	SpaceAfter=No
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	חשבון	חשבון	NOUN	NOUN	Gender=Masc|Number=Sing	18	compound:smixut	_	_
+21	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:204
+# doc_range = 3672-3826
+# sent_id = 5145
+# text = אהרן הראל אמר בתגובה: "הצעתי לערמון שאתפטר מיד אך הוא הציע לי לצאת לחופשה ללא תשלום.
+1	אהרן	אהרן	PROPN	PROPN	_	3	nsubj	_	_
+2	הראל	הראל	PROPN	PROPN	_	1	flat:name	_	_
+3	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4-5	בתגובה	_	_	_	_	_	_	_	SpaceAfter=No
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	תגובה	תגובה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+6	:	:	PUNCT	PUNCT	_	8	punct	_	_
+7	"	"	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+8	הצעתי	הציע	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Sing|Person=1|Tense=Past|Voice=Act	3	ccomp	_	_
+9-10	לערמון	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	10	case	_	_
+10	ערמון	ערמון	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+11-12	שאתפטר	_	_	_	_	_	_	_	_
+11	ש	ש	SCONJ	SCONJ	_	12	mark	_	_
+12	אתפטר	התפטר	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Sing|Person=1|Tense=Fut	8	ccomp	_	_
+13	מיד	מייד	ADV	ADV	_	12	advmod	_	_
+14	אך	אך	CCONJ	CCONJ	_	16	cc	_	_
+15	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	הציע	הציע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	8	conj	_	_
+17-18	לי	_	_	_	_	_	_	_	_
+17	ל	ל	ADP	ADP	_	18	case	_	_
+18	_אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	16	obl	_	_
+19	לצאת	יצא	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+20-21	לחופשה	_	_	_	_	_	_	_	_
+20	ל	ל	ADP	ADP	_	21	case	_	_
+21	חופשה	חופשה	NOUN	NOUN	Gender=Fem|Number=Sing	19	obl	_	_
+22	ללא	ללא	ADP	ADP	_	23	case	_	_
+23	תשלום	תשלום	NOUN	NOUN	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:204
+# doc_range = 3828-3933
+# sent_id = 5146
+# text = התנאי שלי הוא מינוי בורר חיצוני שיבדוק את כל ההשמצות נגדי.
+1-2	התנאי	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	תנאי	תנאי	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
+3-4	שלי	_	_	_	_	_	_	_	_
+3	של	של	ADP	ADP	Case=Gen	4	case	_	_
+4	_אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	6	cop	_	_
+6	מינוי	מינוי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	_
+7	בורר	בורר	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+8	חיצוני	חיצוני	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	_
+9-10	שיבדוק	_	_	_	_	_	_	_	_
+9	ש	ש	SCONJ	SCONJ	_	10	mark	_	_
+10	יבדוק	בדק	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	7	acl:relcl	_	_
+11	את	את	ADP	ADP	Case=Acc	14	case	_	_
+12	כל	כול	DET	DET	Definite=Cons	14	det	_	_
+13-14	ההשמצות	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	השמצות	השמצה	NOUN	NOUN	Gender=Fem|Number=Plur	10	obj	_	_
+15-16	נגדי	_	_	_	_	_	_	_	SpaceAfter=No
+15	נגד	נגד	ADP	ADP	_	16	case	_	_
+16	_אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	14	nmod	_	_
+17	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:204
+# doc_range = 3936-3984
+# sent_id = 5147
+# text = חוץ מזה אני לא רוצה להישאר.
+1	חוץ	חוץ	ADP	ADP	_	3	case	_	_
+2-3	מזה	_	_	_	_	_	_	_	_
+2	מ	מ	ADP	ADP	_	1	fixed	_	_
+3	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
+4	אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	לא	לא	ADV	ADV	Polarity=Neg	6	advmod	_	_
+6	רוצה	רצה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+7	להישאר	נשאר	VERB	VERB	HebBinyan=NIFAL|VerbForm=Inf|Voice=Mid	6	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:204
+# doc_range = 3986-4034
+# sent_id = 5148
+# text = אני לא סומך על ועדת הבדיקה.
+1	אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	לא	לא	ADV	ADV	Polarity=Neg	3	advmod	_	_
+3	סומך	סמך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4	על	על	ADP	ADP	_	5	case	_	_
+5	ועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	obl	_	_
+6-7	הבדיקה	_	_	_	_	_	_	_	SpaceAfter=No
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	בדיקה	בדיקה	NOUN	NOUN	Gender=Fem|Number=Sing	5	compound:smixut	_	_
+8	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:204
+# doc_range = 4036-4071
+# sent_id = 5149
+# text = היא לא אמינה בעיני.
+1	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	לא	לא	ADV	ADV	Polarity=Neg	3	advmod	_	_
+3	אמינה	אמין	ADJ	ADJ	Gender=Fem|Number=Sing	0	root	_	_
+4-7	בעיני	_	_	_	_	_	_	_	SpaceAfter=No
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	עין	עין	NOUN	NOUN	Gender=Fem|Number=Plur	3	obl	_	_
+6	_של_	של	ADP	ADP	Case=Gen	7	case:gen	_	_
+7	_אני	הוא	PRON	PRON	Definite=Def|Gender=Fem,Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+8	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:204
+# doc_range = 4073-4187
+# sent_id = 5150
+# text = איאבק בכל האמצעים, כולל אמצעים משפטיים כדי להשיג בורר חיצוני".
+1	איאבק	איאבק	VERB	VERB	_	0	root	_	_
+2-3	בכל	_	_	_	_	_	_	_	_
+2	ב	ב	ADP	ADP	_	5	case	_	_
+3	כל	כול	DET	DET	Definite=Cons	5	det	_	_
+4-5	האמצעים	_	_	_	_	_	_	_	SpaceAfter=No
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	אמצעים	אמצעי	NOUN	NOUN	Gender=Masc|Number=Plur	1	obl	_	_
+6	,	,	PUNCT	PUNCT	_	8	punct	_	_
+7	כולל	כלל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	8	case	_	_
+8	אמצעים	אמצעי	NOUN	NOUN	Gender=Masc|Number=Plur	1	obl	_	_
+9	משפטיים	משפטי	ADJ	ADJ	Gender=Masc|Number=Plur	8	amod	_	_
+10	כדי	כדי	SCONJ	SCONJ	_	11	mark	_	_
+11	להשיג	השיג	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	1	advcl	_	_
+12	בורר	בורר	NOUN	NOUN	Gender=Masc|Number=Sing	11	obj	_	_
+13	חיצוני	חיצוני	ADJ	ADJ	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	"	"	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	1	punct	_	_
+

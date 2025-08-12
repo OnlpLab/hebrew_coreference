@@ -1,0 +1,1 @@
+from .trankit2spacy import Trankit2Spacy

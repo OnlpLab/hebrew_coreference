@@ -1,0 +1,147 @@
+# doc_id = htb:31
+# doc_range = 1-122
+# sent_id = 1405
+# text = רעישות עשויות לחולל זעזוע בפיסגה במשחקי המחזור ה-31 של הבונדסליגה.
+1	רעישות	רעישות	NOUN	NOUN	_	3	nsubj	_	_
+2	עשויות	עשוי	AUX	AUX	Gender=Fem|Number=Plur|Person=1,2,3|VerbType=Mod	3	aux	_	_
+3	לחולל	חולל	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	0	root	_	_
+4	זעזוע	זעזוע	NOUN	NOUN	Gender=Masc|Number=Sing	3	obj	_	_
+5-7	בפיסגה	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	7	case	_	_
+6	ה_	ה	DET	DET	PronType=Art|Definite=Def	7	det	_	_
+7	פיסגה	פסגה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nmod	_	_
+8-9	במשחקי	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	משחקי	משחק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	3	obl	_	_
+10-11	המחזור	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	מחזור	מחזור	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound:smixut	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	SpaceAfter=No
+13	-	-	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
+14	31	31	NUM	NUM	_	9	amod	_	_
+15	של	של	ADP	ADP	Case=Gen	17	case	_	_
+16-17	הבונדסליגה	_	_	_	_	_	_	_	SpaceAfter=No
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	בונדסליגה	הבונדסליגה	PROPN	PROPN	_	9	nmod	_	_
+18	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:31
+# doc_range = 125-395
+# sent_id = 1406
+# text = שתי הראשונות ישחקו מחר בבית נגד יריבות נוחות: המוליכה באיירן מינכן (71 נק) מארחת את דורטמונד (מדורגת 9) וקייזרסלאוטרן (61 נק) מחכה לדיסלדורף (מקום 21).
+1	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	3	nummod	_	_
+2-3	הראשונות	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	ראשונות	ראשונות	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	ישחקו	שיחק	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	0	root	_	_
+5	מחר	מחר	ADV	ADV	_	4	advmod	_	_
+6-8	בבית	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	8	case	_	_
+7	ה_	ה	DET	DET	PronType=Art|Definite=Def	8	det	_	_
+8	בית	בית	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+9	נגד	נגד	ADP	ADP	_	10	case	_	_
+10	יריבות	יריבה	NOUN	NOUN	Gender=Fem|Number=Plur	4	obl	_	_
+11	נוחות	נוח	ADJ	ADJ	Gender=Fem|Number=Plur	10	amod	_	SpaceAfter=No
+12	:	:	PUNCT	PUNCT	_	21	punct	_	_
+13-14	המוליכה	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	מוליכה	הוליך	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	21	nsubj	_	_
+15	באיירן	אייר	PROPN	PROPN	_	14	appos	_	_
+16	מינכן	מינכן	PROPN	PROPN	_	15	flat:name	_	_
+17	(	(	PUNCT	PUNCT	_	19	punct	_	SpaceAfter=No
+18	71	71	NUM	NUM	_	19	nummod	_	_
+19	נק	נק	NOUN	NOUN	_	14	appos	_	SpaceAfter=No
+20	)	)	PUNCT	PUNCT	_	19	punct	_	_
+21	מארחת	אירח	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	4	advcl	_	_
+22	את	את	ADP	ADP	Case=Acc	23	case	_	_
+23	דורטמונד	דורטמונד	PROPN	PROPN	_	21	obj	_	_
+24	(	(	PUNCT	PUNCT	_	25	punct	_	SpaceAfter=No
+25	מדורגת	דורג	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	23	appos	_	_
+26	9	9	NUM	NUM	_	25	dep	_	SpaceAfter=No
+27	)	)	PUNCT	PUNCT	_	25	punct	_	_
+28-29	וקייזרסלאוטרן	_	_	_	_	_	_	_	_
+28	ו	ו	CCONJ	CCONJ	_	34	cc	_	_
+29	קייזרסלאוטרן	וקייזרסלאוטרן	PROPN	PROPN	_	34	nsubj	_	_
+30	(	(	PUNCT	PUNCT	_	32	punct	_	SpaceAfter=No
+31	61	61	NUM	NUM	_	32	nummod	_	_
+32	נק	נק	NOUN	NOUN	_	29	appos	_	SpaceAfter=No
+33	)	)	PUNCT	PUNCT	_	32	punct	_	_
+34	מחכה	חיכה	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	21	conj	_	_
+35-36	לדיסלדורף	_	_	_	_	_	_	_	_
+35	ל	ל	ADP	ADP	_	36	case	_	_
+36	דיסלדורף	דיסלדורף	PROPN	PROPN	_	34	obl	_	_
+37	(	(	PUNCT	PUNCT	_	38	punct	_	SpaceAfter=No
+38	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	36	appos	_	_
+39	21	21	NUM	NUM	_	38	amod	_	SpaceAfter=No
+40	)	)	PUNCT	PUNCT	_	38	punct	_	SpaceAfter=No
+41	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:31
+# doc_range = 399-524
+# sent_id = 1407
+# text = ורדר ברמן עלולה לאבד את מקומה השלישי (גם לה 61 נק) אם תפסיד בשטוטגארט.
+1	ורדר	ורדר	PROPN	PROPN	_	4	nsubj	_	_
+2	ברמן	ברמן	PROPN	PROPN	_	1	flat:name	_	_
+3	עלולה	עלול	AUX	AUX	Gender=Fem|Number=Sing|Person=1,2,3|VerbType=Mod	4	aux	_	_
+4	לאבד	איבד	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	0	root	_	_
+5	את	את	ADP	ADP	Case=Acc	6	case	_	_
+6-8	מקומה	_	_	_	_	_	_	_	_
+6	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	4	obj	_	_
+7	_של_	של	ADP	ADP	Case=Gen	8	case:gen	_	_
+8	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+9-10	השלישי	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	שלישי	שלישי	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	_
+11	(	(	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
+12	גם	גם	ADV	ADV	_	14	advmod	_	_
+13-14	לה	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
+15	61	61	NUM	NUM	_	16	nummod	_	_
+16	נק	נק	NOUN	NOUN	_	14	nsubj	_	SpaceAfter=No
+17	)	)	PUNCT	PUNCT	_	14	punct	_	_
+18	אם	אם	SCONJ	SCONJ	_	19	mark	_	_
+19	תפסיד	הפסיד	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	4	advcl	_	_
+20-21	בשטוטגארט	_	_	_	_	_	_	_	SpaceAfter=No
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	שטוטגארט	שטוטגארט	PROPN	PROPN	_	19	obl	_	_
+22	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:31
+# doc_range = 526-735
+# sent_id = 1408
+# text = יתר המשחקים: באייר לוורקוזן קלן, נירנברג פרנקפורט, סט. פאולי מנשנגלדבאך, באייר אירדינגן האמבורג, קארלסרה בוכום.
+1	יתר	יתר	DET	DET	Definite=Cons	3	det	_	_
+2-3	המשחקים	_	_	_	_	_	_	_	SpaceAfter=No
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	משחקים	משחק	NOUN	NOUN	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	:	:	PUNCT	PUNCT	_	3	punct	_	_
+5	באייר	באייר	PROPN	PROPN	_	0	root	_	_
+6	לוורקוזן	לוורקוזן	PROPN	PROPN	_	5	flat:name	_	_
+7	קלן	קלן	PROPN	PROPN	_	5	nmod	_	HebSource=ConvUncertainLabel|SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	9	punct	_	HebSource=ConvUncertainHead
+9	נירנברג	נירנברג	PROPN	PROPN	_	5	dep	_	HebSource=ConvUncertainHead
+10	פרנקפורט	פרנקפורט	PROPN	PROPN	_	9	nmod	_	HebSource=ConvUncertainLabel|SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	12	punct	_	HebSource=ConvUncertainHead
+12	סט.	סטyyד%ת	PROPN	PROPN	Abbr=Yes	5	dep	_	HebSource=ConvUncertainHead
+13	פאולי	פאולי	PROPN	PROPN	_	12	flat:name	_	_
+14	מנשנגלדבאך	מנשנגלדבאך	PROPN	PROPN	_	12	nmod	_	HebSource=ConvUncertainLabel|SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	16	punct	_	HebSource=ConvUncertainHead
+16	באייר	באייר	PROPN	PROPN	_	5	dep	_	HebSource=ConvUncertainHead
+17	אירדינגן	אירדינגן	PROPN	PROPN	_	16	flat:name	_	_
+18	האמבורג	האמבורג	PROPN	PROPN	_	16	nmod	_	HebSource=ConvUncertainLabel|SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	20	punct	_	HebSource=ConvUncertainHead
+20	קארלסרה	קארלסרה	PROPN	PROPN	_	5	dep	_	HebSource=ConvUncertainHead
+21	בוכום	בוכום	PROPN	PROPN	_	20	nmod	_	HebSource=ConvUncertainLabel|SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:31
+# doc_range = 737-774
+# sent_id = 1409
+# text = הערב: ואטנשייד הרתה.
+1	הערב	הערב	ADV	ADV	_	3	advmod	_	SpaceAfter=No
+2	:	:	PUNCT	PUNCT	_	1	punct	_	_
+3	ואטנשייד	ואטנשייד	PROPN	PROPN	_	0	root	_	_
+4	הרתה	הרה	PROPN	PROPN	_	3	nmod	_	HebSource=ConvUncertainLabel|SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	3	punct	_	_
+

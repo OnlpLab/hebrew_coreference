@@ -1,0 +1,49 @@
+
+The device used is: mps
+07/28/2025 15:34:59 - INFO - coref_dataset -   Creating batches for 301 examples...
+0it [00:00, ?it/s]You're using a BertTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+301it [00:00, 781.36it/s]
+07/28/2025 15:35:00 - INFO - coref_dataset -   301 batches created.
+07/28/2025 15:35:00 - INFO - __main__ -   Dataset({
+    features: ['doc_key', 'tokens', 'input_ids', 'gold_clusters', 'subtoken_map', 'new_token_map', 'num_clusters', 'max_cluster_size', 'length', 'attention_mask', 'leftovers'],
+    num_rows: 301
+})
+/Users/s0g0a87/miniforge3/envs/neural_hebrew_coref/lib/python3.8/site-packages/transformers/optimization.py:411: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+/Users/s0g0a87/studies/neural_hebrew_coref/src/lingmess-coref/training.py:48: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler()
+/Users/s0g0a87/miniforge3/envs/neural_hebrew_coref/lib/python3.8/site-packages/torch/amp/grad_scaler.py:132: UserWarning: torch.cuda.amp.GradScaler is enabled, but CUDA is not available.  Disabling.
+  warnings.warn(
+07/28/2025 15:35:01 - INFO - training -   ***** Running training *****
+07/28/2025 15:35:01 - INFO - training -     Num Epochs = 50
+07/28/2025 15:35:01 - INFO - training -     Total optimization steps = 15050
+Epoch:   0% 0/50 [00:00<?, ?it/s]     /Users/s0g0a87/studies/neural_hebrew_coref/src/lingmess-coref/training.py:74: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():it/s]
+/Users/s0g0a87/miniforge3/envs/neural_hebrew_coref/lib/python3.8/site-packages/torch/amp/autocast_mode.py:265: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn(
+07/28/2025 15:35:08 - INFO - training -   Step 0: outputs type: <class 'tuple'>, length: 3
+07/28/2025 15:35:08 - INFO - training -   Step 0: loss type: <class 'torch.Tensor'>, value: 1442.2216796875
+                                              07/28/2025 15:35:14 - INFO - training -   Step 1: outputs type: <class 'tuple'>, length: 3
+07/28/2025 15:35:14 - INFO - training -   Step 1: loss type: <class 'torch.Tensor'>, value: 1393.880615234375
+                                              07/28/2025 15:35:16 - INFO - training -   Step 2: outputs type: <class 'tuple'>, length: 3
+07/28/2025 15:35:16 - INFO - training -   Step 2: loss type: <class 'torch.Tensor'>, value: 1594.148193359375
+                                              07/28/2025 15:35:18 - INFO - training -   Step 3: outputs type: <class 'tuple'>, length: 3
+07/28/2025 15:35:18 - INFO - training -   Step 3: loss type: <class 'torch.Tensor'>, value: 1553.9237060546875
+                                              07/28/2025 15:35:20 - INFO - training -   Step 4: outputs type: <class 'tuple'>, length: 3
+07/28/2025 15:35:20 - INFO - training -   Step 4: loss type: <class 'torch.Tensor'>, value: 1524.69189453125
+Iteration:  35% 104/301 [02:26<04:37,  1.41s/it]
+Epoch:   0% 0/50 [02:26<?, ?it/s]:56,  1.81s/it]
+Traceback (most recent call last):
+  File "/Users/s0g0a87/studies/neural_hebrew_coref/src/lingmess-coref/run.py", line 157, in <module>
+    main()
+  File "/Users/s0g0a87/studies/neural_hebrew_coref/src/lingmess-coref/run.py", line 135, in main
+    global_step, tr_loss = train(args, train_batches, model, tokenizer, evaluator)
+  File "/Users/s0g0a87/studies/neural_hebrew_coref/src/lingmess-coref/training.py", line 85, in train
+    scaler.scale(loss).backward()
+  File "/Users/s0g0a87/miniforge3/envs/neural_hebrew_coref/lib/python3.8/site-packages/torch/_tensor.py", line 521, in backward
+    torch.autograd.backward(
+  File "/Users/s0g0a87/miniforge3/envs/neural_hebrew_coref/lib/python3.8/site-packages/torch/autograd/__init__.py", line 289, in backward
+    _engine_run_backward(
+  File "/Users/s0g0a87/miniforge3/envs/neural_hebrew_coref/lib/python3.8/site-packages/torch/autograd/graph.py", line 769, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

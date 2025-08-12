@@ -1,0 +1,723 @@
+# doc_id = htb:189
+# doc_range = 1-166
+# sent_id = 4910
+# text = החשוד ברצח הרב מאיר כהנא טופל בתרופה נגד דיכאון, הגורמת לפרצי אלימות ולהתנהגות התאבדותית.
+1-2	החשוד	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	חשוד	חשוד	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+3-4	ברצח	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	רצח	רצח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	nmod	_	_
+5-6	הרב	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	רב	רב	NOUN	NOUN	Gender=Masc|Number=Sing	4	compound:smixut	_	_
+7	מאיר	מאיר	PROPN	PROPN	_	6	flat:name	_	_
+8	כהנא	כהנא	PROPN	PROPN	_	6	flat:name	_	_
+9	טופל	טופל	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+10-11	בתרופה	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	תרופה	תרופה	NOUN	NOUN	Gender=Fem|Number=Sing	9	obl	_	_
+12	נגד	נגד	ADP	ADP	_	13	case	_	_
+13	דיכאון	דיכאון	NOUN	NOUN	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	16	punct	_	_
+15-16	הגורמת	_	_	_	_	_	_	_	_
+15	ה	ה	SCONJ	SCONJ	_	16	mark	_	_
+16	גורמת	גרם	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	11	acl:relcl	_	_
+17-18	לפרצי	_	_	_	_	_	_	_	_
+17	ל	ל	ADP	ADP	_	18	case	_	_
+18	פרצי	פרץ	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	16	obl	_	_
+19	אלימות	אלימות	NOUN	NOUN	Gender=Fem|Number=Sing	18	compound:smixut	_	_
+20-22	ולהתנהגות	_	_	_	_	_	_	_	_
+20	ו	ו	CCONJ	CCONJ	_	22	cc	_	_
+21	ל	ל	ADP	ADP	_	22	case	_	_
+22	התנהגות	התנהגות	NOUN	NOUN	Gender=Fem|Number=Sing	18	conj	_	_
+23	התאבדותית	התאבדותית	ADJ	ADJ	_	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:189
+# doc_range = 168-233
+# sent_id = 4911
+# text = על כך דיווח העיתון "ניו יורק טיימס".
+1	על	על	ADP	ADP	_	2	case	_	_
+2	כך	כך	PRON	PRON	Person=3|PronType=Dem	3	obl	_	_
+3	דיווח	דיווח	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4-5	העיתון	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	עיתון	עיתון	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+6	"	"	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
+7	ניו	ניו	PROPN	PROPN	_	5	appos	_	_
+8	יורק	יורק	PROPN	PROPN	_	7	flat:name	_	_
+9	טיימס	טיימס	PROPN	PROPN	_	7	flat:name	_	SpaceAfter=No
+10	"	"	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:189
+# doc_range = 235-649
+# sent_id = 4912
+# text = בידיעה, המסתמכת על מידע שמסרו גורמים החוקרים את הרצח, נאמר כי קרובי משפחתו סיפרו כי אל-סעיד נוסייר סבל מדיכאון כרוני ובמסגרת טיפול פסיכיאטרי נטל תרופה בשם "פרוזאק", שהשימוש בה נפוץ מאוד בארה"ב לטיפול בחולים הסובלים מדיכאון.
+1-3	בידיעה	_	_	_	_	_	_	_	SpaceAfter=No
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	ידיעה	ידיעה	NOUN	NOUN	Gender=Fem|Number=Sing	18	obl	_	_
+4	,	,	PUNCT	PUNCT	_	6	punct	_	_
+5-6	המסתמכת	_	_	_	_	_	_	_	_
+5	ה	ה	SCONJ	SCONJ	_	6	mark	_	_
+6	מסתמכת	הסתמך	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	3	acl:relcl	_	_
+7	על	על	ADP	ADP	_	8	case	_	_
+8	מידע	מידע	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+9-10	שמסרו	_	_	_	_	_	_	_	_
+9	ש	ש	SCONJ	SCONJ	_	10	mark	_	_
+10	מסרו	מסר	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	8	acl:relcl	_	_
+11	גורמים	גורם	NOUN	NOUN	Gender=Masc|Number=Plur	10	nsubj	_	_
+12-13	החוקרים	_	_	_	_	_	_	_	_
+12	ה	ה	SCONJ	SCONJ	_	13	mark	_	_
+13	חוקרים	חקר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	11	acl:relcl	_	_
+14	את	את	ADP	ADP	Case=Acc	16	case	_	_
+15-16	הרצח	_	_	_	_	_	_	_	SpaceAfter=No
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	רצח	רצח	NOUN	NOUN	Gender=Masc|Number=Sing	13	obj	_	_
+17	,	,	PUNCT	PUNCT	_	3	punct	_	_
+18	נאמר	נאמר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+19	כי	כי	SCONJ	SCONJ	_	24	mark	_	_
+20	קרובי	קרוב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	24	nsubj	_	_
+21-23	משפחתו	_	_	_	_	_	_	_	_
+21	משפחה	משפחה	NOUN	NOUN	Gender=Fem|Number=Sing	20	compound:smixut	_	_
+22	_של_	של	ADP	ADP	Case=Gen	23	case:gen	_	_
+23	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+24	סיפרו	סיפר	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	18	ccomp	_	_
+25	כי	כי	SCONJ	SCONJ	_	30	mark	_	_
+26	אל	אל	PROPN	PROPN	_	30	nsubj	_	SpaceAfter=No
+27	-	-	PUNCT	PUNCT	_	28	punct	_	SpaceAfter=No
+28	סעיד	סעיד	PROPN	PROPN	_	26	flat:name	_	_
+29	נוסייר	נוסייר	PROPN	PROPN	_	26	dep	_	HebSource=ConvUncertainHead
+30	סבל	סבל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	24	ccomp	_	_
+31-32	מדיכאון	_	_	_	_	_	_	_	_
+31	מ	מ	ADP	ADP	_	32	case	_	_
+32	דיכאון	דיכאון	NOUN	NOUN	Gender=Masc|Number=Sing	30	obl	_	_
+33	כרוני	כרוני	ADJ	ADJ	_	32	amod	_	_
+34-35	ובמסגרת	_	_	_	_	_	_	_	_
+34	ו	ו	CCONJ	CCONJ	_	38	cc	_	_
+35	במסגרת	במסגרת	ADP	ADP	_	36	case	_	_
+36	טיפול	טיפול	NOUN	NOUN	Gender=Masc|Number=Sing	38	obl	_	_
+37	פסיכיאטרי	פסיכיאטרי	ADJ	ADJ	_	36	amod	_	_
+38	נטל	נטל	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	30	conj	_	_
+39	תרופה	תרופה	NOUN	NOUN	Gender=Fem|Number=Sing	38	obj	_	_
+40-41	בשם	_	_	_	_	_	_	_	_
+40	ב	ב	ADP	ADP	_	41	case	_	_
+41	שם	שם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	39	nmod	_	_
+42	"	"	PUNCT	PUNCT	_	43	punct	_	SpaceAfter=No
+43	פרוזאק	פרוזאק	PROPN	PROPN	_	41	compound:smixut	_	SpaceAfter=No
+44	"	"	PUNCT	PUNCT	_	43	punct	_	SpaceAfter=No
+45	,	,	PUNCT	PUNCT	_	51	punct	_	_
+46-48	שהשימוש	_	_	_	_	_	_	_	_
+46	ש	ש	SCONJ	SCONJ	_	51	mark	_	_
+47	ה	ה	DET	DET	Definite=Def|PronType=Art	48	det	_	_
+48	שימוש	שימוש	NOUN	NOUN	Gender=Masc|Number=Sing	51	nsubj	_	_
+49-50	בה	_	_	_	_	_	_	_	_
+49	ב	ב	ADP	ADP	_	50	case	_	_
+50	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	51	obl	_	_
+51	נפוץ	נפוץ	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	39	acl:relcl	_	_
+52	מאוד	מאוד	ADV	ADV	_	51	advmod	_	_
+53-54	בארה"ב	_	_	_	_	_	_	_	_
+53	ב	ב	ADP	ADP	_	54	case	_	_
+54	ארה"ב	ארה"ב	PROPN	PROPN	Abbr=Yes	51	obl	_	_
+55-56	לטיפול	_	_	_	_	_	_	_	_
+55	ל	ל	ADP	ADP	_	56	case	_	_
+56	טיפול	טיפול	NOUN	NOUN	Gender=Masc|Number=Sing	51	obl	_	_
+57-58	בחולים	_	_	_	_	_	_	_	_
+57	ב	ב	ADP	ADP	_	58	case	_	_
+58	חולים	חלה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	56	nmod	_	_
+59-60	הסובלים	_	_	_	_	_	_	_	_
+59	ה	ה	SCONJ	SCONJ	_	60	mark	_	_
+60	סובלים	סבל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	58	acl:relcl	_	_
+61-62	מדיכאון	_	_	_	_	_	_	_	SpaceAfter=No
+61	מ	מ	ADP	ADP	_	62	case	_	_
+62	דיכאון	דיכאון	NOUN	NOUN	Gender=Masc|Number=Sing	60	obl	_	_
+63	.	.	PUNCT	PUNCT	_	18	punct	_	_
+
+# doc_id = htb:189
+# doc_range = 651-743
+# sent_id = 4913
+# text = חוגים רפואיים מכנים את התרופה "סם הפלא של שנות ה90".
+1	חוגים	חוג	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
+2	רפואיים	רפואי	ADJ	ADJ	Gender=Masc|Number=Plur	1	amod	_	_
+3	מכנים	כינה	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4	את	את	ADP	ADP	Case=Acc	6	case	_	_
+5-6	התרופה	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	תרופה	תרופה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obj	_	_
+7	"	"	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+8	סם	סם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	dep	_	_
+9-10	הפלא	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	פלא	פלא	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound:smixut	_	_
+11	של	של	ADP	ADP	Case=Gen	12	case	_	_
+12	שנות	שנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	8	nmod	_	_
+13-14	ה90	_	_	_	_	_	_	_	SpaceAfter=No
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	90	90	NUM	NUM	Number=Plur	12	compound:smixut	_	_
+15	"	"	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:189
+# doc_range = 745-936
+# sent_id = 4914
+# text = באחרונה העלו מחקרים כי אחדים מהמטופלים בתרופה נחשפו לתוצאות לוואי וגילו התנהגות אלימה ונטייה להתאבדות.
+1	באחרונה	באחרונה	ADV	ADV	_	0	root	_	_
+2	העלו	העלה	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	1	dep	_	HebSource=ConvUncertainHead
+3	מחקרים	מחקר	NOUN	NOUN	Gender=Masc|Number=Plur	1	dep	_	HebSource=ConvUncertainHead
+4	כי	כי	SCONJ	SCONJ	_	12	mark	_	_
+5	אחדים	אחד	NUM	NUM	Number=Plur	8	nummod	_	_
+6-8	מהמטופלים	_	_	_	_	_	_	_	_
+6	מ	מ	ADP	ADP	_	8	case	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	מטופלים	מטופל	NOUN	NOUN	Gender=Masc|Number=Plur	12	nsubj	_	_
+9-11	בתרופה	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	11	case	_	_
+10	ה_	ה	DET	DET	PronType=Art|Definite=Def	11	det	_	_
+11	תרופה	תרופה	NOUN	NOUN	Gender=Fem|Number=Sing	8	nmod	_	_
+12	נחשפו	נחשף	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	1	dep	_	HebSource=ConvUncertainHead
+13-14	לתוצאות	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	תוצאות	תוצאה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	12	obl	_	_
+15	לוואי	לוואי	NOUN	NOUN	Gender=Masc|Number=Sing	14	compound:smixut	_	_
+16-17	וגילו	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+17	גילו	גילה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	12	conj	_	_
+18	התנהגות	התנהגות	NOUN	NOUN	Gender=Fem|Number=Sing	17	obj	_	_
+19	אלימה	אלים	ADJ	ADJ	Gender=Fem|Number=Sing	18	amod	_	_
+20-21	ונטייה	_	_	_	_	_	_	_	_
+20	ו	ו	CCONJ	CCONJ	_	21	cc	_	_
+21	נטייה	נטייה	NOUN	NOUN	Gender=Fem|Number=Sing	18	conj	_	_
+22-23	להתאבדות	_	_	_	_	_	_	_	SpaceAfter=No
+22	ל	ל	ADP	ADP	_	23	case	_	_
+23	התאבדות	התאבדות	NOUN	NOUN	Gender=Fem|Number=Sing	21	nmod	_	_
+24	.	.	PUNCT	PUNCT	_	1	punct	_	HebSource=ConvUncertainHead
+
+# doc_id = htb:189
+# doc_range = 938-1022
+# sent_id = 4915
+# text = העיתון מגלה כי נגד יצרני התרופה הוגשו באחרונה.
+1-2	העיתון	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	עיתון	עיתון	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	מגלה	גילה	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+4	כי	כי	SCONJ	SCONJ	_	9	mark	_	_
+5	נגד	נגד	ADP	ADP	_	6	case	_	_
+6	יצרני	יצרן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	9	obl	_	_
+7-8	התרופה	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	תרופה	תרופה	NOUN	NOUN	Gender=Fem|Number=Sing	6	compound:smixut	_	_
+9	הוגשו	הוגש	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	3	ccomp	_	_
+10	באחרונה	באחרונה	ADV	ADV	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:189
+# doc_range = 1171-1568
+# sent_id = 4916
+# text = במאמר שפורסם אשתקד בכתב-עת רפואי בארה"ב, קובעים שני חוקרים מבית הספר לרפואה של אוניברסיטת הארווארד, כי 8% מהחולים הנוטלים דרך-קבע תרופה זו הם בדרגת סיכון גבוהה להתקפות טירוף ואלימות ולהתנהגות התאבדותית אובססיווית.
+1-2	במאמר	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	מאמר	מאמר	NOUN	NOUN	Gender=Masc|Number=Sing	14	obl	_	_
+3-4	שפורסם	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
+4	פורסם	פורסם	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	2	acl:relcl	_	_
+5	אשתקד	אשתקד	ADV	ADV	_	4	advmod	_	_
+6-7	בכתב	_	_	_	_	_	_	_	SpaceAfter=No
+6	ב	ב	ADP	ADP	_	9	case	_	_
+7	כתב	כתב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	nmod	_	_
+8	-	-	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
+9	עת	עת	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+10	רפואי	רפואי	ADJ	ADJ	Gender=Masc|Number=Sing	9	amod	_	_
+11-12	בארה"ב	_	_	_	_	_	_	_	SpaceAfter=No
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	ארה"ב	ארה"ב	PROPN	PROPN	Abbr=Yes	9	nmod	_	_
+13	,	,	PUNCT	PUNCT	_	2	punct	_	_
+14	קובעים	קבע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+15	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	16	nummod	_	_
+16	חוקרים	חוקר	NOUN	NOUN	Gender=Masc|Number=Plur	14	nsubj	_	_
+17-18	מבית	_	_	_	_	_	_	_	_
+17	מ	מ	ADP	ADP	_	18	case	_	_
+18	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	16	nmod	_	_
+19-20	הספר	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	ספר	ספר	NOUN	NOUN	Gender=Masc|Number=Sing	18	compound:smixut	_	_
+21-22	לרפואה	_	_	_	_	_	_	_	_
+21	ל	ל	ADP	ADP	_	22	case	_	_
+22	רפואה	רפואה	NOUN	NOUN	Gender=Fem|Number=Sing	18	nmod	_	_
+23	של	של	ADP	ADP	Case=Gen	24	case	_	_
+24	אוניברסיטת	אוניברסיטה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	22	nmod:poss	_	_
+25	הארווארד	הארווארד	PROPN	PROPN	_	24	compound:smixut	_	SpaceAfter=No
+26	,	,	PUNCT	PUNCT	_	29	punct	_	_
+27	כי	כי	SCONJ	SCONJ	_	29	mark	_	_
+28	8	8	NUM	NUM	_	29	nummod	_	SpaceAfter=No
+29	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	14	advcl	_	_
+30-32	מהחולים	_	_	_	_	_	_	_	_
+30	מ	מ	ADP	ADP	_	32	case	_	_
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	חולים	חלה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	29	nmod	_	_
+33-34	הנוטלים	_	_	_	_	_	_	_	_
+33	ה	ה	SCONJ	SCONJ	_	32	acl	_	_
+34	נוטלים	נטל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	33	dep	_	HebSource=ConvUncertainHead
+35	דרך	דרך	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
+36	-	-	PUNCT	PUNCT	_	35	punct	_	SpaceAfter=No
+37	קבע	קבע	NOUN	NOUN	Gender=Masc|Number=Sing	34	dep	_	_
+38	תרופה	תרופה	NOUN	NOUN	Gender=Fem|Number=Sing	33	dep	_	HebSource=ConvUncertainHead
+39	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	33	dep	_	HebSource=ConvUncertainHead
+40	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	29	dep	_	HebSource=ConvUncertainHead
+41-42	בדרגת	_	_	_	_	_	_	_	_
+41	ב	ב	ADP	ADP	_	29	dep	_	HebSource=ConvUncertainHead
+42	דרגת	דרגה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	29	dep	_	HebSource=ConvUncertainHead
+43	סיכון	סיכון	NOUN	NOUN	Gender=Masc|Number=Sing	29	dep	_	HebSource=ConvUncertainHead
+44	גבוהה	גבוה	ADJ	ADJ	Gender=Fem|Number=Sing	29	dep	_	HebSource=ConvUncertainHead
+45-46	להתקפות	_	_	_	_	_	_	_	_
+45	ל	ל	ADP	ADP	_	29	dep	_	HebSource=ConvUncertainHead
+46	התקפות	התקפה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	29	dep	_	HebSource=ConvUncertainHead
+47	טירוף	טירוף	NOUN	NOUN	Gender=Masc|Number=Sing	29	dep	_	HebSource=ConvUncertainHead
+48-49	ואלימות	_	_	_	_	_	_	_	_
+48	ו	ו	CCONJ	CCONJ	_	49	cc	_	HebSource=ConvUncertainHead
+49	אלימות	אלימות	NOUN	NOUN	Gender=Fem|Number=Sing	29	dep	_	HebSource=ConvUncertainHead
+50-52	ולהתנהגות	_	_	_	_	_	_	_	_
+50	ו	ו	CCONJ	CCONJ	_	29	cc	_	HebSource=ConvUncertainHead
+51	ל	ל	ADP	ADP	_	29	dep	_	HebSource=ConvUncertainHead
+52	התנהגות	התנהגות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	29	dep	_	HebSource=ConvUncertainHead
+53	התאבדותית	התאבדותית	PROPN	PROPN	_	29	dep	_	HebSource=ConvUncertainHead
+54	אובססיווית	אובססיווית	ADJ	ADJ	_	29	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+55	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# doc_id = htb:189
+# doc_range = 1570-1705
+# sent_id = 4917
+# text = חרף ממצאים אלה, ממשיכים רופאים להשתמש בתרופה זו ודוחים את תוצאות המחקרים.
+1	חרף	חרף	ADP	ADP	_	2	case	_	_
+2	ממצאים	ממצא	NOUN	NOUN	Gender=Masc|Number=Plur	5	obl	_	_
+3	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	2	det	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	2	punct	_	_
+5	ממשיכים	המשיך	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+6	רופאים	רופא	NOUN	NOUN	Gender=Masc|Number=Plur	5	nsubj	_	_
+7	להשתמש	השתמש	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	5	xcomp	_	_
+8-9	בתרופה	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	תרופה	תרופה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
+10	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	9	det	_	_
+11-12	ודוחים	_	_	_	_	_	_	_	_
+11	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+12	דוחים	דחה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	5	conj	_	_
+13	את	את	ADP	ADP	Case=Acc	14	case	_	_
+14	תוצאות	תוצאה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	12	obj	_	_
+15-16	המחקרים	_	_	_	_	_	_	_	SpaceAfter=No
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	מחקרים	מחקר	NOUN	NOUN	Gender=Masc|Number=Plur	14	compound:smixut	_	_
+17	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:189
+# doc_range = 1707-1927
+# sent_id = 4918
+# text = פקיד בכיר בסוכנות הפדראלית לתרופות אמר לעיתון כי עד היום אין הוכחות שהתרופה אכן גורמת לפרצי אלימות ולהתנהגות התאבדותית.
+1	פקיד	פקיד	NOUN	NOUN	Gender=Masc|Number=Sing	10	nsubj	_	_
+2	בכיר	בכיר	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	_
+3-5	בסוכנות	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	5	case	_	_
+4	ה_	ה	DET	DET	PronType=Art|Definite=Def	5	det	_	_
+5	סוכנות	סוכנות	NOUN	NOUN	Gender=Fem|Number=Sing	1	nmod	_	_
+6-7	הפדראלית	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	פדראלית	פדראלי	ADJ	ADJ	Gender=Fem|Number=Sing	5	nmod	_	HebSource=ConvUncertainLabel
+8-9	לתרופות	_	_	_	_	_	_	_	_
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	תרופות	תרופה	NOUN	NOUN	Gender=Fem|Number=Plur	5	nmod	_	HebSource=ConvUncertainLabel
+10	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+11-13	לעיתון	_	_	_	_	_	_	_	_
+11	ל	ל	ADP	ADP	_	13	case	_	_
+12	ה_	ה	DET	DET	PronType=Art|Definite=Def	13	det	_	_
+13	עיתון	עיתון	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
+14	כי	כי	SCONJ	SCONJ	_	18	mark	_	_
+15	עד	עד	ADP	ADP	_	17	case	_	_
+16-17	היום	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	יום	יום	NOUN	NOUN	Gender=Masc|Number=Sing	18	obl	_	_
+18	אין	אין	VERB	VERB	HebExistential=Yes	10	ccomp	_	_
+19	הוכחות	הוכחה	NOUN	NOUN	Gender=Fem|Number=Plur	18	nsubj	_	_
+20-22	שהתרופה	_	_	_	_	_	_	_	_
+20	ש	ש	SCONJ	SCONJ	_	24	mark	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	תרופה	תרופה	NOUN	NOUN	Gender=Fem|Number=Sing	24	nsubj	_	_
+23	אכן	אכן	ADV	ADV	_	24	advmod	_	_
+24	גורמת	גרם	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	19	acl:relcl	_	_
+25-26	לפרצי	_	_	_	_	_	_	_	_
+25	ל	ל	ADP	ADP	_	26	case	_	_
+26	פרצי	פרץ	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	24	obl	_	_
+27	אלימות	אלימות	NOUN	NOUN	Gender=Fem|Number=Sing	26	compound:smixut	_	_
+28-30	ולהתנהגות	_	_	_	_	_	_	_	_
+28	ו	ו	CCONJ	CCONJ	_	30	cc	_	_
+29	ל	ל	ADP	ADP	_	30	case	_	_
+30	התנהגות	התנהגות	NOUN	NOUN	Gender=Fem|Number=Sing	26	conj	_	_
+31	התאבדותית	התאבדותית	ADJ	ADJ	_	30	amod	_	SpaceAfter=No
+32	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:189
+# doc_range = 1930-2225
+# sent_id = 4919
+# text = קפידבינהעיתון "ניו יורק טיימס" מוסר עוד כי בספטמבר 1986 אירעה לנוסייר תאונת עבודה, וכתוצאה מהלם אלקטרוני שגרם לכווייה חמורה בידו, סבל מליקוי בתפקוד רגלו השמאלית.
+1-3	קפידבינהעיתון	_	_	_	_	_	_	_	_
+1	קפידבינ	קפידבינ	X	X	_	9	dep	_	Xtra=Junk
+2	ה	ה	DET	DET	_	3	det	_	Xtra=Junk
+3	עיתון	עיתון	X	X	_	9	nsubj	_	Xtra=Junk
+4	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+5	ניו	ניו	PROPN	PROPN	_	3	appos	_	_
+6	יורק	יורק	PROPN	PROPN	_	5	flat:name	_	_
+7	טיימס	טיימס	PROPN	PROPN	_	5	flat:name	_	SpaceAfter=No
+8	"	"	PUNCT	PUNCT	_	5	punct	_	_
+9	מוסר	מסר	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+10	עוד	עוד	ADV	ADV	_	9	advmod	_	_
+11	כי	כי	SCONJ	SCONJ	_	15	mark	_	_
+12-13	בספטמבר	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	ספטמבר	ספטמבר	PROPN	PROPN	_	15	obl	_	_
+14	1986	1986	NUM	NUM	_	13	nmod:tmod	_	_
+15	אירעה	אירע	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	9	ccomp	_	_
+16-17	לנוסייר	_	_	_	_	_	_	_	_
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	נוסייר	נוסייר	PROPN	PROPN	_	15	obl	_	_
+18	תאונת	תאונה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	15	nsubj	_	_
+19	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	18	compound:smixut	_	SpaceAfter=No
+20	,	,	PUNCT	PUNCT	_	37	punct	_	_
+21-23	וכתוצאה	_	_	_	_	_	_	_	_
+21	ו	ו	CCONJ	CCONJ	_	37	cc	_	_
+22	כ	כ	ADP	ADP	_	23	case	_	_
+23	תוצאה	תוצאה	NOUN	NOUN	Gender=Fem|Number=Sing	37	obl	_	_
+24-25	מהלם	_	_	_	_	_	_	_	_
+24	מ	מ	ADP	ADP	_	25	case	_	_
+25	הלם	הלם	NOUN	NOUN	Gender=Masc|Number=Sing	23	nmod	_	_
+26	אלקטרוני	אלקטרוני	ADJ	ADJ	Gender=Masc|Number=Sing	25	amod	_	_
+27-28	שגרם	_	_	_	_	_	_	_	_
+27	ש	ש	SCONJ	SCONJ	_	28	mark	_	_
+28	גרם	גרם	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	25	acl:relcl	_	_
+29-30	לכווייה	_	_	_	_	_	_	_	_
+29	ל	ל	ADP	ADP	_	30	case	_	_
+30	כווייה	כווייה	NOUN	NOUN	Gender=Fem|Number=Sing	28	obl	_	_
+31	חמורה	חמור	ADJ	ADJ	Gender=Fem|Number=Sing	30	amod	_	_
+32-35	בידו	_	_	_	_	_	_	_	SpaceAfter=No
+32	ב	ב	ADP	ADP	_	33	case	_	_
+33	יד	יד	NOUN	NOUN	Gender=Fem|Number=Sing	30	nmod	_	_
+34	_של_	של	ADP	ADP	Case=Gen	35	case:gen	_	_
+35	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	33	nmod:poss	_	_
+36	,	,	PUNCT	PUNCT	_	23	punct	_	_
+37	סבל	סבל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	15	conj	_	_
+38-39	מליקוי	_	_	_	_	_	_	_	_
+38	מ	מ	ADP	ADP	_	39	case	_	_
+39	ליקוי	ליקוי	NOUN	NOUN	Gender=Masc|Number=Sing	37	obl	_	_
+40-41	בתפקוד	_	_	_	_	_	_	_	_
+40	ב	ב	ADP	ADP	_	41	case	_	_
+41	תפקוד	תפקוד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	39	nmod	_	_
+42	רגלו	רגלו	NOUN	NOUN	_	41	compound:smixut	_	_
+43-44	השמאלית	_	_	_	_	_	_	_	SpaceAfter=No
+43	ה	ה	DET	DET	Definite=Def|PronType=Art	44	det	_	_
+44	שמאלית	שמאלי	ADJ	ADJ	Gender=Fem|Number=Sing	42	amod	_	_
+45	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:189
+# doc_range = 2227-2318
+# sent_id = 4920
+# text = בשבוע שעבר לקח נוסייר חופשה של חמישה ימים מעבודתו.
+1-3	בשבוע	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+4-5	שעבר	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	5	mark	_	_
+5	עבר	עבר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	3	acl:relcl	_	_
+6	לקח	לקח	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+7	נוסייר	נוסייר	PROPN	PROPN	_	6	nsubj	_	_
+8	חופשה	חופשה	NOUN	NOUN	Gender=Fem|Number=Sing	6	obj	_	_
+9	של	של	ADP	ADP	Case=Gen	11	case	_	_
+10	חמישה	חמש	NUM	NUM	Gender=Masc|Number=Plur	11	nummod	_	_
+11	ימים	יום	NOUN	NOUN	Gender=Masc|Number=Plur	8	nmod	_	_
+12-15	מעבודתו	_	_	_	_	_	_	_	SpaceAfter=No
+12	מ	מ	ADP	ADP	_	13	case	_	_
+13	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	8	nmod	_	_
+14	_של_	של	ADP	ADP	Case=Gen	15	case:gen	_	_
+15	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+16	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:189
+# doc_range = 2321-2428
+# sent_id = 4921
+# text = הוא משמש טכנאי של מזגני אוויר במפעל השייך לעיריית ניו יורק.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	משמש	שימש	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+3	טכנאי	טכנאי	NOUN	NOUN	Gender=Masc|Number=Sing	2	dep	_	_
+4	של	של	ADP	ADP	Case=Gen	5	case	_	_
+5	מזגני	מזגן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	3	nmod:poss	_	_
+6	אוויר	אוויר	NOUN	NOUN	Gender=Masc|Number=Sing	5	compound:smixut	_	_
+7-9	במפעל	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	9	case	_	_
+8	ה_	ה	DET	DET	PronType=Art|Definite=Def	9	det	_	_
+9	מפעל	מפעל	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+10-11	השייך	_	_	_	_	_	_	_	_
+10	ה	ה	SCONJ	SCONJ	_	11	mark	_	_
+11	שייך	שייך	ADJ	ADJ	Gender=Masc|Number=Sing	9	acl:relcl	_	_
+12-13	לעיריית	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	_	13	case	_	_
+13	עיריית	עירייה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	11	obl	_	_
+14	ניו	ניו	PROPN	PROPN	_	13	compound:smixut	_	_
+15	יורק	יורק	PROPN	PROPN	_	14	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:189
+# doc_range = 2430-2540
+# sent_id = 4922
+# text = מנהל העבודה מלקולם רייך הגדיר את נוסייר כאיש בודד, דתי מאוד.
+1	מנהל	מנהל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	nsubj	_	_
+2-3	העבודה	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+4	מלקולם	מלקולם	PROPN	PROPN	_	1	flat:name	_	_
+5	רייך	רייך	PROPN	PROPN	_	1	flat:name	_	_
+6	הגדיר	הגדיר	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+7	את	את	ADP	ADP	Case=Acc	8	case	_	_
+8	נוסייר	נוסייר	PROPN	PROPN	_	6	obj	_	_
+9-10	כאיש	_	_	_	_	_	_	_	_
+9	כ	כ	ADP	ADP	_	10	case	_	_
+10	איש	איש	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+11	בודד	בודד	ADJ	ADJ	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	13	punct	_	_
+13	דתי	דתי	ADJ	ADJ	Gender=Masc|Number=Sing	10	amod	_	_
+14	מאוד	מאוד	ADV	ADV	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:189
+# doc_range = 2543-2688
+# sent_id = 4923
+# text = "הוא לא הקשיב למוסיקה, הקפיד להתפלל פעמיים ביום ובהפסקות נהג לעיין בספר הקוראן.
+1	"	"	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+2	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	לא	לא	ADV	ADV	Polarity=Neg	4	advmod	_	_
+4	הקשיב	הקשיב	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5-6	למוסיקה	_	_	_	_	_	_	_	SpaceAfter=No
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	מוסיקה	מוזיקה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+7	,	,	PUNCT	PUNCT	_	8	punct	_	_
+8	הקפיד	הקפיד	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	_
+9	להתפלל	התפלל	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	8	xcomp	_	_
+10	פעמיים	פעם	NOUN	NOUN	Gender=Fem|Number=Dual	8	dep	_	_
+11-12	ביום	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	יום	יום	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+13-16	ובהפסקות	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+14	ב	ב	ADP	ADP	_	16	case	_	_
+15	ה_	ה	DET	DET	PronType=Art|Definite=Def	16	det	_	_
+16	הפסקות	הפסקה	NOUN	NOUN	Gender=Fem|Number=Plur	17	obl	_	_
+17	נהג	נהג	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	_
+18	לעיין	עיין	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+19-20	בספר	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	ספר	ספר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	18	obl	_	_
+21-22	הקוראן	_	_	_	_	_	_	_	SpaceAfter=No
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	קוראן	קוראן	NOUN	NOUN	Gender=Masc|Number=Sing	20	compound:smixut	_	_
+23	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:189
+# doc_range = 2690-2759
+# sent_id = 4924
+# text = לעתים שוחח עם העובדים בנושאים דתיים".
+1	לעתים	לעתים	ADV	ADV	_	2	advmod	_	_
+2	שוחח	שוחח	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	עם	עם	ADP	ADP	_	5	case	_	_
+4-5	העובדים	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	2	obl	_	_
+6-7	בנושאים	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	נושאים	נושא	NOUN	NOUN	Gender=Masc|Number=Plur	2	obl	_	_
+8	דתיים	דתי	ADJ	ADJ	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
+9	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:189
+# doc_range = 2761-2903
+# sent_id = 4925
+# text = רייך סיפר כי נוסייר קרא בשקידה עיתונים ועקב בערנות אחר האירועים במזרח התיכון.
+1	רייך	רייך	PROPN	PROPN	_	2	nsubj	_	_
+2	סיפר	סיפר	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	כי	כי	SCONJ	SCONJ	_	5	mark	_	_
+4	נוסייר	נוסייר	PROPN	PROPN	_	5	nsubj	_	_
+5	קרא	קרא	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	ccomp	_	_
+6-7	בשקידה	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	שקידה	שקידה	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
+8	עיתונים	עיתון	NOUN	NOUN	Gender=Masc|Number=Plur	5	obj	_	_
+9-10	ועקב	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+10	עקב	עקב	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	_
+11	בערנות	בערנות	ADV	ADV	_	10	advmod	_	_
+12	אחר	אחר	ADP	ADP	_	14	case	_	_
+13-14	האירועים	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	אירועים	אירוע	NOUN	NOUN	Gender=Masc|Number=Plur	10	obl	_	_
+15-17	במזרח	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	17	case	_	_
+16	ה_	ה	DET	DET	PronType=Art|Definite=Def	17	det	_	_
+17	מזרח	מזרח	NOUN	NOUN	Gender=Masc|Number=Sing	14	nmod	_	_
+18-19	התיכון	_	_	_	_	_	_	_	SpaceAfter=No
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	תיכון	תיכון	NOUN	NOUN	Gender=Masc|Number=Sing	17	nmod	_	_
+20	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:189
+# doc_range = 2905-3012
+# sent_id = 4926
+# text = כאשר פורסם ספרו של אוסטרובסקי על המוסד, מיהר נוסייר לרכשו.
+1	כאשר	כאשר	SCONJ	SCONJ	_	2	mark	_	_
+2	פורסם	פורסם	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	12	advcl	_	_
+3-5	ספרו	_	_	_	_	_	_	_	_
+3	ספר	ספר	NOUN	NOUN	Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+4	_של_	של	ADP	ADP	Case=Gen	5	case:gen	_	_
+5	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+6	של	של	ADP	ADP	Case=Gen	7	case	_	_
+7	אוסטרובסקי	אוסטרובסקי	PROPN	PROPN	_	3	nmod:poss	_	_
+8	על	על	ADP	ADP	_	10	case	_	_
+9-10	המוסד	_	_	_	_	_	_	_	SpaceAfter=No
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	מוסד	מוסד	NOUN	NOUN	Gender=Masc|Number=Sing	3	nmod	_	_
+11	,	,	PUNCT	PUNCT	_	2	punct	_	_
+12	מיהר	מיהר	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+13	נוסייר	נוסייר	PROPN	PROPN	_	12	nsubj	_	_
+14	לרכשו	לרכשו	VERB	VERB	VerbForm=Inf	12	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# doc_id = htb:189
+# doc_range = 3014-3166
+# sent_id = 4927
+# text = בביתו של נוסייר נמצאו ערימות של גזרי עיתונים ומגזינים שדנו בנושאים מזרח-תיכוניים.
+1-4	בביתו	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	בית	בית	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
+3	_של_	של	ADP	ADP	Case=Gen	4	case:gen	_	_
+4	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5	של	של	ADP	ADP	Case=Gen	6	case	_	_
+6	נוסייר	נוסייר	PROPN	PROPN	_	2	nmod:poss	_	_
+7	נמצאו	נמצא	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+8	ערימות	ערימה	NOUN	NOUN	Gender=Fem|Number=Plur	7	nsubj	_	_
+9	של	של	ADP	ADP	Case=Gen	10	case	_	_
+10	גזרי	גזר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	8	nmod:poss	_	_
+11	עיתונים	עיתון	NOUN	NOUN	Gender=Masc|Number=Plur	10	compound:smixut	_	_
+12-13	ומגזינים	_	_	_	_	_	_	_	_
+12	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
+13	מגזינים	מגזין	NOUN	NOUN	Gender=Masc|Number=Plur	10	conj	_	_
+14-15	שדנו	_	_	_	_	_	_	_	_
+14	ש	ש	SCONJ	SCONJ	_	15	mark	_	_
+15	דנו	דן	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	10	acl:relcl	_	_
+16-17	בנושאים	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	נושאים	נושא	NOUN	NOUN	Gender=Masc|Number=Plur	15	obl	_	_
+18	מזרח	מזרח	NOUN	NOUN	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+19	-	-	PUNCT	PUNCT	_	20	punct	_	SpaceAfter=No
+20	תיכוניים	תיכוני	ADJ	ADJ	Gender=Masc|Number=Plur	18	dep	_	SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:189
+# doc_range = 3168-3420
+# sent_id = 4928
+# text = צוות החקירה העלה השערה כי נוסייר, שסיים לימודי הנדסה באוניברסיטת הילוואן שבמצרים, התקשה למצוא עבודה בניו יורק וחש שאינו מממש את כישוריו.
+1	צוות	צוות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	nsubj	_	_
+2-3	החקירה	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	חקירה	חקירה	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+4	העלה	העלה	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	השערה	השערה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obj	_	_
+6	כי	כי	SCONJ	SCONJ	_	20	mark	_	_
+7	נוסייר	נוסייר	PROPN	PROPN	_	20	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	10	punct	_	HebSource=ConvUncertainHead
+9-10	שסיים	_	_	_	_	_	_	_	_
+9	ש	ש	SCONJ	SCONJ	_	10	mark	_	_
+10	סיים	סיים	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	7	dep	_	HebSource=ConvUncertainHead
+11	לימודי	לימודים	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	10	obj	_	_
+12	הנדסה	הנדסה	NOUN	NOUN	Gender=Fem|Number=Sing	11	compound:smixut	_	_
+13-14	באוניברסיטת	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	אוניברסיטת	אוניברסיטה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	11	nmod	_	_
+15	הילוואן	הילוואן	PROPN	PROPN	_	14	compound:smixut	_	_
+16-18	שבמצרים	_	_	_	_	_	_	_	SpaceAfter=No
+16	ש	ש	SCONJ	SCONJ	_	18	case	_	_
+17	ב	ב	ADP	ADP	_	18	case	_	_
+18	מצרים	מצרים	PROPN	PROPN	_	14	nmod	_	_
+19	,	,	PUNCT	PUNCT	_	7	punct	_	_
+20	התקשה	התקשה	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	5	acl:relcl	_	_
+21	למצוא	מצא	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	20	xcomp	_	_
+22	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	21	obj	_	_
+23-24	בניו	_	_	_	_	_	_	_	_
+23	ב	ב	ADP	ADP	_	24	case	_	_
+24	ניו	ניו	PROPN	PROPN	_	21	obl	_	_
+25	יורק	יורק	PROPN	PROPN	_	24	flat:name	_	_
+26-27	וחש	_	_	_	_	_	_	_	_
+26	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
+27	חש	חש	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	20	conj	_	_
+28-29	שאינו	_	_	_	_	_	_	_	_
+28	ש	ש	SCONJ	SCONJ	_	30	mark	_	_
+29	אינו	אינו	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	30	aux	_	_
+30	מממש	מימש	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	27	advcl	_	_
+31	את	את	ADP	ADP	Case=Acc	32	case	_	_
+32-34	כישוריו	_	_	_	_	_	_	_	SpaceAfter=No
+32	כישורים	כישורים	NOUN	NOUN	Gender=Masc|Number=Plur	30	obj	_	_
+33	_של_	של	ADP	ADP	Case=Gen	34	case:gen	_	_
+34	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+35	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:189
+# doc_range = 3422-3588
+# sent_id = 4929
+# text = מקורות במשטרת ניו יורק מסרו כי הצליחו לזהות את המספר הסידורי של האקדח שבו ירה נוסייר בכהנא.
+1	מקורות	מקור	NOUN	NOUN	Gender=Masc|Number=Plur	6	nsubj	_	_
+2-3	במשטרת	_	_	_	_	_	_	_	_
+2	ב	ב	ADP	ADP	_	3	case	_	_
+3	משטרת	משטרה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	nmod	_	_
+4	ניו	ניו	PROPN	PROPN	_	3	compound:smixut	_	_
+5	יורק	יורק	PROPN	PROPN	_	4	flat:name	_	_
+6	מסרו	מסר	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+7	כי	כי	SCONJ	SCONJ	_	8	mark	_	_
+8	הצליחו	הצליח	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	6	ccomp	_	_
+9	לזהות	זיהה	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	את	את	ADP	ADP	Case=Acc	12	case	_	_
+11-12	המספר	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	מספר	מספר	NOUN	NOUN	Gender=Masc|Number=Sing	9	obj	_	_
+13-14	הסידורי	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	סידורי	סידורי	ADJ	ADJ	Gender=Masc|Number=Sing	12	amod	_	_
+15	של	של	ADP	ADP	Case=Gen	17	case	_	_
+16-17	האקדח	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	אקדח	אקדח	NOUN	NOUN	Gender=Masc|Number=Sing	12	nmod	_	_
+18-20	שבו	_	_	_	_	_	_	_	_
+18	ש	ש	SCONJ	SCONJ	_	21	mark	_	_
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obl	_	_
+21	ירה	ירה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	17	acl:relcl	_	_
+22	נוסייר	נוסייר	PROPN	PROPN	_	21	nsubj	_	_
+23-24	בכהנא	_	_	_	_	_	_	_	SpaceAfter=No
+23	ב	ב	ADP	ADP	_	24	case	_	_
+24	כהנא	כהנא	PROPN	PROPN	_	21	obl	_	_
+25	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:189
+# doc_range = 3590-3654
+# sent_id = 4930
+# text = הוא מחק את המספר הסידורי לפני הרצח.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	מחק	מחק	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	את	את	ADP	ADP	Case=Acc	5	case	_	_
+4-5	המספר	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	מספר	מספר	NOUN	NOUN	Gender=Masc|Number=Sing	2	obj	_	_
+6-7	הסידורי	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	סידורי	סידורי	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	_
+8	לפני	לפני	ADP	ADP	_	10	case	_	_
+9-10	הרצח	_	_	_	_	_	_	_	SpaceAfter=No
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	רצח	רצח	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+11	.	.	PUNCT	PUNCT	_	2	punct	_	_
+

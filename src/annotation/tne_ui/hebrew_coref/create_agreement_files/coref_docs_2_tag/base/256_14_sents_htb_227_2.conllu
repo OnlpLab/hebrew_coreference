@@ -1,0 +1,486 @@
+# doc_id = htb:227_2
+# doc_range = 2569-2785
+# sent_id = 5645
+# text = יובנטוס, שעלתה לרבע הגמר בגביע האירופי, ניצלה משיוויון בדקה ה-71, לאחר שההונגרי של בולוניה לאיוש דטארי החטיא כדור-11.
+1	יובנטוס	יובנטוס	PROPN	PROPN	_	15	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	4	punct	_	_
+3-4	שעלתה	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
+4	עלתה	עלה	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	1	acl:relcl	_	_
+5-6	לרבע	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	רבע	רבע	NOUN	NOUN	Definite=Cons	4	obl	_	_
+7-8	הגמר	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	גמר	גמר	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+9-11	בגביע	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	11	case	_	_
+10	ה_	ה	DET	DET	PronType=Art|Definite=Def	11	det	_	_
+11	גביע	גביע	NOUN	NOUN	Gender=Masc|Number=Sing	6	nmod	_	_
+12-13	האירופי	_	_	_	_	_	_	_	SpaceAfter=No
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	אירופי	אירופי	ADJ	ADJ	Gender=Masc|Number=Sing	11	amod	_	_
+14	,	,	PUNCT	PUNCT	_	1	punct	_	_
+15	ניצלה	ניצל	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Past	0	root	_	_
+16-17	משיוויון	_	_	_	_	_	_	_	_
+16	מ	מ	ADP	ADP	_	17	case	_	_
+17	שיוויון	שוויון	NOUN	NOUN	Gender=Masc|Number=Sing	15	obl	_	_
+18-20	בדקה	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	20	case	_	_
+19	ה_	ה	DET	DET	PronType=Art|Definite=Def	20	det	_	_
+20	דקה	דקה	NOUN	NOUN	Gender=Fem|Number=Sing	15	obl	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	SpaceAfter=No
+22	-	-	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No
+23	71	71	NUM	NUM	_	20	amod	_	SpaceAfter=No
+24	,	,	PUNCT	PUNCT	_	33	punct	_	_
+25	לאחר	לאחר	ADP	ADP	_	33	case	_	_
+26-28	שההונגרי	_	_	_	_	_	_	_	_
+26	ש	ש	SCONJ	SCONJ	_	33	mark	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	הונגרי	הונגרי	ADJ	ADJ	Gender=Masc|Number=Sing	33	nsubj	_	_
+29	של	של	ADP	ADP	Case=Gen	30	case	_	_
+30	בולוניה	בולוניה	PROPN	PROPN	_	28	obl	_	_
+31	לאיוש	לאיוש	PROPN	PROPN	_	28	appos	_	_
+32	דטארי	דטארי	PROPN	PROPN	_	31	flat:name	_	_
+33	החטיא	החטיא	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	15	obl	_	_
+34	כדור	כדור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	36	obl	_	SpaceAfter=No
+35	-	-	PUNCT	PUNCT	_	34	punct	_	SpaceAfter=No
+36	11	11	NUM	NUM	_	33	obj	_	SpaceAfter=No
+37	.	.	PUNCT	PUNCT	_	15	punct	_	_
+
+# doc_id = htb:227_2
+# doc_range = 2787-2904
+# sent_id = 5646
+# text = הגרמני הבין-לאומי רודי פלר הבקיע פעמיים בניצחון רומא 4 1 על צזנה.
+1-2	הגרמני	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	גרמני	גרמני	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj	_	_
+3-4	הבין	_	_	_	_	_	_	_	SpaceAfter=No
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+4	בין	בין	ADV	ADV	Prefix=Yes	6	compound:affix	_	_
+5	-	-	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+6	לאומי	לאומי	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+7	רודי	רודי	PROPN	PROPN	_	2	appos	_	_
+8	פלר	פלר	PROPN	PROPN	_	7	flat:name	_	_
+9	הבקיע	הבקיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+10	פעמיים	פעם	NOUN	NOUN	Gender=Fem|Number=Dual	9	dep	_	_
+11-12	בניצחון	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	ניצחון	ניצחון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	obl	_	_
+13	רומא	רומא	PROPN	PROPN	_	12	compound:smixut	_	_
+14	4	4	NUM	NUM	_	12	nummod	_	_
+15	1	1	NUM	NUM	_	14	nummod	_	_
+16	על	על	ADP	ADP	_	17	case	_	_
+17	צזנה	צזנה	PROPN	PROPN	_	12	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:227_2
+# doc_range = 2906-3048
+# sent_id = 5647
+# text = את השערים האחרים לרומא, שעלתה לסיבוב השלישי בגביע אופ"א, הבקיעו דזידרי ומוצי.
+1	את	את	ADP	ADP	Case=Acc	3	case	_	_
+2-3	השערים	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	שערים	שער	NOUN	NOUN	Gender=Masc|Number=Plur	20	obj	_	_
+4-5	האחרים	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	אחרים	אחר	ADJ	ADJ	Gender=Masc|Number=Plur	3	amod	_	_
+6-7	לרומא	_	_	_	_	_	_	_	SpaceAfter=No
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	רומא	רומא	PROPN	PROPN	_	3	nmod	_	_
+8	,	,	PUNCT	PUNCT	_	10	punct	_	_
+9-10	שעלתה	_	_	_	_	_	_	_	_
+9	ש	ש	SCONJ	SCONJ	_	10	mark	_	_
+10	עלתה	עלה	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	3	acl:relcl	_	_
+11-13	לסיבוב	_	_	_	_	_	_	_	_
+11	ל	ל	ADP	ADP	_	13	case	_	_
+12	ה_	ה	DET	DET	PronType=Art|Definite=Def	13	det	_	_
+13	סיבוב	סיבוב	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
+14-15	השלישי	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	שלישי	שלישי	ADJ	ADJ	Gender=Masc|Number=Sing	13	amod	_	_
+16-17	בגביע	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	גביע	גביע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	nmod	_	_
+18	אופ"א	אופ"א	PROPN	PROPN	Abbr=Yes	17	compound:smixut	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	3	punct	_	_
+20	הבקיעו	הבקיע	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+21	דזידרי	דזידרי	PROPN	PROPN	_	20	nsubj	_	_
+22-23	ומוצי	_	_	_	_	_	_	_	SpaceAfter=No
+22	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
+23	מוצי	מוץ	PROPN	PROPN	_	21	conj	_	_
+24	.	.	PUNCT	PUNCT	_	20	punct	_	_
+
+# doc_id = htb:227_2
+# doc_range = 3050-3074
+# sent_id = 5648
+# text = לצזנה: קיוצי.
+1	לצזנה	לצזנה	PROPN	PROPN	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	PUNCT	_	3	punct	_	_
+3	קיוצי	קיוצי	PROPN	PROPN	_	1	nmod	_	SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:227_2
+# doc_range = 3076-3238
+# sent_id = 5649
+# text = אינטר, שהדיחה את אסטון וילה בגביע אופ"א, ניצחה את פארמה 2 1 משערים של סרנה ומתיאוס מ-11 מטר.
+1	אינטר	אינטר	PROPN	PROPN	_	12	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	4	punct	_	_
+3-4	שהדיחה	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
+4	הדיחה	הדיח	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	1	acl:relcl	_	_
+5	את	את	ADP	ADP	Case=Acc	6	case	_	_
+6	אסטון	אסטון	PROPN	PROPN	_	4	obj	_	_
+7	וילה	וילה	NOUN	NOUN	Gender=Fem|Number=Sing	6	flat:name	_	_
+8-9	בגביע	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	גביע	גביע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	obl	_	_
+10	אופ"א	אופ"א	PROPN	PROPN	Abbr=Yes	9	compound:smixut	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	1	punct	_	_
+12	ניצחה	ניצח	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+13	את	את	ADP	ADP	Case=Acc	14	case	_	_
+14	פארמה	פארמה	PROPN	PROPN	_	12	obj	_	_
+15	2	2	NUM	NUM	_	14	nummod	_	_
+16	1	1	NUM	NUM	_	15	nummod	_	_
+17-18	משערים	_	_	_	_	_	_	_	_
+17	מ	מ	ADP	ADP	_	18	case	_	_
+18	שערים	שער	NOUN	NOUN	Gender=Masc|Number=Plur	14	nmod	_	_
+19	של	של	ADP	ADP	Case=Gen	20	case	_	_
+20	סרנה	סרן	PROPN	PROPN	_	18	nmod:poss	_	_
+21-22	ומתיאוס	_	_	_	_	_	_	_	_
+21	ו	ו	CCONJ	CCONJ	_	22	cc	_	_
+22	מתיאוס	מתיאוס	PROPN	PROPN	_	20	conj	_	_
+23	מ	מ	ADP	ADP	_	26	case	_	SpaceAfter=No
+24	-	-	PUNCT	PUNCT	_	26	punct	_	SpaceAfter=No
+25	11	11	NUM	NUM	_	26	nummod	_	_
+26	מטר	מטר	NOUN	NOUN	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# doc_id = htb:227_2
+# doc_range = 3241-3272
+# sent_id = 5650
+# text = מלי הבקיע לפארמה.
+1	מלי	מלי	PROPN	PROPN	_	2	nsubj	_	_
+2	הבקיע	הבקיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3-4	לפארמה	_	_	_	_	_	_	_	SpaceAfter=No
+3	ל	ל	ADP	ADP	_	4	case	_	_
+4	פארמה	פארמה	PROPN	PROPN	_	2	obl	_	_
+5	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:227_2
+# doc_range = 3274-3421
+# sent_id = 5651
+# text = הצער של נאפולי נמשך אחרי הדחתה ביום רביעי שעבר מגביע האלופות בידי ספרטק מוסקווה.
+1-2	הצער	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	צער	צער	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	של	של	ADP	ADP	Case=Gen	4	case	_	_
+4	נאפולי	נאפולי	PROPN	PROPN	_	2	nmod:poss	_	_
+5	נמשך	נמשך	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+6	אחרי	אחרי	ADP	ADP	_	7	case	_	_
+7-9	הדחתה	_	_	_	_	_	_	_	_
+7	הדחה	הדחה	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
+8	_של_	של	ADP	ADP	Case=Gen	9	case:gen	_	_
+9	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+10-11	ביום	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nmod	_	_
+12	רביעי	רביעי	PROPN	PROPN	_	11	compound:smixut	_	_
+13-14	שעבר	_	_	_	_	_	_	_	_
+13	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
+14	עבר	עבר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	11	acl:relcl	_	_
+15-16	מגביע	_	_	_	_	_	_	_	_
+15	מ	מ	ADP	ADP	_	16	case	_	_
+16	גביע	גביע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nmod	_	_
+17-18	האלופות	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	אלופות	אלופה	NOUN	NOUN	Gender=Fem|Number=Plur	16	compound:smixut	_	_
+19	בידי	בידי	ADP	ADP	_	20	case	_	_
+20	ספרטק	ספרטק	PROPN	PROPN	_	7	nmod	_	_
+21	מוסקווה	מוסקבה	PROPN	PROPN	_	20	flat:name	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:227_2
+# doc_range = 3423-3781
+# sent_id = 5652
+# text = נאפולי, שחסרה את החלוץ קארקה ואת דייגו מראדונה (חסרונו הוסבר בגלל כושר לקוי), לא הצליחה לפרוץ את המערך ההגנתי של בארי וזכתה רק בנקודת-חוץ שקידמה אותה בשלב אחד, למקום התשיעי עם שמונה נקודות בלבד.
+1	נאפולי	נאפולי	PROPN	PROPN	_	24	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	4	punct	_	_
+3-4	שחסרה	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
+4	חסרה	חסר	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Past	1	acl:relcl	_	_
+5	את	את	ADP	ADP	Case=Acc	7	case	_	_
+6-7	החלוץ	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	חלוץ	חלוץ	NOUN	NOUN	Gender=Masc|Number=Sing	4	obj	_	_
+8	קארקה	קארקה	PROPN	PROPN	_	7	flat:name	_	_
+9-10	ואת	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+10	את	את	ADP	ADP	Case=Acc	11	case	_	_
+11	דייגו	דייגו	PROPN	PROPN	_	7	conj	_	_
+12	מראדונה	מראדונה	PROPN	PROPN	_	11	flat:name	_	_
+13	(	(	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No
+14-16	חסרונו	_	_	_	_	_	_	_	_
+14	חסרון	חסרון	NOUN	NOUN	Gender=Masc|Number=Sing	17	nsubj:pass	_	_
+15	_של_	של	ADP	ADP	Case=Gen	16	case:gen	_	_
+16	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+17	הוסבר	הוסבר	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	11	appos	_	_
+18	בגלל	בגלל	ADP	ADP	_	19	case	_	_
+19	כושר	כושר	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	_
+20	לקוי	לקוי	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	)	)	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No
+22	,	,	PUNCT	PUNCT	_	1	punct	_	_
+23	לא	לא	ADV	ADV	Polarity=Neg	24	advmod	_	_
+24	הצליחה	הצליח	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+25	לפרוץ	פרץ	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	24	xcomp	_	_
+26	את	את	ADP	ADP	Case=Acc	28	case	_	_
+27-28	המערך	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	מערך	מערך	NOUN	NOUN	Gender=Masc|Number=Sing	25	obj	_	_
+29-30	ההגנתי	_	_	_	_	_	_	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	הגנתי	הגנתי	ADJ	ADJ	Gender=Masc|Number=Sing	28	amod	_	_
+31	של	של	ADP	ADP	Case=Gen	32	case	_	_
+32	בארי	בארי	PROPN	PROPN	_	28	nmod	_	_
+33-34	וזכתה	_	_	_	_	_	_	_	_
+33	ו	ו	CCONJ	CCONJ	_	34	cc	_	_
+34	זכתה	זכה	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	24	conj	_	_
+35	רק	רק	ADV	ADV	_	39	advmod	_	_
+36-37	בנקודת	_	_	_	_	_	_	_	SpaceAfter=No
+36	ב	ב	ADP	ADP	_	39	case	_	_
+37	נקודת	נקודה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	39	nmod	_	_
+38	-	-	PUNCT	PUNCT	_	37	punct	_	SpaceAfter=No
+39	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	34	obl	_	_
+40-41	שקידמה	_	_	_	_	_	_	_	_
+40	ש	ש	SCONJ	SCONJ	_	41	mark	_	_
+41	קידמה	קידם	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	39	acl:relcl	_	_
+42-43	אותה	_	_	_	_	_	_	_	_
+42	את	את	ADP	ADP	Case=Acc	43	case	_	_
+43	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	41	obj	_	_
+44-45	בשלב	_	_	_	_	_	_	_	_
+44	ב	ב	ADP	ADP	_	45	case	_	_
+45	שלב	שלב	NOUN	NOUN	Gender=Masc|Number=Sing	41	obl	_	_
+46	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	45	nummod	_	SpaceAfter=No
+47	,	,	PUNCT	PUNCT	_	50	punct	_	_
+48-50	למקום	_	_	_	_	_	_	_	_
+48	ל	ל	ADP	ADP	_	50	case	_	_
+49	ה_	ה	DET	DET	PronType=Art|Definite=Def	50	det	_	_
+50	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	41	obl	_	_
+51-52	התשיעי	_	_	_	_	_	_	_	_
+51	ה	ה	DET	DET	Definite=Def|PronType=Art	52	det	_	_
+52	תשיעי	תשיעי	ADJ	ADJ	Gender=Masc|Number=Sing	50	amod	_	_
+53	עם	עם	ADP	ADP	_	55	case	_	_
+54	שמונה	שמונה	NUM	NUM	Gender=Fem|Number=Plur	55	nummod	_	_
+55	נקודות	נקודה	NOUN	NOUN	Gender=Fem|Number=Plur	50	nmod	_	_
+56	בלבד	בלבד	ADV	ADV	_	55	advmod	_	SpaceAfter=No
+57	.	.	PUNCT	PUNCT	_	24	punct	_	_
+
+# doc_id = htb:227_2
+# doc_range = 3783-4037
+# sent_id = 5653
+# text = תוצאות אחרות: טורינו 2 (מורלו עצמי, מולר) לצה 0; קאליארי 0 לאציו 1 (פסטה, שער עצמי); פיורנטינה 2 (נאפי, פאציונה) גנואה 2 (אורלאנדו, שקוראווי).
+1	תוצאות	תוצאה	NOUN	NOUN	Gender=Fem|Number=Plur	4	nsubj	_	_
+2	אחרות	אחר	ADJ	ADJ	Gender=Fem|Number=Plur	1	amod	_	SpaceAfter=No
+3	:	:	PUNCT	PUNCT	_	1	punct	_	_
+4	טורינו	טור	PROPN	PROPN	_	0	root	_	_
+5	2	2	NUM	NUM	_	4	parataxis	_	_
+6	(	(	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
+7	מורלו	מורלו	PROPN	PROPN	_	4	parataxis	_	_
+8	עצמי	עצמו	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Emp|Reflex=Yes	7	parataxis	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	10	punct	_	_
+10	מולר	מולר	PROPN	PROPN	_	7	conj	_	SpaceAfter=No
+11	)	)	PUNCT	PUNCT	_	7	punct	_	_
+12	לצה	לץ	PROPN	PROPN	_	4	nmod	_	_
+13	0	0	NUM	NUM	_	12	nummod	_	SpaceAfter=No
+14	;	;	PUNCT	PUNCT	_	15	punct	_	_
+15	קאליארי	קאליארי	PROPN	PROPN	_	4	conj	_	_
+16	0	0	NUM	NUM	_	15	nummod	_	_
+17	לאציו	לאציו	PROPN	PROPN	_	15	nmod	_	_
+18	1	1	NUM	NUM	_	17	nummod	_	_
+19	(	(	PUNCT	PUNCT	_	20	punct	_	SpaceAfter=No
+20	פסטה	פסטה	NOUN	NOUN	Gender=Fem|Number=Sing	15	parataxis	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	22	punct	_	_
+22	שער	שער	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	20	parataxis	_	_
+23	עצמי	עצמו	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	22	compound:smixut	_	SpaceAfter=No
+24	)	)	PUNCT	PUNCT	_	20	punct	_	SpaceAfter=No
+25	;	;	PUNCT	PUNCT	_	26	punct	_	_
+26	פיורנטינה	פיורנטינה	PROPN	PROPN	_	4	conj	_	_
+27	2	2	NUM	NUM	_	26	parataxis	_	_
+28	(	(	PUNCT	PUNCT	_	29	punct	_	SpaceAfter=No
+29	נאפי	נאפי	PROPN	PROPN	_	26	parataxis	_	SpaceAfter=No
+30	,	,	PUNCT	PUNCT	_	31	punct	_	_
+31	פאציונה	פאציונה	PROPN	PROPN	_	29	conj	_	SpaceAfter=No
+32	)	)	PUNCT	PUNCT	_	29	punct	_	_
+33	גנואה	גנואה	PROPN	PROPN	_	26	nmod	_	_
+34	2	2	NUM	NUM	_	33	parataxis	_	_
+35	(	(	PUNCT	PUNCT	_	36	punct	_	SpaceAfter=No
+36	אורלאנדו	אורלנדו	PROPN	PROPN	_	33	parataxis	_	SpaceAfter=No
+37	,	,	PUNCT	PUNCT	_	38	punct	_	_
+38	שקוראווי	שקוראווי	PROPN	PROPN	_	36	conj	_	SpaceAfter=No
+39	)	)	PUNCT	PUNCT	_	36	punct	_	SpaceAfter=No
+40	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:227_2
+# doc_range = 4042-4188
+# sent_id = 5654
+# text = האלופה מארסיי חזרה אתמול למקום הראשון אחרי שהנחילה תבוסה 4 1 לראן המדורגת אחרונה.
+1-2	האלופה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	אלופה	אלופה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	מארסיי	מרסי	PROPN	PROPN	_	2	flat:name	_	_
+4	חזרה	חזר	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Past	0	root	_	_
+5	אתמול	אתמול	ADV	ADV	_	4	advmod	_	_
+6-8	למקום	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	8	case	_	_
+7	ה_	ה	DET	DET	PronType=Art|Definite=Def	8	det	_	_
+8	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+9-10	הראשון	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	ראשון	ראשון	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	_
+11	אחרי	אחרי	ADP	ADP	_	13	mark	_	_
+12-13	שהנחילה	_	_	_	_	_	_	_	_
+12	ש	ש	SCONJ	SCONJ	_	11	fixed	_	_
+13	הנחילה	הנחיל	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	4	advcl	_	_
+14	תבוסה	תבוסה	NOUN	NOUN	Gender=Fem|Number=Sing	13	obj	_	_
+15	4	4	NUM	NUM	_	14	nmod	_	HebSource=ConvUncertainLabel
+16	1	1	NUM	NUM	_	15	nummod	_	_
+17-18	לראן	_	_	_	_	_	_	_	_
+17	ל	ל	ADP	ADP	_	18	case	_	_
+18	ראן	ראן	PROPN	PROPN	_	13	obl	_	_
+19-20	המדורגת	_	_	_	_	_	_	_	_
+19	ה	ה	SCONJ	SCONJ	_	20	mark	_	_
+20	מדורגת	דורג	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	18	acl:relcl	_	_
+21	אחרונה	אחרון	ADJ	ADJ	Gender=Fem|Number=Sing	20	xcomp	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:227_2
+# doc_range = 4190-4308
+# sent_id = 5655
+# text = מארסיי ניצלה את הפסדה בשבת של המוליכה עד סוף השבוע, אוקזר, 0 1 במץ.
+1	מארסיי	מרסי	PROPN	PROPN	_	2	nsubj	_	_
+2	ניצלה	ניצל	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Past	0	root	_	_
+3	את	את	ADP	ADP	Case=Acc	4	case	_	_
+4-6	הפסדה	_	_	_	_	_	_	_	_
+4	הפסד	הפסד	NOUN	NOUN	Gender=Masc|Number=Sing	2	obj	_	_
+5	_של_	של	ADP	ADP	Case=Gen	6	case:gen	_	_
+6	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+7-8	בשבת	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	שבת	שבת	PROPN	PROPN	_	4	nmod	_	_
+9	של	של	ADP	ADP	Case=Gen	11	case	_	_
+10-11	המוליכה	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	מוליכה	הוליך	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	4	nmod	_	_
+12	עד	עד	ADP	ADP	_	13	case	_	_
+13	סוף	סוף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	obl	_	_
+14-15	השבוע	_	_	_	_	_	_	_	SpaceAfter=No
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	13	compound:smixut	_	_
+16	,	,	PUNCT	PUNCT	_	17	punct	_	_
+17	אוקזר	אוקזר	PROPN	PROPN	_	11	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	19	punct	_	_
+19	0	0	NUM	NUM	_	11	dep	_	HebSource=ConvUncertainHead
+20	1	1	NUM	NUM	_	19	nummod	_	_
+21-22	במץ	_	_	_	_	_	_	_	SpaceAfter=No
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	מץ	מץ	PROPN	PROPN	_	4	nmod	_	_
+23	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:227_2
+# doc_range = 4310-4389
+# sent_id = 5656
+# text = השערים למארסיי: וודל (34), פארדו (41), פלה (76), בולי (89).
+1-2	השערים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	שערים	שער	NOUN	NOUN	Gender=Masc|Number=Plur	0	root	_	_
+3-4	למארסיי	_	_	_	_	_	_	_	SpaceAfter=No
+3	ל	ל	ADP	ADP	_	4	case	_	_
+4	מארסיי	מרסי	PROPN	PROPN	_	2	nmod	_	_
+5	:	:	PUNCT	PUNCT	_	2	punct	_	_
+6	וודל	וודל	PROPN	PROPN	_	2	parataxis	_	_
+7	(	(	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+8	34	34	NUM	NUM	_	6	parataxis	_	HebSource=ConvUncertainHead|SpaceAfter=No
+9	)	)	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	11	punct	_	HebSource=ConvUncertainHead
+11	פארדו	פארדו	PROPN	PROPN	_	6	dep	_	HebSource=ConvUncertainHead
+12	(	(	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No
+13	41	41	NUM	NUM	_	11	parataxis	_	SpaceAfter=No
+14	)	)	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	16	punct	_	HebSource=ConvUncertainHead
+16	פלה	פלה	PROPN	PROPN	_	6	dep	_	HebSource=ConvUncertainHead
+17	(	(	PUNCT	PUNCT	_	18	punct	_	SpaceAfter=No
+18	76	76	NUM	NUM	_	16	parataxis	_	SpaceAfter=No
+19	)	)	PUNCT	PUNCT	_	18	punct	_	SpaceAfter=No
+20	,	,	PUNCT	PUNCT	_	21	punct	_	HebSource=ConvUncertainHead
+21	בולי	בולי	PROPN	PROPN	_	6	dep	_	HebSource=ConvUncertainHead
+22	(	(	PUNCT	PUNCT	_	23	punct	_	SpaceAfter=No
+23	89	89	NUM	NUM	_	21	parataxis	_	SpaceAfter=No
+24	)	)	PUNCT	PUNCT	_	23	punct	_	SpaceAfter=No
+25	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:227_2
+# doc_range = 4413-4449
+# sent_id = 5657
+# text = לראן: דלאמונטיין (74).
+1-2	לראן	_	_	_	_	_	_	_	SpaceAfter=No
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	ראן	ראן	PROPN	PROPN	_	4	nmod	_	_
+3	:	:	PUNCT	PUNCT	_	2	punct	_	_
+4	דלאמונטיין	דלאמונטיין	PROPN	PROPN	_	0	root	_	_
+5	(	(	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+6	74	74	NUM	NUM	_	4	parataxis	_	SpaceAfter=No
+7	)	)	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:227_2
+# doc_range = 4454-4706
+# sent_id = 5658
+# text = תוצאות אחרות בסוף השבוע: מונאקו 1 סושו 0; בורדו 0 טולון 1; סט. אטיין 4 נאנסי 1; נאנט 1 מונפלייה 1; טולוז 2 פאריס סן זרמן 1; ליל 0 ניס 0; קאן 0 ברסט 0.
+1	תוצאות	תוצאה	NOUN	NOUN	Gender=Fem|Number=Plur	8	nsubj	_	_
+2	אחרות	אחר	ADJ	ADJ	Gender=Fem|Number=Plur	1	amod	_	_
+3-4	בסוף	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	סוף	סוף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	nmod	_	_
+5-6	השבוע	_	_	_	_	_	_	_	SpaceAfter=No
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	4	compound:smixut	_	_
+7	:	:	PUNCT	PUNCT	_	1	punct	_	_
+8	מונאקו	מונקו	PROPN	PROPN	_	0	root	_	_
+9	1	1	NUM	NUM	_	8	nummod	_	_
+10	סושו	סושו	PROPN	PROPN	_	8	nmod	_	_
+11	0	0	NUM	NUM	_	10	nummod	_	SpaceAfter=No
+12	;	;	PUNCT	PUNCT	_	13	punct	_	_
+13	בורדו	בורדו	PROPN	PROPN	_	8	conj	_	_
+14	0	0	NUM	NUM	_	13	nummod	_	_
+15	טולון	טולון	PROPN	PROPN	_	13	nmod	_	_
+16	1	1	NUM	NUM	_	15	nummod	_	SpaceAfter=No
+17	;	;	PUNCT	PUNCT	_	18	punct	_	_
+18	סט.	סט.	PROPN	PROPN	Abbr=Yes	8	conj	_	_
+19	אטיין	אטיין	PROPN	PROPN	_	18	flat:name	_	_
+20	4	4	NUM	NUM	_	18	nummod	_	_
+21	נאנסי	נאנס	PROPN	PROPN	_	18	nmod	_	_
+22	1	1	NUM	NUM	_	21	nummod	_	SpaceAfter=No
+23	;	;	PUNCT	PUNCT	_	24	punct	_	_
+24	נאנט	נאנט	PROPN	PROPN	_	8	conj	_	_
+25	1	1	NUM	NUM	_	24	nummod	_	_
+26	מונפלייה	מונפלייה	PROPN	PROPN	_	24	nmod	_	_
+27	1	1	NUM	NUM	_	26	nummod	_	SpaceAfter=No
+28	;	;	PUNCT	PUNCT	_	29	punct	_	_
+29	טולוז	טולוז	PROPN	PROPN	_	8	conj	_	_
+30	2	2	NUM	NUM	_	29	nummod	_	_
+31	פאריס	פריז	PROPN	PROPN	_	29	nmod	_	_
+32	סן	סן	PROPN	PROPN	_	31	flat:name	_	_
+33	זרמן	זרם	PROPN	PROPN	_	32	flat:name	_	_
+34	1	1	NUM	NUM	_	31	nummod	_	SpaceAfter=No
+35	;	;	PUNCT	PUNCT	_	36	punct	_	_
+36	ליל	ליל	NOUN	NOUN	Gender=Masc|Number=Sing	8	conj	_	_
+37	0	0	NUM	NUM	_	36	nummod	_	_
+38	ניס	ניס	PROPN	PROPN	_	36	nmod	_	_
+39	0	0	NUM	NUM	_	38	nummod	_	SpaceAfter=No
+40	;	;	PUNCT	PUNCT	_	41	punct	_	_
+41	קאן	קאן	PROPN	PROPN	_	8	conj	_	_
+42	0	0	NUM	NUM	_	41	nummod	_	_
+43	ברסט	ברסט	PROPN	PROPN	_	41	nmod	_	_
+44	0	0	NUM	NUM	_	43	nummod	_	SpaceAfter=No
+45	.	.	PUNCT	PUNCT	_	8	punct	_	_
+

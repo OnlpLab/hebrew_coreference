@@ -1,0 +1,168 @@
+# doc_id = htb:93
+# doc_range = 1-65
+# sent_id = 2349
+# text = בותיו אבדו לפני כחודשיים, חי בחיפה.
+1	בותיו	בותיו	X	X	_	2	dep	_	Xtra=Junk
+2	אבדו	אבד	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	0	root	_	_
+3	לפני	לפני	ADP	ADP	_	5	case	_	_
+4-5	כחודשיים	_	_	_	_	_	_	_	SpaceAfter=No
+4	כ	כ	ADP	ADP	_	5	case	_	_
+5	חודשיים	חודש	NOUN	NOUN	Gender=Masc|Number=Dual	2	obl	_	_
+6	,	,	PUNCT	PUNCT	_	7	punct	_	_
+7	חי	חי	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	2	parataxis	_	_
+8-9	בחיפה	_	_	_	_	_	_	_	SpaceAfter=No
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	חיפה	חיפה	PROPN	PROPN	_	7	obl	_	_
+10	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:93
+# doc_range = 67-159
+# sent_id = 2350
+# text = אתמול התפרסמה במוסף "הארץ" כתבה על היעלמו של וגמן.
+1	אתמול	אתמול	ADV	ADV	_	2	advmod	_	_
+2	התפרסמה	התפרסם	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+3-4	במוסף	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	מוסף	מוסף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	obl	_	_
+5	"	"	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
+6-7	הארץ	_	_	_	_	_	_	_	SpaceAfter=No
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	ארץ	ארץ	PROPN	PROPN	_	4	compound:smixut	_	_
+8	"	"	PUNCT	PUNCT	_	7	punct	_	_
+9	כתבה	כתבה	NOUN	NOUN	Gender=Fem|Number=Sing	2	nsubj	_	_
+10	על	על	ADP	ADP	_	11	case	_	_
+11	היעלמו	העלם	NOUN	NOUN	_	9	nmod	_	_
+12	של	של	ADP	ADP	Case=Gen	13	case	_	_
+13	וגמן	וגמן	PROPN	PROPN	_	11	nmod:poss	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:93
+# doc_range = 161-348
+# sent_id = 2351
+# text = לאחר הפרסום התקשר למערכת "הארץ" י.כ., תושב העיר, וסיפר כי אדם בשם זה מתגורר בדירתו בחודשיים האחרונים.
+1	לאחר	לאחר	ADP	ADP	_	3	case	_	_
+2-3	הפרסום	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	פרסום	פרסום	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+4	התקשר	התקשר	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+5-6	למערכת	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	מערכת	מערכת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	obl	_	_
+7	"	"	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+8-9	הארץ	_	_	_	_	_	_	_	SpaceAfter=No
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	ארץ	ארץ	PROPN	PROPN	_	6	compound:smixut	_	_
+10	"	"	PUNCT	PUNCT	_	9	punct	_	_
+11	י.כ.	יyyד%תכyyד%ת	PROPN	PROPN	Abbr=Yes	4	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	13	punct	_	_
+13	תושב	תושב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	appos	_	_
+14-15	העיר	_	_	_	_	_	_	_	SpaceAfter=No
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	עיר	עיר	NOUN	NOUN	Gender=Fem|Number=Sing	13	compound:smixut	_	_
+16	,	,	PUNCT	PUNCT	_	18	punct	_	_
+17-18	וסיפר	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+18	סיפר	סיפר	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	_
+19	כי	כי	SCONJ	SCONJ	_	24	mark	_	_
+20	אדם	אדם	NOUN	NOUN	Gender=Masc|Number=Sing	24	nsubj	_	_
+21-22	בשם	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	שם	שם	NOUN	NOUN	Gender=Masc|Number=Sing	20	nmod	_	_
+23	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	22	det	_	_
+24	מתגורר	התגורר	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	18	ccomp	_	_
+25-28	בדירתו	_	_	_	_	_	_	_	_
+25	ב	ב	ADP	ADP	_	26	case	_	_
+26	דירה	דירה	NOUN	NOUN	Gender=Fem|Number=Sing	24	obl	_	_
+27	_של_	של	ADP	ADP	Case=Gen	28	case:gen	_	_
+28	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+29-31	בחודשיים	_	_	_	_	_	_	_	_
+29	ב	ב	ADP	ADP	_	31	case	_	_
+30	ה_	ה	DET	DET	PronType=Art|Definite=Def	31	det	_	_
+31	חודשיים	חודש	NOUN	NOUN	Gender=Masc|Number=Dual	24	obl	_	_
+32-33	האחרונים	_	_	_	_	_	_	_	SpaceAfter=No
+32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
+33	אחרונים	אחרון	ADJ	ADJ	Gender=Masc|Number=Plur	31	amod	_	_
+34	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:93
+# doc_range = 351-453
+# sent_id = 2352
+# text = לדבריו, מצא את וגמן בגן ציבורי בכרמל, והזמין אותו לגור אצלו.
+1-4	לדבריו	_	_	_	_	_	_	_	SpaceAfter=No
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	6	obl	_	_
+3	_של_	של	ADP	ADP	Case=Gen	4	case:gen	_	_
+4	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5	,	,	PUNCT	PUNCT	_	2	punct	_	_
+6	מצא	מצא	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+7	את	את	ADP	ADP	Case=Acc	8	case	_	_
+8	וגמן	וגמן	PROPN	PROPN	_	6	obj	_	_
+9-10	בגן	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	גן	גן	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+11	ציבורי	ציבורי	ADJ	ADJ	Gender=Masc|Number=Sing	10	amod	_	_
+12-14	בכרמל	_	_	_	_	_	_	_	SpaceAfter=No
+12	ב	ב	ADP	ADP	_	14	case	_	_
+13	ה_	ה	DET	DET	PronType=Art|Definite=Def	14	det	_	_
+14	כרמל	כרמל	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod	_	_
+15	,	,	PUNCT	PUNCT	_	17	punct	_	_
+16-17	והזמין	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+17	הזמין	הזמין	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	6	conj	_	_
+18-19	אותו	_	_	_	_	_	_	_	_
+18	את	את	ADP	ADP	Case=Acc	19	case	_	_
+19	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+20	לגור	גר	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+21-22	אצלו	_	_	_	_	_	_	_	SpaceAfter=No
+21	אצל	אצל	ADP	ADP	_	22	case	_	_
+22	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obl	_	_
+23	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:93
+# doc_range = 455-554
+# sent_id = 2353
+# text = וגמן סירב להשיב על שאלות הקשורות בהיעלמו ובתוכניותיו.
+1	וגמן	וגמן	PROPN	PROPN	_	2	nsubj	_	_
+2	סירב	סירב	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	להשיב	השיב	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	על	על	ADP	ADP	_	5	case	_	_
+5	שאלות	שאלה	NOUN	NOUN	Gender=Fem|Number=Plur	3	obl	_	_
+6-7	הקשורות	_	_	_	_	_	_	_	_
+6	ה	ה	SCONJ	SCONJ	_	7	mark	_	_
+7	קשורות	קשר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	5	acl:relcl	_	_
+8-9	בהיעלמו	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	היעלמו	העלם	NOUN	NOUN	_	7	obl	_	_
+10-14	ובתוכניותיו	_	_	_	_	_	_	_	SpaceAfter=No
+10	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	תוכנית	תוכנית	NOUN	NOUN	Gender=Fem|Number=Plur	9	conj	_	_
+13	_של_	של	ADP	ADP	Case=Gen	14	case:gen	_	_
+14	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+15	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:93
+# doc_range = 556-634
+# sent_id = 2354
+# text = כל שהיה מוכן לומר הוא: "אני חי, וזה העיקר".
+1	כל	כול	DET	DET	Definite=Cons	5	det	_	_
+2-3	שהיה	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	5	mark	_	_
+3	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	5	cop	_	_
+4	מוכן	מוכן	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	5	aux	_	_
+5	לומר	אמר	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	10	nsubj	_	_
+6	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	10	cop	_	SpaceAfter=No
+7	:	:	PUNCT	PUNCT	_	6	punct	_	_
+8	"	"	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+9	אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	חי	חי	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	15	punct	_	_
+12-13	וזה	_	_	_	_	_	_	_	_
+12	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+13	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+14-15	העיקר	_	_	_	_	_	_	_	SpaceAfter=No
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	עיקר	עיקר	NOUN	NOUN	Gender=Masc|Number=Sing	10	conj	_	_
+16	"	"	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	10	punct	_	_
+

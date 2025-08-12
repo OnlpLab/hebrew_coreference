@@ -1,0 +1,457 @@
+# doc_id = htb:118_1
+# doc_range = 1-200
+# sent_id = 2770
+# text = צופים, ואשר מילא כל פינה באצטדיון המקומי באשדוד, היה עד לדרבי המדובר של השבוע האחרון בו הופגנה רמה לא משכנעת.
+1	צופים	צופה	NOUN	NOUN	Gender=Masc|Number=Plur	16	dislocated	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3-4	ואשר	_	_	_	_	_	_	_	_
+3	ו	ו	CCONJ	CCONJ	_	16	cc	_	HebSource=ConvUncertainHead
+4	אשר	אשר	SCONJ	SCONJ	_	5	mark	_	_
+5	מילא	מילא	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	16	ccomp	_	_
+6	כל	כול	DET	DET	Definite=Cons	7	det	_	_
+7	פינה	פינה	NOUN	NOUN	Gender=Fem|Number=Sing	5	dep	_	_
+8-10	באצטדיון	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	10	case	_	_
+9	ה_	ה	DET	DET	PronType=Art|Definite=Def	10	det	_	_
+10	אצטדיון	אצטדיון	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
+11-12	המקומי	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	מקומי	מקומי	ADJ	ADJ	Gender=Masc|Number=Sing	10	amod	_	_
+13-14	באשדוד	_	_	_	_	_	_	_	SpaceAfter=No
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	אשדוד	אשדוד	PROPN	PROPN	_	10	nmod	_	_
+15	,	,	PUNCT	PUNCT	_	5	punct	_	_
+16	היה	היה	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+17	עד	עד	NOUN	NOUN	Gender=Masc|Number=Sing	16	nsubj	_	_
+18-20	לדרבי	_	_	_	_	_	_	_	_
+18	ל	ל	ADP	ADP	_	20	case	_	_
+19	ה_	ה	DET	DET	PronType=Art|Definite=Def	20	det	_	_
+20	דרבי	דרבי	NOUN	NOUN	Gender=Masc|Number=Sing	17	nmod	_	_
+21-22	המדובר	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	מדובר	מדובר	ADJ	ADJ	Gender=Masc|Number=Sing	20	amod	_	_
+23	של	של	ADP	ADP	Case=Gen	25	case	_	_
+24-25	השבוע	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	20	nmod	_	_
+26-27	האחרון	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	אחרון	אחרון	ADJ	ADJ	Gender=Masc|Number=Sing	25	amod	_	_
+28-29	בו	_	_	_	_	_	_	_	_
+28	ב	ב	ADP	ADP	_	29	case	_	_
+29	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	obl	_	_
+30	הופגנה	הופגן	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	25	acl	_	_
+31	רמה	רמה	NOUN	NOUN	Gender=Fem|Number=Sing	30	nsubj:pass	_	_
+32	לא	לא	ADV	ADV	Polarity=Neg	33	advmod	_	_
+33	משכנעת	שכנע	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	31	amod	_	SpaceAfter=No
+34	.	.	PUNCT	PUNCT	_	16	punct	_	_
+
+# doc_id = htb:118_1
+# doc_range = 202-293
+# sent_id = 2771
+# text = בעיקר התאכזבו האלפים מן העובדה שלא נכבשו שערים (0 0).
+1	בעיקר	בעיקר	ADV	ADV	_	2	advmod	_	_
+2	התאכזבו	התאכזב	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	0	root	_	_
+3-4	האלפים	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	אלפים	אלפים	NUM	NUM	Gender=Masc|Number=Plur	2	nsubj	_	_
+5	מן	מן	ADP	ADP	_	7	case	_	_
+6-7	העובדה	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	עובדה	עובדה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl	_	_
+8-9	שלא	_	_	_	_	_	_	_	_
+8	ש	ש	SCONJ	SCONJ	_	10	mark	_	_
+9	לא	לא	ADV	ADV	Polarity=Neg	10	advmod	_	_
+10	נכבשו	נכבש	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	7	acl:relcl	_	_
+11	שערים	שער	NOUN	NOUN	Gender=Masc|Number=Plur	10	nsubj	_	_
+12	(	(	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No
+13	0	0	NUM	NUM	_	11	appos	_	_
+14	0	0	NUM	NUM	_	13	nummod	_	SpaceAfter=No
+15	)	)	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:118_1
+# doc_range = 298-411
+# sent_id = 2772
+# text = העיר אשדוד אימתה את המוניטין ההולך לפניה כעיר מטורפת לכדורגל.
+1-2	העיר	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	עיר	עיר	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	אשדוד	אשדוד	PROPN	PROPN	_	2	flat:name	_	_
+4	אימתה	אימת	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	את	את	ADP	ADP	Case=Acc	7	case	_	_
+6-7	המוניטין	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	מוניטין	מוניטין	NOUN	NOUN	Gender=Masc|Number=Sing	4	obj	_	_
+8-9	ההולך	_	_	_	_	_	_	_	_
+8	ה	ה	SCONJ	SCONJ	_	9	mark	_	_
+9	הולך	הלך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	7	acl:relcl	_	_
+10-11	לפניה	_	_	_	_	_	_	_	_
+10	לפני	לפני	ADP	ADP	_	11	case	_	_
+11	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obl	_	_
+12-13	כעיר	_	_	_	_	_	_	_	_
+12	כ	כ	ADP	ADP	_	13	case	_	_
+13	עיר	עיר	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+14	מטורפת	מטורף	ADJ	ADJ	Gender=Fem|Number=Sing	13	amod	_	_
+15-16	לכדורגל	_	_	_	_	_	_	_	SpaceAfter=No
+15	ל	ל	ADP	ADP	_	16	case	_	_
+16	כדורגל	כדורגל	NOUN	NOUN	Gender=Masc|Number=Sing	14	obl	_	_
+17	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:118_1
+# doc_range = 413-502
+# sent_id = 2773
+# text = גם ההתנהגות הספורטיווית של האוהדים ראויה להערכה.
+1	גם	גם	ADV	ADV	_	3	advmod	_	_
+2-3	ההתנהגות	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	התנהגות	התנהגות	NOUN	NOUN	Gender=Fem|Number=Sing	9	nsubj	_	_
+4-5	הספורטיווית	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	ספורטיווית	ספורטיווית	ADJ	ADJ	_	3	amod	_	_
+6	של	של	ADP	ADP	Case=Gen	8	case	_	_
+7-8	האוהדים	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	אוהדים	אוהד	NOUN	NOUN	Gender=Masc|Number=Plur	3	nmod	_	_
+9	ראויה	ראוי	AUX	AUX	Gender=Fem|Number=Sing|Person=1,2,3|VerbType=Mod	0	root	_	_
+10-11	להערכה	_	_	_	_	_	_	_	SpaceAfter=No
+10	ל	ל	ADP	ADP	_	11	case	_	_
+11	הערכה	הערכה	NOUN	NOUN	Gender=Fem|Number=Sing	9	obl	_	_
+12	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:118_1
+# doc_range = 504-741
+# sent_id = 2774
+# text = הרחק מהמולת הדרבי האשדודי המאכזב התברג מוביל חדש בארצית: הפועל ר"ג, שניצח 3 1 את מכבי שעריים ולו 2 נקודות יותר מעירוני שאיבד את הפסגה.
+1	הרחק	הרחק	ADV	ADV	_	10	advmod	_	_
+2-3	מהמולת	_	_	_	_	_	_	_	_
+2	מ	מ	ADP	ADP	_	3	case	_	_
+3	המולת	המולה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	obl	_	_
+4-5	הדרבי	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	דרבי	דרבי	NOUN	NOUN	Gender=Masc|Number=Sing	3	compound:smixut	_	_
+6-7	האשדודי	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	אשדודי	אשדודי	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	_
+8-9	המאכזב	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	מאכזב	מאכזב	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	_
+10	התברג	התברג	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+11	מוביל	מוביל	NOUN	NOUN	Gender=Masc|Number=Sing	10	nsubj	_	_
+12	חדש	חדש	ADJ	ADJ	Gender=Masc|Number=Sing	11	amod	_	_
+13-15	בארצית	_	_	_	_	_	_	_	SpaceAfter=No
+13	ב	ב	ADP	ADP	_	15	case	_	_
+14	ה_	ה	DET	DET	PronType=Art|Definite=Def	15	det	_	_
+15	ארצית	ארצי	ADJ	ADJ	Gender=Fem|Number=Sing	11	nmod	_	_
+16	:	:	PUNCT	PUNCT	_	18	punct	_	_
+17-18	הפועל	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	פועל	פועל	PROPN	PROPN	_	11	appos	_	_
+19	ר"ג	ר"ג	PROPN	PROPN	Abbr=Yes	18	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	PUNCT	_	22	punct	_	_
+21-22	שניצח	_	_	_	_	_	_	_	_
+21	ש	ש	SCONJ	SCONJ	_	22	mark	_	_
+22	ניצח	ניצח	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	18	acl:relcl	_	_
+23	3	3	NUM	NUM	_	22	dep	_	_
+24	1	1	NUM	NUM	_	23	nummod	_	_
+25	את	את	ADP	ADP	Case=Acc	26	case	_	_
+26	מכבי	מכבי	PROPN	PROPN	_	22	obj	_	_
+27	שעריים	שעריים	PROPN	PROPN	_	26	flat:name	_	_
+28-30	ולו	_	_	_	_	_	_	_	_
+28	ו	ו	SCONJ	SCONJ	_	30	mark	_	_
+29	ל	ל	ADP	ADP	_	30	case	_	_
+30	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	acl:relcl	_	_
+31	2	2	NUM	NUM	_	32	nummod	_	_
+32	נקודות	נקודה	NOUN	NOUN	Gender=Fem|Number=Plur	30	nsubj	_	_
+33	יותר	יותר	ADV	ADV	_	35	advmod	_	HebSource=ConvUncertainHead
+34-35	מעירוני	_	_	_	_	_	_	_	_
+34	מ	מ	ADP	ADP	_	33	fixed	_	_
+35	עירוני	עירוני	PROPN	PROPN	_	32	nmod	_	_
+36-37	שאיבד	_	_	_	_	_	_	_	_
+36	ש	ש	SCONJ	SCONJ	_	37	mark	_	_
+37	איבד	איבד	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	35	acl:relcl	_	_
+38	את	את	ADP	ADP	Case=Acc	40	case	_	_
+39-40	הפסגה	_	_	_	_	_	_	_	SpaceAfter=No
+39	ה	ה	DET	DET	Definite=Def|PronType=Art	40	det	_	_
+40	פסגה	פסגה	NOUN	NOUN	Gender=Fem|Number=Sing	37	obj	_	_
+41	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:118_1
+# doc_range = 743-834
+# sent_id = 2775
+# text = למקום השלישי עלה מכבי יבנה שניצח את הפועל טבריה 1 0.
+1-3	למקום	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+4-5	השלישי	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	שלישי	שלישי	ADJ	ADJ	Gender=Masc|Number=Sing	3	amod	_	_
+6	עלה	עלה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+7	מכבי	מכבי	PROPN	PROPN	_	6	nsubj	_	_
+8	יבנה	יבנה	PROPN	PROPN	_	7	flat:name	_	_
+9-10	שניצח	_	_	_	_	_	_	_	_
+9	ש	ש	SCONJ	SCONJ	_	10	mark	_	_
+10	ניצח	ניצח	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	7	acl:relcl	_	_
+11	את	את	ADP	ADP	Case=Acc	13	case	_	_
+12-13	הפועל	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	פועל	פועל	PROPN	PROPN	_	10	obj	_	_
+14	טבריה	טבריה	PROPN	PROPN	_	13	flat:name	_	_
+15	1	1	NUM	NUM	_	10	dep	_	_
+16	0	0	NUM	NUM	_	15	nummod	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:118_1
+# doc_range = 836-944
+# sent_id = 2776
+# text = מכבי פ"ת ממשיך לאבד נקודות רק 1 1 עם מכבי יפו וירד למקום החמישי.
+1	מכבי	מכבי	PROPN	PROPN	_	3	nsubj	_	_
+2	פ"ת	פ"ת	PROPN	PROPN	Abbr=Yes	1	flat:name	_	_
+3	ממשיך	המשיך	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4	לאבד	איבד	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	נקודות	נקודה	NOUN	NOUN	Gender=Fem|Number=Plur	4	obj	_	_
+6	רק	רק	ADV	ADV	_	7	advmod	_	_
+7	1	1	NUM	NUM	_	3	parataxis	_	_
+8	1	1	NUM	NUM	_	7	nummod	_	_
+9	עם	עם	ADP	ADP	_	10	case	_	_
+10	מכבי	מכבי	PROPN	PROPN	_	7	obl	_	_
+11	יפו	יפו	PROPN	PROPN	_	10	flat:name	_	_
+12-13	וירד	_	_	_	_	_	_	_	_
+12	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
+13	ירד	ירד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	_
+14-16	למקום	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	16	case	_	_
+15	ה_	ה	DET	DET	PronType=Art|Definite=Def	16	det	_	_
+16	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	13	obl	_	_
+17-18	החמישי	_	_	_	_	_	_	_	SpaceAfter=No
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	חמישי	חמישי	ADJ	ADJ	Gender=Masc|Number=Sing	16	amod	_	_
+19	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:118_1
+# doc_range = 946-1050
+# sent_id = 2777
+# text = בית"ר נתניה ניצח 2 0 את מכבי עכו ועלה מן המקום העשירי לשישי.
+1	בית"ר	בית"ר	PROPN	PROPN	Abbr=Yes	3	nsubj	_	_
+2	נתניה	נתניה	PROPN	PROPN	_	1	flat:name	_	_
+3	ניצח	ניצח	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	2	2	NUM	NUM	_	3	dep	_	_
+5	0	0	NUM	NUM	_	4	nummod	_	_
+6	את	את	ADP	ADP	Case=Acc	7	case	_	_
+7	מכבי	מכבי	PROPN	PROPN	_	3	obj	_	_
+8	עכו	עכו	PROPN	PROPN	_	7	flat:name	_	_
+9-10	ועלה	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+10	עלה	עלה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	_
+11	מן	מן	ADP	ADP	_	13	case	_	_
+12-13	המקום	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
+14-15	העשירי	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	עשירי	עשירי	ADJ	ADJ	Gender=Masc|Number=Sing	13	amod	_	_
+16-18	לשישי	_	_	_	_	_	_	_	SpaceAfter=No
+16	ל	ל	ADP	ADP	_	18	case	_	_
+17	ה_	ה	DET	DET	PronType=Art|Definite=Def	18	det	_	_
+18	שישי	שישי	NUM	NUM	Gender=Masc|Number=Plur	10	obl	_	_
+19	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:118_1
+# doc_range = 1052-1150
+# sent_id = 2778
+# text = הפועל חיפה הרשים בהשיגו תיקו 2 2 אחרי שפיגר 0 2 נגד שמשון.
+1-2	הפועל	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	פועל	פועל	PROPN	PROPN	_	4	nsubj	_	_
+3	חיפה	חיפה	PROPN	PROPN	_	2	flat:name	_	_
+4	הרשים	הרשים	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5-6	בהשיגו	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	השיגו	השיג	NOUN	NOUN	_	4	obl	_	_
+7	תיקו	תיקו	NOUN	NOUN	Gender=Masc|Number=Sing	6	acl	_	_
+8	2	2	NUM	NUM	_	7	compound:smixut	_	_
+9	2	2	NUM	NUM	_	8	nummod	_	_
+10	אחרי	אחרי	ADP	ADP	_	12	mark	_	_
+11-12	שפיגר	_	_	_	_	_	_	_	_
+11	ש	ש	SCONJ	SCONJ	_	10	fixed	_	_
+12	פיגר	פיגר	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	4	advcl	_	_
+13	0	0	NUM	NUM	_	12	obj	_	_
+14	2	2	NUM	NUM	_	13	nummod	_	_
+15	נגד	נגד	ADP	ADP	_	16	case	_	_
+16	שמשון	שמשון	PROPN	PROPN	_	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:118_1
+# doc_range = 1152-1204
+# sent_id = 2779
+# text = גם חדרה ועמידר סיימו בתיקו 2 2.
+1	גם	גם	ADV	ADV	_	2	advmod	_	_
+2	חדרה	חדרה	PROPN	PROPN	_	5	nsubj	_	_
+3-4	ועמידר	_	_	_	_	_	_	_	_
+3	ו	ו	CCONJ	CCONJ	_	4	cc	_	_
+4	עמידר	עמידר	PROPN	PROPN	_	2	conj	_	_
+5	סיימו	סיים	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+6-7	בתיקו	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	תיקו	תיקו	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+8	2	2	NUM	NUM	_	7	compound:smixut	_	_
+9	2	2	NUM	NUM	_	8	nummod	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:118_1
+# doc_range = 1206-1264
+# sent_id = 2780
+# text = בת ים וטירת הכרמל סיימו בתיקו 0 0.
+1	בת	בת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	nsubj	_	_
+2	ים	ים	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+3-4	וטירת	_	_	_	_	_	_	_	_
+3	ו	ו	CCONJ	CCONJ	_	4	cc	_	_
+4	טירת	טירה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	conj	_	_
+5-6	הכרמל	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	כרמל	כרמל	NOUN	NOUN	Gender=Masc|Number=Sing	4	compound:smixut	_	_
+7	סיימו	סיים	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+8-9	בתיקו	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	תיקו	תיקו	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
+10	0	0	NUM	NUM	_	9	compound:smixut	_	_
+11	0	0	NUM	NUM	_	10	nummod	_	SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:118_1
+# doc_range = 1280-1417
+# sent_id = 2781
+# text = 0007 איש, שנדחסו למגרש באשדוד צפו במשחק ירוד עם יתרון בולט ברוב שלביו להפועל.
+1	0007	0007	NUM	NUM	_	2	nummod	_	_
+2	איש	איש	NOUN	NOUN	Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	5	punct	_	_
+4-5	שנדחסו	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	5	mark	_	_
+5	נדחסו	נדחס	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	2	acl:relcl	_	_
+6-8	למגרש	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	8	case	_	_
+7	ה_	ה	DET	DET	PronType=Art|Definite=Def	8	det	_	_
+8	מגרש	מגרש	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+9-10	באשדוד	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	אשדוד	אשדוד	PROPN	PROPN	_	8	nmod	_	_
+11	צפו	צפה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+12-13	במשחק	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	11	obl	_	_
+14	ירוד	ירוד	ADJ	ADJ	Gender=Masc|Number=Sing	13	amod	_	_
+15	עם	עם	ADP	ADP	_	16	case	_	_
+16	יתרון	יתרון	NOUN	NOUN	Gender=Masc|Number=Sing	13	nmod	_	_
+17	בולט	בולט	ADJ	ADJ	Gender=Masc|Number=Sing	16	amod	_	_
+18-19	ברוב	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	20	case	_	_
+19	רוב	רוב	DET	DET	Definite=Cons	20	det	_	_
+20-22	שלביו	_	_	_	_	_	_	_	_
+20	שלב	שלב	NOUN	NOUN	Gender=Masc|Number=Plur	16	nmod	_	_
+21	_של_	של	ADP	ADP	Case=Gen	22	case:gen	_	_
+22	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+23-25	להפועל	_	_	_	_	_	_	_	SpaceAfter=No
+23	ל	ל	ADP	ADP	_	25	case	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	16	nmod	_	_
+26	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:118_1
+# doc_range = 1419-1520
+# sent_id = 2782
+# text = היציע חולק למחנה האדום של הפועל והמחנה הצהוב של עירוני.
+1-2	היציע	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	יציע	יציע	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	חולק	חולק	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+4-6	למחנה	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	6	case	_	_
+5	ה_	ה	DET	DET	PronType=Art|Definite=Def	6	det	_	_
+6	מחנה	מחנה	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+7-8	האדום	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	אדום	אדום	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	_
+9	של	של	ADP	ADP	Case=Gen	11	case	_	_
+10-11	הפועל	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	6	nmod	_	_
+12-14	והמחנה	_	_	_	_	_	_	_	_
+12	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	מחנה	מחנה	NOUN	NOUN	Gender=Masc|Number=Sing	6	conj	_	_
+15-16	הצהוב	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	צהוב	צהוב	ADJ	ADJ	Gender=Masc|Number=Sing	14	amod	_	_
+17	של	של	ADP	ADP	Case=Gen	18	case	_	_
+18	עירוני	עירוני	PROPN	PROPN	_	14	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:118_1
+# doc_range = 1522-1572
+# sent_id = 2783
+# text = היו בלונים, צעיפים וחולצות.
+1	היו	היה	VERB	VERB	Gender=Fem,Masc|HebExistential=Yes|Number=Plur|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+2	בלונים	בלון	NOUN	NOUN	Gender=Masc|Number=Plur	1	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	4	punct	_	_
+4	צעיפים	צעיף	NOUN	NOUN	Gender=Masc|Number=Plur	2	conj	_	_
+5-6	וחולצות	_	_	_	_	_	_	_	SpaceAfter=No
+5	ו	ו	CCONJ	CCONJ	_	6	cc	_	_
+6	חולצות	חולצה	NOUN	NOUN	Gender=Fem|Number=Plur	2	conj	_	_
+7	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:118_1
+# doc_range = 1574-1671
+# sent_id = 2784
+# text = התנהגות הקהל היתה למופת וכללה עידוד קולני וספורטיבי.
+1	התנהגות	התנהגות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	nsubj	_	_
+2-3	הקהל	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	קהל	קהל	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4	היתה	היה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	6	cop	_	_
+5-6	למופת	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	מופת	מופת	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+7-8	וכללה	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	8	cc	_	_
+8	כללה	כלל	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	6	conj	_	_
+9	עידוד	עידוד	NOUN	NOUN	Gender=Masc|Number=Sing	8	dep	_	_
+10	קולני	קולני	ADJ	ADJ	Gender=Masc|Number=Sing	9	amod	_	_
+11-12	וספורטיבי	_	_	_	_	_	_	_	SpaceAfter=No
+11	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+12	ספורטיבי	ספורטיבי	ADJ	ADJ	Gender=Masc|Number=Sing	10	conj	_	_
+13	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:118_1
+# doc_range = 1673-1732
+# sent_id = 2785
+# text = להשלמת התמונה הנפלאה חסרו שערים.
+1-2	להשלמת	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	השלמת	השלמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	obl	_	_
+3-4	התמונה	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	תמונה	תמונה	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound:smixut	_	_
+5-6	הנפלאה	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	נפלאה	נפלא	ADJ	ADJ	Gender=Fem|Number=Sing	4	amod	_	_
+7	חסרו	חסר	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	0	root	_	_
+8	שערים	שער	NOUN	NOUN	Gender=Masc|Number=Plur	7	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:118_1
+# doc_range = 1734-1789
+# sent_id = 2786
+# text = שפט עובדיה צבי, 0007 צופים, באשדוד.
+1	שפט	שפט	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+2	עובדיה	עובדיה	PROPN	PROPN	_	1	nsubj	_	_
+3	צבי	צבי	PROPN	PROPN	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	6	punct	_	_
+5	0007	0007	NUM	NUM	_	6	nummod	_	_
+6	צופים	צופה	NOUN	NOUN	Gender=Masc|Number=Plur	1	dep	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	9	punct	_	_
+8-9	באשדוד	_	_	_	_	_	_	_	SpaceAfter=No
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	אשדוד	אשדוד	PROPN	PROPN	_	1	obl	_	_
+10	.	.	PUNCT	PUNCT	_	1	punct	_	_
+

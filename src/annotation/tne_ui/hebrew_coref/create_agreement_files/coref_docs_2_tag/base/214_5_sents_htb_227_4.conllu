@@ -1,0 +1,206 @@
+# doc_id = htb:227_4
+# doc_range = 5045-5264
+# sent_id = 5662
+# text = פ. ס. וו. איננדהובן, אותה מאמן האנגלי בובי רובסון, עלתה למקום הראשון, אחרי ניצחון חוץ 1 0 על שחיידאם משער של קומאן בדקה ה-66.
+1	פ.	פ.	PROPN	PROPN	Abbr=Yes	14	nsubj	_	_
+2	ס.	ס.	PROPN	PROPN	Abbr=Yes	1	flat:name	_	_
+3	וו.	וו.	PROPN	PROPN	Abbr=Yes	1	flat:name	_	_
+4	איננדהובן	איננדהובן	PROPN	PROPN	_	1	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	8	punct	_	_
+6-7	אותה	_	_	_	_	_	_	_	_
+6	את	את	ADP	ADP	Case=Acc	7	case	_	_
+7	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	מאמן	אימן	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	1	acl:relcl	_	_
+9-10	האנגלי	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	אנגלי	אנגלי	NOUN	NOUN	Gender=Masc|Number=Sing	8	nsubj	_	_
+11	בובי	בובי	PROPN	PROPN	_	10	flat:name	_	_
+12	רובסון	רובסון	PROPN	PROPN	_	10	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	1	punct	_	_
+14	עלתה	עלה	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+15-17	למקום	_	_	_	_	_	_	_	_
+15	ל	ל	ADP	ADP	_	17	case	_	_
+16	ה_	ה	DET	DET	PronType=Art|Definite=Def	17	det	_	_
+17	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	14	obl	_	_
+18-19	הראשון	_	_	_	_	_	_	_	SpaceAfter=No
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	ראשון	ראשון	ADJ	ADJ	Gender=Masc|Number=Sing	17	amod	_	_
+20	,	,	PUNCT	PUNCT	_	22	punct	_	_
+21	אחרי	אחרי	ADP	ADP	_	22	case	_	_
+22	ניצחון	ניצחון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	14	obl	_	_
+23	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	22	compound:smixut	_	_
+24	1	1	NUM	NUM	_	22	nummod	_	_
+25	0	0	NUM	NUM	_	24	nummod	_	_
+26	על	על	ADP	ADP	_	27	case	_	_
+27	שחיידאם	שחיידאם	PROPN	PROPN	_	22	nmod	_	_
+28-29	משער	_	_	_	_	_	_	_	_
+28	מ	מ	ADP	ADP	_	29	case	_	_
+29	שער	שער	NOUN	NOUN	Gender=Masc|Number=Sing	22	nmod	_	_
+30	של	של	ADP	ADP	Case=Gen	31	case	_	_
+31	קומאן	קומאן	PROPN	PROPN	_	29	nmod	_	_
+32-34	בדקה	_	_	_	_	_	_	_	_
+32	ב	ב	ADP	ADP	_	34	case	_	_
+33	ה_	ה	DET	DET	PronType=Art|Definite=Def	34	det	_	_
+34	דקה	דקה	NOUN	NOUN	Gender=Fem|Number=Sing	29	nmod	_	_
+35	ה	ה	DET	DET	Definite=Def|PronType=Art	37	det	_	SpaceAfter=No
+36	-	-	PUNCT	PUNCT	_	35	punct	_	SpaceAfter=No
+37	66	66	NUM	NUM	_	34	amod	_	SpaceAfter=No
+38	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# doc_id = htb:227_4
+# doc_range = 5266-5504
+# sent_id = 5663
+# text = לאיינדהובן 18 נקודות אחרי 11 מחזורים, והיא מקדימה בהפרש שערים את האלופה אייאקס אמסטרדאם שכשלה בביתה וסיימה רק בתיקו 00 עם וואלווייק.
+1-2	לאיינדהובן	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	איינדהובן	איינדהובן	PROPN	PROPN	_	0	root	_	_
+3	18	18	NUM	NUM	_	4	nummod	_	_
+4	נקודות	נקודה	NOUN	NOUN	Gender=Fem|Number=Plur	2	nsubj	_	_
+5	אחרי	אחרי	ADP	ADP	_	7	case	_	_
+6	11	11	NUM	NUM	_	7	nummod	_	_
+7	מחזורים	מחזור	NOUN	NOUN	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	11	punct	_	_
+9-10	והיא	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+10	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	מקדימה	הקדים	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	2	conj	_	_
+12-13	בהפרש	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	הפרש	הפרש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	obl	_	_
+14	שערים	שער	NOUN	NOUN	Gender=Masc|Number=Plur	13	compound:smixut	_	_
+15	את	את	ADP	ADP	Case=Acc	17	case	_	_
+16-17	האלופה	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	אלופה	אלופה	NOUN	NOUN	Gender=Fem|Number=Sing	11	obj	_	_
+18	אייאקס	אייאקס	PROPN	PROPN	_	17	flat:name	_	_
+19	אמסטרדאם	אמסטרדם	PROPN	PROPN	_	17	flat:name	_	_
+20-21	שכשלה	_	_	_	_	_	_	_	_
+20	ש	ש	SCONJ	SCONJ	_	21	mark	_	_
+21	כשלה	כשל	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	17	acl:relcl	_	_
+22-25	בביתה	_	_	_	_	_	_	_	_
+22	ב	ב	ADP	ADP	_	23	case	_	_
+23	בית	בית	NOUN	NOUN	Gender=Masc|Number=Sing	21	obl	_	_
+24	_של_	של	ADP	ADP	Case=Gen	25	case:gen	_	_
+25	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+26-27	וסיימה	_	_	_	_	_	_	_	_
+26	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
+27	סיימה	סיים	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	21	conj	_	_
+28	רק	רק	ADV	ADV	_	30	advmod	_	_
+29-30	בתיקו	_	_	_	_	_	_	_	_
+29	ב	ב	ADP	ADP	_	30	case	_	_
+30	תיקו	תיקו	NOUN	NOUN	Gender=Masc|Number=Sing	27	obl	_	_
+31	00	00	NUM	NUM	_	30	nummod	_	_
+32	עם	עם	ADP	ADP	_	33	case	_	_
+33	וואלווייק	וואלווייק	PROPN	PROPN	_	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:227_4
+# doc_range = 5506-5688
+# sent_id = 5664
+# text = תוצאות אחרות: ספרטה רוטרדאם 2 הירנווין 1; דן האג 3 רודה 1; חרונינגן 1 פיינורד 1; ויטסה ארנהם 1 מאסטריכט 1.
+1	תוצאות	תוצאה	NOUN	NOUN	Gender=Fem|Number=Plur	4	nsubj	_	_
+2	אחרות	אחר	ADJ	ADJ	Gender=Fem|Number=Plur	1	amod	_	SpaceAfter=No
+3	:	:	PUNCT	PUNCT	_	1	punct	_	_
+4	ספרטה	ספרטה	PROPN	PROPN	_	0	root	_	_
+5	רוטרדאם	רוטרדאם	PROPN	PROPN	_	4	flat:name	_	_
+6	2	2	NUM	NUM	_	4	nummod	_	_
+7	הירנווין	הירנווין	PROPN	PROPN	_	4	nmod	_	_
+8	1	1	NUM	NUM	_	7	nummod	_	SpaceAfter=No
+9	;	;	PUNCT	PUNCT	_	10	punct	_	_
+10	דן	דן	PROPN	PROPN	_	4	conj	_	_
+11	האג	האג	PROPN	PROPN	_	10	flat:name	_	_
+12	3	3	NUM	NUM	_	10	nummod	_	_
+13	רודה	רודה	PROPN	PROPN	_	10	nmod	_	_
+14	1	1	NUM	NUM	_	13	nummod	_	SpaceAfter=No
+15	;	;	PUNCT	PUNCT	_	16	punct	_	_
+16	חרונינגן	חרונינגן	PROPN	PROPN	_	4	conj	_	_
+17	1	1	NUM	NUM	_	16	nummod	_	_
+18	פיינורד	פיינורד	PROPN	PROPN	_	16	nmod	_	_
+19	1	1	NUM	NUM	_	18	nummod	_	SpaceAfter=No
+20	;	;	PUNCT	PUNCT	_	21	punct	_	_
+21	ויטסה	ויטסה	PROPN	PROPN	_	4	conj	_	_
+22	ארנהם	ארנהם	PROPN	PROPN	_	21	flat:name	_	_
+23	1	1	NUM	NUM	_	21	dep	_	HebSource=ConvUncertainHead
+24	מאסטריכט	מאסטריכט	PROPN	PROPN	_	21	dep	_	HebSource=ConvUncertainHead
+25	1	1	NUM	NUM	_	24	nummod	_	SpaceAfter=No
+26	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:227_4
+# doc_range = 5689-6004
+# sent_id = 5665
+# text = מחזור 12: קורטרייק 1 בירסחוט 3; אקרן 1 שארלרואה 0; סרקל ברוז 3 גנק 1; גנט 4 וורגם 0; אנדרלכט 5 סטנדרד ליאז 1; ליירסה 1 ברוז 1; אנטוורפן 0 לוקרן 0; סט. טרוידן מכלן 3; פ. צ. ליאז 2 מולנביק 0.
+1	מחזור	מחזור	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+2	12	12	NUM	NUM	_	1	nummod	_	SpaceAfter=No
+3	:	:	PUNCT	PUNCT	_	4	punct	_	_
+4	קורטרייק	קורטרייק	PROPN	PROPN	_	1	nmod	_	_
+5	1	1	NUM	NUM	_	4	nummod	_	_
+6	בירסחוט	בירסחוט	PROPN	PROPN	_	4	nmod	_	_
+7	3	3	NUM	NUM	_	6	nummod	_	SpaceAfter=No
+8	;	;	PUNCT	PUNCT	_	9	punct	_	_
+9	אקרן	קרן	PROPN	PROPN	_	4	conj	_	_
+10	1	1	NUM	NUM	_	9	nummod	_	_
+11	שארלרואה	שארלרואה	PROPN	PROPN	_	9	nmod	_	_
+12	0	0	NUM	NUM	_	11	nummod	_	SpaceAfter=No
+13	;	;	PUNCT	PUNCT	_	16	punct	_	_
+14	סרקל	סרקל	PROPN	PROPN	_	16	dep	_	_
+15	ברוז	ברוז	PROPN	PROPN	_	14	flat:name	_	_
+16	3	3	NUM	NUM	_	4	conj	_	_
+17	גנק	גנק	PROPN	PROPN	_	16	obl	_	_
+18	1	1	NUM	NUM	_	17	nummod	_	SpaceAfter=No
+19	;	;	PUNCT	PUNCT	_	20	punct	_	_
+20	גנט	גנט	PROPN	PROPN	_	4	conj	_	_
+21	4	4	NUM	NUM	_	20	nummod	_	_
+22	וורגם	וורגם	PROPN	PROPN	_	20	nmod	_	_
+23	0	0	NUM	NUM	_	22	nummod	_	SpaceAfter=No
+24	;	;	PUNCT	PUNCT	_	25	punct	_	_
+25	אנדרלכט	אנדרלכט	PROPN	PROPN	_	4	conj	_	_
+26	5	5	NUM	NUM	_	25	nummod	_	_
+27	סטנדרד	סטנדרד	NOUN	NOUN	Definite=Cons	25	acl	_	_
+28	ליאז	ליאז	PROPN	PROPN	_	27	flat:name	_	_
+29	1	1	NUM	NUM	_	27	nummod	_	SpaceAfter=No
+30	;	;	PUNCT	PUNCT	_	31	punct	_	_
+31	ליירסה	ליירסה	PROPN	PROPN	_	4	conj	_	_
+32	1	1	NUM	NUM	_	31	nummod	_	_
+33	ברוז	ברוז	PROPN	PROPN	_	31	nmod	_	_
+34	1	1	NUM	NUM	_	33	nummod	_	SpaceAfter=No
+35	;	;	PUNCT	PUNCT	_	36	punct	_	_
+36	אנטוורפן	אנטוורפן	PROPN	PROPN	_	4	conj	_	_
+37	0	0	NUM	NUM	_	36	nummod	_	_
+38	לוקרן	לוקרן	PROPN	PROPN	_	36	nmod	_	_
+39	0	0	NUM	NUM	_	38	nummod	_	SpaceAfter=No
+40	;	;	PUNCT	PUNCT	_	41	punct	_	_
+41	סט.	סט.	PROPN	PROPN	Abbr=Yes	4	conj	_	_
+42	טרוידן	טרוידן	PROPN	PROPN	_	41	flat:name	_	_
+43	מכלן	מכל	PROPN	PROPN	_	41	nmod	_	HebSource=ConvUncertainLabel
+44	3	3	NUM	NUM	_	43	nummod	_	SpaceAfter=No
+45	;	;	PUNCT	PUNCT	_	46	punct	_	_
+46	פ.	פ.	PROPN	PROPN	Abbr=Yes	4	conj	_	_
+47	צ.	צ.	PROPN	PROPN	Abbr=Yes	46	flat:name	_	_
+48	ליאז	ליאז	PROPN	PROPN	_	46	flat:name	_	_
+49	2	2	NUM	NUM	_	46	nummod	_	_
+50	מולנביק	מולנביק	PROPN	PROPN	_	46	nmod	_	_
+51	0	0	NUM	NUM	_	50	nummod	_	SpaceAfter=No
+52	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:227_4
+# doc_range = 6005-6092
+# sent_id = 5666
+# text = הצמרת: גנט 20, סטאנדארד ליאז 18, ברוז 18, אנדרלכט 17.
+1-2	הצמרת	_	_	_	_	_	_	_	SpaceAfter=No
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	צמרת	צמרת	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	:	:	PUNCT	PUNCT	_	2	punct	_	_
+4	גנט	גנט	PROPN	PROPN	_	0	root	_	_
+5	20	20	NUM	NUM	_	4	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	7	punct	_	HebSource=ConvUncertainHead
+7	סטאנדארד	סטאנדארד	PROPN	PROPN	_	4	dep	_	HebSource=ConvUncertainHead
+8	ליאז	ליאז	PROPN	PROPN	_	7	flat:name	_	_
+9	18	18	NUM	NUM	_	7	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	11	punct	_	HebSource=ConvUncertainHead
+11	ברוז	ברוז	PROPN	PROPN	_	4	dep	_	HebSource=ConvUncertainHead
+12	18	18	NUM	NUM	_	11	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	14	punct	_	HebSource=ConvUncertainHead
+14	אנדרלכט	אנדרלכט	PROPN	PROPN	_	4	dep	_	HebSource=ConvUncertainHead
+15	17	17	NUM	NUM	_	14	parataxis	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	4	punct	_	_
+

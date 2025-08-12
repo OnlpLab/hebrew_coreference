@@ -1,0 +1,904 @@
+# doc_id = htb:57_2
+# doc_range = 2714-2841
+# sent_id = 1862
+# text = סגן השר יגאל ביבי מהמפד"ל אינו מצליח לפי שעה לקבל סמכויות מראש הממשלה.
+1	סגן	סגן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	nsubj	_	_
+2-3	השר	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	שר	שר	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4	יגאל	יגאל	PROPN	PROPN	_	1	flat:name	_	_
+5	ביבי	ביבי	PROPN	PROPN	_	1	flat:name	_	_
+6-8	מהמפד"ל	_	_	_	_	_	_	_	_
+6	מ	מ	ADP	ADP	_	8	case	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	מפד"ל	מפד"ל	NOUN	NOUN	Abbr=Yes|Gender=Fem|Number=Sing	1	nmod	_	_
+9	אינו	אינו	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	10	aux	_	_
+10	מצליח	הצליח	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+11	לפי	לפי	ADP	ADP	_	12	case	_	_
+12	שעה	שעה	NOUN	NOUN	Gender=Fem|Number=Sing	10	obl	_	_
+13	לקבל	קיבל	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+14	סמכויות	סמכות	NOUN	NOUN	Gender=Fem|Number=Plur	13	obj	_	_
+15-16	מראש	_	_	_	_	_	_	_	_
+15	מ	מ	ADP	ADP	_	16	case	_	_
+16	ראש	ראש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	obl	_	_
+17-18	הממשלה	_	_	_	_	_	_	_	SpaceAfter=No
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	16	compound:smixut	_	_
+19	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:57_2
+# doc_range = 2843-3033
+# sent_id = 1863
+# text = חודשיים עברו מאז מונה ביבי כסגן שר ותחומי פעולה ממשיים עדיין אין לו, ואפילו לא משרד שבמסגרתו יוכל לפעול.
+1	חודשיים	חודש	NOUN	NOUN	Gender=Masc|Number=Dual	2	nsubj	_	_
+2	עברו	עבר	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	0	root	_	_
+3-4	מאז	_	_	_	_	_	_	_	_
+3	מ	מ	ADP	ADP	_	5	case	_	_
+4	אז	אז	ADV	ADV	_	3	fixed	_	_
+5	מונה	מונה	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	2	obl	_	_
+6	ביבי	ביבי	PROPN	PROPN	_	5	nsubj:pass	_	_
+7-8	כסגן	_	_	_	_	_	_	_	_
+7	כ	כ	ADP	ADP	_	8	case	_	_
+8	סגן	סגן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+9	שר	שר	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound:smixut	_	_
+10-11	ותחומי	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+11	תחומי	תחום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	15	nsubj	_	_
+12	פעולה	פעולה	NOUN	NOUN	Gender=Fem|Number=Sing	11	compound:smixut	_	_
+13	ממשיים	ממשי	ADJ	ADJ	Gender=Masc|Number=Plur	11	amod	_	_
+14	עדיין	עדיין	ADV	ADV	_	15	advmod	_	_
+15	אין	אין	VERB	VERB	HebExistential=Yes	2	conj	_	_
+16-17	לו	_	_	_	_	_	_	_	SpaceAfter=No
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obl	_	_
+18	,	,	PUNCT	PUNCT	_	19	punct	_	_
+19-20	ואפילו	_	_	_	_	_	_	_	_
+19	ו	ו	CCONJ	CCONJ	_	15	cc	_	HebSource=ConvUncertainHead
+20	אפילו	אפילו	ADV	ADV	_	22	advmod	_	_
+21	לא	לא	ADV	ADV	Polarity=Neg	22	advmod	_	_
+22	משרד	משרד	NOUN	NOUN	Gender=Masc|Number=Sing	15	nsubj	_	_
+23-27	שבמסגרתו	_	_	_	_	_	_	_	_
+23	ש	ש	SCONJ	SCONJ	_	29	mark	_	_
+24	ב	ב	ADP	ADP	_	25	case	_	_
+25	מסגרת	מסגרת	NOUN	NOUN	Gender=Fem|Number=Sing	29	obl	_	_
+26	_של_	של	ADP	ADP	Case=Gen	27	case:gen	_	_
+27	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+28	יוכל	יכול	AUX	AUX	Gender=Masc|Number=Sing|Person=2|Tense=Fut|VerbType=Mod	29	aux	_	_
+29	לפעול	פעל	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	22	acl:relcl	_	SpaceAfter=No
+30	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:57_2
+# doc_range = 3035-3198
+# sent_id = 1864
+# text = בעבר הייתה הבנה עם ראש הממשלה שיכהן כסגן שר במשרדו אך בפועל יתפקד כסגן שר העבודה והרווחה.
+1-3	בעבר	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	עבר	עבר	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+4	הייתה	היה	VERB	VERB	Gender=Fem|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+5	הבנה	הבנה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
+6	עם	עם	ADP	ADP	_	7	case	_	_
+7	ראש	ראש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	nmod	_	_
+8-9	הממשלה	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	7	compound:smixut	_	_
+10-11	שיכהן	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	11	mark	_	_
+11	יכהן	כיהן	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	5	acl:relcl	_	_
+12-13	כסגן	_	_	_	_	_	_	_	_
+12	כ	כ	ADP	ADP	_	13	case	_	_
+13	סגן	סגן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	obl	_	_
+14	שר	שר	NOUN	NOUN	Gender=Masc|Number=Sing	13	compound:smixut	_	_
+15-18	במשרדו	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	משרד	משרד	NOUN	NOUN	Gender=Masc|Number=Sing	13	nmod	_	_
+17	_של_	של	ADP	ADP	Case=Gen	18	case:gen	_	_
+18	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+19	אך	אך	CCONJ	CCONJ	_	23	cc	_	_
+20-22	בפועל	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	22	case	_	_
+21	ה_	ה	DET	DET	PronType=Art|Definite=Def	22	det	_	_
+22	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	23	obl	_	_
+23	יתפקד	תפקד	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	11	conj	_	_
+24-25	כסגן	_	_	_	_	_	_	_	_
+24	כ	כ	ADP	ADP	_	25	case	_	_
+25	סגן	סגן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	23	obl	_	_
+26	שר	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	25	compound:smixut	_	_
+27-28	העבודה	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	26	compound:smixut	_	_
+29-31	והרווחה	_	_	_	_	_	_	_	SpaceAfter=No
+29	ו	ו	CCONJ	CCONJ	_	31	cc	_	_
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	רווחה	רווחה	NOUN	NOUN	Gender=Fem|Number=Sing	28	conj	_	_
+32	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:57_2
+# doc_range = 3200-3464
+# sent_id = 1865
+# text = העניין לא יצא אל הפועל, ולפיכך, זעם השבוע ביבי, לאחר שנודע לו שאגודת ישראל תקבל שני סגני שרים במשרד העבודה והרווחה, וכי לו לא נמצא מקום במשרד זה.
+1-2	העניין	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	עניין	עניין	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	לא	לא	ADV	ADV	Polarity=Neg	4	advmod	_	_
+4	יצא	יצא	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+5	אל	אל	ADP	ADP	_	7	case	_	_
+6-7	הפועל	_	_	_	_	_	_	_	SpaceAfter=No
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+8	,	,	PUNCT	PUNCT	_	12	punct	_	_
+9-10	ולפיכך	_	_	_	_	_	_	_	SpaceAfter=No
+9	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+10	לפיכך	לפיכך	ADV	ADV	_	12	advmod	_	_
+11	,	,	PUNCT	PUNCT	_	10	punct	_	_
+12	זעם	זעם	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	_
+13	השבוע	השבוע	ADV	ADV	_	12	advmod	_	_
+14	ביבי	ביבי	PROPN	PROPN	_	12	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	18	punct	_	_
+16	לאחר	לאחר	ADP	ADP	_	18	case	_	_
+17-18	שנודע	_	_	_	_	_	_	_	_
+17	ש	ש	SCONJ	SCONJ	_	18	mark	_	_
+18	נודע	נודע	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	12	obl	_	_
+19-20	לו	_	_	_	_	_	_	_	_
+19	ל	ל	ADP	ADP	_	20	case	_	_
+20	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obl	_	_
+21-22	שאגודת	_	_	_	_	_	_	_	_
+21	ש	ש	SCONJ	SCONJ	_	24	mark	_	_
+22	אגודת	אגודה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	24	nsubj	_	_
+23	ישראל	ישראל	PROPN	PROPN	_	22	flat:name	_	_
+24	תקבל	קיבל	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	18	advcl	_	_
+25	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	26	nummod	_	_
+26	סגני	סגן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	24	obj	_	_
+27	שרים	שר	NOUN	NOUN	Gender=Masc|Number=Plur	26	compound:smixut	_	_
+28-29	במשרד	_	_	_	_	_	_	_	_
+28	ב	ב	ADP	ADP	_	29	case	_	_
+29	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	26	nmod	_	_
+30-31	העבודה	_	_	_	_	_	_	_	_
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	29	compound:smixut	_	_
+32-34	והרווחה	_	_	_	_	_	_	_	SpaceAfter=No
+32	ו	ו	CCONJ	CCONJ	_	34	cc	_	_
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	רווחה	רווחה	NOUN	NOUN	Gender=Fem|Number=Sing	31	conj	_	_
+35	,	,	PUNCT	PUNCT	_	41	punct	_	_
+36-37	וכי	_	_	_	_	_	_	_	_
+36	ו	ו	CCONJ	CCONJ	_	41	cc	_	_
+37	כי	כי	SCONJ	SCONJ	_	41	mark	_	_
+38-39	לו	_	_	_	_	_	_	_	_
+38	ל	ל	ADP	ADP	_	39	case	_	_
+39	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	41	obl	_	_
+40	לא	לא	ADV	ADV	Polarity=Neg	41	advmod	_	_
+41	נמצא	נמצא	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	24	conj	_	_
+42	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	41	nsubj	_	_
+43-44	במשרד	_	_	_	_	_	_	_	_
+43	ב	ב	ADP	ADP	_	44	case	_	_
+44	משרד	משרד	NOUN	NOUN	Gender=Masc|Number=Sing	42	nmod	_	_
+45	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	44	det	_	SpaceAfter=No
+46	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:57_2
+# doc_range = 3466-3637
+# sent_id = 1866
+# text = סיעת המפד"ל תבעה שלשום מראש הממשלה למצוא תפקיד לביבי באחד המשרדים העבודה, התעשייה או הביטחון.
+1	סיעת	סיעה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	nsubj	_	_
+2-3	המפד"ל	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	מפד"ל	מפד"ל	NOUN	NOUN	Abbr=Yes|Gender=Fem|Number=Sing	1	compound:smixut	_	_
+4	תבעה	תבע	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	שלשום	שלשום	ADV	ADV	_	4	advmod	_	_
+6-7	מראש	_	_	_	_	_	_	_	_
+6	מ	מ	ADP	ADP	_	7	case	_	_
+7	ראש	ראש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	obl	_	_
+8-9	הממשלה	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	7	compound:smixut	_	_
+10	למצוא	מצא	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+11	תפקיד	תפקיד	NOUN	NOUN	Gender=Masc|Number=Sing	10	obj	_	_
+12-13	לביבי	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	_	13	case	_	_
+13	ביבי	ביבי	PROPN	PROPN	_	10	obl	_	_
+14-15	באחד	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	17	case	_	_
+15	אחד	אחת	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	17	nummod	_	_
+16-17	המשרדים	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	משרדים	משרד	NOUN	NOUN	Gender=Masc|Number=Plur	10	obl	_	_
+18-19	העבודה	_	_	_	_	_	_	_	SpaceAfter=No
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	17	nmod	_	_
+20	,	,	PUNCT	PUNCT	_	22	punct	_	_
+21-22	התעשייה	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	תעשייה	תעשייה	NOUN	NOUN	Gender=Fem|Number=Sing	19	conj	_	_
+23	או	או	CCONJ	CCONJ	_	25	cc	_	_
+24-25	הביטחון	_	_	_	_	_	_	_	SpaceAfter=No
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	ביטחון	ביטחון	NOUN	NOUN	Gender=Masc|Number=Sing	19	conj	_	_
+26	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:57_2
+# doc_range = 3639-3908
+# sent_id = 1867
+# text = אולם שר התעשיה והמסחר משה נסים, שהיה שותף בצוות המו"ם עם אגו"י והמפלגות הדתיות, אינו מעוניין בסגן שר במשרדו, וגם ארנס אינו מתלהב יותר מדי להצעה כזו.
+1	אולם	אולם	CCONJ	CCONJ	_	27	cc	_	_
+2	שר	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	27	nsubj	_	_
+3-4	התעשיה	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	תעשיה	תעשייה	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound:smixut	_	_
+5-7	והמסחר	_	_	_	_	_	_	_	_
+5	ו	ו	CCONJ	CCONJ	_	7	cc	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	מסחר	מסחר	NOUN	NOUN	Gender=Masc|Number=Sing	4	conj	_	_
+8	משה	משה	PROPN	PROPN	_	2	flat:name	_	_
+9	נסים	נסים	PROPN	PROPN	_	2	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	13	punct	_	_
+11-12	שהיה	_	_	_	_	_	_	_	_
+11	ש	ש	SCONJ	SCONJ	_	13	mark	_	_
+12	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	13	cop	_	_
+13	שותף	שותף	NOUN	NOUN	Gender=Masc|Number=Sing	2	acl:relcl	_	_
+14-15	בצוות	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	צוות	צוות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	13	nmod	_	_
+16-17	המו"ם	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	מו"ם	מו"ם	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	15	compound:smixut	_	_
+18	עם	עם	ADP	ADP	_	19	case	_	_
+19	אגו"י	אגו"י	PROPN	PROPN	Abbr=Yes	17	nmod	_	_
+20-22	והמפלגות	_	_	_	_	_	_	_	_
+20	ו	ו	CCONJ	CCONJ	_	22	cc	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	מפלגות	מפלגה	NOUN	NOUN	Gender=Fem|Number=Plur	19	conj	_	_
+23-24	הדתיות	_	_	_	_	_	_	_	SpaceAfter=No
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	דתיות	דתי	ADJ	ADJ	Gender=Fem|Number=Plur	22	amod	_	_
+25	,	,	PUNCT	PUNCT	_	2	punct	_	_
+26	אינו	אינו	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	27	aux	_	_
+27	מעוניין	מעוניין	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbType=Mod	0	root	_	_
+28-29	בסגן	_	_	_	_	_	_	_	_
+28	ב	ב	ADP	ADP	_	29	case	_	_
+29	סגן	סגן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	27	obl	_	_
+30	שר	שר	NOUN	NOUN	Gender=Masc|Number=Sing	29	compound:smixut	_	_
+31-34	במשרדו	_	_	_	_	_	_	_	SpaceAfter=No
+31	ב	ב	ADP	ADP	_	32	case	_	_
+32	משרד	משרד	NOUN	NOUN	Gender=Masc|Number=Sing	29	nmod	_	_
+33	_של_	של	ADP	ADP	Case=Gen	34	case:gen	_	_
+34	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+35	,	,	PUNCT	PUNCT	_	36	punct	_	_
+36-37	וגם	_	_	_	_	_	_	_	_
+36	ו	ו	CCONJ	CCONJ	_	40	cc	_	_
+37	גם	גם	ADV	ADV	_	38	advmod	_	_
+38	ארנס	ארנס	PROPN	PROPN	_	40	nsubj	_	_
+39	אינו	אינו	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	40	aux	_	_
+40	מתלהב	התלהב	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	27	conj	_	_
+41	יותר	יותר	ADV	ADV	_	40	advmod	_	_
+42	מדי	מדי	ADV	ADV	_	41	fixed	_	HebSource=ConvUncertainHead
+43-44	להצעה	_	_	_	_	_	_	_	_
+43	ל	ל	ADP	ADP	_	44	case	_	_
+44	הצעה	הצעה	NOUN	NOUN	Gender=Fem|Number=Sing	40	obl	_	_
+45-47	כזו	_	_	_	_	_	_	_	SpaceAfter=No
+45	כ	כ	ADP	ADP	_	47	case	_	_
+46	ה_	ה	DET	DET	PronType=Art|Definite=Def	47	det	_	_
+47	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	44	nmod	_	_
+48	.	.	PUNCT	PUNCT	_	27	punct	_	_
+
+# doc_id = htb:57_2
+# doc_range = 3910-4225
+# sent_id = 1868
+# text = עד שיזכה ביבי במשרה שתיראה לו הודיעה המפד"ל לשמיר כי נציגה בוועדת הכספים, ח"כ ביבי, לא יתמוך במתן משרת יו"ר הועדה לאגו"י וללא קולו יתקשה הליכוד בהשגת רוב בוועדה להחלפת היו"ר.
+1	עד	עד	ADP	ADP	_	3	mark	_	_
+2-3	שיזכה	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	1	fixed	_	_
+3	יזכה	זכה	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	11	advcl	_	_
+4	ביבי	ביבי	PROPN	PROPN	_	3	nsubj	_	_
+5-6	במשרה	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	משרה	משרה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+7-8	שתיראה	_	_	_	_	_	_	_	_
+7	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
+8	תיראה	נראה	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Fut|Voice=Mid	6	acl:relcl	_	_
+9-10	לו	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	10	case	_	_
+10	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obl	_	_
+11	הודיעה	הודיע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+12-13	המפד"ל	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	מפד"ל	מפד"ל	NOUN	NOUN	Abbr=Yes|Gender=Fem|Number=Sing	11	dep	_	_
+14-15	לשמיר	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	שמיר	שמיר	PROPN	PROPN	_	11	obl	_	_
+16	כי	כי	SCONJ	SCONJ	_	29	mark	_	_
+17-19	נציגה	_	_	_	_	_	_	_	_
+17	נציג	נציג	NOUN	NOUN	Gender=Masc|Number=Sing	29	nsubj	_	_
+18	_של_	של	ADP	ADP	Case=Gen	19	case:gen	_	_
+19	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+20-21	בוועדת	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	וועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	17	nmod	_	_
+22-23	הכספים	_	_	_	_	_	_	_	SpaceAfter=No
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	כספים	כסף	NOUN	NOUN	Gender=Masc|Number=Plur	21	compound:smixut	_	_
+24	,	,	PUNCT	PUNCT	_	25	punct	_	_
+25	ח"כ	ח"כ	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	17	appos	_	_
+26	ביבי	ביבי	PROPN	PROPN	_	25	flat:name	_	SpaceAfter=No
+27	,	,	PUNCT	PUNCT	_	17	punct	_	_
+28	לא	לא	ADV	ADV	Polarity=Neg	29	advmod	_	_
+29	יתמוך	תמך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	11	ccomp	_	_
+30-31	במתן	_	_	_	_	_	_	_	_
+30	ב	ב	ADP	ADP	_	31	case	_	_
+31	מתן	מתן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	29	obl	_	_
+32	משרת	משרה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	31	compound:smixut	_	_
+33	יו"ר	יו"ר	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	32	compound:smixut	_	_
+34-35	הועדה	_	_	_	_	_	_	_	_
+34	ה	ה	DET	DET	Definite=Def|PronType=Art	35	det	_	_
+35	ועדה	ועדה	NOUN	NOUN	Gender=Fem|Number=Sing	33	compound:smixut	_	_
+36-37	לאגו"י	_	_	_	_	_	_	_	_
+36	ל	ל	ADP	ADP	_	37	case	_	_
+37	אגו"י	לאגו"י	PROPN	PROPN	Abbr=Yes	31	nmod	_	_
+38-39	וללא	_	_	_	_	_	_	_	_
+38	ו	ו	CCONJ	CCONJ	_	43	cc	_	_
+39	ללא	ללא	ADP	ADP	_	40	case	_	_
+40-42	קולו	_	_	_	_	_	_	_	_
+40	קול	קול	NOUN	NOUN	Gender=Masc|Number=Sing	43	obl	_	_
+41	_של_	של	ADP	ADP	Case=Gen	42	case:gen	_	_
+42	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	40	nmod:poss	_	_
+43	יתקשה	התקשה	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Fut	11	conj	_	_
+44-45	הליכוד	_	_	_	_	_	_	_	_
+44	ה	ה	DET	DET	Definite=Def|PronType=Art	45	det	_	_
+45	ליכוד	ליכוד	NOUN	NOUN	Gender=Masc|Number=Sing	43	nsubj	_	_
+46-47	בהשגת	_	_	_	_	_	_	_	_
+46	ב	ב	ADP	ADP	_	47	case	_	_
+47	השגת	השגה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	43	obl	_	_
+48	רוב	רוב	NOUN	NOUN	Gender=Masc|Number=Sing	47	compound:smixut	_	_
+49-51	בוועדה	_	_	_	_	_	_	_	_
+49	ב	ב	ADP	ADP	_	51	case	_	_
+50	ה_	ה	DET	DET	PronType=Art|Definite=Def	51	det	_	_
+51	וועדה	ועדה	NOUN	NOUN	Gender=Fem|Number=Sing	47	nmod	_	_
+52-53	להחלפת	_	_	_	_	_	_	_	_
+52	ל	ל	ADP	ADP	_	53	case	_	_
+53	החלפת	החלפה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	47	nmod	_	_
+54-55	היו"ר	_	_	_	_	_	_	_	SpaceAfter=No
+54	ה	ה	DET	DET	Definite=Def|PronType=Art	55	det	_	_
+55	יו"ר	יו"ר	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	53	compound:smixut	_	_
+56	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:57_2
+# doc_range = 4227-4522
+# sent_id = 1869
+# text = נוכח המצב, הציעו אתמול בכירים בליכוד להצמיד את סגן השר ביבי אל עמיתו אפרים גור, כך שאם לשניהם אין הרבה סמכויות, אולי יוכלו להסתובב יחד ולחסוך איזה "וולבו" ולשכה.
+1	נוכח	נוכח	ADP	ADP	_	3	case	_	_
+2-3	המצב	_	_	_	_	_	_	_	SpaceAfter=No
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	מצב	מצב	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+4	,	,	PUNCT	PUNCT	_	3	punct	_	_
+5	הציעו	הציע	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+6	אתמול	אתמול	ADV	ADV	_	5	advmod	_	_
+7	בכירים	בכיר	NOUN	NOUN	Gender=Masc|Number=Plur	5	nsubj	_	_
+8-10	בליכוד	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	10	case	_	_
+9	ה_	ה	DET	DET	PronType=Art|Definite=Def	10	det	_	_
+10	ליכוד	ליכוד	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
+11	להצמיד	הצמיד	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+12	את	את	ADP	ADP	Case=Acc	13	case	_	_
+13	סגן	סגן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	obj	_	_
+14-15	השר	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	שר	שר	NOUN	NOUN	Gender=Masc|Number=Sing	13	compound:smixut	_	_
+16	ביבי	ביבי	PROPN	PROPN	_	13	flat:name	_	_
+17	אל	אל	ADP	ADP	_	18	case	_	_
+18-20	עמיתו	_	_	_	_	_	_	_	_
+18	עמית	עמית	NOUN	NOUN	Gender=Fem|Number=Sing	11	obl	_	_
+19	_של_	של	ADP	ADP	Case=Gen	20	case:gen	_	_
+20	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+21	אפרים	אפרים	PROPN	PROPN	_	18	appos	_	_
+22	גור	גור	PROPN	PROPN	_	21	flat:name	_	SpaceAfter=No
+23	,	,	PUNCT	PUNCT	_	24	punct	_	_
+24	כך	כך	ADV	ADV	_	5	advmod	_	_
+25-26	שאם	_	_	_	_	_	_	_	_
+25	ש	ש	SCONJ	SCONJ	_	35	mark	_	_
+26	אם	אם	SCONJ	SCONJ	_	29	mark	_	_
+27-28	לשניהם	_	_	_	_	_	_	_	_
+27	ל	ל	ADP	ADP	_	28	case	_	_
+28	שניהם	שניים	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	29	obl	_	_
+29	אין	אין	VERB	VERB	HebExistential=Yes	35	advcl	_	_
+30	הרבה	הרבה	DET	DET	Definite=Cons	31	det	_	_
+31	סמכויות	סמכות	NOUN	NOUN	Gender=Fem|Number=Plur	29	nsubj	_	SpaceAfter=No
+32	,	,	PUNCT	PUNCT	_	29	punct	_	_
+33	אולי	אולי	ADV	ADV	_	35	advmod	_	_
+34	יוכלו	יכול	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut|VerbType=Mod	35	aux	_	_
+35	להסתובב	הסתובב	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	24	advcl	_	_
+36	יחד	יחד	ADV	ADV	_	35	advmod	_	_
+37-38	ולחסוך	_	_	_	_	_	_	_	_
+37	ו	ו	CCONJ	CCONJ	_	38	cc	_	_
+38	לחסוך	חסך	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	35	conj	_	_
+39	איזה	איזה	DET	DET	Definite=Cons	41	det	_	_
+40	"	"	PUNCT	PUNCT	_	41	punct	_	SpaceAfter=No
+41	וולבו	וולבו	PROPN	PROPN	_	38	obj	_	SpaceAfter=No
+42	"	"	PUNCT	PUNCT	_	41	punct	_	_
+43-44	ולשכה	_	_	_	_	_	_	_	SpaceAfter=No
+43	ו	ו	CCONJ	CCONJ	_	44	cc	_	_
+44	לשכה	לשכה	NOUN	NOUN	Gender=Fem|Number=Sing	41	conj	_	_
+45	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:57_2
+# doc_range = 4524-4697
+# sent_id = 1870
+# text = בתום ישיבה סוערת, החליטה השבוע הנהלת סיעת הליכוד לצרף את הח"כ החדש, חיים קופמן, לוועדת הכספים.
+1-2	בתום	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	תום	תום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	obl	_	_
+3	ישיבה	ישיבה	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound:smixut	_	_
+4	סוערת	סוער	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	2	punct	_	_
+6	החליטה	החליט	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+7	השבוע	השבוע	ADV	ADV	_	6	advmod	_	_
+8	הנהלת	הנהלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	nsubj	_	_
+9	סיעת	סיעה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	8	compound:smixut	_	_
+10-11	הליכוד	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	ליכוד	ליכוד	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound:smixut	_	_
+12	לצרף	צירף	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+13	את	את	ADP	ADP	Case=Acc	15	case	_	_
+14-15	הח"כ	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	ח"כ	ח"כ	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	12	obj	_	_
+16-17	החדש	_	_	_	_	_	_	_	SpaceAfter=No
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	חדש	חדש	ADJ	ADJ	Gender=Masc|Number=Sing	15	amod	_	_
+18	,	,	PUNCT	PUNCT	_	19	punct	_	_
+19	חיים	חיים	PROPN	PROPN	_	15	appos	_	_
+20	קופמן	קופמן	PROPN	PROPN	_	19	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	23	punct	_	_
+22-23	לוועדת	_	_	_	_	_	_	_	_
+22	ל	ל	ADP	ADP	_	23	case	_	_
+23	וועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	obl	_	_
+24-25	הכספים	_	_	_	_	_	_	_	SpaceAfter=No
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	כספים	כסף	NOUN	NOUN	Gender=Masc|Number=Plur	23	compound:smixut	_	_
+26	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:57_2
+# doc_range = 4699-5046
+# sent_id = 1871
+# text = ח"כ ראובן ריבלין, שהתמודד על התפקיד, ביקש לפחות להתמנות כחבר בוועדת חוץ וביטחון, בעקבות פינוי מקום לסיעה בוועדה זו בשל פרישתו של הח"כ לשעבר זלמן שובל, אך הסיעה החליטה לדחות את ההחלטה בעניין.
+1	ח"כ	ח"כ	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	11	nsubj	_	_
+2	ראובן	ראובן	PROPN	PROPN	_	1	flat:name	_	_
+3	ריבלין	ריבלין	PROPN	PROPN	_	1	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	6	punct	_	_
+5-6	שהתמודד	_	_	_	_	_	_	_	_
+5	ש	ש	SCONJ	SCONJ	_	6	mark	_	_
+6	התמודד	התמודד	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	1	acl:relcl	_	_
+7	על	על	ADP	ADP	_	9	case	_	_
+8-9	התפקיד	_	_	_	_	_	_	_	SpaceAfter=No
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	תפקיד	תפקיד	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+10	,	,	PUNCT	PUNCT	_	1	punct	_	_
+11	ביקש	ביקש	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+12	לפחות	לפחות	ADV	ADV	_	11	advmod	_	_
+13	להתמנות	התמנה	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	11	xcomp	_	_
+14-15	כחבר	_	_	_	_	_	_	_	_
+14	כ	כ	ADP	ADP	_	15	case	_	_
+15	חבר	חבר	NOUN	NOUN	Gender=Masc|Number=Sing	13	obl	_	_
+16-17	בוועדת	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	וועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	15	nmod	_	_
+18	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	17	compound:smixut	_	_
+19-20	וביטחון	_	_	_	_	_	_	_	SpaceAfter=No
+19	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
+20	ביטחון	ביטחון	NOUN	NOUN	Gender=Masc|Number=Sing	18	conj	_	_
+21	,	,	PUNCT	PUNCT	_	23	punct	_	_
+22	בעקבות	בעקבות	ADP	ADP	_	23	case	_	_
+23	פינוי	פינוי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	obl	_	_
+24	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	23	compound:smixut	_	_
+25-27	לסיעה	_	_	_	_	_	_	_	_
+25	ל	ל	ADP	ADP	_	27	case	_	_
+26	ה_	ה	DET	DET	PronType=Art|Definite=Def	27	det	_	_
+27	סיעה	סיעה	NOUN	NOUN	Gender=Fem|Number=Sing	23	nmod	_	_
+28-29	בוועדה	_	_	_	_	_	_	_	_
+28	ב	ב	ADP	ADP	_	29	case	_	_
+29	וועדה	ועדה	NOUN	NOUN	Gender=Fem|Number=Sing	23	nmod	_	_
+30	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	29	det	_	_
+31	בשל	בשל	ADP	ADP	_	32	case	_	_
+32-34	פרישתו	_	_	_	_	_	_	_	_
+32	פרישה	פרישה	NOUN	NOUN	Gender=Fem|Number=Sing	23	nmod	_	_
+33	_של_	של	ADP	ADP	Case=Gen	34	case:gen	_	_
+34	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+35	של	של	ADP	ADP	Case=Gen	37	case	_	_
+36-37	הח"כ	_	_	_	_	_	_	_	_
+36	ה	ה	DET	DET	Definite=Def|PronType=Art	37	det	_	_
+37	ח"כ	ח"כ	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	32	nmod:poss	_	_
+38	לשעבר	לשעבר	ADV	ADV	_	37	advmod	_	_
+39	זלמן	זלמן	PROPN	PROPN	_	37	appos	_	_
+40	שובל	שובל	PROPN	PROPN	_	39	flat:name	_	SpaceAfter=No
+41	,	,	PUNCT	PUNCT	_	45	punct	_	_
+42	אך	אך	CCONJ	CCONJ	_	45	cc	_	_
+43-44	הסיעה	_	_	_	_	_	_	_	_
+43	ה	ה	DET	DET	Definite=Def|PronType=Art	44	det	_	_
+44	סיעה	סיעה	NOUN	NOUN	Gender=Fem|Number=Sing	45	nsubj	_	_
+45	החליטה	החליט	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	11	conj	_	_
+46	לדחות	דחה	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	45	xcomp	_	_
+47	את	את	ADP	ADP	Case=Acc	49	case	_	_
+48-49	ההחלטה	_	_	_	_	_	_	_	_
+48	ה	ה	DET	DET	Definite=Def|PronType=Art	49	det	_	_
+49	החלטה	החלטה	NOUN	NOUN	Gender=Fem|Number=Sing	46	obj	_	_
+50-52	בעניין	_	_	_	_	_	_	_	SpaceAfter=No
+50	ב	ב	ADP	ADP	_	52	case	_	_
+51	ה_	ה	DET	DET	PronType=Art|Definite=Def	52	det	_	_
+52	עניין	עניין	NOUN	NOUN	Gender=Masc|Number=Sing	49	nmod	_	_
+53	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:57_2
+# doc_range = 5048-5314
+# sent_id = 1872
+# text = ח"כים אחדים טענו בהנהלת הסיעה כי ריבלין פסול כחבר בוועדת חוץ וביטחון מפני שלא השתתף השבוע בהצבעה במליאת הכנסת על הסרת חסינותו של ח"כ מוחמד מיעארי.
+1	ח"כים	ח"כ	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	אחדים	אחד	ADJ	ADJ	Gender=Masc|Number=Plur	1	amod	_	_
+3	טענו	טען	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4-5	בהנהלת	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	הנהלת	הנהלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	obl	_	_
+6-7	הסיעה	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	סיעה	סיעה	NOUN	NOUN	Gender=Fem|Number=Sing	5	compound:smixut	_	_
+8	כי	כי	SCONJ	SCONJ	_	10	mark	_	_
+9	ריבלין	ריבלין	PROPN	PROPN	_	10	nsubj	_	_
+10	פסול	פסל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	3	ccomp	_	_
+11-12	כחבר	_	_	_	_	_	_	_	_
+11	כ	כ	ADP	ADP	_	12	case	_	_
+12	חבר	חבר	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
+13-14	בוועדת	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	וועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	nmod	_	_
+15	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	14	compound:smixut	_	_
+16-17	וביטחון	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+17	ביטחון	ביטחון	NOUN	NOUN	Gender=Masc|Number=Sing	15	conj	_	_
+18	מפני	מפני	ADP	ADP	_	21	mark	_	_
+19-20	שלא	_	_	_	_	_	_	_	_
+19	ש	ש	SCONJ	SCONJ	_	18	fixed	_	_
+20	לא	לא	ADV	ADV	Polarity=Neg	21	advmod	_	_
+21	השתתף	השתתף	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	10	advcl	_	_
+22	השבוע	השבוע	ADV	ADV	_	21	advmod	_	_
+23-25	בהצבעה	_	_	_	_	_	_	_	_
+23	ב	ב	ADP	ADP	_	25	case	_	_
+24	ה_	ה	DET	DET	PronType=Art|Definite=Def	25	det	_	_
+25	הצבעה	הצבעה	NOUN	NOUN	Gender=Fem|Number=Sing	21	obl	_	_
+26-27	במליאת	_	_	_	_	_	_	_	_
+26	ב	ב	ADP	ADP	_	27	case	_	_
+27	מליאת	מליאה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	25	nmod	_	_
+28-29	הכנסת	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	כנסת	כנסת	PROPN	PROPN	_	27	compound:smixut	_	_
+30	על	על	ADP	ADP	_	31	case	_	_
+31	הסרת	הסרה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	25	nmod	_	_
+32-34	חסינותו	_	_	_	_	_	_	_	_
+32	חסינות	חסינות	NOUN	NOUN	Gender=Fem|Number=Sing	31	compound:smixut	_	_
+33	_של_	של	ADP	ADP	Case=Gen	34	case:gen	_	_
+34	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+35	של	של	ADP	ADP	Case=Gen	36	case	_	_
+36	ח"כ	ח"כ	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	32	nmod:poss	_	_
+37	מוחמד	מוחמד	PROPN	PROPN	_	36	flat:name	_	_
+38	מיעארי	מיעארי	PROPN	PROPN	_	36	flat:name	_	SpaceAfter=No
+39	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:57_2
+# doc_range = 5317-5475
+# sent_id = 1873
+# text = ח"כ צחי הנגבי טען כי ריבלין אינו ראוי לפרס על התנהגותו המחפירה, שבה הכשיר את אש"ף בכנסת.
+1	ח"כ	ח"כ	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	צחי	צחי	PROPN	PROPN	_	1	flat:name	_	_
+3	הנגבי	הנגבי	PROPN	PROPN	_	1	flat:name	_	_
+4	טען	טען	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	כי	כי	SCONJ	SCONJ	_	8	mark	_	_
+6	ריבלין	ריבלין	PROPN	PROPN	_	8	nsubj	_	_
+7	אינו	אינו	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	8	aux	_	_
+8	ראוי	ראוי	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	4	ccomp	_	_
+9-10	לפרס	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	10	case	_	_
+10	פרס	פרס	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+11	על	על	ADP	ADP	_	12	case	_	_
+12-14	התנהגותו	_	_	_	_	_	_	_	_
+12	התנהגות	התנהגות	NOUN	NOUN	Gender=Fem|Number=Sing	10	nmod	_	_
+13	_של_	של	ADP	ADP	Case=Gen	14	case:gen	_	_
+14	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+15-16	המחפירה	_	_	_	_	_	_	_	SpaceAfter=No
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	מחפירה	מחפיר	ADJ	ADJ	Gender=Fem|Number=Sing	12	amod	_	_
+17	,	,	PUNCT	PUNCT	_	21	punct	_	_
+18-20	שבה	_	_	_	_	_	_	_	_
+18	ש	ש	SCONJ	SCONJ	_	21	mark	_	_
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	obl	_	_
+21	הכשיר	הכשיר	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	12	acl:relcl	_	_
+22	את	את	ADP	ADP	Case=Acc	23	case	_	_
+23	אש"ף	אש"ף	PROPN	PROPN	Abbr=Yes	21	obj	_	_
+24-26	בכנסת	_	_	_	_	_	_	_	SpaceAfter=No
+24	ב	ב	ADP	ADP	_	26	case	_	_
+25	ה_	ה	DET	DET	PronType=Art|Definite=Def	26	det	_	_
+26	כנסת	כנסת	PROPN	PROPN	_	21	obl	_	_
+27	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:57_2
+# doc_range = 5477-5603
+# sent_id = 1874
+# text = ריבלין אמר אתמול כי להנהלת הסיעה אין כל זכות לשמש כוועדת משמעת לגביו.
+1	ריבלין	ריבלין	PROPN	PROPN	_	2	nsubj	_	_
+2	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	אתמול	אתמול	ADV	ADV	_	2	advmod	_	_
+4	כי	כי	SCONJ	SCONJ	_	9	mark	_	_
+5-6	להנהלת	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	הנהלת	הנהלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	obl	_	_
+7-8	הסיעה	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	סיעה	סיעה	NOUN	NOUN	Gender=Fem|Number=Sing	6	compound:smixut	_	_
+9	אין	אין	VERB	VERB	HebExistential=Yes	2	ccomp	_	_
+10	כל	כול	DET	DET	Definite=Cons	11	det	_	_
+11	זכות	זכות	NOUN	NOUN	Gender=Fem|Number=Sing	9	nsubj	_	_
+12	לשמש	שימש	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	11	acl	_	_
+13-14	כוועדת	_	_	_	_	_	_	_	_
+13	כ	כ	ADP	ADP	_	14	case	_	_
+14	וועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	obl	_	_
+15	משמעת	משמעת	NOUN	NOUN	Gender=Fem|Number=Sing	14	compound:smixut	_	_
+16-17	לגביו	_	_	_	_	_	_	_	SpaceAfter=No
+16	לגבי	לגבי	ADP	ADP	_	17	case	_	_
+17	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nmod	_	_
+18	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:57_2
+# doc_range = 5605-5799
+# sent_id = 1875
+# text = הוא טען כי יו"ר הסיעה ח"כ שרה דורון הכחישה באוזניו את הטענה כי אי מינויו לוועדת חוץ וביטחון הוא עונש פוליטי.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	טען	טען	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	כי	כי	SCONJ	SCONJ	_	10	mark	_	_
+4	יו"ר	יו"ר	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	10	nsubj	_	_
+5-6	הסיעה	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	סיעה	סיעה	NOUN	NOUN	Gender=Fem|Number=Sing	4	compound:smixut	_	_
+7	ח"כ	ח"כ	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	4	nmod	_	_
+8	שרה	שרה	PROPN	PROPN	_	7	flat:name	_	_
+9	דורון	דורון	PROPN	PROPN	_	7	flat:name	_	_
+10	הכחישה	הכחיש	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	ccomp	_	_
+11-14	באוזניו	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	אוזן	אוזן	NOUN	NOUN	Gender=Fem|Number=Plur	10	obl	_	_
+13	_של_	של	ADP	ADP	Case=Gen	14	case:gen	_	_
+14	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+15	את	את	ADP	ADP	Case=Acc	17	case	_	_
+16-17	הטענה	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	טענה	טענה	NOUN	NOUN	Gender=Fem|Number=Sing	10	obj	_	_
+18	כי	כי	SCONJ	SCONJ	_	29	mark	_	_
+19	אי	אי	ADV	ADV	Prefix=Yes	20	compound:affix	_	HebSource=ConvUncertainHead
+20-22	מינויו	_	_	_	_	_	_	_	_
+20	מינוי	מינוי	NOUN	NOUN	Gender=Masc|Number=Sing	29	nsubj	_	_
+21	_של_	של	ADP	ADP	Case=Gen	22	case:gen	_	_
+22	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+23-24	לוועדת	_	_	_	_	_	_	_	_
+23	ל	ל	ADP	ADP	_	24	case	_	_
+24	וועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	20	nmod	_	_
+25	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	24	compound:smixut	_	_
+26-27	וביטחון	_	_	_	_	_	_	_	_
+26	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
+27	ביטחון	ביטחון	NOUN	NOUN	Gender=Masc|Number=Sing	25	conj	_	_
+28	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	29	cop	_	_
+29	עונש	עונש	NOUN	NOUN	Gender=Masc|Number=Sing	17	acl:relcl	_	_
+30	פוליטי	פוליטי	ADJ	ADJ	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:57_2
+# doc_range = 5801-6063
+# sent_id = 1876
+# text = ריבלין האשים "ח"כים ירושלמים (קרי: הנגבי, קורפו, ויהושע מצא) המנצלים את מעמדם בהנהלת הסיעה, כדי למנוע כל אפשרות שיכהן בחבר בוועדת חוץ וביטחון.
+1	ריבלין	ריבלין	PROPN	PROPN	_	2	nsubj	_	_
+2	האשים	האשים	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	"	"	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+4	ח"כים	ח"כ	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Plur	2	obj	_	_
+5	ירושלמים	ירושלמי	ADJ	ADJ	Gender=Masc|Number=Plur	4	amod	_	_
+6	(	(	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
+7	קרי	קרי	CCONJ	CCONJ	_	4	appos	_	SpaceAfter=No
+8	:	:	PUNCT	PUNCT	_	9	punct	_	_
+9	הנגבי	הנגבי	PROPN	PROPN	_	7	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	11	punct	_	_
+11	קורפו	קורפו	PROPN	PROPN	_	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	14	punct	_	_
+13-14	ויהושע	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
+14	יהושע	יהושע	PROPN	PROPN	_	9	conj	_	_
+15	מצא	מצא	PROPN	PROPN	_	14	flat:name	_	SpaceAfter=No
+16	)	)	PUNCT	PUNCT	_	7	punct	_	_
+17-18	המנצלים	_	_	_	_	_	_	_	_
+17	ה	ה	SCONJ	SCONJ	_	18	mark	_	_
+18	מנצלים	ניצל	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	4	acl:relcl	_	_
+19	את	את	ADP	ADP	Case=Acc	20	case	_	_
+20-22	מעמדם	_	_	_	_	_	_	_	_
+20	מעמד	מעמד	NOUN	NOUN	Gender=Masc|Number=Sing	18	obj	_	_
+21	_של_	של	ADP	ADP	Case=Gen	22	case:gen	_	_
+22	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+23-24	בהנהלת	_	_	_	_	_	_	_	_
+23	ב	ב	ADP	ADP	_	24	case	_	_
+24	הנהלת	הנהלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	20	nmod	_	_
+25-26	הסיעה	_	_	_	_	_	_	_	SpaceAfter=No
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	סיעה	סיעה	NOUN	NOUN	Gender=Fem|Number=Sing	24	compound:smixut	_	_
+27	,	,	PUNCT	PUNCT	_	29	punct	_	_
+28	כדי	כדי	SCONJ	SCONJ	_	29	mark	_	_
+29	למנוע	מנע	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	18	advcl	_	_
+30	כל	כול	DET	DET	Definite=Cons	31	det	_	_
+31	אפשרות	אפשרות	NOUN	NOUN	Gender=Fem|Number=Sing	29	obj	_	_
+32-33	שיכהן	_	_	_	_	_	_	_	_
+32	ש	ש	SCONJ	SCONJ	_	33	mark	_	_
+33	יכהן	כיהן	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	31	acl:relcl	_	_
+34-35	בחבר	_	_	_	_	_	_	_	_
+34	ב	ב	ADP	ADP	_	35	case	_	_
+35	חבר	חבר	NOUN	NOUN	Gender=Masc|Number=Sing	33	obl	_	_
+36-37	בוועדת	_	_	_	_	_	_	_	_
+36	ב	ב	ADP	ADP	_	37	case	_	_
+37	וועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	33	obl	_	_
+38	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	37	compound:smixut	_	_
+39-40	וביטחון	_	_	_	_	_	_	_	SpaceAfter=No
+39	ו	ו	CCONJ	CCONJ	_	40	cc	_	_
+40	ביטחון	ביטחון	NOUN	NOUN	Gender=Masc|Number=Sing	38	conj	_	_
+41	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:57_2
+# doc_range = 6066-6384
+# sent_id = 1877
+# text = ריבלין אמר כי על פי סיכום שנערך עימו השבוע יצטרפו הח"כים קופמן ויהודה פרח לוועדת הכספים, ואילו הוא יצורף לוועדת חוץ וביטחון, אך "חבריו" מצאו ברגע האחרון סיבה להפר את הסיכום.
+1	ריבלין	ריבלין	PROPN	PROPN	_	2	nsubj	_	_
+2	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	כי	כי	SCONJ	SCONJ	_	12	mark	_	_
+4	על	על	ADP	ADP	_	6	case	_	_
+5	פי	פה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	fixed	_	_
+6	סיכום	סיכום	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
+7-8	שנערך	_	_	_	_	_	_	_	_
+7	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
+8	נערך	נערך	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	6	acl:relcl	_	_
+9-10	עימו	_	_	_	_	_	_	_	_
+9	עם	עם	ADP	ADP	_	10	case	_	_
+10	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obl	_	_
+11	השבוע	השבוע	ADV	ADV	_	8	advmod	_	_
+12	יצטרפו	הצטרף	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Fut	2	ccomp	_	_
+13-14	הח"כים	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	ח"כים	ח"כ	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Plur	12	nsubj	_	_
+15	קופמן	קופמן	PROPN	PROPN	_	14	nmod	_	_
+16-17	ויהודה	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+17	יהודה	יהודה	PROPN	PROPN	_	15	conj	_	_
+18	פרח	פרח	PROPN	PROPN	_	17	flat:name	_	_
+19-20	לוועדת	_	_	_	_	_	_	_	_
+19	ל	ל	ADP	ADP	_	20	case	_	_
+20	וועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	obl	_	_
+21-22	הכספים	_	_	_	_	_	_	_	SpaceAfter=No
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	כספים	כסף	NOUN	NOUN	Gender=Masc|Number=Plur	20	compound:smixut	_	_
+23	,	,	PUNCT	PUNCT	_	27	punct	_	_
+24-25	ואילו	_	_	_	_	_	_	_	_
+24	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
+25	אילו	אילו	CCONJ	CCONJ	_	24	conj	_	_
+26	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj:pass	_	_
+27	יצורף	צורף	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	12	conj	_	_
+28-29	לוועדת	_	_	_	_	_	_	_	_
+28	ל	ל	ADP	ADP	_	29	case	_	_
+29	וועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	27	obl	_	_
+30	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	29	compound:smixut	_	_
+31-32	וביטחון	_	_	_	_	_	_	_	SpaceAfter=No
+31	ו	ו	CCONJ	CCONJ	_	32	cc	_	_
+32	ביטחון	ביטחון	NOUN	NOUN	Gender=Masc|Number=Sing	30	conj	_	_
+33	,	,	PUNCT	PUNCT	_	40	punct	_	_
+34	אך	אך	CCONJ	CCONJ	_	40	cc	_	_
+35	"	"	PUNCT	PUNCT	_	36	punct	_	SpaceAfter=No
+36-38	חבריו	_	_	_	_	_	_	_	SpaceAfter=No
+36	חבר	חבר	NOUN	NOUN	Gender=Masc|Number=Plur	40	nsubj	_	_
+37	_של_	של	ADP	ADP	Case=Gen	38	case:gen	_	_
+38	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	36	nmod:poss	_	_
+39	"	"	PUNCT	PUNCT	_	36	punct	_	_
+40	מצאו	מצא	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	12	conj	_	_
+41-43	ברגע	_	_	_	_	_	_	_	_
+41	ב	ב	ADP	ADP	_	43	case	_	_
+42	ה_	ה	DET	DET	PronType=Art|Definite=Def	43	det	_	_
+43	רגע	רגע	NOUN	NOUN	Gender=Masc|Number=Sing	40	obl	_	_
+44-45	האחרון	_	_	_	_	_	_	_	_
+44	ה	ה	DET	DET	Definite=Def|PronType=Art	45	det	_	_
+45	אחרון	אחרון	ADJ	ADJ	Gender=Masc|Number=Sing	43	amod	_	_
+46	סיבה	סיבה	NOUN	NOUN	Gender=Fem|Number=Sing	40	obj	_	_
+47	להפר	הפר	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	46	acl	_	_
+48	את	את	ADP	ADP	Case=Acc	50	case	_	_
+49-50	הסיכום	_	_	_	_	_	_	_	SpaceAfter=No
+49	ה	ה	DET	DET	Definite=Def|PronType=Art	50	det	_	_
+50	סיכום	סיכום	NOUN	NOUN	Gender=Masc|Number=Sing	47	obj	_	_
+51	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:57_2
+# doc_range = 6386-6472
+# sent_id = 1878
+# text = בינתיים, ריבלין נשאר ממלא-מקום בוועדת הכספים.
+1	בינתיים	בינתיים	ADV	ADV	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3	ריבלין	ריבלין	PROPN	PROPN	_	4	nsubj	_	_
+4	נשאר	נשאר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+5	ממלא	מילא	VERB	VERB	Definite=Cons|Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	7	nmod	_	SpaceAfter=No
+6	-	-	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+7	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	4	dep	_	_
+8-9	בוועדת	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	וועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	nmod	_	_
+10-11	הכספים	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	כספים	כסף	NOUN	NOUN	Gender=Masc|Number=Plur	9	compound:smixut	_	_
+12	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:57_2
+# doc_range = 6474-6829
+# sent_id = 1879
+# text = הבעייה היא שיו"ר ועדת הכנסת ח"כ קורפו הודיע כי הוא מתכוון לבטל את תארי "ממלאי המקום" בוועדות, וריבלין עלול למצוא עצמו לא רק מחוץ לוועדת חוץ וביטחון, אלא, גם לא כממלא-מקום חבר קבוע בוועדת הכספים.
+1-2	הבעייה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	בעייה	בעיה	NOUN	NOUN	Gender=Fem|Number=Sing	11	nsubj	_	_
+3	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	11	cop	_	_
+4-5	שיו"ר	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	11	mark	_	_
+5	יו"ר	יו"ר	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	11	nsubj	_	_
+6	ועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	compound:smixut	_	_
+7-8	הכנסת	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	כנסת	כנסת	PROPN	PROPN	_	6	compound:smixut	_	_
+9	ח"כ	ח"כ	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	5	nmod	_	_
+10	קורפו	קורפו	PROPN	PROPN	_	9	flat:name	_	_
+11	הודיע	הודיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+12	כי	כי	SCONJ	SCONJ	_	14	mark	_	_
+13	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	מתכוון	התכוון	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	11	ccomp	_	_
+15	לבטל	ביטל	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+16	את	את	ADP	ADP	Case=Acc	17	case	_	_
+17	תארי	תואר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	15	obj	_	_
+18	"	"	PUNCT	PUNCT	_	19	punct	_	SpaceAfter=No
+19	ממלאי	מילא	VERB	VERB	Definite=Cons|Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	17	compound:smixut	_	_
+20-21	המקום	_	_	_	_	_	_	_	SpaceAfter=No
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	19	compound:smixut	_	_
+22	"	"	PUNCT	PUNCT	_	19	punct	_	_
+23-25	בוועדות	_	_	_	_	_	_	_	SpaceAfter=No
+23	ב	ב	ADP	ADP	_	25	case	_	_
+24	ה_	ה	DET	DET	PronType=Art|Definite=Def	25	det	_	_
+25	וועדות	ועדה	NOUN	NOUN	Gender=Fem|Number=Plur	17	nmod	_	_
+26	,	,	PUNCT	PUNCT	_	30	punct	_	_
+27-28	וריבלין	_	_	_	_	_	_	_	_
+27	ו	ו	CCONJ	CCONJ	_	30	cc	_	_
+28	ריבלין	ריבלין	PROPN	PROPN	_	30	nsubj	_	_
+29	עלול	עלול	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	30	aux	_	_
+30	למצוא	מצא	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	11	conj	_	_
+31	עצמו	עצמו	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	30	obj	_	_
+32	לא	לא	ADV	ADV	Polarity=Neg	33	advmod	_	_
+33	רק	רק	ADV	ADV	_	37	advmod	_	_
+34-35	מחוץ	_	_	_	_	_	_	_	_
+34	מ	מ	ADP	ADP	_	37	case	_	_
+35	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	34	fixed	_	_
+36-37	לוועדת	_	_	_	_	_	_	_	_
+36	ל	ל	ADP	ADP	_	34	fixed	_	_
+37	וועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	30	obl	_	_
+38	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	37	compound:smixut	_	_
+39-40	וביטחון	_	_	_	_	_	_	_	SpaceAfter=No
+39	ו	ו	CCONJ	CCONJ	_	40	cc	_	_
+40	ביטחון	ביטחון	NOUN	NOUN	Gender=Masc|Number=Sing	38	conj	_	_
+41	,	,	PUNCT	PUNCT	_	42	punct	_	HebSource=ConvUncertainHead
+42	אלא	אלא	CCONJ	CCONJ	_	37	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+43	,	,	PUNCT	PUNCT	_	44	punct	_	HebSource=ConvUncertainHead
+44	גם	גם	ADV	ADV	_	37	advmod	_	HebSource=ConvUncertainHead
+45	לא	לא	ADV	ADV	Polarity=Neg	44	advmod	_	HebSource=ConvUncertainHead
+46-47	כממלא	_	_	_	_	_	_	_	SpaceAfter=No
+46	כ	כ	ADP	ADP	_	50	case	_	_
+47	ממלא	מילא	VERB	VERB	Definite=Cons|Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	49	nmod	_	_
+48	-	-	PUNCT	PUNCT	_	47	punct	_	SpaceAfter=No
+49	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	50	nmod	_	_
+50	חבר	חבר	NOUN	NOUN	Gender=Masc|Number=Sing	44	dep	_	HebSource=ConvUncertainHead
+51	קבוע	קבוע	ADJ	ADJ	Gender=Masc|Number=Sing	50	amod	_	_
+52-53	בוועדת	_	_	_	_	_	_	_	_
+52	ב	ב	ADP	ADP	_	53	case	_	_
+53	וועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	50	nmod	_	_
+54-55	הכספים	_	_	_	_	_	_	_	SpaceAfter=No
+54	ה	ה	DET	DET	Definite=Def|PronType=Art	55	det	_	_
+55	כספים	כסף	NOUN	NOUN	Gender=Masc|Number=Plur	53	compound:smixut	_	_
+56	.	.	PUNCT	PUNCT	_	11	punct	_	_
+

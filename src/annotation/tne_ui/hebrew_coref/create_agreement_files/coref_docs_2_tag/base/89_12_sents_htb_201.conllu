@@ -1,0 +1,334 @@
+# doc_id = htb:201
+# doc_range = 3-6
+# sent_id = 5071
+# text = (ע).
+1	(	(	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+2	ע	ע	PROPN	PROPN	_	0	root	_	SpaceAfter=No
+3	)	)	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+4	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:201
+# doc_range = 10-151
+# sent_id = 5072
+# text = שרפה נוספת, רביעית בשבוע זה, פרצה ביום ששי במלון ימית ברחוב הירקון בתל-אביב.
+1	שרפה	שרף	NOUN	NOUN	Gender=Fem|Number=Sing	9	nsubj	_	_
+2	נוספת	נוסף	ADJ	ADJ	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	4	punct	_	_
+4	רביעית	רביעית	NUM	NUM	Gender=Fem|Number=Plur	1	appos	_	_
+5-6	בשבוע	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	4	nmod	_	_
+7	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	det	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	4	punct	_	_
+9	פרצה	פרץ	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+10-11	ביום	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	obl	_	_
+12	ששי	ששי	PROPN	PROPN	_	11	compound:smixut	_	_
+13-14	במלון	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	מלון	מלון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	obl	_	_
+15	ימית	ימית	PROPN	PROPN	_	14	compound:smixut	_	_
+16-17	ברחוב	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	רחוב	רחוב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	14	nmod	_	_
+18-19	הירקון	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	ירקון	ירקון	NOUN	NOUN	Gender=Masc|Number=Sing	17	compound:smixut	_	_
+20-21	בתל	_	_	_	_	_	_	_	SpaceAfter=No
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	תל	תל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	nmod	_	_
+22	-	-	PUNCT	PUNCT	_	23	punct	_	SpaceAfter=No
+23	אביב	אביב	NOUN	NOUN	Gender=Masc|Number=Sing	21	flat:name	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:201
+# doc_range = 153-235
+# sent_id = 5073
+# text = השרפה התלקחה בסביבות השעה 5 אחה"ץ במרתף המלון.
+1-2	השרפה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	שרפה	שרף	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	התלקחה	התלקח	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	0	root	_	_
+4-5	בסביבות	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	סביבות	סביבה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	3	obl	_	_
+6-7	השעה	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	שעה	שעה	NOUN	NOUN	Gender=Fem|Number=Sing	5	compound:smixut	_	_
+8	5	5	NUM	NUM	_	7	nummod	_	_
+9	אחה"ץ	אחה"ץ	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	7	nmod	_	HebSource=ConvUncertainLabel
+10-11	במרתף	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	מרתף	מרתף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	obl	_	_
+12-13	המלון	_	_	_	_	_	_	_	SpaceAfter=No
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	מלון	מלון	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound:smixut	_	_
+14	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:201
+# doc_range = 238-343
+# sent_id = 5074
+# text = עשן רב אפף את הקומות הראשונות של המלון והאורחים פונו ממנו.
+1	עשן	עשן	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+2	רב	רב	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	_
+3	אפף	אפף	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	את	את	ADP	ADP	Case=Acc	6	case	_	_
+5-6	הקומות	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	קומות	קומה	NOUN	NOUN	Gender=Fem|Number=Plur	3	obj	_	_
+7-8	הראשונות	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	ראשונות	ראשונות	ADJ	ADJ	Gender=Fem|Number=Plur	6	amod	_	_
+9	של	של	ADP	ADP	Case=Gen	11	case	_	_
+10-11	המלון	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	מלון	מלון	NOUN	NOUN	Gender=Masc|Number=Sing	6	nmod	_	_
+12-14	והאורחים	_	_	_	_	_	_	_	_
+12	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	אורחים	אורח	NOUN	NOUN	Gender=Masc|Number=Plur	15	nsubj:pass	_	_
+15	פונו	פונה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PUAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	3	conj	_	_
+16-17	ממנו	_	_	_	_	_	_	_	SpaceAfter=No
+16	מן	מן	ADP	ADP	_	17	case	_	_
+17	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obl	_	_
+18	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:201
+# doc_range = 345-404
+# sent_id = 5075
+# text = ביום שני הוצת מועדון בבית המלון.
+1-2	ביום	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	obl	_	_
+3	שני	שני	PROPN	PROPN	_	2	compound:smixut	_	_
+4	הוצת	הוצת	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+5	מועדון	מועדון	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+6-7	בבית	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	nmod	_	_
+8-9	המלון	_	_	_	_	_	_	_	SpaceAfter=No
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	מלון	מלון	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound:smixut	_	_
+10	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:201
+# doc_range = 406-542
+# sent_id = 5076
+# text = ביום רביעי הוצת אולם אירועים, וביום חמישי בלילה הושלך אל המעלית סדין בוער.
+1-2	ביום	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	obl	_	_
+3	רביעי	רביעי	PROPN	PROPN	_	2	compound:smixut	_	_
+4	הוצת	הוצת	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+5	אולם	אולם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+6	אירועים	אירוע	NOUN	NOUN	Gender=Masc|Number=Plur	5	compound:smixut	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	15	punct	_	_
+8-10	וביום	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	15	obl	_	_
+11	חמישי	חמישי	PROPN	PROPN	_	10	compound:smixut	_	_
+12-14	בלילה	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	14	case	_	_
+13	ה_	ה	DET	DET	PronType=Art|Definite=Def	14	det	_	_
+14	לילה	לילה	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod	_	_
+15	הושלך	הושלך	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	4	conj	_	_
+16	אל	אל	ADP	ADP	_	18	case	_	_
+17-18	המעלית	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	מעלית	מעלית	NOUN	NOUN	Gender=Fem|Number=Sing	15	obl	_	_
+19	סדין	סדין	NOUN	NOUN	Gender=Masc|Number=Sing	15	nsubj:pass	_	_
+20	בוער	בער	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:201
+# doc_range = 544-659
+# sent_id = 5077
+# text = בשני המקרים הראשונים קבע חוקר שרפות של מכבי האש כי מדובר בהצתה.
+1-2	בשני	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	4	case	_	_
+2	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	4	nummod	_	_
+3-4	המקרים	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	מקרים	מקרה	NOUN	NOUN	Gender=Masc|Number=Plur	7	obl	_	_
+5-6	הראשונים	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	ראשונים	ראשונים	ADJ	ADJ	Gender=Masc|Number=Plur	4	amod	_	_
+7	קבע	קבע	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	_
+8	חוקר	חוקר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nsubj	_	_
+9	שרפות	שרפות	NOUN	NOUN	Gender=Fem|Number=Plur	8	compound:smixut	_	_
+10	של	של	ADP	ADP	Case=Gen	11	case	_	_
+11	מכבי	כיבה	VERB	VERB	Definite=Cons|Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	8	nmod:poss	_	_
+12-13	האש	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	אש	אש	NOUN	NOUN	Gender=Fem|Number=Sing	11	compound:smixut	_	_
+14	כי	כי	SCONJ	SCONJ	_	15	mark	_	_
+15	מדובר	דובר	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	7	ccomp	_	_
+16-17	בהצתה	_	_	_	_	_	_	_	SpaceAfter=No
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	הצתה	הצתה	NOUN	NOUN	Gender=Fem|Number=Sing	15	obl	_	_
+18	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:201
+# doc_range = 661-763
+# sent_id = 5078
+# text = עקב זאת נערכה חקירה ונעצר תייר נורווגי בן 32 כחשוד במעשה.
+1	עקב	עקב	ADP	ADP	_	2	case	_	_
+2	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	obl	_	_
+3	נערכה	נערך	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+4	חקירה	חקירה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+5-6	ונעצר	_	_	_	_	_	_	_	_
+5	ו	ו	CCONJ	CCONJ	_	6	cc	_	_
+6	נעצר	נעצר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	3	conj	_	_
+7	תייר	תייר	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
+8	נורווגי	נורבגי	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	_
+9	בן	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	acl	_	_
+10	32	32	NUM	NUM	_	9	compound:smixut	_	_
+11-13	כחשוד	_	_	_	_	_	_	_	_
+11	כ	כ	ADP	ADP	_	13	case	_	_
+12	ה_	ה	DET	DET	PronType=Art|Definite=Def	13	det	_	_
+13	חשוד	חשוד	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+14-16	במעשה	_	_	_	_	_	_	_	SpaceAfter=No
+14	ב	ב	ADP	ADP	_	16	case	_	_
+15	ה_	ה	DET	DET	PronType=Art|Definite=Def	16	det	_	_
+16	מעשה	מעשה	NOUN	NOUN	Gender=Masc|Number=Sing	13	nmod	_	_
+17	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:201
+# doc_range = 765-968
+# sent_id = 5079
+# text = התייר נעצר לארבעה ימים לצורך חקירה אולם שוחרר כבר באותו ערב, משום שהשרפות ביום חמישי וביום ששי פרצו לאחר מעצרו.
+1-2	התייר	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	תייר	תייר	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	נעצר	נעצר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+4-5	לארבעה	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	6	case	_	_
+5	ארבעה	ארבע	NUM	NUM	Gender=Masc|Number=Sing	6	nummod	_	_
+6	ימים	יום	NOUN	NOUN	Gender=Masc|Number=Plur	3	obl	_	_
+7	לצורך	לצורך	ADP	ADP	_	8	case	_	_
+8	חקירה	חקירה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+9	אולם	אולם	CCONJ	CCONJ	_	10	cc	_	_
+10	שוחרר	שוחרר	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	3	conj	_	_
+11	כבר	כבר	ADV	ADV	_	10	advmod	_	_
+12-13	באותו	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	14	case	_	_
+13	אותו	אותו	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	det	_	_
+14	ערב	ערב	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	27	punct	_	_
+16	משום	משום	SCONJ	SCONJ	_	27	mark	_	_
+17-19	שהשרפות	_	_	_	_	_	_	_	_
+17	ש	ש	SCONJ	SCONJ	_	16	fixed	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	שרפות	שרפות	NOUN	NOUN	Gender=Fem|Number=Plur	27	nsubj	_	_
+20-21	ביום	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	19	nmod	_	_
+22	חמישי	חמישי	PROPN	PROPN	_	21	compound:smixut	_	_
+23-25	וביום	_	_	_	_	_	_	_	_
+23	ו	ו	CCONJ	CCONJ	_	25	cc	_	_
+24	ב	ב	ADP	ADP	_	25	case	_	_
+25	יום	יום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	21	conj	_	_
+26	ששי	ששי	PROPN	PROPN	_	25	compound:smixut	_	_
+27	פרצו	פרץ	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	10	advcl	_	_
+28	לאחר	לאחר	ADP	ADP	_	29	case	_	_
+29-31	מעצרו	_	_	_	_	_	_	_	SpaceAfter=No
+29	מעצר	מעצר	NOUN	NOUN	Gender=Masc|Number=Sing	27	obl	_	_
+30	_של_	של	ADP	ADP	Case=Gen	31	case:gen	_	_
+31	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+32	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:201
+# doc_range = 970-1147
+# sent_id = 5080
+# text = בליל שבת הגיעו למלון חוקרים, בראשות חוקרת בדרגת פקד, והחלו בתחקור העובדים, כולל הפועלים הערבים.
+1-2	בליל	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	ליל	ליל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	obl	_	_
+3	שבת	שבת	PROPN	PROPN	_	2	compound:smixut	_	_
+4	הגיעו	הגיע	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5-7	למלון	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	7	case	_	_
+6	ה_	ה	DET	DET	PronType=Art|Definite=Def	7	det	_	_
+7	מלון	מלון	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+8	חוקרים	חוקר	NOUN	NOUN	Gender=Masc|Number=Plur	4	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	11	punct	_	_
+10-11	בראשות	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	ראשות	ראשות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	8	nmod	_	_
+12	חוקרת	חוקר	NOUN	NOUN	Gender=Fem|Number=Sing	11	compound:smixut	_	_
+13-14	בדרגת	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	דרגת	דרגה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	nmod	_	_
+15	פקד	פקד	NOUN	NOUN	Gender=Masc|Number=Sing	14	compound:smixut	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	18	punct	_	_
+17-18	והחלו	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+18	החלו	החל	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	4	conj	_	_
+19-20	בתחקור	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	תחקור	תחקור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	18	obl	_	_
+21-22	העובדים	_	_	_	_	_	_	_	SpaceAfter=No
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	20	compound:smixut	_	_
+23	,	,	PUNCT	PUNCT	_	26	punct	_	_
+24	כולל	כלל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	26	case	_	_
+25-26	הפועלים	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	פועלים	פועל	NOUN	NOUN	Gender=Masc|Number=Plur	22	appos	_	_
+27-28	הערבים	_	_	_	_	_	_	_	SpaceAfter=No
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	ערבים	ערבי	ADJ	ADJ	Gender=Masc|Number=Plur	26	amod	_	_
+29	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:201
+# doc_range = 1149-1242
+# sent_id = 5081
+# text = מנהל מלון ימית אמר כי אינו חושד באף לא אחד מהעובדים.
+1	מנהל	מנהל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	מלון	מלון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	compound:smixut	_	_
+3	ימית	ימית	PROPN	PROPN	_	2	compound:smixut	_	_
+4	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	כי	כי	SCONJ	SCONJ	_	7	mark	_	_
+6	אינו	אינו	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	7	aux	_	_
+7	חושד	חשד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	4	advcl	_	_
+8-9	באף	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	14	case	_	_
+9	אף	אף	ADV	ADV	_	14	advmod	_	_
+10	לא	לא	ADV	ADV	Polarity=Neg	14	advmod	_	_
+11	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	14	nummod	_	_
+12-14	מהעובדים	_	_	_	_	_	_	_	SpaceAfter=No
+12	מ	מ	ADP	ADP	_	14	case	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	עובדים	עובד	NOUN	NOUN	Gender=Masc|Number=Plur	7	obl	_	_
+15	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:201
+# doc_range = 1245-1348
+# sent_id = 5082
+# text = "אחרי שזה קרה בפעם הרביעית, זה יכול להיות רק משוגע", אמר.
+1	"	"	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
+2	אחרי	אחרי	ADP	ADP	_	5	mark	_	_
+3-4	שזה	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	2	fixed	_	_
+4	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+5	קרה	קרה	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	14	advcl	_	_
+6-8	בפעם	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	8	case	_	_
+7	ה_	ה	DET	DET	PronType=Art|Definite=Def	8	det	_	_
+8	פעם	פעם	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
+9-10	הרביעית	_	_	_	_	_	_	_	SpaceAfter=No
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	רביעית	רביעית	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	_
+11	,	,	PUNCT	PUNCT	_	5	punct	_	_
+12	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+13	יכול	יכול	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part|VerbType=Mod	14	aux	_	_
+14	להיות	היה	AUX	AUX	Polarity=Pos|VerbForm=Inf|VerbType=Cop	19	advcl	_	_
+15	רק	רק	ADV	ADV	_	16	advmod	_	_
+16	משוגע	משוגע	NOUN	NOUN	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+17	"	"	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	14	punct	_	_
+19	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	19	punct	_	_
+

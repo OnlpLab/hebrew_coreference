@@ -1,0 +1,621 @@
+# doc_id = htb:205
+# doc_range = 1-21
+# sent_id = 5151
+# text = בהחלט אפשר.
+1	בהחלט	בהחלט	ADV	ADV	_	2	advmod	_	_
+2	אפשר	אפשר	AUX	AUX	VerbType=Mod	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:205
+# doc_range = 23-199
+# sent_id = 5152
+# text = על המשטרה לקבל החלטה שבפקודות הקבע של השוטרים ייאמר במפורש ששוטרים לא ייצאו למשמרת ללא אפוד מגן.
+1	על	על	ADP	ADP	_	3	case	_	_
+2-3	המשטרה	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	dep	_	_
+3	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	14	obl	_	_
+4	לקבל	קיבל	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+5	החלטה	החלטה	NOUN	NOUN	Gender=Fem|Number=Sing	14	dep	_	_
+6-8	שבפקודות	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	_	14	dep	_	_
+7	ב	ב	ADP	ADP	_	14	dep	_	_
+8	פקודות	פקודה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	14	dep	_	_
+9-10	הקבע	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	14	dep	_	_
+10	קבע	קבע	NOUN	NOUN	Gender=Masc|Number=Sing	14	dep	_	_
+11	של	של	ADP	ADP	Case=Gen	14	dep	_	_
+12-13	השוטרים	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	14	dep	_	_
+13	שוטרים	שוטר	NOUN	NOUN	Gender=Masc|Number=Plur	14	dep	_	_
+14	ייאמר	נאמר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Fut|Voice=Mid	0	root	_	_
+15	במפורש	במפורש	ADV	ADV	_	14	advmod	_	_
+16-17	ששוטרים	_	_	_	_	_	_	_	_
+16	ש	ש	SCONJ	SCONJ	_	14	dep	_	_
+17	שוטרים	שוטר	NOUN	NOUN	Gender=Masc|Number=Plur	14	dep	_	_
+18	לא	לא	ADV	ADV	Polarity=Neg	14	advmod	_	_
+19	ייצאו	ייצא	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	14	dep	_	HebSource=ConvUncertainHead
+20-22	למשמרת	_	_	_	_	_	_	_	_
+20	ל	ל	ADP	ADP	_	14	dep	_	_
+21	ה_	ה	DET	DET	PronType=Art|Definite=Def	22	det	_	_
+22	משמרת	משמרת	NOUN	NOUN	Gender=Fem|Number=Sing	14	dep	_	_
+23	ללא	ללא	ADP	ADP	_	14	dep	_	_
+24	אפוד	אפוד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	14	dep	_	_
+25	מגן	מגן	PROPN	PROPN	_	14	dep	_	SpaceAfter=No
+26	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# doc_id = htb:205
+# doc_range = 201-330
+# sent_id = 5153
+# text = עד כה קבעו ההנחיות שרק בתפקידים ולמשימות מיוחדות יש להצטייד באפוד מגן.
+1	עד	עד	ADV	ADV	_	3	advmod	_	_
+2	כה	כה	ADV	ADV	_	1	fixed	_	_
+3	קבעו	קבע	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	0	root	_	_
+4-5	ההנחיות	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	הנחיות	הנחיה	NOUN	NOUN	Gender=Fem|Number=Plur	3	nsubj	_	_
+6-7	שרק	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	_	15	mark	_	_
+7	רק	רק	ADV	ADV	_	9	advmod	_	_
+8-9	בתפקידים	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	תפקידים	תפקיד	NOUN	NOUN	Gender=Masc|Number=Plur	15	obl	_	_
+10-12	ולמשימות	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+11	ל	ל	ADP	ADP	_	12	case	_	_
+12	משימות	משימה	NOUN	NOUN	Gender=Fem|Number=Plur	9	conj	_	_
+13	מיוחדות	מיוחד	ADJ	ADJ	Gender=Fem|Number=Plur	12	amod	_	_
+14	יש	יש	AUX	AUX	VerbType=Mod	15	aux	_	_
+15	להצטייד	הצטייד	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	3	ccomp	_	_
+16-17	באפוד	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	אפוד	אפוד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	15	obl	_	_
+18	מגן	מגן	NOUN	NOUN	Gender=Masc|Number=Sing	17	compound:smixut	_	SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:205
+# doc_range = 332-411
+# sent_id = 5154
+# text = ייתכן שיהיה צורך להכין אפודי מגן קלים יותר.
+1	ייתכן	ייתכן	AUX	AUX	VerbType=Mod	0	root	_	_
+2-3	שיהיה	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	3	mark	_	_
+3	יהיה	היה	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	1	advcl	_	_
+4	צורך	צורך	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+5	להכין	הכין	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	4	acl:relcl	_	_
+6	אפודי	אפוד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	5	nsubj	_	_
+7	מגן	מגן	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+8	קלים	קל	ADJ	ADJ	Gender=Masc|Number=Plur	6	amod	_	_
+9	יותר	יותר	ADV	ADV	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:205
+# doc_range = 413-529
+# sent_id = 5155
+# text = אפודי המגן הקיימים, נועדו לגונן על השוטרים מפני כדורי תת-מקלע.
+1	אפודי	אפוד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	7	nsubj	_	_
+2-3	המגן	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	מגן	מגן	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4-5	הקיימים	_	_	_	_	_	_	_	SpaceAfter=No
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	קיימים	קיים	ADJ	ADJ	Gender=Masc|Number=Plur	1	amod	_	_
+6	,	,	PUNCT	PUNCT	_	1	punct	_	_
+7	נועדו	נועד	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+8	לגונן	גונן	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	על	על	ADP	ADP	_	11	case	_	_
+10-11	השוטרים	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	שוטרים	שוטר	NOUN	NOUN	Gender=Masc|Number=Plur	8	obl	_	_
+12	מפני	מפני	ADP	ADP	_	13	case	_	_
+13	כדורי	כדור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	8	obl	_	_
+14	תת	תת	ADV	ADV	Prefix=Yes	16	compound:affix	_	HebSource=ConvUncertainHead|SpaceAfter=No
+15	-	-	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
+16	מקלע	מקלע	NOUN	NOUN	Gender=Masc|Number=Sing	13	compound:smixut	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:205
+# doc_range = 531-697
+# sent_id = 5156
+# text = האחראים על פיתוח טכנולוגיות שעוסקות במיגון, צריכים לייצר אפודים שיהיו עמידים בפני סכינים.
+1-2	האחראים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	אחראים	אחראי	NOUN	NOUN	Gender=Masc|Number=Plur	12	dep	_	_
+3	על	על	ADP	ADP	_	4	case	_	_
+4	פיתוח	פיתוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	nmod	_	_
+5	טכנולוגיות	טכנולוגיה	NOUN	NOUN	Gender=Fem|Number=Plur	4	compound:smixut	_	_
+6-7	שעוסקות	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	_	7	mark	_	_
+7	עוסקות	עסק	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	5	acl:relcl	_	_
+8-9	במיגון	_	_	_	_	_	_	_	SpaceAfter=No
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	מיגון	מיגון	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
+10	,	,	PUNCT	PUNCT	_	2	punct	_	_
+11	צריכים	צריך	AUX	AUX	Gender=Masc|Number=Plur|Person=1,2,3|VerbType=Mod	12	aux	_	_
+12	לייצר	ייצר	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	0	root	_	_
+13	אפודים	אפוד	NOUN	NOUN	Gender=Masc|Number=Plur	12	obj	_	_
+14-15	שיהיו	_	_	_	_	_	_	_	_
+14	ש	ש	SCONJ	SCONJ	_	16	mark	_	_
+15	יהיו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	16	cop	_	_
+16	עמידים	עמיד	ADJ	ADJ	Gender=Masc|Number=Plur	13	acl:relcl	_	_
+17	בפני	בפני	ADP	ADP	_	18	case	_	_
+18	סכינים	סכין	NOUN	NOUN	Gender=Fem,Masc|Number=Plur	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# doc_id = htb:205
+# doc_range = 699-808
+# sent_id = 5157
+# text = דבר שני: חשוב מאוד ששוטרים ינועו בסיורים רק בצמדים ובשלשות.
+1	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Sing	4	dep	_	_
+2	שני	שני	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
+3	:	:	PUNCT	PUNCT	_	1	punct	_	_
+4	חשוב	חשוב	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	0	root	_	_
+5	מאוד	מאוד	ADV	ADV	_	4	advmod	_	_
+6-7	ששוטרים	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
+7	שוטרים	שוטר	NOUN	NOUN	Gender=Masc|Number=Plur	8	nsubj	_	_
+8	ינועו	נע	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Fut|Voice=Act	4	advcl	_	_
+9-11	בסיורים	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	11	case	_	_
+10	ה_	ה	DET	DET	PronType=Art|Definite=Def	11	det	_	_
+11	סיורים	סיור	NOUN	NOUN	Gender=Masc|Number=Plur	8	obl	_	_
+12	רק	רק	ADV	ADV	_	14	advmod	_	_
+13-14	בצמדים	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	צמדים	צמד	NOUN	NOUN	Gender=Masc|Number=Plur	8	obl	_	_
+15-17	ובשלשות	_	_	_	_	_	_	_	SpaceAfter=No
+15	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	שלשות	שלשה	NOUN	NOUN	Gender=Fem|Number=Plur	14	conj	_	_
+18	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:205
+# doc_range = 810-1001
+# sent_id = 5158
+# text = כמו-כן יש לפתח ואני משוכנע שכבר מפתחים במשטרה תרגולות וטכניקות של שמירה והגנה הדדית של השוטרים זה על זה.
+1	כמו	כמו	ADP	ADP	_	3	case	_	SpaceAfter=No
+2	-	-	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+3	כן	כן	ADV	ADV	_	5	advmod	_	_
+4	יש	יש	AUX	AUX	VerbType=Mod	5	aux	_	_
+5	לפתח	פיתח	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	0	root	_	_
+6-7	ואני	_	_	_	_	_	_	_	_
+6	ו	ו	CCONJ	CCONJ	_	5	parataxis	_	_
+7	אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	8	nsubj:pass	_	_
+8	משוכנע	שוכנע	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	6	dep	_	HebSource=ConvUncertainHead
+9-10	שכבר	_	_	_	_	_	_	_	_
+9	ש	ש	SCONJ	SCONJ	_	11	mark	_	_
+10	כבר	כבר	ADV	ADV	_	11	advmod	_	_
+11	מפתחים	פיתח	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	8	ccomp	_	_
+12-14	במשטרה	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	14	case	_	_
+13	ה_	ה	DET	DET	PronType=Art|Definite=Def	14	det	_	_
+14	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	11	obl	_	_
+15	תרגולות	תרגולת	NOUN	NOUN	Gender=Fem|Number=Plur	5	obj	_	_
+16-17	וטכניקות	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+17	טכניקות	טכניקה	NOUN	NOUN	Gender=Fem|Number=Plur	15	conj	_	_
+18	של	של	ADP	ADP	Case=Gen	19	case	_	_
+19	שמירה	שמירה	NOUN	NOUN	Gender=Fem|Number=Sing	15	nmod:poss	_	_
+20-21	והגנה	_	_	_	_	_	_	_	_
+20	ו	ו	CCONJ	CCONJ	_	21	cc	_	_
+21	הגנה	הגנה	NOUN	NOUN	Gender=Fem|Number=Sing	19	conj	_	_
+22	הדדית	הדדי	ADJ	ADJ	Gender=Fem|Number=Sing	21	amod	_	_
+23	של	של	ADP	ADP	Case=Gen	25	case	_	_
+24-25	השוטרים	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	שוטרים	שוטר	NOUN	NOUN	Gender=Masc|Number=Plur	19	nmod	_	_
+26	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	19	nmod	_	_
+27	על	על	ADP	ADP	_	28	case	_	_
+28	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:205
+# doc_range = 1003-1121
+# sent_id = 5159
+# text = ההוראות הקיימות של פתיחה באש נותנות תשובה מלאה למקרי תקיפה כאלה.
+1-2	ההוראות	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	הוראות	הוראה	NOUN	NOUN	Gender=Fem|Number=Plur	9	nsubj	_	_
+3-4	הקיימות	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	קיימות	קיים	ADJ	ADJ	Gender=Fem|Number=Plur	2	amod	_	_
+5	של	של	ADP	ADP	Case=Gen	6	case	_	_
+6	פתיחה	פתיחה	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	_
+7-8	באש	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	אש	אש	NOUN	NOUN	Gender=Fem|Number=Sing	6	nmod	_	_
+9	נותנות	נתן	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+10	תשובה	תשובה	NOUN	NOUN	Gender=Fem|Number=Sing	9	obj	_	_
+11	מלאה	מלא	ADJ	ADJ	Gender=Fem|Number=Sing	10	amod	_	_
+12-13	למקרי	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	_	13	case	_	_
+13	מקרי	מקרה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	9	obl	_	_
+14	תקיפה	תקיפה	NOUN	NOUN	Gender=Fem|Number=Sing	13	compound:smixut	_	_
+15-17	כאלה	_	_	_	_	_	_	_	SpaceAfter=No
+15	כ	כ	ADP	ADP	_	17	case	_	_
+16	ה_	ה	DET	DET	PronType=Art|Definite=Def	17	det	_	_
+17	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	13	nmod	_	_
+18	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:205
+# doc_range = 1123-1291
+# sent_id = 5160
+# text = על-פי הפקודות הקיימות, ברור לכל שוטר שאם מישהו מתנפל עליו עם סכין, הוא רשאי לפתוח עליו באש.
+1	על	על	ADP	ADP	_	5	case	_	SpaceAfter=No
+2	-	-	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+3	פי	פה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	fixed	_	_
+4-5	הפקודות	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	פקודות	פקודה	NOUN	NOUN	Gender=Fem|Number=Plur	9	obl	_	_
+6-7	הקיימות	_	_	_	_	_	_	_	SpaceAfter=No
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	קיימות	קיים	ADJ	ADJ	Gender=Fem|Number=Plur	5	amod	_	_
+8	,	,	PUNCT	PUNCT	_	5	punct	_	_
+9	ברור	ברור	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
+10-11	לכל	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	12	case	_	_
+11	כל	כול	DET	DET	Definite=Cons	12	det	_	_
+12	שוטר	שוטר	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	_
+13-14	שאם	_	_	_	_	_	_	_	_
+13	ש	ש	SCONJ	SCONJ	_	24	mark	_	_
+14	אם	אם	SCONJ	SCONJ	_	16	mark	_	_
+15	מישהו	מישהו	PRON	PRON	Gender=Masc|Number=Sing|PronType=Ind	16	nsubj	_	_
+16	מתנפל	התנפל	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	24	advcl	_	_
+17-18	עליו	_	_	_	_	_	_	_	_
+17	על	על	ADP	ADP	_	18	case	_	_
+18	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obl	_	_
+19	עם	עם	ADP	ADP	_	20	case	_	_
+20	סכין	סכין	NOUN	NOUN	Gender=Fem,Masc|Number=Sing	16	obl	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	16	punct	_	_
+22	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+23	רשאי	רשאי	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	24	aux	_	_
+24	לפתוח	פתח	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	9	advcl	_	_
+25-26	עליו	_	_	_	_	_	_	_	_
+25	על	על	ADP	ADP	_	26	case	_	_
+26	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obl	_	_
+27-28	באש	_	_	_	_	_	_	_	SpaceAfter=No
+27	ב	ב	ADP	ADP	_	28	case	_	_
+28	אש	אש	NOUN	NOUN	Gender=Fem|Number=Sing	24	obl	_	_
+29	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:205
+# doc_range = 1293-1575
+# sent_id = 5161
+# text = אין ספק שאחרי האירועים שהתרחשו בהר הבית השוטרים משמשים מטרה לכל הגורמים הקיצוניים המוזנים על-ידי התעמולה הארסית של אישים איסלאמיים בעלי עמדות קיצוניות.
+1	אין	אין	VERB	VERB	HebExistential=Yes	0	root	_	_
+2	ספק	ספק	NOUN	NOUN	Gender=Masc|Number=Sing	1	nsubj	_	_
+3-4	שאחרי	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	15	mark	_	_
+4	אחרי	אחרי	ADP	ADP	_	6	case	_	_
+5-6	האירועים	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	אירועים	אירוע	NOUN	NOUN	Gender=Masc|Number=Plur	15	obl	_	_
+7-8	שהתרחשו	_	_	_	_	_	_	_	_
+7	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
+8	התרחשו	התרחש	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	6	acl:relcl	_	_
+9-10	בהר	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	הר	הר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	obl	_	_
+11-12	הבית	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	בית	בית	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
+13-14	השוטרים	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	שוטרים	שוטר	NOUN	NOUN	Gender=Masc|Number=Plur	15	nsubj	_	_
+15	משמשים	שימש	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	2	acl:relcl	_	_
+16	מטרה	מטרה	NOUN	NOUN	Gender=Fem|Number=Sing	15	obj	_	_
+17-18	לכל	_	_	_	_	_	_	_	_
+17	ל	ל	ADP	ADP	_	20	case	_	_
+18	כל	כול	DET	DET	Definite=Cons	20	det	_	_
+19-20	הגורמים	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	גורמים	גורם	NOUN	NOUN	Gender=Masc|Number=Plur	16	nmod	_	_
+21-22	הקיצוניים	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	קיצוניים	קיצוני	ADJ	ADJ	Gender=Masc|Number=Plur	20	amod	_	_
+23-24	המוזנים	_	_	_	_	_	_	_	_
+23	ה	ה	SCONJ	SCONJ	_	24	mark	_	_
+24	מוזנים	הוזן	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	20	acl:relcl	_	_
+25	על	על	ADP	ADP	_	29	case	_	SpaceAfter=No
+26	-	-	PUNCT	PUNCT	_	27	punct	_	SpaceAfter=No
+27	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	25	fixed	_	_
+28-29	התעמולה	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	תעמולה	תעמולה	NOUN	NOUN	Gender=Fem|Number=Sing	24	obl	_	_
+30-31	הארסית	_	_	_	_	_	_	_	_
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	ארסית	ארסי	ADJ	ADJ	Gender=Fem|Number=Sing	29	amod	_	_
+32	של	של	ADP	ADP	Case=Gen	33	case	_	_
+33	אישים	אישים	NOUN	NOUN	Gender=Masc|Number=Plur	29	nmod	_	_
+34	איסלאמיים	איסלאמי	ADJ	ADJ	Gender=Masc|Number=Plur	33	amod	_	_
+35	בעלי	בעל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	33	acl	_	_
+36	עמדות	עמדה	NOUN	NOUN	Gender=Fem|Number=Plur	35	compound:smixut	_	_
+37	קיצוניות	קיצוני	ADJ	ADJ	Gender=Fem|Number=Plur	36	amod	_	SpaceAfter=No
+38	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:205
+# doc_range = 1577-1711
+# sent_id = 5162
+# text = ברור שאנו עדים באחרונה להתפתחויות שלא הכרנו בעבר, בעולם המוסלמי הקיצוני.
+1	ברור	ברור	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
+2-3	שאנו	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
+3	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+4	עדים	עד	NOUN	NOUN	Gender=Masc|Number=Plur	1	advcl	_	_
+5	באחרונה	באחרונה	ADV	ADV	_	4	advmod	_	_
+6-7	להתפתחויות	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	התפתחויות	התפתחות	NOUN	NOUN	Gender=Fem|Number=Plur	4	nmod	_	_
+8-9	שלא	_	_	_	_	_	_	_	_
+8	ש	ש	SCONJ	SCONJ	_	10	mark	_	_
+9	לא	לא	ADV	ADV	Polarity=Neg	10	advmod	_	_
+10	הכרנו	הכיר	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=1|Tense=Past|Voice=Act	7	acl:relcl	_	_
+11-13	בעבר	_	_	_	_	_	_	_	SpaceAfter=No
+11	ב	ב	ADP	ADP	_	13	case	_	_
+12	ה_	ה	DET	DET	PronType=Art|Definite=Def	13	det	_	_
+13	עבר	עבר	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
+14	,	,	PUNCT	PUNCT	_	17	punct	_	_
+15-17	בעולם	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	17	case	_	_
+16	ה_	ה	DET	DET	PronType=Art|Definite=Def	17	det	_	_
+17	עולם	עולם	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
+18-19	המוסלמי	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	מוסלמי	מוסלמי	ADJ	ADJ	Gender=Masc|Number=Sing	17	amod	_	_
+20-21	הקיצוני	_	_	_	_	_	_	_	SpaceAfter=No
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	קיצוני	קיצוני	ADJ	ADJ	Gender=Masc|Number=Sing	17	amod	_	_
+22	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:205
+# doc_range = 1713-1962
+# sent_id = 5163
+# text = אנו רואים יותר מקרים של צעירים פלשתינאים המושפעים מן התעמולה הארסית ומוכנים להסתכן ולעתים אף להקריב את עצמם ולהתאבד כדי להשיג את מטרתם.
+1	אנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	רואים	ראה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+3	יותר	יותר	ADV	ADV	_	4	advmod	_	_
+4	מקרים	מקרה	NOUN	NOUN	Gender=Masc|Number=Plur	2	obj	_	_
+5	של	של	ADP	ADP	Case=Gen	6	case	_	_
+6	צעירים	צעיר	NOUN	NOUN	Gender=Masc|Number=Plur	4	nmod:poss	_	_
+7	פלשתינאים	פלסטיני	ADJ	ADJ	Gender=Masc|Number=Plur	6	amod	_	_
+8-9	המושפעים	_	_	_	_	_	_	_	_
+8	ה	ה	SCONJ	SCONJ	_	9	mark	_	_
+9	מושפעים	הושפע	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	6	acl:relcl	_	_
+10	מן	מן	ADP	ADP	_	12	case	_	_
+11-12	התעמולה	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	תעמולה	תעמולה	NOUN	NOUN	Gender=Fem|Number=Sing	9	obl	_	_
+13-14	הארסית	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	ארסית	ארסי	ADJ	ADJ	Gender=Fem|Number=Sing	12	amod	_	_
+15-16	ומוכנים	_	_	_	_	_	_	_	_
+15	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+16	מוכנים	מוכן	AUX	AUX	Gender=Masc|Number=Plur|Person=1,2,3|VerbType=Mod	17	aux	_	_
+17	להסתכן	הסתכן	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	9	conj	_	_
+18-19	ולעתים	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	_	21	cc	_	_
+19	לעתים	לעתים	ADV	ADV	_	21	advmod	_	_
+20	אף	אף	ADV	ADV	_	21	advmod	_	_
+21	להקריב	הקריב	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	17	conj	_	_
+22	את	את	ADP	ADP	Case=Acc	23	case	_	_
+23	עצמם	עצמו	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	21	obj	_	_
+24-25	ולהתאבד	_	_	_	_	_	_	_	_
+24	ו	ו	CCONJ	CCONJ	_	25	cc	_	_
+25	להתאבד	התאבד	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	21	conj	_	_
+26	כדי	כדי	SCONJ	SCONJ	_	27	mark	_	_
+27	להשיג	השיג	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	17	advcl	_	_
+28	את	את	ADP	ADP	Case=Acc	29	case	_	_
+29-31	מטרתם	_	_	_	_	_	_	_	SpaceAfter=No
+29	מטרה	מטרה	NOUN	NOUN	Gender=Fem|Number=Sing	27	obj	_	_
+30	_של_	של	ADP	ADP	Case=Gen	31	case:gen	_	_
+31	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+32	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:205
+# doc_range = 1965-1976
+# sent_id = 5164
+# text = בהחלט.
+1	בהחלט	בהחלט	ADV	ADV	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:205
+# doc_range = 1977-2088
+# sent_id = 5165
+# text = המציאות החדשה הזו, מחייבת יתר ערנות וחשדנות מצדם של השוטרים.
+1-2	המציאות	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מציאות	מציאות	NOUN	NOUN	Gender=Fem|Number=Sing	8	nsubj	_	_
+3-4	החדשה	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	חדשה	חדש	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+5-6	הזו	_	_	_	_	_	_	_	SpaceAfter=No
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	det	_	_
+7	,	,	PUNCT	PUNCT	_	2	punct	_	_
+8	מחייבת	חייב	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+9	יתר	יתר	ADJ	ADJ	Definite=Cons	8	obj	_	_
+10	ערנות	ערנות	NOUN	NOUN	Gender=Fem|Number=Sing	9	compound:smixut	_	_
+11-12	וחשדנות	_	_	_	_	_	_	_	_
+11	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+12	חשדנות	חשדנות	NOUN	NOUN	Gender=Fem|Number=Sing	10	conj	_	_
+13-16	מצדם	_	_	_	_	_	_	_	_
+13	מ	מ	ADP	ADP	_	14	case	_	_
+14	צד	צד	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod	_	_
+15	_של_	של	ADP	ADP	Case=Gen	16	case:gen	_	_
+16	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+17	של	של	ADP	ADP	Case=Gen	19	case	_	_
+18-19	השוטרים	_	_	_	_	_	_	_	SpaceAfter=No
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	שוטרים	שוטר	NOUN	NOUN	Gender=Masc|Number=Plur	14	nmod:poss	_	_
+20	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:205
+# doc_range = 2090-2387
+# sent_id = 5166
+# text = היא גם מצדיקה פיתוח טכניקות חדשות של הגנה עצמית, כדי להגביר את ביטחונם האישי של השוטרים ולמנוע הישנות מקרי הדקירות באמצעות סכינים שהיינו עדים להם בימים האחרונים.
+1	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	גם	גם	ADV	ADV	_	3	advmod	_	_
+3	מצדיקה	הצדיק	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4	פיתוח	פיתוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	obj	_	_
+5	טכניקות	טכניקה	NOUN	NOUN	Gender=Fem|Number=Plur	4	compound:smixut	_	_
+6	חדשות	חדש	ADJ	ADJ	Gender=Fem|Number=Plur	5	amod	_	_
+7	של	של	ADP	ADP	Case=Gen	8	case	_	_
+8	הגנה	הגנה	NOUN	NOUN	Gender=Fem|Number=Sing	5	nmod	_	_
+9	עצמית	עצמי	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	11	punct	_	_
+11	כדי	כדי	ADP	ADP	_	3	obl	_	_
+12	להגביר	הגביר	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	11	dep	_	HebSource=ConvUncertainHead
+13	את	את	ADP	ADP	Case=Acc	14	case	_	_
+14-16	ביטחונם	_	_	_	_	_	_	_	_
+14	ביטחון	ביטחון	NOUN	NOUN	Gender=Masc|Number=Sing	12	obj	_	_
+15	_של_	של	ADP	ADP	Case=Gen	16	case:gen	_	_
+16	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+17-18	האישי	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	אישי	אישי	ADJ	ADJ	Gender=Masc|Number=Sing	14	amod	_	_
+19	של	של	ADP	ADP	Case=Gen	21	case	_	_
+20-21	השוטרים	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	שוטרים	שוטר	NOUN	NOUN	Gender=Masc|Number=Plur	14	nmod:poss	_	_
+22-23	ולמנוע	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
+23	למנוע	מנע	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	12	conj	_	_
+24	הישנות	הישנות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	23	obj	_	_
+25	מקרי	מקרה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	24	compound:smixut	_	_
+26-27	הדקירות	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	דקירות	דקירה	NOUN	NOUN	Gender=Fem|Number=Plur	25	compound:smixut	_	_
+28	באמצעות	באמצעות	ADP	ADP	_	29	case	_	_
+29	סכינים	סכין	NOUN	NOUN	Gender=Fem,Masc|Number=Plur	24	nmod	_	_
+30-31	שהיינו	_	_	_	_	_	_	_	_
+30	ש	ש	SCONJ	SCONJ	_	32	mark	_	_
+31	היינו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=1|Polarity=Pos|Tense=Past|VerbType=Cop	32	cop	_	_
+32	עדים	עד	NOUN	NOUN	Gender=Masc|Number=Plur	29	acl:relcl	_	_
+33-34	להם	_	_	_	_	_	_	_	_
+33	ל	ל	ADP	ADP	_	34	case	_	_
+34	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	32	nmod	_	_
+35-37	בימים	_	_	_	_	_	_	_	_
+35	ב	ב	ADP	ADP	_	37	case	_	_
+36	ה_	ה	DET	DET	PronType=Art|Definite=Def	37	det	_	_
+37	ימים	יום	NOUN	NOUN	Gender=Masc|Number=Plur	32	nmod	_	_
+38-39	האחרונים	_	_	_	_	_	_	_	SpaceAfter=No
+38	ה	ה	DET	DET	Definite=Def|PronType=Art	39	det	_	_
+39	אחרונים	אחרון	ADJ	ADJ	Gender=Masc|Number=Plur	37	amod	_	_
+40	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:205
+# doc_range = 2389-2649
+# sent_id = 5167
+# text = אני מאמין שמי שבחר במקצוע הזה, ער לכל הסיכונים הכרוכים בכך ואירוע כמו זה שהיינו עדים לו אתמול בירושלים, איננו משפיע על תפקודם ועל המוראל שלהם.
+1	אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	מאמין	האמין	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+3-4	שמי	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	13	mark	_	_
+4	מי	מי	PRON	PRON	PronType=Int	13	nsubj	_	_
+5-6	שבחר	_	_	_	_	_	_	_	_
+5	ש	ש	SCONJ	SCONJ	_	6	mark	_	_
+6	בחר	בחר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	4	acl:relcl	_	_
+7-9	במקצוע	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	9	case	_	_
+8	ה_	ה	DET	DET	PronType=Art|Definite=Def	9	det	_	_
+9	מקצוע	מקצוע	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+10-11	הזה	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	det	_	_
+12	,	,	PUNCT	PUNCT	_	4	punct	_	_
+13	ער	ער	VERB	VERB	Tense=Pres|VerbForm=Part	2	ccomp	_	_
+14-15	לכל	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	17	case	_	_
+15	כל	כול	DET	DET	Definite=Cons	17	det	_	_
+16-17	הסיכונים	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	סיכונים	סיכון	NOUN	NOUN	Gender=Masc|Number=Plur	13	obl	_	_
+18-19	הכרוכים	_	_	_	_	_	_	_	_
+18	ה	ה	SCONJ	SCONJ	_	19	mark	_	_
+19	כרוכים	כרך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	17	acl:relcl	_	_
+20-21	בכך	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	כך	כך	PRON	PRON	Person=3|PronType=Dem	19	obl	_	_
+22-23	ואירוע	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	_	36	cc	_	_
+23	אירוע	אירוע	NOUN	NOUN	Gender=Masc|Number=Sing	36	nsubj	_	_
+24	כמו	כמו	ADP	ADP	_	25	case	_	_
+25	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	23	nmod	_	_
+26-27	שהיינו	_	_	_	_	_	_	_	_
+26	ש	ש	SCONJ	SCONJ	_	28	mark	_	_
+27	היינו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=1|Polarity=Pos|Tense=Past|VerbType=Cop	28	cop	_	_
+28	עדים	עד	NOUN	NOUN	Gender=Masc|Number=Plur	25	acl:relcl	_	_
+29-30	לו	_	_	_	_	_	_	_	_
+29	ל	ל	ADP	ADP	_	30	case	_	_
+30	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nmod	_	_
+31	אתמול	אתמול	ADV	ADV	_	28	advmod	_	_
+32-33	בירושלים	_	_	_	_	_	_	_	SpaceAfter=No
+32	ב	ב	ADP	ADP	_	33	case	_	_
+33	ירושלים	ירושלים	PROPN	PROPN	_	28	nmod	_	_
+34	,	,	PUNCT	PUNCT	_	23	punct	_	_
+35	איננו	איננו	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	36	aux	_	_
+36	משפיע	השפיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	2	conj	_	_
+37	על	על	ADP	ADP	_	38	case	_	_
+38-40	תפקודם	_	_	_	_	_	_	_	_
+38	תפקוד	תפקוד	NOUN	NOUN	Gender=Masc|Number=Sing	36	obl	_	_
+39	_של_	של	ADP	ADP	Case=Gen	40	case:gen	_	_
+40	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	38	nmod:poss	_	_
+41-42	ועל	_	_	_	_	_	_	_	_
+41	ו	ו	CCONJ	CCONJ	_	44	cc	_	_
+42	על	על	ADP	ADP	_	44	case	_	_
+43-44	המוראל	_	_	_	_	_	_	_	_
+43	ה	ה	DET	DET	Definite=Def|PronType=Art	44	det	_	_
+44	מוראל	מורל	NOUN	NOUN	Gender=Masc|Number=Sing	38	conj	_	_
+45-46	שלהם	_	_	_	_	_	_	_	SpaceAfter=No
+45	של	של	ADP	ADP	Case=Gen	46	case	_	_
+46	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	44	nmod:poss	_	_
+47	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:205
+# doc_range = 2651-2882
+# sent_id = 5168
+# text = בגוף כמו המשטרה קיימת תחושה של סולידאריות, שייכות ומסירות, המאפשרת ללובשי המדים להמשיך ולמלא את המשימות הקשות המוטלות עליהם.
+1-2	בגוף	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	גוף	גוף	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+3	כמו	כמו	ADP	ADP	_	5	case	_	_
+4-5	המשטרה	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	_
+6	קיימת	קיים	ADJ	ADJ	Gender=Fem|Number=Sing	0	root	_	_
+7	תחושה	תחושה	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj	_	_
+8	של	של	ADP	ADP	Case=Gen	9	case	_	_
+9	סולידאריות	סולידאריות	NOUN	NOUN	_	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	11	punct	_	_
+11	שייכות	שייכות	NOUN	NOUN	Gender=Fem|Number=Sing	9	conj	_	_
+12-13	ומסירות	_	_	_	_	_	_	_	SpaceAfter=No
+12	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
+13	מסירות	מסירות	NOUN	NOUN	Gender=Fem|Number=Sing	9	conj	_	_
+14	,	,	PUNCT	PUNCT	_	21	punct	_	_
+15-16	המאפשרת	_	_	_	_	_	_	_	_
+15	ה	ה	SCONJ	SCONJ	_	21	mark	_	_
+16	מאפשרת	מאפשרת	AUX	AUX	Gender=Fem|Number=Sing|VerbForm=Part|VerbType=Mod	21	aux	_	_
+17-18	ללובשי	_	_	_	_	_	_	_	_
+17	ל	ל	ADP	ADP	_	18	case	_	_
+18	לובשי	לבש	VERB	VERB	Definite=Cons|Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	21	obl	_	_
+19-20	המדים	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	מדים	מדים	NOUN	NOUN	Gender=Masc|Number=Plur	18	compound:smixut	_	_
+21	להמשיך	המשיך	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	7	acl:relcl	_	_
+22-23	ולמלא	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	_	21	cc	_	HebSource=ConvUncertainHead
+23	למלא	מילא	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	21	dep	_	HebSource=ConvUncertainHead
+24	את	את	ADP	ADP	Case=Acc	26	case	_	_
+25-26	המשימות	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	משימות	משימה	NOUN	NOUN	Gender=Fem|Number=Plur	21	obj	_	_
+27-28	הקשות	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	קשות	קשה	ADJ	ADJ	Gender=Fem|Number=Plur	26	amod	_	_
+29-30	המוטלות	_	_	_	_	_	_	_	_
+29	ה	ה	SCONJ	SCONJ	_	30	mark	_	_
+30	מוטלות	הוטל	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	26	acl:relcl	_	_
+31-32	עליהם	_	_	_	_	_	_	_	SpaceAfter=No
+31	עלי	על	ADP	ADP	_	32	case	_	_
+32	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	30	obl	_	_
+33	.	.	PUNCT	PUNCT	_	6	punct	_	_
+

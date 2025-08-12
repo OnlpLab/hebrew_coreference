@@ -1,0 +1,1677 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>BridgingAnnotationTool</title>
+    <!-- styles -->	
+</head>
+    <style>
+                C* {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            zoom: 90%;
+            width: 100%;
+			margin:0; 
+			padding:0
+			height:100%; 
+        }
+		
+		.container { position:fixed; width:50%;}
+		#top_l { top:0;   left:0;  bottom:60%;width:60%;}
+		#top_r { top:0;   left:60%; bottom:60%; width:40%;}
+		#mid_l { top:40%; left:0;   bottom:10%; width:60%; }		
+		#mid_r { top:40%; left:60%; bottom:0; width:40%;}
+		#bottom_l	{ top:90%; left:0; bottom:0; width:60%; }		
+		#bottom_r { top:100%; left:60%; bottom:0; width:40%;}
+        
+        h2{
+		 margin-top:10;
+		 margin-bottom:10;
+		}
+		
+		
+        h3{
+		 margin-top:0;
+		 margin-bottom:0;
+		}
+
+        article {            
+            width: 95%;
+            height: 85%;
+            overflow-y: scroll;
+            background-color: #f1f1f1;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin: 10px;  
+			margin-left: 15px;   
+            pointer-events: auto;
+            padding: 10px;	
+        }        
+		
+		#items {
+            width: 95%;
+            height: 85%;
+            margin: 10px;            
+            pointer-events: auto;
+            padding: 10px;			
+        }
+		
+		#item_pane {
+            height: 80%;
+            overflow-y: scroll;
+        }
+		
+		#entities {
+            padding: 10px;			
+            margin:10px;
+			padding-top: 0;	
+            height: 100%; 
+			max-height: inherit;
+			max-width: inherit;				
+            width: 97%; 
+            pointer-events: auto;
+        }
+		
+        #entity_pane {
+            height: 95%;			
+            overflow-y: scroll;
+        }
+		
+		#links {
+            padding: 10px;			
+            margin:10px;
+			padding-top: 0;	
+			margin-top: 0;	
+            height: 0%;            
+            width: 95%; 
+            pointer-events: auto;
+        }
+		
+        #lnks {
+            height: 0%;
+            overflow-y: scroll;
+        }
+		#options {
+            height: 95%;			
+            overflow-y: scroll;
+        }
+       
+        #options_pane {		    
+            background-color: #adaddd;			
+            padding: 10px;			
+            margin:10px;
+			margin-left: 15px;  
+            height: 85%;  
+			max-height: inherit;
+			max-width: inherit;	
+            width: 95%;            
+            border: 1px solid black;
+            border-radius: 5px;            
+            pointer-events: auto;
+			overflow-y: scroll;	
+        }
+				
+		#coref_options, #bridging_options{
+		height: 85%;
+        width:100%; 		
+        overflow-y: scroll;		
+			
+		}
+		
+		#button{			
+            padding: 10px;
+			padding-left: 15px;  	
+			padding-top: 0;	
+            pointer-events: auto;
+        }
+        
+        #cur_NP {
+            background-color: yellow;
+            font-weight: bold;
+        }
+
+        #next,
+		#display_intro,
+        #confirm,
+		#got_it,
+		#repeat_training{
+            width: 20%;
+            height: 40px;
+            margin-top: 15px;
+            background-color: lightblue;
+        }
+		
+		 #next,
+		#display_intro{
+		display:inline;
+		}
+
+
+        .complement,
+        .opt {
+            width: 15px;
+            height: 15px;
+        }
+		
+		.crf{
+		margin-left:20;
+		}
+		
+		#comment{
+		width:90%;
+		margin-left:40;
+		height:40px;
+		}
+
+        .bridge_candidate {
+            background-color: yellow;
+        }
+		
+		.item {
+		border:1px solid;
+		border-radius:6px;
+		padding:1px;
+		margin:2px;
+		line-height: 16pt;	
+		display: inline-block;
+		}
+		
+		.outer li:before {
+		content: "";
+		margin-left: -0.5rem;
+	    }
+		
+		.inner li:before {
+		content: "";
+		margin-left: -1.5rem;
+	    }
+		
+		input[type=radio], 
+		input[type=checkbox],  input[type=button]{
+		cursor: pointer; 
+		}
+		
+		input[type=checkbox][disabled][checked]{
+		border: 5px solid blue; 
+		}
+
+	
+	#intro_screen {
+		position: fixed;
+		top: 50%;    
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 70%;
+		height: 80%;       		
+		margin: 10px;
+		padding:10px;
+		background-color: #f1f1f1;
+		border: 1px solid black;
+		border-radius: 10px;	
+	}
+	
+		
+		
+		.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted #ccc;
+    color: #006080;
+	display:none;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    position: absolute;
+    width: 300px;
+    background-color: white;
+    color: blue;    
+    padding: 5px 0;
+	border:1px solid blue;
+    border-radius: 6px;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;	
+}
+
+.tooltip-right {
+  top: -5px;
+  left: 5%;  
+}
+
+.tooltip-right::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent;
+}
+
+.tooltip-bottom {
+  top: 135%;
+  left: 50%;  
+  margin-left: -60px;
+}
+
+.tooltip-bottom::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #555 transparent;
+}
+
+
+.tooltip-article {
+  top: 15%;
+  <!-- left: 15%;   -->
+  <!-- margin-left: -60px; -->
+}
+
+.tooltip-items {
+  top: 15%;
+  left: -36%;  
+  margin-left: -60px;
+}
+
+.tooltip-entities{
+  top: 10,5%;
+  left: -36%;  
+  margin-left: -60px;
+}
+
+.tooltip-button {   
+  bottom:50%; 
+  margin-bottom:62px; 
+  left: 3%;    
+ 
+}
+
+.tooltip-options {
+  top: -20%;
+  
+}
+
+
+.tooltip-left {
+  top: -5px;
+  bottom:auto;
+  right: 128%;  
+}
+.tooltip-left::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent #555;
+}
+
+#item-heading, #item-tooltip{
+display:inline;
+}
+
+#copy{
+		 position: fixed;
+         top: 50%;
+		 right:5%;
+         display:block;
+		 float:right;
+         width:150px;
+         height:50px;
+		 background-color:lightblue;
+         /*   margin-left:20px; */
+         }
+		
+
+
+
+		
+    </style>
+    <!-- this loads the Ractive source -->
+    <script src="https://cdn.jsdelivr.net/npm/ractive"></script>
+    <!-- This loads lodash -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js"></script>
+	<!-- This loads arrows -->
+      <script src="https://kit.fontawesome.com/61ebb60581.js" crossorigin="anonymous"> </script>
+	<!-- This loads icons -->
+	<script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+	<!-- This loads w3 -->
+      <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <!-- data -->
+    <script>
+        var CURRENT_STAGE = 'coref'; //Can be "coref" or "bridging". The functioning of all the components depends on the CURRENT_STAGE.
+        var CURRENT_SCREEN = 'regular'; //Can be "regular" or "bridge_expantion". Becomes "bridge_expantion" when the function applyBridgesToCluster is called
+        var COLORS = ["#8cffd8", "#FF7F50", "#6495ED", "#BDB76B", "#DDA0DD", "#FF69B4", "#FFD700", "#F5DEB3"]; //background colors for entities
+        var PREPS = ['of', 'in', 'to', 'for', 'with', 'on', 'at', 'from', 'by', 'about', 'over', 'between', 'against', 'under', 'among', 'before', 'after']; //prepositions for bridging
+        var OPTIONS = ["new", "same as...", "time/date/measurement expression","idiomatic"];
+        
+		var BRIDGING_RESULTS_WITH_IDS = $res;
+	    var BRIDGING_RESULTS = []
+		var CONSOLIDATION_RESULTS = $consolidation_results
+		var HIT_ID = $hit_id;
+		var ANN_ID = $ann_id;
+		var START_TIME = '';
+		var END_TIME = '';
+		var links_to_present = [];
+		var links_to_keep = [];
+		var comments = {};
+  	</script>
+    <script>
+        //this function highlights all the elements that belong to the same class
+        function highlightClass(cls, color) {
+            var elements = document.getElementsByClassName(cls);
+            for (var j = 0; j < elements.length; j++) {
+                elements[j].style.backgroundColor = color;
+            }
+        }
+		
+		
+    </script>
+    <!-- core code -->
+	 <script type="text/javascript">
+     
+	  //--------------Global variables--------------
+//var text is dictionary (record) that holds information about the text to be annotated.
+var text = $text;
+
+/**
+*var nps holds the information about all the NPs that take part in the annotation, and their locations in the original text (field raw_text of var text)
+np:record [id: int, start: int, end: int, text: string]
+*All the nps that take part on the annotation, including nps added by the user, sould appear on this list
+*/
+var nps = $nps;
+
+
+/**
+*var done_nps is a dictionary that  maps each np id (from nps) to a boolean (true/false)
+*An np is marked as "done" when it has been visited and annotated (e.i. assigned to a coref cluster, or entity),
+ and the user has not checked (or has unchecked) the "return to this later" option.
+*If an np is marked as "done", it means that it does not need to be revisited before the task is considered "complete".
+*/
+var done_nps = $done_nps<!-- {'0': false, '1': false, '2': false, '3': false, '4': false, '5': false, '6': false, '7': false, '8': false, '9': false, '10': false, '11': false, '12': false, '13': false, '14': false, '15': false, '16': false, '17': false, '18': false, '19': false, '20': false, '21': false, '22': false, '23': false, '24': false, '25': false, '26': false, '27': false, '28': false, '29': false, '30': false, '31': false, '32': false, '33': false}; -->
+
+
+//var pronouns is a list that hods the ids of the nps that are pronouns.
+//At bridging stage these nps should be removed from the items to be annotated and from the coref clusters shown to the users.
+var pronouns = $pronouns
+
+/**
+*var coref is a list that holds entities (clusters of coreferring nps) created by the user.
+*An entity is a record that has an id, a list of members (that are ids of the nps),
+and a "source" field that represents the reason why the entity was formed
+(the option the user selected which led to creation of a new entity).
+*The "source" field can hold values "new","idiomatic", "time/date/measurement expression".
+*All the options that are compatible with "Same as" (coref) only become sources of new entities, if "Same as" is not selected.
+*An np cannot belong to two or more entities.
+*An np that is marked as "done" should belong to some entity.*/
+
+var coref =[]; //List[entity] //entity: record[id:int, members: List[int], source: string]
+/**
+*var bridges is a list that holds bridging links created by the user.
+*A bridging link can be of two types BridgeLink and  ExternalBridgeLink.
+*A BridgeLink represents a bridge whose antecedent is an entity from the text;
+it has an id, a "bridge" field that holds the id of the bridge (an np),
+a "complement" field that holds the id of the antecedent (an entity),
+a "preposition" field that holds the preposition specified by the user,
+and a "type" field whose value is always "regular".
+*An ExternalBridgeLink represents a bridge whose antecedent is extratextual and was specified by the user;
+it has an id, a "bridge" field that holds the id of the bridge (an np),
+a "complement" field that holds the string representing the extratextual antecedent,
+a "preposition" field that holds the preposition specified by the user,
+and a "type" field whose value is always "external".
+*Only nps assigned to an entity (coref cluster) can have bridging links with entities or external nps.
+*If an np is linked to an entity as a bridge, it cannot belong to the same entity,
+and vice versa: if an np belongs to an entity it cannot be linked to the same entity as a bridge.*/
+
+var bridges = []; //List[Union[BridgeLink, ExternalBridgeLink]]//BridgeLink: record[id:int, bridge:int, complement:int, preposition:string, type:string]; ExternalBridgeLink: record[id:int, bridge:int, complement:string, preposition:string, type:string]
+
+var current_np_id = 0; //int //current_np_id is the id of the np that is currently being updated (the one that is highlighted in yellow on the screen)
+
+
+//--------------Functions that update the nps--------------
+//This function creates a new entity and assigns an np to the newly created entity;
+//"source" is a string that specifies the reason why the np formed a new entity; it reflects the option selected by the user, for example, "new"
+function form_new_entity(np_id, source) {
+    try {
+        checkIfNotInCluster(np_id); //check if the np does not already belong to an entity (coref cluster)
+        var new_entity = {};
+        new_entity["id"] = get_next_entity_id();
+        new_entity["members"] = [np_id];
+        new_entity["source"] = source;
+        coref.push(new_entity);
+    } catch (e) {
+        console.log(e.name + ': ' + e.message);
+    }
+}
+
+//this function updates the source field of an entity
+function update_entity_source(entity_id, source) {
+    var my_entity = coref.filter(entity => entity.id == entity_id)[0];
+    my_entity["source"] = source;
+}
+
+//This function creates bridges (links an np to an entity)
+//the argument "entity_id" the id of the entity to which the NP is linked
+//the argument prep is a string that reflects the preposition that links the complement to the bridge
+function link_to_entity(np_id, entity_id, prep) {
+    try {
+        checkIfNotSameAs(np_id, entity_id); //check if the np does not belong to the entity
+        checkIfBridgingLinkExists(np_id, entity_id); //check if the link does not exist already
+        var bridge = {};
+        bridge["id"] = get_next_bridge_id();
+        bridge["bridge"] = np_id;
+        bridge["complement"] = entity_id;
+        bridge["preposition"] = prep;
+        bridge["type"] = "regular";
+        bridges.push(bridge);
+    } catch (e) {
+        console.log(e.name + ': ' + e.message);
+    }
+}
+
+
+//This function creates external bridges (links an np to an external np - one not found in the text)
+//the argument "external_np" is a string
+//the argument prep is a string that reflects the preposition that links the complement to the bridge
+function link_to_external_np(np_id, external_np, prep) {
+    var bridge = {};
+    bridge["id"] = get_next_bridge_id();
+    bridge["bridge"] = np_id;
+    bridge["complement"] = external_np;
+    bridge["preposition"] = prep;
+    bridge["type"] = "external";
+    bridges.push(bridge);
+}
+
+
+//This function deletes a bridging link between an np and an entity or an extratextual NP by removing the record of the link from the list of bridges
+//"bridge_id" is the id of link to be deleted
+//"complement" is the is either an int (the id of the entity from whoch the np is unlinked) or a string (reperesenting the extratextual NP from which the np is unlinked)
+function delete_bridge(bridge_id) {
+    var bridge_to_delete = _.find(bridges, {
+        id: bridge_id
+    });
+    _.pull(bridges, bridge_to_delete);
+}
+
+
+//This function creates coref links
+function add_coref_np_to_entity(np_id, entity_id) {
+    try {
+        //check if the np has not bridge or member-set links with the entity or does not already belong to another entity
+        checkIfNotInCluster(np_id); //check if the np does not already belong to an entity (coref cluster)
+        checkIfNotLinkedTo(np_id, entity_id);
+        var my_entity = coref.filter(entity => entity.id == entity_id)[0];
+        my_entity["members"].push(np_id);
+    } catch (e) {
+        console.log(e.name + ': ' + e.message);
+    }
+}
+
+function delete_coref_link(np_id, entity_id) {
+    var my_entity = coref.filter(entity => entity.id == entity_id)[0];
+    _.pull(my_entity.members, np_id);
+    //if the entity has no members anymore, remove the entity from coref
+    if (my_entity.members.length == 0) {
+        _.pull(coref, my_entity);
+    }
+}
+
+
+//This function returns the np that is currently being updated
+function get_current_np() {
+    var current_np = nps[current_np_id];
+    return current_np;
+}
+
+//This function returns the np that is currently being updated
+function get_current_np_id() {
+    var current = current_np_id;
+    return current;
+}
+
+//This function changes the value of current_np_id
+//It is executed when the user finishes updating an np and goes to a new one
+function set_current_np(num) {
+    current_np_id = num;
+    return current_np_id;
+}
+
+//This function returns the id of the np that becomes "current" when "Next" is clicked;
+//It allows the user to go through the nps in the order in which they appear in the text
+//Todo: has to be expanded to take the "return to it later" property into consideration.
+function get_next_np_id() {
+    var visited_nps = get_visited_nps();
+	
+    for (var i = 0; i < nps.length; i++) {
+        if (!visited_nps.includes(i)) {
+            return i;
+            break;
+        }
+    }
+    //This part is executed if the first passage through the text is complete (all the nps have been assigned to coref clusters) and the nps that are marked as " not done" have to be revisited
+    for (var i = 0; i < nps.length; i++) {
+        if (!done_nps[i]) {
+            return i;
+            break;
+        }
+    }
+    return null; //the task is complete
+}
+
+
+//This function returns the id to be assigned to a newly created entity
+function get_next_entity_id() {
+    var my_last_entity = _.maxBy(coref, 'id')
+    if (my_last_entity != undefined) {
+        var next_entity_id = my_last_entity.id + 1;
+        return next_entity_id;
+    }
+    return 0;
+}
+
+//This function returns the id to be assigned to a newly created bridging link
+function get_next_bridge_id() {
+    var my_last_bridge = _.maxBy(bridges, 'id');
+    if (my_last_bridge != undefined) {
+        var next_bridge_id = my_last_bridge.id + 1;
+        return next_bridge_id;
+    }
+    return 0;
+}
+
+
+//This function returns a list of ids of visited nps (nps that have already been assigned to a coref cluster, or entity)
+function get_visited_nps() {
+    var visited_nps = [];
+    for (var i = 0; i < coref.length; i++) {
+        visited_nps = visited_nps.concat(coref[i]["members"]);
+    }
+    return visited_nps;
+}
+
+//This function serves to present to the user the next np in the text; it is executed when "Next" is clicked
+function go_to_next_np() {
+    current_np_id = get_next_np_id();
+    return current_np_id;
+}
+
+
+//This function marks an np as "done" or "not done"
+//An np should be marked as done whenever the annotation of an np is finished and the "return to this later" option is not checked.
+//An np shpuld be marked as "not done" again, whenever a scratch out idtem on the item pane is clicked.
+function mark_done(np_id, isDone = true) {
+    done_nps[np_id] = isDone;
+}
+
+
+//--------------Functions that return lists/dictionaries to reflect the current state of the annotation--------------
+
+//This function returns the current state of an np
+function show_np_status(np_id) {
+    var my_np = nps.filter(np => np.id == np_id)[0];
+    var np_to_show = my_np;
+    if (get_visited_nps().includes(np_id)) {
+        //coref
+        var entity = coref.filter(entity => entity.members.includes(np_id))[0];
+        var entity_id = entity["id"];
+        np_to_show["belongs_to_entity"] = entity_id;
+
+        //label from the coref stage
+        //if this np formed a new entity, the label is the source of the entity; otherwise - "same as..."
+        var label = (entity.members[0] == np_id ? entity.source : 'same as...');
+        np_to_show["label"] = label;
+
+        //bridges
+        var my_bridges = bridges.filter(lnk => lnk.bridge == np_id);
+        if (my_bridges.length > 0) {
+            np_to_show["linked_to_entities"] = []; //bridges
+            for (var i = 0; i < my_bridges.length; i++) {
+                np_to_show["linked_to_entities"].push(my_bridges[i]["complement"]);
+            }
+        }
+    }
+    return (np_to_show);
+}
+
+
+
+//This function modifies the NPs for the bridging stage removing the "of" PPs where appropriate
+function remove_of_pps(){
+for(var i = 0; i < (nps.length-1); i++) {
+if (nps[i].text.toLowerCase().includes(' of ') &&(nps[i].end_index == nps[i+1].end_index))	{
+nps[i].text = nps[i].text.split(' of ')[0];
+nps[i].end_index = nps[i].start_index + nps[i].text.length;	
+}	
+}	
+}
+
+//This function returns a list of nps with "idiomatic" and "time/date/measurement" removed
+function get_nps_for_bridging_stage() {
+    var filtered_nps = nps.filter(np => (!(["idiomatic", "time/date/measurement expression"].includes(show_np_status(np.id)["label"]) || pronouns.includes(np.id))));
+    return filtered_nps;
+}
+
+
+//This function returns a list of all the nps with currently existing annotations
+function annotation_status() {
+    annotations = [];
+    for (var i = 0; i < nps.length; i++) {
+        annotations.push(show_np_status(nps[i]["id"]));
+    }
+    return (annotations);
+}
+
+
+//--------------Invariants an checks--------------
+
+//This function checks if np a belongs to coref cluster (entity) b;
+//It is used when forming bridging links to check if an np is not being linked to its own cluster;
+//Throws an error if a belongs to b
+function checkIfNotSameAs(a, b) {
+    var my_entity = coref.filter(entity => entity.members.includes(a))[0];
+    var my_entity_id = -1;
+    if (my_entity != undefined) {
+        var my_entity_id = my_entity["id"];
+    }
+    if (my_entity_id == b) {
+        throw new Error('An np that belongs to an entity, cannot form a bridging or member-set link with the same entity');
+    }
+}
+
+//This function checks if np a is linked to coref cluster (entity) b as a bridge;
+//It is used when assigning an np to a coref cluster (entity);
+//Throws an error if a is linked to b;
+function checkIfNotLinkedTo(a, b) {
+    var my_links = bridges.filter(lnk => lnk.bridge == a);
+    var my_link = my_links.filter(lnk => lnk.complement == b);
+    if (my_link.length > 0) { //a is linked to b as a bridge
+        throw new Error('An np that is linked to an entity as a bridge, cannot be assigned to the same entity');
+    }
+}
+
+
+//This function checks if np already belongs to a coref cluster (entity);
+//It is used when assigning an np to a coref cluster (entity), a new one or an existing one.
+//Throws an error if the np already belongs to another coref cluster;
+function checkIfNotInCluster(np_id) {
+    var my_entity = coref.filter(entity => entity.members.includes(np_id))[0];
+    if (my_entity != undefined) {
+        throw new Error('An np that belongs to an entity, cannot be assigned to an entity again');
+    }
+}
+
+//This function checks if a bridging link already exists;
+//It is used when creating new bridging links;
+//Throws an error if a link with "bridge" a, and "complement" b already exists;
+function checkIfBridgingLinkExists(a, b) {
+    var my_link = bridges.filter(lnk => (lnk.bridge == a && lnk.complement == b));
+    if (my_link.length > 0) { //a link between a and b alredy exists
+        throw new Error('A bridging link between this np and this complement already exists,');
+    }
+}
+
+
+
+//--------------Tests--------------
+nps.forEach((np) => {
+mark_done(np.id);
+});
+coref = $coref
+</script>
+    <!-- Partials -->
+    <script id="entity_row" type="text/html">
+        {{#each entity.members as member}} {{#if (!pronouns.includes(member))}}
+        <span style="background-color:{{entity_color(entity)}};" on-mouseover="['highlight', entity, entity_color(entity)]" on-mouseout="['highlight', entity, 'transparent']">
+		                {{text_from_id(member)}}
+		            </span> {{space}} {{/if}} {{/each}}
+    </script>
+
+    <script id="entity_row_draggable" type="text/html">
+        {{#each entity.members as member}} {{#if (!pronouns.includes(member))}}
+        <span draggable="true" ondragstart="drag(event,{{entity.id}},{{member}})" style="background-color:{{entity_color(entity)}};" on-mouseover="['highlight', entity, entity_color(entity)]" on-mouseout="['highlight', entity, 'transparent']">
+		                {{text_from_id(member)}}
+						<span on-click= "['remove_np_from_entity', member, entity.id]">[x]</span>
+        </span>
+
+        {{space}} {{/if}} {{/each}}
+    </script>
+	
+	<script id="entity_row_merged" type="text/html">
+        {{#each merged_members(entity) as member}} {{#if (!pronouns.includes(member))}}
+        <span style="background-color:{{entity_color(entity)}};" on-mouseover="['highlight', entity, entity_color(entity)]" on-mouseout="['highlight', entity, 'transparent']">
+		                {{text_from_id(member)}}
+		            </span> {{space}} {{/if}} {{/each}}
+    </script>
+
+    <script id="coref_details" type="text/html">
+        <div id = "coref_details" style="margin-bottom:10px;margin-top:10px;">
+            
+             
+			<ol class = 'inner'>
+			{{#each entities as entity}}
+            <li style="margin:2">
+                <input type="radio"  class = "crf" on-click= "['check_same_as']" id="coref{{entity.id}}" name="{{state.selected_crf}}" value="{{entity.id}}" />
+                <label for="coref{{entity.id}}">{{>entity_row}}</label>
+            </li>
+            {{/each}}
+			</ol>			 
+        </div>
+    </script>
+    <script id="bridging_details" type="text/html">        
+            <p style="margin-top:10px;margin-bottom:10px;"><b>The expression <span id = "my_expression" style = "background-color:yellow;">{{ current_np_text }}</span> is linked to...</b><i>(choose all that apply)</i></p>
+            <div id = "bridging_options">
+			<ol>
+			{{#each entities as entity}}
+            <li style="margin:2">
+                <input class='complement' id="bridge{{entity.id}}" type="checkbox" disabled = {{entity_includes_current(entity)}} name='{{state.selected_bridges}}' value="{{entity.id}}" on-change="['uncheck_no_bridge',state.selected_bridges, entity.id]" /> {{ current_np_text }}
+                <select on-change="['select_complement', entity.id]" value='{{entity.selected_preposition}}' id='addPrep{{entity.id}}' class='dropdowns'>
+	                               {{#each prepositions as prep}}
+	                               <option value='{{prep}}'>{{prep}}</option>
+	                               {{/each}}
+	                           </select> {{>entity_row}}
+            </li>
+            {{/each}}
+			</ol>
+            <p style="margin:2">
+                <input class='complement' id="bridgeExternal" type="checkbox" name='{{state.selected_bridges}}' value="external" on-change="['uncheck_no_bridge',state.selected_bridges, 'external']" /> {{ current_np_text }}
+                <select on-change="['select_complement', 'external']" id='addPrepExternal' class='dropdowns' value='{{state.external_preposition}}'>
+	                               {{#each prepositions as prep}}
+	                               <option value='{{prep}}'>{{prep}}</option>
+	                               {{/each}}
+	                           </select>
+                <input type="text" id="state.external_complement" on-input="['select_complement', 'external']" value='{{state.external_complement}}'> (specify)</p>
+            <p style="margin:2">
+                <input type="checkbox" value="noBridge" name="{{state.selected_bridges}}" id="noBridge" on-change="['uncheck_all',state.selected_bridges]" class="complement">
+                <label for="noBridge">none of the above (should be rare)</label>
+            </p>
+        </div>
+    </script>
+
+
+    <script id="bridging_results" type="text/html">        
+        {{#each antecedents as entity:num}}
+		<p>You suggested the following link:</p>
+        <p style="font-weight:bold">{{ current_np_text }} [{{entity.selected_preposition}} {{>entity_row_merged}}]</p>
+		{{>bridging_expansion}}
+        {{/each}} 
+		{{#if state.selected_bridges.includes("external")}}
+		<p>You suggested the following link:</p>
+        <p style="font-weight:bold">{{ current_np_text }} [{{state.external_preposition}} {{state.external_complement}}]</p>
+		{{>bridging_expansion_external}}
+        {{/if}}
+    </script>
+	
+	
+	<script id="bridging_expansion" type="text/html">
+        <div style="background-color: #f1f1f1;border-radius: 5px;padding:10px;">
+            <p>Are the following links also true? <i><span style = "color:grey">(uncheck the links you want to remove)</i> </p>
+            
+			{{#each merged_cands_for_reference[num] as cand}}
+            <p style="font-weight:bold">
+                
+            <input class='link'  type="checkbox"  name='{{merged_cands[num]}}' value="{{cand}}" /> {{ cand }} [{{entity.selected_preposition}} {{>entity_row_merged}}]            
+			</p>
+            {{/each}}			
+		</div>
+    </script>
+	
+	<script id="bridging_expansion_external" type="text/html">
+        <div style="background-color: #f1f1f1;border-radius: 5px;padding:10px;">
+            <p>Are the following links also true? <i><span style = "color:grey">(uncheck the links you want to remove)</i> </p>
+			
+			
+			{{#each merged_cands_for_reference[merged_cands.length-1] as cand}}
+            <p style="font-weight:bold">
+                
+				<input class='link'  type="checkbox"  name='{{merged_cands[merged_cands.length-1]}}' value="{{cand}}" />{{ cand }} [{{state.external_preposition}} {{state.external_complement}}]            
+			</p>
+            {{/each}}
+			
+        </div>
+    </script>
+	
+	
+
+    <!--- Templates -->
+    <script id="text_tpl" type="text/ractive">
+	    
+        {{{ render_text(nps, text, entities, current, screen, bridge_candidates) }}}
+    </script>
+
+    <script id="entity_pane_tpl" type="text/ractive">        
+       
+        <p style="margin:2;margin-left:5;"><b>ORIGINAL LINKS:</b> </p>
+		
+		<ol>{{#each links_to_present[current] as link:num}}
+		{{#if link.type != "none"}}
+        <li style="margin:2;margin-left:20;"><input class='link' disabled type="checkbox" class ="complement"  id = "link{{num}}" name='{{links_to_keep}}' value="{{link}}" on-change="['uncheck_no_link',links_to_keep,current]"/>
+		<label for = "link{{num}}">{{text_from_id(link.bridge)}} [{{link.preposition}} 
+		{{#if link.type == "regular"}} {{#each get_complement(link.complement).members as member}}
+		{{#if (!pronouns.includes(member))}}
+            <span style="background-color:{{entity_color(get_complement(link.complement))}};" on-mouseover="['highlight', (get_complement(link.complement)), entity_color(get_complement(link.complement))]" on-mouseout="['highlight', (get_complement(link.complement)), 'transparent']">
+		                {{text_from_id(member)}}
+		            </span> {{space}} {{/if}} {{/each}}]
+            <!-- external bridges		 -->
+            {{else}}
+            <span>{{link.complement}}]</span> {{/if}}</label>
+        </li>
+		{{else}}
+       
+		<li style="margin:2;margin-left:20;">
+                <input type="checkbox" class ="complement" value="{{link}}" disabled name="{{links_to_keep}}" on-change="['uncheck_all',links_to_keep,current]" id = 'none_of_the_above'>
+                <label for = "none_of_the_above">none of the above</label>
+            </li>
+		{{/if}}
+		{{/each}} 
+		</ol>
+		<p style="margin:2;margin-left:40;"> Your comments:</p>
+		<input type="text" id="comment" disabled value={{comments[current]}}> 
+		
+		
+		
+    </script>
+
+    <script id="items_tpl" type="text/ractive">        
+		{{#each nps as np}}
+		{{#if np.id == current_np_id}}
+        <span class = "item" id = "current_item" style = "background-color:lightyellow" on-click="['go_to_np', np]"> {{np.text}}</span> 
+		{{elseif done_items[np.id]}}
+        <span class = "item" style = "color:gray" on-click="['go_to_np', np]"><s> {{np.text}}</s></span> 
+		{{else}}
+        <span class = "item" on-click="['go_to_np', np]"> {{np.text}}</span> 
+		{{/if}} 
+		{{/each}}
+    </script>
+    <script id="options_tpl" type="text/ractive">        
+       
+        <p style="margin:2;margin-left:5;"><b>Links:</b> </p>
+		{{#each bridging_results as result:num}}
+		<p><span style = "border:1px solid blue; border-radius:5px;" onclick = "set_links_to_keep({{num}})">Links selected by {{annotator(result)}}</span>:</p>
+		<ol>{{#each links_to_present(result,current) as link}}
+        <li style="margin:2;margin-left:20;">{{text_from_id(link.bridge)}} [{{link.preposition}} {{#if link.type == "regular"}} {{#each get_complement(link.complement).members as member}} {{#if (!pronouns.includes(member))}}
+            <span style="background-color:{{entity_color(get_complement(link.complement))}};" on-mouseover="['highlight', (get_complement(link.complement)), entity_color(get_complement(link.complement))]" on-mouseout="['highlight', (get_complement(link.complement)), 'transparent']">
+		                {{text_from_id(member)}}
+		            </span> {{space}} {{/if}} {{/each}}]
+            <!-- external bridges		 -->
+            {{else}}
+            <span>{{link.complement}}]</span> {{/if}}
+        </li>
+        {{/each}} 
+		</ol>
+		{{#if coms(result)[current].length > 0}}
+		Comments by {{annotator(result)}}:
+		{{coms(result)[current]}}
+		{{/if}}
+		{{/each}}
+		<div id = "lnks">
+        
+		<ol>{{#each merged_bridges as link}}
+        <li style="margin:2;margin-left:20;">{{text_from_id(link.bridge)}} [{{link.preposition}} {{#if link.type == "regular"}} {{#each get_complement(link.complement).members as member}} {{#if (!pronouns.includes(member))}}
+            <span style="background-color:{{entity_color(get_complement(link.complement))}};" on-mouseover="['highlight', (get_complement(link.complement)), entity_color(get_complement(link.complement))]" on-mouseout="['highlight', (get_complement(link.complement)), 'transparent']">
+		                {{text_from_id(member)}}
+		            </span> {{space}} {{/if}} {{/each}}]
+            <!-- external bridges		 -->
+            {{else}}
+            <span>{{link.complement}}]</span> {{/if}}
+        </li>
+        {{/each}} 
+		</ol>
+		</div>
+		
+    </script>
+
+    <script id="items_tpl" type="text/ractive">        
+		{{#each nps as np}}
+		{{#if np.id == current_np_id}}
+        <span class = "item" id = "current_item" style = "background-color:lightyellow" on-click="['go_to_np', np]"> {{np.text}}</span> 
+		{{elseif done_items[np.id]}}
+        <span class = "item" style = "color:gray" on-click="['go_to_np', np]"><s> {{np.text}}</s></span> 
+		{{else}}
+        <span class = "item" on-click="['go_to_np', np]"> {{np.text}}</span> 
+		{{/if}} 
+		{{/each}}
+    </script>
+
+    
+    
+	
+	
+	
+	  
+	  <script id="button_tpl" type="text/ractive">
+	
+	
+        <input  style = "margin:2" twoway='false' type="button" id="next" value="Next" on-click="['next_step']">
+		    </script>
+	
+	<script id="intro_screen_tpl" type="text/ractive">
+	<div id = "intro_screen" style = "display: {{#if displayed}}block{{else}}none{{/if}};">
+	{{#if displayed}}
+	<div>
+	<p style = "margin:2;margin-top:20px;">You will be shown a text with a marked expression in it. Your task is to categorize the expression into one (and only one) of four categories:</p>
+	<ul>
+	<li style = "margin:2">new -> the expression refers to a new entity;</li>
+<li style = "margin:2">same as... -> the expression refers to an entity that you previously marked as "new" (you need to indicate which one);</li>
+<li style = "margin:2">time/date/measurement expression -> the expression corresponds to a formal time/date format or consists of numbers and units of measurement.</li>
+<li style = "margin:2">idiomatic -> the expression is an idiomatic expression that does not refer to any entity (such cases are rare).</li>
+</ul>
+<p>Some examples of "time/date/measurement" are:</p>
+<ul style = "margin:2">
+<li style = "margin:2"><i>I met him on <u>Monday</u>.</i></li>
+<li style = "margin:2"><i>The meeting took place at <u>4pm</u>.</i></li>
+<li style = "margin:2"><i>The train will cover <u>6,500 kilometres</u> in a week.</i></li>
+</ul>
+<p>Some examples of "idiomatic" are:</p>
+<ul style = "margin:2">
+<li style = "margin:2"><i>He always tried to reach for <u>the stars.</u></i></li>
+<li style = "margin:2"><i>You are barking up <u>the wrong tree.</u></i></li>
+</ul>
+</div>
+<input  style = "margin:2;margin-left:40%;margin-top:70px;" twoway='false' type="button" id="got_it" value={{val}} onclick="go_to_training();">
+	{{/if}}
+	</div>
+    </script> 
+    <!--- Code -->
+    <script>
+        // this function renders the HTML of the main textbox
+        function f_render_text(nps, text, entities, cid, screen, bridge_candidates) {
+            // this renders the text based on the nps, the text, and the current np id.					 
+            var chars = text.raw_text.split('');
+            					 
+            nps.forEach(np => {
+                var my_entity = entities.filter(entity => entity.members.includes(np.id))[0];
+                
+                if (np.id == cid) {
+                    chars[np.start_index] = `<span id='cur_NP'>` + chars[np.start_index];
+                } else {
+                    if (my_entity != undefined) {
+                        if (screen != "regular" && bridge_candidates.includes(np.id)) {
+                            chars[np.start_index] = "<span class = 'bridge_candidate entity" + my_entity.id + "'>" + chars[np.start_index];
+                        } else {
+                            chars[np.start_index] = "<span class = 'entity" + my_entity.id + "'>" + chars[np.start_index];
+                        }
+                    } else {
+                        chars[np.start_index] = `<span>` + chars[np.start_index];
+                    }
+                }
+                chars[np.end_index - 1] = chars[np.end_index - 1] + "</span>";
+            });
+            //title
+			if (text.title.start_index < text.title.end_index){	//if there is a title
+             chars[text.title.start_index] = `<h2>` + chars[text.title.start_index];
+             chars[text.title.end_index - 1] = chars[text.title.end_index - 1] + "</h2>";
+			 }
+             //subtitles			 
+             text.subtitles.forEach(subtitle => {
+			     if (subtitle.start_index < subtitle.end_index){//if there is a subtitle
+                 chars[subtitle.start_index] = `<h3>` + chars[subtitle.start_index];
+                 chars[subtitle.end_index - 1] = chars[subtitle.end_index - 1] + "</h3>";
+				 }
+             });
+             //paragraphs
+			 <!-- p_counter = 0 -->
+             text.paragraphs.forEach((paragraph, index) => {
+			    if (!'indents' in text){
+                 chars[paragraph.start_index] = `<p>` + chars[paragraph.start_index];
+				 } else if ('indents' in text){
+				 chars[paragraph.start_index] = '<p style="margin-left: ' + text.indents[index]*20 +'px"><b>' + chars[paragraph.start_index]; 
+				 chars[paragraph.start_index + text.paragraph_authors[index].length] = chars[paragraph.start_index + text.paragraph_authors[index].length] + '</b>';
+				 }
+                 chars[paragraph.end_index - 1] = chars[paragraph.end_index - 1] + "</p>";
+				 <!-- p_counter = p_counter+1 -->
+             });
+			console.log(chars);
+			console.log(chars.join(""));
+            
+            return chars.join("");
+        };
+
+        //this function returns the text of an np
+        function f_np_text_from_id(np_id) {
+            np = nps.filter(np => np.id == np_id)[0];
+            return np.text;
+        };
+		
+		//this function gets links specified for every NP
+		function get_links_to_present(bridging_results) {
+		
+		var links_to_present = {};
+		
+		bridging_results.forEach(function(result){
+		
+		nps.forEach(function(np){
+		var values = [];
+				
+				var keys = Object.keys(result[1]);
+				
+keys.forEach(function(key){
+    values.push(result[1][key]);
+});
+
+ if(links_to_present[np.id] == undefined){
+ links_to_present[np.id] = values.filter(lnk => lnk.bridge == np.id);
+ } else {
+ links_to_present[np.id] = [...links_to_present[np.id], ...values.filter(lnk => lnk.bridge == np.id)];
+ //deduplicate
+ links_to_present[np.id] = _.uniqBy(links_to_present[np.id], function(elem) { return [elem.bridge, elem.complement,elem.preposition,elem.type].join(); });
+ console.log(links_to_present[np.id]);
+  }
+});
+});
+//add an "empty" link - for "none of the above" option;
+nps.forEach(function(np){
+if (links_to_present[np.id].length > 0){
+//group together the links to the same complement but with different prepositions
+ links_to_present[np.id].sort((a, b) => (a.complement > b.complement) ? 1 : -1);
+//move links to external complements to the end of the list 
+ links_to_present[np.id].sort((a, b) => (a.type < b.type) ? 1 : -1);
+ links_to_present[np.id].push({bridge: np.id, complement: "none", preposition: "none", type: "none"});
+ }
+});
+	    
+console.log(links_to_present);	
+		
+                return links_to_present;
+            }
+			
+function get_bridging_results_without_ids(){
+var bridging_results = [];
+BRIDGING_RESULTS_WITH_IDS.forEach(function(result){
+var res_without_ids = [];
+result[1].forEach(function(lnk){delete lnk["id"];
+res_without_ids.push(lnk)});
+console.log(res_without_ids);
+var new_res = [];
+new_res.push(result[0]);
+console.log(new_res);
+new_res.push(res_without_ids);
+console.log(new_res);
+bridging_results.push(new_res);
+console.log(bridging_results);
+});
+return bridging_results;
+}			
+		
+		//this function checks if an entity includes current np
+        function f_entity_includes_current(entity) {
+		    var current = get_current_np_id();			
+            if(entity.members.includes(current)){
+			return true;
+			}
+            return false;
+        };
+		
+		//this function merges similar texts of members of the same cluster (filters dupliate np texts)
+		function f_merge_entity_members(entity){
+		var merged_members = [];
+		entity.members.forEach(member => {
+				 var txt = nps[member].text;
+				if (!merged_members.map(m => nps[m].text).includes(txt)) {
+					merged_members.push(member);				}
+				});	
+        return merged_members;				
+		}
+
+
+        <!-- UI functions that call the core code -->
+        //This function takes the user to the next NP: highlights the next np in the text and updates the option pane acordingly
+        function ui_go_to_next_np() {
+             var np_id = go_to_next_np();
+			 
+             
+             if (np_id == null) {
+                 if (CURRENT_STAGE == 'coref') {
+                     if (confirm('You are about to go to bridging stage. Are you sure your coref clusters are correct? If not, click "Cancel" and revise them.')) {
+                         go_to_bridging_stage();
+                     } else {
+                         return;
+                     }
+         
+                 } else {
+         
+         showFinalScreen();
+                     
+                 }
+             } else {
+                 _text.set({
+                     'current': np_id,
+                 });
+				 _entity_pane.set({
+                     'current': np_id,
+                 });
+         
+         _item_pane.set({
+                     'current_np_id': np_id,
+                 });
+         
+                 update_options();	
+                 
+         
+		 scrollElementIntoView('link0');
+         scrollElementIntoView('current_item');
+         scrollElementIntoView('cur_NP');
+             }
+         }
+		
+		function go_to_training(){
+		//open all the container divs
+		document.querySelectorAll('.container').forEach(function(el) {
+		el.style.display = 'block';
+		});
+		//set data for final screen
+		_intro_screen.set({	
+					'val': "Hide instructions",
+					'displayed':false,
+                });
+		}
+		
+		function repeat_training(){
+		location.reload();				
+		}
+		
+		function display_intro(){		
+		_intro_screen.set({					
+					'displayed':true,
+                });
+		}
+		
+		 	
+         
+		//This function gets start time
+		 function getStartTime(){
+		 START_TIME = Date.now();
+		 }
+		 
+		 //This function converts time in millis to minutes and seconds
+         function millisToMinutesAndSeconds(millis) {
+           var minutes = Math.floor(millis / 60000);
+           var seconds = ((millis % 60000) / 1000).toFixed(0);
+           return minutes + ":" + (seconds < 10 ? '0' : '') + seconds;
+         }
+		
+		function scrollElementIntoView(elementId){
+		document.getElementById(elementId).scrollIntoView({
+            behavior: 'auto',
+            block: 'center',
+            inline: 'center'
+        });		
+		}
+
+        //This function takes the user to bridging stage when coref stage is finished
+        function go_to_bridging_stage() {
+            //change style
+            
+            	
+			document.getElementById("entity_pane").style.height = "80%";
+            set_current_np(0);
+            CURRENT_STAGE = 'bridging';
+			
+				
+			//cut off "of" pps
+			remove_of_pps();
+            var filtered_nps = get_nps_for_bridging_stage();
+            
+			BRIDGING_RESULTS = get_bridging_results_without_ids();
+			links_to_present = get_links_to_present(BRIDGING_RESULTS);
+			//filter the nps again not to shoe the ones for which there are no bridges
+			filtered_nps = filtered_nps.filter(np => links_to_present[np.id].length > 0);
+			filtered_nps.forEach((np) => {
+                mark_done(np.id, false);
+            });
+            _options.set({
+                'stage': CURRENT_STAGE,
+                'pronouns': pronouns,
+            });
+           
+            _entity_pane.set({
+                'pronouns': pronouns,
+                'stage': CURRENT_STAGE,
+				'links_to_present':links_to_present,
+				'bridging_results':BRIDGING_RESULTS,
+				'nps': filtered_nps,
+            });
+
+            _item_pane.set({
+                'stage': CURRENT_STAGE,
+                'done_items': done_nps,
+                'nps': filtered_nps,
+				'current_np_id': 0,
+            });
+            _text.set({
+                'current': 0,
+                'nps': nps,
+            });
+            
+			var first_np = filtered_nps[0].id;
+			go_to_np(first_np);
+        }
+
+
+        //This function is executed when an item is clicked on the item pane.
+        //The clicked item is highlighted in the text. If the clicked item was "done" (scratched out), it becomes "not done" again.
+        function go_to_np(np_id) {
+            var new_current = set_current_np(np_id);
+            
+            _text.set({
+                'current': new_current
+            });
+			
+			_entity_pane.set({
+                'current': new_current,
+				'scrolled':false,
+            });
+			
+			 _item_pane.set({                
+				'current_np_id': new_current,
+            });
+			
+			 _options.set({                
+				'current': new_current,
+            });
+			
+            
+            mark_done(new_current, false);
+            update_item_pane();
+			scrollElementIntoView('link0');
+			scrollElementIntoView('cur_NP');
+			document.getElementById("none_of_the_above").checked = (links_to_keep.filter(lnk=>lnk.bridge == np_id && lnk.complement == 'none').length > 0);
+        }
+		
+		function set_links_to_keep(num){		
+		var links = CONSOLIDATION_RESULTS[num][1];
+        
+		var comments = CONSOLIDATION_RESULTS[num][2];		
+		links_to_present = _entity_pane.get('links_to_present');
+		
+		links_to_keep = [];
+		nps.forEach((np) => {
+                var links_to_present_for_np = links_to_present[np.id];
+				
+				var links_to_keep_for_np = links_to_present_for_np.filter(lnk => links.map(l => JSON.stringify(l)).includes(JSON.stringify(lnk)));
+				
+				links_to_keep_for_np.forEach((l) =>{
+				links_to_keep.push(l);
+				});
+            });
+			
+		_entity_pane.set({
+                'links_to_keep': links_to_keep,
+				'comments':comments,
+				
+            })	
+		
+		}
+
+        function update_entity_pane() {
+            var entities = coref;
+            _entity_pane.set({
+                'links_to_keep': links_to_keep,
+				'comments':comments,
+				
+            })
+        }
+
+        //This function updates the item pane
+        function update_item_pane() {
+            var done_items = done_nps;
+            _item_pane.set({
+                'done_items': done_items
+            })
+        }
+
+        //This function updates "my links" section
+        function update_links() {
+            var links = bridges;
+            _links.set({
+                'bridges': links,
+            })
+        }
+
+
+        
+        //This function returns the entity to which the np belongs
+        function get_entity(np_id) {
+            var entity = coref.filter(entity => entity.members.includes(np_id))[0];
+            return entity;
+        }
+
+
+
+        //This function forms a new entity
+        function ui_new_entity(np_id, source) {
+            form_new_entity(np_id, source);            
+            mark_done(np_id);            
+        }
+
+
+
+        //This function assigns the np to an existing cluster
+        function ui_same_as(np_id, cluster_id) {
+            add_coref_np_to_entity(np_id, cluster_id);           
+            mark_done(np_id);
+            
+        }
+
+        //This function creates regular bridges
+        function ui_link_to_entities(np_id, cluster_ids) {
+            for (var j = 0; j < cluster_ids.length; j++) {
+                var prepId = "addPrep" + cluster_ids[j];
+                var prep = _options.get('entities').filter(entity => entity.id == cluster_ids[j])[0]["selected_preposition"];
+                link_to_entity(np_id, cluster_ids[j], prep);
+            }
+            mark_done(np_id);
+        }
+
+        //This function creates external bridges		
+        function ui_link_to_external_np(np_id, external_np, prep) {
+            link_to_external_np(np_id, external_np, prep);
+            mark_done(np_id);
+        }
+
+        //This function deletes all the bridges of an np
+        function ui_delete_bridges(np_id) {
+            var my_bridges = bridges.filter(link => link.bridge == np_id);
+            for (var j = 0; j < my_bridges.length; j++) {
+                delete_bridge(my_bridges[j].id);
+            }
+        }
+
+
+
+        
+
+
+         
+
+		
+		
+
+		
+		
+    </script>
+    <!-- the actual page, with divs that will hold components -->
+</head>
+
+<body onload = "getStartTime();">
+<div class = "container" id = "top_l">
+
+    <article class="fragment" id="fragm">
+        <div id='text'></div>
+    </article>
+</div>
+<div class = "container" id = "top_r">
+
+    <!-- <aside> -->
+        <div id="items">
+		
+		<h2 style="margin:2">Items</h2>
+            <div id="item_pane"></div>
+        </div>
+</div>
+<div class = "container" id = "mid_l">
+
+        <div id="entities">
+		
+		<p style="margin:2;margin-top:6px;"></p>
+            <div id="entity_pane"  onscroll = 'check_if_scrolled();'>
+            </div>
+        </div>
+</div>
+<div class = "container" id = "mid_r">
+
+        <div id="options">
+		
+		
+        </div>
+</div>
+
+<div class = "container" id = "bottom_l">
+
+    <!-- </aside> -->
+    <!-- <footer> -->
+        <!-- <div id="options_pane"> -->
+            <!-- <div id='button'></div> -->
+        <!-- </div> -->
+</div>
+
+    <!-- </footer> -->
+	
+</div>
+
+<div id="f_screen">
+</div>
+</body>
+<script>
+    var _text = new Ractive({
+        target: '#text',
+        template: '#text_tpl',
+        data: {
+            nps: nps,
+            text: text,
+            current: 0,
+            entities: coref,
+            screen: CURRENT_SCREEN,
+            render_text: f_render_text,
+            bridge_candidates: [],
+        },
+    });
+
+    var _entity_pane = new Ractive({
+        target: '#entity_pane',
+        template: '#entity_pane_tpl',
+        data: {
+		    bridging_results: BRIDGING_RESULTS,
+			scrolled:false,
+			current:0,
+            bridges: bridges,
+            entities: coref,
+            nps: nps,
+            stage: CURRENT_STAGE,
+            text_from_id: f_np_text_from_id,
+            hidden: true,
+            space: " ",
+            pronouns: [],
+			links_to_keep:[],
+			links_to_present:links_to_present,
+			comments:comments,
+			<!-- links_to_present: function(result, current) { -->
+			    
+				<!-- var values = []; -->
+				<!-- console.log(result[1]); -->
+				<!-- var keys = Object.keys(result[1]); -->
+				<!-- console.log(keys); -->
+<!-- keys.forEach(function(key){ -->
+    <!-- values.push(result[1][key]); -->
+<!-- }); -->
+<!-- console.log(values.filter(lnk => lnk.bridge == current));  -->
+                <!-- return (values.filter(lnk => lnk.bridge == current)) -->
+            <!-- }, -->
+			annotator: function(result) {
+			    
+                return (result[0])
+            },
+            get_complement: function(entity_id) {
+                return (this.get("entities").filter(e => e.id == entity_id)[0])
+            },
+            entity_color: function(entity) {
+                return (COLORS[entity.id % COLORS.length])
+            },
+        },
+        computed: {
+            merged_bridges: function() {
+                var mb = [];
+                this.get('bridges').forEach(lnk => {
+                    var bridge_text = this.get("nps")[lnk.bridge].text;
+                    var bridge_entity = this.get("entities").filter(e => e.members.includes(lnk.bridge))[0].id;
+                    if (mb.filter(l => this.get("nps")[l.bridge].text == bridge_text && this.get("entities").filter(e => e.members.includes(l.bridge))[0].id == bridge_entity && l.complement == lnk.complement).length == 0) {
+                        mb.push(lnk);
+                    }
+                });
+                return mb;
+            },
+        }
+
+    });
+
+    var entity_listener = _entity_pane.on('highlight', function(ctx, entity, color) {
+        highlightClass("entity" + entity.id, color);
+    });
+	
+	 _entity_pane.on('uncheck_all', function(ctx, links, np_id) {
+        if (links.filter(lnk => (lnk.bridge == np_id && lnk.complement == 'none')).length > 0 && links.filter(lnk => (lnk.bridge == np_id && lnk.complement != 'none')).length > 0){
+		if (confirm("Checking this option will uncheck all the other options.")) {
+                links = links.filter(lnk => !(lnk.bridge == np_id && lnk.complement != 'none'));
+				<!-- alert(JSON.stringify(links)); -->
+				} else {
+				links = links.filter(lnk => !(lnk.bridge == np_id && lnk.complement == 'none'));
+				}				
+				this.set({
+                'links_to_keep': links,
+            });
+			} 			
+    });
+	
+	 _entity_pane.on('uncheck_no_link', function(ctx, links,np_id) {
+        if (links.filter(lnk => (lnk.bridge == np_id && lnk.complement == 'none')).length > 0 && links.length > 1) {
+            links = links.filter(lnk => !(lnk.bridge == np_id && lnk.complement == 'none'));
+            this.set({
+                'links_to_keep': links,
+            });
+        }
+    });
+
+    var _item_pane = new Ractive({
+        target: '#item_pane',
+        template: '#items_tpl',
+        data: {
+            nps: nps,
+            stage: CURRENT_STAGE,
+            done_items: done_nps,
+			current_np_id:0,	
+        },
+    });
+
+    var item_listener = _item_pane.on('go_to_np', function(ctx, np) {
+        go_to_np(np.id);
+    });
+
+    var _options = new Ractive({
+        target: '#options',
+        template: '#options_tpl',
+        data: {
+		    bridging_results: CONSOLIDATION_RESULTS,
+			current:0,
+            bridges: bridges,
+            entities: coref,
+            nps: nps,
+            stage: CURRENT_STAGE,
+            text_from_id: f_np_text_from_id,
+            hidden: true,
+            space: " ",
+            pronouns: [],
+			links_to_present: function(result, current) {
+			
+			    
+				<!-- var values = []; -->
+				<!-- var keys = Object.keys(result[1]); -->
+<!-- keys.forEach(function(key){ -->
+    <!-- values.push(result[1][key]); -->
+<!-- }); -->
+console.log(result[1].filter(lnk => lnk.bridge == current)); 
+                return (result[1].filter(lnk => lnk.bridge == current))
+            },
+			annotator: function(result) {
+			    
+                return ("Annotator " + result[0])
+            },		
+			
+			coms: function(result) {
+			    
+                return (result[2])
+            },
+            get_complement: function(entity_id) {
+                return (this.get("entities").filter(e => e.id == entity_id)[0])
+            },
+            entity_color: function(entity) {
+                return (COLORS[entity.id % COLORS.length])
+            },
+        },
+        computed: {
+            merged_bridges: function() {
+                var mb = [];
+                this.get('bridges').forEach(lnk => {
+                    var bridge_text = this.get("nps")[lnk.bridge].text;
+                    var bridge_entity = this.get("entities").filter(e => e.members.includes(lnk.bridge))[0].id;
+                    if (mb.filter(l => this.get("nps")[l.bridge].text == bridge_text && this.get("entities").filter(e => e.members.includes(l.bridge))[0].id == bridge_entity && l.complement == lnk.complement).length == 0) {
+                        mb.push(lnk);
+                    }
+                });
+                return mb;
+            },
+        }
+
+    });
+
+    var options_listener = _options.on('highlight', function(ctx, entity, color) {
+        highlightClass("entity" + entity.id, color);
+    });
+	var _button = new Ractive({
+        target: '#button',
+        template: '#button_tpl',
+        data: {
+            screen: CURRENT_SCREEN,
+        },
+        
+    });
+
+   _button.on('next_step', function(ctx) {	
+       	
+		  var div = document.getElementById('entity_pane');
+		  var hasVerticalScrollbar = div.scrollHeight > div.clientHeight;
+		  if(_entity_pane.get('scrolled')||(!hasVerticalScrollbar)){
+               showNextExpression();
+			  } else {
+			  alert('Please, make sure to scroll all the way down to see all the suggested links and check all the links that apply!')
+			  }
+          
+           
+        
+    });
+
+   
+    
+	
+	
+	var _intro_screen = new Ractive({
+        target: '#i_screen',
+        template: '#intro_screen_tpl',
+        data: {            <!-- crf_clusters:"", -->
+			val:"Go to training",
+			displayed:true,
+        },
+        
+    });
+    //For testing
+    go_to_bridging_stage();
+	
+</script>
+
+</html>

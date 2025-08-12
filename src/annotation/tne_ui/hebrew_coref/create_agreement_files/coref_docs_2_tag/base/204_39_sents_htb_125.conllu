@@ -1,0 +1,1697 @@
+# doc_id = htb:125
+# doc_range = 1-286
+# sent_id = 2960
+# text = תשורת המשך אשר לה תנאים הניתנים לחוסכים ותיקים בלבד", כותב סניף מסניפי בנק לאומי ללקוחה, שתוכנית החיסכון צמודת-המדד שלה עמדה לפידיון בחודש שעבר (אוקטובר).
+1	תשורת	תשורה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	15	obj	_	_
+2	המשך	המשך	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+3	אשר	אשר	SCONJ	SCONJ	_	5	mark	_	_
+4-5	לה	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	acl:relcl	_	_
+6	תנאים	תנאי	NOUN	NOUN	Gender=Masc|Number=Plur	5	nsubj	_	_
+7-8	הניתנים	_	_	_	_	_	_	_	_
+7	ה	ה	SCONJ	SCONJ	_	8	mark	_	_
+8	ניתנים	ניתן	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	6	acl:relcl	_	_
+9-10	לחוסכים	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	10	case	_	_
+10	חוסכים	חסך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	8	obl	_	_
+11	ותיקים	ותיק	ADJ	ADJ	Gender=Masc|Number=Plur	10	amod	_	_
+12	בלבד	בלבד	ADV	ADV	_	10	advmod	_	SpaceAfter=No
+13	"	"	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	1	punct	_	_
+15	כותב	כתב	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+16	סניף	סניף	NOUN	NOUN	Gender=Masc|Number=Sing	15	nsubj	_	_
+17-18	מסניפי	_	_	_	_	_	_	_	_
+17	מ	מ	ADP	ADP	_	18	case	_	_
+18	סניפי	סניף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	16	nmod	_	_
+19	בנק	בנק	NOUN	NOUN	Gender=Masc|Number=Sing	18	compound:smixut	_	_
+20	לאומי	לאומי	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	_
+21-23	ללקוחה	_	_	_	_	_	_	_	SpaceAfter=No
+21	ל	ל	ADP	ADP	_	23	case	_	_
+22	ה_	ה	DET	DET	PronType=Art|Definite=Def	23	det	_	_
+23	לקוחה	לקוח	NOUN	NOUN	Gender=Fem|Number=Sing	15	obl	_	_
+24	,	,	PUNCT	PUNCT	_	35	punct	_	_
+25-26	שתוכנית	_	_	_	_	_	_	_	_
+25	ש	ש	SCONJ	SCONJ	_	35	mark	_	_
+26	תוכנית	תוכנית	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	35	nsubj	_	_
+27-28	החיסכון	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	חיסכון	חיסכון	NOUN	NOUN	Gender=Masc|Number=Sing	26	compound:smixut	_	_
+29	צמודת	צמוד	ADJ	ADJ	Definite=Cons|Gender=Fem|Number=Sing	26	amod	_	SpaceAfter=No
+30	-	-	PUNCT	PUNCT	_	32	punct	_	SpaceAfter=No
+31-32	המדד	_	_	_	_	_	_	_	_
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	מדד	מדד	NOUN	NOUN	Gender=Masc|Number=Sing	29	obl	_	_
+33-34	שלה	_	_	_	_	_	_	_	_
+33	של	של	ADP	ADP	Case=Gen	34	case	_	_
+34	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	nmod	_	_
+35	עמדה	עמד	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Past	23	acl:relcl	_	_
+36-37	לפידיון	_	_	_	_	_	_	_	_
+36	ל	ל	ADP	ADP	_	37	case	_	_
+37	פידיון	פדיון	NOUN	NOUN	Gender=Masc|Number=Sing	35	obl	_	_
+38-40	בחודש	_	_	_	_	_	_	_	_
+38	ב	ב	ADP	ADP	_	40	case	_	_
+39	ה_	ה	DET	DET	PronType=Art|Definite=Def	40	det	_	_
+40	חודש	חודש	NOUN	NOUN	Gender=Masc|Number=Sing	35	obl	_	_
+41-42	שעבר	_	_	_	_	_	_	_	_
+41	ש	ש	SCONJ	SCONJ	_	42	mark	_	_
+42	עבר	עבר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	40	acl:relcl	_	_
+43	(	(	PUNCT	PUNCT	_	44	punct	_	SpaceAfter=No
+44	אוקטובר	אוקטובר	PROPN	PROPN	_	40	appos	_	SpaceAfter=No
+45	)	)	PUNCT	PUNCT	_	44	punct	_	SpaceAfter=No
+46	.	.	PUNCT	PUNCT	_	15	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 290-467
+# sent_id = 2961
+# text = בהמשך נאמר, בין השאר, כי "מועדי היציאה הגמישים של כוח תשורת המשך הופכים את התוכנית לאטרקטיווית".
+1-3	בהמשך	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	המשך	המשך	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+4	נאמר	נאמר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	8	punct	_	_
+6	בין	בין	ADP	ADP	_	8	case	_	_
+7-8	השאר	_	_	_	_	_	_	_	SpaceAfter=No
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	שאר	שאר	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+9	,	,	PUNCT	PUNCT	_	21	punct	_	_
+10	כי	כי	SCONJ	SCONJ	_	21	mark	_	_
+11	"	"	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No
+12	מועדי	מועד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	21	nsubj	_	_
+13-14	היציאה	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	יציאה	יציאה	NOUN	NOUN	Gender=Fem|Number=Sing	12	compound:smixut	_	_
+15-16	הגמישים	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	גמישים	גמיש	ADJ	ADJ	Gender=Masc|Number=Plur	12	amod	_	_
+17	של	של	ADP	ADP	Case=Gen	18	case	_	_
+18	כוח	כוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	nmod	_	_
+19	תשורת	תשורה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	18	compound:smixut	_	_
+20	המשך	המשך	NOUN	NOUN	Gender=Masc|Number=Sing	19	compound:smixut	_	_
+21	הופכים	הפך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	4	advcl	_	_
+22	את	את	ADP	ADP	Case=Acc	24	case	_	_
+23-24	התוכנית	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	תוכנית	תוכנית	NOUN	NOUN	Gender=Fem|Number=Sing	21	obj	_	_
+25-26	לאטרקטיווית	_	_	_	_	_	_	_	SpaceAfter=No
+25	ל	ל	ADP	ADP	_	26	case	_	_
+26	אטרקטיווית	אטרקטיבי	ADJ	ADJ	Gender=Fem|Number=Sing	21	obl	_	_
+27	"	"	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No
+28	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 469-796
+# sent_id = 2962
+# text = להלן הודיע הבנק ללקוחה כי יעביר את הכספים שהצטברו לזכותה, כולל כל ההטבות, לתוכנית חדשה ("כוח תשורת המשך"), כאשר המדד היסודי לגבי התוכנית החדשה יהיה המדד שיפורסם בגין אוקטובר 1990.
+1	להלן	להלן	ADV	ADV	_	2	advmod	_	_
+2	הודיע	הודיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3-4	הבנק	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	בנק	בנק	NOUN	NOUN	Gender=Masc|Number=Sing	2	nsubj	_	_
+5-7	ללקוחה	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	7	case	_	_
+6	ה_	ה	DET	DET	PronType=Art|Definite=Def	7	det	_	_
+7	לקוחה	לקוח	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl	_	_
+8	כי	כי	SCONJ	SCONJ	_	9	mark	_	_
+9	יעביר	העביר	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	2	ccomp	_	_
+10	את	את	ADP	ADP	Case=Acc	12	case	_	_
+11-12	הכספים	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	כספים	כסף	NOUN	NOUN	Gender=Masc|Number=Plur	9	obj	_	_
+13-14	שהצטברו	_	_	_	_	_	_	_	_
+13	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
+14	הצטברו	הצטבר	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	12	acl:relcl	_	_
+15-18	לזכותה	_	_	_	_	_	_	_	SpaceAfter=No
+15	ל	ל	ADP	ADP	_	16	case	_	_
+16	זכות	זכות	NOUN	NOUN	Gender=Fem|Number=Sing	14	obl	_	_
+17	_של_	של	ADP	ADP	Case=Gen	18	case:gen	_	_
+18	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+19	,	,	PUNCT	PUNCT	_	23	punct	_	_
+20	כולל	כלל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	23	case	_	_
+21	כל	כול	DET	DET	Definite=Cons	23	det	_	_
+22-23	ההטבות	_	_	_	_	_	_	_	SpaceAfter=No
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	הטבות	הטבה	NOUN	NOUN	Gender=Fem|Number=Plur	14	obl	_	_
+24	,	,	PUNCT	PUNCT	_	26	punct	_	_
+25-26	לתוכנית	_	_	_	_	_	_	_	_
+25	ל	ל	ADP	ADP	_	26	case	_	_
+26	תוכנית	תוכנית	NOUN	NOUN	Gender=Fem|Number=Sing	14	obl	_	_
+27	חדשה	חדש	ADJ	ADJ	Gender=Fem|Number=Sing	26	amod	_	_
+28	(	(	PUNCT	PUNCT	_	30	punct	_	SpaceAfter=No
+29	"	"	PUNCT	PUNCT	_	30	punct	_	SpaceAfter=No
+30	כוח	כוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	26	appos	_	_
+31	תשורת	תשורה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	30	compound:smixut	_	_
+32	המשך	המשך	NOUN	NOUN	Gender=Masc|Number=Sing	31	compound:smixut	_	SpaceAfter=No
+33	"	"	PUNCT	PUNCT	_	30	punct	_	SpaceAfter=No
+34	)	)	PUNCT	PUNCT	_	30	punct	_	SpaceAfter=No
+35	,	,	PUNCT	PUNCT	_	48	punct	_	_
+36	כאשר	כאשר	SCONJ	SCONJ	_	48	mark	_	_
+37-38	המדד	_	_	_	_	_	_	_	_
+37	ה	ה	DET	DET	Definite=Def|PronType=Art	38	det	_	_
+38	מדד	מדד	NOUN	NOUN	Gender=Masc|Number=Sing	48	nsubj	_	_
+39-40	היסודי	_	_	_	_	_	_	_	_
+39	ה	ה	DET	DET	Definite=Def|PronType=Art	40	det	_	_
+40	יסודי	יסודי	ADJ	ADJ	Gender=Masc|Number=Sing	38	amod	_	_
+41	לגבי	לגבי	ADP	ADP	_	43	case	_	_
+42-43	התוכנית	_	_	_	_	_	_	_	_
+42	ה	ה	DET	DET	Definite=Def|PronType=Art	43	det	_	_
+43	תוכנית	תוכנית	NOUN	NOUN	Gender=Fem|Number=Sing	38	nmod	_	_
+44-45	החדשה	_	_	_	_	_	_	_	_
+44	ה	ה	DET	DET	Definite=Def|PronType=Art	45	det	_	_
+45	חדשה	חדש	ADJ	ADJ	Gender=Fem|Number=Sing	43	amod	_	_
+46	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	48	cop	_	_
+47-48	המדד	_	_	_	_	_	_	_	_
+47	ה	ה	DET	DET	Definite=Def|PronType=Art	48	det	_	_
+48	מדד	מדד	NOUN	NOUN	Gender=Masc|Number=Sing	14	advcl	_	_
+49-50	שיפורסם	_	_	_	_	_	_	_	_
+49	ש	ש	SCONJ	SCONJ	_	50	mark	_	_
+50	יפורסם	פורסם	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	48	acl:relcl	_	_
+51	בגין	בגין	ADP	ADP	_	52	case	_	_
+52	אוקטובר	אוקטובר	PROPN	PROPN	_	50	obl	_	_
+53	1990	1990	NUM	NUM	_	52	nmod:tmod	_	SpaceAfter=No
+54	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 798-878
+# sent_id = 2963
+# text = להודעה צורף עלון המפרט את תנאי תוכנית ההמשך.
+1-3	להודעה	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	הודעה	הודעה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+4	צורף	צורף	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+5	עלון	עלון	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+6-7	המפרט	_	_	_	_	_	_	_	_
+6	ה	ה	SCONJ	SCONJ	_	7	mark	_	_
+7	מפרט	פירט	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	5	acl:relcl	_	_
+8	את	את	ADP	ADP	Case=Acc	9	case	_	_
+9	תנאי	תנאי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	7	obj	_	_
+10	תוכנית	תוכנית	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	compound:smixut	_	_
+11-12	ההמשך	_	_	_	_	_	_	_	SpaceAfter=No
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	המשך	המשך	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
+13	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 881-1120
+# sent_id = 2964
+# text = הלקוחה, שכרבים אחרים אינה מתמצאת בנבכי תוכניות החיסכון ותנאיהן המורכבים, פנתה לסניף לקבל הסברים נוספים, ושם ציפו לה הפתעות אחדות.
+1-2	הלקוחה	_	_	_	_	_	_	_	SpaceAfter=No
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	לקוחה	לקוח	NOUN	NOUN	Gender=Fem|Number=Sing	21	nsubj	_	_
+3	,	,	PUNCT	PUNCT	_	9	punct	_	_
+4-6	שכרבים	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
+5	כ	כ	ADP	ADP	_	6	case	_	_
+6	רבים	רב	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	9	obl	_	_
+7	אחרים	אחר	ADJ	ADJ	Gender=Masc|Number=Plur	6	amod	_	_
+8	אינה	אינו	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	9	aux	_	_
+9	מתמצאת	התמצא	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	2	acl:relcl	_	_
+10-11	בנבכי	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	נבכי	נבך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	9	obl	_	_
+12	תוכניות	תוכנית	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	11	compound:smixut	_	_
+13-14	החיסכון	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	חיסכון	חיסכון	NOUN	NOUN	Gender=Masc|Number=Sing	12	compound:smixut	_	_
+15-17	ותנאיהן	_	_	_	_	_	_	_	_
+15	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+16	תנאי	תנאי	NOUN	NOUN	Gender=Masc|Number=Plur	12	conj	_	_
+17	הן	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+18-19	המורכבים	_	_	_	_	_	_	_	SpaceAfter=No
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	מורכבים	מורכב	ADJ	ADJ	Gender=Masc|Number=Plur	16	amod	_	_
+20	,	,	PUNCT	PUNCT	_	2	punct	_	_
+21	פנתה	פנה	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+22-24	לסניף	_	_	_	_	_	_	_	_
+22	ל	ל	ADP	ADP	_	24	case	_	_
+23	ה_	ה	DET	DET	PronType=Art|Definite=Def	24	det	_	_
+24	סניף	סניף	NOUN	NOUN	Gender=Masc|Number=Sing	21	obl	_	_
+25	לקבל	קיבל	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	21	xcomp	_	_
+26	הסברים	הסבר	NOUN	NOUN	Gender=Masc|Number=Plur	25	obj	_	_
+27	נוספים	נוסף	ADJ	ADJ	Gender=Masc|Number=Plur	26	amod	_	SpaceAfter=No
+28	,	,	PUNCT	PUNCT	_	31	punct	_	_
+29-30	ושם	_	_	_	_	_	_	_	_
+29	ו	ו	CCONJ	CCONJ	_	31	cc	_	_
+30	שם	שם	ADV	ADV	_	31	advmod	_	_
+31	ציפו	ציפה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	21	conj	_	_
+32-33	לה	_	_	_	_	_	_	_	_
+32	ל	ל	ADP	ADP	_	33	case	_	_
+33	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	obl	_	_
+34	הפתעות	הפתעה	NOUN	NOUN	Gender=Fem|Number=Plur	31	nsubj	_	_
+35	אחדות	אחדים	ADJ	ADJ	Gender=Fem|Number=Plur	34	amod	_	SpaceAfter=No
+36	.	.	PUNCT	PUNCT	_	21	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 1122-1257
+# sent_id = 2965
+# text = ראשית, כך הבינה, אין המדובר למעשה בתוכנית המשך, אלא בתוכנית חיסכון רגילה.
+1	ראשית	ראשית	ADV	ADV	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	4	punct	_	_
+3	כך	כך	PRON	PRON	Person=3|PronType=Dem	4	obj	_	_
+4	הבינה	הבין	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	8	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	4	punct	_	_
+6	אין	אין	ADV	ADV	Polarity=Neg	8	advmod	_	_
+7-8	המדובר	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	dep	_	_
+8	מדובר	דובר	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+9	למעשה	למעשה	ADV	ADV	_	8	advmod	_	_
+10-11	בתוכנית	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	תוכנית	תוכנית	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	8	obl	_	_
+12	המשך	המשך	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound:smixut	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	16	punct	_	_
+14	אלא	אלא	CCONJ	CCONJ	_	16	cc	_	_
+15-16	בתוכנית	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	תוכנית	תוכנית	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	11	conj	_	_
+17	חיסכון	חיסכון	NOUN	NOUN	Gender=Masc|Number=Sing	16	compound:smixut	_	_
+18	רגילה	רגיל	ADJ	ADJ	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 1260-1419
+# sent_id = 2966
+# text = שנית, "מועדי היציאה הגמישים" פירושם שעליה להמתין שנתיים לפחות בטרם תוכל לשחרר את כספה.
+1	שנית	שנית	ADV	ADV	_	15	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3	"	"	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
+4	מועדי	מועד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	15	dislocated	_	_
+5-6	היציאה	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	יציאה	יציאה	NOUN	NOUN	Gender=Fem|Number=Sing	4	compound:smixut	_	_
+7-8	הגמישים	_	_	_	_	_	_	_	SpaceAfter=No
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	גמישים	גמיש	ADJ	ADJ	Gender=Masc|Number=Plur	4	amod	_	_
+9	"	"	PUNCT	PUNCT	_	4	punct	_	_
+10-12	פירושם	_	_	_	_	_	_	_	_
+10	פירוש	פירוש	NOUN	NOUN	Gender=Masc|Number=Sing	15	nsubj	_	_
+11	_של_	של	ADP	ADP	Case=Gen	12	case:gen	_	_
+12	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+13-15	שעליה	_	_	_	_	_	_	_	_
+13	ש	ש	SCONJ	SCONJ	_	15	mark	_	_
+14	על	על	ADP	ADP	_	15	case	_	_
+15	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+16	להמתין	המתין	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+17	שנתיים	שנה	NOUN	NOUN	Gender=Fem|Number=Dual	16	obl	_	_
+18	לפחות	לפחות	ADV	ADV	_	17	advmod	_	HebSource=ConvUncertainHead
+19	בטרם	בטרם	ADP	ADP	_	21	case	_	_
+20	תוכל	תוכל	AUX	AUX	Gender=Masc|Number=Sing|Person=2|Tense=Fut|VerbType=Mod	21	aux	_	_
+21	לשחרר	שחרר	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	16	obl	_	_
+22	את	את	ADP	ADP	Case=Acc	23	case	_	_
+23-25	כספה	_	_	_	_	_	_	_	SpaceAfter=No
+23	כסף	כסף	NOUN	NOUN	Gender=Masc|Number=Sing	21	obj	_	_
+24	_של_	של	ADP	ADP	Case=Gen	25	case:gen	_	_
+25	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	_
+26	.	.	PUNCT	PUNCT	_	15	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 1421-1497
+# sent_id = 2967
+# text = שלישית, הריבית, כך נאמר לה, לדבריה, היא 5.0%.
+1	שלישית	שלישית	ADV	ADV	_	18	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3-4	הריבית	_	_	_	_	_	_	_	SpaceAfter=No
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	ריבית	ריבית	NOUN	NOUN	Gender=Fem|Number=Sing	18	nsubj	_	_
+5	,	,	PUNCT	PUNCT	_	7	punct	_	_
+6	כך	כך	PRON	PRON	Person=3|PronType=Dem	7	obj	_	_
+7	נאמר	נאמר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	18	parataxis	_	_
+8-9	לה	_	_	_	_	_	_	_	SpaceAfter=No
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obl	_	_
+10	,	,	PUNCT	PUNCT	_	7	punct	_	_
+11-14	לדבריה	_	_	_	_	_	_	_	SpaceAfter=No
+11	ל	ל	ADP	ADP	_	12	case	_	_
+12	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	18	nmod	_	_
+13	_של_	של	ADP	ADP	Case=Gen	14	case:gen	_	_
+14	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+15	,	,	PUNCT	PUNCT	_	12	punct	_	_
+16	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	18	cop	_	_
+17	5.0	5.0	NUM	NUM	_	18	nummod	_	SpaceAfter=No
+18	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	18	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 1505-1587
+# sent_id = 2968
+# text = במכתבה אלי היא מסכמת: "מה כאן תשורה ומה ההמשך?
+1-4	במכתבה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	מכתב	מכתב	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+3	_של_	של	ADP	ADP	Case=Gen	4	case:gen	_	_
+4	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5-6	אלי	_	_	_	_	_	_	_	_
+5	אל	אל	ADP	ADP	_	6	case	_	_
+6	_אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	2	nmod	_	_
+7	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	מסכמת	סיכם	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
+9	:	:	PUNCT	PUNCT	_	11	punct	_	_
+10	"	"	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+11	מה	מה	PRON	PRON	PronType=Int	8	advcl	_	_
+12	כאן	כאן	ADV	ADV	_	11	advmod	_	_
+13	תשורה	תשורה	NOUN	NOUN	Gender=Fem|Number=Sing	11	nsubj	_	_
+14-15	ומה	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+15	מה	מה	PRON	PRON	PronType=Int	11	conj	_	_
+16-17	ההמשך	_	_	_	_	_	_	_	SpaceAfter=No
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	המשך	המשך	NOUN	NOUN	Gender=Masc|Number=Sing	15	nsubj	_	_
+18	?	?	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 1590-1653
+# sent_id = 2969
+# text = האם הבנק מוליך שולל את החוסך התמים?
+1	האם	האם	ADV	ADV	PronType=Int	4	mark	_	_
+2-3	הבנק	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	בנק	בנק	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	מוליך	הוליך	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+5	שולל	שולל	NOUN	NOUN	Gender=Masc|Number=Sing	4	dep	_	_
+6	את	את	ADP	ADP	Case=Acc	8	case	_	_
+7-8	החוסך	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	חוסך	חסך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	4	obj	_	_
+9-10	התמים	_	_	_	_	_	_	_	SpaceAfter=No
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	תמים	תמים	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	_
+11	?	?	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 1656-1791
+# sent_id = 2970
+# text = ביקשתי וקיבלתי הסברים מדובר בנק לאומי ולמדתי כמה דברים שהיו חדשים בשבילי.
+1	ביקשתי	ביקש	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	_
+2-3	וקיבלתי	_	_	_	_	_	_	_	_
+2	ו	ו	CCONJ	CCONJ	_	3	cc	_	_
+3	קיבלתי	קיבל	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Sing|Person=1|Tense=Past|Voice=Act	1	conj	_	_
+4	הסברים	הסבר	NOUN	NOUN	Gender=Masc|Number=Plur	1	obj	_	_
+5-6	מדובר	_	_	_	_	_	_	_	_
+5	מ	מ	ADP	ADP	_	6	case	_	_
+6	דובר	דובר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nmod	_	_
+7	בנק	בנק	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+8	לאומי	לאומי	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	_
+9-10	ולמדתי	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+10	למדתי	למד	VERB	VERB	Gender=Fem,Masc|Number=Sing|Person=1|Tense=Past	1	conj	_	_
+11	כמה	כמה	DET	DET	Definite=Cons	12	det	_	_
+12	דברים	דבר	NOUN	NOUN	Gender=Masc|Number=Plur	10	obj	_	_
+13-14	שהיו	_	_	_	_	_	_	_	_
+13	ש	ש	SCONJ	SCONJ	_	15	mark	_	_
+14	היו	היה	AUX	AUX	Gender=Fem,Masc|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	15	cop	_	_
+15	חדשים	חדש	ADJ	ADJ	Gender=Masc|Number=Plur	12	acl:relcl	_	_
+16-17	בשבילי	_	_	_	_	_	_	_	SpaceAfter=No
+16	בשביל	בשביל	ADP	ADP	_	17	case	_	_
+17	_אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	15	obl	_	_
+18	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 1793-1828
+# sent_id = 2971
+# text = ראשית, פרשת "שמות".
+1	ראשית	ראשית	ADV	ADV	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3	פרשת	פרשה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	0	root	_	_
+4	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+5	שמות	שם	NOUN	NOUN	Gender=Masc|Number=Plur	3	compound:smixut	_	SpaceAfter=No
+6	"	"	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 1830-2031
+# sent_id = 2972
+# text = תמיד סיקרן אותי לדעת מי המציא את השמות המוזרים הללו לתוכניות החיסכון, שהתהדרו עתה בשם המוזר "כוח תשורת המשך".
+1	תמיד	תמיד	ADV	ADV	_	2	advmod	_	_
+2	סיקרן	סקרן	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3-4	אותי	_	_	_	_	_	_	_	_
+3	את	את	ADP	ADP	Case=Acc	4	case	_	_
+4	_אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+5	לדעת	ידע	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+6	מי	מי	PRON	PRON	PronType=Int	7	nsubj	_	_
+7	המציא	המציא	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	5	advcl	_	_
+8	את	את	ADP	ADP	Case=Acc	10	case	_	_
+9-10	השמות	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	שמות	שם	NOUN	NOUN	Gender=Masc|Number=Plur	7	obj	_	_
+11-12	המוזרים	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	מוזרים	מוזר	ADJ	ADJ	Gender=Masc|Number=Plur	10	amod	_	_
+13	הללו	הללו	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	10	det	_	_
+14-15	לתוכניות	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	תוכניות	תוכנית	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	10	nmod	_	_
+16-17	החיסכון	_	_	_	_	_	_	_	SpaceAfter=No
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	חיסכון	חיסכון	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	_
+18	,	,	PUNCT	PUNCT	_	20	punct	_	_
+19-20	שהתהדרו	_	_	_	_	_	_	_	_
+19	ש	ש	SCONJ	SCONJ	_	20	mark	_	_
+20	התהדרו	התהדר	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	15	acl:relcl	_	_
+21	עתה	עתה	ADV	ADV	_	20	advmod	_	_
+22-24	בשם	_	_	_	_	_	_	_	_
+22	ב	ב	ADP	ADP	_	24	case	_	_
+23	ה_	ה	DET	DET	PronType=Art|Definite=Def	24	det	_	_
+24	שם	שם	NOUN	NOUN	Gender=Masc|Number=Sing	20	obl	_	_
+25-26	המוזר	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	מוזר	מוזר	ADJ	ADJ	Gender=Masc|Number=Sing	24	amod	_	_
+27	"	"	PUNCT	PUNCT	_	28	punct	_	SpaceAfter=No
+28	כוח	כוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	24	appos	_	_
+29	תשורת	תשורה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	28	compound:smixut	_	_
+30	המשך	המשך	NOUN	NOUN	Gender=Masc|Number=Sing	29	compound:smixut	_	SpaceAfter=No
+31	"	"	PUNCT	PUNCT	_	28	punct	_	SpaceAfter=No
+32	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 2033-2484
+# sent_id = 2973
+# text = למדתי שזכות היוצרים מחולקת בין האוצר לבין הבנקים: האוצר, באשרו מסגרת כללית לסוג תוכניות מסוים, המציא את השם "תשורה" (קודם לכן "תשואה"), ועתה התיר להוסיף את התיבה "המשך" לתוכנית מתוקנת; בנק לאומי המציא את "כוח", בנק הפועלים הבריק ב"מטמון" וכולי.
+1	למדתי	למד	VERB	VERB	Gender=Fem,Masc|Number=Sing|Person=1|Tense=Past	0	root	_	_
+2-3	שזכות	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	6	mark	_	_
+3	זכות	זכות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+4-5	היוצרים	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	יוצרים	יוצר	NOUN	NOUN	Gender=Masc|Number=Plur	3	compound:smixut	_	_
+6	מחולקת	חולק	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	1	ccomp	_	_
+7	בין	בין	ADP	ADP	_	9	case	_	_
+8-9	האוצר	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	אוצר	אוצר	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+10	לבין	לבין	ADP	ADP	_	12	case	_	_
+11-12	הבנקים	_	_	_	_	_	_	_	SpaceAfter=No
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	בנקים	בנק	NOUN	NOUN	Gender=Masc|Number=Plur	9	conj	_	_
+13	:	:	PUNCT	PUNCT	_	26	punct	_	_
+14-15	האוצר	_	_	_	_	_	_	_	SpaceAfter=No
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	אוצר	אוצר	NOUN	NOUN	Gender=Masc|Number=Sing	26	nsubj	_	_
+16	,	,	PUNCT	PUNCT	_	15	punct	_	_
+17-18	באשרו	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	_	18	case	_	_
+18	אשרו	אישר	NOUN	NOUN	_	26	obl	_	_
+19	מסגרת	מסגרת	NOUN	NOUN	Gender=Fem|Number=Sing	18	nmod	_	HebSource=ConvUncertainLabel
+20	כללית	כללי	ADJ	ADJ	Gender=Fem|Number=Sing	19	amod	_	_
+21-22	לסוג	_	_	_	_	_	_	_	_
+21	ל	ל	ADP	ADP	_	22	case	_	_
+22	סוג	סוג	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	19	nmod	_	_
+23	תוכניות	תוכנית	NOUN	NOUN	Gender=Fem|Number=Plur	22	compound:smixut	_	_
+24	מסוים	מסוים	ADJ	ADJ	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+25	,	,	PUNCT	PUNCT	_	18	punct	_	_
+26	המציא	המציא	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	6	parataxis	_	_
+27	את	את	ADP	ADP	Case=Acc	29	case	_	_
+28-29	השם	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	שם	שם	NOUN	NOUN	Gender=Masc|Number=Sing	26	obj	_	_
+30	"	"	PUNCT	PUNCT	_	31	punct	_	SpaceAfter=No
+31	תשורה	תשורה	NOUN	NOUN	Gender=Fem|Number=Sing	29	appos	_	SpaceAfter=No
+32	"	"	PUNCT	PUNCT	_	31	punct	_	_
+33	(	(	PUNCT	PUNCT	_	34	punct	_	SpaceAfter=No
+34	קודם	קודם	ADV	ADV	_	29	appos	_	_
+35-37	לכן	_	_	_	_	_	_	_	_
+35	ל	ל	ADP	ADP	_	34	fixed	_	_
+36	ה_	ה	DET	DET	PronType=Art|Definite=Def	37	det	_	_
+37	כן	כן	PRON	PRON	Person=3|PronType=Dem	34	fixed	_	_
+38	"	"	PUNCT	PUNCT	_	39	punct	_	SpaceAfter=No
+39	תשואה	תשואה	NOUN	NOUN	Gender=Fem|Number=Sing	34	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+40	"	"	PUNCT	PUNCT	_	39	punct	_	SpaceAfter=No
+41	)	)	PUNCT	PUNCT	_	34	punct	_	SpaceAfter=No
+42	,	,	PUNCT	PUNCT	_	45	punct	_	_
+43-44	ועתה	_	_	_	_	_	_	_	_
+43	ו	ו	CCONJ	CCONJ	_	45	cc	_	_
+44	עתה	עתה	ADV	ADV	_	45	advmod	_	_
+45	התיר	התיר	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	26	conj	_	_
+46	להוסיף	הוסיף	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	45	xcomp	_	_
+47	את	את	ADP	ADP	Case=Acc	49	case	_	_
+48-49	התיבה	_	_	_	_	_	_	_	_
+48	ה	ה	DET	DET	Definite=Def|PronType=Art	49	det	_	_
+49	תיבה	תיבה	NOUN	NOUN	Gender=Fem|Number=Sing	46	obj	_	_
+50	"	"	PUNCT	PUNCT	_	51	punct	_	SpaceAfter=No
+51	המשך	המשך	NOUN	NOUN	Gender=Masc|Number=Sing	49	appos	_	SpaceAfter=No
+52	"	"	PUNCT	PUNCT	_	51	punct	_	_
+53-54	לתוכנית	_	_	_	_	_	_	_	_
+53	ל	ל	ADP	ADP	_	54	case	_	_
+54	תוכנית	תוכנית	NOUN	NOUN	Gender=Fem|Number=Sing	46	obl	_	_
+55	מתוקנת	מתוקן	ADJ	ADJ	Gender=Fem|Number=Sing	54	amod	_	SpaceAfter=No
+56	;	;	PUNCT	PUNCT	_	59	punct	_	_
+57	בנק	בנק	NOUN	NOUN	Gender=Masc|Number=Sing	59	nsubj	_	_
+58	לאומי	לאומי	ADJ	ADJ	Gender=Masc|Number=Sing	57	amod	_	_
+59	המציא	המציא	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	26	conj	_	_
+60	את	את	ADP	ADP	Case=Acc	62	case	_	_
+61	"	"	PUNCT	PUNCT	_	62	punct	_	SpaceAfter=No
+62	כוח	כוח	NOUN	NOUN	Gender=Masc|Number=Sing	59	obj	_	SpaceAfter=No
+63	"	"	PUNCT	PUNCT	_	62	punct	_	SpaceAfter=No
+64	,	,	PUNCT	PUNCT	_	68	punct	_	_
+65	בנק	בנק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	68	nsubj	_	_
+66-67	הפועלים	_	_	_	_	_	_	_	_
+66	ה	ה	DET	DET	Definite=Def|PronType=Art	67	det	_	_
+67	פועלים	פועל	NOUN	NOUN	Gender=Masc|Number=Plur	65	compound:smixut	_	_
+68	הבריק	הבריק	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	26	conj	_	_
+69-71	ב"מטמון	_	_	_	_	_	_	_	SpaceAfter=No
+69	ב	ב	ADP	ADP	_	71	case	_	_
+70	"	"	PUNCT	PUNCT	_	71	punct	_	_
+71	מטמון	מטמון	NOUN	NOUN	Gender=Masc|Number=Sing	68	obl	_	_
+72	"	"	PUNCT	PUNCT	_	71	punct	_	_
+73-74	וכולי	_	_	_	_	_	_	_	SpaceAfter=No
+73	ו	ו	CCONJ	CCONJ	_	74	cc	_	_
+74	כולי	כול	ADV	ADV	_	26	conj	_	_
+75	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 2486-2639
+# sent_id = 2974
+# text = במה מתבטא ה"המשך", כלומר, מה הם ה"תנאים הניתנים לחוסכים ותיקים בלבד" בתוכניות ההמשך?
+1-2	במה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	מה	מה	PRON	PRON	PronType=Int	3	obl	_	_
+3	מתבטא	התבטא	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+4-6	ה"המשך	_	_	_	_	_	_	_	SpaceAfter=No
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	6	dep	_	_
+5	"	"	PUNCT	PUNCT	_	6	punct	_	_
+6	המשך	המשך	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+7	"	"	PUNCT	PUNCT	_	6	punct	_	HebSource=ConvUncertainHead|SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	9	punct	_	HebSource=ConvUncertainHead
+9	כלומר	כלומר	CCONJ	CCONJ	_	3	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	11	punct	_	HebSource=ConvUncertainHead
+11	מה	מה	ADV	ADV	PronType=Int	3	advmod	_	HebSource=ConvUncertainHead
+12	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|Polarity=Pos	11	cop	_	_
+13-15	ה"תנאים	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	15	dep	_	_
+14	"	"	PUNCT	PUNCT	_	15	punct	_	_
+15	תנאים	תנאים	NOUN	NOUN	Gender=Masc|Number=Plur	11	nsubj	_	_
+16-17	הניתנים	_	_	_	_	_	_	_	_
+16	ה	ה	SCONJ	SCONJ	_	17	mark	_	_
+17	ניתנים	ניתן	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	15	acl:relcl	_	_
+18-19	לחוסכים	_	_	_	_	_	_	_	_
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	חוסכים	חסך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	17	obl	_	_
+20	ותיקים	ותיק	ADJ	ADJ	Gender=Masc|Number=Plur	19	amod	_	_
+21	בלבד	בלבד	ADV	ADV	_	19	advmod	_	SpaceAfter=No
+22	"	"	PUNCT	PUNCT	_	21	punct	_	_
+23-24	בתוכניות	_	_	_	_	_	_	_	_
+23	ב	ב	ADP	ADP	_	24	case	_	_
+24	תוכניות	תוכנית	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	17	obl	_	_
+25-26	ההמשך	_	_	_	_	_	_	_	SpaceAfter=No
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	המשך	המשך	NOUN	NOUN	Gender=Masc|Number=Sing	24	compound:smixut	_	_
+27	?	?	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 2642-2806
+# sent_id = 2975
+# text = בהודעת הבנק מדובר בלשון רבים, אבל למעשה יש רק תנאי משופר אחד: כל המועדים מוקדמים בשנה אחת.
+1-2	בהודעת	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	הודעת	הודעה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	obl	_	_
+3-4	הבנק	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	בנק	בנק	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+5	מדובר	דובר	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+6-7	בלשון	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	לשון	לשון	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	obl	_	_
+8	רבים	רב	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	7	compound:smixut	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	12	punct	_	_
+10	אבל	אבל	CCONJ	CCONJ	_	12	cc	_	_
+11	למעשה	למעשה	ADV	ADV	_	12	advmod	_	_
+12	יש	יש	VERB	VERB	HebExistential=Yes	5	conj	_	_
+13	רק	רק	ADV	ADV	_	14	advmod	_	_
+14	תנאי	תנאי	NOUN	NOUN	Gender=Masc|Number=Sing	12	nsubj	_	_
+15	משופר	שופר	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Pass	14	amod	_	_
+16	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	14	nummod	_	SpaceAfter=No
+17	:	:	PUNCT	PUNCT	_	21	punct	_	_
+18	כל	כול	DET	DET	Definite=Cons	20	det	_	_
+19-20	המועדים	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	מועדים	מועד	NOUN	NOUN	Gender=Masc|Number=Plur	21	nsubj:pass	_	_
+21	מוקדמים	הוקדם	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	14	appos	_	_
+22-23	בשנה	_	_	_	_	_	_	_	_
+22	ב	ב	ADP	ADP	_	23	case	_	_
+23	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	21	obl	_	_
+24	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	23	nummod	_	SpaceAfter=No
+25	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 2808-3457
+# sent_id = 2976
+# text = לדוגמה, אם בתוכנית רגילה יכול החוסך לצאת מן התוכנית כעבור שנתיים, כאשר הבנק משלם לו 59% מן הריבית וההצמדה שנצברו בתכנית "המשך" הוא רשאי לצאת עם נזק כנ"ל כבר אחרי שנה אחת; אם בתוכנית הרגילה יקבל החוסך ריבית שנתית בשיעור של אחוז שלם (ולא חצי אחוז, כפי שהבינה החוסכת בטעות) לאחר שיתמיד בחיסכון שלוש שנים חוסך בתוכנית המשך יתעשר באחוז אחד לשנה כבר אחרי שנתיים.
+1-2	לדוגמה	_	_	_	_	_	_	_	SpaceAfter=No
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	דוגמה	דוגמה	NOUN	NOUN	Gender=Fem|Number=Sing	42	obl	_	_
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
+4	אם	אם	SCONJ	SCONJ	_	11	mark	_	_
+5-6	בתוכנית	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	תוכנית	תוכנית	NOUN	NOUN	Gender=Fem|Number=Sing	11	obl	_	_
+7	רגילה	רגיל	ADJ	ADJ	Gender=Fem|Number=Sing	6	amod	_	_
+8	יכול	יכול	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part|VerbType=Mod	11	aux	_	_
+9-10	החוסך	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	חוסך	חסך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	11	nsubj	_	_
+11	לצאת	יצא	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	42	advcl	_	_
+12	מן	מן	ADP	ADP	_	14	case	_	_
+13-14	התוכנית	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	תוכנית	תוכנית	NOUN	NOUN	Gender=Fem|Number=Sing	11	obl	_	_
+15	כעבור	כעבור	ADP	ADP	_	16	case	_	_
+16	שנתיים	שנה	NOUN	NOUN	Gender=Fem|Number=Dual	11	obl	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	21	punct	_	_
+18	כאשר	כאשר	SCONJ	SCONJ	_	21	mark	_	_
+19-20	הבנק	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	בנק	בנק	NOUN	NOUN	Gender=Masc|Number=Sing	21	nsubj	_	_
+21	משלם	שילם	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	11	advcl	_	_
+22-23	לו	_	_	_	_	_	_	_	_
+22	ל	ל	ADP	ADP	_	23	case	_	_
+23	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obl	_	_
+24	59	59	NUM	NUM	_	25	nummod	_	SpaceAfter=No
+25	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	21	obj	_	_
+26	מן	מן	ADP	ADP	_	28	case	_	_
+27-28	הריבית	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	ריבית	ריבית	NOUN	NOUN	Gender=Fem|Number=Sing	25	nmod	_	_
+29-31	וההצמדה	_	_	_	_	_	_	_	_
+29	ו	ו	CCONJ	CCONJ	_	31	cc	_	_
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	הצמדה	הצמדה	NOUN	NOUN	Gender=Fem|Number=Sing	28	conj	_	_
+32-33	שנצברו	_	_	_	_	_	_	_	_
+32	ש	ש	SCONJ	SCONJ	_	33	mark	_	_
+33	נצברו	נצבר	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	28	acl:relcl	_	_
+34-36	בתכנית	_	_	_	_	_	_	_	_
+34	ב	ב	ADP	ADP	_	36	case	_	_
+35	ה_	ה	DET	DET	PronType=Art|Definite=Def	36	det	_	_
+36	תכנית	תוכנית	NOUN	NOUN	Gender=Fem|Number=Sing	33	obl	_	_
+37	"	"	PUNCT	PUNCT	_	38	punct	_	SpaceAfter=No
+38	המשך	המשך	NOUN	NOUN	Gender=Masc|Number=Sing	36	appos	_	SpaceAfter=No
+39	"	"	PUNCT	PUNCT	_	38	punct	_	_
+40	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	42	nsubj	_	_
+41	רשאי	רשאי	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	42	aux	_	_
+42	לצאת	יצא	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	0	root	_	_
+43	עם	עם	ADP	ADP	_	44	case	_	_
+44	נזק	נזק	NOUN	NOUN	Gender=Masc|Number=Sing	42	obl	_	_
+45-46	כנ"ל	_	_	_	_	_	_	_	_
+45	כ	כ	ADP	ADP	_	46	case	_	_
+46	נ"ל	נ"ל	NOUN	NOUN	Abbr=Yes	44	nmod	_	_
+47	כבר	כבר	ADV	ADV	_	49	advmod	_	_
+48	אחרי	אחרי	ADP	ADP	_	49	case	_	_
+49	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	42	obl	_	_
+50	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	49	nummod	_	SpaceAfter=No
+51	;	;	PUNCT	PUNCT	_	94	punct	_	_
+52	אם	אם	SCONJ	SCONJ	_	58	mark	_	_
+53-55	בתוכנית	_	_	_	_	_	_	_	_
+53	ב	ב	ADP	ADP	_	55	case	_	_
+54	ה_	ה	DET	DET	PronType=Art|Definite=Def	55	det	_	_
+55	תוכנית	תוכנית	NOUN	NOUN	Gender=Fem|Number=Sing	58	obl	_	_
+56-57	הרגילה	_	_	_	_	_	_	_	_
+56	ה	ה	DET	DET	Definite=Def|PronType=Art	57	det	_	_
+57	רגילה	רגיל	ADJ	ADJ	Gender=Fem|Number=Sing	55	amod	_	_
+58	יקבל	קיבל	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	94	advcl	_	_
+59-60	החוסך	_	_	_	_	_	_	_	_
+59	ה	ה	DET	DET	Definite=Def|PronType=Art	60	det	_	_
+60	חוסך	חסך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	58	nsubj	_	_
+61	ריבית	ריבית	NOUN	NOUN	Gender=Fem|Number=Sing	58	obj	_	_
+62	שנתית	שנתי	ADJ	ADJ	Gender=Fem|Number=Sing	61	amod	_	_
+63-64	בשיעור	_	_	_	_	_	_	_	_
+63	ב	ב	ADP	ADP	_	64	case	_	_
+64	שיעור	שיעור	NOUN	NOUN	Gender=Masc|Number=Sing	61	nmod	_	_
+65	של	של	ADP	ADP	Case=Gen	66	case	_	_
+66	אחוז	אחוז	NOUN	NOUN	Gender=Masc|Number=Sing	64	nmod:poss	_	_
+67	שלם	שלם	ADJ	ADJ	Gender=Masc|Number=Sing	66	amod	_	_
+68	(	(	PUNCT	PUNCT	_	69	punct	_	SpaceAfter=No
+69-70	ולא	_	_	_	_	_	_	_	_
+69	ו	ו	CCONJ	CCONJ	_	64	appos	_	_
+70	לא	לא	DET	DET	Polarity=Neg	71	det	_	_
+71	חצי	חצי	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	69	dep	_	HebSource=ConvUncertainHead
+72	אחוז	אחוז	NOUN	NOUN	Gender=Masc|Number=Sing	71	compound:smixut	_	SpaceAfter=No
+73	,	,	PUNCT	PUNCT	_	76	punct	_	_
+74	כפי	כפי	SCONJ	SCONJ	_	76	mark	_	_
+75-76	שהבינה	_	_	_	_	_	_	_	_
+75	ש	ש	SCONJ	SCONJ	_	74	fixed	_	_
+76	הבינה	הבין	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	71	advcl	_	_
+77-78	החוסכת	_	_	_	_	_	_	_	_
+77	ה	ה	DET	DET	Definite=Def|PronType=Art	78	det	_	_
+78	חוסכת	חסך	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	76	nsubj	_	_
+79-80	בטעות	_	_	_	_	_	_	_	SpaceAfter=No
+79	ב	ב	ADP	ADP	_	80	case	_	_
+80	טעות	טעות	NOUN	NOUN	Gender=Fem|Number=Sing	76	obl	_	_
+81	)	)	PUNCT	PUNCT	_	69	punct	_	_
+82	לאחר	לאחר	ADP	ADP	_	84	case	_	_
+83-84	שיתמיד	_	_	_	_	_	_	_	_
+83	ש	ש	SCONJ	SCONJ	_	84	mark	_	_
+84	יתמיד	התמיד	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	94	obl	_	_
+85-87	בחיסכון	_	_	_	_	_	_	_	_
+85	ב	ב	ADP	ADP	_	87	case	_	_
+86	ה_	ה	DET	DET	PronType=Art|Definite=Def	87	det	_	_
+87	חיסכון	חיסכון	NOUN	NOUN	Gender=Masc|Number=Sing	84	obl	_	_
+88	שלוש	שלוש	NUM	NUM	Gender=Fem|Number=Plur	89	nummod	_	_
+89	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	84	obl:tmod	_	_
+90	חוסך	חסך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	94	nsubj	_	_
+91-92	בתוכנית	_	_	_	_	_	_	_	_
+91	ב	ב	ADP	ADP	_	92	case	_	_
+92	תוכנית	תוכנית	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	90	obl	_	_
+93	המשך	המשך	NOUN	NOUN	Gender=Masc|Number=Sing	92	compound:smixut	_	_
+94	יתעשר	התעשר	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Fut	41	conj	_	_
+95-96	באחוז	_	_	_	_	_	_	_	_
+95	ב	ב	ADP	ADP	_	96	case	_	_
+96	אחוז	אחוז	NOUN	NOUN	Gender=Masc|Number=Sing	94	obl	_	_
+97	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	96	nummod	_	_
+98-99	לשנה	_	_	_	_	_	_	_	_
+98	ל	ל	ADP	ADP	_	99	case	_	_
+99	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	96	nmod	_	_
+100	כבר	כבר	ADV	ADV	_	102	advmod	_	_
+101	אחרי	אחרי	ADP	ADP	_	102	case	_	_
+102	שנתיים	שנה	NOUN	NOUN	Gender=Fem|Number=Dual	94	obl	_	SpaceAfter=No
+103	.	.	PUNCT	PUNCT	_	42	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 3459-3840
+# sent_id = 2977
+# text = לא מי-יודע-מה בהשוואה לציפיות המתעוררות בלב לקוח תמים למקרא הודעת הבנק! לעומת זאת, הלקוח התמים יתקשה להבין מהודעת הבנק, שאם יסכים לקבל את "התנאים הניתנים לחוסכים ותיקים בלבד", יפסיד במעבר מתוכנית לתוכנית.
+1	לא	לא	ADV	ADV	Polarity=Neg	0	root	_	_
+2	מי	מי	ADV	ADV	PronType=Int	1	advmod	_	HebSource=ConvUncertainHead|SpaceAfter=No
+3	-	-	PUNCT	PUNCT	_	4	punct	_	HebSource=ConvUncertainHead|SpaceAfter=No
+4	יודע	ידע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	2	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+5	-	-	PUNCT	PUNCT	_	6	punct	_	HebSource=ConvUncertainHead|SpaceAfter=No
+6	מה	מה	ADV	ADV	PronType=Int	2	advmod	_	HebSource=ConvUncertainHead
+7-8	בהשוואה	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	11	case	_	_
+8	השוואה	השוואה	NOUN	NOUN	Gender=Fem|Number=Sing	7	fixed	_	_
+9-11	לציפיות	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	7	fixed	_	_
+10	ה_	ה	DET	DET	PronType=Art|Definite=Def	11	det	_	_
+11	ציפיות	ציפייה	NOUN	NOUN	Gender=Fem|Number=Plur	1	obl	_	HebSource=ConvUncertainHead
+12-13	המתעוררות	_	_	_	_	_	_	_	_
+12	ה	ה	SCONJ	SCONJ	_	13	mark	_	_
+13	מתעוררות	התעורר	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	11	acl:relcl	_	_
+14-15	בלב	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	לב	לב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	obl	_	_
+16	לקוח	לקוח	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	_
+17	תמים	תמים	ADJ	ADJ	Gender=Masc|Number=Sing	16	amod	_	_
+18-19	למקרא	_	_	_	_	_	_	_	_
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	מקרא	מקרא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	obl	_	_
+20	הודעת	הודעה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	19	compound:smixut	_	_
+21-22	הבנק	_	_	_	_	_	_	_	SpaceAfter=No
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	בנק	בנק	NOUN	NOUN	Gender=Masc|Number=Sing	20	compound:smixut	_	_
+23	!	!	PUNCT	PUNCT	_	1	punct	_	_
+24	לעומת	לעומת	ADP	ADP	_	25	case	_	_
+25	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	31	obl	_	SpaceAfter=No
+26	,	,	PUNCT	PUNCT	_	25	punct	_	_
+27-28	הלקוח	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	לקוח	לקוח	NOUN	NOUN	Gender=Masc|Number=Sing	31	nsubj	_	_
+29-30	התמים	_	_	_	_	_	_	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	תמים	תמים	ADJ	ADJ	Gender=Masc|Number=Sing	28	amod	_	_
+31	יתקשה	התקשה	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Fut	1	dep	_	HebSource=ConvUncertainHead
+32	להבין	הבין	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	31	xcomp	_	_
+33-34	מהודעת	_	_	_	_	_	_	_	_
+33	מ	מ	ADP	ADP	_	34	case	_	_
+34	הודעת	הודעה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	32	obl	_	_
+35-36	הבנק	_	_	_	_	_	_	_	SpaceAfter=No
+35	ה	ה	DET	DET	Definite=Def|PronType=Art	36	det	_	_
+36	בנק	בנק	NOUN	NOUN	Gender=Masc|Number=Sing	34	compound:smixut	_	_
+37	,	,	PUNCT	PUNCT	_	54	punct	_	_
+38-39	שאם	_	_	_	_	_	_	_	_
+38	ש	ש	SCONJ	SCONJ	_	54	mark	_	_
+39	אם	אם	SCONJ	SCONJ	_	40	mark	_	_
+40	יסכים	הסכים	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	54	advcl	_	_
+41	לקבל	קיבל	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	40	xcomp	_	_
+42	את	את	ADP	ADP	Case=Acc	45	case	_	_
+43	"	"	PUNCT	PUNCT	_	45	punct	_	SpaceAfter=No
+44-45	התנאים	_	_	_	_	_	_	_	_
+44	ה	ה	DET	DET	Definite=Def|PronType=Art	45	det	_	_
+45	תנאים	תנאי	NOUN	NOUN	Gender=Masc|Number=Plur	41	obj	_	_
+46-47	הניתנים	_	_	_	_	_	_	_	_
+46	ה	ה	SCONJ	SCONJ	_	47	mark	_	_
+47	ניתנים	ניתן	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	45	acl:relcl	_	_
+48-49	לחוסכים	_	_	_	_	_	_	_	_
+48	ל	ל	ADP	ADP	_	49	case	_	_
+49	חוסכים	חסך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	47	obl	_	_
+50	ותיקים	ותיק	ADJ	ADJ	Gender=Masc|Number=Plur	49	amod	_	_
+51	בלבד	בלבד	ADV	ADV	_	49	advmod	_	SpaceAfter=No
+52	"	"	PUNCT	PUNCT	_	45	punct	_	SpaceAfter=No
+53	,	,	PUNCT	PUNCT	_	40	punct	_	_
+54	יפסיד	הפסיד	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	32	advcl	_	_
+55-57	במעבר	_	_	_	_	_	_	_	_
+55	ב	ב	ADP	ADP	_	57	case	_	_
+56	ה_	ה	DET	DET	PronType=Art|Definite=Def	57	det	_	_
+57	מעבר	מעבר	NOUN	NOUN	Gender=Masc|Number=Sing	54	obl	_	_
+58-59	מתוכנית	_	_	_	_	_	_	_	_
+58	מ	מ	ADP	ADP	_	59	case	_	_
+59	תוכנית	תוכנית	NOUN	NOUN	Gender=Fem|Number=Sing	57	nmod	_	_
+60-61	לתוכנית	_	_	_	_	_	_	_	SpaceAfter=No
+60	ל	ל	ADP	ADP	_	61	case	_	_
+61	תוכנית	תוכנית	NOUN	NOUN	Gender=Fem|Number=Sing	57	nmod	_	_
+62	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 3843-4009
+# sent_id = 2978
+# text = במקרה של הלקוחה הנ"ל היה מדובר במדד אוקטובר, הנאמד בכשני אחוזים ושקול כנגד ריבית של שנתיים.
+1-3	במקרה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	מקרה	מקרה	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
+4	של	של	ADP	ADP	Case=Gen	6	case	_	_
+5-6	הלקוחה	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	לקוחה	לקוח	NOUN	NOUN	Gender=Fem|Number=Sing	3	nmod:poss	_	_
+7-8	הנ"ל	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	נ"ל	נ"ל	ADJ	ADJ	Abbr=Yes	6	amod	_	_
+9	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	10	cop	_	_
+10	מדובר	דובר	VERB	VERB	Aspect=Prog|Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+11-12	במדד	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	מדד	מדד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	obl	_	_
+13	אוקטובר	אוקטובר	PROPN	PROPN	_	12	compound:smixut	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	16	punct	_	_
+15-16	הנאמד	_	_	_	_	_	_	_	_
+15	ה	ה	SCONJ	SCONJ	_	16	mark	_	_
+16	נאמד	נאמד	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	12	acl:relcl	_	_
+17-19	בכשני	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	_	20	case	_	_
+18	כ	כ	ADP	ADP	_	20	case	_	_
+19	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	20	nummod	_	_
+20	אחוזים	אחוז	NOUN	NOUN	Gender=Masc|Number=Plur	16	obl	_	_
+21-22	ושקול	_	_	_	_	_	_	_	_
+21	ו	ו	CCONJ	CCONJ	_	22	cc	_	_
+22	שקול	שקל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	16	conj	_	_
+23	כנגד	כנגד	ADP	ADP	_	24	case	_	_
+24	ריבית	ריבית	NOUN	NOUN	Gender=Fem|Number=Sing	22	obl	_	_
+25	של	של	ADP	ADP	Case=Gen	26	case	_	_
+26	שנתיים	שנה	NOUN	NOUN	Gender=Fem|Number=Dual	24	nmod:poss	_	SpaceAfter=No
+27	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 4011-4025
+# sent_id = 2979
+# text = פרט קטן.
+1	פרט	פרט	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+2	קטן	קטן	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No
+3	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 4027-4338
+# sent_id = 2980
+# text = המוזר הוא, שאותו בנק לאומי (כמוהו כבנק מזרחי) מציע לחוסך תוכנית צמודת-מדד שבה הפסד מדד, אך בלי שייהנה מהתנאים הניתנים לחוסכים ותיקים בלבד", כלומר הקדמת מועדים בשנה אחת.
+1-2	המוזר	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מוזר	מוזר	ADJ	ADJ	Gender=Masc|Number=Sing	16	nsubj	_	_
+3	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Polarity=Pos	16	cop	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	3	punct	_	_
+5-6	שאותו	_	_	_	_	_	_	_	_
+5	ש	ש	SCONJ	SCONJ	_	16	mark	_	_
+6	אותו	אותו	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	det	_	_
+7	בנק	בנק	NOUN	NOUN	Gender=Masc|Number=Sing	16	nsubj	_	_
+8	לאומי	לאומי	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	_
+9	(	(	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+10-11	כמוהו	_	_	_	_	_	_	_	_
+10	כמו	כמו	ADP	ADP	_	11	case	_	_
+11	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	appos	_	_
+12-13	כבנק	_	_	_	_	_	_	_	_
+12	כ	כ	ADP	ADP	_	13	case	_	_
+13	בנק	בנק	NOUN	NOUN	Gender=Masc|Number=Sing	11	dep	_	HebSource=ConvUncertainHead
+14	מזרחי	מזרחי	ADJ	ADJ	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
+15	)	)	PUNCT	PUNCT	_	11	punct	_	_
+16	מציע	הציע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+17-19	לחוסך	_	_	_	_	_	_	_	_
+17	ל	ל	ADP	ADP	_	19	case	_	_
+18	ה_	ה	DET	DET	PronType=Art|Definite=Def	19	det	_	_
+19	חוסך	חסך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	16	obl	_	_
+20	תוכנית	תוכנית	NOUN	NOUN	Gender=Fem|Number=Sing	16	obj	_	_
+21	צמודת	צמוד	ADJ	ADJ	Definite=Cons|Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	-	-	PUNCT	PUNCT	_	23	punct	_	SpaceAfter=No
+23	מדד	מדד	NOUN	NOUN	Gender=Masc|Number=Sing	21	obl	_	_
+24-26	שבה	_	_	_	_	_	_	_	_
+24	ש	ש	SCONJ	SCONJ	_	26	mark	_	_
+25	ב	ב	ADP	ADP	_	26	case	_	_
+26	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	acl:relcl	_	_
+27	הפסד	הפסד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	26	nsubj	_	_
+28	מדד	מדד	NOUN	NOUN	Gender=Masc|Number=Sing	27	compound:smixut	_	SpaceAfter=No
+29	,	,	PUNCT	PUNCT	_	30	punct	_	_
+30	אך	אך	CCONJ	CCONJ	_	16	dep	_	HebSource=ConvUncertainHead
+31	בלי	בלי	ADP	ADP	_	33	case	_	_
+32-33	שייהנה	_	_	_	_	_	_	_	_
+32	ש	ש	SCONJ	SCONJ	_	33	mark	_	_
+33	ייהנה	נהנה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Fut|Voice=Mid	16	obl	_	_
+34-36	מהתנאים	_	_	_	_	_	_	_	_
+34	מ	מ	ADP	ADP	_	36	case	_	_
+35	ה	ה	DET	DET	Definite=Def|PronType=Art	36	det	_	_
+36	תנאים	תנאי	NOUN	NOUN	Gender=Masc|Number=Plur	33	obl	_	_
+37-38	הניתנים	_	_	_	_	_	_	_	_
+37	ה	ה	SCONJ	SCONJ	_	38	mark	_	_
+38	ניתנים	ניתן	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	36	acl:relcl	_	_
+39-40	לחוסכים	_	_	_	_	_	_	_	_
+39	ל	ל	ADP	ADP	_	40	case	_	_
+40	חוסכים	חסך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	38	obl	_	_
+41	ותיקים	ותיק	ADJ	ADJ	Gender=Masc|Number=Plur	40	amod	_	_
+42	בלבד	בלבד	ADV	ADV	_	40	advmod	_	SpaceAfter=No
+43	"	"	PUNCT	PUNCT	_	38	punct	_	SpaceAfter=No
+44	,	,	PUNCT	PUNCT	_	46	punct	_	_
+45	כלומר	כלומר	ADV	ADV	_	46	advmod	_	_
+46	הקדמת	הקדמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	36	appos	_	_
+47	מועדים	מועד	NOUN	NOUN	Gender=Masc|Number=Plur	46	compound:smixut	_	_
+48-49	בשנה	_	_	_	_	_	_	_	_
+48	ב	ב	ADP	ADP	_	49	case	_	_
+49	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	46	nmod	_	_
+50	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	49	nummod	_	SpaceAfter=No
+51	.	.	PUNCT	PUNCT	_	16	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 4341-4380
+# sent_id = 2981
+# text = דבר זה לא צוין בהודעה.
+1	דבר	דבר	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+2	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	det	_	_
+3	לא	לא	ADV	ADV	Polarity=Neg	4	advmod	_	_
+4	צוין	צוין	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+5-7	בהודעה	_	_	_	_	_	_	_	SpaceAfter=No
+5	ב	ב	ADP	ADP	_	7	case	_	_
+6	ה_	ה	DET	DET	PronType=Art|Definite=Def	7	det	_	_
+7	הודעה	הודעה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+8	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 4382-4457
+# sent_id = 2982
+# text = הלקוחה שאלה לעצתי, מה לעשות בכסף המשתחרר.
+1-2	הלקוחה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	לקוחה	לקוח	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	שאלה	שאל	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4-7	לעצתי	_	_	_	_	_	_	_	SpaceAfter=No
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	עצה	עצה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+6	_של_	של	ADP	ADP	Case=Gen	7	case:gen	_	_
+7	_אני	הוא	PRON	PRON	Definite=Def|Gender=Fem,Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+8	,	,	PUNCT	PUNCT	_	10	punct	_	_
+9	מה	מה	PRON	PRON	PronType=Int	10	obj	_	_
+10	לעשות	עשה	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+11-13	בכסף	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	13	case	_	_
+12	ה_	ה	DET	DET	PronType=Art|Definite=Def	13	det	_	_
+13	כסף	כסף	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
+14-15	המשתחרר	_	_	_	_	_	_	_	SpaceAfter=No
+14	ה	ה	SCONJ	SCONJ	_	15	mark	_	_
+15	משתחרר	השתחרר	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	13	acl:relcl	_	_
+16	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 4460-4657
+# sent_id = 2983
+# text = שאלתי אותה אם אינה זקוקה במקרה להחלפת המכונית, לשיפוץ הדירה או, למצער, לחידוש משק מכשירי החשמל הביתיים שלה.
+1	שאלתי	שאל	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	_
+2-3	אותה	_	_	_	_	_	_	_	_
+2	את	את	ADP	ADP	Case=Acc	3	case	_	_
+3	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+4	אם	אם	SCONJ	SCONJ	_	6	mark	_	_
+5	אינה	אינו	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	6	aux	_	_
+6	זקוקה	זקוק	AUX	AUX	Gender=Fem|Number=Sing|Person=1,2,3|VerbType=Mod	1	advcl	_	_
+7	במקרה	במקרה	ADV	ADV	_	6	advmod	_	_
+8-9	להחלפת	_	_	_	_	_	_	_	_
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	החלפת	החלפה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	obl	_	_
+10-11	המכונית	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	מכונית	מכונית	NOUN	NOUN	Gender=Fem|Number=Sing	9	compound:smixut	_	_
+12	,	,	PUNCT	PUNCT	_	14	punct	_	_
+13-14	לשיפוץ	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	שיפוץ	שיפוץ	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	dep	_	HebSource=ConvUncertainHead
+15-16	הדירה	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	דירה	דירה	NOUN	NOUN	Gender=Fem|Number=Sing	14	compound:smixut	_	_
+17	או	או	CCONJ	CCONJ	_	9	cc	_	HebSource=ConvUncertainHead|SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	19	punct	_	_
+19	למצער	למצער	ADV	ADV	_	9	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	PUNCT	_	22	punct	_	_
+21-22	לחידוש	_	_	_	_	_	_	_	_
+21	ל	ל	ADP	ADP	_	22	case	_	_
+22	חידוש	חידוש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	dep	_	HebSource=ConvUncertainHead
+23	משק	משק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	22	compound:smixut	_	_
+24	מכשירי	מכשיר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	23	compound:smixut	_	_
+25-26	החשמל	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	חשמל	חשמל	NOUN	NOUN	Gender=Masc|Number=Sing	24	compound:smixut	_	_
+27-28	הביתיים	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	ביתיים	ביתי	ADJ	ADJ	Gender=Masc|Number=Plur	24	amod	_	_
+29-30	שלה	_	_	_	_	_	_	_	SpaceAfter=No
+29	של	של	ADP	ADP	Case=Gen	30	case	_	_
+30	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+31	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 4659-4929
+# sent_id = 2984
+# text = כל החלופות המוצעות היום לחוסך הסולידי, מעמידות אותו בפני דילמה: לחסוך או לצרוך, ולכן גם "השקעות" במוצרים בני קיימא הן חלופות הראויות לשיקול רציני.
+1	כל	כול	DET	DET	Definite=Cons	3	det	_	_
+2-3	החלופות	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	חלופות	חלופה	NOUN	NOUN	Gender=Fem|Number=Plur	13	nsubj	_	_
+4-5	המוצעות	_	_	_	_	_	_	_	_
+4	ה	ה	SCONJ	SCONJ	_	5	mark	_	_
+5	מוצעות	הוצע	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	3	acl:relcl	_	_
+6	היום	היום	ADV	ADV	_	5	advmod	_	_
+7-9	לחוסך	_	_	_	_	_	_	_	_
+7	ל	ל	ADP	ADP	_	9	case	_	_
+8	ה_	ה	DET	DET	PronType=Art|Definite=Def	9	det	_	_
+9	חוסך	חסך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	5	obl	_	_
+10-11	הסולידי	_	_	_	_	_	_	_	SpaceAfter=No
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	סולידי	סולידי	ADJ	ADJ	Gender=Masc|Number=Sing	9	amod	_	_
+12	,	,	PUNCT	PUNCT	_	3	punct	_	_
+13	מעמידות	העמיד	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+14-15	אותו	_	_	_	_	_	_	_	_
+14	את	את	ADP	ADP	Case=Acc	15	case	_	_
+15	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+16	בפני	בפני	ADP	ADP	_	17	case	_	_
+17	דילמה	דילמה	NOUN	NOUN	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+18	:	:	PUNCT	PUNCT	_	19	punct	_	_
+19	לחסוך	חסך	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	17	acl	_	_
+20	או	או	CCONJ	CCONJ	_	21	cc	_	_
+21	לצרוך	צרך	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	19	conj	_	SpaceAfter=No
+22	,	,	PUNCT	PUNCT	_	34	punct	_	_
+23-24	ולכן	_	_	_	_	_	_	_	_
+23	ו	ו	CCONJ	CCONJ	_	24	cc	_	_
+24	לכן	לכן	ADV	ADV	_	34	advmod	_	_
+25	גם	גם	ADV	ADV	_	27	advmod	_	_
+26	"	"	PUNCT	PUNCT	_	27	punct	_	SpaceAfter=No
+27	השקעות	השקעה	NOUN	NOUN	Gender=Fem|Number=Plur	34	nsubj	_	SpaceAfter=No
+28	"	"	PUNCT	PUNCT	_	27	punct	_	_
+29-30	במוצרים	_	_	_	_	_	_	_	_
+29	ב	ב	ADP	ADP	_	30	case	_	_
+30	מוצרים	מוצר	NOUN	NOUN	Gender=Masc|Number=Plur	27	nmod	_	_
+31	בני	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	30	acl	_	_
+32	קיימא	קיימא	NOUN	NOUN	Gender=Masc|Number=Sing	31	compound:smixut	_	_
+33	הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|Polarity=Pos	34	cop	_	_
+34	חלופות	חלופה	NOUN	NOUN	Gender=Fem|Number=Plur	13	conj	_	_
+35-36	הראויות	_	_	_	_	_	_	_	_
+35	ה	ה	SCONJ	SCONJ	_	36	mark	_	_
+36	ראויות	ראוי	AUX	AUX	Gender=Fem|Number=Plur|Person=1,2,3|VerbType=Mod	34	acl:relcl	_	_
+37-38	לשיקול	_	_	_	_	_	_	_	_
+37	ל	ל	ADP	ADP	_	38	case	_	_
+38	שיקול	שיקול	NOUN	NOUN	Gender=Masc|Number=Sing	36	obl	_	_
+39	רציני	רציני	ADJ	ADJ	Gender=Masc|Number=Sing	38	amod	_	SpaceAfter=No
+40	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 4931-5380
+# sent_id = 2985
+# text = המומחים להשקעות ולחסכונות מזכירים מפעם לפעם, במסגרת עצותיהם לחוסכים ומשקיעים, את המק"ם (מלווה קצר מועד), אך מוסיפים מיד שהתשואה (הרווח) בהשקעתו מגיעה, לפי תקופת הפדיון, ל41% עד 81%, כלומר פחות מהאינפלציה החזויה, ולכן השקעה במק"ם גוררת הפסד ממשי.
+1-2	המומחים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מומחים	מומחה	NOUN	NOUN	Gender=Masc|Number=Plur	8	nsubj	_	_
+3-4	להשקעות	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	4	case	_	_
+4	השקעות	השקעה	NOUN	NOUN	Gender=Fem|Number=Plur	2	nmod	_	_
+5-7	ולחסכונות	_	_	_	_	_	_	_	_
+5	ו	ו	CCONJ	CCONJ	_	7	cc	_	_
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	חסכונות	חיסכון	NOUN	NOUN	Gender=Masc|Number=Plur	4	conj	_	_
+8	מזכירים	הזכיר	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+9-10	מפעם	_	_	_	_	_	_	_	_
+9	מ	מ	ADV	ADV	_	8	advmod	_	_
+10	פעם	פעם	ADV	ADV	_	9	fixed	_	_
+11-12	לפעם	_	_	_	_	_	_	_	SpaceAfter=No
+11	ל	ל	ADP	ADP	_	9	fixed	_	_
+12	פעם	פעם	ADV	ADV	_	9	fixed	_	_
+13	,	,	PUNCT	PUNCT	_	16	punct	_	_
+14-15	במסגרת	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	16	case	_	_
+15	מסגרת	מסגרת	NOUN	NOUN	Gender=Fem|Number=Sing	14	fixed	_	_
+16-18	עצותיהם	_	_	_	_	_	_	_	_
+16	עצה	עצה	NOUN	NOUN	Gender=Fem|Number=Plur	8	obl	_	_
+17	_של_	של	ADP	ADP	Case=Gen	18	case:gen	_	_
+18	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+19-20	לחוסכים	_	_	_	_	_	_	_	_
+19	ל	ל	ADP	ADP	_	20	case	_	_
+20	חוסכים	חסך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	16	nmod	_	_
+21-22	ומשקיעים	_	_	_	_	_	_	_	SpaceAfter=No
+21	ו	ו	CCONJ	CCONJ	_	22	cc	_	_
+22	משקיעים	משקיע	NOUN	NOUN	Gender=Masc|Number=Plur	20	conj	_	_
+23	,	,	PUNCT	PUNCT	_	26	punct	_	_
+24	את	את	ADP	ADP	Case=Acc	26	case	_	_
+25-26	המק"ם	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	מק"ם	מק"ם	NOUN	NOUN	Abbr=Yes	8	obj	_	_
+27	(	(	PUNCT	PUNCT	_	28	punct	_	SpaceAfter=No
+28	מלווה	מלווה	NOUN	NOUN	Gender=Masc|Number=Sing	26	appos	_	_
+29	קצר	קצר	ADJ	ADJ	Definite=Cons|Gender=Masc|Number=Sing	28	amod	_	_
+30	מועד	מועד	NOUN	NOUN	Gender=Masc|Number=Sing	29	compound:smixut	_	SpaceAfter=No
+31	)	)	PUNCT	PUNCT	_	28	punct	_	SpaceAfter=No
+32	,	,	PUNCT	PUNCT	_	34	punct	_	_
+33	אך	אך	CCONJ	CCONJ	_	34	cc	_	_
+34	מוסיפים	הוסיף	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	8	conj	_	_
+35	מיד	מייד	ADV	ADV	_	34	advmod	_	_
+36-38	שהתשואה	_	_	_	_	_	_	_	_
+36	ש	ש	SCONJ	SCONJ	_	47	mark	_	_
+37	ה	ה	DET	DET	Definite=Def|PronType=Art	38	det	_	_
+38	תשואה	תשואה	NOUN	NOUN	Gender=Fem|Number=Sing	47	nsubj	_	_
+39	(	(	PUNCT	PUNCT	_	41	punct	_	SpaceAfter=No
+40-41	הרווח	_	_	_	_	_	_	_	SpaceAfter=No
+40	ה	ה	DET	DET	Definite=Def|PronType=Art	41	det	_	_
+41	רווח	רווח	NOUN	NOUN	Gender=Masc|Number=Sing	38	appos	_	_
+42	)	)	PUNCT	PUNCT	_	41	punct	_	_
+43-46	בהשקעתו	_	_	_	_	_	_	_	_
+43	ב	ב	ADP	ADP	_	44	case	_	_
+44	השקעה	השקעה	NOUN	NOUN	Gender=Fem|Number=Sing	38	nmod	_	_
+45	_של_	של	ADP	ADP	Case=Gen	46	case:gen	_	_
+46	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	44	nmod:poss	_	_
+47	מגיעה	הגיע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	34	advcl	_	SpaceAfter=No
+48	,	,	PUNCT	PUNCT	_	50	punct	_	_
+49	לפי	לפי	ADP	ADP	_	50	case	_	_
+50	תקופת	תקופה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	47	obl	_	_
+51-52	הפדיון	_	_	_	_	_	_	_	SpaceAfter=No
+51	ה	ה	DET	DET	Definite=Def|PronType=Art	52	det	_	_
+52	פדיון	פדיון	NOUN	NOUN	Gender=Masc|Number=Sing	50	compound:smixut	_	_
+53	,	,	PUNCT	PUNCT	_	56	punct	_	_
+54-55	ל41	_	_	_	_	_	_	_	SpaceAfter=No
+54	ל	ל	ADP	ADP	_	56	case	_	_
+55	41	41	NUM	NUM	_	56	nummod	_	_
+56	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	50	nmod	_	_
+57	עד	עד	ADP	ADP	_	59	case	_	_
+58	81	81	NUM	NUM	_	59	nummod	_	SpaceAfter=No
+59	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	50	nmod	_	SpaceAfter=No
+60	,	,	PUNCT	PUNCT	_	65	punct	_	_
+61	כלומר	כלומר	ADV	ADV	_	65	advmod	_	_
+62	פחות	פחות	ADV	ADV	_	65	advmod	_	HebSource=ConvUncertainHead
+63-65	מהאינפלציה	_	_	_	_	_	_	_	_
+63	מ	מ	ADP	ADP	_	62	fixed	_	_
+64	ה	ה	DET	DET	Definite=Def|PronType=Art	65	det	_	_
+65	אינפלציה	אינפלציה	NOUN	NOUN	Gender=Fem|Number=Sing	50	nmod	_	_
+66-67	החזויה	_	_	_	_	_	_	_	SpaceAfter=No
+66	ה	ה	DET	DET	Definite=Def|PronType=Art	67	det	_	_
+67	חזויה	חזוי	ADJ	ADJ	Gender=Fem|Number=Sing	65	amod	_	_
+68	,	,	PUNCT	PUNCT	_	74	punct	_	_
+69-70	ולכן	_	_	_	_	_	_	_	_
+69	ו	ו	CCONJ	CCONJ	_	70	cc	_	_
+70	לכן	לכן	ADV	ADV	_	74	advmod	_	_
+71	השקעה	השקעה	NOUN	NOUN	Gender=Fem|Number=Sing	74	nsubj	_	_
+72-73	במק"ם	_	_	_	_	_	_	_	_
+72	ב	ב	ADP	ADP	_	73	case	_	_
+73	מק"ם	מק"ם	NOUN	NOUN	Abbr=Yes	71	nmod	_	_
+74	גוררת	גרר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	47	conj	_	_
+75	הפסד	הפסד	NOUN	NOUN	Gender=Masc|Number=Sing	74	obj	_	_
+76	ממשי	ממשי	ADJ	ADJ	Gender=Masc|Number=Sing	75	amod	_	SpaceAfter=No
+77	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 5382-5449
+# sent_id = 2986
+# text = אפשר לראות את העניין מזווית קצת אחרת.
+1	אפשר	אפשר	AUX	AUX	VerbType=Mod	2	aux	_	_
+2	לראות	ראה	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	0	root	_	_
+3	את	את	ADP	ADP	Case=Acc	5	case	_	_
+4-5	העניין	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	עניין	עניין	NOUN	NOUN	Gender=Masc|Number=Sing	2	obj	_	_
+6-7	מזווית	_	_	_	_	_	_	_	_
+6	מ	מ	ADP	ADP	_	7	case	_	_
+7	זווית	זווית	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl	_	_
+8	קצת	קצת	ADV	ADV	_	9	advmod	_	_
+9	אחרת	אחר	ADJ	ADJ	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 5451-5548
+# sent_id = 2987
+# text = כידוע, המדד מושפע באחרונה במיוחד מעליות מחירי הדיור.
+1-3	כידוע	_	_	_	_	_	_	_	SpaceAfter=No
+1	כ	כ	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	ידוע	ידוע	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
+4	,	,	PUNCT	PUNCT	_	3	punct	_	_
+5-6	המדד	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	מדד	מדד	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+7	מושפע	הושפע	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+8	באחרונה	באחרונה	ADV	ADV	_	7	advmod	_	_
+9	במיוחד	במיוחד	ADV	ADV	_	11	advmod	_	_
+10-11	מעליות	_	_	_	_	_	_	_	_
+10	מ	מ	ADP	ADP	_	11	case	_	_
+11	עליות	עלייה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	7	obl	_	_
+12	מחירי	מחיר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	11	compound:smixut	_	_
+13-14	הדיור	_	_	_	_	_	_	_	SpaceAfter=No
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	דיור	דיור	NOUN	NOUN	Gender=Masc|Number=Sing	12	compound:smixut	_	_
+15	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 5550-5746
+# sent_id = 2988
+# text = ניקח את מדד השנה האחרונה (אוקטובר 1989 - ספטמבר 1990): המדד הכללי עלה ב18.6%, מדד המחירים ללא דיור עלה ב1.9% בלבד.
+1	ניקח	לקח	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=1|Tense=Fut|Voice=Act	0	root	_	_
+2	את	את	ADP	ADP	Case=Acc	3	case	_	_
+3	מדד	מדד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	obj	_	_
+4-5	השנה	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	3	compound:smixut	_	_
+6-7	האחרונה	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	אחרונה	אחרון	ADJ	ADJ	Gender=Fem|Number=Sing	5	amod	_	_
+8	(	(	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+9	אוקטובר	אוקטובר	PROPN	PROPN	_	3	appos	_	_
+10	1989	1989	NUM	NUM	_	9	nmod:tmod	_	_
+11	-	-	PUNCT	PUNCT	_	12	punct	_	_
+12	ספטמבר	ספטמבר	PROPN	PROPN	_	9	conj	_	_
+13	1990	1990	NUM	NUM	_	12	nmod:tmod	_	SpaceAfter=No
+14	)	)	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+15	:	:	PUNCT	PUNCT	_	20	punct	_	_
+16-17	המדד	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	מדד	מדד	NOUN	NOUN	Gender=Masc|Number=Sing	20	nsubj	_	_
+18-19	הכללי	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	כללי	כללי	ADJ	ADJ	Gender=Masc|Number=Sing	17	amod	_	_
+20	עלה	עלה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	1	conj	_	_
+21-22	ב18.6	_	_	_	_	_	_	_	SpaceAfter=No
+21	ב	ב	ADP	ADP	_	23	case	_	_
+22	18.6	18.6	NUM	NUM	_	23	nummod	_	_
+23	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	20	obl	_	SpaceAfter=No
+24	,	,	PUNCT	PUNCT	_	30	punct	_	_
+25	מדד	מדד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	30	nsubj	_	_
+26-27	המחירים	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	מחירים	מחיר	NOUN	NOUN	Gender=Masc|Number=Plur	25	compound:smixut	_	_
+28	ללא	ללא	ADP	ADP	_	29	case	_	_
+29	דיור	דיור	NOUN	NOUN	Gender=Masc|Number=Sing	25	nmod	_	_
+30	עלה	עלה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	20	parataxis	_	_
+31-32	ב1.9	_	_	_	_	_	_	_	SpaceAfter=No
+31	ב	ב	ADP	ADP	_	33	case	_	_
+32	1.9	1.9	NUM	NUM	_	33	nummod	_	_
+33	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	30	obl	_	_
+34	בלבד	בלבד	ADV	ADV	_	33	advmod	_	SpaceAfter=No
+35	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 5748-5923
+# sent_id = 2989
+# text = נניח שיש לכם דירה, אינכם זקוקים לדירה נוספת ולא תכננתם לרכוש דירה נוספת איזה מדד רלוונטי לגביכם?
+1	נניח	הניח	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=1|Tense=Fut|Voice=Act	0	root	_	_
+2-3	שיש	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	3	mark	_	_
+3	יש	יש	VERB	VERB	HebExistential=Yes	1	ccomp	_	_
+4-5	לכם	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	_אתם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=2|PronType=Prs	3	obl	_	_
+6	דירה	דירה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	9	punct	_	_
+8	אינכם	אינו	AUX	AUX	Gender=Masc|Number=Plur|Person=2|Polarity=Neg|VerbForm=Part	9	aux	_	_
+9	זקוקים	זקוק	AUX	AUX	Gender=Masc|Number=Plur|Person=1,2,3|VerbType=Mod	3	conj	_	_
+10-11	לדירה	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	11	case	_	_
+11	דירה	דירה	NOUN	NOUN	Gender=Fem|Number=Sing	9	obl	_	_
+12	נוספת	נוסף	ADJ	ADJ	Gender=Fem|Number=Sing	11	amod	_	_
+13-14	ולא	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+14	לא	לא	ADV	ADV	Polarity=Neg	15	advmod	_	_
+15	תכננתם	תכנן	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=1|Tense=Past|Voice=Act	3	conj	_	_
+16	לרכוש	רכש	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+17	דירה	דירה	NOUN	NOUN	Gender=Fem|Number=Sing	16	obj	_	_
+18	נוספת	נוסף	ADJ	ADJ	Gender=Fem|Number=Sing	17	amod	_	_
+19	איזה	איזה	DET	DET	Definite=Cons	20	det	_	_
+20	מדד	מדד	NOUN	NOUN	Gender=Masc|Number=Sing	21	nsubj	_	_
+21	רלוונטי	רלוונטי	ADJ	ADJ	Gender=Masc|Number=Sing	1	dep	_	HebSource=ConvUncertainHead
+22-23	לגביכם	_	_	_	_	_	_	_	SpaceAfter=No
+22	לגבי	לגבי	ADP	ADP	_	23	case	_	_
+23	_אתם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=2|PronType=Prs	21	obl	_	_
+24	?	?	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 5926-6050
+# sent_id = 2990
+# text = אני טוען, שהמדד ללא דיור רלוונטי במקרה זה יותר מאשר המדד הכולל דיור.
+1	אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	טוען	טען	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	9	punct	_	_
+4-6	שהמדד	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	מדד	מדד	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj	_	_
+7	ללא	ללא	ADP	ADP	_	8	case	_	_
+8	דיור	דיור	NOUN	NOUN	Gender=Masc|Number=Sing	6	nmod	_	_
+9	רלוונטי	רלוונטי	ADJ	ADJ	Gender=Masc|Number=Sing	2	ccomp	_	_
+10-11	במקרה	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	מקרה	מקרה	NOUN	NOUN	Gender=Masc|Number=Sing	9	dep	_	_
+12	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	det	_	_
+13	יותר	יותר	ADV	ADV	_	16	advmod	_	_
+14	מאשר	מאשר	ADP	ADP	_	16	case	_	_
+15-16	המדד	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	מדד	מדד	NOUN	NOUN	Gender=Masc|Number=Sing	9	dep	_	_
+17-18	הכולל	_	_	_	_	_	_	_	_
+17	ה	ה	SCONJ	SCONJ	_	18	mark	_	_
+18	כולל	כלל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	16	acl:relcl	_	_
+19	דיור	דיור	NOUN	NOUN	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+20	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 6052-6165
+# sent_id = 2991
+# text = אם כך, רכישת מק"ם בתשואה של 81 % בספטמבר 1989 הניבה רווח ריאלי נאה.
+1	אם	אם	SCONJ	SCONJ	_	2	case	_	_
+2	כך	כך	PRON	PRON	Person=3|PronType=Dem	14	obl	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
+4	רכישת	רכישה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	14	nsubj	_	_
+5	מק"ם	מק"ם	NOUN	NOUN	Abbr=Yes	4	compound:smixut	_	_
+6-7	בתשואה	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	תשואה	תשואה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nmod	_	_
+8	של	של	ADP	ADP	Case=Gen	10	case	_	_
+9	81	81	NUM	NUM	_	10	nummod	_	_
+10	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	7	nmod:poss	_	_
+11-12	בספטמבר	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	13	case	_	_
+12	ספטמבר	ספטמבר	PROPN	PROPN	_	13	dep	_	_
+13	1989	1989	NUM	NUM	_	4	nmod	_	_
+14	הניבה	הניב	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+15	רווח	רווח	NOUN	NOUN	Gender=Masc|Number=Sing	14	obj	_	_
+16	ריאלי	ריאלי	ADJ	ADJ	Gender=Masc|Number=Sing	15	amod	_	_
+17	נאה	נאה	ADJ	ADJ	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+18	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 6167-6488
+# sent_id = 2992
+# text = אם ימשיכו מחירי הדיור להדהיר את המדד גם בחודשים הבאים השקעה במק"ם היא אפשרות אטרקטיווית מאוד, מה גם שהמק"ם ניתן למימוש בכל עת, הסיכון קטן ועמלות הכניסה, היציאה והפדיון נמוכות.
+1	אם	אם	SCONJ	SCONJ	_	2	mark	_	_
+2	ימשיכו	המשיך	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Fut|Voice=Act	20	advcl	_	_
+3	מחירי	מחיר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	2	nsubj	_	_
+4-5	הדיור	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	דיור	דיור	NOUN	NOUN	Gender=Masc|Number=Sing	3	compound:smixut	_	_
+6	להדהיר	הדהיר	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+7	את	את	ADP	ADP	Case=Acc	9	case	_	_
+8-9	המדד	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	מדד	מדד	NOUN	NOUN	Gender=Masc|Number=Sing	6	obj	_	_
+10	גם	גם	ADV	ADV	_	13	advmod	_	_
+11-13	בחודשים	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	13	case	_	_
+12	ה_	ה	DET	DET	PronType=Art|Definite=Def	13	det	_	_
+13	חודשים	חודש	NOUN	NOUN	Gender=Masc|Number=Plur	6	obl	_	_
+14-15	הבאים	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	באים	בא	ADJ	ADJ	Gender=Masc|Number=Plur	13	amod	_	_
+16	השקעה	השקעה	NOUN	NOUN	Gender=Fem|Number=Sing	20	nsubj	_	_
+17-18	במק"ם	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	_	18	case	_	_
+18	מק"ם	מק"ם	NOUN	NOUN	Abbr=Yes	16	nmod	_	_
+19	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	20	cop	_	_
+20	אפשרות	אפשרות	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+21	אטרקטיווית	אטרקטיבי	ADJ	ADJ	Gender=Fem|Number=Sing	20	amod	_	_
+22	מאוד	מאוד	ADV	ADV	_	21	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	PUNCT	_	24	punct	_	_
+24	מה	מה	PRON	PRON	PronType=Int	20	advcl	_	_
+25	גם	גם	ADV	ADV	_	24	advmod	_	HebSource=ConvUncertainHead
+26-28	שהמק"ם	_	_	_	_	_	_	_	_
+26	ש	ש	SCONJ	SCONJ	_	24	dep	_	HebSource=ConvUncertainHead
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	מק"ם	מק"ם	NOUN	NOUN	Abbr=Yes	29	nsubj	_	_
+29	ניתן	ניתן	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	24	dep	_	HebSource=ConvUncertainHead
+30-31	למימוש	_	_	_	_	_	_	_	_
+30	ל	ל	ADP	ADP	_	31	case	_	_
+31	מימוש	מימוש	NOUN	NOUN	Gender=Masc|Number=Sing	29	obl	_	_
+32-33	בכל	_	_	_	_	_	_	_	_
+32	ב	ב	ADP	ADP	_	34	case	_	_
+33	כל	כול	DET	DET	Definite=Cons	34	det	_	_
+34	עת	עת	NOUN	NOUN	Gender=Fem|Number=Sing	29	obl	_	SpaceAfter=No
+35	,	,	PUNCT	PUNCT	_	38	punct	_	_
+36-37	הסיכון	_	_	_	_	_	_	_	_
+36	ה	ה	DET	DET	Definite=Def|PronType=Art	37	det	_	_
+37	סיכון	סיכון	NOUN	NOUN	Gender=Masc|Number=Sing	38	nsubj	_	_
+38	קטן	קטן	ADJ	ADJ	Gender=Masc|Number=Sing	29	conj	_	_
+39-40	ועמלות	_	_	_	_	_	_	_	_
+39	ו	ו	CCONJ	CCONJ	_	49	cc	_	_
+40	עמלות	עמלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	49	nsubj	_	_
+41-42	הכניסה	_	_	_	_	_	_	_	SpaceAfter=No
+41	ה	ה	DET	DET	Definite=Def|PronType=Art	42	det	_	_
+42	כניסה	כניסה	NOUN	NOUN	Gender=Fem|Number=Sing	40	compound:smixut	_	_
+43	,	,	PUNCT	PUNCT	_	45	punct	_	_
+44-45	היציאה	_	_	_	_	_	_	_	_
+44	ה	ה	DET	DET	Definite=Def|PronType=Art	45	det	_	_
+45	יציאה	יציאה	NOUN	NOUN	Gender=Fem|Number=Sing	42	conj	_	_
+46-48	והפדיון	_	_	_	_	_	_	_	_
+46	ו	ו	CCONJ	CCONJ	_	48	cc	_	_
+47	ה	ה	DET	DET	Definite=Def|PronType=Art	48	det	_	_
+48	פדיון	פדיון	NOUN	NOUN	Gender=Masc|Number=Sing	42	conj	_	_
+49	נמוכות	נמוך	ADJ	ADJ	Gender=Fem|Number=Plur	29	conj	_	SpaceAfter=No
+50	.	.	PUNCT	PUNCT	_	20	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 6490-6764
+# sent_id = 2993
+# text = סוכנות פטרולגז בכפר סבא, "ביגז", אולי לא המציאה את השיטה, אבל בגינה נודע לי על כך לראשונה: איך לאפשר ללקוח הפורע חשבון לשלם שתי עמלות לבנק, במקום אחת.
+1	סוכנות	סוכנות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	13	nsubj	_	_
+2	פטרולגז	פטרולגז	PROPN	PROPN	_	1	compound:smixut	_	_
+3-4	בכפר	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	כפר	כפר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	nmod	_	_
+5	סבא	סבא	NOUN	NOUN	Gender=Masc|Number=Sing	4	compound:smixut	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	8	punct	_	_
+7	"	"	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+8	ביגז	ביגז	PROPN	PROPN	_	1	appos	_	SpaceAfter=No
+9	"	"	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	1	punct	_	_
+11	אולי	אולי	ADV	ADV	_	13	advmod	_	_
+12	לא	לא	ADV	ADV	Polarity=Neg	13	advmod	_	_
+13	המציאה	המציא	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+14	את	את	ADP	ADP	Case=Acc	16	case	_	_
+15-16	השיטה	_	_	_	_	_	_	_	SpaceAfter=No
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	שיטה	שיטה	NOUN	NOUN	Gender=Fem|Number=Sing	13	obj	_	_
+17	,	,	PUNCT	PUNCT	_	21	punct	_	_
+18	אבל	אבל	CCONJ	CCONJ	_	21	cc	_	_
+19-20	בגינה	_	_	_	_	_	_	_	_
+19	בגין	בגין	ADP	ADP	_	20	case	_	_
+20	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	obl	_	_
+21	נודע	נודע	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	13	conj	_	_
+22-23	לי	_	_	_	_	_	_	_	_
+22	ל	ל	ADP	ADP	_	23	case	_	_
+23	_אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	21	obl	_	_
+24	על	על	ADP	ADP	_	25	case	_	_
+25	כך	כך	PRON	PRON	Person=3|PronType=Dem	21	obl	_	_
+26	לראשונה	לראשונה	ADV	ADV	_	21	advmod	_	SpaceAfter=No
+27	:	:	PUNCT	PUNCT	_	29	punct	_	_
+28	איך	איך	ADV	ADV	PronType=Int	29	advmod	_	_
+29	לאפשר	אפשר	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	21	xcomp	_	_
+30-31	ללקוח	_	_	_	_	_	_	_	_
+30	ל	ל	ADP	ADP	_	31	case	_	_
+31	לקוח	לקוח	NOUN	NOUN	Gender=Masc|Number=Sing	29	obl	_	_
+32-33	הפורע	_	_	_	_	_	_	_	_
+32	ה	ה	SCONJ	SCONJ	_	33	mark	_	_
+33	פורע	פרע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	31	acl:relcl	_	_
+34	חשבון	חשבון	NOUN	NOUN	Gender=Masc|Number=Sing	33	obj	_	_
+35	לשלם	שילם	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	29	dep	_	HebSource=ConvUncertainHead
+36	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	37	nummod	_	_
+37	עמלות	עמלה	NOUN	NOUN	Gender=Fem|Number=Plur	35	obj	_	_
+38-40	לבנק	_	_	_	_	_	_	_	SpaceAfter=No
+38	ל	ל	ADP	ADP	_	40	case	_	_
+39	ה_	ה	DET	DET	PronType=Art|Definite=Def	40	det	_	_
+40	בנק	בנק	NOUN	NOUN	Gender=Masc|Number=Sing	35	obl	_	_
+41	,	,	PUNCT	PUNCT	_	43	punct	_	_
+42	במקום	במקום	ADP	ADP	_	43	case	_	_
+43	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	35	obl	_	SpaceAfter=No
+44	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 6766-6927
+# sent_id = 2994
+# text = מונח לפני חשבון של סוכנות זו על אספקת גז לצרכן, הכולל סעיף "חיוב בגין תשלום בבנק 1.73 שקל".
+1	מונח	הונח	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+2-3	לפני	_	_	_	_	_	_	_	_
+2	לפני	לפני	ADP	ADP	_	3	case	_	_
+3	_אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	1	obl	_	_
+4	חשבון	חשבון	NOUN	NOUN	Gender=Masc|Number=Sing	1	nsubj:pass	_	_
+5	של	של	ADP	ADP	Case=Gen	6	case	_	_
+6	סוכנות	סוכנות	NOUN	NOUN	Gender=Fem|Number=Sing	4	nmod	_	_
+7	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	6	det	_	_
+8	על	על	ADP	ADP	_	9	case	_	_
+9	אספקת	אספקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	nmod	_	_
+10	גז	גז	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound:smixut	_	_
+11-13	לצרכן	_	_	_	_	_	_	_	SpaceAfter=No
+11	ל	ל	ADP	ADP	_	13	case	_	_
+12	ה_	ה	DET	DET	PronType=Art|Definite=Def	13	det	_	_
+13	צרכן	צרכן	NOUN	NOUN	Gender=Masc|Number=Sing	9	nmod	_	_
+14	,	,	PUNCT	PUNCT	_	16	punct	_	_
+15-16	הכולל	_	_	_	_	_	_	_	_
+15	ה	ה	SCONJ	SCONJ	_	16	mark	_	_
+16	כולל	כלל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	4	acl:relcl	_	_
+17	סעיף	סעיף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	16	obj	_	_
+18	"	"	PUNCT	PUNCT	_	19	punct	_	SpaceAfter=No
+19	חיוב	חיוב	NOUN	NOUN	Gender=Masc|Number=Sing	17	compound:smixut	_	_
+20	בגין	בגין	ADP	ADP	_	21	case	_	_
+21	תשלום	תשלום	NOUN	NOUN	Gender=Masc|Number=Sing	19	nmod	_	_
+22-23	בבנק	_	_	_	_	_	_	_	_
+22	ב	ב	ADP	ADP	_	23	case	_	_
+23	בנק	בנק	NOUN	NOUN	Gender=Masc|Number=Sing	21	nmod	_	_
+24	1.73	1.73	NUM	NUM	_	25	nummod	_	_
+25	שקל	שקל	NOUN	NOUN	Gender=Masc|Number=Sing	21	nummod	_	SpaceAfter=No
+26	"	"	PUNCT	PUNCT	_	19	punct	_	SpaceAfter=No
+27	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 6929-7075
+# sent_id = 2995
+# text = לקוח שילך עם חשבון זה לבנק, ישלם שתי עמלות, אחת במסגרת החשבון ואחת במישרין לבנק.
+1	לקוח	לקוח	NOUN	NOUN	Gender=Masc|Number=Sing	11	nsubj	_	_
+2-3	שילך	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	3	mark	_	_
+3	ילך	הלך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	1	acl:relcl	_	_
+4	עם	עם	ADP	ADP	_	5	case	_	_
+5	חשבון	חשבון	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+6	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	det	_	_
+7-9	לבנק	_	_	_	_	_	_	_	SpaceAfter=No
+7	ל	ל	ADP	ADP	_	9	case	_	_
+8	ה_	ה	DET	DET	PronType=Art|Definite=Def	9	det	_	_
+9	בנק	בנק	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+10	,	,	PUNCT	PUNCT	_	1	punct	_	_
+11	ישלם	שילם	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	0	root	_	_
+12	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	13	nummod	_	_
+13	עמלות	עמלה	NOUN	NOUN	Gender=Fem|Number=Plur	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	19	punct	_	_
+15	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	19	nsubj	_	_
+16-17	במסגרת	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	19	case	_	_
+17	מסגרת	מסגרת	NOUN	NOUN	Gender=Fem|Number=Sing	16	fixed	_	_
+18-19	החשבון	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	חשבון	חשבון	NOUN	NOUN	Gender=Masc|Number=Sing	13	acl:relcl	_	_
+20-21	ואחת	_	_	_	_	_	_	_	_
+20	ו	ו	CCONJ	CCONJ	_	25	cc	_	_
+21	אחת	אחת	NUM	NUM	Gender=Fem|Number=Sing	25	nsubj	_	_
+22	במישרין	במישרין	ADV	ADV	_	25	advmod	_	_
+23-25	לבנק	_	_	_	_	_	_	_	SpaceAfter=No
+23	ל	ל	ADP	ADP	_	25	case	_	_
+24	ה_	ה	DET	DET	PronType=Art|Definite=Def	25	det	_	_
+25	בנק	בנק	NOUN	NOUN	Gender=Masc|Number=Sing	19	conj	_	_
+26	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 7077-7123
+# sent_id = 2996
+# text = מה עומד מאחורי הסידור הזה?
+1	מה	מה	PRON	PRON	PronType=Int	2	nsubj	_	_
+2	עומד	עמד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+3	מאחורי	מאחורי	ADP	ADP	_	5	case	_	_
+4-5	הסידור	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	סידור	סידור	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+6-7	הזה	_	_	_	_	_	_	_	SpaceAfter=No
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	det	_	_
+8	?	?	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 7126-7426
+# sent_id = 2997
+# text = לפני חודשים אחדים נמאס לסוכנות "ביגז" לשלם את עמלת המוטב בסך 1.73 שקל, שהבנק גובה ממקבל התשלום, ולכן החליטה, שאם הצרכן כבר משלם את עמלת המשלם שישלם גם את עמלת המוטב.
+1	לפני	לפני	ADP	ADP	_	2	case	_	_
+2	חודשים	חודש	NOUN	NOUN	Gender=Masc|Number=Plur	4	obl	_	_
+3	אחדים	אחד	ADJ	ADJ	Gender=Masc|Number=Plur	2	amod	_	_
+4	נמאס	נמאס	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+5-6	לסוכנות	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	סוכנות	סוכנות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	obl	_	_
+7	"	"	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+8	ביגז	ביגז	PROPN	PROPN	_	6	compound:smixut	_	SpaceAfter=No
+9	"	"	PUNCT	PUNCT	_	8	punct	_	_
+10	לשלם	שילם	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+11	את	את	ADP	ADP	Case=Acc	12	case	_	_
+12	עמלת	עמלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	10	obj	_	_
+13-14	המוטב	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	מוטב	מוטב	NOUN	NOUN	Gender=Masc|Number=Sing	12	compound:smixut	_	_
+15-16	בסך	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	סך	סך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	nmod	_	_
+17	1.73	1.73	NUM	NUM	_	18	nummod	_	_
+18	שקל	שקל	NOUN	NOUN	Gender=Masc|Number=Sing	16	compound:smixut	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	23	punct	_	_
+20-22	שהבנק	_	_	_	_	_	_	_	_
+20	ש	ש	SCONJ	SCONJ	_	23	mark	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	בנק	בנק	NOUN	NOUN	Gender=Masc|Number=Sing	23	nsubj	_	_
+23	גובה	גבה	VERB	VERB	Tense=Pres|VerbForm=Part	12	acl:relcl	_	_
+24-25	ממקבל	_	_	_	_	_	_	_	_
+24	מ	מ	ADP	ADP	_	25	case	_	_
+25	מקבל	מקבל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	23	obl	_	_
+26-27	התשלום	_	_	_	_	_	_	_	SpaceAfter=No
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	תשלום	תשלום	NOUN	NOUN	Gender=Masc|Number=Sing	25	compound:smixut	_	_
+28	,	,	PUNCT	PUNCT	_	31	punct	_	_
+29-30	ולכן	_	_	_	_	_	_	_	_
+29	ו	ו	CCONJ	CCONJ	_	30	cc	_	_
+30	לכן	לכן	ADV	ADV	_	31	advmod	_	_
+31	החליטה	החליט	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	SpaceAfter=No
+32	,	,	PUNCT	PUNCT	_	44	punct	_	_
+33-34	שאם	_	_	_	_	_	_	_	_
+33	ש	ש	SCONJ	SCONJ	_	44	mark	_	_
+34	אם	אם	SCONJ	SCONJ	_	38	mark	_	_
+35-36	הצרכן	_	_	_	_	_	_	_	_
+35	ה	ה	DET	DET	Definite=Def|PronType=Art	36	det	_	_
+36	צרכן	צרכן	NOUN	NOUN	Gender=Masc|Number=Sing	38	nsubj	_	_
+37	כבר	כבר	ADV	ADV	_	38	advmod	_	_
+38	משלם	שילם	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	44	advcl	_	_
+39	את	את	ADP	ADP	Case=Acc	40	case	_	_
+40	עמלת	עמלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	38	obj	_	_
+41-42	המשלם	_	_	_	_	_	_	_	_
+41	ה	ה	DET	DET	Definite=Def|PronType=Art	42	det	_	_
+42	משלם	שילם	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	40	compound:smixut	_	_
+43-44	שישלם	_	_	_	_	_	_	_	_
+43	ש	ש	SCONJ	SCONJ	_	44	dep	_	_
+44	ישלם	שילם	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	31	ccomp	_	_
+45	גם	גם	ADV	ADV	_	44	advmod	_	_
+46	את	את	ADP	ADP	Case=Acc	47	case	_	_
+47	עמלת	עמלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	44	obj	_	_
+48-49	המוטב	_	_	_	_	_	_	_	SpaceAfter=No
+48	ה	ה	DET	DET	Definite=Def|PronType=Art	49	det	_	_
+49	מוטב	מוטב	NOUN	NOUN	Gender=Masc|Number=Sing	47	compound:smixut	_	_
+50	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:125
+# doc_range = 7428-7604
+# sent_id = 2998
+# text = לזכותה ייאמר, שסוכנות "ביגז" מאפשרת לשלם את החשבון בלא עמלה כלל אבל לשם כך צריך להתייצב במשרדיה.
+1-4	לזכותה	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	זכות	זכות	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
+3	_של_	של	ADP	ADP	Case=Gen	4	case:gen	_	_
+4	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5	ייאמר	נאמר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Fut|Voice=Mid	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	13	punct	_	_
+7-8	שסוכנות	_	_	_	_	_	_	_	_
+7	ש	ש	SCONJ	SCONJ	_	13	mark	_	_
+8	סוכנות	סוכנות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	13	nsubj	_	_
+9	"	"	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+10	ביגז	ביגז	PROPN	PROPN	_	8	compound:smixut	_	SpaceAfter=No
+11	"	"	PUNCT	PUNCT	_	10	punct	_	_
+12	מאפשרת	מאפשרת	AUX	AUX	Gender=Fem|Number=Sing|VerbForm=Part|VerbType=Mod	13	aux	_	_
+13	לשלם	שילם	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	5	ccomp	_	_
+14	את	את	ADP	ADP	Case=Acc	16	case	_	_
+15-16	החשבון	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	חשבון	חשבון	NOUN	NOUN	Gender=Masc|Number=Sing	13	obj	_	_
+17	בלא	בלא	ADP	ADP	_	18	case	_	_
+18	עמלה	עמלה	NOUN	NOUN	Gender=Fem|Number=Sing	13	obl	_	_
+19	כלל	כלל	ADV	ADV	_	18	advmod	_	HebSource=ConvUncertainHead
+20	אבל	אבל	CCONJ	CCONJ	_	24	cc	_	_
+21	לשם	לשם	ADP	ADP	_	22	case	_	_
+22	כך	כך	PRON	PRON	Person=3|PronType=Dem	24	obl	_	_
+23	צריך	צריך	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	24	aux	_	_
+24	להתייצב	התייצב	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	12	conj	_	_
+25-28	במשרדיה	_	_	_	_	_	_	_	SpaceAfter=No
+25	ב	ב	ADP	ADP	_	26	case	_	_
+26	משרד	משרד	NOUN	NOUN	Gender=Masc|Number=Plur	24	obl	_	_
+27	_של_	של	ADP	ADP	Case=Gen	28	case:gen	_	_
+28	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+29	.	.	PUNCT	PUNCT	_	5	punct	_	_
+

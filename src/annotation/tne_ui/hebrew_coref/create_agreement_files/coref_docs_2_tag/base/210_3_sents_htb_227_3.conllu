@@ -1,0 +1,88 @@
+# doc_id = htb:227_3
+# doc_range = 4708-4845
+# sent_id = 5659
+# text = לידס עלתה למקום החמישי אחרי שניצחה אתמול בחוץ במשחק השלמה את מנצסטר סיטי 3 2.
+1	לידס	לידס	PROPN	PROPN	_	2	nsubj	_	_
+2	עלתה	עלה	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3-5	למקום	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	5	case	_	_
+4	ה_	ה	DET	DET	PronType=Art|Definite=Def	5	det	_	_
+5	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	2	obl	_	_
+6-7	החמישי	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	חמישי	חמישי	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	_
+8	אחרי	אחרי	ADP	ADP	_	10	mark	_	_
+9-10	שניצחה	_	_	_	_	_	_	_	_
+9	ש	ש	SCONJ	SCONJ	_	8	fixed	_	_
+10	ניצחה	ניצח	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	advcl	_	_
+11	אתמול	אתמול	ADV	ADV	_	10	advmod	_	_
+12-14	בחוץ	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	14	case	_	_
+13	ה_	ה	DET	DET	PronType=Art|Definite=Def	14	det	_	_
+14	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
+15-16	במשחק	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	משחק	משחק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	obl	_	_
+17	השלמה	השלמה	NOUN	NOUN	Gender=Fem|Number=Sing	16	compound:smixut	_	_
+18	את	את	ADP	ADP	Case=Acc	19	case	_	_
+19	מנצסטר	מנצסטר	PROPN	PROPN	_	10	obj	_	_
+20	סיטי	סיטי	NOUN	NOUN	Gender=Fem|Number=Sing	19	flat:name	_	_
+21	3	3	NUM	NUM	_	10	dep	_	_
+22	2	2	NUM	NUM	_	21	nummod	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:227_3
+# doc_range = 4847-4956
+# sent_id = 5660
+# text = השערים ללידס: לי צפמאן (14), קארל שאט (42), גורדון סטראקאן (62).
+1-2	השערים	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	שערים	שער	NOUN	NOUN	Gender=Masc|Number=Plur	0	root	_	_
+3-4	ללידס	_	_	_	_	_	_	_	SpaceAfter=No
+3	ל	ל	ADP	ADP	_	4	case	_	_
+4	לידס	לידס	PROPN	PROPN	_	2	nmod	_	_
+5	:	:	PUNCT	PUNCT	_	6	punct	_	HebSource=ConvUncertainHead
+6	לי	לי	PROPN	PROPN	_	2	dep	_	HebSource=ConvUncertainHead
+7	צפמאן	צפמאן	PROPN	PROPN	_	6	flat:name	_	_
+8	(	(	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+9	14	14	NUM	NUM	_	6	parataxis	_	SpaceAfter=No
+10	)	)	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	12	punct	_	HebSource=ConvUncertainHead
+12	קארל	קארל	PROPN	PROPN	_	2	dep	_	HebSource=ConvUncertainHead
+13	שאט	שאט	PROPN	PROPN	_	12	flat:name	_	_
+14	(	(	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
+15	42	42	NUM	NUM	_	12	appos	_	SpaceAfter=No
+16	)	)	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	18	punct	_	HebSource=ConvUncertainHead
+18	גורדון	גורדון	PROPN	PROPN	_	2	dep	_	HebSource=ConvUncertainHead
+19	סטראקאן	סטראקאן	PROPN	PROPN	_	18	flat:name	_	_
+20	(	(	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No
+21	62	62	NUM	NUM	_	18	parataxis	_	SpaceAfter=No
+22	)	)	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	2	punct	_	HebSource=ConvUncertainHead
+
+# doc_id = htb:227_3
+# doc_range = 4961-5038
+# sent_id = 5661
+# text = לסיטי: אשלי וורד (49 מ-11 מ), דייויד ווייט (65).
+1-2	לסיטי	_	_	_	_	_	_	_	SpaceAfter=No
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	סיטי	סיטי	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+3	:	:	PUNCT	PUNCT	_	4	punct	_	HebSource=ConvUncertainHead
+4	אשלי	אשלי	PROPN	PROPN	_	2	dep	_	HebSource=ConvUncertainHead
+5	וורד	ורד	PROPN	PROPN	_	4	flat:name	_	_
+6	(	(	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+7	49	49	NUM	NUM	_	8	nummod	_	HebSource=ConvUncertainHead
+8	מ	מ	NOUN	NOUN	_	5	parataxis	_	SpaceAfter=No
+9	-	-	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+10	11	11	NUM	NUM	_	11	nummod	_	_
+11	מ	מ	NOUN	NOUN	_	8	conj	_	SpaceAfter=No
+12	)	)	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	14	punct	_	HebSource=ConvUncertainHead
+14	דייויד	דייויד	PROPN	PROPN	_	2	dep	_	HebSource=ConvUncertainHead
+15	ווייט	וייט	PROPN	PROPN	_	14	flat:name	_	_
+16	(	(	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No
+17	65	65	NUM	NUM	_	14	parataxis	_	SpaceAfter=No
+18	)	)	PUNCT	PUNCT	_	17	punct	_	SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	2	punct	_	HebSource=ConvUncertainHead
+

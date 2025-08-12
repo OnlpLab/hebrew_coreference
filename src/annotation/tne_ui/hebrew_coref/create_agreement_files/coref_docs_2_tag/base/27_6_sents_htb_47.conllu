@@ -1,0 +1,191 @@
+# doc_id = htb:47
+# doc_range = 1-185
+# sent_id = 1659
+# text = סיום משחק הניצחון של הפועל ירושלים על הגליל עשו האורחים מהצפון דרכם לחדר ההלבשה, כשארשת פניהם כעוסה.
+1	סיום	סיום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	obl:tmod	_	_
+2	משחק	משחק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	compound:smixut	_	_
+3-4	הניצחון	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	ניצחון	ניצחון	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+5	של	של	ADP	ADP	Case=Gen	7	case	_	_
+6-7	הפועל	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	פועל	פועל	PROPN	PROPN	_	4	nmod:poss	_	_
+8	ירושלים	ירושלים	PROPN	PROPN	_	7	flat:name	_	_
+9	על	על	ADP	ADP	_	11	case	_	_
+10-11	הגליל	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	גליל	גליל	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
+12	עשו	עשה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+13-14	האורחים	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	אורחים	אורח	NOUN	NOUN	Gender=Masc|Number=Plur	12	nsubj	_	_
+15-17	מהצפון	_	_	_	_	_	_	_	_
+15	מ	מ	ADP	ADP	_	17	case	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	צפון	צפון	NOUN	NOUN	Gender=Masc|Number=Sing	14	nmod	_	_
+18-20	דרכם	_	_	_	_	_	_	_	_
+18	דרך	דרך	NOUN	NOUN	Gender=Fem|Number=Sing	12	obj	_	_
+19	_של_	של	ADP	ADP	Case=Gen	20	case:gen	_	_
+20	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+21-22	לחדר	_	_	_	_	_	_	_	_
+21	ל	ל	ADP	ADP	_	22	case	_	_
+22	חדר	חדר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	obl	_	_
+23-24	ההלבשה	_	_	_	_	_	_	_	SpaceAfter=No
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	הלבשה	הלבשה	NOUN	NOUN	Gender=Fem|Number=Sing	22	compound:smixut	_	_
+25	,	,	PUNCT	PUNCT	_	30	punct	_	_
+26-27	כשארשת	_	_	_	_	_	_	_	_
+26	כש	כש	SCONJ	SCONJ	Case=Tem	30	mark	_	_
+27	ארשת	ארשת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	30	nsubj	_	_
+28-29	פניהם	_	_	_	_	_	_	_	_
+28	פני	פנים	NOUN	NOUN	Gender=Fem,Masc|Number=Plur	27	compound:smixut	_	_
+29	הם	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+30	כעוסה	כעוס	ADJ	ADJ	Gender=Fem|Number=Sing	12	xcomp	_	SpaceAfter=No
+31	.	.	PUNCT	PUNCT	_	12	punct	_	_
+
+# doc_id = htb:47
+# doc_range = 187-306
+# sent_id = 1660
+# text = סדרן, שהעיר להם על השתוללות קלה מצדם, חטף מהלומת אגרוף מבראד ליף.
+1	סדרן	סדרן	NOUN	NOUN	Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	4	punct	_	_
+3-4	שהעיר	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
+4	העיר	העיר	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	1	acl:relcl	_	_
+5-6	להם	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	obl	_	_
+7	על	על	ADP	ADP	_	8	case	_	_
+8	השתוללות	השתוללות	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+9	קלה	קל	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	_
+10-13	מצדם	_	_	_	_	_	_	_	SpaceAfter=No
+10	מ	מ	ADP	ADP	_	11	case	_	_
+11	צד	צד	NOUN	NOUN	Gender=Masc|Number=Sing	8	nmod	_	_
+12	_של_	של	ADP	ADP	Case=Gen	13	case:gen	_	_
+13	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+14	,	,	PUNCT	PUNCT	_	1	punct	_	_
+15	חטף	חטף	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+16	מהלומת	מהלומה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	15	obj	_	_
+17	אגרוף	אגרוף	NOUN	NOUN	Gender=Masc|Number=Sing	16	compound:smixut	_	_
+18-19	מבראד	_	_	_	_	_	_	_	_
+18	מ	מ	ADP	ADP	_	19	case	_	_
+19	בראד	מבראד	PROPN	PROPN	_	15	obl	_	_
+20	ליף	ליף	PROPN	PROPN	_	19	flat:name	_	SpaceAfter=No
+21	.	.	PUNCT	PUNCT	_	15	punct	_	_
+
+# doc_id = htb:47
+# doc_range = 308-475
+# sent_id = 1661
+# text = עוזר מאמן הפועל ירושלים גדי קידר, שנקלע למקום, ספג אגרוף ובעיטה מוויין קמבל ואיבד את הכרתו.
+1	עוזר	עוזר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	15	nsubj	_	_
+2	מאמן	מאמן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	compound:smixut	_	_
+3-4	הפועל	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	פועל	פועל	PROPN	PROPN	_	2	compound:smixut	_	_
+5	ירושלים	ירושלים	PROPN	PROPN	_	4	flat:name	_	_
+6	גדי	גדי	PROPN	PROPN	_	1	appos	_	_
+7	קידר	קידר	PROPN	PROPN	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	10	punct	_	_
+9-10	שנקלע	_	_	_	_	_	_	_	_
+9	ש	ש	SCONJ	SCONJ	_	10	mark	_	_
+10	נקלע	נקלע	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	1	acl:relcl	_	_
+11-13	למקום	_	_	_	_	_	_	_	SpaceAfter=No
+11	ל	ל	ADP	ADP	_	13	case	_	_
+12	ה_	ה	DET	DET	PronType=Art|Definite=Def	13	det	_	_
+13	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
+14	,	,	PUNCT	PUNCT	_	1	punct	_	_
+15	ספג	ספג	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+16	אגרוף	אגרוף	NOUN	NOUN	Gender=Masc|Number=Sing	15	obj	_	_
+17-18	ובעיטה	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+18	בעיטה	בעיטה	NOUN	NOUN	Gender=Fem|Number=Sing	16	conj	_	_
+19-20	מוויין	_	_	_	_	_	_	_	_
+19	מ	מ	ADP	ADP	_	20	case	_	_
+20	וויין	מוויין	PROPN	PROPN	_	15	obl	_	_
+21	קמבל	קמבל	PROPN	PROPN	_	20	flat:name	_	_
+22-23	ואיבד	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
+23	איבד	איבד	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	15	conj	_	_
+24	את	את	ADP	ADP	Case=Acc	25	case	_	_
+25-27	הכרתו	_	_	_	_	_	_	_	SpaceAfter=No
+25	הכרה	הכרה	NOUN	NOUN	Gender=Fem|Number=Sing	23	obj	_	_
+26	_של_	של	ADP	ADP	Case=Gen	27	case:gen	_	_
+27	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+28	.	.	PUNCT	PUNCT	_	15	punct	_	_
+
+# doc_id = htb:47
+# doc_range = 477-577
+# sent_id = 1662
+# text = דקות חרדה עברו על אנשי ירושלים עד שקידר חזר להכרה מלאה.
+1	דקות	דקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	3	nsubj	_	_
+2	חרדה	חרדה	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+3	עברו	עבר	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	0	root	_	_
+4	על	על	ADP	ADP	_	5	case	_	_
+5	אנשי	איש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	3	obl	_	_
+6	ירושלים	ירושלים	PROPN	PROPN	_	5	compound:smixut	_	_
+7	עד	עד	ADP	ADP	_	10	mark	_	_
+8-9	שקידר	_	_	_	_	_	_	_	_
+8	ש	ש	SCONJ	SCONJ	_	7	fixed	_	_
+9	קידר	קידר	PROPN	PROPN	_	10	nsubj	_	_
+10	חזר	חזר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	3	advcl	_	_
+11-12	להכרה	_	_	_	_	_	_	_	_
+11	ל	ל	ADP	ADP	_	12	case	_	_
+12	הכרה	הכרה	NOUN	NOUN	Gender=Fem|Number=Sing	10	obl	_	_
+13	מלאה	מלא	ADJ	ADJ	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:47
+# doc_range = 579-654
+# sent_id = 1663
+# text = הוא גם נחבל קשה בסנטרו והובהל לבית חולים.
+1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	גם	גם	ADV	ADV	_	3	advmod	_	_
+3	נחבל	נחבל	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+4	קשה	קשה	ADV	ADV	_	3	advmod	_	_
+5-8	בסנטרו	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	סנטר	סנטר	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+7	_של_	של	ADP	ADP	Case=Gen	8	case:gen	_	_
+8	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+9-10	והובהל	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+10	הובהל	הובהל	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	3	conj	_	_
+11-12	לבית	_	_	_	_	_	_	_	_
+11	ל	ל	ADP	ADP	_	12	case	_	_
+12	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	obl	_	_
+13	חולים	חלה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	12	compound:smixut	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:47
+# doc_range = 656-787
+# sent_id = 1664
+# text = המשטרה עצרה לחקירה את וויין קמבל ובראד ליף, שכנראה ישוחררו בתום החקירה.
+1-2	המשטרה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	עצרה	עצר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4-6	לחקירה	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	6	case	_	_
+5	ה_	ה	DET	DET	PronType=Art|Definite=Def	6	det	_	_
+6	חקירה	חקירה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+7	את	את	ADP	ADP	Case=Acc	8	case	_	_
+8	וויין	וויין	PROPN	PROPN	_	3	obj	_	_
+9	קמבל	קמבל	PROPN	PROPN	_	8	flat:name	_	_
+10-11	ובראד	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+11	בראד	ובראד	PROPN	PROPN	_	8	conj	_	_
+12	ליף	ליף	PROPN	PROPN	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	16	punct	_	_
+14-15	שכנראה	_	_	_	_	_	_	_	_
+14	ש	ש	SCONJ	SCONJ	_	16	mark	_	_
+15	כנראה	כנראה	ADV	ADV	_	16	advmod	_	_
+16	ישוחררו	שוחרר	VERB	VERB	Gender=Fem,Masc|HebBinyan=PUAL|Number=Plur|Person=3|Tense=Fut|Voice=Pass	8	acl:relcl	_	_
+17-18	בתום	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	_	18	case	_	_
+18	תום	תום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	16	obl	_	_
+19-20	החקירה	_	_	_	_	_	_	_	SpaceAfter=No
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	חקירה	חקירה	NOUN	NOUN	Gender=Fem|Number=Sing	18	compound:smixut	_	_
+21	.	.	PUNCT	PUNCT	_	3	punct	_	_
+

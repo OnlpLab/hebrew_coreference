@@ -1,0 +1,418 @@
+# doc_id = htb:15_1
+# doc_range = 1-263
+# sent_id = 429
+# text = ארבע וחצי שעות צעדו אתמול בירושלים עשרות אלפים אחרי ארונו של מאיר כהנא במסע הלווייה פרוע, רצוף קריאות הסתה לפגיעות בערבים, בעיתונאים ובשוטרים.
+1	ארבע	ארבע	NUM	NUM	Gender=Fem|Number=Sing	4	nummod	_	_
+2-3	וחצי	_	_	_	_	_	_	_	_
+2	ו	ו	CCONJ	CCONJ	_	3	cc	_	_
+3	חצי	חצי	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	1	conj	_	_
+4	שעות	שעה	NOUN	NOUN	Gender=Fem|Number=Plur	5	obl:tmod	_	_
+5	צעדו	צעד	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+6	אתמול	אתמול	ADV	ADV	_	5	advmod	_	_
+7-8	בירושלים	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	ירושלים	ירושלים	PROPN	PROPN	_	5	obl	_	_
+9	עשרות	עשרות	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	10	nummod	_	_
+10	אלפים	אלפים	NUM	NUM	Gender=Masc|Number=Plur	5	nsubj	_	_
+11	אחרי	אחרי	ADP	ADP	_	12	case	_	_
+12-14	ארונו	_	_	_	_	_	_	_	_
+12	ארון	ארון	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+13	_של_	של	ADP	ADP	Case=Gen	14	case:gen	_	_
+14	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+15	של	של	ADP	ADP	Case=Gen	16	case	_	_
+16	מאיר	מאיר	PROPN	PROPN	_	12	nmod:poss	_	_
+17	כהנא	כהנא	PROPN	PROPN	_	16	flat:name	_	_
+18-19	במסע	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	19	case	_	_
+19	מסע	מסע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+20	הלווייה	הלוויה	NOUN	NOUN	Gender=Fem|Number=Sing	19	compound:smixut	_	_
+21	פרוע	פרוע	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+22	,	,	PUNCT	PUNCT	_	23	punct	_	_
+23	רצוף	רצוף	ADJ	ADJ	Definite=Cons|Gender=Masc|Number=Sing	19	amod	_	_
+24	קריאות	קריאה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	23	compound:smixut	_	_
+25	הסתה	הסתה	NOUN	NOUN	Gender=Fem|Number=Sing	24	compound:smixut	_	_
+26-27	לפגיעות	_	_	_	_	_	_	_	_
+26	ל	ל	ADP	ADP	_	27	case	_	_
+27	פגיעות	פגיעה	NOUN	NOUN	Gender=Fem|Number=Plur	25	nmod	_	_
+28-29	בערבים	_	_	_	_	_	_	_	SpaceAfter=No
+28	ב	ב	ADP	ADP	_	29	case	_	_
+29	ערבים	ערבי	NOUN	NOUN	Gender=Masc|Number=Plur	27	nmod	_	_
+30	,	,	PUNCT	PUNCT	_	32	punct	_	_
+31-32	בעיתונאים	_	_	_	_	_	_	_	_
+31	ב	ב	ADP	ADP	_	32	case	_	_
+32	עיתונאים	עיתונאי	NOUN	NOUN	Gender=Masc|Number=Plur	29	conj	_	_
+33-35	ובשוטרים	_	_	_	_	_	_	_	SpaceAfter=No
+33	ו	ו	CCONJ	CCONJ	_	35	cc	_	_
+34	ב	ב	ADP	ADP	_	35	case	_	_
+35	שוטרים	שוטר	NOUN	NOUN	Gender=Masc|Number=Plur	29	conj	_	_
+36	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:15_1
+# doc_range = 266-471
+# sent_id = 430
+# text = בשעה 1200, כשהחל הקהל להתפזר, מנתה המשטרה שלושה שוטרים פצועים, אחד מהם קשה, וארבעה ערבים עוברי-אורח שנפצעו אף הם.
+1-2	בשעה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	שעה	שעה	NOUN	NOUN	Gender=Fem|Number=Sing	11	obl	_	_
+3	1200	1200	NUM	NUM	_	2	nummod	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	2	punct	_	_
+5-6	כשהחל	_	_	_	_	_	_	_	_
+5	כש	כש	SCONJ	SCONJ	Case=Tem	6	mark	_	_
+6	החל	החל	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	11	advcl	_	_
+7-8	הקהל	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	קהל	קהל	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
+9	להתפזר	התפזר	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	6	punct	_	_
+11	מנתה	מנה	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+12-13	המשטרה	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	11	nsubj	_	_
+14	שלושה	שלוש	NUM	NUM	Gender=Masc|Number=Plur	15	nummod	_	_
+15	שוטרים	שוטר	NOUN	NOUN	Gender=Masc|Number=Plur	11	obj	_	_
+16	פצועים	פצוע	ADJ	ADJ	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	20	punct	_	_
+18	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	20	nummod	_	_
+19-20	מהם	_	_	_	_	_	_	_	_
+19	מ	מן	ADP	ADP	_	20	case	_	_
+20	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	appos	_	_
+21	קשה	קשה	ADV	ADV	_	20	advmod	_	HebSource=ConvUncertainHead|SpaceAfter=No
+22	,	,	PUNCT	PUNCT	_	20	punct	_	_
+23-24	וארבעה	_	_	_	_	_	_	_	_
+23	ו	ו	CCONJ	CCONJ	_	25	cc	_	_
+24	ארבעה	ארבע	NUM	NUM	Gender=Masc|Number=Sing	25	nummod	_	_
+25	ערבים	ערבי	NOUN	NOUN	Gender=Masc|Number=Plur	15	conj	_	_
+26	עוברי	עבר	VERB	VERB	Definite=Cons|Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	25	amod	_	SpaceAfter=No
+27	-	-	PUNCT	PUNCT	_	28	punct	_	SpaceAfter=No
+28	אורח	אורח	NOUN	NOUN	Gender=Masc|Number=Sing	26	obl	_	_
+29-30	שנפצעו	_	_	_	_	_	_	_	_
+29	ש	ש	SCONJ	SCONJ	_	30	mark	_	_
+30	נפצעו	נפצע	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	25	acl:relcl	_	_
+31	אף	אף	ADV	ADV	_	32	advmod	_	_
+32	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	30	dep	_	SpaceAfter=No
+33	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:15_1
+# doc_range = 473-557
+# sent_id = 431
+# text = בשעה 1400 עדיין נמצא קהל הרבבות תחת שליטה ובקרה.
+1-2	בשעה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	שעה	שעה	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
+3	1400	1400	NUM	NUM	_	2	nummod	_	_
+4	עדיין	עדיין	ADV	ADV	_	5	advmod	_	_
+5	נמצא	נמצא	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+6	קהל	קהל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	nsubj	_	_
+7-8	הרבבות	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	רבבות	רבבה	NUM	NUM	Definite=Cons|Number=Plur	6	compound:smixut	_	_
+9	תחת	תחת	ADP	ADP	_	10	case	_	_
+10	שליטה	שליטה	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
+11-12	ובקרה	_	_	_	_	_	_	_	SpaceAfter=No
+11	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+12	בקרה	בקרה	NOUN	NOUN	Gender=Fem|Number=Sing	10	conj	_	_
+13	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:15_1
+# doc_range = 559-696
+# sent_id = 432
+# text = החל משעות הצהרים התקבצו אלפים סביב ישיבת הרעיון היהודי בשכונת שמואל הנביא.
+1	החל	החל	ADP	ADP	_	3	case	_	_
+2-3	משעות	_	_	_	_	_	_	_	_
+2	מ	מ	ADP	ADP	_	1	fixed	_	_
+3	שעות	שעה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	6	obl	_	_
+4-5	הצהרים	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	צהרים	צהריים	NOUN	NOUN	Gender=Masc|Number=Plur	3	compound:smixut	_	_
+6	התקבצו	התקבץ	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	0	root	_	_
+7	אלפים	אלפים	NUM	NUM	Gender=Masc|Number=Plur	6	nsubj	_	_
+8	סביב	סביב	ADP	ADP	_	9	case	_	_
+9	ישיבת	ישיבה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	obl	_	_
+10-11	הרעיון	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	רעיון	רעיון	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound:smixut	_	_
+12-13	היהודי	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	יהודי	יהודי	ADJ	ADJ	Gender=Masc|Number=Sing	11	amod	_	_
+14-15	בשכונת	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	שכונת	שכונה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	obl	_	_
+16	שמואל	שמואל	PROPN	PROPN	_	15	compound:smixut	_	_
+17-18	הנביא	_	_	_	_	_	_	_	SpaceAfter=No
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	נביא	נביא	NOUN	NOUN	Gender=Masc|Number=Sing	16	flat:name	_	_
+19	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:15_1
+# doc_range = 698-791
+# sent_id = 433
+# text = בני משפחת כהנא ישבו על מרפסת המשקיפה על פתח הישיבה.
+1	בני	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	משפחת	משפחה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	compound:smixut	_	_
+3	כהנא	כהנא	PROPN	PROPN	_	2	compound:smixut	_	_
+4	ישבו	ישב	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	0	root	_	_
+5	על	על	ADP	ADP	_	6	case	_	_
+6	מרפסת	מרפסת	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+7-8	המשקיפה	_	_	_	_	_	_	_	_
+7	ה	ה	SCONJ	SCONJ	_	8	mark	_	_
+8	משקיפה	השקיף	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	6	acl:relcl	_	_
+9	על	על	ADP	ADP	_	10	case	_	_
+10	פתח	פתח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	obl	_	_
+11-12	הישיבה	_	_	_	_	_	_	_	SpaceAfter=No
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	ישיבה	ישיבה	NOUN	NOUN	Gender=Fem|Number=Sing	10	compound:smixut	_	_
+13	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:15_1
+# doc_range = 793-865
+# sent_id = 434
+# text = צלמי עיתונות רבים נדחקו על גג בטון סמוך.
+1	צלמי	צלם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	עיתונות	עיתונות	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+3	רבים	רב	ADJ	ADJ	Gender=Masc|Number=Plur	1	amod	_	_
+4	נדחקו	נדחק	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+5	על	על	ADP	ADP	_	6	case	_	_
+6	גג	גג	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	obl	_	_
+7	בטון	בטון	NOUN	NOUN	_	6	compound:smixut	_	_
+8	סמוך	סמוך	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:15_1
+# doc_range = 868-949
+# sent_id = 435
+# text = צוותי תקשורת אחרים הושמו מאחורי גדירות משטרה.
+1	צוותי	צוות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+2	תקשורת	תקשורת	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+3	אחרים	אחר	ADJ	ADJ	Gender=Masc|Number=Plur	1	amod	_	_
+4	הושמו	הושם	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+5	מאחורי	מאחורי	ADP	ADP	_	6	case	_	_
+6	גדירות	גדירות	NOUN	NOUN	Definite=Cons	4	obl	_	_
+7	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	6	compound:smixut	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:15_1
+# doc_range = 951-997
+# sent_id = 436
+# text = בשעה 1500 הגיע הארון למקום.
+1-2	בשעה	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	שעה	שעה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+3	1500	1500	NUM	NUM	_	2	nummod	_	_
+4	הגיע	הגיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5-6	הארון	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	ארון	ארון	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
+7-9	למקום	_	_	_	_	_	_	_	SpaceAfter=No
+7	ל	ל	ADP	ADP	_	9	case	_	_
+8	ה_	ה	DET	DET	PronType=Art|Definite=Def	9	det	_	_
+9	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+10	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:15_1
+# doc_range = 999-1105
+# sent_id = 437
+# text = מהרמקול בקע קולו של אחד מתלמידי הישיבה, שקרא פסוקי תהילים.
+1-3	מהרמקול	_	_	_	_	_	_	_	_
+1	מ	מ	ADP	ADP	_	3	case	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	רמקול	רמקול	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+4	בקע	בקע	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	_
+5-7	קולו	_	_	_	_	_	_	_	_
+5	קול	קול	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
+6	_של_	של	ADP	ADP	Case=Gen	7	case:gen	_	_
+7	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+8	של	של	ADP	ADP	Case=Gen	11	case	_	_
+9	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	11	nummod	_	_
+10-11	מתלמידי	_	_	_	_	_	_	_	_
+10	מ	מ	ADP	ADP	_	11	case	_	_
+11	תלמידי	תלמיד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	5	nmod:poss	_	_
+12-13	הישיבה	_	_	_	_	_	_	_	SpaceAfter=No
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	ישיבה	ישיבה	NOUN	NOUN	Gender=Fem|Number=Sing	11	compound:smixut	_	_
+14	,	,	PUNCT	PUNCT	_	16	punct	_	_
+15-16	שקרא	_	_	_	_	_	_	_	_
+15	ש	ש	SCONJ	SCONJ	_	16	mark	_	_
+16	קרא	קרא	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	11	acl:relcl	_	_
+17	פסוקי	פסוק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	16	obj	_	_
+18	תהילים	תהילים	PROPN	PROPN	_	17	compound:smixut	_	SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:15_1
+# doc_range = 1108-1152
+# sent_id = 438
+# text = הציבור חזר אחריו בדבקות.
+1-2	הציבור	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	ציבור	ציבור	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	חזר	חזר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	_
+4-5	אחריו	_	_	_	_	_	_	_	_
+4	אחרי	אחרי	ADP	ADP	_	5	case	_	_
+5	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+6-7	בדבקות	_	_	_	_	_	_	_	SpaceAfter=No
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	דבקות	דבקות	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+8	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:15_1
+# doc_range = 1154-1281
+# sent_id = 439
+# text = קהל הרבבות כלל כיפות סרוגות, חרדים, יהודים דתיים מארה"ב ואנשי שכונות.
+1	קהל	קהל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nsubj	_	_
+2-3	הרבבות	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	רבבות	רבבה	NUM	NUM	Definite=Cons|Number=Plur	1	compound:smixut	_	_
+4	כלל	כלל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	כיפות	כיפה	NOUN	NOUN	Gender=Fem|Number=Plur	4	obj	_	_
+6	סרוגות	סרוג	ADJ	ADJ	Gender=Fem|Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	8	punct	_	_
+8	חרדים	חרדי	NOUN	NOUN	Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	10	punct	_	_
+10	יהודים	יהודי	NOUN	NOUN	Gender=Masc|Number=Plur	5	conj	_	_
+11	דתיים	דתי	ADJ	ADJ	Gender=Masc|Number=Plur	10	amod	_	_
+12-13	מארה"ב	_	_	_	_	_	_	_	_
+12	מ	מ	ADP	ADP	_	13	case	_	_
+13	ארה"ב	ארה"ב	PROPN	PROPN	Abbr=Yes	10	nmod	_	_
+14-15	ואנשי	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+15	אנשי	איש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	5	conj	_	_
+16	שכונות	שכונה	NOUN	NOUN	Gender=Fem|Number=Plur	15	compound:smixut	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:15_1
+# doc_range = 1283-1397
+# sent_id = 440
+# text = אנשי החברה קדישא ביקשו להעביר את אלונקת הנפטר מהרכב אל הישיבה.
+1	אנשי	איש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	5	nsubj	_	_
+2-3	החברה	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+4	קדישא	קדישא	PROPN	PROPN	_	3	flat:name	_	_
+5	ביקשו	ביקש	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+6	להעביר	העביר	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	את	את	ADP	ADP	Case=Acc	8	case	_	_
+8	אלונקת	אלונקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	obj	_	_
+9-10	הנפטר	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	נפטר	נפטר	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound:smixut	_	_
+11-13	מהרכב	_	_	_	_	_	_	_	_
+11	מ	מ	ADP	ADP	_	13	case	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	רכב	רכב	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+14	אל	אל	ADP	ADP	_	16	case	_	_
+15-16	הישיבה	_	_	_	_	_	_	_	SpaceAfter=No
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	ישיבה	ישיבה	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	_
+17	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:15_1
+# doc_range = 1399-1483
+# sent_id = 441
+# text = למעלה מחצי שעה הם ניסו לעשות זאת, אך ללא הצלחה.
+1	למעלה	למעלה	ADV	ADV	_	3	advmod	_	HebSource=ConvUncertainHead
+2-3	מחצי	_	_	_	_	_	_	_	_
+2	מ	מ	ADP	ADP	_	1	fixed	_	_
+3	חצי	חצי	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	6	dep	_	_
+4	שעה	שעה	NOUN	NOUN	Gender=Fem|Number=Sing	3	compound:smixut	_	_
+5	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+6	ניסו	ניסה	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+7	לעשות	עשה	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	10	punct	_	_
+10	אך	אך	CCONJ	CCONJ	_	6	cc	_	_
+11	ללא	ללא	ADP	ADP	_	12	case	_	_
+12	הצלחה	הצלחה	NOUN	NOUN	Gender=Fem|Number=Sing	6	dep	_	SpaceAfter=No
+13	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:15_1
+# doc_range = 1486-1713
+# sent_id = 442
+# text = בני המשפחה, הרבנים, ראשי כך ואפילו הרב הראשי לישראל, הראשון לציון הרב מרדכי אליהו, התחננו בפני הקהל לפנות מעט דרך, אך לשווא.
+1	בני	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	28	nsubj	_	_
+2-3	המשפחה	_	_	_	_	_	_	_	SpaceAfter=No
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	משפחה	משפחה	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+4	,	,	PUNCT	PUNCT	_	6	punct	_	_
+5-6	הרבנים	_	_	_	_	_	_	_	SpaceAfter=No
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	רבנים	רב	NOUN	NOUN	Gender=Masc|Number=Plur	1	conj	_	_
+7	,	,	PUNCT	PUNCT	_	8	punct	_	_
+8	ראשי	ראש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	1	conj	_	_
+9	כך	כך	PROPN	PROPN	_	8	compound:smixut	_	_
+10-11	ואפילו	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
+11	אפילו	אפילו	ADV	ADV	_	13	advmod	_	_
+12-13	הרב	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	רב	רב	NOUN	NOUN	Gender=Masc|Number=Sing	1	conj	_	_
+14-15	הראשי	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	ראשי	ראשי	ADJ	ADJ	Gender=Masc|Number=Sing	13	amod	_	_
+16-17	לישראל	_	_	_	_	_	_	_	SpaceAfter=No
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	ישראל	ישראל	PROPN	PROPN	_	13	nmod	_	_
+18	,	,	PUNCT	PUNCT	_	20	punct	_	_
+19-20	הראשון	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	ראשון	ראשון	PROPN	PROPN	_	13	appos	_	_
+21-22	לציון	_	_	_	_	_	_	_	_
+21	ל	ל	ADP	ADP	_	22	case	_	_
+22	ציון	ציון	PROPN	PROPN	_	20	nmod	_	_
+23-24	הרב	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	רב	רב	NOUN	NOUN	Gender=Masc|Number=Sing	20	nmod	_	_
+25	מרדכי	מרדכי	PROPN	PROPN	_	24	flat:name	_	_
+26	אליהו	אליהו	PROPN	PROPN	_	24	flat:name	_	SpaceAfter=No
+27	,	,	PUNCT	PUNCT	_	1	punct	_	_
+28	התחננו	התחנן	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	0	root	_	_
+29-30	בפני	_	_	_	_	_	_	_	_
+29	ב	ב	ADP	ADP	_	30	case	_	_
+30	פני	פנים	NOUN	NOUN	Definite=Cons|Gender=Fem,Masc|Number=Plur	28	obl	_	_
+31-32	הקהל	_	_	_	_	_	_	_	_
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	קהל	קהל	NOUN	NOUN	Gender=Masc|Number=Sing	30	compound:smixut	_	_
+33	לפנות	פינה	VERB	VERB	VerbForm=Inf	28	xcomp	_	_
+34	מעט	מעט	DET	DET	Definite=Cons	35	det	_	_
+35	דרך	דרך	NOUN	NOUN	Gender=Fem|Number=Sing	33	obj	_	SpaceAfter=No
+36	,	,	PUNCT	PUNCT	_	38	punct	_	_
+37	אך	אך	CCONJ	CCONJ	_	38	cc	_	_
+38	לשווא	לשווא	ADV	ADV	_	28	conj	_	SpaceAfter=No
+39	.	.	PUNCT	PUNCT	_	28	punct	_	_
+
+# doc_id = htb:15_1
+# doc_range = 1715-1904
+# sent_id = 443
+# text = מאות צרו על רכב החברה קדישא, תוך שהם דוחפים איש את רעהו ומשלחים קללות וגידופים לעבר אנשי התקשורת הרבים.
+1	מאות	מאה	NUM	NUM	Gender=Fem|Number=Plur	2	nsubj	_	_
+2	צרו	צר	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	על	על	ADP	ADP	_	4	case	_	_
+4	רכב	רכב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	obl	_	_
+5-6	החברה	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	4	compound:smixut	_	_
+7	קדישא	קדישא	PROPN	PROPN	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	12	punct	_	_
+9	תוך	תוך	ADP	ADP	_	12	case	_	_
+10-11	שהם	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	12	mark	_	_
+11	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_
+12	דוחפים	דחף	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	2	obl	_	_
+13	איש	איש	NOUN	NOUN	Gender=Masc|Number=Sing	12	obj	_	_
+14	את	את	ADP	ADP	Case=Acc	13	dep	_	_
+15	רעהו	רעהו	NOUN	NOUN	_	13	dep	_	HebSource=ConvUncertainHead
+16-17	ומשלחים	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+17	משלחים	שילח	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	12	conj	_	_
+18	קללות	קללה	NOUN	NOUN	Gender=Fem|Number=Plur	17	obj	_	_
+19-20	וגידופים	_	_	_	_	_	_	_	_
+19	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
+20	גידופים	גידוף	NOUN	NOUN	Gender=Masc|Number=Plur	18	conj	_	_
+21	לעבר	לעבר	ADP	ADP	_	22	case	_	_
+22	אנשי	איש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	17	obl	_	_
+23-24	התקשורת	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	תקשורת	תקשורת	NOUN	NOUN	Gender=Fem|Number=Sing	22	compound:smixut	_	_
+25-26	הרבים	_	_	_	_	_	_	_	SpaceAfter=No
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	רבים	רב	ADJ	ADJ	Gender=Masc|Number=Plur	22	amod	_	_
+27	.	.	PUNCT	PUNCT	_	2	punct	_	_
+

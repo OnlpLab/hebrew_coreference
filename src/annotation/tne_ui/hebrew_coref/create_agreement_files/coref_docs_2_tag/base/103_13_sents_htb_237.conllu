@@ -1,0 +1,543 @@
+# doc_id = htb:237
+# doc_range = 1-276
+# sent_id = 5834
+# text = יו"ר ועדת הספורט של הכנסת, ח"כ מיכה גולדמן, ביקש לזמן למחר דיון בועדה על רקע האירועים האחרונים הנוגעים למערכת היחסים בין קבוצות ספורט יהודיות וערביות.
+1	יו"ר	יו"ר	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	13	nsubj	_	_
+2	ועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	compound:smixut	_	_
+3-4	הספורט	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	ספורט	ספורט	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+5	של	של	ADP	ADP	Case=Gen	7	case	_	_
+6-7	הכנסת	_	_	_	_	_	_	_	SpaceAfter=No
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	כנסת	כנסת	PROPN	PROPN	_	2	nmod:poss	_	_
+8	,	,	PUNCT	PUNCT	_	9	punct	_	_
+9	ח"כ	ח"כ	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	1	appos	_	_
+10	מיכה	מיכה	PROPN	PROPN	_	9	flat:name	_	_
+11	גולדמן	גולדמן	PROPN	PROPN	_	9	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	1	punct	_	_
+13	ביקש	ביקש	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+14	לזמן	זימן	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	13	xcomp	_	_
+15	למחר	למחר	ADV	ADV	_	14	advmod	_	_
+16	דיון	דיון	NOUN	NOUN	Gender=Masc|Number=Sing	14	obj	_	_
+17-19	בועדה	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	_	19	case	_	_
+18	ה_	ה	DET	DET	PronType=Art|Definite=Def	19	det	_	_
+19	ועדה	ועדה	NOUN	NOUN	Gender=Fem|Number=Sing	16	nmod	_	_
+20	על	על	ADP	ADP	_	23	case	_	_
+21	רקע	רקע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	20	fixed	_	_
+22-23	האירועים	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	אירועים	אירוע	NOUN	NOUN	Gender=Masc|Number=Plur	13	obl	_	_
+24-25	האחרונים	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	אחרונים	אחרון	ADJ	ADJ	Gender=Masc|Number=Plur	23	amod	_	_
+26-27	הנוגעים	_	_	_	_	_	_	_	_
+26	ה	ה	SCONJ	SCONJ	_	27	mark	_	_
+27	נוגעים	נגע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	23	acl:relcl	_	_
+28-29	למערכת	_	_	_	_	_	_	_	_
+28	ל	ל	ADP	ADP	_	29	case	_	_
+29	מערכת	מערכת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	27	obl	_	_
+30-31	היחסים	_	_	_	_	_	_	_	_
+30	ה	ה	DET	DET	Definite=Def|PronType=Art	31	det	_	_
+31	יחסים	יחסים	NOUN	NOUN	Gender=Masc|Number=Plur	29	compound:smixut	_	_
+32	בין	בין	ADP	ADP	_	33	case	_	_
+33	קבוצות	קבוצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	29	nmod	_	_
+34	ספורט	ספורט	NOUN	NOUN	Gender=Masc|Number=Sing	33	compound:smixut	_	_
+35	יהודיות	יהודי	ADJ	ADJ	Gender=Fem|Number=Plur	33	amod	_	_
+36-37	וערביות	_	_	_	_	_	_	_	SpaceAfter=No
+36	ו	ו	CCONJ	CCONJ	_	37	cc	_	_
+37	ערביות	ערבי	ADJ	ADJ	Gender=Fem|Number=Plur	35	conj	_	_
+38	.	.	PUNCT	PUNCT	_	13	punct	_	_
+
+# doc_id = htb:237
+# doc_range = 278-544
+# sent_id = 5835
+# text = ח"כ גולדמן הזכיר את פרשת המשחק שנדחה בין הפועל בית שאן להפועל אום אל פאחם, ואת תקיפת נערי מכבי אור עקיבא, אחרי משחק הליגה בשבת עם נערי הפועל טייבה.
+1	ח"כ	ח"כ	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	גולדמן	גולדמן	PROPN	PROPN	_	1	flat:name	_	_
+3	הזכיר	הזכיר	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	את	את	ADP	ADP	Case=Acc	5	case	_	_
+5	פרשת	פרשה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	obj	_	_
+6-7	המשחק	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	5	compound:smixut	_	_
+8-9	שנדחה	_	_	_	_	_	_	_	_
+8	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
+9	נדחה	נדחה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	7	acl:relcl	_	_
+10	בין	בין	ADP	ADP	_	12	case	_	_
+11-12	הפועל	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
+13	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	flat:name	_	_
+14	שאן	שאן	PROPN	PROPN	_	13	flat:name	_	_
+15-17	להפועל	_	_	_	_	_	_	_	_
+15	ל	ל	ADP	ADP	_	17	case	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	12	conj	_	_
+18	אום	אום	NOUN	NOUN	Gender=Masc|Number=Sing	17	flat:name	_	_
+19	אל	אל	PROPN	PROPN	_	18	flat:name	_	_
+20	פאחם	פאחם	PROPN	PROPN	_	18	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	24	punct	_	_
+22-23	ואת	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	_	24	cc	_	_
+23	את	את	ADP	ADP	Case=Acc	24	case	_	_
+24	תקיפת	תקיפה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	conj	_	_
+25	נערי	נער	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	24	compound:smixut	_	_
+26	מכבי	מכבי	PROPN	PROPN	_	25	compound:smixut	_	_
+27	אור	אור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	26	flat:name	_	_
+28	עקיבא	עקיבא	PROPN	PROPN	_	27	flat:name	_	SpaceAfter=No
+29	,	,	PUNCT	PUNCT	_	31	punct	_	_
+30	אחרי	אחרי	ADP	ADP	_	31	case	_	_
+31	משחק	משחק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	obl	_	_
+32-33	הליגה	_	_	_	_	_	_	_	_
+32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
+33	ליגה	ליגה	NOUN	NOUN	Gender=Fem|Number=Sing	31	compound:smixut	_	_
+34-35	בשבת	_	_	_	_	_	_	_	_
+34	ב	ב	ADP	ADP	_	35	case	_	_
+35	שבת	שבת	PROPN	PROPN	_	31	nmod	_	_
+36	עם	עם	ADP	ADP	_	37	case	_	_
+37	נערי	נער	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	31	nmod	_	_
+38-39	הפועל	_	_	_	_	_	_	_	_
+38	ה	ה	DET	DET	Definite=Def|PronType=Art	39	det	_	_
+39	פועל	פועל	PROPN	PROPN	_	37	compound:smixut	_	_
+40	טייבה	טייבה	PROPN	PROPN	_	39	flat:name	_	SpaceAfter=No
+41	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:237
+# doc_range = 546-785
+# sent_id = 5836
+# text = ח"כ גולדמן הזכיר גם את החלטת איגוד הכדורסל לא לקיים בישובים ערביים משחקים בין קבוצות מקומיות לקבוצות יהודיות, על רקע המתח הבטחוני.
+1	ח"כ	ח"כ	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	גולדמן	גולדמן	PROPN	PROPN	_	1	flat:name	_	_
+3	הזכיר	הזכיר	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	גם	גם	ADV	ADV	_	6	advmod	_	_
+5	את	את	ADP	ADP	Case=Acc	6	case	_	_
+6	החלטת	החלטה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	obj	_	_
+7	איגוד	איגוד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	compound:smixut	_	_
+8-9	הכדורסל	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	כדורסל	כדורסל	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound:smixut	_	_
+10	לא	לא	ADV	ADV	Polarity=Neg	11	advmod	_	_
+11	לקיים	קיים	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	6	acl	_	_
+12-13	בישובים	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	ישובים	יישוב	NOUN	NOUN	Gender=Masc|Number=Plur	11	obl	_	_
+14	ערביים	ערבי	ADJ	ADJ	Gender=Masc|Number=Plur	13	amod	_	_
+15	משחקים	משחק	NOUN	NOUN	Gender=Masc|Number=Plur	11	obj	_	_
+16	בין	בין	ADP	ADP	_	17	case	_	_
+17	קבוצות	קבוצה	NOUN	NOUN	Gender=Fem|Number=Plur	15	nmod	_	_
+18	מקומיות	מקומי	ADJ	ADJ	Gender=Fem|Number=Plur	17	amod	_	_
+19-20	לקבוצות	_	_	_	_	_	_	_	_
+19	ל	ל	ADP	ADP	_	20	case	_	_
+20	קבוצות	קבוצה	NOUN	NOUN	Gender=Fem|Number=Plur	17	conj	_	_
+21	יהודיות	יהודי	ADJ	ADJ	Gender=Fem|Number=Plur	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	PUNCT	_	26	punct	_	_
+23	על	על	ADP	ADP	_	26	case	_	_
+24	רקע	רקע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	23	fixed	_	_
+25-26	המתח	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	מתח	מתח	NOUN	NOUN	Gender=Masc|Number=Sing	11	obl	_	_
+27-28	הבטחוני	_	_	_	_	_	_	_	SpaceAfter=No
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	בטחוני	בטחוני	ADJ	ADJ	Gender=Masc|Number=Sing	26	amod	_	_
+29	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:237
+# doc_range = 787-1196
+# sent_id = 5837
+# text = יו"ר וועדת הספורט יזמן לדיון מחר את יו"ר הנהלת ההתאחדות לכדורגל שאול סווירי, יו"ר איגוד הכדורסל יורם אוברקוביץ, נציגי מרכזי הספורט, יו"ר איגוד שופטי הכדורגל אברהם קליין, יועץ ראש הממשלה לענייני ערבים אלכס בליי ונציג המשטרה.
+1	יו"ר	יו"ר	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	וועדת	ועדה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	compound:smixut	_	_
+3-4	הספורט	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	ספורט	ספורט	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+5	יזמן	זימן	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+6-8	לדיון	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	8	case	_	_
+7	ה_	ה	DET	DET	PronType=Art|Definite=Def	8	det	_	_
+8	דיון	דיון	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+9	מחר	מחר	ADV	ADV	_	5	advmod	_	_
+10	את	את	ADP	ADP	Case=Acc	11	case	_	_
+11	יו"ר	יו"ר	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	5	obj	_	_
+12	הנהלת	הנהלה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	11	compound:smixut	_	_
+13-14	ההתאחדות	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	התאחדות	התאחדות	NOUN	NOUN	Gender=Fem|Number=Sing	12	compound:smixut	_	_
+15-16	לכדורגל	_	_	_	_	_	_	_	_
+15	ל	ל	ADP	ADP	_	16	case	_	_
+16	כדורגל	כדורגל	NOUN	NOUN	Gender=Masc|Number=Sing	14	nmod	_	_
+17	שאול	שאול	PROPN	PROPN	_	11	flat:name	_	_
+18	סווירי	סווירי	PROPN	PROPN	_	11	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	20	punct	_	_
+20	יו"ר	יו"ר	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	11	dep	_	HebSource=ConvUncertainHead
+21	איגוד	איגוד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	20	compound:smixut	_	_
+22-23	הכדורסל	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	כדורסל	כדורסל	NOUN	NOUN	Gender=Masc|Number=Sing	21	compound:smixut	_	_
+24	יורם	יורם	PROPN	PROPN	_	20	flat:name	_	_
+25	אוברקוביץ	אוברקוביץ	PROPN	PROPN	_	20	flat:name	_	SpaceAfter=No
+26	,	,	PUNCT	PUNCT	_	27	punct	_	_
+27	נציגי	נציג	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	11	dep	_	HebSource=ConvUncertainHead
+28	מרכזי	מרכז	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	27	compound:smixut	_	_
+29-30	הספורט	_	_	_	_	_	_	_	SpaceAfter=No
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	ספורט	ספורט	NOUN	NOUN	Gender=Masc|Number=Sing	28	compound:smixut	_	_
+31	,	,	PUNCT	PUNCT	_	32	punct	_	_
+32	יו"ר	יו"ר	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	27	appos	_	_
+33	איגוד	איגוד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	32	compound:smixut	_	_
+34	שופטי	שופט	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	33	compound:smixut	_	_
+35-36	הכדורגל	_	_	_	_	_	_	_	_
+35	ה	ה	DET	DET	Definite=Def|PronType=Art	36	det	_	_
+36	כדורגל	כדורגל	NOUN	NOUN	Gender=Masc|Number=Sing	34	compound:smixut	_	_
+37	אברהם	אברהם	PROPN	PROPN	_	32	flat:name	_	_
+38	קליין	קליין	PROPN	PROPN	_	32	flat:name	_	SpaceAfter=No
+39	,	,	PUNCT	PUNCT	_	40	punct	_	_
+40	יועץ	יועץ	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	32	conj	_	_
+41	ראש	ראש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	40	compound:smixut	_	_
+42-43	הממשלה	_	_	_	_	_	_	_	_
+42	ה	ה	DET	DET	Definite=Def|PronType=Art	43	det	_	_
+43	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	41	compound:smixut	_	_
+44-45	לענייני	_	_	_	_	_	_	_	_
+44	ל	ל	ADP	ADP	_	45	case	_	_
+45	ענייני	עניין	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	40	nmod	_	_
+46	ערבים	ערבי	NOUN	NOUN	Gender=Masc|Number=Plur	45	compound:smixut	_	_
+47	אלכס	אלכס	PROPN	PROPN	_	40	flat:name	_	_
+48	בליי	בליי	PROPN	PROPN	_	40	flat:name	_	_
+49-50	ונציג	_	_	_	_	_	_	_	_
+49	ו	ו	CCONJ	CCONJ	_	50	cc	_	_
+50	נציג	נציג	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	32	conj	_	_
+51-52	המשטרה	_	_	_	_	_	_	_	SpaceAfter=No
+51	ה	ה	DET	DET	Definite=Def|PronType=Art	52	det	_	_
+52	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	50	compound:smixut	_	_
+53	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:237
+# doc_range = 1198-1446
+# sent_id = 5838
+# text = בבית שאן לא היה בשבת המשחק בין הפועל המקומי להפועל אום אל פאחם, לאחר שנציגי אום אל פאחם הגישו בקשה לבית המשפט המחוזי בנצרת עילית לבטל אותו.
+1-2	בבית	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+3	שאן	שאן	PROPN	PROPN	_	2	flat:name	_	_
+4	לא	לא	ADV	ADV	Polarity=Neg	5	advmod	_	_
+5	היה	היה	VERB	VERB	Gender=Masc|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+6-7	בשבת	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	שבת	שבת	PROPN	PROPN	_	5	obl	_	_
+8-9	המשחק	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	משחק	משחק	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+10	בין	בין	ADP	ADP	_	12	case	_	_
+11-12	הפועל	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	9	nmod	_	_
+13-14	המקומי	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	מקומי	מקומי	ADJ	ADJ	Gender=Masc|Number=Sing	12	amod	_	_
+15-17	להפועל	_	_	_	_	_	_	_	_
+15	ל	ל	ADP	ADP	_	17	case	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	12	conj	_	_
+18	אום	אום	NOUN	NOUN	Gender=Masc|Number=Sing	17	flat:name	_	_
+19	אל	אל	PROPN	PROPN	_	18	flat:name	_	_
+20	פאחם	פאחם	PROPN	PROPN	_	18	flat:name	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	_	28	punct	_	_
+22	לאחר	לאחר	ADP	ADP	_	28	case	_	_
+23-24	שנציגי	_	_	_	_	_	_	_	_
+23	ש	ש	SCONJ	SCONJ	_	28	mark	_	_
+24	נציגי	נציג	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	28	nsubj	_	_
+25	אום	אום	NOUN	NOUN	Gender=Masc|Number=Sing	24	compound:smixut	_	_
+26	אל	אל	PROPN	PROPN	_	25	flat:name	_	_
+27	פאחם	פאחם	PROPN	PROPN	_	25	flat:name	_	_
+28	הגישו	הגיש	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	5	obl	_	_
+29	בקשה	בקשה	NOUN	NOUN	Gender=Fem|Number=Sing	28	obj	_	_
+30-31	לבית	_	_	_	_	_	_	_	_
+30	ל	ל	ADP	ADP	_	31	case	_	_
+31	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	28	obl	_	_
+32-33	המשפט	_	_	_	_	_	_	_	_
+32	ה	ה	DET	DET	Definite=Def|PronType=Art	33	det	_	_
+33	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	31	compound:smixut	_	_
+34-35	המחוזי	_	_	_	_	_	_	_	_
+34	ה	ה	DET	DET	Definite=Def|PronType=Art	35	det	_	_
+35	מחוזי	מחוזי	ADJ	ADJ	Gender=Masc|Number=Sing	31	amod	_	_
+36-37	בנצרת	_	_	_	_	_	_	_	_
+36	ב	ב	ADP	ADP	_	37	case	_	_
+37	נצרת	נצרת	PROPN	PROPN	_	31	nmod	_	_
+38	עילית	עילי	ADJ	ADJ	Gender=Fem|Number=Sing	37	amod	_	_
+39	לבטל	ביטל	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	28	xcomp	_	_
+40-41	אותו	_	_	_	_	_	_	_	SpaceAfter=No
+40	את	את	ADP	ADP	Case=Acc	41	case	_	_
+41	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	obj	_	_
+42	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:237
+# doc_range = 1446-1526
+# sent_id = 5839
+# text = בית המשפט נעתר לבקשה והוציא צו מניעה לקיומו.
+1	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nsubj	_	_
+2-3	המשפט	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4	נעתר	נעתר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+5-7	לבקשה	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	7	case	_	_
+6	ה_	ה	DET	DET	PronType=Art|Definite=Def	7	det	_	_
+7	בקשה	בקשה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+8-9	והוציא	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+9	הוציא	הוציא	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	_
+10	צו	צו	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	obj	_	_
+11	מניעה	מניעה	NOUN	NOUN	Gender=Fem|Number=Sing	10	compound:smixut	_	_
+12-15	לקיומו	_	_	_	_	_	_	_	SpaceAfter=No
+12	ל	ל	ADP	ADP	_	13	case	_	_
+13	קיום	קיום	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	_
+14	_של_	של	ADP	ADP	Case=Gen	15	case:gen	_	_
+15	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+16	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:237
+# doc_range = 1528-1779
+# sent_id = 5840
+# text = חששם של נציגי אום אל פאחם נבע על רקע הצהרות שחקן בית שאן, צבי קפלן, שדיבר על דקת-דומייה לזכר ראש תנועת כך הרב מאיר כהנא, שנרצח בשבוע שעבר.
+1-3	חששם	_	_	_	_	_	_	_	_
+1	חשש	חשש	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj	_	_
+2	_של_	של	ADP	ADP	Case=Gen	3	case:gen	_	_
+3	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	1	nmod:poss	_	_
+4	של	של	ADP	ADP	Case=Gen	5	case	_	_
+5	נציגי	נציג	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	1	nmod:poss	_	_
+6	אום	אום	NOUN	NOUN	Gender=Masc|Number=Sing	5	compound:smixut	_	_
+7	אל	אל	PROPN	PROPN	_	6	flat:name	_	_
+8	פאחם	פאחם	PROPN	PROPN	_	6	flat:name	_	_
+9	נבע	נבע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+10	על	על	ADP	ADP	_	12	case	_	_
+11	רקע	רקע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	fixed	_	_
+12	הצהרות	הצהרה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	9	obl	_	_
+13	שחקן	שחקן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	compound:smixut	_	_
+14	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	compound:smixut	_	_
+15	שאן	שאן	PROPN	PROPN	_	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	17	punct	_	_
+17	צבי	צבי	PROPN	PROPN	_	13	appos	_	_
+18	קפלן	קפלן	PROPN	PROPN	_	17	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	21	punct	_	_
+20-21	שדיבר	_	_	_	_	_	_	_	_
+20	ש	ש	SCONJ	SCONJ	_	21	mark	_	_
+21	דיבר	דיבר	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	13	acl:relcl	_	_
+22	על	על	ADP	ADP	_	25	case	_	_
+23	דקת	דקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+24	-	-	PUNCT	PUNCT	_	23	punct	_	SpaceAfter=No
+25	דומייה	דומייה	NOUN	NOUN	Gender=Fem|Number=Sing	21	obl	_	_
+26-27	לזכר	_	_	_	_	_	_	_	_
+26	ל	ל	ADP	ADP	_	27	case	_	_
+27	זכר	זכר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	25	nmod	_	_
+28	ראש	ראש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	27	compound:smixut	_	_
+29	תנועת	תנועה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	28	compound:smixut	_	_
+30	כך	כך	PROPN	PROPN	_	29	compound:smixut	_	_
+31-32	הרב	_	_	_	_	_	_	_	_
+31	ה	ה	DET	DET	Definite=Def|PronType=Art	32	det	_	_
+32	רב	רב	NOUN	NOUN	Gender=Masc|Number=Sing	28	appos	_	_
+33	מאיר	מאיר	PROPN	PROPN	_	32	flat:name	_	_
+34	כהנא	כהנא	PROPN	PROPN	_	32	flat:name	_	SpaceAfter=No
+35	,	,	PUNCT	PUNCT	_	37	punct	_	_
+36-37	שנרצח	_	_	_	_	_	_	_	_
+36	ש	ש	SCONJ	SCONJ	_	37	mark	_	_
+37	נרצח	נרצח	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	28	acl:relcl	_	_
+38-40	בשבוע	_	_	_	_	_	_	_	_
+38	ב	ב	ADP	ADP	_	40	case	_	_
+39	ה_	ה	DET	DET	PronType=Art|Definite=Def	40	det	_	_
+40	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	37	obl	_	_
+41-42	שעבר	_	_	_	_	_	_	_	SpaceAfter=No
+41	ש	ש	SCONJ	SCONJ	_	42	mark	_	_
+42	עבר	עבר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	40	acl:relcl	_	_
+43	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:237
+# doc_range = 1782-1860
+# sent_id = 5841
+# text = בעקבות אמירה זו הושעה קפלן מאימוני בית שאן.
+1	בעקבות	בעקבות	ADP	ADP	_	2	case	_	_
+2	אמירה	אמירה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+3	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	det	_	_
+4	הושעה	הושעה	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+5	קפלן	קפלן	PROPN	PROPN	_	4	nsubj:pass	_	_
+6-7	מאימוני	_	_	_	_	_	_	_	_
+6	מ	מ	ADP	ADP	_	7	case	_	_
+7	אימוני	אימון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	obl	_	_
+8	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	compound:smixut	_	_
+9	שאן	שאן	PROPN	PROPN	_	8	flat:name	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:237
+# doc_range = 1862-1951
+# sent_id = 5842
+# text = המקרה האחר אותו הזכיר ח"כ גולדמן היה בשבת בטייבה.
+1-2	המקרה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מקרה	מקרה	NOUN	NOUN	Gender=Masc|Number=Sing	10	nsubj	_	_
+3-4	האחר	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	אחר	אחר	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
+5-6	אותו	_	_	_	_	_	_	_	_
+5	את	את	ADP	ADP	Case=Acc	6	case	_	_
+6	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+7	הזכיר	הזכיר	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	2	acl:relcl	_	_
+8	ח"כ	ח"כ	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	7	nsubj	_	_
+9	גולדמן	גולדמן	PROPN	PROPN	_	8	flat:name	_	_
+10	היה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	0	root	_	_
+11-12	בשבת	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	שבת	שבת	PROPN	PROPN	_	10	obl	_	_
+13-14	בטייבה	_	_	_	_	_	_	_	SpaceAfter=No
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	טייבה	טייבה	PROPN	PROPN	_	10	obl	_	_
+15	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:237
+# doc_range = 1953-2159
+# sent_id = 5843
+# text = המיניבוס של נערי מכבי אור עקיבא, הותקף בידי רעולי פנים שיצאו ממטע זיתים והחלו לרגום באבנים את כלי הרכב על יושביו.
+1-2	המיניבוס	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	מיניבוס	מיניבוס	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+3	של	של	ADP	ADP	Case=Gen	4	case	_	_
+4	נערי	נער	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	2	nmod:poss	_	_
+5	מכבי	מכבי	PROPN	PROPN	_	4	compound:smixut	_	_
+6	אור	אור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	flat:name	_	_
+7	עקיבא	עקיבא	PROPN	PROPN	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	2	punct	_	_
+9	הותקף	הותקף	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+10	בידי	בידי	ADP	ADP	_	11	case	_	_
+11	רעולי	רעול	NOUN	NOUN	Definite=Cons	9	obl	_	_
+12	פנים	פנים	NOUN	NOUN	Gender=Masc|Number=Plur	11	compound:smixut	_	_
+13-14	שיצאו	_	_	_	_	_	_	_	_
+13	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
+14	יצאו	יצא	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	11	acl:relcl	_	_
+15-16	ממטע	_	_	_	_	_	_	_	_
+15	מ	מ	ADP	ADP	_	16	case	_	_
+16	מטע	מטע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	14	obl	_	_
+17	זיתים	זית	NOUN	NOUN	Gender=Fem|Number=Plur	16	compound:smixut	_	_
+18-19	והחלו	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+19	החלו	החל	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	14	conj	_	_
+20	לרגום	רגם	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	19	xcomp	_	_
+21-22	באבנים	_	_	_	_	_	_	_	_
+21	ב	ב	ADP	ADP	_	22	case	_	_
+22	אבנים	אבן	NOUN	NOUN	Gender=Fem|Number=Plur	20	obl	_	_
+23	את	את	ADP	ADP	Case=Acc	24	case	_	_
+24	כלי	כלי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	20	obj	_	_
+25-26	הרכב	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	רכב	רכב	NOUN	NOUN	Gender=Masc|Number=Sing	24	compound:smixut	_	_
+27	על	על	ADP	ADP	_	28	case	_	_
+28	יושביו	יושביו	NOUN	NOUN	_	24	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:237
+# doc_range = 2162-2470
+# sent_id = 5844
+# text = ח"כ גולדמן אמר ל"ספורט הארץ": "הספורט נועד לאחד ולחזק דו-קיום בין יהודים לערבים, ולא להיגרר אחרי בודדים המנסים לפגוע במרקם שנוצר בין יהודים לערבים באמצעות מגרש הספורט.
+1	ח"כ	ח"כ	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	גולדמן	גולדמן	PROPN	PROPN	_	1	flat:name	_	_
+3	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4-6	ל"ספורט	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	6	case	_	_
+5	"	"	PUNCT	PUNCT	_	6	punct	_	_
+6	ספורט	ספורט	PROPN	PROPN	Definite=Cons	3	obl	_	_
+7-8	הארץ	_	_	_	_	_	_	_	SpaceAfter=No
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	ארץ	ארץ	PROPN	PROPN	_	6	compound:smixut	_	_
+9	"	"	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+10	:	:	PUNCT	PUNCT	_	14	punct	_	_
+11	"	"	PUNCT	PUNCT	_	14	punct	_	SpaceAfter=No
+12-13	הספורט	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	ספורט	ספורט	NOUN	NOUN	Gender=Masc|Number=Sing	14	nsubj	_	_
+14	נועד	נועד	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	3	ccomp	_	_
+15	לאחד	איחד	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+16-17	ולחזק	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+17	לחזק	חיזק	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	15	conj	_	_
+18	דו	דו	ADV	ADV	Prefix=Yes	20	compound:affix	_	HebSource=ConvUncertainHead|SpaceAfter=No
+19	-	-	PUNCT	PUNCT	_	18	punct	_	SpaceAfter=No
+20	קיום	קיום	NOUN	NOUN	Gender=Masc|Number=Sing	15	obj	_	_
+21	בין	בין	ADP	ADP	_	22	case	_	_
+22	יהודים	יהודי	NOUN	NOUN	Gender=Masc|Number=Plur	20	nmod	_	_
+23-24	לערבים	_	_	_	_	_	_	_	SpaceAfter=No
+23	ל	ל	ADP	ADP	_	24	case	_	_
+24	ערבים	ערבי	NOUN	NOUN	Gender=Masc|Number=Plur	22	conj	_	_
+25	,	,	PUNCT	PUNCT	_	28	punct	_	_
+26-27	ולא	_	_	_	_	_	_	_	_
+26	ו	ו	CCONJ	CCONJ	_	28	cc	_	_
+27	לא	לא	ADV	ADV	Polarity=Neg	28	advmod	_	_
+28	להיגרר	נגרר	VERB	VERB	HebBinyan=NIFAL|VerbForm=Inf|Voice=Mid	15	conj	_	_
+29	אחרי	אחרי	ADP	ADP	_	30	case	_	_
+30	בודדים	בודד	NOUN	NOUN	Gender=Masc|Number=Plur	28	obl	_	_
+31-32	המנסים	_	_	_	_	_	_	_	_
+31	ה	ה	SCONJ	SCONJ	_	32	mark	_	_
+32	מנסים	ניסה	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	30	acl:relcl	_	_
+33	לפגוע	פגע	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	32	xcomp	_	_
+34-36	במרקם	_	_	_	_	_	_	_	_
+34	ב	ב	ADP	ADP	_	36	case	_	_
+35	ה_	ה	DET	DET	PronType=Art|Definite=Def	36	det	_	_
+36	מרקם	מרקם	NOUN	NOUN	Gender=Masc|Number=Sing	33	obl	_	_
+37-38	שנוצר	_	_	_	_	_	_	_	_
+37	ש	ש	SCONJ	SCONJ	_	38	mark	_	_
+38	נוצר	נוצר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	36	acl:relcl	_	_
+39	בין	בין	ADP	ADP	_	40	case	_	_
+40	יהודים	יהודי	NOUN	NOUN	Gender=Masc|Number=Plur	38	obl	_	_
+41-42	לערבים	_	_	_	_	_	_	_	_
+41	ל	ל	ADP	ADP	_	42	case	_	_
+42	ערבים	ערבי	NOUN	NOUN	Gender=Masc|Number=Plur	40	conj	_	_
+43	באמצעות	באמצעות	ADP	ADP	_	44	case	_	_
+44	מגרש	מגרש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	32	obl	_	_
+45-46	הספורט	_	_	_	_	_	_	_	SpaceAfter=No
+45	ה	ה	DET	DET	Definite=Def|PronType=Art	46	det	_	_
+46	ספורט	ספורט	NOUN	NOUN	Gender=Masc|Number=Sing	44	compound:smixut	_	_
+47	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:237
+# doc_range = 2472-2519
+# sent_id = 5845
+# text = כל נסיון לפגוע יש לגנות אותו.
+1	כל	כול	DET	DET	Definite=Cons	2	det	_	_
+2	נסיון	ניסיון	NOUN	NOUN	Gender=Masc|Number=Sing	5	dislocated	_	_
+3	לפגוע	פגע	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	2	acl	_	_
+4	יש	יש	AUX	AUX	VerbType=Mod	5	aux	_	_
+5	לגנות	גינה	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	0	root	_	_
+6-7	אותו	_	_	_	_	_	_	_	SpaceAfter=No
+6	את	את	ADP	ADP	Case=Acc	7	case	_	_
+7	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+8	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:237
+# doc_range = 2519-2648
+# sent_id = 5846
+# text = יש לערוך פעולות הסברה לקירוב יהודים וערבים שגורלם לחיות יחד בארץ הזו".
+1	יש	יש	AUX	AUX	VerbType=Mod	2	aux	_	_
+2	לערוך	ערך	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	0	root	_	_
+3	פעולות	פעולה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	2	obj	_	_
+4	הסברה	הסברה	NOUN	NOUN	Gender=Fem|Number=Sing	3	compound:smixut	_	_
+5-6	לקירוב	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	קירוב	קירוב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	nmod	_	_
+7	יהודים	יהודי	NOUN	NOUN	Gender=Masc|Number=Plur	6	compound:smixut	_	_
+8-9	וערבים	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+9	ערבים	ערבי	NOUN	NOUN	Gender=Masc|Number=Plur	7	conj	_	_
+10-13	שגורלם	_	_	_	_	_	_	_	_
+10	ש	ש	SCONJ	SCONJ	_	14	mark	_	_
+11	גורל	גורל	NOUN	NOUN	Gender=Masc|Number=Sing	14	nsubj	_	_
+12	_של_	של	ADP	ADP	Case=Gen	13	case:gen	_	_
+13	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+14	לחיות	חי	VERB	VERB	VerbForm=Inf	7	acl:relcl	_	_
+15	יחד	יחד	ADV	ADV	_	14	advmod	_	_
+16-18	בארץ	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	18	case	_	_
+17	ה_	ה	DET	DET	PronType=Art|Definite=Def	18	det	_	_
+18	ארץ	ארץ	NOUN	NOUN	Gender=Fem|Number=Sing	14	obl	_	_
+19-20	הזו	_	_	_	_	_	_	_	SpaceAfter=No
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	18	det	_	_
+21	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	2	punct	_	_
+

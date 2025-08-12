@@ -1,0 +1,315 @@
+# doc_id = htb:19_3
+# doc_range = 8078-8241
+# sent_id = 744
+# text = לרשימתו של קולק מצטרפים כיום מאבקים רבים, עתיקים ואינם בני-פתרון, המקבלים תנופה מחודשת.
+1-4	לרשימתו	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	_	2	case	_	_
+2	רשימה	רשימה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
+3	_של_	של	ADP	ADP	Case=Gen	4	case:gen	_	_
+4	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+5	של	של	ADP	ADP	Case=Gen	6	case	_	_
+6	קולק	קולק	PROPN	PROPN	_	2	nmod:poss	_	_
+7	מצטרפים	הצטרף	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	0	root	_	_
+8	כיום	כיום	ADV	ADV	_	7	advmod	_	_
+9	מאבקים	מאבק	NOUN	NOUN	Gender=Masc|Number=Plur	7	nsubj	_	_
+10	רבים	רב	ADJ	ADJ	Gender=Masc|Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	12	punct	_	_
+12	עתיקים	עתיק	ADJ	ADJ	Gender=Masc|Number=Plur	10	conj	_	_
+13-14	ואינם	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+14	אינם	אינו	AUX	AUX	Gender=Masc|Number=Plur|Person=3|Polarity=Neg|VerbForm=Part	15	aux	_	_
+15	בני	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+16	-	-	PUNCT	PUNCT	_	17	punct	_	HebSource=ConvUncertainHead|SpaceAfter=No
+17	פתרון	פתרון	NOUN	NOUN	Gender=Masc|Number=Sing	15	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	20	punct	_	_
+19-20	המקבלים	_	_	_	_	_	_	_	_
+19	ה	ה	SCONJ	SCONJ	_	20	mark	_	_
+20	מקבלים	קיבל	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	9	acl:relcl	_	_
+21	תנופה	תנופה	NOUN	NOUN	Gender=Fem|Number=Sing	20	obj	_	_
+22	מחודשת	מחודש	ADJ	ADJ	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:19_3
+# doc_range = 8243-8411
+# sent_id = 745
+# text = אלה הסכסוכים הבין-אתניים, המתפרצים בין עשרות העמים החיים זה בתוך זה בברית המועצות המתפרקת.
+1	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	3	nsubj	_	_
+2-3	הסכסוכים	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	סכסוכים	סכסוך	NOUN	NOUN	Gender=Masc|Number=Plur	0	root	_	_
+4-5	הבין	_	_	_	_	_	_	_	SpaceAfter=No
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+5	בין	בין	ADV	ADV	Prefix=Yes	7	compound:affix	_	_
+6	-	-	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+7	אתניים	אתני	ADJ	ADJ	Gender=Masc|Number=Plur	3	amod	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	10	punct	_	_
+9-10	המתפרצים	_	_	_	_	_	_	_	_
+9	ה	ה	SCONJ	SCONJ	_	10	mark	_	_
+10	מתפרצים	התפרץ	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	3	acl:relcl	_	_
+11	בין	בין	ADP	ADP	_	14	case	_	_
+12	עשרות	עשרות	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	14	nummod	_	_
+13-14	העמים	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	עמים	עם	NOUN	NOUN	Gender=Masc|Number=Plur	10	obl	_	_
+15-16	החיים	_	_	_	_	_	_	_	_
+15	ה	ה	SCONJ	SCONJ	_	16	mark	_	_
+16	חיים	חי	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	14	acl:relcl	_	_
+17	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	16	dep	_	_
+18	בתוך	בתוך	ADP	ADP	_	19	case	_	_
+19	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	17	nmod	_	_
+20-21	בברית	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	ברית	ברית	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	16	obl	_	_
+22-23	המועצות	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	מועצות	מועצה	NOUN	NOUN	Gender=Fem|Number=Plur	21	compound:smixut	_	_
+24-25	המתפרקת	_	_	_	_	_	_	_	SpaceAfter=No
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	מתפרקת	התפרק	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|VerbForm=Part	21	amod	_	_
+26	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:19_3
+# doc_range = 8413-8673
+# sent_id = 746
+# text = פדרציה אחרת העומדת להתפרק היא יוגוסלוויה, וגם שם פרצו ויפרצו קרבות מרים בין בני אותה אומה יוגוסלווית מלאכותית, המורכבת משמונה קבוצות יריבות.
+1	פדרציה	פדרציה	NOUN	NOUN	Gender=Fem|Number=Sing	7	nsubj	_	_
+2	אחרת	אחר	ADJ	ADJ	Gender=Fem|Number=Sing	1	amod	_	_
+3-4	העומדת	_	_	_	_	_	_	_	_
+3	ה	ה	SCONJ	SCONJ	_	4	mark	_	_
+4	עומדת	עמד	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	1	acl:relcl	_	_
+5	להתפרק	התפרק	VERB	VERB	HebBinyan=HITPAEL|VerbForm=Inf	4	xcomp	_	_
+6	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|Polarity=Pos	7	cop	_	_
+7	יוגוסלוויה	יוגוסלוויה	PROPN	PROPN	_	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	12	punct	_	_
+9-10	וגם	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+10	גם	גם	ADV	ADV	_	11	advmod	_	_
+11	שם	שם	ADV	ADV	_	12	advmod	_	_
+12	פרצו	פרץ	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	7	conj	_	_
+13-14	ויפרצו	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
+14	יפרצו	פרץ	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Fut	12	conj	_	_
+15	קרבות	קרב	NOUN	NOUN	Gender=Masc|Number=Plur	12	nsubj	_	_
+16	מרים	מר	ADJ	ADJ	Gender=Masc|Number=Plur	15	amod	_	_
+17	בין	בין	ADP	ADP	_	18	case	_	_
+18	בני	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	15	nmod	_	_
+19	אותה	אותו	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	det	_	_
+20	אומה	אומה	NOUN	NOUN	Gender=Fem|Number=Sing	18	compound:smixut	_	_
+21	יוגוסלווית	יוגוסלבי	ADJ	ADJ	Gender=Fem|Number=Sing	20	amod	_	_
+22	מלאכותית	מלאכותי	ADJ	ADJ	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+23	,	,	PUNCT	PUNCT	_	25	punct	_	_
+24-25	המורכבת	_	_	_	_	_	_	_	_
+24	ה	ה	SCONJ	SCONJ	_	25	mark	_	_
+25	מורכבת	הורכב	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	20	acl:relcl	_	_
+26-27	משמונה	_	_	_	_	_	_	_	_
+26	מ	מ	ADP	ADP	_	28	case	_	_
+27	שמונה	שמונה	NUM	NUM	Gender=Fem|Number=Plur	28	nummod	_	_
+28	קבוצות	קבוצה	NOUN	NOUN	Gender=Fem|Number=Plur	25	obl	_	_
+29	יריבות	יריב	ADJ	ADJ	Gender=Fem|Number=Plur	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:19_3
+# doc_range = 8675-8943
+# sent_id = 747
+# text = הלאומיות מתוארת כתופעה שפרחה במאתיים השנים האחרונות לאחר קריסתן של אימפריות-הענק חובקות עולם, ואשר הבחינה מאז בין עמים וקבעה סדר בין-לאומי חדש.
+1-2	הלאומיות	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	לאומיות	לאומיות	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+3	מתוארת	תואר	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+4-5	כתופעה	_	_	_	_	_	_	_	_
+4	כ	כ	ADP	ADP	_	5	case	_	_
+5	תופעה	תופעה	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+6-7	שפרחה	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	_	7	mark	_	_
+7	פרחה	פרח	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	5	acl:relcl	_	_
+8-9	במאתיים	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	11	case	_	_
+9	מאתיים	מאתיים	NUM	NUM	Gender=Fem,Masc|Number=Plur	11	nummod	_	_
+10-11	השנים	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	שנים	שנה	NOUN	NOUN	Gender=Fem|Number=Plur	7	obl	_	_
+12-13	האחרונות	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	אחרונות	אחרון	ADJ	ADJ	Gender=Fem|Number=Plur	11	amod	_	_
+14	לאחר	לאחר	ADP	ADP	_	15	case	_	_
+15-17	קריסתן	_	_	_	_	_	_	_	_
+15	קריסה	קריסה	NOUN	NOUN	Gender=Fem|Number=Sing	7	obl	_	_
+16	_של_	של	ADP	ADP	Case=Gen	17	case:gen	_	_
+17	_הן	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+18	של	של	ADP	ADP	Case=Gen	22	case	_	_
+19	אימפריות	אימפריה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	22	nmod	_	SpaceAfter=No
+20	-	-	PUNCT	PUNCT	_	19	punct	_	SpaceAfter=No
+21-22	הענק	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	ענק	ענק	NOUN	NOUN	Gender=Masc|Number=Sing	15	nmod:poss	_	_
+23	חובקות	חבק	VERB	VERB	Definite=Cons|Gender=Fem|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	22	amod	_	_
+24	עולם	עולם	NOUN	NOUN	Gender=Masc|Number=Sing	23	compound:smixut	_	SpaceAfter=No
+25	,	,	PUNCT	PUNCT	_	28	punct	_	_
+26-27	ואשר	_	_	_	_	_	_	_	_
+26	ו	ו	CCONJ	CCONJ	_	28	cc	_	_
+27	אשר	אשר	SCONJ	SCONJ	_	28	mark	_	_
+28	הבחינה	הבחין	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	7	conj	_	_
+29	מאז	מאז	ADV	ADV	_	28	advmod	_	_
+30	בין	בין	ADP	ADP	_	31	case	_	_
+31	עמים	עם	NOUN	NOUN	Gender=Masc|Number=Plur	28	obl	_	_
+32-33	וקבעה	_	_	_	_	_	_	_	_
+32	ו	ו	CCONJ	CCONJ	_	33	cc	_	_
+33	קבעה	קבע	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Past	28	conj	_	_
+34	סדר	סדר	NOUN	NOUN	Gender=Masc|Number=Sing	33	obj	_	_
+35	בין	בין	ADV	ADV	Prefix=Yes	37	compound:affix	_	SpaceAfter=No
+36	-	-	PUNCT	PUNCT	_	35	punct	_	SpaceAfter=No
+37	לאומי	לאומי	ADJ	ADJ	Gender=Masc|Number=Sing	34	amod	_	_
+38	חדש	חדש	ADJ	ADJ	Gender=Masc|Number=Sing	34	amod	_	SpaceAfter=No
+39	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:19_3
+# doc_range = 8945-9105
+# sent_id = 748
+# text = זולת מדינת ההגירה ארצות הברית, שבה שוררת הרמוניה בין מאות מיליוני בני אדם, משוסע העולם.
+1	זולת	זולת	ADP	ADP	_	2	case	_	_
+2	מדינת	מדינה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	20	obl	_	_
+3-4	ההגירה	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	הגירה	הגירה	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound:smixut	_	_
+5	ארצות	ארץ	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	2	appos	_	_
+6-7	הברית	_	_	_	_	_	_	_	SpaceAfter=No
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	ברית	ברית	NOUN	NOUN	Gender=Fem|Number=Sing	5	compound:smixut	_	_
+8	,	,	PUNCT	PUNCT	_	12	punct	_	_
+9-11	שבה	_	_	_	_	_	_	_	_
+9	ש	ש	SCONJ	SCONJ	_	12	mark	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obl	_	_
+12	שוררת	שרר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	2	acl:relcl	_	_
+13	הרמוניה	הרמוניה	NOUN	NOUN	Gender=Fem|Number=Sing	12	nsubj	_	_
+14	בין	בין	ADP	ADP	_	17	case	_	_
+15	מאות	מאה	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	16	nummod	_	_
+16	מיליוני	מיליוני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	17	nummod	_	_
+17	בני	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	13	nmod	_	_
+18	אדם	אדם	NOUN	NOUN	Gender=Masc|Number=Sing	17	compound:smixut	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	_	2	punct	_	_
+20	משוסע	שוסע	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+21-22	העולם	_	_	_	_	_	_	_	SpaceAfter=No
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	עולם	עולם	NOUN	NOUN	Gender=Masc|Number=Sing	20	nsubj:pass	_	_
+23	.	.	PUNCT	PUNCT	_	20	punct	_	_
+
+# doc_id = htb:19_3
+# doc_range = 9108-9246
+# sent_id = 749
+# text = גבולות מדיניים מפרידים בין ארצות, וגבולות אתניים מפרידים בתוך הארצות עצמן.
+1	גבולות	גבול	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
+2	מדיניים	מדיני	ADJ	ADJ	Gender=Masc|Number=Plur	1	amod	_	_
+3	מפרידים	הפריד	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4	בין	בין	ADP	ADP	_	5	case	_	_
+5	ארצות	ארץ	NOUN	NOUN	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	10	punct	_	_
+7-8	וגבולות	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+8	גבולות	גבול	NOUN	NOUN	Gender=Masc|Number=Plur	10	nsubj	_	_
+9	אתניים	אתני	ADJ	ADJ	Gender=Masc|Number=Plur	8	amod	_	_
+10	מפרידים	הפריד	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	3	conj	_	_
+11	בתוך	בתוך	ADP	ADP	_	13	case	_	_
+12-13	הארצות	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	ארצות	ארץ	NOUN	NOUN	Gender=Fem|Number=Plur	10	obl	_	_
+14	עצמן	עצמו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Emp|Reflex=Yes	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:19_3
+# doc_range = 9248-9352
+# sent_id = 750
+# text = הבעיה ככל שתהיה פשוטה לתיאור איננה ניתנת בדרך כלל לפתרון.
+1-2	הבעיה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	בעיה	בעיה	NOUN	NOUN	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	ככל	ככל	SCONJ	SCONJ	_	6	case	_	_
+4-5	שתהיה	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	6	mark	_	_
+5	תהיה	היה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	6	cop	_	_
+6	פשוטה	פשוט	ADJ	ADJ	Gender=Fem|Number=Sing	10	obl	_	_
+7-8	לתיאור	_	_	_	_	_	_	_	_
+7	ל	ל	ADP	ADP	_	8	case	_	_
+8	תיאור	תיאור	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+9	איננה	אינו	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	10	aux	_	_
+10	ניתנת	ניתן	AUX	AUX	Gender=Fem|Number=Sing|Person=1,2,3|VerbType=Mod	0	root	_	_
+11-12	בדרך	_	_	_	_	_	_	_	_
+11	ב	ב	ADV	ADV	_	10	advmod	_	_
+12	דרך	דרך	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	11	fixed	_	_
+13	כלל	כלל	NOUN	NOUN	Gender=Masc|Number=Sing	11	fixed	_	_
+14-15	לפתרון	_	_	_	_	_	_	_	SpaceAfter=No
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	פתרון	פתרון	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
+16	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:19_3
+# doc_range = 9354-9686
+# sent_id = 751
+# text = שני עמים אוחזים באותו חבל ארץ; לכל אחד טענות הזכות הלגיטימיות והמוכרות, רגשות חיבה אל המולדת, ונכונות או כורח בלתי-מתפשר להיאבק על פיסת הארץ שישבו בה בעבר ואיש אינו רוצה לצאת ממנה.
+1	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	2	nummod	_	_
+2	עמים	עם	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	אוחזים	אחז	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4-5	באותו	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	6	case	_	_
+5	אותו	אותו	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	det	_	_
+6	חבל	חבל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	obl	_	_
+7	ארץ	ארץ	NOUN	NOUN	Gender=Fem|Number=Sing	6	compound:smixut	_	SpaceAfter=No
+8	;	;	PUNCT	PUNCT	_	11	punct	_	_
+9-10	לכל	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	11	case	_	_
+10	כל	כול	DET	DET	Definite=Cons	11	det	_	_
+11	אחד	אחת	NUM	NUM	Gender=Masc|Number=Sing	3	conj	_	_
+12	טענות	טענה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	11	nsubj	_	_
+13-14	הזכות	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	זכות	זכות	NOUN	NOUN	Gender=Fem|Number=Sing	12	compound:smixut	_	_
+15-16	הלגיטימיות	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	לגיטימיות	לגיטימי	ADJ	ADJ	Gender=Fem|Number=Plur	12	amod	_	_
+17-19	והמוכרות	_	_	_	_	_	_	_	SpaceAfter=No
+17	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	מוכרות	מוכר	ADJ	ADJ	Gender=Fem|Number=Plur	16	conj	_	_
+20	,	,	PUNCT	PUNCT	_	21	punct	_	_
+21	רגשות	רגש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	12	conj	_	_
+22	חיבה	חיבה	NOUN	NOUN	Gender=Fem|Number=Sing	21	compound:smixut	_	_
+23	אל	אל	ADP	ADP	_	25	case	_	_
+24-25	המולדת	_	_	_	_	_	_	_	SpaceAfter=No
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	מולדת	מולדת	NOUN	NOUN	Gender=Fem|Number=Sing	21	nmod	_	_
+26	,	,	PUNCT	PUNCT	_	28	punct	_	_
+27-28	ונכונות	_	_	_	_	_	_	_	_
+27	ו	ו	CCONJ	CCONJ	_	28	cc	_	_
+28	נכונות	נכונות	NOUN	NOUN	Gender=Fem|Number=Sing	12	conj	_	_
+29	או	או	CCONJ	CCONJ	_	30	cc	_	_
+30	כורח	כורח	NOUN	NOUN	Gender=Masc|Number=Sing	28	conj	_	_
+31	בלתי	בלתי	ADV	ADV	Prefix=Yes	33	compound:affix	_	SpaceAfter=No
+32	-	-	PUNCT	PUNCT	_	31	punct	_	SpaceAfter=No
+33	מתפשר	התפשר	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|VerbForm=Part	30	amod	_	_
+34	להיאבק	נאבק	VERB	VERB	HebBinyan=NIFAL|VerbForm=Inf|Voice=Mid	28	acl	_	_
+35	על	על	ADP	ADP	_	36	case	_	_
+36	פיסת	פיסה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	34	obl	_	_
+37-38	הארץ	_	_	_	_	_	_	_	_
+37	ה	ה	DET	DET	Definite=Def|PronType=Art	38	det	_	_
+38	ארץ	ארץ	NOUN	NOUN	Gender=Fem|Number=Sing	36	compound:smixut	_	_
+39-40	שישבו	_	_	_	_	_	_	_	_
+39	ש	ש	SCONJ	SCONJ	_	40	mark	_	_
+40	ישבו	ישב	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	36	acl:relcl	_	_
+41-42	בה	_	_	_	_	_	_	_	_
+41	ב	ב	ADP	ADP	_	42	case	_	_
+42	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	40	obl	_	_
+43-45	בעבר	_	_	_	_	_	_	_	_
+43	ב	ב	ADP	ADP	_	45	case	_	_
+44	ה_	ה	DET	DET	PronType=Art|Definite=Def	45	det	_	_
+45	עבר	עבר	NOUN	NOUN	Gender=Masc|Number=Sing	40	obl	_	_
+46-47	ואיש	_	_	_	_	_	_	_	_
+46	ו	ו	CCONJ	CCONJ	_	49	cc	_	_
+47	איש	איש	NOUN	NOUN	Gender=Masc|Number=Sing	49	nsubj	_	_
+48	אינו	אינו	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	49	aux	_	_
+49	רוצה	רצה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	40	conj	_	_
+50	לצאת	יצא	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	49	xcomp	_	_
+51-52	ממנה	_	_	_	_	_	_	_	SpaceAfter=No
+51	מן	מן	ADP	ADP	_	52	case	_	_
+52	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	50	obl	_	_
+53	.	.	PUNCT	PUNCT	_	3	punct	_	_
+

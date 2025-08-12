@@ -1,0 +1,746 @@
+# doc_id = htb:242_2
+# doc_range = 4740-4987
+# sent_id = 5993
+# text = בכל בית-משפט של הערכאה הראשונה יהיו נשיא וסגן נשיא, ראשי מחלקות ושופטים, והוא יחולק למחלקות כגון: פלילית, אזרחית, מסחרית, דיני משפחה.
+1-2	בכל	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	5	case	_	_
+2	כל	כול	DET	DET	Definite=Cons	5	det	_	_
+3	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+4	-	-	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
+5	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	11	obl	_	_
+6	של	של	ADP	ADP	Case=Gen	8	case	_	_
+7-8	הערכאה	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	ערכאה	ערכאה	NOUN	NOUN	Gender=Fem|Number=Sing	5	nmod:poss	_	_
+9-10	הראשונה	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	ראשונה	ראשונה	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	_
+11	יהיו	יהיו	VERB	VERB	Gender=Fem,Masc|HebExistential=Yes|Number=Plur|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
+12	נשיא	נשיא	NOUN	NOUN	Gender=Masc|Number=Sing	11	nsubj	_	_
+13-14	וסגן	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
+14	סגן	סגן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	conj	_	_
+15	נשיא	נשיא	NOUN	NOUN	Gender=Masc|Number=Sing	14	compound:smixut	_	SpaceAfter=No
+16	,	,	PUNCT	PUNCT	_	17	punct	_	_
+17	ראשי	ראש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	12	conj	_	_
+18	מחלקות	מחלקה	NOUN	NOUN	Gender=Fem|Number=Plur	17	compound:smixut	_	_
+19-20	ושופטים	_	_	_	_	_	_	_	SpaceAfter=No
+19	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
+20	שופטים	שופט	NOUN	NOUN	Gender=Masc|Number=Plur	12	conj	_	_
+21	,	,	PUNCT	PUNCT	_	24	punct	_	_
+22-23	והוא	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	_	24	cc	_	_
+23	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj:pass	_	_
+24	יחולק	חולק	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	11	conj	_	_
+25-26	למחלקות	_	_	_	_	_	_	_	_
+25	ל	ל	ADP	ADP	_	26	case	_	_
+26	מחלקות	מחלקה	NOUN	NOUN	Gender=Fem|Number=Plur	24	obl	_	_
+27	כגון	כגון	ADP	ADP	_	29	case	_	SpaceAfter=No
+28	:	:	PUNCT	PUNCT	_	29	punct	_	_
+29	פלילית	פלילי	ADJ	ADJ	Gender=Fem|Number=Sing	26	advmod	_	SpaceAfter=No
+30	,	,	PUNCT	PUNCT	_	31	punct	_	_
+31	אזרחית	אזרח	NOUN	NOUN	Gender=Fem|Number=Sing	29	conj	_	SpaceAfter=No
+32	,	,	PUNCT	PUNCT	_	33	punct	_	_
+33	מסחרית	מסחרי	ADJ	ADJ	Gender=Fem|Number=Sing	29	conj	_	SpaceAfter=No
+34	,	,	PUNCT	PUNCT	_	35	punct	_	_
+35	דיני	דין	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	29	conj	_	_
+36	משפחה	משפחה	NOUN	NOUN	Gender=Fem|Number=Sing	35	compound:smixut	_	SpaceAfter=No
+37	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:242_2
+# doc_range = 4990-5298
+# sent_id = 5994
+# text = כמו כן תהיה בכל בית-משפט כזה מחלקת ערעורים, שתדון בערעורים על החלטות של בית-המשפט לתביעות קטנות, של בית-המשפט לעניינים מקומיים, של שופטי תעבורה ושל ראש ההוצאה לפועל.
+1	כמו	כמו	ADP	ADP	_	2	case	_	_
+2	כן	כן	PRON	PRON	Person=3|PronType=Dem	3	obl	_	_
+3	תהיה	תהיה	VERB	VERB	Gender=Fem|HebExistential=Yes|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
+4-5	בכל	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	8	case	_	_
+5	כל	כול	DET	DET	Definite=Cons	8	det	_	_
+6	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+7	-	-	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No
+8	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+9-11	כזה	_	_	_	_	_	_	_	_
+9	כ	כ	ADP	ADP	_	11	case	_	_
+10	ה_	ה	DET	DET	PronType=Art|Definite=Def	11	det	_	_
+11	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	8	nmod	_	_
+12	מחלקת	מחלקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	nsubj	_	_
+13	ערעורים	ערעור	NOUN	NOUN	Gender=Masc|Number=Plur	12	compound:smixut	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	16	punct	_	_
+15-16	שתדון	_	_	_	_	_	_	_	_
+15	ש	ש	SCONJ	SCONJ	_	16	mark	_	_
+16	תדון	דן	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Fut	12	acl:relcl	_	_
+17-19	בערעורים	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	_	19	case	_	_
+18	ה_	ה	DET	DET	PronType=Art|Definite=Def	19	det	_	_
+19	ערעורים	ערעור	NOUN	NOUN	Gender=Masc|Number=Plur	16	obl	_	_
+20	על	על	ADP	ADP	_	21	case	_	_
+21	החלטות	החלטה	NOUN	NOUN	Gender=Fem|Number=Plur	19	nmod	_	_
+22	של	של	ADP	ADP	Case=Gen	26	case	_	_
+23	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+24	-	-	PUNCT	PUNCT	_	23	punct	_	SpaceAfter=No
+25-26	המשפט	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	21	nmod:poss	_	_
+27-28	לתביעות	_	_	_	_	_	_	_	_
+27	ל	ל	ADP	ADP	_	28	case	_	_
+28	תביעות	תביעה	NOUN	NOUN	Gender=Fem|Number=Plur	26	nmod	_	_
+29	קטנות	קטן	ADJ	ADJ	Gender=Fem|Number=Plur	28	amod	_	SpaceAfter=No
+30	,	,	PUNCT	PUNCT	_	35	punct	_	_
+31	של	של	ADP	ADP	Case=Gen	35	case	_	_
+32	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+33	-	-	PUNCT	PUNCT	_	32	punct	_	SpaceAfter=No
+34-35	המשפט	_	_	_	_	_	_	_	_
+34	ה	ה	DET	DET	Definite=Def|PronType=Art	35	det	_	_
+35	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	26	nmod	_	_
+36-37	לעניינים	_	_	_	_	_	_	_	_
+36	ל	ל	ADP	ADP	_	37	case	_	_
+37	עניינים	עניין	NOUN	NOUN	Gender=Masc|Number=Plur	35	nmod	_	_
+38	מקומיים	מקומי	ADJ	ADJ	Gender=Masc|Number=Plur	37	amod	_	SpaceAfter=No
+39	,	,	PUNCT	PUNCT	_	41	punct	_	_
+40	של	של	ADP	ADP	Case=Gen	41	case	_	_
+41	שופטי	שופט	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	35	nmod	_	_
+42	תעבורה	תעבורה	NOUN	NOUN	Gender=Fem|Number=Sing	41	compound:smixut	_	_
+43-44	ושל	_	_	_	_	_	_	_	_
+43	ו	ו	CCONJ	CCONJ	_	45	cc	_	_
+44	של	של	ADP	ADP	Case=Gen	45	case	_	_
+45	ראש	ראש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	41	conj	_	_
+46-47	ההוצאה	_	_	_	_	_	_	_	_
+46	ה	ה	DET	DET	Definite=Def|PronType=Art	47	det	_	_
+47	הוצאה	הוצאה	NOUN	NOUN	Gender=Fem|Number=Sing	45	compound:smixut	_	_
+48-50	לפועל	_	_	_	_	_	_	_	SpaceAfter=No
+48	ל	ל	ADP	ADP	_	50	case	_	_
+49	ה_	ה	DET	DET	PronType=Art|Definite=Def	50	det	_	_
+50	פועל	פועל	NOUN	NOUN	Gender=Masc|Number=Sing	47	nmod	_	_
+51	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:242_2
+# doc_range = 5300-5402
+# sent_id = 5995
+# text = ערעור על החלטותיה לבית-המשפט לערעורים יהיה ברשות בלבד.
+1	ערעור	ערעור	NOUN	NOUN	Gender=Masc|Number=Sing	15	nsubj	_	_
+2	על	על	ADP	ADP	_	3	case	_	_
+3-5	החלטותיה	_	_	_	_	_	_	_	_
+3	החלטה	החלטה	NOUN	NOUN	Gender=Fem|Number=Plur	1	nmod	_	_
+4	_של_	של	ADP	ADP	Case=Gen	5	case:gen	_	_
+5	_היא	הוא	PRON	PRON	Definite=Def|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+6-7	לבית	_	_	_	_	_	_	_	SpaceAfter=No
+6	ל	ל	ADP	ADP	_	10	case	_	_
+7	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	nmod	_	_
+8	-	-	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
+9-10	המשפט	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	1	nmod	_	_
+11-12	לערעורים	_	_	_	_	_	_	_	_
+11	ל	ל	ADP	ADP	_	12	case	_	_
+12	ערעורים	ערעור	NOUN	NOUN	Gender=Masc|Number=Plur	10	nmod	_	_
+13	יהיה	יהיה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	15	cop	_	_
+14-15	ברשות	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	רשות	רשות	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+16	בלבד	בלבד	ADV	ADV	_	15	advmod	_	HebSource=ConvUncertainHead|SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	15	punct	_	_
+
+# doc_id = htb:242_2
+# doc_range = 5404-5521
+# sent_id = 5996
+# text = בית-המשפט לערעורים ידון בכל הערעורים על החלטות הערכאה הראשונה.
+1	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+2	-	-	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No
+3-4	המשפט	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj	_	_
+5-6	לערעורים	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	ערעורים	ערעור	NOUN	NOUN	Gender=Masc|Number=Plur	4	nmod	_	_
+7	ידון	נידון	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	0	root	_	_
+8-9	בכל	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	11	case	_	_
+9	כל	כול	DET	DET	Definite=Cons	11	det	_	_
+10-11	הערעורים	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	ערעורים	ערעור	NOUN	NOUN	Gender=Masc|Number=Plur	7	obl	_	_
+12	על	על	ADP	ADP	_	13	case	_	_
+13	החלטות	החלטה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	11	nmod	_	_
+14-15	הערכאה	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	ערכאה	ערכאה	NOUN	NOUN	Gender=Fem|Number=Sing	13	compound:smixut	_	_
+16-17	הראשונה	_	_	_	_	_	_	_	SpaceAfter=No
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	ראשונה	ראשונה	ADJ	ADJ	Gender=Fem|Number=Sing	15	amod	_	_
+18	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:242_2
+# doc_range = 5523-5683
+# sent_id = 5997
+# text = בכך יקבל עליו חלק מהמשימות המוטלות כעת על השופטים המחוזיים ועל שופטי בית-המשפט העליון.
+1-2	בכך	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	כך	כך	PRON	PRON	Person=3|PronType=Dem	3	obl	_	_
+3	יקבל	קיבל	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+4-5	עליו	_	_	_	_	_	_	_	_
+4	עליו	עליו	ADP	ADP	_	5	case	_	_
+5	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+6	חלק	חלק	NOUN	NOUN	Gender=Masc|Number=Sing	3	obj	_	_
+7-9	מהמשימות	_	_	_	_	_	_	_	_
+7	מ	מ	ADP	ADP	_	9	case	_	HebSource=ConvUncertainLabel
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+9	משימות	משימה	NOUN	NOUN	Gender=Fem|Number=Plur	6	nmod	_	_
+10-11	המוטלות	_	_	_	_	_	_	_	_
+10	ה	ה	SCONJ	SCONJ	_	11	mark	_	_
+11	מוטלות	הוטל	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	6	acl:relcl	_	_
+12	כעת	כעת	ADV	ADV	_	11	advmod	_	_
+13	על	על	ADP	ADP	_	15	case	_	_
+14-15	השופטים	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	שופטים	שופט	NOUN	NOUN	Gender=Masc|Number=Plur	11	obl	_	_
+16-17	המחוזיים	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	מחוזיים	מחוזי	ADJ	ADJ	Gender=Masc|Number=Plur	15	amod	_	_
+18-19	ועל	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
+19	על	על	ADP	ADP	_	20	case	_	_
+20	שופטי	שופט	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	15	conj	_	_
+21	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+22	-	-	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No
+23-24	המשפט	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	20	compound:smixut	_	_
+25-26	העליון	_	_	_	_	_	_	_	SpaceAfter=No
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	עליון	עליון	ADJ	ADJ	Gender=Masc|Number=Sing	24	amod	_	_
+27	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:242_2
+# doc_range = 5685-5818
+# sent_id = 5998
+# text = בית-משפט זה יהיה מורכב ממחלקה אזרחית וממחלקה פלילית, ובראשו יעמוד נשיא.
+1	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+2	-	-	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No
+3	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+4	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	det	_	_
+5	יהיה	יהיה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	6	cop	_	_
+6	מורכב	הורכב	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+7-8	ממחלקה	_	_	_	_	_	_	_	_
+7	מ	מ	ADP	ADP	_	8	case	_	_
+8	מחלקה	מחלקה	NOUN	NOUN	Gender=Fem|Number=Sing	6	obl	_	_
+9	אזרחית	אזרחי	ADJ	ADJ	Gender=Fem|Number=Sing	8	amod	_	_
+10-12	וממחלקה	_	_	_	_	_	_	_	_
+10	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+11	מ	מ	ADP	ADP	_	12	case	_	_
+12	מחלקה	מחלקה	NOUN	NOUN	Gender=Fem|Number=Sing	8	conj	_	_
+13	פלילית	פלילי	ADJ	ADJ	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	PUNCT	_	20	punct	_	_
+15-19	ובראשו	_	_	_	_	_	_	_	_
+15	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	ראש	ראש	NOUN	NOUN	Gender=Masc|Number=Sing	20	obl	_	_
+18	_של_	של	ADP	ADP	Case=Gen	19	case:gen	_	_
+19	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+20	יעמוד	עמד	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	6	conj	_	_
+21	נשיא	נשיא	NOUN	NOUN	Gender=Masc|Number=Sing	20	nsubj	_	SpaceAfter=No
+22	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:242_2
+# doc_range = 5820-5977
+# sent_id = 5999
+# text = בית-המשפט העליון יישאר במבנה הקיים, וישמש ערכאת ערעור על החלטות בית-המשפט לערעורים.
+1	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+2	-	-	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No
+3-4	המשפט	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj	_	_
+5-6	העליון	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	עליון	עליון	ADJ	ADJ	Gender=Masc|Number=Sing	4	amod	_	_
+7	יישאר	נשאר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Fut|Voice=Mid	0	root	_	_
+8-10	במבנה	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	10	case	_	_
+9	ה_	ה	DET	DET	PronType=Art|Definite=Def	10	det	_	_
+10	מבנה	מבנה	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
+11-12	הקיים	_	_	_	_	_	_	_	SpaceAfter=No
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	קיים	קיים	ADJ	ADJ	Gender=Masc|Number=Sing	10	amod	_	_
+13	,	,	PUNCT	PUNCT	_	15	punct	_	_
+14-15	וישמש	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+15	ישמש	שימש	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	7	conj	_	_
+16	ערכאת	ערכאה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	15	dep	_	_
+17	ערעור	ערעור	NOUN	NOUN	Gender=Masc|Number=Sing	16	compound:smixut	_	_
+18	על	על	ADP	ADP	_	19	case	_	_
+19	החלטות	החלטה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	17	nmod	_	_
+20	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+21	-	-	PUNCT	PUNCT	_	20	punct	_	SpaceAfter=No
+22-23	המשפט	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	19	compound:smixut	_	_
+24-25	לערעורים	_	_	_	_	_	_	_	SpaceAfter=No
+24	ל	ל	ADP	ADP	_	25	case	_	_
+25	ערעורים	ערעור	NOUN	NOUN	Gender=Masc|Number=Plur	23	nmod	_	_
+26	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:242_2
+# doc_range = 5979-6031
+# sent_id = 6000
+# text = הערעור אליו יהיה ברשות בלבד.
+1-2	הערעור	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	ערעור	ערעור	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj	_	_
+3-4	אליו	_	_	_	_	_	_	_	_
+3	אל	אל	ADP	ADP	_	4	case	_	_
+4	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nmod	_	_
+5	יהיה	יהיה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	7	cop	_	_
+6-7	ברשות	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	רשות	רשות	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
+8	בלבד	בלבד	ADV	ADV	_	7	advmod	_	HebSource=ConvUncertainHead|SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# doc_id = htb:242_2
+# doc_range = 6033-6188
+# sent_id = 6001
+# text = בדרך זו יובטח, שבית-המשפט העליון ימשיך לקבוע הלכות חשובות וידון בעניינים כבדי משקל.
+1-2	בדרך	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	דרך	דרך	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+3	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	det	_	_
+4	יובטח	הובטח	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	13	punct	_	_
+6-7	שבית	_	_	_	_	_	_	_	SpaceAfter=No
+6	ש	ש	SCONJ	SCONJ	_	13	mark	_	_
+7	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	nmod	_	_
+8	-	-	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
+9-10	המשפט	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	13	nsubj	_	_
+11-12	העליון	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	עליון	עליון	ADJ	ADJ	Gender=Masc|Number=Sing	10	amod	_	_
+13	ימשיך	המשיך	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	4	ccomp	_	_
+14	לקבוע	קבע	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	13	xcomp	_	_
+15	הלכות	הלכה	NOUN	NOUN	Gender=Fem|Number=Plur	14	obj	_	_
+16	חשובות	חשוב	ADJ	ADJ	Gender=Fem|Number=Plur	15	amod	_	_
+17-18	וידון	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+18	ידון	דן	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Fut	13	conj	_	_
+19-20	בעניינים	_	_	_	_	_	_	_	_
+19	ב	ב	ADP	ADP	_	20	case	_	_
+20	עניינים	עניין	NOUN	NOUN	Gender=Masc|Number=Plur	18	obl	_	_
+21	כבדי	כבד	ADJ	ADJ	Definite=Cons|Gender=Masc|Number=Plur	20	amod	_	_
+22	משקל	משקל	NOUN	NOUN	Gender=Masc|Number=Sing	21	compound:smixut	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:242_2
+# doc_range = 6190-6375
+# sent_id = 6002
+# text = סמכויות בג"ץ יישארו בידי בית-המשפט העליון, חוץ מהסמכות בעניין משמורת קטינים, שתועבר לערכאה הראשונה.
+1	סמכויות	סמכות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	3	nsubj	_	_
+2	בג"ץ	בג"ץ	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	1	compound:smixut	_	_
+3	יישארו	נשאר	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Fut|Voice=Mid	0	root	_	_
+4	בידי	בידי	ADP	ADP	_	8	case	_	_
+5	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+6	-	-	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+7-8	המשפט	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
+9-10	העליון	_	_	_	_	_	_	_	SpaceAfter=No
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	עליון	עליון	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	_
+11	,	,	PUNCT	PUNCT	_	15	punct	_	_
+12	חוץ	חוץ	ADP	ADP	_	15	case	_	_
+13-15	מהסמכות	_	_	_	_	_	_	_	_
+13	מ	מ	ADP	ADP	_	12	fixed	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	סמכות	סמכות	NOUN	NOUN	Gender=Fem|Number=Sing	3	obl	_	_
+16-17	בעניין	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	עניין	עניין	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	15	nmod	_	_
+18	משמורת	משמורת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	17	compound:smixut	_	_
+19	קטינים	קטין	NOUN	NOUN	Gender=Masc|Number=Plur	18	compound:smixut	_	SpaceAfter=No
+20	,	,	PUNCT	PUNCT	_	22	punct	_	_
+21-22	שתועבר	_	_	_	_	_	_	_	_
+21	ש	ש	SCONJ	SCONJ	_	22	mark	_	_
+22	תועבר	הועבר	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	15	acl:relcl	_	_
+23-25	לערכאה	_	_	_	_	_	_	_	_
+23	ל	ל	ADP	ADP	_	25	case	_	_
+24	ה_	ה	DET	DET	PronType=Art|Definite=Def	25	det	_	_
+25	ערכאה	ערכאה	NOUN	NOUN	Gender=Fem|Number=Sing	22	obl	_	_
+26-27	הראשונה	_	_	_	_	_	_	_	SpaceAfter=No
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	ראשונה	ראשונה	ADJ	ADJ	Gender=Fem|Number=Sing	25	amod	_	_
+28	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:242_2
+# doc_range = 6378-6562
+# sent_id = 6003
+# text = על פי הצעתו של ח"כ שטרית, תוגדל סמכות השופטים בארגון המנהלי של הרשות השופטת ותצומצם סמכות שר המשפטים.
+1	על	על	ADP	ADP	_	3	case	_	_
+2	פי	פה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	fixed	_	_
+3-5	הצעתו	_	_	_	_	_	_	_	_
+3	הצעה	הצעה	NOUN	NOUN	Gender=Fem|Number=Sing	10	obl	_	_
+4	_של_	של	ADP	ADP	Case=Gen	5	case:gen	_	_
+5	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+6	של	של	ADP	ADP	Case=Gen	7	case	_	_
+7	ח"כ	ח"כ	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	3	nmod:poss	_	_
+8	שטרית	שטרית	PROPN	PROPN	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	3	punct	_	_
+10	תוגדל	הוגדל	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	0	root	_	_
+11	סמכות	סמכות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+12-13	השופטים	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	שופטים	שופט	NOUN	NOUN	Gender=Masc|Number=Plur	11	compound:smixut	_	_
+14-16	בארגון	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	16	case	_	_
+15	ה_	ה	DET	DET	PronType=Art|Definite=Def	16	det	_	_
+16	ארגון	ארגון	NOUN	NOUN	Gender=Masc|Number=Sing	11	nmod	_	_
+17-18	המנהלי	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	מנהלי	מנהלי	ADJ	ADJ	Gender=Masc|Number=Sing	16	amod	_	_
+19	של	של	ADP	ADP	Case=Gen	21	case	_	_
+20-21	הרשות	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	רשות	רשות	NOUN	NOUN	Gender=Fem|Number=Sing	16	nmod	_	_
+22-23	השופטת	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	שופטת	שופט	NOUN	NOUN	Gender=Fem|Number=Sing	21	nmod	_	_
+24-25	ותצומצם	_	_	_	_	_	_	_	_
+24	ו	ו	CCONJ	CCONJ	_	25	cc	_	_
+25	תצומצם	צומצם	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	10	conj	_	_
+26	סמכות	סמכות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	25	nsubj:pass	_	_
+27	שר	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	26	compound:smixut	_	_
+28-29	המשפטים	_	_	_	_	_	_	_	SpaceAfter=No
+28	ה	ה	DET	DET	Definite=Def|PronType=Art	29	det	_	_
+29	משפטים	משפט	NOUN	NOUN	Gender=Masc|Number=Plur	27	compound:smixut	_	_
+30	.	.	PUNCT	PUNCT	_	10	punct	_	_
+
+# doc_id = htb:242_2
+# doc_range = 6564-6743
+# sent_id = 6004
+# text = היום שר המשפטים מוסמך למנות נשיאים וסגני נשיאים לבתי-המשפט, בהתייעצות עם נשיא בית-המשפט העליון.
+1	היום	היום	ADV	ADV	_	5	advmod	_	_
+2	שר	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3-4	המשפטים	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	משפטים	משפט	NOUN	NOUN	Gender=Masc|Number=Plur	2	compound:smixut	_	_
+5	מוסמך	הוסמך	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+6	למנות	מינה	VERB	VERB	VerbForm=Inf	5	xcomp	_	_
+7	נשיאים	נשיא	NOUN	NOUN	Gender=Masc|Number=Plur	6	obj	_	_
+8-9	וסגני	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	9	cc	_	_
+9	סגני	סגן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	7	conj	_	_
+10	נשיאים	נשיא	NOUN	NOUN	Gender=Masc|Number=Plur	9	compound:smixut	_	_
+11-12	לבתי	_	_	_	_	_	_	_	SpaceAfter=No
+11	ל	ל	ADP	ADP	_	15	case	_	_
+12	בתי	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	15	nmod	_	_
+13	-	-	PUNCT	PUNCT	_	12	punct	_	SpaceAfter=No
+14-15	המשפט	_	_	_	_	_	_	_	SpaceAfter=No
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+16	,	,	PUNCT	PUNCT	_	18	punct	_	_
+17-18	בהתייעצות	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	_	18	case	_	_
+18	התייעצות	התייעצות	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
+19	עם	עם	ADP	ADP	_	20	case	_	_
+20	נשיא	נשיא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	18	nmod	_	_
+21	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+22	-	-	PUNCT	PUNCT	_	21	punct	_	SpaceAfter=No
+23-24	המשפט	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	Definite=Def|PronType=Art	24	det	_	_
+24	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	20	compound:smixut	_	_
+25-26	העליון	_	_	_	_	_	_	_	SpaceAfter=No
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	עליון	עליון	ADJ	ADJ	Gender=Masc|Number=Sing	24	amod	_	_
+27	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:242_2
+# doc_range = 6745-6889
+# sent_id = 6005
+# text = מוצע להעביר סמכות זאתו לוועדה לבחירת שופטים, כדי לשמור על עצמאות הרשות השופטת.
+1	מוצע	הוצע	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+2	להעביר	העביר	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	1	xcomp	_	_
+3	סמכות	סמכות	NOUN	NOUN	Gender=Fem|Number=Sing	2	obj	_	_
+4	זאתו	זאתו	X	X	_	2	dep	_	Xtra=Junk
+5-7	לוועדה	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	7	case	_	_
+6	ה_	ה	DET	DET	PronType=Art|Definite=Def	7	det	_	_
+7	וועדה	ועדה	NOUN	NOUN	Gender=Fem|Number=Sing	2	obl	_	_
+8-9	לבחירת	_	_	_	_	_	_	_	_
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	בחירת	בחירה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	nmod	_	_
+10	שופטים	שופט	NOUN	NOUN	Gender=Masc|Number=Plur	9	compound:smixut	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	13	punct	_	_
+12	כדי	כדי	SCONJ	SCONJ	_	13	mark	_	_
+13	לשמור	שמר	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	1	advcl	_	_
+14	על	על	ADP	ADP	_	15	case	_	_
+15	עצמאות	עצמאות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	13	obl	_	_
+16-17	הרשות	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	רשות	רשות	NOUN	NOUN	Gender=Fem|Number=Sing	15	compound:smixut	_	_
+18-19	השופטת	_	_	_	_	_	_	_	SpaceAfter=No
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	שופטת	שופט	NOUN	NOUN	Gender=Fem|Number=Sing	17	nmod	_	_
+20	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:242_2
+# doc_range = 6892-7079
+# sent_id = 6006
+# text = כמו כן מוצע לשנות את החוק, המסמיך את שר המשפטים לזמן את הוועדה למינוי שופטים רק "משראה" שיש למנות שופט.
+1	כמו	כמו	ADP	ADP	_	2	case	_	_
+2	כן	כן	PRON	PRON	Person=3|PronType=Dem	3	obl	_	_
+3	מוצע	הוצע	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+4	לשנות	שינה	VERB	VERB	VerbForm=Inf	3	xcomp	_	_
+5	את	את	ADP	ADP	Case=Acc	7	case	_	_
+6-7	החוק	_	_	_	_	_	_	_	SpaceAfter=No
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	חוק	חוק	NOUN	NOUN	Gender=Masc|Number=Sing	4	obj	_	_
+8	,	,	PUNCT	PUNCT	_	10	punct	_	_
+9-10	המסמיך	_	_	_	_	_	_	_	_
+9	ה	ה	SCONJ	SCONJ	_	10	mark	_	_
+10	מסמיך	הסמיך	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	7	acl:relcl	_	_
+11	את	את	ADP	ADP	Case=Acc	12	case	_	_
+12	שר	שר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	obj	_	_
+13-14	המשפטים	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	משפטים	משפט	NOUN	NOUN	Gender=Masc|Number=Plur	12	compound:smixut	_	_
+15	לזמן	זימן	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+16	את	את	ADP	ADP	Case=Acc	18	case	_	_
+17-18	הוועדה	_	_	_	_	_	_	_	_
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	וועדה	ועדה	NOUN	NOUN	Gender=Fem|Number=Sing	15	obj	_	_
+19-20	למינוי	_	_	_	_	_	_	_	_
+19	ל	ל	ADP	ADP	_	20	case	_	_
+20	מינוי	מינוי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	18	nmod	_	_
+21	שופטים	שופט	NOUN	NOUN	Gender=Masc|Number=Plur	20	compound:smixut	_	_
+22	רק	רק	ADV	ADV	_	25	advmod	_	_
+23	"	"	PUNCT	PUNCT	_	25	punct	_	SpaceAfter=No
+24-25	משראה	_	_	_	_	_	_	_	SpaceAfter=No
+24	מש	מש	SCONJ	SCONJ	Case=Tem	25	mark	_	_
+25	ראה	ראה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	15	advcl	_	_
+26	"	"	PUNCT	PUNCT	_	25	punct	_	_
+27-28	שיש	_	_	_	_	_	_	_	_
+27	ש	ש	SCONJ	SCONJ	_	29	mark	_	_
+28	יש	יש	AUX	AUX	VerbType=Mod	29	aux	_	_
+29	למנות	מינה	VERB	VERB	VerbForm=Inf	25	ccomp	_	_
+30	שופט	שופט	NOUN	NOUN	Gender=Masc|Number=Sing	29	obj	_	SpaceAfter=No
+31	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:242_2
+# doc_range = 7081-7208
+# sent_id = 6007
+# text = במקום זה ייקבע, כי כאשר תתפנה משרת שופט, יהיה השר חייב לזמן את הוועדה.
+1-2	במקום	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	מקום	מקום	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+3	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	det	_	_
+4	ייקבע	נקבע	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Fut|Voice=Mid	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	16	punct	_	_
+6	כי	כי	SCONJ	SCONJ	_	16	mark	_	_
+7	כאשר	כאשר	SCONJ	SCONJ	_	8	mark	_	_
+8	תתפנה	התפנה	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Fut	16	advcl	_	_
+9	משרת	משרה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	8	nsubj	_	_
+10	שופט	שופט	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound:smixut	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	8	punct	_	_
+12	יהיה	יהיה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	16	cop	_	_
+13-14	השר	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	Definite=Def|PronType=Art	14	det	_	_
+14	שר	שר	NOUN	NOUN	Gender=Masc|Number=Sing	16	nsubj	_	_
+15	חייב	חייב	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	16	aux	_	_
+16	לזמן	זימן	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	4	ccomp	_	_
+17	את	את	ADP	ADP	Case=Acc	19	case	_	_
+18-19	הוועדה	_	_	_	_	_	_	_	SpaceAfter=No
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	וועדה	ועדה	NOUN	NOUN	Gender=Fem|Number=Sing	16	obj	_	_
+20	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:242_2
+# doc_range = 7210-7490
+# sent_id = 6008
+# text = כדי להגדיל את השפעת השופטים על תפקוד המערכת מוצע להקים מועצת שופטים, המורכבת מנשיאי בתי-המשפט ונציגים של בתי-המשפט למיניהם, ובכלל זה בית-הדין לעבודה.
+1	כדי	כדי	SCONJ	SCONJ	_	2	mark	_	_
+2	להגדיל	הגדיל	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	11	advcl	_	_
+3	את	את	ADP	ADP	Case=Acc	4	case	_	_
+4	השפעת	השפעה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	obj	_	_
+5-6	השופטים	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	שופטים	שופט	NOUN	NOUN	Gender=Masc|Number=Plur	4	compound:smixut	_	_
+7	על	על	ADP	ADP	_	8	case	_	_
+8	תפקוד	תפקוד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nmod	_	_
+9-10	המערכת	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	מערכת	מערכת	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound:smixut	_	_
+11	מוצע	הוצע	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
+12	להקים	הקים	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	מועצת	מועצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	obj	_	_
+14	שופטים	שופט	NOUN	NOUN	Gender=Masc|Number=Plur	13	compound:smixut	_	SpaceAfter=No
+15	,	,	PUNCT	PUNCT	_	17	punct	_	_
+16-17	המורכבת	_	_	_	_	_	_	_	_
+16	ה	ה	SCONJ	SCONJ	_	17	mark	_	_
+17	מורכבת	הורכב	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	13	acl:relcl	_	_
+18-19	מנשיאי	_	_	_	_	_	_	_	_
+18	מ	מ	ADP	ADP	_	19	case	_	_
+19	נשיאי	נשיא	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	17	obl	_	_
+20	בתי	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+21	-	-	PUNCT	PUNCT	_	20	punct	_	SpaceAfter=No
+22-23	המשפט	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	19	compound:smixut	_	_
+24-25	ונציגים	_	_	_	_	_	_	_	_
+24	ו	ו	CCONJ	CCONJ	_	25	cc	_	_
+25	נציגים	נציג	NOUN	NOUN	Gender=Masc|Number=Plur	19	conj	_	_
+26	של	של	ADP	ADP	Case=Gen	30	case	_	_
+27	בתי	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	30	nmod	_	SpaceAfter=No
+28	-	-	PUNCT	PUNCT	_	27	punct	_	SpaceAfter=No
+29-30	המשפט	_	_	_	_	_	_	_	_
+29	ה	ה	DET	DET	Definite=Def|PronType=Art	30	det	_	_
+30	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	25	nmod:poss	_	_
+31-33	למיניהם	_	_	_	_	_	_	_	SpaceAfter=No
+31	ל	ל	ADP	ADP	_	32	case	_	_
+32	מיני	מין	NOUN	NOUN	Gender=Masc|Number=Plur	30	nmod	_	_
+33	הם	הוא	PRON	PRON	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	32	nmod:poss	_	_
+34	,	,	PUNCT	PUNCT	_	35	punct	_	_
+35-37	ובכלל	_	_	_	_	_	_	_	_
+35	ו	ו	CCONJ	CCONJ	_	30	appos	_	_
+36	ב	ב	ADV	ADV	_	42	advmod	_	_
+37	כלל	כלל	NOUN	NOUN	Gender=Masc|Number=Sing	36	fixed	_	_
+38	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	36	fixed	_	_
+39	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	42	nmod	_	SpaceAfter=No
+40	-	-	PUNCT	PUNCT	_	39	punct	_	SpaceAfter=No
+41-42	הדין	_	_	_	_	_	_	_	_
+41	ה	ה	DET	DET	Definite=Def|PronType=Art	42	det	_	_
+42	דין	דין	NOUN	NOUN	Gender=Masc|Number=Sing	35	dep	_	HebSource=ConvUncertainHead
+43-45	לעבודה	_	_	_	_	_	_	_	SpaceAfter=No
+43	ל	ל	ADP	ADP	_	45	case	_	_
+44	ה_	ה	DET	DET	PronType=Art|Definite=Def	45	det	_	_
+45	עבודה	עבודה	NOUN	NOUN	Gender=Fem|Number=Sing	42	nmod	_	_
+46	.	.	PUNCT	PUNCT	_	11	punct	_	_
+
+# doc_id = htb:242_2
+# doc_range = 7493-7590
+# sent_id = 6009
+# text = סמכויות גוף זה יעוגנו בחוק, והוא יתוקצב מקופת המדינה.
+1	סמכויות	סמכות	NOUN	NOUN	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+2	גוף	גוף	NOUN	NOUN	Gender=Masc|Number=Sing	1	nmod	_	HebSource=ConvUncertainLabel
+3	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	det	_	_
+4	יעוגנו	עוגן	VERB	VERB	Gender=Fem,Masc|HebBinyan=PUAL|Number=Plur|Person=3|Tense=Fut|Voice=Pass	0	root	_	_
+5-7	בחוק	_	_	_	_	_	_	_	SpaceAfter=No
+5	ב	ב	ADP	ADP	_	7	case	_	_
+6	ה_	ה	DET	DET	PronType=Art|Definite=Def	7	det	_	_
+7	חוק	חוק	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+8	,	,	PUNCT	PUNCT	_	11	punct	_	_
+9-10	והוא	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	11	cc	_	_
+10	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj:pass	_	_
+11	יתוקצב	תוקצב	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	4	conj	_	_
+12-13	מקופת	_	_	_	_	_	_	_	_
+12	מ	מ	ADP	ADP	_	13	case	_	_
+13	קופת	קופה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	11	obl	_	_
+14-15	המדינה	_	_	_	_	_	_	_	SpaceAfter=No
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	מדינה	מדינה	NOUN	NOUN	Gender=Fem|Number=Sing	13	compound:smixut	_	_
+16	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:242_2
+# doc_range = 7592-7729
+# sent_id = 6010
+# text = במקביל, תוקם מועצת נשיאים גוף מצומצם, שיהיה אחראי לניהול מערכת בתי-המשפט.
+1	במקביל	במקביל	ADV	ADV	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	PUNCT	_	1	punct	_	_
+3	תוקם	הוקם	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	0	root	_	_
+4	מועצת	מועצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+5	נשיאים	נשיא	NOUN	NOUN	Gender=Masc|Number=Plur	4	compound:smixut	_	_
+6	גוף	גוף	NOUN	NOUN	Gender=Masc|Number=Sing	4	nmod	_	_
+7	מצומצם	מצומצם	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	PUNCT	_	11	punct	_	_
+9-10	שיהיה	_	_	_	_	_	_	_	_
+9	ש	ש	SCONJ	SCONJ	_	11	mark	_	_
+10	יהיה	יהיה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	11	cop	_	_
+11	אחראי	אחראי	ADJ	ADJ	Gender=Masc|Number=Sing	6	acl:relcl	_	_
+12-13	לניהול	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	_	13	case	_	_
+13	ניהול	ניהול	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	obl	_	_
+14	מערכת	מערכת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	13	compound:smixut	_	_
+15	בתי	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+16	-	-	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
+17-18	המשפט	_	_	_	_	_	_	_	SpaceAfter=No
+17	ה	ה	DET	DET	Definite=Def|PronType=Art	18	det	_	_
+18	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	14	compound:smixut	_	_
+19	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:242_2
+# doc_range = 7731-7861
+# sent_id = 6011
+# text = מועצת הנשיאים תמיין את השופטים בערכאה הראשונה לדרגים השונים, לפי רמתם.
+1	מועצת	מועצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	nsubj	_	_
+2-3	הנשיאים	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	נשיאים	נשיא	NOUN	NOUN	Gender=Masc|Number=Plur	1	compound:smixut	_	_
+4	תמיין	מיין	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+5	את	את	ADP	ADP	Case=Acc	7	case	_	_
+6-7	השופטים	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	שופטים	שופט	NOUN	NOUN	Gender=Masc|Number=Plur	4	obj	_	_
+8-10	בערכאה	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	10	case	_	_
+9	ה_	ה	DET	DET	PronType=Art|Definite=Def	10	det	_	_
+10	ערכאה	ערכאה	NOUN	NOUN	Gender=Fem|Number=Sing	7	nmod	_	_
+11-12	הראשונה	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	ראשונה	ראשונה	ADJ	ADJ	Gender=Fem|Number=Sing	10	amod	_	_
+13-15	לדרגים	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	15	case	_	_
+14	ה_	ה	DET	DET	PronType=Art|Definite=Def	15	det	_	_
+15	דרגים	דרג	NOUN	NOUN	Gender=Masc|Number=Plur	4	obl	_	_
+16-17	השונים	_	_	_	_	_	_	_	SpaceAfter=No
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	שונים	שונה	ADJ	ADJ	Gender=Masc|Number=Plur	15	amod	_	_
+18	,	,	PUNCT	PUNCT	_	20	punct	_	_
+19	לפי	לפי	ADP	ADP	_	20	case	_	_
+20-22	רמתם	_	_	_	_	_	_	_	SpaceAfter=No
+20	רמה	רמה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
+21	_של_	של	ADP	ADP	Case=Gen	22	case:gen	_	_
+22	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+23	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:242_2
+# doc_range = 7864-8046
+# sent_id = 6012
+# text = היא גם תמנה את ראשי המחלקות בערכאה זאת ובבית-המשפט לערעורים (את הנשיאים תמנה הוועדה לבחירת שופטים).
+1	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	גם	גם	ADV	ADV	_	3	advmod	_	_
+3	תמנה	מינה	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Fut	0	root	_	_
+4	את	את	ADP	ADP	Case=Acc	5	case	_	_
+5	ראשי	ראש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	3	obj	_	_
+6-7	המחלקות	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	מחלקות	מחלקה	NOUN	NOUN	Gender=Fem|Number=Plur	5	compound:smixut	_	_
+8-9	בערכאה	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	ערכאה	ערכאה	NOUN	NOUN	Gender=Fem|Number=Sing	5	nmod	_	_
+10	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	9	det	_	_
+11-13	ובבית	_	_	_	_	_	_	_	SpaceAfter=No
+11	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
+12	ב	ב	ADP	ADP	_	16	case	_	_
+13	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	16	nmod	_	_
+14	-	-	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No
+15-16	המשפט	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	Definite=Def|PronType=Art	16	det	_	_
+16	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	9	conj	_	_
+17-18	לערעורים	_	_	_	_	_	_	_	_
+17	ל	ל	ADP	ADP	_	18	case	_	_
+18	ערעורים	ערעור	NOUN	NOUN	Gender=Masc|Number=Plur	16	nmod	_	_
+19	(	(	PUNCT	PUNCT	_	23	punct	_	SpaceAfter=No
+20	את	את	ADP	ADP	Case=Acc	22	case	_	_
+21-22	הנשיאים	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	Definite=Def|PronType=Art	22	det	_	_
+22	נשיאים	נשיא	NOUN	NOUN	Gender=Masc|Number=Plur	23	obj	_	_
+23	תמנה	מינה	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Tense=Fut	3	parataxis	_	_
+24-25	הוועדה	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	וועדה	ועדה	NOUN	NOUN	Gender=Fem|Number=Sing	23	nsubj	_	_
+26-27	לבחירת	_	_	_	_	_	_	_	_
+26	ל	ל	ADP	ADP	_	27	case	_	_
+27	בחירת	בחירה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	25	nmod	_	_
+28	שופטים	שופט	NOUN	NOUN	Gender=Masc|Number=Plur	27	compound:smixut	_	SpaceAfter=No
+29	)	)	PUNCT	PUNCT	_	23	punct	_	SpaceAfter=No
+30	.	.	PUNCT	PUNCT	_	3	punct	_	_
+

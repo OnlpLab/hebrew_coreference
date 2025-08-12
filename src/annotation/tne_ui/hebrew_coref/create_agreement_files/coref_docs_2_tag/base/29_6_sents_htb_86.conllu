@@ -1,0 +1,175 @@
+# doc_id = htb:86
+# doc_range = 1-209
+# sent_id = 2282
+# text = משרד התיירות חתם חוזה חדש לשיתוף פעולה עם חברת פולמן הולידייס מבריטניה מפעילת טיסות השכר הוותיקה ביותר במדינה זו.
+1	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nsubj	_	_
+2-3	התיירות	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	תיירות	תיירות	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
+4	חתם	חתם	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	חוזה	חוזה	NOUN	NOUN	Gender=Masc|Number=Sing	4	obj	_	_
+6	חדש	חדש	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	_
+7-8	לשיתוף	_	_	_	_	_	_	_	_
+7	ל	ל	ADP	ADP	_	8	case	_	_
+8	שיתוף	שיתוף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	nmod	_	_
+9	פעולה	פעולה	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound:smixut	_	_
+10	עם	עם	ADP	ADP	_	11	case	_	_
+11	חברת	חברה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	8	nmod	_	_
+12	פולמן	פולמן	PROPN	PROPN	_	11	compound:smixut	_	_
+13	הולידייס	הולידייס	PROPN	PROPN	_	12	flat:name	_	_
+14-15	מבריטניה	_	_	_	_	_	_	_	_
+14	מ	מ	ADP	ADP	_	15	case	_	_
+15	בריטניה	בריטניה	PROPN	PROPN	_	11	nmod	_	_
+16	מפעילת	מפעיל	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	11	appos	_	_
+17	טיסות	טיסה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	16	compound:smixut	_	_
+18-19	השכר	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	שכר	שכר	NOUN	NOUN	Gender=Masc|Number=Sing	17	compound:smixut	_	_
+20-21	הוותיקה	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	וותיקה	ותיק	ADJ	ADJ	Gender=Fem|Number=Sing	16	amod	_	_
+22	ביותר	ביותר	ADV	ADV	_	21	advmod	_	_
+23-24	במדינה	_	_	_	_	_	_	_	_
+23	ב	ב	ADP	ADP	_	24	case	_	_
+24	מדינה	מדינה	NOUN	NOUN	Gender=Fem|Number=Sing	21	obl	_	_
+25	זו	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	24	det	_	SpaceAfter=No
+26	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:86
+# doc_range = 211-386
+# sent_id = 2283
+# text = במסגרת שיתוף הפעולה יודפסו השנה חצי מיליון חוברות שיווק, ובהן מידע על אתרי תיירות במדינת ישראל.
+1-2	במסגרת	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	מסגרת	מסגרת	NOUN	NOUN	Gender=Fem|Number=Sing	1	fixed	_	_
+3	שיתוף	שיתוף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	obl	_	_
+4-5	הפעולה	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	פעולה	פעולה	NOUN	NOUN	Gender=Fem|Number=Sing	3	compound:smixut	_	_
+6	יודפסו	הודפס	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Fut|Voice=Pass	0	root	_	_
+7	השנה	השנה	ADV	ADV	_	6	advmod	_	_
+8	חצי	חצי	NUM	NUM	Definite=Cons|Gender=Masc|Number=Sing	9	dep	_	_
+9	מיליון	מיליון	NUM	NUM	Gender=Masc|Number=Plur	10	nummod	_	_
+10	חוברות	חוברת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	6	nsubj:pass	_	_
+11	שיווק	שיווק	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	15	punct	_	_
+13-15	ובהן	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	6	conj	_	_
+16	מידע	מידע	NOUN	NOUN	Gender=Masc|Number=Sing	15	nsubj	_	_
+17	על	על	ADP	ADP	_	18	case	_	_
+18	אתרי	אתר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	16	nmod	_	_
+19	תיירות	תיירות	NOUN	NOUN	Gender=Fem|Number=Sing	18	compound:smixut	_	_
+20-21	במדינת	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	מדינת	מדינה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	18	nmod	_	_
+22	ישראל	ישראל	PROPN	PROPN	_	21	compound:smixut	_	SpaceAfter=No
+23	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# doc_id = htb:86
+# doc_range = 389-449
+# sent_id = 2284
+# text = החוברת תופץ לכ51 אלף סוכני נסיעות.
+1-2	החוברת	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	חוברת	חוברת	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+3	תופץ	הופץ	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	0	root	_	_
+4-6	לכ51	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	8	case	_	_
+5	כ	כ	ADV	ADV	_	8	advmod	_	_
+6	51	51	NUM	NUM	_	7	nummod	_	_
+7	אלף	אלף	NUM	NUM	Gender=Masc|Number=Plur	8	nummod	_	_
+8	סוכני	סוכן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	3	obl	_	_
+9	נסיעות	נסיעה	NOUN	NOUN	Gender=Fem|Number=Plur	8	compound:smixut	_	SpaceAfter=No
+10	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:86
+# doc_range = 451-580
+# sent_id = 2285
+# text = כן תקיים החברה שלוש טיסות שכר שבועיות לישראל בעונת תיירות הקיץ הקרובה.
+1	כן	כן	ADV	ADV	_	2	advmod	_	_
+2	תקיים	קיים	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+3-4	החברה	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	2	nsubj	_	_
+5	שלוש	שלוש	NUM	NUM	Gender=Fem|Number=Plur	6	nummod	_	_
+6	טיסות	טיסה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	2	obj	_	_
+7	שכר	שכר	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+8	שבועיות	שבועי	ADJ	ADJ	Gender=Fem|Number=Plur	6	amod	_	_
+9-10	לישראל	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	10	case	_	_
+10	ישראל	ישראל	PROPN	PROPN	_	6	nmod	_	_
+11-12	בעונת	_	_	_	_	_	_	_	_
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	עונת	עונה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	obl	_	_
+13	תיירות	תיירות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	compound:smixut	_	_
+14-15	הקיץ	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	Definite=Def|PronType=Art	15	det	_	_
+15	קיץ	קיץ	NOUN	NOUN	Gender=Masc|Number=Sing	13	compound:smixut	_	_
+16-17	הקרובה	_	_	_	_	_	_	_	SpaceAfter=No
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	קרובה	קרוב	ADJ	ADJ	Gender=Fem|Number=Sing	12	amod	_	_
+18	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:86
+# doc_range = 582-671
+# sent_id = 2286
+# text = בסיורים שתציע החברה ייכללו כל יעדי התיירות בארץ.
+1-3	בסיורים	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	סיורים	סיור	NOUN	NOUN	Gender=Masc|Number=Plur	8	obl	_	_
+4-5	שתציע	_	_	_	_	_	_	_	_
+4	ש	ש	SCONJ	SCONJ	_	5	mark	_	_
+5	תציע	הציע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Fut|Voice=Act	3	acl:relcl	_	_
+6-7	החברה	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	חברה	חברה	NOUN	NOUN	Gender=Fem|Number=Sing	5	nsubj	_	_
+8	ייכללו	נכלל	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Fut|Voice=Mid	0	root	_	_
+9	כל	כול	DET	DET	Definite=Cons	10	det	_	_
+10	יעדי	יעד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	8	nsubj	_	_
+11-12	התיירות	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	תיירות	תיירות	NOUN	NOUN	Gender=Fem|Number=Sing	10	compound:smixut	_	_
+13-15	בארץ	_	_	_	_	_	_	_	SpaceAfter=No
+13	ב	ב	ADP	ADP	_	15	case	_	_
+14	ה_	ה	DET	DET	PronType=Art|Definite=Def	15	det	_	_
+15	ארץ	ארץ	NOUN	NOUN	Gender=Fem|Number=Sing	10	nmod	_	_
+16	.	.	PUNCT	PUNCT	_	8	punct	_	_
+
+# doc_id = htb:86
+# doc_range = 673-852
+# sent_id = 2287
+# text = כן יוצעו סיורי טוס וסע, חופשות ריפוי בים המלח וסיור משותף ישראל-מצרים, תוך דגש על היסטוריה עתיקה.
+1	כן	כן	ADV	ADV	_	2	advmod	_	_
+2	יוצעו	הוצע	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Fut|Voice=Pass	0	root	_	_
+3	סיורי	סיור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	2	nsubj:pass	_	_
+4	טוס	טס	PROPN	PROPN	_	3	compound:smixut	_	_
+5-6	וסע	_	_	_	_	_	_	_	SpaceAfter=No
+5	ו	ו	CCONJ	CCONJ	_	4	cc	_	HebSource=ConvUncertainHead
+6	סע	נסע	PROPN	PROPN	_	4	dep	_	HebSource=ConvUncertainHead
+7	,	,	PUNCT	PUNCT	_	8	punct	_	_
+8	חופשות	חופשה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	3	conj	_	_
+9	ריפוי	ריפוי	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound:smixut	_	_
+10-11	בים	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	ים	ים	PROPN	PROPN	Definite=Cons	8	nmod	_	_
+12-13	המלח	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	מלח	מלח	PROPN	PROPN	_	11	compound:smixut	_	_
+14-15	וסיור	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+15	סיור	סיור	NOUN	NOUN	Gender=Masc|Number=Sing	3	conj	_	_
+16	משותף	משותף	ADJ	ADJ	Gender=Masc|Number=Sing	15	amod	_	_
+17	ישראל	ישראל	PROPN	PROPN	_	15	nmod	_	SpaceAfter=No
+18	-	-	PUNCT	PUNCT	_	19	punct	_	HebSource=ConvUncertainHead|SpaceAfter=No
+19	מצרים	מצרים	PROPN	PROPN	_	17	dep	_	HebSource=ConvUncertainHead|SpaceAfter=No
+20	,	,	PUNCT	PUNCT	_	22	punct	_	_
+21	תוך	תוך	ADP	ADP	_	22	case	_	_
+22	דגש	דגש	NOUN	NOUN	Gender=Masc|Number=Sing	15	nmod	_	_
+23	על	על	ADP	ADP	_	24	case	_	_
+24	היסטוריה	היסטוריה	NOUN	NOUN	Gender=Fem|Number=Sing	22	nmod	_	_
+25	עתיקה	עתיק	ADJ	ADJ	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	PUNCT	_	2	punct	_	_
+

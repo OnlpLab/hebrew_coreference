@@ -1,0 +1,608 @@
+# doc_id = htb:155
+# doc_range = 1-177
+# sent_id = 3992
+# text = יועץ ראש הממשלה ללוחמה בטרור, יגאל כרמון, החליט להסיר את המלצתו לישראלים להימנע מנסיעות למצרים.
+1	יועץ	יועץ	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	14	nsubj	_	_
+2	ראש	ראש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	compound:smixut	_	_
+3-4	הממשלה	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	Definite=Def|PronType=Art	4	det	_	_
+4	ממשלה	ממשלה	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound:smixut	_	_
+5-6	ללוחמה	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	לוחמה	לוחמה	NOUN	NOUN	Gender=Fem|Number=Sing	1	nmod	_	_
+7-9	בטרור	_	_	_	_	_	_	_	SpaceAfter=No
+7	ב	ב	ADP	ADP	_	9	case	_	_
+8	ה_	ה	DET	DET	PronType=Art|Definite=Def	9	det	_	_
+9	טרור	טרור	NOUN	NOUN	Gender=Masc|Number=Sing	6	nmod	_	_
+10	,	,	PUNCT	PUNCT	_	11	punct	_	_
+11	יגאל	יגאל	PROPN	PROPN	_	1	appos	_	_
+12	כרמון	כרמון	PROPN	PROPN	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	PUNCT	_	1	punct	_	_
+14	החליט	החליט	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+15	להסיר	הסיר	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+16	את	את	ADP	ADP	Case=Acc	17	case	_	_
+17-19	המלצתו	_	_	_	_	_	_	_	_
+17	המלצה	המלצה	NOUN	NOUN	Gender=Fem|Number=Sing	15	obj	_	_
+18	_של_	של	ADP	ADP	Case=Gen	19	case:gen	_	_
+19	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+20-22	לישראלים	_	_	_	_	_	_	_	_
+20	ל	ל	ADP	ADP	_	22	case	_	_
+21	ה_	ה	DET	DET	PronType=Art|Definite=Def	22	det	_	_
+22	ישראלים	ישראלי	NOUN	NOUN	Gender=Masc|Number=Plur	17	nmod	_	_
+23	להימנע	נמנע	VERB	VERB	HebBinyan=NIFAL|VerbForm=Inf|Voice=Mid	17	acl	_	_
+24-25	מנסיעות	_	_	_	_	_	_	_	_
+24	מ	מ	ADP	ADP	_	25	case	_	_
+25	נסיעות	נסיעה	NOUN	NOUN	Gender=Fem|Number=Plur	23	obl	_	_
+26-27	למצרים	_	_	_	_	_	_	_	SpaceAfter=No
+26	ל	ל	ADP	ADP	_	27	case	_	_
+27	מצרים	מצרים	PROPN	PROPN	_	25	nmod	_	_
+28	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# doc_id = htb:155
+# doc_range = 179-347
+# sent_id = 3993
+# text = ההחלטה באה לאחר שכוחות ביטחון הפנים של מצרים עצרו מאות פעילים איסלאמים והחרימו נשק ותחמושת.
+1-2	ההחלטה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	החלטה	החלטה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	באה	בא	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	לאחר	לאחר	ADP	ADP	_	12	case	_	_
+5-6	שכוחות	_	_	_	_	_	_	_	_
+5	ש	ש	SCONJ	SCONJ	_	12	mark	_	_
+6	כוחות	כוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	12	nsubj	_	_
+7	ביטחון	ביטחון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	compound:smixut	_	_
+8-9	הפנים	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	פנים	פנים	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound:smixut	_	_
+10	של	של	ADP	ADP	Case=Gen	11	case	_	_
+11	מצרים	מצרים	PROPN	PROPN	_	6	nmod:poss	_	_
+12	עצרו	עצר	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	3	obl	_	_
+13	מאות	מאה	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	14	nummod	_	_
+14	פעילים	פעיל	NOUN	NOUN	Gender=Masc|Number=Plur	12	obj	_	_
+15	איסלאמים	איסלאמי	ADJ	ADJ	Gender=Masc|Number=Plur	14	amod	_	_
+16-17	והחרימו	_	_	_	_	_	_	_	_
+16	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+17	החרימו	החרים	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	12	conj	_	_
+18	נשק	נשק	NOUN	NOUN	Gender=Masc|Number=Sing	17	obj	_	_
+19-20	ותחמושת	_	_	_	_	_	_	_	SpaceAfter=No
+19	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
+20	תחמושת	תחמושת	NOUN	NOUN	Gender=Fem|Number=Sing	18	conj	_	_
+21	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:155
+# doc_range = 349-551
+# sent_id = 3994
+# text = המלצת היועץ ללוחמה בטרור ניתנה ערב ראש השנה, לאחר שהצטברו כמה התרעות על כוונה לפגוע בישראלים המטיילים במצרים.
+1	המלצת	המלצה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	nsubj	_	_
+2-3	היועץ	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	יועץ	יועץ	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+4-5	ללוחמה	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	לוחמה	לוחמה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nmod	_	_
+6-8	בטרור	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	8	case	_	_
+7	ה_	ה	DET	DET	PronType=Art|Definite=Def	8	det	_	_
+8	טרור	טרור	NOUN	NOUN	Gender=Masc|Number=Sing	5	nmod	_	_
+9	ניתנה	ניתן	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+10	ערב	ערב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	dep	_	_
+11	ראש	ראש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	compound:smixut	_	_
+12-13	השנה	_	_	_	_	_	_	_	SpaceAfter=No
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	שנה	שנה	NOUN	NOUN	Gender=Fem|Number=Sing	11	compound:smixut	_	_
+14	,	,	PUNCT	PUNCT	_	17	punct	_	_
+15	לאחר	לאחר	ADP	ADP	_	17	case	_	_
+16-17	שהצטברו	_	_	_	_	_	_	_	_
+16	ש	ש	SCONJ	SCONJ	_	17	mark	_	_
+17	הצטברו	הצטבר	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	9	obl	_	_
+18	כמה	כמה	DET	DET	Definite=Cons	19	det	_	_
+19	התרעות	התרעה	NOUN	NOUN	Gender=Fem|Number=Plur	17	nsubj	_	_
+20	על	על	ADP	ADP	_	21	case	_	_
+21	כוונה	כוונה	NOUN	NOUN	Gender=Fem|Number=Sing	19	nmod	_	_
+22	לפגוע	פגע	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	21	acl	_	_
+23-24	בישראלים	_	_	_	_	_	_	_	_
+23	ב	ב	ADP	ADP	_	24	case	_	_
+24	ישראלים	ישראלי	NOUN	NOUN	Gender=Masc|Number=Plur	22	obl	_	_
+25-26	המטיילים	_	_	_	_	_	_	_	_
+25	ה	ה	SCONJ	SCONJ	_	26	mark	_	_
+26	מטיילים	טייל	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	24	acl:relcl	_	_
+27-28	במצרים	_	_	_	_	_	_	_	SpaceAfter=No
+27	ב	ב	ADP	ADP	_	28	case	_	_
+28	מצרים	מצרים	PROPN	PROPN	_	26	obl	_	_
+29	.	.	PUNCT	PUNCT	_	9	punct	_	_
+
+# doc_id = htb:155
+# doc_range = 553-734
+# sent_id = 3995
+# text = בהמלצה, שנוסחה בשיתוף עם משרד החוץ, נאמר כי כל המתכוון לצאת לטיול במצרים ראוי שישקול שוב את כוונתו.
+1-3	בהמלצה	_	_	_	_	_	_	_	SpaceAfter=No
+1	ב	ב	ADP	ADP	_	3	case	_	_
+2	ה_	ה	DET	DET	PronType=Art|Definite=Def	3	det	_	_
+3	המלצה	המלצה	NOUN	NOUN	Gender=Fem|Number=Sing	14	obl	_	_
+4	,	,	PUNCT	PUNCT	_	6	punct	_	_
+5-6	שנוסחה	_	_	_	_	_	_	_	_
+5	ש	ש	SCONJ	SCONJ	_	6	mark	_	_
+6	נוסחה	נוסח	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	3	acl:relcl	_	_
+7-8	בשיתוף	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	שיתוף	שיתוף	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+9	עם	עם	ADP	ADP	_	10	case	_	_
+10	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	nmod	_	_
+11-12	החוץ	_	_	_	_	_	_	_	SpaceAfter=No
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
+13	,	,	PUNCT	PUNCT	_	3	punct	_	_
+14	נאמר	נאמר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+15	כי	כי	SCONJ	SCONJ	_	24	mark	_	_
+16	כל	כול	DET	DET	Definite=Cons	18	det	_	_
+17-18	המתכוון	_	_	_	_	_	_	_	_
+17	ה	ה	SCONJ	SCONJ	_	18	mark	_	_
+18	מתכוון	התכוון	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	24	dislocated	_	_
+19	לצאת	יצא	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	18	xcomp	_	_
+20-21	לטיול	_	_	_	_	_	_	_	_
+20	ל	ל	ADP	ADP	_	21	case	_	_
+21	טיול	טיול	NOUN	NOUN	Gender=Masc|Number=Sing	19	obl	_	_
+22-23	במצרים	_	_	_	_	_	_	_	_
+22	ב	ב	ADP	ADP	_	23	case	_	_
+23	מצרים	מצרים	PROPN	PROPN	_	21	nmod	_	_
+24	ראוי	ראוי	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	14	advcl	_	_
+25-26	שישקול	_	_	_	_	_	_	_	_
+25	ש	ש	SCONJ	SCONJ	_	26	mark	_	_
+26	ישקול	שקל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	24	advcl	_	_
+27	שוב	שוב	ADV	ADV	_	26	advmod	_	_
+28	את	את	ADP	ADP	Case=Acc	29	case	_	_
+29-31	כוונתו	_	_	_	_	_	_	_	SpaceAfter=No
+29	כוונה	כוונה	NOUN	NOUN	Gender=Fem|Number=Sing	26	obj	_	_
+30	_של_	של	ADP	ADP	Case=Gen	31	case:gen	_	_
+31	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+32	.	.	PUNCT	PUNCT	_	14	punct	_	_
+
+# doc_id = htb:155
+# doc_range = 736-928
+# sent_id = 3996
+# text = ההמלצה הועברה ל21 סוכנויות נסיעות המקיימות סיורים במצרים, ונתלתה על לוחות המודעות במסופי הגבול עם מצרים.
+1-2	ההמלצה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	המלצה	המלצה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+3	הועברה	הועבר	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+4-5	ל21	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	6	case	_	_
+5	21	21	NUM	NUM	_	6	nummod	_	_
+6	סוכנויות	סוכנות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	3	obl	_	_
+7	נסיעות	נסיעה	NOUN	NOUN	Gender=Fem|Number=Plur	6	compound:smixut	_	_
+8-9	המקיימות	_	_	_	_	_	_	_	_
+8	ה	ה	SCONJ	SCONJ	_	9	mark	_	_
+9	מקיימות	קיים	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	6	acl:relcl	_	_
+10	סיורים	סיור	NOUN	NOUN	Gender=Masc|Number=Plur	9	obj	_	_
+11-12	במצרים	_	_	_	_	_	_	_	SpaceAfter=No
+11	ב	ב	ADP	ADP	_	12	case	_	_
+12	מצרים	מצרים	PROPN	PROPN	_	10	nmod	_	_
+13	,	,	PUNCT	PUNCT	_	15	punct	_	_
+14-15	ונתלתה	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+15	נתלתה	נתלה	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	3	conj	_	_
+16	על	על	ADP	ADP	_	17	case	_	_
+17	לוחות	לוח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	15	obl	_	_
+18-19	המודעות	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	מודעות	מודעה	NOUN	NOUN	Gender=Fem|Number=Plur	17	compound:smixut	_	_
+20-21	במסופי	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	מסופי	מסוף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	17	nmod	_	_
+22-23	הגבול	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	Definite=Def|PronType=Art	23	det	_	_
+23	גבול	גבול	NOUN	NOUN	Gender=Masc|Number=Sing	21	compound:smixut	_	_
+24	עם	עם	ADP	ADP	_	25	case	_	_
+25	מצרים	מצרים	PROPN	PROPN	_	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:155
+# doc_range = 930-1113
+# sent_id = 3997
+# text = ההנחיה היתה לתת לכל מי שמתעניין בנסיעה למצרים את נוסח ההמלצה ולהשאיר בידיו את ההחלטה אם לצאת למצרים.
+1-2	ההנחיה	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	Definite=Def|PronType=Art	2	det	_	_
+2	הנחיה	הנחיה	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	היתה	היה	AUX	AUX	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	4	cop	_	_
+4	לתת	נתן	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	0	root	_	_
+5-6	לכל	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	7	case	_	_
+6	כל	כול	DET	DET	Definite=Cons	7	det	_	_
+7	מי	מי	PRON	PRON	PronType=Int	4	obl	_	_
+8-9	שמתעניין	_	_	_	_	_	_	_	_
+8	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
+9	מתעניין	התעניין	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part	7	acl:relcl	_	_
+10-11	בנסיעה	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	נסיעה	נסיעה	NOUN	NOUN	Gender=Fem|Number=Sing	9	obl	_	_
+12-13	למצרים	_	_	_	_	_	_	_	_
+12	ל	ל	ADP	ADP	_	13	case	_	_
+13	מצרים	מצרים	PROPN	PROPN	_	11	nmod	_	_
+14	את	את	ADP	ADP	Case=Acc	15	case	_	_
+15	נוסח	נוסח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	obj	_	_
+16-17	ההמלצה	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	המלצה	המלצה	NOUN	NOUN	Gender=Fem|Number=Sing	15	compound:smixut	_	_
+18-19	ולהשאיר	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+19	להשאיר	השאיר	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	4	conj	_	_
+20-23	בידיו	_	_	_	_	_	_	_	_
+20	ב	ב	ADP	ADP	_	21	case	_	_
+21	יד	יד	NOUN	NOUN	Gender=Fem|Number=Plur	19	obl	_	_
+22	_של_	של	ADP	ADP	Case=Gen	23	case:gen	_	_
+23	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+24	את	את	ADP	ADP	Case=Acc	26	case	_	_
+25-26	ההחלטה	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	החלטה	החלטה	NOUN	NOUN	Gender=Fem|Number=Sing	19	obj	_	_
+27	אם	אם	SCONJ	SCONJ	_	28	mark	_	_
+28	לצאת	יצא	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	26	advcl	_	_
+29-30	למצרים	_	_	_	_	_	_	_	SpaceAfter=No
+29	ל	ל	ADP	ADP	_	30	case	_	_
+30	מצרים	מצרים	PROPN	PROPN	_	28	obl	_	_
+31	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:155
+# doc_range = 1115-1193
+# sent_id = 3998
+# text = מאז חלה ירידה במספר הישראלים שיצאו למצרים.
+1	מאז	מאז	ADV	ADV	_	2	advmod	_	_
+2	חלה	חל	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	ירידה	ירידה	NOUN	NOUN	Gender=Fem|Number=Sing	2	nsubj	_	_
+4-5	במספר	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	7	case	_	_
+5	מספר	מספר	DET	DET	Definite=Cons	7	det	_	_
+6-7	הישראלים	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	ישראלים	ישראלי	NOUN	NOUN	Gender=Masc|Number=Plur	3	nmod	_	_
+8-9	שיצאו	_	_	_	_	_	_	_	_
+8	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
+9	יצאו	יצא	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=3|Tense=Past	7	acl:relcl	_	_
+10-11	למצרים	_	_	_	_	_	_	_	SpaceAfter=No
+10	ל	ל	ADP	ADP	_	11	case	_	_
+11	מצרים	מצרים	PROPN	PROPN	_	9	obl	_	_
+12	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:155
+# doc_range = 1195-1422
+# sent_id = 3999
+# text = שלטונות מצרים הגבירו בשבועות האחרונים את מאבקם בארגונים האיסלאמיים הקיצוניים, במיוחד לאחר רצח יושב ראש הפרלמנט במרכז קהיר.
+1	שלטונות	שלטון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	מצרים	מצרים	PROPN	PROPN	_	1	compound:smixut	_	_
+3	הגבירו	הגביר	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4-6	בשבועות	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	6	case	_	_
+5	ה_	ה	DET	DET	PronType=Art|Definite=Def	6	det	_	_
+6	שבועות	שבוע	NOUN	NOUN	Gender=Masc|Number=Plur	3	obl	_	_
+7-8	האחרונים	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	אחרונים	אחרון	ADJ	ADJ	Gender=Masc|Number=Plur	6	amod	_	_
+9	את	את	ADP	ADP	Case=Acc	10	case	_	_
+10-12	מאבקם	_	_	_	_	_	_	_	_
+10	מאבק	מאבק	NOUN	NOUN	Gender=Masc|Number=Sing	3	obj	_	_
+11	_של_	של	ADP	ADP	Case=Gen	12	case:gen	_	_
+12	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+13-15	בארגונים	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	15	case	_	_
+14	ה_	ה	DET	DET	PronType=Art|Definite=Def	15	det	_	_
+15	ארגונים	ארגון	NOUN	NOUN	Gender=Masc|Number=Plur	10	nmod	_	_
+16-17	האיסלאמיים	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	איסלאמיים	איסלאמי	ADJ	ADJ	Gender=Masc|Number=Plur	15	amod	_	_
+18-19	הקיצוניים	_	_	_	_	_	_	_	SpaceAfter=No
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	קיצוניים	קיצוני	ADJ	ADJ	Gender=Masc|Number=Plur	15	amod	_	_
+20	,	,	PUNCT	PUNCT	_	23	punct	_	_
+21	במיוחד	במיוחד	ADV	ADV	_	23	advmod	_	_
+22	לאחר	לאחר	ADP	ADP	_	23	case	_	_
+23	רצח	רצח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	obl	_	_
+24	יושב	יושב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	23	compound:smixut	_	_
+25	ראש	ראש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	24	compound:smixut	_	_
+26-27	הפרלמנט	_	_	_	_	_	_	_	_
+26	ה	ה	DET	DET	Definite=Def|PronType=Art	27	det	_	_
+27	פרלמנט	פרלמנט	NOUN	NOUN	Gender=Masc|Number=Sing	25	compound:smixut	_	_
+28-29	במרכז	_	_	_	_	_	_	_	_
+28	ב	ב	ADP	ADP	_	29	case	_	_
+29	מרכז	מרכז	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	23	nmod	_	_
+30	קהיר	קהיר	PROPN	PROPN	_	29	compound:smixut	_	SpaceAfter=No
+31	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:155
+# doc_range = 1425-1558
+# sent_id = 4000
+# text = נראה כי פעילי ארגונים אלה הם שסימנו את אזרחי ישראל המטיילים במצרים כמטרה.
+1	נראה	נראה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	0	root	_	_
+2	כי	כי	SCONJ	SCONJ	_	8	mark	_	_
+3	פעילי	פעיל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	8	nsubj	_	_
+4	ארגונים	ארגון	NOUN	NOUN	Gender=Masc|Number=Plur	3	compound:smixut	_	_
+5	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	4	det	_	_
+6	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|Polarity=Pos	8	cop	_	_
+7-8	שסימנו	_	_	_	_	_	_	_	_
+7	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
+8	סימנו	סימן	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	1	ccomp	_	_
+9	את	את	ADP	ADP	Case=Acc	10	case	_	_
+10	אזרחי	אזרח	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	8	obj	_	_
+11	ישראל	ישראל	PROPN	PROPN	_	10	compound:smixut	_	_
+12-13	המטיילים	_	_	_	_	_	_	_	_
+12	ה	ה	SCONJ	SCONJ	_	13	mark	_	_
+13	מטיילים	טייל	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	10	acl:relcl	_	_
+14-15	במצרים	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	מצרים	מצרים	PROPN	PROPN	_	13	obl	_	_
+16-17	כמטרה	_	_	_	_	_	_	_	SpaceAfter=No
+16	כ	כ	ADP	ADP	_	17	case	_	_
+17	מטרה	מטרה	NOUN	NOUN	Gender=Fem|Number=Sing	8	obl	_	_
+18	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# doc_id = htb:155
+# doc_range = 1561-1679
+# sent_id = 4001
+# text = מעצרם הקטין את החשש מביצוע פעולות טרור נגד ישראלים על אדמת מצרים.
+1-3	מעצרם	_	_	_	_	_	_	_	_
+1	מעצר	מעצר	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
+2	_של_	של	ADP	ADP	Case=Gen	3	case:gen	_	_
+3	_הם	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	1	nmod:poss	_	_
+4	הקטין	הקטין	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+5	את	את	ADP	ADP	Case=Acc	7	case	_	_
+6-7	החשש	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	חשש	חשש	NOUN	NOUN	Gender=Masc|Number=Sing	4	obj	_	_
+8-9	מביצוע	_	_	_	_	_	_	_	_
+8	מ	מ	ADP	ADP	_	9	case	_	_
+9	ביצוע	ביצוע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nmod	_	_
+10	פעולות	פעולה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	9	compound:smixut	_	_
+11	טרור	טרור	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
+12	נגד	נגד	ADP	ADP	_	13	case	_	_
+13	ישראלים	ישראלי	NOUN	NOUN	Gender=Masc|Number=Plur	10	nmod	_	_
+14	על	על	ADP	ADP	_	15	case	_	_
+15	אדמת	אדמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	nmod	_	_
+16	מצרים	מצרים	PROPN	PROPN	_	15	compound:smixut	_	SpaceAfter=No
+17	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# doc_id = htb:155
+# doc_range = 1681-1814
+# sent_id = 4002
+# text = בנוסף לכך החליטו המצרים להגביר את האבטחה על מקומות המועדים לפיגועי טרור.
+1-2	בנוסף	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	4	case	_	_
+2	נוסף	נוסף	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	1	fixed	_	_
+3-4	לכך	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	1	fixed	_	_
+4	כך	כך	PRON	PRON	Person=3|PronType=Dem	5	obl	_	_
+5	החליטו	החליט	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+6-7	המצרים	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	מצרים	מצרי	NOUN	NOUN	Gender=Masc|Number=Plur	5	nsubj	_	_
+8	להגביר	הגביר	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+9	את	את	ADP	ADP	Case=Acc	11	case	_	_
+10-11	האבטחה	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	אבטחה	אבטחה	NOUN	NOUN	Gender=Fem|Number=Sing	8	obj	_	_
+12	על	על	ADP	ADP	_	13	case	_	_
+13	מקומות	מקום	NOUN	NOUN	Gender=Masc|Number=Plur	11	nmod	_	_
+14-15	המועדים	_	_	_	_	_	_	_	_
+14	ה	ה	SCONJ	SCONJ	_	15	mark	_	_
+15	מועדים	הועד	VERB	VERB	Gender=Masc|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part	13	acl:relcl	_	_
+16-17	לפיגועי	_	_	_	_	_	_	_	_
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	פיגועי	פיגוע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	15	obl	_	_
+18	טרור	טרור	NOUN	NOUN	Gender=Masc|Number=Sing	17	compound:smixut	_	SpaceAfter=No
+19	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# doc_id = htb:155
+# doc_range = 1816-2025
+# sent_id = 4003
+# text = הם שיפרו את אמצעי הבטיחות במסופי הגבול עם ישראל ברפיח ובטאבה, ומעתה לא יהיה אפשר להגיע לשם במכוניות עם נשק, כבעבר.
+1	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	שיפרו	שיפר	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+3	את	את	ADP	ADP	Case=Acc	4	case	_	_
+4	אמצעי	אמצע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	2	obj	_	_
+5-6	הבטיחות	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
+6	בטיחות	בטיחות	NOUN	NOUN	Gender=Fem|Number=Sing	4	compound:smixut	_	_
+7-8	במסופי	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	מסופי	מסוף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	nmod	_	_
+9-10	הגבול	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	גבול	גבול	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound:smixut	_	_
+11	עם	עם	ADP	ADP	_	12	case	_	_
+12	ישראל	ישראל	PROPN	PROPN	_	10	nmod	_	_
+13-14	ברפיח	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	רפיח	רפיח	PROPN	PROPN	_	2	obl	_	_
+15-17	ובטאבה	_	_	_	_	_	_	_	SpaceAfter=No
+15	ו	ו	CCONJ	CCONJ	_	17	cc	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	טאבה	טאבה	PROPN	PROPN	_	14	conj	_	_
+18	,	,	PUNCT	PUNCT	_	24	punct	_	_
+19-20	ומעתה	_	_	_	_	_	_	_	_
+19	ו	ו	CCONJ	CCONJ	_	24	cc	_	_
+20	מעתה	מעתה	ADV	ADV	_	24	advmod	_	_
+21	לא	לא	ADV	ADV	Polarity=Neg	24	advmod	_	_
+22	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	24	cop	_	_
+23	אפשר	אפשר	AUX	AUX	VerbType=Mod	24	aux	_	_
+24	להגיע	הגיע	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	2	conj	_	_
+25-26	לשם	_	_	_	_	_	_	_	_
+25	ל	ל	ADP	ADP	_	26	case	_	_
+26	שם	שם	ADV	ADV	_	24	obl	_	_
+27-28	במכוניות	_	_	_	_	_	_	_	_
+27	ב	ב	ADP	ADP	_	28	case	_	_
+28	מכוניות	מכונית	NOUN	NOUN	Gender=Fem|Number=Plur	24	obl	_	_
+29	עם	עם	ADP	ADP	_	30	case	_	_
+30	נשק	נשק	NOUN	NOUN	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+31	,	,	PUNCT	PUNCT	_	35	punct	_	_
+32-35	כבעבר	_	_	_	_	_	_	_	SpaceAfter=No
+32	כ	כ	ADP	ADP	_	35	case	_	_
+33	ב	ב	ADP	ADP	_	35	case	_	_
+34	ה_	ה	DET	DET	PronType=Art|Definite=Def	35	det	_	_
+35	עבר	עבר	NOUN	NOUN	_	24	obl	_	_
+36	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:155
+# doc_range = 2027-2074
+# sent_id = 4004
+# text = כן הוצבו כמה מחסומים בדרך.
+1	כן	כן	ADV	ADV	_	2	advmod	_	_
+2	הוצבו	הוצב	VERB	VERB	Gender=Fem,Masc|HebBinyan=HUFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+3	כמה	כמה	DET	DET	Definite=Cons	4	det	_	_
+4	מחסומים	מחסום	NOUN	NOUN	Gender=Masc|Number=Plur	2	nsubj:pass	_	_
+5-7	בדרך	_	_	_	_	_	_	_	SpaceAfter=No
+5	ב	ב	ADP	ADP	_	7	case	_	_
+6	ה_	ה	DET	DET	PronType=Art|Definite=Def	7	det	_	_
+7	דרך	דרך	NOUN	NOUN	Gender=Fem|Number=Sing	4	nmod	_	_
+8	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
+# doc_id = htb:155
+# doc_range = 2077-2255
+# sent_id = 4005
+# text = גורמי ביטחון הבהירו כי אם יתעורר שוב הצורך לחדש את ההמלצה שלא לנסוע למצרים, לא יהססו להורות על כך.
+1	גורמי	גורם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	ביטחון	ביטחון	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+3	הבהירו	הבהיר	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
+4	כי	כי	SCONJ	SCONJ	_	20	mark	_	_
+5	אם	אם	SCONJ	SCONJ	_	6	mark	_	_
+6	יתעורר	התעורר	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Fut	20	advcl	_	_
+7	שוב	שוב	ADV	ADV	_	6	advmod	_	_
+8-9	הצורך	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	צורך	צורך	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
+10	לחדש	חידש	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	9	acl	_	_
+11	את	את	ADP	ADP	Case=Acc	13	case	_	_
+12-13	ההמלצה	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
+13	המלצה	המלצה	NOUN	NOUN	Gender=Fem|Number=Sing	10	obj	_	_
+14	שלא	שלא	ADV	ADV	_	15	advmod	_	_
+15	לנסוע	נסע	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	13	acl	_	_
+16-17	למצרים	_	_	_	_	_	_	_	SpaceAfter=No
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	מצרים	מצרים	PROPN	PROPN	_	15	obl	_	_
+18	,	,	PUNCT	PUNCT	_	6	punct	_	_
+19	לא	לא	ADV	ADV	Polarity=Neg	20	advmod	_	_
+20	יהססו	היסס	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Fut|Voice=Act	3	ccomp	_	_
+21	להורות	הורה	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	20	xcomp	_	_
+22	על	על	ADP	ADP	_	23	case	_	_
+23	כך	כך	PRON	PRON	Person=3|PronType=Dem	21	obl	_	SpaceAfter=No
+24	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# doc_id = htb:155
+# doc_range = 2258-2873
+# sent_id = 4006
+# text = "אין כל אפשרות להורות לאזרח ישראלי לבטל את נסיעתו למדינה שעמה יש לנו יחסים דיפלומטיים", הדגישו הגורמים, "אך כשם שמשרד החוץ האמריקאי עושה שימוש במכשיר ההמלצה לאזרחים אמריקאים להימנע מנסיעות לאזורים המוגדרים כמסוכנים להם, כך חובה על הגופים המקצועיים בישראל העוסקים בכך להמליץ על הימנעות מנסיעה לארצות שבהן נשקפת סכנה לאזרחים ישראלים".
+1	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+2	אין	אין	VERB	VERB	HebExistential=Yes	0	root	_	_
+3	כל	כול	DET	DET	Definite=Cons	4	det	_	_
+4	אפשרות	אפשרות	NOUN	NOUN	Gender=Fem|Number=Sing	2	nsubj	_	_
+5	להורות	הורה	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	4	acl	_	_
+6-7	לאזרח	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	7	case	_	_
+7	אזרח	אזרח	NOUN	NOUN	Gender=Masc|Number=Sing	5	dep	_	HebSource=ConvUncertainHead
+8	ישראלי	ישראלי	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	_
+9	לבטל	ביטל	VERB	VERB	HebBinyan=PIEL|VerbForm=Inf|Voice=Act	5	dep	_	HebSource=ConvUncertainHead
+10	את	את	ADP	ADP	Case=Acc	11	case	_	_
+11-13	נסיעתו	_	_	_	_	_	_	_	_
+11	נסיעה	נסיעה	NOUN	NOUN	Gender=Fem|Number=Sing	9	obj	_	_
+12	_של_	של	ADP	ADP	Case=Gen	13	case:gen	_	_
+13	_הוא	הוא	PRON	PRON	Definite=Def|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+14-15	למדינה	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	מדינה	מדינה	NOUN	NOUN	Gender=Fem|Number=Sing	11	nmod	_	_
+16-18	שעמה	_	_	_	_	_	_	_	_
+16	ש	ש	SCONJ	SCONJ	_	19	mark	_	_
+17	עם	עם	ADP	ADP	_	18	case	_	_
+18	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obl	_	_
+19	יש	יש	VERB	VERB	HebExistential=Yes	15	acl:relcl	_	_
+20-21	לנו	_	_	_	_	_	_	_	_
+20	ל	ל	ADP	ADP	_	21	case	_	_
+21	_אנחנו	הוא	PRON	PRON	Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	19	obl	_	_
+22	יחסים	יחסים	NOUN	NOUN	Gender=Masc|Number=Plur	19	nsubj	_	_
+23	דיפלומטיים	דיפלומטי	ADJ	ADJ	Gender=Masc|Number=Plur	22	amod	_	SpaceAfter=No
+24	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
+25	,	,	PUNCT	PUNCT	_	26	punct	_	_
+26	הדגישו	הדגיש	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	2	parataxis	_	_
+27-28	הגורמים	_	_	_	_	_	_	_	SpaceAfter=No
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	גורמים	גורם	NOUN	NOUN	Gender=Masc|Number=Plur	26	nsubj	_	_
+29	,	,	PUNCT	PUNCT	_	26	punct	_	_
+30	"	"	PUNCT	PUNCT	_	62	punct	_	SpaceAfter=No
+31	אך	אך	CCONJ	CCONJ	_	62	cc	_	_
+32	כשם	כשם	SCONJ	SCONJ	_	39	mark	_	_
+33-34	שמשרד	_	_	_	_	_	_	_	_
+33	ש	ש	SCONJ	SCONJ	_	32	fixed	_	_
+34	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	39	nsubj	_	_
+35-36	החוץ	_	_	_	_	_	_	_	_
+35	ה	ה	DET	DET	Definite=Def|PronType=Art	36	det	_	_
+36	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	34	compound:smixut	_	_
+37-38	האמריקאי	_	_	_	_	_	_	_	_
+37	ה	ה	DET	DET	Definite=Def|PronType=Art	38	det	_	_
+38	אמריקאי	אמריקני	ADJ	ADJ	Gender=Masc|Number=Sing	34	amod	_	_
+39	עושה	עשה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	62	advcl	_	_
+40	שימוש	שימוש	NOUN	NOUN	Gender=Masc|Number=Sing	39	obj	_	_
+41-42	במכשיר	_	_	_	_	_	_	_	_
+41	ב	ב	ADP	ADP	_	42	case	_	_
+42	מכשיר	מכשיר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	40	nmod	_	_
+43-44	ההמלצה	_	_	_	_	_	_	_	_
+43	ה	ה	DET	DET	Definite=Def|PronType=Art	44	det	_	_
+44	המלצה	המלצה	NOUN	NOUN	Gender=Fem|Number=Sing	42	compound:smixut	_	_
+45-46	לאזרחים	_	_	_	_	_	_	_	_
+45	ל	ל	ADP	ADP	_	46	case	_	_
+46	אזרחים	אזרח	NOUN	NOUN	Gender=Masc|Number=Plur	44	nmod	_	_
+47	אמריקאים	אמריקני	ADJ	ADJ	Gender=Masc|Number=Plur	46	amod	_	_
+48	להימנע	נמנע	VERB	VERB	HebBinyan=NIFAL|VerbForm=Inf|Voice=Mid	44	acl	_	_
+49-50	מנסיעות	_	_	_	_	_	_	_	_
+49	מ	מ	ADP	ADP	_	50	case	_	_
+50	נסיעות	נסיעה	NOUN	NOUN	Gender=Fem|Number=Plur	48	obl	_	_
+51-53	לאזורים	_	_	_	_	_	_	_	_
+51	ל	ל	ADP	ADP	_	53	case	_	_
+52	ה_	ה	DET	DET	PronType=Art|Definite=Def	53	det	_	_
+53	אזורים	אזור	NOUN	NOUN	Gender=Masc|Number=Plur	50	nmod	_	_
+54-55	המוגדרים	_	_	_	_	_	_	_	_
+54	ה	ה	SCONJ	SCONJ	_	55	mark	_	_
+55	מוגדרים	הוגדר	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Pass	53	acl:relcl	_	_
+56-57	כמסוכנים	_	_	_	_	_	_	_	_
+56	כ	כ	ADP	ADP	_	57	case	_	_
+57	מסוכנים	מסוכן	ADJ	ADJ	Gender=Masc|Number=Plur	55	obl	_	_
+58-59	להם	_	_	_	_	_	_	_	SpaceAfter=No
+58	ל	ל	ADP	ADP	_	59	case	_	_
+59	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	57	obl	_	_
+60	,	,	PUNCT	PUNCT	_	39	punct	_	_
+61	כך	כך	ADV	ADV	_	62	advmod	_	_
+62	חובה	חובה	NOUN	NOUN	Gender=Fem|Number=Sing	2	dep	_	HebSource=ConvUncertainHead
+63	על	על	ADP	ADP	_	65	case	_	_
+64-65	הגופים	_	_	_	_	_	_	_	_
+64	ה	ה	DET	DET	Definite=Def|PronType=Art	65	det	_	_
+65	גופים	גוף	NOUN	NOUN	Gender=Masc|Number=Plur	62	nmod	_	_
+66-67	המקצועיים	_	_	_	_	_	_	_	_
+66	ה	ה	DET	DET	Definite=Def|PronType=Art	67	det	_	_
+67	מקצועיים	מקצועי	ADJ	ADJ	Gender=Masc|Number=Plur	65	amod	_	_
+68-69	בישראל	_	_	_	_	_	_	_	_
+68	ב	ב	ADP	ADP	_	69	case	_	_
+69	ישראל	ישראל	PROPN	PROPN	_	65	nmod	_	_
+70-71	העוסקים	_	_	_	_	_	_	_	_
+70	ה	ה	SCONJ	SCONJ	_	71	mark	_	_
+71	עוסקים	עסק	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Act	65	acl:relcl	_	_
+72-73	בכך	_	_	_	_	_	_	_	_
+72	ב	ב	ADP	ADP	_	73	case	_	_
+73	כך	כך	PRON	PRON	Person=3|PronType=Dem	71	obl	_	_
+74	להמליץ	המליץ	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	62	acl	_	_
+75	על	על	ADP	ADP	_	76	case	_	_
+76	הימנעות	הימנעות	NOUN	NOUN	Gender=Fem|Number=Sing	74	obl	_	_
+77-78	מנסיעה	_	_	_	_	_	_	_	_
+77	מ	מ	ADP	ADP	_	78	case	_	_
+78	נסיעה	נסיעה	NOUN	NOUN	Gender=Fem|Number=Sing	76	nmod	_	_
+79-80	לארצות	_	_	_	_	_	_	_	_
+79	ל	ל	ADP	ADP	_	80	case	_	_
+80	ארצות	ארץ	NOUN	NOUN	Gender=Fem|Number=Plur	78	nmod	_	_
+81-83	שבהן	_	_	_	_	_	_	_	_
+81	ש	ש	SCONJ	SCONJ	_	84	mark	_	_
+82	ב	ב	ADP	ADP	_	83	case	_	_
+83	_הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	84	obl	_	_
+84	נשקפת	נשקף	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|Tense=Pres|VerbForm=Part|Voice=Mid	80	acl:relcl	_	_
+85	סכנה	סכנה	NOUN	NOUN	Gender=Fem|Number=Sing	84	nsubj	_	_
+86-87	לאזרחים	_	_	_	_	_	_	_	_
+86	ל	ל	ADP	ADP	_	87	case	_	_
+87	אזרחים	אזרח	NOUN	NOUN	Gender=Masc|Number=Plur	85	nmod	_	_
+88	ישראלים	ישראלי	ADJ	ADJ	Gender=Masc|Number=Plur	87	amod	_	SpaceAfter=No
+89	"	"	PUNCT	PUNCT	_	62	punct	_	SpaceAfter=No
+90	.	.	PUNCT	PUNCT	_	2	punct	_	_
+
