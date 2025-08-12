@@ -376,11 +376,43 @@ class MultiSystemComparisonRunner:
         
         df = pd.DataFrame(data)
         
-        # Set style
-        plt.style.use('seaborn-v0_8')
+        # Set publication-ready style with enhanced aesthetics
+        plt.style.use('default')
+        plt.rcParams.update({
+            'font.family': 'serif',
+            'font.size': 12,
+            'axes.linewidth': 1.5,
+            'axes.edgecolor': '#2C3E50',
+            'axes.facecolor': '#F8F9FA',
+            'figure.facecolor': 'white',
+            'grid.color': '#E9ECEF',
+            'grid.linestyle': '--',
+            'grid.alpha': 0.7,
+            'xtick.major.width': 1.5,
+            'ytick.major.width': 1.5,
+            'xtick.major.size': 6,
+            'ytick.major.size': 6,
+            'xtick.color': '#2C3E50',
+            'ytick.color': '#2C3E50',
+            'axes.spines.top': False,
+            'axes.spines.right': False,
+            'axes.spines.left': True,
+            'axes.spines.bottom': True
+        })
         
-        # Color scheme for 5 approaches - ensure unique colors
-        colors = ['#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4', '#FFEAA7', '#DDA0DD', '#98D8C8', '#F7DC6F', '#BB8FCE', '#85C1E9']
+        # Professional color palette for top-tier publications
+        colors = [
+            '#1F77B4',  # Professional blue
+            '#FF7F0E',  # Professional orange  
+            '#2CA02C',  # Professional green
+            '#D62728',  # Professional red
+            '#9467BD',  # Professional purple
+            '#8C564B',  # Professional brown
+            '#E377C2',  # Professional pink
+            '#7F7F7F',  # Professional gray
+            '#BCBD22',  # Professional olive
+            '#17BECF'   # Professional cyan
+        ]
         
         # Create separate visualizations
         
@@ -411,117 +443,263 @@ class MultiSystemComparisonRunner:
         self._create_detailed_plots(df, colors)
     
     def _create_correct_clusters_plot(self, df: pd.DataFrame, colors: List[str]) -> None:
-        """Create separate plot for correct clusters comparison."""
-        plt.figure(figsize=(12, 8))
+        """Create publication-ready plot for correct clusters comparison."""
+        fig, ax = plt.subplots(figsize=(14, 9))
         
         correct_data = df.groupby('Approach')['Correct_Clusters'].mean().reset_index()
-        bars = plt.bar(correct_data['Approach'], correct_data['Correct_Clusters'], 
-                      color=colors[:len(correct_data)], alpha=0.8)
         
-        plt.title('Average Correct Clusters by Approach', fontsize=16, fontweight='bold')
-        plt.ylabel('Correct Clusters', fontsize=12)
-        plt.xlabel('Approach', fontsize=12)
-        plt.xticks(rotation=45)
+        # Create gradient bars with enhanced styling
+        bars = ax.bar(correct_data['Approach'], correct_data['Correct_Clusters'], 
+                     color=colors[:len(correct_data)], 
+                     alpha=0.85, 
+                     edgecolor='#2C3E50', 
+                     linewidth=1.5,
+                     width=0.7)
         
-        # Add value labels
-        for bar in bars:
+        # Add subtle shadows and 3D effect
+        for i, bar in enumerate(bars):
+            # Create gradient effect
+            bar.set_facecolor(colors[i % len(colors)])
+            bar.set_alpha(0.9)
+            
+            # Add value labels with enhanced styling
             height = bar.get_height()
-            plt.text(bar.get_x() + bar.get_width()/2., height + 0.1,
-                    f'{height:.1f}', ha='center', va='bottom', fontweight='bold')
+            ax.text(bar.get_x() + bar.get_width()/2., height + max(correct_data['Correct_Clusters']) * 0.02,
+                   f'{height:.2f}', 
+                   ha='center', va='bottom', 
+                   fontweight='bold', 
+                   fontsize=11,
+                   color='#2C3E50',
+                   bbox=dict(boxstyle="round,pad=0.3", facecolor='white', alpha=0.8, edgecolor='#BDC3C7'))
+        
+        # Enhanced title and labels
+        ax.set_title('Average Correct Clusters by Approach', 
+                    fontsize=20, fontweight='bold', 
+                    color='#2C3E50', pad=20)
+        ax.set_ylabel('Correct Clusters', fontsize=14, fontweight='bold', color='#2C3E50')
+        ax.set_xlabel('Approach', fontsize=14, fontweight='bold', color='#2C3E50')
+        
+        # Enhanced tick styling
+        ax.tick_params(axis='x', rotation=45, labelsize=12, colors='#2C3E50')
+        ax.tick_params(axis='y', labelsize=12, colors='#2C3E50')
+        
+        # Add grid with enhanced styling
+        ax.grid(True, alpha=0.3, linestyle='--', linewidth=0.8)
+        ax.set_axisbelow(True)
+        
+        # Add subtle background pattern
+        ax.set_facecolor('#F8F9FA')
         
         # Adjust scale if values are very similar
         values = correct_data['Correct_Clusters'].tolist()
-        self._adjust_y_scale_for_similar_values(plt.gca(), values, min_difference_threshold=0.15)
+        self._adjust_y_scale_for_similar_values(ax, values, min_difference_threshold=0.15)
+        
+        # Add subtle border
+        for spine in ax.spines.values():
+            spine.set_color('#BDC3C7')
+            spine.set_linewidth(1.5)
         
         plt.tight_layout()
         plot_file = self.output_dir / "01_correct_clusters_comparison.png"
-        plt.savefig(plot_file, dpi=300, bbox_inches='tight')
+        plt.savefig(plot_file, dpi=400, bbox_inches='tight', facecolor='white', edgecolor='none')
         plt.close()
         print(f"📊 Correct clusters plot: {plot_file}")
     
     def _create_extra_clusters_plot(self, df: pd.DataFrame, colors: List[str]) -> None:
-        """Create separate plot for extra clusters comparison."""
-        plt.figure(figsize=(12, 8))
+        """Create publication-ready plot for extra clusters comparison."""
+        fig, ax = plt.subplots(figsize=(14, 9))
         
         extra_data = df.groupby('Approach')['Extra_Clusters'].mean().reset_index()
-        bars = plt.bar(extra_data['Approach'], extra_data['Extra_Clusters'], 
-                      color=colors[:len(extra_data)], alpha=0.8)
         
-        plt.title('Average Extra Clusters by Approach', fontsize=16, fontweight='bold')
-        plt.ylabel('Extra Clusters', fontsize=12)
-        plt.xlabel('Approach', fontsize=12)
-        plt.xticks(rotation=45)
+        # Create gradient bars with enhanced styling
+        bars = ax.bar(extra_data['Approach'], extra_data['Extra_Clusters'], 
+                     color=colors[:len(extra_data)], 
+                     alpha=0.85, 
+                     edgecolor='#2C3E50', 
+                     linewidth=1.5,
+                     width=0.7)
         
-        # Add value labels
-        for bar in bars:
+        # Add subtle shadows and 3D effect
+        for i, bar in enumerate(bars):
+            # Create gradient effect
+            bar.set_facecolor(colors[i % len(colors)])
+            bar.set_alpha(0.9)
+            
+            # Add value labels with enhanced styling
             height = bar.get_height()
-            plt.text(bar.get_x() + bar.get_width()/2., height + 0.1,
-                    f'{height:.1f}', ha='center', va='bottom', fontweight='bold')
+            ax.text(bar.get_x() + bar.get_width()/2., height + max(extra_data['Extra_Clusters']) * 0.02,
+                   f'{height:.2f}', 
+                   ha='center', va='bottom', 
+                   fontweight='bold', 
+                   fontsize=11,
+                   color='#2C3E50',
+                   bbox=dict(boxstyle="round,pad=0.3", facecolor='white', alpha=0.8, edgecolor='#BDC3C7'))
+        
+        # Enhanced title and labels
+        ax.set_title('Average Extra Clusters by Approach', 
+                    fontsize=20, fontweight='bold', 
+                    color='#2C3E50', pad=20)
+        ax.set_ylabel('Extra Clusters', fontsize=14, fontweight='bold', color='#2C3E50')
+        ax.set_xlabel('Approach', fontsize=14, fontweight='bold', color='#2C3E50')
+        
+        # Enhanced tick styling
+        ax.tick_params(axis='x', rotation=45, labelsize=12, colors='#2C3E50')
+        ax.tick_params(axis='y', labelsize=12, colors='#2C3E50')
+        
+        # Add grid with enhanced styling
+        ax.grid(True, alpha=0.3, linestyle='--', linewidth=0.8)
+        ax.set_axisbelow(True)
+        
+        # Add subtle background pattern
+        ax.set_facecolor('#F8F9FA')
         
         # Adjust scale if values are very similar
         values = extra_data['Extra_Clusters'].tolist()
-        self._adjust_y_scale_for_similar_values(plt.gca(), values, min_difference_threshold=0.15)
+        self._adjust_y_scale_for_similar_values(ax, values, min_difference_threshold=0.15)
+        
+        # Add subtle border
+        for spine in ax.spines.values():
+            spine.set_color('#BDC3C7')
+            spine.set_linewidth(1.5)
         
         plt.tight_layout()
         plot_file = self.output_dir / "02_extra_clusters_comparison.png"
-        plt.savefig(plot_file, dpi=300, bbox_inches='tight')
+        plt.savefig(plot_file, dpi=400, bbox_inches='tight', facecolor='white', edgecolor='none')
         plt.close()
         print(f"📊 Extra clusters plot: {plot_file}")
     
     def _create_missed_clusters_plot(self, df: pd.DataFrame, colors: List[str]) -> None:
-        """Create separate plot for missed clusters comparison."""
-        plt.figure(figsize=(12, 8))
+        """Create publication-ready plot for missed clusters comparison."""
+        fig, ax = plt.subplots(figsize=(14, 9))
         
         missed_data = df.groupby('Approach')['Missed_Clusters'].mean().reset_index()
-        bars = plt.bar(missed_data['Approach'], missed_data['Missed_Clusters'], 
-                      color=colors[:len(missed_data)], alpha=0.8)
         
-        plt.title('Average Missed Clusters by Approach', fontsize=16, fontweight='bold')
-        plt.ylabel('Missed Clusters', fontsize=12)
-        plt.xlabel('Approach', fontsize=12)
-        plt.xticks(rotation=45)
+        # Create gradient bars with enhanced styling
+        bars = ax.bar(missed_data['Approach'], missed_data['Missed_Clusters'], 
+                     color=colors[:len(missed_data)], 
+                     alpha=0.85, 
+                     edgecolor='#2C3E50', 
+                     linewidth=1.5,
+                     width=0.7)
         
-        # Add value labels
-        for bar in bars:
+        # Add subtle shadows and 3D effect
+        for i, bar in enumerate(bars):
+            # Create gradient effect
+            bar.set_facecolor(colors[i % len(colors)])
+            bar.set_alpha(0.9)
+            
+            # Add value labels with enhanced styling
             height = bar.get_height()
-            plt.text(bar.get_x() + bar.get_width()/2., height + 0.1,
-                    f'{height:.1f}', ha='center', va='bottom', fontweight='bold')
+            ax.text(bar.get_x() + bar.get_width()/2., height + max(missed_data['Missed_Clusters']) * 0.02,
+                   f'{height:.2f}', 
+                   ha='center', va='bottom', 
+                   fontweight='bold', 
+                   fontsize=11,
+                   color='#2C3E50',
+                   bbox=dict(boxstyle="round,pad=0.3", facecolor='white', alpha=0.8, edgecolor='#BDC3C7'))
+        
+        # Enhanced title and labels
+        ax.set_title('Average Missed Clusters by Approach', 
+                    fontsize=20, fontweight='bold', 
+                    color='#2C3E50', pad=20)
+        ax.set_ylabel('Missed Clusters', fontsize=14, fontweight='bold', color='#2C3E50')
+        ax.set_xlabel('Approach', fontsize=14, fontweight='bold', color='#2C3E50')
+        
+        # Enhanced tick styling
+        ax.tick_params(axis='x', rotation=45, labelsize=12, colors='#2C3E50')
+        ax.tick_params(axis='y', labelsize=12, colors='#2C3E50')
+        
+        # Add grid with enhanced styling
+        ax.grid(True, alpha=0.3, linestyle='--', linewidth=0.8)
+        ax.set_axisbelow(True)
+        
+        # Add subtle background pattern
+        ax.set_facecolor('#F8F9FA')
         
         # Adjust scale if values are very similar
         values = missed_data['Missed_Clusters'].tolist()
-        self._adjust_y_scale_for_similar_values(plt.gca(), values, min_difference_threshold=0.15)
+        self._adjust_y_scale_for_similar_values(ax, values, min_difference_threshold=0.15)
+        
+        # Add subtle border
+        for spine in ax.spines.values():
+            spine.set_color('#BDC3C7')
+            spine.set_linewidth(1.5)
         
         plt.tight_layout()
         plot_file = self.output_dir / "03_missed_clusters_comparison.png"
-        plt.savefig(plot_file, dpi=300, bbox_inches='tight')
+        plt.savefig(plot_file, dpi=400, bbox_inches='tight', facecolor='white', edgecolor='none')
         plt.close()
         print(f"📊 Missed clusters plot: {plot_file}")
     
     def _create_non_pronoun_ratio_plot(self, df: pd.DataFrame, colors: List[str]) -> None:
-        """Create separate plot for non-pronoun ratio comparison."""
-        plt.figure(figsize=(12, 8))
+        """Create publication-ready plot for non-pronoun ratio comparison."""
+        fig, ax = plt.subplots(figsize=(14, 9))
         
         # Use unique colors for each approach
         unique_approaches = df['Approach'].unique()
         approach_colors = {approach: colors[i % len(colors)] for i, approach in enumerate(unique_approaches)}
         
-        sns.boxplot(data=df, x='Approach', y='Non_Pronoun_Ratio', 
-                   palette=[approach_colors[app] for app in unique_approaches])
+        # Create enhanced boxplot with custom styling
+        box_plot = sns.boxplot(data=df, x='Approach', y='Non_Pronoun_Ratio', 
+                              palette=[approach_colors[app] for app in unique_approaches],
+                              ax=ax, width=0.7, linewidth=1.5)
         
-        plt.title('Non-Pronoun Ratio Distribution by Approach', fontsize=16, fontweight='bold')
-        plt.ylabel('Non-Pronoun Ratio', fontsize=12)
-        plt.xlabel('Approach', fontsize=12)
-        plt.xticks(rotation=45)
+        # Enhance boxplot appearance
+        for patch in ax.artists:
+            patch.set_alpha(0.8)
+            patch.set_edgecolor('#2C3E50')
+            patch.set_linewidth(1.5)
+        
+        # Enhance whiskers and caps
+        for line in ax.lines:
+            line.set_color('#2C3E50')
+            line.set_linewidth(1.5)
+        
+        # Add individual data points with enhanced styling
+        sns.stripplot(data=df, x='Approach', y='Non_Pronoun_Ratio', 
+                     color='#34495E', alpha=0.4, size=4, jitter=0.2, ax=ax)
+        
+        # Enhanced title and labels
+        ax.set_title('Non-Pronoun Ratio Distribution by Approach', 
+                    fontsize=20, fontweight='bold', 
+                    color='#2C3E50', pad=20)
+        ax.set_ylabel('Non-Pronoun Ratio', fontsize=14, fontweight='bold', color='#2C3E50')
+        ax.set_xlabel('Approach', fontsize=14, fontweight='bold', color='#2C3E50')
+        
+        # Enhanced tick styling
+        ax.tick_params(axis='x', rotation=45, labelsize=12, colors='#2C3E50')
+        ax.tick_params(axis='y', labelsize=12, colors='#2C3E50')
+        
+        # Add grid with enhanced styling
+        ax.grid(True, alpha=0.3, linestyle='--', linewidth=0.8, axis='y')
+        ax.set_axisbelow(True)
+        
+        # Add subtle background pattern
+        ax.set_facecolor('#F8F9FA')
+        
+        # Add subtle border
+        for spine in ax.spines.values():
+            spine.set_color('#BDC3C7')
+            spine.set_linewidth(1.5)
+        
+        # Add statistical annotations
+        for i, approach in enumerate(unique_approaches):
+            approach_data = df[df['Approach'] == approach]['Non_Pronoun_Ratio']
+            mean_val = approach_data.mean()
+            ax.text(i, mean_val + 0.02, f'μ={mean_val:.2f}', 
+                   ha='center', va='bottom', fontweight='bold', 
+                   fontsize=10, color='#2C3E50',
+                   bbox=dict(boxstyle="round,pad=0.2", facecolor='white', alpha=0.8, edgecolor='#BDC3C7'))
         
         plt.tight_layout()
         plot_file = self.output_dir / "04_non_pronoun_ratio_comparison.png"
-        plt.savefig(plot_file, dpi=300, bbox_inches='tight')
+        plt.savefig(plot_file, dpi=400, bbox_inches='tight', facecolor='white', edgecolor='none')
         plt.close()
         print(f"📊 Non-pronoun ratio plot: {plot_file}")
     
     def _create_performance_heatmap(self, df: pd.DataFrame) -> None:
-        """Create separate performance heatmap."""
-        plt.figure(figsize=(10, 8))
+        """Create publication-ready performance heatmap."""
+        fig, ax = plt.subplots(figsize=(12, 10))
         
         performance_data = df.groupby('Approach').agg({
             'Correct_Clusters': 'mean',
@@ -530,19 +708,50 @@ class MultiSystemComparisonRunner:
             'Non_Pronoun_Ratio': 'mean'
         })
         
-        sns.heatmap(performance_data.T, annot=True, cmap='RdYlGn', center=0, 
-                    cbar_kws={'label': 'Average Value'})
-        plt.title('Performance Metrics Heatmap', fontsize=16, fontweight='bold')
+        # Create enhanced heatmap with custom styling
+        heatmap = sns.heatmap(performance_data.T, 
+                             annot=True, 
+                             cmap='RdYlGn_r', 
+                             center=performance_data.values.mean(),
+                             cbar_kws={'label': 'Average Value', 'shrink': 0.8},
+                             ax=ax,
+                             fmt='.2f',
+                             linewidths=1.5,
+                             linecolor='white',
+                             square=True,
+                             annot_kws={'size': 11, 'weight': 'bold', 'color': '#2C3E50'})
+        
+        # Enhanced title and labels
+        ax.set_title('Performance Metrics Heatmap', 
+                    fontsize=20, fontweight='bold', 
+                    color='#2C3E50', pad=20)
+        
+        # Enhanced tick styling
+        ax.tick_params(axis='x', labelsize=12, colors='#2C3E50', rotation=45)
+        ax.tick_params(axis='y', labelsize=12, colors='#2C3E50')
+        
+        # Enhanced colorbar styling
+        cbar = ax.collections[0].colorbar
+        cbar.ax.tick_params(labelsize=11, colors='#2C3E50')
+        cbar.ax.set_ylabel('Average Value', fontsize=12, fontweight='bold', color='#2C3E50')
+        
+        # Add subtle border
+        for spine in ax.spines.values():
+            spine.set_color('#BDC3C7')
+            spine.set_linewidth(2)
+        
+        # Add subtle background pattern
+        ax.set_facecolor('#F8F9FA')
         
         plt.tight_layout()
         plot_file = self.output_dir / "05_performance_heatmap.png"
-        plt.savefig(plot_file, dpi=300, bbox_inches='tight')
+        plt.savefig(plot_file, dpi=400, bbox_inches='tight', facecolor='white', edgecolor='none')
         plt.close()
         print(f"📊 Performance heatmap: {plot_file}")
     
     def _create_mentions_comparison_plot(self, df: pd.DataFrame, colors: List[str]) -> None:
-        """Create separate plot for mentions comparison."""
-        plt.figure(figsize=(12, 8))
+        """Create publication-ready plot for mentions comparison."""
+        fig, ax = plt.subplots(figsize=(14, 9))
         
         mention_data = df.groupby('Approach').agg({
             'Total_Mentions': 'sum',
@@ -552,43 +761,109 @@ class MultiSystemComparisonRunner:
         x = np.arange(len(mention_data))
         width = 0.35
         
-        bars1 = plt.bar(x - width/2, mention_data['Total_Mentions'], width, 
-                        label='Total Mentions', color=colors[0], alpha=0.8)
-        bars2 = plt.bar(x + width/2, mention_data['Non_Pronoun_Mentions'], width, 
-                        label='Non-Pronoun Mentions', color=colors[1], alpha=0.8)
+        # Create enhanced grouped bars with custom styling
+        bars1 = ax.bar(x - width/2, mention_data['Total_Mentions'], width, 
+                       label='Total Mentions', 
+                       color=colors[0], 
+                       alpha=0.85, 
+                       edgecolor='#2C3E50', 
+                       linewidth=1.5)
+        bars2 = ax.bar(x + width/2, mention_data['Non_Pronoun_Mentions'], width, 
+                       label='Non-Pronoun Mentions', 
+                       color=colors[1], 
+                       alpha=0.85, 
+                       edgecolor='#2C3E50', 
+                       linewidth=1.5)
         
-        plt.title('Total vs Non-Pronoun Mentions by Approach', fontsize=16, fontweight='bold')
-        plt.ylabel('Number of Mentions', fontsize=12)
-        plt.xlabel('Approach', fontsize=12)
-        plt.xticks(x, mention_data['Approach'], rotation=45)
-        plt.legend()
+        # Add value labels with enhanced styling
+        for bar in bars1:
+            height = bar.get_height()
+            ax.text(bar.get_x() + bar.get_width()/2., height + max(mention_data['Total_Mentions']) * 0.01,
+                   f'{int(height)}', 
+                   ha='center', va='bottom', 
+                   fontweight='bold', 
+                   fontsize=10,
+                   color='#2C3E50',
+                   bbox=dict(boxstyle="round,pad=0.2", facecolor='white', alpha=0.8, edgecolor='#BDC3C7'))
+        
+        for bar in bars2:
+            height = bar.get_height()
+            ax.text(bar.get_x() + bar.get_width()/2., height + max(mention_data['Non_Pronoun_Mentions']) * 0.01,
+                   f'{int(height)}', 
+                   ha='center', va='bottom', 
+                   fontweight='bold', 
+                   fontsize=10,
+                   color='#2C3E50',
+                   bbox=dict(boxstyle="round,pad=0.2", facecolor='white', alpha=0.8, edgecolor='#BDC3C7'))
+        
+        # Enhanced title and labels
+        ax.set_title('Total vs Non-Pronoun Mentions by Approach', 
+                    fontsize=20, fontweight='bold', 
+                    color='#2C3E50', pad=20)
+        ax.set_ylabel('Number of Mentions', fontsize=14, fontweight='bold', color='#2C3E50')
+        ax.set_xlabel('Approach', fontsize=14, fontweight='bold', color='#2C3E50')
+        
+        # Enhanced tick styling
+        ax.set_xticks(x)
+        ax.set_xticklabels(mention_data['Approach'], rotation=45, ha='right')
+        ax.tick_params(axis='x', labelsize=12, colors='#2C3E50')
+        ax.tick_params(axis='y', labelsize=12, colors='#2C3E50')
+        
+        # Enhanced legend
+        ax.legend(fontsize=12, framealpha=0.9, edgecolor='#BDC3C7', 
+                 facecolor='white', fancybox=True, shadow=True)
+        
+        # Add grid with enhanced styling
+        ax.grid(True, alpha=0.3, linestyle='--', linewidth=0.8, axis='y')
+        ax.set_axisbelow(True)
+        
+        # Add subtle background pattern
+        ax.set_facecolor('#F8F9FA')
         
         # Adjust scale if values are very similar
         total_values = mention_data['Total_Mentions'].tolist()
         non_pronoun_values = mention_data['Non_Pronoun_Mentions'].tolist()
         all_values = total_values + non_pronoun_values
-        self._adjust_y_scale_for_similar_values(plt.gca(), all_values, min_difference_threshold=0.15)
+        self._adjust_y_scale_for_similar_values(ax, all_values, min_difference_threshold=0.15)
+        
+        # Add subtle border
+        for spine in ax.spines.values():
+            spine.set_color('#BDC3C7')
+            spine.set_linewidth(1.5)
         
         plt.tight_layout()
         plot_file = self.output_dir / "06_mentions_comparison.png"
-        plt.savefig(plot_file, dpi=300, bbox_inches='tight')
+        plt.savefig(plot_file, dpi=400, bbox_inches='tight', facecolor='white', edgecolor='none')
         plt.close()
         print(f"📊 Mentions comparison plot: {plot_file}")
     
     def _create_comprehensive_overview(self, df: pd.DataFrame, colors: List[str]) -> None:
-        """Create the original comprehensive overview plot."""
-        fig, axes = plt.subplots(2, 3, figsize=(20, 12))
-        fig.suptitle('Multi-System Performance Comparison - Overview', fontsize=20, fontweight='bold')
+        """Create publication-ready comprehensive overview plot."""
+        fig, axes = plt.subplots(2, 3, figsize=(22, 14))
+        fig.suptitle('Multi-System Performance Comparison - Comprehensive Overview', 
+                    fontsize=24, fontweight='bold', color='#2C3E50', y=0.98)
+        
+        # Set figure background
+        fig.patch.set_facecolor('white')
         
         # 1. Correct Clusters Comparison
         ax1 = axes[0, 0]
         correct_data = df.groupby('Approach')['Correct_Clusters'].mean().reset_index()
         bars1 = ax1.bar(correct_data['Approach'], correct_data['Correct_Clusters'], 
-                        color=colors[:len(correct_data)], alpha=0.8)
-        ax1.set_title('Average Correct Clusters by Approach', fontsize=14, fontweight='bold')
-        ax1.set_ylabel('Correct Clusters')
-        ax1.set_xlabel('Approach')
-        ax1.tick_params(axis='x', rotation=45)
+                        color=colors[:len(correct_data)], 
+                        alpha=0.85, 
+                        edgecolor='#2C3E50', 
+                        linewidth=1.5,
+                        width=0.7)
+        ax1.set_title('Average Correct Clusters by Approach', 
+                     fontsize=16, fontweight='bold', color='#2C3E50')
+        ax1.set_ylabel('Correct Clusters', fontsize=12, fontweight='bold', color='#2C3E50')
+        ax1.set_xlabel('Approach', fontsize=12, fontweight='bold', color='#2C3E50')
+        ax1.tick_params(axis='x', rotation=45, labelsize=10, colors='#2C3E50')
+        ax1.tick_params(axis='y', labelsize=10, colors='#2C3E50')
+        ax1.set_facecolor('#F8F9FA')
+        ax1.grid(True, alpha=0.3, linestyle='--', linewidth=0.8)
+        ax1.set_axisbelow(True)
         
         # Adjust scale if values are very similar
         correct_values = correct_data['Correct_Clusters'].tolist()
@@ -669,18 +944,19 @@ class MultiSystemComparisonRunner:
         
         plt.tight_layout()
         plot_file = self.output_dir / "00_comprehensive_overview.png"
-        plt.savefig(plot_file, dpi=300, bbox_inches='tight')
+        plt.savefig(plot_file, dpi=400, bbox_inches='tight', facecolor='white', edgecolor='none')
         plt.close()
         print(f"📊 Comprehensive overview: {plot_file}")
     
     def _create_detailed_plots(self, df: pd.DataFrame, colors: List[str]) -> None:
-        """Create additional detailed visualizations."""
-        # Set style
-        plt.style.use('seaborn-v0_8')
-        
+        """Create publication-ready detailed visualizations."""
         # Create figure for detailed analysis
-        fig, axes = plt.subplots(2, 2, figsize=(16, 12))
-        fig.suptitle('Detailed Multi-System Performance Analysis', fontsize=20, fontweight='bold')
+        fig, axes = plt.subplots(2, 2, figsize=(18, 14))
+        fig.suptitle('Detailed Multi-System Performance Analysis', 
+                    fontsize=22, fontweight='bold', color='#2C3E50', y=0.98)
+        
+        # Set figure background
+        fig.patch.set_facecolor('white')
         
         # 1. Cluster Performance by Document
         ax1 = axes[0, 0]
@@ -769,7 +1045,7 @@ class MultiSystemComparisonRunner:
         
         # Save the detailed plot
         detailed_plot_file = self.output_dir / "07_detailed_analysis.png"
-        plt.savefig(detailed_plot_file, dpi=300, bbox_inches='tight')
+        plt.savefig(detailed_plot_file, dpi=400, bbox_inches='tight', facecolor='white', edgecolor='none')
         plt.close()
         print(f"📊 Detailed analysis plots: {detailed_plot_file}")
         
@@ -792,7 +1068,11 @@ class MultiSystemComparisonRunner:
         elif n_cols == 1:
             axes = axes.reshape(-1, 1)
         
-        fig.suptitle('Mention Type Distribution by Approach (Individual Charts)', fontsize=16, fontweight='bold')
+        fig.suptitle('Mention Type Distribution by Approach (Individual Charts)', 
+                    fontsize=20, fontweight='bold', color='#2C3E50', y=0.98)
+        
+        # Set figure background
+        fig.patch.set_facecolor('white')
         
         for i, (approach, data) in enumerate(mention_data.iterrows()):
             row = i // n_cols
@@ -813,11 +1093,22 @@ class MultiSystemComparisonRunner:
             colors_pie = [approach_color, other_color]
             
             if sum(sizes) > 0:  # Only plot if there are mentions
-                ax.pie(sizes, labels=labels, colors=colors_pie, autopct='%1.1f%%', startangle=90)
-                ax.set_title(f'{approach}', fontweight='bold')
+                wedges, texts, autotexts = ax.pie(sizes, labels=labels, colors=colors_pie, 
+                                                 autopct='%1.1f%%', startangle=90,
+                                                 textprops={'fontsize': 10, 'fontweight': 'bold'},
+                                                 wedgeprops={'edgecolor': '#2C3E50', 'linewidth': 1.5})
+                
+                # Enhance autopct styling
+                for autotext in autotexts:
+                    autotext.set_color('white')
+                    autotext.set_fontweight('bold')
+                    autotext.set_fontsize(9)
+                
+                ax.set_title(f'{approach}', fontweight='bold', fontsize=12, color='#2C3E50', pad=10)
             else:
-                ax.text(0.5, 0.5, 'No mentions', ha='center', va='center', transform=ax.transAxes)
-                ax.set_title(f'{approach}', fontweight='bold')
+                ax.text(0.5, 0.5, 'No mentions', ha='center', va='center', 
+                       transform=ax.transAxes, fontsize=12, color='#7F8C8D', fontweight='bold')
+                ax.set_title(f'{approach}', fontweight='bold', fontsize=12, color='#2C3E50', pad=10)
         
         # Hide empty subplots
         for i in range(n_approaches, n_rows * n_cols):
@@ -830,7 +1121,7 @@ class MultiSystemComparisonRunner:
         
         plt.tight_layout()
         pie_charts_file = self.output_dir / "08_individual_pie_charts.png"
-        plt.savefig(pie_charts_file, dpi=300, bbox_inches='tight')
+        plt.savefig(pie_charts_file, dpi=400, bbox_inches='tight', facecolor='white', edgecolor='none')
         plt.close()
         print(f"📊 Individual pie charts: {pie_charts_file}")
     
