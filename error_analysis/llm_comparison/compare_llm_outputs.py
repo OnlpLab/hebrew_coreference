@@ -46,7 +46,7 @@ class MultiSystemComparisonRunner:
         self.all_approaches = {
             # LLM approaches
             "raw": {"type": "llm", "path": "error_analysis_data/llm/raw", "description": "LLM Raw Tokenization"},
-            "gold_tokenized": {"type": "llm", "path": "error_analysis_data/llm/gold_tokenized", "description": "LLM Gold Tokenization"},
+            "gold_tokenized": {"type": "llm", "path": "error_analysis_data/llm/tokenized", "description": "LLM Gold Tokenization"},
             "sota_tokenized": {"type": "llm", "path": "error_analysis_data/llm/sota_tokenized", "description": "LLM SOTA Tokenization"},
             
             # Neural approaches
