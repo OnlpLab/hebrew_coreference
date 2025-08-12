@@ -1,143 +1,230 @@
-# LLM Output Comparison Script
+# Hebrew Coreference Resolution System
 
-This script compares the results from three different LLM tokenization approaches against their corresponding gold CONLLU files.
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## 🎯 Purpose
+A comprehensive toolkit for Hebrew coreference resolution that integrates multiple components into a unified pipeline. This system provides mention detection, web-based annotation, neural coreference models, and LLM evaluation capabilities.
 
-Compare the performance of LLM coreference resolution across different tokenization strategies:
-1. **Raw tokenization** (`llm_raw_*.jsonl`)
-2. **Gold tokenization** (`llm_gold_tok_*.jsonl`) 
-3. **SOTA tokenization** (`llm_sota_tok_*.jsonl`)
+## 🚀 Features
 
-## 📁 Directory Structure
+### Core Components
+- **Mention Detection**: Advanced NP chunking with multiple parser backends (Stanza, Trankit, Gold)
+- **Web Annotation**: Interactive web interface for coreference and NP-relation annotation
+- **Neural Models**: State-of-the-art neural coreference resolution (LingMess-Coref, WL-Coref)
+- **LLM Evaluation**: Comprehensive evaluation of Large Language Models for coreference tasks
+
+### Key Capabilities
+- ✅ **Multi-Parser Support**: Stanza, Trankit, and Gold standard parsing
+- ✅ **Interactive Annotation**: Web-based interface for manual annotation
+- ✅ **Neural Training**: End-to-end neural model training and evaluation
+- ✅ **LLM Integration**: Zero-shot and few-shot evaluation of LLMs
+- ✅ **Comprehensive Evaluation**: MUC, B³, CEAF metrics
+- ✅ **Production Ready**: Clean CLI interface and modular architecture
+- ✅ **Extensible**: Easy to add new models and components
+
+## 📋 Table of Contents
+
+- [Installation](#installation)
+- [Quick Start](#quick-start)
+- [System Architecture](#system-architecture)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Examples](#examples)
+- [Contributing](#contributing)
+- [License](#license)
+
+## 🛠️ Installation
+
+### Prerequisites
+- Python 3.8+
+- Git
+
+### Setup
+```bash
+# Clone the repository
+git clone https://github.com/shaked571/hebrew_coreference.git
+cd hebrew_coreference
+
+# Clone the data submodule
+git submodule update --init --recursive
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+## 🚀 Quick Start
+
+### 1. Mention Detection
+```bash
+# Run NP chunking with Stanza parser
+python src/mention_detection/stanza_parser/stanza_chunker.py
+
+# Run NP chunking with Trankit parser
+python src/mention_detection/trankit_parser/trankit2spacy.py
+```
+
+### 2. Neural Coreference
+```bash
+# Train LingMess-Coref model
+cd src/neural_models/neural_coref/src/lingmess-coref
+python training.py
+
+# Evaluate model
+python eval.py
+```
+
+### 3. LLM Evaluation
+```bash
+# Compare LLM outputs
+cd error_analysis/llm_comparison
+python compare_multi_system_outputs.py --approaches raw gold_tokenized sota_tokenized
+```
+
+### 4. Web Annotation
+```bash
+# Start annotation server
+cd src/annotation/tne_ui
+python annotationServer.py
+```
+
+## 🏗️ System Architecture
 
 ```
-llm_comparison/
-├── compare_llm_outputs.py    # Main comparison script
-├── requirements.txt          # Python dependencies
-├── README.md                # This file
-└── llm_comparison_results/  # Output directory (created automatically)
+hebrew_coreference/
+├── src/
+│   ├── mention_detection/          # NP chunking and parsing
+│   ├── neural_models/             # Neural coreference models
+│   ├── llm_evaluation/            # LLM evaluation framework
+│   └── annotation/                # Web-based annotation tools
+├── error_analysis/                # Error analysis and comparison tools
+├── statistics/                    # Statistical analysis tools
+├── tests/                         # Test suite
+├── data/                          # Data submodule (separate repo)
+└── scripts/                       # Utility scripts
 ```
 
-## 🚀 Usage
+## 📖 Usage
 
-### 1. Comprehensive Analysis (All Documents, All Approaches)
+### Mention Detection
+The system supports multiple parsing backends for robust mention detection:
+
+- **Stanza**: Stanford's NLP toolkit with Hebrew support
+- **Trankit**: Unified multilingual NLP toolkit
+- **Gold**: Manual annotation for high-quality reference
+
+### Neural Models
+Two state-of-the-art neural architectures:
+
+- **LingMess-Coref**: End-to-end neural coreference resolution
+- **WL-Coref**: Span-based coreference with BERT encoding
+
+### LLM Evaluation
+Comprehensive evaluation framework for Large Language Models:
+
+- **Raw Tokenization**: Direct LLM output evaluation
+- **Gold Tokenization**: Aligned with reference tokenization
+- **SOTA Tokenization**: State-of-the-art tokenization alignment
+
+### Web Annotation
+Interactive annotation interface for:
+
+- Coreference annotation
+- NP-relation annotation
+- Mention boundary correction
+- Quality control and validation
+
+## ⚙️ Configuration
+
+### Environment Variables
+```bash
+export PYTHONPATH="${PYTHONPATH}:$(pwd)/src"
+export CUDA_VISIBLE_DEVICES=0  # For GPU training
+```
+
+### Model Configuration
+Models can be configured through YAML files in their respective directories:
+- `src/neural_models/neural_coref/src/lingmess-coref/config.yaml`
+- `src/neural_models/neural_coref/src/wl-coref/config.toml`
+
+## 📚 Examples
+
+### Basic NP Chunking
+```python
+from src.mention_detection.np_chunker.chunker import NPChunker
+
+chunker = NPChunker()
+chunks = chunker.chunk_text("הטקסט בעברית עם שמות עצם")
+print(chunks)
+```
+
+### Coreference Evaluation
+```python
+from src.neural_models.neural_coref.src.lingmess_coref.metrics import CorefEvaluator
+
+evaluator = CorefEvaluator()
+scores = evaluator.evaluate(predictions, gold)
+print(f"MUC: {scores['muc']}, B³: {scores['b3']}, CEAF: {scores['ceaf']}")
+```
+
+### LLM Comparison
+```python
+from error_analysis.llm_comparison.compare_multi_system_outputs import MultiSystemComparisonRunner
+
+runner = MultiSystemComparisonRunner()
+results = runner.run_comprehensive_analysis()
+```
+
+## 🧪 Testing
+
+Run the comprehensive test suite:
 
 ```bash
-cd llm_comparison
-python compare_llm_outputs.py
+# Run all tests
+python -m pytest tests/
+
+# Run specific test categories
+python -m pytest tests/test_mention_detection.py
+python -m pytest tests/test_neural_models.py
+python -m pytest tests/test_llm_evaluation.py
 ```
 
-This will:
-- Compare all three LLM approaches against all available gold documents
-- Generate comprehensive reports
-- Save results in multiple formats (JSON, CSV, TXT)
+## 📊 Error Analysis
 
-### 2. Single Document Analysis (All Approaches)
+The system includes comprehensive error analysis tools:
 
-```bash
-python compare_llm_outputs.py --doc htb:240
-```
+- **Cluster-level Analysis**: Detailed breakdown of correct/missed/extra clusters
+- **Multi-system Comparison**: Compare different approaches side-by-side
+- **Visualization**: Generate charts and graphs for analysis
+- **Statistical Testing**: Significance testing for performance differences
 
-Compare all three LLM approaches against a specific document.
+## 🤝 Contributing
 
-### 3. Single Approach vs Single Document
+We welcome contributions! Please see our contributing guidelines:
 
-```bash
-python compare_llm_outputs.py --doc htb:240 --approach raw
-```
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Add tests for new functionality
+5. Submit a pull request
 
-Compare a specific LLM approach against a specific document.
+## 📄 License
 
-### 4. With Detailed Analysis Options
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-```bash
-python compare_llm_outputs.py --doc htb:240 --full-doc --show-diff --correct-mistaken
-```
+## 🙏 Acknowledgments
 
-- `--full-doc`: Show full document with colored clusters
-- `--show-diff`: Show key differences between predictions and gold
-- `--correct-mistaken`: Show correct/mistaken cluster analysis
+- Hebrew NLP community for language resources
+- Stanford NLP Group for Stanza
+- Microsoft Research for Trankit
+- Contributors to LingMess-Coref and WL-Coref
 
-## 📊 Output Files
+## 📞 Support
 
-The script generates several output files in the `llm_comparison_results/` directory:
+For questions and support:
+- Open an issue on GitHub
+- Check the documentation in each component directory
+- Review the error analysis outputs for troubleshooting
 
-1. **`llm_comparison_results.json`** - Detailed results in JSON format
-2. **`llm_comparison_report.txt`** - Human-readable summary report
-3. **`llm_comparison_summary.csv`** - CSV table for easy analysis
+---
 
-## 🔧 Configuration
-
-### Base Path
-By default, the script assumes it's run from the `llm_comparison/` directory with the project root at `../`. You can customize this:
-
-```bash
-python compare_llm_outputs.py --base-path /path/to/project
-```
-
-### Output Directory
-Customize the output directory:
-
-```bash
-python compare_llm_outputs.py --output-dir custom_results
-```
-
-## 📋 Example Output
-
-```
-🚀 Starting LLM Output Comparison Analysis
-================================================================================
-🔍 Running LLM comparisons for 10 documents...
-📁 Available documents: htb:232, htb:233, htb:234, htb:235, htb:236, htb:237, htb:238, htb:239_1, htb:239_2, htb:240
-🔄 LLM approaches: raw, gold_tokenized, sota_tokenized
-================================================================================
-
-📄 Processing document: htb:240
-  🔄 Testing raw...
-    ✅ raw: P=0.571, R=0.308, F1=0.400
-  🔄 Testing gold_tokenized...
-    ✅ gold_tokenized: P=0.750, R=0.692, F1=0.720
-  🔄 Testing sota_tokenized...
-    ✅ sota_tokenized: P=0.667, R=0.538, F1=0.596
-```
-
-## 🎨 Features
-
-- **Automatic Document Discovery**: Finds all available gold CONLLU files
-- **Flexible Comparison Modes**: Single document, single approach, or comprehensive
-- **Multiple Output Formats**: JSON, CSV, and human-readable reports
-- **Error Handling**: Gracefully handles missing files and comparison errors
-- **Progress Tracking**: Shows real-time progress during analysis
-- **Detailed Metrics**: Extracts precision, recall, and F1 scores
-
-## 🔍 Troubleshooting
-
-### Common Issues
-
-1. **Import Error**: Make sure you're running from the `llm_comparison/` directory
-2. **File Not Found**: Check that the LLM files exist in the expected locations
-3. **Permission Error**: Ensure you have read access to the data directories
-
-### File Naming Convention
-
-The script expects LLM files to follow this naming pattern:
-- Raw: `llm_raw_240.jsonl`
-- Gold tokenized: `llm_gold_tok_240.jsonl`
-- SOTA tokenized: `llm_sota_tok_240.jsonl`
-
-Where `240` corresponds to the document key `htb:240`.
-
-## 📈 Analysis Tips
-
-1. **Start with a single document** to verify everything works
-2. **Use the CSV output** for statistical analysis in Excel/R
-3. **Compare approaches side-by-side** for the same document
-4. **Look for patterns** across different document types
-
-## 🤝 Dependencies
-
-- Python 3.7+
-- pandas
-- pathlib (built-in for Python 3.4+)
-- The `compare_neural.py` script from the parent directory
+**Note**: This system is designed specifically for Hebrew text and includes Hebrew-specific optimizations and linguistic features.
