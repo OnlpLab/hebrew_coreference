@@ -103,7 +103,7 @@ hebrew_coreference/
 └── scripts/                       # Utility scripts
 ```
 
-## 📖 Usage
+## 📖 Usage 
 
 ### Mention Detection
 The system supports multiple parsing backends for robust mention detection:
