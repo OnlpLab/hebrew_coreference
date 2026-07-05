@@ -225,6 +225,32 @@ For questions and support:
 - Check the documentation in each component directory
 - Review the error analysis outputs for troubleshooting
 
+
+## 📝 Citation
+
+If you use this repository, please cite the following paper:
+
+```bibtex
+@inproceedings{greenfeld-tsarfaty-2026-beyond,
+    title = "Beyond Word Boundaries: A {H}ebrew Coreference Benchmark and an Evaluation Protocol for Morphologically Complex Text",
+    author = "Greenfeld, Refael Shaked  and
+      Tsarfaty, Reut",
+    editor = "Liakata, Maria  and
+      Moreira, Viviane P.  and
+      Zhang, Jiajun  and
+      Jurgens, David",
+    booktitle = "Proceedings of the 64th Annual Meeting of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.acl-long.488/",
+    doi = "10.18653/v1/2026.acl-long.488",
+    pages = "10669--10683",
+    ISBN = "979-8-89176-390-6",
+    abstract = "Coreference Resolution (CR) is a fundamental NLP task critical for long-form tasks as information extraction, summarization, and many business applications. However, CR methods originally designed for English struggle with Morphologically Rich Languages (MRLs), where mention boundaries do not necessarily align with word boundaries, and a single token may consist of multiple anaphors. CR modeling and evaluation protocols standardly assume that, as in English, words and mentions mostly align. However, this assumption breaks down in MRLs, particularly in the context of LLMs' raw-text processing and end-to-end tasks. To assess and address this challenge, we introduce KibutzR, the first comprehensive CR dataset for Modern Hebrew, an MRL rich with complex words and pronominal clitics. We deliver an annotated dataset that identifies mentions at word, sub-word and multi-word levels, and propose an evaluation protocol that directly addresses word/morpheme boundary discrepancies. Our experiments show that contemporary LLMs perform significantly worse on Hebrew than on English, and that performance degrades on raw unsegmented text. Crucially, we show an inverse performance-trend in Hebrew relative to English, where smaller encoders perform far better than contemporary decoder models, leaving ample space for investigation and improvement. We deliver a new benchmark for Hebrew coreference resolution and a segmentation-aware evaluation protocol to inform future work on other MRLs."
+}
+```
 ---
 
 **Note**: This system is designed specifically for Hebrew text and includes Hebrew-specific optimizations and linguistic features.
